@@ -1,30 +1,77 @@
 {
-  "schema": "ott-calendar/v1",
-  "generated_at": "2026-06-07T10:35:00+05:30",
-  "window": {
-    "start": "2026-06-07",
-    "end": "2026-07-05"
+  "_provenance": {
+    "attribution": "JustWatch via TMDB",
+    "country_link": "https://www.justwatch.com/in",
+    "source": "tmdb_watch_providers_delta"
   },
   "entries": [
     {
+      "_status": "verified",
+      "country": "IN",
+      "country_link": "https://www.justwatch.com/in",
+      "industry": "tollywood",
+      "language": "te",
+      "platform": "Netflix",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-07T17:40:24Z",
+        "source": "tmdb_watch_providers",
+        "value": "2026-06-14"
+      },
+      "slug": "kalki-2898-ad-2024",
       "title": "Kalki 2898 AD",
       "tmdb_id": 801688,
-      "industry": "tollywood",
-      "platform": "Netflix",
-      "release_date": "2026-06-14",
+      "tmdb_watch_link": "https://www.themoviedb.org/movie/801688-kalki-2898-ad/watch?locale=IN",
       "type": "film",
-      "language": "te",
-      "status": "verified"
+      "watch_provider_attribution": "JustWatch via TMDB"
     },
     {
+      "_status": "verified",
+      "country": "IN",
+      "country_link": "https://www.justwatch.com/in",
+      "industry": "mollywood",
+      "language": "ml",
+      "platform": "JioHotstar",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-07T17:40:24Z",
+        "source": "tmdb_watch_providers",
+        "value": "2026-06-21"
+      },
+      "slug": "manjummel-boys-2024",
       "title": "Manjummel Boys",
       "tmdb_id": 1069945,
-      "industry": "mollywood",
-      "platform": "JioHotstar",
-      "release_date": "2026-06-21",
+      "tmdb_watch_link": "https://www.themoviedb.org/movie/1069945-manjummel-boys/watch?locale=IN",
       "type": "film",
-      "language": "ml",
-      "status": "verified"
+      "watch_provider_attribution": "JustWatch via TMDB"
+    },
+    {
+      "_status": "verified",
+      "country": "IN",
+      "country_link": "https://www.justwatch.com/in",
+      "industry": "streaming",
+      "language": "hi",
+      "platform": "Prime Video",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-07T17:40:24Z",
+        "source": "tmdb_watch_providers",
+        "value": "2026-07-04"
+      },
+      "slug": "the-long-friday-2026",
+      "title": "The Long Friday",
+      "tmdb_id": 999001,
+      "tmdb_watch_link": "https://www.themoviedb.org/movie/999001-the-long-friday/watch?locale=IN",
+      "type": "film",
+      "watch_provider_attribution": "JustWatch via TMDB"
     }
-  ]
+  ],
+  "generated_at": "2026-06-07T17:40:24Z",
+  "schema": "ott-calendar/v1",
+  "window": {
+    "end": "2026-07-04",
+    "region": "IN",
+    "start": "2026-06-07",
+    "weeks": 4
+  }
 }

@@ -1,171 +1,270 @@
 {
-  "tmdb_id": {
-    "value": 801688,
-    "source": "tmdb-fixture",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "confidence": "verified"
-  },
-  "wikidata_qid": {
-    "value": "Q11690830",
-    "source": "wikidata-fixture",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "confidence": "verified"
-  },
-  "slug": "kalki-2898-ad-2024",
-  "canonical_industry": "tollywood",
-  "title": {
-    "value": "Kalki 2898 AD",
-    "source": "tmdb-fixture",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "confidence": "verified"
-  },
-  "original_language": {
-    "value": "te",
-    "source": "tmdb-fixture",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "confidence": "verified"
-  },
-  "release_date": {
-    "value": "2024-06-27",
-    "source": "tmdb-fixture",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "confidence": "verified"
-  },
-  "status": "released",
-  "date_modified": "2026-06-07T10:30:00+05:30",
-  "logline": "Scale, myth, and star pull made the trade story loud enough to survive ordinary mixed-note criticism.",
-  "poster": {
-    "src": "/img/films/kalki-2898-ad-2024/poster.svg",
-    "alt": "Kalki 2898 AD BollyAI fixture poster plate",
-    "attribution": "Fixture poster plate; official press image pending harvester ingestion."
+  "_quarantine": [],
+  "bollymeter": {
+    "basis": "Scale, world-building, and sustained audience pull.",
+    "score": 8.1
   },
   "box_office": {
     "day_rows": [
       {
         "date": "2024-06-27",
         "day": 1,
+        "label": "trade estimate",
         "net_inr_cr": {
-          "value": {
-            "low": 91.0,
-            "high": 96.0
-          },
-          "source": "sacnilk+tracktollywood-fixture",
+          "confidence": "trade_estimate",
           "fetched_at": "2026-06-07T10:00:00+05:30",
-          "confidence": "trade_estimate"
+          "source": "sacnilk+tracktollywood-fixture",
+          "value": {
+            "high": 96.0,
+            "low": 91.0
+          }
         },
         "sources": [
           {
+            "as_of": "2024-06-28",
             "name": "Sacnilk fixture",
-            "url": "https://www.sacnilk.com/",
-            "as_of": "2024-06-28"
+            "url": "https://www.sacnilk.com/"
           },
           {
+            "as_of": "2024-06-28",
             "name": "TrackTollywood fixture",
-            "url": "https://tracktollywood.com/",
-            "as_of": "2024-06-28"
+            "url": "https://tracktollywood.com/"
           }
-        ],
-        "label": "trade estimate"
+        ]
       },
       {
         "date": "2024-06-28",
         "day": 2,
+        "label": "trade estimate",
         "net_inr_cr": {
-          "value": {
-            "low": 57.0,
-            "high": 61.0
-          },
-          "source": "sacnilk+tracktollywood-fixture",
+          "confidence": "trade_estimate",
           "fetched_at": "2026-06-07T10:00:00+05:30",
-          "confidence": "trade_estimate"
+          "source": "sacnilk+tracktollywood-fixture",
+          "value": {
+            "high": 61.0,
+            "low": 57.0
+          }
         },
         "sources": [
           {
+            "as_of": "2024-06-29",
             "name": "Sacnilk fixture",
-            "url": "https://www.sacnilk.com/",
-            "as_of": "2024-06-29"
+            "url": "https://www.sacnilk.com/"
           },
           {
+            "as_of": "2024-06-29",
             "name": "TrackTollywood fixture",
-            "url": "https://tracktollywood.com/",
-            "as_of": "2024-06-29"
+            "url": "https://tracktollywood.com/"
           }
-        ],
-        "label": "trade estimate"
+        ]
       },
       {
         "date": "2024-06-29",
         "day": 3,
+        "label": "trade estimate",
         "net_inr_cr": {
-          "value": {
-            "low": 64.0,
-            "high": 68.0
-          },
-          "source": "sacnilk+tracktollywood-fixture",
+          "confidence": "trade_estimate",
           "fetched_at": "2026-06-07T10:00:00+05:30",
-          "confidence": "trade_estimate"
+          "source": "sacnilk+tracktollywood-fixture",
+          "value": {
+            "high": 68.0,
+            "low": 64.0
+          }
         },
         "sources": [
           {
+            "as_of": "2024-06-30",
             "name": "Sacnilk fixture",
-            "url": "https://www.sacnilk.com/",
-            "as_of": "2024-06-30"
+            "url": "https://www.sacnilk.com/"
           },
           {
+            "as_of": "2024-06-30",
             "name": "TrackTollywood fixture",
-            "url": "https://tracktollywood.com/",
-            "as_of": "2024-06-30"
+            "url": "https://tracktollywood.com/"
           }
+        ]
+      },
+      {
+        "agreement_pct": 4.88,
+        "as_of": "2026-06-07T17:40:24Z",
+        "basis_sources": [
+          "Sacnilk",
+          "TrackTollywood"
         ],
-        "label": "trade estimate"
+        "date": "2026-06-06",
+        "day": 1,
+        "framing": "trade_estimate",
+        "label": "Trade estimate",
+        "net_inr_cr": {
+          "confidence": "trade_estimate",
+          "fetched_at": "2026-06-07T17:40:24Z",
+          "source": "Sacnilk+TrackTollywood",
+          "value": {
+            "high": 6.3,
+            "low": 6.0
+          }
+        },
+        "published": true,
+        "reason": null,
+        "sources": [
+          {
+            "as_of": "2026-06-07",
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/box-office-collections"
+          },
+          {
+            "as_of": "2026-06-07",
+            "name": "TrackTollywood",
+            "url": "https://tracktollywood.com/"
+          }
+        ]
+      },
+      {
+        "agreement_pct": 18.18,
+        "as_of": "2026-06-07T17:40:24Z",
+        "basis_sources": [
+          "Sacnilk",
+          "TrackTollywood"
+        ],
+        "date": "2026-06-07",
+        "day": 2,
+        "framing": "lower_conservative",
+        "label": "Early trade estimates, sources vary",
+        "net_inr_cr": {
+          "confidence": "trade_estimate",
+          "fetched_at": "2026-06-07T17:40:24Z",
+          "source": "Sacnilk+TrackTollywood",
+          "value": {
+            "high": 5.0,
+            "low": 5.0
+          }
+        },
+        "published": true,
+        "reason": null,
+        "sources": [
+          {
+            "as_of": "2026-06-07",
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/box-office-collections"
+          },
+          {
+            "as_of": "2026-06-07",
+            "name": "TrackTollywood",
+            "url": "https://tracktollywood.com/"
+          }
+        ]
+      },
+      {
+        "agreement_pct": null,
+        "as_of": "2026-06-07T17:40:24Z",
+        "basis_sources": [],
+        "date": "2026-06-08",
+        "day": 3,
+        "framing": "awaited",
+        "label": "early estimates awaited",
+        "net_inr_cr": {
+          "confidence": "unverified",
+          "fetched_at": "2026-06-07T17:40:24Z",
+          "source": "Bollywood Hungama+Taran Adarsh",
+          "value": null
+        },
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "sources": [
+          {
+            "as_of": "2026-06-07",
+            "name": "Bollywood Hungama",
+            "url": "https://www.bollywoodhungama.com/"
+          },
+          {
+            "as_of": "2026-06-07",
+            "name": "Taran Adarsh",
+            "url": "https://x.com/taran_adarsh"
+          }
+        ]
       }
     ],
     "totals": {
+      "as_of": "2026-06-07",
       "india_net_inr_cr": {
-        "value": {
-          "low": 641.0,
-          "high": 654.0
-        },
-        "source": "sacnilk+tracktollywood-fixture",
+        "confidence": "trade_estimate",
         "fetched_at": "2026-06-07T10:00:00+05:30",
-        "confidence": "trade_estimate"
+        "source": "sacnilk+tracktollywood-fixture",
+        "value": {
+          "high": 654.0,
+          "low": 641.0
+        }
       },
       "worldwide_gross_inr_cr": {
-        "value": {
-          "low": 1030.0,
-          "high": 1045.0
-        },
-        "source": "sacnilk+tracktollywood-fixture",
+        "confidence": "trade_estimate",
         "fetched_at": "2026-06-07T10:00:00+05:30",
-        "confidence": "trade_estimate"
-      },
-      "as_of": "2026-06-07"
+        "source": "sacnilk+tracktollywood-fixture",
+        "value": {
+          "high": 1045.0,
+          "low": 1030.0
+        }
+      }
     }
+  },
+  "budget": null,
+  "canonical_industry": "tollywood",
+  "date_modified": "2026-06-07T10:30:00+05:30",
+  "logline": "Scale, myth, and star pull made the trade story loud enough to survive ordinary mixed-note criticism.",
+  "original_language": {
+    "confidence": "verified",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "source": "tmdb-fixture",
+    "value": "te"
+  },
+  "ott": {
+    "country_link": "https://www.themoviedb.org/movie/801688/watch?locale=IN",
+    "date": {
+      "confidence": "verified",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
+      "source": "tmdb-watch-providers-fixture",
+      "value": "2024-08-22"
+    },
+    "link_via": "tmdb-watch-providers",
+    "platform": {
+      "confidence": "verified",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
+      "source": "tmdb-watch-providers-fixture",
+      "value": "Netflix"
+    }
+  },
+  "poster": {
+    "alt": "Kalki 2898 AD BollyAI fixture poster plate",
+    "attribution": "Fixture poster plate; official press image pending harvester ingestion.",
+    "src": "/img/films/kalki-2898-ad-2024/poster.svg"
+  },
+  "release_date": {
+    "confidence": "verified",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "source": "tmdb-fixture",
+    "value": "2024-06-27"
+  },
+  "slug": "kalki-2898-ad-2024",
+  "status": "released",
+  "title": {
+    "confidence": "verified",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "source": "tmdb-fixture",
+    "value": "Kalki 2898 AD"
+  },
+  "tmdb_id": {
+    "confidence": "verified",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "source": "tmdb-fixture",
+    "value": 801688
   },
   "verdict": {
     "ladder_rung": "ALL-TIME BLOCKBUSTER",
     "tracking": false
   },
-  "bollymeter": {
-    "score": 8.1,
-    "basis": "Scale, world-building, and sustained audience pull."
-  },
-  "ott": {
-    "platform": {
-      "value": "Netflix",
-      "source": "tmdb-watch-providers-fixture",
-      "fetched_at": "2026-06-07T10:00:00+05:30",
-      "confidence": "verified"
-    },
-    "date": {
-      "value": "2024-08-22",
-      "source": "tmdb-watch-providers-fixture",
-      "fetched_at": "2026-06-07T10:00:00+05:30",
-      "confidence": "verified"
-    },
-    "link_via": "tmdb-watch-providers",
-    "country_link": "https://www.themoviedb.org/movie/801688/watch?locale=IN"
-  },
-  "budget": null,
-  "_quarantine": []
+  "wikidata_qid": {
+    "confidence": "verified",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "source": "wikidata-fixture",
+    "value": "Q11690830"
+  }
 }
