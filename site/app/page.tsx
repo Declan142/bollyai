@@ -40,7 +40,12 @@ export default function HomePage() {
               <span className="eyebrow">Today&apos;s big verdict</span>
               <h2>{lead.title.value}</h2>
               <span className="answer-block">
-                {lead.verdict.ladder_rung} with {formatCrore(lead.box_office.totals.india_net_inr_cr.value)} India nett tracked.
+                {lead.verdict.ladder_rung ?? (lead.verdict.tracking ? "Tracking" : "Verdict open")} with{" "}
+                {lead.box_office.totals.india_net_inr_cr?.value
+                  ? `${formatCrore(lead.box_office.totals.india_net_inr_cr.value)} India nett tracked.`
+                  : lead.box_office.totals.worldwide_gross_inr_cr?.value
+                    ? `${formatCrore(lead.box_office.totals.worldwide_gross_inr_cr.value)} worldwide gross tracked.`
+                    : "trade figures under verification."}
               </span>
             </span>
           </a>

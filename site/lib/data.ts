@@ -106,7 +106,16 @@ export function getAllFilms(): Film[] {
       const full = path.join(filmsDir, file);
       return JSON.parse(fs.readFileSync(full, "utf8")) as Film;
     })
-    .sort((a, b) => b.date_modified.localeCompare(a.date_modified));
+    .sort((a, b) => filmRank(b) - filmRank(a) || b.date_modified.localeCompare(a.date_modified));
+}
+
+// Live runs outrank ended ones; within a tier, the bigger verified worldwide number leads.
+// Films without a published pair sink to the back of the rail.
+function filmRank(film: Film): number {
+  const live = film.status === "live" ? 1_000_000 : 0;
+  const ww = film.box_office.totals.worldwide_gross_inr_cr?.value?.high ?? 0;
+  const net = film.box_office.totals.india_net_inr_cr?.value?.high ?? 0;
+  return live + Math.max(ww, net);
 }
 
 export function getFilmsByDesk(desk: string): Film[] {
