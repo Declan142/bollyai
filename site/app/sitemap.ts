@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { DESKS } from "../lib/desks";
 import { getAllFilms, getOttCalendar, getOttPlatforms, platformSlug } from "../lib/data";
+import { getAllSeries } from "../lib/series";
+import { getAllWatchLists } from "../lib/recommendations";
 
 const siteUrl = "https://bollyai.in";
 const staticPaths = [
@@ -10,7 +12,9 @@ const staticPaths = [
   "/disclaimer/",
   "/contact/",
   "/takedown/",
-  "/how-bollyai-works/"
+  "/how-bollyai-works/",
+  "/series/",
+  "/watch/"
 ];
 
 function asDate(value: string | undefined, fallback: Date): Date {
@@ -64,6 +68,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/ott/${platformSlug(platform)}/`,
       lastModified: asDate(lastModified, buildTime)
     });
+  }
+
+  for (const series of getAllSeries()) {
+    const lastModified = asDate(series.date_modified, buildTime);
+    entries.push({ url: `${siteUrl}/series/${series.slug}/`, lastModified });
+    for (const season of series.seasons) {
+      entries.push({ url: `${siteUrl}/series/${series.slug}/s${season.number}/`, lastModified });
+    }
+  }
+
+  for (const list of getAllWatchLists()) {
+    entries.push({ url: `${siteUrl}/watch/${list.slug}/`, lastModified: asDate(list.updated, buildTime) });
   }
 
   return entries;
