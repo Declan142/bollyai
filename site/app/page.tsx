@@ -3,7 +3,9 @@ import { FilmCard } from "../components/FilmCard";
 import { JsonLd } from "../components/JsonLd";
 import { VerdictMeter } from "../components/VerdictMeter";
 import { DESKS } from "../lib/desks";
+import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
+import { getAllSeries, latestSeason } from "../lib/series";
 import { webSiteJsonLd } from "../lib/jsonld";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
@@ -38,6 +40,12 @@ export default function HomePage() {
   const ott = getOttCalendar()
     .entries.filter((entry) => entry.release_date >= "2026-06-01")
     .slice(0, 8);
+
+  // Series rail: prefer scored seasons (MUST-WATCH/WORTH-IT lead), cap at 12.
+  const seriesRail = getAllSeries()
+    .map((s) => ({ s, season: latestSeason(s) }))
+    .sort((a, b) => (b.season?.bollymeter?.score ?? 0) - (a.season?.bollymeter?.score ?? 0))
+    .slice(0, 12);
 
   const leadFig = lead ? bestFigure(lead) : null;
 
@@ -164,6 +172,29 @@ export default function HomePage() {
             Full OTT calendar →
           </a>
         </aside>
+      </section>
+
+      <section className="poster-wall-block">
+        <header className="home-section-head">
+          <h2>Binge Verdicts</h2>
+          <p>India, Korea, and global OTT, season by season. BollyAI reads the room so you don&apos;t gamble a weekend.</p>
+        </header>
+        <div className="poster-wall full-bleed">
+          {seriesRail.map(({ s, season }) => (
+            <a className="poster-card" data-desk="streaming" href={`/series/${s.slug}/`} key={s.slug}>
+              <img src={s.poster.src} alt={s.poster.alt} width="342" height="513" loading="lazy" />
+              <span className="poster-card__plate">
+                <span className="poster-card__origin-tag">{s.origin}</span>
+                <strong>{s.title.value}</strong>
+                <span className="poster-card__money">{s.platform.value}</span>
+                {season && <SeasonVerdict rung={season.verdict} compact />}
+              </span>
+            </a>
+          ))}
+        </div>
+        <a className="ott-rail__more" href="/series/">
+          All series &amp; OTT verdicts →
+        </a>
       </section>
 
       <section className="desk-strip" aria-label="BollyAI desks">
