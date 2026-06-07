@@ -1,7 +1,6 @@
 node_modules/
 site/out/
 site/.next/
-site/public/
 data/cache/*
 !data/cache/fixtures/
 !data/cache/fixtures/*.json
