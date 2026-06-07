@@ -1,0 +1,101 @@
+name: bollyai-crons
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Skip commit, deploy, and IndexNow"
+        required: false
+        default: "false"
+  schedule:
+    - cron: "30 4 * * *"
+    - cron: "0 4,7,11 * * 5"
+    - cron: "0 3 * * 1,4"
+
+concurrency:
+  group: bollyai-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TZ: Asia/Kolkata
+  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+  INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Healthcheck start
+        env:
+          HC_DAILY_UUID: ${{ secrets.HC_DAILY_UUID }}
+        run: scripts/lib/hc_ping.sh start "$HC_DAILY_UUID"
+
+      - name: Pull data
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python3 engine/fetchers/run_all.py --live-only --write data/
+
+      - name: Detect staleness
+        run: python3 engine/fetchers/staleness_check.py --sla-hours 26 --emit data/_state/staleness.json
+
+      - name: Build static site
+        run: |
+          cd site
+          npm ci
+          npm run build
+          test -s out/index.html
+
+      - name: Commit refreshed data
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "bollyai-bot"
+          git config user.email "bot@bollyai.in"
+          git pull --rebase --autostash origin main
+          git add data/
+          git diff --cached --quiet || git commit -m "data: refresh bollyai fixtures"
+          git push origin main
+
+      - name: Deploy Cloudflare Pages
+        if: ${{ github.event.inputs.dry_run != 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site/out --project-name=bollyai-in --branch=main --commit-dirty=true
+
+      - name: IndexNow delta
+        if: ${{ github.event.inputs.dry_run != 'true' && env.INDEXNOW_KEY != '' }}
+        run: python3 scripts/lib/indexnow_ping.py --delta data/_state/changed-urls.json
+
+      - name: Healthcheck success
+        if: success()
+        env:
+          HC_DAILY_UUID: ${{ secrets.HC_DAILY_UUID }}
+        run: scripts/lib/hc_ping.sh success "$HC_DAILY_UUID"
+
+      - name: Telegram failure alert
+        if: failure()
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: scripts/lib/tg_alert.sh "BollyAI cron failed: $GITHUB_RUN_ID"

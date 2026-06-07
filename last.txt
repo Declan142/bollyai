@@ -1,0 +1,35 @@
+Status: COMPLETE
+Did:
+  - Built the Next.js static-export App Router site with seven desk hubs, homepage desk strip, review, tracker, upcoming, OTT calendar, and policy routes.
+  - Added dark cinema theme-marquee CSS, self-hosted font packages, server-rendered VerdictMeter, BollyMeter, DayWiseTable, AnswerBlock, and desk accent tinting via data-desk.
+  - Added two source-wrapped film fixtures across Tollywood and Mollywood, plus OTT calendar and IndexNow delta state fixtures.
+  - Added Python fetchers/orchestrator, fixture cache, staleness check, image harvester stub, generation scripts, claim gates, IndexNow/hc/TG helpers, and manual deploy script.
+  - Added a combined GitHub Actions cron skeleton with the welded daily, Friday, and OTT schedules plus global writer concurrency.
+  - Preserved local-only rule. No git push executed.
+Artefacts:
+  - site/ (Next.js static site, package-lock included)
+  - data/films/801688.json and data/films/1069945.json
+  - data/cache/fixtures/ (fixture mode payloads)
+  - engine/fetchers/ (7 Python files)
+  - engine/gates/ and tests/test_viewing_claim.py
+  - scripts/lib/ and scripts/deploy-manual.sh
+  - .github/workflows/bollyai-crons.yml
+  - public/img/films/ (2 local fixture poster plates)
+  - site/out/ (23 exported HTML pages, generated and ignored)
+  - 2875 total lines across the counted core source/data files
+Verification:
+  - cd /home/aditya/bollyai/site && npm install && npm run build && test -s out/index.html && find out -name '*.html' | wc -l -> PASS, 23
+  - python3 /home/aditya/bollyai/engine/fetchers/run_all.py --fixture-mode -> PASS, exit 0, 2 films fetched, 3 OTT entries
+  - pytest tests/test_viewing_claim.py -> PASS, 29 passed
+  - grep -r "AggregateRating" /home/aditya/bollyai/site/out/ -> PASS, empty output, grep exit 1 because no matches
+  - python3 -m py_compile engine/fetchers/*.py engine/gates/*.py scripts/lib/indexnow_ping.py -> PASS
+  - bash -n engine/generate.sh engine/commit.sh scripts/lib/hc_ping.sh scripts/lib/tg_alert.sh scripts/deploy-manual.sh -> PASS
+  - git diff --check -> PASS
+Open issues:
+  - npm audit reports 2 advisories in Next/PostCSS; npm's fix path requires a breaking Next 16 upgrade, so it was not forced during this Next 14+ static-export scaffold.
+  - data/_state/staleness.json flags both sample films stale because they are historic released fixtures, not current live trackers.
+Next step suggested: Add live film fixtures/current titles and decide whether to upgrade the scaffold to Next 16 in a dedicated compatibility pass.
+Network URLs:
+  - npm registry used by npm install
+  - no external data APIs called
+  - no git push

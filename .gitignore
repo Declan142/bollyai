@@ -1,7 +1,10 @@
 node_modules/
 site/out/
 site/.next/
-data/cache/
+site/public/
+data/cache/*
+!data/cache/fixtures/
+!data/cache/fixtures/*.json
 .env*
 *.log
 __pycache__/

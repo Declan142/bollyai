@@ -1,0 +1,30 @@
+{
+  "films": {
+    "kalki-2898-ad-2024": [
+      {
+        "url": "https://i.ytimg.com/vi/official-kalki-trailer/maxresdefault.jpg",
+        "source_type": "youtube_official_trailer_thumbnail",
+        "source_name": "Official trailer thumbnail",
+        "credit": "Vyjayanthi Movies"
+      },
+      {
+        "url": "https://image.tmdb.org/t/p/w500/not-allowed.jpg",
+        "source_type": "tmdb_cdn",
+        "source_name": "TMDB"
+      }
+    ],
+    "manjummel-boys-2024": [
+      {
+        "url": "https://press.example-studio.com/manjummel-boys/official-still.jpg",
+        "source_type": "studio_press_kit",
+        "source_name": "Studio press kit",
+        "credit": "Parava Films"
+      },
+      {
+        "url": "https://example.com/watermarked-paparazzi-photo.jpg",
+        "source_type": "official_og_image",
+        "source_name": "Unknown"
+      }
+    ]
+  }
+}

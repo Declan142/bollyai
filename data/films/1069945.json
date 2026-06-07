@@ -1,0 +1,171 @@
+{
+  "tmdb_id": {
+    "value": 1069945,
+    "source": "tmdb-fixture",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "wikidata_qid": {
+    "value": "Q124822269",
+    "source": "wikidata-fixture",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "manjummel-boys-2024",
+  "canonical_industry": "mollywood",
+  "title": {
+    "value": "Manjummel Boys",
+    "source": "tmdb-fixture",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ml",
+    "source": "tmdb-fixture",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-02-22",
+    "source": "tmdb-fixture",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "released",
+  "date_modified": "2026-06-07T10:31:00+05:30",
+  "logline": "A survival story turned into a word-of-mouth box-office eruption, with craft and trade finally moving together.",
+  "poster": {
+    "src": "/img/films/manjummel-boys-2024/poster.svg",
+    "alt": "Manjummel Boys BollyAI fixture poster plate",
+    "attribution": "Fixture poster plate; official press image pending harvester ingestion."
+  },
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2024-02-22",
+        "day": 1,
+        "net_inr_cr": {
+          "value": {
+            "low": 3.2,
+            "high": 3.6
+          },
+          "source": "sacnilk+mollywood-trade-fixture",
+          "fetched_at": "2026-06-07T10:00:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk fixture",
+            "url": "https://www.sacnilk.com/",
+            "as_of": "2024-02-23"
+          },
+          {
+            "name": "Mollywood trade fixture",
+            "url": "https://www.sacnilk.com/entertainmenttop.php?tag=Mollywood",
+            "as_of": "2024-02-23"
+          }
+        ],
+        "label": "trade estimate"
+      },
+      {
+        "date": "2024-02-23",
+        "day": 2,
+        "net_inr_cr": {
+          "value": {
+            "low": 3.7,
+            "high": 4.1
+          },
+          "source": "sacnilk+mollywood-trade-fixture",
+          "fetched_at": "2026-06-07T10:00:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk fixture",
+            "url": "https://www.sacnilk.com/",
+            "as_of": "2024-02-24"
+          },
+          {
+            "name": "Mollywood trade fixture",
+            "url": "https://www.sacnilk.com/entertainmenttop.php?tag=Mollywood",
+            "as_of": "2024-02-24"
+          }
+        ],
+        "label": "trade estimate"
+      },
+      {
+        "date": "2024-02-24",
+        "day": 3,
+        "net_inr_cr": {
+          "value": {
+            "low": 4.8,
+            "high": 5.2
+          },
+          "source": "sacnilk+mollywood-trade-fixture",
+          "fetched_at": "2026-06-07T10:00:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk fixture",
+            "url": "https://www.sacnilk.com/",
+            "as_of": "2024-02-25"
+          },
+          {
+            "name": "Mollywood trade fixture",
+            "url": "https://www.sacnilk.com/entertainmenttop.php?tag=Mollywood",
+            "as_of": "2024-02-25"
+          }
+        ],
+        "label": "trade estimate"
+      }
+    ],
+    "totals": {
+      "india_net_inr_cr": {
+        "value": {
+          "low": 139.0,
+          "high": 146.0
+        },
+        "source": "sacnilk+mollywood-trade-fixture",
+        "fetched_at": "2026-06-07T10:00:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": {
+          "low": 236.0,
+          "high": 242.0
+        },
+        "source": "sacnilk+mollywood-trade-fixture",
+        "fetched_at": "2026-06-07T10:00:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "as_of": "2026-06-07"
+    }
+  },
+  "verdict": {
+    "ladder_rung": "BLOCKBUSTER",
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 8.4,
+    "basis": "Survival tension, emotional payoff, and exceptional legs."
+  },
+  "ott": {
+    "platform": {
+      "value": "JioHotstar",
+      "source": "tmdb-watch-providers-fixture",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2024-05-05",
+      "source": "tmdb-watch-providers-fixture",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
+      "confidence": "verified"
+    },
+    "link_via": "tmdb-watch-providers",
+    "country_link": "https://www.themoviedb.org/movie/1069945/watch?locale=IN"
+  },
+  "budget": null,
+  "_quarantine": []
+}

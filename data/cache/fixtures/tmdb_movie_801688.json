@@ -1,0 +1,44 @@
+{
+  "id": 801688,
+  "title": "Kalki 2898 AD",
+  "original_title": "Kalki 2898 AD",
+  "original_language": "te",
+  "release_date": "2024-06-27",
+  "status": "Released",
+  "runtime": 181,
+  "genres": [
+    {"id": 878, "name": "Science Fiction"},
+    {"id": 28, "name": "Action"}
+  ],
+  "keywords": {
+    "keywords": [
+      {"id": 1, "name": "mythology"},
+      {"id": 2, "name": "future"}
+    ]
+  },
+  "external_ids": {
+    "imdb_id": "tt12735488",
+    "wikidata_id": "Q11690830"
+  },
+  "credits": {
+    "crew": [
+      {"id": 1392831, "name": "Nag Ashwin", "job": "Director", "department": "Directing"},
+      {"id": 1392831, "name": "Nag Ashwin", "job": "Writer", "department": "Writing"}
+    ],
+    "cast": [
+      {"id": 35790, "name": "Prabhas", "character": "Bhairava", "order": 0},
+      {"id": 122626, "name": "Deepika Padukone", "character": "Sumathi", "order": 1},
+      {"id": 35779, "name": "Amitabh Bachchan", "character": "Ashwatthama", "order": 2}
+    ]
+  },
+  "release_dates": {
+    "results": [
+      {
+        "iso_3166_1": "IN",
+        "release_dates": [
+          {"release_date": "2024-06-27T00:00:00.000Z", "type": 3}
+        ]
+      }
+    ]
+  }
+}
