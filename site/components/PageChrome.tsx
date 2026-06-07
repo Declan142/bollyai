@@ -13,6 +13,7 @@ export function SiteHeader() {
             {desk.label}
           </a>
         ))}
+        <a href="/series/">Series</a>
         <a href="/ott/calendar/">OTT Calendar</a>
       </nav>
     </header>

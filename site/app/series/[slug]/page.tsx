@@ -1,0 +1,77 @@
+import { notFound } from "next/navigation";
+import { DateModified } from "../../../components/DateModified";
+import { DeskTint } from "../../../components/DeskTint";
+import { JsonLd } from "../../../components/JsonLd";
+import { SeasonVerdict } from "../../../components/SeasonVerdict";
+import { AnswerBlock } from "../../../components/AnswerBlock";
+import { formatDate } from "../../../lib/data";
+import { getAllSeries, getSeries, latestSeason } from "../../../lib/series";
+import { breadcrumbJsonLd, seriesJsonLd } from "../../../lib/jsonld";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getAllSeries().map((s) => ({ slug: s.slug }));
+}
+
+export default function SeriesHub({ params }: { params: { slug: string } }) {
+  const series = getSeries(params.slug);
+  if (!series) notFound();
+  const latest = latestSeason(series);
+
+  return (
+    <DeskTint desk={series.canonical_industry} className="film-page">
+      <JsonLd data={seriesJsonLd(series)} />
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", url: "/" },
+          { name: "Series", url: "/series/" },
+          { name: series.title.value, url: `/series/${series.slug}/` }
+        ])}
+      />
+
+      <section className="film-hero" data-desk={series.canonical_industry}>
+        <div className="poster-frame">
+          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" fetchPriority="high" loading="eager" />
+        </div>
+        <div className="film-hero__copy">
+          <p className="eyebrow">{series.origin} · {series.platform.value}</p>
+          <h1>{series.title.value}</h1>
+          <AnswerBlock>
+            {latest
+              ? `${series.title.value} ${latest.verdict ? `is a ${latest.verdict}` : "is still dropping"} on ${series.platform.value}${latest.bollymeter ? `, BollyMeter ${latest.bollymeter.score.toFixed(1)}/10` : ""}. ${series.logline}`
+              : series.logline}
+          </AnswerBlock>
+          {latest && <SeasonVerdict rung={latest.verdict} />}
+          <p className="renewal-line">
+            <strong>Renewal:</strong> {series.renewal.note}{" "}
+            <a href={series.renewal.source_url}>({series.renewal.source})</a>
+          </p>
+          <DateModified value={series.date_modified} />
+        </div>
+      </section>
+
+      <section className="content-sections">
+        <div className="ad-slot">Reserved ad slot</div>
+        <section className="panel">
+          <h2>Seasons</h2>
+          <ol className="season-list">
+            {[...series.seasons]
+              .sort((a, b) => b.number - a.number)
+              .map((s) => (
+                <li key={s.number} className="season-row">
+                  <a href={`/series/${series.slug}/s${s.number}/`}>
+                    <span className="season-row__n">Season {s.number}</span>
+                    <span className="season-row__meta">
+                      {s.year} · {s.episodes} ep{s.episodes === 1 ? "" : "s"} · {formatDate(s.release_date.value)}
+                    </span>
+                    <span className="season-row__verdict">{s.verdict ?? "still dropping"}</span>
+                  </a>
+                </li>
+              ))}
+          </ol>
+        </section>
+      </section>
+    </DeskTint>
+  );
+}

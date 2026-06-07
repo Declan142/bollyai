@@ -1115,3 +1115,63 @@ p {
     padding-top: 96px;
   }
 }
+
+/* ============ SERIES ============ */
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 22px;
+  margin-top: 8px;
+}
+.series-card {
+  display: grid;
+  text-decoration: none;
+  border: 1px solid oklch(100% 0 0 / .1);
+  border-radius: 4px;
+  overflow: hidden;
+  background: oklch(13% .03 280);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.series-card:hover {
+  transform: translateY(-6px);
+  border-color: color-mix(in oklch, var(--accent) 60%, transparent);
+  box-shadow: 0 20px 44px oklch(0% 0 0 / .55), 0 0 32px color-mix(in oklch, var(--accent) 22%, transparent);
+}
+.series-card img { width: 100%; height: 260px; object-fit: cover; display: block; }
+.series-card__body { display: grid; gap: 6px; padding: 12px 12px 14px; border-top: 2px solid var(--accent); }
+.series-card__origin {
+  font-family: var(--font-mono); font-size: .6rem; letter-spacing: .22em; text-transform: uppercase; color: var(--accent-2);
+}
+.series-card__body strong { font-family: var(--font-display); font-size: 1.02rem; line-height: 1.12; }
+.series-card__plat { font-family: var(--font-mono); font-size: .72rem; color: var(--text-dim); }
+
+.season-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.season-row a {
+  display: grid; grid-template-columns: auto 1fr auto; gap: 16px; align-items: baseline;
+  padding: 14px 4px; text-decoration: none; border-bottom: 1px solid var(--border-hair);
+}
+.season-row a:hover { background: oklch(100% 0 0 / .03); }
+.season-row__n { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; }
+.season-row__meta { font-family: var(--font-mono); font-size: .76rem; color: var(--text-dim); }
+.season-row__verdict {
+  font-family: var(--font-mono); font-size: .72rem; letter-spacing: .08em;
+  color: var(--accent-2); text-transform: uppercase; white-space: nowrap;
+}
+.renewal-line { font-size: .9rem; color: var(--text-dim); margin: 6px 0 0; }
+.renewal-line strong { color: var(--text); }
+
+.critic-consensus { display: grid; gap: 18px; }
+.critic-consensus__meters { display: flex; gap: 28px; flex-wrap: wrap; }
+.critic-stat { display: grid; gap: 2px; }
+.critic-stat strong {
+  font-family: var(--font-mono); font-size: 1.8rem; font-weight: 700; color: var(--accent-2); line-height: 1;
+}
+.critic-stat strong small { font-size: .9rem; color: var(--text-dim); }
+.critic-stat span { font-size: .78rem; color: var(--text-dim); }
+.pull-quotes { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.pull-quotes blockquote {
+  margin: 0; font-family: var(--font-display); font-size: 1.05rem; font-style: italic; line-height: 1.4;
+  border-left: 3px solid var(--accent); padding-left: 14px;
+}
+.pull-quotes cite { display: block; margin-top: 4px; padding-left: 14px; font-size: .76rem; color: var(--text-dim); font-style: normal; }
+.standing-line { font-family: var(--font-mono); font-size: .8rem; color: var(--accent); margin-top: 10px; }
