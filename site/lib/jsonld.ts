@@ -1,6 +1,6 @@
 import type { Film } from "./data";
 import { formatDate } from "./data";
-import type { Series, SeriesSeason } from "./series";
+import type { Series, SeriesSeason, EpisodeReview } from "./series";
 
 const siteUrl = "https://bollyai.in";
 
@@ -127,6 +127,80 @@ export function seasonReviewJsonLd(series: Series, season: SeriesSeason) {
       worstRating: "0"
     },
     reviewBody: `${series.title.value} Season ${season.number} is a BollyAI ${season.bollymeter.score.toFixed(1)}/10${season.verdict ? `, ${season.verdict}` : ""}.`
+  };
+}
+
+// TVEpisode + Review per standout episode. Review block only when a per-episode
+// BollyMeter exists (same rule as season/film — never mark up an unscored hour).
+export function episodeReviewsJsonLd(series: Series, season: SeriesSeason) {
+  const eps = season.episode_reviews ?? [];
+  if (eps.length === 0) return null;
+  return eps.map((ep: EpisodeReview) => {
+    const episode: Record<string, unknown> = {
+      "@type": "TVEpisode",
+      name: ep.title,
+      episodeNumber: ep.number,
+      ...(ep.air_date ? { datePublished: ep.air_date } : {}),
+      partOfSeason: {
+        "@type": "TVSeason",
+        seasonNumber: season.number,
+        partOfSeries: { "@type": "TVSeries", name: series.title.value, url: `${siteUrl}/series/${series.slug}/` }
+      }
+    };
+    if (ep.bollymeter != null) {
+      episode.review = {
+        "@type": "Review",
+        author: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+        publisher: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: ep.bollymeter.toFixed(1),
+          bestRating: "10",
+          worstRating: "0"
+        },
+        reviewBody: ep.spoiler_free
+      };
+    }
+    return { "@context": "https://schema.org", ...episode };
+  });
+}
+
+// ItemList for a curated watch list — the AEO-friendly shape for "best X to watch".
+export function watchListJsonLd(list: {
+  slug: string;
+  title: string;
+  intro: string;
+  updated: string;
+  picks: Array<{ title: string; one_line: string }>;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: list.title,
+    description: list.intro,
+    dateModified: list.updated,
+    url: `${siteUrl}/watch/${list.slug}/`,
+    numberOfItems: list.picks.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: list.picks.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: p.title,
+      description: p.one_line
+    }))
+  };
+}
+
+export function watchListFaqJsonLd(list: { faq?: Array<{ q: string; a: string }> }) {
+  if (!list.faq || list.faq.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: list.faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a }
+    }))
   };
 }
 

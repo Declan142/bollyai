@@ -8,7 +8,7 @@ import { JsonLd } from "../../../../components/JsonLd";
 import { SeasonVerdict } from "../../../../components/SeasonVerdict";
 import { formatDate } from "../../../../lib/data";
 import { getAllSeries, getSeries } from "../../../../lib/series";
-import { breadcrumbJsonLd, seasonReviewJsonLd } from "../../../../lib/jsonld";
+import { breadcrumbJsonLd, seasonReviewJsonLd, episodeReviewsJsonLd } from "../../../../lib/jsonld";
 
 export const dynamicParams = false;
 
@@ -26,10 +26,13 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
   if (!season) notFound();
 
   const review = seasonReviewJsonLd(series, season);
+  const episodeLd = episodeReviewsJsonLd(series, season);
+  const episodeReviews = season.episode_reviews ?? [];
 
   return (
     <DeskTint desk={series.canonical_industry} className="film-page">
       {review && <JsonLd data={review} />}
+      {episodeLd && episodeLd.map((ld, i) => <JsonLd key={`ep-${i}`} data={ld} />)}
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
@@ -75,6 +78,42 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
           <h2>The Room</h2>
           <CriticConsensus season={season} />
         </section>
+
+        {episodeReviews.length > 0 && (
+          <section className="panel">
+            <h2>Standout Episodes</h2>
+            <p className="panel-sub">
+              The hours worth arguing about — premieres, finales, and the turning points. BollyAI reads the room episode by episode.
+            </p>
+            <ol className="episode-list">
+              {[...episodeReviews]
+                .sort((a, b) => a.number - b.number)
+                .map((ep) => (
+                  <li key={ep.number} className="episode-card">
+                    <div className="episode-card__head">
+                      <span className="episode-card__n">E{ep.number}</span>
+                      <span className="episode-card__title">{ep.title}</span>
+                      {ep.bollymeter != null && (
+                        <span className="episode-card__score">{ep.bollymeter.toFixed(1)}</span>
+                      )}
+                    </div>
+                    <p className="episode-card__body">{ep.spoiler_free}</p>
+                    {ep.the_moment && (
+                      <p className="episode-card__moment">
+                        <strong>The moment:</strong> {ep.the_moment}
+                      </p>
+                    )}
+                    {ep.critic_note && (
+                      <p className="episode-card__critic">
+                        &ldquo;{ep.critic_note.text}&rdquo;{" "}
+                        <a href={ep.critic_note.url}>— {ep.critic_note.source}</a>
+                      </p>
+                    )}
+                  </li>
+                ))}
+            </ol>
+          </section>
+        )}
 
         {season.season_over_season && (
           <section className="panel">

@@ -1175,6 +1175,78 @@ p {
 }
 .pull-quotes cite { display: block; margin-top: 4px; padding-left: 14px; font-size: .76rem; color: var(--text-dim); font-style: normal; }
 .standing-line { font-family: var(--font-mono); font-size: .8rem; color: var(--accent); margin-top: 10px; }
+
+/* Standout Episodes */
+.panel-sub { font-size: .9rem; color: var(--text-dim); margin: -2px 0 14px; max-width: 60ch; }
+.episode-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.episode-card {
+  display: grid; gap: 8px; padding: 16px 4px; border-bottom: 1px solid var(--border-hair);
+}
+.episode-card__head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.episode-card__n {
+  font-family: var(--font-mono); font-size: .78rem; font-weight: 700; letter-spacing: .06em;
+  color: var(--accent); min-width: 2.4em;
+}
+.episode-card__title { font-family: var(--font-display); font-size: 1.08rem; font-weight: 600; flex: 1 1 auto; }
+.episode-card__score {
+  font-family: var(--font-mono); font-size: 1.05rem; font-weight: 700; color: var(--accent-2);
+  white-space: nowrap;
+}
+.episode-card__score::after { content: "/10"; font-size: .62rem; color: var(--text-dim); margin-left: 1px; }
+.episode-card__body { font-size: .95rem; line-height: 1.55; margin: 0; }
+.episode-card__moment { font-size: .88rem; color: var(--text-dim); margin: 0; }
+.episode-card__moment strong { color: var(--accent-2); }
+.episode-card__critic {
+  font-family: var(--font-display); font-style: italic; font-size: .92rem; color: var(--text-dim);
+  border-left: 2px solid var(--accent); padding-left: 12px; margin: 2px 0 0;
+}
+.episode-card__critic a { font-style: normal; font-family: var(--font-mono); font-size: .72rem; }
+
+/* What to Watch — index grid */
+.watch-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 24px;
+}
+.watch-card {
+  display: grid; gap: 8px; padding: 20px 18px; text-decoration: none; color: inherit;
+  border: 1px solid var(--border-hair); border-top: 3px solid var(--accent);
+  background: oklch(100% 0 0 / .015); transition: background .15s ease, transform .15s ease;
+}
+.watch-card:hover { background: oklch(100% 0 0 / .04); transform: translateY(-2px); }
+.watch-card__kicker {
+  font-family: var(--font-mono); font-size: .6rem; letter-spacing: .22em; text-transform: uppercase; color: var(--accent-2);
+}
+.watch-card strong { font-family: var(--font-display); font-size: 1.25rem; line-height: 1.1; }
+.watch-card__intro { font-size: .86rem; color: var(--text-dim); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.watch-card__count { font-family: var(--font-mono); font-size: .72rem; color: var(--accent); margin-top: 2px; }
+
+/* What to Watch — ranked picks */
+.pick-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; counter-reset: pick; }
+.pick-card { border-bottom: 1px solid var(--border-hair); }
+.pick-card__link { display: block; text-decoration: none; color: inherit; }
+.pick-card__link:hover { background: oklch(100% 0 0 / .03); }
+.pick-card > *:first-child, .pick-card__link > * { padding-inline: 4px; }
+.pick-card__head { display: flex; align-items: baseline; gap: 14px; padding: 16px 4px 4px; flex-wrap: wrap; }
+.pick-card__rank {
+  font-family: var(--font-mono); font-size: 1.05rem; font-weight: 700; color: var(--accent); min-width: 2ch;
+}
+.pick-card__title { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; flex: 1 1 auto; }
+.pick-card__year { color: var(--text-dim); font-weight: 400; font-size: .9rem; }
+.pick-card__score {
+  font-family: var(--font-mono); font-size: 1.1rem; font-weight: 700; color: var(--accent-2); white-space: nowrap;
+}
+.pick-card__score::after { content: "/10"; font-size: .62rem; color: var(--text-dim); margin-left: 1px; }
+.pick-card__line { font-size: .96rem; line-height: 1.55; margin: 0 0 6px; padding: 0 4px; }
+.pick-card__where {
+  display: flex; gap: 14px; flex-wrap: wrap; align-items: baseline;
+  font-family: var(--font-mono); font-size: .74rem; color: var(--text-dim); padding: 0 4px 16px; margin: 0;
+}
+.pick-card__type {
+  letter-spacing: .14em; text-transform: uppercase; color: var(--accent-2); font-size: .64rem;
+}
+.pick-card__go { color: var(--accent); margin-left: auto; }
+.watch-faq { display: grid; gap: 16px; margin: 0; }
+.watch-faq dt { font-family: var(--font-display); font-weight: 600; font-size: 1.02rem; margin-bottom: 4px; }
+.watch-faq dd { margin: 0; color: var(--text-dim); font-size: .92rem; line-height: 1.55; }
 .poster-card__origin-tag {
   font-family: var(--font-mono); font-size: .56rem; letter-spacing: .2em;
   text-transform: uppercase; color: var(--accent-2);

@@ -13,6 +13,19 @@ export type PullQuote = {
   url: string;
 };
 
+// Standout-episode reviews. NOT every episode (that's slop) — premieres, finales,
+// and the turning-point hours critics and audiences actually argue about.
+// Same hard fence as season review_body: NO first-person viewing claims (gate #1).
+export type EpisodeReview = {
+  number: number; // episode number within the season
+  title: string; // episode title (or "Episode N" if untitled)
+  air_date?: string | null;
+  bollymeter: number | null; // /10 for this single hour, null = unscored
+  spoiler_free: string; // BollyAI's read, spoiler-light, no viewing claim
+  the_moment?: string | null; // the beat people remember (kept spoiler-careful)
+  critic_note?: { text: string; source: string; url: string } | null;
+};
+
 export type SeriesSeason = {
   number: number;
   year: number;
@@ -33,6 +46,7 @@ export type SeriesSeason = {
   } | null;
   review_body: string; // BollyAI's read — NO first-person viewing claims (gate #1)
   season_over_season: string | null;
+  episode_reviews?: EpisodeReview[]; // optional standout-episode breakdowns
 };
 
 export type Series = {
@@ -60,12 +74,27 @@ export type Series = {
 
 const seriesDir = path.resolve(process.cwd(), "..", "data", "series");
 
+const SERIES_POSTER_FALLBACK = "/img/series/_fallback.svg";
+const publicDir = path.resolve(process.cwd(), "public");
+
+// At build time, swap any poster whose file isn't on disk to the fallback SVG so a
+// not-yet-harvested series never ships a broken <img>. The attribution still reads
+// the original (we only degrade the pixels, not the credit line).
+function resolvePoster(series: Series): Series {
+  const src = series.poster?.src;
+  if (!src || !src.startsWith("/")) return series;
+  const onDisk = path.join(publicDir, src.replace(/^\//, ""));
+  if (fs.existsSync(onDisk)) return series;
+  return { ...series, poster: { ...series.poster, src: SERIES_POSTER_FALLBACK } };
+}
+
 export function getAllSeries(): Series[] {
   if (!fs.existsSync(seriesDir)) return [];
   return fs
     .readdirSync(seriesDir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => JSON.parse(fs.readFileSync(path.join(seriesDir, f), "utf8")) as Series)
+    .map(resolvePoster)
     .sort((a, b) => b.date_modified.localeCompare(a.date_modified));
 }
 
