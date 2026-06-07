@@ -1,0 +1,53 @@
+{
+  "slug": "business-proposal",
+  "qid": { "value": "Q108486931", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Business Proposal", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A woman goes on a blind date pretending to be her friend, only to discover her date is her company's CEO.",
+  "poster": {
+    "src": "/img/series/business-proposal/poster.jpg",
+    "alt": "Business Proposal series poster",
+    "attribution": "Poster © SBS / Kakao Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed 12-episode run in April 2022. No sequel confirmed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Business_Proposal"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": { "value": "2022-02-28", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.2, "basis": "Unanimously praised as the gold standard for K-drama rom-com execution; critics flagged one third-act subplot as a craft stumble, but the leads carry it." },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Makes smart decisions about which romance tropes to subvert and which to embrace.",
+            "source": "Vulture",
+            "url": "https://www.vulture.com/article/business-proposal-review.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/693591-in-house-confrontation"
+      },
+      "review_body": "Business Proposal arrived as a case study in how to weaponise rom-com formula rather than escape it. Vulture's Quincy LeGardye identified over ten genre tropes deployed deliberately, with smart choices about which to play straight and which to flip. The MyDramaList audience rated it 8.7 across 187,000 users. Critics pointed to the double-couple structure as particularly well-handled, giving the show breadth without sacrificing pace. One dissenting note: the third-act molka subplot resolution leaned too heavily on chaebol rescue rather than the female lead's own agency, a critique that surfaced in several professional reviews. The 12-episode count is frequently cited as the ideal runtime for this format.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

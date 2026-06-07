@@ -1,0 +1,82 @@
+{
+  "slug": "the-family-man",
+  "qid": null,
+  "title": { "value": "The Family Man", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A middle-class Mumbai husband and father moonlights as a TASC intelligence operative, balancing impossible domestic and national stakes across a series that treats both with equal seriousness.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "The Family Man series poster",
+    "attribution": "Poster © Amazon MGM Studios / D2R Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 3 premiered November 2025. No formal Season 4 announcement as of mid-2026; Raj and DK have not confirmed the next chapter.",
+    "source": "Koimoi",
+    "source_url": "https://www.koimoi.com/television/the-family-man-season-3-imdb-rating-how-does-it-stack-up-against-the-first-two-seasons/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": { "value": "2019-09-20", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.5, "basis": "Established a new benchmark for Indian spy drama: grounded, witty, and politically sharp. Near-universal critical acclaim at launch." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The Family Man's September 2019 debut from Raj and DK rewired expectations for Indian action television. The ten-episode season builds Srikant Tiwari as a specific kind of Indian antihero: overqualified, underpaid, and emotionally unavailable to his family while being comprehensively available to the nation. Manoj Bajpayee's performance achieved the rare trick of making bureaucratic competence look charismatic. The show's willingness to give equal screen weight to domestic comedy and genuine geopolitical menace was noted by critics as its structural signature. It became the benchmark against which subsequent Amazon India originals were measured.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": { "value": "2021-06-04", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.8, "basis": "Highest-rated installment per IMDb audience; Samantha Ruth Prabhu's Raji is widely cited as one of Indian streaming's best antagonist performances. Season 2 lifted the series from good to landmark." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived after a long wait and instantly became the watermark for the franchise. The Tamil Nadu political backdrop gives the espionage plot sharper ideological teeth, and Samantha Ruth Prabhu's Raji became a genuine cultural phenomenon, reshaping audience conversations about how Indian female antagonists are written and performed. Critics ranked it above Season 1 on nearly every measure. The nine-episode arc resolves its central confrontation while leaving enough thread for the franchise to continue. It remains the most-discussed Indian Amazon original by volume of cultural reference.",
+      "season_over_season": "A clear structural and creative upgrade on the debut: more complex antagonist, tighter thriller mechanics, and a willingness to let the emotional cost accrue without false resolution."
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 7,
+      "release_date": { "value": "2025-11-21", "source": "IMDb / trade", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 8.0, "basis": "100% on Rotten Tomatoes from 7 critics; IMDb settled around 8.7 per fan tracking. Critics praised the craft while some flagged a finale that felt abrupt after four years of anticipation." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "It checks all the boxes by being relatable, fun, thrilling, and smart.",
+            "source": "Hindustan Times (Abhimanyu Mathur)",
+            "url": "https://www.hindustantimes.com/entertainment/tv/the-family-man-season-3-review"
+          }
+        ]
+      },
+      "audience": { "rating": 8.7, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9544034/" },
+      "review_body": "Season 3 dropped in November 2025 after nearly four years, carrying the enormous freight of audience expectation built by Season 2. The seven-episode run achieved a rare 100% on Rotten Tomatoes from seven critics, with consistent praise for Manoj Bajpayee's performance and Raj and DK's command of tonal balance. The series ranked ninth on IMDb's most popular Indian shows of 2025. The fault line in the reception was the finale: a section of the audience felt the ending lacked closure proportionate to the wait. Critics were uniformly positive; audience scores were strong but the cultural noise was lower than Season 2, reflecting a slightly shorter run and an ending that felt open-ended rather than earned. Still the best Indian spy television of 2025 by consensus.",
+      "season_over_season": "Technically excellent and critically clean-swept, but the seven-episode runtime and an open finale cooled some of the audience heat that Season 2 generated; the craft is undiminished, the closure is thinner."
+    }
+  ],
+  "_quarantine": [
+    "Poster: no originalimage found on Wikipedia REST API for The_Family_Man_(Indian_TV_series); using _fallback.svg."
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

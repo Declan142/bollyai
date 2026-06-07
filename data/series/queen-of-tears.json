@@ -1,0 +1,53 @@
+{
+  "slug": "queen-of-tears",
+  "qid": { "value": "Q116921048", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Queen of Tears", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "limited",
+  "logline": "A married chaebol couple on the brink of divorce find themselves fighting to save both their crumbling marriage and each other's lives.",
+  "poster": {
+    "src": "/img/series/queen-of-tears/poster.jpg",
+    "alt": "Queen of Tears series poster",
+    "attribution": "Poster © Studio Dragon / tvN / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Designed as a complete limited series; tvN, Studio Dragon, and Netflix have not announced Season 2 and the story concluded without open plot threads.",
+    "source": "What's on Netflix",
+    "source_url": "https://www.whats-on-netflix.com/news/why-queen-of-tears-wont-be-returning-for-season-2-on-netflix/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 16,
+      "release_date": { "value": "2024-03-09", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "Record-breaking viewership, 100% Rotten Tomatoes critical approval, and mass audience devotion balance against Korean film-critic consensus calling it the year's most overrated drama, landing it as a phenomenon with real craft gaps." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Queen of Tears is buoyant and decidedly comic.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/queen-of-tears-netflix-k-drama-review-3603284"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27668559/"
+      },
+      "review_body": "The numbers are real: 682.6 million hours on Netflix, tvN's all-time viewership record, and Rotten Tomatoes at a clean 100% from six critics. The case against is also real: Cine21's year-end poll crowned it 2024's most overrated K-drama, with critics noting plot-logic holes and tonal whiplash in the back half. The consensus sits somewhere in between. Kim Soo-hyun and Kim Ji-won anchor the show with a chemistry that carries even the most overwrought turns, and director Kim Hee-won keeps the production glossy enough to blur structural seams. The first half runs on sharp comic timing; the second half leans into melodrama and the wheels loosen. By any craft standard, this is a well-produced, star-powered limited series that earned its audience. The Korean film-critic dissent is worth noting, but the room voted with its eyeballs.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

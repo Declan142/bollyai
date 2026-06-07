@@ -1,0 +1,86 @@
+{
+  "slug": "house-of-the-dragon",
+  "qid": { "value": "Q72930269", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "House of the Dragon", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "The Targaryen civil war: dragons, succession politics, and dynastic collapse set two centuries before Game of Thrones.",
+  "poster": {
+    "src": "/img/series/house-of-the-dragon/poster.jpg",
+    "alt": "House of the Dragon series logo",
+    "attribution": "Poster © HBO. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 premiered June 22, 2026 on JioHotstar in India (HBO in US), with 8 episodes dropping weekly through August 2026. No Season 4 confirmation yet.",
+    "source": "NewsBytesApp",
+    "source_url": "https://www.newsbytesapp.com/news/entertainment/house-of-the-dragon-season-3-premieres-june-22-jiohotstar/tldr"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": { "value": "2022-08-21", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.4, "basis": "Critics and audiences aligned on a confident GoT successor: strong world-building, layered political intrigue, and two standout lead performances anchoring a slow-burn first act." },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 200,
+        "pull_quotes": [
+          {
+            "text": "House of the Dragon looks set fair to become the seven-dimensional chess game of political scheming that its predecessor was.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2022/aug/21/house-of-the-dragon-review-game-of-thrones-hbo-prequel"
+          }
+        ]
+      },
+      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11198330/" },
+      "review_body": "Season 1 landed as the most credible Game of Thrones successor the franchise had managed since the original series lost its source material footing. The Targaryen family tragedy is staged with genuine craft: political intrigue delivered through court rituals, the slow accumulation of grievance across a time-skipping structure, and two actresses playing Rhaenyra at different ages who both command the screen. Critics split on pacing in the first half but converged around a consensus that the back end justified the patience. The 87% Rotten Tomatoes score and 8.5 IMDb audience rating reflect a show that earned its prestige status without coasting.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": { "value": "2024-06-16", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.8, "basis": "Critics held at 84% but the audience split widened; the war machinery is impressive yet the season ends before the full confrontation arrives, leaving a bridging-chapter feeling." },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 150,
+        "pull_quotes": [
+          {
+            "text": "It's disconcerting to see House of the Dragon becoming more beholden to Game of Thrones as it goes along, when it ought to be the opposite.",
+            "source": "Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/house-of-the-dragon-reviews-1235201884/"
+          }
+        ]
+      },
+      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11198330/" },
+      "review_body": "Season 2 narrowed the scope to a pre-war standoff and split the room more sharply than Season 1. Critics sustained an 84% score, recognising careful character groundwork and spectacular set-pieces in the final episodes, but a vocal audience contingent flagged a slow middle third and a finale that felt like setup rather than payoff. The 72% Rotten Tomatoes audience score versus 84% critic score was the season's defining data point: fans conditioned on Game of Thrones pacing expected more battlefield spectacle sooner. Reviewers who read the show on its own structural terms found it more satisfying.",
+      "season_over_season": "Reception cooled modestly from Season 1: critic score dipped 3 points to 84%, audience score dropped sharply to 72% RT, reflecting impatience with a bridging season that held back its largest battles for Season 3."
+    },
+    {
+      "number": 3,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": { "value": "2026-06-22", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 began dropping on JioHotstar India from June 22, 2026, with weekly episodes through August. The season is in progress at the time of writing; critic scores and audience data are not yet available. The 8-episode run is expected to deliver the full-scale Targaryen dragon war that Season 2 built toward.",
+      "season_over_season": "Still dropping at time of writing; verdict and BollyMeter withheld pending completion."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

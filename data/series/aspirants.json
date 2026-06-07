@@ -1,0 +1,88 @@
+{
+  "slug": "aspirants",
+  "qid": { "value": "Q106765478", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Aspirants", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Three UPSC aspirants navigate friendship, ambition, and the long shadow of success in Delhi's coaching belt.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "Aspirants series poster",
+    "attribution": "Poster © TVF / Amazon Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 released March 2026 on Amazon Prime Video. No Season 4 confirmation as of June 2026.",
+    "source": "Amazon Prime Video",
+    "source_url": "https://www.primevideo.com/detail/Aspirants/0JI1S2JJYE773KGHZY5AOPWBDE"
+  },
+  "seasons": [
+    {
+      "number": 3,
+      "year": 2026,
+      "episodes": 5,
+      "release_date": { "value": "2026-03-13", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "Critics called it the best TVF threequel in years: the show finally scrutinises its own protagonist, earning its emotional payoff with structural discipline and a dual-inquiry framing that the earlier seasons lacked." },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Aspirants 3 is the best TVF threequel in years and the only series that seems to address the criticism of its previous seasons.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/aspirants-season-3-series-review-tvf-finally-gets-it-right"
+          }
+        ]
+      },
+      "audience": { "rating": 9.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14392248/" },
+      "review_body": "Season 3 restructures the series around a formal inquiry that pits DM Abhilash against his former mentor Sandeep Bhaiya, a device that forces the show to examine the moral contradictions it previously glossed over. Reviewers across the board noted that the writing finally holds its protagonist accountable rather than excusing him. The dual-timeline format is tighter than Season 2, and the emotional climax recovers the warmth of the debut season without retreating into nostalgia. Audience scores on IMDb climbed back to franchise highs. The critical consensus framed it as TVF's most mature pivot: aspirational but no longer naive.",
+      "season_over_season": "Season 3 corrects the main-character inflation that dogged Season 2, returning ensemble weight to Guri and SK while adding institutional friction through the inquiry arc."
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 5,
+      "release_date": { "value": "2023-10-25", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.2, "basis": "Tonal pivot to serious interpersonal drama works in patches but the shift away from ensemble focus toward Naveen Kasturia's character attracted mixed critical returns." },
+      "critic": {
+        "positive_pct": 55,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Aspirants Season 2 stays clear of comedy, very unlike TVF, and induces conflicts between almost all the characters.",
+            "source": "IMDb",
+            "url": "https://www.imdb.com/news/ni64298052/"
+          }
+        ]
+      },
+      "audience": { "rating": 9.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14392248/" },
+      "review_body": "Season 2 shed the comedy coating and went straight for interpersonal conflict, a tonal move that critics treated with mixed reactions. The glass-half-full optimism of TVF's signature mode gave way to professional rivalry and political friction. Film Companion flagged how the show tends to reduce real-world complexity to neat bleeding-heart resolutions. Audience numbers stayed high because the performances remained strong. The consensus: a flawed but genuinely felt upgrade over Season 1 in ambition, even if the execution stretched into over-sentimental territory.",
+      "season_over_season": "Drops TVF's comfort-zone comedy tone entirely in favour of sharp professional drama, expanding scope but losing some of Season 1's communal warmth."
+    },
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": { "value": "2021-04-07", "source": "TVF YouTube / Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The debut season launched as a TVF YouTube original and established the UPSC milieu with economical storytelling and a three-hander friendship at its core. Widely cited as one of the finest short-run series from the TVF stable.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [
+    "Poster MISS: Wikipedia REST API returned no originalimage for Aspirants_(TV_series). Fallback SVG used."
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

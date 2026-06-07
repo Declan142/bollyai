@@ -1,0 +1,58 @@
+{
+  "slug": "brown",
+  "qid": null,
+  "title": { "value": "Brown", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "inferred" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "ZEE5", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "limited",
+  "logline": "An Anglo-Indian Kolkata detective investigates the murder of a teenager from a powerful family while battling her own demons, in a noir thriller adapted from the novel City of Death.",
+  "poster": {
+    "src": "/img/series/brown/poster.jpg",
+    "alt": "Brown series poster: Karisma Kapoor as detective Rita Brown",
+    "attribution": "Poster © Zee Studios / ZEE5. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode limited series adapted from a standalone novel. No Season 2 announced.",
+    "source": "ZEE5 trade announcement",
+    "source_url": "https://en.wikipedia.org/wiki/Brown_(2026_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 7,
+      "release_date": { "value": "2026-06-05", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.2, "basis": "Atmospheric Kolkata noir elevated by a committed Karisma Kapoor, undercut by a sluggish pace and a predictable murder-mystery that delivers no surprises in seven episodes." },
+      "critic": {
+        "positive_pct": 55,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Karisma Kapoor is very watchable, but her Rita Brown is too much of a literary formula to make a dent.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/brown-series-review-this-stylish-karisma-kapoor-led-crime-drama-lacks-substance"
+          },
+          {
+            "text": "Brown tries to balance atmospheric depth with a sluggish plot, and the balance does not always hold.",
+            "source": "Sunday Guardian Live",
+            "url": "https://sundayguardianlive.com/entertainment-news/brown-series-review-watch-karisma-kapoors-gritty-noir-trying-to-balance-atmospheric-depth-with-sluggish-plot-on-zee5-202329/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26766517/"
+      },
+      "review_body": "Brown arrived carrying the weight of a major Karisma Kapoor comeback and the atmospheric promise of Kolkata noir. Critics landed in a familiar split: the performance camp found her uninhibited and physically committed, genuinely shedding the glitzy legacy. The craft camp noted that director Abhinay Deo builds a richly textured world, only to let it sink under a standard premise and a pacing that tests patience across seven episodes. The murder mystery offers no real surprises, and reviewers across outlets flagged cliches and formula. What rescues it from a skip is the texture of the setting and the lead performance. The reception settled as mixed-to-slightly-positive, with most critics recommending it as a one-time watch for Kapoor fans rather than a standout thriller on its own terms.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

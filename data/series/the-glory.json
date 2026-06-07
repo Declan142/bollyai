@@ -1,0 +1,53 @@
+{
+  "slug": "the-glory",
+  "qid": { "value": "Q113197148", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "The Glory", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A woman who survived brutal school bullying spends sixteen years constructing an intricate, methodical revenge against her tormentors in this dark thriller written by Kim Eun-sook.",
+  "poster": {
+    "src": "/img/series/the-glory/poster.jpg",
+    "alt": "The Glory series poster featuring Song Hye-kyo",
+    "attribution": "Poster © Netflix / Hwa&Dam Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-part limited series; Part 1 dropped December 2022, Part 2 March 2023. No season 2 announced; the narrative concluded.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81518708"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": { "value": "2022-12-30", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "Tightly plotted revenge architecture, a career-best Song Hye-kyo performance, and three Baeksang wins signal genuine prestige; Part 2 pacing dips slightly but the emotional payoff lands." },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 112,
+        "pull_quotes": [
+          {
+            "text": "A solid revenge thriller depicting the agony and torment of school bullying victims, crafted with edge-of-your-seat twists.",
+            "source": "Cinema Escapist",
+            "url": "https://www.cinemaescapist.com/2023/01/review-the-glory-netflix-kdrama/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/685237-the-glory"
+      },
+      "review_body": "The Glory operates as a slow-burn revenge procedural. Moon Dong-eun, scarred physically and psychologically by school bullies, constructs a sixteen-year plan to dismantle their lives, one by one. Critics converged on the same strengths: Song Hye-kyo's controlled, ice-cold performance; screenwriter Kim Eun-sook's willingness to linger in ugliness before delivering satisfaction; and a villain ensemble that earns genuine audience contempt. Rotten Tomatoes logged 82 percent positive across 112 critics. Part 2, released March 2023, drew some notes about uneven pacing in its mid-section, but the finale delivered on the series' core promise. The show ranked in Netflix's all-time top ten non-English series globally, and its success reopened public debate in South Korea around school violence accountability.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

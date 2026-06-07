@@ -1,0 +1,69 @@
+{
+  "slug": "gyeongseong-creature",
+  "qid": { "value": "Q110614173", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Gyeongseong Creature", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "In 1945 Japanese-occupied Seoul, a wealthy businessman and a talented young woman cross paths inside a hospital where Imperial forces conduct secret biological experiments.",
+  "poster": {
+    "src": "/img/series/gyeongseong-creature/poster.jpg",
+    "alt": "Gyeongseong Creature Netflix series title card",
+    "attribution": "Poster © Netflix / Hwa & Dam Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed. Season 2 released September 27, 2024. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gyeongseong_Creature"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": { "value": "2023-12-22", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.6, "basis": "92% on Rotten Tomatoes from 12 critics; the Japanese-occupation setting gives the horror real historical weight, even as tonal inconsistency between horror and comedy drew flags." },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 12,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 7.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt22352854/" },
+      "review_body": "Season 1 released December 22, 2023 to strong critical marks: 92 percent on Rotten Tomatoes, with reviewers flagging that the combination of history, mystery, science fiction and horror made it a standout K-drama. The Joseon-occupation setting sharpened the horror by grounding the creature in real atrocity, making the biological experiments more disturbing than genre convention usually allows. The reservation critics shared was tonal: the series oscillated between brutal horror drama and slapstick comedy in ways that occasionally disrupted the dread. Audience scores at IMDb settled around 7.1, reflecting appreciation for the production quality and leads Park Seo-joon and Han So-hee without the enthusiast ceiling of the franchise's best comp.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": { "value": "2024-09-27", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "SKIP",
+      "bollymeter": { "score": 4.5, "basis": "Critics across NME, Ready Steady Cut, SCMP and DMTalkies converged on a season that abandons the historical grounding for a modern-day setting, producing a messy, overstuffed conclusion." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Han and Park find themselves marooned in muddled proceedings, bouncing around between the blurred blows of CGI bad guys.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3280266/netflix-k-drama-gyeongseong-creature-season-2-review-awful-follow-big-step-down"
+          },
+          {
+            "text": "Season 2 is a distinct step down from its predecessor, only getting messier and more overstuffed as it goes.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2024/09/27/gyeongseong-creature-season-2-netflix-review/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2, all seven episodes released September 27, 2024, relocated the story from 1945 occupied Seoul to a modern-day setting, a structural choice that stripped the show of its historical gravity. Critics were close to unanimous in calling it a step down: SCMP's Pierce Conran scored it 1.5 out of 5, Ready Steady Cut's Jonathon Wilson gave it 2 out of 5, and DMTalkies called it unnecessary and way too long. The consensus was that the lead chemistry, functional in Season 1, could not compensate for the muddled plotting. NME offered the mildest read, calling it a fine if slightly soured ending. The move away from the occupation-horror premise removed everything that distinguished the franchise from standard K-drama action fare.",
+      "season_over_season": "Abandons the historical-horror setting that defined Season 1; the shift to contemporary Seoul produced what critics described as a tonally incoherent and narratively bloated conclusion."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

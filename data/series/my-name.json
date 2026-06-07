@@ -1,0 +1,58 @@
+{
+  "slug": "my-name",
+  "qid": { "value": "Q105619096", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "My Name", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A woman joins a drug cartel to avenge her father's murder, then infiltrates the police as a mole, only to find that her loyalties and her identity are impossible to separate.",
+  "poster": {
+    "src": "/img/series/my-name/poster.jpg",
+    "alt": "My Name series poster featuring Han So-hee",
+    "attribution": "Poster © Netflix / Studio Santa Claus Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Eight-episode limited run; self-contained story. No season 2 announced.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81011211"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": { "value": "2021-10-15", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.2, "basis": "Han So-hee's physically committed performance and the show's lean, uncompromsing eight-episode shape make it the tightest Korean action noir of 2021; rare 100 percent Rotten Tomatoes score reflects critical unity." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Han delivers a performance of great physicality, intensity and occasional vulnerability; My Name works on a range of levels.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/my_name/s01"
+          },
+          {
+            "text": "A very different show worthy of just as much attention, delivering a handsome, engaging, bloodthirsty spectacle with plenty of style and verve.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2021/10/15/my-name-review-another-quality-k-drama-for-netflixs-library/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/65391-nemesis"
+      },
+      "review_body": "My Name arrived quietly and converted viewers through word of mouth, eventually becoming one of the few K-dramas to hold a perfect 100 percent on Rotten Tomatoes. The pitch is tight: a bereaved daughter accepts gang membership in exchange for a shot at the man who killed her father, then operates undercover inside the police drug unit hunting her own boss. Director Kim Jin-min stages the hand-to-hand combat with unusual physicality, and Han So-hee trained extensively to perform it herself. Critics flagged the mid-section as the weaker stretch, where plot mechanics slow the emotional momentum, but no one disputed the lead performance or the economy of the eight-episode structure. The South China Morning Post noted it starts slower than it ends, which is accurate, but the final three episodes close the loop with precision.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

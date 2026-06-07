@@ -1,0 +1,69 @@
+{
+  "slug": "hellbound",
+  "qid": { "value": "Q100934044", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Hellbound", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Supernatural beings deliver death sentences to ordinary people in public, spawning a religious cult that exploits the phenomenon to consolidate power.",
+  "poster": {
+    "src": "/img/series/hellbound/poster.jpg",
+    "alt": "Hellbound Netflix series title card",
+    "attribution": "Poster © Netflix / Lewis Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 2 ended with unresolved cliffhangers. As of June 2026, Netflix has not confirmed a Season 3, though the showrunner has indicated intent to continue.",
+    "source": "The Review Geek",
+    "source_url": "https://www.thereviewgeek.com/hellbound-s2review/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": { "value": "2021-11-19", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.3, "basis": "Formally bold: director Yeon Sang-ho splits the season across two distinct tonal halves, generating the disorientation the premise needs. Thoughtful horror that refuses easy theodicy." },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 32,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 7.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt12235718/" },
+      "review_body": "Season 1 dropped November 19, 2021, and the following day surpassed Squid Game as Netflix's most-watched series globally, a record driven partly by the post-Squid-Game appetite for Korean content and partly by genuine critical enthusiasm. Rotten Tomatoes scored it 97 percent across 32 critics, with the consensus praising Yeon Sang-ho's mix of grounded horror and rigorous theological inquiry. The show's conceit, supernatural death sentences delivered publicly, allowed it to interrogate how institutions capture crisis rather than resolve it. RogerEbert.com's Nick Allen praised the blend of horror spectacle with thoughtful discussions about sin. Audience scores settled lower than the critical ceiling, reflecting a show better suited to cold-start viewing than casual weekend streaming.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": { "value": "2024-10-25", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.0, "basis": "Three-year gap between seasons hurt momentum; critics found the philosophical ambitions intact but the execution more uneven than Season 1." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Hellbound season two makes a worthy return, retaining the philosophical strain that made it such a hit.",
+            "source": "The Review Geek",
+            "url": "https://www.thereviewgeek.com/hellbound-s2review/"
+          },
+          {
+            "text": "Season two is definitely much drier than its predecessor, looking derivative of Joker, Sweet Home, and other things we have seen before.",
+            "source": "DMTalkies",
+            "url": "https://dmtalkies.com/hellbound-season-2-netflix-kdrama-review-2024/"
+          }
+        ]
+      },
+      "audience": { "rating": 6.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt12235718/" },
+      "review_body": "Season 2 arrived October 2024, three years after its predecessor. Critics divided: the philosophical ambitions were acknowledged as intact, with the show continuing to probe how media and religion exploit collective terror. NME called it a worthy return. But the episode-level IMDb ratings in the low 6s and split critical reception tracked a season where the gap had eroded the original's urgency. Reviews at outlets like DMTalkies found the season derivative and drier in tone. Metacritic landed at 66 out of 100, generally favorable but a step below Season 1's ceiling. The ending left the mythology open, and whether a third season arrives to complete it remains unconfirmed.",
+      "season_over_season": "Holds the philosophical ambitions of Season 1 but loses the kinetic shock of the original premise; the three-year gap between seasons registered in both audience and critical expectations."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

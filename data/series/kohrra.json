@@ -1,0 +1,64 @@
+{
+  "slug": "kohrra",
+  "qid": { "value": "Q120689025", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Kohrra", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Two contrasting cops in Punjab investigate a British-Indian wedding murder that peels back layers of toxic masculinity, drug networks, and suppressed secrets buried beneath the region's prosperous surface.",
+  "poster": {
+    "src": "/img/series/kohrra/poster.jpg",
+    "alt": "Kohrra series poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 premiered February 11, 2026 on Netflix, featuring six episodes with Mona Singh joining as a new commanding officer.",
+    "source": "Screen Rant",
+    "source_url": "https://screenrant.com/kohrra-netflix-crime-thriller-whodunit-season-2-february-2026/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": { "value": "2023-07-15", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "100% on Rotten Tomatoes from 20 critics; Suvinder Vicky and Barun Sobti's performances, Sudip Sharma's writing, and the unsparing social portrait of contemporary Punjab made it the year's most acclaimed Indian crime series." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 20,
+        "pull_quotes": [
+          { "text": "A tightly constructed procedural featuring compellingly human investigators, Kohrra entertains with the utmost efficiency.", "source": "Rotten Tomatoes", "url": "https://www.rottentomatoes.com/tv/kohrra/s01" },
+          { "text": "Kohrra is a sharp examination of contemporary Punjab and the Punjabi psyche.", "source": "The Indian Express", "url": "https://indianexpress.com/article/entertainment/web-series/kohrra-review-netflix-8820040/" }
+        ]
+      },
+      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt27853283/" },
+      "review_body": "Kohrra is Netflix India's strongest procedural since Delhi Crime Season 1. Sudip Sharma's writing frames a routine murder investigation as an excavation of what Punjab hides beneath its wedding-season prosperity: untreated grief, suppressed sexuality, drug money, and fathers who cannot talk to their sons. The six-episode structure is immaculate, the Punjabi landscape captured with a grimy immediacy that critics repeatedly praised, and the two lead performances are among the year's best on any Indian platform. The 100% Rotten Tomatoes score from 20 critics is not just hype; the show earns it by never settling for genre comfort.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 6,
+      "release_date": { "value": "2026-02-11", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.8, "basis": "Critics maintained a 100% RT score for Season 2; Mona Singh was singled out as a standout addition and the social critique deepened beyond the drug-menace trope into industrial exploitation." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 10,
+        "pull_quotes": [
+          { "text": "Kohrra Season 2 is a brutal critique of regional dynamics; it moves beyond the drug menace trope and looks at industrial exploitation on an urgent basis.", "source": "Koimoi", "url": "https://www.koimoi.com/reviews/web-reviews/kohrra-s2-review-mona-singh-jaisi-koi-nahi-this-unsettling-social-drama-haunts-as-barun-sobti-returns-to-shatter-punjabs-vibrant-image/" },
+          { "text": "The sophomore season is equally dense, detailed, and dark.", "source": "The Quint", "url": "https://www.thequint.com/entertainment/movie-reviews/kohrra-season-2-review-netflix" }
+        ]
+      },
+      "audience": { "rating": null, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt27853283/" },
+      "review_body": "Season 2 shifts the investigative case and station while retaining the tone that made the first season exceptional. ASI Garundi navigates a new power dynamic under Mona Singh's commanding officer, and the show pivots its social diagnosis from drug networks to industrial exploitation of labour. Critics who reviewed it maintained unanimity, and the Mona Singh addition was called out repeatedly as a casting decision that paid off. The season is not as revelatory as Season 1 because it no longer carries the element of surprise, but the craft level is consistent and the social conscience is sharper.",
+      "season_over_season": "Season 2 trades the first season's revelatory freshness for denser sociological texture; the formula is established, the execution confident, and the new case gives Mona Singh space to become as compelling a presence as Sobti."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

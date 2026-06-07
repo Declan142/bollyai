@@ -1,0 +1,80 @@
+{
+  "slug": "sweet-home",
+  "qid": { "value": "Q65266317", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Sweet Home", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A suicidal recluse barricades in a Seoul apartment block as residents begin mutating into monsters that embody their deepest desires.",
+  "poster": {
+    "src": "/img/series/sweet-home/poster.jpg",
+    "alt": "Sweet Home Netflix series title card",
+    "attribution": "Poster © Netflix / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded with Season 3 on July 19, 2024. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sweet_Home_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": { "value": "2020-12-18", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.8, "basis": "Inventive creature design and a genuinely unusual lead performance elevate a debut season that critics flagged as uneven but viscerally effective." },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 7.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11612120/" },
+      "review_body": "Season 1 arrived December 2020 and critics praised the creature design, calling the monster-making inventive and often wonderfully gross. Decider's Joel Keller noted that despite a premise familiar from the genre, Sweet Home distinguishes itself through its setting and the imagination applied to each monster's origin in human desire. The 86-percent Rotten Tomatoes score reflected a critical consensus that the show's visual effects and emotional backbone outweighed its narrative roughness. Audience scores landed at IMDb ratings above 7, solid for a debut horror series with an unusual visual register and a protagonist whose survival is never framed as heroic.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": { "value": "2023-12-01", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 5.9, "basis": "Expanded scope fragments the tight apartment-block premise into a war-movie spread that critics and audiences found less cohesive than the original." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 dropped December 2023 and expanded the story beyond the apartment block into a wider post-monsterpocalypse. Critical reception tracked the pattern common to Korean horror sequels: the contained concept that powered Season 1 lost discipline under the pressure of franchise extension. Episode-level IMDb scores dipped into the low 6s, reflecting audience dissatisfaction with the serialisation's pacing. No major critic bloc produced a consolidated review; the season generated audience conversation largely around plot fragmentation rather than craft.",
+      "season_over_season": "Breaks the apartment siege structure for open-world horror; the expansion dilutes the premise's core tension and registers a clear audience drop from Season 1."
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": { "value": "2024-07-19", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 5.4, "basis": "NME and SCMP both flagged a series in steep narrative decline; a finale that resolves the arc but cannot recover the original's tonal clarity." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Another messy return for the Korean creature series; season 3 marks the nadir of a series that has experienced a clear downward trajectory.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/sweet-home-season-3-review-song-kang-netflix-3776340"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The third and final season released July 2024 to the franchise's weakest critical response. NME characterised it as another messy return, describing a clear downward trajectory across seasons. South China Morning Post called it an abomination as a series finale, and the review consensus clustered around a show that had moved too far from its original premise to find its footing again. The creature effects retained some of the franchise's visual imagination, but the accumulated narrative debt from Season 2 was not resolved satisfyingly. Reviewers noted character deaths were deployed as an emotional crutch rather than earned story beats.",
+      "season_over_season": "A step down from Season 2 in critical standing; closes the franchise without recovering the craft or audience trust the first season established."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

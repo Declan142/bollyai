@@ -1,0 +1,82 @@
+{
+  "slug": "delhi-crime",
+  "qid": null,
+  "title": { "value": "Delhi Crime", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "inferred" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "DCP Vartika Chaturvedi and her team investigate high-profile crimes in Delhi across three seasons, from the 2012 gang rape case to caste-targeted murders to human trafficking, each season a portrait of the city's structural violence.",
+  "poster": {
+    "src": "/img/series/delhi-crime/poster.jpg",
+    "alt": "Delhi Crime title screen poster",
+    "attribution": "Poster © Netflix / Golden Karavan. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 3 premiered November 13, 2025 on Netflix. No Season 4 announcement as of June 2026.",
+    "source": "What's on Netflix",
+    "source_url": "https://www.whats-on-netflix.com/news/netflixs-delhi-crime-season-3-cast-plot-everything-you-need-to-know/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 7,
+      "release_date": { "value": "2019-03-22", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.0, "basis": "International Emmy Best Drama Series 2020; 94% on Rotten Tomatoes; Shefali Shah's career-defining performance and Richie Mehta's disciplined direction set the standard for Indian streaming crime drama." },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 17,
+        "pull_quotes": [
+          { "text": "Tautly staged and superbly performed, Delhi Crime works best when it sticks to trying to redress the horror of what happened that December night.", "source": "Scroll.in", "url": "https://scroll.in/reel/917452/delhi-crime-review-tautly-staged-and-superbly-performed-but-questions-linger" }
+        ]
+      },
+      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9398466/" },
+      "review_body": "Season 1 remains the high-water mark of Indian streaming crime drama. Richie Mehta's seven-episode account of the 2012 Delhi gang rape aftermath focuses not on the crime itself but on the police investigation under DCP Vartika Chaturvedi, played by Shefali Shah in a performance that became a reference point. Critics praised the restraint, the procedural precision, and the decision to humanise officers doing grinding institutional work under pressure. The International Emmy for Best Drama Series in 2020 confirmed its standing globally. The show is not without critics who raised questions about perspective and whose story is centred, but the craft consensus was near-unanimous.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 5,
+      "release_date": { "value": "2022-08-26", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 6.9, "basis": "82% on Rotten Tomatoes; solid procedural but reviewers flagged the compressed 5-episode run as too rushed to unpack its complex caste-bias theme, and the mystery itself as routine compared to Season 1." },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 11,
+        "pull_quotes": [
+          { "text": "The five-episode run feels too rushed to unpack a complex theme, as well as too languorous for what turns out to be a routine mystery.", "source": "Scroll.in", "url": "https://scroll.in/reel/1031073/delhi-crime-season-two-review-a-clumsy-exploration-of-the-systemic-bias-in-policing" }
+        ]
+      },
+      "audience": { "rating": 7.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9398466/" },
+      "review_body": "Season 2 takes on the real-life Chaddi Baniyan Gang case and attempts to layer a systemic bias argument about policing and minority communities over what is essentially a procedural mystery. The ambition registers and Shefali Shah remains compelling, but critics were consistent in noting that five episodes is too compressed for the thematic weight the season wants to carry. The mystery itself was called routine by Scroll.in and others. It is a capable follow-up that falls short of the original's impact, held up mainly by its lead performance and the franchise's established goodwill.",
+      "season_over_season": "Season 2 is smaller in scope and impact; the five-episode format compresses what should be a richer sociological argument, and the case lacks the urgency and moral weight of Season 1."
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": { "value": "2025-11-13", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.5, "basis": "Mixed critical reception; Hollywood Reporter India called it 'third time's not a charm'; competent craft and Huma Qureshi's strong presence but narrative formula showing its wear." },
+      "critic": {
+        "positive_pct": 55,
+        "sample": 8,
+        "pull_quotes": [
+          { "text": "Delhi Crime Season 3 settles into a competent, if predictable, thriller that neither matches the boldness of the original nor fully retreats into formula.", "source": "Rotten Tomatoes", "url": "https://www.rottentomatoes.com/tv/delhi_crime/s03" }
+        ]
+      },
+      "audience": { "rating": 7.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9398466/" },
+      "review_body": "Season 3 takes on human trafficking and brings in Huma Qureshi as a new antagonist force, which reviewers broadly identified as the season's biggest asset. Shefali Shah returns as Vartika and the production values are consistent with earlier seasons. The critical cluster, however, pointed at formula fatigue. The show no longer surprises, the episodic structure of six episodes is tighter than Season 2 but still feels less taut than the original. Hollywood Reporter India called it a case of third time not charming. For franchise loyalists it is a watchable entry; as a standalone crime series it reads as a diminished version of what made Season 1 essential.",
+      "season_over_season": "Season 3 is a competent franchise maintenance entry; Huma Qureshi adds fresh energy but the template is showing age and the show has not found a thematic frame as urgent as Season 1's."
+    }
+  ],
+  "_quarantine": [
+    "Delhi Crime QID not confirmed via Wikidata search; Q61837900 returned for 'Delhi Crime Story' which may be a different entry. QID set to null pending manual verification at wikidata.org/wiki/Delhi_Crime."
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

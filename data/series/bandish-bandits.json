@@ -1,0 +1,69 @@
+{
+  "slug": "bandish-bandits",
+  "qid": { "value": "Q98538854", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Bandish Bandits", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A classically trained Rajasthani musician and a pop star collide in a romance set against the clash of Hindustani classical music and contemporary pop.",
+  "poster": {
+    "src": "/img/series/bandish-bandits/poster.jpg",
+    "alt": "Bandish Bandits series poster",
+    "attribution": "Poster © Amazon Prime Video / Still and Still Moving Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 2 released November 2024. No Season 3 announcement as of June 2026.",
+    "source": "Amazon Prime Video",
+    "source_url": "https://www.primevideo.com/detail/Bandish-Bandits/0JLYGQPYLB8COWB2HU71GGGD0Z"
+  },
+  "seasons": [
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": { "value": "2024-11-21", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.8, "basis": "Ritwik Bhowmik and Shreya Chaudhry remain compelling but the sophomore season buckles under its own melodramatic tempo, and the music no longer drives the narrative as organically as it did in Season 1." },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Unfortunately for Bandish Bandits, its sophomore season buckles under the heft of its own dramatic tempo, and ultimately fails to replicate its earlier rhythm.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/bandish_bandits/s02/reviews"
+          },
+          {
+            "text": "Ritwik Bhowmik and Shreya Chaudhry light up this deeply-felt fusion of love and music.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/bandish-bandits-season-2-series-review-ritwik-bhowmik-shreya-chaudhry-light-up-this-deeply-felt-fusion-of-love-and-music"
+          }
+        ]
+      },
+      "audience": { "rating": 8.6, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9814458/" },
+      "review_body": "Season 2 separates Radhe and Tamana and places them in competing musical worlds, a structural choice that amplifies the romantic tension but exposes the limits of the show's melodramatic vocabulary. Critics who had celebrated Season 1's fusion of Hindustani classical and pop as genuinely innovative found Season 2's musical moments beautiful but less integrated into the story's emotional engine. Bollywood Hungama noted the season rests on supreme performances but suffers due to length. Audience scores remained high, suggesting the core fanbase stayed invested in the lead pair even when the writing softened. The series' real asset remains its music, and even a lesser Bandish Bandits sounds extraordinary.",
+      "season_over_season": "Trades the first season's organic classical-pop collision for more conventional melodrama, losing structural freshness even as the lead performances improve."
+    },
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": { "value": "2020-08-04", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.5, "basis": "Debut season established a distinctive musical romance with real Hindustani classical craft behind the score and a lead pair whose chemistry carried the generational-conflict premise." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The debut season introduced the Rathod musical gharana and the Radhe-Tamana pairing with a confidence rarely seen in Indian romantic drama. The Shankar-Ehsaan-Loy score was central to the storytelling, not decorative.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

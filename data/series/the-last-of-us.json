@@ -1,0 +1,64 @@
+{
+  "slug": "the-last-of-us",
+  "qid": { "value": "Q87131973", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "The Last of Us", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Twenty years after a fungal pandemic collapses civilization, a hardened smuggler escorts a teenager who may hold the key to a cure across a ruined America.",
+  "poster": {
+    "src": "/img/series/the-last-of-us/poster.jpg",
+    "alt": "The Last of Us season 1 cover art",
+    "attribution": "Poster © HBO. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 has been confirmed. No premiere date announced as of June 2026.",
+    "source": "The Last of Us Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Last_of_Us_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 9,
+      "release_date": { "value": "2023-01-15", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.0, "basis": "96% critic score from 489 reviews and 86% audience score is near-unanimous; Episode 3 'Long Long Time' entered the critical canon as one of the finest single episodes in prestige TV history." },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 489,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.8, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt3581920/" },
+      "review_body": "Season 1 entered the conversation around prestige TV's best first seasons almost immediately. The Pedro Pascal-Bella Ramsey pairing supplied the emotional core, but the show distinguished itself through structural ambition: standalone episodes that paused the main journey to excavate backstory with feature-film patience. Critics aligned at 96% across 489 reviews, and the 86% audience approval was unusually high for a post-apocalyptic drama with genuinely punishing emotional stakes. The show managed what few game adaptations have: it respected the source's emotional logic rather than just its plot.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 7,
+      "release_date": { "value": "2025-04-13", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.6, "basis": "Critics held at 92% (270 reviews) but audience approval collapsed to 39% on Rotten Tomatoes, driven largely by a polarising narrative choice; the craft is unimpeachable, the audience goodwill was not." },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 270,
+        "pull_quotes": [
+          {
+            "text": "The series remains a feat of production, but Season 2 trades the momentum of the journey for a carefully constructed sense of place.",
+            "source": "Variety",
+            "url": "https://variety.com/2025/tv/reviews/the-last-of-us-season-2-review/"
+          }
+        ]
+      },
+      "audience": { "rating": 7.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt3581920/" },
+      "review_body": "Season 2 arrived as critics' darling and audiences' flashpoint. The 92% critic score sat beside a 39% Rotten Tomatoes audience score, a gap that reflected a single narrative decision in episode 2 that fractured the viewership along game-fan and casual-viewer lines. The Hollywood Reporter flagged anticlimax in the finale; Variety noted the show traded narrative velocity for atmosphere. Both readings are accurate. Seven episodes over source material that covered a full game's worth of story required cuts that will only close when Season 3 arrives. Reviewers who bracketed the controversy found accomplished television throughout.",
+      "season_over_season": "Critics stayed strong at 92% but the audience gap to Season 1 was historic: RT audience score dropped from 86% to 39%, driven by a divisive story choice borrowed from the source game. Craft held; goodwill did not."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

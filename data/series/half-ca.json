@@ -1,0 +1,64 @@
+{
+  "slug": "half-ca",
+  "qid": { "value": "Q122712421", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Half CA", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon MX Player", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "TVF's grounded drama follows CA aspirants navigating the unforgiving examination cycle, family pressure, and the long odds of the CA Final.",
+  "poster": {
+    "src": "/img/series/half-ca/poster.jpg",
+    "alt": "Half CA series poster",
+    "attribution": "Poster © TVF / Amazon MX Player. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 2 released August 2025. No Season 3 confirmation as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Half_CA"
+  },
+  "seasons": [
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 5,
+      "release_date": { "value": "2025-08-27", "source": "Amazon MX Player", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.3, "basis": "Ahsaas Channa and Gyanendra Tripathi deliver committed performances but the season trades the first season's freshness for more dramatic but predictable arcs." },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Half CA Season 2 delivers another heartfelt look at CA aspirants' struggles, but occasionally feels predictable and less fresh than its predecessor.",
+            "source": "AltBollywood",
+            "url": "https://www.altbollywood.com/post/half-ca-season-2-review-cast-story-2025"
+          }
+        ]
+      },
+      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt28285430/" },
+      "review_body": "Season 2 cranks up the personal and professional stakes for its CA aspirants, with Ahsaas Channa and Gyanendra Tripathi carrying the emotional weight of a more dramatically pressured run. The show's core appeal remains intact: the CA world is rendered with specificity that most Indian streaming dramas skip, and the performances feel lived-in rather than aspirational-poster-level. The critical fault line is between reviewers who found the added drama earned and those who called the arcs familiar. Free-on-ad-supported release expands its reach beyond the niche, which likely explains the IMDb score being boosted by a broader, more forgiving audience base.",
+      "season_over_season": "More dramatic and emotionally heightened than Season 1 but loses some of the debut's authentic freshness in exchange for conventional serial tension."
+    },
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 5,
+      "release_date": { "value": "2023-07-25", "source": "Amazon Mini TV", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The debut season introduced the CA aspirant milieu with a ground-level honesty that earned the show a devoted audience among students who found it unusually specific about their actual experience.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

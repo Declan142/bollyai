@@ -1,0 +1,64 @@
+{
+  "slug": "kingdom",
+  "qid": { "value": "Q30947892", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Kingdom", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A Joseon-era crown prince investigates a plague of the undead while navigating palace conspiracies that reach the throne itself.",
+  "poster": {
+    "src": "/img/series/kingdom/poster.jpg",
+    "alt": "Kingdom Netflix series title card",
+    "attribution": "Poster © Netflix / Astory. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two main seasons (2019, 2020) plus the standalone special Kingdom: Ashin of the North (July 2021). No further seasons confirmed; creator Kim Eun-hee has not announced a continuation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kingdom_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": { "value": "2019-01-25", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "Reinvents zombie and sageuk genres simultaneously; tight six-episode pacing and immaculate production design give historical horror real dread." },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 25,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6611916/" },
+      "review_body": "Season 1 landed on Netflix in January 2019 and earned immediate critical recognition as one of the streaming era's most accomplished genre hybrids. The zombie mythology was reconfigured around Joseon-era power dynamics: the undead dormant in daylight, rampaging at night, forcing characters to race the sun rather than one another. Critics at 96 percent positive on Rotten Tomatoes praised the formal discipline, the production design, and writer Kim Eun-hee's refusal to treat the plague as mere spectacle. The political subplot, with its corrupt regent and dying king, gave the horror stakes that extended beyond the body count.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": { "value": "2020-03-13", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.4, "basis": "Deepens both the viral mythology and the political intrigue without losing kinetic momentum; widely reviewed as a sequel that matches rather than diminishes its predecessor." },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 20,
+        "pull_quotes": [
+          {
+            "text": "Season 2 doubles down on the viral aspect of the zombie outbreak, exploring its natural origin, how it spreads, and most frighteningly, how it evolves.",
+            "source": "GameSpot",
+            "url": "https://www.gamespot.com/reviews/kingdom-season-2-netflix-review-a-zombie-show-that/1900-6417439/"
+          }
+        ]
+      },
+      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6611916/" },
+      "review_body": "Season 2 arrived in March 2020 and critics largely held their enthusiasm, with reviewers flagging that the show doubled down on the viral mythology, tracing the plague's biological evolution while sharpening the political conspiracy to its resolution. GameSpot's review called it a zombie show that actually has something to say, noting the outbreak's natural origin and evolutionary behaviour were explored with genuine rigour. The season concluded the main crown prince arc, leaving the cliffhanger that pointed toward the Ashin of the North special. Audience scores on IMDb remained consistent with Season 1, an unusual achievement for a sequel.",
+      "season_over_season": "Resolves the core palace conspiracy while escalating the plague's scope; maintains Season 1's critical standing and audience loyalty, a rare sequel parity."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

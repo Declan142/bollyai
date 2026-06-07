@@ -1,0 +1,53 @@
+{
+  "slug": "deaths-game",
+  "qid": { "value": "Q121145295", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Death's Game", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "TVING", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "After a man attempts suicide, Death forces him to inhabit thirteen different lives and experience each death in full before he can reclaim his own existence.",
+  "poster": {
+    "src": "/img/series/deaths-game/poster.jpg",
+    "alt": "Death's Game series poster featuring Seo In-guk",
+    "attribution": "Poster © TVING / Playlist. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Eight-episode limited series across two parts; Part 1 December 2023, Part 2 January 2024. Self-contained narrative, no sequel confirmed.",
+    "source": "IMDb",
+    "source_url": "https://www.imdb.com/title/tt26225038/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": { "value": "2023-12-15", "source": "TVING broadcast record", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 8.3, "basis": "IMDb 8.5 and MyDramaList 8.8 reflect an audience that responded strongly to Seo In-guk's range-demanding performance; critical notes on its simplified treatment of mental health prevent a higher craft ceiling." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Surprisingly an uplifting drama that addresses the sensitive yet crucial topic of life and death.",
+            "source": "Korean Binge",
+            "url": "https://korean-binge.com/2024/01/07/k-drama-review-deaths-game-2023-24/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26225038/"
+      },
+      "review_body": "Death's Game builds its hook around anthology structure: each episode plants Seo In-guk's suicidal lead inside a new body, a new life, and a new death. The formal constraint forces the show to regenerate its energy every hour, and Seo In-guk's physical and emotional range across the different hosts is the primary reason it works. The Korean trade press, including Cine21, praised the worldview as novel and lauded VFX rarely seen in domestic production, while flagging that the show occasionally leans on spectacle over interiority. Some reviewers found the messaging around suicide reductive, treating death primarily as a life-lesson delivery mechanism. Audience scores landed high regardless: IMDb 8.5, MyDramaList 8.8. The two-part release structure, four episodes in December 2023 and four in January 2024, sustained conversation longer than a full drop would have.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

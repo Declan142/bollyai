@@ -1,0 +1,112 @@
+{
+  "slug": "stranger-things",
+  "qid": { "value": "Q19798734", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Stranger Things", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "In 1980s Hawkins, Indiana, a group of kids confronts the supernatural horrors of the Upside Down across five seasons of escalating genre spectacle.",
+  "poster": {
+    "src": "/img/series/stranger-things/poster.jpg",
+    "alt": "Stranger Things series logo",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Series concluded with Season 5 finale on December 31, 2025. No further seasons confirmed; creators have indicated the main story is complete.",
+    "source": "Netflix Tudum",
+    "source_url": "https://www.netflix.com/tudum/features/stranger-things-season-5-release-date"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 8,
+      "release_date": { "value": "2016-07-15", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.0, "basis": "Debut season achieved 97% on Rotten Tomatoes; critics and audiences aligned on a tightly plotted, emotionally cohesive tribute to 80s genre cinema that established the franchise's identity." },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt4574334/" },
+      "review_body": "Season 1 debuted in July 2016 to 97% on Rotten Tomatoes. Critics highlighted the Duffer Brothers' confident command of 80s genre pastiche, the child ensemble's naturalistic performances, and a mystery plot that escalated at exactly the right pace. Audience scores matched critical enthusiasm. The season established Hawkins as a fully realised world and set a benchmark the later seasons would spend significant effort trying to recapture.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 9,
+      "release_date": { "value": "2017-10-27", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.5, "basis": "94% from critics; expanded the mythology and character depth, though the mid-season Chicago detour flagged as a structural stumble." },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.8, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt4574334/" },
+      "review_body": "Season 2 held strong at 94% critical approval. The Duffer Brothers deepened the mythology around the Upside Down and gave Will Byers a more central arc. Critics noted the emotional payoff of the ensemble dynamics while flagging the standalone Episode 7 as a significant structural detour. Audience scores stayed near Season 1 levels.",
+      "season_over_season": "Marginally lower critical score than Season 1; audience engagement held. The mythology expansion was broadly praised; Episode 7's tonal diversion was the main point of friction."
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": { "value": "2019-07-04", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.3, "basis": "89% on Rotten Tomatoes; critics praised the summer blockbuster energy and Steve-Dustin dynamic, with some noting the tonal shift toward action comedy over horror." },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.7, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt4574334/" },
+      "review_body": "Season 3 leaned further into 80s blockbuster comedy territory and delivered Netflix's biggest viewing event of 2019. Critics settled at 89%, praising the season's pace and the Steve-Dustin pairing while noting the show had traded its horror roots for a more crowd-pleasing register. Audience engagement remained high.",
+      "season_over_season": "The tonal shift toward comedy over horror divided a subset of critics, though overall approval stayed strong. Action sequences scaled up noticeably from Seasons 1 and 2."
+    },
+    {
+      "number": 4,
+      "year": 2022,
+      "episodes": 9,
+      "release_date": { "value": "2022-05-27", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "89% critical approval; Vecna emerged as the franchise's most threatening villain, and the extended episode runtimes paid off for many critics as genuine cinematic ambition." },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt4574334/" },
+      "review_body": "Season 4 arrived post-pandemic in two volumes and was the series' most cinematically ambitious outing. Critics praised Vecna as a genuinely frightening villain and highlighted the Kate Bush-anchored Running Up That Hill sequence as a cultural moment. The extended runtimes drew some complaints about bloat, but the overall 89% rating reflected strong consensus on craft ambition.",
+      "season_over_season": "Critical score matched Season 3 at 89%, but the register shifted back toward horror. Runtimes and production scale both expanded significantly."
+    },
+    {
+      "number": 5,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": { "value": "2025-11-26", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.5, "basis": "Series finale season; 85% critical score but the lowest in the run, with a historic 56% audience score gap driven partly by review bombing and partly by genuine disappointment at how the show wrapped its characters." },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 147,
+        "pull_quotes": [
+          {
+            "text": "'Stranger Things' traps itself in arrested development. When you get bigger without going deeper, you end up stretched thin.",
+            "source": "Variety",
+            "url": "https://variety.com/2025/tv/reviews/stranger-things-5-review-netflix-1236592953/"
+          }
+        ]
+      },
+      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt4574334/" },
+      "review_body": "Season 5 closed the Hawkins saga in three volumes across November and December 2025, ending with the New Year's Eve finale. Critics gave it 85% on Rotten Tomatoes, technically fresh, but the series' lowest score and accompanied by the starkest critical-audience divide in the show's history. Variety's Alison Herman argued the show declined to enrich its characters as they aged, remaining primarily pastiche. The 56% Popcornmeter was partly review-bombed over Will Byers' coming-out storyline, compressing a signal that was already trending below the show's historic baseline. The overall IMDb rating settled at 8.0. For a five-season run, the finale delivered on spectacle; whether it delivered on character arcs is where the room split cleanly.",
+      "season_over_season": "The lowest critical score in the run and the widest audience-critic gap; the show's mythology reached its designed endpoint but the character payoffs divided the audience that had invested across nine years."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

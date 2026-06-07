@@ -1,0 +1,85 @@
+{
+  "slug": "the-bear",
+  "qid": { "value": "Q112761982", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "The Bear", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Disney+ Hotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A fine-dining chef returns to run his late brother's Chicago sandwich shop and tries to transform both the kitchen and himself.",
+  "poster": {
+    "src": "/img/series/the-bear/poster.jpg",
+    "alt": "The Bear title card",
+    "attribution": "Poster © FX Productions / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 5, the series finale, dropped June 25, 2026 on FX on Hulu with all 8 episodes at once. The show concluded its run after five seasons.",
+    "source": "ComingSoon",
+    "source_url": "https://www.comingsoon.net/tv/news/2129274-hit-hulu-fx-tv-show-ending-sets-final-season-release-date"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": { "value": "2022-06-23", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.1, "basis": "100% Rotten Tomatoes critic score and 8.5 IMDb audience rating; the single-take 'Review' episode became a benchmark for tension in half-hour television." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14452776/" },
+      "review_body": "Season 1 announced The Bear as something new in prestige television: a half-hour drama that ran at the pace and intensity of a thriller while rooting itself in the tactile reality of professional kitchens and working-class Chicago grief. The 100% Rotten Tomatoes score from critics was matched by genuine word-of-mouth velocity. Jeremy Allen White's performance drew the obvious comparisons to early Joaquin Phoenix and Tom Hardy, but the ensemble around him, particularly Ayo Edebiri and Ebon Moss-Bachrach, was what separated the show from star vehicles. The kitchen as pressure-cooker metaphor was not new; the execution was.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": { "value": "2023-06-22", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.3, "basis": "99% Rotten Tomatoes and 8.9 IMDb audience, widely considered the show's creative peak; the standalone 'Fishes' episode swept awards season." },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14452776/" },
+      "review_body": "Season 2 expanded the canvas and the ambition. The restaurant renovation arc allowed the show to build character episodes with feature-length patience, most notably the 'Fishes' Christmas flashback, which critics uniformly listed among the best individual hours of that television year. The 99% Rotten Tomatoes score was near-universal; the IMDb audience rating of 8.9 outpaced Season 1's already strong figure. Emmy voters responded in kind. The Bear had moved from critics' darling to industry consensus in twelve months.",
+      "season_over_season": "Season 2 exceeded Season 1 by almost every metric: IMDb rating up to 8.9, RT critic score at 99%. The expanded character episodes gave the ensemble room the first season's compressed format could not."
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": { "value": "2024-06-27", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.9, "basis": "89% RT but a more divided critical consensus than prior seasons; Variety called it aimless, THR called it thrilling -- a clear split on whether the deliberate pace served the narrative." },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "On an episode-by-episode basis, the third season is as good as anything the show has ever done. The risks The Bear takes are thrilling.",
+            "source": "Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-bear-season-3-review-jeremy-allen-white-1235933196/"
+          },
+          {
+            "text": "Season 3 takes a step down with an aimless season that leans too heavily on star power.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/tv-reviews/the-bear-season-3-review-fx-1236049732/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 3 delivered the show's first genuinely polarising critical reception. The RT score held at 89% but the pulls were sharper in both directions: The Hollywood Reporter found it the show's finest work, while Variety diagnosed aimlessness and over-reliance on Jeremy Allen White's magnetism. Both readings found evidence in the same ten episodes. The deliberate, interiority-heavy structure that paid off so richly in Season 2 felt more indulgent here to one camp and more courageous to the other. Audience enthusiasm tracked slightly behind Seasons 1 and 2, suggesting the show's ambition had begun to exceed casual viewer patience.",
+      "season_over_season": "The first season to generate a genuine critical split, with RT dropping to 89% and major outlets divided on whether the introspective structure was the show maturing or losing momentum."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

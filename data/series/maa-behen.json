@@ -1,0 +1,58 @@
+{
+  "slug": "maa-behen",
+  "qid": null,
+  "title": { "value": "Maa Behen", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "inferred" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "limited",
+  "logline": "A widowed mother and her two estranged daughters stumble into chaos when a neighbour dies in their kitchen, spinning a dark comedy about women, secrets, and the ties that bind.",
+  "poster": {
+    "src": "/img/series/maa-behen/poster.jpg",
+    "alt": "Maa Behen Netflix film poster: Madhuri Dixit, Triptii Dimri, Dharna Durga",
+    "attribution": "Poster © Netflix / Excel Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Feature-length film (127 min), not a serialised series. No continuation announced.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81702997"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 1,
+      "release_date": { "value": "2026-06-04", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.5, "basis": "Madhuri Dixit's loose, charismatic performance and a sharp first half outpace a second half that slows and leans on melodrama; the film landed at number one on Netflix India, suggesting strong audience appetite for exactly this tone." },
+      "critic": {
+        "positive_pct": 58,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "It is a joy to watch Madhuri Dixit cut loose from the confines of superstardom in Netflix's Maa Behen.",
+            "source": "Open Magazine",
+            "url": "https://openthemagazine.com/entertainment/maa-behen-review-madhuri-at-full-throttle"
+          },
+          {
+            "text": "After that initial patches of unevenness, this one manages to land safely, not smoothly.",
+            "source": "Lensmen Reviews",
+            "url": "https://lensmenreviews.com/maa-behen-hindi-movie-review-netflix-2026/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt33538438/"
+      },
+      "review_body": "Directed by Suresh Triveni, Maa Behen arrived as one of the more commercially charged Netflix India originals of June 2026, hitting number one on the platform within days. The critical picture is a familiar split: the performance camp cited Madhuri Dixit's loose, funny energy as the whole film's centre of gravity, with Triptii Dimri and Dharna Durga providing quality backing. The structural camp flagged a second half that loses momentum and turns melodramatic after a sharper opening act. Reviewers across outlets described the screenplay as crowded and the tone as uneven. Scroll.in flagged the pleasures of watching women misbehave on screen; harder critics called it a middle-of-the-road effort. The audience pull is real, and the film earns its recommendation for Madhuri fans, though the screenplay does not fully keep pace with her.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

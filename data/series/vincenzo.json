@@ -1,0 +1,53 @@
+{
+  "slug": "vincenzo",
+  "qid": { "value": "Q101252455", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Vincenzo", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A Korean-born Italian mafia consigliere returns to Seoul to recover hidden gold and ends up leading the residents of a crumbling commercial plaza in a war against a corrupt pharmaceutical conglomerate.",
+  "poster": {
+    "src": "/img/series/vincenzo/poster.jpg",
+    "alt": "Vincenzo series poster featuring Song Joong-ki",
+    "attribution": "Poster © tvN / Studio Dragon / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Twenty-episode single-season run on tvN; concluded May 2021. No sequel announced.",
+    "source": "tvN",
+    "source_url": "https://www.imdb.com/title/tt13433812/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 20,
+      "release_date": { "value": "2021-02-20", "source": "tvN broadcast record", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 8.0, "basis": "Song Joong-ki carries the genre-blending spectacle with ease and the villain ensemble is a genuine pleasure; the twenty-episode length and tonal inconsistency keep it shy of the prestige tier." },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "Netflix's wild and absorbing show starring Song Joong-ki ends on a troubling note.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3132066/k-drama-review-vincenzo-netflixs-wild-and-absorbing-show"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/61371-vincenzo"
+      },
+      "review_body": "Vincenzo is the rare K-drama that commits fully to tonal chaos and makes it work for the majority of its run. The show pivots between operatic slapstick, mafia procedural, romantic subplot, and courtroom thriller within a single episode, and Song Joong-ki absorbs all of it with a performance calibrated to hold the center. The formal critic sample on Rotten Tomatoes was thin but positive, while MyDramaList's mass audience settled at a high 8.9 across over 130,000 users. Where the room split was on the finale: several critics noted the closing episodes leaned into a sadistic streak that felt at odds with the show's comedic energy. The twenty-episode run is the structural tax, with padding most visible around episodes 10 to 14. Still, it remains the gold standard for K-drama action-comedy hybrids with international reach.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

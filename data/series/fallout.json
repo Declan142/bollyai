@@ -1,0 +1,48 @@
+{
+  "slug": "fallout",
+  "qid": { "value": "Q113127312", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Fallout", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A vault-dweller, a ghoul bounty hunter, and a soldier navigate the post-nuclear wasteland of the Fallout video game universe in an adaptation that treats the games' dark absurdism as a design brief.",
+  "poster": {
+    "src": "/img/series/fallout/poster.jpg",
+    "alt": "Fallout television series logo",
+    "attribution": "Poster © Amazon MGM Studios / Bethesda Softworks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 premiered December 16, 2025 with weekly episodes through February 3, 2026. Season 3 renewed in May 2025 ahead of Season 2 premiere.",
+    "source": "Amazon MGM Studios press release",
+    "source_url": "https://press.amazonmgmstudios.com/us/en/press-release/ifallouti-renewed-for-season-three-ahead-of-season"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": { "value": "2024-04-10", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.5, "basis": "94% on Rotten Tomatoes from 100+ critics; the critical consensus positioned it as the benchmark for video game adaptations, with praise centred on tonal commitment and Ella Purnell's lead performance." },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 106,
+        "pull_quotes": [
+          {
+            "text": "Bizarre but intensely fun, 'Fallout' is like nothing you've ever seen; for that reason alone, you won't be able to turn away.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/reviews/fallout-tv-series-review-prime-video-1235964070/"
+          }
+        ]
+      },
+      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt12637874/" },
+      "review_body": "Fallout Season 1 arrived in April 2024 as the most critically successful video game adaptation to date. The show earned 94% on Rotten Tomatoes across 106 reviews and drew 65 million viewers in its first two weeks, becoming one of Prime Video's top-three most-watched titles. Critics praised Jonathan Nolan and Lisa Joy's production for treating the games' dark comedy and archaic-tech aesthetic not as a limitation but as a formal commitment. Variety called it 'bizarre but intensely fun.' Some critics flagged mid-season pacing drag, but the three-protagonist structure gave the show narrative flexibility that pure adaptations often lack. Metacritic landed at 73 from 33 critics, reflecting a more tempered critical centre.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

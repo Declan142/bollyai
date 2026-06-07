@@ -1,0 +1,64 @@
+{
+  "slug": "andor",
+  "qid": { "value": "Q60462338", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Andor", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Disney+/JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "The radicalisation of Cassian Andor into a rebel spy, told across two seasons as a grounded, politically serious examination of fascism and resistance set five years before Rogue One.",
+  "poster": {
+    "src": "/img/series/andor/poster.jpg",
+    "alt": "Andor series logo",
+    "attribution": "Poster © Lucasfilm / Disney+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Series concluded with Season 2 finale on May 13, 2025. Always planned as a two-season story ending at the events of Rogue One.",
+    "source": "The Hollywood Reporter",
+    "source_url": "https://www.hollywoodreporter.com/tv/tv-news/andor-season-2-reviews-rotten-tomatoes-score-1236197849/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": { "value": "2022-09-21", "source": "Disney+", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.8, "basis": "96% on Rotten Tomatoes; the Narkina 5 prison break arc in particular drew some of the strongest episodic praise in the Star Wars franchise, with critics citing the show's willingness to treat political themes as substantive rather than decorative." },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9253284/" },
+      "review_body": "Andor Season 1 premiered September 2022 and arrived as the critical consensus pick for best live-action Star Wars content. Critics awarded 96% on Rotten Tomatoes and consistently highlighted the Narkina 5 prison arc (Episode 10, 'One Way Out') as franchise-best television. The show's willingness to treat fascism, class politics, and the psychology of radicalisation as actual themes rather than genre decoration was the line critics kept returning to. Slowburn first three episodes gave way to sustained acclaim.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 12,
+      "release_date": { "value": "2025-04-22", "source": "Disney+", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.4, "basis": "98% on Rotten Tomatoes from 153 critics; five consecutive final episodes achieved IMDb scores of 9.5 or higher, a live-action TV first. The season is the highest-rated Star Wars property on any platform by any metric." },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 153,
+        "pull_quotes": [
+          {
+            "text": "Season 2 cements itself as the gold standard of what modern 'Star Wars' can be, richly satisfying as a complete work.",
+            "source": "Variety",
+            "url": "https://variety.com/2025/tv/reviews/andor-season-2-review-disney-star-wars-1236372979/"
+          }
+        ]
+      },
+      "audience": { "rating": 9.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9253284/" },
+      "review_body": "Andor Season 2 released April-May 2025 in four weekly three-episode drops and concluded the series on May 13. Critics awarded 98% on Rotten Tomatoes from 153 reviews; only one dissent. The final five episodes set an IMDb record for any live-action series, each scoring 9.5 or above, with Episode 8 at 9.8. Variety's Alison Herman called it the gold standard of modern Star Wars. The season compressed four years of Cassian's story into 12 episodes and arrived at the opening frame of Rogue One with momentum critics called 'emotionally crushing.' The IMDb overall settled near 9.3. By any objective aggregate metric, Andor is the highest-rated Star Wars property ever produced.",
+      "season_over_season": "Season 2 improved on Season 1's 96% to reach 98%; the emotional escalation as the timeline collapsed toward Scarif produced the show's best-reviewed episodes by a significant margin."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

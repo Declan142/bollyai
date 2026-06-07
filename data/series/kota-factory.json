@@ -1,0 +1,80 @@
+{
+  "slug": "kota-factory",
+  "qid": { "value": "Q65060813", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Kota Factory", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "Shot in monochrome, a group of IIT aspirants navigate the pressure-cooker coaching culture of Kota under the mentorship of the beloved Jeetu Bhaiya.",
+  "poster": {
+    "src": "/img/series/kota-factory/poster.jpg",
+    "alt": "Kota Factory Season 2 poster",
+    "attribution": "Poster © TVF / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 3 was billed as the final season. Netflix has not announced Season 4 as of June 2026, and creators have not confirmed continuation.",
+    "source": "Filmibeat",
+    "source_url": "https://www.filmibeat.com/bollywood/ott/2024/kota-factory-3-release-time-here-when-to-watch-jitendra-kumar-final-season-on-netflix-plot-cast-402441.html"
+  },
+  "seasons": [
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 5,
+      "release_date": { "value": "2024-06-20", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.8, "basis": "A tonally mature close to the Kota arc, with anxiety and depression handled with more candour than before, though some critics flagged structural complicity in normalising the same pressure-cooker system it depicts." },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "While the third season may at times have unknowingly normalized the very struggle it portrays, the finale leads to a cathartic sigh of temporary solace.",
+            "source": "High on Films",
+            "url": "https://www.highonfilms.com/kota-factory-season-3-netflix-review/"
+          }
+        ]
+      },
+      "audience": { "rating": 9.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9432978/" },
+      "review_body": "Season 3 narrows to Vaibhav's JEE Advanced reckoning and Jeetu Bhaiya's pivot toward a government education role, giving the finale a more personal register than the series had previously attempted. The monochrome cinematography continues to do heavy thematic work, each frame amplifying the anxiety that the narrative sometimes sidesteps in dialogue. Critics split on the central question of whether the show critiques or romanticises the Kota machine: the positive camp praised its emotional honesty, the dissenting camp called it structurally complicit. The audience rating spiked on the finale episode, suggesting the show landed its ending for viewers even where it divided critics.",
+      "season_over_season": "Tightest episode count of the three seasons at five episodes, with the most explicit engagement with mental health and the least comedy relief, marking a clear tonal graduation from the debut."
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": { "value": "2021-09-24", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 deepened the Kota world with additional aspirant storylines and a broader portrait of mentor-student dynamics, maintaining the monochrome aesthetic and building toward the JEE Advanced arc.",
+      "season_over_season": "Expanded ensemble and increased emotional stakes from the YouTube-era debut."
+    },
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 5,
+      "release_date": { "value": "2019-04-16", "source": "TVF YouTube", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The debut season launched on TVF's YouTube channel, introducing the distinctive monochrome visual language and establishing Jeetu Bhaiya as one of the most resonant mentor characters in Indian streaming.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

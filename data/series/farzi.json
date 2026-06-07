@@ -1,0 +1,53 @@
+{
+  "slug": "farzi",
+  "qid": null,
+  "title": { "value": "Farzi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A street artist and small-time counterfeiter gets pulled into a high-stakes currency fraud, while a tenacious STF officer closes in from the other side of the system.",
+  "poster": {
+    "src": "/img/series/farzi/poster.jpg",
+    "alt": "Farzi series poster: Shahid Kapoor and Vijay Sethupathi",
+    "attribution": "Poster © Amazon MGM Studios / Raj and DK / D2R Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 confirmed in production. On the show's third anniversary in February 2026, Raj and DK posted a teaser image. Shahid Kapoor confirmed principal photography underway in March 2026. Expected late 2026 or early 2027.",
+    "source": "Zee Zest / Magicpin",
+    "source_url": "https://zeezest.com/culture/farzi-season-2-5723"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": { "value": "2023-02-10", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.6, "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split -- Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Farzi is the first of Raj and DK's projects to feel like a tired imitation rather than its own, vital thing.",
+            "source": "Variety",
+            "url": "https://variety.com/2023/tv/global/farzi-tv-review-prime-video-family-man-1235519603/"
+          },
+          {
+            "text": "Shahid Kapoor and Vijay Sethupathi make a pitch-perfect debut in this Raj and DK crime thriller.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/farzi-review-shahid-kapoor-vijay-sethupathi-make-a-pitch-perfect-debut-with-this-raj-and-dk-crime-thriller-amazon-prime"
+          }
+        ]
+      },
+      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt15477488/" },
+      "review_body": "Farzi premiered on 10 February 2023 and became the most-watched Hindi web series of the year with a reported 37.1 million viewers. The Raj and DK series pairs Shahid Kapoor's street-artist counterfeiter with Vijay Sethupathi's obsessive STF officer, setting up a cat-and-mouse that the directors animate with their trademark tonal fluency. Critical response split along a familiar fault line: sympathetic reviews from Film Companion and Indian outlets cited the assured screenplay and career-best Kapoor; Variety's international notice called it the first Raj and DK project that felt formulaic. The audience sided decisively with the domestic consensus. The eight-episode structure was debated, with Variety noting the plot could have been tighter, but the finale episode scored 9.0 on IMDb, suggesting the payoff landed for viewers who stayed.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

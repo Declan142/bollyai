@@ -1,0 +1,55 @@
+{
+  "slug": "all-of-us-are-dead",
+  "qid": { "value": "Q96414952", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "All of Us Are Dead", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A zombie virus outbreak traps high school students inside their school, forcing them to survive each other as much as the infected.",
+  "poster": {
+    "src": "/img/series/all-of-us-are-dead/poster.jpg",
+    "alt": "All of Us Are Dead Netflix series poster",
+    "attribution": "Poster © Netflix / Climax Studio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 confirmed and in production. Principal photography commenced July 23, 2025 and wrapped February 18, 2026; no release date announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/All_of_Us_Are_Dead"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": { "value": "2022-01-28", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.5, "basis": "89% on Rotten Tomatoes and 474 million hours viewed in 30 days make this one of Netflix Korea's biggest launches; the twelve-episode length stretched thin but the emotional grounding held." },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 27,
+        "pull_quotes": [
+          {
+            "text": "All of Us Are Dead loses some of its bite with an overlong season but its emotional grounding puts plenty of meat on the bone.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/all_of_us_are_dead/s01"
+          },
+          {
+            "text": "A grisly series that bites off more than it can chew.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/all-of-us-are-dead-review-netflix-k-drama-3147993"
+          }
+        ]
+      },
+      "audience": { "rating": 7.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14169960/" },
+      "review_body": "Released January 28, 2022, Season 1 was watched 474 million hours in its first 30 days, making it one of the largest launches in Netflix Korea's history. Critics at 89 percent positive on Rotten Tomatoes praised the show's ability to place zombie horror inside a Korean high school's social hierarchies, extracting genuine emotional stakes from survival dynamics. The consensus noted the 12-episode run overstayed its premise: NME's Carmen Chin called it a grisly series that bites off more than it can chew. Variety's Caroline Framke highlighted the show's skill with nightmarish central location, comparing the spatial pressure to Squid Game's arena. Metacritic landed at 67, generally favorable. IMDb audience scores at 7.2 reflect solid but not exceptional viewer satisfaction.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [
+    "Season 2 production wrapped February 2026; no release date confirmed as of June 2026. Season 2 entry to be seeded on announcement."
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

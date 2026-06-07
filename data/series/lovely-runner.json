@@ -1,0 +1,47 @@
+{
+  "slug": "lovely-runner",
+  "qid": { "value": "Q121144610", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Lovely Runner", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "tvN / Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "limited",
+  "logline": "A wheelchair-bound K-pop fan time-travels to her idol's high-school years and races to prevent his death while untangling the consequences of rewriting the past.",
+  "poster": {
+    "src": "/img/series/lovely-runner/poster.jpg",
+    "alt": "Lovely Runner series poster",
+    "attribution": "Poster © Studio S / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "No Season 2 announced; tvN has not renewed the series as of June 2026. K-drama limited runs rarely continue.",
+    "source": "The Review Geek",
+    "source_url": "https://www.thereviewgeek.com/renewedorcanceled-lovelyrunners2/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 16,
+      "release_date": { "value": "2024-04-08", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.3, "basis": "IMDb 8.5 and a MyDramaList score in the 9.1-9.2 range reflect genuine cross-border fandom; the time-travel mechanics frustrate some critics but the lead chemistry and emotional pacing drive an unusually high completion rate." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt31324295/"
+      },
+      "review_body": "Lovely Runner landed as the breakout K-drama of the first half of 2024, turning Byeon Woo-seok into a regional cultural phenomenon and pushing Kim Hye-yoon to the top of Baeksang consideration. The time-travel scaffold is familiar, but the series runs it with enough emotional precision and comic lightness to keep audiences forgiving of plot-logic stretches. Audience scores stayed consistently in the 9+ range on MyDramaList, with reviewers citing the lead chemistry and the show's ability to make its stakes feel genuinely personal despite the genre machinery. Critical attention from Western trade outlets was sparse, but the viewership data and fan-driven discourse more than compensated. The back half draws a minority of viewers who flag pacing slack and time-loop repetition; the majority verdict is that the emotional payoff lands.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

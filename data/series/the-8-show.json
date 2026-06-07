@@ -1,0 +1,58 @@
+{
+  "slug": "the-8-show",
+  "qid": { "value": "Q124001145", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "The 8 Show", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "limited",
+  "logline": "Eight cash-strapped strangers locked in a money-earning game show discover that the eight-floor structure grants wildly unequal rewards, forcing a brutal internal economy to emerge.",
+  "poster": {
+    "src": "/img/series/the-8-show/poster.jpg",
+    "alt": "The 8 Show series poster",
+    "attribution": "Poster © Netflix Korea. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Netflix reclassified as a limited series; no Season 2 renewal announced.",
+    "source": "What's on Netflix",
+    "source_url": "https://www.whats-on-netflix.com/news/netflix-seemingly-already-rules-out-season-2-of-k-drama-the-8-show/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": { "value": "2024-05-17", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.8, "basis": "Ambitious class-allegory concept and a strong ensemble are undercut by underdeveloped characters and tonal inconsistency; 75% RT approval against an IMDb 7.2 captures the gap between the idea and the execution." },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "The 8 Show struggles with underdeveloped characters and disjointed humor.",
+            "source": "Collider",
+            "url": "https://collider.com/the-8-show-netflix-review/"
+          },
+          {
+            "text": "When you have Squid Game at home.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2024/05/18/the-8-show-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt30423279/"
+      },
+      "review_body": "The 8 Show arrives with an irresistible premise: eight floors, eight contestants, wildly unequal time-credit distribution, and a class structure that reproduces itself in miniature. Director Han Jae-rim and a strong ensemble deserve credit for the visual grammar and the physical commitment of the cast. The problem critics kept returning to was execution depth: the satirical architecture is evident but the characters remain types rather than people, and the humor lands unevenly. Collider gave it five out of ten, noting underdeveloped characters and disjointed humor. Ready Steady Cut's headline read like a verdict: when you have Squid Game at home. The IMDb audience settled at 7.2 and Netflix's own viewership placed it seventh in the global non-English top ten its first week. For fans of dystopian game-show allegory, the premise alone will carry the watch; others will find the execution a step behind the concept.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

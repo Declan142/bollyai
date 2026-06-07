@@ -1,0 +1,66 @@
+{
+  "slug": "wednesday",
+  "qid": { "value": "Q105553568", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Wednesday", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Wednesday Addams navigates her psychic abilities, murder mysteries, and fractious social politics at Nevermore Academy, a school for supernatural outcasts.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "Wednesday series poster",
+    "attribution": "Poster © MGM Television / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 confirmed July 2025; filming began in Ireland February 2026, with Paris locations added April 2026. Expected no earlier than 2027.",
+    "source": "Netflix Tudum",
+    "source_url": "https://www.netflix.com/tudum/articles/wednesday-season-3-release-date"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": { "value": "2022-11-23", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 7.8, "basis": "A sleek, commercially calibrated gothic mystery elevated by Jenna Ortega's physical performance; critic consensus settled around enjoyably pulpy rather than genuinely surprising." },
+      "critic": {
+        "positive_pct": 73,
+        "sample": 172,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt13443470/" },
+      "review_body": "Season 1 arrived as Netflix's biggest English-language series debut at the time, riding Jenna Ortega's deadpan physicality and Tim Burton's gothic production design. Critics logged a functional but unambitious mystery plot propped up by a breakout lead performance. The 73% Rotten Tomatoes score reflects a split between those who found the tone freshly off-kilter and those who called it formula with better eyeliner. Audience appetite wildly outpaced critical caution. The Nevermore Academy setting gave the show a stable visual identity; the whodunit scaffolding held well enough across eight episodes without demanding much structural lift.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": { "value": "2025-08-06", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.2, "basis": "Critical score improved to 83% but reviewer language tilted toward 'turgid' and 'out of surprises'; audience remained loyal, commercial performance was record-breaking." },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 85,
+        "pull_quotes": [
+          {
+            "text": "The thing that's most surprising about season two of Wednesday is how quickly Wednesday appears to have run out of surprises.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/wednesday-season-2-review-jenna-ortega-netflix-tim-burton-1236338015/"
+          }
+        ]
+      },
+      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt13443470/" },
+      "review_body": "Season 2 shipped in two parts across August and September 2025, landing at 83% on Rotten Tomatoes and number one in 91 countries in its first week, clocking 625.9 million cumulative hours viewed. The critical headline read as an improvement over Season 1's 73%, but the actual review language told a more complicated story: Hollywood Reporter called it 'turgid', with Wednesday 'reduced to a psychic gumshoe prone to seizures'. Positive critics pointed to sharper direction and expanded mythology. The Addams family fan base absorbed both verdicts and turned out anyway. The sophomore slump was avoided commercially; creatively, the writing room ran familiar patterns without deepening the central character.",
+      "season_over_season": "Rotten Tomatoes score jumped ten points over Season 1, but the critical language grew more qualified; the commercial runaway performance widened while craft assessments plateaued."
+    }
+  ],
+  "_quarantine": [
+    "poster: no originalimage on Wikipedia REST for Wednesday (TV series); fallback set"
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

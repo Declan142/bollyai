@@ -1,0 +1,44 @@
+{
+  "slug": "raakh",
+  "qid": null,
+  "title": { "value": "Raakh", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "running",
+  "logline": "A 1978 Delhi manhunt following the disappearance and murder of schoolchildren, tracing a relentless investigator and the disturbing psychology of the men behind the crime.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "Raakh series poster",
+    "attribution": ""
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 1 premiered June 12, 2026. No renewal announcement at time of seeding.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2026/tv/news/ali-fazal-sonali-bendre-raakh-june-prime-video-premiere-1236761940/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": null,
+      "release_date": { "value": "2026-06-12", "source": "Variety", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Raakh premiered on Amazon Prime Video on June 12, 2026, directed and executive-produced by Prosit Roy (Paatal Lok), and created by Anusha Nandakumar and Sandeep Saket. The series is set in 1978 Delhi and follows a police investigation into the disappearance and murder of school students, with Ali Fazal leading as the investigator and Sonali Bendre and Aamir Bashir in key supporting roles. Pre-release trade coverage positioned it as a psychologically layered crime procedural with a period setting, promising moral ambiguity and a slow-burn manhunt. Critical reviews had not aggregated at the time of seeding; the verdict and BollyMeter will be updated once the critical window closes.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [
+    "Poster miss: no Wikipedia article found for Raakh (2026 TV series) at seeding time. Using fallback."
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "scoop",
+  "qid": { "value": "Q118904144", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Scoop", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "limited",
+  "logline": "Hansal Mehta adapts journalist Jigna Vora's memoir about being accused of ordering a rival reporter's murder, tracing her arrest, imprisonment, and the media machinery that tried to bury her before truth emerged.",
+  "poster": {
+    "src": "/img/series/scoop/poster.jpg",
+    "alt": "Scoop Netflix series poster",
+    "attribution": "Poster © Netflix / Matchbox Shots. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Scoop Season 1 concluded Jagruti Pathak's story. Creators indicated future seasons would follow different journalists and real crimes; no Season 2 greenlight confirmed as of June 2026.",
+    "source": "Ready Steady Cut",
+    "source_url": "https://readysteadycut.com/2023/06/03/scoop-season-2-netflix/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": { "value": "2023-06-02", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.1, "basis": "92% on Rotten Tomatoes; Filmfare OTT Best Drama Series 2023; Karishma Tanna's career-best performance and Hansal Mehta's characteristic blend of systemic critique and personal stakes made it one of the year's best Hindi originals." },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 12,
+        "pull_quotes": [
+          { "text": "Densely plotted yet character-driven, Hansal Mehta's Scoop paints a fascinating portrait of the journalism industry, but buries the lede.", "source": "Rotten Tomatoes", "url": "https://www.rottentomatoes.com/tv/scoop/s01/reviews" },
+          { "text": "Hansal Mehta sets the bar high in one of the best shows of the year.", "source": "Hindustan Times", "url": "https://www.hindustantimes.com/entertainment/ott/scoop-review-one-of-the-best-shows-of-the-year" }
+        ]
+      },
+      "audience": { "rating": 7.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt22297178/" },
+      "review_body": "Hansal Mehta adapts Jigna Vora's memoir with the same instinct that made Scam 1992 work: anchoring systemic critique inside one person's lived ordeal. Jagruti Pathak, the crime reporter framed for ordering a murder, is carried by Karishma Tanna in a performance critics identified as the best of her career. The show is dense with period journalism detail, Mumbai crime beat texture, and the machinery of how institutions close ranks against inconvenient individuals. The RT score reflects a genuine consensus. The one reservation some critics raised is structural: the series is so invested in the procedural and institutional layers that its emotional centre occasionally feels secondary to the machinery around it.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

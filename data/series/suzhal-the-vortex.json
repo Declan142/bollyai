@@ -1,0 +1,64 @@
+{
+  "slug": "suzhal-the-vortex",
+  "qid": { "value": "Q112630824", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Suzhal: The Vortex", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "ta", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A missing girl during a Tamil village festival triggers a spiral of dark secrets, folk tradition, and institutional rot, as two contrasting police officers close in on a truth the town wants buried.",
+  "poster": {
+    "src": "/img/series/suzhal-the-vortex/poster.jpg",
+    "alt": "Suzhal: The Vortex logo poster",
+    "attribution": "Poster © Amazon Prime Video / Pushkar-Gayathri Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 dropped February 2025 on Amazon Prime Video. No Season 3 announcement yet.",
+    "source": "MovieCrow",
+    "source_url": "https://www.moviecrow.com/News/34487/suzhal-2-amazon-prime-video-ott-release-date"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": { "value": "2022-06-17", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.4, "basis": "Pushkar-Gayathri's tight screenplay, atmospheric rural setting, and two compelling lead performances drove near-universal critical praise and strong audience retention on IMDb." },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 10,
+        "pull_quotes": [
+          { "text": "Suzhal is an intense investigative thriller that has a lot of surprises in store, making it a perfect bingewatch for the weekend.", "source": "Times of India", "url": "https://timesofindia.indiatimes.com/entertainment/tamil/web-series/suzhal-the-vortex-review/articleshow/92280226.cms" },
+          { "text": "The Vortex sets a benchmark that will take some doing to emulate.", "source": "NDTV", "url": "https://www.ndtv.com/entertainment/suzhal-the-vortex-review-the-vortex-sets-a-benchmark-that-will-take-some-doing-to-emulate-3046421" }
+        ]
+      },
+      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt20873118/" },
+      "review_body": "Season 1 established Pushkar-Gayathri's crime instincts beyond their Vikram Vedha reputation. A girl goes missing during a temple festival in a Tamil Nadu small town; the investigation threads folk ritual, caste pressure, and a police duo whose worldviews grind against each other. The craft consensus was near-unanimous: atmosphere, pacing, and a genuinely unpredictable reveal. Critics flagged some mid-season drag but credited the show for grounding supernatural-adjacent dread in procedural logic. Audience scores stayed high post-release, and the show quietly became the benchmark for Tamil OTT crime.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": { "value": "2025-02-28", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.2, "basis": "Critics were split roughly down the middle; the folk-mythology overlay and jail sequences were praised but the central investigation felt sluggish compared to Season 1's disciplined construction." },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 6,
+        "pull_quotes": [
+          { "text": "Sakkarai's quest to find Chellappa's killer is a slog; the festival scenes bustle with colour but the mystery fails to grip.", "source": "Scroll.in", "url": "https://scroll.in/reel/1079681/review-suzhal-the-vortex-gets-an-unwieldly-second-season" },
+          { "text": "While Suzhal: The Vortex Season 2 delivers an engaging mystery, it lacks the tightly woven suspense that made Season 1 a masterpiece.", "source": "CinemaBuzzBox", "url": "https://cinemabuzzbox.com/2025/suzhal-the-vortex-season-2-review/" }
+        ]
+      },
+      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt20873118/" },
+      "review_body": "Season 2 widens the canvas to include folk traditions, a prison narrative, and a new murder that connects to older crimes. The ambition is visible and the production values match Season 1, but the consensus among critics clustered around one complaint: the construction is unwieldy. The festival and jail sequences earned praise for texture and movement, but the central investigative thread lost the compression that made the first season addictive. Reviewers noted the show fails to reach the height of its own first season. Audience scores held, largely carried by franchise goodwill and strong individual performances.",
+      "season_over_season": "Season 2 broadens scope at the expense of tightness; where Season 1 coiled around a single disappearance, Season 2 spreads across institutions and traditions and loses some urgency in the process."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

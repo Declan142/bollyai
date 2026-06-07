@@ -1,0 +1,51 @@
+{
+  "slug": "avatar-the-last-airbender",
+  "qid": { "value": "Q109608844", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Avatar: The Last Airbender", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Netflix's live-action retelling of the Nickelodeon animated classic: Aang, the last Airbender and Avatar, joins Water Tribe siblings Sokka and Katara to master the four elements and end the Fire Nation's war.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "Avatar: The Last Airbender Netflix live action series poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Seasons 2 and 3 were renewed in March 2024 and filmed back-to-back from September 2024 to November 2025. Season 2 premieres June 25, 2026; Season 3 is the planned finale.",
+    "source": "Netflix Tudum",
+    "source_url": "https://www.netflix.com/tudum/articles/avatar-the-last-airbender-season-2"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": { "value": "2024-02-22", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.2, "basis": "62% on Rotten Tomatoes from 86 critics; mixed consensus: production design and key castings praised, but pacing, stripped humour, and compressed emotional arcs drew sustained criticism from reviewers familiar with the source." },
+      "critic": {
+        "positive_pct": 62,
+        "sample": 86,
+        "pull_quotes": [
+          {
+            "text": "At best competent with handsome production design, but strips out the humour of the original, leaving grim imitations of beloved characters.",
+            "source": "Paste Magazine",
+            "url": "https://screenrant.com/avatar-last-airbender-show-netflix-reviews/"
+          }
+        ]
+      },
+      "audience": { "rating": 7.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9018736/" },
+      "review_body": "Netflix's live-action Season 1 debuted February 22, 2024 and immediately topped the global Netflix chart with 298.6 million hours viewed in under two weeks, demonstrating the franchise's IP pull regardless of critical reception. Critics settled at 62% on Rotten Tomatoes from 86 reviews, Metacritic at 55. The split: production design, world-building, and the casting of Paul Sun-Hyung Lee as Uncle Iroh and Dallas Liu as Zuko drew consistent praise. Against that, critics flagged stripped humour and warmth from the original's ensemble dynamic, rushed pacing that compressed multi-episode animated arcs into single live-action episodes, and a generally darker register that removed the source's tonal dexterity. A.V. Club's Jenna Scherer noted it was 'at least better than Shyamalan', a low bar that the show mostly cleared without transcending.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [
+    "poster: no originalimage on Wikipedia REST for the 2024 Netflix series page; fallback set",
+    "qid: Q109608844 is the parent series QID derived from Season 1 Wikidata entry (Q124633659) 'part of the series' property"
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

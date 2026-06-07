@@ -1,0 +1,53 @@
+{
+  "slug": "moving",
+  "qid": { "value": "Q109317559", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Moving", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Disney+", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "Three high-school students with secret superhuman abilities navigate first love and danger as the classified histories of their spy parents begin to surface in this prestige superhero epic based on Kang Full's Naver webtoon.",
+  "poster": {
+    "src": "/img/series/moving/poster.jpg",
+    "alt": "Moving series poster",
+    "attribution": "Poster © Disney+ / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 1 concluded September 2023 to enormous acclaim; Disney has not formally announced Season 2 as of June 2026.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2023/tv/news/moving-ryu-seungryong-disney-hulu-korea-1235835046/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 20,
+      "release_date": { "value": "2023-08-09", "source": "Disney+ broadcast record", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.1, "basis": "Baeksang Grand Prize winner, 100 percent Rotten Tomatoes, MyDramaList 9.0 across 55,000 users, and six Asia Contents Awards including Best VFX. The most complete Korean prestige series of 2023 by every measurable signal." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "In adapting his own webtoon for the screen, Kang Full has stitched together a rich canvas, each character fleshed out and given their moment to shine.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3235345/disney-k-drama-review-moving-fantastic-5-star-superhero-saga-reaches-epic-finale-moves-us-tears"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/25560-moving"
+      },
+      "review_body": "Moving arrived as the most expensive Korean television series ever made, and the investment shows in every department. Twenty episodes structured around three generations of government-enhanced operatives, with the first seven functioning almost as standalone character studies before the threads converge. Critics initially flagged a slow opening cadence; the SCMP midseason recap noted ambition visible even through the early kinks. By the finale, the consensus had shifted to superlatives: Rotten Tomatoes 100 percent, Baeksang Grand Prize, six Asia Contents Awards. The structural gamble, spending enormous screen time on the parents' Cold War backstory before the teenage leads take center stage, paid off because director Park In-je and writer Kang Full gave the older generation genuinely tragic arcs. Disney's foothold in Korea, previously uncertain, was substantially strengthened by this single series.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

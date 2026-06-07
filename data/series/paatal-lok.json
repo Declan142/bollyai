@@ -1,0 +1,69 @@
+{
+  "slug": "paatal-lok",
+  "qid": null,
+  "title": { "value": "Paatal Lok", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A disillusioned Delhi sub-inspector gets the biggest case of his career and unravels a labyrinth of caste, crime, and political power stretching from the capital to India's most forgotten margins.",
+  "poster": {
+    "src": "/img/series/paatal-lok/poster.jpg",
+    "alt": "Paatal Lok series poster: Jaideep Ahlawat as Hathiram Chaudhary",
+    "attribution": "Poster © Amazon MGM Studios / Anushka Sharma / Clean Slate Filmz. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 2 dropped January 2025 to critical acclaim and chart-topping numbers. Creator Sudip Sharma has expressed openness to Season 3 but no formal greenlight as of mid-2026.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2025/tv/news/paatal-lok-2-indian-charts-season-3-1236290920/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": { "value": "2020-05-15", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.6, "basis": "Landmark debut season; near-unanimous critical praise for its unflinching caste-and-crime portrait, anchored by Jaideep Ahlawat's career-defining turn. IMDb 8.1." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9680440/" },
+      "review_body": "Paatal Lok Season 1 arrived in May 2020 as one of the most fully realised debuts in Indian streaming. Created by Sudip Sharma, the nine-episode run follows inspector Hathiram Chaudhary through an assassination plot that spirals into the underbelly of caste, media, and political patronage. Critical consensus placed it alongside the best of international crime television: the writing layers social commentary without ever telegraphing it, the ensemble cast carries weight no single star system could, and the production design commits to the grunge of its world. The series attracted institutional recognition, including placement on The New York Times' Best International TV of the Decade list. Audience rating on IMDb settled at 8.1.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": { "value": "2025-01-17", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.7, "basis": "100% on Rotten Tomatoes from 11 critics; Nagaland setting brings fresh geography and sharper political stakes, widely called equal to or stronger than the debut season." },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "Paatal Lok Season 2 justifies its long wait, delivering a haunting, thought-provoking thriller that carries forward the legacy of its predecessor.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/paatal_lok/s02"
+          },
+          {
+            "text": "Sharma and his team of co-writers have done their due diligence, building a thrilling world of characters in a fresh setting.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/paatal-lok-season-2-series-review-a-world-class-sequel-well-worth-the-wait"
+          }
+        ]
+      },
+      "audience": { "rating": 8.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9680440/" },
+      "review_body": "The five-year wait for Season 2 is answered with a shift in geography: Hathiram Chaudhary moves to Nagaland, and the series relocates from Delhi's sewer politics to the fog of northeastern India's ethnic conflict and insurgency. The move pays off. Critics landing at 100% on Rotten Tomatoes from eleven reviews noted that the change of canvas sharpens, rather than dilutes, the show's central argument about power and disposability. Jaideep Ahlawat and Ishwak Singh are joined by Tillotama Shome and Jahnu Barua; the ensemble holds. The reception was notably warmer than Season 1 among trade observers, with Variety reporting it topped Indian charts and renewed conversation about a third season. The series maintains its refusal to offer comfort.",
+      "season_over_season": "Critics broadly called Season 2 equal to or stronger than Season 1, with the Nagaland setting credited for injecting fresh urgency; the geography-first strategy is a structural upgrade on the Delhi-centric debut."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

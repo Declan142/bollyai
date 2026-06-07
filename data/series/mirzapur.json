@@ -1,0 +1,88 @@
+{
+  "slug": "mirzapur",
+  "qid": null,
+  "title": { "value": "Mirzapur", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A wedding procession ambush ignites a war for control of the gun-and-carpet belt of Uttar Pradesh, pulling two families into a spiral of ambition, violence, and retribution.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "Mirzapur series poster",
+    "attribution": "Poster © Amazon MGM Studios / Excel Media and Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 4 confirmed by Amazon Prime Video; expected late 2025 or 2026 release window per industry trades.",
+    "source": "ComingSoon.net",
+    "source_url": "https://www.comingsoon.net/guides/news/1792011-mirzapur-season-3-how-many-episodes-when-do-new-episodes-come-out"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 9,
+      "release_date": { "value": "2018-11-16", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.4, "basis": "Launched a Hindi-belt crime genre on Indian streaming; Pankaj Tripathi's Kaleen Bhaiya became a cultural touchstone. Strong IMDb signal from 93K+ voters." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Pankaj Tripathi's nuanced and hugely enjoyable performance anchors a show that is discomforting, thrilling, and gory yet entertaining.",
+            "source": "Scroll.in (via Nandini Ramnath)",
+            "url": "https://scroll.in/reel/902888/review-mirzapur-is-the-kind-of-show-that-gets-you-interested-but-also-leaves-you-wanting"
+          }
+        ]
+      },
+      "audience": { "rating": 8.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6473300/" },
+      "review_body": "Mirzapur's debut in November 2018 established a template for high-voltage Hindi-belt crime drama on Indian streaming. Created by Karan Anshuman, the nine-episode season grounds its feudal-crime story in the textured geography of Uttar Pradesh's gun-and-carpet corridor. Pankaj Tripathi as Kaleen Bhaiya became one of Indian streaming's first canonical villain performances, extracting menace from stillness rather than volume. Reviewers at the time gave mixed-to-positive notices, with Scroll praising the lead performance while trade critics flagged the pacing and graphic violence. The audience, however, was decisive: the series accrued 93,000-plus IMDb votes at 8.4, demonstrating a level of cultural penetration that made a sequel inevitable.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": { "value": "2020-10-23", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.8, "basis": "Delivered the revenge escalation audiences wanted, though critics noted uneven pacing; still the fanbase's preferred season after the original." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in October 2020 with the weight of enormous audience expectation and delivered the revenge arc the first season's cliffhanger demanded. The ten-episode run is broader and more expensive than the debut, expanding its cast of power claimants across Mirzapur and beyond. Critics gave it qualified praise, noting that the emotional momentum of specific plot beats lands hard but the structure is more scattered than Season 1. Audience response was strong, consistent with the franchise's installed base.",
+      "season_over_season": "Broader in scope and budget than Season 1, with stronger emotional payoff on carried-over story threads, but the tighter compression of the debut gives way to a more sprawling and occasionally diluted narrative."
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": { "value": "2024-07-05", "source": "IMDb / trade", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": { "score": 6.8, "basis": "Critics near-consensus: weakest season, with The Indian Express calling it a two-star entry and NDTV flagging markedly less tensile strength; audience more forgiving but the cultural conversation was subdued." },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Mirzapur 3 has markedly less tensile strength than the first two seasons.",
+            "source": "NDTV (Saibal Chatterjee)",
+            "url": "https://www.ndtv.com/entertainment/reviews/mirzapur-3-review-1-5-stars-2-5-stars"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 3, landing in July 2024, attempted to broaden the franchise's political ambition by spreading its power struggle across Uttar Pradesh state rather than the city. Reviewers were broadly unconvinced. Shubha Gupta in The Indian Express gave it two stars, calling it the weakest season; Saibal Chatterjee at NDTV cited reduced tensile strength; even sympathetic notices noted undercooked character arcs and laboured pacing. The series retains its core cast and the bones of its world, but the creative engine that made Seasons 1 and 2 gripping has slowed to a prestige-TV idle. A bonus episode released in August 2024 partially addressed the fan clamour for a returning character.",
+      "season_over_season": "Reviewers and audience alike rated Season 3 below the first two installments; the structural choice to diffuse the story across a state rather than a city trades compression for spectacle and loses the bet."
+    }
+  ],
+  "_quarantine": [
+    "Poster: no originalimage found on Wikipedia REST API for Mirzapur_(TV_series); using _fallback.svg."
+  ],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

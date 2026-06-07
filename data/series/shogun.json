@@ -1,0 +1,48 @@
+{
+  "slug": "shogun",
+  "qid": { "value": "Q56276181", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Shogun", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Disney+ Hotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "An English navigator shipwrecked in feudal Japan in 1600 becomes entangled in a warlord's bid for supreme power, told with equal weight in Japanese and English.",
+  "poster": {
+    "src": "/img/series/shogun/poster.jpg",
+    "alt": "Shogun 2024 series poster showing Lord Toranaga",
+    "attribution": "Poster © FX Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "FX greenlit two additional seasons in May 2024. Season 2 and 3 are in production, with principal photography begun in January 2026. Season 2 expected 2027.",
+    "source": "Deadline",
+    "source_url": "https://deadline.com/2024/05/shogun-renewed-season-2-and-3-fx-1235916278/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": { "value": "2024-02-27", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.2, "basis": "99% Rotten Tomatoes (144 reviews), 18 Emmy wins including Best Drama and Best Lead Actor, widely described as one of the finest limited series ever produced for American television." },
+      "critic": {
+        "positive_pct": 99,
+        "sample": 144,
+        "pull_quotes": [
+          {
+            "text": "Transportive epic that matches Game of Thrones, tapping into the true secret sauce of epic television: a balance between sweeping grandeur and intimate psychology.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/spotlight/shogun-review-fx-game-of-thrones-1235920586/"
+          }
+        ]
+      },
+      "audience": { "rating": 8.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt2788316/" },
+      "review_body": "The 2024 Shogun is the rare prestige adaptation that made the critical establishment, the awards circuit, and general audiences converge without compromise. The 99% Rotten Tomatoes score across 144 reviews is not a qualified success, it is a consensus. Hiroyuki Sanada's performance as Toranaga, carrying tactical calculation through sustained restraint and micro-expression, gave the season its moral gravity. The commitment to authentic Japanese-language dialogue, casting, and cultural perspective separated it sharply from Western period dramas that typically treat non-English characters as atmosphere. The show swept 18 Emmy Awards and placed Sanada in the conversation for the finest television performance of the decade.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "squid-game",
+  "qid": { "value": "Q106582931", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Squid Game", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "Debt-ridden adults compete in deadly children's games for a 45.6-billion-won prize, exposing the brutal logic of economic desperation in modern South Korea.",
+  "poster": {
+    "src": "/img/series/squid-game/poster.jpg",
+    "alt": "Squid Game series logo",
+    "attribution": "Poster © Netflix / Siren Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded with Season 3 on June 27, 2025. Creator Hwang Dong-hyuk confirmed it as the series finale; a US-set spinoff is in development at Netflix.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2025/tv/reviews/squid-game-season-3-review-netflix-1236440570/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": { "value": "2021-09-17", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 9.2, "basis": "Near-flawless genre invention: class allegory embedded in survival spectacle, with an ending that reframes the entire premise. Defined a decade of global streaming conversation." },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 87,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt10919420/ratings/" },
+      "review_body": "Season 1 arrived in September 2021 and within weeks became Netflix's most-watched original series at launch. Critics clustered around two virtues: the ferocity of its class commentary and the formal ingenuity of placing economic desperation inside brightly coloured children's games. The 95-percent Rotten Tomatoes score reflected a near-consensus that the allegory landed without feeling didactic. Audience reception mirrored critical enthusiasm. The season operates as a self-contained moral argument, and that containment is precisely what made the final reveal so devastating.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": { "value": "2024-12-26", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.1, "basis": "Competent and propulsive but structurally a setup season, not a complete story; the 84% RT score masks a meaningful audience disappointment at 64% Popcornmeter." },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 98,
+        "pull_quotes": []
+      },
+      "audience": { "rating": 6.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt10919420/ratings/" },
+      "review_body": "Released December 26, 2024, Season 2 returned Gi-hun to the arena as a willing combatant seeking to dismantle the games from within. Critics scored it at 84 percent on Rotten Tomatoes, with the consensus noting that diabolical challenges and a knotty moral outlook keep the season thrilling despite the loss of first-season freshness. The audience score told a different story: 64 percent Popcornmeter and IMDb ratings measurably below Season 1 signalled viewer frustration with a season that functions more as a bridge than a standalone arc. The seven-episode count accelerated pace while sacrificing the slow-burn character work the original built its emotional weight on.",
+      "season_over_season": "Swaps the original's contained moral parable for an ongoing resistance narrative; critics held, audiences registered clear disappointment with the incomplete arc structure."
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": { "value": "2025-06-27", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.0, "basis": "A bleak, well-acted finale that resolves the arc but cannot match Season 1's structural elegance; critic approval at 81% split sharply from a 51% audience score." },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 65,
+        "pull_quotes": [
+          {
+            "text": "Season 3 puts a bow on this chapter of the phenomenon while paving the way for a new, Westernized beginning.",
+            "source": "Variety",
+            "url": "https://variety.com/2025/tv/reviews/squid-game-season-3-review-netflix-1236440570/"
+          },
+          {
+            "text": "The third and final season is still a prescient commentary on wealth, but its heavy-handed narrative feels too predictable the third time around.",
+            "source": "NPR",
+            "url": "https://www.npr.org/2025/06/27/nx-s1-5440467/squid-game-season-3-review"
+          }
+        ]
+      },
+      "audience": { "rating": 7.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt10919420/ratings/" },
+      "review_body": "The six-episode finale dropped June 27, 2025, filmed back-to-back with Season 2 and designed as its direct continuation. Critics approved at 81 percent, citing Lee Jung-jae's sustained lead performance and the show's refusal to soften its class politics into a comfortable resolution. The audience score at 51 percent on Rotten Tomatoes and comparable IMDb spread reflected a viewer base split over the ending: those who found the bleakness earned versus those who felt the payoff insufficient for a three-season investment. Roger Ebert's site called it a grudging, cynical crawl over the finish line; Variety positioned it as a worthy close. The divergence tracks a series that aged from cultural event into franchise obligation.",
+      "season_over_season": "Concludes the Gi-hun arc with a tonally consistent but structurally compressed six episodes; the critical-audience gap widened to its largest in the franchise's run."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

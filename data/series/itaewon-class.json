@@ -1,0 +1,47 @@
+{
+  "slug": "itaewon-class",
+  "qid": { "value": "Q85984177", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Itaewon Class", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "ended",
+  "logline": "A young ex-convict rebuilds his life and pursues revenge against a food-industry chaebol family by opening a bar-restaurant in Itaewon.",
+  "poster": {
+    "src": "/img/series/itaewon-class/poster.jpg",
+    "alt": "Itaewon Class series poster",
+    "attribution": "Poster © JTBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed 16-episode run in March 2020. Based on a completed webtoon; no sequel in development.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Itaewon_Class"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": { "value": "2020-01-31", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.8, "basis": "Strong first half and a standout female lead offset by a mid-series tonal sprawl; audience scores sit notably higher than critical consensus." },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 6,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/33898-itaewon-class"
+      },
+      "review_body": "Itaewon Class built its reputation on a revenge premise that felt grounded in labour economics and chaebol critique rather than melodrama. Time included it on its list of the ten best Korean dramas on Netflix; Forbes named it one of the best K-dramas of 2020. The MyDramaList audience settled at 8.4 across 99,000 users. Critical reception was more split: reviewers praised the social themes, the representation of queer and foreign characters, and Kim Da-mi's performance as the data-driven manager. The dissenting cluster flagged the second half, where the show attempted too many thematic threads simultaneously, and the revenge arc's resolution as anticlimactic. The gap between critical caution and audience enthusiasm is the defining signal.",
+      "season_over_season": null
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}

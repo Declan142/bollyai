@@ -1,0 +1,63 @@
+{
+  "slug": "asur",
+  "qid": { "value": "Q89411364", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": { "value": "Asur", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "platform": { "value": "JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "status": "returning",
+  "logline": "A forensic expert and his mentor, a CBI officer, hunt a serial killer who weaves Vedic mythology into his crimes; across two seasons the pursuit escalates into a geo-political mythology thriller that blurs faith, psychology, and institutional rot.",
+  "poster": {
+    "src": "/img/series/asur/poster.jpg",
+    "alt": "Asur series poster",
+    "attribution": "Poster © Voot / JioCinema / Bombay Fables. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 2 aired June 2023 on JioCinema. No Season 3 announcement as of June 2026.",
+    "source": "IMDb",
+    "source_url": "https://www.imdb.com/title/tt11912196/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": { "value": "2020-03-02", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "MUST-WATCH",
+      "bollymeter": { "score": 8.2, "basis": "8.4 IMDb from a large audience base; Arshad Warsi's serious dramatic turn and the original mythological-crime hybrid concept drove strong word of mouth on Voot." },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 6,
+        "pull_quotes": [
+          { "text": "A gripping watch once it settles down; the serial-killer plot earns its mythological framework through careful, measured writing.", "source": "Scroll.in", "url": "https://scroll.in/reel/956131/asur-review-voot-select-show-about-a-serial-killer-is-a-gripping-watch-once-it-settles-down" }
+        ]
+      },
+      "audience": { "rating": 8.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11912196/" },
+      "review_body": "Season 1 arrived in March 2020 on Voot and became one of the platform's most talked-about originals. The hook is a serial killer who stages murders using Vedic iconography, investigated by two officers whose professional and personal histories are intertwined. Arshad Warsi, known for comedic roles, anchored the show with an unusually quiet and weighted performance. Critics flagged a slow opening but rewarded the show for following through on its mythology conceit rather than using it decoratively. Audience scores landed high and the wait for a second season stretched three years.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": { "value": "2023-06-01", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "verdict": "WORTH-IT",
+      "bollymeter": { "score": 7.5, "basis": "Largely positive critical reception; mythology-geopolitics blending praised as ambitious, Arshad Warsi's character transformation well-executed, though IMDb audience score for S2 reflects some overclaiming." },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 8,
+        "pull_quotes": [
+          { "text": "Asur 2 is a good successor to its first season and is engrossing for the most part, with neat writing, commendable performances, and good direction as its assets.", "source": "123Telugu", "url": "https://www.123telugu.com/reviews/asur-2-hindi-web-series-review.html" },
+          { "text": "Barun Sobti and Arshad Warsi breathe meaning into a three-year long wait with a thrilling sequel.", "source": "Free Press Journal", "url": "https://www.freepressjournal.in/entertainment/asur-season-2-web-review-arshad-warsi-barun-sobti-breathe-meaning-into-our-three-year-long-wait-with-a-thrilling-sequel" }
+        ]
+      },
+      "audience": { "rating": 8.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11912196/" },
+      "review_body": "Three years after Season 1, Asur returned on JioCinema with an expanded canvas that tries to connect the mythological-crime premise to contemporary geo-politics. The ambition is genuine and the writing delivers moments the earlier season's goodwill promised. Arshad Warsi's character undergoes a transformation critics noted he handled with skill. The season's weakness, flagged by some reviewers, is a tendency toward over-explanation and a pace that occasionally slackens mid-season. The show remains one of the more distinctive Hindi streaming thrillers because it commits to its mythology architecture rather than treating it as window dressing.",
+      "season_over_season": "Season 2 raises the narrative stakes from a serial killer case to a larger conspiratorial canvas; gains in ambition and scope, loses some of the tight personal horror that made Season 1 gripping."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T01:30:00+05:30"
+}
