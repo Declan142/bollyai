@@ -1,0 +1,174 @@
+{
+  "slug": "the-mandalorian",
+  "qid": null,
+  "title": {
+    "value": "The Mandalorian",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A lone Mandalorian bounty hunter crosses the lawless outer rim of the galaxy protecting a mysterious child with extraordinary abilities.",
+  "poster": {
+    "src": "/img/series/the-mandalorian/poster.jpg",
+    "alt": "The Mandalorian series poster",
+    "attribution": "Poster © Disney+/Lucasfilm. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded after three seasons; the story continues in the theatrical film Star Wars: The Mandalorian and Grogu scheduled for 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Mandalorian"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-11-12",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "93% RT; critics praised the lean, western-influenced format and Pedro Pascal's physical performance; Baby Yoda became the defining internet cultural moment of late 2019. The episodic-adventure structure felt genuinely fresh within Star Wars."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 70,
+        "pull_quotes": [
+          {
+            "text": "A refreshing, richly atmospheric Star Wars adventure that works as both a tribute to the genre and a story entirely its own.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_mandalorian/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8111088/"
+      },
+      "review_body": "The Mandalorian Season 1 arrived as the purest shot of Star Wars energy in years: a lean, eight-episode western set in the unglamorous outer rim, shot through Jon Favreau's affection for classic adventure serials. Pedro Pascal is almost entirely masked, communicating through posture and delivery through a helmet - and it works completely. The show's masterstroke is Grogu (Baby Yoda), a creature who became the internet's defining mascot and anchored the season's emotional arc. Critics at 93% were clear: the show understood that Star Wars works best when it shrinks the canvas. The Volume technology gave every episode a distinct visual identity. Season 1 is The Mandalorian at its most focused and its most charming.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Chapter 1: The Mandalorian",
+          "air_date": "2019-11-12",
+          "bollymeter": 8.6,
+          "spoiler_free": "The series premiere drops viewers into the outer rim with zero hand-holding - the world-building is all texture and inference. The final revelation reframes the entire episode and sets the show's moral engine into motion. A masterclass in genre economy.",
+          "the_moment": "The reveal of what's in the beskar-lined egg - the image that broke the internet in November 2019.",
+          "critic_note": {
+            "text": "A wonderful premiere that immediately establishes the show's unique voice in the Star Wars universe.",
+            "source": "IGN",
+            "url": "https://www.ign.com/articles/2019/11/12/the-mandalorian-chapter-1-the-mandalorian-review"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Chapter 8: Redemption",
+          "air_date": "2019-12-27",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Season 1 finale resolves the Imperial pursuit storyline with a set piece that felt like a standalone Star Wars short film. Character decisions earned over eight episodes find their logical conclusions; the final image sets up a second season with confidence.",
+          "the_moment": "Mando removes his helmet - a moment that crystallises the season's entire emotional argument about identity and bond.",
+          "critic_note": {
+            "text": "A satisfying, action-packed finale that earns every emotional beat.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/mandalorian-season-1-finale-review-chapter-8-redemption-1262266/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-10-30",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "93% RT and 9.0 IMDb - the show's audience peak. The Luke Skywalker appearance in the finale became the most discussed moment in streaming Star Wars history. Critics called it the franchise's best live-action output."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 80,
+        "pull_quotes": [
+          {
+            "text": "An exhilarating expansion of the Star Wars universe that justifies the Disney+ gamble and then some.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_mandalorian/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8111088/"
+      },
+      "review_body": "Season 2 is the Mandalorian at the peak of its cultural authority. The quest to find Grogu's people draws in fan-service - Ahsoka Tano, Boba Fett, Bo-Katan - handled with a lightness that never feels obligatory. The season finale remains the most watched Disney+ moment to date: de-aged Luke Skywalker arriving on the light cruiser to take Grogu was a sequence engineered for maximum emotional impact, and it delivered. Critics at 93% and audiences at 9.0 IMDb both recognised this as peak Mandalorian. The season's episodic-anthology structure and the overarching quest harmonise better than any Star Wars property had managed in years.",
+      "season_over_season": "Superior to Season 1 in scope and emotional stakes; the finale hit a cultural zenith that few streaming shows have matched."
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-03-01",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "85% RT but a notably weaker 76% audience score; critics noted the season split focus between Mando and Grogu's bond and the Mandalorian civil war arc, which diluted both. A step down from Season 2 but still competent Star Wars."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 65,
+        "pull_quotes": [
+          {
+            "text": "A visually impressive but narratively scattered season that loses some of what made the first two chapters so special.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_mandalorian/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8111088/"
+      },
+      "review_body": "Season 3 has the double misfortune of following a near-perfect second season while being partly set up by The Book of Boba Fett - a spinoff many viewers skipped. The result is a season that assumes more continuity than it can rely on. The Mandalorian civil war and Mandalore's reclamation is an ambitious story pivot; it just doesn't consistently engage at the personal, intimate level of Seasons 1 and 2. Grogu and Mando's relationship receives fewer central episodes than expected. Individual episodes - particularly the Doctor Pershing sequence and the Pirate King arc - are strong in isolation. At 85% RT it remains solid Star Wars; it simply isn't the Mandalorian at its sharpest.",
+      "season_over_season": "A perceptible drop from Season 2's peak; the macro political plot came at the expense of the personal story."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

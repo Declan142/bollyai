@@ -1,11 +1,31 @@
 {
   "slug": "the-glory",
-  "qid": { "value": "Q113197148", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "The Glory", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q113197148",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Glory",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A woman who survived brutal school bullying spends sixteen years constructing an intricate, methodical revenge against her tormentors in this dark thriller written by Kim Eun-sook.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2022,
       "episodes": 8,
-      "release_date": { "value": "2022-12-30", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-12-30",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "Tightly plotted revenge architecture, a career-best Song Hye-kyo performance, and three Baeksang wins signal genuine prestige; Part 2 pacing dips slightly but the emotional payoff lands." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Tightly plotted revenge architecture, a career-best Song Hye-kyo performance, and three Baeksang wins signal genuine prestige; Part 2 pacing dips slightly but the emotional payoff lands."
+      },
       "critic": {
         "positive_pct": 82,
         "sample": 112,
@@ -45,9 +73,46 @@
         "source_url": "https://mydramalist.com/685237-the-glory"
       },
       "review_body": "The Glory operates as a slow-burn revenge procedural. Moon Dong-eun, scarred physically and psychologically by school bullies, constructs a sixteen-year plan to dismantle their lives, one by one. Critics converged on the same strengths: Song Hye-kyo's controlled, ice-cold performance; screenwriter Kim Eun-sook's willingness to linger in ugliness before delivering satisfaction; and a villain ensemble that earns genuine audience contempt. Rotten Tomatoes logged 82 percent positive across 112 critics. Part 2, released March 2023, drew some notes about uneven pacing in its mid-section, but the finale delivered on the series' core promise. The show ranked in Netflix's all-time top ten non-English series globally, and its success reopened public debate in South Korea around school violence accountability.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-12-30",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes Moon Dong-eun's scarred backstory and her glacially patient plan for revenge. Song Hye-kyo plays her with alternating vulnerability and cold calculation, immediately distinguishing this from a standard revenge thriller. The episode plants all the chess pieces without tipping any hand.",
+          "the_moment": "Dong-eun stands before the class as the new homeroom teacher - and we understand the sixteen-year architecture of her plan.",
+          "critic_note": {
+            "text": "Song Hye-kyo is alternately sympathetic and faintly terrifying; her quiet determination grips from the first frame.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2022/12/30/the-glory-season-1-review/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2022-12-30",
+          "bollymeter": 8.7,
+          "spoiler_free": "The mid-season pivot tightens the screws on Yeon Jin and her circle as Dong-eun's leverage compounds. The episode builds the central cat-and-mouse dynamic to genuine dread, with the villain group fracturing under pressure they don't yet fully understand. The chess motif earns its weight here.",
+          "the_moment": "Yeon Jin realises her deepest secrets are exposed - and her panic signals the revenge architecture is working.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2022-12-30",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Part 1 finale brings Ha Do-yeong into direct confrontation with the truth about his wife, and Dong-eun's plan advances to its most dangerous phase. The episode ends on a rupture that makes the Part 2 wait genuinely painful - the kind of structural cliffhanger that rewards sustained patience.",
+          "the_moment": "Do-yeong meets with Choi Hye-jeong and the ground shifts under the entire Yeon Jin marriage - quiet devastation.",
+          "critic_note": {
+            "text": "A solid revenge thriller crafted with edge-of-your-seat twists.",
+            "source": "Cinema Escapist",
+            "url": "https://www.cinemaescapist.com/2023/01/review-the-glory-netflix-kdrama/"
+          }
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

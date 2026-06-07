@@ -1,0 +1,149 @@
+{
+  "slug": "taxi-driver",
+  "qid": null,
+  "title": {
+    "value": "Taxi Driver",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Viki",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A former special forces soldier drives a vigilante taxi service that delivers justice - and revenge - to victims whose perpetrators walked free.",
+  "poster": {
+    "src": "/img/series/taxi-driver/poster.jpg",
+    "alt": "Taxi Driver series poster",
+    "attribution": "Poster © SBS / Raindrops Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons completed (2021, 2023, 2025-2026). Season 3 finale drew 16.6% - SBS history-maker. Season 4 unconfirmed as of June 2026.",
+    "source": "AllKPop",
+    "source_url": "https://www.allkpop.com/article/2026/01/will-there-be-a-season-4-taxi-driver-3-sweeps-netflix-no1-after-hitting-16.6-ratings"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-04-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "IMDb 8.1; AsianWiki 96/100 (7,843 votes); audience consensus centres on Lee Je-hoon's controlled performance and the show's willingness to take its vigilante premise seriously as social commentary rather than pure action."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A vigilante thriller with a social conscience - each case is drawn from real Korean crimes, which keeps the action from feeling like fantasy.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/taxi_driver"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13759970/"
+      },
+      "review_body": "Taxi Driver operates on a formula - victim, crime, covert operation, resolution - but the formula works because the cases are rooted in documented Korean social failures: cult exploitation, workplace abuse, school violence. That grounding is what separates it from the vigilante genre's usual wish-fulfillment mechanics. Lee Je-hoon carries the show with a performance calibrated precisely for the genre: enough warmth to maintain audience sympathy, enough cold control to make the vengeance credible. The supporting team is sketched in quickly and effectively. The show's finale became the fourth highest-rated Friday-Saturday drama in SBS history. Critics praised its case selection; those who wanted deeper character excavation found the procedural structure limiting.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Taxi Driver",
+          "air_date": "2021-04-09",
+          "bollymeter": 8.4,
+          "spoiler_free": "The opener establishes Kim Do-gi's backstory and the taxi company's clandestine operation with efficient, confident storytelling. The first case begins immediately; the show has no interest in slow burns - its proposition is clear by the twenty-minute mark and it commits completely.",
+          "the_moment": "The moment the taxi's interior reconfigurations are revealed - the show's visual thesis statement.",
+          "critic_note": {
+            "text": "A genre pilot that sets up its premise and pays it off in the same episode.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/taxi_driver"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-02-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "IMDb consistent with Season 1; audience response indicates the format holds but the cases feel slightly less fresh than the first run; production quality maintained."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13759970/"
+      },
+      "review_body": "Season 2 delivers the same vigilante case-of-the-arc structure with consistent craft. The cases are still socially anchored and Lee Je-hoon is still doing exactly what he needs to do. The criticism is not that the show deteriorated but that the formula is now entirely legible - the audience knows when the reveal will come and what shape the resolution will take. Those who came for the cases stay loyal; those who wanted evolution found it incremental. The ensemble gets more to do than in Season 1, which helps.",
+      "season_over_season": "Consistent with Season 1 in execution; the format is fully exposed, which is its ceiling."
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 16,
+      "release_date": {
+        "value": "2025-11-21",
+        "source": "AllKPop",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "16.6% finale rating - series peak and SBS historic high; audience returned in larger numbers than any previous season, suggesting the show found a way to re-energise the format in the final run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13759970/"
+      },
+      "review_body": "Season 3 turned out to be the series' commercial apex. The 16.6% finale rating is extraordinary for a franchise in its third run; the audience response suggested the cases in this season hit with renewed relevance. The ending left the door open for a fourth season, which as of June 2026 has not been officially confirmed despite strong fan demand and positive cast statements. A fitting conclusion to a run that got better, dipped, then found a high note.",
+      "season_over_season": "The strongest commercial performance of the three seasons; whether it is artistically the peak is debated."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

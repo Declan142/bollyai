@@ -1,0 +1,104 @@
+{
+  "slug": "sanctuary-sumo",
+  "qid": null,
+  "title": {
+    "value": "Sanctuary",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "A violent, rule-averse outsider enters the world of professional sumo for money and discovers - against his own instincts - that the ancient sport demands the kind of total transformation he has been evading his entire life.",
+  "poster": {
+    "src": "/img/series/sanctuary-sumo/poster.jpg",
+    "alt": "Sanctuary sumo drama series poster",
+    "attribution": "Poster © Netflix Japan / KOO-KI. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Sanctuary was released as a complete 8-episode limited series in May 2023. No Season 2 has been announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sanctuary_(Japanese_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-05-04",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "IMDb 8.0. The show ranked No. 1 in Netflix's daily Top 10 (non-English) in over 50 countries on release week. Critics from Tokyo Weekender and Japan Times noted the sumo world's ceremonial detail as both the show's attraction and its occasional pacing weight. The protagonist Kiyoshi Oze's anti-hero arc generates the warmth the show's exterior resists."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sanctuary is Netflix Japan's most accomplished original drama - an outsider-in-a-closed-world story that treats sumo as the religion it actually is.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sanctuary_2023/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt16970638/"
+      },
+      "review_body": "Sanctuary is the show that succeeded by refusing to make sumo accessible. Director Kan Eguchi renders the professional sumo stable as a world with its own physics - hierarchy, ritual, violence, loyalty - without softening it for outsiders. Kiyoshi Oze (Wataru Ichinose) is the Trojan horse audience entry point: a fighter who resents tradition and is therefore forced to learn it the hard way, which means the audience learns it with him. The Tokyo Weekender and Japan Times noted the show's willingness to treat sumo's formality as dramatically generative rather than exotic flavor. The 8-episode structure is disciplined - no episode is wasteful, and the series functions as complete. Its No. 1 global Netflix ranking in 50+ countries on release week is not a function of marketing; it is a function of a show that works for audiences who know nothing about sumo and audiences who know everything about it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-05-04",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Kiyoshi's situation - directionless, violent, equipped with extraordinary physical gifts he has no structure to deploy - and then introduces the sumo stable as that structure arriving without his consent. The world's hierarchy is communicated through behavior rather than exposition. The show's visual restraint is established immediately: wide shots, natural light, no score working to manufacture feeling the scene hasn't earned.",
+          "the_moment": "Kiyoshi's first training session in the stable - his body already knows what his mind refuses to acknowledge, and the camera observes both.",
+          "critic_note": {
+            "text": "A confident opening that trusts the world over the genre - sumo as subject, not backdrop.",
+            "source": "Sanctuary (Japanese TV series) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sanctuary_(Japanese_TV_series)"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2023-05-04",
+          "bollymeter": 8.6,
+          "spoiler_free": "The series' midpoint - where Kiyoshi's progress inside the stable becomes visible not through announcement but through changed behavior. The relationship between Kiyoshi and his senior stablemates shifts here; the show's central argument about transformation-through-discipline earns its first proof. The tournament sequences are choreographed with an attention to sumo's technical specifics that signals research rather than approximation.",
+          "the_moment": "Kiyoshi's first tournament win on his own terms - not through raw strength but through applied technique, the show's thesis in action.",
+          "critic_note": {
+            "text": "The episode where Sanctuary's central argument becomes visible - discipline as identity, not constraint.",
+            "source": "Sanctuary is Netflix's Imperfect Love Letter to Sumo — Tokyo Weekender",
+            "url": "https://www.tokyoweekender.com/entertainment/movies-tv/netflix-sanctuary-sumo-drama/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

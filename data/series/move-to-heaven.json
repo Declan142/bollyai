@@ -1,0 +1,109 @@
+{
+  "slug": "move-to-heaven",
+  "qid": {
+    "value": "Q85978697",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Move to Heaven",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "A young man with Asperger syndrome and his newly arrived ex-convict uncle work as trauma cleaners, piecing together the untold final stories of the recently deceased.",
+  "poster": {
+    "src": "/img/series/move-to-heaven/poster.jpg",
+    "alt": "Move to Heaven series poster",
+    "attribution": "Poster © Netflix / Baram Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season Netflix limited series; concluded May 2021. No continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Move_to_Heaven"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-05-14",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "97% on Rotten Tomatoes (4 critics); IMDb 8.5; audience reception centres on the anthology-style episodes that transform routine trauma cleaning into portraits of invisible lives - a format that sustains emotional impact across all 10 hours."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "A quietly devastating anthology about the things we leave behind, anchored by two performances that earn every tear.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/move_to_heaven/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11052470/"
+      },
+      "review_body": "Move to Heaven runs on an elegant structural conceit: each episode is a dead person's final chapter, reconstructed through objects. The show earned its 97% on Rotten Tomatoes by doing what most grief dramas fumble - it refuses sentiment as a substitute for specificity. Director Kim Sung-ho and writer Yoon Ji-ryeon give every victim a fully realised life before cutting to what remains. Tang Jun-sang's Geu-ru is one of Korean television's most carefully rendered neurodivergent characters: the show never uses his Asperger syndrome as quirk or punchline, only as lens. Lee Je-hoon's Sang-gu arc - the criminal uncle forced into reluctant guardianship - provides the dramatic counterweight that keeps the anthology from feeling episodic. Critics called it 'quietly devastating'; audiences called it the best cry they had all year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "One Last Delivery",
+          "air_date": "2021-05-14",
+          "bollymeter": 9.0,
+          "spoiler_free": "The series opener doubles as a thesis statement: trauma cleaning as archaeology of the self. The first case establishes the show's tone - patient, observational, without musical manipulation - and the central duo's chemistry is immediate despite their mutual wariness. Sets the anthology frame while still threading the longer uncle-nephew relationship arc.",
+          "the_moment": "Geu-ru carefully wraps the deceased's belongings following his precise protocol, and the camera sits with the ritual long enough to make it feel sacred.",
+          "critic_note": {
+            "text": "Announces its intentions with unusual confidence for a pilot.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/move_to_heaven/s01"
+          }
+        },
+        {
+          "number": 7,
+          "title": "The Night Before",
+          "air_date": "2021-05-14",
+          "bollymeter": 9.5,
+          "spoiler_free": "Widely cited as the standout episode. A case that at first appears straightforward turns into one of the most emotionally precise investigations in the series - the reveal of what the deceased left behind is the show at its most quietly shattering. No manipulation, no swelling score, just the weight of a life outlined in objects.",
+          "the_moment": "The final item found in the apartment recontextualises everything before it; the camera gives it space to breathe.",
+          "critic_note": {
+            "text": "The episode that proves Move to Heaven is something genuinely special.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/move_to_heaven/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

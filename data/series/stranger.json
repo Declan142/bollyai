@@ -1,0 +1,144 @@
+{
+  "slug": "stranger",
+  "qid": {
+    "value": "Q28972794",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Stranger (Secret Forest)",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A prosecutor whose brain surgery removed his ability to feel emotion and a dogged detective form an unlikely alliance to expose a corruption network that reaches the top of Korea's legal establishment.",
+  "poster": {
+    "src": "/img/series/stranger/poster.jpg",
+    "alt": "Stranger Secret Forest series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed (2017, 2020). No Season 3 announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Stranger_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-06-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "IMDb 8.4; New York Times top ten of 2017; 54th Baeksang Arts Awards including Best Screenplay and Best Actor; critics consider it the finest legal procedural in Korean television history - methodical, morally serious, devoid of melodrama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The finest Korean legal thriller - Cho Seung-woo is magnetic as a man who can only access integrity because he cannot access anything else.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/stranger"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6461346/"
+      },
+      "review_body": "Stranger arrived in 2017 as the best-written Korean drama in years - a legal procedural built on a genuinely original premise (a prosecutor who cannot feel emotion as a structural advantage, not a deficit) and populated entirely by adults who behave intelligently under pressure. Writer Lee Soo-yeon treats corruption as institutional rather than personal, which makes the investigation feel consequential rather than theatrical. The New York Times placed it tenth in their Best TV of 2017 list - extraordinary for a Korean cable production. Cho Seung-woo's Hwang Shi-mok is one of the great K-drama performances: understated, precise, never seeking sympathy. Bae Doona's Han Yeo-jin is his opposite - all feeling, all instinct - and the partnership between them is the show's structural engine. No melodrama, no romance, no manufactured twists. Just a case built brick by brick.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2017-06-10",
+          "bollymeter": 8.9,
+          "spoiler_free": "A cold, clean premiere that establishes Hwang Shi-mok's emotional distance as a feature not a bug. The opening murder is presented without flourish; the investigation begins immediately and moves with the efficiency that will define the show. Bae Doona's Han Yeo-jin arrives in the second half and immediately humanises the procedural machinery around her.",
+          "the_moment": "The first scene between Shi-mok and Yeo-jin - two strangers whose complementary blind spots snap into place.",
+          "critic_note": {
+            "text": "A procedural premiere that operates at a level of intelligence the genre rarely reaches.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/stranger"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2017-07-22",
+          "bollymeter": 9.3,
+          "spoiler_free": "The mid-series pivot where the investigation stops being about one murder and becomes about who controls the system. The corruption map comes into focus and the show's second half becomes an entirely different kind of thriller - slower, colder, and more frightening for it. The Shi-mok and Yeo-jin dynamic is at its most effective here.",
+          "the_moment": "A conversation between Shi-mok and a superior that contains more menace than the show's most conventionally tense sequences.",
+          "critic_note": {
+            "text": "The episode where Stranger confirms it is playing at the top of the procedural form.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/stranger"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-08-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "IMDb consistent with Season 1; critics note Season 2 widens the political architecture - the target is the entire prosecutorial-police power structure - and the writing is if anything more rigorous, though the narrative density can strain in the middle episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Stranger 2 is even more ambitious than its first run - a procedural that doubles as a study of institutional power.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/stranger"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6461346/"
+      },
+      "review_body": "Season 2 expands the scope of Season 1's investigation into a full-scale examination of the prosecutors-versus-police power struggle in South Korea - a live political debate at the time of airing. Writer Lee Soo-yeon uses the structural conflict between Shi-mok's prosecution office and Yeo-jin's police force as the engine for a different kind of thriller: one where the antagonism between the protagonists is institutional rather than personal. Cho Seung-woo and Bae Doona maintain their first-season chemistry across the new adversarial dynamic, which is a considerable achievement. Critics broadly agreed that it reaches the height of Season 1, though the middle episodes carry more exposition than the first season's lean architecture allowed.",
+      "season_over_season": "More politically explicit and structurally dense than Season 1 - equally intelligent, slightly less propulsive."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

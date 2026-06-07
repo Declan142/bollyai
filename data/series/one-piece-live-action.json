@@ -1,0 +1,136 @@
+{
+  "slug": "one-piece-live-action",
+  "qid": {
+    "value": "Q109526557",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "One Piece (Live-Action)",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Monkey D. Luffy assembles a pirate crew and sets sail for the Grand Line in a live-action Netflix adaptation that did what every prior anime-to-live-action project had failed to do: convince the source audience it wasn't a betrayal.",
+  "poster": {
+    "src": "/img/series/one-piece-live-action/poster.jpg",
+    "alt": "One Piece live-action series poster",
+    "attribution": "Poster © Eiichiro Oda / Shueisha / Tomorrow Studios / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 (Into the Grand Line) released March 10, 2026. Season 3 was announced August 2025 for a 2027 release.",
+    "source": "Netflix Tudum",
+    "source_url": "https://www.netflix.com/tudum/articles/one-piece-renewed-season-3"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-08-31",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "100% Rotten Tomatoes critics score from 29 reviews; IMDb 8.3. The show's primary achievement - acknowledged by critics across publications that do not normally cover anime adaptations - is the successful live-action translation of a source material defined by cartoonishly exaggerated aesthetics. Eiichiro Oda's involvement as executive producer is widely cited as the trust signal that aligned the production."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 29,
+        "pull_quotes": [
+          {
+            "text": "A live-action anime adaptation that defies the odds - a faithful, fun, and surprisingly heartfelt translation of a beloved source.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/one_piece"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11737520/"
+      },
+      "review_body": "The One Piece live-action adaptation arrives with the weight of genre history against it: the space between anime source material and live-action execution has been a graveyard for two decades of adaptations, Netflix included. Season 1's achievement is specifically that it didn't fail in the ways the genre typically fails. Iñaki Godoy's Luffy captures the character's irrepressible momentum without becoming a caricature; the Straw Hat ensemble builds its dynamics across eight episodes with the patience the original manga earned over hundreds of chapters compressed for television. The production design - Baratie, Arlong Park, the Going Merry - convinced critics who arrived skeptical. The 100% Rotten Tomatoes score from 29 reviews is not a soft number. Oda's executive producer credit was a production constraint, not a courtesy title, and that accountability reads in every set design decision.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Romance Dawn",
+          "air_date": "2023-08-31",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere navigates the source material's tonal extremes - Luffy's introduction is absurdist and physical; the Shells Town backstory requires the show to treat its violence with weight. Both registers land. The episode earns its final shot by spending forty minutes establishing why Zoro agrees to follow a rubber-powered stranger.",
+          "the_moment": "Zoro's three-sword oath at Shells Town - the character's defining moment from the manga translated to live-action with full commitment and no embarrassment.",
+          "critic_note": {
+            "text": "The premiere manages One Piece's tonal extremes with more grace than any prior adaptation, and earns its optimism.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/one_piece"
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Chef and the Chore Boy",
+          "air_date": "2023-08-31",
+          "bollymeter": 8.8,
+          "spoiler_free": "The Baratie arc introduces Sanji and Zeff with the economy of a show that has found its narrative rhythm. The Baratie set is one of the production's most praised physical accomplishments. The Sanji-Zeff backstory, compressed from manga chapters into a single episode's subplot, does not lose its emotional weight in the compression.",
+          "the_moment": "The Baratie's arrival - the production design set piece that convinced the largest number of skeptical viewers that this adaptation understood its source.",
+          "critic_note": {
+            "text": "The episode that proves One Piece live-action can handle emotional backstory, not just spectacle.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/one_piece"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": null,
+      "release_date": {
+        "value": "2026-03-10",
+        "source": "Netflix Tudum",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11737520/"
+      },
+      "review_body": "Season 2 (Into the Grand Line) dropped in March 2026, continuing the Straw Hats' journey into the Grand Line. Critical and audience aggregation is still building as of June 2026. Early reception signals are being tracked; a full assessment will be added once the record settles.",
+      "season_over_season": "Assessment pending - Season 2 released March 2026.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

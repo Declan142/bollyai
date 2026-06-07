@@ -1,0 +1,217 @@
+{
+  "slug": "sherlock",
+  "qid": {
+    "value": "Q209816",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sherlock",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A high-functioning sociopath and his war-veteran flatmate solve crimes in contemporary London - Conan Doyle's mythology rebuilt from scratch and better than it had any right to be.",
+  "poster": {
+    "src": "/img/series/sherlock/poster.jpg",
+    "alt": "Sherlock series poster",
+    "attribution": "Poster © BBC / Hartswood Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "No official cancellation, but Moffat and Gatiss have confirmed Season 5 is not in active development as of 2026; last episode aired January 2017.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 3,
+      "release_date": {
+        "value": "2010-07-25",
+        "source": "BBC One",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "93% on Rotten Tomatoes; critics called the Moffat-Gatiss reinvention brilliant - Benedict Cumberbatch's debut as Holmes arrived with the confidence of a show that had already solved its own premise."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sherlock is a triumphant update of one of fiction's most beloved figures - witty, stylish, and wholly its own thing.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sherlock/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1475582/"
+      },
+      "review_body": "Three feature-length episodes was the right call: it forced the writing to operate at film scale rather than episodic television. Cumberbatch's Holmes landed as an event - the autism-adjacent sociopathy played straight, the deductions visualized with actual graphic invention, Martin Freeman's Watson a full human being rather than a prop. The IMDb audience score of 9.1 is among the highest for any television series. Critics at 93% called the reinvention smart and earned. The final ten minutes of 'The Great Game' - the pool confrontation - made Moriarty into television's most anticipated villain before the audience had seen him speak.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Study in Pink",
+          "air_date": "2010-07-25",
+          "bollymeter": 8.7,
+          "spoiler_free": "Holmes and Watson meet, and the show announces its visual grammar - deductions rendered as on-screen text, London as a living character, pace that refuses to condescend to its audience. The serial killer case is almost secondary to the pleasure of watching two people discover they need each other.",
+          "the_moment": "Holmes's initial deduction of Watson in the flat - the visual text cascade that would define the show's aesthetic.",
+          "critic_note": {
+            "text": "A Study in Pink is one of the great pilot episodes - the premise fully formed in a single hour.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sherlock/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 3,
+      "release_date": {
+        "value": "2012-01-01",
+        "source": "BBC One",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "94% on Rotten Tomatoes; 'A Scandal in Belgravia' holds a 9.4 individual IMDb episode score - among the highest ever for a British drama episode. The season peaked the show creatively and ended on one of the decade's great television cliffhangers."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 is Sherlock at full power - 'A Scandal in Belgravia' alone is worth the price of the series.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sherlock/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1475582/"
+      },
+      "review_body": "Season 2 is where Sherlock peaked, and 'A Scandal in Belgravia' is why. Lara Pulver's Irene Adler matched Cumberbatch scene-for-scene - an adversary who fought with intelligence rather than menace, and a script that understood what made the Holmes-Adler dynamic irreducible. The 9.4 individual IMDb score reflects genuine consensus: this is one of the best single episodes in British television history. The finale, 'The Reichenbach Fall', then delivered the roof scene and a cliffhanger that held a global audience for two years. Season 2 could have ended the series and it would have been a triumph.",
+      "season_over_season": "The creative apex - 'A Scandal in Belgravia' alone elevates this above Season 1.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Scandal in Belgravia",
+          "air_date": "2012-01-01",
+          "bollymeter": 9.4,
+          "spoiler_free": "Irene Adler enters the show without clothes and leaves having beaten Sherlock Holmes at his own game. The writing is the cleverest in the series - the mystery, the seduction, the reveal, all operating simultaneously. Pulver and Cumberbatch produce the show's best single performance pairing.",
+          "the_moment": "Holmes deducing Adler's phone password - the scene that made 'A Scandal in Belgravia' immortal.",
+          "critic_note": {
+            "text": "9.4 on IMDb - the show's highest-rated episode and one of British television's most accomplished hours.",
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt1942612/"
+          }
+        },
+        {
+          "number": 3,
+          "title": "The Reichenbach Fall",
+          "air_date": "2012-01-15",
+          "bollymeter": 9.2,
+          "spoiler_free": "Moriarty's endgame arrives and Sherlock's reputation is systematically dismantled before the confrontation. The rooftop is earned - this is a finale that understood you must take everything from a character before you can have an audience beg for their return.",
+          "the_moment": "The pavement. Watson walking away. Two years of global waiting began in that single cut.",
+          "critic_note": {
+            "text": "The cliffhanger that ended Season 2 generated more audience anticipation than almost any television event of the decade.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sherlock/s02"
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2014,
+      "episodes": 3,
+      "release_date": {
+        "value": "2014-01-01",
+        "source": "BBC One",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% on Rotten Tomatoes, but critics noted the show had become more interested in its own mythology than in its cases - the self-referential quality that was charming in Season 1 had become the dominant mode."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1475582/"
+      },
+      "review_body": "Season 3 resolved the Season 2 cliffhanger - the explanation for Sherlock's survival was deliberately playful rather than literal - and then pivoted the show toward character drama over casework. Watson's wedding, Sherlock as best man, Magnussen as a different kind of villain. Critics at 91% were largely enthusiastic, but a vocal minority felt the show had become more interested in celebrating itself than storytelling. The audience score held because the fanbase was too invested to mark it down. Competent and frequently brilliant, just no longer effortless.",
+      "season_over_season": "A step down from the Season 2 peak - the show is now in conversation with its own legend, which costs it some freshness."
+    },
+    {
+      "number": 4,
+      "year": 2017,
+      "episodes": 3,
+      "release_date": {
+        "value": "2017-01-01",
+        "source": "BBC One",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Critical split; the showrunners' ambition in the final season outran their execution - 'The Final Problem' in particular divided audiences sharply, with many finding the gothic horror register incompatible with what the show had built."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1475582/"
+      },
+      "review_body": "Season 4 is the most polarizing chapter. 'The Lying Detective' was the kind of episode that reminded you what the show could do - chilling, precise, Mark Gatiss's villainy genuinely unsettling. 'The Final Problem' then tried to go full gothic horror with Mycroft and Eurus and earned a hostile reaction from a significant portion of the audience. The emotional logic felt imported from a different show. It ended the series not with a bang or a whimper but with a shrug - the legend of Seasons 1 and 2 intact, the later seasons a reminder that the gap between ambition and execution is unkind.",
+      "season_over_season": "Uneven - its best episode rivals Season 2, its worst is the worst the show ever produced."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

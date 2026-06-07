@@ -1,0 +1,209 @@
+{
+  "slug": "invincible",
+  "qid": null,
+  "title": {
+    "value": "Invincible",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A teenager inherits his superhero father's powers and discovers the violent, morally compromised truth behind the hero-industrial complex.",
+  "poster": {
+    "src": "/img/series/invincible/poster.jpg",
+    "alt": "Invincible series poster",
+    "attribution": "Poster © Amazon Studios/Skybound Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 4 aired March-April 2026; Season 5 renewal confirmed. Creator Robert Kirkman has stated the series is designed for 8-9 seasons total.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Invincible_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-03-25",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "98% RT and overwhelming audience reception; the first episode's final act became one of streaming's most discussed opening gambits. The show is the definitive animated deconstruction of superhero mythology - violent, funny, emotionally committed."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 88,
+        "pull_quotes": [
+          {
+            "text": "Exhilarating and devastating in equal measure - Invincible is the most compelling argument that superhero stories have more to say when the genre turns on itself.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/invincible/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6741278/"
+      },
+      "review_body": "Invincible Season 1 earns its reputation from episode one's final sequence - a superhero massacre so deliberately choreographed that it functions as a thesis statement for the entire show. Creator Robert Kirkman adapts his Image Comics run with full knowledge of what genre conventions he is exploiting and then destroying. Mark Grayson's coming-of-age story runs parallel to a systematic dismantling of the Omni-Man myth; the series is simultaneously a father-son story and a critique of the exceptionalism that superhero narratives take for granted. J.K. Simmons as Omni-Man is the casting decision the show could not survive without. 98% RT and an 8.7 IMDb confirm this is not just excellent animation - it is excellent television, full stop. The Season 1 finale (9.7 IMDb for E8) delivers the confrontation the season has been building toward with maximum force.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "It's About Time",
+          "air_date": "2021-03-25",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes Mark Grayson as a recognisable comic-book teenager, then spends forty minutes making viewers trust the genre - and trust his father. The final act of this episode is one of streaming animation's most intentional shock sequences. Watch it without reading anything first.",
+          "the_moment": "The Guardians sequence - everything the show is about, compressed into five minutes of controlled horror.",
+          "critic_note": {
+            "text": "A stunning premiere that proves Invincible is playing a completely different game than its superhero contemporaries.",
+            "source": "IGN",
+            "url": "https://www.ign.com/articles/invincible-review-amazon-prime-video-season-1"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Where I Really Come From",
+          "air_date": "2021-04-29",
+          "bollymeter": 9.7,
+          "spoiler_free": "The Season 1 finale delivers the fight the show has been engineering since Episode 1. The combat between Mark and his father is animated with a brutality the earlier episodes only suggested was possible. The emotional and physical stakes are both paid in full; J.K. Simmons and Steven Yeun do career work in a single dialogue exchange.",
+          "the_moment": "The cornfield. The full weight of seven episodes of build paid off in a single extended sequence.",
+          "critic_note": {
+            "text": "One of the greatest season finales in animation history.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/invincible-season-1-finale-review-1846787123"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-11-03",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "100% RT; the two-part split (Vol. 1 November 2023, Vol. 2 March 2024) was a structural annoyance, but critics and audiences rated the content at or above Season 1 standards. The emotional fallout from Season 1 is handled with care."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 40,
+        "pull_quotes": [
+          {
+            "text": "Invincible Season 2 is even more assured than its predecessor - the emotional and physical consequences of Season 1 are handled with painful honesty.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/invincible/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6741278/"
+      },
+      "review_body": "Season 2 has one structural problem and no content problems. The Vol. 1 / Vol. 2 split across November 2023 and March 2024 forced the season into an awkward shape; critics and audiences had to engage with eight episodes as two four-episode mini-seasons. Set that aside and the content is excellent: 100% RT for a second time reflects a show in complete command of its tonal register. Mark's psychological fallout from the Season 1 confrontation is the emotional engine; the Angstrom Levy arc is the season's main antagonist plot, handled with Kirkman's characteristic refusal to make villainy simple. The show consistently earns its violence by grounding it in human consequence.",
+      "season_over_season": "Content quality at or above Season 1; the split-season structure was an avoidable distribution decision."
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-02-06",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "100% RT; the Season 3 finale earned a 9.9 IMDb - the highest-rated Invincible episode to date. Critics called it the show's most emotionally devastating and ambitious run of episodes."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 45,
+        "pull_quotes": [
+          {
+            "text": "Invincible Season 3 cements the show as one of the great ongoing series of the streaming era - brutal, tender, and endlessly surprising.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/invincible/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6741278/"
+      },
+      "review_body": "Season 3 is the show's current peak. The ensemble is fully operational, the multiverse mechanics from Season 2 pay off, and the finale earned a 9.9 IMDb - the highest any episode has scored. Critics at 100% for the third consecutive time are no longer surprised by the quality; they are acknowledging a show that has maintained its standards over three seasons without a safe formula to rely on. The emotional throughline - Mark's identity as a hero in a universe that keeps testing whether heroism means anything - is handled with the complexity the source material demands. Invincible in Season 3 is not just the best superhero animation on streaming; it is competing with the best live-action drama.",
+      "season_over_season": "The series peak; the finale is the single highest-rated Invincible episode, and the third consecutive 100% RT season."
+    },
+    {
+      "number": 4,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-03-05",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100% RT from critics though early audience scores were uneven - Episode 4 set a series low on IMDb at 6.7, suggesting the season pacing drew divided responses. The show's critical consensus remains intact but audience volatility is notable."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 30,
+        "pull_quotes": [
+          {
+            "text": "Invincible Season 4 remains essential viewing, pushing its mythology to new limits even as some episodes test audience patience.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/invincible/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6741278/"
+      },
+      "review_body": "Season 4 maintains the show's critical consensus at 100% RT while navigating more challenging creative territory. The season's fourth episode set a series record-low IMDb score (6.7), evidence that some story decisions - the pace, the focus, specific narrative choices - divided the audience that has been uniformly enthusiastic through three seasons. This is not a disaster; it is a show taking risks in its fourth year when most series coast. By mid-season the show became Prime Video's most-watched series globally, confirming that the broader audience is still fully committed. Season 4 is slightly uneven by Invincible's exceptional standard, which makes it a 'worth-it' by any absolute measure.",
+      "season_over_season": "A slight dip from Season 3's peak; the uneven episode-by-episode reception suggests the show is in a transitional arc."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

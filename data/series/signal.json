@@ -1,0 +1,104 @@
+{
+  "slug": "signal",
+  "qid": null,
+  "title": {
+    "value": "Signal",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A present-day cold-case detective begins receiving transmissions from a detective in 1989 via a mysterious walkie-talkie - together they work to prevent murders that already happened.",
+  "poster": {
+    "src": "/img/series/signal/poster.jpg",
+    "alt": "Signal Korean drama series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 confirmed and in post-production; targeting 2026 release for tvN's 20th anniversary. Original cast returning.",
+    "source": "MyDramaList News",
+    "source_url": "https://news.mydramalist.com/article/signal-season-2-is-coming-in-2026"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 16,
+      "release_date": {
+        "value": "2016-01-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb 8.5; 96% Popcornmeter on Rotten Tomatoes; 12.54% cable finale rating; Baeksang Arts Awards including Best Drama, Best Actress (Kim Hye-soo), Best Screenplay. Audience and critical consensus that the time-travel mechanic is one of the cleverest narrative devices in Korean crime television."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Signal wrings genuine emotional devastation from its time-travel premise - the tragedy is that knowing the future changes almost nothing.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/signal"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5332206/"
+      },
+      "review_body": "Signal is the thriller that proved Korean television could sustain American-prestige-drama levels of structural ambition. Writer Kim Eun-hee (later of Kingdom) takes the time-travel walkie-talkie premise - which sounds gimmicky in synopsis - and treats it with the rigour of a cold-case procedural: the past is not malleable, consequences compound, and every change costs something. The Hwaseong serial murders, which inspired part of the show's plot, became public knowledge years later - a real-world echo that retroactively intensified everything the show had argued. Kim Hye-soo won the Baeksang Best Actress and earned it fully. The 12.54% cable finale rating made it the second highest-rated Korean cable drama at the time of broadcast. A season that feels definitive in a way that most cliffhanger-oriented thrillers never do.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2016-01-22",
+          "bollymeter": 9.0,
+          "spoiler_free": "The pilot's job is to establish the walkie-talkie's rules and make them emotionally credible rather than just mechanically interesting. It succeeds on both counts: the first contact between the two time periods lands with genuine weight, and the cold-case backstory is introduced with the compression of a show that trusts its audience.",
+          "the_moment": "The first walkie-talkie transmission - thirty seconds that commit the show completely to its premise.",
+          "critic_note": {
+            "text": "The pilot that launched K-drama's best time-bending thriller.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/signal/s01"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2016-02-27",
+          "bollymeter": 9.4,
+          "spoiler_free": "The emotional apex of the season - the accumulated cost of the time-crossing interference becomes clear and the show delivers on the tragic logic it has been building toward. Writer Kim Eun-hee demonstrates that the mechanics were always in service of character, not spectacle.",
+          "the_moment": "A transmission that both detectives know may be their last - the scene that broke audiences in real time.",
+          "critic_note": {
+            "text": "The episode that makes Signal's emotional stakes undeniable.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/signal/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

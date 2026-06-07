@@ -1,11 +1,31 @@
 {
   "slug": "squid-game",
-  "qid": { "value": "Q106582931", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Squid Game", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q106582931",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Squid Game",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "Debt-ridden adults compete in deadly children's games for a 45.6-billion-won prize, exposing the brutal logic of economic desperation in modern South Korea.",
   "poster": {
@@ -24,31 +44,98 @@
       "number": 1,
       "year": 2021,
       "episodes": 9,
-      "release_date": { "value": "2021-09-17", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2021-09-17",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.2, "basis": "Near-flawless genre invention: class allegory embedded in survival spectacle, with an ending that reframes the entire premise. Defined a decade of global streaming conversation." },
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "Near-flawless genre invention: class allegory embedded in survival spectacle, with an ending that reframes the entire premise. Defined a decade of global streaming conversation."
+      },
       "critic": {
         "positive_pct": 95,
         "sample": 87,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt10919420/ratings/" },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10919420/ratings/"
+      },
       "review_body": "Season 1 arrived in September 2021 and within weeks became Netflix's most-watched original series at launch. Critics clustered around two virtues: the ferocity of its class commentary and the formal ingenuity of placing economic desperation inside brightly coloured children's games. The 95-percent Rotten Tomatoes score reflected a near-consensus that the allegory landed without feeling didactic. Audience reception mirrored critical enthusiasm. The season operates as a self-contained moral argument, and that containment is precisely what made the final reveal so devastating.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Red Light, Green Light",
+          "air_date": "2021-09-17",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops 456 debt-ridden contestants into a children's game with fatal stakes. It works as pure provocation: the pastel set design against mass death, the indifferent doll, the class desperation established fast and without sentimentality. The final twenty minutes cross into something genuinely exhilarating.",
+          "the_moment": "The doll turns and the field freezes - and the scale of what the show is willing to do becomes instantly clear.",
+          "critic_note": {
+            "text": "An effective start tackling big subject matters in a very unique fashion.",
+            "source": "The Review Geek",
+            "url": "https://www.thereviewgeek.com/squidgame-s1e1review/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Gganbu",
+          "air_date": "2021-09-17",
+          "bollymeter": 9.5,
+          "spoiler_free": "The marble game forces paired contestants to compete against each other, turning the season's most intimate relationships into a zero-sum survival calculus. The episode operates as a sustained exercise in grief and moral compromise, delivering the emotional centre of the entire season.",
+          "the_moment": "An old man and his closest friend face each other across the marbles - the scene that broke every audience.",
+          "critic_note": {
+            "text": "Pitch-perfect character study - the heartbreaking brilliance of Squid Game fully arrives.",
+            "source": "Daily Dot",
+            "url": "https://www.dailydot.com/unclick/squid-game-episode-6-gganbu-recap-review/"
+          }
+        },
+        {
+          "number": 9,
+          "title": "One Lucky Day",
+          "air_date": "2021-09-17",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale delivers on the season's moral argument: surviving the games is not the same as winning, and winning is not the same as escaping. The final reveal recontextualises the entire premise and sets up a continuation while functioning as a complete statement about class and complicity.",
+          "the_moment": "The revelation of Il-nam's true identity - a hammer blow that retroactively colours every prior scene.",
+          "critic_note": {
+            "text": "Delivers poignant moments, big twists, and a perfect set-up for a continuation in a very respectable finale.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2021/09/17/squid-game-season-1-episode-9-recap-the-ending-explained/"
+          }
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2024,
       "episodes": 7,
-      "release_date": { "value": "2024-12-26", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-12-26",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.1, "basis": "Competent and propulsive but structurally a setup season, not a complete story; the 84% RT score masks a meaningful audience disappointment at 64% Popcornmeter." },
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "Competent and propulsive but structurally a setup season, not a complete story; the 84% RT score masks a meaningful audience disappointment at 64% Popcornmeter."
+      },
       "critic": {
         "positive_pct": 84,
         "sample": 98,
         "pull_quotes": []
       },
-      "audience": { "rating": 6.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt10919420/ratings/" },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10919420/ratings/"
+      },
       "review_body": "Released December 26, 2024, Season 2 returned Gi-hun to the arena as a willing combatant seeking to dismantle the games from within. Critics scored it at 84 percent on Rotten Tomatoes, with the consensus noting that diabolical challenges and a knotty moral outlook keep the season thrilling despite the loss of first-season freshness. The audience score told a different story: 64 percent Popcornmeter and IMDb ratings measurably below Season 1 signalled viewer frustration with a season that functions more as a bridge than a standalone arc. The seven-episode count accelerated pace while sacrificing the slow-burn character work the original built its emotional weight on.",
       "season_over_season": "Swaps the original's contained moral parable for an ongoing resistance narrative; critics held, audiences registered clear disappointment with the incomplete arc structure."
     },
@@ -56,9 +143,17 @@
       "number": 3,
       "year": 2025,
       "episodes": 6,
-      "release_date": { "value": "2025-06-27", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-06-27",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.0, "basis": "A bleak, well-acted finale that resolves the arc but cannot match Season 1's structural elegance; critic approval at 81% split sharply from a 51% audience score." },
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A bleak, well-acted finale that resolves the arc but cannot match Season 1's structural elegance; critic approval at 81% split sharply from a 51% audience score."
+      },
       "critic": {
         "positive_pct": 81,
         "sample": 65,
@@ -75,11 +170,16 @@
           }
         ]
       },
-      "audience": { "rating": 7.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt10919420/ratings/" },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10919420/ratings/"
+      },
       "review_body": "The six-episode finale dropped June 27, 2025, filmed back-to-back with Season 2 and designed as its direct continuation. Critics approved at 81 percent, citing Lee Jung-jae's sustained lead performance and the show's refusal to soften its class politics into a comfortable resolution. The audience score at 51 percent on Rotten Tomatoes and comparable IMDb spread reflected a viewer base split over the ending: those who found the bleakness earned versus those who felt the payoff insufficient for a three-season investment. Roger Ebert's site called it a grudging, cynical crawl over the finish line; Variety positioned it as a worthy close. The divergence tracks a series that aged from cultural event into franchise obligation.",
       "season_over_season": "Concludes the Gi-hun arc with a tonally consistent but structurally compressed six episodes; the critical-audience gap widened to its largest in the franchise's run."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

@@ -1,0 +1,109 @@
+{
+  "slug": "death-note",
+  "qid": {
+    "value": "Q718624",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Death Note",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A bored genius student finds a supernatural notebook that kills anyone whose name he writes in it, then constructs an elaborate god-complex while a genius detective constructs the net to catch him.",
+  "poster": {
+    "src": "/img/series/death-note/poster.jpg",
+    "alt": "Death Note anime series poster",
+    "attribution": "Poster © Tsugumi Ohba / Takeshi Obata / Shueisha / Madhouse. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The anime adapted the complete manga and concluded in June 2007. No sequel or continuation has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Death_Note_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2006,
+      "episodes": 37,
+      "release_date": {
+        "value": "2006-10-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "100% Rotten Tomatoes critics score; IMDb 8.9. Death Note holds one of the highest critical approval ratings of any anime on record. The Light vs. L psychological duel is universally cited as the template for anime cat-and-mouse narratives. Reception has been sustained across two decades of new viewers discovering it."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "A taut psychological thriller that uses its supernatural premise to conduct a genuinely disturbing examination of justice, ego, and the intoxication of power.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/death_note/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0877057/"
+      },
+      "review_body": "Death Note arrived in 2006 as a psychological thriller that happened to be animated - and critics who engaged with it on those terms awarded it their highest marks. The core conceit (a notebook that kills; a boy who uses it to remake civilization in his image) is a philosophical trap that the show sets for its protagonist and for its audience simultaneously. Light Yagami's descent into megalomaniacal self-justification is charted with the precision of a Greek tragedy, and L's lateral-thinking counter-investigation generates the kind of tension that conventional crime drama rarely achieves. The first 25 episodes - the Light-versus-L arc - are among the most tightly constructed anime television ever produced. The post-L second act divides viewers, but the show's 100% critical score and 8.9 IMDb rating reflect consensus on the series as a complete object. Madhouse's production is economical and exact: this is not a show that needed spectacle, only faces.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Rebirth",
+          "air_date": "2006-10-03",
+          "bollymeter": 9.0,
+          "spoiler_free": "The debut episode establishes Light as a person of formidable intelligence and deeply ordinary moral vacancy - he doesn't discover the Death Note so much as recognize it as the tool he was waiting for. The Shinigami mythology is introduced with a matter-of-factness that makes it land harder. This is what irresistible narrative premise looks like deployed without waste.",
+          "the_moment": "Light's first deliberate test of the notebook - the moment that determines whether this story is about a hero or a villain.",
+          "critic_note": {
+            "text": "One of anime's defining pilots - the premise arrives fully formed and the show never squanders it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/death_note/s01/e01"
+          }
+        },
+        {
+          "number": 25,
+          "title": "Silence",
+          "air_date": "2007-06-05",
+          "bollymeter": 9.7,
+          "spoiler_free": "The conclusion of the Light-versus-L arc - the episode that defines the series and separates it from the continuation that follows. The confrontation between these two intellects reaches its terminal point and the show does not soften it or offer a conventional moral exit. Widely regarded as one of the finest individual episodes in anime history.",
+          "the_moment": "L's final scene - a moment of absolute narrative consequence delivered with minimal gesture.",
+          "critic_note": {
+            "text": "A climax that earns its place in the canon of TV drama finales, animated or otherwise.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/death_note/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

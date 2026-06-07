@@ -1,0 +1,214 @@
+{
+  "slug": "true-detective",
+  "qid": {
+    "value": "Q15991330",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "True Detective",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "An anthology of detectives and dark crimes, each season a new mythology, a new Southern Gothic - the first of which is still the standard everything else chases.",
+  "poster": {
+    "src": "/img/series/true-detective/poster.jpg",
+    "alt": "True Detective series poster",
+    "attribution": "Poster © HBO / Warner Bros. Discovery. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 5 in development as of 2026; Season 4 (Night Country) aired January - February 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/True_Detective"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 8,
+      "release_date": {
+        "value": "2014-01-12",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.6,
+        "basis": "92% RT. Matthew McConaughey and Woody Harrelson in eight hours of Louisiana noir that immediately entered the prestige TV canon. The show's reputation outgrew its RT score in the years since; critics and audiences reached near-consensus that S1 is among the greatest television seasons ever produced."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "McConaughey and Harrelson are electrifying together - True Detective Season 1 is a brooding, atmospheric masterwork of crime television.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/true_detective/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2356777/"
+      },
+      "review_body": "Rust Cohle's monologues are the most quoted television writing of the 2010s, which is both the season's greatest achievement and a partial distortion of what makes it great. Season 1 is more than nihilist philosophy: it's a study of two men who cannot be honest with themselves, embedded in a Louisiana landscape that treats corruption as ecology. Nic Pizzolatto's scripts and Cary Fukunaga's direction function as a single authorial voice - the show looks like nothing else on television, all bayou dread and long-lens surveillance. The six-minute tracking shot through the Dora Lange case is still the benchmark for single-take television. McConaughey's Cohle is the performance of his career; Harrelson's Marty is the structural genius the show's reputation undervalues. Critics gave it 92%; real-killer-detective accuracy validation came from law enforcement commentators a decade later.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Long Bright Dark",
+          "air_date": "2014-01-12",
+          "bollymeter": 9.2,
+          "spoiler_free": "The pilot establishes the show's dual-timeline structure immediately: 1995 investigation and 2012 interrogation running simultaneously, Rust and Marty already estranged, a murdered woman posed like a ritual offering in a Louisiana field. Fukunaga's camera makes the landscape a character. The dialogue signals what kind of show this will be.",
+          "the_moment": "Rust Cohle's first monologue about time being a flat circle - a man who cannot stop thinking telling a homicide detective his philosophy of consciousness.",
+          "critic_note": {
+            "text": "A pilot that announces a singular creative vision from its first frame to its last.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/true_detective/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Who Goes There",
+          "air_date": "2014-02-09",
+          "bollymeter": 9.8,
+          "spoiler_free": "The episode containing the six-minute unbroken tracking shot through a housing project raid that is still the most discussed formal achievement in prestige television of the decade. The sequence is not a stunt - it advances character and narrative while demonstrating directorial control at a level that changed what audiences expected from television craft.",
+          "the_moment": "The tracking shot: Rust, gang territory, a firefight, an escape - all continuous, no cuts, no safety net.",
+          "critic_note": {
+            "text": "Cary Fukunaga's six-minute tracking shot is a landmark of television filmmaking.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/true_detective/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 8,
+      "release_date": {
+        "value": "2015-06-21",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.4,
+        "basis": "47% RT - the most dramatic critical drop between anthology seasons in recent prestige history. Vince Vaughn, Rachel McAdams, Colin Farrell and Taylor Kitsch in California noir that is dense, convoluted, and never quite convincing. Not without craft, but the gap from S1 is real."
+      },
+      "critic": {
+        "positive_pct": 47,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 struggles under the weight of its predecessor's legacy, delivering a dense but unconvincing California noir.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/true_detective/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2356777/"
+      },
+      "review_body": "Season 2 arrived carrying the weight of S1's near-universal adoration, and it buckled under the pressure. The California setting - Vinci, a fictional corrupt city - lacks S1's atmospheric specificity. Pizzolatto's scripts are dense with noir conventions but not animated by the same personal vision. The ensemble (Farrell, Vaughn, McAdams, Kitsch) individually credible but never coalesce; Vince Vaughn's mobster monologues became a punchline. Critics at 47% were not wrong. It is not a disaster - there are genuinely strong sequences - but it is a show trying to recreate the conditions of a creative lightning strike. Most viewers agree: essential context for understanding the anthology's range, but not a reason to watch True Detective on its own terms.",
+      "season_over_season": "A significant creative contraction after S1's heights; the anthology conceit exposed as harder to execute than it appeared."
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-01-13",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "84% RT. Mahershala Ali's performance is the reason to watch; the Ozarks mystery is competently assembled even if the show doesn't fully recapture S1's obsessive quality. A genuine recovery from S2."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Mahershala Ali anchors a return to form - Season 3 is True Detective at its most emotionally grounded.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/true_detective/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2356777/"
+      },
+      "review_body": "Season 3 is the one that doesn't get enough credit. Mahershala Ali playing the same Arkansas detective across three time periods - young investigator, middle-aged detective, aged man with memory loss - is the series' most technically demanding performance and one of television's best of 2019. The Ozarks setting is genuinely atmospheric in ways S2's California never was. The triple-timeline structure is handled more elegantly than the dual-timeline of S1. What prevents it from S1 comparison is the resolution: the mystery's answer is slightly smaller than the journey's emotional investment. Critics pushed back to 84%; Ali won the Emmy. A quiet season that deserves more attention in the True Detective conversation.",
+      "season_over_season": "A genuine recovery in form and atmosphere; Ali's performance is the single best acting in the franchise."
+    },
+    {
+      "number": 4,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-01-14",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "93% RT - the highest score since S1 and a franchise record. Jodie Foster and Kali Reis in the Arctic; the show's most atmospheric and claustrophobic environment yet. Night Country feels like the series earning back its best register."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Night Country is True Detective's strongest season since its debut - Jodie Foster commands the screen and the Arctic setting is unforgettably oppressive.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/true_detective/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2356777/"
+      },
+      "review_body": "Created by Issa López rather than Pizzolatto, Night Country is the anthology's most confident creative departure. Barrow, Alaska in winter - where the sun sets for sixty-plus days - is the show's most conceptually unified environment since S1's Louisiana bayou. Jodie Foster's detective Liz Danvers and Kali Reis's Navarro are a duo whose history and friction feel genuinely earned rather than formula. The missing scientists mystery runs on Indigenous community trauma and Arctic corporation corruption - a distinctly contemporary True Detective. Critics gave it 93%; audience scores were more divided, some resistant to the new creative voice. The critical consensus is the right read: Night Country is a genuine artistic success and the season that proved the franchise has more to say.",
+      "season_over_season": "The show under a new showrunner finds new register - darker, stranger, and more focused than S2 or S3. The closest the franchise has come to S1 quality since 2014."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

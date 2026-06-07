@@ -1,0 +1,205 @@
+{
+  "slug": "criminal-justice",
+  "qid": {
+    "value": "Q65086902",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Criminal Justice",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "logline": "Pankaj Tripathi as Madhav Mishra - a defence lawyer of uncertain morals and absolute competence - returns season after season to the Indian court system's machinery, finding new clients and new impossibilities to argue.",
+  "poster": {
+    "src": "/img/series/criminal-justice/poster.jpg",
+    "alt": "Criminal Justice series poster",
+    "attribution": "Poster © BBC Studios/Applause Entertainment/JioHotstar. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "running",
+    "note": "Four seasons aired through 2019-2025; Season 4 (A Family Matter) released May 2025 and became the second most-viewed Indian series of 2025 on JioHotstar.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Criminal_Justice_(Indian_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-04-05",
+        "source": "JioHotstar",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "IMDb audience at 8.1; critics praised the adaptation's fidelity to the BBC original while grounding it in recognisable Indian court culture. Vikrant Massey as the accused and Pankaj Tripathi as Madhav Mishra were both individually cited as reasons to watch. The show established the character of Mishra as one of Indian streaming's most enduring figures."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Pankaj Tripathi aces a character with dry humor - his witty lines make you smirk at the same court system that terrifies you.",
+            "source": "IMDb (critic aggregation)",
+            "url": "https://www.imdb.com/title/tt9095260/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9095260/"
+      },
+      "review_body": "The original BBC series Criminal Justice was a clinical examination of how ordinary people get chewed up by a system that processes guilt as a bureaucratic convenience. The Indian adaptation, directed by Tigmanshu Dhulia, makes one central addition: Madhav Mishra, played by Pankaj Tripathi as a man whose competence is perennial and whose ethics are situational. The first season follows Aditya Sharma (Vikrant Massey), a young man who wakes up next to a murdered woman with no memory of the night and no resources to fight the system now arresting him for it. The show is at its best in the procedural mechanics - the Bombay court system's rhythms, the negotiation of bail, the theatre of cross-examination - and Tripathi turns Mishra's dry wit into a kind of moral armour that the show is quietly suspicious of. Jackie Shroff as the antagonist and Mita Vashisht as the prosecutor are both exceptional. The season established a franchise; the character of Mishra became appointment television.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Night It Began",
+          "air_date": "2019-04-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere drops Aditya Sharma into a situation so ordinary in its origins and so catastrophic in its consequences that the viewer's discomfort is the point. Massey plays the bewilderment with complete conviction. Tripathi appears late in the episode, but the moment Madhav Mishra walks into the police station, the show's register shifts - you understand immediately what kind of show this is going to be.",
+          "the_moment": "Mishra's first assessment of Aditya's case - a diagnosis delivered with the practiced casualness of a man who has seen this particular failure of justice before.",
+          "critic_note": {
+            "text": "Vikrant Massey anchors the premiere with the precise vulnerability the story demands.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/"
+          }
+        },
+        {
+          "number": 10,
+          "title": "The Verdict",
+          "air_date": "2019-04-05",
+          "bollymeter": 8.6,
+          "spoiler_free": "The season finale delivers its court verdict and then asks what justice means in a system that processes cases rather than people. The final scene between Mishra and Aditya is the season's best writing: two men on different sides of the privilege divide reckoning with what the system has extracted from each of them.",
+          "the_moment": "Mishra's closing argument - not the legal points but the human ones.",
+          "critic_note": {
+            "text": "A finale that rewards the season's patience - Criminal Justice delivers on its considerable promise.",
+            "source": "Times of India",
+            "url": "https://timesofindia.indiatimes.com/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 7,
+      "release_date": {
+        "value": "2020-12-24",
+        "source": "JioHotstar",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Behind Closed Doors swapped Massey for Kirti Kulhari as the new accused; critics found the case (domestic violence) more emotionally complex but the season slightly less urgent than the first. Tripathi's Mishra remained the anchor."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9095260/"
+      },
+      "review_body": "Behind Closed Doors brought a new accused, a new crime and a significantly more difficult moral case: a domestic violence situation where the law's categories struggle to contain the actual lived reality. Kirti Kulhari is strong; Pankaj Tripathi's Mishra finds new dimensions when defending someone whose guilt is not simply legal. Critics found the season's tonal ambition admirable; the execution occasionally felt rushed over seven episodes.",
+      "season_over_season": "New case, new accused, same Mishra - the show's formula holds but the urgency of season 1 is not fully replicated.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-08-26",
+        "source": "JioHotstar",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Adhura Sach received measured praise - the formula remained reliable, the cases compelling, but the show was settling into a comfort zone. Tripathi's consistency was noted as both the franchise's strength and its limitation."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9095260/"
+      },
+      "review_body": "Adhura Sach continued the franchise's reliable procedural formula while circling a media-trial-era case about truth, conviction and the performance of innocence. The show still works, Tripathi is still excellent, and the cases are still more morally complex than most Indian legal drama. The novelty, however, had fully worn off by the third iteration.",
+      "season_over_season": "The franchise finds its cruising altitude - dependable rather than surprising.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-05-29",
+        "source": "JioHotstar",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Season 4 became the second most-viewed Indian series of 2025 with 34.2 million views in five weeks. Critics called it the franchise's best work since season 1 - the family-law case gave Tripathi's Mishra more personal stakes than the prior two seasons, and the writing returned to the season 1 quality of moral ambiguity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Pankaj Tripathi is the most 'khaas aam aadmi' - Criminal Justice season 4 is Waah Vakeel Sahab territory.",
+            "source": "IMDb (critic review)",
+            "url": "https://www.imdb.com/title/tt36813889/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt36813889/"
+      },
+      "review_body": "A Family Matter brought Criminal Justice back to urgency after two seasons of formula maintenance. The family-law case - which critics declined to detail in their reviews to preserve the viewing experience - gives Madhav Mishra stakes that feel genuinely personal rather than professionally convenient. Tripathi delivers his finest work in the franchise since season 1. The Times of India noted the show's 'gripping courtroom drama and strong storytelling'; the 34.2 million views in five weeks confirmed that the audience agreed.",
+      "season_over_season": "The franchise's strongest work since season 1 - personal stakes returned, formula discarded.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

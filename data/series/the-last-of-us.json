@@ -1,11 +1,31 @@
 {
   "slug": "the-last-of-us",
-  "qid": { "value": "Q87131973", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "The Last of Us", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q87131973",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Last of Us",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "Twenty years after a fungal pandemic collapses civilization, a hardened smuggler escorts a teenager who may hold the key to a cure across a ruined America.",
   "poster": {
@@ -24,25 +44,88 @@
       "number": 1,
       "year": 2023,
       "episodes": 9,
-      "release_date": { "value": "2023-01-15", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-01-15",
+        "source": "HBO press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.0, "basis": "96% critic score from 489 reviews and 86% audience score is near-unanimous; Episode 3 'Long Long Time' entered the critical canon as one of the finest single episodes in prestige TV history." },
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "96% critic score from 489 reviews and 86% audience score is near-unanimous; Episode 3 'Long Long Time' entered the critical canon as one of the finest single episodes in prestige TV history."
+      },
       "critic": {
         "positive_pct": 96,
         "sample": 489,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.8, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt3581920/" },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3581920/"
+      },
       "review_body": "Season 1 entered the conversation around prestige TV's best first seasons almost immediately. The Pedro Pascal-Bella Ramsey pairing supplied the emotional core, but the show distinguished itself through structural ambition: standalone episodes that paused the main journey to excavate backstory with feature-film patience. Critics aligned at 96% across 489 reviews, and the 86% audience approval was unusually high for a post-apocalyptic drama with genuinely punishing emotional stakes. The show managed what few game adaptations have: it respected the source's emotional logic rather than just its plot.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "When You're Lost in the Darkness",
+          "air_date": "2023-01-15",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere earns its extended runtime by staging the 2003 outbreak prologue in full, giving the apocalypse a scientific grounding that separates the show from genre predecessors. Pedro Pascal's Joel Miller is introduced under maximum emotional weight: a father, a loss, a man sealed shut. The jump to 2023 Boston is executed without exposition-dump - the world is communicated through texture.",
+          "the_moment": "The 2003 prologue's final minutes - the series establishing in its first hour that it will not protect anyone the audience has learned to love.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Long, Long Time",
+          "air_date": "2023-01-29",
+          "bollymeter": 9.9,
+          "spoiler_free": "A self-contained love story between Bill (Nick Offerman) and Frank (Murray Bartlett) set across two decades of survival and companionship, told entirely outside the main Joel-Ellie journey. The episode departs from the game's source material to deliver something richer: a complete life, rendered in full, with an ending of extraordinary tenderness. Multiple critics named it the best episode of television in 2023.",
+          "the_moment": "Bill and Frank's final morning - Offerman utterly still, the camera holding, twenty years of love making the silence unbearable.",
+          "critic_note": {
+            "text": "Beautifully played by Nick Offerman and Murray Bartlett - it breathtakingly undercuts every conceit of the zombie genre to create chamber theatre as good as anything The Sopranos offered.",
+            "source": "Escapist Magazine",
+            "url": "https://www.escapistmagazine.com/this-third-episode-of-the-last-of-us-is-a-miniature-masterpiece/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Endure and Survive",
+          "air_date": "2023-02-12",
+          "bollymeter": 9.4,
+          "spoiler_free": "The Henry and Sam arc resolves in this episode in a sequence that punishes every attachment the show has encouraged. The Joel-Ellie relationship deepens under pressure, and the episode closes the Kansas City thread with the kind of brutal finality that clarifies exactly how much the series is willing to cost its audience.",
+          "the_moment": "Sam's fate and Henry's response - the season's most devastating thirty seconds, no preparation, no cushion.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Look for the Light",
+          "air_date": "2023-03-12",
+          "bollymeter": 9.5,
+          "spoiler_free": "The season finale stages the Firefly hospital sequence - the game's most debated moral choice - with the weight it demands. Joel's decision is presented without authorial judgment, which is precisely what makes it so difficult to process. The final exchange between Joel and Ellie closes the season on a note of irreversible ambiguity.",
+          "the_moment": "Joel lies to Ellie on the drive home - she accepts it, knowing - and the silence between them carries the entire season's emotional mass.",
+          "critic_note": null
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2025,
       "episodes": 7,
-      "release_date": { "value": "2025-04-13", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-04-13",
+        "source": "HBO press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.6, "basis": "Critics held at 92% (270 reviews) but audience approval collapsed to 39% on Rotten Tomatoes, driven largely by a polarising narrative choice; the craft is unimpeachable, the audience goodwill was not." },
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Critics held at 92% (270 reviews) but audience approval collapsed to 39% on Rotten Tomatoes, driven largely by a polarising narrative choice; the craft is unimpeachable, the audience goodwill was not."
+      },
       "critic": {
         "positive_pct": 92,
         "sample": 270,
@@ -54,11 +137,16 @@
           }
         ]
       },
-      "audience": { "rating": 7.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt3581920/" },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3581920/"
+      },
       "review_body": "Season 2 arrived as critics' darling and audiences' flashpoint. The 92% critic score sat beside a 39% Rotten Tomatoes audience score, a gap that reflected a single narrative decision in episode 2 that fractured the viewership along game-fan and casual-viewer lines. The Hollywood Reporter flagged anticlimax in the finale; Variety noted the show traded narrative velocity for atmosphere. Both readings are accurate. Seven episodes over source material that covered a full game's worth of story required cuts that will only close when Season 3 arrives. Reviewers who bracketed the controversy found accomplished television throughout.",
       "season_over_season": "Critics stayed strong at 92% but the audience gap to Season 1 was historic: RT audience score dropped from 86% to 39%, driven by a divisive story choice borrowed from the source game. Craft held; goodwill did not."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

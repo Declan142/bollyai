@@ -1,0 +1,366 @@
+{
+  "slug": "black-mirror",
+  "qid": null,
+  "title": {
+    "value": "Black Mirror",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Standalone episodes dissect technology's darkest possibilities - each one a near-future cautionary fable with no recurring characters and no mercy.",
+  "poster": {
+    "src": "/img/series/black-mirror/poster.jpg",
+    "alt": "Black Mirror series poster",
+    "attribution": "Poster © Netflix/Broke and Bones. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Renewed for Series 8 in January 2026; Series 7 aired April 2025 on Netflix.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Black_Mirror"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 3,
+      "release_date": {
+        "value": "2011-12-04",
+        "source": "Channel 4",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "98% RT; Series 1 introduced Charlie Brooker's anthology format with three episodes that were each immediately recognisable as a new kind of British horror-satire. Critics called it television as cultural diagnosis."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 30,
+        "pull_quotes": [
+          {
+            "text": "Sharp, provocative, and horribly plausible - Black Mirror arrives as the definitive television response to the digital age.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Black Mirror Series 1 is three television essays that work as entertainment. 'The National Anthem' is the one critics still cite - its premise is puerile on paper and devastating in execution, implicating the viewer in what the audience chooses to watch. 'Fifteen Million Merits' is a fitness-app satire that holds up because it was not satirising a platform but a condition. '(The Entire History of You)' is the series' quietest and most emotionally precise entry: memory-replay technology, a marriage, and jealousy. At 98% on Rotten Tomatoes, Series 1 is basically untouchable critically. Charlie Brooker had spent years writing television criticism before making television; the result was a series that understood genre mechanics and broke them with surgical precision.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The National Anthem",
+          "air_date": "2011-12-04",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Prime Minister receives an impossible demand. The episode's genius is that the scenario - grotesque, political, farcical - becomes a serious meditation on media, spectacle, and the price of public life. It aired on Channel 4 in 2011 and felt like it had been written the morning of broadcast.",
+          "the_moment": "The nation watching in real time - including the hostage-taker - as the PM makes his choice.",
+          "critic_note": {
+            "text": "Outrageous, satirical, and unnervingly prescient. Television as provocation.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2011/dec/05/black-mirror-review"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2013,
+      "episodes": 3,
+      "release_date": {
+        "value": "2013-02-11",
+        "source": "Channel 4",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "87% RT; 'Be Right Back' is frequently cited as one of the medium's finest episodes on grief and technology - understated, specific, and quietly annihilating."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 25,
+        "pull_quotes": [
+          {
+            "text": "Series 2 confirms the anthology's range - tender in one episode, terrifying in the next, always exactly on target.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Series 2 expands the show's emotional register. 'Be Right Back' is the standout: Hayley Atwell and Domhnall Gleeson in a grief story about reconstructing the dead through their digital footprint. It is the most tender thing Brooker has made, and the least comfortable. 'White Bear' is pure psychological horror with a payoff that reorients the entire episode. 'The Waldo Moment' - a cartoon character running for Parliament - looks prophetic in retrospect. At 87% RT it represents a slight dip from Series 1's near-perfect reception, but 'Be Right Back' alone justifies the season's existence.",
+      "season_over_season": "Emotionally broader than Series 1; 'Be Right Back' is arguably the show's most humane episode."
+    },
+    {
+      "number": 3,
+      "year": 2014,
+      "episodes": 1,
+      "release_date": {
+        "value": "2014-12-16",
+        "source": "Channel 4",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "Special 'White Christmas' aired December 2014 with Jon Hamm. IMDb gives it 9.1 - the highest-rated single Black Mirror episode. Critics called it a masterwork of nested narrative and escalating horror."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 15,
+        "pull_quotes": [
+          {
+            "text": "White Christmas is Black Mirror at its most architecturally brilliant - a nesting-doll nightmare with a final image that haunts.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "The 'White Christmas' special is Black Mirror's crown jewel by raw audience measure: 9.1 on IMDb, the series' highest. Jon Hamm plays a man with a troubling gift for coaching, and the episode nests three separate stories inside a single 73-minute runtime. Each story introduces a different technology - cookie-consciousness, social blocking, AR assistance - and each converges on a single, cold conclusion. The final image is one of television's great punishments of the viewer, delivered with complete formal control. That it aired as a Christmas special makes it functionally perfect.",
+      "season_over_season": "A standalone special rather than a full season; 'White Christmas' is the series' single best episode by audience consensus.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "White Christmas",
+          "air_date": "2014-12-16",
+          "bollymeter": 9.1,
+          "spoiler_free": "Three nested stories, one evening, one impossible situation - Jon Hamm gives his best small-screen performance in a special that packs the psychological complexity of a feature film into 73 minutes. Each of its three conceit-technologies works individually; together they form a trap.",
+          "the_moment": "The final Christmas image - beautiful, quiet, and absolutely merciless.",
+          "critic_note": {
+            "text": "Haunting, ambitious, and perfectly constructed. The definitive Black Mirror experience.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/black-mirror-white-christmas-review-1798183010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-10-21",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "86% RT for Netflix's first Black Mirror season. 'San Junipero' won two Emmy Awards and landed an IMDb of 8.5 - the episode became the show's flagship for emotional range, proving the anthology could do warmth as well as horror."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "An expansive and emotionally resonant season that proves Black Mirror can break hearts, not just minds.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Series 3 is the Netflix era beginning, and the production upgrade is visible in every frame. The jump to six episodes per season gave Brooker room to vary tone more radically - and 'San Junipero' is the payoff. A love story set inside a simulated afterlife, it won the show its first Emmy awards and fundamentally expanded what viewers expected from the anthology. 'Nosedive' (8.5 IMDb) launched a million social-media-satire thinkpieces. 'Shut Up and Dance' is the darkest episode since 'The National Anthem'. 'Men Against Fire' deals in military technology and dehumanisation with the show's characteristic refusal of easy comfort. At 86% RT, the series is consensus-excellent despite the tonal whiplash that comes with a six-episode anthology.",
+      "season_over_season": "The Netflix era debut; broader in tone and budget than Channel 4 seasons, with 'San Junipero' as the show's most acclaimed single episode.",
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "San Junipero",
+          "air_date": "2016-10-21",
+          "bollymeter": 9.0,
+          "spoiler_free": "A love story between two women in an 80s beach town that is not quite what it appears. The episode withholds its central premise long enough for genuine emotional investment to take root - and then reveals it in a way that makes the romance more beautiful, not less. Two Emmy Awards. Deserved.",
+          "the_moment": "The music on the beach - a single song that crystallises everything the episode has earned.",
+          "critic_note": {
+            "text": "A love story for the digital age, hopeful and heartbreaking in equal measure.",
+            "source": "The New Yorker",
+            "url": "https://www.newyorker.com/culture/culture-desk/black-mirror-and-the-horrors-of-technology"
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "year": 2017,
+      "episodes": 6,
+      "release_date": {
+        "value": "2017-12-29",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "85% RT; 'USS Callister' and 'Hang the DJ' are fan favourites. Critics praised the season for maintaining the show's register while expanding its genre palette to include space opera and rom-com."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "Another outstanding season - stylistically diverse and consistently compelling, with some of the show's most inventive premises yet.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Series 4 is the show's most genre-adventurous run. 'USS Callister' opens with what looks like a Star Trek parody and becomes a horror story about ego and creative power - it won the Emmy for Outstanding Television Movie. 'Crocodile' is bleak Scandinavian-adjacent thriller. 'Hang the DJ' is the closest the Netflix era gets to 'San Junipero': a wistful romantic premise with a twist that retroactively sweetens rather than undercuts. 'Metalhead' is a black-and-white chase thriller stripped to pure genre. At 85% RT the season holds the Netflix era's consistent quality line, and 'USS Callister' alone would justify it.",
+      "season_over_season": "Consistent with Series 3; the genre range is wider and the individual highs ('USS Callister') compete with anything the show has done."
+    },
+    {
+      "number": 6,
+      "year": 2019,
+      "episodes": 3,
+      "release_date": {
+        "value": "2019-06-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "66% RT - the show's critical low point. Three episodes after the six-episode consistency of previous Netflix seasons; critics found the premises less sharp and the execution more variable than prior runs."
+      },
+      "critic": {
+        "positive_pct": 66,
+        "sample": 35,
+        "pull_quotes": [
+          {
+            "text": "An uneven and underwhelming entry in the anthology - still watchable, but missing the crystalline precision that defines Black Mirror at its best.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s06"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Series 5 is the anthology's acknowledged weak link - a three-episode run that feels like it was assembled from concepts that didn't quite fit any stronger idea. 'Striking Vipers' has an interesting virtual-reality-sexuality premise that the episode doesn't fully commit to. 'Smithereens' is a contemporary social-media hostage story that arrives without surprise or formal daring. 'Rachel, Jack and Ashley Too' - with Miley Cyrus - is the show's most tonally uncertain episode, vacillating between satire and sincere pop star narrative. At 66% RT, critics were clear this was a marked step down. The compression to three episodes may be the culprit; the show needs room to fail in order to succeed spectacularly.",
+      "season_over_season": "A significant dip from Series 4; the weakest Netflix season by critical and audience consensus."
+    },
+    {
+      "number": 7,
+      "year": 2023,
+      "episodes": 5,
+      "release_date": {
+        "value": "2023-06-15",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "78% RT - a recovery from Series 5's low. Critics noted stronger premises and the show returning to form, with 'Joan Is Awful' as the season's viral standout for its streaming-industry satire."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 40,
+        "pull_quotes": [
+          {
+            "text": "A confident return to form - Black Mirror Series 6 recaptures the show's satirical bite and finds new targets worth biting.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s07"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Series 6 is a demonstrable recovery after Series 5's missteps. 'Joan Is Awful' - in which a woman discovers her life has been adapted into a streaming show - is the most culturally timely episode since 'Nosedive' and benefited from the ongoing discourse around streaming rights and AI content. At 78% RT it is not the show at its best, but it is the show finding its edge again after a misfired season. The willingness to satirise Netflix from inside a Netflix product gave the episode an unusual meta-tension. The season's other episodes range from solid to strong.",
+      "season_over_season": "A recovery from Series 5; 'Joan Is Awful' is the show's sharpest topical satire in years."
+    },
+    {
+      "number": 8,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": {
+        "value": "2025-04-10",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "89% RT - the show's strongest Netflix-era reception in years. Critics praised the season as a return to classic Black Mirror form with inventive premises and sharp execution across all six episodes."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 40,
+        "pull_quotes": [
+          {
+            "text": "Black Mirror Series 7 is a welcome return to the show's most assured mode - intelligent, unsettling, and impossible to dismiss.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_mirror/s08"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2085059/"
+      },
+      "review_body": "Series 7 landed with an 89% Rotten Tomatoes score - the best Netflix-era reception the show has received since its arrival on the platform. Critics recognised a season firing on all its premises simultaneously, with Brooker sharpening his satirical lens on current anxieties around AI, digital identity, and platform capitalism. Six episodes of consistent quality is a higher bar than the show has consistently cleared in its streaming era, and Series 7 met it. The season includes a sequel to the show's most popular episode, handled with the confidence of a creative team that knows exactly when to revisit and when to leave well alone.",
+      "season_over_season": "The strongest Netflix-era season since Series 3-4; the 89% RT marks a genuine return to the show's critical peak."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

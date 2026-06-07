@@ -1,0 +1,109 @@
+{
+  "slug": "baby-reindeer",
+  "qid": {
+    "value": "Q125453743",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Baby Reindeer",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "A struggling comedian's act of kindness to a down-and-out woman at a bar ignites a stalking campaign that exposes the shame he's been carrying since long before she found him.",
+  "poster": {
+    "src": "/img/series/baby-reindeer/poster.jpg",
+    "alt": "Baby Reindeer series poster",
+    "attribution": "Poster © Netflix / Clerkenwell Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A limited series, seven episodes, complete as aired. Richard Gadd has not indicated plans for continuation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Baby_Reindeer"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-04-11",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "98% on Rotten Tomatoes; critics called it one of the most formally and emotionally honest pieces of autofiction the medium had produced - Richard Gadd wrote, performed, and exposed himself to an extent that made most confession-based drama look cautious."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Baby Reindeer is devastating, unflinching autofiction - Richard Gadd announces himself as one of the most singular voices in television.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/baby_reindeer/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13649112/"
+      },
+      "review_body": "Baby Reindeer arrived as one of 2024's most discussed television events. Based on Richard Gadd's stage play and his own experience of stalking and sexual abuse, the seven episodes tracked a man undone by both the stalker he'd attracted and the crime committed against him that he'd never processed. The structural intelligence was in making both stories simultaneous - the stalking both a narrative and a mirror. Critics at 98% used language about courage and necessity that they rarely deploy. The audience score of 7.9 on IMDb reflected a show that was admired more than it was easily consumed. The BAFTA and Emmy wins that followed placed it among the decade's landmark limited series.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-04-11",
+          "bollymeter": 8.8,
+          "spoiler_free": "Donny Dunn buys a stranger a cup of tea and invites something he can't uninvite. The episode establishes the show's double register: comedy about a failing comedian, and the first, barely perceptible notes of a story that is going somewhere much darker. Gadd's face as Donny is the show's most precise instrument.",
+          "the_moment": "The first text from Martha - the moment the free tea stops being a small kindness.",
+          "critic_note": {
+            "text": "Baby Reindeer's opening is disarmingly light - which makes what comes later land harder.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/baby_reindeer/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2024-04-11",
+          "bollymeter": 9.5,
+          "spoiler_free": "The episode where the show's other story surfaces. The stalking continues, but what happened to Donny before Martha is disclosed with a restraint that makes it more devastating. Gadd performing this material is an act of public exposure that reframes everything prior and everything subsequent.",
+          "the_moment": "The disclosure scene - the reason the show exists, told with extraordinary economy.",
+          "critic_note": {
+            "text": "Episode 4 is the episode Baby Reindeer was always building toward - one of the most demanding pieces of acting on television in years.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/baby_reindeer/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,262 @@
+{
+  "slug": "breaking-bad",
+  "qid": {
+    "value": "Q1079",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Breaking Bad",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A high-school chemistry teacher dying of cancer decides to cook meth, and discovers that the monstrous version of himself is the one that was always real.",
+  "poster": {
+    "src": "/img/series/breaking-bad/poster.jpg",
+    "alt": "Breaking Bad series poster",
+    "attribution": "Poster © AMC Networks / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 5 seasons on September 29, 2013; followed by spin-off Better Call Saul and film El Camino.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Breaking_Bad"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 7,
+      "release_date": {
+        "value": "2008-01-20",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Critics gave S1 an 86% on RT - reserved by the show's own standards but essential scene-setting. The pilot alone established one of the tightest anti-hero premises in TV history, and IMDb audiences rated the season 9.2/10 on a 13-episode scale now compressed to 7."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A potent brew of dark comedy and simmering menace, anchored by Bryan Cranston's career-defining transformation.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0903747/"
+      },
+      "review_body": "Seven episodes - cut short by the writers' strike - but no flab. Vince Gilligan drops Walter White into moral free fall with the precision of a chemistry experiment: measured, deliberate, irreversible. Critics in 2008 were cautiously impressed, praising Cranston's left-turn from sitcom dad and the show's unflinching New Mexico atmosphere. The 86% RT score undersells what was happening: this was the careful laying of a detonator. Anna Gunn and Aaron Paul fill out a domestic world that will slowly be destroyed. The noir leanings, the surgical black comedy, the dread encoded in wide desert shots - all of it is present at launch. First-timers often don't grasp how tight the construction is until the final seasons look back at seeds planted here.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 13,
+      "release_date": {
+        "value": "2009-03-08",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "97% on RT. The black-and-white flash-forwards reframed how prestige drama could structure consequence. Audience IMDb average 9.26/10 - critics and viewers aligned."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Breaking Bad emerges as one of television's most bold, inventive and morally complex series.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.26,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0903747/"
+      },
+      "review_body": "Season 2 is where the show proved it wasn't just a gimmick. The cryptic cold-open flash-forwards - body bags, a pink teddy bear - rewired audience engagement from week to week. Walt's moral erosion accelerates; Jesse pays the first real human price. Critics jumped from cautious to convinced: 97% RT. What lands hardest in retrospect is how methodically Gilligan embeds causality - every bad choice compounds the last. The Wayfarer 515 payoff is the show announcing it will do things that mainstream prestige television doesn't dare. Aaron Paul's Jesse begins his ascent from sidekick to the show's actual conscience, and the season's final image is among the coldest in American TV history.",
+      "season_over_season": "Substantial leap: the structural ambition of the flash-forwards and the sharpening of Jesse's arc lift this far above the already-strong debut."
+    },
+    {
+      "number": 3,
+      "year": 2010,
+      "episodes": 13,
+      "release_date": {
+        "value": "2010-03-21",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "First of two 100% RT seasons. The Cousins, Gus Fring's full emergence, and Walt's decisive step across the line into premeditated murder. IMDb average 9.16/10."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Perfectly crafted and mercilessly tense, season 3 solidifies Breaking Bad as the gold standard of prestige television.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.16,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0903747/"
+      },
+      "review_body": "Giancarlo Esposito's Gus Fring arrives in full, and the show found its true antagonist - a monster more controlled than Walt, which is the most terrifying thing imaginable. The Cousins function as pure dread made flesh. Season 3 earns its first perfect RT score by delivering the show's most sustained tension: every scene in the superlab feels like a countdown. Walt's murder of two dealers in the penultimate episode is the point of no return the whole series had been building to, executed with none of the self-justification the character supplies. Critics unanimously declared this the gold standard; audiences agreed at 9.16. The show was no longer being compared to other TV - it was becoming the comparison.",
+      "season_over_season": "More cinematic, more operatic, more dangerous - the arrival of Fring reshapes the power geometry and raises the ceiling again."
+    },
+    {
+      "number": 4,
+      "year": 2011,
+      "episodes": 13,
+      "release_date": {
+        "value": "2011-07-17",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "100% RT and IMDb audience average 9.27/10. The Walt-vs-Gus war is the show at peak thriller craft. 'Face Off' is one of the most satisfying season finales ever broadcast."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A riveting game of cat and mouse between the show's two most formidable minds, Season 4 is Breaking Bad operating at full throttle.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.27,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0903747/"
+      },
+      "review_body": "The season that converted the skeptics who thought the show was great but not all-time. Walt and Gus locked in cold war - neither able to move openly, both engineering the other's destruction - produces the most sustained stretch of thriller writing in the series. Cranston and Esposito play opposite each other across half a season without sharing significant screen time, and the tension is suffocating. The finale 'Face Off' resolves the conflict with a final-act reveal that recontextualises the whole season's chess game. RT held at 100%; IMDb audiences pushed the season average to 9.27. The show had reached the point where even its weakest episodes were better than most rivals' best.",
+      "season_over_season": "The series peaks here by some measures - the central duel is the tightest narrative engine the show ever ran, and the finale is the definitive Breaking Bad payoff until S5 rewrote the rules."
+    },
+    {
+      "number": 5,
+      "year": 2013,
+      "episodes": 16,
+      "release_date": {
+        "value": "2012-07-15",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.9,
+        "basis": "IMDb season average 9.68/10 - the highest of any season of any show tracked. 'Ozymandias' held a near-perfect 10.0 until a review-bombing campaign in 2026; critics consensus at 100% RT. The show ends as the best argument that an anti-hero arc can be fully honoured."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A near-perfect final season that pays off five years of slow-burn storytelling with brutal, brilliant inevitability.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.68,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0903747/"
+      },
+      "review_body": "Split into two eight-episode blocks (aired across 2012-2013), Season 5 is the rare finale arc that actually delivers on a show's full promise. Walt goes full Heisenberg, empire-mode - and then the empire collapses around him with the precision of a controlled demolition. The back eight are among the most watched episodes in cable television history. 'Ozymandias' - episode 14 - is still routinely cited as the greatest single episode of American television ever made; its IMDb score was effectively perfect until coordinated review-bombing in early 2026. The finale 'Felina' does not chase catharsis it hasn't earned. The IMDb season average of 9.68/10 is the highest of any season in television history by that metric.",
+      "season_over_season": "The culmination of everything: faster, bleaker, and more certain than any prior season. The show does not trip at the finish line.",
+      "episode_reviews": [
+        {
+          "number": 14,
+          "title": "Ozymandias",
+          "air_date": "2013-09-15",
+          "bollymeter": 10.0,
+          "spoiler_free": "The bill comes due. Everything Walt has set in motion since the pilot converges in a single episode of sustained devastation - family, lies, empire, and the last illusion of who Walter White believed he was. Directed by Rian Johnson. No fat, no mercy, no escape from what the show spent five years building toward.",
+          "the_moment": "A phone call in which Walt weaponises his last shred of agency to try to protect what he destroyed.",
+          "critic_note": {
+            "text": "A masterclass in consequence - Rian Johnson directs the series' most devastating hour.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s05"
+          }
+        },
+        {
+          "number": 15,
+          "title": "Granite State",
+          "air_date": "2013-09-22",
+          "bollymeter": 9.5,
+          "spoiler_free": "Walt in exile: isolated, diminished, watching everything he built crumble without him. A necessary decompression between the carnage of Ozymandias and the finality of Felina - but not filler. The episode earns its slower tempo by doing the psychological work the finale needs to land clean.",
+          "the_moment": "Walt watching a cable news segment that finally breaks his stubborn will to survive for its own sake.",
+          "critic_note": {
+            "text": "A quieter but essential penultimate hour - the inhale before the finale.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s05"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Felina",
+          "air_date": "2013-09-29",
+          "bollymeter": 9.8,
+          "spoiler_free": "The series finale. Walt returns and settles every debt - to himself and to everyone else. Critics split on whether it's too satisfying; that debate misses the point. Gilligan never promised nihilism: he promised consequence. Felina delivers consequence, cleanly and without apology.",
+          "the_moment": "Walt admitting, finally and to the right person, the single truth the show spent sixty-two episodes circling.",
+          "critic_note": {
+            "text": "A finale that honours the series by refusing to cheat its audience out of resolution.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/breaking_bad/s05"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

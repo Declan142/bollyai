@@ -1,0 +1,122 @@
+{
+  "slug": "adolescence",
+  "qid": {
+    "value": "Q130447038",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Adolescence",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "A 13-year-old boy is arrested for murdering a classmate, and four single-take episodes track a year of investigation, school corridors, therapy sessions, and a family coming apart at the seams.",
+  "poster": {
+    "src": "/img/series/adolescence/poster.jpg",
+    "alt": "Adolescence series poster",
+    "attribution": "Poster © Netflix / UKTV / Warp Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A four-episode limited series; Jack Thorne and Stephen Graham have confirmed no Season 2.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Adolescence_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": 4,
+      "release_date": {
+        "value": "2025-03-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "100% on Rotten Tomatoes; one of the most formally audacious pieces of British television in years - every episode shot in a single unbroken take, directed by Philip Barantini, forcing an intensity of performance and presence that conventional editing would have made avoidable."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Adolescence is quietly devastating - a formally audacious, morally serious examination of violence, boyhood, and the families left behind.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/adolescence/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt31806037/"
+      },
+      "review_body": "Adolescence is the 2025 television event that most precisely deserved the word 'event'. The formal conceit - every episode in a single unbroken take - was not a stunt; it was a structural necessity for a story about bearing witness without escape. Director Philip Barantini, working from Jack Thorne's writing, turned the camera into an accomplice that followed these people through a year of grief and investigation and couldn't look away. Owen Cooper's Jamie was the show's sustained miracle: a child-actor performance that critics at 100% called genuinely unprecedented. Stephen Graham, who also produced, delivered the kind of work that makes other actors' careers look comfortable. Netflix reported staggering opening-week viewership. The four-episode structure meant the show ended before it could outstay itself.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2025-03-13",
+          "bollymeter": 9.6,
+          "spoiler_free": "A door broken down before dawn. A 13-year-old taken from his home in handcuffs. The entire police station sequence - interview rooms, corridors, waiting areas - follows Jamie and his father in a single unbroken shot that refuses to let the camera rest anywhere easier. By the episode's end, a question has been posed that the remaining three hours will circle without ever quite answering cleanly.",
+          "the_moment": "The interview room scene - Jamie's face when the accusation lands, held in one uncut take.",
+          "critic_note": {
+            "text": "Adolescence Episode 1 is the most formally startling British television debut in years.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/adolescence/s01/e01"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2025-03-13",
+          "bollymeter": 9.7,
+          "spoiler_free": "Jamie meets with a psychologist. One room, two people, one continuous hour. The episode is a chamber piece that slowly dismantles the child's defenses - and then the defenses' defenses - until something that might be truth surfaces. Critics isolated this episode as the performance peak of the entire series.",
+          "the_moment": "The moment the psychologist reaches something in Jamie that the police interviews couldn't - the pivot the whole show turns on.",
+          "critic_note": {
+            "text": "Episode 3 of Adolescence is one of the most accomplished pieces of two-person television drama ever made.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/adolescence/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2025-03-13",
+          "bollymeter": 9.4,
+          "spoiler_free": "Eddie Miller's birthday. The family attempts normalcy inside a house that no longer has a structure that supports normalcy. Stephen Graham's performance here reaches something beyond craft - a father trying to hold the shape of a family that the shape no longer fits. The final minutes land with accumulated weight.",
+          "the_moment": "The birthday cake - an act of love so ordinary inside circumstances so extraordinary it breaks differently than any explicit scene could.",
+          "critic_note": {
+            "text": "The Adolescence finale trusts its audience to do the emotional mathematics - a rare and correct choice.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/adolescence/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

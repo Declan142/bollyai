@@ -1,0 +1,146 @@
+{
+  "slug": "foundation",
+  "qid": null,
+  "title": {
+    "value": "Foundation",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A mathematician predicts the fall of a galactic empire and sets in motion a plan spanning a thousand years to save humanity.",
+  "poster": {
+    "src": "/img/series/foundation/poster.jpg",
+    "alt": "Foundation series poster",
+    "attribution": "Poster © Apple TV+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 3 premiered July 11, 2025 on Apple TV+; renewed for additional seasons.",
+    "source": "Apple TV Press",
+    "source_url": "https://www.apple.com/tv-pr/news/2025/05/apples-epic-hit-saga-foundation-to-return-for-season-three-on-friday-july-11/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-09-24",
+        "source": "Apple TV+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "72% RT - critics respected the ambition and the visuals but found the adaptation's creative liberties with Asimov's structure somewhat alienating, especially for non-readers. A slow-build season that rewards patience."
+      },
+      "critic": {
+        "positive_pct": 72,
+        "sample": 89,
+        "pull_quotes": [
+          {
+            "text": "Visually stunning and thematically ambitious, though the weight of Asimov's ideas sometimes bogs down the pacing.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/foundation/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0804484/"
+      },
+      "review_body": "Foundation Season 1 is the kind of big-swing adaptation that is easier to admire than to love on first pass. Showrunner David Goyer takes Asimov's largely plot-driven, dialogue-heavy novels and injects character - the genetic dynasty of Cleons, the generational Hari Seldon arc, Gaal Dornick as the emotional entry point. The visual design is genuinely spectacular, Apple's production money evident in every frame. Critics at 72% were divided between those who found the approach bold and those who found it ponderous. The cloned emperors - Brother Day, Dusk, and Dawn played by three actors - are the season's most distinctive creative decision and the most compelling ongoing thread. A foundation (sorry) is being laid; the payoff requires commitment.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-07-14",
+        "source": "Apple TV+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% RT from critics - a rare perfect score that reflected genuine surprise at how much the show had improved. The Second Foundation reveal and the Emperor arc were called exceptional. The show found its rhythm."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 26,
+        "pull_quotes": [
+          {
+            "text": "A remarkable, sweeping improvement - Foundation Season 2 fulfils every promise its predecessor made and several it didn't know it was making.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/foundation/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0804484/"
+      },
+      "review_body": "Season 2 is the rare second season that is genuinely better in every dimension. The slower world-building of Season 1 paid its dividends: the Second Foundation, the Mule, the Cleon dynasty in full crisis - all land with the weight they've been building toward. Critics awarded it a perfect 100% on Rotten Tomatoes, which for a sci-fi adaptation of Asimov in the streaming era is a near-miraculous achievement. Jared Harris as Hari Seldon operates across time and perception, an anchoring performance. The season's political argument - about the limits of prediction, about whether free will survives determinism - is genuinely Asimovian in its ambition and executed with clarity. Foundation finally became the show it always wanted to be.",
+      "season_over_season": "A dramatic uplift from Season 1 in narrative confidence and critical reception; the 100% RT reflects genuine excellence."
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 10,
+      "release_date": {
+        "value": "2025-07-11",
+        "source": "Apple TV+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "92% RT - critics called it a worthy continuation of Season 2's momentum; the culmination of ongoing arcs earned strong praise, some noting it as the most emotionally satisfying run of episodes yet."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 12,
+        "pull_quotes": [
+          {
+            "text": "Foundation Season 3 delivers on the epic promise of its predecessors with confidence and scope.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/foundation/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0804484/"
+      },
+      "review_body": "Season 3 carries the weight of two seasons of extraordinary expectation and, by most critical measures, meets it. The 92% RT score - a slight step from Season 2's perfect mark but still exceptional - reflects a season that deepens rather than resolves its central philosophical argument. The Seldon Plan plays out across timescales that would be unwieldy in lesser hands; the show's willingness to treat its audience as intelligent adults remains its most distinctive trait among streaming science fiction. Individual story threads from Seasons 1 and 2 find their proper conclusions. Apple has committed serious resources and serious creative intent to Foundation, and that investment reads on screen in every episode.",
+      "season_over_season": "A strong continuation; the slight dip from Season 2's perfect score is the price of being measured against it."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

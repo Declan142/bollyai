@@ -1,0 +1,91 @@
+{
+  "slug": "big-mouth",
+  "qid": null,
+  "title": {
+    "value": "Big Mouth",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A perpetually losing lawyer is mistakenly identified as the genius con artist Big Mouse while in prison - and has to survive long enough to either prove otherwise or become the man everyone believes he is.",
+  "poster": {
+    "src": "/img/series/big-mouth/poster.jpg",
+    "alt": "Big Mouth Korean drama series poster",
+    "attribution": "Poster © MBC / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season; concluded September 2022. Producers ruled out Season 2.",
+    "source": "Soompi",
+    "source_url": "https://www.soompi.com/article/1545547wpp/big-mouth-producers-respond-to-questions-about-possibility-of-a-season-2"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 16,
+      "release_date": {
+        "value": "2022-07-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb 7.8; mixed critical reception - praise for Lee Jong-suk's committed performance and the first-half's propulsive tension; criticism centres on plot holes and a resolution that doesn't cash the cheques the setup wrote."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Lee Jong-suk sells the absurd premise through sheer force of performance, even when the writing lets him down.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3193003/k-drama-review-big-mouth-disney-series-starring-lee-jong-suk-is-so-full-of-plot-holes"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21195490/"
+      },
+      "review_body": "Big Mouth works best as a Lee Jong-suk vehicle and worst as a plot-driven thriller. The premise is genuinely inventive - a hapless lawyer forced to inhabit the legend of a criminal mastermind he has nothing in common with - and the first half runs on that tension with real momentum. The show's problems are structural: the conspiracy it builds around Big Mouse's identity is more elaborate than it is coherent, and the final episodes spend considerable effort patching holes the writing created. The South China Morning Post called it 'K-drama's Swiss cheese.' Im Yoon-ah's prosecutor wife arc is strong enough to carry scenes independently. The 7.8 IMDb is fair: there is real entertainment here, but the show mistakes complexity for intelligence in its final quarter.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2022-07-29",
+          "bollymeter": 8.1,
+          "spoiler_free": "The premiere is the show at its most confident - the premise lands quickly, Lee Jong-suk's Park Chang-ho is established as both genuinely hapless and fundamentally decent, and the prison world snaps into focus with efficient visual storytelling. The best argument for why to watch the rest.",
+          "the_moment": "The moment Park Chang-ho is identified as Big Mouse and has a split second to decide whether to deny or lean in.",
+          "critic_note": {
+            "text": "A premise that should not work, delivered with enough conviction to make it work.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/big_mouth"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

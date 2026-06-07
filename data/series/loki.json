@@ -1,0 +1,126 @@
+{
+  "slug": "loki",
+  "qid": null,
+  "title": {
+    "value": "Loki",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "The God of Mischief is recruited by a time-policing bureaucracy to fix the fractures his scheming has caused across the multiverse.",
+  "poster": {
+    "src": "/img/series/loki/poster.jpg",
+    "alt": "Loki series poster",
+    "attribution": "Poster © Marvel Studios/Disney+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 2 finale in November 2023 served as a series conclusion; no Season 3 confirmed as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Loki_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-06-09",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "92% RT; critics called it the MCU's most conceptually ambitious Disney+ series, with Tom Hiddleston and Owen Wilson's chemistry as an unlikely odd couple carrying the show well beyond its concept premise."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 338,
+        "pull_quotes": [
+          {
+            "text": "Loki is witty, stylish, and surprisingly poignant, anchored by a charismatic duo and the MCU's most inventive concept yet.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/loki/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9140554/"
+      },
+      "review_body": "Loki Season 1 is the Marvel Disney+ series that best understood what the format could do that movies couldn't. The Time Variance Authority - bureaucratic, mid-century in aesthetic, morally tangled - is one of the MCU's most original world-building achievements. Tom Hiddleston has been playing this character for a decade and Season 1 finally gives him a full arc to complete; the scene opposite Sylvie in episode five is the emotional summit of Hiddleston's entire MCU tenure. Owen Wilson as Mobius is one of the best MCU castings of the streaming era. Critics at 92% praised the genre blend - noir, comedy, mythology - and the sustained invention of the TVA as setting. The Kang reveal in episode six is the cleanest single-episode cliffhanger in Marvel's Disney+ run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Glorious Purpose",
+          "air_date": "2021-06-09",
+          "bollymeter": 8.3,
+          "spoiler_free": "The series premiere reframes what Loki is - not the villain of Avengers, not the redeemed anti-hero of Ragnarok, but a variant of both who must now confront the totality of his own story. The TVA setting lands with immediate confidence; Hiddleston is electric.",
+          "the_moment": "Loki watching a highlight reel of his own life and realising where it ends - one of the MCU's quietest, most effective uses of montage.",
+          "critic_note": {
+            "text": "A bold, clever, playful premiere that makes the MCU feel genuinely new again.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/loki-s01e01-review-1847085272"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-10-05",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "81% RT; critics found the time-loop mechanics inventive and the finale genuinely moving, but mid-season pacing and the Ke Huy Quan subplot dragged for some reviewers. The finale's final image is the series' best single shot."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 161,
+        "pull_quotes": [
+          {
+            "text": "A slower but ultimately rewarding second act, culminating in a finale that earns its emotional grandeur.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/loki/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9140554/"
+      },
+      "review_body": "Season 2 has the harder job: the concept established in Season 1 must now pay off, and the payoff must justify two seasons of mythology-building. It largely does, but the journey is uneven. The time-slipping mechanic introduced early is inventive; the Ouroboros character (Ke Huy Quan) gets an ensemble subplot that some critics found charming, others overstuffed. The season builds deliberately toward its finale, 'Glorious Purpose' (echoing Season 1's premiere), which resolves Loki's character arc in a genuinely unexpected way that rewards viewers who followed the show's long game. At 81% RT it is a step below Season 1 but not a disappointment. As a series conclusion it functions with dignity.",
+      "season_over_season": "Slower and more uneven than Season 1; the finale redeems the mid-season drag and provides a satisfying endpoint."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

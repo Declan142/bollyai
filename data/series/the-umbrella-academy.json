@@ -1,0 +1,181 @@
+{
+  "slug": "the-umbrella-academy",
+  "qid": null,
+  "title": {
+    "value": "The Umbrella Academy",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Seven superhuman adoptees reunite at their eccentric father's death to prevent an apocalypse - and can barely stand each other.",
+  "poster": {
+    "src": "/img/series/the-umbrella-academy/poster.jpg",
+    "alt": "The Umbrella Academy series poster",
+    "attribution": "Poster © Netflix/Dark Horse Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 4 was announced as the final season; all six episodes released August 8, 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Umbrella_Academy_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-02-15",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "77% RT; critics found the tone and ensemble appealing but the plotting messy. Audiences embraced the show's anarchic energy and the chemistry of the Hargreeves siblings, particularly Aidan Gallagher's Number Five."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 94,
+        "pull_quotes": [
+          {
+            "text": "An imaginative, irreverent superhero series that works better when focused on its endearing ensemble than its chaotic plot.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_umbrella_academy/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1312171/"
+      },
+      "review_body": "The Umbrella Academy Season 1 is the messy, charming debut of a show that works better as a vibe than as a plot machine. The Gerard Way comic's core idea - superheroes as a dysfunctional family unit rather than a assembled team - gives the writers a distinct emotional frame. The sibling dynamics, especially the fractured relationship between Luther and Diego and Allison, have genuine texture. Aidan Gallagher as Number Five is the standout: a 58-year-old assassin trapped in a 13-year-old's body, he commands every scene with an old-soul authority that should not work but does completely. The apocalypse-prevention plot is serviceable at best. Critics at 77% were right to note the structural looseness, but the audience's affection (8.0 IMDb) captures something the numbers miss: this show is genuinely fun to be in.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-07-31",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "91% RT - the show's critical summit. The 1960s Dallas setting gave the ensemble structure the first season lacked; critics found the tighter scenario and stronger character work a genuine upgrade."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 89,
+        "pull_quotes": [
+          {
+            "text": "A substantial improvement - more focused, more emotional, and funnier, with a 1960s setting that unlocks the show's full potential.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_umbrella_academy/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1312171/"
+      },
+      "review_body": "Season 2 is the Umbrella Academy at its best: the 1960s Dallas setting functions as narrative constraint in the best possible way, forcing the scattered siblings into a tighter geography and a tighter story. The civil rights backdrop gives Allison's arc real weight. Klaus's cult storyline is the season's comedic high point. The Commission sequences and the Handler's return are vintage comic-book television - stylised and propulsive. Critics at 91% recognised the improvement comprehensively: this is a sharper, more confident version of the show, with the ensemble dynamics calibrated and the time-travel mechanics now in service of character rather than plot complication. The Sparrow Academy reveal is Season 2's best cliffhanger.",
+      "season_over_season": "A decisive step up from Season 1 in structure and character work; the 91% RT reflects a show that found itself."
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-06-22",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% RT - matched Season 2's critical score; the Sparrow Academy rivalry and the Hotel Oblivion arc landed well. Critics praised the season as continuation of the show's confident middle period."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 57,
+        "pull_quotes": [
+          {
+            "text": "The Umbrella Academy maintains its winning formula - chaotic, emotional, wildly entertaining - with a new ensemble rivalry that adds fresh energy.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_umbrella_academy/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1312171/"
+      },
+      "review_body": "Season 3 has the structural confidence of a show that knows its own physics. The Sparrow Academy as rival sibling-unit works - the mirroring dynamic gives writers twice the dysfunction to play with. Sloane and Luther's romance is the season's emotional centre; the Hotel Oblivion sequences are ambitious. The audience score's slide (7.4 IMDb) relative to the critic consensus (91%) suggests diminishing returns for some viewers even while the show maintains its craft. The finale's universe reset - resetting character genders and relations - was polarising, and some fans found it thematically unearned. As a mid-series chapter with genuine highs and an uncertain ending, Season 3 sits exactly where it should: entertaining, slightly frustrating, never dull.",
+      "season_over_season": "Lateral move from Season 2; strong in its midsection, divisive in its conclusion."
+    },
+    {
+      "number": 4,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-08-08",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 5.2,
+        "basis": "55% RT and 18% audience score - the show's lowest marks. Netflix's decision to limit the final season to six episodes left too many arcs unresolved; critics noted the rushed pacing and unsatisfying character conclusions."
+      },
+      "critic": {
+        "positive_pct": 55,
+        "sample": 34,
+        "pull_quotes": [
+          {
+            "text": "A truncated final season that squanders the goodwill of three earlier chapters with rushed resolutions and too many questions left unanswered.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_umbrella_academy/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1312171/"
+      },
+      "review_body": "Season 4 is the wrong kind of final season: compressed, uncertain, and clearly working under budget and episode constraints that hobble the storytelling. Six episodes to wrap four seasons of mythology - Netflix's decision, not the creators' - results in character arcs that snap shut rather than close. The Hotel Oblivion thread from Season 3 gets partial resolution at best. Individual performances remain committed; the cast never checked out. But the structural problems are too severe to overlook. A 55% RT and 18% audience score tell the story plainly: Season 4 did not give this ensemble the ending it had earned over three seasons. A disappointing conclusion to a show that, at its peak in Seasons 2 and 3, was genuinely lovable.",
+      "season_over_season": "The weakest season by significant margin; the truncated episode count is the primary culprit."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

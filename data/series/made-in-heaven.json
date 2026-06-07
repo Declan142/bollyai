@@ -1,0 +1,145 @@
+{
+  "slug": "made-in-heaven",
+  "qid": {
+    "value": "Q62059534",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Made in Heaven",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Zoya Akhtar and Reema Kagti use the Big Fat Indian Wedding as a diagnostic instrument - dissecting class, caste, gender and desire through the two wedding planners who fix every family's beautiful lie.",
+  "poster": {
+    "src": "/img/series/made-in-heaven/poster.jpg",
+    "alt": "Made in Heaven series poster",
+    "attribution": "Poster © Tiger Baby/Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 released August 2023; Season 3 not yet confirmed as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Made_in_Heaven_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 9,
+      "release_date": {
+        "value": "2019-03-08",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Critics placed it among the finest Indian OTT originals of its debut year; Hindustan Times gave it four out of five stars calling it the best Indian Amazon original. IMDb audience settled at 8.2. The show's frank handling of caste, queerness and class anxiety in an anthology structure was unprecedented in Indian streaming."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Compelling, funny and surprisingly deep - Made in Heaven is the best desi original Amazon has produced.",
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6494622/"
+      },
+      "review_body": "Made in Heaven arrived in 2019 with more ambition per episode than most Indian shows achieve across full seasons. The conceit is structurally elegant: each wedding is a contained social anthropology study, while the lives of Tara (Sobhita Dhulipala) and Karan (Arjun Mathur) expand episode-by-episode into something larger and darker. Zoya Akhtar directs with her characteristic density - every frame is loaded with class signifiers - and Reema Kagti keeps the anthology engine tightly wound. What the show accomplished culturally is significant: it put queer experience, caste discrimination and the economics of aspirational marriage on a mainstream platform and refused to soften any of it. Arjun Mathur won the International Emmy for Best Actor. The anthology structure means the show's quality fluctuates with each wedding's individual writer, but even the weaker episodes serve the larger architecture.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "In Sickness and in Health",
+          "air_date": "2019-03-08",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere sets up both the anthology template and the season-long emotional throughlines in one confident move. The wedding being planned is already a minefield; Tara and Karan's separate crises establish the show's stakes without the usual pilot over-explanation. Dhulipala and Mathur establish their chemistry and rivalry in the same breath.",
+          "the_moment": "The moment the wedding's real power dynamic surfaces beneath the ceremonial surface - a Akhtar specialty.",
+          "critic_note": {
+            "text": "An assured debut that signals Made in Heaven is operating at a higher frequency than most Indian OTT.",
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Teri Meri Love Story",
+          "air_date": "2019-03-08",
+          "bollymeter": 9.0,
+          "spoiler_free": "Widely cited as the season's standout episode - a wedding in which every family member is hiding something different, and the show's investigation of class performance reaches its most precise articulation. The direction is Akhtar at her most controlled; the script by Alankrita Shrivastava is the finest individual hour of the series.",
+          "the_moment": "The confrontation across the dining table that makes the show's class thesis explicit without a single line of speech.",
+          "critic_note": {
+            "text": "The episode where Made in Heaven becomes undeniably essential Indian television.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": {
+        "value": "2023-08-10",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "A more uneven season than the first - critics found episodes directed by Nair and Bhardwaj exceptional, others structurally incoherent. The show's cultural relevance remained intact; the anthology quality gap widened."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 is overwhelming and occasionally exhausting - but the highs justify the journey.",
+            "source": "Akhil Arora (critic)",
+            "url": "https://akhilarora.com/2023/08/made-in-heaven-season-2-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6494622/"
+      },
+      "review_body": "Season 2 came with more ambition and more cooks - seven episodes directed by filmmakers including Neeraj Ghaywan, Zoya Akhtar and Reema Kagti, but also guest directors whose tonal inconsistency shows. The season's best episodes - particularly Ghaywan's wedding set in a marginalised community - are extraordinary. The worst feel like competent homework. Sobhita Dhulipala shoulders considerably more dramatic weight than season 1 required, and she delivers. The finale lands with more emotional force than critics expected given a structurally weaker penultimate stretch. Seven episodes was the right call over nine.",
+      "season_over_season": "Shorter season, wider directorial spread - the highs reach higher but the floor is lower.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

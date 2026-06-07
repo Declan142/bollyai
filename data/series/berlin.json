@@ -1,0 +1,110 @@
+{
+  "slug": "berlin",
+  "qid": {
+    "value": "Q116717836",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Berlin",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Spain",
+  "original_language": {
+    "value": "es",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Money Heist's most theatrical villain - now the lead - assembles a crew of eccentric specialists to steal across Europe's grandest cities, one baroque heist per season.",
+  "poster": {
+    "src": "/img/series/berlin/poster.jpg",
+    "alt": "Berlin series poster",
+    "attribution": "Poster © Netflix / Vancouver Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 (Berlin and the Lady with an Ermine) released May 15, 2026; Season 3 not yet announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Berlin_(Spanish_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-12-29",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "70% on Rotten Tomatoes; critics found the Berlin spinoff enjoyable on its own terms but unable to recreate the momentum of the parent show - Pedro Alonso's performance remained compelling, but the ensemble felt thinner."
+      },
+      "critic": {
+        "positive_pct": 70,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Berlin coasts on Pedro Alonso's considerable charisma without quite finding the narrative engine that powered Money Heist.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/berlin_2023/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt16288804/"
+      },
+      "review_body": "Season 1 - subtitled 'The Jewels of Paris' - was received as a watchable but not essential spinoff. Álex Pina extracted Berlin from the Money Heist timeline and placed him in a pre-Mint caper in Paris with an ensemble that took most of the eight episodes to cohere. Pedro Alonso's Berlin remains one of Spanish television's most theatrical creations - all operatic ego and genuine menace - and the Paris setting was gorgeous. Critics at 70% noted that the show hadn't yet found the structural tension that made Money Heist compulsive. The flashback-within-flashback architecture confused more than it revealed.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-05-15",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 (The Lady with an Ermine) improved on Season 1 critical reception; the Seville setting and a Professor cameo were noted positively, though the show remained a capable entertainment rather than a must-watch."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt16288804/"
+      },
+      "review_body": "Season 2 - subtitled 'The Lady with an Ermine' - sent Berlin and his crew to sun-drenched Seville for a Da Vinci heist. Critics who'd found Season 1 functional found this an improvement: the ensemble had chemistry now, the visual storytelling was more confident, and a cameo from The Professor rewarded Money Heist loyalists. Still operating below the parent show's dramatic floor, but a spinoff that had found its own reason to exist - Berlin as a European heist anthology with a fixed eccentric center.",
+      "season_over_season": "A clear improvement on Season 1 - the ensemble has settled, the setting is more vivid, and the show has found its own register distinct from Money Heist."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

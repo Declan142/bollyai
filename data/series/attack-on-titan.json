@@ -1,0 +1,211 @@
+{
+  "slug": "attack-on-titan",
+  "qid": {
+    "value": "Q22126305",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Attack on Titan",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "In a world where humanity cowers behind massive walls to survive colossal man-eating Titans, a boy's burning rage to avenge his mother slowly transforms him into something the walls were never designed to contain.",
+  "poster": {
+    "src": "/img/series/attack-on-titan/poster.jpg",
+    "alt": "Attack on Titan series poster",
+    "attribution": "Poster © Hajime Isayama / Kodansha / WIT Studio / MAPPA. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded with 'The Final Chapters: Special 2' on November 5, 2023, completing the manga adaptation across four broadcast seasons.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 25,
+      "release_date": {
+        "value": "2013-04-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb 9.1 overall series; Season 1 launched one of the decade's most viscerally talked-about anime premieres. Critical consensus points to the relentless pacing, singular atmosphere of dread, and the way Trost Arc recontextualizes everything. Audience fervor was immediate and global."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A haunting, beautifully animated series that delivers on its promise of high-stakes action and dystopian horror.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/attack_on_titan/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2560140/"
+      },
+      "review_body": "The first season of Attack on Titan arrived in 2013 and detonated like a grenade in the global anime conversation. WIT Studio's animation treated the survey corps' cable-swinging traversal as legitimate kinetic cinema, while Hiroyuki Sawano's score treated every engagement like the last one. Critics who engaged with it - and there weren't many Western critics doing anime justice in 2013 - pointed to the tonal discipline: this is a show that kills characters you like, refuses to reassure you, and uses its horror-fantasy scaffolding to ask pointed questions about the psychology of walls, enemies, and the mythology states build to sustain themselves. The Trost Arc mid-season delivers what many still consider the most stunning 'power reveal' in modern anime. Season 1 plants every seed the Final Season will need - that's craft, not coincidence.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "To You, in 2000 Years: The Fall of Shiganshina, Part 1",
+          "air_date": "2013-04-07",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere drops viewers into a world that feels immediately oppressive - massive stone walls, a society that has forgotten what freedom costs, and then the wall comes down. Everything the show needs to establish about stakes and dread lands in a single episode. Eren's vow is earned, not scripted.",
+          "the_moment": "The Colossal Titan clearing the top of Wall Maria - a scale reveal that recalibrates everything that follows.",
+          "critic_note": {
+            "text": "An exceptional opening that throws viewers directly into a terrifying world with no hand-holding.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/attack_on_titan/s01/e01"
+          }
+        },
+        {
+          "number": 13,
+          "title": "Primal Desire: The Struggle for Trost, Part 9",
+          "air_date": "2013-07-07",
+          "bollymeter": 9.5,
+          "spoiler_free": "The mid-season crescendo where the cost of reclaiming Trost is fully tallied. The Survey Corps operates under impossible resource constraints and the episode forces viewers to sit with that arithmetic. Direction is unusually restrained for what should be a triumph - and that restraint is the point.",
+          "the_moment": "The boulder sequence - both as animation achievement and as character turning point that splits the fanbase in the best possible way.",
+          "critic_note": {
+            "text": "Emotionally devastating and visually inventive - the kind of episode that explains why this show has a global audience.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/attack_on_titan/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-04-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "Critics awarded Season 2 a 100% Rotten Tomatoes score. Concentrated 12-episode structure, the Beast Titan's reveal, and the 'Warrior' arc reframing are widely cited as the show maturing past its first-season spectacle into something philosophically sharper."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A masterclass in sustained tension that deepens its mythology while never losing sight of human cost.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/attack_on_titan/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2560140/"
+      },
+      "review_body": "Twelve episodes, no filler, no hesitation. Season 2 is where Attack on Titan stopped being a survival horror show and became a war narrative - and critics immediately noticed the gear-shift. The Beast Titan announces a new class of threat while the Uprising arc seeds the political complexity the Final Season will fully cash. WIT Studio's animation stayed relentless despite production constraints that were an open industry secret. The condensed runtime (half that of Season 1) is now widely read as an advantage: the show could not afford a bad episode and did not produce one. The 100% Rotten Tomatoes score reflects a season that is dense with incident but never incoherent - every reveal reshuffles the board and forces audience assumptions to reset.",
+      "season_over_season": "Tighter, denser, philosophically richer - Season 2 is the upgrade Season 1 was promising.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 22,
+      "release_date": {
+        "value": "2018-07-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "Critics and audience consensus marks Part 2 of Season 3 - specifically the Battle of Shinganshina and the basement reveal - as peak AoT storytelling. The full 22-episode season averages that recognition across a slower political first half and an explosive second."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2560140/"
+      },
+      "review_body": "Season 3 splits cleanly into two halves with starkly different textures. The first half (Part 1) is political intrigue - Interior Police, succession, and a pivot into territory the show had avoided. Reception was mixed on the slower burn. Part 2 is near-unanimously regarded as the single greatest stretch of the entire run: the return to Shiganshina is visually exhausting and emotionally brutal, and Erwin Smith's final command to his troops delivers a speech that critics repeatedly excerpted as a case study in anime writing at its ceiling. The basement reveal - what the show has been building toward since episode 1 - earns its weight. WIT Studio's final full season, and they left on their terms.",
+      "season_over_season": "Part 1 is a necessary pivot; Part 2 is the show operating at its absolute ceiling - one of anime's finest stretches.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2020,
+      "episodes": 30,
+      "release_date": {
+        "value": "2020-12-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "100% Rotten Tomatoes critics score. MAPPA took over production; the perspective switch to Marley is the show's most audacious structural move. Parts 1 and 2 aired 2020 - 2022; The Final Chapters (two specials) concluded the series in 2023. Audience scores sit at 93% on RT."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Attack on Titan's final season is a bold, morally complex conclusion that recontextualizes everything that came before.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/attack_on_titan/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2560140/"
+      },
+      "review_body": "The Final Season is a structural provocation: four years and three broadcast windows to complete 30 episodes and two feature-length specials. MAPPA replaced WIT Studio and brought a different aesthetic - harder lines, less impressionistic expressiveness, more tactical clarity - which divided purists but functioned correctly for the show's turn toward geopolitics. The Marley arc opening is the boldest move in the entire run: the enemies of Season 1 arrive as protagonists, and the camera does not soften them. The Rumbling sequence, aired across Parts 2 and The Final Chapters, is the darkest sustained stretch in mainstream anime television: no moral exit, no clean hero, no comfortable landing. Critics gave it 100%; the fanbase split on the ending in ways the show clearly anticipated and designed for.",
+      "season_over_season": "A four-year, multi-part conclusion that is as morally uncomfortable as anything in the medium - deliberately so.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

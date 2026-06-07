@@ -1,0 +1,109 @@
+{
+  "slug": "guns-and-gulaabs",
+  "qid": {
+    "value": "Q113954345",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Guns & Gulaabs",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Raj and DK set a 1990s opium-trade crime story in a small-town UP that smells of rose farms and casual violence - with Dulquer Salmaan, Rajkummar Rao, Adarsh Gourav and Gulshan Devaiah playing four men on different sides of the same rotting machine.",
+  "poster": {
+    "src": "/img/series/guns-and-gulaabs/poster.jpg",
+    "alt": "Guns & Gulaabs series poster",
+    "attribution": "Poster © D2R Films/Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One-season limited series; no Season 2 announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Guns_%26_Gulaabs"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": {
+        "value": "2023-08-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Raj and DK's tonal juggling act drew divided responses - audiences who came for The Family Man's propulsive urgency found a more oblique, nostalgic register instead. Critics largely acknowledged the craft; the IMDb audience settled around 7.4 per episode with the finale reaching 8.3. A show better appreciated on second watch than on first contact."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Raj and DK create interesting characters from scratch - Guns & Gulaabs is their most idiosyncratic work.",
+            "source": "IMDb (critic aggregation)",
+            "url": "https://www.imdb.com/title/tt17524566/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt17524566/"
+      },
+      "review_body": "Raj and DK are allergic to the expected, and Guns & Gulaabs is their most fully committed expression of that instinct. The show operates in a register that has no easy precedent in Indian streaming: part '90s nostalgia piece, part opium-trade crime saga, part character study of men trapped in systems larger than their individual choices. The four-strand narrative - Adarsh Gourav's accidental criminal, Rajkummar Rao's conflicted cop, Dulquer Salmaan's cartel figure and Gulshan Devaiah's wild-card - demands patience before it coheres, and some viewers never granted it. Those who stayed found a show with an unusual relationship to violence: it's matter-of-fact, unglamorous and very 1990s UP. The rose-farm visual language is genuinely distinctive. The finale substantially outpaced the first two episodes in audience reception, which suggests the show rewards completion. Whether it merited a second season is a question Netflix declined to answer.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Chapter 1: Har Insaan Mein Hai Shaitaan",
+          "air_date": "2023-08-18",
+          "bollymeter": 7.5,
+          "spoiler_free": "The opener deposits four strangers into the same small-town UP geography and doesn't explain the connections - Raj and DK trust the audience's patience with a 1990s world they build in texture before plot. The rose-farm imagery and the half-heard Hindi film songs on AM radio are doing as much narrative work as the dialogue.",
+          "the_moment": "Adarsh Gourav's first encounter with the cartel - ordinary nervousness against extraordinary menace.",
+          "critic_note": {
+            "text": "A confident, unhurried opening episode that announces a show on its own timeline.",
+            "source": "Netflix press materials",
+            "url": "https://www.netflix.com/title/81313531"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Chapter 7+8: Raat Baaki...",
+          "air_date": "2023-08-18",
+          "bollymeter": 8.3,
+          "spoiler_free": "The double-length finale is where the show's four strands finally braid together and the 1990s world collapses under its own weight. Raj and DK pull the tonal register toward something more elegiac than either crime thriller or comedy - a choice that divided critics but struck most audiences as the right call for a show that was always about entropy as much as crime.",
+          "the_moment": "The four protagonists' simultaneous reckonings in the same night - a structural gamble that lands.",
+          "critic_note": {
+            "text": "The finale justifies every earlier episode's patience - this is Raj and DK operating without a safety net.",
+            "source": "IMDb audience reviews",
+            "url": "https://www.imdb.com/title/tt17524566/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -6,6 +6,7 @@ import { DESKS } from "../lib/desks";
 import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
 import { getAllSeries, latestSeason } from "../lib/series";
+import { getAllWatchLists } from "../lib/recommendations";
 import { webSiteJsonLd } from "../lib/jsonld";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
@@ -46,6 +47,8 @@ export default function HomePage() {
     .map((s) => ({ s, season: latestSeason(s) }))
     .sort((a, b) => (b.season?.bollymeter?.score ?? 0) - (a.season?.bollymeter?.score ?? 0))
     .slice(0, 12);
+
+  const watchLists = getAllWatchLists().slice(0, 6);
 
   const leadFig = lead ? bestFigure(lead) : null;
 
@@ -196,6 +199,27 @@ export default function HomePage() {
           All series &amp; OTT verdicts →
         </a>
       </section>
+
+      {watchLists.length > 0 && (
+        <section className="poster-wall-block">
+          <header className="home-section-head">
+            <h2>What to Watch</h2>
+            <p>Curated for a mood, a platform, or a weekend — not a star-rating dump. Indian cinema, global OTT, K-drama, anime.</p>
+          </header>
+          <div className="watch-rail full-bleed">
+            {watchLists.map((list) => (
+              <a className="watch-rail__card" data-desk="streaming" href={`/watch/${list.slug}/`} key={list.slug}>
+                <span className="watch-rail__kicker">{list.kicker}</span>
+                <strong>{list.title}</strong>
+                <span className="watch-rail__count">{list.picks.length} picks →</span>
+              </a>
+            ))}
+          </div>
+          <a className="ott-rail__more" href="/watch/">
+            All watch lists →
+          </a>
+        </section>
+      )}
 
       <section className="desk-strip" aria-label="BollyAI desks">
         {DESKS.map((desk) => (

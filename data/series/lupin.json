@@ -1,0 +1,173 @@
+{
+  "slug": "lupin",
+  "qid": {
+    "value": "Q104842852",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Lupin",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "France",
+  "original_language": {
+    "value": "fr",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A Senegalese-French man raised in poverty uses the playbook of fictional gentleman thief Arsène Lupin to expose the powerful family that destroyed his father.",
+  "poster": {
+    "src": "/img/series/lupin/poster.jpg",
+    "alt": "Lupin series poster",
+    "attribution": "Poster © Netflix / Gaumont Télévision. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Renewed for Part 4, expected Fall 2026, per Netflix announcement in 2025.",
+    "source": "Collider",
+    "source_url": "https://collider.com/netflix-lupin-season-4-release-window-confirmed/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": {
+        "value": "2021-01-08",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "98% on Rotten Tomatoes; critics unanimously credited Omar Sy's magnetic charisma as the defining factor - one of the most watchable performances in recent French television, in a show that made the heist genre feel both classic and urgently contemporary."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Omar Sy is utterly magnetic - Lupin is a cracking heist thriller that earns its 'gentleman thief' premise through sheer charm and craft.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/lupin/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2531336/"
+      },
+      "review_body": "Part 1 announced Lupin as Netflix's most significant non-English language success since Money Heist. Five tight episodes moved at a pace rare for French television - brisk, confident, propelled by Omar Sy's effortless screen command as Assane Diop, a man who uses the aesthetic of Arsène Lupin as cover for a very personal grudge. The Paris settings were used with intelligence; the Louvre heist opening was a statement of intent. At 98% on Rotten Tomatoes, critics agreed this was genre television that had been elevated by its star. Netflix reported 70 million households watched within the first month - a record at the time.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Chapter 1",
+          "air_date": "2021-01-08",
+          "bollymeter": 8.9,
+          "spoiler_free": "The opening heist at the Louvre - during a high-society auction - establishes Assane's method and the show's register in one virtuoso sequence. Omar Sy makes the audacity feel effortless. The personal backstory, Assane's father framed and destroyed by the Pellegrini family, arrives quickly and sharpens the heist into something with stakes beyond money.",
+          "the_moment": "Assane in a janitor's uniform, moving invisibly through the Louvre during the Pellegrini auction - the disguise hiding the man hiding the mission.",
+          "critic_note": {
+            "text": "A dazzling debut that makes Sy's charisma do the work of a full ensemble.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/lupin/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Chapter 5",
+          "air_date": "2021-01-08",
+          "bollymeter": 8.6,
+          "spoiler_free": "The Part 1 finale puts Assane into a corner with no clean exit and delivers a cliffhanger that functions as both a full stop and a question mark. The personal and professional stakes have converged - his son's safety now tangles with his crusade against Pellegrini.",
+          "the_moment": "The closing image that sent 70 million viewers to the Part 2 release date page.",
+          "critic_note": {
+            "text": "Lupin's first act ends on a pivot that makes the wait for Part 2 genuinely painful.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/lupin/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": {
+        "value": "2021-06-11",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "96% on Rotten Tomatoes; critics found the continuation satisfying - five tight episodes that resolved Part 1's cliffhanger while expanding the conspiracy."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2531336/"
+      },
+      "review_body": "Part 2 arrived five months after Part 1 and picked up precisely where it left off - Assane hunted, his son in danger, the Pellegrini plot thickening. Five episodes again, each economical in its storytelling. Critics at 96% confirmed the show hadn't lost its momentum in the gap. Sy's performance anchored scenes that lesser writing would have buckled under. The Pellegrini arc was brought to a satisfying close, setting the table for the more expansive Part 3.",
+      "season_over_season": "A hair below Part 1 on immediate impact - the surprise factor was spent - but the craftsmanship held at the same level."
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": {
+        "value": "2023-10-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "100% on Rotten Tomatoes - the show's best critical reception. Extended to seven episodes, critics called it the most assured part yet, with Sy stretching into dramatic range the earlier parts' lighter register hadn't required."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The most emotionally rich chapter yet - Part 3 proves Lupin isn't coasting on Sy's charm alone.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/lupin/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2531336/"
+      },
+      "review_body": "Two years after Part 2, Part 3 arrived with seven episodes and a 100% score - the show's critical peak. The writing team used the expanded runtime to push Assane into darker personal territory, and Sy responded with a performance that critics called his most complete. The heist mechanics remained sharp but the emotional register deepened, suggesting a show that had grown past its initial genre hook. CBR reported Netflix renewed it for Part 4 off this reception alone. A rare case of a show in its third season running better than it did at launch.",
+      "season_over_season": "The best Part - more episodes, more emotional depth, more demanding of its lead, and Sy delivering everything the writing asked."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

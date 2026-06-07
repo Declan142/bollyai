@@ -1,0 +1,122 @@
+{
+  "slug": "chernobyl",
+  "qid": {
+    "value": "Q48741246",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Chernobyl",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "The 1986 nuclear disaster and the Soviet apparatus that spent weeks pretending it hadn't happened - and the scientists, miners, and divers who knew it had.",
+  "poster": {
+    "src": "/img/series/chernobyl/poster.jpg",
+    "alt": "Chernobyl miniseries poster",
+    "attribution": "Poster © HBO / Sky UK. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Five-episode limited series; no continuation planned. Won Outstanding Limited Series at the 71st Primetime Emmy Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 5,
+      "release_date": {
+        "value": "2019-05-06",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.7,
+        "basis": "95% on RT from 103 reviews, average critic score 8.9/10. IMDb 9.3/10 - among the highest-rated TV shows in IMDb's Top 250. Craig Mazin and Johan Renck produced the definitive account of institutional catastrophe on television. Emmy winner for Limited Series, Directing, and Writing."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 103,
+        "pull_quotes": [
+          {
+            "text": "A harrowing, meticulous, and deeply human account of disaster and cover-up - Chernobyl is essential television.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chernobyl/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7366338/"
+      },
+      "review_body": "Five hours is all Craig Mazin needed. Chernobyl reconstructs the April 1986 reactor explosion and its aftermath with a documentary rigour that never sacrifices drama - a combination most historical prestige television fails to achieve. The Soviet bureaucratic machine, its compulsive denial of catastrophe, its sacrificing of human beings as cost-line items, is rendered with horrifying specificity. Jared Harris as Legasov and Stellan Skarsgård as Shcherbina anchor the human story within the institutional horror; Emily Watson's composite scientist gives the audience a consistent emotional register. Hirokazu Kore-eda comparisons arrived from critics who admired how quietly the show builds dread. Johan Renck's direction - grey palette, procedural precision, sound design that makes silence terrifying - is as praised as the writing. At 9.3 on IMDb, it briefly held the top spot in the Top 250. The question the show asks - what is the cost of lies? - is the most durable thing about it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "1:23:45",
+          "air_date": "2019-05-06",
+          "bollymeter": 9.5,
+          "spoiler_free": "The explosion, in real time. Renck and Mazin refuse to let the disaster be spectacular - the horror is in the bureaucratic normalcy that surrounds it. Plant workers follow protocols for emergencies the protocols weren't built for; managers insist the reactor cannot have exploded because the reactor cannot explode. The most frightening hour of television in 2019.",
+          "the_moment": "The first meeting of plant managers in the aftermath - everyone in the room knowing something is catastrophically wrong, nobody willing to say it.",
+          "critic_note": {
+            "text": "The opening hour is a masterclass in sustained dread built from bureaucratic denial.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chernobyl/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "The Happiness of All Mankind",
+          "air_date": "2019-05-27",
+          "bollymeter": 9.6,
+          "spoiler_free": "The liquidators and the biorobots; the miners tunnelling under the reactor; the rooftop radiation shovellers. Episode 4 is where the human cost is made bodily specific. Three groups of men doing jobs the state cannot admit are killing them. Renck shoots each strand as its own genre: procedural, horror, tragic pastoral.",
+          "the_moment": "The miners' meeting with Gorbachev - men who understand exactly what they're being asked to do, and do it anyway.",
+          "critic_note": {
+            "text": "Episode 4 confronts the show's central horror directly: the state's arithmetic of acceptable human cost.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chernobyl/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Vichnaya Pamyat",
+          "air_date": "2019-06-03",
+          "bollymeter": 9.8,
+          "spoiler_free": "The trial. Legasov testifies. The show's most explicit articulation of its thesis - that lies have a cost measured in human lives - arrives in a formal courtroom setting that makes the argument unavoidable. The closing documentary footage of the real people grounds the drama in a grief that the series earns.",
+          "the_moment": "Legasov's testimony on what actually happened inside Reactor 4 - speaking truth to the system at personal cost the show has spent four episodes preparing the audience to understand.",
+          "critic_note": {
+            "text": "A finale that earns its emotional weight - Jared Harris delivers a career-best performance in a scene that demands it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chernobyl/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "alice-in-borderland",
+  "qid": {
+    "value": "Q103967305",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Alice in Borderland",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Three friends wander into an empty Tokyo and find themselves conscripted into lethal games where the alternative to winning is death - a survival thriller built on spatial logic and moral improvisation.",
+  "poster": {
+    "src": "/img/series/alice-in-borderland/poster.jpg",
+    "alt": "Alice in Borderland series poster",
+    "attribution": "Poster © Haro Aso / Shogakukan / Netflix Japan. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix stated in January 2026 that Season 3, which premiered September 25, 2025, was the series finale.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Alice_in_Borderland_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-12-10",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "82% Rotten Tomatoes critics score from 10 reviews; IMDb 7.8. Season 1 arrived in the post-Squid Game void before Squid Game existed - a Japanese survival-thriller that earned comparison to the genre's best while being critiqued for uneven pacing in its middle section. The world-building and game design are consistently praised; the character depth is noted as a limitation."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 10,
+        "pull_quotes": [
+          {
+            "text": "Alice in Borderland delivers taut survival thriller mechanics and a genuinely eerie empty-Tokyo aesthetic that overcomes its character shortcomings.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/alice_in_borderland/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10795658/"
+      },
+      "review_body": "Season 1 of Alice in Borderland earns its place through production design - an empty Tokyo rendered as genuinely disquieting rather than simply depopulated - and through its game mechanics, which are inventive enough that each encounter generates distinct strategic tension. Director Shinsuke Sato's background in commercial action cinema reads in the set pieces; this is not a drama that happens to contain violence but a thriller that constructs its violence around spatial problems. Critics noted the character work as the primary limitation: Arisu's internal journey is legible but not distinctive, and the secondary cast's motivations are underwritten compared to the game design they inhabit. The 82% score is a warm endorsement with a clear asterisk. For viewers who came for the games, Season 1 delivers. For viewers who came for the characters, Season 2 is where the show meets them.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-12-10",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Arisu, Karube, and Chota in their pre-Borderland lives - efficiently and without sentimentality - then drops them into an empty Shibuya with the matter-of-factness of a dream that has stopped pretending to be ordinary. The first game's spatial logic is introduced and the stakes are made permanent within the episode's running time.",
+          "the_moment": "Shibuya crossing empty at night - the show's founding image, which communicates its entire aesthetic contract in a single frame.",
+          "critic_note": {
+            "text": "A confident genre premiere - the world-building is immediate and the emptied-city atmosphere is genuinely unsettling.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/alice_in_borderland/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-12-22",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "91% Rotten Tomatoes from 9 reviews. Season 2 is the show finding its character register to match its game design - Yuzuha Usagi's arc is consistently cited by critics as the upgrade that elevated the series' overall standing. The face-card game sequence in the final episodes generated strong critical response for scale and execution."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "Season 2 delivers Alice in Borderland at full power - deeper characters, larger stakes, and set pieces that push the survival-thriller format to its operational ceiling.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/alice_in_borderland/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10795658/"
+      },
+      "review_body": "Season 2 addresses Season 1's primary criticism directly: the character work catches up to the game design. The face-card games - each a face card is a different game, each a different genre of threat - are the show's most ambitious structural commitment, and the production delivers. Chishiya's arc in Season 2 is repeatedly cited by critics as the series' finest character writing. The mythology behind the Borderland begins to resolve, and the choices made in that resolution are cleaner than audiences had reason to expect from a survival thriller. The 91% Rotten Tomatoes score reflects a sophomore season that outperformed a strong debut.",
+      "season_over_season": "Season 2 corrects Season 1's character limitation while maintaining its action ceiling - the upgrade the premise deserved.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": null,
+      "release_date": {
+        "value": "2025-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Season 3 received the series' lowest Rotten Tomatoes score at 60%, per Screen Rant and CBR reporting. Critics cited tonal inconsistency and a finale that did not satisfy the two-season setup. The season is the series' weakest critical entry and Netflix confirmed it as the final season."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10795658/"
+      },
+      "review_body": "Season 3 is Alice in Borderland closing on its weakest critical showing. At 60% on Rotten Tomatoes, it ends the trend the first two seasons had established. Critics who engaged with the finale pointed to tonal inconsistency in the second half and a resolution that felt structurally compressed relative to the mythology it was attempting to conclude. The series ends having peaked in Season 2, which is a better fate than the inverse. For a show that Netflix confirmed has concluded, Season 3 functions as a closure that satisfies the need for one without generating the demand for more.",
+      "season_over_season": "A step down from Season 2 - the show's weakest season and its conclusion.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

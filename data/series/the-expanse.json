@@ -1,0 +1,251 @@
+{
+  "slug": "the-expanse",
+  "qid": null,
+  "title": {
+    "value": "The Expanse",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "In a colonised solar system seething with political tension, a crew aboard a salvage ship becomes the reluctant centre of a conspiracy that threatens all of humanity.",
+  "poster": {
+    "src": "/img/series/the-expanse/poster.jpg",
+    "alt": "The Expanse series poster",
+    "attribution": "Poster © Amazon Studios/Alcon Television Group. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 6 seasons in January 2022; cancelled twice (Syfy, then concluded under Amazon Prime Video), making it one of television's most resilient sci-fi rescues.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Expanse_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-12-14",
+        "source": "Syfy",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "78% RT; critics recognised the world-building ambition but found the split-narrative structure (Holden's space plot, Miller's Ceres investigation, Avasarala's politics) demanding for new viewers. The payoff is evident in retrospect."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 46,
+        "pull_quotes": [
+          {
+            "text": "A richly-imagined sci-fi universe that takes its time to reveal its full ambitions - patience will be rewarded.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3230854/"
+      },
+      "review_body": "The Expanse Season 1 is hard sci-fi television made with the seriousness the genre rarely receives. The solar system here is not a metaphor - it is a working political economy with three factions (Earth, Mars, Belt) each with legitimate grievances and credible motivations. Showrunners Naren Shankar and Mark Fergus build Holden, Miller, and Avasarala as representatives of each faction simultaneously, which makes early viewing demanding. Critics at 78% were fair: the show earns its complexity, but it asks the viewer to accept a steep initial investment. The audience score (8.6 IMDb) reflects the community of readers and viewers who arrived with the James S.A. Corey novels as context. Season 1 is the least-complete Expanse season; it functions best as prologue.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 13,
+      "release_date": {
+        "value": "2017-02-01",
+        "source": "Syfy",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "95% RT - a dramatic critical uplift. Critics found the Protomolecule arc beginning to crystallise and the political stakes between Earth, Mars, and the Belt fully operational. The show's identity locked in."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 35,
+        "pull_quotes": [
+          {
+            "text": "An exceptional leap forward - The Expanse Season 2 is the show at full throttle, one of the most compelling sci-fi dramas television has produced.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3230854/"
+      },
+      "review_body": "Season 2 is where The Expanse becomes the show its fans evangelised about. The Protomolecule is no longer a mystery but an active threat, and the political machinery of all three factions responds with different degrees of rationality and panic. The Ganymede arc - food supply disruption for the entire solar system - raises the stakes to civilisation-threatening territory without losing individual human stakes. The writing by Naren Shankar and the novels' authors is consistently adult in the word's best sense: consequences accumulate, characters make decisions with real costs. At 95% RT the critical consensus finally caught up with the audience's early enthusiasm.",
+      "season_over_season": "A decisive step forward from Season 1; the world's politics are fully operational and the Protomolecule arc begins to pay off."
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-04-11",
+        "source": "Syfy",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "100% RT - critics found Season 3 a perfect synthesis of the show's political and cosmic ambitions. The Ring Gate sequence in the finale is among the most visually accomplished moments in prestige science fiction."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 25,
+        "pull_quotes": [
+          {
+            "text": "The Expanse reaches its artistic summit in a season that delivers on every promise the series has ever made.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3230854/"
+      },
+      "review_body": "Season 3 is the Expanse at its creative summit. The political war between Earth and Mars, the Protomolecule's development into a Ring Gate, Holden's contact with the Miller-construct - all converge in a finale that expands the show's scope from a solar-system political drama to something genuinely cosmic. The 100% RT score and 9.8 IMDb place it among streaming television's most acclaimed single seasons in any genre. Syfy cancelled the show at the end of this season - a decision so widely criticised that Amazon Prime Video rescued it. That rescue is a document of how much this show meant to its audience.",
+      "season_over_season": "The absolute series peak; the Ring Gate sequence is The Expanse's single most iconic visual achievement."
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-12-12",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "100% RT on Prime Video's first Expanse season. Critics noted the show found new life and new budget on Amazon; the Ilus colony arc is character-driven hard sci-fi at its best."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 34,
+        "pull_quotes": [
+          {
+            "text": "A triumphant new chapter - The Expanse arrives on Amazon with more resources and no loss of its remarkable creative coherence.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3230854/"
+      },
+      "review_body": "Season 4 lands at Amazon with a 100% RT score and a palpably higher budget. The colonisation of Ilus is a story about first contact, resource conflict, and the costs of frontier pragmatism - it is smaller in scope than Season 3 but more granular, and the show's willingness to slow down proves it trusts its audience. The CGI for the ancient alien structures is the best of the series. Avasarala's storyline on Earth runs in parallel and contextualises the politics of planetary colonisation. The audience score dipped relative to Season 3 (8.1 IMDb) likely reflecting the reduced kinetic pace; critically, however, this is the show maintaining its standard on a new platform.",
+      "season_over_season": "A different register from Season 3 - more contemplative, equally rigorous; Amazon's resources visible throughout."
+    },
+    {
+      "number": 5,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-12-15",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% RT; the asteroid-attack sequence against Earth is the most politically devastating moment in the show's run. Critics called it the Expanse's most emotionally brutal season."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 32,
+        "pull_quotes": [
+          {
+            "text": "The Expanse Season 5 is devastating and brilliant - the series' most emotionally ambitious run of episodes, culminating in an act of planetary violence that reframes everything.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3230854/"
+      },
+      "review_body": "Season 5 is the show at its most politically tragic. Marco Inaros's asteroid campaign against Earth - an act of Belter terrorism-as-revolution - lands with the weight of an act of history rather than plot mechanics. The show has spent four seasons building the Belt's legitimate grievances; when the hammer finally falls, it is not triumphant or villainous but genuinely complicated. At 100% RT critics found this the show's most emotionally complete season. The Naomi in space arc is the most formally daring Expanse has attempted, and it functions. Season 5 is the show as political philosophy with spaceships - which is what the best sci-fi always is.",
+      "season_over_season": "An emotional step up from Season 4; the asteroid sequence is the series' single most consequential event."
+    },
+    {
+      "number": 6,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-12-10",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "96% RT; critics praised the finale while noting the compressed six-episode run left the ring-space subplot underdeveloped. A strong series conclusion despite the truncation."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 23,
+        "pull_quotes": [
+          {
+            "text": "A worthy, if compressed, farewell to one of television's most ambitious sci-fi achievements.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s06"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3230854/"
+      },
+      "review_body": "Season 6 is the abbreviated finale of a show that deserved more room. Six episodes resolve the Marco Inaros arc and the Earth-Mars-Belt conflict - these resolutions earn their emotional weight. The ring-gate storyline and the entities beyond it are left deliberately open, setting up books that a seventh season would have adapted. Critics at 96% were generous: the compression hurts but the execution is clean. The final episode is a proper ending for the characters even if the cosmic mythology remains a hanging thread. Season 6 is the best goodbye Amazon's cancellation allowed.",
+      "season_over_season": "The weakest season structurally due to the six-episode limit; a satisfying character conclusion despite the truncation."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "fleabag",
+  "qid": {
+    "value": "Q29055629",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Fleabag",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A sharp, grieving, sexually reckless woman breaks the fourth wall to confide in you while her life collapses - and then makes you realize she's been lying to your face.",
+  "poster": {
+    "src": "/img/series/fleabag/poster.jpg",
+    "alt": "Fleabag series poster",
+    "attribution": "Poster © BBC Three / Two Brothers Pictures / Amazon Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Ended with Season 2 in April 2019; Phoebe Waller-Bridge has consistently stated the story is complete.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Fleabag"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-07-21",
+        "source": "BBC Three",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes across both seasons; critics called Waller-Bridge's performance and writing a singular voice for a generation - the fourth-wall breaks arrived as genuine formal innovation rather than affectation."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Wickedly funny and searingly honest - Phoebe Waller-Bridge announces herself as one of the most distinctive voices in British comedy.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fleabag/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5687612/"
+      },
+      "review_body": "Season 1 is a comedy structured like a grief novel. Waller-Bridge's unnamed protagonist addressed the camera with a confessional directness that felt new - the fourth-wall breaks weren't theatrical tricks but a character's survival mechanism, a way of narrating yourself when the interior is too much. The six episodes moved between dark comedy and something genuinely devastating, and the reveal that the friend she'd mentioned was gone recontextualized everything. Critics gave it a perfect score. The show had arrived fully formed from a one-woman Edinburgh Fringe show and lost nothing in translation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-07-21",
+          "bollymeter": 8.8,
+          "spoiler_free": "Waller-Bridge's protagonist introduces herself directly to camera - immediate, funny, morally dubious - and the show establishes the register it will operate in for twelve episodes. The first look to camera is also the show's founding contract with its audience: she will tell you the truth, except when she won't.",
+          "the_moment": "The first direct-to-camera break - the character choosing us as her confessor.",
+          "critic_note": {
+            "text": "The opening episode of Fleabag is a tonal masterclass in dark comedy.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fleabag/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-03-04",
+        "source": "BBC Three / Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "100% on Rotten Tomatoes; won 3 Emmys including Outstanding Comedy Series, Lead Actress, and Writing. The Priest arc is considered by many critics to be among the greatest six hours of comedy-drama television ever produced."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Fleabag Season 2 is a miracle - romantic, devastating, formally perfect, and the best comedy on television by a margin that's almost unfair.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fleabag/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5687612/"
+      },
+      "review_body": "Season 2 is the rarer achievement: a second season that surpassed the first on every metric. Andrew Scott's Priest arrived as the show's best character - a man who noticed Fleabag looking at the camera and asked about it, the one person who saw through the fourth-wall performance. The central episode where he responds to a camera break mid-conversation is the show's structural masterstroke. Waller-Bridge won the three Emmys. Critics at 100% used terms like 'masterpiece' and 'perfect'. The final episode's ending - what she gives up and why - is earned in a way television endings almost never are. Twelve episodes total. The best comedy-drama in years.",
+      "season_over_season": "Surpasses Season 1 - the Priest character is the show's greatest invention, and the finale pays off both seasons simultaneously.",
+      "episode_reviews": [
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2019-03-18",
+          "bollymeter": 9.6,
+          "spoiler_free": "The Priest notices her looking at the camera. The show's central conceit - the private confessional space between Fleabag and the audience - is suddenly invaded, and the whole architecture of what the show has been doing snaps into focus. Arguably the pivot point of the entire series.",
+          "the_moment": "The Priest following her gaze to camera and asking where she keeps going - the show's most technically audacious scene.",
+          "critic_note": {
+            "text": "The moment the Priest notices the fourth wall is television writing at its most inventive.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fleabag/s02"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2019-04-08",
+          "bollymeter": 9.8,
+          "spoiler_free": "The series finale. What she chooses and what she gives up are both devastating, and the final camera look is the show saying goodbye in the only way it could. Waller-Bridge wrote herself a curtain call that earned every tear the audience was holding.",
+          "the_moment": "The last look to camera - the show's farewell to the one relationship it built with absolute honesty.",
+          "critic_note": {
+            "text": "One of the most accomplished series finales in the history of British television comedy-drama.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fleabag/s02"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

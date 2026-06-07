@@ -1,0 +1,109 @@
+{
+  "slug": "the-railway-men",
+  "qid": {
+    "value": "Q123385912",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Railway Men",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Four railway workers make decisions in the twelve hours after the 1984 Bhopal gas leak that history never recorded - YRF's first series is a disaster epic built on ordinary heroism.",
+  "poster": {
+    "src": "/img/series/the-railway-men/poster.jpg",
+    "alt": "The Railway Men series poster",
+    "attribution": "Poster © YRF Entertainment/Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Limited miniseries; no continuation announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Railway_Men"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 4,
+      "release_date": {
+        "value": "2023-11-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "IMDb audience at 8.5 - one of the highest-rated four-episode Indian miniseries on the platform. Critics from Scroll.in (compelling saga of ordinary heroism) to Indian Express (worthy effort, expansive old-fashioned storytelling) converged on the show's emotional sincerity. Kay Kay Menon specifically called out in every major review."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A compelling saga of ordinary heroism - Kay Kay Menon takes centre stage, delivering a rousing performance.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt16296870/"
+      },
+      "review_body": "The Railway Men operates in a genre Indian OTT has rarely attempted: the ensemble disaster epic where the drama is entirely procedural and the heroism entirely mundane. Director Shiv Rawail and writer Bhavani Iyer had to find drama in the sequence of decisions made by four people in the hours before and after the Union Carbide gas leak - no chase scenes, no villains to defeat, just escalating choices made with incomplete information. Kay Kay Menon's station master is the show's anchor, and he plays the character as a man defined by habit and duty discovering that habit and duty are suddenly the difference between mass casualties and something slightly less catastrophic. R. Madhavan, Divyenndu and Babil Khan fill out the quartet with comparable commitment. The Indian Express noted the show's 'expansive, old-fashioned storytelling' - a fair characterisation of four episodes that trust emotional directness over narrative cleverness. Nandini Ramnath of Scroll.in called it a 'compelling saga of ordinary heroism', which is the most precise summary available.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Night Shift",
+          "air_date": "2023-11-18",
+          "bollymeter": 8.3,
+          "spoiler_free": "The opening episode establishes all four protagonists in their routines before the gas leak begins. Director Rawail builds a quiet dread through ordinariness - the station at night, the chemical plant across the city, the ordinary hierarchies of railway bureaucracy - so that when the first alarm sounds, the contrast is viscerally effective.",
+          "the_moment": "The first report of 'gas in the air' reaching the station - the exact moment the show's characters understand that nothing about this night is routine.",
+          "critic_note": {
+            "text": "An emotionally resonant and incredibly moving tale of under-appreciated heroes.",
+            "source": "News18",
+            "url": "https://www.news18.com/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "The Last Train",
+          "air_date": "2023-11-18",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale is a structured reckoning - not a climax in the thriller sense but a demonstration of what four ordinary men did and what it cost them. The show avoids both sentimentality and heroic mythology; it simply shows the hours running out and the decisions being made and lets the viewer calculate the weight of what was saved.",
+          "the_moment": "The final decision about the train - a logistical call that functions as a moral one.",
+          "critic_note": {
+            "text": "The Railway Men earns its emotional finale through meticulous groundwork in three prior episodes.",
+            "source": "The Indian Express",
+            "url": "https://indianexpress.com/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "jubilee",
+  "qid": {
+    "value": "Q118905540",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Jubilee",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Vikramaditya Motwane's ten-episode period epic about ambition, betrayal and the founding mythology of Bollywood - set in Partition-era Bombay where a studio boss, his movie-star wife, a trusted aide and a refugee all collide in pursuit of the same dream.",
+  "poster": {
+    "src": "/img/series/jubilee/poster.jpg",
+    "alt": "Jubilee series poster",
+    "attribution": "Poster © Andolan Films/Phantom Studios/Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One-season limited series; no Season 2 announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Jubilee_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-04-07",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "Critics praised the production design, Motwane's tonal control and the ensemble's commitment; Film Companion found it 'equal parts fascinating and frustrating' - a fair read of a show whose ambition sometimes outpaces its emotional resolution. IMDb audience settled at 8.3. Nine Filmfare OTT Awards are hard to argue with."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A spectacular feat of storytelling flourish and vintage verve - Motwane's most controlled long-form work.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/jubilee_2023/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt19868804/"
+      },
+      "review_body": "Jubilee is what happens when a filmmaker who has spent his career in contemporary Mumbai turns his obsessions backward into 1940s Bollywood. Vikramaditya Motwane and Soumik Sen build a world out of studio politics, misogyny, partition grief and the specific madness of wanting to be on screen at a time when the entire country was figuring out what it wanted to look at. Prosenjit Chatterjee's studio patriarch is a masterclass in men who build kingdoms as proxies for grief; Aparshakti Khurana and Sidhant Gupta carry the hustle-and-ambition strand with credibility. The show's flaw - which Film Companion identified precisely - is that it sometimes drowns character interiority in visual spectacle, particularly in the back half. But the first five episodes constitute some of the finest period television India has produced, and the craftsmanship in every frame is unimpeachable. Won nine Filmfare OTT Awards and an Asian Academy Creative Award.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Jubilee",
+          "air_date": "2023-04-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere announces its scale immediately - a Bombay in the process of becoming, where the chaos of Partition feeds directly into the chaos of a film industry trying to invent itself. Motwane introduces five protagonists without losing the thread; the production design alone justifies the running time. A rare opening episode that feels like a world rather than an exposition.",
+          "the_moment": "Prosenjit Chatterjee watching a rough cut alone in a screening room - the loneliness of the empire-builder unmistakably present.",
+          "critic_note": {
+            "text": "Motwane's knowledgeable, affectionate nostalgia operates at a pitch rarely achieved in Indian streaming.",
+            "source": "Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/jubilee_2023/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "The Interval",
+          "air_date": "2023-04-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "The midpoint of the season - released with the first batch of episodes - functions as a natural climax and reset. Every major relationship in the show reaches a point of no return here; the writing is at its sharpest, the performances most concentrated. Critics who reviewed the first five episodes before the back half dropped were uniformly enthusiastic.",
+          "the_moment": "The confrontation between Chandrabhan and the studio patriarch in the cutting room - loyalty, betrayal and creative credit all colliding simultaneously.",
+          "critic_note": {
+            "text": "Five episodes in, Jubilee is already one of Indian streaming's finest achievements.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/jubilee-review-vikramaditya-motwanes-nostalgia-trip-is-equal-parts-fascinating-and-frustrating-prime-video-aparshakti-khurana-aditi-rao-hydari-new-web-series"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

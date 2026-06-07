@@ -1,11 +1,26 @@
 {
   "slug": "mirzapur",
   "qid": null,
-  "title": { "value": "Mirzapur", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": {
+    "value": "Mirzapur",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A wedding procession ambush ignites a war for control of the gun-and-carpet belt of Uttar Pradesh, pulling two families into a spiral of ambition, violence, and retribution.",
   "poster": {
@@ -24,9 +39,17 @@
       "number": 1,
       "year": 2018,
       "episodes": 9,
-      "release_date": { "value": "2018-11-16", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2018-11-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.4, "basis": "Launched a Hindi-belt crime genre on Indian streaming; Pankaj Tripathi's Kaleen Bhaiya became a cultural touchstone. Strong IMDb signal from 93K+ voters." },
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Launched a Hindi-belt crime genre on Indian streaming; Pankaj Tripathi's Kaleen Bhaiya became a cultural touchstone. Strong IMDb signal from 93K+ voters."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -38,17 +61,63 @@
           }
         ]
       },
-      "audience": { "rating": 8.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6473300/" },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6473300/"
+      },
       "review_body": "Mirzapur's debut in November 2018 established a template for high-voltage Hindi-belt crime drama on Indian streaming. Created by Karan Anshuman, the nine-episode season grounds its feudal-crime story in the textured geography of Uttar Pradesh's gun-and-carpet corridor. Pankaj Tripathi as Kaleen Bhaiya became one of Indian streaming's first canonical villain performances, extracting menace from stillness rather than volume. Reviewers at the time gave mixed-to-positive notices, with Scroll praising the lead performance while trade critics flagged the pacing and graphic violence. The audience, however, was decisive: the series accrued 93,000-plus IMDb votes at 8.4, demonstrating a level of cultural penetration that made a sequel inevitable.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Jhandu",
+          "air_date": "2018-11-16",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Mirzapur's brutal geography through a wedding procession ambush that pulls two families - the Pandits and the Tripathis - into an orbit of violence and obligation. Pankaj Tripathi's Kaleen Bhaiya is introduced with maximum economy: more stillness and calculation than any amount of menace-signalling could achieve.",
+          "the_moment": "The wedding convoy blocked on a dusty road - the inciting ambush that sets every subsequent season in motion.",
+          "critic_note": {
+            "text": "Pankaj Tripathi's nuanced and hugely enjoyable performance anchors a show that is discomforting, thrilling, and gory yet entertaining.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/reel/902888/review-mirzapur-is-the-kind-of-show-that-gets-you-interested-but-also-leaves-you-wanting"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Bhaukal",
+          "air_date": "2018-11-16",
+          "bollymeter": 8.6,
+          "spoiler_free": "The season's turning-point episode - power balances shift, alliances fray, and the Pandits are fully drawn into Mirzapur's feudal machinery. The title translates roughly to 'dominance' and the episode earns it: the show's class politics and violence finally cohere into something with genuine stakes.",
+          "the_moment": "Guddu and Bablu cross the line from bystanders to willing participants in Kaleen Bhaiya's order - no return after this.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Yogya",
+          "air_date": "2018-11-16",
+          "bollymeter": 9.0,
+          "spoiler_free": "Three generations of Tripathis assert themselves in a finale that is uncompromisingly dark and structurally complete as a chapter. The season ends not on triumph but on devastation, setting up a revenge arc that would drive the next two seasons. IMDb voters rated this the highest-scored episode of Season 1 at 9.0.",
+          "the_moment": "The Holi night bloodbath - the season's thesis about what power costs, delivered without flinching.",
+          "critic_note": null
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2020,
       "episodes": 10,
-      "release_date": { "value": "2020-10-23", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-10-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.8, "basis": "Delivered the revenge escalation audiences wanted, though critics noted uneven pacing; still the fanbase's preferred season after the original." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Delivered the revenge escalation audiences wanted, though critics noted uneven pacing; still the fanbase's preferred season after the original."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -62,9 +131,17 @@
       "number": 3,
       "year": 2024,
       "episodes": 10,
-      "release_date": { "value": "2024-07-05", "source": "IMDb / trade", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-07-05",
+        "source": "IMDb / trade",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.8, "basis": "Critics near-consensus: weakest season, with The Indian Express calling it a two-star entry and NDTV flagging markedly less tensile strength; audience more forgiving but the cultural conversation was subdued." },
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Critics near-consensus: weakest season, with The Indian Express calling it a two-star entry and NDTV flagging markedly less tensile strength; audience more forgiving but the cultural conversation was subdued."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -84,5 +161,5 @@
   "_quarantine": [
     "Poster: no originalimage found on Wikipedia REST API for Mirzapur_(TV_series); using _fallback.svg."
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

@@ -1,0 +1,109 @@
+{
+  "slug": "cyberpunk-edgerunners",
+  "qid": {
+    "value": "Q96677963",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Cyberpunk: Edgerunners",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A Night City street kid with nothing to lose gets cybernetically enhanced and briefly, incandescently, lives faster than the city that will kill him.",
+  "poster": {
+    "src": "/img/series/cyberpunk-edgerunners/poster.jpg",
+    "alt": "Cyberpunk: Edgerunners series poster",
+    "attribution": "Poster © CD Projekt / Studio Trigger / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Netflix announced Season 2 of Cyberpunk: Edgerunners in 2025/2026. Season 1 was produced as a standalone limited series by Studio Trigger.",
+    "source": "IMDb News",
+    "source_url": "https://www.imdb.com/news/ni65325170/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-09-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% Rotten Tomatoes critics score from 16 reviews, average 8.8/10. IMDb 8.3. The unusual achievement: a tie-in series for a video game (Cyberpunk 2077) that succeeded as an independent work and generated enough cultural heat to revive the game's own commercial performance post-launch. Studio Trigger's visual language and the David Martinez arc earned the score independently."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 16,
+        "pull_quotes": [
+          {
+            "text": "Cyberpunk: Edgerunners is the rare video game tie-in that transcends its source material - a visually intoxicating tragedy about what it costs to burn bright in a city designed to consume you.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/cyberpunk_edgerunners/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12590266/"
+      },
+      "review_body": "Ten episodes, no dead weight. Cyberpunk: Edgerunners is what happens when Studio Trigger - the studio of Kill la Kill and Gurren Lagann - gets a Night City brief and no franchise obligation to protect. David Martinez is a protagonist whose trajectory is announced in episode one and whose ending the show designs with the structural confidence of something that knows it has one swing. The 100% Rotten Tomatoes score reflects a critical consensus built on the show's self-containment: this is not a pilot for a franchise, it is a story with a last page. Lucy's worldbuilding and the body-horror logic of cyberpsychosis are rendered with Trigger's signature kinetic excess, but the emotional machinery is quieter and more precise than the studio's usual register. The show revived Cyberpunk 2077's reputation and player numbers months after its disastrous launch - proof of cultural penetration, not just streaming metrics.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Let You Down",
+          "air_date": "2022-09-13",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere locates David in the Night City economy with precision - a kid on a scholarship to a corpo school he can't afford, in a city that prices survival above his means. Trigger's visual grammar announces itself immediately: the UI overlays, the color saturation, the violence that arrives without dramatic preparation. David's first taste of augmentation is the show's inciting event and its central seduction.",
+          "the_moment": "David's first voluntary augmentation - the moment he stops being a victim of Night City and starts being one of its experiments.",
+          "critic_note": {
+            "text": "A blistering opening that establishes a world, a protagonist, and a trajectory in 25 minutes without a wasted frame.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/cyberpunk_edgerunners/s01"
+          }
+        },
+        {
+          "number": 10,
+          "title": "My Moon My Man",
+          "air_date": "2022-09-13",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale delivers on every structural promise the show made in episode one. Night City collects its debt from David in a sequence that is among the most visually and emotionally sustained ten minutes in recent animated television. No rescue, no redemption arc bypass - the city gets what it always gets, and the show is honest about that. Lucy's fate runs parallel with the precision of something planned from the series' first frame.",
+          "the_moment": "The final sequence on the Moon - the image Edgerunners is remembered by.",
+          "critic_note": {
+            "text": "A finale that is exactly as inevitable as the show promised, and exactly as devastating as the show earned.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/cyberpunk_edgerunners/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

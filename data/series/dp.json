@@ -1,0 +1,144 @@
+{
+  "slug": "dp",
+  "qid": {
+    "value": "Q105226735",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "D.P.",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A reluctant military conscript joins the Deserter Pursuit unit, chasing AWOL soldiers whose reasons for fleeing expose the rot inside South Korea's mandatory service culture.",
+  "poster": {
+    "src": "/img/series/dp/poster.jpg",
+    "alt": "D.P. series poster",
+    "attribution": "Poster © Netflix / Lezhin Studio / Homemade Film. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed (2021, 2023); no Season 3 announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/D.P._(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-08-27",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes from first wave of critics; IMDb settles at 8.2 across a wide base; consensus is that it is the most honest depiction of Korean military hazing ever put on screen."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "A taut, compassionate reckoning with systemic cruelty inside South Korea's military that refuses easy resolution.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dp/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13024974/"
+      },
+      "review_body": "Six tight episodes and D.P. already felt definitive. The show's genius is structural: it uses the Deserter Pursuit premise not as action scaffolding but as a delivery mechanism for harrowing case-of-the-week stories - each deserter a different face of institutional violence. Critics were uniform in calling it the most politically courageous Korean drama to land on Netflix, tying the abuse endemic in conscription to broader class hierarchies. The 100% Rotten Tomatoes score on opening reflects that critical consensus. Jung Hae-in gives the quietest, most load-bearing performance of his career - nothing performed, everything felt. The final two episodes shift register into something darker than most K-dramas dare, and the show earns every second of it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "D.P.: Dog Day",
+          "air_date": "2021-08-27",
+          "bollymeter": 8.8,
+          "spoiler_free": "The table-setting episode that makes the case for the whole series in 45 minutes. Private Ahn Jun-ho arrives at the DP unit and immediately witnesses the machinery of hazing and fear. The atmosphere is suffocating in the best sense - the military base feels like its own sealed country.",
+          "the_moment": "Jun-ho watches a bunkmate absorb punishment and does nothing; the camera holds on his face long enough to make the audience complicit too.",
+          "critic_note": {
+            "text": "Immediately establishes D.P. as a drama with moral weight, not just military spectacle.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dp/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "D.P.: Bystander",
+          "air_date": "2021-08-27",
+          "bollymeter": 9.4,
+          "spoiler_free": "The episode that broke audiences open. A deserter's backstory unfolds in full, and the show refuses to offer any comfort or catharsis - just a reckoning with what the institution does to people who have nowhere left to run. Harrowing, controlled, unforgettable.",
+          "the_moment": "The deserter's final act lands not as melodrama but as a systemic indictment - the silence after is the loudest thing in the episode.",
+          "critic_note": {
+            "text": "The most devastating hour of Korean drama television in recent memory.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dp/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-07-28",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "100% Rotten Tomatoes maintained; IMDb consistent; critics note the season escalates the systemic critique to the institutional level - darker and more ambitious, slightly less taut."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Season 2 broadens the lens, implicating command structures rather than just bad apples, and the show is stronger for the ambition.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dp/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13024974/"
+      },
+      "review_body": "Season 2 takes the systemic critique from Season 1 and runs it up the chain of command. Where Season 1 zoomed in on individual victims, Season 2 asks who in the hierarchy benefits from looking away - and gives the answer unsparingly. The 100% RT maintained is earned; critics flagged it as more tonally controlled than the first run. The action sequences land harder because the show has spent two years making clear what is actually at stake. The emotional beats hit less reliably than Season 1, partly because the character work makes room for institutional architecture. Still the best drama about mandatory military service in any language.",
+      "season_over_season": "More ambitious in scope than Season 1, sacrificing some of the first run's intimate case-by-case devastation for a wider systemic indictment."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

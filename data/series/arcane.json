@@ -1,0 +1,139 @@
+{
+  "slug": "arcane",
+  "qid": null,
+  "title": {
+    "value": "Arcane",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Two sisters from the undercity of Zaun and the glittering metropolis of Piltover are torn apart by war, magic, and the machinery of progress - with catastrophic results.",
+  "poster": {
+    "src": "/img/series/arcane/poster.jpg",
+    "alt": "Arcane series poster",
+    "attribution": "Poster © Netflix/Riot Games/Fortiche Production. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons; Season 2 confirmed as the series finale. Riot Games and Fortiche concluded the story as a complete duology in November 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Arcane_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": {
+        "value": "2021-11-06",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.7,
+        "basis": "100% RT and 94% audience score - essentially unanimous critical and audience acclaim. The animation technique (Fortiche's painterly 3D) redefined what the medium could produce; the Vi and Jinx sibling arc is the emotional pinnacle of video game adaptation in any medium."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 70,
+        "pull_quotes": [
+          {
+            "text": "A stunning, emotionally overwhelming achievement - Arcane is the best video game adaptation ever made and one of the finest animated series in the medium's history.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/arcane_league_of_legends/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11126994/"
+      },
+      "review_body": "Arcane Season 1 is a category-defying achievement. It does not require knowledge of League of Legends - the show was engineered to function without it, and that decision freed Riot Games and Fortiche to tell a story rather than adapt a mythology. The animation technique is unlike anything in Western production: Fortiche's hybrid 3D-painterly style gives every frame the textured depth of concept art in motion. Hailee Steinfeld's Jinx and Ella Purnell's Vi anchor a sibling tragedy that builds to one of the decade's most devastating television sequences. Critics gave it a unanimous 100% on Rotten Tomatoes. Audiences at 94% were equally convinced. The final episode's conclusion - the bridge, the rocket, the song - is the kind of image that defines a television era.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Welcome to the Playground",
+          "air_date": "2021-11-06",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere introduces Zaun and Piltover through the eyes of young Vi and Powder - establishing class, geography, and family with the economy of great animation. The Undercity sequence and the bridge heist set the show's aesthetic and its central relationship in place simultaneously. Critics and first-time viewers were unanimous: this is not a video game cash-in.",
+          "the_moment": "The bridge - a location that will carry the series' entire weight by the final episode.",
+          "critic_note": {
+            "text": "An astonishing debut that immediately announces Arcane as something television hasn't seen before.",
+            "source": "Variety",
+            "url": "https://variety.com/2021/tv/reviews/arcane-review-netflix-league-of-legends-1235107011/"
+          }
+        },
+        {
+          "number": 9,
+          "title": "The Monster You Created",
+          "air_date": "2021-11-20",
+          "bollymeter": 9.7,
+          "spoiler_free": "The Season 1 finale is the conclusion to the most emotionally sustained animated arc since the peak of Studio Ghibli. Every relationship in the series arrives at its logical, heartbreaking endpoint simultaneously. The final sequence is constructed to be remembered - and it is.",
+          "the_moment": "The bridge, the Firelight mask, the rocket - a final image composed with the precision of a great novel's last sentence.",
+          "critic_note": {
+            "text": "A finale of extraordinary emotional force. Arcane ends its first season as a genuine masterpiece.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/arcane-season-1-review-netflix-1235053018/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 9,
+      "release_date": {
+        "value": "2024-11-09",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "100% RT for both seasons - a nearly unprecedented achievement for a completed series. The 84% audience score (slightly below Season 1's 94%) reflects viewers processing a conclusion that does not offer conventional comfort, but critics unanimously called it earned."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 60,
+        "pull_quotes": [
+          {
+            "text": "Arcane Season 2 is a supremely satisfying capper to an epic saga - bold, beautiful, and heartbreaking in exactly the way its characters demanded.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/arcane_league_of_legends/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11126994/"
+      },
+      "review_body": "Season 2 concludes what Season 1 began, and it does so without flinching from the consequences of every choice made in the series. The conclusion is not comfortable; it is honest. Critics awarded it another unanimous 100% RT - making Arcane one of only a handful of two-season series in streaming history where both seasons achieved that mark simultaneously. The animation advances further from Season 1's already-unprecedented standard. Eight of nine Season 2 episodes scored 9 or above on IMDb; the slight audience dip from Season 1's 94% to 84% reflects viewers processing a conclusion that refuses easy resolution for its central relationship. Arcane ends as it lived: on its own terms, entirely committed to them. The best video game adaptation in any medium, finished.",
+      "season_over_season": "A worthy conclusion to a near-perfect duology; the 100% RT second-season score reflects a finale that earned every emotional pound it asked for."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

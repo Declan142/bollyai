@@ -1,0 +1,186 @@
+{
+  "slug": "mr-robot",
+  "qid": {
+    "value": "Q18844729",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mr. Robot",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A paranoid, brilliant hacker working for a cybersecurity firm is recruited into a revolution - and discovers the most dangerous exploit is inside his own mind.",
+  "poster": {
+    "src": "/img/series/mr-robot/poster.jpg",
+    "alt": "Mr. Robot series poster",
+    "attribution": "Poster © USA Network / Universal Content Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 4 seasons on December 22, 2019; Sam Esmail planned the ending from the beginning and delivered it intact.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mr._Robot"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-06-24",
+        "source": "USA Network",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "Every episode of S1 holds 100% approval on RT - the most sustained critical run in the franchise's history. The hacking is technically credible, Rami Malek's performance is magnetic, and Sam Esmail's cinematic ambition was unlike anything on cable."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Rami Malek is mesmerising in a debut season that is technically audacious, psychologically complex, and unlike anything else on television.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_robot/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4158110/"
+      },
+      "review_body": "The debut season of Mr. Robot is the rare prestige television case where technical credibility and creative ambition reinforce each other. Sam Esmail hired actual hackers as consultants; the attacks on E Corp are accurate enough that cybersecurity firms circulated the episodes internally. But the technical realism would mean nothing without Rami Malek's Elliot Alderson - a performance of dissociation, paranoia, and buried pain that won Malek the Emmy and created television's most compelling anti-hero of the decade. The show's aesthetic - Kubrickian framing, deliberate dead space, handheld instability - functions as visual psychology. Every episode drew 100% on RT; critics who cover both film and television recognised Esmail as a genuinely cinematic filmmaker working in long form. Season 1 ends with a revelation that restructures everything the audience thought they understood.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-07-13",
+        "source": "USA Network",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "90% RT, critics average 7.85/10. The most polarising season: deliberately slow, structured around a formal deception that rewarded patient viewers and frustrated impatient ones. The critical consensus is kinder than the real-time viewer reaction."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 is bold and demanding - a formal experiment that not all viewers will accept, but rewards those who do.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_robot/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4158110/"
+      },
+      "review_body": "Season 2 is where the casual audience fell away and the committed audience got exactly what they signed up for. Esmail structures the season around Elliot's situation in a way that only reveals its shape in the final act - a formal deception requiring complete audience trust for episodes that seem to be going nowhere. The 90% RT reflects critics who read the show's intentions correctly; the viewer drop-off reflected an audience that didn't. The season-long exploration of Darlene, the fsociety aftermath, and the Dark Army's global reach deepens the world substantially. The 1.0 episode - shot in real time, on an '80s sitcom stage with a laugh track - is the season's formal peak and one of the strangest hours of television in 2016. In retrospect, S2 is essential architecture.",
+      "season_over_season": "Deliberately paced to the point of testing loyalty, but the formal risks justify themselves in context of the full series arc."
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-10-11",
+        "source": "USA Network",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "92% RT, critics average 8.25/10. The season that rehabilitated the show's casual audience and delivered its most technically extraordinary episodes, including a 45-minute single-take episode."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 3 is Mr. Robot at its most operatic - a return to form that delivers some of the most technically ambitious television ever produced.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_robot/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4158110/"
+      },
+      "review_body": "Season 3 is where Mr. Robot reclaimed everyone who had wavered in S2. The single-take episode - Episode 5, 'Runtime Error' - is 45 minutes of continuous filming across the E Corp building, hacking in real time, intercut with action set-pieces. Esmail directed it himself and it stands alongside True Detective S1's tracking shot as a technical landmark. The fsociety endgame delivers the 5/9 hack consequences the show had been building toward; the Dark Army's motivations gain geopolitical scale. BD Wong's Whiterose is the season's secret weapon. Critics gave it 92%; audiences who had drifted back for S3 delivered the best real-time reception the show had since its debut. The writing sharpened because the architecture was fully visible.",
+      "season_over_season": "The formal ambition of S2 lands in S3's execution - this is what the slow season was building toward."
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 13,
+      "release_date": {
+        "value": "2019-10-06",
+        "source": "USA Network",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "96% RT, critics average 8.95/10 - the highest score since S1. Esmail delivered the ending he planned from the start, and the final two episodes are among the most emotionally complete series finales in prestige television."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A finale season of rare integrity - Mr. Robot ends exactly as it promised, with formal daring and genuine emotional payoff.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_robot/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4158110/"
+      },
+      "review_body": "Season 4 is the rarest outcome for an ambitious serialised drama: a planned ending that arrives exactly as intended and earns everything it claims. Esmail takes the show's psychological architecture - built across four seasons - and completes it with the same rigour the show applied to its hacking sequences. The penultimate episode is a silent film. The finale is one of the most discussed series conclusions since Breaking Bad's Felina, with critics and fans aligned that the revelation is not a trick but a structural inevitability the show had been pointing at from episode one. At 96% RT, S4 is the show's critical peak. The 8.8 IMDb score reflects audience consensus that Esmail honoured the contract. Mr. Robot is the prestige drama that most thoroughly rewards rewatching.",
+      "season_over_season": "The planned ending delivered intact - the series closes with the confidence of a show that always knew where it was going."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

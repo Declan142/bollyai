@@ -1,11 +1,31 @@
 {
   "slug": "severance",
-  "qid": { "value": "Q101096725", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Severance", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q101096725",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Severance",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Apple TV+", "source": "Apple press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Apple press",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "An office worker undergoes a procedure that surgically divides his work and personal memories, then discovers that the separation is not what it seems.",
   "poster": {
@@ -24,25 +44,83 @@
       "number": 1,
       "year": 2022,
       "episodes": 9,
-      "release_date": { "value": "2022-02-18", "source": "Apple press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-02-18",
+        "source": "Apple press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.8, "basis": "97% critic score from 117 reviews and strong audience approval; Ben Stiller's direction and a career-defining Adam Scott performance built the show's cult foundation." },
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% critic score from 117 reviews and strong audience approval; Ben Stiller's direction and a career-defining Adam Scott performance built the show's cult foundation."
+      },
       "critic": {
         "positive_pct": 97,
         "sample": 117,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11280740/" },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11280740/"
+      },
       "review_body": "Season 1 established Severance as Apple TV+'s most formally distinctive drama. The severance premise, work memories and home memories surgically partitioned, provided both a science-fiction hook and a precise metaphor for contemporary alienation. Ben Stiller's direction applied a clinical visual language, all fluorescent symmetry and Kubrickian corridors, that became the show's brand signature. Critics aligned at 97% across 117 reviews; audiences tracked close behind. The cliffhanger finale converted critical goodwill into a cultural event and a two-year wait.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Good News About Hell",
+          "air_date": "2022-02-18",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes Lumon's fluorescent purgatory with precision world-building: Macrodata Refinement, the severed floor, Adam Scott's bewildered innie experiencing his first conscious moments. Ben Stiller's direction applies Kubrickian symmetry as corporate horror rather than visual flourish. The concept is fully formed in under an hour.",
+          "the_moment": "Mark S. wakes at his desk with no memory of arriving - the severance procedure rendered in a single disorienting cut.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "In Perpetuity",
+          "air_date": "2022-03-04",
+          "bollymeter": 8.9,
+          "spoiler_free": "The episode turns the Lumon mythology museum into a horror-comedy set piece, deepening the corporate cult satire while advancing the innie conspiracy. Helly's rebellion compounds, Burt and Irving's dynamic sharpens, and the episode's final image lands as the season's first genuine dread beat. The show's formal control at full power.",
+          "the_moment": "The Lumon 'perpetuity wing' - a gallery of founder worship that makes the horror of institutional devotion tangible.",
+          "critic_note": {
+            "text": "An intense and interesting history lesson that heads inside a museum from hell.",
+            "source": "AV Club",
+            "url": "https://www.avclub.com/severance-recap-season-1-episode-3-in-perpetuity"
+          }
+        },
+        {
+          "number": 9,
+          "title": "The We We Are",
+          "air_date": "2022-04-08",
+          "bollymeter": 9.7,
+          "spoiler_free": "The season finale executes the 'overtime contingency' plan - innies briefly activated in outie bodies - in a sequence of pure adrenaline and dark comedy that paid off nine episodes of careful world-building. The cliffhanger ending sent audiences directly to Twitter and started a two-year conversation. Among the finest season finales in recent prestige television.",
+          "the_moment": "Mark S. speaks through Mark Scout's body and the severance wall collapses - the show's central horror made suddenly personal.",
+          "critic_note": {
+            "text": "Though it may not feel like it, Severance Season 1 Episode 9 was the most satisfying episode so far.",
+            "source": "TV Fanatic",
+            "url": "https://www.tvfanatic.com/severance-season-1-episode-9-review-the-we-we-are/"
+          }
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2025,
       "episodes": 10,
-      "release_date": { "value": "2025-01-17", "source": "Apple press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-01-17",
+        "source": "Apple press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.0, "basis": "100% Rotten Tomatoes critic score from 40+ reviews; Apple TV+'s most-watched series ever, with the critical consensus calling it 'mind-melting' and the season finale generating genuine social-media event television." },
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% Rotten Tomatoes critic score from 40+ reviews; Apple TV+'s most-watched series ever, with the critical consensus calling it 'mind-melting' and the season finale generating genuine social-media event television."
+      },
       "critic": {
         "positive_pct": 100,
         "sample": 40,
@@ -54,7 +132,12 @@
           }
         ]
       },
-      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11280740/" },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11280740/"
+      },
       "review_body": "Season 2 arrived after a three-year gap and delivered what critics called a rare sophomore improvement on a strong first season. The 100% Rotten Tomatoes score, held across 40-plus reviews, reflected a show operating with full confidence in its own strange grammar. Apple reported it as their most-watched series ever. The season expanded the Lumon conspiracy without deflating the mystery, balanced ensemble character arcs against escalating genre momentum, and ended on a finale that was simultaneously conclusive for the season's internal logic and a widening of the larger mythology. Tom's Guide's review noted it beat the near-perfect Season 1 score at launch.",
       "season_over_season": "Season 2 improved on Season 1 by both critic score (100% vs 97%) and institutional recognition; the three-year wait amplified rather than dampened the reception."
     }
@@ -62,5 +145,5 @@
   "_quarantine": [
     "Wikipedia page for Severance (TV series) had no originalimage field; poster set to fallback SVG."
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

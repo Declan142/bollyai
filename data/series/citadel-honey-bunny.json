@@ -1,0 +1,109 @@
+{
+  "slug": "citadel-honey-bunny",
+  "qid": {
+    "value": "Q121433620",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Citadel: Honey Bunny",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Varun Dhawan and Samantha Ruth Prabhu as two operatives in a 1990s spy organisation - India's entry into the AGBO-produced Citadel universe, directed by Raj and DK with full genre-commitment and a scale Indian action television had not previously attempted.",
+  "poster": {
+    "src": "/img/series/citadel-honey-bunny/poster.jpg",
+    "alt": "Citadel: Honey Bunny series poster",
+    "attribution": "Poster © AGBO/D2R Films/Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One-season entry in the Citadel universe; continuation subject to Prime Video decision as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Citadel:_Honey_Bunny"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-11-07",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Led Prime Video's global viewing chart in its debut week - a significant commercial indicator. Critics were split: the action sequences and chemistry between Dhawan and Prabhu were consistently praised; the story's derivative spy-thriller architecture and inconsistent pacing drew the reservations. IMDb audience at 6.2 - lower than the commercial reception suggested, reflecting a genuine split between spectacle-oriented and story-oriented viewers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Samantha and Varun turn the asli maai-baap of Priyanka Chopra's OG Citadel - saving this spyverse with sheer screen presence.",
+            "source": "IMDb (critic review)",
+            "url": "https://m.imdb.com/news/ni64935266/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27111295/"
+      },
+      "review_body": "Raj and DK's Citadel: Honey Bunny carries the marks of a show built to two masters: the AGBO universe requirements and the directors' own instinct for character-driven Indian genre television. When the show is purely Raj-and-DK - the 1990s period detail, the screwball spy dynamic between the leads, Kay Kay Menon's antagonist doing exactly what Kay Kay Menon does in villainous register - it is genuinely entertaining. When it is purely Citadel universe - globe-trotting exposition, franchise mythology setup - it loses the specificity that makes the duo's work distinctive. Samantha Ruth Prabhu brought her Telugu-industry action credibility to a Hindi production convincingly; Varun Dhawan matched her physical and comedic register. Variety noted it led Prime Video's global chart in its first week - which makes the 6.2 IMDb score notable as a gap between commercial reach and critical satisfaction.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-11-07",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere drops into the 1990s spy world with the confident genre-movie tempo Raj and DK established in The Family Man. The period reconstruction is convincing; the leads' chemistry is established efficiently. The episode's function is entirely setup - the Citadel universe architecture takes precedence over individual character depth.",
+          "the_moment": "Honey and Bunny's first operational encounter - the show's central dynamic established in a single extended action sequence.",
+          "critic_note": {
+            "text": "Raj and DK deliver the action and the charm - the universe-building is the tax you pay.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/news/varun-dhawan-samantha-citadel-honey-bunny-rating-1236208703/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Finale",
+          "air_date": "2024-11-07",
+          "bollymeter": 7.4,
+          "spoiler_free": "The finale sets up franchise continuation while delivering the season's most sustained action sequence. Critics who found the season structurally derivative gave the finale credit for its scale and the leads' committed performances. The emotional throughline - which the show had kept secondary to spy mechanics - finally asserts itself in the closing act.",
+          "the_moment": "Kay Kay Menon's final confrontation with the leads - a scene that confirms why he is in virtually every Indian espionage show made in the 2020s.",
+          "critic_note": {
+            "text": "The finale's scale confirms that Indian action television can compete globally - the story just needs to catch up.",
+            "source": "IMDb (audience reviews)",
+            "url": "https://www.imdb.com/title/tt27111295/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

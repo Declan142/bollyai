@@ -1,0 +1,186 @@
+{
+  "slug": "ozark",
+  "qid": {
+    "value": "Q25205293",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ozark",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A Chicago financial advisor relocates his family to the Missouri Ozarks after a cartel money-laundering scheme goes wrong - and discovers his wife is the more dangerous Byrde.",
+  "poster": {
+    "src": "/img/series/ozark/poster.jpg",
+    "alt": "Ozark series poster",
+    "attribution": "Poster © Netflix / Media Rights Capital. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after Season 4 (split into two parts) in April 2022. Won multiple Emmys; Julia Garner won Outstanding Supporting Actress three consecutive times.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ozark_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-07-21",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "70% RT - critics respected the craft but noted heavy Breaking Bad comparison debt. Jason Bateman directing and starring creates a show that knows exactly what it is: methodical, cold, and content to build slowly. The Missouri setting is more distinctive than the pilot's premise suggests."
+      },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 69,
+        "pull_quotes": [
+          {
+            "text": "Ozark is slick, dark, and compulsively watchable - it hasn't yet distinguished itself from the crime drama giants to which it will inevitably be compared.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ozark/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5071412/"
+      },
+      "review_body": "Season 1 of Ozark arrives as a confident, well-assembled crime drama that critics struggled to fully embrace precisely because it reminded them of better shows. The Breaking Bad comparison is real - a financially desperate professional in over his head with a cartel, disintegrating family moral fabric, cold Midwestern palette - but the show earns the comparison more than it steals from it. Jason Bateman's Marty Byrde is a specific creation: not a genius, not a hero, not even particularly interesting on his own - a functionary trying to survive systems he cannot control. Laura Linney's Wendy is the season's quiet revelation, laying groundwork for what becomes the show's real subject. Julia Garner's Ruth Langmore appears and immediately outclasses the leads in every scene she inhabits. The Ozarks setting is genuinely used, not just decorative.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-08-31",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "76% RT. The show deepens its local crime and cartel architecture; Ruth Langmore's arc becomes co-equal with the Byrdes'. Still finding its own voice but the cast's quality justifies the investment."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": 46,
+        "pull_quotes": [
+          {
+            "text": "Season 2 deepens Ozark's world with stronger character work - Julia Garner's Ruth continues to steal every scene she enters.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ozark/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5071412/"
+      },
+      "review_body": "Season 2 is where Ozark settles into its own register. The casino construction and Helen Pierce's arrival establish the show's supporting cast architecture - Janet McTeer as Pierce is the season's best addition. Ruth's family loyalty, the Langmore backstory, and her evolving relationship with Marty give Julia Garner the material that would win her three consecutive Emmys. Laura Linney's Wendy increasingly occupies the show's moral centre - or moral vacuum - as her political ambitions grow. Critics improved slightly to 76%, noting stronger character definition. The show was not yet the critical phenomenon it would become in S3, but the pattern of escalation was established. Netflix viewership was significant; audience scores consistently outpaced critical response.",
+      "season_over_season": "The show finding its own character architecture and beginning to move away from its Breaking Bad shadow."
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-03-27",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "98% RT - the highest score in the franchise's run. Laura Linney's Wendy dominates: she won the Emmy, critics cited her as the best performance on television in 2020, and the season reframed the show as really being about a woman's hunger for power. The cartel endgame and season finale are the show at its best."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 49,
+        "pull_quotes": [
+          {
+            "text": "Ozark Season 3 is a revelation - Laura Linney's Wendy Byrde becomes one of television's great characters in a season that finally distinguishes the show from its influences.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ozark/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5071412/"
+      },
+      "review_body": "Season 3 is where Ozark stopped being a very good crime drama and became one of the best things on Netflix. The critical jump to 98% RT - from 76% in S2 - is the sharpest positive turn in the franchise, driven by one thing: Laura Linney's Wendy Byrde seizing the show's wheel and driving. Wendy's political ambitions, her willingness to cross lines Marty won't, her coldness about consequences - she becomes not the supporting spouse but the show's true protagonist, and Linney's performance is among the finest in television of the decade. The Ben Davis storyline (Tom Pelphrey) is the season's emotional gut-punch. Janet McTeer's Helen Pierce negotiates a final season-arc that the finale resolves with one of Ozark's most shocking single images. The show had earned its comparison to Breaking Bad rather than borrowing it.",
+      "season_over_season": "The definitive breakthrough - Wendy's ascendance restructures the show entirely and the writing rises to meet Linney's performance."
+    },
+    {
+      "number": 4,
+      "year": 2022,
+      "episodes": 14,
+      "release_date": {
+        "value": "2022-01-21",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "85% RT across both parts. The split-season structure gives the show room for its most elaborate cartel and political entanglement; the finale is discussed as either a brilliant provocation or a frustrating cop-out. Ruth's arc concludes with the show's single most emotionally affecting sequence."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 68,
+        "pull_quotes": [
+          {
+            "text": "Season 4 is ambitious and frequently excellent - the Byrdes' endgame is as complicated as the show, and the finale will divide its audience for years.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ozark/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5071412/"
+      },
+      "review_body": "Season 4 - fourteen episodes split across two Netflix drops in 2022 - is the show managing a complex finale arc with more success than most long-running crime dramas achieve. The cartel succession struggle, the FBI negotiation, and the Byrdes' political reach all interlock with a plotting precision the show has been practising since S1. Ruth Langmore's arc in the second half of the season delivers the show's most devastating emotional moment - handled without melodrama, which makes it worse. Julia Garner's work across the final episodes is the best acting in the show's run. The finale's ambiguous coda about the Byrde family's survival is the show's most contested creative choice: critics read it as a statement about the American capacity for self-preservation; audiences more evenly divided. A strong conclusion to a show that grew into something well worth the commitment.",
+      "season_over_season": "The finale arc honours the characters the show built - Ruth's conclusion is the season that justifies everything the show invested in her from episode one."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

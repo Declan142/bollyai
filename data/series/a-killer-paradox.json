@@ -1,0 +1,104 @@
+{
+  "slug": "a-killer-paradox",
+  "qid": null,
+  "title": {
+    "value": "A Killer Paradox",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A convenience store worker accidentally kills a man and discovers his victim was a serial killer - which raises the question of whether he is a murderer, an instrument of justice, or something else entirely.",
+  "poster": {
+    "src": "/img/series/a-killer-paradox/poster.jpg",
+    "alt": "A Killer Paradox series poster",
+    "attribution": "Poster © Netflix / Little Big Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season; no Season 2 announced as of June 2026. Narrative resolves conclusively.",
+    "source": "What's on Netflix",
+    "source_url": "https://www.whats-on-netflix.com/news/a-killer-paradox-season-2-on-netflix-renewal-status-and-what-we-know-so-far/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-02-09",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100% on Rotten Tomatoes (9 critics); IMDb 7.1 (lower audience score suggesting the dark comedy register lands differently for general viewers); second in Netflix global non-English top 10 after three days; tone is the polarising factor."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "A killer paradox - literally and structurally - that Choi Woo-shik navigates with the precise instinct of an actor who knows exactly how unnerving to be.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/a_killer_paradox/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28642796/"
+      },
+      "review_body": "A Killer Paradox operates in the gap between dark comedy and moral horror and refuses to close that gap for comfort. The show's central philosophical proposition - what separates an accidental vigilante from a serial killer - is set up in episode one and complicated in every episode that follows, without being resolved. Choi Woo-shik's performance is a tightrope act: he needs the audience to root for Lee Tang while also being unsettled by him, and he manages both simultaneously. The 100% Rotten Tomatoes score reflects critical consensus that the execution matches the ambition; the 7.1 IMDb score reflects that the dark comedy register alienated audience members expecting a cleaner thriller. Son Suk-ku's detective is the show's counterweight - methodical, obsessive, ultimately sympathetic. Eight episodes is the correct runtime for this particular philosophical question.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-02-09",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere sets up the central question in thirty minutes and then immediately complicates it. The accidental killing is presented neither as triumph nor as trauma - the ambiguity is the whole point. Choi Woo-shik's expression in the aftermath becomes the show's defining image: not guilt, not satisfaction, something more unsettling than either.",
+          "the_moment": "Lee Tang's realisation of who he has killed - and the camera that holds on his face trying to figure out what that means.",
+          "critic_note": {
+            "text": "A premiere that announces genuine moral ambition in the first act.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/a_killer_paradox/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2024-02-09",
+          "bollymeter": 8.9,
+          "spoiler_free": "The midpoint episode where Lee Tang and the detective's storylines begin to intersect in ways both expected and not. The philosophical weight of the show comes fully into view here - the cat-and-mouse structure is revealed as a vehicle for something more uncomfortable than genre thrills.",
+          "the_moment": "A confrontation between the two leads that the show has been building since episode one - the scene that landed the premise.",
+          "critic_note": {
+            "text": "The episode where A Killer Paradox earns its 100% Rotten Tomatoes fully.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/a_killer_paradox/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,218 @@
+{
+  "slug": "top-boy",
+  "qid": {
+    "value": "Q7824219",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Top Boy",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "On Hackney's Summerhouse estate, two men build a drugs empire that the system is determined to destroy - a British crime drama with the scope and moral seriousness of The Wire.",
+  "poster": {
+    "src": "/img/series/top-boy/poster.jpg",
+    "alt": "Top Boy series poster",
+    "attribution": "Poster © Netflix / Cowboy Films / SpringHill Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Final season (Season 5 overall, Season 3 on Netflix) released September 7, 2023; confirmed as the concluding chapter.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Top_Boy"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 4,
+      "release_date": {
+        "value": "2011-10-31",
+        "source": "Channel 4",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Channel 4 original season that critics called the most credible portrait of urban British poverty and the drugs trade since the Wire's American predecessors - Ronan Bennett's writing was noted for its moral complexity and refusal of easy redemption arcs."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Top Boy is the British crime drama we've been waiting for - morally serious, beautifully observed, and unflinching about what poverty actually produces.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/top_boy/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1830379/"
+      },
+      "review_body": "The Channel 4 original season set the template with four hour-long episodes and a ferocity that surprised critics who'd underestimated a Channel 4 crime drama. Ronan Bennett's writing placed Dushane and Sully in a world where the choices available to them were specific to their postcode and their history - not moral failures but people whose options had been systematically reduced to this. Ashley Walters and Kano were magnetic together, and the east London setting was rendered without condescension. The show was cancelled after two Channel 4 seasons - Channel 4's biggest programming mistake of the decade.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2011-10-31",
+          "bollymeter": 8.4,
+          "spoiler_free": "Summerhouse is introduced as a place with its own economy, its own hierarchy, and its own moral logic that the rest of London willfully ignores. Dushane and Sully are established as a partnership that has survived what it shouldn't have, and the show makes clear that survival here is its own kind of achievement.",
+          "the_moment": "The estate at dawn - the show establishing that this world is alive before the rest of the city wakes up.",
+          "critic_note": {
+            "text": "Top Boy's debut episode is one of the best British crime drama pilots in twenty years.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/top_boy/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2013,
+      "episodes": 4,
+      "release_date": {
+        "value": "2013-08-20",
+        "source": "Channel 4",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Maintained the quality and moral ambition of the debut season; critics noted the second series deepened the consequences of the choices made in Series 1."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1830379/"
+      },
+      "review_body": "Season 2 extended the Channel 4 run with four more episodes that deepened the consequences of Dushane and Sully's choices without softening them. The writing remained committed to the logic of the estate rather than the logic of crime drama convention. Channel 4's decision to cancel after this series - despite the critical praise - was reversed only when Drake, who'd become a fan, championed the revival to Netflix six years later.",
+      "season_over_season": "Level with Season 1 - the same quality, the same moral seriousness, the same refusal to make the story more comfortable than it was."
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-09-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "The Netflix revival season was received as one of the great rehabilitation stories in television - six years after cancellation, the show came back bigger, better-funded, and with the same creative core intact. Critics and the 97% RT score agreed it was the best version of the show yet."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Top Boy's Netflix return is the revival done right - no compromise on the show's darkness, no concession to a wider audience, just an expansion of what made it essential.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/top_boy/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1830379/"
+      },
+      "review_body": "The Netflix revival was a gift to everyone who'd argued the Channel 4 cancellation was wrong. Ten episodes, expanded budget, the same creative team, and a Drake executive producer credit that brought new eyeballs without compromising the show's aesthetic. Critics at 97% called it one of the best crime dramas streaming had produced. The transition from Channel 4 grit to Netflix production values was handled with care - the show looked better without looking safer. New characters integrated with the established Summerhouse mythology without displacing it.",
+      "season_over_season": "The show's peak - the expanded episode count and budget let the story breathe, and the original cast had grown into their characters in the intervening years."
+    },
+    {
+      "number": 4,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-03-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Critics maintained high regard for the show's continued commitment to its subject matter and characters; the second Netflix season felt earned rather than extended."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1830379/"
+      },
+      "review_body": "Season 4 continued the Netflix run without the breakthrough energy of the revival, but with a maturity in the writing that reflected a show confident in its own world. The Dushane-Sully partnership was entering its most complex territory, and the show's broader view of how the estate and its people connected to larger economic systems remained sharp. A solid continuation that set up the final chapter.",
+      "season_over_season": "Below Season 3's revival peak but still among the strongest British crime drama on the platform."
+    },
+    {
+      "number": 5,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-09-07",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "The final season landed with critical approval as a fitting end - critics noted the show chose ambition over safe closure and gave its characters the ending the logic of their lives demanded rather than the one the audience might have preferred."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1830379/"
+      },
+      "review_body": "The final season closed Top Boy without sentimentality - which is the only ending the show could have taken. Twelve years from the Channel 4 debut, Dushane and Sully's story reached its conclusion in a way that critics called both inevitable and devastating. The show never offered the audience the comfort of a protagonist it could cleanly root for, and it didn't change that policy for the finale. As a complete object - five seasons across two broadcasters, twelve years, multiple industry revivals - Top Boy is one of British television's genuine achievements.",
+      "season_over_season": "The right ending - not the happiest, not the neatest, but the one the show had been building toward since 2011."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

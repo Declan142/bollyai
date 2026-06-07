@@ -1,0 +1,126 @@
+{
+  "slug": "silo",
+  "qid": null,
+  "title": {
+    "value": "Silo",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A mechanical engineer in a subterranean silo city inherits a dangerous secret: the truth about the world outside might not be what the rulers insist.",
+  "poster": {
+    "src": "/img/series/silo/poster.jpg",
+    "alt": "Silo series poster",
+    "attribution": "Poster © Apple TV+/Legendary Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Renewed for Seasons 3 and 4 in December 2024; Season 3 premieres July 3, 2026 on Apple TV+; Season 4 will be the final season.",
+    "source": "Apple TV Press",
+    "source_url": "https://www.apple.com/tv-pr/news/2024/12/apple-tv-renews-hit-world-building-drama-silo-for-seasons-three-and-four/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-05-05",
+        "source": "Apple TV+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "88% RT and 8.3 IMDb; critics called it Apple TV+'s best sci-fi debut, praising Rebecca Ferguson's commanding performance and the measured reveal of what the silo is and why it exists. The slow-burn dystopia genre has a new benchmark."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 69,
+        "pull_quotes": [
+          {
+            "text": "A gripping, beautifully realised dystopia driven by Rebecca Ferguson at her most compelling - Silo is the thinking-person's post-apocalyptic thriller.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/silo/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14688458/"
+      },
+      "review_body": "Silo Season 1 is adapted from Hugh Howey's self-published novel trilogy and carries the source material's most distinctive quality: the silo itself is a character. The vertical society - engineers and farmers below, IT above, Judicial controlling everything in between - is one of television's most coherent speculative world-builds in years. Rebecca Ferguson as Juliette is the rare dystopia protagonist who earns her rebellion through specific, accumulating evidence rather than generic outrage. The mystery of the outside world is rationed with exactly the right patience. Critics at 88% RT praised the production design (the spiral staircase running the length of the silo is a physical achievement) and the writing's respect for its premise. Season 1 ends with a cliffhanger that recontextualises everything - and makes Season 2 essential.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Freedom Day",
+          "air_date": "2023-05-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "The series premiere introduces the silo's world through its edges - the annual cleaning ritual, the hierarchy of its floors, a sheriff's unexpected decision. The worldbuilding is immediate and confident; the social architecture of the silo becomes apparent through texture rather than exposition.",
+          "the_moment": "The first glimpse outside - the poisoned landscape and what it means about the silo's founding promise.",
+          "critic_note": {
+            "text": "A confident, atmospheric premiere that establishes Silo as premium Apple TV+ sci-fi from the first frame.",
+            "source": "Variety",
+            "url": "https://variety.com/2023/tv/reviews/silo-review-apple-tv-1235605082/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-11-15",
+        "source": "Apple TV+",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "94% RT and 7.6 IMDb; critics found the expanded scope and the silo's secrets beginning to be revealed a genuine upgrade. The audience IMDb score reflects some viewers preferring Season 1's contained tension."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "Silo Season 2 deepens what the first season promised - richer, darker, and more confident in its world and its characters.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/silo/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14688458/"
+      },
+      "review_body": "Season 2 expands the mythology of Silo considerably - the secrets of Juliette's silo's rivals, the truth behind the IT department's power, the architecture of the original deception - and does so without losing the personal stakes of Season 1. Rebecca Ferguson's performance deepens as Juliette moves from reactive to strategic. Critics at 94% found the storytelling more confident, the world more fully realised. The audience IMDb score's slight dip (7.6 vs 8.3) likely reflects viewers for whom Season 1's claustrophobic containment was more atmospheric than Season 2's broadened canvas. For the narrative's own terms, Season 2 is a step up: more is revealed, more is earned, and the Season 3 setup is properly intriguing.",
+      "season_over_season": "A critical uplift from Season 1; the expanded scope works for the story even if some viewers preferred Season 1's contained dread."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

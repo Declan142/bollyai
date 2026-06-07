@@ -1,0 +1,186 @@
+{
+  "slug": "westworld",
+  "qid": {
+    "value": "Q17572811",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Westworld",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "An android theme park begins to wake up - and the question of what it means to be conscious, free, and human proves to be the most dangerous programming of all.",
+  "poster": {
+    "src": "/img/series/westworld/poster.jpg",
+    "alt": "Westworld series poster",
+    "attribution": "Poster © HBO / Warner Bros. Discovery / Bad Robot Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled after Season 4 in 2023; showrunners Jonathan Nolan and Lisa Joy acknowledged the abrupt ending.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Westworld_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-10-02",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "87% RT, audience 92% on RT. The best HBO premiere since Game of Thrones - Jonathan Nolan and Lisa Joy's mystery-box philosophy is at its most disciplined, the Dolores awakening arc is genuinely moving, and Evan Rachel Wood and Anthony Hopkins are operating at the highest level."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Westworld's first season is an intellectually provocative and visually stunning sci-fi achievement - HBO at its most ambitious.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/westworld/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0475784/"
+      },
+      "review_body": "The first season of Westworld is one of the finest debut runs in HBO history. Jonathan Nolan and Lisa Joy took the Michael Crichton premise and rebuilt it as a meditation on consciousness, trauma, and manufactured identity. The central mystery - who is a host, what does Dolores know, and what does the Man in Black want - is parcelled out with genuine precision across ten episodes. Anthony Hopkins as Ford is the series' intellectual anchor: a God-figure whose inscrutability is the show's moral core. Evan Rachel Wood carries Dolores from victim to awakening with a performance that is almost entirely internal. The timeline twist in the finale is the show's most satisfying piece of construction. Critics at 87% were not capturing the show's real ambition; audience response was warmer. Season 1 is the series at its best.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-04-22",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "92% RT - critics remained onboard but some audience disengagement began. The expansion of the park worlds and the multiple-timeline structure pushed the complexity past the point of easy navigation. Still ambitious, still worth it, but the seeds of the show's narrative over-engineering are visible."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Visually extraordinary and intellectually ambitious, Season 2 risks losing its emotional core in the labyrinth of its own mythology.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/westworld/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0475784/"
+      },
+      "review_body": "Season 2 expands the park geography - Shogun World, the Raj, the Valley Beyond - and introduces a timeline structure that fractured casual viewers while critics held at 92%. The Maeve storyline is the season's most emotionally coherent thread; her journey through Shogun World is the most cinematically ambitious thing the series attempts. Dolores as revolutionary, Ford's legacy, the true nature of the Cradle - it's all intellectually serious material handled with real craft. But the structural complexity begins to feel like opacity for its own sake. Audience IMDb scores dropped from S1 levels; the complaint (too much plot, too little character) would grow louder. Still: the finale's Valley Beyond sequence is genuinely moving and the season's best argument for itself.",
+      "season_over_season": "Expansion in every dimension - worlds, mythology, complexity - but the emotional simplicity of S1 is harder to locate."
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-03-15",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "73% RT. The show leaves the parks entirely for a real-world corporate dystopia; the tonal shift is jarring, Aaron Paul's Caleb is a thin entry point, and the Dolores-as-multiple-hosts structure is the most divisive narrative choice in the run."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Westworld escapes the park but loses itself in a real-world reset that trades mystery for a more conventional sci-fi thriller.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/westworld/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0475784/"
+      },
+      "review_body": "The most controversial season in the show's run. Leaving Westworld for a gleaming corporate future - Rehoboam, Serac, the predictive algorithm - is a legitimate creative choice, but the execution lacks the layered richness of the park-era seasons. Aaron Paul's Caleb is the first new lead who never feels fully essential. Evan Rachel Wood's Dolores split across multiple hosts dilutes her presence rather than multiplying it. Critics dropped to 73%; audience scores fell further. The show looks as expensive as ever - the production design and action sequences are first-rate - but the storytelling is operating with less patience than the show formerly required. The Maeve-Dolores dynamic is the season's best creative decision. Season 3 is essential for continuity but not the reason anyone watches Westworld.",
+      "season_over_season": "A genuine creative risk that doesn't fully pay off - the real world proves less interesting than the park the show was built on."
+    },
+    {
+      "number": 4,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-06-26",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "80% RT. A creative recovery that plays with the show's mythology more confidently than S3, but the abrupt cancellation after this season denied the show its intended conclusion. Incomplete by circumstance rather than creative failure."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 4 recaptures some of Westworld's former ambition, though its potential will remain unfulfilled thanks to cancellation.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/westworld/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0475784/"
+      },
+      "review_body": "Season 4 arrives four years after S3 and demonstrates that Nolan and Joy still have creative ideas worth pursuing. The time-jump and role reversal - hosts and humans swapping the power dynamic - is the most structurally elegant twist since S1's timeline reveal. Thandiwe Newton's Maeve is at her best here; the season's best episodes belong to her. Christina's storyline in the finale hints at a thematic resolution that the show never got to complete. HBO's cancellation announcement mid-production meant the writers were trying to compress a planned S5 into a half-season ending. Critics improved to 80%; the audience knew by this point they were watching a truncated conclusion to something that deserved more runway. Still worth watching for what it achieves within those constraints.",
+      "season_over_season": "A recovery in ideas and execution, tragically cut short before its planned resolution."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "scam-1992-the-harshad-mehta-story",
+  "qid": {
+    "value": "Q100709273",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Scam 1992: The Harshad Mehta Story",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SonyLIV",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Pratik Gandhi inhabits Harshad Mehta - the stockbroker who briefly owned Dalal Street and became a cautionary myth - across ten propulsive episodes that read a bull run as pure human hubris.",
+  "poster": {
+    "src": "/img/series/scam-1992-the-harshad-mehta-story/poster.jpg",
+    "alt": "Scam 1992: The Harshad Mehta Story series poster",
+    "attribution": "Poster © Hansal Mehta/SonyLIV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Limited miniseries; no second season planned as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Scam_1992"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-10-09",
+        "source": "SonyLIV",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "Pratik Gandhi's performance is the rare kind that critics and audiences agreed on without qualification. The show briefly held the world's highest IMDb rating - an unprecedented populist and critical consensus for an Indian OTT original."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Pratik Gandhi is nothing short of extraordinary - the show belongs to him entirely.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12392504/"
+      },
+      "review_body": "Hansal Mehta and Jai Mehta adapted Sucheta Dalal and Debashish Basu's book into ten episodes that never once feel like a lecture. The structure is elegant: Sucheta Dalal's (Shreya Dhanwanthary) investigative thread counterbalances Harshad's ascent, so the moral weight arrives organically rather than through editorial hectoring. What separates Scam 1992 from every other financial-crime drama India has produced is the texture of ordinariness - the early scenes of Harshad hustling for a break in the BSE canteen are as gripping as the bear cartel confrontations. Pratik Gandhi doesn't do a caricature impression; he builds a man whose confidence is genuinely infectious right until the moment it turns predatory. The show was criticised for soft-pedalling Harshad's victims, and that critique has merit. But as a character study of the specific 1990s Mumbai hunger - the 'anyone can win' fantasy of a liberalising economy - it has no peer in Indian streaming.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Risk Se Ishq",
+          "air_date": "2020-10-09",
+          "bollymeter": 9.0,
+          "spoiler_free": "The series opens in medias res - Sucheta Dalal's newsroom instincts against a market anomaly - before rewinding to Harshad Mehta's first day at the BSE. The contrast is clean: one woman following a thread, one man pulling it. The episode sets its tempo without flexing, trusting the period detail and Gandhi's natural authority to carry the weight.",
+          "the_moment": "Harshad refusing to leave the BSE floor despite repeated rejection - the first glimpse of what the series will call 'risk ka ishq'.",
+          "critic_note": {
+            "text": "An assured opening that treats its audience as intelligent without telegraphing its punches.",
+            "source": "NDTV",
+            "url": "https://www.ndtv.com/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Stop Press",
+          "air_date": "2020-10-09",
+          "bollymeter": 9.5,
+          "spoiler_free": "The episode where Sucheta Dalal's investigation crystallises and Harshad's empire faces its first serious existential threat. Dhanwanthary and Gandhi are both at peak register here, and the episode sustains a 55-minute tension without a single action beat - just phones, ledgers, and the terrifying intimacy of a story about to break.",
+          "the_moment": "Sucheta pinning the first solid documentary proof while Harshad fields calls from ministers who owe him favours.",
+          "critic_note": {
+            "text": "The finest hour of Indian financial television - Gandhi and Dhanwanthary operate on entirely different frequencies, yet the episode holds.",
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Main History Banana Chahta Hoon",
+          "air_date": "2020-10-09",
+          "bollymeter": 9.6,
+          "spoiler_free": "The finale walks Harshad's fall with neither triumphalism nor unearned pathos. The courtroom is a formality; what the episode is actually about is the gap between the myth Harshad built and the terrified, cornered man underneath it. Gandhi plays the dispossession as a slow exhale.",
+          "the_moment": "Harshad delivering his last public statement - 'Main history banana chahta hoon' - knowing the history being made is a ruin.",
+          "critic_note": {
+            "text": "A finale that earns its tragedy through ten episodes of meticulous character work.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

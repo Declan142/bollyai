@@ -1,0 +1,104 @@
+{
+  "slug": "sky-castle",
+  "qid": null,
+  "title": {
+    "value": "SKY Castle",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Four elite families living in a gated Seoul enclave compete to get their children into SKY universities - a dark comedy about the violence ambition inflicts on people who believe they deserve to win.",
+  "poster": {
+    "src": "/img/series/sky-castle/poster.jpg",
+    "alt": "SKY Castle series poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season series; concluded February 2019. Became the highest-rated Korean cable drama in history at time of broadcast (23.8% finale).",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sky_Castle"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 20,
+      "release_date": {
+        "value": "2018-11-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "IMDb 8.5; 23.8% finale rating - the highest in Korean cable history at the time; won four Baeksang Awards; critics praised the show's combination of satirical precision and genuine psychological horror in how it depicts elite parental obsession."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A razor-sharp satire of Korean educational anxiety that keeps escalating into something genuinely terrifying.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sky_castle"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9151274/"
+      },
+      "review_body": "SKY Castle started as a dark comedy about college admissions and ended as a psychological thriller about the cost of ambition - the genre shift is not a flaw but the show's central structural argument. The 23.8% finale rating remains one of the benchmarks of Korean cable television history. Critics identified Kim Seo-hyung's Kim Joo-young - the tutor coordinator who manages the families' university ambitions - as one of the great antagonists in recent Korean drama: frightening precisely because she is entirely rational. The show's satire of Korea's educational hierarchy landed as both entertainment and genuine social commentary; it aired during a period when the SKY university system was a live national conversation. Won four Baeksang Arts Awards including Best Drama. The 20-episode run is tight - extended to satisfy demand, but not a frame of it is indulgent.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2018-11-23",
+          "bollymeter": 8.6,
+          "spoiler_free": "The opening episode establishes the enclave's hierarchy with scalpel precision - who lives in the biggest house, who hides their scholarship, who performs confidence while drowning in debt. The tone is pitch-black comedy until the final scene, which pivots to something considerably colder.",
+          "the_moment": "The final image of the pilot announces that this show is not interested in satire that stays at arm's length.",
+          "critic_note": {
+            "text": "A drama that knows exactly what it wants to be from minute one.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sky_castle"
+          }
+        },
+        {
+          "number": 16,
+          "title": "The Tutor's Past",
+          "air_date": "2019-01-18",
+          "bollymeter": 9.2,
+          "spoiler_free": "The episode that recontextualises everything. The show's most controlled piece of sustained tension - information withheld until the precise moment it lands with maximum impact. Kim Seo-hyung does career-best work here. Critics cited this as the point where SKY Castle stops being a drama about education and reveals itself as something darker entirely.",
+          "the_moment": "Kim Joo-young's history surfaces and changes the grammar of every scene she has appeared in before it.",
+          "critic_note": {
+            "text": "The episode that confirms SKY Castle is playing in a different league.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/sky_castle"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

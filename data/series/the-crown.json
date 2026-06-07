@@ -1,0 +1,260 @@
+{
+  "slug": "the-crown",
+  "qid": {
+    "value": "Q21528873",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Crown",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "The private battles, political crises, and human costs of the British royal family across seven decades of Queen Elizabeth II's reign.",
+  "poster": {
+    "src": "/img/series/the-crown/poster.jpg",
+    "alt": "The Crown series poster",
+    "attribution": "Poster © Netflix / Left Bank Pictures / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded with Season 6 Part 2 on December 14, 2023, after six seasons covering Elizabeth II's reign from 1947 to the early 2000s.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Crown_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-11-04",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "88% on Rotten Tomatoes; critics cited the cinematography, Claire Foy's performance, and the show's willingness to make the young Queen a complex human being rather than an icon."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sumptuous and intelligent, The Crown is prestige television that earns every penny of its reported budget.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_crown/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4786824/"
+      },
+      "review_body": "The debut season established the formal and moral ambition of the project: this would be a drama about duty eating everything else alive. Claire Foy's Elizabeth was the founding achievement - a young woman who loved her husband less than she loved the Crown she'd been handed, and was honest enough with herself to know it. The writing, the sets, the production design - all built for scale and detail. Critics at 88% called it the most accomplished prestige drama Netflix had commissioned to that point. The audience score of 8.7 on IMDb reflected genuine admiration. An extraordinary debut for a series that cost more than most feature films.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Wolferton Splash",
+          "air_date": "2016-11-04",
+          "bollymeter": 8.2,
+          "spoiler_free": "King George VI is dying, and the weight of the Crown is already shifting toward the young woman who doesn't want it yet. The episode establishes the show's visual register - gorgeous, cold, institutional - and Foy's Elizabeth as someone already performing composure.",
+          "the_moment": "Elizabeth reading the accession papers in Kenya - the exact moment her private life ends.",
+          "critic_note": {
+            "text": "The Crown announces itself as television prepared to make the monarchy genuinely interesting.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_crown/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Act of God",
+          "air_date": "2016-11-04",
+          "bollymeter": 8.8,
+          "spoiler_free": "The Great Smog of 1952 kills thousands in London and the Queen is constitutionally constrained from acting - a perfect episode about the gap between power and its use. The writing is surgical about what the monarchy costs the human inside it.",
+          "the_moment": "The Queen's private grief about her inability to order action versus her public composure - the show's central tension made literal.",
+          "critic_note": {
+            "text": "The best episode of the debut season - The Crown at its thematically sharpest.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_crown/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-12-08",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "89% on Rotten Tomatoes; the Philip arc and Suez crisis episodes were singled out as career work for both Foy and Matt Smith."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4786824/"
+      },
+      "review_body": "Season 2 extended the Foy era through the Suez Crisis, Philip's restlessness, and the slow negotiation of what their marriage actually was. Matt Smith's Philip was given more space here, and he used it to make the Duke complicated in ways the received wisdom about him doesn't allow. Critics at 89% called it the equal of Season 1. The writing's strategy of using historical events as pressure tests for the royal marriage - each crisis revealing something new about the trapped people inside the palace - was at its most precise here.",
+      "season_over_season": "Matches Season 1 in quality; the Foy-Smith partnership deepened into something genuinely moving."
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-11-17",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "90% on Rotten Tomatoes; the cast change to Olivia Colman and Tobias Menzies was handled with such skill that viewers barely felt the seams, and critics called Colman's Elizabeth a different and equally valid interpretation."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4786824/"
+      },
+      "review_body": "The full cast change - Colman for Foy, Menzies for Smith, Coleman for Lithgow as Churchill - was the show's highest-stakes gamble and it landed. Colman's Elizabeth was warmer, more comedically tinged, and the writing shifted accordingly toward absurdism as a pressure valve for the institution's cruelties. The Aberfan episode is the season's peak: the Queen's delayed visit to the disaster and the political calculus behind it, handled with devastating restraint. 90% on Rotten Tomatoes validated the transition.",
+      "season_over_season": "A smooth handover - the Colman era starts with the show's creative confidence fully intact."
+    },
+    {
+      "number": 4,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-11-15",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "96% on Rotten Tomatoes - the show's critical peak. Gillian Anderson's Thatcher and Emma Corrin's Diana as simultaneous subjects produced the most dramatically rich season the series managed."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 4's Thatcher and Diana arcs give The Crown its sharpest political and emotional edges - the show operating at maximum power.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_crown/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4786824/"
+      },
+      "review_body": "Season 4 is The Crown at its sharpest and most politically pointed. The double subject of Margaret Thatcher and Princess Diana gave the writers two women destroying themselves against the institution - from opposite directions. Gillian Anderson's Thatcher was a deliberate caricature that worked precisely because it was also a portrait, and Emma Corrin's Diana was the season's emotional center, rendering a life the audience already knew with enough specificity to feel discovered. At 96% on Rotten Tomatoes, critics called it the series peak. The IMDb audience score reflected mass agreement. The best season of the show, by consensus.",
+      "season_over_season": "The show's summit - every prior season's investment in character and institution pays out here."
+    },
+    {
+      "number": 5,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-11-09",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "71% on Rotten Tomatoes - a significant drop. The third cast change (Imelda Staunton, Dominic West) received mixed reviews; critics found the Diana-Charles material too close to living memory for the show's dramatizing instinct to sit comfortably."
+      },
+      "critic": {
+        "positive_pct": 71,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4786824/"
+      },
+      "review_body": "The third cast transition introduced Imelda Staunton's Elizabeth and Dominic West's Charles to muted critical reception. The 1990s material - Charles and Diana's separation, the Queen's annus horribilis - was well-trodden territory, and critics noted the show's usual distance felt compromised when dealing with events many viewers remembered personally. At 71%, Season 5 was the first to register as a step down rather than a lateral move.",
+      "season_over_season": "A perceptible decline from Season 4 - the historical material is too recent for the show's dramatizing mode, and the new cast needed time to settle."
+    },
+    {
+      "number": 6,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-11-16",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "54% on Rotten Tomatoes - the series nadir. The Diana death episodes drew particular criticism for their tone, and critics found the extended farewell diffuse."
+      },
+      "critic": {
+        "positive_pct": 54,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4786824/"
+      },
+      "review_body": "Season 6 closed The Crown at its weakest critical point - 54% on Rotten Tomatoes, a 42-point fall from the Season 4 peak. The Diana death and its aftermath were handled with a solemnity critics found overwrought, and the final episodes - a semi-fictional projection into Elizabeth's later years - divided opinion sharply. The audience score, anchored by long-term fans, remained high. The series ended on its own terms if not its best form. The first two and a half seasons remain exceptional television regardless of where it finished.",
+      "season_over_season": "The series low - but the show lasted six seasons and one of them was genuinely great. Most dramas don't get that."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

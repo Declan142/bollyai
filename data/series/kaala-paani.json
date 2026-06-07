@@ -1,0 +1,109 @@
+{
+  "slug": "kaala-paani",
+  "qid": {
+    "value": "Q122866084",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kaala Paani",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A mysterious epidemic descends on the Andaman and Nicobar Islands, cutting them off from the mainland - a survival thriller that uses the archipelago's colonial ghost-history as the backdrop for a contemporary medical catastrophe.",
+  "poster": {
+    "src": "/img/series/kaala-paani/poster.jpg",
+    "alt": "Kaala Paani series poster",
+    "attribution": "Poster © Cargo Films/Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One-season limited series; no Season 2 announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kaala_Paani"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": {
+        "value": "2023-10-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Rotten Tomatoes critics at 77% with an average of 7.3/10 - a warm mixed reception that acknowledged the production ambition without overstating the dramatic execution. IMDb audience at 8.0. The Quint called it a survival drama that 'perfects the pace'; Filmibeat found it 'average'. Won 3 Filmfare OTT Awards including Best Director."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 13,
+        "pull_quotes": [
+          {
+            "text": "Kaala Paani perfects the pace of a survival drama - and uses the Andamans' dark history to potent effect.",
+            "source": "The Quint",
+            "url": "https://www.thequint.com/entertainment/movie-reviews/kaala-paani-full-show-review-netflix-latest-pandemic-mona-singh-sukant-goel-survival-drama"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt19072562/"
+      },
+      "review_body": "Kaala Paani is the most geographically specific Indian OTT series since Sacred Games - the Andaman and Nicobar Islands are not a backdrop but the show's argument. Directors Sameer Saxena and Amit Golani layer the contemporary epidemic narrative over the islands' Cellular Jail history, creating a setting where isolation and contagion carry colonial as well as medical weight. Mona Singh delivers one of the show's most memorable performances in what amounts to a significant guest arc, rather than a sustained lead role. Sukant Goel carries the central burden and handles it competently. Where the show stumbles is in its middle episodes, where the epidemic mechanics crowd out the character interiority. The finale recovers emotional footing; the production design and location work are uniformly exceptional. Three Filmfare OTT Awards - including Best Director - confirmed the critical consensus around craft.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Forefathers",
+          "air_date": "2023-10-18",
+          "bollymeter": 8.1,
+          "spoiler_free": "The opener draws an explicit line between the islands' colonial penal history and the contemporary situation - a small-town administration facing a containment crisis with tools and instincts built for peacetime. The geography is introduced as a character before the epidemic establishes its first cases. IMDb's episode rating of 8.1 accurately reflects a confident debut.",
+          "the_moment": "The first official confirmation that the disease is spreading faster than the mainland quarantine protocol anticipated.",
+          "critic_note": {
+            "text": "The Andamans have never been more menacing on Indian streaming - the location carries its own history into every frame.",
+            "source": "The Quint",
+            "url": "https://www.thequint.com/entertainment/movie-reviews/kaala-paani-full-show-review-netflix-latest-pandemic-mona-singh-sukant-goel-survival-drama"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Ground Zero",
+          "air_date": "2023-10-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The episode where Mona Singh's character reaches maximum narrative impact - a single episode performance that critics noted as the show's emotional high-water mark. The episode also pivots the epidemic from a procedural problem into a human catastrophe, recalibrating the show's stakes for the second half.",
+          "the_moment": "Mona Singh's final scene - a performance that makes you wish the character had more episodes.",
+          "critic_note": {
+            "text": "Mona Singh leaves such a mark in one episode that you keep waiting for her to return.",
+            "source": "Filmibeat",
+            "url": "https://www.filmibeat.com/bollywood/reviews/2023/kaala-paani-review-ratings-mona-singh-ashutosh-gowariker-netflix-average-series-370275.html"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

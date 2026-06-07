@@ -1,0 +1,181 @@
+{
+  "slug": "the-witcher",
+  "qid": null,
+  "title": {
+    "value": "The Witcher",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "logline": "A mutant monster-hunter for hire wanders a morally murky continent where humans are often the worst beast in the room.",
+  "poster": {
+    "src": "/img/series/the-witcher/poster.jpg",
+    "alt": "The Witcher series poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "running",
+    "note": "Season 4 premiered October 2025 with Liam Hemsworth replacing Henry Cavill as Geralt; no Season 5 confirmation as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-12-20",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "68% critics RT but 88% audience score - a clear split between critics who found the non-linear structure confusing and fans of the source material who embraced it. Cavill's Geralt is the show's undisputed engine."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 80,
+        "pull_quotes": [
+          {
+            "text": "Despite narrative confusion, Henry Cavill's committed performance anchors a flawed but entertaining fantasy series.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_witcher/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5180504/"
+      },
+      "review_body": "The Witcher Season 1 is a show with a casting problem it solved completely and a structure problem it solved only partially. Henry Cavill plays Geralt with the kind of grunting, coiled physicality that suggests he had read every book in the franchise - his performance is the clearest argument for casting actors who are fans of the source material. The non-linear timeline - Geralt's present, Yennefer's decades-long origin, Ciri's flight - is a genuine gamble that critics found disorientating (68% RT) while dedicated fans were more forgiving (88% audience score). Joey Batey's Jaskier steals every scene he enters. The budget is visible in the monster work and the Posada sequence. A show that lands somewhere between 'messy but alive' and 'could have been great' - the Cavill deficit will be felt when he departs.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-12-17",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "95% RT - critics' highest score for the series; the linear timeline resolved Season 1's structural complaints. Audiences had already begun drifting however, with the score dropping to 54%."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 60,
+        "pull_quotes": [
+          {
+            "text": "A dramatic improvement - a streamlined, emotionally resonant season that fulfils Season 1's squandered potential.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_witcher/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5180504/"
+      },
+      "review_body": "Critics reversed course sharply on Season 2 - 95% fresh is the series peak - because showrunner Lauren Schmidt Hissrich corrected the timeline problem and leaned into Geralt's bond with Ciri as the season's emotional spine. The result is the most coherent, best-paced Witcher season. Kaer Morhen as a setting works beautifully. The Voleth Meir arc gives the season a genuine monster-of-the-season structure. But the audience score's collapse to 54% hints at something critics were perhaps over-generous about: the show was already drifting from what book fans wanted, and the departures were starting to accumulate. Still the Witcher at its most functional as a television drama.",
+      "season_over_season": "Structurally much cleaner than Season 1; critics' consensus flipped from qualified to enthusiastic."
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-06-29",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.4,
+        "basis": "79% critics RT but audience score fell to 20% - largely because the season functioned as Henry Cavill's farewell arc and the audience knew it. The writing stretched thin over the two-volume split."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "A bittersweet farewell to Cavill that works emotionally if not always narratively.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_witcher/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5180504/"
+      },
+      "review_body": "Season 3 plays differently when you know it is Cavill's last outing. Knowing the audience knew it too, the writers gave Geralt a proper send-off - the Thanedd coup and the battle at the conclave are ambitious set pieces. But the Vol. 1 / Vol. 2 split across June and July 2023 fractured momentum, and the audience's 20% score reflects not just the split but the creeping awareness that the show was heading somewhere deeply uncertain. The Ciri arc in Aretuza is Season 3's strongest thread. The season functions as a farewell to one Witcher and a hesitant introduction to a new era - and on those terms it succeeds, narrowly.",
+      "season_over_season": "A step down from Season 2 in tightness; the Vol. 2 split was a tactical error."
+    },
+    {
+      "number": 4,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-10-30",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.8,
+        "basis": "53% critics RT and 20% audience score; review-bombing accompanied Liam Hemsworth's debut as Geralt. Even accounting for fan hostility, critical consensus found the season thin and directionless."
+      },
+      "critic": {
+        "positive_pct": 53,
+        "sample": 23,
+        "pull_quotes": [
+          {
+            "text": "Hamstrung by the impossible task of replacing a beloved lead, Season 4 struggles to establish a new identity.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_witcher/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 4.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5180504/"
+      },
+      "review_body": "No recasting in recent streaming history has been as structurally consequential as Liam Hemsworth stepping into Geralt's boots. Season 4 suffers from a fundamental problem: audiences came for Cavill's Geralt, and the show has not yet earned the goodwill to make them stay for a new one. The review-bombing inflates the audience score's toxicity, but even setting that aside, critics at 53% found the season lacking in narrative direction. The character dynamics established over three seasons feel reset rather than evolved. Individual episode scores on IMDb ranged from 3.6 to 4.3 - historically poor for a major Netflix tentpole. The show is not unwatchable; it is uncertain, and uncertainty at this scale reads as weakness.",
+      "season_over_season": "The weakest season by significant margin; the lead recasting is the obvious pressure point but structural problems run deeper."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

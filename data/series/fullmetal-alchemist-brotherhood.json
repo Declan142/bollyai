@@ -1,0 +1,109 @@
+{
+  "slug": "fullmetal-alchemist-brotherhood",
+  "qid": {
+    "value": "Q437808",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Fullmetal Alchemist: Brotherhood",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Two brothers who sacrificed their bodies to alchemical law travel a continent at war to find the Philosopher's Stone - and discover that their government's power is built on a horror that makes their personal tragedy look small.",
+  "poster": {
+    "src": "/img/series/fullmetal-alchemist-brotherhood/poster.jpg",
+    "alt": "Fullmetal Alchemist: Brotherhood series poster",
+    "attribution": "Poster © Hiromu Arakawa / Square Enix / Aniplex / Bones. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded in July 2010 with a complete adaptation of Hiromu Arakawa's manga. No sequel has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 64,
+      "release_date": {
+        "value": "2009-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "9.1 IMDb (highest-rated anime on the platform as of the time of this writing); 100% Rotten Tomatoes based on 14 reviews. Two decades of critics and audiences have sustained Brotherhood's consensus as the canonical benchmark for what anime storytelling can achieve - structurally sound, emotionally literate, thematically serious."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "Brotherhood is a masterwork of long-form storytelling - plotting, character, and thematic ambition all operating at the highest level simultaneously.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fullmetal_alchemist_brotherhood"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1355642/"
+      },
+      "review_body": "Fullmetal Alchemist: Brotherhood is the show critics bring up when the question is whether animation can sustain the structural weight of a novel. Sixty-four episodes, one complete narrative arc, no filler that damages the whole. Hiromu Arakawa's manga gave Bones an ending and they adapted it faithfully - which was a corrective to the 2003 FMA anime, which had to invent its own conclusion. Brotherhood earns its 9.1 IMDb score and 100% RT critics rating through disciplined structure: the Elric brothers' private tragedy (the Ishvalan war backstory, the political machinery of Amestris, the Homunculi as a governing class sustained by atrocity) expands into state-scale horror without losing the intimate scale of two boys trying to get their bodies back. Bones' action choreography is exhilarating; the show's emotional architecture is what separates it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Fullmetal Alchemist",
+          "air_date": "2009-04-05",
+          "bollymeter": 8.5,
+          "spoiler_free": "The pilot drops viewers into a con gone wrong in a snowbound town, using the Elric brothers' competence and confidence to establish them before revealing the cost of that confidence. Lighter in register than the show becomes - Brotherhood allows itself comedy in its early episodes - but the alchemy system and its 'equivalent exchange' logic are communicated with the efficiency of the best genre worldbuilding.",
+          "the_moment": "The brothers' alchemy in the snowfield - the first visual proof that Bones intends to animate this at feature quality.",
+          "critic_note": {
+            "text": "An opening that promises scope, character, and craft - and delivers on every count.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fullmetal_alchemist_brotherhood"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Separate Destinations",
+          "air_date": "2009-06-07",
+          "bollymeter": 9.2,
+          "spoiler_free": "The episode widely cited as the moment Brotherhood becomes unmistakably great rather than very good - the Ishvalan flashback sequence that reframes the entire political premise. The scope of what this show is actually about becomes clear here. Hughes is present; the camera knows what to do with him.",
+          "the_moment": "The Ishvalan massacre sequence - the show's declaration that it intends to prosecute its political critique, not just gesture at it.",
+          "critic_note": {
+            "text": "The episode where Brotherhood graduates from adventure to tragedy - and realizes it was always the latter.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/fullmetal_alchemist_brotherhood"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

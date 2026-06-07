@@ -1,0 +1,109 @@
+{
+  "slug": "tabbar",
+  "qid": {
+    "value": "Q109158101",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tabbar",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SonyLIV",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A retired Punjab police officer's family makes one catastrophic decision to protect their son, and Tabbar watches the moral scaffolding collapse across eight relentless episodes of domestic noir.",
+  "poster": {
+    "src": "/img/series/tabbar/poster.jpg",
+    "alt": "Tabbar series poster",
+    "attribution": "Poster © Old Monk Productions/SonyLIV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One-season limited series; no further seasons announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tabbar"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-10-15",
+        "source": "SonyLIV",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Won 8 Filmfare OTT Awards including Best Series (Critics) and Best Actor (Malhotra) - a clean sweep that reflected a genuine critical consensus. IMDb audience settled at 8.3. Director Ajitpal Singh and writer Harman Wadala were both cited as breakout names in Indian OTT writing and direction."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Pavan Malhotra-led thriller is as dark as it gets - without a minute of ease.",
+            "source": "Koimoi",
+            "url": "https://www.koimoi.com/reviews/web-reviews/tabbar-review-pavan-malhotra-led-thriller-is-as-dark-as-it-gets-without-a-minute-of-ease/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15404324/"
+      },
+      "review_body": "Tabbar is built around a Punjabi middle-class family whose defining feature - the ferocious instinct to protect their own - is exactly what destroys them. Pavan Malhotra's Omkar Singh is a retired police sub-inspector who has spent his career knowing exactly how crime works, which makes his choices more damning, not less. Supriya Pathak's Sargun is arguably the show's moral centre and its most complex character - a woman who absorbs every consequence with total deliberateness. Gagan Arora, as the son who sets everything in motion, is terrifyingly good at making sympathy and revulsion coexist. Director Ajitpal Singh, who made Of Fathers and Sons, brings a documentary restraint to the thriller mechanics - there are no stylistic pyrotechnics, just the slow constriction of a trap being built one domestic detail at a time. The show doesn't judge its characters; it simply watches them. That refusal to editorialize is what distinguishes it from the dozens of Indian crime dramas that deploy moral chaos as entertainment.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Ik Jhooth",
+          "air_date": "2021-10-15",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes the Singh family in their comfortable Punjab domesticity before one night fractures everything. Ajitpal Singh's direction is deliberately unhurried - this is a family you understand before you watch it make a choice that cannot be taken back. The episode's final scene is among the most quietly devastating in recent Indian streaming.",
+          "the_moment": "Omkar's face in the moment he decides to protect his son - the precise second a good man chooses to become something else.",
+          "critic_note": {
+            "text": "A first episode that trusts silence where lesser shows would reach for music.",
+            "source": "High on Films",
+            "url": "https://www.highonfilms.com/tabbar-2021-season-1-sonyliv-review/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Aadha Sach",
+          "air_date": "2021-10-15",
+          "bollymeter": 8.9,
+          "spoiler_free": "The midpoint episode where the Singh family's cover story begins to fracture simultaneously from multiple directions. Ranvir Shorey's antagonist closes in; Sargun's resourcefulness is tested to its limit. The writing here is at its tightest - each scene tightens the coil without the show needing to raise its voice.",
+          "the_moment": "Sargun and Omkar's conversation in the kitchen at 2am - the domestic register of a marriage dealing with the unthinkable.",
+          "critic_note": {
+            "text": "Supriya Pathak is the show's secret engine - and episode five is where the engine runs hottest.",
+            "source": "Nirvaan Diaries",
+            "url": "https://nirvandiaries.com/review-of-tabbar-web-series-on-sonyliv/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

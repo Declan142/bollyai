@@ -1,0 +1,126 @@
+{
+  "slug": "hospital-playlist",
+  "qid": null,
+  "title": {
+    "value": "Hospital Playlist",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Five doctors who have been best friends since med school navigate surgery, patient loss, and the long-delayed question of whether friendship can become something more.",
+  "poster": {
+    "src": "/img/series/hospital-playlist/poster.jpg",
+    "alt": "Hospital Playlist series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed (2020, 2021). No official Season 3 announced; director has expressed desire to return but no greenlight confirmed as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hospital_Playlist"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-03-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "IMDb 8.7; 100% audience approval on Rotten Tomatoes; the nine-ranked Korean cable drama by the end of its run; critics praised its naturalistic ensemble chemistry and the boldness of making a medical drama that is actually about friendship."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A medical drama that finally earns the word 'warm' - the friendship at its centre feels lived-in rather than scripted.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/hospital_playlist/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11769304/"
+      },
+      "review_body": "Hospital Playlist is the rarest kind of medical drama: one where the medicine is incidental and the friendship is the whole point. Director Shin Won-ho and writer Lee Woo-jung (the Reply 1988 duo) built an ensemble that feels like it has shared 20 years of history because the actors behave as though they actually have. Each episode runs close to 90 minutes, and the length never drags because the show is doing something architecturally unusual - it is running five separate slow-burn emotional arcs simultaneously, letting them converge only when each has earned its moment. The weekly band performance sequence became a cultural event. Critics noted the show's refusal to manufacture urgency: no artificial drama, no antagonist, just the weight of real lives. The Rotten Tomatoes 100% audience score reflects sustained affection, not opening-week noise.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2020-03-12",
+          "bollymeter": 8.7,
+          "spoiler_free": "The opening episode is a masterclass in ensemble introduction: five distinct voices established through texture rather than exposition, a day in the hospital's life that feels as lived-in as a documentary. The band session at the end earns the emotional release the episode has been building toward for ninety minutes.",
+          "the_moment": "The five doctors playing together in a basement practice room - a simple image that becomes the show's emotional centre of gravity.",
+          "critic_note": {
+            "text": "The warmest drama premiere of the decade.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/hospital_playlist/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-06-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "IMDb sustained at 8.7; audience responses consistently place Season 2 as deepening rather than retreating from Season 1's promise; the romantic arcs pay off without disrupting the ensemble balance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Matches its first season by giving every character something real to do and resisting the temptation to force resolution.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/hospital_playlist/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11769304/"
+      },
+      "review_body": "Season 2 picks up without a reset, which is the biggest compliment you can pay a long-form character drama. The romantic threads that Season 1 left deliberately unresolved begin to move - slowly, credibly, without the show sacrificing its ensemble equilibrium. Critics noted that the season's willingness to let certain arcs remain inconclusive felt braver than most K-drama conclusions. The medical cases in this run are more emotionally resonant, partly because the show has spent 12 episodes building audience investment in the hospital's culture. The finale delivers on years of patient character work without sentiment overcalculation. That it was always intended as the ending makes the warmth feel earned rather than valedictory.",
+      "season_over_season": "Season 2 deepens rather than escalates - the stakes are internal and relational, not medical, and that restraint is what keeps the show at its height."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

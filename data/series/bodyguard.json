@@ -1,0 +1,109 @@
+{
+  "slug": "bodyguard",
+  "qid": {
+    "value": "Q56037432",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bodyguard",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A war-veteran police sergeant is assigned to protect a Home Secretary he despises - and finds himself at the center of a conspiracy that implicates everyone including himself.",
+  "poster": {
+    "src": "/img/series/bodyguard/poster.jpg",
+    "alt": "Bodyguard series poster",
+    "attribution": "Poster © BBC / World Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A single six-episode series; Jed Mercurio confirmed no Season 2 planned as of 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bodyguard_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 6,
+      "release_date": {
+        "value": "2018-08-26",
+        "source": "BBC One",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Metacritic score of 76 from critics; 8.0 on IMDb from a large audience base. The BBC1 debut drew consolidated ratings of over 10 million - the channel's most-watched drama in a decade. Richard Madden's performance was universally cited as a career relaunch."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Bodyguard is Jed Mercurio doing what he does best - sustained dread under bureaucratic surfaces, with a lead performance from Madden that makes every scene unpredictable.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/bodyguard/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7493974/"
+      },
+      "review_body": "Bodyguard was the defining BBC event drama of 2018. Jed Mercurio, fresh off Line of Duty's success, applied the same political-thriller mechanics to a six-episode run that topped 10 million viewers per episode by its finale - the highest BBC drama numbers in over a decade. Richard Madden's David Budd arrived as a PTSD-carrying veteran whose assignment to protect a Home Secretary (Keeley Hawes) he politically despised produced friction that the show weaponized as sustained dread. Critics were largely enthusiastic; audiences were comprehensively hooked. The episode 4 cliffhanger generated newspaper front pages. The resolution was polarizing - some found it too neat, others found it earned - but the experience of watching it weekly was irreplaceable.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-08-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "A bomb on a train and David Budd's decision to talk a suicide bomber down in real time - the six-minute opening sequence is one of the best debut sequences in recent BBC history. By its end, the show has established its register and its lead character's psychology in a single unbroken pressure test.",
+          "the_moment": "Budd in the train toilet, alone with the bomber - the sequence that made the nation start the second episode immediately.",
+          "critic_note": {
+            "text": "Bodyguard's opening is a masterclass in sustained tension - Mercurio at his most precise.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/bodyguard/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2018-09-23",
+          "bollymeter": 9.2,
+          "spoiler_free": "The midpoint episode that generated news coverage - a development that the show had been building toward that made the second half of the series impossible to predict. Mercurio's plotting is at its most deliberately disorienting here: the audience's trust in its own reading of events is precisely what the episode dismantles.",
+          "the_moment": "The event that ends Episode 4 - the one that sent 10 million people to the internet to process it simultaneously.",
+          "critic_note": {
+            "text": "Episode 4 of Bodyguard was a genuine national television event - Mercurio engineering communal shock at scale.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/bodyguard/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

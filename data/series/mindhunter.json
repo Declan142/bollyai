@@ -1,0 +1,116 @@
+{
+  "slug": "mindhunter",
+  "qid": {
+    "value": "Q25340152",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mindhunter",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Two FBI agents in the late 1970s build the science of criminal profiling by sitting across from serial killers and asking them, politely, to explain themselves.",
+  "poster": {
+    "src": "/img/series/mindhunter/poster.jpg",
+    "alt": "Mindhunter series poster",
+    "attribution": "Poster © Netflix / Panic Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Officially indefinitely on hiatus as of 2020 when David Fincher declined to continue; effectively cancelled, with Netflix stating no current plans for Season 3 as of mid-2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mindhunter_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-10-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "97% RT - one of Netflix's strongest first seasons. David Fincher's directorial imprint (he directed the first two and last two episodes) gives the show a level of visual control that distinguishes it from every other procedural on the platform. Jonathan Groff and Holt McCallany are an exceptional FBI duo."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Mindhunter is compelling, unsettling, and impeccably crafted - Fincher's influence elevates a procedural into something genuinely disquieting.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mindhunter/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5290382/"
+      },
+      "review_body": "David Fincher's influence on Mindhunter is total: every frame carries the clinical distance, the fluorescent institutional interiors, the cold procedural precision of Zodiac and Se7en applied to long-form television. Holden Ford (Jonathan Groff) and Bill Tench (Holt McCallany) are the FBI agents inventing criminal profiling - sitting in prison cafeterias across from men who have committed mass murder and asking, methodically, why. The interview sequences are the show's structural spine and its greatest achievement: Cameron Britton's Ed Kemper, Jonathan Banks's Jerry Brudos - these performances are among the most physically and psychologically precise work in the franchise. The show earns its 97% RT by being exactly what it promises: the origin of a science, dramatised with Fincher-grade craft. The BTK cold-open sequences - spread across both seasons - promise a payoff the show never delivered.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 9,
+      "release_date": {
+        "value": "2019-08-16",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "97% RT - held perfectly from S1. The Atlanta Child Murders case makes Season 2 the show's most ambitious undertaking; the Charles Manson interview is a television event; Holt McCallany's Tench gets the season's best material."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 deepens and darkens everything the first season built - the Atlanta case is ambitious, the Manson interview is extraordinary, and Holt McCallany finally gets his season.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mindhunter/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5290382/"
+      },
+      "review_body": "Season 2 is the show at its fullest expression. The Atlanta Child Murders case - real, historical, still contested - gives Mindhunter its most complex investigation: a Black community under siege, a city's leadership resistant to profiling, a case that the show engages with the same rigour it applies to its serial killer interviews. Holt McCallany's Bill Tench becomes the season's emotional centre as his adopted son's involvement in a child murder systematically destroys his family. The Charles Manson interview (Damon Herriman) is the season's set-piece: a man who understands his own mythology and performs for the profilers accordingly. Critics held at 97%; audiences recognised the season as a step forward. Fincher directed four of nine episodes. The BTK sequences continued, still promising a resolution the show will now never provide. The cancellation of Mindhunter is among streaming television's genuine losses.",
+      "season_over_season": "More ambitious, darker, and better balanced between the case work and the agents' personal disintegrations under the weight of what they do."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,0 +1,256 @@
+{
+  "slug": "better-call-saul",
+  "qid": {
+    "value": "Q14925221",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Better Call Saul",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "The slow-motion corruption of a con man who wanted to be a good lawyer - and the tragedy of a good lawyer who loved him.",
+  "poster": {
+    "src": "/img/series/better-call-saul/poster.jpg",
+    "alt": "Better Call Saul series poster",
+    "attribution": "Poster © AMC Networks / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 6 seasons on August 15, 2022; widely regarded as one of the greatest spin-offs in television history.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Better_Call_Saul"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-02-08",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Critics scored S1 at 98% on RT - remarkable trust in a spin-off to establish its own identity this fast. The Jimmy/Chuck dynamic and Mike's parallel introduction set twin trajectories that play out over six seasons."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Better Call Saul masterfully establishes its own distinct identity while honoring its predecessor's legacy.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/better_call_saul/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3032476/"
+      },
+      "review_body": "The critics who expected Breaking Bad with a new coat of paint got something considerably stranger and more patient. Season 1 is character architecture: it builds Jimmy McGill from the ground up, as a genuinely decent man warped by envy, grievance, and a brother who cannot believe in him. Bob Odenkirk, cast against his comedic type, delivered what many called the performance of his career from the first episode. Jonathan Banks' Mike Ehrmantraut gets his own origin thread, running in parallel and converging with quiet purpose. The RT score of 98% reflected critic consensus that the show had no intention of coasting on its parent's reputation. Slow by design, deliberate by design - patience rewarded with a finale that reveals what Chuck truly thinks of his brother.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-02-15",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "97% RT, average rating 8.7/10 from critics. The Jimmy-vs-Chuck legal war heats up; Mike's cartel entanglement deepens. The show's dual rhythm - legal drama vs crime thriller - locks into sync."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 deepens the tragedy at the show's core, delivering some of the most quietly devastating television of the year.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/better_call_saul/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3032476/"
+      },
+      "review_body": "Season 2 deepens every thread without rushing any of them. Jimmy's Mesa Verde gambit - and what he does to win it - is the first moment where the audience must actively reckon with whether they're still rooting for him. Chuck's obsession with electromagnetic sensitivity adds a layer of unreliable-narrator pathos that keeps him from being a simple villain. Kim Wexler emerges as the show's moral centre and its greatest original creation - Rhea Seehorn doing career-defining work with material that rewards close attention. Mike's encounter with Nacho and the early Salamanca network begins the cartel architecture that will eventually connect to Breaking Bad. Critics held the season at 97%; the fan base started to argue this was better than its predecessor.",
+      "season_over_season": "More confident, the dual narratives increasingly inseparable - the law drama and the crime drama begin to feed each other."
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-04-10",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "98% RT with average critic score 8.75/10. The Chuck storyline reaches its brutal peak; Gus Fring makes his BCS debut. Critics and audiences recognised this as the season where the show transcended spin-off status entirely."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The brilliant third season cements Better Call Saul as a worthy companion to its parent show - and in some ways its equal.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/better_call_saul/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3032476/"
+      },
+      "review_body": "The season where the Jimmy-Chuck war reaches its legal and emotional peak - a courtroom scene that is one of the finest pieces of television acting across either show. Michael McKean's Chuck is written and performed with a complexity that refuses easy audience reactions. Giancarlo Esposito returns as Gus Fring and the show snaps into its Breaking Bad coordinates without losing the slower, sadder registers that are uniquely its own. Critics pushed the RT score to 98%; the discourse shifted from 'good spin-off' to 'great show.' The final scene of Chuck's arc is handled with a restraint that makes it more devastating than any conventional climax. Season 3 is where the tragedy became undeniable.",
+      "season_over_season": "The Chuck arc completes; Gus arrives. The two narrative tracks accelerate toward each other and the show becomes fully its own thing."
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-08-06",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "99% RT, critics average 8.9/10. Jimmy's grief-and-rage aftermath and the final crossing of the line into Saul Goodman territory. The season finale is one of the most painful hours of television in the run."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 4 is the show at its most heartbreaking - Jimmy's transformation into Saul feels both inevitable and utterly devastating.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/better_call_saul/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3032476/"
+      },
+      "review_body": "The aftermath of Chuck's death strips away Jimmy's last external check on his worst impulses. Season 4 watches him methodically dismantle his own better nature - not in rage, but with a kind of cold professionalism that is far more frightening. The Gus/Mike storyline deepens the superlab construction and advances the cartel power struggle toward Breaking Bad territory. Kim's arc asks the most uncomfortable questions the show raises: what does it mean to love someone you are watching become something else? The finale - Jimmy's bar hearing - delivers a performance from Odenkirk and a gut-punch final line that critics and fans cited as the show's single best scene to that point. RT at 99%.",
+      "season_over_season": "Post-Chuck, the show enters its final-act territory - quieter grief, colder choices, and Kim's growing moral entanglement."
+    },
+    {
+      "number": 5,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-02-23",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "99% RT, critics average 8.9/10. Saul Goodman fully operational; Kim's arc reaches a decision point; Lalo Salamanca emerges as the show's finest villain since Gus. 'Bagman' is frequently cited as the best episode of the series."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "With Lalo Salamanca and Kim Wexler at the fore, Season 5 stands as one of the best seasons of television in the prestige era.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/better_call_saul/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3032476/"
+      },
+      "review_body": "Saul Goodman is now fully operational, and the show's darkest stretch begins. Tony Dalton's Lalo Salamanca - introduced in S4 but unleashed here - is a charismatic threat operating on the same tactical frequency as Gus, which means the season's cartel scenes achieve genuine suspense rather than mere mythology-plugging. 'Bagman' (episode 8) - Jimmy and Mike, alone in the desert, no dialogue for extended stretches - is the episode most commonly cited as the best in the entire run. Kim's decision in the finale to cross a line she cannot uncross is the season's moral detonator: critics rated it 99% on RT. Audiences on IMDb averaged 9.2. The case was being made loudly that BCS had surpassed its parent.",
+      "season_over_season": "The show's most cinematic season - operatic set-pieces alongside quiet devastation. The Kim arc assumes co-equal billing with Jimmy's."
+    },
+    {
+      "number": 6,
+      "year": 2022,
+      "episodes": 13,
+      "release_date": {
+        "value": "2022-04-18",
+        "source": "AMC",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.7,
+        "basis": "99% RT, critics average 9.4/10 - the highest per-episode score of the run. The show resolves every thread with the same meticulous craft it used to set them up, and its finale is a genuine rival to Breaking Bad's Felina."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A masterful conclusion that earns its tragedy and cements Better Call Saul as one of the greatest television series ever made.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/better_call_saul/s06"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3032476/"
+      },
+      "review_body": "The final season splits into two halves: the Lalo endgame (which delivers the most kinetic action in the show's history) and the Gene Takavic denouement (which is slower, sadder, and ultimately more devastating). Kim's fate mid-season lands with such force that the back half feels like aftermath. The Gene episodes are where the show makes its argument for itself as tragedy, not just crime drama. The finale brings every timeline together with the economy of a show that has spent six seasons earning every beat. Critics gave it 99% on RT; the per-episode IMDb average was 9.4 - the highest of the run. The argument that BCS is the better show became majority opinion in the critical community.",
+      "season_over_season": "The culmination: brutal in its first half, devastating in its second. The show finishes exactly as deliberately as it began."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

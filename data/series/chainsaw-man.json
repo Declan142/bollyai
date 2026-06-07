@@ -1,0 +1,109 @@
+{
+  "slug": "chainsaw-man",
+  "qid": {
+    "value": "Q104211858",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Chainsaw Man",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A broke teenager merges with his chainsaw demon and gets recruited into a government bureau that hunts devils - the anime's real project being the most sustained, deliberately uncomfortable critique of shonen conventions the genre has produced.",
+  "poster": {
+    "src": "/img/series/chainsaw-man/poster.jpg",
+    "alt": "Chainsaw Man series poster",
+    "attribution": "Poster © Tatsuki Fujimoto / Shueisha / MAPPA. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 1 aired October - December 2022. A theatrical film adaptation (Reze Arc) was announced and is in production as of 2025 - 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Chainsaw_Man_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-10-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% Rotten Tomatoes from 89 reviews; IMDb 8.3. MAPPA's production is the most technically discussed anime of its season. Critics consistently noted that Tatsuki Fujimoto's source material uses the shonen genre's conventions as the subject of its critique rather than its vehicle - a level of formal self-awareness that generated serious anime-criticism discourse."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 89,
+        "pull_quotes": [
+          {
+            "text": "MAPPA delivers Chainsaw Man with the budget and the bravado it demands - a show that uses its violence as social commentary with more discipline than most live-action prestige drama.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chainsaw_man/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13616990/"
+      },
+      "review_body": "Chainsaw Man is the show that most rewards viewers who arrive familiar with shonen conventions - not because those conventions are required but because Tatsuki Fujimoto is systematically dismantling them in real time. Denji's desires are elementary (a warm bed, food, physical affection) in a universe that has trained audiences to expect protagonists with world-saving visions; the gap between Denji's scale and the show's actual violence level is the joke and the argument simultaneously. MAPPA's production spent exceptional resources on the opening sequences - each episode has a different ending animation and song, a budget allocation that announced the studio's intentions. The Katana Man arc and the Gun Devil mythology establish the show's capacity for genuine horror inside its comedy scaffolding. At 97% on Rotten Tomatoes with 89 critic reviews, the critical engagement was serious and proportionate to the material.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Dog and Chainsaw",
+          "air_date": "2022-10-12",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere establishes Denji's situation with a flatness that functions as the show's first tonal declaration: this is not romanticized poverty or underdog setup, it is material deprivation framed without heroic gloss. The Pochita backstory is compact and hits harder for being compact. The merger sequence is MAPPA operating at full capacity and serves as the show's aesthetic manifesto.",
+          "the_moment": "Denji's chainsaw activation in the warehouse - the show's first full deployment of its premise and its most unambiguous action statement.",
+          "critic_note": {
+            "text": "A debut episode that arrives already knowing what it is - controlled, brutal, and formally self-aware.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chainsaw_man/s01"
+          }
+        },
+        {
+          "number": 9,
+          "title": "From Kyoto",
+          "air_date": "2022-12-07",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Katana Man arc reaches critical mass - multiple plot threads collide and the show generates its most concentrated action sequence of the season. The casualties in these episodes are treated with a procedural matter-of-factness that is the show's signature move: not lingered over, not avoided, simply registered as the cost of operating in this universe.",
+          "the_moment": "Himeno's sacrifice - the scene that separates Chainsaw Man from shows that only threaten consequences.",
+          "critic_note": {
+            "text": "The season's hardest episode and its most clearly purposeful - loss without melodrama is a rare skill.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/chainsaw_man/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

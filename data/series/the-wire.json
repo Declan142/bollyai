@@ -1,0 +1,249 @@
+{
+  "slug": "the-wire",
+  "qid": {
+    "value": "Q478360",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Wire",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Baltimore, institution by institution: the drug war, the docks, city hall, the schools, the press - a system so total that no individual heroism can interrupt it.",
+  "poster": {
+    "src": "/img/series/the-wire/poster.jpg",
+    "alt": "The Wire series poster",
+    "attribution": "Poster © HBO / Warner Bros. Discovery. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 5 seasons on March 9, 2008; retrospectively considered by most critics the greatest American television drama ever made.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Wire"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2002,
+      "episodes": 13,
+      "release_date": {
+        "value": "2002-06-02",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "86% RT on first broadcast - critics respected it but the full recognition came later. The season establishes David Simon's systemic lens with the Barksdale drug organisation and the McNulty-led wire operation. IMDb overall series 9.3/10; S1 is the essential foundation."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The Wire is not a cop show - it's a sociological novel about a city, told with novelistic patience and moral complexity.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0306414/"
+      },
+      "review_body": "The Wire Season 1 is among the slowest openings in prestige drama history - and the most rewarding. David Simon's journalism background is on every frame: the Barksdale organization is studied with the same anthropological care as the McNulty wire detail. No one is a hero; no institution functions as designed; everyone is caught inside a system that grinds forward regardless of individual intent. The show's famous difficulty (no recap, no exposition, dense dialogue) is the point: Baltimore is not going to explain itself to the viewer. Critics gave it 86% - solid but not landmark - but the show's reputation grew across its run and exploded retrospectively. S1 is where the language is learned. Every subsequent season assumes fluency.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Target",
+          "air_date": "2002-06-02",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere drops you into a Baltimore street corner murder investigation with zero hand-holding. Detective McNulty pitches a wiretap case that nobody wants authorised; D'Angelo Barksdale is the drug trade's middle management, already questioning what he's part of. The show's moral and structural grammar is established in a single hour.",
+          "the_moment": "McNulty explaining the Barksdale operation to a judge who barely wants to listen - the systemic indifference the show will spend five seasons mapping.",
+          "critic_note": {
+            "text": "Simon's pilot is a declaration of intent: this show will not make crime simple or solvable.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s01"
+          }
+        },
+        {
+          "number": 13,
+          "title": "Sentencing",
+          "air_date": "2002-09-08",
+          "bollymeter": 9.2,
+          "spoiler_free": "The season finale closes the Barksdale investigation and delivers the show's first definitive statement: the system absorbs, adjusts, and continues. Characters who fought hard land in places that illustrate institutional inevitability rather than individual agency. The Wire's moral architecture is fully visible here for the first time.",
+          "the_moment": "The case's conclusion - and who it satisfies, who it punishes, and who escapes - is a précis of everything the show argues across 60 episodes.",
+          "critic_note": {
+            "text": "A finale that refuses comfort - the machine continues, and that's the point.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2003,
+      "episodes": 12,
+      "release_date": {
+        "value": "2003-06-01",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "95% RT. The shift to the docks - Frank Sobotka, union decline, global trafficking - is the show's most divisive season on first viewing and its most prescient in retrospect. The systemic lens widens from drug trade to the collapse of blue-collar America."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 is The Wire at its most ambitious - expanding the institution under the microscope to the docks and the death of the American working class.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0306414/"
+      },
+      "review_body": "The season many viewers bounce off on first watch and return to with reverence. Simon shifts from West Baltimore corners to the Baltimore port: Frank Sobotka and the stevedores' union are the new centre, their criminal entanglement a symptom of deindustrialisation rather than moral failure. The show is doing journalism again - this time on globalisation and the destruction of organised labour. Ziggy and Nick Sobotka ground the macro in personal tragedy. The Barksdale drug thread continues as a B-story; the seasons are revealed to be chapters in a single argument about structural inequality. Critics at 95% - higher than S1 - recognised the ambition even if audiences took longer.",
+      "season_over_season": "The pivot to the docks divides first-timers but is essential: the show's thesis requires demonstrating that the drug war is a symptom, not the disease."
+    },
+    {
+      "number": 3,
+      "year": 2004,
+      "episodes": 12,
+      "release_date": {
+        "value": "2004-09-19",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "100% RT. Hamsterdam, the Stringer Bell arc, Marlo Stanfield's emergence, and the political arc through Tommy Carcetti. The season most commonly cited as the high-water mark by critics who rank the show season-by-season."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 3 is The Wire at its zenith - Hamsterdam alone is worth a semester of political philosophy, and the storytelling is ferociously good.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0306414/"
+      },
+      "review_body": "The season the show earned its permanent place in the canon. Bunny Colvin's 'Hamsterdam' experiment - a de facto drug legalisation zone - is TV's most rigorous thought experiment in policy reform. Stringer Bell's attempt to apply business school logic to the drug trade ends in the show's most discussed set-piece. Marlo Stanfield's emergence as the next generation of power is cold and terrifying. Tommy Carcetti's political storyline introduces the show's institutional critique of city government without softening into cynicism. RT reached 100%; the critical conversation shifted from 'great drama' to 'the greatest drama.' The Avon-Stringer partnership's resolution is the series' most devastating character farewell.",
+      "season_over_season": "The show at full power: multiple institutions running simultaneously, no narrative strand wasted, the thesis sharpest it has ever been."
+    },
+    {
+      "number": 4,
+      "year": 2006,
+      "episodes": 13,
+      "release_date": {
+        "value": "2006-09-10",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.6,
+        "basis": "100% RT. The schools season. Michael, Dukie, Randy, Namond - four boys at an intersection of institutional failure. Critics and many viewers cite this as the single greatest season of any television show."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The schools season is The Wire's most emotionally devastating achievement - four children against a system that was never built to save them.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0306414/"
+      },
+      "review_body": "Season 4 is the show at its most morally serious and its most personally devastating. Four boys in a Baltimore middle school - Michael, Dukie, Randy, Namond - become proxies for every failure the series has been cataloguing: policing, the drug trade, city politics, now education. The school scenes have the density and compassion of the best social realism in any medium; the kids are written and performed without sentimentality and without cruelty. Carcetti wins the mayoralty; the political machine immediately begins to compromise him. The Marlo storyline advances with a coldness that is almost unbearable. Critics who placed this season among the greatest single seasons of any drama were not overstating it. RT at 100%; the show had become a reference point for what television could do.",
+      "season_over_season": "The show's emotional summit: the systemic argument fully expressed through four specific children and what the system does to them."
+    },
+    {
+      "number": 5,
+      "year": 2008,
+      "episodes": 10,
+      "release_date": {
+        "value": "2008-01-06",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% RT despite being the show's most divisive season among fans. The newspaper storyline and McNulty's fabricated serial killer strain credibility; the Marlo conclusion is strong. Not the series at its best but a legitimate closing argument."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A flawed but fitting conclusion to one of television's greatest stories - the media's complicity in civic decline is a worthy final target.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the-wire/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0306414/"
+      },
+      "review_body": "Season 5 is The Wire's most debated chapter. Simon turns his journalistic eye on journalism itself - the Baltimore Sun's decline is the new institutional subject - but the McNulty fake serial killer subplot tests the show's realism budget. Critics maintained a perfect RT score, reading the season as a coherent closing argument about media and accountability; viewers were more divided, finding the newspaper plotline the weakest of the five institutional lenses. The Marlo endgame and the final montage - showing the city's cycle continuing without any of the characters we've followed - is among the finest endings in prestige drama. The show closes with what it always believed: the corners remain, the names change, and the city endures.",
+      "season_over_season": "The weakest season on craft terms but still essential for the ending - the final montage retroactively justifies everything."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

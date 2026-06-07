@@ -1,0 +1,369 @@
+{
+  "slug": "game-of-thrones",
+  "qid": {
+    "value": "Q23572",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Game of Thrones",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Noble houses wage blood-soaked war for the Iron Throne while an ancient, undead threat stirs beyond the Wall.",
+  "poster": {
+    "src": "/img/series/game-of-thrones/poster.jpg",
+    "alt": "Game of Thrones series poster",
+    "attribution": "Poster © HBO. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 8 seasons in May 2019; spinoff House of the Dragon is a separate series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 10,
+      "release_date": {
+        "value": "2011-04-17",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "Critics called it a staggering act of world-building with an 91% RT score; audiences were transfixed from the opening scene; the Ned Stark gambit changed what premium television was willing to do."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 70,
+        "pull_quotes": [
+          {
+            "text": "An addictive, absorbing fantasy epic with ambition to match its source material.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Season 1 lays the board with the confidence of a show that knows exactly what it is. Benioff and Weiss adapt Martin's labyrinthine first novel with ruthless economy - every house, every grudge, every marriage gets its due. Sean Bean's Ned Stark functions as the audience's moral compass, and the show's masterstroke is breaking that compass entirely in episode nine. Critics - 91% fresh on Rotten Tomatoes - praised the production scale and the ensemble casting; audiences responded to the sheer density of consequence. The King's Landing political theatre hums with menace; the Wall episodes are genuinely cold and eerie. If Season 1 has a flaw, it's that some exposition runs hot, the pacing uneven in the middle stretch. None of it matters. 'Baelor' (S1E9) is one of television's great gut-punches, and first-time viewers will not see it coming.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Winter Is Coming",
+          "air_date": "2011-04-17",
+          "bollymeter": 8.9,
+          "spoiler_free": "The series premiere plants nine noble houses, two continents, and one undead threat - all before the opening credits land. It's dense, but the Stark household and Winterfell give viewers an emotional anchor. The White Walker opening and Jaime's closing act signal that this show will not flinch.",
+          "the_moment": "The prologue beyond the Wall, establishing the true stakes before the political game begins.",
+          "critic_note": {
+            "text": "A spectacular, dazzling premiere that sets a new high bar for fantasy television.",
+            "source": "IGN",
+            "url": "https://www.ign.com/articles/2011/04/18/game-of-thrones-winter-is-coming-review"
+          }
+        },
+        {
+          "number": 9,
+          "title": "Baelor",
+          "air_date": "2011-06-12",
+          "bollymeter": 9.6,
+          "spoiler_free": "Episode nine dismantles everything the show has spent eight hours building. The sequence is quiet, almost matter-of-fact, and it redefines what premium TV drama is willing to sacrifice. A landmark hour that announced the show's singular ruthlessness to the world.",
+          "the_moment": "The crowd at the sept - a single shot that changes the contract between show and audience forever.",
+          "critic_note": {
+            "text": "Extraordinary. Game-changing. An episode that will be discussed for years.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/game-of-thrones-baelor-review-1798172004"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 10,
+      "release_date": {
+        "value": "2012-04-01",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "96% on RT; critics praised the broadened scope and the Battle of Blackwater as one of TV's great siege sequences. Tyrion Lannister became the show's irreplaceable centre."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 80,
+        "pull_quotes": [
+          {
+            "text": "Bolder, darker, and more confident, with a spectacular battle episode that justifies the show's entire budget.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Five claimants to the throne, one coin-flip of loyalty after another - Season 2 is where the chessboard gets genuinely overcrowded and GoT leans into it. Peter Dinklage earned his Emmy for Tyrion's King's Landing campaign; the Blackwater episode (directed by Neil Marshall) remains a masterclass in television-scale siege warfare. Daenerys's Qarth arc is the season's weakest thread - her storyline padding visible even to first-time viewers - but the Arya-Tywin dynamic in Harrenhal more than compensates. Critics were impressed by the production's willingness to commit fully to a dozen simultaneous storylines without losing narrative grip. At 96% on Rotten Tomatoes it sits as one of the show's critical high-water marks, and audiences matched the enthusiasm.",
+      "season_over_season": "Bigger in scope than Season 1, sharper in political manoeuvring; the Blackwater sequence alone elevates it."
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 10,
+      "release_date": {
+        "value": "2013-03-31",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "96% RT; 'The Rains of Castamere' (Red Wedding) scored 9.9 on IMDb and became one of television's most discussed single hours. Critics called it the show at its most pitilessly brilliant."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 90,
+        "pull_quotes": [
+          {
+            "text": "The series' most shocking season culminates in an episode that redefines television drama.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Season 3 is GoT's most emotionally devastating run of episodes. The Red Wedding (S3E9) hit the cultural conversation like a detonation - 9.9 on IMDb, the highest-rated GoT episode at the time - and its genius is that it arrives without cinematic fanfare, scored by a folk tune and lit by torchlight. Everything before that ninth episode is structured to make you believe the Starks might prevail. Critics at 96% fresh recognised the show's willingness to use its full season as a long con, building trust only to shatter it. Jaime Lannister's redemption arc gains serious footing here; the Daenerys storyline finally achieves the momentum the Qarth arc denied it. The season is GoT at its narrative boldest.",
+      "season_over_season": "More emotionally brutal than Season 2; the Red Wedding sets a benchmark that the rest of television spent years trying to match.",
+      "episode_reviews": [
+        {
+          "number": 9,
+          "title": "The Rains of Castamere",
+          "air_date": "2013-06-02",
+          "bollymeter": 9.9,
+          "spoiler_free": "A wedding in the Riverlands that begins with cautious optimism and ends with irreversible consequence. The episode is a masterwork of misdirection - every scene in the final act is engineered to let the audience breathe before the air leaves the room entirely. Television does not get more unforgiving than this.",
+          "the_moment": "The doors close. The music changes. The Stark sigil fades. Nothing is ever the same again.",
+          "critic_note": {
+            "text": "An instant classic. Game of Thrones at its most devastating and its most brilliant.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2013/jun/03/game-of-thrones-rains-of-castamere-review"
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2014,
+      "episodes": 10,
+      "release_date": {
+        "value": "2014-04-06",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "97% RT - the show's all-time critical peak. The Mountain vs The Viper and Battle of Castle Black anchored a season critics called GoT's creative summit."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 100,
+        "pull_quotes": [
+          {
+            "text": "The series hits its creative peak with a season rich in stunning reversals and spectacular set pieces.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Season 4 is the purist's argument for GoT as the greatest drama of its era. The first two episodes tear through the fallout of the Red Wedding; the Purple Wedding in episode two is almost comedy-dark. The Tyrion trial arc is one of the show's finest sustained story threads, culminating in the duel that carries the season's most visceral single moment. Episode nine, 'The Watchers on the Wall' (9.6 on IMDb), delivers an unbroken Castle Black siege; episode ten 'The Children' lands consequence after consequence. Critics awarded it 97% - the series' highest season score - and audiences agreed. By any metric Season 4 is GoT's creative summit, the season where every plotline justified its existence simultaneously.",
+      "season_over_season": "Tighter and more relentless than Season 3; the 97% RT score reflects a show operating at genuine peak."
+    },
+    {
+      "number": 5,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-04-12",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "93% RT but a perceptible step back from the Season 4 summit; Dorne felt under-cooked and the Stannis arc resolved in a way that divided the audience sharply."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 100,
+        "pull_quotes": [
+          {
+            "text": "Still superb but now straining under the weight of its own mythology as it departs from its source material.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Season 5 is the first season shot entirely beyond the books - and the seams show. Dorne is nearly universally cited as the weakest subplot in the series; the Sand Snakes don't land with the menace intended. Cersei's political gambit with the Faith Militant pays off handsomely in the finale's Walk of Shame sequence. Jon Snow's arc at the Wall reaches its logical and devastating conclusion in the penultimate episode. Hardhome (S5E8) is some of the finest action filmmaking in TV history - critics were clear that it alone justified the season's 93% RT score. But Stannis and Shireen's arc, resolved off-screen, felt like the writers had run out of patience with a character they'd built for four seasons.",
+      "season_over_season": "A noticeable step below Season 4's peak; the Dorne subplot is the show's first sustained weak thread."
+    },
+    {
+      "number": 6,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-04-24",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "94% RT; 'Battle of the Bastards' earned 9.9 on IMDb. Critics called it a full recovery from Season 5's stumbles, with the Stark restoration arc delivering catharsis at scale."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 100,
+        "pull_quotes": [
+          {
+            "text": "A triumphant return to form, delivering spectacle and emotional payoffs in equal measure.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s06"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Season 6 is the crowd-pleaser season - not a pejorative in this case, because the crowd had earned what it got. 'Battle of the Bastards' (S6E9) became the highest-rated GoT episode in history at 9.9 on IMDb; the episode is a technical tour de force, all single-shot cavalry charges and suffocating shield walls. The season's finale 'The Winds of Winter' is arguably the most operatically directed GoT hour - the Great Sept scene runs without dialogue for six unbroken minutes. Cersei's ascent to power closes the season with a cold, perfect image. The Tower of Joy sequence finally answers a mystery planted in Season 1. Critics at 94% agreed: this was GoT running on ambition again.",
+      "season_over_season": "A strong recovery from Season 5's missteps; the two finale episodes rank among the series' absolute best."
+    },
+    {
+      "number": 7,
+      "year": 2017,
+      "episodes": 7,
+      "release_date": {
+        "value": "2017-07-16",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "93% RT from critics but the abbreviated seven-episode run forced a pace that sacrificed plausibility for spectacle - the teleporting characters drew early critical concern."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 80,
+        "pull_quotes": [
+          {
+            "text": "Visually spectacular but narratively rushed, with characters crossing continents at plot-speed.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s07"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "Season 7 moves fast - arguably too fast. Seven episodes to accomplish what a full ten-episode run might have earned: the alliance between Jon and Daenerys, the capture of a wight beyond the Wall, the Dragon Pit summit. Individual sequences are stunning (the loot train ambush, Viserion's fall), but the writing increasingly prioritises momentum over coherence. Characters who once spent full seasons travelling between locations now arrive within cuts. Critics, still at 93% fresh, praised the spectacle while noting the structural compromises. The Night King's arc beyond the Wall in E6 is the season's most thrilling hour. As setup for a finale season, it functions; as standalone drama in the GoT tradition, it's a grade below.",
+      "season_over_season": "Visually the most ambitious yet; narratively the thinnest since Season 1 - the rush shows."
+    },
+    {
+      "number": 8,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-04-14",
+        "source": "HBO",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "71% RT from critics who were broadly disappointed; the petition to remake S8 garnered over 1 million signatures. Spectacle was present; the character work earned was not."
+      },
+      "critic": {
+        "positive_pct": 71,
+        "sample": 60,
+        "pull_quotes": [
+          {
+            "text": "The final season offers an uneven send-off to a once-great series, favoring spectacle over the storytelling logic that made it great.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/game_of_thrones/s08"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0944947/"
+      },
+      "review_body": "The most anticipated season in television history became the most debated disappointment. Six episodes to resolve eight years of setup: the Night King arc concludes in a single episode; Daenerys's descent into madness compresses what should have been a full season's arc into two episodes; Bran Stark is crowned in a scene that reads as parody to many viewers. The Long Night (E3) was cinematically murky and strategically incoherent, drawing sustained criticism. Critics at 71% - a 22-point RT drop from Season 7 - acknowledged the production design and the performances (Emilia Clarke, Lena Headey both outstanding) while ruling the writing had failed the show's own standards. Season 8 is a document of what ambition looks like when it outpaces patience.",
+      "season_over_season": "A significant step down from every prior season; the truncated format robbed major arcs of their earned payoff."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

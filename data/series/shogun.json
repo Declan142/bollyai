@@ -1,11 +1,31 @@
 {
   "slug": "shogun",
-  "qid": { "value": "Q56276181", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Shogun", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q56276181",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shogun",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Disney+ Hotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "An English navigator shipwrecked in feudal Japan in 1600 becomes entangled in a warlord's bid for supreme power, told with equal weight in Japanese and English.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 10,
-      "release_date": { "value": "2024-02-27", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-02-27",
+        "source": "FX press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.2, "basis": "99% Rotten Tomatoes (144 reviews), 18 Emmy wins including Best Drama and Best Lead Actor, widely described as one of the finest limited series ever produced for American television." },
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "99% Rotten Tomatoes (144 reviews), 18 Emmy wins including Best Drama and Best Lead Actor, widely described as one of the finest limited series ever produced for American television."
+      },
       "critic": {
         "positive_pct": 99,
         "sample": 144,
@@ -38,11 +66,62 @@
           }
         ]
       },
-      "audience": { "rating": 8.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt2788316/" },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2788316/"
+      },
       "review_body": "The 2024 Shogun is the rare prestige adaptation that made the critical establishment, the awards circuit, and general audiences converge without compromise. The 99% Rotten Tomatoes score across 144 reviews is not a qualified success, it is a consensus. Hiroyuki Sanada's performance as Toranaga, carrying tactical calculation through sustained restraint and micro-expression, gave the season its moral gravity. The commitment to authentic Japanese-language dialogue, casting, and cultural perspective separated it sharply from Western period dramas that typically treat non-English characters as atmosphere. The show swept 18 Emmy Awards and placed Sanada in the conversation for the finest television performance of the decade.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Anjin",
+          "air_date": "2024-02-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "A 70-minute premiere that introduces Blackthorne's shipwreck arrival in feudal Japan alongside the full political chessboard of the Regents' power struggle. The episode immediately signals its most important departure from the 1980 miniseries: Toranaga is not background colour - he is the protagonist, and Hiroyuki Sanada commands every scene he enters.",
+          "the_moment": "Toranaga's first public appearance before the Council - the full weight of Sanada's performance lands in near silence.",
+          "critic_note": {
+            "text": "A sumptuous period piece and dazzling epic - Toranaga sparkles with stoicism masking subtle brittleness and tender humanity.",
+            "source": "CBR",
+            "url": "https://www.cbr.com/shogun-fx-premiere-review/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Broken to the Fist",
+          "air_date": "2024-03-26",
+          "bollymeter": 9.1,
+          "spoiler_free": "The season's mid-point turns on Mariko's personal arc and the sharpening of her position between Toranaga's ambitions and her own honour code. The episode deepens the show's Japanese-language scenes to near-feature quality, with Anna Sawai delivering the performance that would anchor her Emmy campaign. The political intrigue moves from background to foreground.",
+          "the_moment": "Mariko's private declaration of intent - the clearest articulation of the show's real thematic heart.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Crimson Sky",
+          "air_date": "2024-04-16",
+          "bollymeter": 9.5,
+          "spoiler_free": "The penultimate episode executes Toranaga's long-planned gambit against the Regents in a sequence of violence and sacrifice that recontextualises every strategic choice made across the season. Mariko's arc reaches its culmination in a scene of extraordinary stillness. Critics called it the best episode of the season.",
+          "the_moment": "Mariko's final stand - courage rendered as absolute self-possession, the scene that earned her the Emmy.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "A Dream of a Dream",
+          "air_date": "2024-04-23",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale subverts every expectation of epic television by ending not with a battle but with a poem - Toranaga's victory is announced through revelation rather than confrontation. The episode's quiet authority confirms the season as a complete work, not a setup for more. Critics called it a poetic, haunting close to one of the finest limited series ever made.",
+          "the_moment": "Toranaga alone, contemplating what he has built and what it cost - the whole series distilled into stillness.",
+          "critic_note": {
+            "text": "No work is flawless, but despite a brief midseason dip, Shōgun is a classic and will be remembered as a brief, glorious, and monumental triumph.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/shows/shogun-finale-review-dream-of-a-dream-spoilers-1234976496/"
+          }
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

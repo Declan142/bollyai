@@ -1,11 +1,31 @@
 {
   "slug": "the-bear",
-  "qid": { "value": "Q112761982", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "The Bear", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q112761982",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Bear",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Disney+ Hotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A fine-dining chef returns to run his late brother's Chicago sandwich shop and tries to transform both the kitchen and himself.",
   "poster": {
@@ -24,15 +44,28 @@
       "number": 1,
       "year": 2022,
       "episodes": 8,
-      "release_date": { "value": "2022-06-23", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-06-23",
+        "source": "FX press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.1, "basis": "100% Rotten Tomatoes critic score and 8.5 IMDb audience rating; the single-take 'Review' episode became a benchmark for tension in half-hour television." },
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "100% Rotten Tomatoes critic score and 8.5 IMDb audience rating; the single-take 'Review' episode became a benchmark for tension in half-hour television."
+      },
       "critic": {
         "positive_pct": 100,
         "sample": null,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14452776/" },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14452776/"
+      },
       "review_body": "Season 1 announced The Bear as something new in prestige television: a half-hour drama that ran at the pace and intensity of a thriller while rooting itself in the tactile reality of professional kitchens and working-class Chicago grief. The 100% Rotten Tomatoes score from critics was matched by genuine word-of-mouth velocity. Jeremy Allen White's performance drew the obvious comparisons to early Joaquin Phoenix and Tom Hardy, but the ensemble around him, particularly Ayo Edebiri and Ebon Moss-Bachrach, was what separated the show from star vehicles. The kitchen as pressure-cooker metaphor was not new; the execution was.",
       "season_over_season": null
     },
@@ -40,25 +73,92 @@
       "number": 2,
       "year": 2023,
       "episodes": 10,
-      "release_date": { "value": "2023-06-22", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-06-22",
+        "source": "FX press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.3, "basis": "99% Rotten Tomatoes and 8.9 IMDb audience, widely considered the show's creative peak; the standalone 'Fishes' episode swept awards season." },
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "99% Rotten Tomatoes and 8.9 IMDb audience, widely considered the show's creative peak; the standalone 'Fishes' episode swept awards season."
+      },
       "critic": {
         "positive_pct": 99,
         "sample": null,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14452776/" },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14452776/"
+      },
       "review_body": "Season 2 expanded the canvas and the ambition. The restaurant renovation arc allowed the show to build character episodes with feature-length patience, most notably the 'Fishes' Christmas flashback, which critics uniformly listed among the best individual hours of that television year. The 99% Rotten Tomatoes score was near-universal; the IMDb audience rating of 8.9 outpaced Season 1's already strong figure. Emmy voters responded in kind. The Bear had moved from critics' darling to industry consensus in twelve months.",
-      "season_over_season": "Season 2 exceeded Season 1 by almost every metric: IMDb rating up to 8.9, RT critic score at 99%. The expanded character episodes gave the ensemble room the first season's compressed format could not."
+      "season_over_season": "Season 2 exceeded Season 1 by almost every metric: IMDb rating up to 8.9, RT critic score at 99%. The expanded character episodes gave the ensemble room the first season's compressed format could not.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Beef",
+          "air_date": "2023-06-22",
+          "bollymeter": 8.7,
+          "spoiler_free": "The season premiere picks up the renovation chaos with the kitchen crew scattered and Carmy consumed by the restaurant's rebirth. It resets the relationships efficiently and stakes out Season 2's ambition: this is no longer just a show about a sandwich shop, it is a show about becoming. The opening sequence is a thesis statement.",
+          "the_moment": "Carmy walks the empty space that will become The Bear - the weight of what he is trying to build lands in a look.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Fishes",
+          "air_date": "2023-06-22",
+          "bollymeter": 9.8,
+          "spoiler_free": "A standalone Christmas flashback set years before the series that delivers the Berzatto family's dysfunction in real time: Jamie Lee Curtis, Jon Bernthal, and the entire cast in a single catastrophic holiday dinner. The episode runs fifty minutes and has the density and emotional force of a feature film. Critics called it the best episode of television in 2023.",
+          "the_moment": "The kitchen argument that finally fractures across the whole family - grief, resentment, and love detonating simultaneously.",
+          "critic_note": {
+            "text": "The wildest, kindest, most compassionate and most disturbing rendition of family dynamics I have ever seen.",
+            "source": "Rotten Tomatoes critic consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_bear/s02/e06/reviews"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Forks",
+          "air_date": "2023-06-22",
+          "bollymeter": 9.6,
+          "spoiler_free": "Richie is sent to stage at a Michelin-starred restaurant for a week and emerges transformed. The episode works as both a masterclass-in-craft procedural and a quiet redemption arc, with Ebon Moss-Bachrach carrying the whole thing. Taylor Swift's 'Love Story' plays over his drive home. Earned four Emmy nominations.",
+          "the_moment": "Richie in a perfectly pressed suit, setting a table with total focus - the show's most surprising character arc, complete.",
+          "critic_note": {
+            "text": "Richie's personal growth in 'Forks' creates what is arguably the season's finest episode.",
+            "source": "Paste Magazine",
+            "url": "https://www.pastemagazine.com/tv/the-bear/the-bear-season-2-episode-7-forks-review"
+          }
+        },
+        {
+          "number": 10,
+          "title": "The Bear",
+          "air_date": "2023-06-22",
+          "bollymeter": 9.2,
+          "spoiler_free": "Opening night at The Bear restaurant is the season's throughline finally executed under maximum pressure. The finale escalates kitchen chaos, personal collapse, and long-delayed emotional reckoning into a single compressed hour that arrives as both exhausting and cathartic. The best half-hour drama's best season ends in its truest register.",
+          "the_moment": "Carmy locked in the walk-in during service - the new restaurant and the old grief colliding in the most claustrophobic way possible.",
+          "critic_note": null
+        }
+      ]
     },
     {
       "number": 3,
       "year": 2024,
       "episodes": 10,
-      "release_date": { "value": "2024-06-27", "source": "FX press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-06-27",
+        "source": "FX press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.9, "basis": "89% RT but a more divided critical consensus than prior seasons; Variety called it aimless, THR called it thrilling -- a clear split on whether the deliberate pace served the narrative." },
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "89% RT but a more divided critical consensus than prior seasons; Variety called it aimless, THR called it thrilling -- a clear split on whether the deliberate pace served the narrative."
+      },
       "critic": {
         "positive_pct": 89,
         "sample": null,
@@ -81,5 +181,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T05:30:00+05:30"
 }

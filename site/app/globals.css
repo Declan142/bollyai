@@ -1247,6 +1247,24 @@ p {
 .watch-faq { display: grid; gap: 16px; margin: 0; }
 .watch-faq dt { font-family: var(--font-display); font-weight: 600; font-size: 1.02rem; margin-bottom: 4px; }
 .watch-faq dd { margin: 0; color: var(--text-dim); font-size: .92rem; line-height: 1.55; }
+
+/* Home — What to Watch rail */
+.watch-rail {
+  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(220px, 1fr);
+  gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px;
+}
+.watch-rail__card {
+  display: grid; gap: 8px; align-content: start; padding: 18px 16px; scroll-snap-align: start;
+  text-decoration: none; color: inherit; min-height: 150px;
+  border: 1px solid var(--border-hair); border-left: 3px solid var(--accent);
+  background: oklch(100% 0 0 / .02); transition: background .15s ease, transform .15s ease;
+}
+.watch-rail__card:hover { background: oklch(100% 0 0 / .05); transform: translateY(-2px); }
+.watch-rail__kicker {
+  font-family: var(--font-mono); font-size: .58rem; letter-spacing: .2em; text-transform: uppercase; color: var(--accent-2);
+}
+.watch-rail__card strong { font-family: var(--font-display); font-size: 1.15rem; line-height: 1.12; }
+.watch-rail__count { font-family: var(--font-mono); font-size: .7rem; color: var(--accent); margin-top: auto; }
 .poster-card__origin-tag {
   font-family: var(--font-mono); font-size: .56rem; letter-spacing: .2em;
   text-transform: uppercase; color: var(--accent-2);
