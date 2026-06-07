@@ -25,7 +25,7 @@
     "fetched_at": "2026-06-08T00:30:00+05:30",
     "confidence": "verified"
   },
-  "status": "released",
+  "status": "ott",
   "logline": "The April sleeper that became the highest-grossing film of all time inside Kerala, a Rs 234 crore worldwide answer to every big-budget assumption.",
   "budget": null,
   "box_office": {
@@ -84,12 +84,27 @@
     "tracking": false
   },
   "bollymeter": null,
-  "ott": null,
+  "ott": {
+    "platform": {
+      "value": "JioHotstar",
+      "source": "trade announcement",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2026-05-08",
+      "source": "trade announcement",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://www.theweek.in/news/entertainment/2026/05/02/when-is-vaazha-2-coming-to-streaming-ott-release-date-platform-cast-and-crew-details.html",
+    "source_type": "trade"
+  },
   "poster": {
     "src": "/img/films/vaazha-2-2026/poster.jpg",
     "alt": "Vaazha II: Biopic of a Billion Bros theatrical poster",
     "attribution": "Poster © its producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
   },
   "_quarantine": [],
-  "date_modified": "2026-06-08T00:30:00+05:30"
+  "date_modified": "2026-06-08T00:50:00+05:30"
 }

@@ -25,7 +25,7 @@
     "fetched_at": "2026-06-08T00:30:00+05:30",
     "confidence": "verified"
   },
-  "status": "released",
+  "status": "ott",
   "logline": "The Hindi monster of 2026. A worldwide gross past Rs 1,800 crore that rewrote what a Bombay event film collects, and the number every 2026 release gets measured against.",
   "budget": null,
   "box_office": {
@@ -84,12 +84,27 @@
     "tracking": false
   },
   "bollymeter": null,
-  "ott": null,
+  "ott": {
+    "platform": {
+      "value": "JioHotstar",
+      "source": "trade announcement",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2026-06-04",
+      "source": "trade announcement",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+    "source_type": "trade"
+  },
   "poster": {
     "src": "/img/films/dhurandhar-the-revenge-2026/poster.jpg",
     "alt": "Dhurandhar: The Revenge theatrical poster",
     "attribution": "Poster © its producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
   },
   "_quarantine": [],
-  "date_modified": "2026-06-08T00:30:00+05:30"
+  "date_modified": "2026-06-08T00:50:00+05:30"
 }
