@@ -58,23 +58,23 @@
       }
     ],
     "totals": {
-      "as_of": "2026-06-07",
+      "as_of": "2026-06-08",
       "india_net_inr_cr": {
         "value": {
-          "low": 187.0,
-          "high": 192.0
+          "low": 186.9,
+          "high": 193.4
         },
-        "source": "sacnilk+filmibeat",
-        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "source": "sacnilk+filmibeat band",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
         "confidence": "trade_estimate"
       },
       "worldwide_gross_inr_cr": {
         "value": {
-          "low": 300.0,
-          "high": 302.0
+          "low": 304.15,
+          "high": 306.04
         },
-        "source": "sacnilk+makers-pr",
-        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "source": "sacnilk+wikipedia-ta-2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
         "confidence": "trade_estimate"
       }
     }
@@ -91,5 +91,5 @@
     "attribution": "Poster © Dream Warrior Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
   },
   "_quarantine": [],
-  "date_modified": "2026-06-07T23:45:00+05:30"
+  "date_modified": "2026-06-08T00:30:00+05:30"
 }

@@ -1,0 +1,95 @@
+{
+  "qid": {
+    "value": "Q135025214",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "drishyam-3-2026",
+  "canonical_industry": "mollywood",
+  "title": {
+    "value": "Drishyam 3",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ml",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-05-21",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "live",
+  "logline": "Mohanlal's Georgekutty is still in cinemas and already past Rs 232 crore worldwide. The franchise that never stopped covering its tracks.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-08",
+        "day": 0,
+        "label": "cumulative india net, trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 104.3,
+            "high": 108.56
+          },
+          "source": "sacnilk(derived band)",
+          "fetched_at": "2026-06-08T00:30:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-08"
+          },
+          {
+            "name": "Wikipedia: Malayalam films of 2026",
+            "url": "https://en.wikipedia.org/wiki/List_of_Malayalam_films_of_2026",
+            "as_of": "2026-06-08"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-08",
+      "india_net_inr_cr": {
+        "value": {
+          "low": 104.3,
+          "high": 108.56
+        },
+        "source": "sacnilk net, band width = cross-source divergence vs Wikipedia: Malayalam films of 2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": {
+          "low": 232.0,
+          "high": 234.97
+        },
+        "source": "sacnilk+Wikipedia: Malayalam films of 2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "trade_estimate"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": true
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/drishyam-3-2026/poster.jpg",
+    "alt": "Drishyam 3 theatrical poster",
+    "attribution": "Poster © its producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-08T00:30:00+05:30"
+}

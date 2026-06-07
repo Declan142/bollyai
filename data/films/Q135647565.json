@@ -1,0 +1,95 @@
+{
+  "qid": {
+    "value": "Q135647565",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "mana-shankara-vara-prasad-garu-2026",
+  "canonical_industry": "tollywood",
+  "title": {
+    "value": "Mana Shankara Vara Prasad Garu",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "te",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-01-12",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "released",
+  "logline": "Chiranjeevi, Nayanthara and Venkatesh turned Sankranti into a Rs 300 crore worldwide record run, the Telugu number one of 2026 so far.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-08",
+        "day": 0,
+        "label": "cumulative india net, trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 214.1,
+            "high": 222.84
+          },
+          "source": "sacnilk(derived band)",
+          "fetched_at": "2026-06-08T00:30:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-08"
+          },
+          {
+            "name": "Wikipedia: Telugu films of 2026",
+            "url": "https://en.wikipedia.org/wiki/List_of_Telugu_films_of_2026",
+            "as_of": "2026-06-08"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-08",
+      "india_net_inr_cr": {
+        "value": {
+          "low": 214.1,
+          "high": 222.84
+        },
+        "source": "sacnilk net, band width = cross-source divergence vs Wikipedia: Telugu films of 2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": {
+          "low": 300.0,
+          "high": 301.49
+        },
+        "source": "sacnilk+Wikipedia: Telugu films of 2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "trade_estimate"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/mana-shankara-vara-prasad-garu-2026/poster.jpg",
+    "alt": "Mana Shankara Vara Prasad Garu theatrical poster",
+    "attribution": "Poster © its producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-08T00:30:00+05:30"
+}

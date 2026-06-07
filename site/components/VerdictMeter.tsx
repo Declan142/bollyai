@@ -16,9 +16,17 @@ export function verdictIndex(rung: VerdictRung): number {
   return Math.max(0, VERDICT_RUNGS.indexOf(rung));
 }
 
-export function VerdictMeter({ rung, compact = false }: { rung: VerdictRung | null; compact?: boolean }) {
+export function VerdictMeter({
+  rung,
+  compact = false,
+  tracking: stillRunning = true
+}: {
+  rung: VerdictRung | null;
+  compact?: boolean;
+  tracking?: boolean;
+}) {
   const tracking = rung === null;
-  const label = rung ?? "TRACKING";
+  const label = rung ?? (stillRunning ? "TRACKING" : "OPEN");
   const index = tracking ? 0 : verdictIndex(rung);
   const pct = (index / (VERDICT_RUNGS.length - 1)) * 100;
   const markerX = 20 + (pct / 100) * 320;
@@ -53,7 +61,7 @@ export function VerdictMeter({ rung, compact = false }: { rung: VerdictRung | nu
         )}
         {tracking && (
           <text x="180" y="34" textAnchor="middle" className="svg-kicker" fill="var(--accent)">
-            TRACKING
+            {stillRunning ? "TRACKING" : "OPEN"}
           </text>
         )}
         <text x="20" y="66" className="svg-kicker">
@@ -63,7 +71,15 @@ export function VerdictMeter({ rung, compact = false }: { rung: VerdictRung | nu
           ALL-TIME
         </text>
       </svg>
-      {!compact && <figcaption>{tracking ? "Tracking. The verdict finalises after the run, never mid-run." : label}</figcaption>}
+      {!compact && (
+        <figcaption>
+          {tracking
+            ? stillRunning
+              ? "Tracking. The verdict finalises after the run, never mid-run."
+              : "Verdict open. BollyAI publishes a rung only with cited recovery data, never on vibes."
+            : label}
+        </figcaption>
+      )}
     </figure>
   );
 }

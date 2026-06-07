@@ -30,7 +30,7 @@ export function FilmHero({
           <span>{film.original_language.value.toUpperCase()}</span>
           <span>Budget {budgetDisplay(film)}</span>
         </div>
-        <VerdictMeter rung={film.verdict.ladder_rung} />
+        <VerdictMeter rung={film.verdict.ladder_rung} tracking={film.verdict.tracking} />
         {showMeter && film.bollymeter && <BollyMeter score={film.bollymeter.score} basis={film.bollymeter.basis} />}
         <DateModified value={film.date_modified} />
       </div>

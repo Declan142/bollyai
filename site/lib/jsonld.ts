@@ -56,7 +56,12 @@ export function reviewJsonLd(film: Film) {
 
 export function trackerFaqJsonLd(film: Film) {
   const total = film.box_office.totals.india_net_inr_cr?.value ?? null;
-  const range = total ? `Rs ${total.low.toFixed(1)}-${total.high.toFixed(1)} cr` : "early estimates awaited";
+  const ww = film.box_office.totals.worldwide_gross_inr_cr?.value ?? null;
+  const range = total
+    ? `Rs ${total.low.toFixed(1)}-${total.high.toFixed(1)} cr`
+    : ww
+      ? `Rs ${ww.low.toFixed(1)}-${ww.high.toFixed(1)} cr worldwide gross (India nett not yet pair-verified)`
+      : "not yet verified across independent sources";
 
   return {
     "@context": "https://schema.org",

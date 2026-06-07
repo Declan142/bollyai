@@ -1,0 +1,95 @@
+{
+  "qid": {
+    "value": "Q120188867",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "ustaad-bhagat-singh-2026",
+  "canonical_industry": "tollywood",
+  "title": {
+    "value": "Ustaad Bhagat Singh",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "te",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-03-19",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "released",
+  "logline": "Pawan Kalyan's Harish Shankar reunion held a Rs 95 crore-class worldwide line through a politically loud spring.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-08",
+        "day": 0,
+        "label": "cumulative india net, trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 70.19,
+            "high": 74.53
+          },
+          "source": "sacnilk(derived band)",
+          "fetched_at": "2026-06-08T00:30:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-08"
+          },
+          {
+            "name": "Wikipedia: Telugu films of 2026",
+            "url": "https://en.wikipedia.org/wiki/List_of_Telugu_films_of_2026",
+            "as_of": "2026-06-08"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-08",
+      "india_net_inr_cr": {
+        "value": {
+          "low": 70.19,
+          "high": 74.53
+        },
+        "source": "sacnilk net, band width = cross-source divergence vs Wikipedia: Telugu films of 2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": {
+          "low": 94.0,
+          "high": 96.78
+        },
+        "source": "sacnilk+Wikipedia: Telugu films of 2026",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "trade_estimate"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/ustaad-bhagat-singh-2026/poster.jpg",
+    "alt": "Ustaad Bhagat Singh theatrical poster",
+    "attribution": "Poster © its producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-08T00:30:00+05:30"
+}

@@ -1,0 +1,85 @@
+{
+  "qid": {
+    "value": "Q107105860",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "project-hail-mary-2026",
+  "canonical_industry": "hollywood",
+  "title": {
+    "value": "Project Hail Mary",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-03-18",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T00:30:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "released",
+  "logline": "Phil Lord and Christopher Miller's space-survival epic, a global heavyweight whose India-specific split BollyAI is still pair-verifying.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-08",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-08T00:30:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "Sacnilk",
+          "fetched_at": "2026-06-08T00:30:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-08"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-08",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-08T00:30:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/project-hail-mary-2026/poster.jpg",
+    "alt": "Project Hail Mary theatrical poster",
+    "attribution": "Poster © its producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-08T00:30:00+05:30"
+}
