@@ -1,0 +1,136 @@
+{
+  "qid": {
+    "value": "Q134562010",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "hai-jawani-toh-ishq-hona-hai-2026",
+  "canonical_industry": "bombay",
+  "title": {
+    "value": "Hai Jawani Toh Ishq Hona Hai",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-06-05",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "live",
+  "logline": "David Dhawan signs off with a Varun Dhawan, Mrunal Thakur and Pooja Hegde entertainer that opened to a working first weekend.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-05",
+        "day": 1,
+        "label": "trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 8.5,
+            "high": 9.0
+          },
+          "source": "Bollywood Hungama+Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Bollywood Hungama",
+            "url": "https://www.bollywoodhungama.com/news/box-office-special-features/box-office-hai-jawani-toh-ishq-hona-hai-opens-well-varun-dhawan-starrer-collects-rs-8-50-crores-on-day-1/",
+            "as_of": "2026-06-07"
+          },
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/quicknews/Hai_Jawani_Toh_Ishq_Hona_Hai_2025_Box_Office_Collection_Day_3",
+            "as_of": "2026-06-07"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "day": 2,
+        "label": "early estimates awaited",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-07T23:45:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/quicknews/Hai_Jawani_Toh_Ishq_Hona_Hai_2025_Box_Office_Collection_Day_3",
+            "as_of": "2026-06-07"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "day": 3,
+        "label": "early estimates awaited",
+        "framing": "awaited",
+        "published": false,
+        "reason": "early_estimates_only",
+        "as_of": "2026-06-07T23:45:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/quicknews/Hai_Jawani_Toh_Ishq_Hona_Hai_2025_Box_Office_Collection_Day_3",
+            "as_of": "2026-06-07"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-07",
+      "india_net_inr_cr": {
+        "value": {
+          "low": 17.0,
+          "high": 18.0
+        },
+        "source": "sacnilk+bollywood-hungama",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": true
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/hai-jawani-toh-ishq-hona-hai-2026/poster.jpg",
+    "alt": "Hai Jawani Toh Ishq Hona Hai theatrical poster",
+    "attribution": "Poster © producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-07T23:45:00+05:30"
+}

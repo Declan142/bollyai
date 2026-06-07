@@ -1,0 +1,85 @@
+{
+  "qid": {
+    "value": "Q139962231",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "mollywood-times-2026",
+  "canonical_industry": "mollywood",
+  "title": {
+    "value": "Mollywood Times",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ml",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-06-05",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "live",
+  "logline": "A Malayalam release riding word of mouth through its first weekend, with trade numbers still settling.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-05",
+        "day": 1,
+        "label": "early estimates awaited",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-07T23:45:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "baapofmovies",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "baapofmovies",
+            "url": "https://baapofmovies.com/june-2026-all-indian-box-office-collection/",
+            "as_of": "2026-06-07"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-07",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": true
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/mollywood-times-2026/poster.jpg",
+    "alt": "Mollywood Times theatrical poster",
+    "attribution": "Poster © producers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-07T23:45:00+05:30"
+}

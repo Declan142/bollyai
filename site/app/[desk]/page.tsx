@@ -38,7 +38,8 @@ export default function DeskHub({ params }: { params: { desk: string } }) {
               <span className="eyebrow">Lead verdict</span>
               <h2>{lead.title.value}</h2>
               <span className="answer-block">
-                {lead.verdict.ladder_rung} trade verdict, BollyMeter {lead.bollymeter.score.toFixed(1)}/10.
+                {lead.verdict.ladder_rung ? `${lead.verdict.ladder_rung} trade verdict` : "Tracking, verdict open"}
+                {lead.bollymeter ? `, BollyMeter ${lead.bollymeter.score.toFixed(1)}/10.` : ". Review reading the room."}
               </span>
             </span>
           </a>

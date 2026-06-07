@@ -31,7 +31,7 @@ export function FilmHero({
           <span>Budget {budgetDisplay(film)}</span>
         </div>
         <VerdictMeter rung={film.verdict.ladder_rung} />
-        {showMeter && <BollyMeter score={film.bollymeter.score} basis={film.bollymeter.basis} />}
+        {showMeter && film.bollymeter && <BollyMeter score={film.bollymeter.score} basis={film.bollymeter.basis} />}
         <DateModified value={film.date_modified} />
       </div>
     </section>

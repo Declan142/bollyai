@@ -25,7 +25,10 @@ export default function ReviewPage({ params }: { params: { desk: string; slug: s
 
   return (
     <DeskTint desk={film.canonical_industry} className="film-page">
-      <JsonLd data={reviewJsonLd(film)} />
+      {(() => {
+        const review = reviewJsonLd(film);
+        return review ? <JsonLd data={review} /> : null;
+      })()}
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
@@ -36,7 +39,11 @@ export default function ReviewPage({ params }: { params: { desk: string; slug: s
       <FilmHero
         film={film}
         eyebrow="Review"
-        answer={`${film.title.value} is a BollyAI ${film.bollymeter.score.toFixed(1)}/10 with a ${film.verdict.ladder_rung} trade verdict. The score is a craft number, not a box-office cheer chant.`}
+        answer={
+          film.bollymeter
+            ? `${film.title.value} is a BollyAI ${film.bollymeter.score.toFixed(1)}/10 with a ${film.verdict.ladder_rung ?? "still-tracking"} trade verdict. The score is a craft number, not a box-office cheer chant.`
+            : `${film.title.value} is still in its run. BollyAI is reading the room before scoring it, and the trade verdict stays open until the run ends.`
+        }
       />
       <section className="content-sections">
         <div className="ad-slot">Reserved ad slot</div>
@@ -47,7 +54,11 @@ export default function ReviewPage({ params }: { params: { desk: string; slug: s
             critic consensus, and the trade run separately. The verdict says what the money did; the BollyMeter says
             how the film plays as cinema.
           </p>
-          <BollyMeter score={film.bollymeter.score} basis={film.bollymeter.basis} />
+          {film.bollymeter ? (
+            <BollyMeter score={film.bollymeter.score} basis={film.bollymeter.basis} />
+          ) : (
+            <p className="answer-block">BollyMeter pending. The room is still talking; the score lands when the reading is honest.</p>
+          )}
         </section>
         <section className="panel">
           <h2>Source-Led Verdict</h2>

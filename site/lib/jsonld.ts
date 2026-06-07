@@ -17,6 +17,11 @@ export function breadcrumbJsonLd(items: Array<{ name: string; url: string }>) {
 }
 
 export function reviewJsonLd(film: Film) {
+  // No Review schema without a real BollyMeter score: a tracking-only film has no review to mark up.
+  if (!film.bollymeter) {
+    return null;
+  }
+  const verdictPhrase = film.verdict.ladder_rung ?? "still-tracking";
   return {
     "@context": "https://schema.org",
     "@type": "Review",
@@ -45,12 +50,12 @@ export function reviewJsonLd(film: Film) {
       bestRating: "10",
       worstRating: "0"
     },
-    reviewBody: `${film.title.value} is a BollyAI ${film.bollymeter.score.toFixed(1)}/10 with a ${film.verdict.ladder_rung} trade verdict.`
+    reviewBody: `${film.title.value} is a BollyAI ${film.bollymeter.score.toFixed(1)}/10 with a ${verdictPhrase} trade verdict.`
   };
 }
 
 export function trackerFaqJsonLd(film: Film) {
-  const total = film.box_office.totals.india_net_inr_cr.value;
+  const total = film.box_office.totals.india_net_inr_cr?.value ?? null;
   const range = total ? `Rs ${total.low.toFixed(1)}-${total.high.toFixed(1)} cr` : "early estimates awaited";
 
   return {
@@ -70,7 +75,9 @@ export function trackerFaqJsonLd(film: Film) {
         name: `Is ${film.title.value} a hit or flop?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `${film.title.value} is currently marked ${film.verdict.ladder_rung}${film.verdict.tracking ? " while tracking continues" : ""}.`
+          text: film.verdict.ladder_rung
+            ? `${film.title.value} is currently marked ${film.verdict.ladder_rung}${film.verdict.tracking ? " while tracking continues" : ""}.`
+            : `${film.title.value} is still tracking. BollyAI never finalises a verdict mid-run.`
         }
       }
     ]

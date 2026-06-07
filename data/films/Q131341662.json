@@ -1,0 +1,95 @@
+{
+  "qid": {
+    "value": "Q131341662",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "karuppu-2026",
+  "canonical_industry": "kollywood",
+  "title": {
+    "value": "Karuppu",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ta",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-05-15",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "live",
+  "logline": "Suriya's career-best run in RJ Balaji's fantasy action drama, already the highest-grossing Tamil film of 2026 and still holding screens in week four.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-02",
+        "day": 19,
+        "label": "cumulative india net, trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 186.9,
+            "high": 191.53
+          },
+          "source": "Filmibeat+Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "Filmibeat",
+            "url": "https://www.filmibeat.com/tamil/news/2026/karuppu-box-office-collection-day-19-suriya-film-crosses-186-cr-india-net-nears-300-cr-worldwide-519163.html",
+            "as_of": "2026-06-07"
+          },
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/news/karuppu_2026_Box_Office_Collection_Day_Wise_Worldwide",
+            "as_of": "2026-06-07"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-07",
+      "india_net_inr_cr": {
+        "value": {
+          "low": 187.0,
+          "high": 192.0
+        },
+        "source": "sacnilk+filmibeat",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": {
+          "low": 300.0,
+          "high": 302.0
+        },
+        "source": "sacnilk+makers-pr",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "trade_estimate"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": true
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/karuppu-2026/poster.jpg",
+    "alt": "Karuppu theatrical poster featuring Suriya",
+    "attribution": "Poster © Dream Warrior Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-07T23:45:00+05:30"
+}

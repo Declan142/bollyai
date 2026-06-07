@@ -52,19 +52,19 @@ export type Film = {
     };
   };
   verdict: {
-    ladder_rung: VerdictRung;
+    ladder_rung: VerdictRung | null;
     tracking: boolean;
   };
   bollymeter: {
     score: number;
     basis: string;
-  };
+  } | null;
   ott: {
     platform: SourceValue<string | null>;
     date: SourceValue<string | null>;
     source_url: string | null;
     source_type: OttSourceType | null;
-  };
+  } | null;
   budget: null | {
     value: number;
     source: string;

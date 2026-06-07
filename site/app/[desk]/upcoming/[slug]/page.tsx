@@ -46,7 +46,7 @@ export default function UpcomingPage({ params }: { params: { desk: string; slug:
         <section className="panel">
           <h2>Where To Watch</h2>
           <p>
-            {film.ott.platform.value
+            {film.ott?.platform.value
               ? `${film.title.value} is listed for ${film.ott.platform.value} from a ${film.ott.source_type ?? "verified"} announcement. Source: ${film.ott.source_url ?? film.ott.platform.source}.`
               : "OTT availability is not confirmed yet."}
           </p>

@@ -1,0 +1,169 @@
+{
+  "qid": {
+    "value": "Q133573186",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "peddi-2026",
+  "canonical_industry": "tollywood",
+  "title": {
+    "value": "Peddi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "te",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2026-06-04",
+    "source": "wikidata",
+    "fetched_at": "2026-06-07T23:45:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "live",
+  "logline": "Ram Charan as a village all-round athlete in Buchi Babu Sana's sports drama, with A. R. Rahman scoring the biggest Telugu opening of June 2026.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-04",
+        "day": 1,
+        "label": "trade estimate (sources differ on preview inclusion)",
+        "net_inr_cr": {
+          "value": {
+            "low": 51.0,
+            "high": 60.7
+          },
+          "source": "India.com+Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "India.com",
+            "url": "https://www.india.com/entertainment/peddi-box-office-collection-day-4-ram-charans-sports-drama-just-rs-8-crore-way-from-entering-rs-200-crore-club-8438908/",
+            "as_of": "2026-06-07"
+          },
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/news/peddi_2026_Box_Office_Collection_Day_Wise_Worldwide",
+            "as_of": "2026-06-07"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "day": 2,
+        "label": "trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 26.9,
+            "high": 32.0
+          },
+          "source": "India.com+Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "India.com",
+            "url": "https://www.india.com/entertainment/peddi-box-office-collection-day-4-ram-charans-sports-drama-just-rs-8-crore-way-from-entering-rs-200-crore-club-8438908/",
+            "as_of": "2026-06-07"
+          },
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/news/peddi_2026_Box_Office_Collection_Day_Wise_Worldwide",
+            "as_of": "2026-06-07"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "day": 3,
+        "label": "trade estimate",
+        "net_inr_cr": {
+          "value": {
+            "low": 28.85,
+            "high": 34.6
+          },
+          "source": "India.com+Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "trade_estimate"
+        },
+        "sources": [
+          {
+            "name": "India.com",
+            "url": "https://www.india.com/entertainment/peddi-box-office-collection-day-4-ram-charans-sports-drama-just-rs-8-crore-way-from-entering-rs-200-crore-club-8438908/",
+            "as_of": "2026-06-07"
+          },
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/news/peddi_2026_Box_Office_Collection_Day_Wise_Worldwide",
+            "as_of": "2026-06-07"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "day": 4,
+        "label": "early estimates awaited",
+        "framing": "awaited",
+        "published": false,
+        "reason": "early_estimates_only",
+        "as_of": "2026-06-07T23:45:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "Sacnilk",
+          "fetched_at": "2026-06-07T23:45:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "Sacnilk",
+            "url": "https://www.sacnilk.com/news/peddi_2026_Box_Office_Collection_Day_Wise_Worldwide",
+            "as_of": "2026-06-07"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-07",
+      "india_net_inr_cr": {
+        "value": {
+          "low": 125.0,
+          "high": 150.0
+        },
+        "source": "sacnilk+india.com+etvbharat",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "trade_estimate"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": {
+          "low": 193.0,
+          "high": 200.0
+        },
+        "source": "india.com+etvbharat",
+        "fetched_at": "2026-06-07T23:45:00+05:30",
+        "confidence": "trade_estimate"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": true
+  },
+  "bollymeter": null,
+  "ott": null,
+  "poster": {
+    "src": "/img/films/peddi-2026/poster.jpg",
+    "alt": "Peddi theatrical poster: Ram Charan as the village all-rounder",
+    "attribution": "Poster © Vriddhi Cinemas / Mythri Movie Makers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "_quarantine": [],
+  "date_modified": "2026-06-07T23:45:00+05:30"
+}
