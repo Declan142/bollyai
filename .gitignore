@@ -1,0 +1,7 @@
+node_modules/
+site/out/
+site/.next/
+data/cache/
+.env*
+*.log
+__pycache__/
