@@ -1,0 +1,70 @@
+import type { MetadataRoute } from "next";
+import { DESKS } from "../lib/desks";
+import { getAllFilms, getOttCalendar, getOttPlatforms, platformSlug } from "../lib/data";
+
+const siteUrl = "https://bollyai.in";
+const staticPaths = [
+  "/",
+  "/about/",
+  "/privacy/",
+  "/disclaimer/",
+  "/contact/",
+  "/takedown/",
+  "/how-bollyai-works/"
+];
+
+function asDate(value: string | undefined, fallback: Date): Date {
+  if (!value) {
+    return fallback;
+  }
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? fallback : parsed;
+}
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const buildTime = new Date();
+  const films = getAllFilms();
+  const calendar = getOttCalendar();
+
+  const entries: MetadataRoute.Sitemap = [];
+  for (const path of staticPaths) {
+    entries.push({ url: `${siteUrl}${path}`, lastModified: buildTime });
+  }
+
+  for (const desk of DESKS) {
+    const deskFilms = films.filter((film) => film.canonical_industry === desk.slug);
+    const latestDeskModified = deskFilms.map((film) => film.date_modified).sort().at(-1);
+    entries.push({
+      url: `${siteUrl}/${desk.slug}/`,
+      lastModified: asDate(latestDeskModified, buildTime)
+    });
+  }
+
+  for (const film of films) {
+    const lastModified = asDate(film.date_modified, buildTime);
+    entries.push(
+      { url: `${siteUrl}/${film.canonical_industry}/reviews/${film.slug}/`, lastModified },
+      { url: `${siteUrl}/${film.canonical_industry}/box-office/${film.slug}/`, lastModified },
+      { url: `${siteUrl}/${film.canonical_industry}/upcoming/${film.slug}/`, lastModified }
+    );
+  }
+
+  entries.push({
+    url: `${siteUrl}/ott/calendar/`,
+    lastModified: asDate(calendar.generated_at, buildTime)
+  });
+
+  for (const platform of getOttPlatforms()) {
+    const lastModified = calendar.entries
+      .filter((entry) => entry.platform === platform)
+      .map((entry) => entry.fetched_at)
+      .sort()
+      .at(-1);
+    entries.push({
+      url: `${siteUrl}/ott/${platformSlug(platform)}/`,
+      lastModified: asDate(lastModified, buildTime)
+    });
+  }
+
+  return entries;
+}

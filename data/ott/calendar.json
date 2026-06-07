@@ -1,76 +1,71 @@
 {
   "_provenance": {
-    "attribution": "JustWatch via TMDB",
-    "country_link": "https://www.justwatch.com/in",
-    "source": "tmdb_watch_providers_delta"
+    "source": "official_announcements"
   },
   "entries": [
     {
       "_status": "verified",
-      "country": "IN",
-      "country_link": "https://www.justwatch.com/in",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
       "industry": "tollywood",
       "language": "te",
       "platform": "Netflix",
+      "qid": "Q112430183",
       "release_date": {
         "confidence": "verified",
-        "fetched_at": "2026-06-07T17:40:24Z",
-        "source": "tmdb_watch_providers",
+        "fetched_at": "2026-06-07T10:00:00+05:30",
+        "source": "ott_announcements",
         "value": "2026-06-14"
       },
       "slug": "kalki-2898-ad-2024",
+      "source_type": "trade",
+      "source_url": "https://www.sacnilk.com/ott-release-date/kalki-2898-ad-ott-release-date",
       "title": "Kalki 2898 AD",
-      "tmdb_id": 801688,
-      "tmdb_watch_link": "https://www.themoviedb.org/movie/801688-kalki-2898-ad/watch?locale=IN",
-      "type": "film",
-      "watch_provider_attribution": "JustWatch via TMDB"
+      "type": "film"
     },
     {
       "_status": "verified",
-      "country": "IN",
-      "country_link": "https://www.justwatch.com/in",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
       "industry": "mollywood",
       "language": "ml",
       "platform": "JioHotstar",
+      "qid": "Q124515855",
       "release_date": {
         "confidence": "verified",
-        "fetched_at": "2026-06-07T17:40:24Z",
-        "source": "tmdb_watch_providers",
+        "fetched_at": "2026-06-07T10:00:00+05:30",
+        "source": "ott_announcements",
         "value": "2026-06-21"
       },
       "slug": "manjummel-boys-2024",
+      "source_type": "trade",
+      "source_url": "https://www.sacnilk.com/ott-release-date/manjummel-boys-ott-release-date",
       "title": "Manjummel Boys",
-      "tmdb_id": 1069945,
-      "tmdb_watch_link": "https://www.themoviedb.org/movie/1069945-manjummel-boys/watch?locale=IN",
-      "type": "film",
-      "watch_provider_attribution": "JustWatch via TMDB"
+      "type": "film"
     },
     {
       "_status": "verified",
-      "country": "IN",
-      "country_link": "https://www.justwatch.com/in",
-      "industry": "streaming",
-      "language": "hi",
+      "fetched_at": "2026-06-07T10:00:00+05:30",
+      "industry": "tollywood",
+      "language": "te",
       "platform": "Prime Video",
+      "qid": "Q112430183",
       "release_date": {
         "confidence": "verified",
-        "fetched_at": "2026-06-07T17:40:24Z",
-        "source": "tmdb_watch_providers",
+        "fetched_at": "2026-06-07T10:00:00+05:30",
+        "source": "ott_announcements",
         "value": "2026-07-04"
       },
-      "slug": "the-long-friday-2026",
-      "title": "The Long Friday",
-      "tmdb_id": 999001,
-      "tmdb_watch_link": "https://www.themoviedb.org/movie/999001-the-long-friday/watch?locale=IN",
-      "type": "film",
-      "watch_provider_attribution": "JustWatch via TMDB"
+      "slug": "kalki-2898-ad-2024",
+      "source_type": "trade",
+      "source_url": "https://www.sacnilk.com/ott-release-date/kalki-2898-ad-ott-release-date",
+      "title": "Kalki 2898 AD",
+      "type": "film"
     }
   ],
-  "generated_at": "2026-06-07T17:40:24Z",
+  "generated_at": "2026-06-07T17:58:27Z",
   "schema": "ott-calendar/v1",
   "window": {
+    "basis": "official_announcements",
     "end": "2026-07-04",
-    "region": "IN",
     "start": "2026-06-07",
     "weeks": 4
   }

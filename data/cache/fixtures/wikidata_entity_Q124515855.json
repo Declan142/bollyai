@@ -1,0 +1,281 @@
+{
+  "head": {
+    "vars": [
+      "film",
+      "filmLabel",
+      "originalLanguage",
+      "originalLanguageLabel",
+      "publicationDate",
+      "director",
+      "directorLabel",
+      "cast",
+      "castLabel",
+      "castOrder",
+      "company",
+      "companyLabel",
+      "country",
+      "countryLabel",
+      "duration"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515855"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Manjummel Boys"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36236"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Malayalam"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-02-22T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515859"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Chidambaram"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7561826"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Soubin Shahir"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "1"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515861"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Paramekkavu Films"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "135",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515855"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Manjummel Boys"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36236"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Malayalam"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-02-22T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515859"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Chidambaram"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7589785"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Sreenath Bhasi"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "2"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515861"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Paramekkavu Films"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "135",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515855"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Manjummel Boys"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36236"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Malayalam"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-02-22T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515859"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Chidambaram"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28871607"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Balu Varghese"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "3"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515861"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Paramekkavu Films"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "135",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515855"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Manjummel Boys"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36236"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Malayalam"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-02-22T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515859"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Chidambaram"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515860"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Ganapathi S. Poduval"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "4"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515861"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Paramekkavu Films"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "135",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      }
+    ]
+  }
+}

@@ -86,7 +86,7 @@
       },
       {
         "agreement_pct": null,
-        "as_of": "2026-06-07T17:40:24Z",
+        "as_of": "2026-06-07T17:58:27Z",
         "basis_sources": [],
         "date": "2026-06-06",
         "day": 1,
@@ -94,7 +94,7 @@
         "label": "early estimates awaited",
         "net_inr_cr": {
           "confidence": "unverified",
-          "fetched_at": "2026-06-07T17:40:24Z",
+          "fetched_at": "2026-06-07T17:58:27Z",
           "source": "Sacnilk",
           "value": null
         },
@@ -116,8 +116,8 @@
         "fetched_at": "2026-06-07T10:00:00+05:30",
         "source": "sacnilk+mollywood-trade-fixture",
         "value": {
-          "high": 146.0,
-          "low": 139.0
+          "high": 146,
+          "low": 139
         }
       },
       "worldwide_gross_inr_cr": {
@@ -125,8 +125,8 @@
         "fetched_at": "2026-06-07T10:00:00+05:30",
         "source": "sacnilk+mollywood-trade-fixture",
         "value": {
-          "high": 242.0,
-          "low": 236.0
+          "high": 242,
+          "low": 236
         }
       }
     }
@@ -138,34 +138,40 @@
   "original_language": {
     "confidence": "verified",
     "fetched_at": "2026-06-07T10:00:00+05:30",
-    "source": "tmdb-fixture",
+    "source": "wikidata-fixture",
     "value": "ml"
   },
   "ott": {
-    "country_link": "https://www.themoviedb.org/movie/1069945/watch?locale=IN",
     "date": {
       "confidence": "verified",
       "fetched_at": "2026-06-07T10:00:00+05:30",
-      "source": "tmdb-watch-providers-fixture",
+      "source": "official-announcements-fixture",
       "value": "2024-05-05"
     },
-    "link_via": "tmdb-watch-providers",
     "platform": {
       "confidence": "verified",
       "fetched_at": "2026-06-07T10:00:00+05:30",
-      "source": "tmdb-watch-providers-fixture",
+      "source": "official-announcements-fixture",
       "value": "JioHotstar"
-    }
+    },
+    "source_type": "trade",
+    "source_url": "https://www.sacnilk.com/ott-release-date/manjummel-boys-ott-release-date"
   },
   "poster": {
     "alt": "Manjummel Boys BollyAI fixture poster plate",
     "attribution": "Fixture poster plate; official press image pending harvester ingestion.",
     "src": "/img/films/manjummel-boys-2024/poster.svg"
   },
+  "qid": {
+    "confidence": "verified",
+    "fetched_at": "2026-06-07T10:00:00+05:30",
+    "source": "wikidata-fixture",
+    "value": "Q124515855"
+  },
   "release_date": {
     "confidence": "verified",
     "fetched_at": "2026-06-07T10:00:00+05:30",
-    "source": "tmdb-fixture",
+    "source": "wikidata-fixture",
     "value": "2024-02-22"
   },
   "slug": "manjummel-boys-2024",
@@ -173,23 +179,11 @@
   "title": {
     "confidence": "verified",
     "fetched_at": "2026-06-07T10:00:00+05:30",
-    "source": "tmdb-fixture",
+    "source": "wikidata-fixture",
     "value": "Manjummel Boys"
-  },
-  "tmdb_id": {
-    "confidence": "verified",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "source": "tmdb-fixture",
-    "value": 1069945
   },
   "verdict": {
     "ladder_rung": "BLOCKBUSTER",
     "tracking": false
-  },
-  "wikidata_qid": {
-    "confidence": "verified",
-    "fetched_at": "2026-06-07T10:00:00+05:30",
-    "source": "wikidata-fixture",
-    "value": "Q124822269"
   }
 }

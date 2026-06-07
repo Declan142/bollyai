@@ -29,8 +29,7 @@ export type DayRow = {
 };
 
 export type Film = {
-  tmdb_id: SourceValue<number>;
-  wikidata_qid: SourceValue<string>;
+  qid: SourceValue<string>;
   slug: string;
   canonical_industry: DeskSlug;
   title: SourceValue<string>;
@@ -63,8 +62,8 @@ export type Film = {
   ott: {
     platform: SourceValue<string | null>;
     date: SourceValue<string | null>;
-    link_via: "tmdb-watch-providers";
-    country_link: string;
+    source_url: string | null;
+    source_type: OttSourceType | null;
   };
   budget: null | {
     value: number;
@@ -89,6 +88,7 @@ export const VERDICT_RUNGS = [
 ] as const;
 
 export type VerdictRung = (typeof VERDICT_RUNGS)[number];
+export type OttSourceType = "press" | "official_social" | "trade";
 
 const filmsDir = path.resolve(process.cwd(), "..", "data", "films");
 const ottCalendarPath = path.resolve(process.cwd(), "..", "data", "ott", "calendar.json");
@@ -125,13 +125,17 @@ export function getLatestModified(): string {
 
 export type OttCalendarEntry = {
   title: string;
-  tmdb_id: number;
+  qid: string;
+  slug?: string;
   industry: DeskSlug;
   platform: string;
   release_date: string;
   type: "film" | "series";
   language: string;
   status: "verified" | "expected";
+  source_url: string;
+  source_type: OttSourceType;
+  fetched_at: string;
 };
 
 export type OttCalendar = {
@@ -172,6 +176,17 @@ export function getOttCalendar(): OttCalendar {
       status: entry.status ?? (entry._status === "verified" ? "verified" : "expected")
     }))
   };
+}
+
+export function platformSlug(platform: string): string {
+  return platform
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export function getOttPlatforms(): string[] {
+  return Array.from(new Set(getOttCalendar().entries.map((entry) => entry.platform))).sort();
 }
 
 export function formatDate(value: string): string {

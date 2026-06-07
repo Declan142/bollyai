@@ -23,11 +23,6 @@ FIXTURE_DIR = CACHE_DIR / "fixtures"
 STATE_DIR = DATA_DIR / "_state"
 
 USER_AGENT = "BollyAI-DataBot/1.0 (+https://bollyai.in/bot; data@bollyai.in)"
-JUSTWATCH_ATTRIBUTION = "JustWatch via TMDB"
-JUSTWATCH_COUNTRY_LINKS = {
-    "IN": "https://www.justwatch.com/in",
-    "US": "https://www.justwatch.com/us",
-}
 
 INDUSTRY_URL_SEGMENTS = {
     "bombay": "bombay",

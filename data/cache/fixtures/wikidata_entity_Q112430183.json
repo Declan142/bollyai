@@ -1,0 +1,281 @@
+{
+  "head": {
+    "vars": [
+      "film",
+      "filmLabel",
+      "originalLanguage",
+      "originalLanguageLabel",
+      "publicationDate",
+      "director",
+      "directorLabel",
+      "cast",
+      "castLabel",
+      "castOrder",
+      "company",
+      "companyLabel",
+      "country",
+      "countryLabel",
+      "duration"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112430183"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Kalki 2898 AD"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8097"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Telugu"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-06-27T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6961102"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Nag Ashwin"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q72860"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Prabhas"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "1"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7938146"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Vyjayanthi Movies"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "180",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112430183"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Kalki 2898 AD"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8097"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Telugu"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-06-27T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6961102"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Nag Ashwin"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9570"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Amitabh Bachchan"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "2"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7938146"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Vyjayanthi Movies"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "180",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112430183"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Kalki 2898 AD"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8097"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Telugu"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-06-27T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6961102"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Nag Ashwin"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131832"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Kamal Haasan"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "3"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7938146"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Vyjayanthi Movies"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "180",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112430183"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Kalki 2898 AD"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8097"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Telugu"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-06-27T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "director": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6961102"
+        },
+        "directorLabel": {
+          "type": "literal",
+          "value": "Nag Ashwin"
+        },
+        "cast": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q231017"
+        },
+        "castLabel": {
+          "type": "literal",
+          "value": "Deepika Padukone"
+        },
+        "castOrder": {
+          "type": "literal",
+          "value": "4"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7938146"
+        },
+        "companyLabel": {
+          "type": "literal",
+          "value": "Vyjayanthi Movies"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        },
+        "duration": {
+          "type": "literal",
+          "value": "180",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      }
+    ]
+  }
+}

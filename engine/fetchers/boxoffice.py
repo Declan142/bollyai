@@ -51,7 +51,7 @@ PUBLISH_COPY = {
 
 @dataclass(frozen=True)
 class SourceReading:
-    film_id: str
+    qid: str
     date: str
     metric: str
     value: float
@@ -251,10 +251,10 @@ class SimpleSacnilkTableParser(HTMLParser):
             self.current_row = []
 
 
-def parse_sacnilk_payload(payload: dict[str, Any], *, film_id: str) -> list[SourceReading]:
+def parse_sacnilk_payload(payload: dict[str, Any], *, qid: str) -> list[SourceReading]:
     if "readings" in payload:
         return [
-            reading_from_dict(item, default_source="sacnilk", default_film_id=film_id)
+            reading_from_dict(item, default_source="sacnilk", default_qid=qid)
             for item in payload.get("readings", [])
             if item.get("source", "sacnilk").lower() == "sacnilk" or item.get("source") == "Sacnilk"
         ]
@@ -272,10 +272,10 @@ def parse_sacnilk_payload(payload: dict[str, Any], *, film_id: str) -> list[Sour
         if value is None or not date:
             continue
         readings.append(
-            SourceReading(
-                film_id=film_id,
-                date=date,
-                metric="india_net",
+                SourceReading(
+                    qid=qid,
+                    date=date,
+                    metric="india_net",
                 value=value,
                 source="sacnilk",
                 url=payload.get("url"),
@@ -290,13 +290,13 @@ def reading_from_dict(
     item: dict[str, Any],
     *,
     default_source: str,
-    default_film_id: str,
+    default_qid: str,
 ) -> SourceReading:
     value = item.get("value")
     if value is None:
         value = item.get("net_inr_cr")
     return SourceReading(
-        film_id=str(item.get("film_id") or default_film_id),
+        qid=str(item.get("qid") or default_qid),
         date=str(item["date"]),
         metric=str(item.get("metric") or "india_net"),
         value=float(value),
@@ -324,28 +324,28 @@ def extract_day_number(text: str) -> int | None:
     return int(match.group(1)) if match else None
 
 
-def load_fixture_readings(film_id: str | None = None) -> list[SourceReading]:
+def load_fixture_readings(qid: str | None = None) -> list[SourceReading]:
     fixture = read_json(FIXTURE_DIR / "boxoffice_readings.json", default={"readings": []})
     readings = [
-        reading_from_dict(item, default_source=str(item.get("source") or "fixture"), default_film_id=str(item.get("film_id") or "unknown"))
+        reading_from_dict(item, default_source=str(item.get("source") or "fixture"), default_qid=str(item.get("qid") or "unknown"))
         for item in fixture.get("readings", [])
     ]
-    if film_id:
-        readings = [reading for reading in readings if reading.film_id == str(film_id)]
+    if qid:
+        readings = [reading for reading in readings if reading.qid == str(qid)]
     return readings
 
 
 def fetch_sacnilk_primary(
     *,
-    film_id: str,
+    qid: str,
     url: str | None = None,
     fixture_mode: bool = False,
 ) -> list[SourceReading]:
     if fixture_mode:
-        fixture = read_json(FIXTURE_DIR / f"sacnilk_{film_id}.json", default=None)
+        fixture = read_json(FIXTURE_DIR / f"sacnilk_{qid}.json", default=None)
         if fixture:
-            return parse_sacnilk_payload(fixture, film_id=film_id)
-        return [reading for reading in load_fixture_readings(film_id) if reading.source_key == "sacnilk"]
+            return parse_sacnilk_payload(fixture, qid=qid)
+        return [reading for reading in load_fixture_readings(qid) if reading.source_key == "sacnilk"]
 
     if not url:
         return []
@@ -354,7 +354,7 @@ def fetch_sacnilk_primary(
     response = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html"}, timeout=20)
     if response.status_code >= 400:
         return []
-    return parse_sacnilk_payload({"html": response.text, "url": url, "fetched_at": utc_now()}, film_id=film_id)
+    return parse_sacnilk_payload({"html": response.text, "url": url, "fetched_at": utc_now()}, qid=qid)
 
 
 def secondary_source_stub(industry: str) -> list[dict[str, Any]]:
@@ -381,7 +381,7 @@ def secondary_source_stub(industry: str) -> list[dict[str, Any]]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Apply BollyAI box-office publish rules.")
     parser.add_argument("--fixture-mode", action="store_true")
-    parser.add_argument("--film-id")
+    parser.add_argument("--qid")
     parser.add_argument("--date")
     parser.add_argument("--industry", default="tollywood")
     parser.add_argument("--emit", help="Optional JSON output path.")
@@ -390,7 +390,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    readings = load_fixture_readings(args.film_id) if args.fixture_mode else []
+    readings = load_fixture_readings(args.qid) if args.fixture_mode else []
     if args.date:
         readings = [reading for reading in readings if reading.date == args.date]
     by_date: dict[str, list[SourceReading]] = {}
@@ -400,7 +400,7 @@ def main(argv: list[str] | None = None) -> int:
     payload = {
         "schema": "boxoffice-decision/v1",
         "generated_at": utc_now(),
-        "film_id": args.film_id,
+        "qid": args.qid,
         "day_rows": rows,
         "secondary_stubs": secondary_source_stub(args.industry),
     }

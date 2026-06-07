@@ -40,11 +40,14 @@ export default function OttCalendarPage() {
         {calendar.entries.map((entry) => {
           const desk = DESKS.find((item) => item.slug === entry.industry);
           return (
-            <article className="calendar-row" data-desk={entry.industry} key={`${entry.tmdb_id}-${entry.release_date}`}>
+            <article className="calendar-row" data-desk={entry.industry} key={`${entry.qid}-${entry.platform}`}>
               <time dateTime={entry.release_date}>{formatDate(entry.release_date)}</time>
               <strong>{entry.title}</strong>
               <span className="pill">{entry.platform}</span>
               <span className="pill">{desk?.label ?? entry.industry}</span>
+              <span className="source-line">
+                Source: <a href={entry.source_url}>{entry.source_url}</a> ({entry.source_type})
+              </span>
             </article>
           );
         })}

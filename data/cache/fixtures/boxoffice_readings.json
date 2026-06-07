@@ -1,67 +1,67 @@
 {
   "readings": [
     {
-      "film_id": "801688",
       "date": "2026-06-06",
       "day": 1,
       "metric": "india_net",
-      "value": 6.0,
+      "value": 6,
       "source": "Sacnilk",
-      "url": "https://www.sacnilk.com/box-office-collections"
+      "url": "https://www.sacnilk.com/box-office-collections",
+      "qid": "Q112430183"
     },
     {
-      "film_id": "801688",
       "date": "2026-06-06",
       "day": 1,
       "metric": "india_net",
       "value": 6.3,
       "source": "TrackTollywood",
-      "url": "https://tracktollywood.com/"
+      "url": "https://tracktollywood.com/",
+      "qid": "Q112430183"
     },
     {
-      "film_id": "801688",
       "date": "2026-06-07",
       "day": 2,
       "metric": "india_net",
-      "value": 5.0,
+      "value": 5,
       "source": "Sacnilk",
-      "url": "https://www.sacnilk.com/box-office-collections"
+      "url": "https://www.sacnilk.com/box-office-collections",
+      "qid": "Q112430183"
     },
     {
-      "film_id": "801688",
       "date": "2026-06-07",
       "day": 2,
       "metric": "india_net",
-      "value": 6.0,
+      "value": 6,
       "source": "TrackTollywood",
-      "url": "https://tracktollywood.com/"
+      "url": "https://tracktollywood.com/",
+      "qid": "Q112430183"
     },
     {
-      "film_id": "801688",
       "date": "2026-06-08",
       "day": 3,
       "metric": "india_net",
-      "value": 7.0,
+      "value": 7,
       "source": "Bollywood Hungama",
-      "url": "https://www.bollywoodhungama.com/"
+      "url": "https://www.bollywoodhungama.com/",
+      "qid": "Q112430183"
     },
     {
-      "film_id": "801688",
       "date": "2026-06-08",
       "day": 3,
       "metric": "india_net",
       "value": 7.1,
       "source": "Taran Adarsh",
-      "url": "https://x.com/taran_adarsh"
+      "url": "https://x.com/taran_adarsh",
+      "qid": "Q112430183"
     },
     {
-      "film_id": "1069945",
       "date": "2026-06-06",
       "day": 1,
       "metric": "india_net",
       "value": 1.2,
       "source": "Sacnilk",
-      "url": "https://www.sacnilk.com/box-office-collections"
+      "url": "https://www.sacnilk.com/box-office-collections",
+      "qid": "Q124515855"
     }
   ]
 }

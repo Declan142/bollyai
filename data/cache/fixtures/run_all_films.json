@@ -1,17 +1,19 @@
 {
   "films": [
     {
-      "tmdb_id": 801688,
+      "qid": "Q112430183",
       "slug": "kalki-2898-ad-2024",
       "canonical_industry": "tollywood",
       "title": "Kalki 2898 AD",
+      "original_language": "te",
       "status": "live"
     },
     {
-      "tmdb_id": 1069945,
+      "qid": "Q124515855",
       "slug": "manjummel-boys-2024",
       "canonical_industry": "mollywood",
       "title": "Manjummel Boys",
+      "original_language": "ml",
       "status": "ott"
     }
   ]

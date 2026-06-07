@@ -12,7 +12,8 @@ export default function DisclaimerPage() {
         labels, and source rows visible so readers can see the uncertainty.
       </p>
       <p>
-        Movie metadata may use TMDB API data with attribution. BollyAI is not endorsed or certified by TMDB.
+        Movie metadata is keyed on Wikidata QIDs, and OTT availability is shown only as attributed official,
+        social, or trade-announcement fact.
       </p>
     </StaticPage>
   );

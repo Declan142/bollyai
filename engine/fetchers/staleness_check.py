@@ -54,11 +54,11 @@ def latest_boxoffice_time(doc: dict[str, Any]) -> datetime | None:
     return max(candidates) if candidates else None
 
 
-def film_identity(path: Path, doc: dict[str, Any]) -> dict[str, Any]:
+def film_record_identity(path: Path, doc: dict[str, Any]) -> dict[str, Any]:
     ids = doc.get("ids") or {}
     return {
         "path": str(path),
-        "tmdb_id": unwrap_value(doc.get("tmdb_id")) or unwrap_value(ids.get("tmdb")),
+        "qid": unwrap_value(doc.get("qid")) or unwrap_value(ids.get("wikidata")) or path.stem,
         "slug": unwrap_value(doc.get("slug")),
         "title": unwrap_value(doc.get("title")) or unwrap_value((doc.get("titles") or {}).get("default")),
         "status": film_status(doc),
@@ -85,7 +85,7 @@ def check_staleness(
             age_hours = (now - latest).total_seconds() / 3600
             stale = age_hours > sla_hours
             reason = "older_than_sla" if stale else "within_sla"
-        item = film_identity(path, doc)
+        item = film_record_identity(path, doc)
         item.update(
             {
                 "latest_boxoffice_at": latest.isoformat().replace("+00:00", "Z") if latest else None,

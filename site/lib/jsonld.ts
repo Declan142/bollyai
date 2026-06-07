@@ -36,7 +36,8 @@ export function reviewJsonLd(film: Film) {
       "@type": "Movie",
       name: film.title.value,
       datePublished: film.release_date.value,
-      identifier: `tmdb:${film.tmdb_id.value}`
+      identifier: film.qid.value,
+      sameAs: `https://www.wikidata.org/wiki/${film.qid.value}`
     },
     reviewRating: {
       "@type": "Rating",

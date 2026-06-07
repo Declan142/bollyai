@@ -584,6 +584,12 @@ p {
   font-size: 1.25rem;
 }
 
+.calendar-row .source-line {
+  grid-column: 2 / -1;
+  overflow-wrap: anywhere;
+  font-size: .86rem;
+}
+
 @media (max-width: 900px) {
   .site-header,
   .home-lead,
@@ -614,6 +620,10 @@ p {
 
   .calendar-row {
     grid-template-columns: 1fr;
+  }
+
+  .calendar-row .source-line {
+    grid-column: auto;
   }
 }
 

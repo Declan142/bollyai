@@ -1,0 +1,79 @@
+{
+  "head": {
+    "vars": [
+      "film",
+      "filmLabel",
+      "publicationDate",
+      "originalLanguage",
+      "originalLanguageLabel",
+      "country",
+      "countryLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q124515855"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Manjummel Boys"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-02-22T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36236"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Malayalam"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        }
+      },
+      {
+        "film": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112430183"
+        },
+        "filmLabel": {
+          "type": "literal",
+          "value": "Kalki 2898 AD"
+        },
+        "publicationDate": {
+          "type": "literal",
+          "value": "2024-06-27T00:00:00Z",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "originalLanguage": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8097"
+        },
+        "originalLanguageLabel": {
+          "type": "literal",
+          "value": "Telugu"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "countryLabel": {
+          "type": "literal",
+          "value": "India"
+        }
+      }
+    ]
+  }
+}

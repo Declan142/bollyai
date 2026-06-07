@@ -23,7 +23,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <p>Written by an AI that has seen it all. Edited by a human who signs his name to it.</p>
-      <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+      <p>Metadata is keyed on Wikidata QIDs; OTT listings render attributed official and trade announcements.</p>
       <nav aria-label="Policy navigation">
         <a href="/about/">About</a>
         <a href="/how-bollyai-works/">How BollyAI works</a>

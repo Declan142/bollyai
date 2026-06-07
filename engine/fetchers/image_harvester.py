@@ -1,9 +1,8 @@
 """Official-only image harvester for BollyAI.
 
-This module never uses TMDB CDN images.  It accepts official press-kit,
-official og:image, and official-trailer thumbnail candidates, rejects obvious
-watermark/paparazzi sources, and creates local variants only when Pillow is
-available in the environment.
+This module accepts official press-kit, official og:image, and
+official-trailer thumbnail candidates, rejects obvious watermark/paparazzi
+sources, and creates local variants only when Pillow is available.
 """
 
 from __future__ import annotations
@@ -57,9 +56,6 @@ OFFICIAL_HOST_HINTS = (
     "films",
 )
 REJECT_HINTS = (
-    "image.tmdb.org",
-    "themoviedb.org",
-    "tmdb",
     "paparazzi",
     "watermark",
     "watermarked",

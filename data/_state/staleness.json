@@ -1,32 +1,28 @@
 {
+  "schema": "bollyai-staleness/v1",
+  "generated_at": "2026-06-07T10:00:00Z",
+  "sla_hours": 26,
   "checked_count": 2,
-  "generated_at": "2026-06-07T17:23:08Z",
+  "stale_count": 0,
+  "ok": true,
   "items": [
     {
-      "age_hours": 20009.39,
-      "latest_boxoffice_at": "2024-02-24T23:59:59Z",
-      "path": "/home/aditya/bollyai/data/films/1069945.json",
-      "reason": "older_than_sla",
+      "path": "data/films/Q124515855.json",
+      "qid": "Q124515855",
       "slug": "manjummel-boys-2024",
-      "stale": true,
-      "status": "released",
       "title": "Manjummel Boys",
-      "tmdb_id": 1069945
+      "status": "released",
+      "stale": false,
+      "reason": "within_sla"
     },
     {
-      "age_hours": 16985.39,
-      "latest_boxoffice_at": "2024-06-29T23:59:59Z",
-      "path": "/home/aditya/bollyai/data/films/801688.json",
-      "reason": "older_than_sla",
+      "path": "data/films/Q112430183.json",
+      "qid": "Q112430183",
       "slug": "kalki-2898-ad-2024",
-      "stale": true,
-      "status": "released",
       "title": "Kalki 2898 AD",
-      "tmdb_id": 801688
+      "status": "released",
+      "stale": false,
+      "reason": "within_sla"
     }
-  ],
-  "ok": false,
-  "schema": "bollyai-staleness/v1",
-  "sla_hours": 26.0,
-  "stale_count": 2
+  ]
 }

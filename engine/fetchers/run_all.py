@@ -5,14 +5,14 @@ Fixture mode is safe to run without network and without writes:
     python3 engine/fetchers/run_all.py --fixture-mode
 
 Explicit writes require --write data/.  That path emits the OTT calendar and
-IndexNow changed-URL state, and updates existing film JSON files if present.
+IndexNow changed-URL state, and updates existing QID-keyed film JSON files if
+present.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -30,8 +30,8 @@ from common import (
     utc_now,
     write_json,
 )
-from ott_calendar import build_calendar, load_provider_deltas, parse_date
-from tmdb import TMDBClient
+from ott_announcements import build_calendar, load_announcements, parse_date
+from wikidata import WikidataClient
 
 
 LIVE_STATUSES = {"live", "released"}
@@ -50,14 +50,14 @@ def load_seed_films(*, fixture_mode: bool, data_dir: Path) -> list[dict[str, Any
     return films
 
 
-def seed_tmdb_id(seed: dict[str, Any]) -> int | None:
-    for key in ("tmdb_id", "tmdb"):
+def seed_qid(seed: dict[str, Any]) -> str | None:
+    for key in ("qid", "wikidata"):
         value = unwrap_value(seed.get(key))
         if value:
-            return int(value)
+            return str(value)
     ids = seed.get("ids") or {}
-    value = unwrap_value(ids.get("tmdb"))
-    return int(value) if value else None
+    value = unwrap_value(ids.get("wikidata"))
+    return str(value) if value else None
 
 
 def seed_status(seed: dict[str, Any]) -> str | None:
@@ -76,14 +76,14 @@ def changed_urls_for_seed(seed: dict[str, Any]) -> list[str]:
 
 
 def update_existing_film_doc(data_dir: Path, seed: dict[str, Any], readings_by_film: dict[str, list[Any]]) -> bool:
-    tmdb_id = seed_tmdb_id(seed)
-    if tmdb_id is None:
+    qid = seed_qid(seed)
+    if qid is None:
         return False
-    path = data_dir / "films" / f"{tmdb_id}.json"
+    path = data_dir / "films" / f"{qid}.json"
     if not path.exists():
         return False
     doc = read_json(path, default={})
-    readings = readings_by_film.get(str(tmdb_id), [])
+    readings = readings_by_film.get(str(qid), [])
     if readings:
         doc = merge_readings_into_film(doc, readings)
         write_json(path, doc)
@@ -92,10 +92,10 @@ def update_existing_film_doc(data_dir: Path, seed: dict[str, Any], readings_by_f
 
 
 def run(args: argparse.Namespace) -> dict[str, Any]:
-    fixture_mode = bool(args.fixture_mode or not os.environ.get("TMDB_API_KEY"))
+    fixture_mode = bool(args.fixture_mode)
     data_dir = repo_path(args.write) if args.write else DATA_DIR
     today = parse_date(args.today) if args.today else date.today()
-    client = TMDBClient(fixture_mode=fixture_mode)
+    client = WikidataClient(fixture_mode=fixture_mode)
     seeds = load_seed_films(fixture_mode=fixture_mode, data_dir=data_dir)
     if args.live_only:
         fetchable_seeds = [seed for seed in seeds if seed_status(seed) in LIVE_STATUSES]
@@ -104,18 +104,18 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
 
     metadata = []
     for seed in fetchable_seeds:
-        tmdb_id = seed_tmdb_id(seed)
-        if tmdb_id is None:
+        qid = seed_qid(seed)
+        if qid is None:
             continue
-        metadata.append(client.movie_metadata(tmdb_id))
+        metadata.append(client.fetch_by_qid(qid))
 
     readings = load_fixture_readings() if fixture_mode else []
     readings_by_film: dict[str, list[Any]] = {}
     for reading in readings:
-        readings_by_film.setdefault(str(reading.film_id), []).append(reading)
+        readings_by_film.setdefault(str(reading.qid), []).append(reading)
 
-    provider_deltas = load_provider_deltas(fixture_mode=fixture_mode)
-    calendar = build_calendar(provider_deltas, start=today, weeks=4, region="IN")
+    announcements = load_announcements(fixture_mode=fixture_mode, data_dir=data_dir)
+    calendar = build_calendar(announcements, films=seeds, start=today, weeks=4)
     changed_urls = stable_unique(url for seed in seeds for url in changed_urls_for_seed(seed))
 
     wrote = []
@@ -136,8 +136,8 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
 
         for seed in fetchable_seeds:
             if update_existing_film_doc(data_dir, seed, readings_by_film):
-                tmdb_id = seed_tmdb_id(seed)
-                wrote.append(str(data_dir / "films" / f"{tmdb_id}.json"))
+                qid = seed_qid(seed)
+                wrote.append(str(data_dir / "films" / f"{qid}.json"))
 
     return {
         "schema": "run-all-result/v1",
