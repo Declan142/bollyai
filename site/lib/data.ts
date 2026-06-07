@@ -43,6 +43,11 @@ export type Film = {
     alt: string;
     attribution: string;
   };
+  backdrop?: {
+    src: string;
+    alt: string;
+    attribution: string;
+  };
   box_office: {
     day_rows: DayRow[];
     totals: {
