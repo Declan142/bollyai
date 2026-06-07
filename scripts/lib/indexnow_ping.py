@@ -186,6 +186,13 @@ def post_indexnow(
 
 
 def main(argv: list[str] | None = None) -> int:
+    # PRE-LAUNCH GATE (Aditya, 2026-06-07): site is noindex until finished.
+    # Pinging IndexNow while noindex would burn crawl trust. Delete the flag file at launch.
+    prelaunch_flag = Path(__file__).resolve().parents[2] / "data" / "_state" / "PRELAUNCH_NOINDEX"
+    if prelaunch_flag.exists():
+        print("PRELAUNCH_NOINDEX flag present; skipping IndexNow ping (site is noindex until launch).")
+        return 0
+
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--delta", help="JSON or newline file with changed URLs.")

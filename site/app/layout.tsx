@@ -10,6 +10,12 @@ import { SiteFooter, SiteHeader } from "../components/PageChrome";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bollyai.in"),
+  // PRE-LAUNCH GATE (Aditya, 2026-06-07): noindex until the product is finished.
+  // At launch: remove this block AND site/public/_headers X-Robots-Tag, then re-ping IndexNow.
+  robots: {
+    index: false,
+    follow: false
+  },
   title: {
     default: "BollyAI - Har Friday ka faisla",
     template: "%s | BollyAI"
