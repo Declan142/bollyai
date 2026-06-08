@@ -12,12 +12,7 @@ import { organizationJsonLd, webSiteJsonLd } from "../lib/jsonld";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bollyai.in"),
-  // PRE-LAUNCH GATE (Aditya, 2026-06-07): noindex until the product is finished.
-  // At launch: remove this block AND site/public/_headers X-Robots-Tag, then re-ping IndexNow.
-  robots: {
-    index: false,
-    follow: false
-  },
+  // LAUNCHED 2026-06-08 — noindex pre-launch gate removed (Aditya's call). Site is public.
   title: {
     default: "BollyAI - Har Friday ka faisla",
     template: "%s | BollyAI"
