@@ -3,6 +3,7 @@ import { DESKS } from "../lib/desks";
 import { getAllFilms, getOttCalendar, getOttPlatforms, platformSlug } from "../lib/data";
 import { getAllSeries } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
+import { getAllEndings } from "../lib/endings";
 
 const siteUrl = "https://bollyai.in";
 const staticPaths = [
@@ -80,6 +81,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const list of getAllWatchLists()) {
     entries.push({ url: `${siteUrl}/watch/${list.slug}/`, lastModified: asDate(list.updated, buildTime) });
+  }
+
+  for (const ending of getAllEndings()) {
+    entries.push({
+      url: `${siteUrl}/series/${ending.slug}/ending-explained/`,
+      lastModified: asDate(ending.date_modified, buildTime)
+    });
   }
 
   return entries;
