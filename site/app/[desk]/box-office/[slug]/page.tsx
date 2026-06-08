@@ -16,6 +16,22 @@ export function generateStaticParams() {
   }));
 }
 
+export function generateMetadata({ params }: { params: { desk: string; slug: string } }) {
+  const film = getFilm(params.desk, params.slug);
+  if (!film) return {};
+  const filmTitle = film.title.value;
+  const hasTotal = film.box_office.totals.india_net_inr_cr.value !== null;
+  const title = hasTotal
+    ? `${filmTitle} Box Office Collection — Day-wise India Nett`
+    : `${filmTitle} Box Office — Tracking`;
+  const totalStr = hasTotal
+    ? `India nett: ${formatCrore(film.box_office.totals.india_net_inr_cr.value)} as of ${film.box_office.totals.as_of}.`
+    : "India nett collection tracking — estimates awaited.";
+  const raw = `${filmTitle} day-wise box office. ${totalStr} ${film.logline}`;
+  const description = raw.slice(0, 158).replace(/\s+\S*$/, "");
+  return { title, description };
+}
+
 export default function BoxOfficePage({ params }: { params: { desk: string; slug: string } }) {
   const film = getFilm(params.desk, params.slug);
   if (!film) {

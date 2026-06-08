@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { DateModified } from "../components/DateModified";
+
+export const metadata: Metadata = {
+  title: { absolute: "BollyAI — Is It Worth Watching? OTT & Movie Verdicts for India" },
+  description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla."
+};
 import { FilmCard } from "../components/FilmCard";
 import { JsonLd } from "../components/JsonLd";
 import { VerdictMeter } from "../components/VerdictMeter";

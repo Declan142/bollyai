@@ -14,6 +14,19 @@ export function generateStaticParams() {
   }));
 }
 
+export function generateMetadata({ params }: { params: { desk: string; slug: string } }) {
+  const film = getFilm(params.desk, params.slug);
+  if (!film) return {};
+  const filmTitle = film.title.value;
+  const title = `${filmTitle} Release Date, OTT & Pre-release Buzz`;
+  const ottPart = film.ott?.platform.value
+    ? `OTT: ${film.ott.platform.value}.`
+    : "OTT date not confirmed yet.";
+  const raw = `${filmTitle} release date, pre-release buildup, and ${ottPart} ${film.logline}`;
+  const description = raw.slice(0, 158).replace(/\s+\S*$/, "");
+  return { title, description };
+}
+
 export default function UpcomingPage({ params }: { params: { desk: string; slug: string } }) {
   const film = getFilm(params.desk, params.slug);
   if (!film) {

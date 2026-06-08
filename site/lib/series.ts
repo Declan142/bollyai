@@ -106,6 +106,16 @@ export function latestSeason(series: Series): SeriesSeason | undefined {
   return [...series.seasons].sort((a, b) => b.number - a.number)[0];
 }
 
+// The show's best-scored season — what the franchise is remembered/searched for.
+// Used for the HUB title so a declined show isn't headlined by its weakest latest
+// season (per-season pages still carry their own per-season verdict). Falls back to
+// the latest season when no season has a BollyMeter score yet.
+export function peakSeason(series: Series): SeriesSeason | undefined {
+  const scored = series.seasons.filter((s) => s.bollymeter);
+  if (scored.length === 0) return latestSeason(series);
+  return [...scored].sort((a, b) => b.bollymeter!.score - a.bollymeter!.score)[0];
+}
+
 export function ottIndex(rung: OttRung): number {
   return Math.max(0, OTT_RUNGS.indexOf(rung));
 }

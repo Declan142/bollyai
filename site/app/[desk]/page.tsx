@@ -12,6 +12,14 @@ export function generateStaticParams() {
   return DESK_SLUGS.map((desk) => ({ desk }));
 }
 
+export function generateMetadata({ params }: { params: { desk: string } }) {
+  const desk = getDesk(params.desk);
+  if (!desk) return {};
+  const title = `${desk.label} Movie Reviews, Box Office & Verdicts`;
+  const description = desk.answer.slice(0, 158).replace(/\s+\S*$/, "");
+  return { title, description };
+}
+
 export default function DeskHub({ params }: { params: { desk: string } }) {
   const desk = getDesk(params.desk);
   if (!desk) {

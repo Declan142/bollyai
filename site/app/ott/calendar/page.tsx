@@ -4,6 +4,12 @@ import { JsonLd } from "../../../components/JsonLd";
 import { DESKS } from "../../../lib/desks";
 import { formatDate, getOttCalendar } from "../../../lib/data";
 
+export const metadata = {
+  title: "OTT Release Calendar India — Upcoming Movies & Series",
+  description:
+    "Verified OTT release dates for Indian movies and series across Netflix, JioHotstar, SonyLIV, ZEE5, Prime Video and more."
+};
+
 export default function OttCalendarPage() {
   const calendar = getOttCalendar();
   const platforms = Array.from(new Set(calendar.entries.map((entry) => entry.platform))).sort();

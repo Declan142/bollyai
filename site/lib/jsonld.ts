@@ -90,6 +90,61 @@ export function trackerFaqJsonLd(film: Film) {
   };
 }
 
+// Visible-FAQ + FAQPage schema for a series hub, built ONLY from real fields
+// (renewal note/state, platform, season count, peak verdict). Targets the highest-
+// volume Indian-OTT query shapes: "will there be a season N", "release date",
+// "where to watch", "is it worth watching". No fabricated dates/numbers.
+export function seriesFaq(series: Series, peak: SeriesSeason | undefined): Array<{ q: string; a: string }> {
+  const t = series.title.value;
+  const faq: Array<{ q: string; a: string }> = [];
+
+  // Renewal / next-season — straight from the sourced renewal note.
+  const nextSeasonQ =
+    series.renewal.state === "ended" || series.renewal.state === "final-season"
+      ? `Will there be another season of ${t}?`
+      : `When is ${t}'s next season releasing?`;
+  faq.push({ q: nextSeasonQ, a: `${series.renewal.note} (Source: ${series.renewal.source}.)` });
+
+  // Where to watch.
+  faq.push({
+    q: `Where can I watch ${t} in India?`,
+    a: `${t} streams on ${series.platform.value}.`
+  });
+
+  // How many seasons.
+  faq.push({
+    q: `How many seasons of ${t} are there?`,
+    a: `${t} has ${series.seasons.length} season${series.seasons.length === 1 ? "" : "s"} so far${
+      series.renewal.state === "ended" ? " and has ended" : ""
+    }.`
+  });
+
+  // Worth watching — peak verdict, honestly framed when unscored.
+  faq.push({
+    q: `Is ${t} worth watching?`,
+    a: peak?.verdict
+      ? `BollyAI rates ${t} a ${peak.verdict}${
+          peak.bollymeter ? ` at BollyMeter ${peak.bollymeter.score.toFixed(1)}/10` : ""
+        }${peak.number ? ` (Season ${peak.number}, its strongest)` : ""}.`
+      : `${t} is still being tracked — BollyAI opens a verdict once a season finishes.`
+  });
+
+  return faq;
+}
+
+export function seriesFaqJsonLd(faq: Array<{ q: string; a: string }>) {
+  if (faq.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a }
+    }))
+  };
+}
+
 export function seriesJsonLd(series: Series) {
   return {
     "@context": "https://schema.org",

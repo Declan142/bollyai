@@ -5,8 +5,8 @@ import { JsonLd } from "../../../components/JsonLd";
 import { SeasonVerdict } from "../../../components/SeasonVerdict";
 import { AnswerBlock } from "../../../components/AnswerBlock";
 import { formatDate } from "../../../lib/data";
-import { getAllSeries, getSeries, latestSeason } from "../../../lib/series";
-import { breadcrumbJsonLd, seriesJsonLd } from "../../../lib/jsonld";
+import { getAllSeries, getSeries, latestSeason, peakSeason } from "../../../lib/series";
+import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
 
 export const dynamicParams = false;
 
@@ -17,14 +17,14 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!series) return {};
-  const latest = latestSeason(series);
+  const peak = peakSeason(series);
   const t = series.title.value;
-  const score = latest?.bollymeter ? `, BollyMeter ${latest.bollymeter.score.toFixed(1)}/10` : "";
-  const title = latest?.verdict
-    ? `${t} Review: ${latest.verdict}${score}`
+  const score = peak?.bollymeter ? `, BollyMeter ${peak.bollymeter.score.toFixed(1)}/10` : "";
+  const title = peak?.verdict
+    ? `${t} Review: ${peak.verdict}${score}`
     : `${t} Review & Verdict — ${series.platform.value}`;
-  const lead = latest?.verdict
-    ? `Is ${t} worth watching? BollyAI verdict: ${latest.verdict}${score}. `
+  const lead = peak?.verdict
+    ? `Is ${t} worth watching? BollyAI verdict: ${peak.verdict}${score}. `
     : `${t} on ${series.platform.value}. `;
   const description = (lead + series.logline).slice(0, 158).replace(/\s+\S*$/, "");
   return { title, description };
@@ -34,10 +34,13 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!series) notFound();
   const latest = latestSeason(series);
+  const faq = seriesFaq(series, peakSeason(series));
+  const faqLd = seriesFaqJsonLd(faq);
 
   return (
     <DeskTint desk={series.canonical_industry} className="film-page">
       <JsonLd data={seriesJsonLd(series)} />
+      {faqLd && <JsonLd data={faqLd} />}
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
@@ -86,6 +89,18 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
                 </li>
               ))}
           </ol>
+        </section>
+
+        <section className="panel">
+          <h2>{series.title.value} — Quick Answers</h2>
+          <dl className="watch-faq">
+            {faq.map((f) => (
+              <div key={f.q}>
+                <dt>{f.q}</dt>
+                <dd>{f.a}</dd>
+              </div>
+            ))}
+          </dl>
         </section>
       </section>
     </DeskTint>

@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+
+export const metadata: Metadata = {
+  title: "About BollyAI — Who We Are & How We Judge",
+  description: "BollyAI is a disclosed AI critic for Indian entertainment: one brain, seven desks, and a source-first verdict system that separates craft from commerce."
+};
 
 export default function AboutPage() {
   return (

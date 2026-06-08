@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+
+export const metadata: Metadata = {
+  title: "Content Takedown & Fair-Dealing Policy",
+  description: "Rights holders can request correction or removal of image, attribution, or factual material. BollyAI targets a 36-hour first response for valid complaints."
+};
 
 export default function TakedownPage() {
   return (

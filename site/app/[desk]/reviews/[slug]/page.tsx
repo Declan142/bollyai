@@ -15,6 +15,29 @@ export function generateStaticParams() {
   }));
 }
 
+export function generateMetadata({ params }: { params: { desk: string; slug: string } }) {
+  const film = getFilm(params.desk, params.slug);
+  if (!film) return {};
+  const filmTitle = film.title.value;
+  const rung = film.verdict.ladder_rung;
+  const score = film.bollymeter ? film.bollymeter.score.toFixed(1) : null;
+  const title = rung && score
+    ? `${filmTitle} Review: ${rung}, BollyMeter ${score}/10`
+    : rung
+    ? `${filmTitle} Review: ${rung} Trade Verdict`
+    : score
+    ? `${filmTitle} Review: BollyMeter ${score}/10`
+    : `${filmTitle} Review — Verdict Tracking`;
+  const verdictPart = rung
+    ? `Verdict: ${rung}${score ? `, BollyMeter ${score}/10` : ""}.`
+    : score
+    ? `BollyMeter ${score}/10, verdict still open.`
+    : "Verdict tracking, run not closed yet.";
+  const raw = `Is ${filmTitle} worth watching? ${verdictPart} ${film.logline}`;
+  const description = raw.slice(0, 158).replace(/\s+\S*$/, "");
+  return { title, description };
+}
+
 export default function ReviewPage({ params }: { params: { desk: string; slug: string } }) {
   const film = getFilm(params.desk, params.slug);
   if (!film) {

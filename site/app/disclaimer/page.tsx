@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+
+export const metadata: Metadata = {
+  title: "Disclaimer",
+  description: "BollyAI publishes entertainment analysis and trade-estimate framing, not official financial certification. Numbers carry source rows and confidence labels."
+};
 
 export default function DisclaimerPage() {
   return (

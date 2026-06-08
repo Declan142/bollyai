@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+
+export const metadata: Metadata = {
+  title: "Contact BollyAI",
+  description: "Reach BollyAI for corrections, takedown requests, source disputes, and editorial feedback at contact@bollyai.in."
+};
 
 export default function ContactPage() {
   return (

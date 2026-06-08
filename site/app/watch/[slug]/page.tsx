@@ -14,7 +14,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const list = getWatchList(params.slug);
   if (!list) return {};
-  return { title: `${list.title} — BollyAI`, description: list.intro };
+  return { title: list.title, description: list.intro };
 }
 
 export default function WatchListPage({ params }: { params: { slug: string } }) {
