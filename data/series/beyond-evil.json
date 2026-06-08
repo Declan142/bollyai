@@ -1,0 +1,115 @@
+{
+  "slug": "beyond-evil",
+  "qid": {
+    "value": "Q97214444",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Beyond Evil",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Two mismatched police officers in a small provincial town pursue a serial killer while each quietly suspects the other of being the killer they are hunting.",
+  "poster": {
+    "src": "/img/series/beyond-evil/poster.jpg",
+    "alt": "Beyond Evil poster",
+    "attribution": "Poster © JTBC / Celltrion Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; concluded April 10, 2021. Won Best Drama at the 57th Baeksang Arts Awards. No sequel announced.",
+    "source": "Baeksang Arts Awards",
+    "source_url": "https://en.wikipedia.org/wiki/Beyond_Evil_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-02-19",
+        "source": "JTBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Three Baeksang wins including Best Drama and Best Actor for Shin Ha-kyun; IMDb at 8.1 from a substantial base; critics described it as a multi-layered thriller that engages both heart and mind in equal measure."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A tightly written, multi-layered crime thriller that manages to engage both the heart and mind.",
+            "source": "Hallyuism",
+            "url": "https://hallyuism.com/2023/09/26/k-drama-review-why-beyond-evil-is-a-classic-thriller/"
+          },
+          {
+            "text": "Shin Ha-kyun's performance as Dong Sik is a veritable tour de force of consummate acting.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2021/07/04/review-beyond-evil-monster/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13634872/"
+      },
+      "review_body": "Beyond Evil aired on JTBC from February 19 to April 10, 2021, and swept the 57th Baeksang Arts Awards with Best Drama, Best Screenplay, and Best Actor for Shin Ha-kyun. The series places two officers - the demoted, eccentric Dong-sik and the elite Seoul transplant Joo-won - in a provincial town where a 20-year-old serial murder case reopens. Writer Kim Su-jin builds the thriller around mutual suspicion: each detective privately suspects the other is the killer. Critics praised the structural ambiguity and the way the show refused to resolve its moral questions cleanly. IMDb audience scores settled at 8.1. The show draws inspiration from the Hwaseong murders case without fictionality becoming exploitation. Shin Ha-kyun and Yeo Jin-goo sustain a two-lead tension rare in procedural drama.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-02-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops Joo-won into Manyang and places him alongside the notorious Dong-sik, whose reputation as the local oddity the episode never overplays. The discovery of a skeleton in the first act signals what kind of thriller this will be: patient, provincial, menacing.",
+          "the_moment": "The first exchange between Dong-sik and Joo-won establishes the show's central unresolved question before either character has said anything that should raise it.",
+          "critic_note": null
+        },
+        {
+          "number": 15,
+          "title": "Episode 15",
+          "air_date": "2021-04-03",
+          "bollymeter": 9.3,
+          "spoiler_free": "Penultimate episode where the accumulated suspicion reaches its breaking point. Critical consensus identified this hour as the series' most dramatically pressurised, with Joo-won's moral framework finally failing under the weight of what Dong-sik represents.",
+          "the_moment": "Dong-sik speaks to Joo-won with a warmth that is either genuine or the show's most unsettling misdirection - the scene divides viewers to this day.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2021-04-10",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale delivers a resolution that reviewers described as satisfying without being clean. The show's refusal to simplify its two leads pays off in a closing hour that circles back to the town, the case, and the costs both men paid.",
+          "the_moment": "Dong-sik's final address to Joo-won - fatherly, strange, quietly devastating.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

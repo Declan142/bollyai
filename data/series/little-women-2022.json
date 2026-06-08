@@ -1,0 +1,95 @@
+{
+  "slug": "little-women-2022",
+  "qid": {
+    "value": "Q110246392",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Little Women",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Three impoverished sisters stumble onto 70 billion won linked to Korea's wealthiest family, and what begins as a financial windfall spirals into a conspiracy of inheritance, betrayal, and survival.",
+  "poster": {
+    "src": "/img/series/little-women-2022/poster.jpg",
+    "alt": "Little Women (2022) poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series, 12 episodes, concluded October 9, 2022. No continuation has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Little_Women_(2022_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-09-03",
+        "source": "tvN",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "100 percent Rotten Tomatoes from 6 critics at 8.5/10 average; 7.7 IMDb from a wider audience base; APAN Drama of the Year 2023; critics praised the thriller architecture and Kim Go-eun's lead performance while audiences tracked a meaningful dip mid-series."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21828868/ratings/"
+      },
+      "review_body": "Directed by Kim Hee-won and written by Jeong Seo-kyung - the team behind The World of the Married - this 12-episode tvN series aired Saturdays and Sundays from September 3 to October 9, 2022, ranking first in its timeslot every week with a 11.1 percent finale rating. The 100-percent Rotten Tomatoes score from 6 critics highlighted the strong ensemble, particularly Kim Go-eun's eldest-sister lead and Uhm Ji-won's antagonist, and the structural confidence of a thriller built around class and female agency. Entertainment Weekly listed it among the top 21 Korean shows on Netflix in 2025. The 7.7 IMDb score from a broader audience signals a mid-series stretch where the conspiracy mechanics get unwieldy - episodes 7 to 9 produced the lowest individual ratings - but the opening two episodes and the finale rank among the strongest hours.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-09-03",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere earns its 8.2 IMDb rating by grounding the fantasy-scale stakes in granular class detail: the sisters' poverty is specific and unglamorous, and the discovery that changes their lives arrives not through luck but through a combination of coincidence and action. Reviewers noted the episode's economy - a lot of world-building delivered without feeling like exposition.",
+          "the_moment": "Oh In-joo discovering the money - the exact instant the thriller mechanics engage and the tone shifts from domestic drama.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2022-10-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale - the series' highest-rated broadcast episode at 11.1 percent nationwide - attempts to pay off a conspiracy that had grown more complex than the run time could fully accommodate. Critics were divided on whether the resolution was earned, but the ensemble's final performances and the class-politics throughline received consistent praise.",
+          "the_moment": "The confrontation that recontextualises whose story this actually was - a structural reversal the screenplay had planted across all twelve episodes.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "line-of-duty",
+  "qid": {
+    "value": "Q6553279",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Line of Duty",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "BBC",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Anti-corruption detectives inside a fictional UK police force relentlessly pursue bent colleagues, each series built around one suspected officer and a conspiracy that grows wider with every interrogation.",
+  "poster": {
+    "src": "/img/series/line-of-duty/poster.jpg",
+    "alt": "Line of Duty series poster",
+    "attribution": "Poster © World Productions / BBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Series 7 confirmed by BBC in November 2025, six episodes, filming in Belfast from spring 2026, expected 2027 air date.",
+    "source": "BBC",
+    "source_url": "https://www.hellorayo.co.uk/tay/entertainment/television/line-of-duty-season-seven"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 5,
+      "release_date": {
+        "value": "2012-06-26",
+        "source": "BBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100 percent on Rotten Tomatoes; the debut series announced Jed Mercurio's procedural grip and Martin Compston's straight-arrow Arnott as an immediately compelling lead."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2303687/ratings/"
+      },
+      "review_body": "The debut five-episode series aired on BBC Two in summer 2012 and earned a perfect Rotten Tomatoes score. Critics identified an immediately distinct procedural grammar: AC-12's under-resourced investigators targeting a corrupt armed-response officer, with Jed Mercurio's writing foregrounding the bureaucratic detail of internal investigations rather than standard chase-and-catch plotting. The central dynamic between DS Arnott (Martin Compston) and Superintendent Hastings (Adrian Dunbar) was praised for its ambiguity - Hastings reads as either a principled leader or a man with something to hide, and the show refuses to resolve the question cheaply.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 6,
+      "release_date": {
+        "value": "2014-02-12",
+        "source": "BBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100 percent on Rotten Tomatoes; Keeley Hawes's DI Lindsay Denton was cited as one of British television's great morally ambiguous characters."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2303687/ratings/"
+      },
+      "review_body": "Series 2 aired in early 2014 on BBC Two and held the perfect Rotten Tomatoes critical mark. Keeley Hawes joined as DI Lindsay Denton, the officer under AC-12 scrutiny, and her performance drew near-universal praise for sustaining genuine ambiguity across six episodes: critics could not agree whether she was corrupt, compromised, or simply unlucky. The interrogation scenes that became the show's signature device - two detectives, a table, a solicitor, and a spiralling disclosure - reached a new intensity level in this series. Audience engagement and broadcast figures grew substantially over Series 1.",
+      "season_over_season": "Series 2 introduced the anthological-suspect structure that became the show's template, and Keeley Hawes's performance set the benchmark for all subsequent central targets.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-03-24",
+        "source": "BBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "100 percent on Rotten Tomatoes; the introduction of DS Kate Fleming and the expanding conspiracy narrative deepened the show's mythology without sacrificing season-level satisfaction."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2303687/ratings/"
+      },
+      "review_body": "Series 3 moved to BBC One and landed another perfect Rotten Tomatoes critical score. The series introduced the concept of a wider criminal conspiracy within the police - \"the fourth man\" and the organised crime group (OCG) - building a mythology that would carry across the remaining series. Vicky McClure's DS Kate Fleming was now a full co-lead alongside Compston, and critics noted the show had developed a genuine repertory ensemble. The jump to BBC One brought larger audiences and confirmed the show as one of British television's prestige flagship dramas.",
+      "season_over_season": "The move to BBC One and the introduction of long-arc conspiracy mythology raised both the scale and the audience, without losing the procedural precision of earlier series.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2017,
+      "episodes": 6,
+      "release_date": {
+        "value": "2017-03-26",
+        "source": "BBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100 percent on Rotten Tomatoes; Thandiwe Newton's DCI Roz Huntley brought a new register of moral complexity to the suspect role."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2303687/ratings/"
+      },
+      "review_body": "Series 4 maintained the perfect critical record with Thandiwe Newton as DCI Roz Huntley, the season's central suspect. Critics noted Newton's performance was among the finest the show had yet attracted for its guest-suspect role: calculating, compartmentalised, and capable of sudden vulnerability. The AC-12 procedural mechanics were by now familiar enough that Mercurio's scripts focused on layering the institutional corruption - making it systemic rather than individual - while still delivering episode-level tension in the interrogation sequences. The fourth consecutive 100-percent Rotten Tomatoes score confirmed the show as arguably the strongest long-running procedural on British television.",
+      "season_over_season": "Thandiwe Newton's guest lead matched and some critics felt surpassed Keeley Hawes's benchmark from series 2, sustaining the perfect critical record into a fourth year.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-03-31",
+        "source": "BBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "90 percent on Rotten Tomatoes; Stephen Graham's DS John Corbett storyline was praised as the show's most emotionally complex arc, though some critics felt the conspiracy plotting had grown unwieldy."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2303687/ratings/"
+      },
+      "review_body": "Series 5 aired in spring 2019 and registered the show's first drop from a perfect Rotten Tomatoes score, settling at 90 percent. The series featured Stephen Graham as an undercover officer, and critics who had followed the show's mythology were now grappling with narrative threads accumulated across four prior years. Praise focused on Graham's performance and on the emotional toll Mercurio's writing placed on the central trio. Some reviewers began to note the conspiracy's internal logic was straining. Audience numbers remained enormous - the show was among the most watched dramas in BBC history - and the audience score on Rotten Tomatoes held at 94 percent overall.",
+      "season_over_season": "Stephen Graham's emotionally rich arc pushed the show toward new dramatic territory while the accumulated conspiracy weight began to create structural pressure that critics began to flag.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2021,
+      "episodes": 7,
+      "release_date": {
+        "value": "2021-03-21",
+        "source": "BBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "86 percent on Rotten Tomatoes from 25 reviews; the resolution of the multi-series 'H' mystery proved divisive, with The Guardian giving it three stars and the New Statesman calling it a whimper."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 25,
+        "pull_quotes": [
+          {
+            "text": "It was all fine. But, oh my, you should have seen it when it was good.",
+            "source": "The Guardian",
+            "url": "https://www.nationalworld.com/arts-and-culture/film-and-tv/line-of-duty-finale-review-round-up-what-viewers-and-critics-said-about-the-season-6-ending-3222756"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2303687/ratings/"
+      },
+      "review_body": "Series 6 opened in March 2021 to record BBC figures - 9.6 million viewers for the premiere - but the finale sparked the most divided critical response in the show's run. The long-teased resolution of the 'H' four-man conspiracy and the identity of the mysterious fourth OCG member landed at 86 percent on Rotten Tomatoes, with the Guardian giving the finale three stars and Lucy Mangan writing: 'It was all fine. But, oh my, you should have seen it when it was good.' The New Statesman called it a series that 'ended with a whimper, not a bang.' The Times was kinder, awarding four stars. Audience disappointment was measurable in social media response; the scale of the finale's scrutiny reflected how much viewer investment the show had accumulated over a decade.",
+      "season_over_season": "The payoff series for a nine-year conspiracy arc polarised critics, with the deflating 'H' reveal pushing the show's critical score below 90 percent for the first time.",
+      "episode_reviews": [
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2021-05-02",
+          "bollymeter": 6.5,
+          "spoiler_free": "The series finale delivers the long-awaited identity of the fourth man and closes out AC-12's decade-long conspiracy investigation. Critics were split down the middle: those who found the resolution credibly mundane praised its realism; those who had followed the mythology for years felt the reveal deflated rather than paid off a ten-year investment.",
+          "the_moment": "The interrogation room reveal of 'H' - the culmination of six years of fan theorising.",
+          "critic_note": {
+            "text": "It was all fine. But, oh my, you should have seen it when it was good.",
+            "source": "The Guardian",
+            "url": "https://www.nationalworld.com/arts-and-culture/film-and-tv/line-of-duty-finale-review-round-up-what-viewers-and-critics-said-about-the-season-6-ending-3222756"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

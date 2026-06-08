@@ -1,0 +1,151 @@
+{
+  "slug": "the-uncanny-counter",
+  "qid": {
+    "value": "Q98099408",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Uncanny Counter",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "OCN (S1) / tvN (S2) / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A noodle-restaurant crew moonlights as Counters - humans bonded with spirits from the afterlife - hunting demons that escape into the living world through morally compromised hosts.",
+  "poster": {
+    "src": "/img/series/the-uncanny-counter/poster.jpg",
+    "alt": "The Uncanny Counter poster",
+    "attribution": "Poster © OCN / tvN / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons concluded. Season 2 (Counter Punch) aired July-September 2023 on tvN. No further continuation has been announced.",
+    "source": "tvN",
+    "source_url": "https://en.wikipedia.org/wiki/The_Uncanny_Counter"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-11-28",
+        "source": "OCN",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "96-percent Rotten Tomatoes from critics; became the highest-rated OCN series in the network's history with an 11-percent finale; Yeom Hye-ran won Baeksang Best Supporting Actress."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "Well written and terrifically acted, 'The Uncanny Counter' is suspenseful and heartwarming.",
+            "source": "Substack (Jae-Ha Kim)",
+            "url": "https://www.rottentomatoes.com/tv/the_uncanny_counter/s01"
+          },
+          {
+            "text": "The Uncanny Counter captured our imaginations from the get-go.",
+            "source": "South China Morning Post (Pierce Conran)",
+            "url": "https://www.rottentomatoes.com/tv/the_uncanny_counter/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13273826/"
+      },
+      "review_body": "The Uncanny Counter premiered on OCN on November 28, 2020, and ran to January 24, 2021, becoming the highest-rated drama in OCN's broadcast history with an 11-percent finale rating. Based on a webtoon by Jang Yi, the series follows a disabled high school student, So Mun, who joins a covert team of demon hunters operating out of a noodle restaurant. Critics on Rotten Tomatoes approved at 96 percent, calling it suspenseful, heartwarming, and terrifically acted. Yeom Hye-ran's supporting performance earned the Baeksang Best Supporting Actress award in 2021. The show blends action choreography with found-family character work in a way critics noted was unusually sustained for a 16-episode run. IMDb audiences rated it 8.0. The balance of comic-book energy and genuine emotional stakes is what reviewers identified as its chief virtue.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-11-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "So Mun's birthday precipitates his bonding with a spirit and his first contact with the Counter team. The premiere efficiently establishes the supernatural rules and the noodle-shop cover without front-loading exposition. Critics noted the show announces its tonal blend early - funny and violent in close proximity.",
+          "the_moment": "So Mun's first Counter ability manifesting mid-threat - the scene that defines what the series is physically capable of and willing to show.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2021-01-24",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the season's central threat and achieves the 11-percent viewership peak. Reviewers found it a satisfying close to the Counter team's first case - the action set-pieces land, and the emotional throughlines with So Mun's family get sufficient resolution without sentimentality.",
+          "the_moment": "The final confrontation with Myeong-hwi - the payoff for a season's worth of accumulated stakes.",
+          "critic_note": {
+            "text": "The Uncanny Counter captured our imaginations from the get-go.",
+            "source": "South China Morning Post (Pierce Conran)",
+            "url": "https://www.rottentomatoes.com/tv/the_uncanny_counter/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-07-29",
+        "source": "tvN",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "64-percent Rotten Tomatoes from critics; all four RT reviewers noted meaningful decline from Season 1; viewership averaged 1.4 million versus Season 1's 2.4 million. Critics cited pacing issues and weak writing as the primary failures."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "This 2nd season is good enough. But it's also a reminder that K-dramas are traditionally made to finish after one season.",
+            "source": "Substack (Jae-Ha Kim)",
+            "url": "https://www.rottentomatoes.com/tv/the_uncanny_counter/s02"
+          },
+          {
+            "text": "There was a time when we cared about these colourful counters and their zippy duels with evil spirits - those days are gone.",
+            "source": "South China Morning Post (Pierce Conran)",
+            "url": "https://www.rottentomatoes.com/tv/the_uncanny_counter/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13273826/"
+      },
+      "review_body": "Counter Punch aired on tvN from July 29 to September 3, 2023, with a new set of antagonists and a compressed 12-episode run. Critics scored it at 64 percent on Rotten Tomatoes, a significant drop from Season 1's 96 percent. Pierce Conran at the South China Morning Post and Jae-Ha Kim both noted the fundamental problem: the show was designed to conclude in one season, and the continuation carries the creative debt. Viewership averaged 1.433 million versus Season 1's 2.379 million, confirming audience attrition. Ready Steady Cut's Nathan Sartain offered a more positive reading, praising the action choreography and the fresh antagonist design. The general critical consensus placed Season 2 as a watchable but unnecessary extension - functional as action entertainment, hollow as a dramatic continuation.",
+      "season_over_season": "Moves from a tightly structured origin story to a broader ensemble battle; the 96-to-64-percent RT swing and viewership decline track the creative cost of continuing a story built to end.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

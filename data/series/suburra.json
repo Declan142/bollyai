@@ -1,0 +1,159 @@
+{
+  "slug": "suburra",
+  "qid": {
+    "value": "Q40119377",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Suburra: Blood on Rome",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Italy",
+  "original_language": {
+    "value": "it",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "In contemporary Rome, two street criminals, a corrupt politician, and an organised crime godfather collide over a Vatican land deal, exposing a city where every institution is for sale.",
+  "poster": {
+    "src": "/img/series/suburra/poster.jpg",
+    "alt": "Suburra: Blood on Rome poster",
+    "attribution": "Poster © Netflix / Cattleya / Rai Fiction. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded with Season 3 in October 2020. Netflix and producers confirmed no further seasons; the series resolved its central criminal arc across 24 episodes.",
+    "source": "Netflix",
+    "source_url": "https://www.rottentomatoes.com/tv/suburra"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-10-06",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100% on Rotten Tomatoes from 7 critics and a 94% audience score; IndieWire and Decider placed it among the strongest European crime dramas on the platform. The Wire comparison that circulated in reviews is earned by the show's sociological ambition."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Its depiction of a modern-day Rome with all the evil that men do is a raw and compelling one.",
+            "source": "IndieWire",
+            "url": "https://www.rottentomatoes.com/tv/suburra/s01/reviews"
+          },
+          {
+            "text": "Suburra has been punching above its weight class from the jump.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/suburra/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7197684/"
+      },
+      "review_body": "Season 1, all 10 episodes released October 6, 2017, was Netflix's first Italian original series and remains one of the strongest cases for the platform's capacity to back genuine national cinema. Based on the 2013 novel by Giancarlo De Cataldo and Carlo Bonini - itself rooted in the real Mafia Capitale scandal - the series follows Aureliano Adami and Spadino Anacleti through Rome's criminal underworld as crime lord Samurai pulls political strings. Critics at 100 percent on Rotten Tomatoes from 7 reviews compared it to The Wire for its sociological reach: not a straightforward crime show but a portrait of an entire city's corruption ecosystem. Alessandro Borghi and Giacomo Ferrara's central performances carry the weight of the show's ambition. The 94 percent audience score reflected strong word-of-mouth.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "21 Days",
+          "air_date": "2017-10-06",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere launches all three narrative strands simultaneously - the street level criminals, the compromised politician, the crime godfather - and establishes the show's formal commitment to parallel storytelling. The 21-day countdown structure creates urgency without the first episode needing to rush its character work.",
+          "the_moment": "The opening sequence establishing Rome itself as the fourth character - the show's declaration of sociological intent.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Pitch Black",
+          "air_date": "2017-10-06",
+          "bollymeter": 8.4,
+          "spoiler_free": "The Season 1 finale brings the land deal and the criminal alignment to their violent conclusion. The resolution is not resolution: the corruption outlasts its current practitioners, and the show makes clear the three protagonists are replaceable components in a system designed to function without them.",
+          "the_moment": "Samurai's final scene - the permanent machinery behind the temporary players.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-02-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "89% on Rotten Tomatoes; the reduced episode count tightened the pacing and the season expanded the political corruption strand. Consistently praised for maintaining the series' formal discipline."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7197684/"
+      },
+      "review_body": "Season 2 arrived in February 2019 with eight episodes and a tighter narrative aperture, deepening the political corruption storyline through Amedeo Cinaglia while keeping the street-level criminal triangle intact. The 89 percent Rotten Tomatoes score reflected a critical consensus that the series had maintained its ambition and formal discipline without significant decline. The reduction from ten to eight episodes was broadly read as a structural improvement, concentrating the show's sociological argument. The performances remained the series' load-bearing asset: Borghi and Ferrara's chemistry had, by this point, generated a genuine fan following beyond the Italian market.",
+      "season_over_season": "Season 2 tightens the political corruption thread and reduces episode count; critics found the compression an improvement on Season 1's pacing."
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-10-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "81% on Rotten Tomatoes; the six-episode final season concluded the criminal arcs without betraying the series' pessimistic worldview. A compressed but coherent ending to a three-season crime portrait."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3, six episodes released October 2020, closed the Suburra story with a characteristically bleak resolution. The final season's compressed format concentrated the endgame - Aureliano and Spadino's fates, the political strand's conclusion, and Samurai's arc - into a tighter run than either predecessor. Critics at 81 percent maintained that the show's intelligence and performance standard had not declined, while noting the accelerated pacing left less room for the sociological texture that distinguished the earlier seasons. The series concluded without sentimentality, consistent with its portrait of Rome as a city whose institutions absorb and outlast the individuals who exploit them.",
+      "season_over_season": "Season 3's six-episode count compresses the finale effectively but reduces the sociological scope that made Seasons 1 and 2 exceptional; a worthy close rather than a triumphant one."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

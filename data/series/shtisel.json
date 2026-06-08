@@ -1,0 +1,177 @@
+{
+  "slug": "shtisel",
+  "qid": {
+    "value": "Q6878481",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shtisel",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Israel",
+  "original_language": {
+    "value": "he",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "yes Oh / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "An ultra-Orthodox Haredi family in Jerusalem's Geula neighbourhood navigates arranged marriages, artistic ambition, grief, and the mundane friction of tradition - with no villain in sight.",
+  "poster": {
+    "src": "/img/series/shtisel/poster.jpg",
+    "alt": "Shtisel poster",
+    "attribution": "Poster © yes Studios / Koda Communications. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 3 aired in late 2020 on yes Oh and reached Netflix internationally in March 2021, completing the three-season run. Creators Ori Elon and Yehonatan Indursky have stated no plans for a fourth season; the story is considered resolved.",
+    "source": "yes Studios / press coverage",
+    "source_url": "https://www.rottentomatoes.com/tv/shtisel"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 12,
+      "release_date": {
+        "value": "2013-06-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes from 5 critics; New York Times called it groundbreaking television; the show won 11 Israeli Television Academy Awards in its first year. The series' achievement is making a closed religious community transparent and moving to all viewers regardless of faith."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Shtisel is refreshingly nonjudgmental, and that may be its best quality.",
+            "source": "Boston Globe",
+            "url": "https://www.rottentomatoes.com/tv/shtisel/s01/reviews"
+          },
+          {
+            "text": "Shtisel is generous, lighthearted, and nostalgic - even when the origins of its nostalgia remain elusive.",
+            "source": "The New Yorker",
+            "url": "https://www.rottentomatoes.com/tv/shtisel/s01/reviews"
+          },
+          {
+            "text": "The show so accurately captures the granular mores of daily Haredi life.",
+            "source": "New York Times",
+            "url": "https://www.rottentomatoes.com/tv/shtisel/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3069894/"
+      },
+      "review_body": "Shtisel premiered on Israeli broadcaster yes Oh in June 2013 and spent its first years as a domestic phenomenon before Netflix acquired international rights in 2018. Season 1, twelve episodes, introduces the widowed yeshiva teacher Shulem Shtisel and his young painter son Akiva in Jerusalem's Geula neighbourhood. The series' formal conceit - no political commentary, no exterior threat, just the interior life of a community that Israeli drama had previously caricatured - generated unanimous critical response. The show won eleven Israeli Television Academy Awards. American critics discovering it via Netflix called it groundbreaking; the New York Times placed it in the tradition of the most humane character television. The 8.6 IMDb rating and 93 percent audience score on Rotten Tomatoes reflected an unusual cross-cultural emotional reach.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Everybody Are Looking for Love",
+          "air_date": "2013-06-29",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes the show's central dynamic: Shulem's anxiety about his son Akiva's unmarried state, and Akiva's absorption in painting. The episode does not dramatise conflict in any conventional sense - it simply places the viewer inside the rhythms of Geula's daily life with enough specificity and affection that the world becomes immediately habitable.",
+          "the_moment": "Akiva at his easel, lost in a portrait - the first signal that the show's emotional register will be interior rather than eventful.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-10-31",
+        "source": "Rotten Tomatoes / TMDB",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "100% on Rotten Tomatoes from 5 critics and a 97% audience score; critics found Season 2 equal to or stronger than Season 1, with the family's expanding web of relationships adding depth without diluting the show's essential stillness."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "The power of Shtisel is in demystifying religious orthodoxy through the experiences of a yeshiva teacher and his struggling artist son.",
+            "source": "Los Angeles Times",
+            "url": "https://www.rottentomatoes.com/tv/shtisel/s02/reviews"
+          },
+          {
+            "text": "It's really great: charming, funny, sad and brilliantly acted. But it's also unusual and fascinating.",
+            "source": "New Statesman",
+            "url": "https://www.rottentomatoes.com/tv/shtisel/s02/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3069894/"
+      },
+      "review_body": "Season 2 continued the Shtisel family's story with twelve episodes and the same formal commitments: no villains, no external politics, and an unwillingness to simplify the Haredi world into either pastoral idealisation or critique. By Season 2, Netflix's international acquisition had begun bringing global audiences to the series, and the critical response from American and British outlets arrived at near-identical conclusions to the Israeli reception. The Los Angeles Times praised the show's demystifying intelligence; the New Statesman found it great, unusual, and brilliantly acted. The 97 percent audience score on Rotten Tomatoes indicated that the show's word-of-mouth had expanded its viewership without diluting the response quality. Shira Haas's performance as Ruchami, emergent in Season 1, became a centrepiece.",
+      "season_over_season": "Season 2 deepens the ensemble without altering the show's essential register; the expanded character network adds texture while the tonal discipline remains intact."
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": {
+        "value": "2021-03-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "94% on Rotten Tomatoes from 3 critics; The Times called the ensemble uniformly excellent; The New Yorker noted the season was produced in response to international audience passion. The nine-episode count is slightly compressed but the quality standard held."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "It is not often that in a large cast you find no dud performers, but there aren't any.",
+            "source": "The Times",
+            "url": "https://www.rottentomatoes.com/tv/shtisel/s03/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3069894/"
+      },
+      "review_body": "Season 3 premiered on yes Oh in December 2020 and reached Netflix internationally in March 2021 - the Netflix debut triggered by the first two seasons' global word-of-mouth, which had made Shtisel a cult phenomenon during pandemic lockdowns. The nine episodes advance the family's story several years, adding new relationships and a changed Jerusalem landscape while maintaining the show's fundamental resistance to drama-as-conflict. The Times called the ensemble uniformly excellent; The New Yorker noted the extraordinary circumstances of production in response to international audience demand. The 94 percent Rotten Tomatoes score from three critics and consistently strong IMDb ratings confirmed the quality had not declined. The series ended here, without announcement but by apparent creative consensus.",
+      "season_over_season": "Season 3 advances the timeline and introduces new characters with the same compassion as the earlier seasons; slightly compressed at nine episodes but consistent with the series' extraordinary standard."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

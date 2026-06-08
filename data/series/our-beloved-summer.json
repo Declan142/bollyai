@@ -1,0 +1,95 @@
+{
+  "slug": "our-beloved-summer",
+  "qid": {
+    "value": "Q107474096",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Our Beloved Summer",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Two exes who made a high-school documentary together are forced back in front of a camera when that footage goes viral five years after their bitter breakup.",
+  "poster": {
+    "src": "/img/series/our-beloved-summer/poster.jpg",
+    "alt": "Our Beloved Summer poster",
+    "attribution": "Poster © SBS / Netflix / Studio N. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; concluded January 25, 2022. Despite modest domestic SBS ratings (averaging 3.9 percent), the series ranked in Netflix's global Top 10 in multiple markets.",
+    "source": "Netflix Top 10 / Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Our_Beloved_Summer"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-12-06",
+        "source": "SBS",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "86-percent Rotten Tomatoes score; IMDb at 8.2; Netflix global Top 10 presence in multiple markets confirmed international reach beyond the modest domestic SBS ratings."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15026724/"
+      },
+      "review_body": "Our Beloved Summer aired on SBS from December 6, 2021, to January 25, 2022, and demonstrated the gap between domestic cable performance and streaming reach: domestic ratings averaged 3.9 percent while the series ranked in Netflix's global Top 10 across multiple markets. Rotten Tomatoes scored it at 86 percent, with critics praising Kim Da-mi and Choi Woo-shik - already an established off-screen pair from their time in The Witch - for chemistry that felt earned rather than constructed. IMDb audiences settled at 8.2. Reviewers noted the screenplay by Lee Na-eun for its creative structure, which weaves the documentary-within-the-drama device into the romance without making it feel contrived. The show received the Director's Award at the 2021 SBS Drama Awards. Critical consensus positioned it as a well-crafted romantic drama elevated by lead performances above its genre's average.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-12-06",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the split timeline with brisk efficiency: the documentary from five years ago, the present-tense awkwardness of a forced reunion, and the clear incompatibility the couple have built into their adult identities. Critics noted the first episode works because both leads make their characters' avoidance of each other fully legible without exposition.",
+          "the_moment": "Yeon-su and Ung's first encounter since the breakup - a scene that tells the audience everything about the cost of their split before any backstory is provided.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2022-01-25",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale ties the documentary thread and the romantic resolution together in a way reviewers called earned by the season's sustained character work. The show does not overstate the reunion and does not undercut it either - a tonal balance critics noted as rare for the genre.",
+          "the_moment": "The final scene with the documentary playing - the show using its central structural device one last time to make the emotional point directly.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

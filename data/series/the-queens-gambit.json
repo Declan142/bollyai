@@ -1,0 +1,115 @@
+{
+  "slug": "the-queens-gambit",
+  "qid": {
+    "value": "Q85808226",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Queen's Gambit",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "An orphaned chess prodigy blazes through the male-dominated tournament circuit of Cold War America and the Soviet Union, powered by obsessive genius and corroded from within by tranquiliser addiction.",
+  "poster": {
+    "src": "/img/series/the-queens-gambit/poster.jpg",
+    "alt": "The Queen's Gambit poster",
+    "attribution": "Poster © Netflix / Flitcraft Ltd. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Designed as a self-contained limited series adapting Walter Tevis's 1983 novel. Anya Taylor-Joy confirmed no continuation is planned and Netflix has not announced a season 2.",
+    "source": "Collider",
+    "source_url": "https://collider.com/anya-taylor-joy-netflix-psychological-drama-series-the-queens-gambit-not-returning-season-2/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 7,
+      "release_date": {
+        "value": "2020-10-23",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "96 percent on Rotten Tomatoes from 103 critics, 8.5/10 on IMDb from hundreds of thousands of ratings, and a then-record 62 million Netflix household views in four weeks. Taylor-Joy's performance and the period production design drew near-universal praise."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 103,
+        "pull_quotes": [
+          {
+            "text": "Taylor-Joy excels in the quiet moments, her eyelids narrowing as she decimates an opponent.",
+            "source": "Entertainment Weekly",
+            "url": "https://ew.com/tv-reviews/2020/10/22/the-queens-gambit-review/"
+          },
+          {
+            "text": "A charming, elegant weirdo who delivers her lines with a cool, wintergreen snap.",
+            "source": "The New Yorker",
+            "url": "https://www.newyorker.com/culture/the-television-critic/the-queens-gambit-is-a-supremely-satisfying-binge"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10048342/ratings/"
+      },
+      "review_body": "All seven episodes landed on Netflix on 23 October 2020 and within days critics had reached a rare consensus: 96 percent fresh on Rotten Tomatoes from 103 reviews, with an average score of 8/10. Variety singled out Taylor-Joy as a lead so magnetic that her flinty stare threatens to cut through the camera lens, and the New Yorker noted the show's ability to make chess legible and viscerally exciting to a general audience. The 11 Emmy wins, including Outstanding Limited Series, confirmed the critical reading. Netflix reported 62 million households viewed within four weeks - its biggest scripted limited series at launch. The period design, the way each opponent is coded as a distinct chess problem, and the score's integration of Beth's interior states make this the rare seven-hour piece that feels perfectly proportioned.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Openings",
+          "air_date": "2020-10-23",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Beth Harmon in the orphanage basement, a nine-year-old watching the janitor play chess on a concrete floor. The show earns immediate trust by refusing to sentimentalise her circumstances - the addiction thread is seeded in the first ten minutes via the institution's tranquiliser regimen. It is a confident, unhurried setup.",
+          "the_moment": "Beth's first encounter with the chess board in the basement - a child's face registering that she has found the one language she speaks fluently.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Fork",
+          "air_date": "2020-10-23",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Moscow tournament arc's pressure begins to fracture Beth as her reliance on pills and alcohol collides with the highest-stakes chess of her life. The episode is where the series transforms from coming-of-age into something darker - a portrait of self-sabotage that critics found both uncomfortable and compulsively watchable.",
+          "the_moment": "Beth's ceiling chess visualisations become distorted, the game and the addiction fusing into a single anxiety-ridden image.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "End Game",
+          "air_date": "2020-10-23",
+          "bollymeter": 9.3,
+          "spoiler_free": "The finale puts Beth across the board from Soviet world champion Borgov in Moscow. It delivers on every setup the series has laid, using chess notation as emotional grammar and resolving Beth's personal arc without the false comfort of full recovery. The IMDb episode rating of 9.2 reflects how well it lands.",
+          "the_moment": "Beth walks out into a Moscow square, strangers playing chess, and the moment shifts from triumph into something more open-ended and truer.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "my-liberation-notes",
+  "qid": {
+    "value": "Q110245384",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Liberation Notes",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Three siblings grinding long commutes from a Seoul suburb and a mysterious stranger at their family farm all chase the same elusive thing: a reason to feel alive.",
+  "poster": {
+    "src": "/img/series/my-liberation-notes/poster.jpg",
+    "alt": "My Liberation Notes poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; concluded May 29, 2022. Writer Park Hae-young has not announced a continuation.",
+    "source": "JTBC",
+    "source_url": "https://en.wikipedia.org/wiki/My_Liberation_Notes"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 16,
+      "release_date": {
+        "value": "2022-04-09",
+        "source": "JTBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 93-percent Rotten Tomatoes score anchors what critics called one of the sharpest depictions of post-growth Korean malaise in recent drama history. Baeksang Best Screenplay 2023 confirmed peer industry recognition."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "A rich and rewarding journey like few others.",
+            "source": "South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/my_liberation_notes/s01"
+          },
+          {
+            "text": "Very beautifully executed in presenting a slice of life that doesn't offer a fairy-tale ending.",
+            "source": "Substack (Jae-Ha Kim)",
+            "url": "https://www.rottentomatoes.com/tv/my_liberation_notes/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15146130/"
+      },
+      "review_body": "Airing on JTBC from April 9 to May 29, 2022, My Liberation Notes gathered a 93-percent Rotten Tomatoes score from critics who clustered on its rare honesty about ordinary unhappiness. Pierce Conran of the South China Morning Post called it far and away the best drama on TV while it aired; Jae-Ha Kim praised its slice-of-life refusal of fairy-tale closure. The 16-episode run tracks three adult siblings in the fictional suburb of Sanpo and a taciturn outsider, Mr. Gu, whose cryptic past gives Mi-jeong a strange anchor. Writer Park Hae-young won the Baeksang Best Screenplay prize in 2023. IMDb audiences settled at 8.2 out of 10. The season rewards patience - the first four episodes are deliberately muted - but the payoff by mid-season is the kind of sustained emotional precision that Korean drama rarely attempts and almost never lands this cleanly.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-04-09",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the Yeom siblings and their grinding Sanpo-to-Seoul commute with deliberate restraint. Critics noted the opening hours move slowly by design - the mundane texture is the point. Mr. Gu arrives at the family farm as a low-key disruption that does not yet announce itself as significant.",
+          "the_moment": "Mi-jeong's Liberation Club proposal to Gu: a blunt demand to be worshipped in place of anything warmer - the moment that sets the season's strange emotional logic.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2022-05-15",
+          "bollymeter": 9.2,
+          "spoiler_free": "The emotional mid-season peak. Mr. Gu's departure forces Mi-jeong to reckon with what she had built around his presence. Critics and audience trackers pointed to this episode as the clearest proof that the show had earned its slow build - the payoff lands without melodrama.",
+          "the_moment": "Mi-jeong standing outside after Gu leaves - the series at its most achingly precise about absence.",
+          "critic_note": {
+            "text": "A rich and rewarding journey like few others.",
+            "source": "South China Morning Post (Pierce Conran)",
+            "url": "https://www.rottentomatoes.com/tv/my_liberation_notes/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

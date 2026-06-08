@@ -1,0 +1,111 @@
+{
+  "slug": "poacher",
+  "qid": {
+    "value": "Q124632125",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Poacher",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "ml",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "Amazon Prime Video",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Based on true events from 2015, a Kerala forest officer and a Delhi-based investigator chase the threads of the largest ivory poaching ring ever uncovered in Indian history.",
+  "poster": {
+    "src": "/img/series/poacher/poster.jpg",
+    "alt": "Poacher series poster",
+    "attribution": "Poster © Amazon MGM Studios / Earthlings Studio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Poacher was conceived as a limited series based on the true 2015 Operation Shikkar case. No second season has been announced; the story is complete as a single eight-episode run.",
+    "source": "Amazon Prime Video",
+    "source_url": "https://www.rottentomatoes.com/tv/poacher/s01"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-02-23",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% on Rotten Tomatoes from 11 critics and 83% audience score; praised for rigorous research and restrained performance work, particularly Dibyendu Bhattacharya and Nimisha Sajayan. Critics noted it keeps the procedural grounded rather than sensationalised."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "Poacher finds entertaining drama in a topic that is rarely seen on TV, but is critically important.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/poacher/s01/reviews"
+          },
+          {
+            "text": "Poacher makes for an immensely moving and resonant experience with enough power to change how we look at the world.",
+            "source": "Hindustan Times",
+            "url": "https://www.rottentomatoes.com/tv/poacher/s01/reviews"
+          },
+          {
+            "text": "Dibyendu Bhattacharya is impressively restrained and commands a magnetic aura.",
+            "source": "Firstpost",
+            "url": "https://www.rottentomatoes.com/tv/poacher/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt24364990/"
+      },
+      "review_body": "Poacher premiered on Amazon Prime Video in February 2024, having screened its first three episodes at Sundance 2023. Created by Richie Mehta - whose Delhi Crime won an International Emmy - and produced by Alia Bhatt, the series dramatises Operation Shikkar: the real 2015 Kerala forest investigation that uncovered links to transnational ivory networks, ultimately resulting in 73 arrests and the recovery of ivory worth approximately 25 crore rupees. Critics at 91 percent on Rotten Tomatoes from 11 reviews praised the show's procedural rigour and its refusal to inflate the case into conventional crime-thriller spectacle. NDTV awarded four stars; The Indian Express, three. The strength audiences identified most consistently was the restraint of the lead performances - Dibyendu Bhattacharya's IFS officer and Nimisha Sajayan's forest officer operating with bureaucratic patience rather than cinematic urgency.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Confessor",
+          "air_date": "2024-02-23",
+          "bollymeter": 7.4,
+          "spoiler_free": "The series opens with the confession that broke the case open: an emaciated man walking into a Kerala forest office. The premiere establishes the investigative geography - Kerala forest divisions, Delhi connections, transnational reach - without rushing toward revelation. The tonal register is set: this is a documentary-inflected procedural, not a heist thriller.",
+          "the_moment": "The moment the investigators realise the confession is pointing toward something far larger than a single poacher.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "The Jungle",
+          "air_date": "2024-02-23",
+          "bollymeter": 8.3,
+          "spoiler_free": "The season's highest-rated individual episode tracks the investigation deep into Kerala's forest divisions where the physical evidence was buried. Critics and audiences consistently identified it as the series' most immersive hour - the procedural patience of earlier episodes paying off in a sustained sequence of discovery.",
+          "the_moment": "The field operation recovering ivory - the scale of the crime made visible after episodes of documentation.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

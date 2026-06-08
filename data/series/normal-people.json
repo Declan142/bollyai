@@ -1,0 +1,101 @@
+{
+  "slug": "normal-people",
+  "qid": {
+    "value": "Q81672757",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Normal People",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Ireland",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC Three / Hulu",
+    "source": "BBC / Hulu",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "Two teenagers from County Sligo - one popular, one quietly brilliant - begin a secret relationship that tracks each other across years and changed circumstances as they move from school to Trinity College Dublin.",
+  "poster": {
+    "src": "/img/series/normal-people/poster.jpg",
+    "alt": "Normal People series poster",
+    "attribution": "Poster © Element Pictures / BBC / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Normal People was produced as a one-season limited series adapting Sally Rooney's novel in full. No continuation has been announced or planned.",
+    "source": "BBC",
+    "source_url": "https://en.wikipedia.org/wiki/Normal_People_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-04-26",
+        "source": "BBC Three",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "91 percent on Rotten Tomatoes from 91 reviews; Metacritic 82; IMDb 8.4. Paul Mescal won BAFTA Best Actor; critics praised the adaptation's intimacy and its refusal to sentimentalise."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 91,
+        "pull_quotes": [
+          {
+            "text": "Edgar-Jones captures all of Marianne's intensity and acumen, her brittleness and damage.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2020/apr/26/normal-people-review-bbc-hulu-daisy-edgar-jones-paul-mescal"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9059760/ratings/"
+      },
+      "review_body": "The 12-episode limited series premiered on BBC Three and Hulu in late April 2020 and drew 91 percent on Rotten Tomatoes from 91 reviews, with a Metacritic of 82. Paul Mescal and Daisy Edgar-Jones were praised as an unusually well-matched pair of debuts: Mescal won a BAFTA for Best Actor and received an Emmy nomination, while Edgar-Jones was praised by the Guardian for capturing Marianne's 'intensity and acumen, her brittleness and damage.' The adaptation's intimacy - tight close-ups, unhurried scenes, an Eliza McLaughlin-directed attention to physical detail - drew comparison to European art cinema more than prestige TV convention. Not all critics agreed: a minority dissented, calling it 'a gutless soap opera for millennials.' The series became the most-streamed BBC programme of 2020, with 62.7 million views from April to November.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-04-26",
+          "bollymeter": 8.5,
+          "spoiler_free": "The opening episode establishes the secret romance between Connell and Marianne in their final year of secondary school in Sligo. Director Lenny Abrahamson's approach is largely wordless and observational - the camera stays close, the dialogue sparse. Critics noted the episode trusts its leads completely, with almost no expository scaffolding.",
+          "the_moment": "Connell's drive to Marianne's house, and the first time the series makes the power dynamic between them legible without stating it.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2020-05-26",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale closes the adaptation of Rooney's novel at a moment that is deliberately unresolved - the relationship's status is conditional, the future genuinely open. Critics praised the ending for refusing the neat romantic payoff the format might have demanded, keeping faith with the novel's refusal to comfort.",
+          "the_moment": "The final exchange between Connell and Marianne, which does not resolve as cleanly as either might want.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

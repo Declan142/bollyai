@@ -1,0 +1,146 @@
+{
+  "slug": "bridgerton",
+  "qid": {
+    "value": "Q85748936",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bridgerton",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Shondaland's lavish Regency-era fantasy follows the eight Bridgerton siblings through London's competitive marriage market in an alternate history where race is no barrier to the ton - each season following a different sibling's courtship arc.",
+  "poster": {
+    "src": "/img/series/bridgerton/poster.jpg",
+    "alt": "Bridgerton poster",
+    "attribution": "Poster © Netflix / Shondaland. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed through Season 6. Season 4 (Francesca's story) aired January-February 2026. Season 5 is in development with Francesca as lead. The show is Netflix's most-watched English-language series franchise.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bridgerton_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-12-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "87 percent on Rotten Tomatoes. Critics praised the lush production design and Rege-Jean Page's charismatic lead performance, while noting the show's deliberate shamelessness about its soap-opera mechanics as a feature rather than a flaw. IMDb overall series sits at 7.5 from 224K ratings."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A sudsy, sumptuous, and thoroughly fun period drama that proves Shonda Rhimes can spin gold in any era.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/bridgerton/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8740790/ratings/"
+      },
+      "review_body": "Bridgerton arrived on Christmas Day 2020 from Shonda Rhimes's first Netflix production and immediately found a massive audience. Critics scored it 87 percent on Rotten Tomatoes, with the consensus positioning it as a deliberately trashy period romance that earns its indulgences - the Regency setting is an aesthetic choice, not a pretension to historical accuracy, and the show is sharp enough about that distinction. Rege-Jean Page as Simon Basset drew disproportionate critical attention and became the dominant reason viewers cited for finishing all 8 episodes in a single sitting. The 70 percent audience score on Rotten Tomatoes sits below the critic score, reflecting a viewer base split between those who wanted more soap and those who wanted more period drama. The series established Shondaland on streaming as a genuine force for prestige-adjacent popular entertainment.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-03-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "78 percent on Rotten Tomatoes - the series' lowest critical score. Critics noted Rege-Jean Page's absence as a significant loss and found the Anthony-Kate slow-burn frustrating in its middle episodes. The season is the franchise's most divisive, with audiences largely staying loyal despite the critical dip."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8740790/ratings/"
+      },
+      "review_body": "Season 2 arrived in March 2022 with a new romantic lead pairing and without Rege-Jean Page, whose absence critics registered immediately. The 78 percent Rotten Tomatoes score is the franchise's lowest, and the consensus around Season 2's weaknesses is fairly consistent: the Anthony-Kate courtship extends its 'enemies to lovers' pivot across too many episodes of misunderstanding and near-miss before delivering its satisfaction. Jonathan Bailey's performance kept the season watchable and critics acknowledged the craft even while noting the structural issues. The season still performed massively for Netflix, confirming that the show's audience is loyal enough to absorb a transitional instalment. The Shondaland production design remained immaculate throughout.",
+      "season_over_season": "A noticeable step back from Season 1's momentum - a new romantic lead pairing that takes longer to ignite than the Page-Dynevor chemistry, complicated by the mid-season pacing issues the show has not fully solved."
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-05-16",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "87 percent on Rotten Tomatoes, the series high at debut (later matched) with a 76 percent audience score. Critics cited the Colin-Penelope arc as the most emotionally satisfying romance since Season 1, and the split-release format (Part 1 May 16, Part 2 June 13) generated sustained conversation."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 3 is a return to Bridgerton at its most satisfying - the Colin-Penelope arc delivers the payoff their fans have waited three seasons for.",
+            "source": "GamesRadar",
+            "url": "https://www.gamesradar.com/entertainment/drama-shows/netflix-new-top-show-with-a-great-rotten-tomatoes-score-breaks-a-streaming-record-bridgerton-season-3/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8740790/ratings/"
+      },
+      "review_body": "Season 3 split into two four-episode parts across May and June 2024 and became the Netflix record-holder for most views in its debut weekend at the time. Critics returned to 87 percent on Rotten Tomatoes - matching Season 1 and ending Season 2's dip - with reviewers noting that the Colin and Penelope storyline, built as a slow-burn across two prior seasons, justified its wait. The ensemble structure still struggles with supporting storylines that do not match the central pairing's emotional weight, but the show's defenders argued Season 3 is Bridgerton finally operating at full efficiency. GamesRadar reported it broke a Netflix streaming record at launch. The audience score at 76 percent confirms Season 3 was a genuine corrective to the Season 2 dip.",
+      "season_over_season": "A meaningful recovery from Season 2 - the Colin-Penelope pairing had been seeded across prior seasons and its payoff generated the franchise's most sustained critical approval since Season 1. The split-release format maintained audience interest across a four-week window."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

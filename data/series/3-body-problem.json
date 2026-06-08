@@ -1,0 +1,101 @@
+{
+  "slug": "3-body-problem",
+  "qid": {
+    "value": "Q110652727",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "3 Body Problem",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A decision made during China's Cultural Revolution to broadcast Earth's location into space sets in motion an extraterrestrial civilization's countdown to invasion, which a group of Oxford scientists piece together 400 years too late to stop but perhaps not too late to survive.",
+  "poster": {
+    "src": "/img/series/3-body-problem/poster.jpg",
+    "alt": "3 Body Problem poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Seasons 2 and 3 simultaneously in May 2024. Back-to-back production began in Budapest in November 2025, adapting Liu Cixin's 'The Dark Forest' and 'Death's End'. Showrunners David Benioff and D.B. Weiss confirmed a planned multi-season arc.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/3_Body_Problem_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-03-21",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "78 percent on Rotten Tomatoes from 115 critics, Metacritic 70, IMDb approximately 7.9. Critics acknowledged the scale of the ambition and the $160 million production budget's visible results while noting uneven character work. The audience score matched critics at 76 percent, indicating genuine engagement without full conviction."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 115,
+        "pull_quotes": [
+          {
+            "text": "Ambitious, towering and crammed with big ideas about intellectual curiosity, exploration and our place in the universe while still managing to tell intimate stories.",
+            "source": "Screen Rant",
+            "url": "https://screenrant.com/3-body-problem-show-rotten-tomatoes-score/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13016388/ratings/"
+      },
+      "review_body": "Netflix's adaptation of Liu Cixin's landmark science-fiction novel arrived in March 2024 from Game of Thrones showrunners Benioff and Weiss, backed by a reported $160 million budget for 8 episodes. Critics scored it 78 percent on Rotten Tomatoes, with the consensus tracking two distinct responses: those who found the show a triumphant piece of prestige sci-fi that opened up a genuinely alien threat with visual and conceptual ambition, and those who found the Western character transplant from the source material smoothed away the novel's most distinctive textures. The six-protagonist ensemble is the show's biggest structural gamble and its most consistent target for criticism - too many characters receiving insufficient depth. The Gotham TV Award win and six Emmy nominations confirmed the show's industry standing. Audiences rated it 76 percent on Rotten Tomatoes, with IMDb tracking closer to 7.9, suggesting the fanbase settled somewhere between the lukewarm critics and the excited recommenders.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Countdown",
+          "air_date": "2024-03-21",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere opens in China during the Cultural Revolution before jumping to present-day Oxford, where a physicist's suicide triggers an investigation that reveals a countdown visible only to specific observers. It is a high-concept premiere that does not condescend to its audience - the science is treated as genuinely interesting, not as obstacle to be cleared.",
+          "the_moment": "The first appearance of the countdown - a number only the targeted viewer can see - making something abstract feel immediately visceral.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Judgment Day",
+          "air_date": "2024-03-21",
+          "bollymeter": 8.3,
+          "spoiler_free": "The episode that most critics identified as the season's turning point: the VR game's true nature becomes clear and the show's alien civilization acquires a concrete and terrifying logic. The scale of what the San-Ti represent is finally rendered in a way that matches the novel's intended dread.",
+          "the_moment": "The dehydration sequence in the VR game - visually inventive and the moment the show commits to its most unsettling premise.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

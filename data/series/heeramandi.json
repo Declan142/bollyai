@@ -1,0 +1,115 @@
+{
+  "slug": "heeramandi",
+  "qid": {
+    "value": "Q124416531",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Heeramandi: The Diamond Bazaar",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "In 1940s Lahore, the women of the Heeramandi kotha navigate love, betrayal, and the independence movement as British colonial rule fractures the world they were born into.",
+  "poster": {
+    "src": "/img/series/heeramandi/poster.jpg",
+    "alt": "Heeramandi: The Diamond Bazaar poster",
+    "attribution": "Poster © Netflix / Bhansali Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Netflix renewed for Season 2 in June 2024, within five weeks of the premiere. Season 2 moves the courtesans from Lahore to the post-partition Indian film industry. No release date announced as of mid-2026.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/global/news/sanjay-leela-bhansali-heeramandi-season-2-netflix-1236022762/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-05-01",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "46% on Rotten Tomatoes from 13 critics tracks a near-split reception: the visual spectacle is undeniable, but the consensus found pacing problems and thin characterisation behind the opulence."
+      },
+      "critic": {
+        "positive_pct": 46,
+        "sample": 13,
+        "pull_quotes": [
+          {
+            "text": "Heeramandi's lavish production design and sprawling cast are hampered by rote pacing and a grim treatment of its characters.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/heeramandi_the_diamond_bazaar/s01"
+          },
+          {
+            "text": "The series is visually stunning, but gets laboured and exhausting due to a weak storyline.",
+            "source": "Gulf News",
+            "url": "https://www.rottentomatoes.com/tv/heeramandi_the_diamond_bazaar/s01/reviews"
+          },
+          {
+            "text": "Bhansali's Netflix series mirrors his film-making's finest and frustrating features.",
+            "source": "Rediff",
+            "url": "https://www.rottentomatoes.com/tv/heeramandi_the_diamond_bazaar/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15204292/"
+      },
+      "review_body": "Heeramandi arrived on Netflix in May 2024 as Sanjay Leela Bhansali's first original series, carrying a reported production budget of 200 crore rupees. The eight-episode season follows the kothi women of Lahore's red-light district as the independence movement pulls at the world around them. Critics were split almost exactly down the middle: 46 percent on Rotten Tomatoes from 13 reviews. The consensus praised the period production design and costume work as among the most ambitious on Indian streaming. The objections clustered around narrative pacing, particularly in the first five episodes, and a screenplay that critics felt subordinated character psychology to spectacle. The audience response was warmer at 69 percent Popcornmeter, and the series spent four weeks in Netflix's global non-English top ten, accumulating approximately 90.9 million hours viewed in its first month. The final three episodes received substantially better individual reception than the middle run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Mallikajaan: The Queen of Heeramandi",
+          "air_date": "2024-05-01",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere establishes the kotha hierarchy with Manisha Koirala's Mallikajaan at its apex, and drops the season's two central conflicts: the mother-daughter power struggle within Heeramandi and the gathering storm of the independence movement outside its gates. Critics noted the episode prioritises visual grammar over character grounding.",
+          "the_moment": "Mallikajaan descending the stairs for the first time - the series announcing its aesthetic register.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Heeramandi: The Swan Song",
+          "air_date": "2024-05-01",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale brings the independence storyline to its culmination and resolves the season's central power conflict. Reviewers broadly found the last three episodes the strongest of the season, with the finale receiving comparatively better audience reception than the middle episodes.",
+          "the_moment": "The performance scene that folds political resistance into the classical mujra tradition - the visual argument the whole season was building toward.",
+          "critic_note": {
+            "text": "Feels slow until its last three episodes, where Bhansali's ambition finally coheres.",
+            "source": "Film Companion",
+            "url": "https://www.rottentomatoes.com/tv/heeramandi_the_diamond_bazaar/s01/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

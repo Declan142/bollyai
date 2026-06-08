@@ -1,0 +1,86 @@
+{
+  "slug": "1899",
+  "qid": {
+    "value": "Q98446867",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "1899",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Passengers aboard a steamship travelling from Southampton to New York in 1899 discover a missing sister ship adrift at sea - and find its presence unravelling the logic of reality itself.",
+  "poster": {
+    "src": "/img/series/1899/poster.jpg",
+    "alt": "1899 series poster",
+    "attribution": "Poster © Netflix / Dark Ways GmbH. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled 1899 on 2 January 2023 after one season. Creators Jantje Friese and Baran bo Odar announced the cancellation on social media, stating they had planned a three-season run modelled on their prior series Dark.",
+    "source": "Deadline",
+    "source_url": "https://deadline.com/2023/01/1899-canceled-one-season-netflix-1235209999/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-11-17",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "79 percent on Rotten Tomatoes from 28 reviews; Metacritic 68; IMDb 7.3. Critics praised atmosphere and ambition but the cancellation closed the story mid-arc."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 28,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9319668/ratings/"
+      },
+      "review_body": "The eight-episode first season premiered on Netflix on 17 November 2022, debuted at number one in 58 countries, and accumulated over 250 million viewing hours in its first month. Critical response settled at 79 percent on Rotten Tomatoes from 28 reviews, with Metacritic at 68. Critics from Collider and MovieWeb ranked it among the best new shows of 2022 for its atmospheric mystery and multilingual ensemble aboard a period ocean liner. The show's creators - Jantje Friese and Baran bo Odar, whose prior series Dark was widely considered a benchmark for puzzle-box streaming drama - embedded a science-fiction substructure beneath the period surface. Netflix cancelled the series on 2 January 2023 with Friese and bo Odar confirming publicly that two further planned seasons would not be made. The cancellation renders the first season permanently unresolved.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Ship",
+          "air_date": "2022-11-17",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the Kerberos's multilingual passenger manifest and the eerie discovery of the drifting Prometheus. Critics who responded well to Dark found the visual language - maritime Gothic, deep-focus corridors, deliberate pacing - immediately recognisable as a Friese-bo Odar production. The episode builds atmosphere with restraint.",
+          "the_moment": "The first look inside the abandoned sister ship, and the strange figure discovered there.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

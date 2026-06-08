@@ -1,0 +1,106 @@
+{
+  "slug": "the-trauma-code",
+  "qid": {
+    "value": "Q124128670",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Trauma Code: Heroes on Call",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix official site",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A borderline-reckless trauma surgeon arrives at a failing university hospital with combat-zone skills and zero patience for bureaucracy, forcing a dysfunctional team to become South Korea's best trauma unit.",
+  "poster": {
+    "src": "/img/series/the-trauma-code/poster.jpg",
+    "alt": "The Trauma Code: Heroes on Call poster",
+    "attribution": "Poster © Netflix / Studio N / Mays Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Netflix reached 11.9 million views in 10 days; the service was reportedly considering a multi-season order as of late 2025. No official Season 2 announcement confirmed as of June 2026.",
+    "source": "Anime News Network",
+    "source_url": "https://www.animenewsnetwork.com/news/2025-09-28/netflix-considers-multi-season-order-for-trauma-code-heroes-on-call-live-action-series/.229171"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-01-24",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "99 percent audience score on Rotten Tomatoes, 11.9 million global views in 10 days, Blue Dragon Best Drama and Baeksang Best Actor for Ju Ji-hoon; critic consensus cited the show as the medical action genre at its most kinetic and emotionally grounded."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Central to the show's success is Ju, who has seldom been better.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3294600/review-trauma-code-heroes-on-call-netflix-k-drama"
+          },
+          {
+            "text": "Glossy, snappy and zippy, with a touch of irreverence, and overall very slurpable and fun to watch.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2025/03/10/review-the-trauma-code-heroes-on-call/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28106730/ratings/"
+      },
+      "review_body": "All 8 episodes dropped January 24, 2025, and the show reached Netflix's global number-one non-English TV position within 10 days, topping charts in 17 countries and entering the top 10 in 63 nations. The RT audience score held at 99 percent. Critics noted the show takes the Korean medical drama template established by Dr. Romantic and strips away sentiment in favour of velocity: fast cuts, compressed crises, a lead character designed as pure competence fantasy. Ju Ji-hoon took the Blue Dragon Best Drama and Baeksang Best Actor awards. The South China Morning Post's Pierce Conran gave it four stars, calling Ju's performance the spine of the show's success. The 8-episode count keeps pacing sharp and avoids the mid-season slump endemic to longer K-drama runs.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Enter Doctor Maniac",
+          "air_date": "2025-01-24",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the show's tonal register in its opening minutes: Baek Kang-hyuk operating under duress with the calm of someone who has already seen worse. His arrival at Hankuk National University Hospital plays as culture collision - the gap between his standards and the unit's current reality is the engine the whole series will run on. Audiences noted the first episode as unusually well-calibrated for a pilot.",
+          "the_moment": "Kang-hyuk's first emergency procedure in the underfunded unit, performed with equipment that should not work and a team that does not yet trust him.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Code Black",
+          "air_date": "2025-01-24",
+          "bollymeter": 8.7,
+          "spoiler_free": "The episode with the highest individual IMDb rating in the season centres on a mass-casualty event that tests whether the team Kang-hyuk has assembled can operate without him in the room. The structural pressure is cleanly constructed, the pacing relentless. Audiences and critics cited it as the standout hour of the eight.",
+          "the_moment": "The unit's first coordinated large-scale response - the moment the team coheres as a unit rather than a collection of individuals.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

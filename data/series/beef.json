@@ -1,0 +1,139 @@
+{
+  "slug": "beef",
+  "qid": {
+    "value": "Q112168983",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Beef",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Two strangers whose road rage incident spirals into all-consuming mutual destruction become a prism for the rage, thwarted ambition, and isolation humming beneath the surface of the American immigrant dream.",
+  "poster": {
+    "src": "/img/series/beef/poster.jpg",
+    "alt": "Beef poster",
+    "attribution": "Poster © Netflix / A24. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 premiered April 16, 2026 with a new story: two couples entangled in blackmail at an elite country club. Creator Lee Sung Jin confirmed it continues as an anthology format.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Beef_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-04-06",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "98 percent on Rotten Tomatoes from 126 critics, 8.4 on IMDb, and a clean sweep at the 75th Emmys with 8 wins including Outstanding Limited Series, lead actor, and lead actress. The critics consensus calls it 'a prime cut comedy that finds the pathos in pettiness'."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 126,
+        "pull_quotes": [
+          {
+            "text": "Ali Wong and Steven Yeun are a diabolically watchable pair of adversaries in Beef, a prime cut comedy that finds the pathos in pettiness.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/beef/s01"
+          },
+          {
+            "text": "Beef captured 2023's undercurrent of unfocused discontent with intensity, empathy and underlying humor.",
+            "source": "NBC News",
+            "url": "https://www.nbcnews.com/news/asian-america/fans-critics-agree-beef-one-best-shows-year-rcna79186"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14403178/ratings/"
+      },
+      "review_body": "Dropped on Netflix in April 2023, Beef earned 98 percent on Rotten Tomatoes from 126 critics - one of the highest debut scores for any Netflix drama. Creator Lee Sung Jin wrote all ten episodes, and critics immediately identified the tonal precision: the show is genuinely funny about things that are genuinely painful - class anxiety, immigrant-child pressure, marital quiet desperation. Ali Wong and Steven Yeun locate hurt and shame in their characters that makes the escalating road rage feud feel less absurd and more like recognition. The 75th Emmy Awards confirmed the critical read: eight wins including Outstanding Limited Series, both lead acting prizes, directing, and writing - an unprecedented clean sweep for a Netflix comedy. IMDb audience score of 8.4 from a large base aligns with critical assessment.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Birds Don't Sing, They Screech in Pain",
+          "air_date": "2023-04-06",
+          "bollymeter": 8.8,
+          "spoiler_free": "Danny Cho and Amy Lau collide in a parking lot and the episode turns a banal provocation into a precise portrait of two people one bad day away from collapse. The show's tone arrives fully formed: dark comedy that refuses to insulate the audience from the actual cost of the characters' choices.",
+          "the_moment": "The chase sequence that ends the cold open - played straight enough that the absurdity lands harder than any joke.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Drama of Original Choice",
+          "air_date": "2023-04-06",
+          "bollymeter": 9.1,
+          "spoiler_free": "The episode most critics cited when discussing the show's formal ambition. The feud's consequences have metastasised beyond any rational proportion and the script turns that into a meditation on free will and the stories people tell about their own behaviour.",
+          "the_moment": "A confrontation that strips away the road-rage framing to reveal what both characters are actually angry about.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Figures of Light",
+          "air_date": "2023-04-06",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale is the episode that turned critical praise into awards momentum. The show earns its ending by refusing every available escape hatch and delivering instead a conclusion that is, as multiple reviewers noted, genuinely surprising and genuinely earned. The final scene generated more conversation than any other moment of the 2023 TV season.",
+          "the_moment": "The final exchange between Danny and Amy - spoiler-free but the emotional register most viewers cite as the one that stayed with them.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-04-16",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "89 percent on Rotten Tomatoes from 88 critics and a Metacritic score of 77. Critics found the anthology pivot engaging but noted the absence of Wong and Yeun's specific chemistry leaves a gap the new cast takes time to fill."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 88,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in April 2026 as a full anthology pivot - new characters, new conflict, same creator. Two couples at an elite country club become entangled in blackmail, giving Lee Sung Jin a different social class to dissect. Critics scored it 89 percent on Rotten Tomatoes with a Metacritic of 77, noting that the show's thematic intelligence survives the cast change even if the raw friction of Wong and Yeun is irreplaceable. The 8-episode structure is leaner than Season 1's 10-episode build, and the blackmail premise generates slower-burning tension. Audience data is still accumulating as of June 2026. The critical consensus is that it is a worthy continuation of the anthology project, not a diminishment.",
+      "season_over_season": "Abandons the road rage premise and both lead actors for a new story, a structural bet that Season 1's acclaim was about the show's ideas rather than its specific characters. Critics found the bet largely vindicated; audiences had not reached a settled verdict by June 2026."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

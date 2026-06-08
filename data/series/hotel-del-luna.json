@@ -1,0 +1,95 @@
+{
+  "slug": "hotel-del-luna",
+  "qid": {
+    "value": "Q61981835",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hotel del Luna",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A thousand-year-old hotel for restless ghosts is run by a beautiful, wrathful owner bound there by ancient punishment - until a reluctant Harvard-trained manager gets tangled in her world.",
+  "poster": {
+    "src": "/img/series/hotel-del-luna/poster.jpg",
+    "alt": "Hotel del Luna poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; concluded September 1, 2019. A US-set remake is in development at Skydance Media. A stage musical adaptation premiered in South Korea in 2022.",
+    "source": "Variety / Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hotel_del_Luna"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-07-13",
+        "source": "tvN",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb settled at 8.1 from a large base. Viewership peaked at 12.001 percent nationwide - exceptional for a cable run. IU's Baeksang Best Actress nomination confirmed industry respect for the lead performance. The back half is weaker than the front, which caps the score."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10220588/"
+      },
+      "review_body": "Hotel del Luna aired on tvN from July 13 to September 1, 2019, and became the best-rated Hong Sisters drama, peaking at 12.001 percent nationwide cable viewership. IU's portrayal of Man-wol - 1,300 years of sorrow weaponised into contempt - drew consistent critical notice as a performance that sells fantasy on sheer conviction. Yeo Jin-goo anchors the mortal-world logic as Chan-sung, the Harvard MBA dragged into her orbit. The production design and original soundtrack drew near-universal praise from reviewers. A US remake entered development at Skydance Media. Critical consensus noted the back half of the season loses structural tightness as the episodic ghost-of-the-week format gives way to Man-wol's backstory reveals, which some reviewers found melodramatic where the first eight episodes were elegant. IMDb audiences settled at 8.1. The finale achieved an 8.6 IMDb episode rating, suggesting the ending satisfied its core audience despite the mid-season dip.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Welcome to Hotel del Luna",
+          "air_date": "2019-07-13",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the hotel's rules - ghosts with unresolved business, a proprietor who hates being disturbed - and the reluctant manager's induction into this world. Critics noted the visual design as immediately distinct: a crumbling palace hidden in plain sight in modern Seoul.",
+          "the_moment": "Man-wol's first full entrance in the hotel lobby - costume, lighting, and IU's stillness doing more worldbuilding than the dialogue.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Lunar Eclipse",
+          "air_date": "2019-08-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "An episode that audience trackers rated 8.5 on IMDb - the season's highest-scoring episode outside the finale block. The emotional weight shifts here from episodic ghost resolution to Man-wol's ancient debt, and the show demonstrates that it can sustain its mythology without losing the wry tone that made the early episodes work.",
+          "the_moment": "The lunar eclipse sequence - a rare moment where the show's visual ambition and its emotional stakes align perfectly.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

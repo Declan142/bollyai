@@ -1,0 +1,105 @@
+{
+  "slug": "my-demon",
+  "qid": {
+    "value": "Q120721044",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Demon",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A 200-year-old demon who loses his powers in an accident enters a contract marriage with a chaebol heiress who needs his protection - and both get more than they negotiated for.",
+  "poster": {
+    "src": "/img/series/my-demon/poster.jpg",
+    "alt": "My Demon poster",
+    "attribution": "Poster © SBS / Studio S / Binge Works. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes, concluded January 20, 2024. No continuation has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_Demon_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-11-24",
+        "source": "SBS",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "60 percent Rotten Tomatoes from 5 critics; 7.7 IMDb; 81 percent audience score on RT. Lead chemistry is the consensus strength; critics split on whether the fantasy plotting and mid-series pacing hold up beyond the central romance."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Sizzling with chemistry, playful banter and well-timed humour.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/my-demon-review-k-drama-song-kang-kim-yoo-jung-3555104"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt29569035/ratings/"
+      },
+      "review_body": "Aired on SBS from November 24, 2023 to January 20, 2024, My Demon ranked second on Netflix's Global Top-10 TV (Non-English) category during its run. The Straits Times awarded four stars, pointing to the on-screen chemistry between Song Kang and Kim You-jung as the show's engine. That chemistry is real and critics agreed on it; the 60-percent Rotten Tomatoes score from five critics reflects a split on whether the fantasy architecture and second-half plotting are sufficient to support a 16-episode run. The South China Morning Post's Pierce Conran was more critical, citing excessive product placement and narrative repetition. The audience score of 81 percent Popcornmeter tracks a viewer base that came for the leads and left satisfied with what the leads delivered. Average SBS broadcast ratings of 3.9 percent nationwide.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 3,
+          "title": "Joining Hands With a Demon",
+          "air_date": "2023-12-08",
+          "bollymeter": 8.1,
+          "spoiler_free": "The episode where the contract arrangement is formalised and the tonal dynamic between the two leads locks into its groove. Audiences and critics cited episode 3 as the point where the show's specific charms become clear - the comedy of cohabitation, the underlying stakes, the chemistry that the Straits Times would later describe as the show's spine.",
+          "the_moment": "The contract signing - a fantasy K-drama staple executed here with enough mutual suspicion and physical comedy to feel less formulaic than it should.",
+          "critic_note": {
+            "text": "Sizzling with chemistry, playful banter and well-timed humour.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/my-demon-review-k-drama-song-kang-kim-yoo-jung-3555104"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Our Personal Heaven",
+          "air_date": "2024-01-20",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale resolves the fantasy mechanics and the romance arc simultaneously. Audiences who stayed largely found it satisfying; critics who had flagged mid-series pacing issues noted the finale does not overcome those structural debts but delivers enough emotional closure for the central relationship to register as a complete story.",
+          "the_moment": "The resolution of the demon's centuries-long arc - whether what he gains compensates for what the contract began - is the question the finale answers.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

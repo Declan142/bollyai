@@ -1,0 +1,105 @@
+{
+  "slug": "flower-of-evil",
+  "qid": {
+    "value": "Q85982056",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Flower of Evil",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A man living under a false identity hides his violent past from his detective wife - who begins investigating the very murders that may expose him.",
+  "poster": {
+    "src": "/img/series/flower-of-evil/poster.jpg",
+    "alt": "Flower of Evil poster",
+    "attribution": "Poster © tvN / Studio Dragon / Monster Union. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; concluded September 23, 2020. Director Kim Cheol-kyu won Baeksang Best Director. Three international remakes followed in the Philippines, India (Duranga), and China (Deceit).",
+    "source": "Baeksang Arts Awards",
+    "source_url": "https://en.wikipedia.org/wiki/Flower_of_Evil_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-07-29",
+        "source": "tvN",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb settled at 8.5 across a large user base; MyDramaList at 9.0 from over 95,000 raters; three international remakes signal rare cross-market consensus on the premise's quality. Baeksang Best Director win confirmed craft recognition."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Lee Joon-gi delivers a career-best performance as a character who isn't black or white.",
+            "source": "Collider",
+            "url": "https://collider.com/best-k-dramas-most-plot-twists-ranked/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11691684/"
+      },
+      "review_body": "Flower of Evil aired on tvN from July 29 to September 23, 2020, and became one of the most widely remade Korean dramas of its decade - spawning a Philippine version (2022), the Hindi series Duranga (2022), and the Chinese Deceit (2023). The premise is a domestic thriller locked around dramatic irony: the audience knows Hee-sung is concealing his identity from his detective wife Ji-won before she begins connecting the murders she investigates to the man she trusts. Director Kim Cheol-kyu won the Baeksang Best Director prize. Lee Joon-gi's performance drew consistent critical notice for sustaining ambiguity across 16 episodes without losing audience investment. Review Geek called it a cleverly written show that subverts expectations and hops genres without losing its premise. IMDb audiences landed at 8.5 and MyDramaList at 9.0. The finale episode achieved the series' peak domestic rating at 6.2 percent, unusually high for a tvN cable run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-07-29",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere is built on a formally elegant deception: everything the audience is shown about Hee-sung's domestic life is technically true, yet the framing implies something is wrong. The episode establishes the show's central trick - letting the viewer suspect more than Ji-won does - before any plot mechanism has been deployed.",
+          "the_moment": "The scene where Hee-sung touches his daughter and the camera holds a beat too long - a single cut that plants the doubt the series will spend 15 episodes exploiting.",
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "Episode 14",
+          "air_date": "2020-09-16",
+          "bollymeter": 9.4,
+          "spoiler_free": "Critics and audience forums identified the penultimate two-parter as the series' emotional peak. The structural irony that powered the season collapses here into direct confrontation, and Lee Joon-gi and Moon Chae-won both deliver what reviewers described as career-best work in the same hour.",
+          "the_moment": "Ji-won's reckoning with what she knows versus what she is willing to act on - the show's moral question made explicit at last.",
+          "critic_note": {
+            "text": "Lee Joon-gi delivers a career-best performance as a character who isn't black or white.",
+            "source": "Collider",
+            "url": "https://collider.com/best-k-dramas-most-plot-twists-ranked/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

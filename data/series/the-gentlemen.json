@@ -1,0 +1,92 @@
+{
+  "slug": "the-gentlemen",
+  "qid": {
+    "value": "Q115860329",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Gentlemen",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A former army captain inherits a dukedom and discovers his family estate is the operational hub for Britain's most lucrative cannabis empire, forcing him to decide whether to evict it or run it while a who's-who of criminal and aristocratic predators circle the prize.",
+  "poster": {
+    "src": "/img/series/the-gentlemen/poster.jpg",
+    "alt": "The Gentlemen poster",
+    "attribution": "Poster © Netflix / Miramax. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Season 2 in August 2024, with a premiere window of late 2026. Guy Ritchie returns as creator and director. The Season 2 cast and storyline had not been fully announced as of June 2026.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/global/guy-ritchie-the-gentlemen-season-2-theo-james-netflix-1236102867/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-03-07",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "75 percent on Rotten Tomatoes from 72 critics, Metacritic 66. The consensus is 'slick as a well-pressed suit' - an accurate summary of a show that delivers Guy Ritchie's signature kinetic style in episodic form without matching his best film work. The cast is uniformly watchable and the show won Outstanding Stunt Coordination at the 76th Emmys."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 72,
+        "pull_quotes": [
+          {
+            "text": "Slick as a well-pressed suit and given watchable wattage by its cast, The Gentlemen has enough verve to be fun on its own terms.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_gentlemen"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13210838/ratings/"
+      },
+      "review_body": "Guy Ritchie's spin-off of his 2019 film landed on Netflix in March 2024 with a pedigree: the director's verbal wit, the criminal-aristocracy collision, and a cast led by Theo James navigating between military bearing and criminal pragmatism. Critics scored it 75 percent on Rotten Tomatoes from 72 reviews, with the consensus acknowledging the show's pleasures while noting it does not transcend the genre. The Metacritic score of 66 reflects critics who found the plotting thin beneath the surface sheen. Kaya Scodelario and Giancarlo Esposito received specific praise for their supporting turns. Individual episode IMDb ratings cluster between 7.7 and 8.2, suggesting consistent episode quality without a standout hour. The 76th Emmy win for stunt coordination is the show's one industry recognition, pointing accurately at where its craft investment landed. Season 2 renewal in August 2024 confirmed Netflix's confidence in the property.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Refined Aggression",
+          "air_date": "2024-03-07",
+          "bollymeter": 8.2,
+          "spoiler_free": "Eddie Horniman inherits Halstead Manor and the cannabis operation buried underneath it in a premiere that establishes Guy Ritchie's television voice clearly: kinetic editing, overlapping crime-world dialogue, and a straight-arrow protagonist dropped into a world that reads him as comedy. The episode scored 8.2 on IMDb, the season's joint high.",
+          "the_moment": "Eddie's first encounter with Susie Glass - the scene that maps out the power dynamic that will run the entire season.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

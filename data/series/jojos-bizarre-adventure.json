@@ -1,0 +1,248 @@
+{
+  "slug": "jojos-bizarre-adventure",
+  "qid": {
+    "value": "Q28930028",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "JoJo's Bizarre Adventure",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Across generations of the Joestar bloodline - from Victorian England to present-day Florida - every heir inherits an increasingly baroque supernatural threat, a unique combat ability, and a surname that functions as fate.",
+  "poster": {
+    "src": "/img/series/jojos-bizarre-adventure/poster.jpg",
+    "alt": "JoJo's Bizarre Adventure series poster",
+    "attribution": "Poster © Hirohiko Araki / Shueisha / David Production. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Part 6 (Steel Ball Run) began airing March 19, 2026, continuing David Production's adaptation of the manga's remaining arcs.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 26,
+      "release_date": {
+        "value": "2012-10-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "85% Rotten Tomatoes from 3 critics; IMDb overall series 8.5. The double-bill of Phantom Blood and Battle Tendency is a foundational text for understanding the franchise's tone and humour - critics noted its 'good anime with interesting side characters' quality while flagging the limited animation budget of a 2012 debut."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "A good anime with a lot of humor and interesting side characters - Part 2 is a perfect follow-up with a unique story structure.",
+            "source": "Rotten Tomatoes audience consensus",
+            "url": "https://www.rottentomatoes.com/tv/jojos_bizarre_adventure/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2359704/"
+      },
+      "review_body": "Season 1 packs both Phantom Blood (Part 1) and Battle Tendency (Part 2) into 26 episodes across 2012-2013. David Production announces the franchise's defining formal signature immediately: deliberately theatrical poses, sound-effect typography, operatic villain delivery, and Hirohiko Araki's sui generis aesthetic treated not as a limitation to work around but as the entire point. Phantom Blood is the shorter and more conventional of the two halves - a Victorian vampire origin story with gothic excess and genuine menace in Dio Brando. Battle Tendency's Joseph Joestar is a significant tonal pivot: comedically charismatic, strategically creative, and the template for what the franchise's protagonists would become. Critics gave the season 85% on Rotten Tomatoes from 3 reviews, praising the humour and distinctive character design.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Sorrowful Successor",
+          "air_date": "2012-12-15",
+          "bollymeter": 8.0,
+          "spoiler_free": "The episode that closes Phantom Blood and transitions into Battle Tendency - the tonal shift from gothic tragedy to swaggering adventure is accomplished within a single runtime, and Joseph Joestar's introduction resets the franchise's baseline energy completely. The contrast is as deliberate as anything in the series.",
+          "the_moment": "Joseph Joestar's first scene - the franchise announcing it is about to become something different and considerably more fun.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 48,
+      "release_date": {
+        "value": "2014-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "90% on Rotten Tomatoes; Stardust Crusaders is the franchise's most globally recognized arc due to Dio's cultural penetration and the Stand ability system's introduction, though the 48-episode span draws pacing criticism from critics and audiences."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2359704/"
+      },
+      "review_body": "Season 2 (Spring 2014) adapts Stardust Crusaders across 48 episodes - the longest single arc adaptation in the franchise's run and the one most casual viewers encountered first due to Dio's cross-cultural meme penetration. The Stand ability system debuts here, giving the franchise its defining combat mechanic: psychic manifestations with discrete rules, making every fight a puzzle with a unique solution. David Production's animation handles the Egypt travel-arc structure with variable quality: the villain-of-the-week format produces some inventive encounters and some filler-adjacent episodes. The Egypt arc's back half is the most debated section in the franchise, with audiences split on the pacing against the pay-off of the DIO confrontation. Critics gave it 90% on Rotten Tomatoes.",
+      "season_over_season": "Introduces the franchise's defining combat system and its most culturally penetrating villain; the 48-episode arc tests patience before the Egypt arc delivers.",
+      "episode_reviews": [
+        {
+          "number": 48,
+          "title": "The Long Journey Ends, Goodbye My Friends",
+          "air_date": "2015-06-19",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Stardust Crusaders finale resolves a 48-episode journey with one of the franchise's most emotionally impactful single battles, following several consecutive high-stakes episodes that left the arc in a severely weakened state. The closing sequence is the most formally deliberate in Stardust Crusaders - David Production understood the weight of what this ending needed to carry.",
+          "the_moment": "The resolution of the DIO confrontation - the franchise's most anticipated single event at time of broadcast.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 39,
+      "release_date": {
+        "value": "2016-04-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Diamond Is Unbreakable is considered by a plurality of franchise fans the creative peak - Morioh's small-town setting against Stand-powered serial killing, and a final confrontation episode that placed among the franchise's highest IMDb-rated individual hours at 9.3 and 9.4."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2359704/"
+      },
+      "review_body": "Season 3 (Spring 2016) relocates the franchise from world-spanning adventure to a single fictional Japanese town - Morioh - and inverts the structural formula. Where previous parts moved outward, Diamond Is Unbreakable spirals inward: the threat is a serial killer hiding among townspeople, and Josuke Higashikata is defined by local loyalty rather than ancestral destiny. David Production's animation reached a new confidence level here, and the Yoshikage Kira arc that dominates the second half is among the most tightly plotted sustained sequences in the franchise. Individual episode IMDb scores for the Crazy Diamond climax episodes reached 9.3 and 9.4, placing them among the franchise's highest-rated hours. The villain reveal and Kira's design remain defining franchise moments.",
+      "season_over_season": "The franchise's tonal and structural pivot: small-scale setting amplifies the horror; Kira as serial-killer villain is the series' most fully-realised antagonist.",
+      "episode_reviews": [
+        {
+          "number": 37,
+          "title": "Crazy Diamond Is Unbreakable, Part 1",
+          "air_date": "2016-12-17",
+          "bollymeter": 9.3,
+          "spoiler_free": "The penultimate episode brings every Morioh thread into direct confrontation with Kira in a sustained sequence that rewards 37 episodes of investment. The episode scored 9.3 on IMDb, one of the highest individual ratings in the franchise, and operates as the payoff for the entire season's careful villain-as-neighbour construction.",
+          "the_moment": "Kira cornered by the full Morioh crew - the scene where the serial-killer-as-everyday-threat premise reaches its conclusion.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 39,
+      "release_date": {
+        "value": "2018-10-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Golden Wind is the franchise's most stylistically self-conscious arc - the Italy setting, fashion references, and ensemble gang structure produce the show's most visually distinctive season; critics and audiences cite the Requiem arc as the franchise's most ambitious single set piece."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2359704/"
+      },
+      "review_body": "Season 4 (Autumn 2018) adapts Golden Wind - Giorno Giovanna's ascent through the Italian mafia with his Passione gang. David Production leans fully into the arc's fashion-forward visual identity: the Italian setting is treated as aesthetic fact, the character design incorporates Araki's real references to fashion photography, and the Stand abilities in this arc are among the franchise's most conceptually inventive. The Boss and the Requiem arc that closes the season are regularly cited by franchise fans and critics as the most ambitious extended sequence in the David Production adaptation. The ensemble - Mista, Narancia, Fugo, Abbacchio, Bruno Bucciarati - is the franchise's most emotionally invested supporting cast. IMDb tracking shows consistent high individual episode ratings across the finale arc.",
+      "season_over_season": "The franchise's most aesthetically ambitious arc; the ensemble investment and Requiem climax represent the show's peak dramatic ambition.",
+      "episode_reviews": [
+        {
+          "number": 37,
+          "title": "Gold Experience Requiem",
+          "air_date": "2019-07-20",
+          "bollymeter": 9.4,
+          "spoiler_free": "The Golden Wind climax delivers one of the most formally unexpected Stand ability reveals in the franchise, resolving an arc that had been building the question of Giorno's ceiling for 37 episodes. The episode is the franchise's most-cited single hour in discussions of Stand ability design and thematic purpose.",
+          "the_moment": "Gold Experience Requiem's ability explained in full - the franchise's most conceptually surprising individual combat resolution.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "year": 2021,
+      "episodes": 38,
+      "release_date": {
+        "value": "2021-12-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "Stone Ocean received 86% on Rotten Tomatoes from 4 critics; the arc is the franchise's most polarising among fans - Jolyne is a widely praised protagonist, but the ending's scope divides audiences who find it either the boldest or most frustrating conclusion in the franchise."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "Stone Ocean is a masterful adaptation with a fantastic opening sequence, lush animation, and the weirdest Stands yet.",
+            "source": "Rotten Tomatoes audience description",
+            "url": "https://www.rottentomatoes.com/tv/jojos_bizarre_adventure/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2359704/"
+      },
+      "review_body": "Season 5 (December 2021, Netflix) adapts Stone Ocean in 38 episodes, released in three batches on Netflix rather than weekly broadcast. Jolyne Cujoh is the franchise's first female protagonist and was received by critics and audiences as a genuine success: her design, fighting style, and characterisation were praised as the strongest female-led arc in David Production's adaptation run. The prison setting gives the arc a distinct tone from all previous parts, and the Stand ability designs in the Whitesnake arc are among the franchise's most unsettling. The ending - which remains the most discussed and divided conclusion in the franchise's audience response - split critics between 'the boldest choice the series could make' and 'an alienating conclusion.' Critics gave it 86% from 4 reviews.",
+      "season_over_season": "Introduces the franchise's strongest female protagonist; the ending remains its most controversial single choice among long-term viewers.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "the-devil-judge",
+  "qid": {
+    "value": "Q105324923",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Devil Judge",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "In a near-future dystopian South Korea, a chief judge runs live-broadcast trials where the public votes on verdicts - and no one is sure whether he is the justice system's last defender or its most dangerous abuser.",
+  "poster": {
+    "src": "/img/series/the-devil-judge/poster.jpg",
+    "alt": "The Devil Judge poster",
+    "attribution": "Poster © tvN / Studio Dragon / Studio&NEW. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes, concluded August 22, 2021. No continuation has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Devil_Judge"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-07-03",
+        "source": "tvN",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "76 percent Rotten Tomatoes audience score; 8.2 IMDb; critics were divided on the tonal excess but aligned on Ji Sung's magnetic central performance; Forbes named it one of the best Korean dramas of 2021 for its political parody."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Devilishly entertaining and derived thrilling catharsis from its live courtroom scenes.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3146455/k-drama-review-devil-judge-dystopian-court-drama-goes-all"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14169770/ratings/"
+      },
+      "review_body": "Aired on tvN from July 3 to August 22, 2021, The Devil Judge finished first in its timeslot throughout its entire run with a peak 8 percent national rating. Critics responded to a show that delivered genuine political satire - a courtroom as entertainment complex, justice as populism - but found the tonal management uneven. The South China Morning Post's Pierce Conran called it devilishly entertaining for its courtroom sequences and then noted the show's near-pathological disregard for its female characters in the second half, a criticism echoed elsewhere. Forbes ranked it in its 2021 best-K-drama list for strong performances and too-close-for-comfort political realities. Ji Sung's moral ambiguity as Kang Yo-han is the consistent critical through-line: the character is designed not to resolve into hero or villain, and Ji Sung sustains that tension for 16 episodes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Star Judge",
+          "air_date": "2021-07-03",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere introduces Kang Yo-han mid-trial in a set-up that efficiently communicates both the dystopian premise and the show's hyper-stylised register. The live-broadcast courtroom sequence is kinetic, the production design lurid in a purposeful way. Critics who praised the episode noted the writing achieves a balance of exhilarating rapid development and sophisticated direction.",
+          "the_moment": "The first verdict delivered to a roaring public audience - the instant the show signals it will treat justice as spectacle and mean it as a provocation.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "The Devil Judge?",
+          "air_date": "2021-08-22",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale peaks at 7.96 percent national share, the series high. The title's question mark is the show finally asking the audience to answer what it has refused to answer for 15 episodes. Audiences were split on whether the ending earns its ambiguity, but the production's final visual statement was widely cited as one of the bolder finishes in 2021 Korean drama.",
+          "the_moment": "Kang Yo-han's final act - an image that refuses to clarify the central moral question and was designed to divide the audience, which it did.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

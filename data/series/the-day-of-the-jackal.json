@@ -1,0 +1,96 @@
+{
+  "slug": "the-day-of-the-jackal",
+  "qid": {
+    "value": "Q123384263",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Day of the Jackal",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Sky Atlantic / Peacock",
+    "source": "Sky Group",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A shape-shifting British assassin known only as the Jackal takes increasingly high-profile contracts while an MI5 intelligence officer turns personal obsession into a one-woman manhunt across Europe.",
+  "poster": {
+    "src": "/img/series/the-day-of-the-jackal/poster.jpg",
+    "alt": "The Day of the Jackal series poster",
+    "attribution": "Poster © Sky / Carnival Films / Peacock. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Sky and Peacock renewed The Day of the Jackal for a second season in 2024. Series 2 is in production and expected to premiere in 2027.",
+    "source": "Sky Group",
+    "source_url": "https://www.skygroup.sky/en-gb/article/sky-and-peacock-s-original-hit-drama-series-the-day-of-the-jackal-scores-a-second-season-renewal"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-11-07",
+        "source": "Sky Atlantic",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "85 percent on Rotten Tomatoes from 53 reviews; Metacritic 72; IMDb 8.2. Became the biggest Sky Original at launch. Variety called it a breathless adventure; critics praised Redmayne but noted pacing issues around episode 6."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 53,
+        "pull_quotes": [
+          {
+            "text": "Meticulously presented and beautifully detailed, the series is a breathless adventure until the very end.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/reviews/the-day-of-the-jackal-review-eddie-redmayne-peacock-1236196433/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt24053860/ratings/"
+      },
+      "review_body": "The ten-episode first season premiered on Sky Atlantic on 7 November 2024, becoming the biggest new series launch in Sky's history and Peacock's most-watched original drama series in the US. The 85-percent Rotten Tomatoes score from 53 reviews and a Metacritic of 72 reflected a critics' consensus that Eddie Redmayne's performance as the chameleon Jackal was the series' primary asset. Variety's review called it 'meticulously presented and beautifully detailed, a breathless adventure until the very end.' Lashana Lynch co-starred as the MI5 officer tracking him. Critics were broadly positive but identified episode 6 as a mid-season drag before the final four episodes accelerated. The IMDb audience score of 8.2 exceeded the critical positioning significantly, suggesting an audience that found the thriller mechanics more satisfying than some reviewers did.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-11-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the Jackal as a professional who makes killing look frictionless - new identity, new appearance, a target acquired with minimal fuss. The episode earns its pace by treating the thriller mechanics as craft rather than spectacle. Eddie Redmayne's stillness does most of the work.",
+          "the_moment": "The Jackal assembling a new identity with the methodical pleasure of someone who has done it hundreds of times.",
+          "critic_note": {
+            "text": "Redmayne's calm demeanor is predatory, drawing in the audience as well as his prey.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/reviews/the-day-of-the-jackal-review-eddie-redmayne-peacock-1236196433/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
