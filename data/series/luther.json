@@ -1,0 +1,216 @@
+{
+  "slug": "luther",
+  "qid": {
+    "value": "Q734629",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Luther",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "logline": "DCI John Luther is a near-genius detective consumed by his cases to the point of self-destruction, whose investigations bring him into a dangerous intellectual partnership with a brilliant psychopath he cannot arrest.",
+  "poster": {
+    "src": "/img/series/luther/poster.jpg",
+    "alt": "Luther poster",
+    "attribution": "Poster © BBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The BBC One television series concluded with Series 5 in January 2019. A Netflix film, Luther: The Fallen Sun, released in 2023. A second film was announced in November 2025.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Luther_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 6,
+      "release_date": {
+        "value": "2010-05-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Series 1 holds a 91% Rotten Tomatoes approval rating and an 82/100 Metacritic score (universal acclaim), with critical consensus built on Idris Elba's powerhouse lead and Neil Cross's morally ambiguous writing."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 23,
+        "pull_quotes": [
+          {
+            "text": "Gritty and ambiguous, Luther is a captivating drama bolstered by a powerhouse performance from Idris Elba in the title role.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/luther/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1474684/"
+      },
+      "review_body": "Luther arrived in May 2010 on BBC One and immediately established itself as one of the decade's defining British crime dramas. Series 1 scored 91 percent on Rotten Tomatoes and a Metacritic of 82, placing it in universal acclaim territory. Critics fixed on two elements: the volcanic restraint of Idris Elba's performance - a detective operating at the absolute limit of professional and personal control - and Ruth Wilson's Alice Morgan, a killer whose intelligence Luther finds himself unable to dismiss. The show's willingness to let its protagonist make genuinely dangerous moral choices, not as aberrations but as character, separated it from the procedural mainstream.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2010-05-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series premiere opens with Luther at the edge, both literally and professionally, then introduces Alice Morgan in a scene critics singled out as one of the most arresting debut character moments in BBC drama history. The case-of-the-week framing establishes the show's procedural skeleton, but the Alice dynamic signals where the series' real interest lies.",
+          "the_moment": "Alice's first formal interview with Luther - two people immediately recognising they are uniquely matched.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2011,
+      "episodes": 4,
+      "release_date": {
+        "value": "2011-06-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Critics noted the compressed four-episode run tightened the thriller mechanics but reduced space for the character depth that made Series 1 exceptional."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1474684/"
+      },
+      "review_body": "Series 2 ran only four episodes in June and July 2011, compressed from the debut run. The shorter format worked in its favour structurally - every scene carried weight - but critics and audiences noted the reduction in space for the Alice subplot and Luther's interior life. The cases were darker and the procedural plotting tighter. Elba's performance remained the load-bearing element. Audience reception remained strong and the series demonstrated the show could function at different lengths without losing its core identity.",
+      "season_over_season": "Tighter and darker than Series 1 but the compressed episode count reduced room for the character interplay that made the debut exceptional.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 4,
+      "release_date": {
+        "value": "2013-07-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Critics scored Series 3 at 88% on Rotten Tomatoes from 25 reviews. The Alice Morgan return was widely cited as the season's centrepiece."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 25,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1474684/"
+      },
+      "review_body": "Series 3 returned in July 2013 with four episodes and scored 88 percent on Rotten Tomatoes from 25 reviews. Critics noted a confidence and visual ambition in the storytelling that exceeded the earlier series - the London photography grew more expressionist, the cases more operatically violent. Ruth Wilson's Alice Morgan returned and reviewers credited her with elevating every scene she occupied. The season resolved several long-running character threads while establishing new pressure on Luther's professional position. Audience ratings remained consistent with the show's prior series.",
+      "season_over_season": "Brings Alice Morgan back in full force and expands the visual palette; critics found it the most stylistically assured series to date.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2015,
+      "episodes": 2,
+      "release_date": {
+        "value": "2015-12-15",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Critics scored Series 4 at 79% on Rotten Tomatoes from 14 reviews; the two-episode run felt more like an extended special than a standalone series, limiting its dramatic range."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 14,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1474684/"
+      },
+      "review_body": "Series 4 broadcast on consecutive nights in December 2015 across just two episodes. Critics acknowledged the format made it feel more like a Christmas special than a proper series, and the 79-percent Rotten Tomatoes score reflected a sense that the show was marking time rather than evolving. The performances remained strong and the case plotting was tightly constructed. For established viewers it functioned as a satisfying reunion; for critics assessing it as a series entry it felt insufficient.",
+      "season_over_season": "A two-episode run functions more as a bridge chapter than a full series; welcome but structurally underweight compared to earlier entries.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 4,
+      "release_date": {
+        "value": "2019-01-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Series 5 scored 85% on Rotten Tomatoes from 40 reviews; Idris Elba's final television bow as Luther was praised even as the plotting leaned into action spectacle over psychological depth."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 40,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1474684/"
+      },
+      "review_body": "Series 5 premiered on New Year's Day 2019 and ran four episodes, scoring 85 percent from 40 Rotten Tomatoes critics. Reviewed as Elba's farewell to the role on BBC One, it attracted unusually strong press attention for the series' final chapter. Critics found the plotting more action-driven than earlier seasons - closer to the thriller genre the character was always adjacent to. The psychological interiority that defined the first three series was largely absent. Elba brought the same physical and emotional commitment regardless. The series functioned as a satisfying close to the BBC One run and set up the 2023 Netflix film.",
+      "season_over_season": "A muscular action-forward farewell that delivers on spectacle but trades the psychological texture of earlier series for momentum.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

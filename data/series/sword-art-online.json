@@ -1,0 +1,168 @@
+{
+  "slug": "sword-art-online",
+  "qid": {
+    "value": "Q27863",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sword Art Online",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Online Game Novel",
+    "Anime",
+    "Fantasy",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "logline": "Ten thousand players are trapped inside a virtual reality RPG where death in the game means death in real life, and one solitary player fights his way up 100 floors while the anime stretches across wildly uneven virtual worlds.",
+  "poster": {
+    "src": "/img/series/sword-art-online/poster.jpg",
+    "alt": "Sword Art Online poster",
+    "attribution": "Poster © Reki Kawahara / KADOKAWA / SAO Project. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The main TV series concluded with Season 3 (Alicization / War of Underworld) in September 2020. A Progressive series covering the original Aincrad arc floor by floor began as theatrical films in 2021. The light novel series continues with the Unital Ring arc.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sword_Art_Online"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 25,
+      "release_date": {
+        "value": "2012-07-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "The Aincrad arc (episodes 1-14) is widely regarded as the series' creative peak - high-concept survival premise with genuine emotional stakes. The Fairy Dance arc (episodes 15-25) collapsed into a different, more poorly-regarded story, splitting fan and critical reception sharply."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The first half is far stronger than the second.",
+            "source": "Kotaku",
+            "url": "https://kotaku.com/sword-art-onlines-second-half-isnt-quite-as-brilliant-5971194"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2250192/"
+      },
+      "review_body": "Sword Art Online Season 1 aired in summer and fall 2012, adapting Reki Kawahara's light novel about 10,000 players trapped in a VR game where death deletes you permanently. The Aincrad arc - the first fourteen episodes - delivers on its premise with efficient, high-stakes storytelling: protagonist Kirito is a believable loner, the floor-clearing concept generates real tension, and the romance between Kirito and Asuna earned genuine investment from audiences. Kotaku at the time called it the smartest anime of the year at its midpoint. The Fairy Dance arc that occupies the back half dramatically shifts tone and antagonist quality, and critical consensus collapsed: the second arc's story choices generated a wave of criticism that has defined the franchise's divided reputation ever since. The overall IMDb rating of 7.4 reflects that internal split accurately.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The World of Swords",
+          "air_date": "2012-07-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the premise with clean efficiency: 10,000 players log into Aincrad, the log-out option disappears, and a robed GM announces the rules of a new game where the only exit is clearing all 100 floors - or death. A-1 Pictures makes the virtual world feel genuinely inhabitable. The stakes land immediately.",
+          "the_moment": "The GM removes his hood to reveal the game's true architect - the show's first turn of the screw.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Crimson Killing Intent",
+          "air_date": "2012-09-08",
+          "bollymeter": 8.5,
+          "spoiler_free": "The episode that crystallised the Aincrad arc's best qualities: moral complexity inside a trapped-world premise, with a confrontation between Kirito and a player-killing guild that operates as genuine thriller rather than straightforward action. Asuna's role here is at its series-best.",
+          "the_moment": "Kirito's gambit against the guild leader - a risk that demonstrates what the Aincrad arc does well at its peak.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 24,
+      "release_date": {
+        "value": "2014-07-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "GGO arc attempts to interrogate the franchise's own violence fetish and receives mixed credit for the ambition; Calibur and Mother's Rosario arcs are tonally inconsistent. Mother's Rosario is widely considered the emotional high point of Season 2 and one of the series' best single arcs."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2250192/"
+      },
+      "review_body": "Season 2 covers three separate arcs: Gun Gale Online (GGO), in which Kirito enters a shooter game to investigate real-world deaths linked to in-game kills; Calibur, a brief side-quest arc; and Mother's Rosario, centred on Asuna and a terminally ill player named Yuuki. The GGO arc is divisive - its new protagonist Sinon is well-liked but the mystery plotting is uneven. The Calibur arc is filler by design. Mother's Rosario is the season's reason for existing: a genuinely moving arc that gives Asuna narrative agency for the first time and grounds the virtual world's consequences in real illness and real grief. Audience reception was warmer than critical response, and the Mother's Rosario episodes specifically remain among the franchise's most-discussed.",
+      "season_over_season": "Uneven three-arc structure with one genuinely excellent conclusion - Mother's Rosario carries the season's entire emotional weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 47,
+      "release_date": {
+        "value": "2018-10-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Alicization is the franchise's most ambitious arc: AI consciousness, simulated civilisations, and a 47-episode scope. Reception improved over Season 2, with audience scores tracking higher, though the War of Underworld conclusion was divisive on pacing."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2250192/"
+      },
+      "review_body": "The Alicization arc - Season 3 by broadcast count, covering 47 episodes across two cours and a War of Underworld continuation - is the SAO franchise at its most intellectually expansive. Kirito wakes in a simulated world called the Underworld, populated by AIs who have developed genuine culture and memory, raising questions about consciousness and personhood that the earlier arcs rarely attempted. The production scale matches the ambition: A-1 Pictures delivers some of the franchise's best battle animation, and the Alicization arc's central friendship carries real weight. The War of Underworld arc that concludes the season splits audience response sharply on pacing and final-act execution. For viewers who found earlier SAO too shallow, Alicization is the substantive version of the franchise it promised to be.",
+      "season_over_season": "The franchise's most intellectually ambitious arc - slower, denser, and more interested in consequence than the prior seasons.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

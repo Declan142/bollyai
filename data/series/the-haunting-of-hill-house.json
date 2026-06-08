@@ -1,0 +1,118 @@
+{
+  "slug": "the-haunting-of-hill-house",
+  "qid": {
+    "value": "Q43379503",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Haunting of Hill House",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "LGBTQ",
+    "Anthology"
+  ],
+  "logline": "Five adult siblings haunted by their childhood home return to face the supernatural and psychological terrors they fled two decades earlier, as Mike Flanagan fuses ghost-story horror with an intimate portrait of grief and family fracture.",
+  "poster": {
+    "src": "/img/series/the-haunting-of-hill-house/poster.jpg",
+    "alt": "The Haunting of Hill House poster",
+    "attribution": "Poster © Netflix / Amblin Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Conceived as a single limited series based on Shirley Jackson's 1959 novel. The follow-up anthology The Haunting of Bly Manor (2020) is a separate entry with a different cast and source text.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/80189221"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-10-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 93% Rotten Tomatoes score from 103 critics and an 8.5 on IMDb reflect rare consensus: Flanagan's limited series transcends genre, weaponising the haunted-house form to deliver an earned emotional reckoning with grief, trauma, and family debt."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 103,
+        "pull_quotes": [
+          {
+            "text": "It's the people who haunt viewers more than the ghosts, and that emphasis makes Netflix's horror show come alive.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/shows/haunting-of-hill-house-netflix-review-season-1-1202010900/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6763664/"
+      },
+      "review_body": "Released October 12, 2018, The Haunting of Hill House arrived as one of Netflix's most critically celebrated original productions of its era, landing 93 percent on Rotten Tomatoes from 103 reviews and an 8.5 on IMDb from a substantial audience base. Director Mike Flanagan structured the ten episodes as a dual-timeline narrative - adult Crain siblings in the present intercut with the traumatic summer of 1992 that shattered their family at Hill House. Critics clustered on two achievements: the technical audacity of Episode 6, 'Two Storms', shot to appear as a series of long unbroken takes; and the way Flanagan converted supernatural horror into a sustained metaphor for unprocessed grief and addiction. Stephen King called it close to a work of genius. The show operates more as a devastating family drama that happens to have ghosts than as a conventional horror series, which accounted for its crossover pull.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Steven Sees a Ghost",
+          "air_date": "2018-10-12",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the dual-timeline structure, introducing both the adult Crains in their fractured present lives and the childhood summer at Hill House. Flanagan seeds background ghosts so subtle audiences only catch them on rewatch - a formal gambit that rewards close attention and sets the show's unsettling register immediately.",
+          "the_moment": "A silhouette standing in the doorway that resolves, on rewatch, into something the show had been hiding in plain sight all along.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Two Storms",
+          "air_date": "2018-10-12",
+          "bollymeter": 9.8,
+          "spoiler_free": "Widely cited as one of the finest single episodes in horror television, 'Two Storms' alternates between two storms separated by decades using sequences designed to appear as continuous single takes. The formal achievement is matched by the emotional payload: the siblings' catastrophic confrontation at a funeral home strips the series' supernatural premise down to raw human grief.",
+          "the_moment": "The long-take sequence in which the camera glides through the funeral parlour, crossing between timelines with invisible cuts, is the episode television had no right to expect from a horror show.",
+          "critic_note": {
+            "text": "Hear Us Out: The Haunting of Hill House Episode 6 Might Be This Year's Best Horror Movie.",
+            "source": "Rotten Tomatoes Editorial",
+            "url": "https://editorial.rottentomatoes.com/article/hear-us-out-the-haunting-of-hill-house-episode-6-might-be-this-years-best-horror-movie/"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Silence Lay Steadily",
+          "air_date": "2018-10-12",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale resolves the Crain family's decade of fracture in a manner that drew divided responses - critics who felt the emotional catharsis was earned stood against those who found the supernatural wrap-up too consoling for the terror that preceded it. The character work accumulated over nine episodes gives the closing scenes their weight regardless of which camp the viewer lands in.",
+          "the_moment": "A reunion in the Red Room that inverts everything the series established about the house's nature and the family's survival.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

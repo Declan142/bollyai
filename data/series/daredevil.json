@@ -1,0 +1,166 @@
+{
+  "slug": "daredevil",
+  "qid": {
+    "value": "Q16977365",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Marvel's Daredevil",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Superhero",
+    "Fantasy",
+    "Adventure",
+    "Crime",
+    "Drama"
+  ],
+  "logline": "Blind lawyer Matt Murdock fights crime in Hell's Kitchen by day and as the vigilante Daredevil by night - Marvel and Netflix's grittiest collaboration, ended by cancellation in 2018 before its story was done.",
+  "poster": {
+    "src": "/img/series/daredevil/poster.jpg",
+    "alt": "Marvel's Daredevil poster",
+    "attribution": "Poster © Netflix / Marvel Television / ABC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled the series November 29, 2018, after three seasons, as part of its broader wind-down of the Marvel TV partnership. Charlie Cox reprised the role in the MCU proper; Daredevil: Born Again (2025) is a separate entry.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 13,
+      "release_date": {
+        "value": "2015-04-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "A 99% Rotten Tomatoes score from 72 critics is the highest of the Netflix Marvel era and among the highest any superhero TV series has recorded. Season 1 redefined what a comic-book adaptation could achieve: street-level brutality, a villain (Kingpin) with genuine psychological complexity, and fight choreography that set a new industry benchmark."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": 72,
+        "pull_quotes": [
+          {
+            "text": "Marvel has shrewdly expanded its portfolio, and Netflix has upped its must-have quotient with a fiercely loyal segment of consumers.",
+            "source": "Variety",
+            "url": "https://variety.com/2015/tv/reviews/tv-review-marvels-daredevil-1201460066/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3322312/"
+      },
+      "review_body": "Released April 10, 2015, Daredevil Season 1 is the high-water mark of the Netflix Marvel era and one of the most critically acclaimed superhero productions ever made - 99 percent on Rotten Tomatoes from 72 reviews, an 8.6 on IMDb, and a 93 percent audience approval on Rotten Tomatoes. Critics identified two defining achievements: the corridor fight in Episode 2, a single-take brawl that became the most discussed action sequence in superhero television at the time, and Vincent D'Onofrio's Kingpin - a villain written and performed with the complexity of a prestige drama antagonist rather than a comic-book obstacle. The show established that Marvel's darker street-level characters could function in a tonal register closer to The Wire than to the Avengers films. Charlie Cox's physically committed lead performance grounded the mythology in something recognisably human.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 2,
+          "title": "Cut Man",
+          "air_date": "2015-04-10",
+          "bollymeter": 9.5,
+          "spoiler_free": "The episode that announced this was a different kind of superhero show. The hallway sequence - Matt Murdock, exhausted and beaten, fighting through a corridor of armed men in a single unbroken take - became one of the most referenced pieces of action television of the decade. The episode surrounding it is equally strong: the structure alternates past and present to explain why Murdock keeps fighting despite the cost.",
+          "the_moment": "The corridor. One take. No cuts. A man who cannot see, winning through sheer refusal to stop.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Daredevil",
+          "air_date": "2015-04-10",
+          "bollymeter": 9.3,
+          "spoiler_free": "The season finale delivers on every narrative thread - Murdock and Fisk converge in a rooftop confrontation and a street-level final battle that earns the costume's debut without fan-service excess. The Kingpin's final scene reframes him as something genuinely terrifying in defeat, setting up a villain whose story clearly has further to run.",
+          "the_moment": "The red suit appears for the first time. After thirteen episodes of black, it lands exactly as hard as the show intended.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-03-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "An 81% Rotten Tomatoes score from 57 critics reflects a season with two genuinely excellent halves - the Punisher arc and the Elektra arc - that never fully cohere. Jon Bernthal's Punisher is a franchise-launching performance; the Hand mythology that bookends the season is the show's weakest ingredient."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 57,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3322312/"
+      },
+      "review_body": "Season 2, released March 18, 2016, introduced Frank Castle (Punisher) and Elektra in the same season - an ambitious gambit that critics found structurally strained. The Punisher arc, particularly the Punisher-Daredevil rooftop debate about vigilante ethics, drew comparisons to Season 1's quality; Jon Bernthal's performance won near-universal praise and led directly to a spin-off series. The Elektra storyline and the Hand mythology were consistently flagged as weaker, introducing conspiratorial scaffolding the show struggled to make compelling. The 81 percent on Rotten Tomatoes from 57 critics masked a genuine quality gap between the season's two halves. Audience scores remained high at 89 percent, reflecting a fanbase engaged by the action even when the plotting frustrated.",
+      "season_over_season": "Trades the focused villain architecture of Season 1 for two competing antagonist arcs; the Punisher half matches the original's quality, the Hand mythology does not."
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-10-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 97% Rotten Tomatoes score from 67 critics put Season 3 level with the debut - a remarkable recovery after the Defenders crossover and Season 2's structural issues. The return of Kingpin and Bullseye gave the season two credible villains; the one-take prison fight surpassed even Episode 2 of Season 1 in critical estimation."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 67,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3322312/"
+      },
+      "review_body": "Released October 19, 2018, Season 3 became the send-off the Netflix Marvel era deserved and never officially planned. Critics responded at 97 percent from 67 reviews, matching the debut's approval. The season's central achievement is Episode 4's prison brawl - an unbroken action sequence through a prison, corridor by corridor, room by room, wider in scope than the Season 1 hallway and widely ranked among the finest single action sequences in television history. Vincent D'Onofrio's Kingpin returned as the season's fulcrum, and the show stripped Murdock down to his lowest point before its final arc. Netflix cancelled the series six weeks after the season's release. The ending functions as an accidental series finale with enough resolution to stand on its own.",
+      "season_over_season": "A complete rehabilitation after Season 2's structural sprawl - tighter villain architecture, the series' most extraordinary action sequence, and Charlie Cox's best performance of the run."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

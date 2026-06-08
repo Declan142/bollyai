@@ -1,0 +1,176 @@
+{
+  "slug": "outer-banks",
+  "qid": {
+    "value": "Q89414035",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Outer Banks",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Mystery",
+    "Adventure",
+    "Thriller",
+    "Teen",
+    "Action"
+  ],
+  "logline": "A crew of working-class teens known as the Pogues hunts for a legendary treasure in the Outer Banks of North Carolina, caught between class rivalry, romance, and escalating danger across four binge-friendly seasons.",
+  "poster": {
+    "src": "/img/series/outer-banks/poster.jpg",
+    "alt": "Outer Banks poster",
+    "attribution": "Poster © Netflix / Red Canoe Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "final-season",
+    "note": "Renewed for a fifth and final season, confirmed to premiere in 2026. Creators Jonas Pate, Josh Pate, and Shannon Burke have signalled the story concludes with Season 5.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Outer_Banks_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-04-15",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "A 77% Rotten Tomatoes score from 42 critics situates Season 1 as a solidly enjoyable teen adventure with genuine propulsion but a plotting style that prefers momentum over logic. Strong lockdown-era audience pull boosted the show to a cultural moment it slightly outran its critical standing."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 42,
+        "pull_quotes": [
+          {
+            "text": "Even when Outer Banks falls prey to soapier instincts, there's a distinct energy powering it through weaker tides.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/shows/outer-banks-netflix-review-teen-drama-1202225125/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10293938/"
+      },
+      "review_body": "Released April 15, 2020, Outer Banks landed during the first wave of pandemic lockdowns and found an immediate audience on Netflix, logging significant Top-10 placement. Critics at 77 percent from 42 reviews described it as high-energy, sun-soaked teen adventure borrowing freely from The Goonies, The O.C., and classic treasure-hunt genre films. The class divide between the Pogues (working-class) and Kooks (wealthy) gave the show a social texture that critics appreciated without finding it particularly rigorous. IndieWire noted the show's soapy instincts were carried along by genuine kinetic energy. The Hollywood Reporter compared it to Goonies meets The O.C. by way of Red Dawn. The ensemble chemistry, particularly Chase Stokes and Madelyn Cline, was the most consistent critical praise point.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-07-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An 86% Rotten Tomatoes score - the series' best - reflected a sophomore surge with raised stakes and expanded geography. Critics found the escalation satisfying if increasingly implausible."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10293938/"
+      },
+      "review_body": "Season 2, released July 30, 2021, was the show's critical peak at 86 percent, as the treasure hunt expanded in scope and the stakes escalated to match the fanbase's investment. Critics appreciated the show's commitment to its own soapy logic - the plotting is outlandish by design, and Season 2 leaned into that register rather than apologising for it. The new characters and expanded location shooting gave the season visual freshness. Audience reception stayed consistent with Season 1, confirming a loyal base rather than meaningful growth beyond the initial lockdown audience capture.",
+      "season_over_season": "The series' strongest critical performance - bigger stakes, broader scope, and the show fully comfortable with its own genre conventions."
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-02-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "A 56% Rotten Tomatoes score marked a significant critical drop, with the consensus pointing to plotting that had outrun its own plausibility ceiling. The show's escalation logic had reached a point where investment required abandoning any connection to consequence."
+      },
+      "critic": {
+        "positive_pct": 56,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10293938/"
+      },
+      "review_body": "Released February 23, 2023, Season 3 dropped to 56 percent on Rotten Tomatoes as critics found the show's escalation had outrun coherent storytelling. The Central American setting and treasure shift were seen as franchise-maintenance moves rather than organic story development. Audience scores remained stable around the franchise's IMDb baseline, suggesting the fanbase stayed engaged even as critical enthusiasm faded. The show's core strength - the ensemble's chemistry and its beach-energy visual style - remained intact even as the plotting drew increasing criticism for consequence-free stakes.",
+      "season_over_season": "A marked critical decline as the show's escalation logic exhausts plausibility; audience loyalty holds where critics step back."
+    },
+    {
+      "number": 4,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-10-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A 100% Rotten Tomatoes score from a small sample reflects critical rehabilitation - the show returned to its core strengths after Season 3's sprawl, with Season 4 streaming in two parts through October-November 2024. Small sample caveat applies."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10293938/"
+      },
+      "review_body": "Season 4 arrived in two parts - Part 1 on October 10, 2024, and Part 2 on November 7, 2024 - and drew a 100% Rotten Tomatoes score, though the sample was smaller than prior seasons. The split release and cliffhanger structure kept the show in Netflix's Top-10 across multiple weeks, with Season 4 Part 1 recording 8.8 million views in its debut week. Critics who reviewed Season 4 found the show had course-corrected from Season 3's excess, refocusing on the core ensemble and the treasure-hunt energy that drove the first two seasons. The season sets up a fifth and final run with enough narrative threads open to sustain fan investment.",
+      "season_over_season": "A critical recovery from Season 3's low point, trading global sprawl for a tighter focus on the founding ensemble dynamic and franchise strengths."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

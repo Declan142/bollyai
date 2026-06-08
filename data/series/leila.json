@@ -1,0 +1,90 @@
+{
+  "slug": "leila",
+  "qid": {
+    "value": "Q65048209",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Leila",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama"
+  ],
+  "logline": "In the authoritarian near-future state of Aryavarta, a woman stripped of her family crosses caste walls and surveillance checkpoints in search of her missing daughter.",
+  "poster": {
+    "src": "/img/series/leila/poster.jpg",
+    "alt": "Leila poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series, not renewed after June 2019 premiere. Based on Prayaag Akbar's 2017 novel of the same name.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Leila_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-06-14",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Critics registered an 82-percent approval on Rotten Tomatoes for the ambition of Deepa Mehta's direction and Huma Qureshi's lead performance, but the audience score sat at just 43 percent and the IMDb rating at 3.4, reflecting a sharp disconnect over the show's political framing."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "A combination of taut writing, sustained technical finesse and Huma Qureshi's measured lead performance underpins Leila.",
+            "source": "NDTV",
+            "url": "https://www.rottentomatoes.com/tv/leila/s01"
+          },
+          {
+            "text": "Netflix's Leila is a highly engaging show with memorable moments and impressive performances.",
+            "source": "Firstpost",
+            "url": "https://www.rottentomatoes.com/tv/leila/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 3.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9337588/"
+      },
+      "review_body": "Released on June 14, 2019, Leila adapted Prayaag Akbar's dystopian novel with direction from Deepa Mehta and Shanker Raman. The six-episode run earned 82 percent on Rotten Tomatoes from 11 critics, with NDTV praising the taut writing and technical finesse anchored by Huma Qureshi's controlled performance. The Handmaid's Tale comparisons arrived immediately, and critics like Gadgets360 found them apt. But the audience split was severe: a 43-percent Popcornmeter and an IMDb rating of 3.4 reflected viewer backlash, largely along political lines, over the show's depiction of a Hindu-majoritarian surveillance state. The critical consensus held that Leila's world-building is suffocating in the right way and its lead actress carries it with considerable force; audience rejection tracked the show's perceived politics more than its craft.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

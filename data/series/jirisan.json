@@ -1,0 +1,119 @@
+{
+  "slug": "jirisan",
+  "qid": {
+    "value": "Q31179387",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Jirisan",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Thriller",
+    "Action"
+  ],
+  "logline": "Two national park rangers on South Korea's sacred Jiri mountain investigate a pattern of suspicious deaths among visitors who came to the mountain to die - and some who came to kill.",
+  "poster": {
+    "src": "/img/series/jirisan/poster.jpg",
+    "alt": "Jirisan poster",
+    "attribution": "Poster © tvN / AStory / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. No renewal was announced. Nationwide viewership peaked at 10.6 percent on episode two before declining as critical reaction soured.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Jirisan_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-10-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "IMDb 7.4 suggests a viewer base that found surface pleasures in the mountain photography and star power, but critical consensus from SCMP and NME identified narrative incoherence as a structural failure - a show with enormous production resources that muddied its own mystery by overloading it with supernatural elements and timeline confusion."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Jirisan should have been a suspenseful mountaineering drama, but the creators muddied the waters by adding supernatural phenomena.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3159592/k-drama-review-jirisan-despite-starring-jun-ji-hyun-and-ju"
+          },
+          {
+            "text": "The compelling tale keeps you on the edge of your seat as our protagonists draw closer to the danger that lurks within Mount Jiri.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/jirisan-review-first-look-joo-ji-hoon-jun-ji-hyun-3086354"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13400300/"
+      },
+      "review_body": "Jirisan was billed as tvN's most-anticipated drama of 2021: Jun Ji-hyun returning to Korean television after six years, director Lee Eung-bok (Mr. Sunshine, Sweet Home), writer Kim Eun-hee (Kingdom), and a premiere viewership that peaked at 10.6 percent nationwide. What followed was one of the year's most polarising falls from expectation. Early reviews from NME praised the production's scale and the lead chemistry. Post-finale criticism from SCMP and multiple audience forums documented what went wrong: a mystery framework overwhelmed by time-jumping structure and supernatural intrusions that contradicted the grounded search-and-rescue procedural the first episodes promised. The IMDb rating settled at 7.4 - reflecting a viewer split between those who found the mountain landscapes and Jun Ji-hyun's performance sufficient compensation, and those who found the ending incoherent. BollyAI's read: a genuine technical achievement in cinematography and location, attached to a story that lost its own plot.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-10-23",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere is the show at its most assured: mountain rescue operations depicted with documentary-level physicality, Jun Ji-hyun's veteran ranger establishing authority without explanation, and a mystery element introduced with enough restraint to function as genuine atmosphere rather than noise.",
+          "the_moment": "The opening rescue sequence on the fog-covered summit - a set-piece that announced the production's ambition and earned immediate trust.",
+          "critic_note": {
+            "text": "The compelling tale keeps you on the edge of your seat as our protagonists draw closer to the danger within Mount Jiri.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/jirisan-review-first-look-joo-ji-hoon-jun-ji-hyun-3086354"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2021-12-12",
+          "bollymeter": 5.5,
+          "spoiler_free": "The finale attempted to resolve multiple timeline threads and a supernatural mystery simultaneously. Critics and audiences broadly agreed it landed below the season's production value - the ending felt abrupt, the supernatural explanation contested, and the emotional payoff insufficient given the sixteen-episode investment.",
+          "the_moment": "The reveal of the overarching mystery's explanation - a moment that divided audiences between 'earned revelation' and 'retroactive confusion'.",
+          "critic_note": {
+            "text": "Jirisan should have been a suspenseful mountaineering drama, but the creators muddied the waters by adding supernatural phenomena.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3159592/k-drama-review-jirisan-despite-starring-jun-ji-hyun-and-ju"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

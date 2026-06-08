@@ -1,0 +1,109 @@
+{
+  "slug": "celebrity",
+  "qid": {
+    "value": "Q114566119",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Celebrity",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Thriller"
+  ],
+  "logline": "An outsider claws her way into South Korea's elite social media influencer circle - the Gabin Society - and discovers that the scams, harassment, and deaths inside that world are features, not bugs.",
+  "poster": {
+    "src": "/img/series/celebrity/poster.jpg",
+    "alt": "Celebrity poster",
+    "attribution": "Poster © Netflix / Studio Dragon / Kim Jong-hak Production. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed as a single 12-episode limited series on Netflix. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Celebrity_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-06-30",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "An 80-percent Rotten Tomatoes score from 5 critics and an 89-percent audience Popcornmeter indicate a show that over-delivered relative to its premise. IMDb holds at 7.4. Park Gyu-young's lead performance received consistent praise even from reviewers who found the influencer satire pointed but shallow."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "The series is hampered by a weak storyline and cast, save for Park, and after a lot of build-up, it ends anticlimactically.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3227513/netflix-k-drama-review-celebrity-park-gyu-young-sweet-home-and-squid-game-season-2-leads-shallow"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26315488/"
+      },
+      "review_body": "Celebrity launched on Netflix on June 30, 2023, positioning itself in the crowded field of Korean dramas about status, deception, and the social media economy. Park Gyu-young plays Seo Ah-ri, an ordinary woman who leverages one viral moment into entry to the Gabin Society - an inner circle of influencers whose followers are bought, whose partnerships are fraudulent, and whose rivalries eventually turn violent. The show's execution earned an 80-percent Rotten Tomatoes score though from a small sample of five critics. The audience response was warmer: 89 percent on the Popcornmeter and a 7.4 IMDb rating from a significant global viewer base suggest that the binge-ready pacing and Park's committed performance outweighed the narrative limitations. The South China Morning Post's Pierce Conran offered the minority critical view: that the show ultimately served as a glossy advertisement for the influencer lifestyle it claimed to critique, and that the mystery resolution was anticlimactic. The divergence tracks a series strong enough in performance and momentum to paper over a story that mistakes accumulation of incident for escalation of stakes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-06-30",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere introduces the influencer hierarchy with efficient cynicism - follower counts as social currency, paid partnerships disclosed and undisclosed, a protagonist who understands the rules of the game before she chooses to play them. The mystery hook arrives cleanly in the final act.",
+          "the_moment": "Seo Ah-ri's first viral moment - the accident that the Gabin Society will exploit before she even understands what they are.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2023-06-30",
+          "bollymeter": 6.9,
+          "spoiler_free": "The finale resolves the central crime and Ah-ri's trajectory in a manner that satisfies the mystery structure while leaving the satire blunted. Critics who found the ending anticlimactic were not wrong, but the performance quality across the finale remains the show's most consistent asset.",
+          "the_moment": "The unmasking of the Gabin Society's ultimate orchestrator - a reveal that the audience had mostly constructed from available evidence, landing as confirmation rather than shock.",
+          "critic_note": {
+            "text": "The series is hampered by a weak storyline and cast, save for Park, and after a lot of build-up, it ends anticlimactically.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3227513/netflix-k-drama-review-celebrity-park-gyu-young-sweet-home-and-squid-game-season-2-leads-shallow"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

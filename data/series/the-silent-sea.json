@@ -1,0 +1,109 @@
+{
+  "slug": "the-silent-sea",
+  "qid": {
+    "value": "Q101083996",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Silent Sea",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "logline": "In a parched near-future Earth, a team of astronauts is sent to a sealed lunar research station to retrieve classified samples - and discovers that the scientists stationed there all died in ways the mission briefing never explained.",
+  "poster": {
+    "src": "/img/series/the-silent-sea/poster.jpg",
+    "alt": "The Silent Sea poster",
+    "attribution": "Poster © Netflix / Artist Studio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed as a single 8-episode limited series. Netflix has not announced a second season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Silent_Sea_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-12-24",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "An 80-percent Rotten Tomatoes score from 15 critics with a 69-percent audience rating on Rotten Tomatoes reflects a genre show that delivers competent tension and strong performances from Bae Doona and Gong Yoo, while falling short of the ambition its premise promised. Variety noted it 'is likely to please and disappoint in equal measure.'"
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 15,
+        "pull_quotes": [
+          {
+            "text": "'The Silent Sea' is likely to please and disappoint in equal measure.",
+            "source": "Variety",
+            "url": "https://variety.com/2021/tv/reviews/the-silent-sea-netflix-1235141513/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11570202/"
+      },
+      "review_body": "The Silent Sea dropped on Christmas Eve 2021 as Netflix Korea's science fiction answer to Bae Doona and Gong Yoo's combined star power. Adapted from director Choi Hang-yong's own 2014 short film, the series follows an elite team dispatched to Balhae Lunar Research Station on a 24-hour retrieval mission. The station is abandoned, the prior crew died under circumstances classified even from the mission leaders, and the samples the team has been sent to recover turn out to be something far more consequential than the briefing suggested. Rotten Tomatoes registered 80 percent from 15 critics - a meaningful positive majority with reservations. Variety's Daniel D'Addario identified the central tension: the show is visually disciplined and its performers are committed, but eight episodes still feel padded around a premise that would have worked tighter. The IMDb score of 6.9 and a 69-percent audience score on Rotten Tomatoes confirm that viewer response was warmer than the ceiling of critical enthusiasm but not significantly so. For fans of slow-burn Korean genre television with strong leads, it earns its runtime.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-12-24",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the dystopian surface world efficiently - water rationing, class tiers, a dying Earth - before launching the mission. The lunar station's arrival sequence uses silence and production design to create genuine dread before a single threat is explained.",
+          "the_moment": "The team's first view of the abandoned station corridors - the camera holding on details that contradict the official mission briefing.",
+          "critic_note": {
+            "text": "'The Silent Sea' is likely to please and disappoint in equal measure.",
+            "source": "Variety",
+            "url": "https://variety.com/2021/tv/reviews/the-silent-sea-netflix-1235141513/"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2021-12-24",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale reveals the full nature of the samples and the mission's real objective, resolving the central mystery on its own terms. The ending is morally ambiguous in a way that honours the series' science fiction concerns without fully earning the emotional weight it reaches for.",
+          "the_moment": "The revelation of what the lunar samples actually are - a sci-fi twist that recontextualises the Earth crisis established in the opening episode.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

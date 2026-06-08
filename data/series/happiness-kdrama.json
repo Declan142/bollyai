@@ -1,0 +1,107 @@
+{
+  "slug": "happiness-kdrama",
+  "qid": {
+    "value": "Q106824650",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Happiness",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Thriller",
+    "Horror",
+    "Action"
+  ],
+  "logline": "When a failed drug triggers a bloodlust epidemic and quarantine seals a newly built apartment block, the residents of each floor discover that surviving the outbreak is only the second most dangerous thing happening inside the building.",
+  "poster": {
+    "src": "/img/series/happiness-kdrama/poster.jpg",
+    "alt": "Happiness poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed as a 12-episode limited series. No second season was announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Happiness_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-11-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "The IMDb 7.7 from a broad international audience reflects a show that delivered on its contained premise without transcending it. A sleeper-hit trajectory on Netflix Global Top 10 in April 2022 confirmed that word-of-mouth quality outlasted its modest original broadcast ratings."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "This is the zombie show that I didn't know I needed in my life.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2022/02/10/review-happiness/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14979052/"
+      },
+      "review_body": "Happiness aired on tvN from November to December 2021 and took an original angle on the Korean zombie genre: instead of setting the outbreak in open society, it quarantined an entire apartment building and used that closed system to examine class and real estate anxiety alongside survival horror. A failed pharmaceutical called Next triggers the Lytta Virus, producing short bouts of bloodlust in the infected. Han Hyo-joo as an immune police officer and Park Hyung-sik as her contract-husband detective are the central pair, and critics and audiences both pointed to their chemistry as the show's most reliable pleasure. The series became a sleeper hit when it arrived on Netflix's global platform in April 2022 - reaching number seven on the non-English Weekly Top 10 - suggesting that its modest original tvN ratings understated actual audience appetite. The IMDb score of 7.7 reflects a genre show that executes its premise cleanly without reaching for the allegorical depth of contemporaries like Squid Game.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-11-05",
+          "bollymeter": 7.6,
+          "spoiler_free": "The premiere sets up the apartment building as a pressure cooker before the virus is even confirmed - the class tensions between residents already established through the politics of who gets which unit. The outbreak escalation in the final act is earned by this groundwork.",
+          "the_moment": "The first infected resident in the stairwell - the moment the show commits to its horror register and does not look away.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2021-12-11",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale resolves the central romantic arc and the outbreak in parallel, with the series maintaining its conviction that the human threat inside the quarantine perimeter was always more interesting than what was outside it. The closing image is more hopeful than the genre usually permits.",
+          "the_moment": "The couple's choice in the final minutes - a declaration that reframes their contract arrangement across the whole season.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

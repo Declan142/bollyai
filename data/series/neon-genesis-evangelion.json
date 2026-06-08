@@ -1,0 +1,117 @@
+{
+  "slug": "neon-genesis-evangelion",
+  "qid": {
+    "value": "Q662",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Neon Genesis Evangelion",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Drama",
+    "Mecha",
+    "Apocalyptic"
+  ],
+  "logline": "A withdrawn teenage boy is drafted by his estranged father to pilot a biomechanical giant against angels threatening humanity, and the show relentlessly dismantles both the mecha genre and the pilot himself.",
+  "poster": {
+    "src": "/img/series/neon-genesis-evangelion/poster.jpg",
+    "alt": "Neon Genesis Evangelion poster",
+    "attribution": "Poster © Gainax / Tatsunoko Production. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 26-episode TV series concluded in March 1996. The films Death and Rebirth (1997) and The End of Evangelion (1997) provided an alternate conclusion. The Rebuild of Evangelion theatrical tetralogy (2007-2021) is a separate reimagining. Netflix acquired global streaming rights and released the series with a new English dub in June 2019.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1995,
+      "episodes": 26,
+      "release_date": {
+        "value": "1995-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "100% on Rotten Tomatoes from 32 critics; IMDb series rating 8.5. Widely cited as one of the foundational works of animated television, with the final episodes' experimental collapse into pure psychology making it one of the most discussed finales in anime history."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 32,
+        "pull_quotes": [
+          {
+            "text": "One of the most complex and ambitious animated works ever produced.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/neon_genesis_evangelion/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0112159/"
+      },
+      "review_body": "Neon Genesis Evangelion aired on TV Tokyo from October 1995 to March 1996 and in the three decades since has become the reference point against which serious anime is measured. The 26-episode series began as a mecha show - teenagers piloting biomechanical giants against alien threats - and progressively dismantled the genre from inside, redirecting its energy toward clinical depictions of depression, trauma, and existential collapse. Critics on Rotten Tomatoes have returned a 100% approval rate across 32 reviews, with the consensus framing it as one of the most ambitious animated works ever produced. The final two episodes, produced under extreme budget and time constraints, abandoned conventional animation for a psychoanalytic interior monologue that sparked decades of fan debate. That controversy became part of the text. Gainax's willingness to let the show collapse into pure psychology rather than deliver a conventional finale is precisely what secured its reputation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Angel Attack",
+          "air_date": "1995-10-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops Shinji Ikari into a city under assault, hands him controls he does not understand, and establishes the show's core engine: a boy who cannot refuse and cannot commit. The NERV headquarters, the Eva units, and the Angel design immediately signal a show with its own visual logic. The genre setup is a container for something else entirely.",
+          "the_moment": "Rei Ayanami is brought in on a stretcher, bandaged and barely conscious, and Shinji climbs into the Eva - the show's central wound is opened in the first ten minutes.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "The Beginning and the End, or 'Knockin' on Heaven's Door'",
+          "air_date": "1996-03-13",
+          "bollymeter": 9.5,
+          "spoiler_free": "The penultimate episode brings the Angel conflict to its theological apex and introduces Kaworu Nagisa, whose brief arc generates more emotional force than any of the series' extended relationships. The episode operates as both a conventional climax and a pivot into the show's famous final stretch - a pivot that critics and audiences still argue about.",
+          "the_moment": "Kaworu tells Shinji he loves him - the line that crystallised the series' emotional core for a generation of viewers.",
+          "critic_note": null
+        },
+        {
+          "number": 26,
+          "title": "Take Care of Yourself",
+          "air_date": "1996-03-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale abandons the physical world entirely and places Shinji inside a pure psychological space where the series' other characters serve as mirrors for his self-loathing and his capacity to change. Whether the ending functions as a resolution or a cop-out became one of anime's longest-running arguments. It is certainly unlike any other finale in the medium.",
+          "the_moment": "Shinji's internal monologue arrives at a simple affirmation - the contrast with what the show has built makes it devastating.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "midnight-mass",
+  "qid": {
+    "value": "Q98915688",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Midnight Mass",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Paranormal",
+    "Horror"
+  ],
+  "logline": "A young man returns to his isolated island community after prison, arriving alongside a mysterious new priest whose miraculous revivals of the faithful mask a terror rooted in something far older than the church.",
+  "poster": {
+    "src": "/img/series/midnight-mass/poster.jpg",
+    "alt": "Midnight Mass poster",
+    "attribution": "Poster © Netflix / Intrepid Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Conceived and completed as a seven-episode limited series. Mike Flanagan confirmed no continuation is planned; the story is wholly self-contained.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81083626"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 7,
+      "release_date": {
+        "value": "2021-09-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "An 87% Rotten Tomatoes score from 102 critics marks it as Flanagan's most formally ambitious limited series - a slow-burn theological horror that weaponises faith, community, and guilt before detonating in a genuinely terrifying final act. Hamish Linklater's performance is one of the decade's best in genre television."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 102,
+        "pull_quotes": [
+          {
+            "text": "Rather than excoriate the church or blindly bow to its will, the series simply asks you to make your own interpretations.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/shows/midnight-mass-review-netflix-horror-spoilers-ending-1234666982/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10574236/"
+      },
+      "review_body": "Released September 24, 2021, Midnight Mass earned Mike Flanagan his widest critical recognition, landing 87 percent on Rotten Tomatoes from 102 reviews. Critics split in a revealing way: those who embraced the show praised Hamish Linklater's magnetic performance as the charismatic Father Paul and Flanagan's willingness to build dread across six episodes before the horror arrives in full force in the finale. Detractors - including Variety and the AV Club - cited the show's monologue-heavy script and a pacing that tests patience in its middle stretch. The series interrogates institutional faith, communal grief, and the seductive danger of belief without hedging toward easy condemnation or easy redemption. TIME Magazine called it Flanagan's best work yet. The audience score on Rotten Tomatoes sat at 79 percent, reflecting a fanbase slightly more divided than the critical majority, largely over the slow build.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Book I: Genesis",
+          "air_date": "2021-09-24",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Crockett Island as a dying fishing community - debt, guilt, and opioid damage already haunting the town before any supernatural element arrives. Riley Flynn's return from prison and Father Paul's arrival are layered with a quiet menace Flanagan refuses to accelerate. The atmosphere is the genre.",
+          "the_moment": "An early confessional scene that reframes the entire religious texture of the community - the weight of sin here is entirely mundane, and the more unsettling for it.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Book VII: Revelation",
+          "air_date": "2021-09-24",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale converts the series' theological slow burn into full-scale horror, playing its devastating reveal against a community that has surrendered its will collectively. The scope is remarkable for a limited series, and the final sequence on the beach - two characters watching the sun rise - is among the most genuinely moving endings Flanagan has produced.",
+          "the_moment": "The beach at dawn, and a conversation between two characters the series has been building toward since the first episode.",
+          "critic_note": {
+            "text": "Flanagan's shows are like islands in a storm - not always the cleanest on the surface, but hearty, solid refuges nonetheless.",
+            "source": "TIME",
+            "url": "https://time.com/6102100/midnight-mass-review/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "jamtara",
+  "qid": {
+    "value": "Q81961655",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Jamtara - Sabka Number Aayega",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime"
+  ],
+  "logline": "A gang of school dropouts in Jharkhand's Jamtara district runs India's most brazen phishing racket - until a corrupt politician demands a cut and a determined police superintendent closes in.",
+  "poster": {
+    "src": "/img/series/jamtara/poster.jpg",
+    "alt": "Jamtara - Sabka Number Aayega poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed. Season 1 released January 2020, Season 2 September 2022. No third season announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Jamtara_%E2%80%93_Sabka_Number_Ayega"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-01-10",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Critics acknowledged a grounded, binge-worthy premise rooted in a real Jharkhand cybercrime story, though the consensus found the narrative too thin and the moral canvas underdeveloped for maximum impact."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "Jamtara is a decent, thrilling tale that will have you glued to the entire season.",
+            "source": "Times of India",
+            "url": "https://www.rottentomatoes.com/tv/jamtara_sabka_number_ayega_2/s01"
+          },
+          {
+            "text": "A fragile reconstruction of the Jharkhand phishing scam it is based on.",
+            "source": "Film Companion",
+            "url": "https://www.rottentomatoes.com/tv/jamtara_sabka_number_ayega_2/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11150912/"
+      },
+      "review_body": "Season 1 of Jamtara arrived in January 2020 and drew immediate press attention for a premise ripped from real events: a cluster of school dropouts in Jharkhand running a low-tech, high-yield phishing operation that defrauded people across India. Critics at the Times of India called it a thrilling tale that holds the viewer for all ten episodes, while Film Companion flagged the reconstruction as fragile and ultimately too uncomplicated for the moral weight the story demanded. Decider noted the pilot only kicks up dust when it could be digging deeper. The consensus reads as a grounded, well-paced crime drama elevated by strong location texture and credible performances from its ensemble, but one that stays surface-level on the socioeconomic drivers behind Jamtara's criminal ecosystem.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-09-23",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "The election-politics layer added volume and Amit Sial's performance as Brajesh Bhaan remained a standout, but critics and audiences broadly found Season 2 messier and less tightly plotted than the debut."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "Shapeless, layered and tense.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/jamtara-season-2-netflix-review-is-shapeless-layered-tense"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in September 2022, grafting electoral politics onto the phishing milieu as Jamtara district becomes a battleground during an election cycle. Amit Sial's corrupt politician Brajesh Bhaan and Seema Pahwa's Bua ji drew consistent praise as the season's dramatic anchors. But the critical reading at a 67-percent RT score on 4 reviews tilted toward disappointment: Film Companion called it shapeless, layered and tense in equal measure; Scroll.in noted crossed wires; Hindustan Times found it a mediocre watch burdened by the same faults as the first. The broader audience consensus tracked Season 2 as more violent and more politically ambitious than Season 1, but also less focused and less satisfying as a complete story.",
+      "season_over_season": "Season 2 adds an election-politics thread and raises the violence ante but loses the clean, rural-crime clarity that made Season 1 compulsive viewing.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

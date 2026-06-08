@@ -1,0 +1,105 @@
+{
+  "slug": "through-the-darkness",
+  "qid": {
+    "value": "Q107864287",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Through the Darkness",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Crime"
+  ],
+  "logline": "Based on Korea's first criminal profiler's memoir, a detective and a psychologist build the country's earliest behavioural analysis unit by reading the minds of serial killers.",
+  "poster": {
+    "src": "/img/series/through-the-darkness/poster.jpg",
+    "alt": "Through the Darkness poster",
+    "attribution": "Poster © SBS / Studio S. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. No renewal announced. Kim Nam-gil won the 2022 SBS Daesang for the role.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Through_the_Darkness_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-01-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "An 8.0 IMDb rating from a substantial international viewer base and a MyDramaList score of 8.7 across 13,558 users place this firmly in the upper tier of Korean crime procedurals. Kim Nam-gil's Daesang win at the SBS Drama Awards anchors a critical consensus that the lead performance alone elevates the material."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Through the Darkness breaks away from the conventional format and sheds light on those who look into the cases.",
+            "source": "ZAPZEE",
+            "url": "https://zapzee.net/2022/02/23/k-drama-review-through-the-darkness-a-crime-drama-that-truly-explores-the-desperate-struggles/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15007172/"
+      },
+      "review_body": "Through the Darkness aired on SBS from January to March 2022, adapted from the memoir of Kwon Il-yong, Korea's first criminal profiler. The series follows Song Ha-young as he and his team at the Criminal Behaviour Analysis Unit reconstruct the psychology of serial killers from the 1980s and 90s, a period when Korean law enforcement had no vocabulary for behavioural evidence. Kim Nam-gil won the SBS Daesang for his performance - reserved, methodical, and haunted - which reviewers consistently identified as the anchor of the entire series. The procedural structure is deliberately unglamorous: investigations unfold through paperwork, interviews, and incremental insight rather than thriller set-pieces. The MyDramaList community scored it 8.7 out of 10 across more than 13,500 ratings, placing it among the best-reviewed crime dramas of 2022 on that platform. Critics who covered the show praised its patient storytelling and the authenticity it draws from the source material.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-01-14",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes the procedural in its most stripped-down form - a detective who believes in reading crime scenes the way a psychologist reads a patient, at a time when Korean law enforcement considers that approach frivolous. The period detail and Kim Nam-gil's physical restraint make an immediate case for the show's seriousness.",
+          "the_moment": "Song Ha-young's first walk through a crime scene - the camera following his gaze as he reconstructs motive from evidence most officers are already bagging for court.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2022-03-12",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale delivers the personal cost accumulated across twelve episodes and closes on the unit's institutional legitimation - earned, not given. The emotional resolution is as quiet as the procedural method it embodies.",
+          "the_moment": "The team's formal recognition by a sceptical institution - the scene that confirms the unit's survival and the human price paid for it.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

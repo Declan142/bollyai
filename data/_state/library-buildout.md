@@ -21,10 +21,29 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 225 / ~500   (baseline 183)
+## Progress: 297 / ~500   (baseline 183)
+
+## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
+Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
+now a faceted browse (genre/platform/country/status/era + sort + title search, SSR cards +
+hydrated filters). Recency-first: getSeriesByRecency/seriesRecency/isFreshSeries; home "Just
+Dropped" rail. NEW + BollyMeter badges. Fixed --font-mono->--font-number. genres in Series
+type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
+
+## OPEN: (1) DEPLOY held pending Aditya velocity call (nothing live since launch's 183).
+## OPEN: (2) hourly fresh-context cron (Aditya asked) - design pending his go.
+## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
-### Batch 02 — 2026-06-09 — ~42 series — STATUS: authoring
+### Batch 03 — 2026-06-09 — 30 series — STATUS: DONE (commit TBD; 267->297)
+- **M** K-drama recent/crime: juvenile-justice · through-the-darkness · happiness-kdrama · jirisan · the-silent-sea · celebrity
+- **N** Netflix/Western: the-haunting-of-hill-house · midnight-mass · never-have-i-ever · daredevil · outer-banks · suits
+- **O** Anime: neon-genesis-evangelion · sword-art-online · that-time-i-got-reincarnated-as-a-slime · golden-kamuy · banana-fish · overlord
+- **P** European/British: killing-eve · luther · borgen · the-bureau · the-bridge · vis-a-vis
+- **Q** Indian: jamtara · leila · ghoul · ic-814-the-kandahar-hijack · bard-of-blood · undekhi
+
+### Batch 02 — 2026-06-09 — 42 series — STATUS: DONE (commit 7ee927d pushed; 225->267)
+### Batch 02 (orig plan) — authoring
 - **G** K-drama action: vigilante · song-of-the-bandits · bloodhounds · chicago-typewriter · kill-me-heal-me · the-atypical-family · a-shop-for-killers
 - **H** K-drama recent/romance: w-two-worlds · while-you-were-sleeping · doctor-slump · weak-hero-class-2 · light-shop · the-frog · crash-course-in-romance
 - **I** Netflix Western: you · cobra-kai · the-lincoln-lawyer · the-sandman · griselda · kaos · the-residence

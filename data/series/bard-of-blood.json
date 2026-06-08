@@ -1,0 +1,79 @@
+{
+  "slug": "bard-of-blood",
+  "qid": {
+    "value": "Q65041987",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bard of Blood",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller"
+  ],
+  "logline": "A disgraced Indian intelligence operative turned literature professor is pulled back into a covert mission to rescue captured agents from Taliban-held Balochistan.",
+  "poster": {
+    "src": "/img/series/bard-of-blood/poster.jpg",
+    "alt": "Bard of Blood poster",
+    "attribution": "Poster © Netflix India / Red Chillies Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One season, not renewed. Based on Bilal Siddiqi's 2015 novel of the same name. Executive produced by Shah Rukh Khan's Red Chillies Entertainment.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bard_of_Blood"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 7,
+      "release_date": {
+        "value": "2019-09-27",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "Rotten Tomatoes critics scored it at 36 percent from 11 reviews, citing weak scripting and uneven direction despite capable performers; the 86-percent audience Popcornmeter reflects a fan base more forgiving of the genre mechanics than professional critics were."
+      },
+      "critic": {
+        "positive_pct": 36,
+        "sample": 11,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8069036/"
+      },
+      "review_body": "Bard of Blood launched September 27, 2019 as a Red Chillies Entertainment production adapted from Bilal Siddiqi's novel. Emraan Hashmi plays Kabir Anand, a RAW operative suspended after a Balochistan operation goes wrong, now a small-town Shakespeare teacher who is activated for an unsanctioned rescue mission. The spy-thriller framework is competent and the Balochistan location work atmospheric, but critics clustered on the same fault: a script that buries its capable cast under plot mechanics that are neither surprising enough to satisfy genre fans nor character-driven enough to build tension organically. Rotten Tomatoes registered 36 percent positive from 11 reviews - notably at odds with an 86-percent audience Popcornmeter. Scroll.in found it pauperised by a script devoid of humour; The News Minute cited weak writing and a director seeming to figure things out mid-production. Hashmi's commitment to the role drew consistent acknowledgement even in negative reviews.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

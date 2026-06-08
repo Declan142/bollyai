@@ -1,0 +1,289 @@
+{
+  "slug": "suits",
+  "qid": {
+    "value": "Q370185",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Suits",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "USA Network",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Legal"
+  ],
+  "logline": "A brilliant college dropout with a photographic memory bluffs his way into a top Manhattan law firm, becoming the secret weapon of hotshot attorney Harvey Specter - a legal procedural that ran nine seasons on USA Network before going viral on Netflix in 2023.",
+  "poster": {
+    "src": "/img/series/suits/poster.jpg",
+    "alt": "Suits poster",
+    "attribution": "Poster © USA Network / Universal Cable Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Nine seasons completed on USA Network, ending September 25, 2019. Netflix library licensing drove a viral resurgence in 2023, breaking Netflix Top-10 records for a library title. A spin-off, Suits LA, premiered on NBC in 2025.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Suits_(American_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 12,
+      "release_date": {
+        "value": "2011-06-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A 78% Rotten Tomatoes score from 23 critics reflects a solid pilot season elevated by the Harvey-Mike chemistry and the show's sharp dialogue. Critics flagged the procedural mechanics as formulaic but the character engine as genuinely engaging."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 23,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Suits premiered June 23, 2011 on USA Network, landing 78 percent on Rotten Tomatoes from 23 reviews. Critics described a legal procedural with slicker-than-average production values and an unusually strong central dynamic: Gabriel Macht's Harvey Specter as the imperious, morally flexible senior partner and Patrick J. Adams's Mike Ross as the brilliant fraud who must survive by wit alone. The Variety review noted the show could feel bland and bloated but that flashes of sharp dialogue brought it to life - a description that tracked the audience response, which was considerably more enthusiastic than the critical one. The 90 percent audience score versus the 78 percent critic score was a consistent pattern for the series across its run. Season 1 established the franchise's tone: legal drama procedural mechanics wearing a character-comedy suit.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 16,
+      "release_date": {
+        "value": "2012-06-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 2 extended to 16 episodes and deepened the firm's political architecture, introducing competing partner dynamics and raising the stakes on Mike's secret. The Harvey-Jessica relationship became a more prominent axis, and the show established the pattern it would maintain for most of its run: strong ensemble chemistry carrying plotting that stretched credulity but rarely broke the entertainment contract with its audience. The season expanded the supporting cast and maintained the procedural-plus-character format that had found a loyal USA Network audience in Season 1.",
+      "season_over_season": "Expands the ensemble and internal firm politics with a larger episode count; the format solidifies without significantly evolving."
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 16,
+      "release_date": {
+        "value": "2013-07-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 3 continued the formula with the threat of Mike's exposure as a central engine and increasing romantic subplot development between Harvey and Donna. The show's critics largely followed from a distance at this stage - it was not a prestige drama seeking awards attention, but a reliable procedural maintaining its audience contract. The core dynamic between Harvey and Mike remained the show's most bankable asset, and the season delivered consistently on that basis without charting new creative territory.",
+      "season_over_season": "A steady-state season that maintains the franchise's audience contract without breaking new ground."
+    },
+    {
+      "number": 4,
+      "year": 2014,
+      "episodes": 16,
+      "release_date": {
+        "value": "2014-06-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 4 brought significant cast shifts and elevated the firm's existential threat - Mike and Harvey working separately before a forced reunion gave the season structural tension beyond the usual procedural stakes. The Mike-Rachel relationship continued to develop alongside the professional plotting. The show's formula was well-worn by this point but served its audience reliably; a binge-viewing format (dominant by the Netflix era) suits the procedural pace considerably better than weekly appointment television.",
+      "season_over_season": "Cast separation shakes up the central dynamic briefly before the familiar formula reasserts itself."
+    },
+    {
+      "number": 5,
+      "year": 2015,
+      "episodes": 16,
+      "release_date": {
+        "value": "2015-06-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 5 pushed the exposure threat to its most acute point yet, with the fraud investigation against Mike reaching a crisis that the season resolved in a manner that divided fan opinion. The bar trial and its outcome gave the season a genuine narrative climax that rewarded long-term viewers. The show was at its viewership peak on USA Network at this stage, sustaining a loyal cable audience across a crowded landscape.",
+      "season_over_season": "The Mike fraud arc reaches its most consequential point; the season's climax pays off years of raised stakes."
+    },
+    {
+      "number": 6,
+      "year": 2016,
+      "episodes": 16,
+      "release_date": {
+        "value": "2016-07-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 6 navigated the post-exposure landscape with Mike serving a prison sentence in its first half before returning to the legal world. The structural challenge of maintaining the show's identity without its central secret gave the season a transitional quality that critics and audiences found less satisfying than the prior arc. The show successfully reset for future seasons but at a notable cost to narrative momentum.",
+      "season_over_season": "Navigates the post-fraud reset through a prison arc; transitional and less compelling than the seasons that bracketed it."
+    },
+    {
+      "number": 7,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-07-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 7 reset the power dynamics at the firm with Harvey taking a senior leadership role and Mike operating with greater professional legitimacy. The season introduced new antagonists and romantic developments but struggled to generate the urgency of the earlier fraud-threat years. For binge viewers discovering the show via Netflix in 2023, the middle seasons function as reliable procedural comfort television rather than appointment drama.",
+      "season_over_season": "Post-reset franchise maintenance; reliable procedural delivery without the central tension that powered the early seasons."
+    },
+    {
+      "number": 8,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-07-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "Season 8 marked the departure of original leads Patrick J. Adams (Mike Ross) and Meghan Markle (Rachel Zane), a significant cast shift that the show managed by elevating supporting players and introducing new associates. The season functioned more as a franchise transition than a self-contained story, preparing the ground for a final run without its founding duo. For audiences who arrived via the 2023 Netflix wave, this season is where the original core dynamic is definitively absent.",
+      "season_over_season": "The franchise pivots away from its founding cast; the ensemble reconfigures but the original dynamic is gone."
+    },
+    {
+      "number": 9,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-07-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1632701/"
+      },
+      "review_body": "The condensed final season of 10 episodes completed the show on September 25, 2019, with a reunion that brought back enough original cast members to satisfy long-term viewers. The finale delivered on the Harvey-Donna relationship arc that the show had maintained across nine years and gave the firm a definitive conclusion. The shorter episode count gave Season 9 a leaner energy than the franchise's middle years. The overall 91% Rotten Tomatoes series score and an 8.4 IMDb rating across the full run reflect the show's achievement: a reliable legal drama that outlasted most of its cable-era contemporaries and then found a second, larger audience entirely on streaming.",
+      "season_over_season": "A tighter, more focused farewell season that closes the franchise's major arcs; the shortened episode count is a structural improvement over the show's bloated middle years."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "juvenile-justice",
+  "qid": {
+    "value": "Q108688881",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Juvenile Justice",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Legal"
+  ],
+  "logline": "A stern judge who openly despises juvenile offenders takes a post at Korea's busiest family court and finds her certainty crumbling against the weight of systemic failure and human complexity.",
+  "poster": {
+    "src": "/img/series/juvenile-justice/poster.jpg",
+    "alt": "Juvenile Justice poster",
+    "attribution": "Poster © Netflix / Gill Pictures / GTist. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled a second season on January 27, 2023. The show ran as a single ten-episode limited series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Juvenile_Justice_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-02-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "A 100-percent Rotten Tomatoes score on five reviews signals critical enthusiasm for its procedural rigour and Kim Hye-soo's commanding lead. Netflix Top-10 non-English performance for two consecutive weeks confirmed wide reach, while the IMDb 7.9 suggests audience satisfaction just below the prestige tier."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "About as close to an American-style procedural as Netflix or Korean TV gets.",
+            "source": "Decider",
+            "url": "https://decider.com/2022/02/25/juvenile-justice-netflix-stream-it-or-skip-it/"
+          },
+          {
+            "text": "Juvenile Justice never realizes its full potential.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2022/02/25/juvenile-justice-review-complex-courtroom-drama-with-a-lot-of-issues/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15553922/"
+      },
+      "review_body": "Juvenile Justice arrived on Netflix in February 2022 and immediately staked out its territory: procedural by instinct, sociologically ambitious by design. Kim Hye-soo plays Judge Sim Eun-seok, a magistrate with vocal contempt for juvenile offenders, assigned to a Seoul family court that will force her to revise nearly every assumption she holds. Critics scored it 100 percent on Rotten Tomatoes, though the sample was small at five reviews. The consensus word was 'grounded' - the show resists melodrama in favour of case-by-case moral texture. Decider called it the closest Korean television has come to an American legal procedural. Ready Steady Cut offered the minority view that the series never fully converts its strong premise into consistent storytelling. Netflix's own data showed it ranked first among non-English series for two consecutive weeks after launch, and the 7.9 IMDb rating reflects an audience that found the courtroom cases compelling enough to forgive structural unevenness.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-02-25",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere introduces Judge Sim with unsettling efficiency: a courtroom practitioner who has decided the defendants standing before her are already beyond sympathy. The first case - a minor tried for a particularly brutal offence - is handled with procedural restraint that makes the moral stakes hit harder than any melodrama would.",
+          "the_moment": "The judge delivers her opening verdict without flinching - a declaration of bias that sets the entire season's dramatic engine.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2022-02-25",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale circles back to the question the series has been building toward: whether a legal system can rehabilitate the offenders it processes, and whether a judge who once answered 'no' to that question can answer differently. The resolution is honest rather than triumphant.",
+          "the_moment": "The Judge delivers her closing statement - a reckoning with her own transformation over ten episodes.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

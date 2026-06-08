@@ -1,0 +1,104 @@
+{
+  "slug": "undekhi",
+  "qid": {
+    "value": "Q97367036",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Undekhi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SonyLIV",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Thriller"
+  ],
+  "logline": "A tribal dancer witnesses a murder at a Manali wedding celebration and the powerful Atwal family begins systematically hunting down everyone who saw what happened.",
+  "poster": {
+    "src": "/img/series/undekhi/poster.jpg",
+    "alt": "Undekhi poster",
+    "attribution": "Poster © SonyLIV / Applause Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Four seasons as of May 2026. Season 4 released May 1, 2026, with the show described as its final season by some reviewers. SonyLIV's longest-running crime original.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Undekhi"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-07-10",
+        "source": "SonyLIV",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The Times of India gave Season 1 three-and-a-half out of five stars calling it an engrossing and gritty crime drama, and audience ratings on IMDb tracked close to 7.9, making this one of SonyLIV's best-received originals at launch."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12392496/"
+      },
+      "review_body": "Undekhi arrived on SonyLIV on July 10, 2020 as a crime thriller from director Ashish R Shukla. The premise is viscerally direct: a wedding in Manali, a murder in front of witnesses, and the Atwal family - politically connected and brutal - closing off every exit. The Times of India scored it 3.5 out of 5 and described it as an engrossing and gritty crime drama, a verdict that tracked the general Indian critical consensus. The show's strongest asset is Harsh Chhaya as the patriarch Papaji, a villain whose menace is structural rather than theatrical - his power derives from systems, not individual sadism. Dibyendu Bhattacharya's DSP Barun Ghosh provides the investigative counterweight. Season 1 built a loyal SonyLIV audience through consistent pacing and a believable power-dynamics framework, grounding the thriller in recognisable Indian rural-political realities.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-03-04",
+        "source": "SonyLIV",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "The Times of India again gave Season 2 three-and-a-half stars, praising the solid performances and crisp script that extended the cat-and-mouse chase without collapsing the original tension."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 dropped March 4, 2022, following witnesses and investigators deeper into the Atwal family's network as the chase extends beyond Manali. The Times of India maintained its 3.5-star endorsement, noting solid performances and a crisp script that preserved the cat-and-mouse dynamic from Season 1. The show's consistent strength - moral clarity about who holds power and why - carried through the second run, though some reviewers found the narrative spread across too many threads to maintain the first season's focused tension. The ensemble, particularly Bhattacharya and Chhaya, remained the central draw.",
+      "season_over_season": "Season 2 expands the geographic and political scope of the Atwal conflict but loses some of the tight, suffocating pressure of the Manali-bound original.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

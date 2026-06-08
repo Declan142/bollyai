@@ -1,0 +1,113 @@
+{
+  "slug": "ghoul",
+  "qid": {
+    "value": "Q48673879",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ghoul",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Horror"
+  ],
+  "logline": "A zealously loyal military interrogator brings a captured terrorist into a secret detention facility and slowly realises the prisoner may be something far beyond human.",
+  "poster": {
+    "src": "/img/series/ghoul/poster.jpg",
+    "alt": "Ghoul poster",
+    "attribution": "Poster © Netflix India / Blumhouse Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Three-episode limited miniseries. No continuation planned. Co-produced with Blumhouse Productions.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ghoul_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 3,
+      "release_date": {
+        "value": "2018-08-24",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An 88-percent Rotten Tomatoes score from 17 critics and a 7.0 IMDb rating converge on a tight, atmospheric three-episode horror run that deploys Arab folklore inside a surveillance-state parable without losing grip."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 17,
+        "pull_quotes": [
+          {
+            "text": "Ghoul pulls from Arabic folklore to craft a tense, tightly edited monster movie with a fantastic leading woman.",
+            "source": "Thrillist",
+            "url": "https://www.rottentomatoes.com/tv/ghoul/s01"
+          },
+          {
+            "text": "Atmospheric, partly disturbing but fully gripping.",
+            "source": "Firstpost",
+            "url": "https://www.rottentomatoes.com/tv/ghoul/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5909930/"
+      },
+      "review_body": "Released August 24, 2018, Ghoul was Netflix India's second original after Sacred Games and the first to court an international genre audience through a Blumhouse co-production. The three-episode runtime is not a limitation but a formal decision: director Patrick Graham builds a suffocating chamber drama set in a near-future detention facility, drawing on the Islamic folkloric ghoul to literalise what oppressive states do to their own citizens. Radhika Apte plays the true-believing interrogator Nida Rahim with a coiled restraint that critics consistently singled out. Thrillist called it a tense, tightly edited monster movie with a fantastic leading woman; Firstpost judged it fully gripping. The Rotten Tomatoes consensus - short, spooky and surprisingly poignant - understates the series' political intelligence. At just over three hours total, Ghoul is one of the most efficient horror propositions to come out of Indian streaming.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Nida Rahim",
+          "air_date": "2018-08-24",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the near-future world of checkpoints, ideology tests and a regime that outsources its violence to true believers. Nida Rahim volunteers for the detention facility that everyone else fears. The atmosphere is established in the first ten minutes and never loosens.",
+          "the_moment": "Nida reporting her own father to the authorities - the act that defines her character and the world she inhabits.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Reveal Their Guilt, Eat Their Flesh",
+          "air_date": "2018-08-24",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale delivers on the miniseries' central gamble: the horror is real, not metaphorical, and the state that invited it in cannot contain what it has unleashed. Apte carries the resolution with the same control she brought to the opening, but the emotional register has shifted completely.",
+          "the_moment": "The ghoul's final confrontation with the system that summoned it - the point where folklore and political allegory lock into one image.",
+          "critic_note": {
+            "text": "Short, spooky, and surprisingly poignant.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/ghoul/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

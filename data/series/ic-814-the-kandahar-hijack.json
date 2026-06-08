@@ -1,0 +1,111 @@
+{
+  "slug": "ic-814-the-kandahar-hijack",
+  "qid": {
+    "value": "Q126594463",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "IC 814: The Kandahar Hijack",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Historical",
+    "Thriller",
+    "Drama",
+    "Action"
+  ],
+  "logline": "A dramatisation of the eight-day hijacking of Indian Airlines Flight 814 in December 1999, told from the inside of the aircraft and the crisis rooms of the Indian government simultaneously.",
+  "poster": {
+    "src": "/img/series/ic-814-the-kandahar-hijack/poster.jpg",
+    "alt": "IC 814: The Kandahar Hijack poster",
+    "attribution": "Poster © Netflix India / Anubhav Sinha. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single-season limited series covering a contained historical event. Directed by Anubhav Sinha. Netflix added historical disclaimers to the Indian version after controversy over certain dramatisations.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/IC_814:_The_Kandahar_Hijack"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-08-29",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Critics praised the ensemble cast and Anubhav Sinha's controlled procedural filmmaking, though the IMDb rating of 5.8 reflects audience polarisation driven substantially by controversy over the series' historical framing and coding of the hijackers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "The Netflix India series is enthralling, even if it's telling a story many Indians and its diaspora might already be aware of.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/ic_814_the_kandahar_hijack/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 5.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28106741/"
+      },
+      "review_body": "IC 814: The Kandahar Hijack premiered August 29, 2024 and within days became Netflix's most-watched Indian title for that period. Directed by Anubhav Sinha and based on former hostage negotiator Capt. Devi Sharan's memoir, the six-episode series dramatises the 1999 hijacking through dual timelines - the cockpit and the crisis cabinet. Vijay Varma and Naseeruddin Shah anchor an ensemble that critics broadly praised for its restraint and procedural precision. NDTV's Saibal Chatterjee gave it 3.5 out of 5, calling it authentic and to the point. The series generated sustained political controversy in India over its use of code names for the hijackers and perceived softness toward perpetrators, leading Netflix to add historical disclaimers. The IMDb rating of 5.8 reflects this audience fracture more than any craft failure; the critical reception from professional reviewers ran considerably warmer.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-08-29",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere boards IC 814 on Christmas Eve, 1999, and the hijacking is underway before the first act ends. Sinha establishes both the aircraft interior and the government response room as sites of equal narrative weight from the first minutes. The episode works as pure procedural tension.",
+          "the_moment": "The moment the cockpit doors are breached and the crew realise the scale of what is happening - the series' cleanest piece of craft.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2024-08-29",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale brings the Kandahar negotiation to its documented conclusion. The series does not manufacture heroism or villain clarity that the historical record does not support, which was the source of both its critical praise and its public controversy.",
+          "the_moment": "The final handshake on the Kandahar tarmac - the series' restraint in not editorialising what it shows is its most deliberate act.",
+          "critic_note": {
+            "text": "The Netflix India series is enthralling, even if it's telling a story many Indians and its diaspora might already be aware of.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/ic_814_the_kandahar_hijack/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
