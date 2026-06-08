@@ -1,6 +1,8 @@
 # BollyAI — pickup state (2026-06-08, post SEO-sweep + Ending-Explained)
 
-**30-sec snapshot:** bollyai.in LIVE (CF Pages Direct Upload, **noindex pre-launch gate ON**). 21 films + **183 series / 457 seasons / 487 episode reviews + 120 Ending-Explained walkthroughs** across 6 desks + Series + What-to-Watch (18 lists). Wikidata spine (QID keys, NO TMDB). **sitemap 864 URLs.** NOT yet redeployed since the SEO-sweep + endings commits — `deploy-manual` pending.
+**30-sec snapshot:** bollyai.in **LAUNCHED & PUBLIC (2026-06-08)** — noindex triple-gate REMOVED, all pages indexable, deployed, CF cache purged, IndexNow pinged 864 URLs. 21 films + **183 series / 457 seasons / 487 episode reviews + 120 Ending-Explained walkthroughs** across 6 desks (Bollywood/Kollywood/Tollywood/Mollywood/Sandalwood/Hollywood/Streaming) + Series + What-to-Watch (18 lists) + site search. Founder schema = Aditya Sharma / @aditya14. Wikidata spine (QID keys, NO TMDB). **sitemap 864 URLs**, robots.txt → sitemap.
+
+**ONLY REMAINING INDEX STONE — Google Search Console (needs Aditya's Google login):** add `bollyai.in` as a Domain property at search.google.com/search-console → verify (CF one-click OR a DNS TXT I can add via CF API once you paste the token) → submit sitemap `https://bollyai.in/sitemap.xml`. IndexNow already covers Bing/Yandex/Seznam/Naver; Google has no programmatic submit for an unverified property (and Google killed the sitemap-ping endpoint in 2023).
 
 **Latest session (commits f3.. → a2cf928):**
 - **Site-wide title/description sweep**: whole site was on the root default `<title>` (the real traffic blocker, NOT review length). Every indexable route now has unique search-intent title+desc (series/film/ott/static); fixed /watch double-bar; hub uses peak-season verdict (`peakSeason()`); series-hub "Quick Answers" FAQ from real renewal/platform data.
