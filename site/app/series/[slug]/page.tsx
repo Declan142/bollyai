@@ -6,6 +6,7 @@ import { SeasonVerdict } from "../../../components/SeasonVerdict";
 import { AnswerBlock } from "../../../components/AnswerBlock";
 import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason } from "../../../lib/series";
+import { hasEnding } from "../../../lib/endings";
 import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
 
 export const dynamicParams = false;
@@ -90,6 +91,13 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
               ))}
           </ol>
         </section>
+
+        {hasEnding(series.slug) && (
+          <a className="ending-cta" href={`/series/${series.slug}/ending-explained/`}>
+            <span className="ending-cta__k">SPOILERS</span>
+            <span>How does {series.title.value} end? Read the ending explained →</span>
+          </a>
+        )}
 
         <section className="panel">
           <h2>{series.title.value} — Quick Answers</h2>

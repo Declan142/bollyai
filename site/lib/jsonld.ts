@@ -1,6 +1,7 @@
 import type { Film } from "./data";
 import { formatDate } from "./data";
 import type { Series, SeriesSeason, EpisodeReview } from "./series";
+import type { Ending } from "./endings";
 
 const siteUrl = "https://bollyai.in";
 
@@ -252,6 +253,42 @@ export function watchListFaqJsonLd(list: { faq?: Array<{ q: string; a: string }>
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: list.faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a }
+    }))
+  };
+}
+
+// "Ending Explained" page = an Article about the show's finale (cites its sources),
+// plus an optional FAQPage from the lingering questions. Article (not Review) because
+// this is explanatory, not a rated verdict.
+export function endingArticleJsonLd(series: Series, ending: Ending) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${series.title.value} Ending Explained`,
+    description: ending.hook,
+    dateModified: ending.date_modified,
+    author: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+    publisher: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+    mainEntityOfPage: `${siteUrl}/series/${series.slug}/ending-explained/`,
+    about: {
+      "@type": "TVSeries",
+      name: series.title.value,
+      ...(series.qid ? { sameAs: `https://www.wikidata.org/wiki/${series.qid.value}` } : {})
+    },
+    citation: ending.sources.map((s) => s.url)
+  };
+}
+
+export function endingFaqJsonLd(ending: Ending) {
+  const qa = ending.lingering_questions ?? [];
+  if (qa.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: qa.map((f) => ({
       "@type": "Question",
       name: f.q,
       acceptedAnswer: { "@type": "Answer", text: f.a }

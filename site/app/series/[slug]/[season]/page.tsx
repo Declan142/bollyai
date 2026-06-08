@@ -8,6 +8,7 @@ import { JsonLd } from "../../../../components/JsonLd";
 import { SeasonVerdict } from "../../../../components/SeasonVerdict";
 import { formatDate } from "../../../../lib/data";
 import { getAllSeries, getSeries } from "../../../../lib/series";
+import { hasEnding } from "../../../../lib/endings";
 import { breadcrumbJsonLd, seasonReviewJsonLd, episodeReviewsJsonLd } from "../../../../lib/jsonld";
 
 export const dynamicParams = false;
@@ -142,6 +143,11 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
 
         <nav className="mesh-links" aria-label="Series links">
           <a href={`/series/${series.slug}/`}>All seasons of {series.title.value}</a>
+          {hasEnding(series.slug) && (
+            <a href={`/series/${series.slug}/ending-explained/`}>
+              {series.title.value} ending explained
+            </a>
+          )}
           <a href="/series/">Back to Series</a>
           <a href="/ott/calendar/">OTT calendar</a>
         </nav>
