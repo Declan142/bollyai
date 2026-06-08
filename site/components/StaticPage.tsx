@@ -12,7 +12,7 @@ export function StaticPage({
   children: React.ReactNode;
 }) {
   return (
-    <main className="page-shell static-page" data-desk="bombay">
+    <main className="page-shell static-page" data-desk="bollywood">
       <section className="section-head">
         <p className="eyebrow">BollyAI policy</p>
         <h1>{title}</h1>

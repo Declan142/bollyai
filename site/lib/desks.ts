@@ -1,5 +1,5 @@
 export type DeskSlug =
-  | "bombay"
+  | "bollywood"
   | "kollywood"
   | "tollywood"
   | "mollywood"
@@ -17,11 +17,11 @@ export type Desk = {
 
 export const DESKS: Desk[] = [
   {
-    slug: "bombay",
-    label: "Bombay",
+    slug: "bollywood",
+    label: "Bollywood",
     industryName: "Hindi cinema",
     tint: "saffron",
-    answer: "Bombay desk tracks Hindi theatrical verdicts, opening weekends, and the films that turn PR noise into real trade numbers."
+    answer: "Bollywood desk tracks Hindi theatrical verdicts, opening weekends, and the films that turn PR noise into real trade numbers."
   },
   {
     slug: "kollywood",

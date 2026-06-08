@@ -25,7 +25,7 @@ STATE_DIR = DATA_DIR / "_state"
 USER_AGENT = "BollyAI-DataBot/1.0 (+https://bollyai.in/bot; data@bollyai.in)"
 
 INDUSTRY_URL_SEGMENTS = {
-    "bombay": "bombay",
+    "bombay": "bollywood",
     "kollywood": "kollywood",
     "tollywood": "tollywood",
     "mollywood": "mollywood",
@@ -33,7 +33,7 @@ INDUSTRY_URL_SEGMENTS = {
     "hollywood": "hollywood",
     "streaming": "streaming",
     # Blueprint aliases used by older seat files.
-    "bollywood": "bombay",
+    "bollywood": "bollywood",
     "tamil": "kollywood",
     "telugu": "tollywood",
     "malayalam": "mollywood",

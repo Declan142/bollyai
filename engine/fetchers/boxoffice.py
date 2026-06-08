@@ -360,7 +360,7 @@ def fetch_sacnilk_primary(
 def secondary_source_stub(industry: str) -> list[dict[str, Any]]:
     stubs = {
         "tollywood": ["TrackTollywood", "AndhraBoxOffice"],
-        "bombay": ["BoxOfficeIndia"],
+        "bollywood": ["BoxOfficeIndia"],
         "hollywood": ["Mojo-India"],
         "kollywood": [],
         "mollywood": [],

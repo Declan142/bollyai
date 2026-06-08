@@ -7,6 +7,8 @@ import "@fontsource/jetbrains-mono/700.css";
 import type { Metadata } from "next";
 import "./globals.css";
 import { SiteFooter, SiteHeader } from "../components/PageChrome";
+import { JsonLd } from "../components/JsonLd";
+import { organizationJsonLd, webSiteJsonLd } from "../lib/jsonld";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bollyai.in"),
@@ -31,6 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="theme-marquee">
       <body>
+        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={webSiteJsonLd()} />
         <SiteHeader />
         {children}
         <SiteFooter />

@@ -23,7 +23,7 @@
   background: var(--bg-deep);
 }
 
-[data-desk="bombay"] {
+[data-desk="bollywood"] {
   --accent: oklch(78% .16 65);
   --accent-2: oklch(82% .16 85);
 }
@@ -1276,6 +1276,47 @@ p {
   color: var(--accent-ink); background: var(--accent);
   padding: 3px 8px; border-radius: 999px; white-space: nowrap;
 }
+
+/* Header search */
+.site-search { display: flex; align-items: center; gap: 0; flex: 0 0 auto; }
+.site-search input {
+  width: 200px; max-width: 46vw;
+  background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-right: 0;
+  border-radius: 8px 0 0 8px; padding: 8px 12px;
+  font-family: var(--font-body); font-size: .88rem;
+}
+.site-search input::placeholder { color: var(--text-faint); }
+.site-search input:focus { outline: none; border-color: var(--accent); }
+.site-search button {
+  border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  border-radius: 0 8px 8px 0; padding: 8px 12px; cursor: pointer;
+  font-family: var(--font-number); font-size: .9rem; line-height: 1;
+}
+
+/* Search page */
+.search-page { max-width: 760px; }
+.search-page__input {
+  width: 100%; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; font-family: var(--font-body); font-size: 1.05rem;
+}
+.search-page__input:focus { outline: none; border-color: var(--accent); }
+.search-page__hint { color: var(--text-dim); margin-top: 18px; }
+.search-group { margin-top: 26px; }
+.search-group__head {
+  font-family: var(--font-number); font-size: .8rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
+}
+.search-results { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.search-result {
+  display: grid; gap: 2px; padding: 12px 14px;
+  border: 1px solid var(--border-hair); border-radius: 10px;
+  background: color-mix(in oklch, var(--surface) 86%, black); text-decoration: none;
+}
+.search-result:hover { border-color: var(--accent); }
+.search-result__t { font-family: var(--font-display); font-size: 1.1rem; color: var(--text); }
+.search-result__d { color: var(--text-dim); font-size: .88rem; line-height: 1.45; }
 
 /* Home — What to Watch rail */
 .watch-rail {

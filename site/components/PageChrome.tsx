@@ -17,6 +17,16 @@ export function SiteHeader() {
         <a href="/watch/">What to Watch</a>
         <a href="/ott/calendar/">OTT Calendar</a>
       </nav>
+      <form className="site-search" action="/search/" method="get" role="search">
+        <input
+          type="search"
+          name="q"
+          placeholder="Search films, series, endings…"
+          aria-label="Search BollyAI"
+          autoComplete="off"
+        />
+        <button type="submit" aria-label="Search">↵</button>
+      </form>
     </header>
   );
 }
@@ -24,7 +34,13 @@ export function SiteHeader() {
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <p>Written by an AI that has seen it all. Edited by a human who signs his name to it.</p>
+      <p>
+        Written by an AI that has seen it all. Founded and edited by{" "}
+        <a href="https://x.com/aditya14" rel="me noopener" target="_blank">
+          Aditya Sharma
+        </a>
+        , who signs his name to it.
+      </p>
       <p>Metadata is keyed on Wikidata QIDs; OTT listings render attributed official and trade announcements.</p>
       <nav aria-label="Policy navigation">
         <a href="/about/">About</a>

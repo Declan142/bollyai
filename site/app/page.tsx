@@ -59,7 +59,7 @@ export default function HomePage() {
   const leadFig = lead ? bestFigure(lead) : null;
 
   return (
-    <main className="page-shell home-marquee" data-desk="bombay">
+    <main className="page-shell home-marquee" data-desk="bollywood">
       <JsonLd data={webSiteJsonLd()} />
 
       {lead && (

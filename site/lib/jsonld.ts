@@ -296,6 +296,36 @@ export function endingFaqJsonLd(ending: Ending) {
   };
 }
 
+// Founder identity — single Person entity reused as Organization.founder and as the
+// author the whole site signs under. sameAs chain anchors the E-E-A-T entity.
+export const FOUNDER = {
+  "@type": "Person",
+  "@id": `${siteUrl}/#aditya`,
+  name: "Aditya Sharma",
+  jobTitle: "Founder & Editor",
+  url: "https://x.com/aditya14",
+  sameAs: [
+    "https://twitter.com/aditya14",
+    "https://x.com/aditya14",
+    "https://github.com/Declan142",
+    "https://www.linkedin.com/in/aditya-sharma-119ab4324/"
+  ]
+} as const;
+
+export function organizationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#org`,
+    name: "BollyAI",
+    url: siteUrl,
+    description:
+      "Pan-India entertainment answer engine: verdicts, live box-office trackers, OTT release answers, and ending explainers.",
+    founder: FOUNDER,
+    sameAs: ["https://x.com/aditya14"]
+  };
+}
+
 export function webSiteJsonLd() {
   return {
     "@context": "https://schema.org",
