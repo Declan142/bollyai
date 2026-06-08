@@ -14,6 +14,22 @@ export function generateStaticParams() {
   return getAllSeries().map((s) => ({ slug: s.slug }));
 }
 
+export function generateMetadata({ params }: { params: { slug: string } }) {
+  const series = getSeries(params.slug);
+  if (!series) return {};
+  const latest = latestSeason(series);
+  const t = series.title.value;
+  const score = latest?.bollymeter ? `, BollyMeter ${latest.bollymeter.score.toFixed(1)}/10` : "";
+  const title = latest?.verdict
+    ? `${t} Review: ${latest.verdict}${score}`
+    : `${t} Review & Verdict — ${series.platform.value}`;
+  const lead = latest?.verdict
+    ? `Is ${t} worth watching? BollyAI verdict: ${latest.verdict}${score}. `
+    : `${t} on ${series.platform.value}. `;
+  const description = (lead + series.logline).slice(0, 158).replace(/\s+\S*$/, "");
+  return { title, description };
+}
+
 export default function SeriesHub({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!series) notFound();

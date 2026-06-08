@@ -18,6 +18,24 @@ export function generateStaticParams() {
   );
 }
 
+export function generateMetadata({ params }: { params: { slug: string; season: string } }) {
+  const series = getSeries(params.slug);
+  if (!series) return {};
+  const num = Number(params.season.replace(/^s/, ""));
+  const season = series.seasons.find((s) => s.number === num);
+  if (!season) return {};
+  const t = series.title.value;
+  const score = season.bollymeter ? `, BollyMeter ${season.bollymeter.score.toFixed(1)}/10` : "";
+  const title = season.verdict
+    ? `${t} Season ${num} Review: ${season.verdict}${score}`
+    : `${t} Season ${num} Review — Is It Worth Watching?`;
+  const lead = season.verdict
+    ? `${t} Season ${num} verdict: ${season.verdict}${score}. `
+    : `${t} Season ${num} — BollyAI opens a verdict once the season finishes. `;
+  const description = (lead + (season.review_body ?? "")).slice(0, 158).replace(/\s+\S*$/, "");
+  return { title, description };
+}
+
 export default function SeasonPage({ params }: { params: { slug: string; season: string } }) {
   const series = getSeries(params.slug);
   if (!series) notFound();
