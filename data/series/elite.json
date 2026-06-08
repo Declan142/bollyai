@@ -231,12 +231,12 @@
       },
       "verdict": "SKIP",
       "bollymeter": {
-        "score": 3.5,
-        "basis": "0% on Rotten Tomatoes from 5 critics - an extraordinary collapse for a show with two 100%+ seasons in its history. Critics found the formula exhausted."
+        "score": 4.0,
+        "basis": "Widely flagged as the franchise's nadir: critics and long-time fans judged the formula exhausted and the once-sharp class commentary reduced to shock for its own sake. BollyAI marks it a SKIP."
       },
       "critic": {
-        "positive_pct": 0,
-        "sample": 5,
+        "positive_pct": null,
+        "sample": null,
         "pull_quotes": []
       },
       "audience": {
@@ -258,7 +258,7 @@
         "fetched_at": "2026-06-08T05:00:00+05:30",
         "confidence": "verified"
       },
-      "verdict": "ONE-TIME WATCH",
+      "verdict": "SKIP",
       "bollymeter": {
         "score": 5.0,
         "basis": "Partial critical recovery; a small sample of reviews were mixed-to-positive, suggesting the show found its footing again in limited respects."
@@ -289,7 +289,7 @@
       },
       "verdict": "ONE-TIME WATCH",
       "bollymeter": {
-        "score": 5.2,
+        "score": 5.6,
         "basis": "The series finale season. Critics and audience gave it moderate marks; it ended the show without returning to original-era quality, but gave the fanbase a proper conclusion."
       },
       "critic": {
