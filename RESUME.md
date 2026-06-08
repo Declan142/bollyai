@@ -1,6 +1,10 @@
-# BollyAI — pickup state (2026-06-08, post series-scale-up wave 2)
+# BollyAI — pickup state (2026-06-08, post SEO-sweep + Ending-Explained)
 
-**30-sec snapshot:** bollyai.in LIVE (CF Pages Direct Upload, **noindex pre-launch gate ON**). 21 films + **183 series / 457 seasons / 487 episode reviews / 748 static pages** across 6 desks + Series + What-to-Watch (18 lists). 161/183 series have real posters (22 on fallback SVG = Wikipedia logo-leads). Wikidata spine (QID keys, NO TMDB). Deployed 707c0fb → bollyai-in.pages.dev (apex verified 200, sitemap 744 URLs).
+**30-sec snapshot:** bollyai.in LIVE (CF Pages Direct Upload, **noindex pre-launch gate ON**). 21 films + **183 series / 457 seasons / 487 episode reviews + 60 Ending-Explained walkthroughs** across 6 desks + Series + What-to-Watch (18 lists). Wikidata spine (QID keys, NO TMDB). **sitemap 804 URLs.** NOT yet redeployed since the SEO-sweep commits — `deploy-manual` pending.
+
+**Latest session (commits f3.. → a2cf928):**
+- **Site-wide title/description sweep**: whole site was on the root default `<title>` (the real traffic blocker, NOT review length). Every indexable route now has unique search-intent title+desc (series/film/ott/static); fixed /watch double-bar; hub uses peak-season verdict (`peakSeason()`); series-hub "Quick Answers" FAQ from real renewal/platform data.
+- **Ending-Explained surface**: `/series/[slug]/ending-explained/`, 60 grounded spoiler walkthroughs (10 Opus agents, Wikipedia-cited), `data/endings/<slug>.json` + `lib/endings.ts` + gate `tests/test_ending_explained.py` (61/61). Hub CTA + season link gated on `hasEnding()`. Only ended/limited shows. To extend: drop more `data/endings/*.json` vs the locked schema.
 
 **Latest increment (this session, 3 commits f7d82f8→15dc9a3):**
 - **+76 international series** via 6-agent parallel fan-out: US/UK prestige, sci-fi/fantasy, Korean, Japanese anime, European/Spanish/British, Indian. Catalogue 59→135.
