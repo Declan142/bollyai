@@ -98,4 +98,5 @@ jobs:
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-        run: scripts/lib/tg_alert.sh "BollyAI cron failed: $GITHUB_RUN_ID"
+        run: |
+          scripts/lib/tg_alert.sh "BollyAI cron failed: $GITHUB_RUN_ID"
