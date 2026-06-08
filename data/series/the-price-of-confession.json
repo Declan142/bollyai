@@ -1,0 +1,112 @@
+{
+  "slug": "the-price-of-confession",
+  "qid": {
+    "value": "Q131822507",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Price of Confession",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Thriller",
+    "Crime",
+    "Drama",
+    "Psychological"
+  ],
+  "logline": "A woman suspected of killing her husband strikes a devil's bargain with a mysterious stranger called the Witch - confess, and the stranger will take the fall - but the deal demands a murder in return.",
+  "poster": {
+    "src": "/img/series/the-price-of-confession/poster.jpg",
+    "alt": "The Price of Confession series poster",
+    "attribution": "Poster © Netflix / Highc. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Twelve-episode limited series, self-contained. Kim Go-eun won Best Acting in OTT at the 29th Chunsa Film Art Awards 2025. No season 2 announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Price_of_Confession"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": 12,
+      "release_date": {
+        "value": "2025-12-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Jeon Do-yeon and Kim Go-eun's collision of two radically different acting registers drives an 80% RT score (5 critics) and an IMDb 7.6; critics noted a slow, predictable first half before the second act's dizzying escalation earns the investment."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Bold performances and punchy scripting make the show a binge-worthy experience.",
+            "source": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20251207/the-price-of-confession-jeon-do-yeon-kim-go-eun-in-prestige-pulp"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt37218592/"
+      },
+      "review_body": "The Price of Confession premiered on Netflix on December 5, 2025 and paired two of Korean cinema's most respected screen presences - Jeon Do-yeon and Kim Go-eun - for the first time. The 12-episode thriller centres on a devil's bargain: a woman suspected of murdering her husband accepts a stranger's offer to confess in her place, in exchange for committing a murder herself. Critics scored it at 80 percent on Rotten Tomatoes (5 reviews), with The Korea Times calling it prestige pulp with bold performances and punchy scripting. The consensus acknowledged a slower, more predictable first half before the second act's compounding revelations. Kim Go-eun won Best Acting in OTT at the 29th Chunsa Film Art Awards for her role as the enigmatic Mo-eun, and MyDramaList audiences were considerably more enthusiastic than professional critics, scoring it 8.6 from over 11,000 users. The show stands as one of the more accomplished performance-driven thrillers in Netflix Korea's 2025 output.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2025-12-05",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere establishes the central moral trap with clean economy: a husband's body, a wife who cannot explain the night, and a media frenzy that has already convicted her. The appearance of Mo-eun at the episode's close introduces the show's true engine - a proposition so amoral it reframes everything that came before.",
+          "the_moment": "Mo-eun's first meeting with Yoon-soo turns a straightforward crime thriller into something with a much darker logic.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2025-12-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale connects the plagiarism case, the assault from years prior, and the confessional bargain into a single account of how private violence compounds into systemic destruction. Critics who had expressed reservations about the first half largely credited the back-end payoff as sufficient to justify the journey.",
+          "the_moment": "The Witch's true identity and motivation land the series' sharpest emotional blow - the moment that made MyDramaList audiences rate the show nearly a full point above the professional critics.",
+          "critic_note": {
+            "text": "Bold performances and punchy scripting make the show a binge-worthy experience.",
+            "source": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas/20251207/the-price-of-confession-jeon-do-yeon-kim-go-eun-in-prestige-pulp"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

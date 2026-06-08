@@ -1,0 +1,112 @@
+{
+  "slug": "the-scarecrow",
+  "qid": {
+    "value": "Q138027135",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Scarecrow",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ENA",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Mystery",
+    "Psychological",
+    "Drama"
+  ],
+  "logline": "A disgraced detective returns to his hometown to solve a serial murder case - and must confront the prosecutor who bullied him in school - in a slow-burn thriller inspired by the real Hwaseong murders.",
+  "poster": {
+    "src": "/img/series/the-scarecrow/poster.jpg",
+    "alt": "The Scarecrow series poster",
+    "attribution": "Poster © ENA / HYBE. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 12 episodes concluded May 26, 2026. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Scarecrow_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 12,
+      "release_date": {
+        "value": "2026-04-20",
+        "source": "ENA broadcast schedule",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Became ENA's highest-rated Monday-Tuesday drama of all time, climbing from a 2.9% premiere to an 8.1% finale via word-of-mouth alone; MyDramaList audiences score 8.2 and reviewers called it disturbing yet brilliant."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Disturbing yet brilliant crime thriller that keeps breaking your heart.",
+            "source": "K-waves and Beyond",
+            "url": "https://kwavesandbeyond.com/the-scarecrow-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/786738-scarecrow"
+      },
+      "review_body": "The Scarecrow aired on ENA from April 20 to May 26, 2026, and turned into the network's all-time top-rated Monday-Tuesday drama through sustained word-of-mouth rather than an opening burst. Premiere ratings sat at 2.9 percent nationwide before climbing steadily to a finale peak of 8.1 percent. The show is built around collective guilt and institutional violence rather than the mechanics of whodunit: a demoted detective and a former school bully turned prosecutor are forced to investigate serial murders inspired by the real Hwaseong case, and the series keeps asking who the system destroyed before the killer. Park Hae-soo and Lee Hee-joon - reunited from Mouse - deliver performances that critics called emotionally shattering. K-waves and Beyond labelled it a crime thriller that keeps breaking the viewer's heart, and the MyDramaList audience consensus of 8.2 validated that assessment.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Tae-ju's Comeback to Gangseong",
+          "air_date": "2026-04-20",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the atmosphere of institutional rot before the first murder scene: a detective demoted to his provincial hometown, a cold case that local powers want buried, and a prosecutorial adversary with a shared past. The show withholds easy genre comfort from the first episode.",
+          "the_moment": "Tae-joo's first confrontation with Si-young reveals their shared history carries as much danger as any serial killer in the town.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2026-05-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale landed to a peak nationwide minute-by-minute rating of 9.3 percent - confirming how completely the show had grown its audience over twelve episodes. The resolution refuses to let the institutions that enabled the murders escape without indictment, making the closing hour a statement about collective complicity rather than individual evil.",
+          "the_moment": "The final confrontation between Tae-joo and the true forces behind the murders reframes every earlier scene of authority and compliance.",
+          "critic_note": {
+            "text": "The mystery stops being who did this and becomes: how many lives were destroyed before the truth came out.",
+            "source": "K-waves and Beyond",
+            "url": "https://kwavesandbeyond.com/the-scarecrow-review/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

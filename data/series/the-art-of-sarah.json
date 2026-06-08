@@ -1,0 +1,116 @@
+{
+  "slug": "the-art-of-sarah",
+  "qid": {
+    "value": "Q131844525",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Art of Sarah",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Crime",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A woman who fabricated an entire high-society luxury-brand identity is found dead - and the detective investigating her murder must peel back a labyrinth of false names, counterfeit goods, and class fraud to discover who she really was.",
+  "poster": {
+    "src": "/img/series/the-art-of-sarah/poster.jpg",
+    "alt": "The Art of Sarah series poster",
+    "attribution": "Poster © Netflix / SLL. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Eight-episode limited series, self-contained. Baeksang Arts Awards 2026 nominations for Best Actress (Shin Hye-sun), Best Supporting Actress, and Best Screenplay confirmed critical standing. No season 2 announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Art_of_Sarah"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-02-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Shin Hye-sun's hypnotic multi-identity performance drives an 86% RT approval (7 critics) and a No. 1 global Netflix non-English debut at 10 million views; IMDb audiences settle at 7.3, reflecting a show that wows on performance while the mystery mechanism strains in the back half."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Shin Hye-sun leads a glitzy fashion-world mystery with hypnotic command.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-drama/k-drama/article/3343315/netflix-k-drama-art-sarah-review-shin-hye-sun-leads-glitzy-fashion-world-mystery"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt35149250/"
+      },
+      "review_body": "Released February 13, 2026, The Art of Sarah reunited director Kim Jin-min with the Stranger duo of Shin Hye-sun and Lee Joon-hyuk for an eight-episode luxury-world mystery. The show rose to number one globally on Netflix's non-English chart for the week ending February 22, recording 10 million views. Critics approved at 86 percent on Rotten Tomatoes (7 reviews), with the consensus clustering on Shin Hye-sun's sustained command across multiple identity layers - the episode structure mirrors her aliases, each hour named after a different persona. The South China Morning Post gave it 3 out of 5 stars, noting stylistic confidence but plot convolution in the back half. IMDb audiences settled at 7.3. Baeksang Arts Awards 2026 nominated Shin Hye-sun for Best Actress and the screenplay for Best Writing - the critical establishment's endorsement of a show whose ambition exceeded its structural tidiness.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Jane Doe",
+          "air_date": "2026-02-13",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere opens on a corpse with no verifiable identity and a detective who cannot find a single authentic record for the victim. The show's structural bet is revealed immediately: each episode will be named for one of her aliases, and the audience will learn who she was only by assembling all the selves she performed.",
+          "the_moment": "The detective pulls up a digital trail and finds nothing real - the moment the show announces its central formal game.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Sarah Kim",
+          "air_date": "2026-02-13",
+          "bollymeter": 8.0,
+          "spoiler_free": "The second episode introduces the primary identity in full operational mode, and Shin Hye-sun shifts register completely from the prior hour. Critics consistently cited this episode as the one that confirmed the lead performance would carry whatever structural unevenness the mystery introduced.",
+          "the_moment": "Sarah Kim walks into a luxury industry event and the camera registers the room's deference - the whole show's class commentary in a single entrance.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Art of Sarah",
+          "air_date": "2026-02-13",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale assembles all the aliases into a single account and lands a closing statement about identity, class aspiration, and the violence of social performance. The resolution satisfies the mystery while leaving the deeper questions about who the system allows to exist deliberately open.",
+          "the_moment": "The final reveal of why Sarah built each persona answers the detective's question while refusing to reduce her to either victim or villain.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

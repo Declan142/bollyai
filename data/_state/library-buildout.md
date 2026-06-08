@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 297 / ~500   (baseline 183)
+## Progress: 302 / ~500   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
