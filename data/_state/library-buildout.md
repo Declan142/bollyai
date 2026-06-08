@@ -35,7 +35,7 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
-### Batch 03 — 2026-06-09 — 30 series — STATUS: DONE (commit TBD; 267->297)
+### Batch 03 — 2026-06-09 — 30 series — STATUS: DONE (commit 77c64c8 pushed; 267->297)
 - **M** K-drama recent/crime: juvenile-justice · through-the-darkness · happiness-kdrama · jirisan · the-silent-sea · celebrity
 - **N** Netflix/Western: the-haunting-of-hill-house · midnight-mass · never-have-i-ever · daredevil · outer-banks · suits
 - **O** Anime: neon-genesis-evangelion · sword-art-online · that-time-i-got-reincarnated-as-a-slime · golden-kamuy · banana-fish · overlord
