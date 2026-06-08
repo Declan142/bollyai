@@ -1,0 +1,106 @@
+{
+  "slug": "bocchi-the-rock",
+  "qid": {
+    "value": "Q108230373",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bocchi the Rock!",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A cripplingly shy guitarist finds her only outlet in music, then has to survive actual bandmates, live stages, and human eye contact without imploding.",
+  "poster": {
+    "src": "/img/series/bocchi-the-rock/poster.jpg",
+    "alt": "Bocchi the Rock! series poster",
+    "attribution": "Poster © Aki Hamaji / Houbunsha / Bocchi the Rock! Production Committee / CloverWorks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 was announced February 15, 2025 and is currently in production at CloverWorks.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bocchi_the_Rock!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "IMDb 8.3; 89% on Rotten Tomatoes from 3 critic reviews; Anime of the Year at the ninth Anime Trending Awards. Critics and audiences clustered on its visual invention, honest portrayal of social anxiety, and genuinely electrifying musical performance sequences."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "Electrifying musical performances, one hell of an ensemble cast, and imaginative animation.",
+            "source": "IGN",
+            "url": "https://www.rottentomatoes.com/tv/bocchi_the_rock/s01"
+          },
+          {
+            "text": "Delivers a near-flawless look at social anxiety, making friends, and endeavoring to live your dreams.",
+            "source": "But Why Tho?",
+            "url": "https://www.rottentomatoes.com/tv/bocchi_the_rock/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt17158756/"
+      },
+      "review_body": "Bocchi the Rock! arrived in the fall 2022 season and immediately established itself as one of CloverWorks' finest productions. Critics scored it 89 percent on Rotten Tomatoes and praised its unusually specific portrayal of severe social anxiety - not played for easy pathos but rendered through inventive visual metaphors that director Keiichiro Saito deploys with real wit. The anime won Anime of the Year at the ninth Anime Trending Awards, and its IMDb score of 8.3 reflects an audience that found the show's emotional honesty as compelling as its animation craft. The musical performance sequences push the budget in directions that feel genuinely expressive rather than merely impressive. The show earns its eventual warmth by refusing to pretend that isolation is a quick fix.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Alone, Together",
+          "air_date": "2022-10-09",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Bocchi's interior world with a generosity that could only come from a show that genuinely understands its subject. The anxiety sequences are rendered with visual invention rather than condescension, and the episode earns the first genuine human connection by making the alternative feel real.",
+          "the_moment": "Bocchi's first rehearsal with the band - the gap between the guitarist she is alone and the one the others can actually hear.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Guitar, Loneliness, and the Blue Planet",
+          "air_date": "2022-11-25",
+          "bollymeter": 9.3,
+          "spoiler_free": "The most cited episode of the season and one of the standout anime episodes of 2022. The live performance sequence deploys every visual trick the show has been building toward and delivers on all of them simultaneously. Critics and audience reviews consistently single this episode out as the moment the show moved from very good to genuinely special.",
+          "the_moment": "The SICK HACK performance - the sequence that demonstrated what the show's visual vocabulary had been building toward from episode one.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

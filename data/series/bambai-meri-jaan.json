@@ -1,0 +1,101 @@
+{
+  "slug": "bambai-meri-jaan",
+  "qid": {
+    "value": "Q122210098",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bambai Meri Jaan",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A principled Bombay police officer watches his son cross over to the underworld, as the D-Company rises through the city's contraband wars of the 1960s-80s.",
+  "poster": {
+    "src": "/img/series/bambai-meri-jaan/poster.jpg",
+    "alt": "Bambai Meri Jaan series poster",
+    "attribution": "Poster © Excel Entertainment / Amazon MGM Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded after a single 10-episode season. No second season has been announced as of mid-2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bambai_Meri_Jaan"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-09-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Strong lead performances from Kay Kay Menon and Avinash Tiwary carry a period gangster drama that critics broadly found derivative - India Today 3.5/5, Rediff 3/5, Film Companion citing template fatigue despite individual craft."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A cautious drama about a risk-taking gangster - these internal flaws reduce it to a routine template.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/bambai-meri-jaan-review-gore-gangsters-and-clichs"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb (episode average; series page)",
+        "source_url": "https://www.imdb.com/title/tt19868466/"
+      },
+      "review_body": "Bambai Meri Jaan premiered on Amazon Prime Video on September 14, 2023, adapted from S. Hussain Zaidi's Dongri to Dubai. The ten-episode season traces the parallel lives of honest police officer Ismail Kadri (Kay Kay Menon) and his son Dara (Avinash Tiwary), whose fall into D-Company forms the series spine. Critics were split between admiration for the performances and disappointment at the storytelling. India Today awarded 3.5/5, Rediff 3/5, while Film Companion's Rahul Desai called it a cautious drama about a risk-taking gangster, noting an over-reliance on tired gangster-drama templates. Audience ratings on IMDb tracked warmer than critics, with later episodes scoring 8.4-8.6. The series is strongest in its first three episodes and when Menon holds the frame.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Genesis",
+          "air_date": "2023-09-14",
+          "bollymeter": 7.4,
+          "spoiler_free": "The premiere establishes the Kadri household and the two Bombays it straddles - law and crime. Kay Kay Menon's physicality as a principled cop in a city being re-ordered by money is established with economy. The period texture is the season's most consistent asset.",
+          "the_moment": "Ismail Kadri surveying his family and the street below - the camera positioning that signals whose story this is and what it will cost.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Hell Hath No Fury",
+          "air_date": "2023-09-14",
+          "bollymeter": 8.4,
+          "spoiler_free": "One of the season's strongest hours, with the father-son dynamic reaching its most charged point. Avinash Tiwary's performance acquires genuine weight here as Dara's choices crystallise beyond retrieval.",
+          "the_moment": "The confrontation that makes the series' central moral argument explicit - and lands it.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

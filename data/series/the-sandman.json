@@ -1,0 +1,146 @@
+{
+  "slug": "the-sandman",
+  "qid": {
+    "value": "Q92590789",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Sandman",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Morpheus, the ageless lord of dreams, escapes a century of occult imprisonment and must rebuild his shattered realm while gradually confronting what his own cold perfection has cost him and the people around him.",
+  "poster": {
+    "src": "/img/series/the-sandman/poster.jpg",
+    "alt": "The Sandman series poster",
+    "attribution": "Poster © Netflix / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 2, released in parts from July 3, 2025, concluded the series. Neil Gaiman's sexual misconduct allegations surfaced in 2024 and complicated the show's promotion, though Netflix completed the second season.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/news/the-sandman-season-2-netflix-renewed-1235897231/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 11,
+      "release_date": {
+        "value": "2022-08-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "88% on Rotten Tomatoes from 122 critics; widely credited as a faithful, visually rich adaptation that proved the 'unadaptable' Gaiman comic could work on screen, with particular praise for Tom Sturridge's centred lead performance."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 122,
+        "pull_quotes": [
+          {
+            "text": "The spirit is the same: an elegant representation that serves and enhances the storytelling.",
+            "source": "New Statesman",
+            "url": "https://www.newstatesman.com/culture/tv-and-radio/2022/08/the-sandman-netflix-review"
+          },
+          {
+            "text": "The first season of The Sandman is a stunning adaptation that faithfully brings to life its multitude of eccentric characters.",
+            "source": "The Blu Spot",
+            "url": "https://thebluspot.com/sandman-season-1-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9561862/"
+      },
+      "review_body": "Season 1 dropped August 5, 2022 with 10 episodes plus a special episode on August 19. The 88-percent Rotten Tomatoes score from 122 critics was remarkable given the source material's reputation for unfilmability. The New Statesman praised the adaptation's fidelity to the comic's spirit. Critics clustered around three strengths: the visual design of the Dreaming, Tom Sturridge's internally complex lead performance, and the anthology structure that let individual episodes operate as self-contained short films within a larger arc. The Times noted the show worked best when it diverged from Morpheus to explore supporting characters and arcs. A special episode adapting two short story collections earned particular praise as a formal experiment within a streaming context.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 6,
+          "title": "The Sound of Her Wings",
+          "air_date": "2022-08-05",
+          "bollymeter": 9.0,
+          "spoiler_free": "The sixth episode pauses the main plot to spend most of its runtime with Death, Morpheus's older sister, as she guides souls through their final day. Kirby Howell-Baptiste's performance reconfigured the season: Death is warm, practical, and genuinely compassionate where Morpheus is cool and formal. The episode is the emotional centre of Season 1 and a standalone argument for what the show could be.",
+          "the_moment": "Death meets the old man who has lived a hundred years trying to avoid her - a short scene that contains the entire season's meditation on mortality.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "And Dreaming I Was Dreaming",
+          "air_date": "2022-08-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The bonus special episode adapts two Gaiman stories from outside the main comics arc, demonstrating the anthology range the source material contains. A two-hander with Morpheus and Hob Gadling - a man granted immortality to test whether humans truly want eternal life - stands as the episode many viewers cite as the adaptation's finest hour.",
+          "the_moment": "Hob and Morpheus's centuries-spanning pub meeting, where the terms of their friendship are finally stated honestly.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 12,
+      "release_date": {
+        "value": "2025-07-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "74% on Rotten Tomatoes from 38 critics; a visually consistent continuation that critics found over-compressed and emotionally rushed compared to Season 1's more patient storytelling."
+      },
+      "critic": {
+        "positive_pct": 74,
+        "sample": 38,
+        "pull_quotes": [
+          {
+            "text": "It's frustrating how abridged this all is, how Morpheus got ten episodes of moping.",
+            "source": "Vulture",
+            "url": "https://www.vulture.com/2025/07/review-the-sandman-season-2.html"
+          },
+          {
+            "text": "As visually gorgeous and heartfelt as it can be, The Sandman does push the limits.",
+            "source": "Slate",
+            "url": "https://slate.com/culture/2025/07/the-sandman-season-2-review.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9561862/"
+      },
+      "review_body": "Season 2 released in three tranches across July 2025, adapting the second half of Gaiman's comics arc as the show moved toward its conclusion. The 74-percent Rotten Tomatoes score from 38 critics represented a step back from Season 1's 88 percent, with critics identifying compression as the central problem. Vulture noted the frustration of material that deserved Season 1's patience being pushed through a truncated arc. Slate found the season visually consistent but narratively strained. The 12-episode count spread over multiple release windows also diluted the narrative momentum Season 1 built week-to-week. The show remained ambitious and periodically beautiful; critics felt the adaptation finally ran up against the limits of what a streaming format could accommodate from source material this dense.",
+      "season_over_season": "Narrative compression that Season 1 avoided becomes the defining critical complaint; the visual and performance quality holds but the storytelling pacing slips."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

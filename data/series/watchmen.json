@@ -1,0 +1,110 @@
+{
+  "slug": "watchmen",
+  "qid": {
+    "value": "Q56153643",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Watchmen",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "Thirty-four years after the original graphic novel's events, Tulsa detective Angela Abar investigates her police chief's murder and unravels a conspiracy rooted in America's history of racial violence.",
+  "poster": {
+    "src": "/img/series/watchmen/poster.jpg",
+    "alt": "Watchmen poster",
+    "attribution": "Poster © HBO / DC Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Damon Lindelof completed his intended story and departed after Season 1. HBO confirmed no plans to continue without Lindelof; the series stands as a self-contained limited work.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Watchmen_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 9,
+      "release_date": {
+        "value": "2019-10-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "96% on RT from 398 critics; won 11 Emmy Awards in 2020 including Outstanding Limited Series, with Regina King taking Outstanding Lead Actress - one of the most decorated single seasons in cable history."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 398,
+        "pull_quotes": [
+          {
+            "text": "Bold and bristling, Watchmen isn't always easy viewing, but by adding new layers of cultural context it expertly builds on its source material.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/watchmen/s01"
+          },
+          {
+            "text": "King is nothing short of amazing - she puts even more range on display in a turn that effortlessly pivots between invulnerable and vulnerable.",
+            "source": "Rotten Tomatoes editorial",
+            "url": "https://editorial.rottentomatoes.com/article/watchmen-first-reviews-hbo-sequel-series-impresses/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7049682/"
+      },
+      "review_body": "Airing October-December 2019, Lindelof's Watchmen is a sequel, not an adaptation - it builds from Alan Moore's 1986 graphic novel but plants its story in Tulsa, Oklahoma, centering the 1921 Greenwood District massacre as the foundation for its superhero mythology. Critics gave it 96% from 398 reviews, making it one of the most critically approved limited series in HBO history. The show won 11 Emmy Awards in 2020, more than any other program that year. Regina King's Angela Abar became one of television's defining heroes. The audience score on Rotten Tomatoes split at 57%, reflecting a vocal faction who resisted the political framing - the critic-audience gap itself became a cultural talking point.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "It's Summer and We're Running Out of Ice",
+          "air_date": "2019-10-20",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere opens with the 1921 Tulsa Race Massacre before cutting to 2019, where police wear masks and Angela Abar works undercover. It is one of the most disorienting and accomplished series premieres in HBO's history - establishing tone, mythology, and moral stakes in under an hour.",
+          "the_moment": "The pre-credits Tulsa 1921 sequence - a piece of suppressed American history introduced as the show's entire foundation.",
+          "critic_note": {
+            "text": "Watchmen is a stunner. Gorgeous, provocative, and ferociously relevant.",
+            "source": "Gold Derby",
+            "url": "https://www.goldderby.com/article/2019/watchmen-reviews-critics-hbo-damon-lindelof-regina-king-news/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "This Extraordinary Being",
+          "air_date": "2019-11-24",
+          "bollymeter": 9.8,
+          "spoiler_free": "Shot almost entirely in black and white, this episode unfolds Angela's grandfather's history as the original Hooded Justice in a formal experiment that stops the season's plot cold in order to deliver a devastatingly personal origin story. Critics widely called it the finest hour of 2019 television.",
+          "the_moment": "The reveal of Hooded Justice's true identity - recontextualizing an entire strand of the Watchmen mythology through the lens of Black American history.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

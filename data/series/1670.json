@@ -1,0 +1,116 @@
+{
+  "slug": "1670",
+  "qid": {
+    "value": "Q123315231",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "1670",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Poland",
+  "original_language": {
+    "value": "pl",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A 17th-century Polish nobleman with outsized ambitions and minimal self-awareness attempts to become the most famous person in his era, in a mockumentary that is mostly laughing at Poland's present.",
+  "poster": {
+    "src": "/img/series/1670/poster.jpg",
+    "alt": "1670 series poster",
+    "attribution": "Poster © Netflix / Anagram Poland. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 was greenlit April 2025, set for 2026. The show won Best TV Series at the 2024 Polish Film Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/1670_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-12-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "95% on Rotten Tomatoes from 2 critics; IMDb 8.0; won Best TV Series at the 2024 Polish Film Awards; stayed in Poland's Netflix Top 10 for 11 weeks. Polish critics called it a masterpiece; Western critics found the broad satire inconsistent."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "1670 is a masterpiece - the series this country needed.",
+            "source": "Radio Eska (Natalia Nowecka)",
+            "url": "https://en.wikipedia.org/wiki/1670_(TV_series)"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt29420686/"
+      },
+      "review_body": "1670 launched on Netflix December 13, 2023, as Poland's first Netflix mockumentary original and immediately became a cultural event: 11 weeks in Poland's domestic Top 10 and the Eagle Award from the Polish Film Academy for Best TV Series. Created by Jakub Ruzylllo, the eight-episode season deploys the Office-style talking-head format to satirise the 17th-century szlachta nobility while clearly targeting contemporary Polish social attitudes. Polish critics were enthusiastic - Radio Eska called it a masterpiece, and the Filmweb audience score reached 8.0. International Western reception was more divided: Decider's Joel Keller found the satire over-the-top and unfocused in the opening episode; the Rotten Tomatoes sample of two critics landed at 95 percent. The IMDb rating of 8.0 positions it among the better-received Netflix European comedies.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-12-13",
+          "bollymeter": 7.6,
+          "spoiler_free": "The mockumentary format is established from the first talking-head: nobleman Jan Pawel Adamczewski explaining his plan to become the most famous person alive, with full confidence and no self-awareness. The series establishes its satirical register quickly - the 17th century setting is a costume for very contemporary Polish attitudes toward hierarchy and ambition.",
+          "the_moment": "Jan Pawel's first direct address to camera - the character's delusional confidence delivered with a deadpan that sets the comic key for the whole series.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-09-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "81% on Rotten Tomatoes from 1 review; the show maintained domestic popularity and earned its Season 3 renewal before Season 2 released."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 1,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived September 17, 2025, continuing Jan Pawel's village-level schemes with the same ensemble. The Rotten Tomatoes sample remains thin at one review and 81 percent. The show had already secured a Season 3 renewal by April 2025, reflecting Netflix's confidence in its domestic and international audience. Critical aggregate coverage of the second season remained minimal in English-language press; Polish reception tracked broadly consistent with the enthusiastic first-season response.",
+      "season_over_season": "Season 2 retains the mockumentary format and the ensemble without a reported structural shift; the pre-production Season 3 greenlit confirms the series is in its stride."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

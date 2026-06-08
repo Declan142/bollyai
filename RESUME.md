@@ -1,3 +1,8 @@
+# BollyAI — pickup state (2026-06-09, LIBRARY BUILDOUT LOOP running)
+
+**LIBRARY BUILDOUT — ACTIVE LOOP (2026-06-09):** scaling the catalogue to a large library on Aditya's "netflix kdramas everything" mandate. Batch 01 shipped (+42 series, **183->225**, commit `26c8ac6` pushed). Machinery in `scripts/batch/` (`AUTHORING_BRIEF.md` + `validate_series.py` + `fix_series.py` + `ingest_batch.sh`) + ledger `data/_state/library-buildout.md` (source of truth). **Loop** = dispatch 6 Sonnet authoring agents on disjoint pools -> Opus reconcile (web-verify post-cutoff/high-risk claims) -> `ingest_batch.sh` (fix->validate->posters->build) -> commit+push -> next wave. Target ~500, reassess. **Velocity policy: build+commit+push aggressive (NO deploy); DEPLOY + IndexNow THROTTLED, held pending Aditya's call** (site is 1 day old - avoid spam-velocity on a zero-authority domain). To resume: read the ledger, dispatch the next pending wave. Note: `bollyai-crons.yml` 4:30 UTC cron can auto commit+deploy+IndexNow IF CF secrets are set - that's a separate auto-publish path.
+
+---
 # BollyAI — pickup state (2026-06-08, post SEO-sweep + Ending-Explained)
 
 **30-sec snapshot:** bollyai.in **LAUNCHED & PUBLIC (2026-06-08)** — noindex triple-gate REMOVED, all pages indexable, deployed, CF cache purged, IndexNow pinged 864 URLs. 21 films + **183 series / 457 seasons / 487 episode reviews + 120 Ending-Explained walkthroughs** across 6 desks (Bollywood/Kollywood/Tollywood/Mollywood/Sandalwood/Hollywood/Streaming) + Series + What-to-Watch (18 lists) + site search. Founder schema = Aditya Sharma / @aditya14. Wikidata spine (QID keys, NO TMDB). **sitemap 864 URLs**, robots.txt → sitemap.

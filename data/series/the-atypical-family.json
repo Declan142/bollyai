@@ -1,0 +1,95 @@
+{
+  "slug": "the-atypical-family",
+  "qid": {
+    "value": "Q123495191",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Atypical Family",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A superpowered but spiritually depleted family meets a calculated con artist who can either restore their fading abilities or unravel the last bonds holding them together.",
+  "poster": {
+    "src": "/img/series/the-atypical-family/poster.jpg",
+    "alt": "The Atypical Family poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Twelve-episode limited series that completed its JTBC run on June 9, 2024. No second season announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Atypical_Family"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 12,
+      "release_date": {
+        "value": "2024-05-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Ranked 5th on NME's 2024 year-end K-drama list and in TIME's top 10 for 2024; writer Joo Hwa-mi won Best Writer at the 2024 Asia Contents Awards; IMDb 7.6 and a JTBC finale rating of 4.858 percent confirm solid but not exceptional reach."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt32166552/"
+      },
+      "review_body": "Airing on JTBC from May 4 to June 9, 2024 with Netflix international distribution, The Atypical Family married a fading-superpowers family premise with a romantic con-artist infiltration plot. Jang Ki-yong plays a man who can travel into his own happy memories but has exhausted them, while Chun Woo-hee is the outsider who threatens and renews the family. NME placed it fifth on their 2024 K-drama year-end list and TIME included it in their top ten; screenwriter Joo Hwa-mi won the Best Writer award at the 2024 Asia Contents Awards and Global OTT Awards. The JTBC finale landed 4.858 percent nationwide. Critics and audiences responded most warmly to the show's genre self-awareness and the central pair's chemistry; pacing in the middle stretch drew the main criticism.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-05-04",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the Bok family's supernatural inventory with playful economy - time-travel via memories, flight, precognitive dreams - and immediately signals that all three powers are fading. Do Da-hae's introduction as the con artist is the tonal hook the episode lands on.",
+          "the_moment": "Bok Gwi-ju discovering his memory-travel ability is drying up - the show's central tragedy given to the audience before the romance even begins.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2024-06-09",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale resolves the con-artist-turned-genuine-lover arc and the family's power restoration in a way audiences found satisfying if somewhat predictable. The 4.858 percent domestic finale rating reflects a series that built a loyal audience through consistent warmth rather than escalating twists.",
+          "the_moment": "The family's powers restored in the context of real emotional stakes - the show keeping its fantasy mechanics earned.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

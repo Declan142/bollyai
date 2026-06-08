@@ -1,0 +1,119 @@
+{
+  "slug": "light-shop",
+  "qid": {
+    "value": "Q124616105",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Light Shop",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Strangers carrying unprocessed trauma are drawn to a mysterious light shop at the end of a shadowy alley, where the shop's reticent owner may hold the key to what each of them cannot face.",
+  "poster": {
+    "src": "/img/series/light-shop/poster.jpg",
+    "alt": "Light Shop poster",
+    "attribution": "Poster © Disney+ / Mr. Romance / Moving Pictures Co. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "8-episode limited series concluded December 18, 2024. No sequel announced; director Kim Hee-won received a 2025 Baeksang Arts Awards nomination for Best Director.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Light_Shop"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-12-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91 percent from 4 critics on Rotten Tomatoes, IMDb 7.8, and a MyDramaList score of 8.5 from over 22,000 users, combined with Disney+'s largest Korean original premiere of 2024, track a show that rewards patience after a deliberately oblique opening."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "The show becomes rewarding, with a dark but emotionally layered tale.",
+            "source": "Jenny Nixon, Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/light_shop/s01"
+          },
+          {
+            "text": "Light Shop is interesting enough to keep watching, mainly because the shop itself is such a unique setting.",
+            "source": "Joel Keller, Decider",
+            "url": "https://www.rottentomatoes.com/tv/light_shop/s01"
+          },
+          {
+            "text": "Stuffed to bursting with ideas and emotions, Light Shop features a number of strong moments.",
+            "source": "Pierce Conran, South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/light_shop/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt31014115/"
+      },
+      "review_body": "Light Shop premiered on Disney+ on December 4, 2024, with four episodes, followed by four more over the subsequent two weeks. Adapted from webtoon creator Kang Full's source material by the same writer, the show is directed by Kim Hee-won - whose Baeksang Arts Awards nomination for Best Director reflects the care in the craft. The eight-episode structure is atypical for Korean drama: each episode functions as a self-contained story of a stranger drawn to the shop, converging toward a unified mythology. Critics at Decider and Common Sense Media noted that the early vibes-forward approach rewards patience. The series became Disney+'s biggest Korean original premiere of 2024 in its first twelve days and the second-largest Korean series debut on the platform globally, trailing only Moving - also a Kang Full adaptation. Variety reported the milestone directly. Four critics on Rotten Tomatoes awarded 91 percent; MyDramaList's 8.5 from 22,648 users and IMDb's 7.8 both track an audience that found the emotional payoff earned by the finale.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Strangers",
+          "air_date": "2024-12-04",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere opens on atmosphere rather than plot mechanics - a deliberate choice that critics at Decider flagged as 'interesting enough to keep watching.' The light shop itself is established as a spatial anomaly before any character fully understands what it offers. Ju Ji-hoon's performance as the owner operates almost entirely in withholding.",
+          "the_moment": "The first character to enter the shop does not receive an answer - only a different light.",
+          "critic_note": {
+            "text": "Light Shop is interesting enough to keep watching, mainly because the shop itself is such a unique setting.",
+            "source": "Joel Keller, Decider",
+            "url": "https://www.rottentomatoes.com/tv/light_shop/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Light",
+          "air_date": "2024-12-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale unifies the season's ensemble arcs and delivers on the emotional architecture the preceding episodes carefully built. Audience consensus on MyDramaList identified this as the strongest hour - the pay-off to a season that asked viewers to trust its accumulative structure.",
+          "the_moment": "The light shop is finally explained - and the explanation recontextualises every visit that preceded it.",
+          "critic_note": {
+            "text": "The show becomes rewarding, with a dark but emotionally layered tale.",
+            "source": "Jenny Nixon, Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/light_shop/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

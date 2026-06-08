@@ -1,0 +1,105 @@
+{
+  "slug": "song-of-the-bandits",
+  "qid": {
+    "value": "Q113482392",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Song of the Bandits",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "In 1920s Japanese-occupied Korea, a band of outlaws converges on the lawless Chinese border territory of Gando, uniting to protect displaced Korean settlers in a brutally choreographed period Western.",
+  "poster": {
+    "src": "/img/series/song-of-the-bandits/poster.jpg",
+    "alt": "Song of the Bandits poster",
+    "attribution": "Poster © Netflix / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Nine-episode limited series, no second season announced. Netflix released the complete season on September 22, 2023.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81484051"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 9,
+      "release_date": {
+        "value": "2023-09-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "86 percent Rotten Tomatoes from 7 critics and an IMDb 7.2 reflect a strong genre exercise that critic Jonathon Wilson called broadly appealing for its stellar action and sumptuous production - but the hollow emotional core keeps it a premium watch rather than a must."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Stellar action, a breakneck pace, and sumptuous production make Song of the Bandits one of the more broadly-appealing Korean dramas in recent memory.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2023/09/22/song-of-the-bandits-season-1-review-a-korean-take-on-a-classic-style/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21627436/"
+      },
+      "review_body": "Netflix dropped all nine episodes on September 22, 2023, backed by a reported 30 billion won production budget that is visible in every frame. Set against the 1920s Japanese occupation, the show follows dispossessed Koreans who flee to the Chinese border region of Gando and fight back. Critics at Rotten Tomatoes approved at 86 percent, with Ready Steady Cut calling it 'broadly-appealing' for its genre craft and SCMP noting the Western styling while questioning its emotional depth. Kim Nam-gil commands the screen as the brooding Lee Yoon. The action choreography and period production design were the near-universal talking points; character interiority was the gap. An audience score of 88 percent Popcornmeter and IMDb 7.2 tell the story of a crowd-pleaser that delivers on spectacle.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-09-22",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the show's Western-coded visual identity immediately - dusty Gando frontier, Korean exiles, and a taciturn swordsman arriving with a mission. The set-up is economical and the action confident, signalling a premium production that knows its genre.",
+          "the_moment": "Lee Yoon's arrival in Gando - the show announces its genre ambitions without hesitation.",
+          "critic_note": {
+            "text": "A distinctly modern show in its presentation and pacing, co-opting the iconic visual language of classic Westerns.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2023/09/22/song-of-the-bandits-season-1-review-a-korean-take-on-a-classic-style/"
+          }
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2023-09-22",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale converges all factions for the confrontation the season has been building toward. Action delivery follows through on the show's promise; the emotional payoffs are more conventional but the scale is impressive for a streaming-first Korean production.",
+          "the_moment": "The assembled bandits facing the Japanese army - the show's big-canvas action finally delivered at full budget.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

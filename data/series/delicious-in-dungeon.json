@@ -1,0 +1,106 @@
+{
+  "slug": "delicious-in-dungeon",
+  "qid": {
+    "value": "Q118692115",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Delicious in Dungeon",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "After his sister is devoured by a dragon, a penniless adventurer decides to eat his way through a dungeon - cooking and consuming the monsters he fights to survive long enough to reach her.",
+  "poster": {
+    "src": "/img/series/delicious-in-dungeon/poster.jpg",
+    "alt": "Delicious in Dungeon series poster",
+    "attribution": "Poster © Ryoko Kui / KADOKAWA / Studio Trigger. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 was announced June 2024 following the completion of Season 1's 24-episode run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Delicious_in_Dungeon"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 24,
+      "release_date": {
+        "value": "2024-01-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes (7 critic reviews), 93% audience score; IMDb 8.1. IGN awarded 8/10 and called it unmissable appointment viewing. Despite 16 Crunchyroll Anime Award nominations, the show won none - widely attributed to platform politics since it streams exclusively on Netflix."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Unmissable appointment viewing with world-building and earnest reflections on the value of the rituals of cooking.",
+            "source": "IGN",
+            "url": "https://www.rottentomatoes.com/tv/delicious_in_dungeon/s01"
+          },
+          {
+            "text": "Willing to take deep dives into the reality of our world, and present it in digestible, dramatic stories.",
+            "source": "MovieJawn",
+            "url": "https://www.rottentomatoes.com/tv/delicious_in_dungeon/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21621494/"
+      },
+      "review_body": "Delicious in Dungeon aired January-June 2024 on Netflix and became one of the most critically acclaimed anime releases of the year. Studio Trigger's 24-episode adaptation achieved 100 percent on Rotten Tomatoes across 7 critic reviews and 93 percent with audiences. IGN called it unmissable appointment viewing for its world-building and earnest treatment of food as cultural and emotional subject matter. The premise - cook and eat dungeon monsters - functions as a delivery mechanism for both dungeon-crawling adventure and genuinely inventive worldbuilding, with each creature prepared according to in-universe culinary logic. The show received 16 Crunchyroll Anime Award nominations in 2025 - a record for nominations - but won none, which several outlets attributed to its Netflix exclusivity in a Crunchyroll-dominated awards ecosystem.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Hot Pot / Tart",
+          "air_date": "2024-01-04",
+          "bollymeter": 8.7,
+          "spoiler_free": "The premiere establishes the show's genre blend - dungeon adventure plus cooking - with a confidence that suggests the production team knew exactly what they had. The first monster meal is explained through actual culinary reasoning, and the show signals that this will be consistent, not gimmicky.",
+          "the_moment": "The first preparation and eating of dungeon monster prey - the moment the show commits fully to its premise and proves the concept can sustain a full series.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "Red Dragon, Part 2",
+          "air_date": "2024-06-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Season 1 finale resolves the red dragon arc that opened the series and delivers on the emotional promise built over 24 episodes. IMDb episode ratings place this among the series' highest-scored individual episodes. The finale functions both as a conclusion and as a setup for the larger story that Season 2 will continue.",
+          "the_moment": "The red dragon confrontation paid off - the culmination of every relationship and tactical lesson the season built.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

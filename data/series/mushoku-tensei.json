@@ -1,0 +1,128 @@
+{
+  "slug": "mushoku-tensei",
+  "qid": {
+    "value": "Q102126892",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mushoku Tensei: Jobless Reincarnation",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A 34-year-old shut-in reincarnates into a fantasy world as an infant and resolves to actually live this time - a slow-burn isekai that treats its protagonist's psychological damage as the real subject matter.",
+  "poster": {
+    "src": "/img/series/mushoku-tensei/poster.jpg",
+    "alt": "Mushoku Tensei: Jobless Reincarnation series poster",
+    "attribution": "Poster © Rifujin na Magonote / MF Books / Studio Bind. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 3 was confirmed and is premiering July 6, 2026. The light novel source material has completed its run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mushoku_Tensei_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 23,
+      "release_date": {
+        "value": "2021-01-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "90% on Rotten Tomatoes (2 critic reviews); IMDb 8.2. IGN nominated it for Best Anime of 2021, calling it a show that takes a joyful and wholehearted approach to the genre. Critics noted the protagonist's emotional arc distinguishes it from most isekai - the past-life damage is the narrative, not a flavour detail."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "Mushoku Tensei: Jobless Reincarnation takes a joyful and wholehearted approach to the genre.",
+            "source": "IGN",
+            "url": "https://www.imdb.com/title/tt13293588/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13293588/"
+      },
+      "review_body": "Season 1 of Mushoku Tensei aired across two cours in January-March and October-December 2021, adapting the opening light novel volumes with unusual production investment from Studio Bind. The 23-episode run earned 90 percent on Rotten Tomatoes and an IGN Best Anime of 2021 nomination for a premise that sounds generic - isekai reincarnation - but delivers something considerably less so: a protagonist whose prior-life failures are not backstory decoration but the psychological engine of everything the story attempts. Critics who praised the season noted the world-building's density and the willingness to treat Rudy's personal growth as genuinely difficult rather than episode-to-episode reassuring. The IMDb score of 8.2 reflects an audience that responded to the show's craft over its controversy.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Jobless Reincarnation",
+          "air_date": "2021-01-11",
+          "bollymeter": 8.8,
+          "spoiler_free": "A pilot that earns its reputation as one of the finest in the isekai genre. Studio Bind announces production quality immediately with character animation that outperforms most contemporaries, and the opening sequence establishes the psychological stakes of the premise - a failed life, a second chance - before the fantasy world is even introduced.",
+          "the_moment": "The moment of reincarnation - the transition from the mundane tragedy of the prior life to the possibility of the new one, handled with restraint rather than spectacle.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 25,
+      "release_date": {
+        "value": "2023-07-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "86% on Rotten Tomatoes (1 critic review); IMDb 8.2. Asian Movie Pulse noted it is worse than Season 1 particularly in its middle section, but still works well in terms of action and character development. The central separation arc drew mixed audience responses."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "Worse than the first season, particularly in its middle part, but still works quite well in terms of action and character analysis.",
+            "source": "Asian Movie Pulse",
+            "url": "https://www.rottentomatoes.com/tv/mushoku_tensei_jobless_reincarnation/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13293588/"
+      },
+      "review_body": "Season 2 aired July 2023-July 2024 across two cours and 25 episodes, following Rudy through a difficult mid-series arc that involves extended character separation and a depressive episode by the protagonist. Critics scored it 86 percent on Rotten Tomatoes, with reviewers noting the season's middle section as a pacing weak point while the action sequences and character analysis in the later episodes remained strong. The IMDb score held at 8.2, suggesting the core audience stayed invested despite the narrative's more uncomfortable psychological stretches. Season 2 is the phase where the show most clearly earns or loses each viewer depending on tolerance for a protagonist whose growth is not linear.",
+      "season_over_season": "Season 2 tests the audience's investment with a more difficult psychological arc and uneven pacing in the middle portion.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

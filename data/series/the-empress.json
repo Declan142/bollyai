@@ -1,0 +1,121 @@
+{
+  "slug": "the-empress",
+  "qid": {
+    "value": "Q105686533",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Empress",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A young Bavarian duchess becomes Austria's empress almost by accident, then discovers that court politics, a domineering mother-in-law, and an empire's expectations are a more demanding opponent than she anticipated.",
+  "poster": {
+    "src": "/img/series/the-empress/poster.jpg",
+    "alt": "The Empress series poster",
+    "attribution": "Poster © Netflix / Katharina Eyssen. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 entered production in 2025. Netflix confirmed renewal after Season 2's November 2024 release.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Empress_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-09-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "83% on Rotten Tomatoes from 6 critics; 85% audience score from 250+ ratings; Netflix reported the series was its second-most watched globally for two weeks at launch. Devrim Lingnau's performance cited as the standout by critics."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Devrim Lingnau is a breath of fresh air as Elisabeth, playing her with nuance that will undoubtedly bring devastation.",
+            "source": "Collider",
+            "url": "https://collider.com/the-empress-netflix-review-netflix/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13720112/"
+      },
+      "review_body": "The Empress (Die Kaiserin) arrived on Netflix on September 29, 2022, and promptly became the platform's second-most watched series worldwide across its opening two weeks, accumulating over 150 million hours viewed. Created by Katharina Eyssen, the six-episode first season follows sixteen-year-old Bavarian duchess Elisabeth as she unexpectedly captures Emperor Franz Joseph I's attention and is thrust into the Habsburg court. Critics at Rotten Tomatoes approved at 83 percent from six reviews; the 85 percent audience score from 250-plus raters confirmed mainstream appeal. Collider praised Devrim Lingnau's performance as a genuinely fresh take on a well-worn historical figure. The short episode count keeps the season propulsive.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-09-29",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes Elisabeth's world in Bavaria before dropping her into Vienna's court machinery. The tonal register - romantic period drama with real political bite - is set immediately. The contrast between her natural behaviour and Habsburg protocol drives the episode's best scenes.",
+          "the_moment": "Elisabeth's first formal court appearance - the collision between her instincts and the institution's expectations laid out in a single sequence.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-11-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "93% on Rotten Tomatoes from 2 critics; Season 2 received mixed-to-positive notices, with reviewers noting a tonal shift toward motherhood and the Second Italian War of Independence, and praising pacing while finding some storylines thin."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 2,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13720112/"
+      },
+      "review_body": "Season 2 premiered November 22, 2024, two years after the debut, and shifted its dramatic focus from Elisabeth's entry into court life to the pressures of early motherhood set against the Second Italian War of Independence. Critics in the small Rotten Tomatoes sample approved at 93 percent. DM Talkies found it equally captivating to Season 1, singling out the deliberate pacing of emotional scenes as a relief in a six-episode format. Other reviewers noted a tonal change from the first season and found the many character threads sometimes busy without being fully engaging. The emotional peaks were described as genuine; the connective tissue less consistent. The Season 3 renewal confirmed Netflix's continued confidence in the franchise.",
+      "season_over_season": "Season 2 trades the original's court-entry premise for political war backdrop and motherhood drama; critics broadly called it comparable to Season 1 with a more diffuse narrative focus."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

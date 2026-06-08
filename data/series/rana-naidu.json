@@ -1,0 +1,104 @@
+{
+  "slug": "rana-naidu",
+  "qid": {
+    "value": "Q115121525",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Rana Naidu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A celebrity fixer whose entire business is burying other people's secrets is upended when his imprisoned father walks free and drags the family back into the criminal world he tried to leave behind.",
+  "poster": {
+    "src": "/img/series/rana-naidu/poster.jpg",
+    "alt": "Rana Naidu series poster",
+    "attribution": "Poster © Locomotive Global / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 2 released June 13, 2025 concluded the series. No further seasons have been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rana_Naidu"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-03-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Rotten Tomatoes critics gave Season 1 just 42% from 4 reviews; the Daggubati father-son casting generates real heat but the Ray Donovan adaptation leans on its source too heavily. IMDb 7.1."
+      },
+      "critic": {
+        "positive_pct": 42,
+        "sample": 4,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15471900/"
+      },
+      "review_body": "Rana Naidu Season 1 arrived on Netflix in March 2023 as a Hindi-language adaptation of the American fixer drama Ray Donovan. Rana Daggubati plays the eponymous cleaner for Bollywood's elite, while Venkatesh Daggubati - his real-life uncle - plays the released convict father whose return destabilises everything. Critics at Rotten Tomatoes held the season at 42 percent from a small sample, with the consensus pointing to the father-son dynamic as the series' sole genuine asset and calling portions of the plotting monotonous. The IMDb rating of 7.1 reflected a warmer audience response, particularly among viewers drawn by the real-world Daggubati chemistry. The show's tone sits between pulpy crime drama and family melodrama, and it rarely fully commits to either.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-06-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.4,
+        "basis": "Mixed critical reception; Arjun Rampal's villain arrival praised across reviews, but the season still trades in the same cycle of betrayals and family dysfunction. IMDb 7.0."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15471900/"
+      },
+      "review_body": "Season 2 launched June 13, 2025, with Rana Daggubati and Venkatesh returning alongside a new antagonist in Arjun Rampal, whose casting drew broadly positive notices across reviews. The Free Press Journal rated it 3.5/5, calling it a rinse-and-repeat cycle of betrayals and bullets, while MensXP also gave 3.5/5, crediting tighter editing and reduced vulgarity over Season 1. The season escalates the stakes via a kidnapping plot but critics remained divided on whether the show had found a stronger identity or simply amplified its existing formula. Audience ratings tracked near-even with Season 1 at IMDb 7.0.",
+      "season_over_season": "Season 2 adds Arjun Rampal as the central villain and tightens the pacing, but the structural formula inherited from Ray Donovan remains; the consensus upgrade over Season 1 is marginal."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

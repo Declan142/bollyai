@@ -1,0 +1,96 @@
+{
+  "slug": "maxton-hall",
+  "qid": {
+    "value": "Q125566339",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Maxton Hall: The World Between Us",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A scholarship student at an elite boarding school witnesses something she should not and becomes entangled with the wealthy heir whose world could erase everything she has worked for.",
+  "poster": {
+    "src": "/img/series/maxton-hall/poster.jpg",
+    "alt": "Maxton Hall: The World Between Us series poster",
+    "attribution": "Poster © Amazon MGM Studios / Pictorion Das Werk. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 3 was greenlit in June 2025, ahead of the Season 2 premiere.",
+    "source": "CBR",
+    "source_url": "https://www.cbr.com/prime-video-maxton-hall-renewed-season-3/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-05-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "70% critics score on Rotten Tomatoes from 10 reviews, 91% audience score; reported as the most successful series launch of any non-American Prime Original ever. Critics divided between admiring the execution and dismissing the YA formula."
+      },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27792190/"
+      },
+      "review_body": "Maxton Hall: The World Between Us premiered May 9, 2024, on Prime Video Germany and rapidly became the most successful series launch of any non-American Prime Original in the platform's history - a viewership benchmark cited by Wikipedia and trade press. Critics on Rotten Tomatoes approved at 70 percent from ten reviews, with the audience score at a substantially stronger 91 percent from comparable data. Screen Rant characterised it as a must-watch series surging worldwide. The class-divide romance between scholarship student Ruby and wealthy heir James draws directly from the YA novel source material; critics found the execution competent where they found the genre familiar. The audience, particularly in Europe, embraced it with unusual enthusiasm.",
+      "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": {
+        "value": "2025-11-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 premiered November 7, 2025. Critical aggregates had not settled at the time of this entry. The season continues the Ruby-James storyline from Season 1, with the class conflict and family opposition further tested. Early audience response indicated the fanbase that drove Season 1's record launch remained engaged.",
+      "season_over_season": "Season 2 deepens the central romance under greater external pressure; formal review aggregates were not yet established at entry date."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "kaos",
+  "qid": {
+    "value": "Q55615670",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "KAOS",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A paranoid, petty Zeus rules Mount Olympus in the present day while three ordinary mortals unknowingly share a prophecy that will unravel the entire divine order, with Jeff Goldblum's god-king growing more unstable by the episode.",
+  "poster": {
+    "src": "/img/series/kaos/poster.jpg",
+    "alt": "KAOS series poster",
+    "attribution": "Poster © Netflix / Eleven Film. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled KAOS in October 2024, one month after its August 29, 2024 premiere, despite strong audience scores and a 77% critical rating. Creator Charlie Covell expressed disappointment publicly.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/news/kaos-canceled-netflix-1236170945/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-08-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "77% on Rotten Tomatoes from 53 critics against an 83% audience Popcornmeter; viewers liked it more than critics, but Netflix cancelled it anyway after one month, citing viewership metrics."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 53,
+        "pull_quotes": [
+          {
+            "text": "A reimagining of Greek mythology that is subtle and intricate, witty, rigorous, hugely intelligent, funny and brutal.",
+            "source": "Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/article/2024/aug/29/kaos-review-netflix"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8550732/"
+      },
+      "review_body": "KAOS premiered August 29, 2024, reimagining Greek mythology as a contemporary dark comedy with Jeff Goldblum as an anxious, wrinkle-obsessed Zeus whose paranoia about a foretold prophecy drives the season's central tension. The 77-percent Rotten Tomatoes score from 53 critics reflected a genuine critical split: the Guardian gave five stars, calling it hugely intelligent and brutal; Variety found the narrative buckled under the weight of its own ambition, with storylines that run separately before an anticlimactic collision. The 83-percent audience Popcornmeter and 7.4 IMDb score suggested viewers found more to enjoy than critics allowed. Netflix cancelled the series in October 2024 despite the audience response - one of the platform's more surprising cancellation decisions given the numbers. The eight-episode single season functions as a complete - if unresolved - statement.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-08-29",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes KAOS's central joke immediately: the gods are petty, neurotic, and more concerned with maintaining their status than with justice or wisdom. Jeff Goldblum's Zeus is already frightened in the opening scenes, checking his face for wrinkles that would signal the prophecy's arrival. The tonal balance between satire, genuine mythology reverence, and dark comedy is set here.",
+          "the_moment": "Zeus examines his reflection for the first wrinkle that will signal his doom - a small, comic moment that establishes the season's entire emotional key.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "kill-me-heal-me",
+  "qid": {
+    "value": "Q18512154",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kill Me, Heal Me",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A third-generation chaebol heir with dissociative identity disorder and seven distinct personalities secretly enlists a psychiatry resident to treat him before his family's dark corporate secrets destroy them both.",
+  "poster": {
+    "src": "/img/series/kill-me-heal-me/poster.jpg",
+    "alt": "Kill Me, Heal Me poster",
+    "attribution": "Poster © MBC / Victory Contents. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed its 20-episode run on MBC from January 7 to March 12, 2015. No continuation; standalone series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kill_Me,_Heal_Me"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 20,
+      "release_date": {
+        "value": "2015-01-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Nielsen Korea ratings peaked at 11.5 percent nationwide across the 20-episode run, Ji Sung won the MBC Daesang, and the WorldFest-Houston awarded a Platinum for Best Drama - a rare dual critical and popular recognition for an MBC psychological romance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4339192/"
+      },
+      "review_body": "Aired on MBC from January to March 2015, Kill Me, Heal Me asked one actor to carry seven distinct characters - and Ji Sung delivered what most reviewers called the definitive performance of his career. Nielsen Korea tracked nationwide ratings from 8.9 percent up to 11.5 percent, strong for a 2015 weekday drama. The show balanced genuine psychological complexity (dissociative identity disorder rooted in childhood trauma) with romantic comedy and chaebol-family intrigue across all 20 episodes without losing coherence. Nominations at the 51st Baeksang Arts Awards covered Best Drama, Best Director, and Best Actor. Ji Sung won the fan-voted Daesang at the MBC Drama Awards and the WorldFest-Houston Platinum Award. The IMDb 8.3 from a large global audience stands as proof the performance travels beyond its original broadcast context.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2015-01-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere deploys Ji Sung's personality-switching early to establish the show's central hook without exposition overload. The tone calibration - comedy, dread, and sincerity operating simultaneously - is immediately impressive and signals a production confident in its material.",
+          "the_moment": "Cha Do-hyun's first involuntary personality switch in front of Oh Ri-jin, setting up the show's central comedy-of-errors engine with perfect timing.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2015-02-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "Widely cited by audiences as the hour when the romance and the psychological thriller locked into their most effective combination. The seventh episode contains what many consider the show's most emotionally concentrated exchange between Ri-jin and the dominant personality.",
+          "the_moment": "The hospital corridor confrontation where the multiple-personality conceit stops being a plot device and becomes emotionally devastating.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2015-03-12",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale brings Ji Sung's seven-identity arc to a resolution that audience consensus found earned rather than convenient. The corporate corruption thread closes with the psychological healing framing intact, avoiding the tonal collapse that long K-drama finales often suffer.",
+          "the_moment": "The final reveal of Cha Do-hyun's integrated self - the payoff to 20 episodes of fragmented identity the show handled without condescension.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "the-residence",
+  "qid": {
+    "value": "Q117254317",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Residence",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Eccentric detective Cordelia Cupp arrives at the White House to investigate a murder at a state dinner, and must solve the crime while navigating the secrets of 157 staff members and the peculiar politics of the most scrutinised building in the world.",
+  "poster": {
+    "src": "/img/series/the-residence/poster.jpg",
+    "alt": "The Residence series poster",
+    "attribution": "Poster © Netflix / Shondaland. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled The Residence on July 2, 2025, after one season. Uzo Aduba received a 2025 Emmy nomination for Outstanding Lead Actress in a Comedy Series following the cancellation.",
+    "source": "Hollywood Reporter",
+    "source_url": "https://www.hollywoodreporter.com/tv/tv-news/canceled-uzo-aduba-the-residence-nominated-2025-emmys-1236315293/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-03-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "84% on Rotten Tomatoes from 68 critics and 79% audience Popcornmeter; critics agreed Uzo Aduba's performance elevated a Shondaland whodunit that was overstuffed but consistently entertaining."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 68,
+        "pull_quotes": [
+          {
+            "text": "Aduba holds everything together with a deft turn, refusing to let Cordelia Cupp's on-paper oddities ever become a caricature.",
+            "source": "Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-residence-review-uzo-aduba-1236168527/"
+          },
+          {
+            "text": "A superior, genre-blending TV experience.",
+            "source": "NPR",
+            "url": "https://www.npr.org/2025/03/22/nx-s1-5336361/the-residence-review-netflix-uzo-aduba"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8740614/"
+      },
+      "review_body": "The Residence premiered March 20, 2025, from Shondaland and creator Paul William Davies, with Uzo Aduba as Cordelia Cupp, a Metropolitan Police consultant and dedicated birder drawn into a White House murder investigation. The 84-percent Rotten Tomatoes score from 68 critics centred almost entirely on Aduba's performance. Hollywood Reporter called her refusal to let Cupp's eccentricities tip into caricature the defining achievement; NPR called the overall result a superior genre-blending experience. IndieWire was more critical, finding very little about the character to latch onto beyond Aduba's individual magnetism. Time Magazine positioned it as Shondaland conventions meeting genre cliches, elevated by one extraordinary lead. Critics agreed the mystery architecture was overstuffed but the show remained watchable throughout. Netflix cancelled it in July 2025; Aduba's Emmy nomination confirmed the performance outlasted the series.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2025-03-20",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere drops Cordelia Cupp into the White House residence with a dead body and 157 potential suspects. The episode functions primarily as a showcase for Aduba's physical and verbal performance style: odd, precise, warm beneath the social abrasion. The White House setting is well-used as a closed-room mystery location with genuine architectural interest.",
+          "the_moment": "Cordelia's first methodical survey of the murder scene, listing observations in a sequence that is funny and frightening in equal measure.",
+          "critic_note": {
+            "text": "Aduba holds everything together with a deft turn, refusing to let Cordelia Cupp's on-paper oddities ever become a caricature.",
+            "source": "Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-residence-review-uzo-aduba-1236168527/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

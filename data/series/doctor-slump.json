@@ -1,0 +1,106 @@
+{
+  "slug": "doctor-slump",
+  "qid": {
+    "value": "Q117219597",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Doctor Slump",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Two former high school academic rivals - now a disgraced plastic surgeon and a burned-out anesthesiologist - rediscover each other at rock bottom and quietly rebuild each other's lives.",
+  "poster": {
+    "src": "/img/series/doctor-slump/poster.jpg",
+    "alt": "Doctor Slump poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series of 16 episodes, concluded March 17, 2024. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Doctor_Slump_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 16,
+      "release_date": {
+        "value": "2024-01-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "A 100 percent Rotten Tomatoes score from 6 critics, 314.1 million Netflix global viewing hours, and nine consecutive weeks on the non-English TV chart confirm this as one of 2024's best K-drama romantic comedies - grounded by two genuinely matched leads."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Park Shin-Hye and Park Hyung-Sik both finding the balance between the stoic and the comedic in their character performances.",
+            "source": "But Why Tho?",
+            "url": "https://butwhytho.net/2024/03/doctor-slump-review/"
+          },
+          {
+            "text": "Catchy without being edgy - quickly paced, and it's pretty cute.",
+            "source": "Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/doctor_slump/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27135274/"
+      },
+      "review_body": "Doctor Slump aired on JTBC from January 27 to March 17, 2024, streaming internationally on Netflix. The premise reunited Park Hyung-sik and Park Shin-hye for the first time since 2013's The Heirs - an eleven-year gap that the show weaponises: their chemistry reads as the product of accumulated history, not manufactured warmth. Six critics on Rotten Tomatoes awarded a 100 percent score, with the consensus noting careful performances that hold the tonal balance between comedy and genuine depression. The series accumulated 314.1 million Netflix viewing hours globally and held the non-English TV number-one spot for nine consecutive weeks. Domestic JTBC ratings peaked at 8.2 percent nationwide (9.8 percent Seoul) in episode 10. Critics flagged a structural tension: some reviewers, including But Why Tho, felt the show prioritised the romance at the cost of its stated mental-health ambitions - but found the leads compelling enough to sustain it regardless. IMDb's 7.5 from a broad audience base reflects the slight tonal reservation beneath the critical enthusiasm.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-27",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes both characters' professional collapses in parallel before placing them in the same building. The tone is careful - burnout and depression handled with more restraint than is typical in K-drama rom-coms - and the reunion of two former rivals who were never friends sets up an unusual dynamic for what follows.",
+          "the_moment": "The moment Yeo Jeong-woo discovers his disgraced neighbour is the same classmate who once outscored him on every exam - years of competitive resentment curdled into something much more fragile.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2024-02-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "The episode that drew the domestic ratings peak - 8.2 percent nationwide - as the leads' support for each other tips from companionship into something harder to categorise. The writing earns its emotional beats through accumulated detail rather than a single dramatic incident.",
+          "the_moment": "A rooftop scene in which neither character says anything close to what they mean - and both understand it perfectly.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

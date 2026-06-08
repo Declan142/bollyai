@@ -1,0 +1,224 @@
+{
+  "slug": "you",
+  "qid": {
+    "value": "Q39082126",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "You",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Bookstore manager Joe Goldberg stalks and manipulates women he becomes obsessed with, rationalising each act of violence as devotion, across five cities and five seasons of darkly comic psychological horror.",
+  "poster": {
+    "src": "/img/series/you/poster.jpg",
+    "alt": "You series poster",
+    "attribution": "Poster © Netflix / Alloy Entertainment / Warner Horizon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix confirmed Season 5 as the final season. The show concluded in April 2025 after five seasons and 50 episodes, ending Joe Goldberg's story definitively.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/80211991"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "94% on Rotten Tomatoes from 62 critics; critics praised the season's subversive complicity framing and Penn Badgley's unsettling lead performance as genuine serialised horror."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 62,
+        "pull_quotes": [
+          {
+            "text": "It is smart enough to let us know that to sympathise with Joe is to be complicit in his crimes.",
+            "source": "Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2019/jan/17/you-review-netflix"
+          },
+          {
+            "text": "Its sparklingly cruel sense of humour is what makes it compulsively watchable.",
+            "source": "New Statesman",
+            "url": "https://www.newstatesman.com/culture/2019/01/you-netflix-review"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7335184/"
+      },
+      "review_body": "Season 1 premiered on Lifetime in September 2018 before Netflix acquired it and launched it globally in December 2018, at which point it became a word-of-mouth phenomenon. Critics scored it at 94 percent on Rotten Tomatoes from 62 reviews, with the Guardian calling out its smartest formal move: the show makes viewers complicit in Joe's rationalisation, then holds that against them. Penn Badgley's voiceover is the engine - sardonic, charming, delusional. The New York City bookstore milieu grounds a premise that could easily tip into camp but stays genuinely unsettling. Audiences largely agreed, and the social-media discourse around Joe's fandom became part of the cultural conversation the series was deliberately staging.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2018-09-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the entire series mechanism in 44 minutes: Joe narrates his obsession with aspiring writer Beck as if it were romance, while the show films it as surveillance. The gap between Joe's internal monologue and the audience's perception of his behaviour is the whole show in miniature.",
+          "the_moment": "Joe's first covert look into Beck's apartment window, filmed from Beck's perspective as a trespass but narrated by Joe as intimacy.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-12-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "89% on Rotten Tomatoes from 47 critics; praised for relocating Joe to Los Angeles and adding Victoria Pedretti as a credible counterweight to his self-mythology, maintaining the Season 1 formula while escalating stakes."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 47,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7335184/"
+      },
+      "review_body": "Netflix debuted Season 2 on December 26, 2019, marking the full transition to an exclusive Netflix property. The 89-percent Rotten Tomatoes score from 47 critics reflected a consensus that the series had successfully relocated its premise to Los Angeles without losing tension. The addition of Love Quinn, played by Victoria Pedretti, gave the season structural novelty: Joe finally meets someone who matches his capacity for delusion and violence. Critics noted the season's willingness to subvert its own formula rather than replicate it, and audience engagement remained high. The Los Angeles wealth-satire angle gave the writing room new targets, and the finale's pivot reconfigured the stakes ahead.",
+      "season_over_season": "Moves Joe from New York to Los Angeles and layers a second unreliable narrator into the mix, successfully subverting Season 1's formula rather than copying it."
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-10-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "93% on Rotten Tomatoes from 60 critics with consensus citing the suburban satire angle and Badgley-Pedretti chemistry; audience scores dipped, signalling the franchise was stretching its premise."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 60,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7335184/"
+      },
+      "review_body": "Released October 15, 2021, Season 3 moved Joe and Love to Madre Linda, a Californian suburb, skewering wealthy liberal parenting culture through the lens of two people with homicidal tendencies trying to maintain a veneer of normalcy. Critics scored it at 93 percent from 60 reviews, the highest per-season score in the run, with the consensus singling out Penn Badgley and Victoria Pedretti's committed ensemble work. The suburban satire gave writers fresh territory. Audience reception, however, began showing divergence from the critic consensus; while critics appreciated the craft, viewers found the formula growing familiar. The season's ending, which reset Joe's geography again, signalled the show's structural dependency on relocation.",
+      "season_over_season": "The suburban setting and dual-lead structure produce the series' peak critical rating, but audience fatigue with Joe's reset-and-repeat cycle starts registering here."
+    },
+    {
+      "number": 4,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-02-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "92% on Rotten Tomatoes from 63 critics; critics praised the London setting and structural inversion of the hunter-becomes-hunted dynamic, but the consensus also noted the premise showing strain."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 63,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7335184/"
+      },
+      "review_body": "Season 4 split into two five-episode parts released February 9 and March 9, 2023. Joe relocates to London as an English literature professor under an alias, this time as the target of a mysterious stalker. The inversion gave the writing room a structural refresh: critics appreciated the hunter-becomes-hunted conceit and scored it 92 percent from 63 reviews. The RT consensus phrased the caveat honestly - the premise is beginning to outlive its believability, but Badgley's sardonic performance continues to paper over most lapses in logic. Audience scores, while not individually tracked by season, reflected ongoing drift between critical appreciation and viewer patience with Joe's serial relocation and identity resets.",
+      "season_over_season": "The London relocation and hunter-becomes-hunted inversion buy structural novelty, but critics explicitly flag believability wear that audiences had been registering since Season 3."
+    },
+    {
+      "number": 5,
+      "year": 2025,
+      "episodes": 10,
+      "release_date": {
+        "value": "2025-04-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "79% from 43 critics on Rotten Tomatoes but only 47% audience score; the finale season drew the series' sharpest critic-audience split, with critics crediting a committed Badgley performance but viewers divided on the conclusion Joe receives."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 43,
+        "pull_quotes": [
+          {
+            "text": "Penn Badgley is still terrifyingly great at playing a menace.",
+            "source": "AV Club",
+            "url": "https://www.avclub.com/you-season-5-review-netflix"
+          },
+          {
+            "text": "The show sees and names our guilt, giving us perhaps a better ending than we deserve.",
+            "source": "RogerEbert.com",
+            "url": "https://www.rogerebert.com/reviews/you-season-5-review"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7335184/"
+      },
+      "review_body": "The final season, released April 24, 2025, returned Joe to New York to close the loop on the original premise. Critics scored it 79 percent from 43 reviews - the series' lowest critical mark - while the audience Popcornmeter landed at 47 percent, the starkest critic-audience divergence in the run. AV Club praised Badgley's sustained commitment to a genuinely unsettling character. RogerEbert.com found meaning in the ending's reckoning. But the audience score reflected a viewer base fractured over whether Joe's final fate was earned. Five seasons of relocation and reinvention had, for many viewers, diluted the moral argument the first season made so cleanly. As a cap, it satisfied critics more than the people who had binged it from the start.",
+      "season_over_season": "Returns Joe to New York for a circular close; critics held at fresh while the audience score collapsed to the series' worst, marking the widest critic-viewer split in the franchise."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "a-shop-for-killers",
+  "qid": {
+    "value": "Q123999260",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Shop for Killers",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A college student whose uncle just died discovers he secretly ran a dark-web weapons marketplace, and must survive a wave of professional killers while unravelling the truth about the family she never knew.",
+  "poster": {
+    "src": "/img/series/a-shop-for-killers/poster.jpg",
+    "alt": "A Shop for Killers poster",
+    "attribution": "Poster © Disney+ / Hive Media Corp. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 confirmed for late 2026 release, with principal photography beginning April 2025 and most original cast members returning.",
+    "source": "NME",
+    "source_url": "https://www.nme.com/news/tv/disney-plus-k-drama-a-shop-for-killers-renewed-for-second-season-3857327"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-01-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "100 percent Rotten Tomatoes from 6 critics and a 96 percent audience Popcornmeter; NME gave 4 stars; became Disney+'s most-viewed local Asia Pacific original of 2024 - but the small critic sample and narrative inconsistencies noted by multiple outlets cap the score."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "It's just enough to keep you hooked - that is, if you're willing to let the plot holes slide.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/a-shop-for-killers-review-plot-holes-gripping-thriller-3572796"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26450613/"
+      },
+      "review_body": "Eight episodes dropped on Disney+ starting January 17, 2024, and the series became the platform's most-viewed local original in Asia Pacific for 2024 before being overtaken by Light Shop in December. Lee Dong-wook plays the absent uncle whose survival and dark-web weapons empire drive the plot; Kim Hye-jun's niece protagonist carries the siege-thriller narrative. Rotten Tomatoes registered a clean 100 percent from 6 critics, with NME awarding 4 stars but noting plot holes and logical inconsistencies as the caveat the audience was willing to overlook. Pierce Conran of the South China Morning Post praised the stylish opening while warning the conclusion risked buyer's remorse. The 96 percent audience Popcornmeter and IMDb 8.0 suggest the action delivery outweighed narrative tightness for most viewers.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Murthehelp",
+          "air_date": "2024-01-17",
+          "bollymeter": 8.2,
+          "spoiler_free": "The opener establishes the show's siege-action grammar at full speed: the uncle's death, the assassins arriving, and a niece who has to fight through chaos with only her uncle's preemptive training as cover. The episode's confidence in dropping the audience straight into the thriller mechanism earned consistent praise.",
+          "the_moment": "The house-siege sequence in the first episode - the show earning its action credentials in the premiere before the mythology even arrives.",
+          "critic_note": {
+            "text": "It's just enough to keep you hooked - that is, if you're willing to let the plot holes slide.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/a-shop-for-killers-review-plot-holes-gripping-thriller-3572796"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Listen Up, Jian",
+          "air_date": "2024-02-07",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale resolves the uncle mystery and the dark-web marketplace backstory, but the South China Morning Post's warning about buyer's remorse proved partly justified for audiences who came for tight narrative closure. The action sustained; the plot logic was the debate. Lee Dong-wook's final scenes delivered on the promise of his casting.",
+          "the_moment": "Jin-man's survival revelation - the show's central dramatic gambit landing to divided audience response.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "inside-edge",
+  "qid": {
+    "value": "Q33132173",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Inside Edge",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A fictional T20 franchise becomes the battleground for match-fixing cartels, ownership wars, and political patronage - the sport as a front for every kind of power.",
+  "poster": {
+    "src": "/img/series/inside-edge/poster.jpg",
+    "alt": "Inside Edge series poster",
+    "attribution": "Poster © Excel Entertainment / Amazon MGM Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded after three seasons in December 2021. No further seasons have been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Inside_Edge_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-07-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The debut season of the first Hindi Amazon Original earned an International Emmy nomination for Best Drama and an IMDb 7.9, with Film Companion noting some of the smartest writing seen in an Indian show at the time."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The writing is some of the smartest I have seen in an Indian show.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/features/bollywood-features/inside-edge-review-smart-unapologetically-sensational-but-unoriginal"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6112414/"
+      },
+      "review_body": "Inside Edge Season 1 launched on July 10, 2017, as Amazon Prime Video's first Hindi-language original - a milestone that lent it extra scrutiny. Created by Karan Anshuman and produced by Excel Entertainment, the ten-episode season follows the Mumbai Mavericks T20 franchise through a spot-fixing conspiracy that implicates owners, players, and politicians. India Today called it perfectly cast and technically first rate. Film Companion praised the intelligence of the writing while noting generic filmmaking. The season earned a nomination at the 46th International Emmy Awards for Best Drama Series, the clearest external validation Indian streaming had received to that point. IMDb settled the series at 7.9.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2017-07-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the Mumbai Mavericks' ownership structure, introduces the key players across the cricket-crime divide, and sets the show's tone as prestige pulp. Vivek Oberoi's team owner and Richa Chadha's team manager are both drawn with genuine complexity from the first episode.",
+          "the_moment": "The scene that reveals how deep the fixing syndicate reaches - the show's premise crystallised in a single exchange.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-12-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Critics found Season 2 consistent with the debut; the show broadened its corruption canvas to national cricket while maintaining the ensemble quality."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6112414/"
+      },
+      "review_body": "Season 2 arrived December 6, 2019, expanding the conspiracy from a single franchise to the machinery of Indian cricket at the national level. The season retained the ensemble from Season 1 and introduced new antagonists representing institutional corruption. Trade reviews noted consistent quality; the show held its identity without significant deterioration. The Rotten Tomatoes sample remained too small for a reliable aggregate, but audience engagement on IMDb tracked near-even with the debut. Siddhant Chaturvedi's arc was frequently cited as a highlight.",
+      "season_over_season": "Season 2 widens the canvas from franchise corruption to the national board; the show's scale increases without a commensurate drop in coherence."
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-12-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A Subhash K Jha review on IMDb called Season 3 still edgy and engrossing; the series maintained its quality across the run without a sharp decline."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6112414/"
+      },
+      "review_body": "The third and final season launched December 3, 2021, bringing the Mumbai Mavericks saga to a close with international cricket as the new arena. Season 3 received less critical coverage than the debut but existing reviews remained favourable. Subhash K Jha on IMDb News described it as still edgy and engrossing, noting the show had not surrendered the tension of its earlier seasons. The audience maintained consistent loyalty across all three seasons; the IMDb aggregate for the series held steady at 7.9. The show's three-season run stands as one of the more coherent long-form arcs in Indian streaming.",
+      "season_over_season": "The finale season moves to international cricket and brings the overarching corruption arc toward resolution; reviewer consensus held that quality did not materially drop in the third year."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

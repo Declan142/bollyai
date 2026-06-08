@@ -1,0 +1,152 @@
+{
+  "slug": "dr-stone",
+  "qid": {
+    "value": "Q96376597",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "title": {
+    "value": "Dr. Stone",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A teenage genius wakes after 3,700 years of petrification to find civilization gone, then sets out to rebuild all of human science from scratch using nothing but intellect and sheer stubbornness.",
+  "poster": {
+    "src": "/img/series/dr-stone/poster.jpg",
+    "alt": "Dr. Stone series poster",
+    "attribution": "Poster © Riichiro Inagaki, Boichi / Shueisha / TMS Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "final-season",
+    "note": "Season 4 (Science Future) is the confirmed final season, split across three cours. The first part aired January-March 2025; Part 2 aired July-September 2025; Part 3 began airing April 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dr._Stone"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 24,
+      "release_date": {
+        "value": "2019-07-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "98% on Rotten Tomatoes; IMDb 8.1 overall series. Asian Movie Pulse called it a narrative that genuinely stands out for its original story and unique world-building. Critics praised the show's commitment to real scientific concepts delivered with shonen energy."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "The original story and the many unique elements of the narrative make it a title that truly stands out.",
+            "source": "Asian Movie Pulse",
+            "url": "https://www.rottentomatoes.com/tv/dr_stone/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9679542/"
+      },
+      "review_body": "Season 1 of Dr. Stone aired July-December 2019 and distinguished itself from contemporary shonen by treating scientific accuracy as a genuine storytelling virtue rather than window dressing. TMS Entertainment's 24-episode adaptation covered the Stone World introduction and the Village arc, establishing the central conflict between Senku's science kingdom and Tsukasa's physical supremacy. Critics scored it 98 percent on Rotten Tomatoes and noted the show's unusual tonal blend: Senku's grandiosity is comic, but the science demonstrations are real enough to be instructive. The IMDb score of 8.1 reflects sustained audience enthusiasm for a premise that should feel contrived but earns its momentum through consistent follow-through.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Stone World",
+          "air_date": "2019-07-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere drops its premise with unusual confidence: humanity is petrified, thousands of years pass, Senku wakes up and immediately starts doing science at the problem. The show's central joke - that the right response to the apocalypse is enthusiastic competence - is established immediately and without irony.",
+          "the_moment": "Senku's first spoken line after revival establishes the show's entire register: counting the seconds of his petrification because of course he is.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 11,
+      "release_date": {
+        "value": "2021-01-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "IMDb 8.1 overall. Stone Wars covers the Tsukasa conflict at a compressed but satisfying pace; the 11-episode count reflects the arc length rather than a cut. Audience reviews held firm with the series' established score."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9679542/"
+      },
+      "review_body": "Stone Wars aired January-March 2021 and resolved the Tsukasa arc that Season 1 had been building toward. At 11 episodes the season is the shortest of the franchise, which served the war narrative well - the pacing was tighter than the Village arc and the ideological confrontation between Senku's science-for-all and Tsukasa's selective resurrection was given room to land. Audience reception held steady with Season 1, and the season's compact shape made it an efficient bridge to the larger world-building of New World. Critics who reviewed the series noted that the show's science remained grounded and that the final resolution of the Tsukasa conflict was earned.",
+      "season_over_season": "A focused 11-episode war arc that resolves the franchise's first ideological conflict without the world-building sprawl of Season 1.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 22,
+      "release_date": {
+        "value": "2023-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "IMDb 8.1 overall; critics noted New World is the weakest of the Dr. Stone seasons, with some reviewers pointing to the science taking a back seat to adventure mechanics. Still well-regarded relative to most shonen competition."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9679542/"
+      },
+      "review_body": "New World aired in two 11-episode cours across April-June and October-December 2023. Critics who followed the series noted it as the weakest entry so far, with reviewers pointing to the science element being reduced to a background element as the show moved into maritime and international adventure territory. RC cars and quadcopters required more handwaving than earlier seasons' chemistry and physics demonstrations. Audience scores held firm relative to the franchise baseline, suggesting that the core audience remained invested in the characters even as the premise's defining virtue - scientific rigour - was stretched. The season's split-cour format gave it a natural mid-season break that the pacing benefited from.",
+      "season_over_season": "New World expands the geography of the Stone World but dilutes the scientific specificity that distinguished the first two seasons.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "w-two-worlds",
+  "qid": {
+    "value": "Q22774205",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "W",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A real-world surgeon is repeatedly pulled into her father's webtoon, where she falls for the wealthy manhwa hero - but the line between author, character, and fate begins to collapse.",
+  "poster": {
+    "src": "/img/series/w-two-worlds/poster.jpg",
+    "alt": "W Two Worlds poster",
+    "attribution": "Poster © MBC / Hwa&Dam Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run of 16 episodes that concluded September 14, 2016. No sequel or continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/W_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 16,
+      "release_date": {
+        "value": "2016-07-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb 8.0 and a Viki rating of 9.5 from 300,000+ viewers reflect genuine affection for the show's audacious meta-concept, though critics widely noted a second-half collapse in narrative logic after a dazzling first seven episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Show felt daring, which I really really loved. It went places I didn't expect.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2016/10/08/flash-review-w-two-worlds/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5797194/"
+      },
+      "review_body": "W arrived on MBC in July 2016 and announced itself as one of the most formally audacious Korean dramas of the decade. The premise - a surgeon dragged into her father's manhwa, romantically entangled with the webtoon's hero - gave writer Song Jae-jung room to interrogate authorship, fate, and the relationship between creator and creation. Audience scores peaked around 11.6 percent nationwide, and the series swept the 2016 MBC Drama Awards including Drama of the Year and Daesang for Lee Jong-suk. The first seven episodes earned near-universal praise for their inventiveness and pace. Critics and fan reviewers clustered on the same caveat: the second half abandoned its own world-logic for romantic momentum, accumulating unanswered questions that blunted the ending. The Fangirl Verdict graded it a B and called it 'almost predictable in its unpredictability.' An 8.0 on IMDb and Viki's 9.5 from over 300,000 voters reflect durable affection for a show whose ambition exceeded its execution.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Oh Seong Moo has Disappeared!",
+          "air_date": "2016-07-20",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere deploys its high-concept premise with unusual confidence: a surgeon pulled through a webtoon page into a fictional world, the rules established through action rather than exposition. The tonal blend of thriller and romance clicks immediately, and the visual grammar of webtoon-versus-reality is handled with genuine craft.",
+          "the_moment": "The moment the webtoon panel goes blank mid-frame and the protagonist finds herself standing inside it - the show's core formal trick announced in a single image.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "The End",
+          "air_date": "2016-08-10",
+          "bollymeter": 9.2,
+          "spoiler_free": "At the halfway point the series delivers its most philosophically daring hour, forcing the webtoon hero to confront the nature of his own constructed existence. Audience reactions flagged this episode as the season's creative peak, where the meta-concept and the romance converge most cleanly.",
+          "the_moment": "The manhwa hero looks directly at the blank space where his story should continue - and understands, for the first time, that someone else holds the pen.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "After W Ends",
+          "air_date": "2016-09-14",
+          "bollymeter": 6.5,
+          "spoiler_free": "The finale provides romantic closure but fails to resolve the logical architecture the first half erected. Critics and audiences alike noted that the ending bypasses rather than answers the show's central questions about authorship and reality, trading philosophical ambition for a conventionally happy resolution.",
+          "the_moment": "The final panel of the webtoon W closes - but whether what follows constitutes a real ending or another authored chapter is deliberately, and somewhat frustratingly, ambiguous.",
+          "critic_note": {
+            "text": "The lack of answers undermines all the earlier philosophical questions Show seems to raise.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2016/10/08/flash-review-w-two-worlds/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
