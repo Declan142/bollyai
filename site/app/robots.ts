@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/search/"
     },
-    sitemap: "https://bollyai.in/sitemap.xml",
+    sitemap: ["https://bollyai.in/sitemap.xml", "https://bollyai.in/sitemap-images.xml"],
     host: "https://bollyai.in"
   };
 }
