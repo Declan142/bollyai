@@ -7,7 +7,8 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/search/"
     },
-    sitemap: ["https://bollyai.in/sitemap.xml", "https://bollyai.in/sitemap-images.xml"],
+    // Single sitemap-index entry; it references every typed child sitemap.
+    sitemap: "https://bollyai.in/sitemap.xml",
     host: "https://bollyai.in"
   };
 }
