@@ -27,6 +27,11 @@
     "confidence": "verified"
   },
   "status": "ended",
+  "genres": [
+    "Romance",
+    "Cultural History",
+    "Drama"
+  ],
   "logline": "A Joseon court lady fights to protect the life she has chosen while the king she refuses to yield to turns his kingdom's entire weight toward possessing her.",
   "poster": {
     "src": "/img/series/the-red-sleeve/poster.jpg",
@@ -49,7 +54,7 @@
         "source": "MBC",
         "fetched_at": "2026-06-09T12:00:00+05:30",
         "confidence": "verified"
-        },
+      },
       "verdict": "MUST-WATCH",
       "bollymeter": {
         "score": 9.0,

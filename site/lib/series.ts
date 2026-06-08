@@ -58,6 +58,7 @@ export type Series = {
   original_language: SourceValue<string>;
   platform: SourceValue<string>;
   status: "running" | "returning" | "ended" | "limited";
+  genres?: string[]; // facet tags (Wikidata P136, normalized) — optional
   logline: string;
   poster: { src: string; alt: string; attribution: string };
   backdrop?: { src: string; alt: string; attribution: string };
@@ -118,6 +119,28 @@ export function peakSeason(series: Series): SeriesSeason | undefined {
 
 export function ottIndex(rung: OttRung): number {
   return Math.max(0, OTT_RUNGS.indexOf(rung));
+}
+
+// Most recent season air date (ISO yyyy-mm-dd) — the recency signal that powers
+// "recent always surfaces first" across the browse + home rails.
+export function seriesRecency(series: Series): string {
+  let best = "";
+  for (const s of series.seasons) {
+    const d = s.release_date?.value;
+    if (d && d > best) best = d;
+  }
+  return best || series.date_modified.slice(0, 10);
+}
+
+// "Fresh" = a season aired within the last `days` of the build (gets the NEW badge).
+export function isFreshSeries(series: Series, now: number = Date.now(), days = 150): boolean {
+  const t = new Date(seriesRecency(series)).getTime();
+  return Number.isFinite(t) && now - t <= days * 86400000 && now - t >= 0;
+}
+
+// All series, newest-content first. Default order for the viral browse + home.
+export function getSeriesByRecency(): Series[] {
+  return [...getAllSeries()].sort((a, b) => seriesRecency(b).localeCompare(seriesRecency(a)));
 }
 
 export type { Confidence };

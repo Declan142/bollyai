@@ -112,7 +112,8 @@ def validate_file(path: Path) -> list[str]:
     if not poster.get("src") or not poster.get("alt"):
         errs.append("poster.src / poster.alt missing")
     attr = (poster.get("attribution") or "").lower()
-    if "takedown" not in attr:
+    # Fallback-SVG posters use no third-party image, so no attribution is owed.
+    if "_fallback" not in (poster.get("src") or "") and "takedown" not in attr:
         errs.append("poster.attribution missing fair-dealing/takedown line")
 
     # Renewal

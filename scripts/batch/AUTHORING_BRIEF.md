@@ -74,6 +74,12 @@ For every slug, gather real facts before writing:
   "attribution": "Poster © <studio/platform>. Used for criticism and review under fair
   dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"}`. (The image is harvested later;
   you only write this JSON block.)
+- **genres** (string array, right after `status`): 2-5 facet tags for the show from this
+  controlled set so it slots into the browse filters — Drama, Thriller, Comedy, Crime,
+  Romance, Fantasy, Sci-Fi, Action, Mystery, Horror, Historical, Adventure, Coming of Age,
+  Teen, Anime (for any anime), Supernatural, Medical, Legal, Biographical, Documentary,
+  Sports, Superhero, Spy, Psychological, Slice of Life, Musical, Family, War, LGBTQ. Use the
+  show's real genres; keep it tight (no nationality tags like "Korean Drama").
 - `_quarantine`: `[]`. `date_modified`: current ISO-8601 +05:30.
 - Many of these are non-English (Korean, Japanese, Spanish, German, Hebrew, Hindi). That is
   expected: set `origin` to the country and `original_language` to the ISO code.

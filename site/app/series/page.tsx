@@ -1,43 +1,49 @@
+import { BrowseClient, type BrowseItem } from "../../components/BrowseClient";
 import { DateModified } from "../../components/DateModified";
-import { SeasonVerdict } from "../../components/SeasonVerdict";
-import { getAllSeries, latestSeason } from "../../lib/series";
+import { getSeriesByRecency, peakSeason, seriesRecency, isFreshSeries } from "../../lib/series";
 
 export const metadata = {
-  title: "Series & OTT shows — BollyAI verdicts",
-  description: "BollyAI reads the room on web series across India, Korea, and global OTT: season verdicts, renewal odds, and where to watch."
+  title: "Browse Series & OTT Shows by Genre, Platform & Year",
+  description:
+    "Filter and sort BollyAI verdicts on Korean drama, anime, Indian OTT and global streaming by genre, platform, country and year. Newest drops surface first."
 };
 
 export default function SeriesIndex() {
-  const series = getAllSeries();
+  const all = getSeriesByRecency();
+  const now = Date.now();
+  const items: BrowseItem[] = all.map((s) => {
+    const peak = peakSeason(s);
+    const years = s.seasons.map((x) => x.year).filter(Boolean);
+    const latestYear = years.length ? Math.max(...years) : null;
+    return {
+      slug: s.slug,
+      t: s.title.value,
+      p: s.poster.src,
+      o: s.origin,
+      pl: s.platform.value,
+      st: s.status,
+      g: s.genres ?? [],
+      yr: latestYear,
+      v: peak?.verdict ?? null,
+      sc: peak?.bollymeter?.score ?? null,
+      r: seriesRecency(s),
+      fr: isFreshSeries(s, now)
+    };
+  });
+
   return (
     <main className="page-shell" data-desk="streaming">
       <section className="section-head">
-        <p className="eyebrow">Series desk · India · Korea · global OTT</p>
-        <h1>Series &amp; OTT</h1>
+        <p className="eyebrow">Series desk · {all.length} shows · India · Korea · anime · global OTT</p>
+        <h1>Browse Series &amp; OTT</h1>
         <p className="answer-block">
-          Season-by-season verdicts on web series across Indian OTT, Korean drama, and global streaming. Money never
-          decides a series here; word of mouth, craft, and renewal signal do. BollyAI reads every review so you do not
-          have to gamble a weekend.
+          Every web series BollyAI has read the room on, in one filterable wall. Sort by what just dropped, by BollyMeter,
+          or A to Z; narrow by genre, platform, country, or era. Money never decides a series here, word of mouth and craft do.
         </p>
-        <DateModified value={series[0]?.date_modified ?? "2026-06-08T00:00:00+05:30"} />
+        <DateModified value={all[0]?.date_modified ?? "2026-06-09T00:00:00+05:30"} />
       </section>
 
-      <section className="series-grid">
-        {series.map((s) => {
-          const season = latestSeason(s);
-          return (
-            <a className="series-card" data-desk={s.canonical_industry} href={`/series/${s.slug}/`} key={s.slug}>
-              <img src={s.poster.src} alt={s.poster.alt} width="342" height="513" loading="lazy" />
-              <span className="series-card__body">
-                <span className="series-card__origin">{s.origin}</span>
-                <strong>{s.title.value}</strong>
-                <span className="series-card__plat">{s.platform.value}</span>
-                {season && <SeasonVerdict rung={season.verdict} compact />}
-              </span>
-            </a>
-          );
-        })}
-      </section>
+      <BrowseClient items={items} />
     </main>
   );
 }

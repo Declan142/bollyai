@@ -1,12 +1,32 @@
 {
   "slug": "raakh",
   "qid": null,
-  "title": { "value": "Raakh", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": {
+    "value": "Raakh",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "running",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Drama"
+  ],
   "logline": "A 1978 Delhi manhunt following the disappearance and murder of schoolchildren, tracing a relentless investigator and the disturbing psychology of the men behind the crime.",
   "poster": {
     "src": "/img/series/_fallback.svg",
@@ -24,7 +44,12 @@
       "number": 1,
       "year": 2026,
       "episodes": null,
-      "release_date": { "value": "2026-06-12", "source": "Variety", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-06-12",
+        "source": "Variety",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": null,
       "bollymeter": null,
       "critic": {

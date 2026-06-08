@@ -1,12 +1,30 @@
 {
   "slug": "maa-behen",
   "qid": null,
-  "title": { "value": "Maa Behen", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "inferred" },
+  "title": {
+    "value": "Maa Behen",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "inferred"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
+  "genres": [
+    "Drama"
+  ],
   "logline": "A widowed mother and her two estranged daughters stumble into chaos when a neighbour dies in their kitchen, spinning a dark comedy about women, secrets, and the ties that bind.",
   "poster": {
     "src": "/img/series/maa-behen/poster.jpg",
@@ -24,9 +42,17 @@
       "number": 1,
       "year": 2026,
       "episodes": 1,
-      "release_date": { "value": "2026-06-04", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-06-04",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.5, "basis": "Madhuri Dixit's loose, charismatic performance and a sharp first half outpace a second half that slows and leans on melodrama; the film landed at number one on Netflix India, suggesting strong audience appetite for exactly this tone." },
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Madhuri Dixit's loose, charismatic performance and a sharp first half outpace a second half that slows and leans on melodrama; the film landed at number one on Netflix India, suggesting strong audience appetite for exactly this tone."
+      },
       "critic": {
         "positive_pct": 58,
         "sample": 8,

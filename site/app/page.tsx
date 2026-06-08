@@ -11,7 +11,7 @@ import { VerdictMeter } from "../components/VerdictMeter";
 import { DESKS } from "../lib/desks";
 import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
-import { getAllSeries, latestSeason } from "../lib/series";
+import { getAllSeries, getSeriesByRecency, latestSeason } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
 import { webSiteJsonLd } from "../lib/jsonld";
 
@@ -53,6 +53,9 @@ export default function HomePage() {
     .map((s) => ({ s, season: latestSeason(s) }))
     .sort((a, b) => (b.season?.bollymeter?.score ?? 0) - (a.season?.bollymeter?.score ?? 0))
     .slice(0, 12);
+
+  // Recency-first: the newest seasons to land, freshest at the front.
+  const freshRail = getSeriesByRecency().slice(0, 14);
 
   const watchLists = getAllWatchLists().slice(0, 6);
 
@@ -181,6 +184,32 @@ export default function HomePage() {
             Full OTT calendar →
           </a>
         </aside>
+      </section>
+
+      <section className="poster-wall-block">
+        <header className="home-section-head">
+          <h2>Just Dropped</h2>
+          <p>The newest seasons to land on OTT, freshest first. BollyAI&apos;s read the moment the room forms.</p>
+        </header>
+        <div className="poster-wall full-bleed">
+          {freshRail.map((s) => {
+            const season = latestSeason(s);
+            return (
+              <a className="poster-card" data-desk="streaming" href={`/series/${s.slug}/`} key={`fresh-${s.slug}`}>
+                <img src={s.poster.src} alt={s.poster.alt} width="342" height="513" loading="lazy" />
+                <span className="poster-card__plate">
+                  <span className="poster-card__origin-tag">{s.origin}{season?.year ? ` · ${season.year}` : ""}</span>
+                  <strong>{s.title.value}</strong>
+                  <span className="poster-card__money">{s.platform.value}</span>
+                  {season && <SeasonVerdict rung={season.verdict} compact />}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+        <a className="ott-rail__more" href="/series/">
+          Browse all series by genre, platform &amp; year →
+        </a>
       </section>
 
       <section className="poster-wall-block">
