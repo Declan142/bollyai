@@ -48,7 +48,7 @@ jobs:
       - name: Healthcheck start
         env:
           HC_DAILY_UUID: ${{ secrets.HC_DAILY_UUID }}
-        run: scripts/lib/hc_ping.sh start "$HC_DAILY_UUID"
+        run: scripts/lib/hc_ping.sh "$HC_DAILY_UUID" start
 
       - name: Pull data
         env:
@@ -91,7 +91,7 @@ jobs:
         if: success()
         env:
           HC_DAILY_UUID: ${{ secrets.HC_DAILY_UUID }}
-        run: scripts/lib/hc_ping.sh success "$HC_DAILY_UUID"
+        run: scripts/lib/hc_ping.sh "$HC_DAILY_UUID" success
 
       - name: Telegram failure alert
         if: failure()
