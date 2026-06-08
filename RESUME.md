@@ -1,6 +1,6 @@
-# BollyAI — pickup state (2026-06-08, post series-scale-up)
+# BollyAI — pickup state (2026-06-08, post series-scale-up wave 2)
 
-**30-sec snapshot:** bollyai.in LIVE (CF Pages Direct Upload, **noindex pre-launch gate ON**). 21 films + **135 series / 322 seasons / 557 static pages** across 6 desks + Series + What-to-Watch. Wikidata spine (QID keys, NO TMDB). Deployed 15dc9a3 → https://95aad4ca.bollyai-in.pages.dev (apex verified 200).
+**30-sec snapshot:** bollyai.in LIVE (CF Pages Direct Upload, **noindex pre-launch gate ON**). 21 films + **183 series / 457 seasons / 487 episode reviews / 748 static pages** across 6 desks + Series + What-to-Watch (18 lists). 161/183 series have real posters (22 on fallback SVG = Wikipedia logo-leads). Wikidata spine (QID keys, NO TMDB). Deployed 707c0fb → bollyai-in.pages.dev (apex verified 200, sitemap 744 URLs).
 
 **Latest increment (this session, 3 commits f7d82f8→15dc9a3):**
 - **+76 international series** via 6-agent parallel fan-out: US/UK prestige, sci-fi/fantasy, Korean, Japanese anime, European/Spanish/British, Indian. Catalogue 59→135.
