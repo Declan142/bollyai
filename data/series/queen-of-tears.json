@@ -1,11 +1,31 @@
 {
   "slug": "queen-of-tears",
-  "qid": { "value": "Q116921048", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Queen of Tears", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q116921048",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Queen of Tears",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "A married chaebol couple on the brink of divorce find themselves fighting to save both their crumbling marriage and each other's lives.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 16,
-      "release_date": { "value": "2024-03-09", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-03-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "Record-breaking viewership, 100% Rotten Tomatoes critical approval, and mass audience devotion balance against Korean film-critic consensus calling it the year's most overrated drama, landing it as a phenomenon with real craft gaps." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Record-breaking viewership, 100% Rotten Tomatoes critical approval, and mass audience devotion balance against Korean film-critic consensus calling it the year's most overrated drama, landing it as a phenomenon with real craft gaps."
+      },
       "critic": {
         "positive_pct": 100,
         "sample": 6,
@@ -45,9 +73,55 @@
         "source_url": "https://www.imdb.com/title/tt27668559/"
       },
       "review_body": "The numbers are real: 682.6 million hours on Netflix, tvN's all-time viewership record, and Rotten Tomatoes at a clean 100% from six critics. The case against is also real: Cine21's year-end poll crowned it 2024's most overrated K-drama, with critics noting plot-logic holes and tonal whiplash in the back half. The consensus sits somewhere in between. Kim Soo-hyun and Kim Ji-won anchor the show with a chemistry that carries even the most overwrought turns, and director Kim Hee-won keeps the production glossy enough to blur structural seams. The first half runs on sharp comic timing; the second half leans into melodrama and the wheels loosen. By any craft standard, this is a well-produced, star-powered limited series that earned its audience. The Korean film-critic dissent is worth noting, but the room voted with its eyeballs.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-03-09",
+          "bollymeter": 8.8,
+          "spoiler_free": "Chaebol heiress Hong Hae-in and her farmer-born husband Baek Hyun-woo have a marriage on paper that is cold to the touch - but the premiere reveals, with comic precision, that both are more invested than they pretend. Kim Soo-hyun and Kim Ji-won's chemistry is immediate.",
+          "the_moment": "Hae-in's diagnosis - the revelation that reframes the show's premise from a divorce comedy into something with genuine stakes.",
+          "critic_note": {
+            "text": "Queen of Tears is buoyant and decidedly comic.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/queen-of-tears-netflix-k-drama-review-3603284"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2024-03-30",
+          "bollymeter": 8.7,
+          "spoiler_free": "The show's funniest extended sequence - a corporate social event requiring the couple to perform a marriage they privately consider over - gives Kim Ji-won her best comic showcase of the season. The episode represents the first half's tonal confidence at its peak.",
+          "the_moment": "The couple's improvised public display of affection that fools everyone except each other.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2024-04-13",
+          "bollymeter": 8.5,
+          "spoiler_free": "The melodrama gear change arrives here as the corporate intrigue escalates and the show asks its leads to carry scenes that depend more on sincere emotion than comic timing. Kim Soo-hyun's ability to play grief and love simultaneously is the reason this holds.",
+          "the_moment": "Hyun-woo learning what Hae-in has been keeping from him - the episode's pivot, played in a single close-up.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2024-04-28",
+          "bollymeter": 8.4,
+          "spoiler_free": "The finale resolved a season's worth of corporate conspiracy and personal grief in a way that satisfied its enormous audience even where it strained credulity. The 682.6 million hours on Netflix tell the story of a finale that delivered what it promised.",
+          "the_moment": "The final scene between Hae-in and Hyun-woo - 16 episodes of tension paying off in an image that broke social media for two days.",
+          "critic_note": {
+            "text": "Sometimes unwieldy but always entertaining, Queen of Tears is already leading the pack for best drama of the year.",
+            "source": "Jae-Ha Kim",
+            "url": "https://jaehakim.substack.com/p/queen-of-tears-hotel-del-luna-kdrama-reviews"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

@@ -1,11 +1,31 @@
 {
   "slug": "reacher",
-  "qid": { "value": "Q109901438", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Reacher", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q109901438",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Reacher",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "Itinerant ex-military cop Jack Reacher drifts into American towns and systematically dismantles the criminal power structures he finds there, one adaptation of Lee Child's novels per season.",
   "poster": {
@@ -24,31 +44,103 @@
       "number": 1,
       "year": 2022,
       "episodes": 8,
-      "release_date": { "value": "2022-02-04", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-02-04",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 7.8, "basis": "92% on Rotten Tomatoes; critics credited showrunner Nick Santora with capturing the source material's laconic voice and Alan Ritchson's physical authority as a genuine casting coup." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "92% on Rotten Tomatoes; critics credited showrunner Nick Santora with capturing the source material's laconic voice and Alan Ritchson's physical authority as a genuine casting coup."
+      },
       "critic": {
         "positive_pct": 92,
         "sample": null,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9288030/" },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9288030/"
+      },
       "review_body": "Season 1 adapted Lee Child's Killing Floor and debuted to 92% critical approval. Reviewers noted that Santora's writing team captured the character's eccentricities, including the no-frills travel habits and obsessive roadside trivia, and that Ritchson's physicality addressed a persistent complaint about the Tom Cruise film adaptations. The show delivered pulpy procedural satisfaction without pretensions to prestige. Hollywood Reporter acknowledged it as more faithful to the source material than any prior adaptation.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Welcome to Margrave",
+          "air_date": "2022-02-04",
+          "bollymeter": 8.2,
+          "spoiler_free": "The pilot drops Reacher into Margrave, Georgia, with a dead body and local law enforcement immediately hostile. Alan Ritchson's physicality is the immediate revelation: this is Reacher as Lee Child wrote him, not the compromised film version. The genre conventions are honoured with relish.",
+          "the_moment": "The diner fight - short, brutal, and definitive. The show establishing who Reacher is in about forty seconds.",
+          "critic_note": {
+            "text": "Reacher is exactly what it promises: big, dumb, and enormously satisfying.",
+            "source": "Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/reacher-review-amazon-prime-video-series-1235089380/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "No Apologies",
+          "air_date": "2022-02-04",
+          "bollymeter": 8.0,
+          "spoiler_free": "The investigation deepens and the conspiracy's scale begins to clarify. Reacher and Roscoe's partnership tightens. The show's mid-season structure holds its procedural pleasures without visible strain.",
+          "the_moment": "Reacher's analysis of the crime scene - the character's intelligence on display as specifically as his physicality.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Reacher Said Nothing",
+          "air_date": "2022-02-04",
+          "bollymeter": 8.3,
+          "spoiler_free": "The penultimate episode tightens the Killing Floor conspiracy to its final shape. The who and why become clear; what remains is the reckoning. The show's procedural pleasures are at peak efficiency as the season builds toward its conclusion.",
+          "the_moment": "The warehouse confrontation - Reacher in his element, operating with the cold tactical logic that makes the character compelling.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Pie",
+          "air_date": "2022-02-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The season finale resolves every thread with the satisfying directness the source material demands. The confrontations land, the villains are dispatched appropriately, and Reacher walks out of Margrave the same way he walked in - alone, unhurried, and lethal.",
+          "the_moment": "The final confrontation with the primary villain - staged and executed with the show's pleasurably over-the-top physical logic.",
+          "critic_note": {
+            "text": "Reacher sticks the landing - a finale that honours the pulpy pleasures the season promised.",
+            "source": "Collider",
+            "url": "https://collider.com/reacher-season-1-review/"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2023,
       "episodes": 8,
-      "release_date": { "value": "2023-12-15", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-12-15",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.1, "basis": "98% on Rotten Tomatoes; the ensemble expansion around Reacher's former unit was widely cited as strengthening the show's emotional throughline." },
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "98% on Rotten Tomatoes; the ensemble expansion around Reacher's former unit was widely cited as strengthening the show's emotional throughline."
+      },
       "critic": {
         "positive_pct": 98,
         "sample": 44,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9288030/" },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9288030/"
+      },
       "review_body": "Season 2 adapted Bad Luck and Trouble and launched December 2023 with weekly episodes through January 2024. Critics awarded it 98% on Rotten Tomatoes, nearly unanimous praise for deepening the show's emotional core through the 110th Special Investigations unit ensemble. The season is widely regarded as the strongest in the run.",
       "season_over_season": "Critical approval rose sharply from Season 1's 92% to 98%; the ensemble cast structure gave the season an emotional texture absent from the solo-Reacher model."
     },
@@ -56,9 +148,17 @@
       "number": 3,
       "year": 2025,
       "episodes": 8,
-      "release_date": { "value": "2025-02-20", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-02-20",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.9, "basis": "97% on Rotten Tomatoes; critics called it action-packed and relentlessly entertaining, though a slower mid-season burn drew comparisons to Season 2's tighter pacing." },
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "97% on Rotten Tomatoes; critics called it action-packed and relentlessly entertaining, though a slower mid-season burn drew comparisons to Season 2's tighter pacing."
+      },
       "critic": {
         "positive_pct": 97,
         "sample": null,
@@ -70,11 +170,16 @@
           }
         ]
       },
-      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9288030/" },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9288030/"
+      },
       "review_body": "Season 3 adapted Persuader and broke Prime Video records with 54 million viewers. Critics awarded 97% on Rotten Tomatoes; the season debuted at 100% before settling. The consensus line: relentlessly entertaining and willing to lean into spycraft complexity while preserving Reacher's one-man-wrecking-crew identity. AV Club and some critics flagged a mid-season pacing dip where the dialogue circled familiar ground before the finale delivered the expected carnage. Collider noted the season perhaps lacked the heart of Seasons 1 and 2 while still being among Prime's best action product.",
       "season_over_season": "Marginally below Season 2's 98% at 97%; the mid-season pacing drew comparisons to the solo-Reacher model of Season 1 rather than Season 2's ensemble depth."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

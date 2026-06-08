@@ -1,0 +1,109 @@
+{
+  "slug": "mr-sunshine",
+  "qid": {
+    "value": "Q32846647",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mr. Sunshine",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A Korean-born US Marine officer returns to late-Joseon Korea and falls for an aristocrat's daughter resisting Japanese colonisation, as empire closes in on everyone.",
+  "poster": {
+    "src": "/img/series/mr-sunshine/poster.jpg",
+    "alt": "Mr. Sunshine series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season series; concluded September 30, 2018. The highest-rated Korean cable drama in history at the time of its finale.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mr._Sunshine_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 24,
+      "release_date": {
+        "value": "2018-07-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb 8.7, third-highest cable drama in Korean history by final-episode ratings (18.1%), and critical acclaim for its cinematography and Kim Eun-sook's most politically ambitious screenplay."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Besides serving up stunning cinematography, the show introduces two of the most dynamic female leads from the K-drama world.",
+            "source": "Time",
+            "url": "https://time.com/collection/best-k-dramas/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7094780/"
+      },
+      "review_body": "Mr. Sunshine is Kim Eun-sook writing at maximum ambition - a period epic set at the precise historical moment when the Joseon dynasty was being swallowed by Japanese imperialism. Lee Byung-hun as Eugene Choi, the escaped slave who becomes a US military officer and returns to a country that discarded him, gave the most formally controlled performance of his television career. Critics singled out the cinematography - the show spent nearly three times a standard Korean drama budget - and the strong female characters, particularly Kim Tae-ri's Ae-sin, whose arc runs counter to genre norms. The Korea Times noted the show's rare willingness to centre peripheral figures: women, lower-class resisters, those erased from official history. Finale viewership of 18.1% placed it third in Korean cable history. The show's scale demands attention on a large screen; it is one of the few K-dramas where the cinematography is an active argument rather than decoration.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-07-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "The opening hour stages the 1871 Shinmiyangyo incident - a real US military attack on Korean shores - as the moment that will define the entire series. The jump to Eugene Choi as a grown US Marine and his return to Korea lands with the weight of accumulated history.",
+          "the_moment": "Young Choi's escape from Joseon, which sets the series' central irony in motion: a man fleeing his country will spend twenty-four episodes trying to save it.",
+          "critic_note": {
+            "text": "A premiere that locates the personal inside the historical without simplifying either.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_sunshine_2018/s01/e01"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2018-08-19",
+          "bollymeter": 9.1,
+          "spoiler_free": "The midpoint crisis episode that forces every character to declare their position on resistance, collaboration, and survival. The show's political stakes, which had been gathering, become impossible to evade. Action sequences and quiet grief share the runtime without either feeling shortchanged.",
+          "the_moment": "Ae-sin in full archer's posture is the image that circulated internationally and became the show's signature.",
+          "critic_note": {
+            "text": "Mr. Sunshine uses spectacle in service of history, not as a substitute for it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_sunshine_2018/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

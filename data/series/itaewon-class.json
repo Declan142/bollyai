@@ -1,11 +1,31 @@
 {
   "slug": "itaewon-class",
-  "qid": { "value": "Q85984177", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Itaewon Class", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q85984177",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Itaewon Class",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A young ex-convict rebuilds his life and pursues revenge against a food-industry chaebol family by opening a bar-restaurant in Itaewon.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2020,
       "episodes": 16,
-      "release_date": { "value": "2020-01-31", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-01-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.8, "basis": "Strong first half and a standout female lead offset by a mid-series tonal sprawl; audience scores sit notably higher than critical consensus." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Strong first half and a standout female lead offset by a mid-series tonal sprawl; audience scores sit notably higher than critical consensus."
+      },
       "critic": {
         "positive_pct": 70,
         "sample": 6,
@@ -39,9 +67,51 @@
         "source_url": "https://mydramalist.com/33898-itaewon-class"
       },
       "review_body": "Itaewon Class built its reputation on a revenge premise that felt grounded in labour economics and chaebol critique rather than melodrama. Time included it on its list of the ten best Korean dramas on Netflix; Forbes named it one of the best K-dramas of 2020. The MyDramaList audience settled at 8.4 across 99,000 users. Critical reception was more split: reviewers praised the social themes, the representation of queer and foreign characters, and Kim Da-mi's performance as the data-driven manager. The dissenting cluster flagged the second half, where the show attempted too many thematic threads simultaneously, and the revenge arc's resolution as anticlimactic. The gap between critical caution and audience enthusiasm is the defining signal.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-01-31",
+          "bollymeter": 8.5,
+          "spoiler_free": "A father and son arrive in Itaewon with exactly one year of freedom, and the episode ends with both gone - one dead, one imprisoned. The premiere compresses tragedy without melodrama, establishing Park Saeroyi's motivation as moral rather than emotional, which sets the show apart from standard revenge K-drama.",
+          "the_moment": "The accident and its immediate aftermath - ten minutes that make the following sixteen episodes feel inevitable.",
+          "critic_note": {
+            "text": "A mix of flawed but likeable characters, inspirational speeches on chasing dreams, and a love triangle that genuinely could go either way.",
+            "source": "South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/itaewon_class/s01"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Episode 2",
+          "air_date": "2020-02-01",
+          "bollymeter": 8.3,
+          "spoiler_free": "Prison and release, and then: Itaewon. Saeroyi opens his bar with nothing except conviction, and Jo Yi-seo enters the story with a social-media presence that immediately reframes what the revenge arc might look like. Kim Da-mi's performance signals early that she is the show's most unpredictable element.",
+          "the_moment": "Yi-seo walking into the bar and assessing it, then Saeroyi, in a single extended look that tells the audience everything about who she is.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2020-02-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "The bar achieves its first real momentum and the show's themes around race, queerness, and class are most elegantly integrated here before the back half starts adding antagonist threads. The episode is the high-water mark of the show's tonal coherence.",
+          "the_moment": "The Danbam team's first night feeling like a going concern - small but earned after nine episodes of grinding.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2020-03-21",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale resolves the corporate revenge arc with more pragmatism than catharsis, which divided audiences expecting a cleaner victory. The love-triangle resolution is more satisfying than the business plot. The closing image is of a man who got what he wanted and is ambivalently at peace with it.",
+          "the_moment": "Saeroyi's final conversation with the Jangga chairman - the show choosing complexity over the clean win its audience had been anticipating.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

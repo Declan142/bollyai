@@ -1,11 +1,26 @@
 {
   "slug": "paatal-lok",
   "qid": null,
-  "title": { "value": "Paatal Lok", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": {
+    "value": "Paatal Lok",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A disillusioned Delhi sub-inspector gets the biggest case of his career and unravels a labyrinth of caste, crime, and political power stretching from the capital to India's most forgotten margins.",
   "poster": {
@@ -24,25 +39,88 @@
       "number": 1,
       "year": 2020,
       "episodes": 9,
-      "release_date": { "value": "2020-05-15", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-05-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "Landmark debut season; near-unanimous critical praise for its unflinching caste-and-crime portrait, anchored by Jaideep Ahlawat's career-defining turn. IMDb 8.1." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Landmark debut season; near-unanimous critical praise for its unflinching caste-and-crime portrait, anchored by Jaideep Ahlawat's career-defining turn. IMDb 8.1."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9680440/" },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9680440/"
+      },
       "review_body": "Paatal Lok Season 1 arrived in May 2020 as one of the most fully realised debuts in Indian streaming. Created by Sudip Sharma, the nine-episode run follows inspector Hathiram Chaudhary through an assassination plot that spirals into the underbelly of caste, media, and political patronage. Critical consensus placed it alongside the best of international crime television: the writing layers social commentary without ever telegraphing it, the ensemble cast carries weight no single star system could, and the production design commits to the grunge of its world. The series attracted institutional recognition, including placement on The New York Times' Best International TV of the Decade list. Audience rating on IMDb settled at 8.1.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Bridges",
+          "air_date": "2020-05-15",
+          "bollymeter": 8.7,
+          "spoiler_free": "Inspector Hathiram Chaudhary, perpetually overlooked, gets the biggest case of his career - an assassination attempt on a powerful journalist. The first episode plants every seed the season will grow: Hathiram's institutional invisibility, the gap between Swarg Lok and Paatal Lok, and a set of suspects whose backstories are entire parallel narratives.",
+          "the_moment": "Hathiram looking at the case file and understanding, slowly, that someone gave him this case on purpose.",
+          "critic_note": {
+            "text": "A brave, bracingly filmed leap into India's heart of darkness.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/streaming/paatal-lok-on-amazon-prime-review-a-brave-bracingly-filmed-leap-into-indias-heart-of-darkness/"
+          }
+        },
+        {
+          "number": 3,
+          "title": "A History of Violence",
+          "air_date": "2020-05-15",
+          "bollymeter": 8.9,
+          "spoiler_free": "Vishal's origin story unspools in detail that changes the show's register entirely. The episode is the season's most formally ambitious - a slow, specific account of how marginalisation manufactures violence, told without sentimentality or apology.",
+          "the_moment": "The transition from Vishal's childhood to his present self - one of the season's most carefully constructed cuts.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Badlands",
+          "air_date": "2020-05-15",
+          "bollymeter": 9.1,
+          "spoiler_free": "Hathiram travels to the margins where the case was born and the show's map of India - from studio Delhi to Paatal Lok - becomes literal. This is Jaideep Ahlawat's finest hour in the season; the character's understanding of the world shifts irreversibly.",
+          "the_moment": "Hathiram in the Badlands - the moment the show's title stops being metaphor.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Swarg Ka Dwaar",
+          "air_date": "2020-05-15",
+          "bollymeter": 9.0,
+          "spoiler_free": "The season finale closes the investigation and opens every other question the show has been asking. The resolution is institutional rather than moral - the case is solved, the system is not. One of the most specific and unforgiving endings in Indian streaming.",
+          "the_moment": "Hathiram's final scene at the station - everything he has learned, nowhere to put it.",
+          "critic_note": null
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2025,
       "episodes": 8,
-      "release_date": { "value": "2025-01-17", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-01-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.7, "basis": "100% on Rotten Tomatoes from 11 critics; Nagaland setting brings fresh geography and sharper political stakes, widely called equal to or stronger than the debut season." },
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "100% on Rotten Tomatoes from 11 critics; Nagaland setting brings fresh geography and sharper political stakes, widely called equal to or stronger than the debut season."
+      },
       "critic": {
         "positive_pct": 100,
         "sample": 11,
@@ -59,11 +137,16 @@
           }
         ]
       },
-      "audience": { "rating": 8.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9680440/" },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9680440/"
+      },
       "review_body": "The five-year wait for Season 2 is answered with a shift in geography: Hathiram Chaudhary moves to Nagaland, and the series relocates from Delhi's sewer politics to the fog of northeastern India's ethnic conflict and insurgency. The move pays off. Critics landing at 100% on Rotten Tomatoes from eleven reviews noted that the change of canvas sharpens, rather than dilutes, the show's central argument about power and disposability. Jaideep Ahlawat and Ishwak Singh are joined by Tillotama Shome and Jahnu Barua; the ensemble holds. The reception was notably warmer than Season 1 among trade observers, with Variety reporting it topped Indian charts and renewed conversation about a third season. The series maintains its refusal to offer comfort.",
       "season_over_season": "Critics broadly called Season 2 equal to or stronger than Season 1, with the Nagaland setting credited for injecting fresh urgency; the geography-first strategy is a structural upgrade on the Delhi-centric debut."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

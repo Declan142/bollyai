@@ -1,0 +1,216 @@
+{
+  "slug": "prison-break",
+  "qid": {
+    "value": "Q80044",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Prison Break",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "JustWatch India",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A structural engineer has himself convicted and sent to the same prison as his wrongly-condemned brother - carrying a full escape plan tattooed across his body.",
+  "poster": {
+    "src": "/img/series/prison-break/poster.jpg",
+    "alt": "Prison Break series poster",
+    "attribution": "Poster © 20th Century Fox Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original series ended 2009; a revival fifth season aired in 2017. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Prison_Break"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-08-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "79% on Rotten Tomatoes and an 8.8/10 IMDb audience score for Season 1. Critics praised the concept's audacity and the season's ability to sustain tension across 22 episodes without the central premise exhausting itself. The tattoo as a plot device is one of TV's great high-concept hooks."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 34,
+        "pull_quotes": [
+          {
+            "text": "A high-concept thriller that commits fully to its absurd premise and generates remarkable tension in the process.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/prison_break/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0455275/"
+      },
+      "review_body": "Prison Break Season 1 is one of the most purely watchable first seasons in American network television. The premise - Michael Scofield tattooing an escape plan across his entire body before getting himself convicted - is outrageous in the best possible way, and Paul Scheuring executes it with complete conviction. The Fox River Prison setting is claustrophobic and spatially coherent; the show makes geography feel like stakes. Wentworth Miller and Dominic Purcell have genuine chemistry, and the ensemble of prison archetypes - T-Bag, Sucre, C-Note - are drawn with more depth than the formula required. Critics found it binge-compulsive rather than artistically profound, which was the correct read. Few shows have ever used the architecture of a single building as dramatically as this season does.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2005-08-29",
+          "bollymeter": 8.8,
+          "spoiler_free": "The pilot delivers the concept in full: Michael Scofield robs a bank, gets sentenced to Fox River, and we gradually understand that this is not an accident but a plan. The show reveals the tattoo's significance in stages, and the dramatic irony - we know more than most characters - generates immediate investment. The prison environment is established as a fully realised world in a single hour.",
+          "the_moment": "Michael's first full tattoo reveal - when the show confirms that everything you've been seeing is a blueprint.",
+          "critic_note": {
+            "text": "A pilot that turns an absurd concept into gripping must-see television within its first hour.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/prison_break/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 22,
+      "release_date": {
+        "value": "2006-08-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "71% on Rotten Tomatoes. The fugitive-on-the-run format sustained audience interest but critics found the season's structure looser and the conspiracy elements increasingly strained."
+      },
+      "critic": {
+        "positive_pct": 71,
+        "sample": 14,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0455275/"
+      },
+      "review_body": "Season 2 changes the geometry: the prison is gone, replaced by a fugitive road narrative. The season's logic is looser than Season 1's, and the Company conspiracy that begins to dominate the plot is where the show first showed its tendency toward escalating convolution. Critics found it entertaining but softer - the spatial constraints of Fox River had been generating the tension, and their absence is felt. Still compulsively watchable for the audience invested in the characters.",
+      "season_over_season": "Season 2 is a step down from Season 1's tightly engineered tension - the open road introduces sprawl the show doesn't fully control.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 13,
+      "release_date": {
+        "value": "2007-09-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "50% on Rotten Tomatoes. The Sona Prison second break is widely read as the show repeating its own Season 1 concept with diminishing returns."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 12,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0455275/"
+      },
+      "review_body": "Season 3 is Prison Break attempting to restart its engine by returning Michael to prison - this time in Panama. Critics were not persuaded; the Sona setting was visually distinct but narratively it felt like a retread. The Writers Guild strike truncated the season to 13 episodes, which gave it a compressed, unresolved shape. Watchable for the committed, unnecessary for the casual viewer.",
+      "season_over_season": "Season 3 recycles the Season 1 premise with less ingenious execution - the diminishing returns were now visible to critics and audiences.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 24,
+      "release_date": {
+        "value": "2008-09-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "50% on Rotten Tomatoes and a 7.5/10 audience score - the Scylla card heist concept was ambitious but the season's 24 episodes felt bloated and the conspiracy mythology had expanded beyond coherence."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0455275/"
+      },
+      "review_body": "Season 4 converted the show into a heist format - Michael's team extracting the Scylla device from the Company - which at least provided a new structural premise. But 24 episodes was too much runway for the material, and the mythology had accumulated enough contradictions that the season's plot logic required constant suspension of disbelief. Critics found it the least coherent season of the original run. The show concluded (provisionally) with a movie special, 'The Final Break,' before the revival.",
+      "season_over_season": "Season 4 is the creative floor of the original run - too long, too convoluted, and working against the show's core strengths.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2017,
+      "episodes": 9,
+      "release_date": {
+        "value": "2017-04-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "56% on Rotten Tomatoes. The eight-years-later revival had a certain fan-service energy that critics received as watchable but unnecessary - the story had been told."
+      },
+      "critic": {
+        "positive_pct": 56,
+        "sample": 34,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0455275/"
+      },
+      "review_body": "The Season 5 revival - eight years after the original conclusion - found Michael Scofield alive and imprisoned in Yemen. The geopolitical update gave the season a fresh texture, and critics gave it grudging credit for not being a lazy nostalgia exercise. But the 9-episode run also felt like an acknowledgment that there wasn't a full season's worth of story left. For fans wanting one more chapter, it delivers. For anyone else, it's completionist territory.",
+      "season_over_season": "Season 5 is a tighter, better-focused revival than the original Series 4 - but it's an epilogue, not a return to form.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

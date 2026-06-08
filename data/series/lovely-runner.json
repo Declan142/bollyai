@@ -1,11 +1,31 @@
 {
   "slug": "lovely-runner",
-  "qid": { "value": "Q121144610", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Lovely Runner", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q121144610",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Lovely Runner",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "tvN / Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "A wheelchair-bound K-pop fan time-travels to her idol's high-school years and races to prevent his death while untangling the consequences of rewriting the past.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 16,
-      "release_date": { "value": "2024-04-08", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-04-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.3, "basis": "IMDb 8.5 and a MyDramaList score in the 9.1-9.2 range reflect genuine cross-border fandom; the time-travel mechanics frustrate some critics but the lead chemistry and emotional pacing drive an unusually high completion rate." },
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "IMDb 8.5 and a MyDramaList score in the 9.1-9.2 range reflect genuine cross-border fandom; the time-travel mechanics frustrate some critics but the lead chemistry and emotional pacing drive an unusually high completion rate."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -39,9 +67,47 @@
         "source_url": "https://www.imdb.com/title/tt31324295/"
       },
       "review_body": "Lovely Runner landed as the breakout K-drama of the first half of 2024, turning Byeon Woo-seok into a regional cultural phenomenon and pushing Kim Hye-yoon to the top of Baeksang consideration. The time-travel scaffold is familiar, but the series runs it with enough emotional precision and comic lightness to keep audiences forgiving of plot-logic stretches. Audience scores stayed consistently in the 9+ range on MyDramaList, with reviewers citing the lead chemistry and the show's ability to make its stakes feel genuinely personal despite the genre machinery. Critical attention from Western trade outlets was sparse, but the viewership data and fan-driven discourse more than compensated. The back half draws a minority of viewers who flag pacing slack and time-loop repetition; the majority verdict is that the emotional payoff lands.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-04-08",
+          "bollymeter": 8.8,
+          "spoiler_free": "Im Sol, a wheelchair-bound K-pop fan, time-travels to 2008 and finds herself standing next to her idol Ryu Sun-jae as a teenager. The premise is outrageous; the execution is warm and fast-moving, and Byeon Woo-seok's performance as a teenage idol who doesn't know he's being saved signals immediately that the show has something real underneath its fantasy machinery.",
+          "the_moment": "Im Sol realising she is standing in the past and making the decision to stay - the show's thesis delivered in a single wordless beat.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2024-04-29",
+          "bollymeter": 8.5,
+          "spoiler_free": "The midpoint sharpens the time-travel paradox - every change Im Sol makes creates new dangers she couldn't anticipate. The show shifts gear from comedy to something more anxious, and the leads' chemistry is carrying real emotional weight by now rather than just comic energy.",
+          "the_moment": "A change in the timeline that Im Sol thought would fix things visibly making them worse - the episode that turned the fandom from delighted to devastated.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Episode 13",
+          "air_date": "2024-05-20",
+          "bollymeter": 8.3,
+          "spoiler_free": "Sun-jae begins to understand what Im Sol has been doing and why, and the show shifts the emotional register from dramatic irony to mutual recognition. Critics who had flagged time-loop repetition in the back half pointed to this episode as the sequence that earned the audience's patience.",
+          "the_moment": "Sun-jae putting together Im Sol's behaviour across the timeline and the look on his face when the picture becomes clear.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2024-05-28",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale resolves the temporal loop with emotional precision rather than mechanical plot logic, which is why the MyDramaList score stayed above 9.1. PureWow noted the show's chemistry and emotional pacing as the reasons for its unusually high completion rate, and the finale is the culmination of both.",
+          "the_moment": "The final scene across time - the show paying off its central promise in a way that is simultaneously predictable and genuinely moving.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

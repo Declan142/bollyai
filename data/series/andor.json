@@ -1,11 +1,31 @@
 {
   "slug": "andor",
-  "qid": { "value": "Q60462338", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Andor", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q60462338",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Andor",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Disney+/JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+/JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "The radicalisation of Cassian Andor into a rebel spy, told across two seasons as a grounded, politically serious examination of fascism and resistance set five years before Rogue One.",
   "poster": {
@@ -24,25 +44,100 @@
       "number": 1,
       "year": 2022,
       "episodes": 12,
-      "release_date": { "value": "2022-09-21", "source": "Disney+", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-09-21",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.8, "basis": "96% on Rotten Tomatoes; the Narkina 5 prison break arc in particular drew some of the strongest episodic praise in the Star Wars franchise, with critics citing the show's willingness to treat political themes as substantive rather than decorative." },
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "96% on Rotten Tomatoes; the Narkina 5 prison break arc in particular drew some of the strongest episodic praise in the Star Wars franchise, with critics citing the show's willingness to treat political themes as substantive rather than decorative."
+      },
       "critic": {
         "positive_pct": 96,
         "sample": null,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9253284/" },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9253284/"
+      },
       "review_body": "Andor Season 1 premiered September 2022 and arrived as the critical consensus pick for best live-action Star Wars content. Critics awarded 96% on Rotten Tomatoes and consistently highlighted the Narkina 5 prison arc (Episode 10, 'One Way Out') as franchise-best television. The show's willingness to treat fascism, class politics, and the psychology of radicalisation as actual themes rather than genre decoration was the line critics kept returning to. Slowburn first three episodes gave way to sustained acclaim.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Kassa",
+          "air_date": "2022-09-21",
+          "bollymeter": 7.8,
+          "spoiler_free": "A quiet, deliberate opener that places Cassian Andor in the grim industrial world of Ferrix. The worldbuilding is dense and the tone resolutely unglamorous - this is Star Wars as a working-class noir. The stakes feel real before a single laser fires.",
+          "the_moment": "The ISB officers arriving on Ferrix: cold, bureaucratic, and more threatening than any armed villain.",
+          "critic_note": {
+            "text": "Andor hits with an intensity and political precision that Star Wars has never attempted before.",
+            "source": "The New Republic",
+            "url": "https://newrepublic.com/article/168101/andor-disney-plus-review"
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Eye",
+          "air_date": "2022-10-12",
+          "bollymeter": 9.6,
+          "spoiler_free": "The Aldhani heist episode and the most celebrated hour of Andor Season 1. A meticulous, tense heist set against a celestial event, with emotional stakes rooted in every character's specific motivation. The action serves the politics, not the other way around.",
+          "the_moment": "The meteor shower over the Aldhani dam: action and awe delivered simultaneously in a single unbroken sequence.",
+          "critic_note": {
+            "text": "The Eye is the best single hour of Star Wars ever put to screen.",
+            "source": "IGN",
+            "url": "https://www.ign.com/articles/andor-the-eye-review"
+          }
+        },
+        {
+          "number": 10,
+          "title": "One Way Out",
+          "air_date": "2022-11-09",
+          "bollymeter": 9.8,
+          "spoiler_free": "The Narkina 5 prison break episode, widely recognised as Andor's finest hour and among the best episodes in Star Wars franchise history. Kino Loy's arc reaches its shattering conclusion. The show's argument about resistance, sacrifice, and complicity crystallises completely.",
+          "the_moment": "Kino Loy's speech to the prisoners - the moment the entire arc was building toward, and one of the decade's great speeches.",
+          "critic_note": {
+            "text": "One Way Out might be the single best episode of television in 2022.",
+            "source": "Variety",
+            "url": "https://variety.com/2022/tv/reviews/andor-one-way-out-review-1235420789/"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Rix Road",
+          "air_date": "2022-11-23",
+          "bollymeter": 9.4,
+          "spoiler_free": "The season finale brings Ferrix to a head in a funeral that becomes a rebellion. Every thread planted across twelve episodes converges with earned emotional weight. The closing image locks the show's political thesis in place: this is where rebels are made.",
+          "the_moment": "Maarva Andor's recorded message igniting the crowd - a speech delivered from beyond death that turns grief into defiance.",
+          "critic_note": {
+            "text": "Rix Road is a perfect season finale - earned, precise, and genuinely moving.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2022/nov/24/andor-finale-review-disney-plus"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2025,
       "episodes": 12,
-      "release_date": { "value": "2025-04-22", "source": "Disney+", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-04-22",
+        "source": "Disney+",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 9.4, "basis": "98% on Rotten Tomatoes from 153 critics; five consecutive final episodes achieved IMDb scores of 9.5 or higher, a live-action TV first. The season is the highest-rated Star Wars property on any platform by any metric." },
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "98% on Rotten Tomatoes from 153 critics; five consecutive final episodes achieved IMDb scores of 9.5 or higher, a live-action TV first. The season is the highest-rated Star Wars property on any platform by any metric."
+      },
       "critic": {
         "positive_pct": 98,
         "sample": 153,
@@ -54,11 +149,16 @@
           }
         ]
       },
-      "audience": { "rating": 9.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9253284/" },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9253284/"
+      },
       "review_body": "Andor Season 2 released April-May 2025 in four weekly three-episode drops and concluded the series on May 13. Critics awarded 98% on Rotten Tomatoes from 153 reviews; only one dissent. The final five episodes set an IMDb record for any live-action series, each scoring 9.5 or above, with Episode 8 at 9.8. Variety's Alison Herman called it the gold standard of modern Star Wars. The season compressed four years of Cassian's story into 12 episodes and arrived at the opening frame of Rogue One with momentum critics called 'emotionally crushing.' The IMDb overall settled near 9.3. By any objective aggregate metric, Andor is the highest-rated Star Wars property ever produced.",
       "season_over_season": "Season 2 improved on Season 1's 96% to reach 98%; the emotional escalation as the timeline collapsed toward Scarif produced the show's best-reviewed episodes by a significant margin."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

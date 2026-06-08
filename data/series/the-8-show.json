@@ -1,11 +1,31 @@
 {
   "slug": "the-8-show",
-  "qid": { "value": "Q124001145", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "The 8 Show", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q124001145",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The 8 Show",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "Eight cash-strapped strangers locked in a money-earning game show discover that the eight-floor structure grants wildly unequal rewards, forcing a brutal internal economy to emerge.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-05-17", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-05-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.8, "basis": "Ambitious class-allegory concept and a strong ensemble are undercut by underdeveloped characters and tonal inconsistency; 75% RT approval against an IMDb 7.2 captures the gap between the idea and the execution." },
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Ambitious class-allegory concept and a strong ensemble are undercut by underdeveloped characters and tonal inconsistency; 75% RT approval against an IMDb 7.2 captures the gap between the idea and the execution."
+      },
       "critic": {
         "positive_pct": 75,
         "sample": 8,
@@ -50,9 +78,51 @@
         "source_url": "https://www.imdb.com/title/tt30423279/"
       },
       "review_body": "The 8 Show arrives with an irresistible premise: eight floors, eight contestants, wildly unequal time-credit distribution, and a class structure that reproduces itself in miniature. Director Han Jae-rim and a strong ensemble deserve credit for the visual grammar and the physical commitment of the cast. The problem critics kept returning to was execution depth: the satirical architecture is evident but the characters remain types rather than people, and the humor lands unevenly. Collider gave it five out of ten, noting underdeveloped characters and disjointed humor. Ready Steady Cut's headline read like a verdict: when you have Squid Game at home. The IMDb audience settled at 7.2 and Netflix's own viewership placed it seventh in the global non-English top ten its first week. For fans of dystopian game-show allegory, the premise alone will carry the watch; others will find the execution a step behind the concept.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-05-17",
+          "bollymeter": 7.5,
+          "spoiler_free": "Eight people in debt enter a sealed building where time is money - literally. The rules are withheld at first, forcing the contestants and the audience to discover simultaneously that the floors grant radically unequal rewards, and that the show's allegory is going to be structural rather than subtle.",
+          "the_moment": "The contestants discovering that the eight floors have different time-multipliers - the class hierarchy arriving not through backstory but through architecture.",
+          "critic_note": {
+            "text": "The 8 Show struggles with underdeveloped characters and disjointed humor.",
+            "source": "Collider",
+            "url": "https://collider.com/the-8-show-netflix-review/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2024-05-17",
+          "bollymeter": 7.0,
+          "spoiler_free": "The internal economy has calcified into a recognisable power structure and the show's satirical thesis is legible: the game reproduces society's inequality at high speed. The episode is where viewers either commit to the show's intentions or begin counting the ways its execution falls short of them.",
+          "the_moment": "The lower floors requesting more time and the upper floors' response - the game's class politics at their most explicit.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2024-05-17",
+          "bollymeter": 7.2,
+          "spoiler_free": "Structural collapse - the alliances, hierarchies, and individual strategies break down simultaneously, and the show generates genuine tension from the wreckage. Kate Sánchez at But Why Tho? noted the series ends with finality and pays off its narrative choices.",
+          "the_moment": "The moment 8th Floor realises what the show has been building toward - and chooses to stay anyway.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2024-05-17",
+          "bollymeter": 7.1,
+          "spoiler_free": "The finale closes the game and delivers the allegorical verdict the show has been building to. Critics diverged on whether the execution earned the ambition, but the ending is clear-eyed rather than gratuitous, and it does not soften what the eight floors revealed about the eight contestants.",
+          "the_moment": "The final accounting - who leaves and what they take with them, and what the show means by the difference.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

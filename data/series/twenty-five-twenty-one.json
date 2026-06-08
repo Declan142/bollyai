@@ -1,11 +1,31 @@
 {
   "slug": "twenty-five-twenty-one",
-  "qid": { "value": "Q108809568", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Twenty-Five Twenty-One", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q108809568",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Twenty-Five Twenty-One",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "Two people first meet at 22 and 18, then cross paths again years later, set against the backdrop of South Korea's 1998 financial crisis.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2022,
       "episodes": 16,
-      "release_date": { "value": "2022-02-12", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-02-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "NME's number-one K-drama of 2022; IMDb 8.6 and MDL 8.8 from combined 250k+ users; the contested finale shaves the ceiling but doesn't break the season." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "NME's number-one K-drama of 2022; IMDb 8.6 and MDL 8.8 from combined 250k+ users; the contested finale shaves the ceiling but doesn't break the season."
+      },
       "critic": {
         "positive_pct": 82,
         "sample": 8,
@@ -50,9 +78,55 @@
         "source_url": "https://mydramalist.com/695149-twenty-five-twenty-one"
       },
       "review_body": "Twenty-Five Twenty-One drew the clearest critical mandate of any K-drama in 2022: NME ranked it first, Time and Teen Vogue both included it in their year-end lists, and the show became one of the highest-rated dramas in Korean cable history. The period setting, the IMF-crisis backdrop, and Kim Tae-ri's performance generated consistent praise from reviewers who noted the show's refusal of standard K-drama scaffolding (no love triangle, no amnesia). The contested element was the finale, which split audiences sharply on the romantic resolution. Critics described the ending as a deliberate choice rather than a misstep; audience discourse was louder in disagreement. The IMDb score of 8.6 and MyDramaList's 8.8 reflect settled affection even after the finale discourse cooled.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-02-12",
+          "bollymeter": 8.8,
+          "spoiler_free": "Eighteen-year-old Na Hee-do loses her fencing team to the IMF financial crisis and refuses to accept it. The premiere is immediate: a young woman with a specific skill, a specific goal, and no institutional support, set against a period the show frames as both personal and national loss.",
+          "the_moment": "Hee-do watching her fencing team disband on a notice board and deciding to go where the team went - the show's thesis in a single action.",
+          "critic_note": {
+            "text": "A nostalgic dive into the memories of youth and the value of dreams.",
+            "source": "NME",
+            "url": "https://www.nme.com/en_asia/reviews/tv-reviews/twenty-five-twenty-one-review-kim-tae-ri-nam-joo-hyuk-k-drama-3167786"
+          }
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2022-03-19",
+          "bollymeter": 8.6,
+          "spoiler_free": "The show's title is named after this episode's central sequence: a rainbow, and the two leads understanding that the years between 21 and 25 are a specific kind of alive. Critics who called this the show's emotional peak were citing something in Kim Tae-ri's performance that carries the whole season.",
+          "the_moment": "The rainbow sequence - the episode that broke the fandom and generated the discourse the show ran on for the rest of its broadcast.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Episode 13",
+          "air_date": "2022-04-16",
+          "bollymeter": 8.4,
+          "spoiler_free": "The show's adult-world intrusion into the characters' youth reaches its most acute point: the gap between who Hee-do and Yi-jin wanted to be and who the world is making them is no longer theoretical. The fencing competition sequences are both the most technically accomplished of the series and the most emotionally loaded.",
+          "the_moment": "A fencing match that is not about fencing - the sports drama at its best when the sport is a metaphor the show trusts the audience to decode.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2022-04-30",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale split audiences on the romantic resolution, which critics described as a deliberate choice rather than a writing failure. SCMP's positive review called the theme and acting excellent; the dissenting audience discovered that the show had been about something other than what they had assumed.",
+          "the_moment": "The final framing device - the adult daughter watching her mother's life and the show making its thesis explicit about what the twenty-five to twenty-one years actually are.",
+          "critic_note": {
+            "text": "An appealing theme, a story that is well told, great acting and clever staging and editing.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3173193/netflix-k-drama-twenty-five-twenty-one-review-charming"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

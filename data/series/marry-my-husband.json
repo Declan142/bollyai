@@ -1,11 +1,31 @@
 {
   "slug": "marry-my-husband",
-  "qid": { "value": "Q123181328", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Marry My Husband", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q123181328",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Marry My Husband",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "tvN / Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "A terminally ill woman travels back in time to rewrite her past, this time letting her cheating husband and best friend have each other while she builds a better life.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 16,
-      "release_date": { "value": "2024-01-01", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.6, "basis": "Confident genre execution and Park Min-young's performance earn it; structural drop after episode 12 and a tacked-on antagonist arc hold it off the top rung." },
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Confident genre execution and Park Min-young's performance earn it; structural drop after episode 12 and a tacked-on antagonist arc hold it off the top rung."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -45,9 +73,51 @@
         "source_url": "https://www.imdb.com/title/tt26628595/"
       },
       "review_body": "Marry My Husband works because it commits fully to its premise: this is revenge melodrama dressed as time-travel romance, and it never pretends otherwise. Park Min-young plays the lead with the mix of wounded resolve and darkly comic satisfaction the material demands. The first eleven episodes maintain tonal confidence, the villains are satisfyingly hateable, and the twist-to-satisfaction ratio stays high. Reviewers across MyDramaList and trade outlets noted a structural gear-change around episode twelve, where new antagonists arrive and the plotting feels retrofitted rather than planned. NME called it deliciously melodramatic and immensely addictive in a four-star review. The IMDb audience lands at 7.8, which is honest for a drama that fires on its own genre terms without transcending them.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-01",
+          "bollymeter": 8.2,
+          "spoiler_free": "Ji Won-hee discovers her husband's affair and her best friend's betrayal on the same day she receives a terminal diagnosis, then immediately time-travels back to her 20s with full knowledge of what she survived. The premise is brutal and the episode delivers it without flinching, establishing the show's darkly comic tone in the gap between how awful Ji Won-hee's original life was and how much pleasure she takes in planning otherwise.",
+          "the_moment": "Ji Won-hee's first deliberate act after returning to the past - a small revenge that tells the audience exactly what kind of show this will be.",
+          "critic_note": {
+            "text": "Deliciously melodramatic and immensely addictive.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/marry-my-husband-review-park-min-young-3569807"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2024-01-08",
+          "bollymeter": 8.0,
+          "spoiler_free": "Ji Won-hee actively engineers the conditions for her cheating best friend to meet her cheating husband, and the episode makes this manipulation comedic rather than bitter. The villain duo are at their most entertainingly hateable here, and the show is running at full confidence.",
+          "the_moment": "The moment Ji Won-hee's setup works exactly as she planned - the show's thesis that the premise permits satisfaction without apology.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2024-02-06",
+          "bollymeter": 7.8,
+          "spoiler_free": "The show pivots toward its romantic arc with Min-hwan as a genuine love interest rather than a plot tool, and the tonal confidence of the first half carries over cleanly. This is the episode just before the structural gear-change reviewers flagged around episode twelve.",
+          "the_moment": "Min-hwan recognising that Ji Won-hee is not acting the way a person in her position should act - and deciding he wants to understand why.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2024-02-20",
+          "bollymeter": 7.4,
+          "spoiler_free": "The finale satisfies on the romantic terms the show promised from episode one, even if the late-arriving antagonist subplot requires more patience than it earns. The ending puts Ji Won-hee exactly where she deserved to be, and Park Min-young plays the relief with enough restraint to make it feel earned rather than simply delivered.",
+          "the_moment": "Ji Won-hee in the life she built - the image the show spent sixteen episodes working toward.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

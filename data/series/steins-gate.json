@@ -1,0 +1,104 @@
+{
+  "slug": "steins-gate",
+  "qid": null,
+  "title": {
+    "value": "Steins;Gate",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll official",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A self-proclaimed mad scientist in a cramped Akihabara lab accidentally invents a time machine made of a phone and a microwave - and then watches as each message sent to the past quietly dismantles the present.",
+  "poster": {
+    "src": "/img/series/steins-gate/poster.jpg",
+    "alt": "Steins;Gate series poster",
+    "attribution": "Poster © 5pb. / Nitroplus / White Fox. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 24-episode anime plus OVA concluded September 14, 2011; a sequel series Steins;Gate 0 aired in 2018. The original series is considered complete.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 24,
+      "release_date": {
+        "value": "2011-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "IMDb 8.8, Rotten Tomatoes 100% (6 reviews). The show's structure - twelve slow character-building episodes followed by twelve episodes of compounding time-travel horror - is cited by critics as one of the most purposeful uses of a slow burn in anime television. Consistently ranked in the top three of 'greatest anime of all time' aggregations."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "An intricate, emotionally gripping science fiction thriller with one of anime's most memorable characters at its centre.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/steins_gate/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1910272/"
+      },
+      "review_body": "Steins;Gate structures itself as a trick. The first half is a slow, comedic character study: Okabe Rintaro (alias Hououin Kyouma), a lab in a cramped Akihabara loft above a CRT television shop, a group of eccentric associates, and what appears to be a hobby scientist's joke project. White Fox holds the tone light deliberately - because episode twelve is where the trap closes and everything that was amusing about the premise becomes terrible. Critics who write about Steins;Gate invariably describe the back twelve as among the most sustained emotional pressure sustained in anime television: Okabe is trapped in a loop of his own scientific curiosity, and each attempted fix costs something he can not afford to lose. Kurisu Makise is the medium's finest example of a love interest who is also the smartest person in the story. The time-travel mechanics are rigorous enough to satisfy hard SF critics while remaining legible to genre newcomers. A show that rewards rewatching because every joke in episode three is also a setup.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Turning Point",
+          "air_date": "2011-04-06",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere installs the setting and Okabe's voice - deliberately odd, frequently funny, occasionally unsettling - without explaining the scientific conceit. A slow-moving opening that functions as character establishment; it will pay off in ways that are invisible on first watch.",
+          "the_moment": "The phone call Okabe makes in the middle of an unusual event - a throwaway bit that the back half of the season will reconstruct entirely.",
+          "critic_note": {
+            "text": "The deliberately paced opening is a calculated gambit - trust it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/steins_gate/s01"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Dogma in Event Horizon",
+          "air_date": "2011-06-22",
+          "bollymeter": 9.8,
+          "spoiler_free": "The episode where Steins;Gate reveals what it has been building. The transition from comedy-drama to tragedy is executed without a formal announcement - the show simply stops pulling its punches. Critics and fans mark this as one of the most effective genre pivots in anime.",
+          "the_moment": "The scene that recontextualises every light moment in the preceding eleven episodes - a shift so clean it makes the slow burn retroactively necessary.",
+          "critic_note": {
+            "text": "A structural masterpiece - the first half exists entirely to make the second half hurt.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/steins_gate/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

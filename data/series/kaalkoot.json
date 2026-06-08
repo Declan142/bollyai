@@ -1,0 +1,117 @@
+{
+  "slug": "kaalkoot",
+  "qid": null,
+  "title": {
+    "value": "Kaalkoot",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioCinema",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A disillusioned UP sub-inspector on the verge of resignation is pulled into an acid attack investigation that cracks open the rot beneath small-town power - Vijay Varma doing the finest work of his career in a series built like a pressure cooker.",
+  "poster": {
+    "src": "/img/series/kaalkoot/poster.jpg",
+    "alt": "Kaalkoot series poster",
+    "attribution": "Poster © JioCinema / TVF. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season; no renewal announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kaalkoot"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-07-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Individual episode IMDb scores range 7.4 - 8.6; the midpoint episodes ('Ai-Makhtoob', 'Ardhsatya') scored 8.6 and 8.5 respectively, signalling sustained quality with a slight softening at the finale. Critical reception (Scroll, DNA India) was consistently strong."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Vijay Varma masterfully leads this engaging, well-written thriller on toxic masculinity.",
+            "source": "DNA India",
+            "url": "https://www.dnaindia.com/television/report-kaalkoot-review-vijay-varma-masterfully-leads-this-engaging-thriller-jiocinema-gopal-datt-shweta-tripathi-3053525"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb (episode average)",
+        "source_url": "https://www.imdb.com/title/tt28106779/"
+      },
+      "review_body": "Kaalkoot used the acid attack investigation frame - genuinely harrowing real-world terrain - to anatomise the UP police ecosystem with a precision that felt both forensic and empathetic. Writers Arunabh Kumar and Sumit Saxena understood that the most compelling thing about their protagonist was not his competence but his ambivalence: SI Ravi Shankar Tripathi wants out, keeps getting pulled back in, and the show's moral intelligence lives in that reluctance. Vijay Varma's performance was widely described as a career high, making a man who is compromised but not cynical, tired but not defeated. Scroll called it a crime drama that doesn't shy from uncomfortable truths; DNA India praised the writing's evenhandedness with institutional critique. Individual episode IMDb scores peaked at 8.6 midseason, with a mild dip at the finale. One of 2023's best Indian streaming originals.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "M For Mafia",
+          "air_date": "2023-07-27",
+          "bollymeter": 7.8,
+          "spoiler_free": "SI Tripathi writes his resignation letter, hands it to Constable Sattu Yadav, and by end of episode is assigned to an acid attack case he never asked for. The show establishes the UP police station as a microcosm - petty corruption, personal grievances, bureaucratic inertia - with the efficiency of someone who has spent time in these rooms. Varma's underplaying is immediately distinctive.",
+          "the_moment": "Tripathi's face when the case is assigned to him - he folds the resignation letter and puts it back in his pocket, no words required.",
+          "critic_note": {
+            "text": "A debut episode that builds its world from the inside out - no shortcuts, no shorthand.",
+            "source": "Scroll",
+            "url": "https://scroll.in/reel/1053342/kaalkoot-review-vijay-varma-ably-leads-a-crime-drama-about-an-acid-attack"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Ai-Makhtoob",
+          "air_date": "2023-07-27",
+          "bollymeter": 8.6,
+          "spoiler_free": "The episode that most viewers cite as the show's high-water mark - the investigation's tendrils reach deep enough into local power that Tripathi's institutional position becomes untenable. The writing here is precise about the mechanics of how evidence disappears in a system designed to absorb it. IMDb rated it 8.6, the season's highest individual episode score.",
+          "the_moment": "Tripathi confronting a witness who knows exactly what he knows and exactly why no one will act - a two-person scene that contains the show's entire thesis.",
+          "critic_note": {
+            "text": "Kaalkoot at its sharpest: a crime drama that understands how power protects itself.",
+            "source": "Scroll",
+            "url": "https://scroll.in/reel/1053342/kaalkoot-review-vijay-varma-ably-leads-a-crime-drama-about-an-acid-attack"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Pathar",
+          "air_date": "2023-07-27",
+          "bollymeter": 7.4,
+          "spoiler_free": "The finale resolves the acid attack investigation but earns its IMDb dip of 7.4 - the ending is truthful rather than satisfying, which is the choice consistent with what the show set out to do but still registers as anticlimactic for viewers wanting a cleaner close. The final scene is exactly what the title promised: stone-heavy, immovable.",
+          "the_moment": "Tripathi's final action - small, personal, insufficient by any systemic measure, but the only thing the show allows him - lands harder than any dramatic gesture would.",
+          "critic_note": {
+            "text": "A finale that refuses catharsis in favour of honesty - braver than most Indian crime shows would dare.",
+            "source": "DNA India",
+            "url": "https://www.dnaindia.com/television/report-kaalkoot-review-vijay-varma-masterfully-leads-this-engaging-thriller-jiocinema-gopal-datt-shweta-tripathi-3053525"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

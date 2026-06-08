@@ -1,11 +1,31 @@
 {
   "slug": "bandish-bandits",
-  "qid": { "value": "Q98538854", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Bandish Bandits", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q98538854",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bandish Bandits",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A classically trained Rajasthani musician and a pop star collide in a romance set against the clash of Hindustani classical music and contemporary pop.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 2,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-11-21", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-11-21",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.8, "basis": "Ritwik Bhowmik and Shreya Chaudhry remain compelling but the sophomore season buckles under its own melodramatic tempo, and the music no longer drives the narrative as organically as it did in Season 1." },
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Ritwik Bhowmik and Shreya Chaudhry remain compelling but the sophomore season buckles under its own melodramatic tempo, and the music no longer drives the narrative as organically as it did in Season 1."
+      },
       "critic": {
         "positive_pct": 50,
         "sample": 6,
@@ -43,7 +71,12 @@
           }
         ]
       },
-      "audience": { "rating": 8.6, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9814458/" },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9814458/"
+      },
       "review_body": "Season 2 separates Radhe and Tamana and places them in competing musical worlds, a structural choice that amplifies the romantic tension but exposes the limits of the show's melodramatic vocabulary. Critics who had celebrated Season 1's fusion of Hindustani classical and pop as genuinely innovative found Season 2's musical moments beautiful but less integrated into the story's emotional engine. Bollywood Hungama noted the season rests on supreme performances but suffers due to length. Audience scores remained high, suggesting the core fanbase stayed invested in the lead pair even when the writing softened. The series' real asset remains its music, and even a lesser Bandish Bandits sounds extraordinary.",
       "season_over_season": "Trades the first season's organic classical-pop collision for more conventional melodrama, losing structural freshness even as the lead performances improve."
     },
@@ -51,9 +84,17 @@
       "number": 1,
       "year": 2020,
       "episodes": 10,
-      "release_date": { "value": "2020-08-04", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-08-04",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.5, "basis": "Debut season established a distinctive musical romance with real Hindustani classical craft behind the score and a lead pair whose chemistry carried the generational-conflict premise." },
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Debut season established a distinctive musical romance with real Hindustani classical craft behind the score and a lead pair whose chemistry carried the generational-conflict premise."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -61,9 +102,51 @@
       },
       "audience": null,
       "review_body": "The debut season introduced the Rathod musical gharana and the Radhe-Tamana pairing with a confidence rarely seen in Indian romantic drama. The Shankar-Ehsaan-Loy score was central to the storytelling, not decorative.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Blue Bandit",
+          "air_date": "2020-08-04",
+          "bollymeter": 8.2,
+          "spoiler_free": "Radhe's classical world and Tamanna's pop universe collide at a music event; the attraction is instant, the incompatibility is clear, and the Shankar-Ehsaan-Loy score stakes its claim from the first scene. The setup is confident and the chemistry is immediate.",
+          "the_moment": "Tamanna hearing Radhe's raga practice through a wall - the moment the show declares its real subject is music, not romance.",
+          "critic_note": {
+            "text": "Bandish Bandits on Amazon Prime Video is a bloated, confused mess of a musical.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/streaming/bandish-bandits-amazon-prime-video-review-a-bloated-confused-mess-of-a-musical-naseeruddin-shah-rahul-desai"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Roleplay",
+          "air_date": "2020-08-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "Radhe and Tamanna collaborate for financial reasons; the music they make together is better than either expected. The episode is the show at its most genre-savvy - using the recording process as a metaphor for every kind of intimacy.",
+          "the_moment": "Their first joint performance for a small audience - the show's most purely musical moment.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "A Separation",
+          "air_date": "2020-08-04",
+          "bollymeter": 8.7,
+          "spoiler_free": "The season's emotional nadir: Radhe loses both his musical future and Tamanna in the same episode, and the show wisely centres his mother rather than offering cheap comfort. The writing earns its reputation here.",
+          "the_moment": "Radhe's mother stepping in where no mentor could - quiet, decisive, and the best scene in the season.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Sangeet Samrat",
+          "air_date": "2020-08-04",
+          "bollymeter": 9.0,
+          "spoiler_free": "The musical final confrontation delivers the catharsis the season has been building; joy, loss, and adrenaline charge through the gharana battle. The Shankar-Ehsaan-Loy score peaks here and carries the episode even where the writing settles for formula.",
+          "the_moment": "Radhe and Digvijay's raga duel - the season distilled to one performance.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

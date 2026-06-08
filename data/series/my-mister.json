@@ -1,0 +1,122 @@
+{
+  "slug": "my-mister",
+  "qid": {
+    "value": "Q43111245",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Mister",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A hardened young woman and a middle-aged engineer numbed by life form an unlikely bond through shared surveillance and unspoken pain.",
+  "poster": {
+    "src": "/img/series/my-mister/poster.jpg",
+    "alt": "My Mister series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; concluded May 2018. No sequel or continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_Mister"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-03-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "IMDb 9.0 from a substantial vote base, Best Drama at the 55th Baeksang Arts Awards, and a consensus that it is among the finest character studies Korean television has produced."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "My Mister is a reminder of what slow, patient storytelling can achieve when every detail is in service of character.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/my_mister"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7923710/"
+      },
+      "review_body": "My Mister does not announce itself. It opens in the grey registers of Seoul corporate life and stays there, accumulating weight through incremental honesty rather than plot machinery. Director Kim Won-seok and writer Park Hae-young built a drama that functions more like a novel: the central relationship between Lee Sun-kyun's Park Dong-hoon and IU's Lee Ji-an proceeds through silence, eavesdropping, and the slow erosion of self-protection. The IMDb score of 9.0 is one of the highest for any Korean drama and reflects genuine audience conviction rather than fandom inflation. The 55th Baeksang Best Drama win confirmed the critical standing. Dissenting viewers found the pacing demanding, and early episodes drew controversy over the age-gap dynamic, though critical consensus settled firmly on the show's side. The finale was called devastating in the best sense. On Netflix India, it remains a word-of-mouth standard.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-03-21",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere withholds as much as it reveals - two strangers circling each other in a Seoul office building where nobody looks up. The show's visual grammar, all muted greys and exhausted fluorescence, lands in the first fifteen minutes and never departs.",
+          "the_moment": "Lee Ji-an's first direct gaze at Park Dong-hoon, which tells you exactly what kind of drama this is going to be.",
+          "critic_note": {
+            "text": "A debut episode that earns trust through restraint alone.",
+            "source": "MyDramaList community consensus",
+            "url": "https://mydramalist.com/25172-my-ajusshi/reviews"
+          }
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2018-04-19",
+          "bollymeter": 9.2,
+          "spoiler_free": "The turning-point episode - old wounds come open and the surveillance dynamic that underpins the whole show reveals its full emotional cost. This is the hour where most viewers report the show moving from compelling to unmissable.",
+          "the_moment": "A phone call in the dark, where one character listens and says nothing, that has become the scene most cited in reviews of the series.",
+          "critic_note": {
+            "text": "The best episode of Korean television in 2018.",
+            "source": "MyDramaList community consensus",
+            "url": "https://mydramalist.com/25172-my-ajusshi/reviews"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2018-05-17",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale does not resolve so much as it allows. What has been broken stays broken; what matters is how both characters stand up inside that fact. The closing scenes were singled out by critics and audience alike as earning every minute of the sixteen episodes that preceded them.",
+          "the_moment": "The final exchange between the two leads - brief, public, and all the more powerful for it.",
+          "critic_note": {
+            "text": "My Mister ends the only way it could: quietly, honestly, and without flinching.",
+            "source": "MyDramaList community consensus",
+            "url": "https://mydramalist.com/25172-my-ajusshi/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

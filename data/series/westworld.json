@@ -73,6 +73,56 @@
         "source_url": "https://www.imdb.com/title/tt0475784/"
       },
       "review_body": "The first season of Westworld is one of the finest debut runs in HBO history. Jonathan Nolan and Lisa Joy took the Michael Crichton premise and rebuilt it as a meditation on consciousness, trauma, and manufactured identity. The central mystery - who is a host, what does Dolores know, and what does the Man in Black want - is parcelled out with genuine precision across ten episodes. Anthony Hopkins as Ford is the series' intellectual anchor: a God-figure whose inscrutability is the show's moral core. Evan Rachel Wood carries Dolores from victim to awakening with a performance that is almost entirely internal. The timeline twist in the finale is the show's most satisfying piece of construction. Critics at 87% were not capturing the show's real ambition; audience response was warmer. Season 1 is the series at its best.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Original",
+          "air_date": "2016-10-02",
+          "bollymeter": 9.0,
+          "spoiler_free": "The pilot establishes Westworld's dual registers - theme park spectacle and philosophical unease - with HBO-grade confidence. Dolores loops through her morning routine; something is beginning to slip. Anthony Hopkins and Evan Rachel Wood set the show's intellectual and emotional stakes immediately.",
+          "the_moment": "Dolores noticing the fly - a small, precise detail that recasts everything that came before it.",
+          "critic_note": {
+            "text": "Westworld announces itself as HBO's most intellectually ambitious drama since The Sopranos.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2016/oct/02/westworld-review-hbo-jonathan-nolan"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Trompe L'Oeil",
+          "air_date": "2016-11-13",
+          "bollymeter": 9.5,
+          "spoiler_free": "The episode that broke the season open: a structural revelation so precisely constructed that rewatching season 1 from this point is a qualitatively different experience. The show's mystery-box architecture proves it had been playing fair with the audience all along.",
+          "the_moment": "The door-and-mirror scene - one of prestige television's great twist executions, earned and not cheap.",
+          "critic_note": {
+            "text": "Trompe L'Oeil is the moment Westworld proved it knew exactly what it was doing all along.",
+            "source": "Vulture",
+            "url": "https://www.vulture.com/2016/11/westworld-recap-season-1-episode-7-trompe-loeil.html"
+          }
+        },
+        {
+          "number": 9,
+          "title": "The Well-Tempered Clavier",
+          "air_date": "2016-11-21",
+          "bollymeter": 9.3,
+          "spoiler_free": "The penultimate episode advances multiple threads toward the finale while delivering Bernard's most consequential arc. The show's accumulated mysteries start resolving - not with cheap answers but with the weight of inevitable logic.",
+          "the_moment": "Ford and Bernard in the cold room - a scene that retroactively illuminates every prior scene between them.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "The Bicameral Mind",
+          "air_date": "2016-12-04",
+          "bollymeter": 9.6,
+          "spoiler_free": "The season finale delivers the maze's resolution and Dolores's full awakening - a 90-minute event episode that closes every arc opened in episode one. Ford's final gesture is the show at its most operatic. The narrative timeline puzzle locks into place completely.",
+          "the_moment": "Dolores's act of conscious violence in the gala - the moment the show has been building toward since the pilot's first image.",
+          "critic_note": {
+            "text": "The Bicameral Mind is a landmark finale - bold, generous, and among the best series conclusions HBO has aired.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/westworld-season-1-finale-review-1798256029"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
@@ -182,5 +232,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T05:00:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

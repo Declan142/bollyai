@@ -1,0 +1,109 @@
+{
+  "slug": "mr-queen",
+  "qid": {
+    "value": "Q100605045",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mr. Queen",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A vain modern-day palace chef wakes up in the body of a Joseon-era queen and must navigate royal intrigue while a clueless king starts seeing through the act.",
+  "poster": {
+    "src": "/img/series/mr-queen/poster.jpg",
+    "alt": "Mr. Queen series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season series; concluded February 14, 2021. Became the 4th most popular show on Netflix globally shortly after its Netflix premiere in February 2023.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mr._Queen"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 20,
+      "release_date": {
+        "value": "2020-12-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "IMDb 8.5, record-breaking tvN finale ratings, and Shin Hye-sun's dual-register performance widely called the best comedy acting in Korean drama of its year."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Shin Hye-sun plays both personalities in the same body with precision timing and genuine wit, making Mr. Queen the genre-blend that actually delivers.",
+            "source": "Collider",
+            "url": "https://collider.com/netflix-mr-queen/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13400006/"
+      },
+      "review_body": "Mr. Queen is the most purely enjoyable gender-swap historical comedy Korean television has produced, and Shin Hye-sun's performance is the reason it works at the level it does. She plays two personalities cohabiting one body across twenty episodes without losing either register - the modern chef's sardonic bewilderment and the Joseon queen's growing political agency overlap by the season's midpoint in ways that feel earned rather than convenient. Kim Jung-hyun's initially baffled King Cheoljong becomes a genuinely complex figure as the plot unspools. Critics at Collider identified the show as the rare genre hybrid that fully commits to both halves. The finale broke tvN's own ratings records. When the show arrived on Netflix in February 2023, two years after its original run, it hit the global top five within days - an unusual case of a drama finding a second life entirely.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-12-12",
+          "bollymeter": 8.4,
+          "spoiler_free": "The body-swap mechanics are established with speed and confidence - the premiere earns its absurdist premise by committing to the physical comedy immediately. Shin Hye-sun's first scenes as the chef trapped in a Joseon queen's body establish the tone that will carry twenty episodes.",
+          "the_moment": "The first time the queen's body and the chef's personality are in conflict in a formal court setting - the show's comic engine starts here.",
+          "critic_note": {
+            "text": "Mr. Queen hits its comic stride faster than almost any Korean period drama in memory.",
+            "source": "Collider",
+            "url": "https://collider.com/netflix-mr-queen/"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2021-01-16",
+          "bollymeter": 8.8,
+          "spoiler_free": "The season midpoint where the comedy begins paying emotional dividends - the modern chef's contempt for Joseon court life has curdled into something more complicated, and the king has stopped being a comic target. The shift in register is managed without disrupting the show's rhythm.",
+          "the_moment": "A private conversation between the queen and the king at night - the scene where the audience stops laughing for the right reasons.",
+          "critic_note": {
+            "text": "Mr. Queen reveals its dramatic depth while keeping its comedy intact.",
+            "source": "Collider",
+            "url": "https://collider.com/netflix-mr-queen/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,11 +1,31 @@
 {
   "slug": "deaths-game",
-  "qid": { "value": "Q121145295", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Death's Game", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q121145295",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Death's Game",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "TVING", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TVING",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "After a man attempts suicide, Death forces him to inhabit thirteen different lives and experience each death in full before he can reclaim his own existence.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2023,
       "episodes": 8,
-      "release_date": { "value": "2023-12-15", "source": "TVING broadcast record", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-12-15",
+        "source": "TVING broadcast record",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 8.3, "basis": "IMDb 8.5 and MyDramaList 8.8 reflect an audience that responded strongly to Seo In-guk's range-demanding performance; critical notes on its simplified treatment of mental health prevent a higher craft ceiling." },
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "IMDb 8.5 and MyDramaList 8.8 reflect an audience that responded strongly to Seo In-guk's range-demanding performance; critical notes on its simplified treatment of mental health prevent a higher craft ceiling."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -45,9 +73,51 @@
         "source_url": "https://www.imdb.com/title/tt26225038/"
       },
       "review_body": "Death's Game builds its hook around anthology structure: each episode plants Seo In-guk's suicidal lead inside a new body, a new life, and a new death. The formal constraint forces the show to regenerate its energy every hour, and Seo In-guk's physical and emotional range across the different hosts is the primary reason it works. The Korean trade press, including Cine21, praised the worldview as novel and lauded VFX rarely seen in domestic production, while flagging that the show occasionally leans on spectacle over interiority. Some reviewers found the messaging around suicide reductive, treating death primarily as a life-lesson delivery mechanism. Audience scores landed high regardless: IMDb 8.5, MyDramaList 8.8. The two-part release structure, four episodes in December 2023 and four in January 2024, sustained conversation longer than a full drop would have.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-12-15",
+          "bollymeter": 8.8,
+          "spoiler_free": "A man who has lost everything meets Death, who offers a deal: inhabit twelve more lives, and face each death before reclaiming his own. The episode sets the show's moral architecture with surprising economy, and Seo In-guk's physical commitment to each new body is already visible in the opening role.",
+          "the_moment": "The first confrontation with Death - played as neither monstrous nor comforting, but something bureaucratic and ancient - establishes the show's unusual register.",
+          "critic_note": {
+            "text": "Surprisingly an uplifting drama that addresses the sensitive yet crucial topic of life and death.",
+            "source": "Korean Binge",
+            "url": "https://korean-binge.com/2024/01/07/k-drama-review-deaths-game-2023-24/"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2023-12-15",
+          "bollymeter": 8.4,
+          "spoiler_free": "The third life is the most emotionally demanding of the first batch - a character with reasons to live that the protagonist is only beginning to understand. The episode is where Seo In-guk's range starts to feel like the show's real subject rather than its delivery mechanism.",
+          "the_moment": "A dying body reaching toward something it cannot name - the image that most viewers cited when recommending Part 1 to others.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2024-01-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "Part 2 opens with the show's mythology deepening - the rules of what Death wants from this exercise start to feel less arbitrary. The anthology energy shifts toward a more continuous arc, and the cumulative weight of five prior deaths begins to register on the protagonist's choices.",
+          "the_moment": "The protagonist recognising a pattern across lives that changes how he is playing the game.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2024-01-05",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale brings the protagonist back to his own life changed. The resolution is quietly earned rather than dramatically spectacular, and the show sticks the landing by keeping Death's final judgment morally ambiguous rather than delivering the simple redemption the premise threatened.",
+          "the_moment": "The last exchange between the protagonist and Death - a conversation that reframes every death the audience witnessed.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

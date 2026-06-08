@@ -1,11 +1,31 @@
 {
   "slug": "parasyte-the-grey",
-  "qid": { "value": "Q124480521", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Parasyte: The Grey", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q124480521",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Parasyte: The Grey",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "A young woman partially taken over by an alien parasite becomes an uneasy ally to a government task force hunting the beings that have infiltrated human society.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 6,
-      "release_date": { "value": "2024-04-05", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.4, "basis": "100% Rotten Tomatoes from 14 critics and a #1 Netflix non-English slot in 68 countries signal a genuinely accomplished adaptation; IMDb audience landing at 7.1 reflects the genre limitations and underexplored thematic depth critics also flagged." },
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "100% Rotten Tomatoes from 14 critics and a #1 Netflix non-English slot in 68 countries signal a genuinely accomplished adaptation; IMDb audience landing at 7.1 reflects the genre limitations and underexplored thematic depth critics also flagged."
+      },
       "critic": {
         "positive_pct": 100,
         "sample": 14,
@@ -45,9 +73,42 @@
         "source_url": "https://www.imdb.com/title/tt21874396/"
       },
       "review_body": "Director Yeon Sang-ho (Train to Busan) brings the Japanese Parasyte manga into Korean live-action with full genre commitment: the body-horror transformation sequences are practical and unsettling, Jeon So-nee's lead performance is physically demanding and emotionally grounded, and the six-episode runtime is lean enough to keep momentum. Critics were markedly generous: 100% on Rotten Tomatoes from 14 reviewers, and the show topped Netflix's global non-English chart in 68 countries its first week with 31.5 million hours watched. The minority critique, shared by both Jonathan Wilson at Ready Steady Cut and the IMDb audience score of 7.1, is that the themes remain surface-level and the sci-fi world-building is subordinated to action set-pieces. A Parasite manga purist cameo at the finale gives the story a clear continuation hook that Netflix has, as yet, declined to pursue.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-04-05",
+          "bollymeter": 7.8,
+          "spoiler_free": "Su-in survives an alien parasite attack but emerges partially inhabited - sharing her body with an entity that saved her life. The premiere establishes the body-horror register immediately and frames the central tension: Su-in and her parasite are neither the same person nor separable enemies.",
+          "the_moment": "Su-in waking up after the attack and discovering that the thing that saved her is still there - the show's central unease established in a single beat.",
+          "critic_note": {
+            "text": "As a horror series, Parasyte: The Grey is superb. As sci-fi, it's exciting. As an adaptation, this is a showstopper.",
+            "source": "But Why Tho?",
+            "url": "https://butwhytho.net/2024/04/parasyte-the-grey-review-yeon-sang-ho/"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2024-04-05",
+          "bollymeter": 7.5,
+          "spoiler_free": "The government task force's raid on the parasite-controlled church delivers the season's most elaborate action sequence, and the conflict between Su-in's two selves becomes physically external for the first time. Joel Keller at Decider noted this episode as evidence the show understands how to use its premise for thriller mechanics.",
+          "the_moment": "Su-in's parasite taking control during the church raid - the show making the cohabitation a kinetic rather than purely psychological problem.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2024-04-05",
+          "bollymeter": 7.6,
+          "spoiler_free": "The finale deploys a manga-canon cameo that gave the adaptation legitimacy with source fans and established a clear continuation point. The climax is spectacular and the Su-in arc reaches an emotionally coherent endpoint, even if the thematic questions the show raised remain deliberately unresolved.",
+          "the_moment": "The guest appearance from the original manga's world - the moment the adaptation declared itself in full conversation with its source rather than simply adapting from it.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

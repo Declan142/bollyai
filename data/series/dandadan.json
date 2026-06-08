@@ -1,0 +1,134 @@
+{
+  "slug": "dandadan",
+  "qid": null,
+  "title": {
+    "value": "DAN DA DAN",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / Crunchyroll",
+    "source": "Netflix official / Crunchyroll",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "A ghost believer and an alien believer make a bet, both get proven spectacularly wrong by the other's preferred supernatural, and then they have to deal with the consequences at full speed.",
+  "poster": {
+    "src": "/img/series/dandadan/poster.jpg",
+    "alt": "DAN DA DAN series poster",
+    "attribution": "Poster © Yukinobu Tatsu / Shueisha / Science SARU. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 1 (12 episodes) aired October - December 2024; Season 2 (12 episodes) aired through September 2025. Both seasons hold 100% Rotten Tomatoes scores.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dandadan_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 12,
+      "release_date": {
+        "value": "2024-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% Rotten Tomatoes (14 reviews), 8.8/10 average; IMDb 8.3. Science SARU's production is described by critics as visually inventive in ways that distinguish Dandadan from the crowded Fall 2024 season. The speed, the colour palette, and the character relationship central to the premise all received consistent praise."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "A wildly inventive supernatural comedy that hits the ground running and never lets the energy drop.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dan_da_dan/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt30217403/"
+      },
+      "review_body": "Dandadan arrives as the most visually distinct anime of 2024's autumn season, with Science SARU deploying a style that critics described as controlled chaos - the frame is rarely still, the color choices are aggressive, and the action staging prioritises kinetic feel over spatial legibility. The premise (two teenagers both wrong about the supernatural and now dealing with both ghosts and aliens) is structured as a romantic comedy with the genre's emotional architecture and the visual vocabulary of a horror-action title. Okarun and Momo are paired with the kind of complementary-mismatch chemistry that the fandom responded to immediately, and the supporting cast - particularly Turbo Granny - attracted a cult following almost immediately on social media. Critics noted that Dandadan is one of the rare anime adaptations that appears to improve on its source material's pacing. Netflix and Crunchyroll simulcast guaranteed maximum global reach; the 100% critics score across both seasons makes it one of the cleanest critical successes in 2024-2025 anime.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Dandadan",
+          "air_date": "2024-10-04",
+          "bollymeter": 9.2,
+          "spoiler_free": "The premiere introduces both protagonists, their irreconcilable supernatural convictions, and the bet that initiates the plot - all inside one episode that moves at a pace that makes it feel shorter than twenty-three minutes. Science SARU's visual style is fully deployed from scene one.",
+          "the_moment": "The first alien encounter - the show's tonal commitment announced without ambiguity.",
+          "critic_note": {
+            "text": "One of the most kinetic, visually confident anime premieres in recent memory - sets a pace the season maintains.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dan_da_dan/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "What's Your Name?",
+          "air_date": "2024-10-25",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode that established the Okarun-Momo dynamic as the emotional centre of the series, alongside one of the season's standout action sequences. The character work and the supernatural threat are handled in the same register, which is Dandadan's core craft trick.",
+          "the_moment": "The name exchange - the scene that cemented the ship the fandom had been waiting for.",
+          "critic_note": {
+            "text": "The episode that proves Dandadan is more than its spectacle - the character chemistry lands here and holds the rest of the season up.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/dan_da_dan/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 12,
+      "release_date": {
+        "value": "2025-07-03",
+        "source": "CBR / Collider",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Season 2 holds a 100% Rotten Tomatoes score per CBR and Collider reporting from Summer 2025, confirming the franchise's sustained critical standing. Netflix streaming climbed the charts on Season 2's release in multiple territories."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt30217403/"
+      },
+      "review_body": "Season 2 of Dandadan carries the perfect Rotten Tomatoes score from Season 1 forward, which is the clearest signal that Science SARU and the production maintained what made the first season distinctive rather than coasting. The supernatural threat roster expands, the Okarun-Momo relationship develops past its initial framing, and the action sequences remain at the visual level the series established. Netflix's streaming chart performance on Season 2's release - reported by multiple outlets - confirms the franchise's mainstream crossover beyond the core anime audience. A show that arrived in 2024 as a genre outlier and has successfully defended that position through two seasons.",
+      "season_over_season": "Sustained visual ambition and a perfect critics score that matches Season 1's - the franchise knows what it is and keeps being it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

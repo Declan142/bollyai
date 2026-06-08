@@ -1,0 +1,168 @@
+{
+  "slug": "ted-lasso",
+  "qid": {
+    "value": "Q96407897",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ted Lasso",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Apple TV India",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "An irrepressibly optimistic American football coach takes charge of an English Premier League club - and his radical belief in people turns out to be the most disruptive force in the room.",
+  "poster": {
+    "src": "/img/series/ted-lasso/poster.jpg",
+    "alt": "Ted Lasso series poster",
+    "attribution": "Poster © Apple TV+ / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Renewed for Season 4, premiering August 5, 2026 on Apple TV+.",
+    "source": "Apple TV Press",
+    "source_url": "https://www.apple.com/tv-pr/news/2026/04/apple-tvs-emmy-award-winning-global-smash-hit-series-ted-lasso-returns-for-season-four-on-wednesday-august-5/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-08-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Season 1 holds 92% on Rotten Tomatoes. Critics were caught off guard - a comedy built on sincere optimism turned out to be the sharpest, most resonant thing Apple TV+ had yet commissioned. Word of mouth carried it everywhere."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 74,
+        "pull_quotes": [
+          {
+            "text": "A warm, funny comedy that earns its big heart through genuine wit and character work.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ted_lasso/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10986410/"
+      },
+      "review_body": "Ted Lasso Season 1 arrived in August 2020 - a pandemic lockdown moment - and the timing was almost cosmically correct. A show about radical kindness and chosen family felt genuinely necessary. Critics praised Jason Sudeikis's performance for its tonal precision: Ted's optimism is never saccharine because Sudeikis plays the steel underneath it. The show won Apple TV+ its first major Emmy nominations and announced the platform as a serious prestige destination. The ensemble - Hannah Waddingham, Brett Goldstein, Juno Temple - clicked immediately, with no weak links in the core cast. The show's thesis - that emotional intelligence beats tactical brilliance - is articulated through football but legible to anyone who has ever worked in a team.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2020-08-14",
+          "bollymeter": 8.5,
+          "spoiler_free": "The pilot does the job in one scene: Ted, in an English press conference, responds to a hostile question about his football credentials with a folksy anecdote about a goldfish. Half the room is confused; the other half is disarmed. The season's stakes are set - can sincerity survive in a cynical institution? - and Ted's answer is yes, as long as you don't stop asking.",
+          "the_moment": "Ted's goldfish speech, which has the best punch-to-warmth ratio of any pilot scene in recent memory.",
+          "critic_note": {
+            "text": "A pitch-perfect setup - funny, warm, and quietly more knowing than it looks.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ted_lasso/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-07-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Season 2 scored 98% on Rotten Tomatoes - the show deepened every character arc, committed to genuine mental health storytelling via Ted's panic attacks, and won the Emmy for Outstanding Comedy Series."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 126,
+        "pull_quotes": [
+          {
+            "text": "Ted Lasso reaches new heights with its emotionally rich second season, expanding its world without losing its soul.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ted_lasso/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10986410/"
+      },
+      "review_body": "Season 2 is where Ted Lasso earned the right to be called a great show rather than a charming one. The introduction of Dr. Sharon (Sarah Niles) as the team's sports psychologist forced the show to dramatise mental health with actual complexity - Ted's resistance to therapy, and his eventual surrender to it, is the season's spine. Critics were effusive; the 98% Rotten Tomatoes score matched the cultural noise. The ensemble deepened: Nate's arc acquired shadow, Roy Kent's post-playing identity found its shape, Keeley became a protagonist in her own right. The Christmas episode and the finale are among the best episodes of any comedy-drama in recent years.",
+      "season_over_season": "Season 2 expands every character arc established in Season 1 and adds genuine emotional complexity - the rare sophomore season that improves on every dimension.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-03-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 3 scored 81% on Rotten Tomatoes - critics found it overstuffed and occasionally unwilling to follow through on its darker threads. Audience ratings dipped. Still watchable, but the show's elegance frayed under the weight of too many subplots."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 207,
+        "pull_quotes": [
+          {
+            "text": "An entertaining if overstuffed season that stumbles in its attempts to service every character equally.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/ted_lasso/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10986410/"
+      },
+      "review_body": "Season 3 attempted to close out multiple long-running arcs simultaneously while adding new ones, and the structural strain is visible. The Nate redemption arc works; the AFC Richmond promotion run delivers the sports-movie catharsis the series had been building toward. But several subplots - particularly the Keeley-Jack relationship and the Shandy storyline - felt underdeveloped and then abruptly resolved. Critics who loved the first two seasons were gentle but honest: the ambition exceeded the execution. The finale left enough emotional closure to function as a series conclusion, which Apple eventually declined to treat it as.",
+      "season_over_season": "Season 3 is wider and less precise than Season 2 - the show spread across more characters than any single season could serve at depth.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

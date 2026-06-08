@@ -1,11 +1,26 @@
 {
   "slug": "dahaad",
   "qid": null,
-  "title": { "value": "Dahaad", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": {
+    "value": "Dahaad",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A lower-caste female police officer in Rajasthan hunts a serial killer preying on women from marginalised communities, in a thriller that refuses to separate crime from caste and gender.",
   "poster": {
@@ -24,9 +39,17 @@
       "number": 1,
       "year": 2023,
       "episodes": 8,
-      "release_date": { "value": "2023-05-12", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-05-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.4, "basis": "IMDb 7.6 from audience; critics praised the caste-gender social framework and performances but split on whether the thriller mechanics fully delivered; Hindustan Times and Film Companion both positive, IMDb user base somewhat cooler." },
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "IMDb 7.6 from audience; critics praised the caste-gender social framework and performances but split on whether the thriller mechanics fully delivered; Hindustan Times and Film Companion both positive, IMDb user base somewhat cooler."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -43,11 +66,62 @@
           }
         ]
       },
-      "audience": { "rating": 7.6, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt19868314/" },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt19868314/"
+      },
       "review_body": "Dahaad arrived in May 2023 from directors Reema Kagti and Ruchika Oberoi, produced by Zoya Akhtar's Tiger Baby and Excel Entertainment, as a serial-killer thriller that treats the genre as a vehicle for caste and gender commentary rather than an end in itself. Sonakshi Sinha's Anjali Bhaati is the engine: a lower-caste officer in a system designed to discount her, chasing a killer whose victims are precisely the women that system ignores. Vijay Varma and Gulshan Devaiah round out a cast that critics singled out for ensemble cohesion. Hindustan Times called it controlled and superbly orchestrated; Film Companion highlighted the balance of commentary and entertainment. The series drew a modest 7.6 on IMDb, suggesting the thriller mechanics did not satisfy all audiences who came for pace rather than argument, but critical notices were broadly warm. The eight-episode format is efficient and the Rajasthani production design is specifically realised.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Missing Women",
+          "air_date": "2023-05-12",
+          "bollymeter": 7.5,
+          "spoiler_free": "Sub-Inspector Anjali Bhaati notices a pattern in deaths that the system has classified as suicides. The opening episode does two things at once - establishes a credible police procedural and immediately makes Anjali's caste-and-gender position a structural, not decorative, fact of the story.",
+          "the_moment": "Anjali filing a report nobody wants her to file - the show's thesis stated in one bureaucratic act.",
+          "critic_note": {
+            "text": "Dahaad is controlled and superbly orchestrated, never giving way to the sensational tone of serial killer crusades.",
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/entertainment/tv/dahaad-review-sonakshi-sinha"
+          }
+        },
+        {
+          "number": 2,
+          "title": "The Devil Incarnate",
+          "air_date": "2023-05-12",
+          "bollymeter": 7.6,
+          "spoiler_free": "A suspect comes into focus, and Anjali's persistence runs up against institutional indifference. Vijay Varma's introduction sharpens the ensemble considerably; the episode raises the threat level without resorting to a single gratuitous scene.",
+          "the_moment": "Anjali's first meeting with the suspect - her read on him, and the audience's, arriving at different speeds.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Sindoora",
+          "air_date": "2023-05-12",
+          "bollymeter": 7.8,
+          "spoiler_free": "The serial killer's method becomes fully legible and the social architecture enabling him snaps into focus. The writing's commitment to treating caste as mechanism rather than metaphor is clearest here; the episode is the season's thematic high-water mark.",
+          "the_moment": "The reveal of who Sindoora actually targets - and why the system has been protecting him without knowing it.",
+          "critic_note": {
+            "text": "A gripping blend of social commentary and entertainment anchored by roaring performances.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/dahaad-web-series-review-a-gripping-blend-of-commentary-and-entertainment-sonakshi-sinha-vijay-varma-gulshan-devaiah-sohum-shah-reema-kagti-zoya-akhtar-amazon-prime-video"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Aftermath",
+          "air_date": "2023-05-12",
+          "bollymeter": 7.7,
+          "spoiler_free": "The case closes but the systemic rot that enabled it does not. The finale is Reema Kagti and Ruchika Oberoi's clearest statement: justice in the procedural sense and justice in the social sense are not the same thing, and the show refuses to pretend otherwise.",
+          "the_moment": "Anjali's final scene - resolution that feels hard-won and incomplete at the same time, exactly as intended.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

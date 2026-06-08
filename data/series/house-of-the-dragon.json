@@ -1,11 +1,31 @@
 {
   "slug": "house-of-the-dragon",
-  "qid": { "value": "Q72930269", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "House of the Dragon", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q72930269",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "House of the Dragon",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "The Targaryen civil war: dragons, succession politics, and dynastic collapse set two centuries before Game of Thrones.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2022,
       "episodes": 10,
-      "release_date": { "value": "2022-08-21", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-08-21",
+        "source": "HBO press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.4, "basis": "Critics and audiences aligned on a confident GoT successor: strong world-building, layered political intrigue, and two standout lead performances anchoring a slow-burn first act." },
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Critics and audiences aligned on a confident GoT successor: strong world-building, layered political intrigue, and two standout lead performances anchoring a slow-burn first act."
+      },
       "critic": {
         "positive_pct": 87,
         "sample": 200,
@@ -38,17 +66,80 @@
           }
         ]
       },
-      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11198330/" },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11198330/"
+      },
       "review_body": "Season 1 landed as the most credible Game of Thrones successor the franchise had managed since the original series lost its source material footing. The Targaryen family tragedy is staged with genuine craft: political intrigue delivered through court rituals, the slow accumulation of grievance across a time-skipping structure, and two actresses playing Rhaenyra at different ages who both command the screen. Critics split on pacing in the first half but converged around a consensus that the back end justified the patience. The 87% Rotten Tomatoes score and 8.5 IMDb audience rating reflect a show that earned its prestige status without coasting.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Heirs of the Dragon",
+          "air_date": "2022-08-21",
+          "bollymeter": 8.5,
+          "spoiler_free": "A confident series premiere that sets the Targaryen succession crisis with economy and purpose. King Viserys, Princess Rhaenyra, and the small council are established as specific people with specific interests rather than exposition proxies. The tourney and its aftermath do real structural work.",
+          "the_moment": "The birth scene - unflinching, politically charged, and the event the entire season radiates from.",
+          "critic_note": {
+            "text": "A glorious introduction to an already familiar-feeling world - in many ways better than Game of Thrones' own premiere.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/house-of-the-dragon-episode-1-review-the-heirs-of-the-dragon/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Princess and the Queen",
+          "air_date": "2022-09-25",
+          "bollymeter": 8.8,
+          "spoiler_free": "The first major time jump resets the cast: Rhaenyra and Alicent are now older, at war, and played by new actors. The episode asks the audience to re-invest immediately, and the writing earns that trust. The generational bitterness between the two women is now fully operational.",
+          "the_moment": "Rhaenyra and Alicent's first scene together with the new cast - two performances establishing a decade of grievance in under five minutes.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Driftmark",
+          "air_date": "2022-10-02",
+          "bollymeter": 9.2,
+          "spoiler_free": "The funeral episode, and the finest hour of Season 1. Family grief becomes open war in a single night on Driftmark. Every character's agenda collides, the children's violence catalyses adult consequences, and two central relationships shift permanently.",
+          "the_moment": "The confrontation between Rhaenyra and Alicent after Aemond's eye is lost - the show's most raw exchange, two women stripped of court pretence.",
+          "critic_note": {
+            "text": "Driftmark is House of the Dragon at its most ferocious - Targaryen tragedy made visceral and inescapable.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/house-of-the-dragon-reviews-1235201884/"
+          }
+        },
+        {
+          "number": 10,
+          "title": "The Black Queen",
+          "air_date": "2022-10-23",
+          "bollymeter": 9.4,
+          "spoiler_free": "The season finale brings the Dance of Dragons to its terrible ignition. Rhaenyra receives word of the coup from behind Dragonstone's walls; the episode is measured, tragic, and ends with an act of violence that cannot be undone. A proper season closer that makes Season 2 essential.",
+          "the_moment": "Luke and Aemond over Shipbreaker Bay - the dragon combat sequence that cements what kind of show this is.",
+          "critic_note": {
+            "text": "The Black Queen is a perfect finale - earned, precise, and one of the best sequences in the Game of Thrones universe.",
+            "source": "Grimdark Magazine",
+            "url": "https://www.grimdarkmagazine.com/review-house-of-the-dragon-episode-10-the-black-queen/"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-06-16", "source": "HBO press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-06-16",
+        "source": "HBO press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.8, "basis": "Critics held at 84% but the audience split widened; the war machinery is impressive yet the season ends before the full confrontation arrives, leaving a bridging-chapter feeling." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Critics held at 84% but the audience split widened; the war machinery is impressive yet the season ends before the full confrontation arrives, leaving a bridging-chapter feeling."
+      },
       "critic": {
         "positive_pct": 84,
         "sample": 150,
@@ -60,7 +151,12 @@
           }
         ]
       },
-      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11198330/" },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11198330/"
+      },
       "review_body": "Season 2 narrowed the scope to a pre-war standoff and split the room more sharply than Season 1. Critics sustained an 84% score, recognising careful character groundwork and spectacular set-pieces in the final episodes, but a vocal audience contingent flagged a slow middle third and a finale that felt like setup rather than payoff. The 72% Rotten Tomatoes audience score versus 84% critic score was the season's defining data point: fans conditioned on Game of Thrones pacing expected more battlefield spectacle sooner. Reviewers who read the show on its own structural terms found it more satisfying.",
       "season_over_season": "Reception cooled modestly from Season 1: critic score dipped 3 points to 84%, audience score dropped sharply to 72% RT, reflecting impatience with a bridging season that held back its largest battles for Season 3."
     },
@@ -68,7 +164,12 @@
       "number": 3,
       "year": 2026,
       "episodes": 8,
-      "release_date": { "value": "2026-06-22", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-06-22",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": null,
       "bollymeter": null,
       "critic": {
@@ -82,5 +183,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

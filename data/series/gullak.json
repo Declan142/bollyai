@@ -1,11 +1,31 @@
 {
   "slug": "gullak",
-  "qid": { "value": "Q106635129", "source": "wikidata", "fetched_at": "2026-06-08T01:00:00+05:30", "confidence": "verified" },
-  "title": { "value": "Gullak", "source": "wikidata", "fetched_at": "2026-06-08T01:00:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q106635129",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Gullak",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:00:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:00:00+05:30", "confidence": "verified" },
-  "platform": { "value": "SonyLIV", "source": "trade announcement", "fetched_at": "2026-06-08T01:00:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SonyLIV",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:00:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "TVF's Mishra-family dramedy mines the small heartbreaks and warmth of middle-class small-town India, narrated by the family's piggy bank.",
   "poster": {
@@ -24,22 +44,89 @@
       "number": 5,
       "year": 2026,
       "episodes": 7,
-      "release_date": { "value": "2026-06-05", "source": "trade announcement", "fetched_at": "2026-06-08T01:00:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-06-05",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-08T01:00:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.4, "basis": "Comfort-food warmth and lived-in performances hold, even as the writing stretches thinner across seven episodes and absorbs a lead recast." },
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Comfort-food warmth and lived-in performances hold, even as the writing stretches thinner across seven episodes and absorbs a lead recast."
+      },
       "critic": {
         "positive_pct": 65,
         "sample": 6,
         "pull_quotes": [
-          { "text": "Great storytelling doesn't need high stakes or shocking twists; the emotional moments continue to resonate.", "source": "Social Ketchup", "url": "https://www.socialketchup.in/review/gullak-season-5-review-12001345" },
-          { "text": "Once-charming middle-class drama starts to feel stale, the seven-episode season stretched thin.", "source": "Hollywood Reporter India", "url": "https://www.hollywoodreporterindia.com/reviews/streaming/gullak-season-5-series-review-when-comfort-food-goes-stale" }
+          {
+            "text": "Great storytelling doesn't need high stakes or shocking twists; the emotional moments continue to resonate.",
+            "source": "Social Ketchup",
+            "url": "https://www.socialketchup.in/review/gullak-season-5-review-12001345"
+          },
+          {
+            "text": "Once-charming middle-class drama starts to feel stale, the seven-episode season stretched thin.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/gullak-season-5-series-review-when-comfort-food-goes-stale"
+          }
         ]
       },
-      "audience": { "rating": 9.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/" },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/"
+      },
       "review_body": "The Mishra house still sounds like home, and that is most of Gullak's job done. Season 5's strength is what it always was: small domestic stakes played with actors who feel like one family. The cost shows in two places the room keeps flagging, a seven-episode run that pads what used to be tight, and a recast Annu that takes adjusting to. Critics split cleanly: the warmth camp scored it generously, the fatigue camp called it comfort food going cold. The audience number stayed high, which for a fifth season is its own verdict on how much goodwill this family has banked.",
-      "season_over_season": "Holds the franchise's audience affection but is the first season where multiple critics flagged staleness rather than charm; the recast and longer runtime are the structural shifts from Seasons 1-4."
+      "season_over_season": "Holds the franchise's audience affection but is the first season where multiple critics flagged staleness rather than charm; the recast and longer runtime are the structural shifts from Seasons 1-4.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2026-06-05",
+          "bollymeter": 7.6,
+          "spoiler_free": "The Mishras are back with a new domestic crisis that feels immediately recognisable. Season 5 opens on the same warmth that made the franchise; the recast Annu is the elephant in the room but the episode has the good sense not to draw attention to it.",
+          "the_moment": "Santosh Mishra's first scene at the breakfast table - the show confirming the family still sounds like itself.",
+          "critic_note": {
+            "text": "Great storytelling doesn't need high stakes or shocking twists; the emotional moments continue to resonate.",
+            "source": "Social Ketchup",
+            "url": "https://www.socialketchup.in/review/gullak-season-5-review-12001345"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2026-06-05",
+          "bollymeter": 7.5,
+          "spoiler_free": "A family argument about money escalates into something much older and harder to name. The writing here is Gullak doing what it does at its best - locating the grief and love inside a row about the electricity bill.",
+          "the_moment": "Shanti's quiet exit from a room that has stopped listening to her - the episode's emotional centre.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2026-06-05",
+          "bollymeter": 7.4,
+          "spoiler_free": "A neighbourhood event pulls the family into the kind of mild social comedy the show handles better than anyone. The longer runtime (seven episodes) is most visible here; what might have been a tight twenty-five minutes runs to forty and feels the difference.",
+          "the_moment": "Aman and Annu's argument that lands as reconciliation - the season's warmest beat in its least essential episode.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2026-06-05",
+          "bollymeter": 7.8,
+          "spoiler_free": "The Season 5 finale pulls the family together around a single tender crisis and earns its resolution. The franchise's comfort-food appeal is intact here even where critics noted the overall run had overstayed its welcome.",
+          "the_moment": "The final piggy-bank narration - the show's oldest trick and, this season, its most honest.",
+          "critic_note": {
+            "text": "Once-charming middle-class drama starts to feel stale, the seven-episode season stretched thin.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/gullak-season-5-series-review-when-comfort-food-goes-stale"
+          }
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:00:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

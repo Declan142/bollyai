@@ -1,11 +1,26 @@
 {
   "slug": "farzi",
   "qid": null,
-  "title": { "value": "Farzi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": {
+    "value": "Farzi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A street artist and small-time counterfeiter gets pulled into a high-stakes currency fraud, while a tenacious STF officer closes in from the other side of the system.",
   "poster": {
@@ -24,9 +39,17 @@
       "number": 1,
       "year": 2023,
       "episodes": 8,
-      "release_date": { "value": "2023-02-10", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-02-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.6, "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split -- Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room." },
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split -- Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -43,11 +66,58 @@
           }
         ]
       },
-      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt15477488/" },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15477488/"
+      },
       "review_body": "Farzi premiered on 10 February 2023 and became the most-watched Hindi web series of the year with a reported 37.1 million viewers. The Raj and DK series pairs Shahid Kapoor's street-artist counterfeiter with Vijay Sethupathi's obsessive STF officer, setting up a cat-and-mouse that the directors animate with their trademark tonal fluency. Critical response split along a familiar fault line: sympathetic reviews from Film Companion and Indian outlets cited the assured screenplay and career-best Kapoor; Variety's international notice called it the first Raj and DK project that felt formulaic. The audience sided decisively with the domestic consensus. The eight-episode structure was debated, with Variety noting the plot could have been tighter, but the finale episode scored 9.0 on IMDb, suggesting the payoff landed for viewers who stayed.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Artist",
+          "air_date": "2023-02-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "Sunny, a struggling street artist, stumbles into counterfeiting as a way out of dead-end poverty; across town, STF officer Michael is obsessing over the same crime network. The Raj-DK debut episode does what their setups do best - all tone, world, and texture before the plot machinery engages.",
+          "the_moment": "Sunny's first printed note held to the light - the show's central image and its central question about authenticity made literal.",
+          "critic_note": {
+            "text": "Shahid Kapoor and Vijay Sethupathi make a pitch-perfect debut in this Raj and DK crime thriller.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/farzi-review-shahid-kapoor-vijay-sethupathi-make-a-pitch-perfect-debut-with-this-raj-and-dk-crime-thriller-amazon-prime"
+          }
+        },
+        {
+          "number": 3,
+          "title": "CCFART",
+          "air_date": "2023-02-10",
+          "bollymeter": 7.6,
+          "spoiler_free": "Sunny's operation escalates beyond anything he planned; Michael starts closing in on threads that will eventually lead to him. The comedic register is at its sharpest here before the plot tightens and squeezes out the levity.",
+          "the_moment": "The acronym reveal for CCFART - the episode's best joke and the show telling you not to take it too seriously.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Cat and Mouse",
+          "air_date": "2023-02-10",
+          "bollymeter": 7.9,
+          "spoiler_free": "The hunt between Michael and Sunny enters its tightest corridor; alliances shift and both men understand for the first time what the other is actually capable of. Vijay Sethupathi's Michael peaks in this episode - funny, terrifying, and entirely present.",
+          "the_moment": "Michael's interrogation of a middleman - Vijay Sethupathi doing the thing only he can do.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Crash and Burn",
+          "air_date": "2023-02-10",
+          "bollymeter": 8.2,
+          "spoiler_free": "The season finale delivers the confrontation and enough consequences to justify the eight-episode build. Critics noted it as the season's strongest episode; the IMDb rating of 9.0 on the finale confirms the payoff landed for most viewers even where the middle stretched thin.",
+          "the_moment": "The final Sunny-Michael standoff - the show's best five minutes, earned across the entire season.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

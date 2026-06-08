@@ -1,0 +1,122 @@
+{
+  "slug": "trial-by-fire",
+  "qid": {
+    "value": "Q116470924",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Trial by Fire",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "Based on the real survivors of the 1997 Uphaar Cinema fire tragedy, the series follows Neelam and Shekhar Krishnamoorthy's 25-year legal battle against the Ansal family - a document of grief weaponised into the Indian justice system.",
+  "poster": {
+    "src": "/img/series/trial-by-fire/poster.jpg",
+    "alt": "Trial by Fire series poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Seven-part limited series; based on a closed case, no renewal expected.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Trial_by_Fire_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": {
+        "value": "2023-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "100% on Rotten Tomatoes; 7.6 on IMDb. The critical unanimity around a show this deliberately paced and emotionally demanding is notable - reviewers recognised that Trial by Fire trusted its audience to sit with grief rather than resolve it."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Trial by Fire is a harrowing, necessary document of institutional failure and parental grief that earns every difficult minute.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/trial_by_fire/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11611698/"
+      },
+      "review_body": "Trial by Fire sat at 100% on Rotten Tomatoes because every critic who engaged with the material understood what it was doing: refusing to turn the Uphaar tragedy into content. Director Prashant Nair treated the Krishnamoorthys' story - two parents who lost both children in a fire caused by the Ansal brothers' negligence - as exactly what it was: an account of how people survive unsurvivable loss by converting it into legal purpose. Abhay Deol and Rajshri Deshpande (who won the Filmfare OTT Best Actress award) played Shekhar and Neelam with the kind of restraint that makes grief feel continuous rather than dramatic. The show's legal procedural dimension was careful and well-researched; the emotional dimension was devastating. The IMDb audience score of 7.6 likely reflects the show's deliberate pacing rather than any failure of execution.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Trial by Fire",
+          "air_date": "2023-01-13",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the Krishnamoorthys before the fire - two children, a marriage, a Friday evening in Delhi, ordinary life. The fire itself is handled with restraint that makes it more horrifying rather than less. The episode closes on the morning after, when the institutional response to the deaths begins to reveal the shape of the 25-year struggle ahead.",
+          "the_moment": "Neelam's first encounter with the hospital - the gap between what she was told and what she finds - is the episode's and the series' axis.",
+          "critic_note": {
+            "text": "An opening episode that earns the weight of what it's representing by refusing to aestheticise it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/trial_by_fire/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Uphaar",
+          "air_date": "2023-01-13",
+          "bollymeter": 8.3,
+          "spoiler_free": "The case enters court and the show's procedural rigour becomes visible - a floundering prosecutor, a defence team operating with evident institutional advantage, and the Krishnamoorthys watching a system accommodate wealth in real time. The episode's title returns to the cinema name as a painful irony: Uphaar means gift.",
+          "the_moment": "The courtroom moment where the prosecutor's inadequacy makes Neelam's 25 years of preparation feel suddenly insufficient - the show's most quietly enraging scene.",
+          "critic_note": {
+            "text": "The courtroom scenes have the specific horror of a system observed rather than dramatised.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/trial_by_fire/s01"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2023-01-13",
+          "bollymeter": 8.2,
+          "spoiler_free": "The Supreme Court verdict lands after 25 years, and the show uses the flashback structure to return to June 13, 1997 - the last day of normal life - before closing on the present. The finale refuses catharsis for the same reasons the whole series refused it: because the real case never provided it. The ending is historically honest and emotionally correct.",
+          "the_moment": "Neelam's reaction to the verdict - not triumphant, not destroyed, simply the face of someone who has been doing the only thing available to her for 25 years.",
+          "critic_note": {
+            "text": "Trial by Fire ends without closure because the story doesn't have any - and it earns that honesty completely.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/trial_by_fire/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

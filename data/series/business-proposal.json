@@ -1,11 +1,31 @@
 {
   "slug": "business-proposal",
-  "qid": { "value": "Q108486931", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Business Proposal", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q108486931",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Business Proposal",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A woman goes on a blind date pretending to be her friend, only to discover her date is her company's CEO.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2022,
       "episodes": 12,
-      "release_date": { "value": "2022-02-28", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-02-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.2, "basis": "Unanimously praised as the gold standard for K-drama rom-com execution; critics flagged one third-act subplot as a craft stumble, but the leads carry it." },
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Unanimously praised as the gold standard for K-drama rom-com execution; critics flagged one third-act subplot as a craft stumble, but the leads carry it."
+      },
       "critic": {
         "positive_pct": 88,
         "sample": 6,
@@ -45,9 +73,55 @@
         "source_url": "https://mydramalist.com/693591-in-house-confrontation"
       },
       "review_body": "Business Proposal arrived as a case study in how to weaponise rom-com formula rather than escape it. Vulture's Quincy LeGardye identified over ten genre tropes deployed deliberately, with smart choices about which to play straight and which to flip. The MyDramaList audience rated it 8.7 across 187,000 users. Critics pointed to the double-couple structure as particularly well-handled, giving the show breadth without sacrificing pace. One dissenting note: the third-act molka subplot resolution leaned too heavily on chaebol rescue rather than the female lead's own agency, a critique that surfaced in several professional reviews. The 12-episode count is frequently cited as the ideal runtime for this format.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-02-28",
+          "bollymeter": 8.5,
+          "spoiler_free": "Ha-ri shows up at a blind date disguised as her wealthy friend, expecting to scare off the suitor - only to discover he is her own company's CEO. The premise clicks immediately, Dramabeans praised it as a hilarious start, and the comic mistaken-identity engine runs without a false gear all episode.",
+          "the_moment": "Ha-ri recognises her date's face at the restaurant and the horror on her face before she commits to the disguise anyway.",
+          "critic_note": {
+            "text": "Excessively tropey in the best way possible, our new characters are full of charm, laughs, and witty dialogue.",
+            "source": "Dramabeans",
+            "url": "https://dramabeans.com/2022/03/business-proposal-episodes-1-2-open-thread/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2022-03-08",
+          "bollymeter": 8.3,
+          "spoiler_free": "Tae-mu orchestrates what looks like a work trip but is in fact a date, giving the show its best outdoor episode and the first unguarded moment between the leads. The second couple's subplot begins to find its register here.",
+          "the_moment": "The sea-side scene where Tae-mu drops the CEO register for a single sentence and both characters notice.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "Episode 11",
+          "air_date": "2022-03-14",
+          "bollymeter": 7.8,
+          "spoiler_free": "Secrets about Ha-ri's real identity reach the people she has been protecting them from, forcing the show into its most earnest emotional register. The episode is the tonal turning point between comedy and the warmth the finale needs to land.",
+          "the_moment": "Ha-ri on a rainy street, realising she has run out of room to keep pretending - played without dialogue.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2022-03-15",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale closes both couples' arcs with the confident lightness the show earned across eleven episodes. The resolution is optimistic without being naive, and the double happy ending lands because the show made us care about both pairs.",
+          "the_moment": "Both couples reuniting - intercut so the comedy and the sincerity of each pair bounce off one another perfectly.",
+          "critic_note": {
+            "text": "Makes smart decisions about which romance tropes to subvert and which to embrace.",
+            "source": "Vulture",
+            "url": "https://www.vulture.com/article/business-proposal-review.html"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

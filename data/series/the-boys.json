@@ -1,11 +1,31 @@
 {
   "slug": "the-boys",
-  "qid": { "value": "Q48796994", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "The Boys", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q48796994",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Boys",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Prime Video", "source": "Amazon press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Amazon press",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A group of vigilantes takes on a corporation of corrupt, celebrity superheroes in a satire of power, media manipulation, and American authoritarianism.",
   "poster": {
@@ -24,15 +44,28 @@
       "number": 1,
       "year": 2019,
       "episodes": 8,
-      "release_date": { "value": "2019-07-26", "source": "Amazon press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2019-07-26",
+        "source": "Amazon press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.1, "basis": "85% critic score, 8.8 IMDb; the premise landed hard and the series found its audience immediately, though critics noted the satire was sharper than the plotting in places." },
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "85% critic score, 8.8 IMDb; the premise landed hard and the series found its audience immediately, though critics noted the satire was sharper than the plotting in places."
+      },
       "critic": {
         "positive_pct": 85,
         "sample": 106,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.7, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt1190634/" },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1190634/"
+      },
       "review_body": "Season 1 arrived as the superhero genre's most caustic self-critique, using the Garth Ennis source material's violence and transgression to interrogate corporate power, celebrity worship, and impunity. Critics at 85% found the show's ambitions somewhat outrunning its execution in places, but the concept had enough traction to make it Prime Video's most-talked-about debut of that year. Karl Urban's Billy Butcher and the ensemble around him established the show's tonal register: savage satire dressed as shock entertainment.",
       "season_over_season": null
     },
@@ -40,15 +73,28 @@
       "number": 2,
       "year": 2020,
       "episodes": 8,
-      "release_date": { "value": "2020-09-04", "source": "Amazon press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-09-04",
+        "source": "Amazon press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "97% critic score, 8.8 IMDb; the show found its satirical voice more fully and Aya Cash's Stormfront became one of the sharpest villain introductions in streaming television." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "97% critic score, 8.8 IMDb; the show found its satirical voice more fully and Aya Cash's Stormfront became one of the sharpest villain introductions in streaming television."
+      },
       "critic": {
         "positive_pct": 97,
         "sample": 105,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.8, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt1190634/" },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1190634/"
+      },
       "review_body": "Season 2 resolved the Season 1 question of whether the concept could sustain itself: it could, and then some. The critic score jumped to 97% as the show sharpened its political metaphors and gave its ensemble cleaner character arcs. Aya Cash's Stormfront, a character with no clear analog in the source material, delivered one of that television year's most discussed villain turns. The weekly release format heightened anticipation episode by episode and the audience ratings held strong.",
       "season_over_season": "Critic score jumped from 85% to 97%, one of the largest season-on-season improvements in streaming drama; the show found its satirical voice and expanded the ensemble's dramatic range."
     },
@@ -56,25 +102,92 @@
       "number": 3,
       "year": 2022,
       "episodes": 8,
-      "release_date": { "value": "2022-06-03", "source": "Amazon press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-06-03",
+        "source": "Amazon press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.8, "basis": "98% Rotten Tomatoes critic score and 8.9 IMDb, the show's creative peak; Jensen Ackles' Soldier Boy and the season's escalating stakes drew the series' largest audience." },
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "98% Rotten Tomatoes critic score and 8.9 IMDb, the show's creative peak; Jensen Ackles' Soldier Boy and the season's escalating stakes drew the series' largest audience."
+      },
       "critic": {
         "positive_pct": 98,
         "sample": 153,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt1190634/" },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1190634/"
+      },
       "review_body": "Season 3 was the series at its most precise: the satire of celebrity authoritarianism had found a specific political target, the ensemble dynamics were fully calibrated, and the introduction of Soldier Boy gave the show a second lead capable of matching Homelander's gravitational pull. The 98% critic score and 8.9 IMDb audience rating were the show's highest, and the cultural footprint matched. Reviewers noted the show had moved from provocateur to prestige without softening its politics.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Payback",
+          "air_date": "2022-06-03",
+          "bollymeter": 8.8,
+          "spoiler_free": "Season 3 opens with Homelander's grip on Vought tightening and a new threat - Soldier Boy's emergence - promised. The satirical targets are the most specific yet: celebrity culture, corporate propaganda, and the mechanics of political hero-making. The show has refined its outrage into precision.",
+          "the_moment": "Homelander's press conference - the character's public performance and private deterioration shown simultaneously.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Glorious Five Year Plan",
+          "air_date": "2022-06-17",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Russia arc pays off and Soldier Boy's full capabilities are revealed. Jensen Ackles commands every scene he's in - a star performance that adds genuine moral complexity to the season's central question about whether one monster can be used against another.",
+          "the_moment": "Soldier Boy's power demonstration in Russia - the season's first unambiguous signal that this threat is categorically different.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Herogasm",
+          "air_date": "2022-07-01",
+          "bollymeter": 9.2,
+          "spoiler_free": "The show's most transgressive episode and one of its finest: the orgy-as-satire reaches its logical extreme, and the sequence it has been building toward - Homelander, Soldier Boy, and Butcher together - delivers with genuine dramatic weight amid the provocation.",
+          "the_moment": "The three-way standoff between Homelander, Soldier Boy, and Butcher - the season's central power dynamic clarified violently.",
+          "critic_note": {
+            "text": "Herogasm is The Boys at its most fearlessly unhinged - and somehow also its most dramatically coherent.",
+            "source": "Variety",
+            "url": "https://variety.com/2022/tv/reviews/the-boys-season-3-review-herogasm-1235289854/"
+          }
+        },
+        {
+          "number": 8,
+          "title": "The Instant White-Hot Wild",
+          "air_date": "2022-07-08",
+          "bollymeter": 9.4,
+          "spoiler_free": "The season finale stages its confrontations with the escalatory confidence of a show that knows exactly what it is. Homelander's arc reaches a peak that the character has been building toward since Season 1; Soldier Boy's resolution is the most morally complex the show has attempted.",
+          "the_moment": "Homelander's rally crowd reaction - the show's clearest statement about the audience's relationship to power and violence.",
+          "critic_note": {
+            "text": "The Boys Season 3 finale is the show at its most operatic and most politically precise.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/the-boys-season-3-finale-review-1849121843"
+          }
+        }
+      ],
       "season_over_season": "Season 3 was the series' creative and ratings peak: highest critic score at 98%, highest IMDb at 8.9, and the largest concurrent audience."
     },
     {
       "number": 4,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-06-13", "source": "Amazon press", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-06-13",
+        "source": "Amazon press",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.9, "basis": "92% critic score but 8.6 IMDb; reviewers flagged growing pains as the show built toward its endgame, with the satire remaining sharp but the plot machinery becoming more visible." },
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "92% critic score but 8.6 IMDb; reviewers flagged growing pains as the show built toward its endgame, with the satire remaining sharp but the plot machinery becoming more visible."
+      },
       "critic": {
         "positive_pct": 92,
         "sample": null,
@@ -86,11 +199,16 @@
           }
         ]
       },
-      "audience": { "rating": 8.6, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt1190634/" },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1190634/"
+      },
       "review_body": "Season 4 held at 92% with critics who recognized the show's political clarity remained uncompromised, but the IMDb audience rating dipped to 8.6 and a segment of viewers flagged that the plotting had become setup-heavy. Variety's review captured the season's position accurately: the worldview is as sharp as ever, the mechanics of moving pieces toward a finale are now visible. The darkest-season-yet consensus from critics was genuine; whether the darkness served the story or weighed on it divided the room. As a penultimate season it works more clearly in retrospect.",
       "season_over_season": "First season with a notable dip from the creative peak: RT down to 92% from 98%, IMDb down to 8.6 from 8.9; setup-season dynamics visible to critics and more so to audiences."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

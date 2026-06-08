@@ -1,11 +1,31 @@
 {
   "slug": "kota-factory",
-  "qid": { "value": "Q65060813", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Kota Factory", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q65060813",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kota Factory",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "Shot in monochrome, a group of IIT aspirants navigate the pressure-cooker coaching culture of Kota under the mentorship of the beloved Jeetu Bhaiya.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 3,
       "year": 2024,
       "episodes": 5,
-      "release_date": { "value": "2024-06-20", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-06-20",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.8, "basis": "A tonally mature close to the Kota arc, with anxiety and depression handled with more candour than before, though some critics flagged structural complicity in normalising the same pressure-cooker system it depicts." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "A tonally mature close to the Kota arc, with anxiety and depression handled with more candour than before, though some critics flagged structural complicity in normalising the same pressure-cooker system it depicts."
+      },
       "critic": {
         "positive_pct": 68,
         "sample": 7,
@@ -38,7 +66,12 @@
           }
         ]
       },
-      "audience": { "rating": 9.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9432978/" },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9432978/"
+      },
       "review_body": "Season 3 narrows to Vaibhav's JEE Advanced reckoning and Jeetu Bhaiya's pivot toward a government education role, giving the finale a more personal register than the series had previously attempted. The monochrome cinematography continues to do heavy thematic work, each frame amplifying the anxiety that the narrative sometimes sidesteps in dialogue. Critics split on the central question of whether the show critiques or romanticises the Kota machine: the positive camp praised its emotional honesty, the dissenting camp called it structurally complicit. The audience rating spiked on the finale episode, suggesting the show landed its ending for viewers even where it divided critics.",
       "season_over_season": "Tightest episode count of the three seasons at five episodes, with the most explicit engagement with mental health and the least comedy relief, marking a clear tonal graduation from the debut."
     },
@@ -46,7 +79,12 @@
       "number": 2,
       "year": 2021,
       "episodes": 5,
-      "release_date": { "value": "2021-09-24", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2021-09-24",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
       "bollymeter": null,
       "critic": {
@@ -62,7 +100,12 @@
       "number": 1,
       "year": 2019,
       "episodes": 5,
-      "release_date": { "value": "2019-04-16", "source": "TVF YouTube", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2019-04-16",
+        "source": "TVF YouTube",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
       "bollymeter": null,
       "critic": {
@@ -72,9 +115,51 @@
       },
       "audience": null,
       "review_body": "The debut season launched on TVF's YouTube channel, introducing the distinctive monochrome visual language and establishing Jeetu Bhaiya as one of the most resonant mentor characters in Indian streaming.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Inventory",
+          "air_date": "2019-04-16",
+          "bollymeter": 8.8,
+          "spoiler_free": "Vaibhav arrives in Kota and enters the coaching system for the first time. The monochrome aesthetic announces itself as a formal statement, not a quirk - this world has had the colour drained from it. Jeetu Bhaiya appears and the series finds its emotional spine in one scene.",
+          "the_moment": "Jeetu Bhaiya's first classroom session - the mentor-character the Indian streaming space had been waiting for.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Assembly Line",
+          "air_date": "2019-04-23",
+          "bollymeter": 8.5,
+          "spoiler_free": "The machinery of Kota's coaching culture comes into focus as Vaibhav tries to find his place in the system. The episode extends the factory metaphor without straining it - students as raw material, the JEE as quality control.",
+          "the_moment": "The overhead shot of hundreds of students studying in identical cubicles - the season's most image.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Optimization",
+          "air_date": "2019-04-30",
+          "bollymeter": 8.6,
+          "spoiler_free": "Vaibhav faces his first real test and Jeetu Bhaiya's method is scrutinised. The episode is TVF at its most thematically precise - the question of whether optimising for an exam optimises for life is asked and left deliberately open.",
+          "the_moment": "Jeetu Bhaiya's study-hour advice that students would screenshot and share - the show's most quoted moment.",
+          "critic_note": {
+            "text": "Kota Factory's biggest asset is its writing which somehow maintains a semi-dramatic progression without compromising on the factual tone of the series.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/kota-factory-review"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Overhaul",
+          "air_date": "2019-05-14",
+          "bollymeter": 9.0,
+          "spoiler_free": "The season finale confronts burnout, failure, and the question of what Kota actually costs. The monochrome visual language earns its payoff in the finale - the colour drained from a world that promises it as reward for survival.",
+          "the_moment": "Jeetu Bhaiya's farewell lesson - not about chemistry, about what to do when the system fails you.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

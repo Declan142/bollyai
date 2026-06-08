@@ -1,0 +1,122 @@
+{
+  "slug": "black-warrant",
+  "qid": {
+    "value": "Q131732039",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Black Warrant",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Tihar, 1980s: a young idealistic jailer named Sunil Gupta enters the world's most notorious prison and is slowly consumed by it - adapted from the real memoir of a man who spent 35 years inside those walls, with Charles Sobhraj and Ranga-Billa as his early charges.",
+  "poster": {
+    "src": "/img/series/black-warrant/poster.jpg",
+    "alt": "Black Warrant series poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 1 released January 2025 to strong reception; renewal status to be confirmed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Black_Warrant_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": 7,
+      "release_date": {
+        "value": "2025-01-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "100% on Rotten Tomatoes from 9 critics; 8.1 on IMDb. Vikramaditya Motwane's directorial hand was immediately legible - a Netflix India show that felt like it was made by someone with a worldview, not a content calendar."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "Black Warrant is a gripping portrait of institutional rot - Motwane's most accomplished long-form work.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_warrant/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt35064818/"
+      },
+      "review_body": "Black Warrant reached the Netflix Global Top 10 on release, which surprised no one who had read the early reviews. The 100% Rotten Tomatoes score was built on a consensus that Motwane and co-creator Satyanshu Singh had found exactly the right register for the material: neither exploitative true-crime spectacle nor hagiographic biopic, but a close, systemic account of what a prison does to the people inside it - including the people who supposedly run it. Zahan Kapoor's Sunil Gupta is a moral centre who bends without breaking, and the show's patient accumulation of institutional detail (the factional violence, the informal power structures, the relationship between jailers and long-term inmates) felt like it had been researched rather than invented. Ranga-Billa and Charles Sobhraj as early-season presences gave the show both historical weight and genre pull.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2025-01-10",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere announces its intentions in the opening frames - Tihar seen from outside is a political symbol; Tihar seen from inside is an ecosystem with its own weather. Sunil's first day introduces the show's central tension: his professional idealism against an institution that has been slowly absorbing idealists for decades. The death warrants against Ranga and Billa provide the immediate dramatic frame, journalist Pratibha Sen a second pair of eyes on the system.",
+          "the_moment": "Sunil walking the main corridor with a senior jailer who names each prisoner's crime as they pass - a guided tour through human consequence.",
+          "critic_note": {
+            "text": "An opening episode that has the patience to let a world accumulate before it asks you to feel anything about it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_warrant/s01/e01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2025-01-10",
+          "bollymeter": 8.7,
+          "spoiler_free": "The hunger strike episode - prisoners organising under conditions designed to prevent organisation - is the show's most politically charged hour. Sunil's position becomes actively untenable: reform requires the trust of inmates, and the trust of inmates costs him the institution's. The episode also handles a high-profile execution with documentary restraint.",
+          "the_moment": "The hunger strike's third day, when the administration's response reveals that the institution's first loyalty is to order rather than justice.",
+          "critic_note": {
+            "text": "The series at its most unflinching - an hour about how institutions respond to the demands of the people they hold.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_warrant/s01"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Double Life Sentence",
+          "air_date": "2025-01-10",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale deploys the 1984 riots as macro-historical pressure that turns the prison's internal fault lines into fractures. Tomar's leadership is interrogated; Sobhraj asks Sunil for a favour that crystallises everything the show has been building toward. The ending is historically honest and emotionally precise - the show earns its final image.",
+          "the_moment": "Sunil's decision in the chaos of the riots - the moment where institutional loyalty and personal conscience speak simultaneously and cannot both be honoured.",
+          "critic_note": {
+            "text": "A finale that understands the difference between an ending and a resolution, and chooses the harder thing.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_warrant/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

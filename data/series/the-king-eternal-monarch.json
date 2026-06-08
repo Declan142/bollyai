@@ -1,0 +1,96 @@
+{
+  "slug": "the-king-eternal-monarch",
+  "qid": {
+    "value": "Q65050906",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The King: Eternal Monarch",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A modern Korean emperor crosses a mystical portal into a parallel Republic of Korea, where he meets a detective who may hold the key to saving both worlds.",
+  "poster": {
+    "src": "/img/series/the-king-eternal-monarch/poster.jpg",
+    "alt": "The King: Eternal Monarch series poster",
+    "attribution": "Poster © SBS / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season series; concluded June 12, 2020. Topped Netflix charts in at least 11 countries. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_King:_Eternal_Monarch"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-04-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb 8.1 but driven largely by Lee Min-ho fandom; critics pointed to a convoluted parallel-world mythology and pacing issues that undercut an expensive, visually polished production."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The King: Eternal Monarch is lavish, frequently beautiful, and frustratingly tangled - a show that trusts spectacle more than logic.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_king_eternal_monarch"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11228748/"
+      },
+      "review_body": "The King: Eternal Monarch is Kim Eun-sook's most ambitious world-building exercise and her most structurally strained. The parallel-universe premise - a Kingdom of Corea versus the Republic of Korea - generates visual opportunities that director Baek Sang-hoon exploited to full cinematic effect, and Lee Min-ho's return to television after military service was the year's biggest K-drama event globally, topping Netflix in eleven countries. The critical reading, however, was more measured: the mythology's rules kept shifting, the pacing in the middle third became notoriously elliptical, and the romance, while charming, never quite fused with the conspiracy plot. IMDb at 8.1 reflects the sizeable fan base more than consensus critical opinion. The show works best on visual terms; viewers who track plot logic carefully will find more seams. Still an event watch.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-04-17",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere opens the parallel-universe portal mythology and stages Lee Min-ho's arrival in the Republic of Korea with maximum visual confidence. The production design difference between the two Koreas - subtle but deliberate - does real narrative work.",
+          "the_moment": "The emperor on horseback in the middle of a contemporary city - the image that launched a thousand promotional moments and accurately represents the show's tonal register.",
+          "critic_note": {
+            "text": "A glossy, confident premiere that raises expectations it will not always meet.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_king_eternal_monarch"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

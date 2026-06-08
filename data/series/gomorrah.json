@@ -1,0 +1,242 @@
+{
+  "slug": "gomorrah",
+  "qid": {
+    "value": "Q16876411",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Gomorrah",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Italy",
+  "original_language": {
+    "value": "it",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Sky Atlantic",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "In the sun-bleached suburbs of Naples, foot soldiers and bosses of the Savastano camorra clan bleed and scheme their way through a hierarchy where loyalty is currency and life is cheap.",
+  "poster": {
+    "src": "/img/series/gomorrah/poster.jpg",
+    "alt": "Gomorrah series poster",
+    "attribution": "Poster © Sky Italia / Cattleya. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Five seasons, ended December 17 2021 after a total of 58 episodes; a prequel film L'Immortale (2019) and spin-off series Gomorrah: The Origins announced for 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gomorrah_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-05-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Season 1 opened to 95% on Rotten Tomatoes and an 8.6 IMDb series rating, with critics singling out the Neapolitan street-level texture and the cold-eyed moral universe as something genuinely new in European crime TV."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 19,
+        "pull_quotes": [
+          {
+            "text": "Gomorrah offers a grimly compelling portrait of the Neapolitan underworld with unflinching authenticity.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/gomorrah/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2049116/"
+      },
+      "review_body": "Critics read Season 1 as a seismic arrival: where The Sopranos mythologised the mob and The Wire mapped urban systems, Gomorrah committed to showing the camorra as a banal, blood-soaked economy. Shot in the actual Scampia housing projects, the debut season follows enforcer Ciro Di Marzio and the Savastano family through a succession crisis with no romantic exit. Critics praised the lack of catharsis - nobody is rooting for redemption here - and the industrial scale of the violence, which feels administrative rather than operatic. Audience reception on IMDb settled at 8.6, validating the critical read that this was the most rigorous organised-crime drama since The Wire. The show's Italian-language commitment (no dubbing concessions) only sharpened the immersion.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Clan Savastano",
+          "air_date": "2014-05-06",
+          "bollymeter": 8.8,
+          "spoiler_free": "The opener drops viewers into Scampia with zero orientation - a drugs-territory dispute, a clansman's burial, a boss's prison conversation. Roberto Saviano's world arrives fully formed: no heroes, no grace notes, just the weight of a criminal economy pressing down on ordinary streets. Pace is deliberate; dread is total.",
+          "the_moment": "Pietro Savastano dictates clan strategy through a prison glass as if conducting a board meeting - the banality of the command lands like a gut punch.",
+          "critic_note": {
+            "text": "An immediate and authentic portrait of organised crime stripped of all glamour.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/gomorrah/s01/e01"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2014-06-10",
+          "bollymeter": 8.9,
+          "spoiler_free": "The midpoint of Season 1 tightens the screws on Ciro's dual loyalty - to the Savastanos and to his own survival calculus. A sequence of violence in a sunlit courtyard crystallises the show's thesis: in Scampia, daylight offers no protection. The episode marks the turn from procedural setup to full-tilt consequence.",
+          "the_moment": "Ciro makes a choice that will define every season that follows - the camera holds on his face long enough that you feel the arithmetic of it.",
+          "critic_note": {
+            "text": "The series' moral greyness deepens into something truly unsettling.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/gomorrah/s01"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2014-07-15",
+          "bollymeter": 9.1,
+          "spoiler_free": "The season finale reshuffles the power structure with brutal efficiency. No speech, no monologue - just the transactional finality that the show has been building toward across twelve episodes. It leaves the clan transformed and the audience with the unnerving sense that the story has barely started.",
+          "the_moment": "The closing image reframes the entire season's arc in a single held shot - wordless, inevitable.",
+          "critic_note": {
+            "text": "A masterclass in restraint: the finale earns its darkness.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/gomorrah/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-05-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Critics and audiences sustained their investment as the show deepened the power-vacuum storyline; IMDb episode ratings cluster around 8.0 - 8.5, indicating a season that maintained quality rather than declining."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2049116/"
+      },
+      "review_body": "Season 2 lands in the aftermath of the Savastano succession fallout and watches Ciro Di Marzio navigate a Naples where old alliances have curdled. Critics noted the writers' refusal to let the show drift into prestige-TV comfort - there is no mentor figure, no moral scaffold. The season compresses the power dynamics into ten episodes that feel leaner than the debut run, and audience ratings on IMDb remained in the 8.0 - 8.5 range per episode, a signal of unbroken investment. The ensemble expands but the camera stays close to street level, which is where Gomorrah has always done its best work. A secondary thread involving family members outside the clan adds texture without diluting the main current.",
+      "season_over_season": "Slightly leaner in episode count than S1 but no dip in tension; the show's reputation internationally began to consolidate around this season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-11-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Widely read as the season where Gomorrah's international reputation peaked; Italian and European critics aligned on its ambition, and the IMDb episode scores remained high throughout."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2049116/"
+      },
+      "review_body": "Season 3 is where the show's architecture became undeniable - the writers had now sketched a complete system, from street corner to boardroom to political back channel. The sprawling twelve-episode run introduced new clans from Rome and other Italian cities, expanding the map without losing the Neapolitan specificity. Critics abroad (particularly in the UK) called it the season that confirmed Gomorrah's place in the first rank of world television. The show's violence remains instrumental - it communicates hierarchy and desperation rather than spectacle. Audience fatigue was not a factor; IMDb ratings stayed solidly above 8.0 for most episodes.",
+      "season_over_season": "The expanded canvas (12 episodes, pan-Italian criminal politics) is Season 3's gamble - it pays off.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-03-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "RT has a dedicated page and audience reception held, but this season marked the first signs of narrative fatigue for some critics; the show remained viscerally watchable."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2049116/"
+      },
+      "review_body": "Season 4 arrived on the back of the 2019 prequel film L'Immortale and had the dual task of honouring that film's events while continuing the main storyline. Critics noted that some of the narrative propulsion had diffused across the many threads now running; the season does not feel tight the way Season 1 did. Yet the performances remain committed, the visual grammar of Scampia still generates dread effortlessly, and the clan politics have accrued enough history to carry scenes on momentum alone. A season for invested viewers rather than newcomers.",
+      "season_over_season": "First season where some critics detected a slight loss of momentum relative to the run's peak.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-11-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "Final season received a solid if not triumphant send-off from critics; the show chose a brutal ending over a redemptive arc, which divided audiences but felt thematically consistent."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2049116/"
+      },
+      "review_body": "Season 5 closes the book with the unsentimentality that defined Gomorrah from the first frame. Critics on both sides of the Atlantic noted that the show never blinked in its final episodes - no character gets a clean exit, no family escapes the weight of what was done in the clan's name. Audience reception was mixed on closure but unanimous on craft: the production design, the Neapolitan street photography, and the lead performances were as strong as ever. Metacritic noted the finale as among the more honest endings in prestige crime drama. Ended December 17, 2021.",
+      "season_over_season": "Leaner than S4, more decisive - the final season accelerates toward an ending that the first episode made inevitable.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

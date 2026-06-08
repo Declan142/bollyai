@@ -138,6 +138,52 @@
         "source_url": "https://www.imdb.com/title/tt3230854/"
       },
       "review_body": "Season 3 is the Expanse at its creative summit. The political war between Earth and Mars, the Protomolecule's development into a Ring Gate, Holden's contact with the Miller-construct - all converge in a finale that expands the show's scope from a solar-system political drama to something genuinely cosmic. The 100% RT score and 9.8 IMDb place it among streaming television's most acclaimed single seasons in any genre. Syfy cancelled the show at the end of this season - a decision so widely criticised that Amazon Prime Video rescued it. That rescue is a document of how much this show meant to its audience.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Fight or Flight",
+          "air_date": "2018-04-11",
+          "bollymeter": 9.0,
+          "spoiler_free": "Season 3 opens in the aftermath of Errinwright's conspiracy, with Earth and Mars at war and the Rocinante's crew scattered. The political and personal stakes are reset at maximum tension. The season's grand ambition - to connect earthly politics to cosmic revelation - is signalled immediately.",
+          "the_moment": "The opening space battle sequence - The Expanse announcing it has the budget and the nerve to match its ambitions.",
+          "critic_note": {
+            "text": "The Expanse reaches its artistic summit in a season that delivers on every promise the series has ever made.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_expanse/s03"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Immolation",
+          "air_date": "2018-05-16",
+          "bollymeter": 9.5,
+          "spoiler_free": "The Protomolecule's catastrophic transformation at Io delivers the season's most visually spectacular sequence and its most emotionally devastating sacrifice. The show earns every emotional beat it has been building toward since Season 1.",
+          "the_moment": "The Io climax - spectacle and grief arriving simultaneously in a sequence that only hard sci-fi can produce.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Dandelion Sky",
+          "air_date": "2018-06-06",
+          "bollymeter": 9.7,
+          "spoiler_free": "Holden enters the Ring Space and makes contact with something that defies the show's previous physics. The episode is the most formally daring in the run - contemplative, strange, and shot with a restraint that makes the cosmic implications more not less frightening.",
+          "the_moment": "Holden's conversation with the Miller-construct inside the Ring - the show crossing from political drama into genuine science fiction wonder.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Abaddon's Gate",
+          "air_date": "2018-06-27",
+          "bollymeter": 9.8,
+          "spoiler_free": "The season finale and the show's creative peak: the Ring Gate activates, a thousand new solar systems open, and the story of humanity's survival transforms permanently. The Syfy cancellation announcement arrived days later - making this episode both a summit and a farewell.",
+          "the_moment": "The Ring Gate opening - one of streaming science fiction's most iconic visual achievements.",
+          "critic_note": {
+            "text": "Abaddon's Gate is a landmark finale - The Expanse delivering the cosmic payoff hard sci-fi television has never before achieved.",
+            "source": "io9",
+            "url": "https://gizmodo.com/the-expanse-season-3-finale-review-1826601839"
+          }
+        }
+      ],
       "season_over_season": "The absolute series peak; the Ring Gate sequence is The Expanse's single most iconic visual achievement."
     },
     {
@@ -247,5 +293,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T05:00:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

@@ -1,11 +1,31 @@
 {
   "slug": "sweet-home",
-  "qid": { "value": "Q65266317", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Sweet Home", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q65266317",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sweet Home",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A suicidal recluse barricades in a Seoul apartment block as residents begin mutating into monsters that embody their deepest desires.",
   "poster": {
@@ -24,25 +44,88 @@
       "number": 1,
       "year": 2020,
       "episodes": 10,
-      "release_date": { "value": "2020-12-18", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-12-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.8, "basis": "Inventive creature design and a genuinely unusual lead performance elevate a debut season that critics flagged as uneven but viscerally effective." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Inventive creature design and a genuinely unusual lead performance elevate a debut season that critics flagged as uneven but viscerally effective."
+      },
       "critic": {
         "positive_pct": 86,
         "sample": 7,
         "pull_quotes": []
       },
-      "audience": { "rating": 7.4, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt11612120/" },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11612120/"
+      },
       "review_body": "Season 1 arrived December 2020 and critics praised the creature design, calling the monster-making inventive and often wonderfully gross. Decider's Joel Keller noted that despite a premise familiar from the genre, Sweet Home distinguishes itself through its setting and the imagination applied to each monster's origin in human desire. The 86-percent Rotten Tomatoes score reflected a critical consensus that the show's visual effects and emotional backbone outweighed its narrative roughness. Audience scores landed at IMDb ratings above 7, solid for a debut horror series with an unusual visual register and a protagonist whose survival is never framed as heroic.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-12-18",
+          "bollymeter": 8.2,
+          "spoiler_free": "Cha Hyun-su moves into an apartment block with every intention of dying alone, and within hours the building's other residents begin mutating. The premiere establishes the monster design philosophy - each transformation is the physical expression of a human desire - before Hyun-su understands he might be next.",
+          "the_moment": "The first transformation in the adjacent apartment, witnessed through a wall - the show stating its aesthetic ambition before any exposition.",
+          "critic_note": {
+            "text": "Sweet Home is highly enjoyable, extremely gory - inventive creature design capable of delivering real chills and Evil Dead-style goofiness.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2020/12/18/sweet-home-season-1-netflix-review/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2020-12-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The ensemble has coalesced into something like a survivor community, and the show is testing its central question: whether Hyun-su's desire to die makes him more or less susceptible to mutation than people who want to live. The creature designs this episode are the season's most formally inventive.",
+          "the_moment": "Hyun-su confronting what is happening inside himself - the show's horror made psychological rather than just physical.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2020-12-18",
+          "bollymeter": 7.8,
+          "spoiler_free": "The second half shifts toward an ensemble survival drama with Hyun-su's transformation as the season's defining tension. The character deaths begin accumulating weight, and the show's willingness to kill major figures without redemption arcs is its most formally honest quality.",
+          "the_moment": "A death that the show refuses to frame as heroic - the season's clearest statement about what it believes.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2020-12-18",
+          "bollymeter": 7.9,
+          "spoiler_free": "The season finale refuses a clean resolution: Hyun-su's status, the building, the outside world are all left mid-process rather than concluded. Critics praised this as a season that understood its story was not finished; audiences responded by making the show one of Netflix's most-watched Korean series of 2020.",
+          "the_moment": "Hyun-su leaving the building - an image ambiguous enough to fuel discourse through the full three-year wait for Season 2.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2023,
       "episodes": 8,
-      "release_date": { "value": "2023-12-01", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-12-01",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 5.9, "basis": "Expanded scope fragments the tight apartment-block premise into a war-movie spread that critics and audiences found less cohesive than the original." },
+      "bollymeter": {
+        "score": 5.9,
+        "basis": "Expanded scope fragments the tight apartment-block premise into a war-movie spread that critics and audiences found less cohesive than the original."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -56,9 +139,17 @@
       "number": 3,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-07-19", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-07-19",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 5.4, "basis": "NME and SCMP both flagged a series in steep narrative decline; a finale that resolves the arc but cannot recover the original's tonal clarity." },
+      "bollymeter": {
+        "score": 5.4,
+        "basis": "NME and SCMP both flagged a series in steep narrative decline; a finale that resolves the arc but cannot recover the original's tonal clarity."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -76,5 +167,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

@@ -1,11 +1,31 @@
 {
   "slug": "avatar-the-last-airbender",
-  "qid": { "value": "Q109608844", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Avatar: The Last Airbender", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q109608844",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Avatar: The Last Airbender",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "Netflix's live-action retelling of the Nickelodeon animated classic: Aang, the last Airbender and Avatar, joins Water Tribe siblings Sokka and Katara to master the four elements and end the Fire Nation's war.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-02-22", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-02-22",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.2, "basis": "62% on Rotten Tomatoes from 86 critics; mixed consensus: production design and key castings praised, but pacing, stripped humour, and compressed emotional arcs drew sustained criticism from reviewers familiar with the source." },
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "62% on Rotten Tomatoes from 86 critics; mixed consensus: production design and key castings praised, but pacing, stripped humour, and compressed emotional arcs drew sustained criticism from reviewers familiar with the source."
+      },
       "critic": {
         "positive_pct": 62,
         "sample": 86,
@@ -38,8 +66,59 @@
           }
         ]
       },
-      "audience": { "rating": 7.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt9018736/" },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9018736/"
+      },
       "review_body": "Netflix's live-action Season 1 debuted February 22, 2024 and immediately topped the global Netflix chart with 298.6 million hours viewed in under two weeks, demonstrating the franchise's IP pull regardless of critical reception. Critics settled at 62% on Rotten Tomatoes from 86 reviews, Metacritic at 55. The split: production design, world-building, and the casting of Paul Sun-Hyung Lee as Uncle Iroh and Dallas Liu as Zuko drew consistent praise. Against that, critics flagged stripped humour and warmth from the original's ensemble dynamic, rushed pacing that compressed multi-episode animated arcs into single live-action episodes, and a generally darker register that removed the source's tonal dexterity. A.V. Club's Jenna Scherer noted it was 'at least better than Shyamalan', a low bar that the show mostly cleared without transcending.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Aang",
+          "air_date": "2024-02-22",
+          "bollymeter": 6.5,
+          "spoiler_free": "The live-action premiere establishes Aang's discovery, Sokka and Katara's Water Tribe, and the Fire Nation threat with competent efficiency. Gordon Cormier's Aang captures the character's lightness; the production design is striking. The episode's failure is tonal: the warmth that makes the animated series beloved is present in architecture but absent in execution.",
+          "the_moment": "Aang on his air glider above the ice - the one moment where the show briefly captures what the original felt like.",
+          "critic_note": {
+            "text": "At best competent, with handsome production design, but strips out the humour of the original.",
+            "source": "Paste Magazine",
+            "url": "https://www.pastemagazine.com/tv/avatar-the-last-airbender-netflix-review"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Omashu",
+          "air_date": "2024-02-22",
+          "bollymeter": 6.8,
+          "spoiler_free": "The Omashu episode is the season's most effective compression: the earthbending city, King Bumi, and the mail chute sequence all function. Paul Sun-Hyung Lee's Iroh is the show's consistent bright spot - warm, wise, and occupying the scenes Zuko cannot fill alone.",
+          "the_moment": "Iroh's quiet conversation with a Fire Nation soldier - the show's best single scene, Paul Sun-Hyung Lee doing everything the role requires.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "The North",
+          "air_date": "2024-02-22",
+          "bollymeter": 7.0,
+          "spoiler_free": "The Northern Water Tribe arc is the season's most visually ambitious stretch. The production design is at its grandest; the waterbending fight sequences are the best-choreographed in the run. The emotional stakes between Aang and his duty feel more real here than in any prior episode.",
+          "the_moment": "The waterbending duel choreography - the show delivering the physical spectacle its budget was deployed to create.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Legends",
+          "air_date": "2024-02-22",
+          "bollymeter": 7.2,
+          "spoiler_free": "The season finale delivers its action setpieces and emotional resolutions with reasonable craft. Aang's Avatar State and the Northern Water Tribe's defence arrive with appropriate scale. What the show cannot deliver is the original's emotional depth; what it can deliver, it does.",
+          "the_moment": "Aang in the Avatar State above the North Pole - the sequence that briefly makes the show feel like it has earned its source material.",
+          "critic_note": {
+            "text": "Netflix's Avatar finale delivers spectacle; the heart of the original remains its most elusive element.",
+            "source": "The Verge",
+            "url": "https://www.theverge.com/2024/2/22/24079832/avatar-the-last-airbender-netflix-review"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
@@ -47,5 +126,5 @@
     "poster: no originalimage on Wikipedia REST for the 2024 Netflix series page; fallback set",
     "qid: Q109608844 is the parent series QID derived from Season 1 Wikidata entry (Q124633659) 'part of the series' property"
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

@@ -1,11 +1,26 @@
 {
   "slug": "brown",
   "qid": null,
-  "title": { "value": "Brown", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "inferred" },
+  "title": {
+    "value": "Brown",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "inferred"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "ZEE5", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ZEE5",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "An Anglo-Indian Kolkata detective investigates the murder of a teenager from a powerful family while battling her own demons, in a noir thriller adapted from the novel City of Death.",
   "poster": {
@@ -24,9 +39,17 @@
       "number": 1,
       "year": 2026,
       "episodes": 7,
-      "release_date": { "value": "2026-06-05", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-06-05",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.2, "basis": "Atmospheric Kolkata noir elevated by a committed Karisma Kapoor, undercut by a sluggish pace and a predictable murder-mystery that delivers no surprises in seven episodes." },
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Atmospheric Kolkata noir elevated by a committed Karisma Kapoor, undercut by a sluggish pace and a predictable murder-mystery that delivers no surprises in seven episodes."
+      },
       "critic": {
         "positive_pct": 55,
         "sample": 7,
@@ -50,9 +73,51 @@
         "source_url": "https://www.imdb.com/title/tt26766517/"
       },
       "review_body": "Brown arrived carrying the weight of a major Karisma Kapoor comeback and the atmospheric promise of Kolkata noir. Critics landed in a familiar split: the performance camp found her uninhibited and physically committed, genuinely shedding the glitzy legacy. The craft camp noted that director Abhinay Deo builds a richly textured world, only to let it sink under a standard premise and a pacing that tests patience across seven episodes. The murder mystery offers no real surprises, and reviewers across outlets flagged cliches and formula. What rescues it from a skip is the texture of the setting and the lead performance. The reception settled as mixed-to-slightly-positive, with most critics recommending it as a one-time watch for Kapoor fans rather than a standout thriller on its own terms.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2026-06-05",
+          "bollymeter": 6.5,
+          "spoiler_free": "Detective Rita Brown is called to investigate the death of a teenager connected to one of Kolkata's most powerful families. The ZEE5 noir establishes its period-adjacent atmosphere efficiently; Karisma Kapoor's physicality signals immediately this is a different kind of role for her.",
+          "the_moment": "Rita Brown's first crime scene walk-through - all body language, no exposition.",
+          "critic_note": {
+            "text": "Karisma Kapoor is very watchable, but her Rita Brown is too much of a literary formula to make a dent.",
+            "source": "Hollywood Reporter India",
+            "url": "https://www.hollywoodreporterindia.com/reviews/streaming/brown-series-review-this-stylish-karisma-kapoor-led-crime-drama-lacks-substance"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2026-06-05",
+          "bollymeter": 6.3,
+          "spoiler_free": "The powerful family's internal fractures start showing as Rita digs deeper. The Kolkata production design earns its keep in this episode - every location choice feels specific to a city rather than a generic streaming backdrop.",
+          "the_moment": "Rita confronting the family patriarch - the scene where the atmosphere finally matches the stakes.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2026-06-05",
+          "bollymeter": 6.2,
+          "spoiler_free": "Mid-season, the investigation turns toward a suspect who complicates Rita's assumptions. The pacing problem the series has been accumulating starts to show; what worked in the noir setup now strains across the longer running time.",
+          "the_moment": "A late-night confrontation on the Kolkata riverbank - atmospheric, if a little too on-the-nose.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2026-06-05",
+          "bollymeter": 6.4,
+          "spoiler_free": "The finale resolves the central murder with a twist that critics found functional rather than surprising. Kapoor carries the conclusion on performance alone; the screenplay delivers the required answers without delivering genuine shock.",
+          "the_moment": "Brown's closing monologue - Kapoor at her most committed in a season that asked a lot of her.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

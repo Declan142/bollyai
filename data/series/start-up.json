@@ -1,0 +1,109 @@
+{
+  "slug": "start-up",
+  "qid": {
+    "value": "Q79997521",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Start-Up",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A young woman chases her late father's tech dream in Silicon Valley-inspired Seoul while two men from her past compete for her trust and her start-up's future.",
+  "poster": {
+    "src": "/img/series/start-up/poster.jpg",
+    "alt": "Start-Up series poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season series; concluded December 6, 2020. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Start-Up_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-10-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb 7.9, strong first half and Park Hye-ryun's dialogue praised, but second-half romance plotting drew sharp criticism from both critics and audience; love-triangle backlash is a documented fact of record."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Start-Up is at its best when it trusts its entrepreneurship premise and at its weakest when the love triangle takes over the wheel.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/start_up_2020/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12867810/"
+      },
+      "review_body": "Start-Up opens with genuine promise: a Korean tech-startup world rendered with visual energy, and a Kim Seon-ho performance that became its own phenomenon. The early episodes, anchored by Han Ji-pyeong's dry wit and a Sandbox accelerator setting that felt fresh for the genre, built a strong audience. The problem that multiple critics and a vocal viewership flagged was identical - the show's back half surrendered the entrepreneurship narrative to a love-triangle rotation that satisfied neither camp. Park Hye-ryun's screenplay, which built one of the most beloved second-lead characters in Korean drama history, ultimately chose the conventional route for its heroine. IMDb settled at 7.9, reflecting genuine enjoyment tempered by structural disappointment. On Netflix, the show remains high-traffic because Kim Seon-ho's character arc functions almost as a standalone emotional argument.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-10-17",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere sets up the childhood letter-writing premise that will haunt the season's romantic geometry. The visual rendering of the Sand Box hub communicates scale and aspiration effectively; the first meeting between Seo Dal-mi and the two male leads is staged with care.",
+          "the_moment": "The reveal connecting the childhood letters to the present timeline - the hook that made first-episode viewers immediately return for Episode 2.",
+          "critic_note": {
+            "text": "A confident, charming first hour with real ambitions beyond the genre.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/start_up_2020/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2020-11-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The episode where Han Ji-pyeong's emotional backstory snaps into focus and Kim Seon-ho turns a supporting role into the season's most-discussed performance. The Sandbox pitch sequence that closes this hour became a clip that circulated widely on social media.",
+          "the_moment": "Han Ji-pyeong's first genuine moment of vulnerability - the episode that made the second-lead shipping fandom a cultural story in its own right.",
+          "critic_note": {
+            "text": "Kim Seon-ho makes this the most watchable hour of the series.",
+            "source": "MyDramaList community consensus",
+            "url": "https://mydramalist.com/51909-sandbox/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

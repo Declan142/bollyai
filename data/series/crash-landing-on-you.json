@@ -1,11 +1,31 @@
 {
   "slug": "crash-landing-on-you",
-  "qid": { "value": "Q65258113", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Crash Landing on You", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q65258113",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Crash Landing on You",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A South Korean heiress crash-lands in North Korea and falls for the army officer assigned to keep her existence secret.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2019,
       "episodes": 16,
-      "release_date": { "value": "2019-12-14", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2019-12-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.9, "basis": "Consistently praised for lead chemistry, production scale, and its rare North-South Korea setting; audience signal stays unusually high four years post-release." },
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Consistently praised for lead chemistry, production scale, and its rare North-South Korea setting; audience signal stays unusually high four years post-release."
+      },
       "critic": {
         "positive_pct": 90,
         "sample": 8,
@@ -45,9 +73,55 @@
         "source_url": "https://mydramalist.com/35729-emergency-lands-of-love"
       },
       "review_body": "Crash Landing on You landed as the definitive crossover K-drama of its era, and the numbers backed the reception: a MyDramaList score of 9.0 from over 161,000 users, alongside IMDb's 8.7. Critics converged on the same praise points: the chemistry between Hyun Bin and Son Ye-jin, a North Korea setting handled with unexpected warmth and humour, and production values that felt cinematic rather than televisual. The Guardian called it outright addictive. The show's 2020 finale achieved cable records in Korea. The outlier criticism concerned runtime bloat in mid-season episodes, a complaint largely drowned out by audience enthusiasm. On Netflix India, it remains a reliable entry point for first-time K-drama viewers.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-12-14",
+          "bollymeter": 9.0,
+          "spoiler_free": "Se-ri crash-lands in North Korea while paragliding and is discovered by the stoic officer Ri Jeong-hyeok. The show's tonal pitch - absurd situation played with utter sincerity - is established immediately, and the two leads generate chemistry before they even understand each other.",
+          "the_moment": "Se-ri descending from a tree into Jeong-hyeok's arms in a forest he was about to leave - the accidental meeting that frames the whole series.",
+          "critic_note": {
+            "text": "The drama tells an infectiously amusing inter-Korean love story that'll please both romance fans and those interested in geopolitics.",
+            "source": "Cinema Escapist",
+            "url": "https://www.rottentomatoes.com/tv/crash_landing_on_you/s01"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2020-01-11",
+          "bollymeter": 8.8,
+          "spoiler_free": "The North Korean village storyline reaches its warmest peak before the show pivots south. The soldiers' camaraderie and the village women's collective acts of quiet hospitality make this the episode most viewers cite when asked what Crash Landing on You feels like.",
+          "the_moment": "The village women preparing food together for Se-ri in secret - a scene of uncomplicated warmth inside a story otherwise full of tension.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Episode 13",
+          "air_date": "2020-02-08",
+          "bollymeter": 8.5,
+          "spoiler_free": "The show moves between the two Koreas with increasing urgency as both leads face the cost of the choices they have been deferring. The emotional weight shifts from the comic to the genuinely painful, and neither lead lets the melodrama tip into excess.",
+          "the_moment": "A phone call between the leads in which both are pretending to be fine and neither is - the scene that broke the audience before the finale.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2020-02-16",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale achieved 21.68% national viewership, the highest in tvN history at the time. It resolves the border-crossing impossibility with a solution that is emotionally credible and narratively disciplined, landing the show's long bet on sincerity over spectacle.",
+          "the_moment": "The annual reunion across an uncrossable distance - the image viewers carried out of the show and into the cultural conversation.",
+          "critic_note": {
+            "text": "Addictively off-the-wall, heartbreaking and hilarious.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2020/may/11/crash-landing-on-you-review-south-korean-soap-opera"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

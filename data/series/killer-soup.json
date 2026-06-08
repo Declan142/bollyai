@@ -1,0 +1,109 @@
+{
+  "slug": "killer-soup",
+  "qid": {
+    "value": "Q124036984",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Killer Soup",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A provincial woman with restaurant dreams and a secret affair improvises a substitution scheme after her husband's accidental death - Abhishek Chaubey's blackest comedy in a body-swap format starring Konkona Sen Sharma and Manoj Bajpayee at their most unhinged.",
+  "poster": {
+    "src": "/img/series/killer-soup/poster.jpg",
+    "alt": "Killer Soup series poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series; no renewal announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Killer_Soup"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-01-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "69% on Rotten Tomatoes (13 critics); 6.3 IMDb. The critical split ran along taste lines - those who surrendered to the show's operatic excess found it superb; those who wanted a tighter crime plot found it overcooked. Film Companion's Rahul Desai titled his review 'Desperately Seeking Shakespeare', which captures the ambition and the overreach simultaneously."
+      },
+      "critic": {
+        "positive_pct": 69,
+        "sample": 13,
+        "pull_quotes": [
+          {
+            "text": "An intoxicating antithesis - a deliciously dark Shakespearean tragedy with solid performances.",
+            "source": "Popcorn Reviewss",
+            "url": "https://popcornreviewss.com/killer-soup-2024-series-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt22297290/"
+      },
+      "review_body": "Killer Soup was Abhishek Chaubey operating at peak register - which is to say, maximum strangeness. The show asked Manoj Bajpayee to play two characters (husband and lover, one of whom is pretending to be the other), a structural conceit that required him to perform a double impression of himself, and he delivered something genuinely strange and funny and sad. Konkona Sen Sharma as Swathi, the woman at the centre of the scheme, gave the show its moral compass: a character defined by appetite (restaurant dreams, romantic desire, survival instinct) in a world that has consistently misread her. Critics at 69% on RT reflected the show's genuine divisions - the excess is either the point or the problem - but Film Companion's read that it was reaching for Shakespeare was not wrong. The audience at 6.3 IMDb was slightly uncharitable to what is, in aggregate, one of 2024's most distinctive Indian originals.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-11",
+          "bollymeter": 6.6,
+          "spoiler_free": "Swathi's domestic architecture is established with care - her soup, her dreams, her affair, her marriage - before a single event tips everything into freefall. Chaubey uses the Maangaluru coastal setting as a character, all heat and salt and slow decay. The premiere is a slow-burn setup, deliberate and slightly unsettling, that ends on a note of domestic catastrophe with no dramatic overscoring.",
+          "the_moment": "Swathi's soup - the show's recurring symbol - served to a table of oblivious diners who have no idea what it has already cost her.",
+          "critic_note": {
+            "text": "Abhishek Chaubey's strange, untamed black comedy announced itself with a debut episode that trusts its own weirdness.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/killer-soup-review-desperately-seeking-shakespeare"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2024-01-11",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale delivers Swathi's restaurant opening alongside the case's final unravelling - the show's two registers (dark comedy and crime consequence) collide in a way that is either brilliantly messy or just messy depending on your tolerance. Bajpayee's double performance reaches its completion. The soup's secret ingredient is revealed, and it is, in Chaubey's hands, both literal and metaphorical.",
+          "the_moment": "Swathi serving the final bowl - everything the show is about, compressed into a single act of feeding.",
+          "critic_note": {
+            "text": "Killer Soup ends as it began: excessive, committed, and more interesting than most of what Indian streaming produces.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/killer-soup-review-desperately-seeking-shakespeare"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

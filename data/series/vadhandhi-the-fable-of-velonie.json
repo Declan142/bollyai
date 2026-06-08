@@ -1,11 +1,31 @@
 {
   "slug": "vadhandhi-the-fable-of-velonie",
-  "qid": { "value": "Q115822665", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Vadhandhi: The Fable of Velonie", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q115822665",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Vadhandhi: The Fable of Velonie",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "ta", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ta",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "limited",
   "logline": "In the coastal town of Kanyakumari, a young woman is found murdered and a media frenzy threatens to bury the truth; one diligent cop wades through rumour, misdirection, and grief to find what actually happened to Velonie.",
   "poster": {
@@ -24,22 +44,85 @@
       "number": 1,
       "year": 2022,
       "episodes": 8,
-      "release_date": { "value": "2022-12-02", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-12-02",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 6.8, "basis": "Strong lead performances and an evocative Kanyakumari setting offset a screenplay that reviewers found structurally mechanical and emotionally under-powered compared to its intentions." },
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Strong lead performances and an evocative Kanyakumari setting offset a screenplay that reviewers found structurally mechanical and emotionally under-powered compared to its intentions."
+      },
       "critic": {
         "positive_pct": 60,
         "sample": 8,
         "pull_quotes": [
-          { "text": "In spite of its focus on characters and setting, the structure rings artificial, driven wholly by the mechanics of a plot and rarely by emotions.", "source": "Film Companion", "url": "https://www.filmcompanion.in/reviews/streaming-reviews/vadhandhi-the-fable-of-velonie-on-amazon-prime-video-indulges-in-obvious-misdirection-to-be-engaging" },
-          { "text": "Vadhandhi has an important point to make and remains watchable, but it neither thrills nor achieves the emotional highs it aspires for.", "source": "LensMen Reviews", "url": "https://lensmenreviews.com/vadhandhi-the-fable-of-velonie-tamil-series-review-amazon-prime-video-2022/" }
+          {
+            "text": "In spite of its focus on characters and setting, the structure rings artificial, driven wholly by the mechanics of a plot and rarely by emotions.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/vadhandhi-the-fable-of-velonie-on-amazon-prime-video-indulges-in-obvious-misdirection-to-be-engaging"
+          },
+          {
+            "text": "Vadhandhi has an important point to make and remains watchable, but it neither thrills nor achieves the emotional highs it aspires for.",
+            "source": "LensMen Reviews",
+            "url": "https://lensmenreviews.com/vadhandhi-the-fable-of-velonie-tamil-series-review-amazon-prime-video-2022/"
+          }
         ]
       },
-      "audience": { "rating": 7.9, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt21908550/" },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21908550/"
+      },
       "review_body": "Andrew Louis's debut series arrives with considerable expectation, positioned as the next entry in the Tamil OTT crime wave after Suzhal. The Kanyakumari setting is genuinely distinctive, the cast delivers, and the show has something real to say about media trial culture and the posthumous shaming of murder victims. Where critics diverged was on execution. The thriller mechanics rely heavily on misdirection that reviewers found obvious rather than layered, and the emotional beats feel engineered by plot logic rather than character truth. It is a show that makes its case competently without fully landing it. Audience scores were solid, suggesting the mystery hook and performances carried casual viewers even when the structure did not.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Dead Star",
+          "air_date": "2022-12-02",
+          "bollymeter": 7.2,
+          "spoiler_free": "Velonie is found dead in Kanyakumari; Inspector Vivek Rajamani begins an investigation the media is already turning into a spectacle. The debut episode's atmosphere is immediately distinctive - the coastal location, the blue light, and a central tragedy involving a young woman the press is already revising into a symbol.",
+          "the_moment": "The first shot of the Kanyakumari shore - the setting establishing itself as a character.",
+          "critic_note": {
+            "text": "In spite of its focus on characters and setting, the structure rings artificial, driven wholly by the mechanics of a plot and rarely by emotions.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/vadhandhi-the-fable-of-velonie-on-amazon-prime-video-indulges-in-obvious-misdirection-to-be-engaging"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Vivek Takes Charge",
+          "air_date": "2022-12-02",
+          "bollymeter": 7.0,
+          "spoiler_free": "Rajamani asserts his authority over an investigation already compromised by media pressure and family politics. The small-town social texture is the show's strongest quality - the way everyone knows everyone, and therefore cannot see clearly, is rendered with unusual specificity.",
+          "the_moment": "Rajamani shutting down a press briefing - the show's clearest statement that it intends to protect Velonie's story from exactly what is trying to consume it.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "An Intellectual Killer",
+          "air_date": "2022-12-02",
+          "bollymeter": 6.9,
+          "spoiler_free": "A suspect profile hardens but the misdirection the show has been building threatens to resolve too neatly. Critics who found the structural mechanics obvious would point to this episode - the thriller is doing its job but the emotional architecture is thinner than the plot deserves.",
+          "the_moment": "The suspect interview that confirms the show's misdirection strategy - effective on plot terms, hollow on character terms.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Vadhandhi Continues",
+          "air_date": "2022-12-02",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale names Velonie's killer and delivers a closing argument about how rumour shapes the truth of a dead woman's life. The show's thesis - that vadhandhi (gossip) is itself a form of violence - is most clearly stated here, and the setting earns its place in the resolution.",
+          "the_moment": "The final image of Velonie reclaimed from the media narrative - the season's thesis completed in one quiet visual.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

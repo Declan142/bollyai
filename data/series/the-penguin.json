@@ -1,0 +1,96 @@
+{
+  "slug": "the-penguin",
+  "qid": {
+    "value": "Q111189743",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Penguin",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "JioHotstar India (HBO Max)",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "logline": "Oz Cobb - the Penguin - claws his way from foot soldier to Gotham crime boss in the power vacuum left after the events of The Batman, dismantling everything in his path.",
+  "poster": {
+    "src": "/img/series/the-penguin/poster.jpg",
+    "alt": "The Penguin series poster",
+    "attribution": "Poster © HBO / DC Studios / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A limited series of eight episodes; no second season announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Penguin_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "95% on Rotten Tomatoes from 195 critics. Colin Farrell's transformation and Cristin Milioti's scene-stealing Sofia Falcone gave critics what amounted to a character study wrapped in a mob drama - darker and more precise than superhero TV typically manages."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 195,
+        "pull_quotes": [
+          {
+            "text": "A ferociously entertaining crime drama elevated by two powerhouse lead performances - and Colin Farrell is unrecognisable in the best possible way.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_penguin/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15435876/"
+      },
+      "review_body": "The Penguin is the best argument DC has made in years for the superhero-adjacent limited series format. Lauren LeFranc built eight episodes around Oz Cobb's ascent - and crucially, the show works as a crime drama first and a DC property second. Colin Farrell under three hours of prosthetics delivers a performance of genuine menace and dark comedy, but the critical surprise was Cristin Milioti as Sofia Falcone: wounded, brilliant, and terrifying. Critics pointed to the show's willingness to let Gotham be genuinely grimy - no CGI spectacle, mostly intimate rooms and bad decisions. The 5.3 million viewers at launch were the highest-rated HBO premiere in two years, and the critical score (95% RT) put it among the best DC productions ever made.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "After Hours",
+          "air_date": "2024-09-19",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere drops Oz Cobb into the chaos immediately after The Batman's flood - Gotham in ruins, the crime families scrambling, and Oz already scheming. The show's visual vocabulary is established: close, grimy, neon-soaked. Farrell commands every scene, but the episode's most interesting move is the early introduction of Sofia Falcone, who immediately suggests she'll be the season's most dangerous variable.",
+          "the_moment": "Oz's first confrontation with Sofia, where the show signals that this will not be a solo character study but a collision of two equally ruthless intelligences.",
+          "critic_note": {
+            "text": "A gripping, confident premiere that plays like premium mob TV rather than superhero spectacle.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_penguin/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

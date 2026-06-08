@@ -1,11 +1,31 @@
 {
   "slug": "all-of-us-are-dead",
-  "qid": { "value": "Q96414952", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "All of Us Are Dead", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q96414952",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "All of Us Are Dead",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A zombie virus outbreak traps high school students inside their school, forcing them to survive each other as much as the infected.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2022,
       "episodes": 12,
-      "release_date": { "value": "2022-01-28", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-01-28",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.5, "basis": "89% on Rotten Tomatoes and 474 million hours viewed in 30 days make this one of Netflix Korea's biggest launches; the twelve-episode length stretched thin but the emotional grounding held." },
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "89% on Rotten Tomatoes and 474 million hours viewed in 30 days make this one of Netflix Korea's biggest launches; the twelve-episode length stretched thin but the emotional grounding held."
+      },
       "critic": {
         "positive_pct": 89,
         "sample": 27,
@@ -43,13 +71,64 @@
           }
         ]
       },
-      "audience": { "rating": 7.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14169960/" },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14169960/"
+      },
       "review_body": "Released January 28, 2022, Season 1 was watched 474 million hours in its first 30 days, making it one of the largest launches in Netflix Korea's history. Critics at 89 percent positive on Rotten Tomatoes praised the show's ability to place zombie horror inside a Korean high school's social hierarchies, extracting genuine emotional stakes from survival dynamics. The consensus noted the 12-episode run overstayed its premise: NME's Carmen Chin called it a grisly series that bites off more than it can chew. Variety's Caroline Framke highlighted the show's skill with nightmarish central location, comparing the spatial pressure to Squid Game's arena. Metacritic landed at 67, generally favorable. IMDb audience scores at 7.2 reflect solid but not exceptional viewer satisfaction.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-01-28",
+          "bollymeter": 8.2,
+          "spoiler_free": "The zombie outbreak begins inside Hyosan High as students realise something is catastrophically wrong. The episode earns its tension by keeping the horror close and personal, using the confined corridors of the school to establish the spatial rules the season will live inside.",
+          "the_moment": "The first transformation in a classroom - a teacher becoming something else in front of terrified students - sets the season's tone with no warning.",
+          "critic_note": {
+            "text": "All of Us Are Dead loses some bite with an overlong season but its emotional grounding puts meat on the bone.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/all_of_us_are_dead/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2022-01-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "Survival alliances fracture and reform as the group attempts its first coordinated push through infected territory. The episode sharpens the show's central question: whether the social hierarchies of school can survive apocalypse, or whether the apocalypse simply accelerates them.",
+          "the_moment": "A rooftop standoff that reframes the central relationship between the leads, pushing their dynamic past survival mechanics into something harder to name.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2022-01-28",
+          "bollymeter": 7.5,
+          "spoiler_free": "The show introduces a new wrinkle to its zombie mythology - not all infected are the same - that gives the season a second gear. Character losses accumulate with enough weight to keep the emotional investment high even as the episode count begins to feel extended.",
+          "the_moment": "A character's transformation that reframes the moral stakes the survivors have been arguing about all season.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2022-01-28",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season finale resolves the school siege with a mix of sacrifice and ambiguity. The emotional beats land harder than the plot mechanics, and the ending earns its survivors' exhaustion even if the broader situation remains unresolved as a Season 2 setup.",
+          "the_moment": "A final image of students outside the school fence - alive, but fundamentally changed - that captures the cost the season spent twelve episodes accumulating.",
+          "critic_note": {
+            "text": "A grisly series that bites off more than it can chew.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/all-of-us-are-dead-review-netflix-k-drama-3147993"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [
     "Season 2 production wrapped February 2026; no release date confirmed as of June 2026. Season 2 entry to be seeded on announcement."
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

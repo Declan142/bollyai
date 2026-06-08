@@ -1,11 +1,31 @@
 {
   "slug": "wednesday",
-  "qid": { "value": "Q105553568", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Wednesday", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q105553568",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Wednesday",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "Wednesday Addams navigates her psychic abilities, murder mysteries, and fractious social politics at Nevermore Academy, a school for supernatural outcasts.",
   "poster": {
@@ -24,25 +44,92 @@
       "number": 1,
       "year": 2022,
       "episodes": 8,
-      "release_date": { "value": "2022-11-23", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2022-11-23",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 7.8, "basis": "A sleek, commercially calibrated gothic mystery elevated by Jenna Ortega's physical performance; critic consensus settled around enjoyably pulpy rather than genuinely surprising." },
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "A sleek, commercially calibrated gothic mystery elevated by Jenna Ortega's physical performance; critic consensus settled around enjoyably pulpy rather than genuinely surprising."
+      },
       "critic": {
         "positive_pct": 73,
         "sample": 172,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt13443470/" },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13443470/"
+      },
       "review_body": "Season 1 arrived as Netflix's biggest English-language series debut at the time, riding Jenna Ortega's deadpan physicality and Tim Burton's gothic production design. Critics logged a functional but unambitious mystery plot propped up by a breakout lead performance. The 73% Rotten Tomatoes score reflects a split between those who found the tone freshly off-kilter and those who called it formula with better eyeliner. Audience appetite wildly outpaced critical caution. The Nevermore Academy setting gave the show a stable visual identity; the whodunit scaffolding held well enough across eight episodes without demanding much structural lift.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Wednesday's Child Is Full of Woe",
+          "air_date": "2022-11-23",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season premiere lands Jenna Ortega's Wednesday Addams at Nevermore Academy with immediate, deadpan authority. Tim Burton's visual design is distinctive and committing; the show's gothic-mystery genre is established without apology. The pilot's function is to establish what Wednesday is - and that function it performs completely.",
+          "the_moment": "Wednesday's fencing match against the school bullies - physicality and character delivered in a single choreographed sequence.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Friend or Woe",
+          "air_date": "2022-11-23",
+          "bollymeter": 7.5,
+          "spoiler_free": "The Nevermore social dynamics solidify as Wednesday's investigation into Jericho's monster mythology deepens. Enid's werewolf arc and Wednesday's reluctant friendship trajectory are the season's emotional throughline - the show is most effective when it trusts this relationship.",
+          "the_moment": "Wednesday and Enid's first moment of genuine connection - the deadpan monster and the eager normie finding unexpected common ground.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "You Reap What You Woe",
+          "air_date": "2022-11-23",
+          "bollymeter": 8.0,
+          "spoiler_free": "The Addams family arrive at Nevermore for Parents' Weekend, giving the show its broadest comic register. Gómez and Morticia on campus is the season's most joyful stretch. Wednesday's psychic visions advance the mystery arc; the episode manages tonal multiplicity with unusual ease.",
+          "the_moment": "Gomez and Morticia's Nevermore arrival - the Addams family aesthetic amplified to its proper scale for the first time.",
+          "critic_note": {
+            "text": "Wednesday's first season is formula with better eyeliner - but what eyeliner, and what formula.",
+            "source": "The Atlantic",
+            "url": "https://www.theatlantic.com/culture/archive/2022/11/wednesday-netflix-review-jenna-ortega/672296/"
+          }
+        },
+        {
+          "number": 8,
+          "title": "A Murder of Woes",
+          "air_date": "2022-11-23",
+          "bollymeter": 8.0,
+          "spoiler_free": "The season finale resolves the hyde and mastermind mystery with the show's characteristic mixture of gothic spectacle and teenage emotional stakes. Wednesday's arc completes with a clarity the series will have to resist in future seasons. Ortega's physical performance throughout the episode is the show's best argument for itself.",
+          "the_moment": "Wednesday's solo fight sequence against the hyde - physical storytelling that the show's writing cannot quite match but Ortega delivers completely.",
+          "critic_note": {
+            "text": "Wednesday delivers the finale its premise promised - entertaining, visually confident, and built around a star performance.",
+            "source": "Variety",
+            "url": "https://variety.com/2022/tv/reviews/wednesday-review-netflix-tim-burton-jenna-ortega-1235434282/"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2025,
       "episodes": 8,
-      "release_date": { "value": "2025-08-06", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-08-06",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.2, "basis": "Critical score improved to 83% but reviewer language tilted toward 'turgid' and 'out of surprises'; audience remained loyal, commercial performance was record-breaking." },
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Critical score improved to 83% but reviewer language tilted toward 'turgid' and 'out of surprises'; audience remained loyal, commercial performance was record-breaking."
+      },
       "critic": {
         "positive_pct": 83,
         "sample": 85,
@@ -54,7 +141,12 @@
           }
         ]
       },
-      "audience": { "rating": 8.0, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt13443470/" },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13443470/"
+      },
       "review_body": "Season 2 shipped in two parts across August and September 2025, landing at 83% on Rotten Tomatoes and number one in 91 countries in its first week, clocking 625.9 million cumulative hours viewed. The critical headline read as an improvement over Season 1's 73%, but the actual review language told a more complicated story: Hollywood Reporter called it 'turgid', with Wednesday 'reduced to a psychic gumshoe prone to seizures'. Positive critics pointed to sharper direction and expanded mythology. The Addams family fan base absorbed both verdicts and turned out anyway. The sophomore slump was avoided commercially; creatively, the writing room ran familiar patterns without deepening the central character.",
       "season_over_season": "Rotten Tomatoes score jumped ten points over Season 1, but the critical language grew more qualified; the commercial runaway performance widened while craft assessments plateaued."
     }
@@ -62,5 +154,5 @@
   "_quarantine": [
     "poster: no originalimage on Wikipedia REST for Wednesday (TV series); fallback set"
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

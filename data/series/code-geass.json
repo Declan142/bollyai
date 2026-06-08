@@ -1,0 +1,134 @@
+{
+  "slug": "code-geass",
+  "qid": null,
+  "title": {
+    "value": "Code Geass: Lelouch of the Rebellion",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll official",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A disinherited prince with the power to command absolute obedience from anyone deploys a genius-level chess mind against an empire - disguised as a masked terrorist his own allies don't know is their enemy.",
+  "poster": {
+    "src": "/img/series/code-geass/poster.jpg",
+    "alt": "Code Geass: Lelouch of the Rebellion series poster",
+    "attribution": "Poster © Sunrise / Bandai Namco. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The two-season original series concluded September 28, 2008; recap films and a sequel film (Lelouch of the Re;surrection, 2019) followed. New projects announced for the franchise's 20th anniversary in 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Code_Geass"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2006,
+      "episodes": 25,
+      "release_date": {
+        "value": "2006-10-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "IMDb 8.7 series overall; the first season's combination of mecha action, political chess, and a protagonist who is explicitly not a hero generated a critical-audience consensus that marks Code Geass as the decade's defining smart-action anime. The mid-season cliffhanger is widely cited as anime's most effective tactical heel-turn."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Lelouch is anime's most compelling antihero - a character study wrapped in mecha action that never loses sight of its moral complexity.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/code_geass_lelouch_of_the_rebellion"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0994314/"
+      },
+      "review_body": "Code Geass Season 1 runs as two competing shows inside one runtime - a Sunrise mecha action series (competent, kinetic, well-produced) and a political thriller about a boy who might be the smartest person in the room but is absolutely not the most stable. Lelouch Lamperouge is the genre's most provocative protagonist choice: brilliant, sympathetic, vain, and progressively making decisions that the audience is implicated in supporting. The Geass power (absolute obedience, one per person, one direction) is one of the medium's best-constructed magic systems because it creates story problems rather than solving them. Sunrise's production - CLAMP character designs on Sunrise mecha - is visually distinctive in a way most 2006 anime was not. The season ends on a betrayal that critics described as simultaneously inevitable and shocking; rewatching it is the only way to see how thoroughly it was constructed rather than dropped.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Day a New Demon Was Born",
+          "air_date": "2006-10-06",
+          "bollymeter": 8.5,
+          "spoiler_free": "Lelouch receives the Geass in the first episode, which should feel rushed and instead feels accelerated - the show is not interested in the origin story, it is interested in what comes after. The world of Britannia and its occupied territories is sketched through action rather than exposition, which keeps the premiere propulsive.",
+          "the_moment": "The first Geass command - mundane in scale, chilling in implication.",
+          "critic_note": {
+            "text": "An unusually confident debut that hands its protagonist dangerous power and immediately shows why that is a problem.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/code_geass_lelouch_of_the_rebellion"
+          }
+        },
+        {
+          "number": 23,
+          "title": "At Least with Sorrow",
+          "air_date": "2007-06-30",
+          "bollymeter": 9.2,
+          "spoiler_free": "The season's emotional and structural pivot arrives across the penultimate run. The consequences of Lelouch's escalating deceptions converge in a sequence that the fanbase references as the definitive demonstration of what the series was building toward - a tragedy constructed by the protagonist rather than visited on him.",
+          "the_moment": "The moment Lelouch realises the cost of playing both sides simultaneously - a silence heavier than any piece of action in the season.",
+          "critic_note": {
+            "text": "Code Geass earns its emotional heft by making the audience complicit in every decision that leads here.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/code_geass_lelouch_of_the_rebellion"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2008,
+      "episodes": 25,
+      "release_date": {
+        "value": "2008-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "R2 raises the stakes of every political and personal thread established in Season 1 and closes on a finale (Episode 25) that divided and defined the fanbase - long-form critics consider it one of anime's most deliberately constructed endings. The Zero Requiem conclusion is cited consistently as a top-five anime finale."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0994314/"
+      },
+      "review_body": "Code Geass R2 is a season that does not slow down and does not apologise for its ambition. The story enters a phase where Lelouch is operating on multiple boards simultaneously - the Black Knights, Britannia, the Geass Order, his own identity - and the production commits to tracking all of them at a pace that occasionally loses coherence but never loses momentum. The second cour's events (the betrayal at Narita, the exile arc) function as the season's darkest sustained stretch before the Zero Requiem plan is put into motion. The finale is one of anime's most debated closing acts: critics argue about whether it is a redemption arc or a final manipulation, and both readings are textually supported. The fanbase has not stopped debating it since 2008. A show whose ending generates this much interpretive energy did something right.",
+      "season_over_season": "Broader scope, higher production ambition, and a finale that the franchise has never needed to walk back - R2 is the completion of a vision Season 1 was building toward.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

@@ -1,11 +1,31 @@
 {
   "slug": "my-name",
-  "qid": { "value": "Q105619096", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "My Name", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q105619096",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Name",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A woman joins a drug cartel to avenge her father's murder, then infiltrates the police as a mole, only to find that her loyalties and her identity are impossible to separate.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2021,
       "episodes": 8,
-      "release_date": { "value": "2021-10-15", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2021-10-15",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.2, "basis": "Han So-hee's physically committed performance and the show's lean, uncompromsing eight-episode shape make it the tightest Korean action noir of 2021; rare 100 percent Rotten Tomatoes score reflects critical unity." },
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Han So-hee's physically committed performance and the show's lean, uncompromsing eight-episode shape make it the tightest Korean action noir of 2021; rare 100 percent Rotten Tomatoes score reflects critical unity."
+      },
       "critic": {
         "positive_pct": 100,
         "sample": 7,
@@ -50,9 +78,55 @@
         "source_url": "https://mydramalist.com/65391-nemesis"
       },
       "review_body": "My Name arrived quietly and converted viewers through word of mouth, eventually becoming one of the few K-dramas to hold a perfect 100 percent on Rotten Tomatoes. The pitch is tight: a bereaved daughter accepts gang membership in exchange for a shot at the man who killed her father, then operates undercover inside the police drug unit hunting her own boss. Director Kim Jin-min stages the hand-to-hand combat with unusual physicality, and Han So-hee trained extensively to perform it herself. Critics flagged the mid-section as the weaker stretch, where plot mechanics slow the emotional momentum, but no one disputed the lead performance or the economy of the eight-episode structure. The South China Morning Post noted it starts slower than it ends, which is accurate, but the final three episodes close the loop with precision.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-10-15",
+          "bollymeter": 8.5,
+          "spoiler_free": "On her birthday, Ji-woo watches her father die and commits immediately to the only plan that makes sense to her: gang membership, training, revenge. The episode compresses backstory and motivation with unusual economy, and Han So-hee's physicality is already visible in how Ji-woo holds herself after the opening scene.",
+          "the_moment": "Ji-woo arriving at the gang leader's door - the choice the rest of the series is built on, made in grief without hesitation.",
+          "critic_note": {
+            "text": "Han delivers a performance of great physicality, intensity and occasional vulnerability; My Name works on a range of levels.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/my_name/s01"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2021-10-15",
+          "bollymeter": 8.2,
+          "spoiler_free": "Ji-woo is now undercover as a police officer and working alongside the detective hunting her own boss. The dramatic irony is sharp and the hand-to-hand action sequences - choreographed for Han So-hee's trained physicality rather than cinematic convention - begin establishing the show's tonal identity.",
+          "the_moment": "A raid scene where Ji-woo has to fight her way through people who think she is on their side.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2021-10-15",
+          "bollymeter": 8.4,
+          "spoiler_free": "The facts about Ji-woo's father's death arrive in a sequence that reframes everything she - and the audience - thought they understood about the show's central question. Critics who noted the mid-section lag pointed to this episode as where the series recovers its momentum decisively.",
+          "the_moment": "Ji-woo learning the truth about her father - a revelation the show was precise enough to earn and honest enough not to soften.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2021-10-15",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale closes Ji-woo's arc with a fight that is as much about identity as it is about survival. The revenge question is answered in a way that feels morally coherent rather than satisfying in the conventional genre sense - the show's most honest decision.",
+          "the_moment": "Ji-woo's final confrontation - the scene Han So-hee built the entire series toward.",
+          "critic_note": {
+            "text": "A very different show worthy of just as much attention, delivering a handsome, engaging, bloodthirsty spectacle with plenty of style and verve.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2021/10/15/my-name-review-another-quality-k-drama-for-netflixs-library/"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

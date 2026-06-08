@@ -73,6 +73,52 @@
         "source_url": "https://www.imdb.com/title/tt4158110/"
       },
       "review_body": "The debut season of Mr. Robot is the rare prestige television case where technical credibility and creative ambition reinforce each other. Sam Esmail hired actual hackers as consultants; the attacks on E Corp are accurate enough that cybersecurity firms circulated the episodes internally. But the technical realism would mean nothing without Rami Malek's Elliot Alderson - a performance of dissociation, paranoia, and buried pain that won Malek the Emmy and created television's most compelling anti-hero of the decade. The show's aesthetic - Kubrickian framing, deliberate dead space, handheld instability - functions as visual psychology. Every episode drew 100% on RT; critics who cover both film and television recognised Esmail as a genuinely cinematic filmmaker working in long form. Season 1 ends with a revelation that restructures everything the audience thought they understood.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "eps1.0_hellofriend.mov",
+          "air_date": "2015-06-24",
+          "bollymeter": 9.4,
+          "spoiler_free": "The pilot introduces Elliot Alderson - a cyber-security engineer, hacker, and unreliable narrator - in a mode of address that breaks the fourth wall while maintaining plausible deniability about how far Elliot's perception can be trusted. The show's aesthetic and ethical stance are both fully formed at episode one.",
+          "the_moment": "Elliot's direct address to the viewer: the show revealing its narrative contract and the discomfort that contract implies.",
+          "critic_note": {
+            "text": "Rami Malek is mesmerising in a debut that is technically audacious, psychologically complex, and unlike anything else on television.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/mr_robot/s01"
+          }
+        },
+        {
+          "number": 5,
+          "title": "eps1.4_3xpl0its.wmv",
+          "air_date": "2015-07-22",
+          "bollymeter": 9.0,
+          "spoiler_free": "The social engineering episode: Elliot and Darlene work a target through psychological manipulation. The show's technical credibility is at its most visible - the hacks are accurate, the logic is sound - while the character study deepens. Mr. Robot's influence over Elliot grows more complex.",
+          "the_moment": "The physical infiltration sequence - the show's most cinematic hour to this point, shot with Kubrickian precision.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "eps1.7_wh1ter0se.m4v",
+          "air_date": "2015-08-12",
+          "bollymeter": 9.3,
+          "spoiler_free": "The Whiterose introduction episode and a turning point in the show's mythology. BD Wong's performance is immediate and total: a character who exists in multiple registers simultaneously. The cartel's global scale becomes visible for the first time.",
+          "the_moment": "Whiterose and Elliot's first meeting - the scene that expands Mr. Robot's moral universe from personal paranoia to geopolitical conspiracy.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "eps1.9_zer0-day.avi",
+          "air_date": "2015-09-02",
+          "bollymeter": 9.5,
+          "spoiler_free": "The 5/9 hack happens. The season finale delivers the revolution fsociety has been building toward, and then restructures the entire story in its final minutes. The revelation forces an immediate rewatch of the season with different eyes - and the show played fair throughout.",
+          "the_moment": "The final revelation about Elliot's relationship to Mr. Robot - one of television's great unreliable-narrator payoffs.",
+          "critic_note": {
+            "text": "Mr. Robot's season finale is a masterwork of misdirection and emotional truth.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/mr-robot-season-1-finale-review-1798183948"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
@@ -182,5 +228,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T05:00:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

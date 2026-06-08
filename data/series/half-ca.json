@@ -1,11 +1,31 @@
 {
   "slug": "half-ca",
-  "qid": { "value": "Q122712421", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Half CA", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q122712421",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Half CA",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon MX Player", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon MX Player",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "TVF's grounded drama follows CA aspirants navigating the unforgiving examination cycle, family pressure, and the long odds of the CA Final.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 2,
       "year": 2025,
       "episodes": 5,
-      "release_date": { "value": "2025-08-27", "source": "Amazon MX Player", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2025-08-27",
+        "source": "Amazon MX Player",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.3, "basis": "Ahsaas Channa and Gyanendra Tripathi deliver committed performances but the season trades the first season's freshness for more dramatic but predictable arcs." },
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Ahsaas Channa and Gyanendra Tripathi deliver committed performances but the season trades the first season's freshness for more dramatic but predictable arcs."
+      },
       "critic": {
         "positive_pct": 60,
         "sample": 5,
@@ -38,7 +66,12 @@
           }
         ]
       },
-      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt28285430/" },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28285430/"
+      },
       "review_body": "Season 2 cranks up the personal and professional stakes for its CA aspirants, with Ahsaas Channa and Gyanendra Tripathi carrying the emotional weight of a more dramatically pressured run. The show's core appeal remains intact: the CA world is rendered with specificity that most Indian streaming dramas skip, and the performances feel lived-in rather than aspirational-poster-level. The critical fault line is between reviewers who found the added drama earned and those who called the arcs familiar. Free-on-ad-supported release expands its reach beyond the niche, which likely explains the IMDb score being boosted by a broader, more forgiving audience base.",
       "season_over_season": "More dramatic and emotionally heightened than Season 1 but loses some of the debut's authentic freshness in exchange for conventional serial tension."
     },
@@ -46,7 +79,12 @@
       "number": 1,
       "year": 2023,
       "episodes": 5,
-      "release_date": { "value": "2023-07-25", "source": "Amazon Mini TV", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-07-25",
+        "source": "Amazon Mini TV",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
       "bollymeter": null,
       "critic": {
@@ -56,9 +94,38 @@
       },
       "audience": null,
       "review_body": "The debut season introduced the CA aspirant milieu with a ground-level honesty that earned the show a devoted audience among students who found it unusually specific about their actual experience.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-07-25",
+          "bollymeter": 7.5,
+          "spoiler_free": "We enter the CA Foundation world through Nikhil, a first-attempt student whose family has mortgaged its hopes on the qualification. The episode earns credibility early by getting the exam culture right - the specific terror of articleship, cut-offs, and the social weight of those three letters after a name.",
+          "the_moment": "Nikhil's father telling the colony that his son is studying CA - the weight of expectation stated without a word of exposition.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2023-07-25",
+          "bollymeter": 7.8,
+          "spoiler_free": "The study group dynamics fracture under exam pressure and the mentor-student relationship is tested. TVF's strength is always the ensemble texture, and this episode is the debut season at its most comfortable - specific, warm, and uncommonly honest about failure.",
+          "the_moment": "Gyanendra Tripathi's mentor catching a student in a lie about exam results - handled with more grace than expected.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2023-07-25",
+          "bollymeter": 8.0,
+          "spoiler_free": "The CA Intermediate result arrives and the season lands its emotional payoff with a restraint that distinguishes it from TVF's more sentimental stable. The finale earns its devotee following by refusing to make the pass or fail the only thing that matters.",
+          "the_moment": "Nikhil opening the result on his phone in a public place - the season's most efficient emotional beat.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

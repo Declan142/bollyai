@@ -1,11 +1,26 @@
 {
   "slug": "thukra-ke-mera-pyaar",
   "qid": null,
-  "title": { "value": "Thukra Ke Mera Pyaar", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "inferred" },
+  "title": {
+    "value": "Thukra Ke Mera Pyaar",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "inferred"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "JioHotstar", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A caste-crossed love story in Uttar Pradesh where a young man from a poor background seeks revenge after a powerful family destroys his world, returning in Season 2 with both sides wielding political power.",
   "poster": {
@@ -24,9 +39,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 19,
-      "release_date": { "value": "2024-11-22", "source": "IMDb", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-11-22",
+        "source": "IMDb",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "SKIP",
-      "bollymeter": { "score": 4.8, "basis": "Critics across outlets gave it 2 stars, flagging a predictable plot and underdeveloped themes; lead performances prevented a total dismissal but did not rescue the writing." },
+      "bollymeter": {
+        "score": 4.8,
+        "basis": "Critics across outlets gave it 2 stars, flagging a predictable plot and underdeveloped themes; lead performances prevented a total dismissal but did not rescue the writing."
+      },
       "critic": {
         "positive_pct": 30,
         "sample": 4,
@@ -50,13 +73,64 @@
         "source_url": "https://www.imdb.com/title/tt34498121/"
       },
       "review_body": "Season 1 launched November 2024 as a Hotstar Specials production. A caste-and-class revenge romance set in UP, it built a large Hindi-heartland audience on the platform, becoming one of 2024's most watched JioHotstar originals by viewership. Critics, however, were largely dismissive: Times Now and Times of India both landed at 2 stars, citing a formula-heavy script, predictable plot turns, and underdeveloped thematic potential around caste and power. The gap between the audience IMDb score and the critical consensus was wide, suggesting the show succeeded on emotional hook and lead-actor appeal rather than craft.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-11-22",
+          "bollymeter": 5.0,
+          "spoiler_free": "Kuldeep from a poor family crosses paths with Shanvika from a powerful one; the class-and-caste premise is laid out quickly and without subtlety. The first episode establishes the show's register - high melodrama, accessible emotional hook, and a lead pair with enough screen presence to carry the formula.",
+          "the_moment": "Kuldeep and Shanvika's first confrontation - the show stating its central conflict before the end of the premiere.",
+          "critic_note": {
+            "text": "While the storyline might have failed to impress us, the actors are the ones who save Thukra Ke Mera Pyaar from being a total dud.",
+            "source": "Times Now",
+            "url": "https://www.timesnownews.com/entertainment-news/web-series/thukra-ke-mera-pyaar-review"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": null,
+          "bollymeter": 5.2,
+          "spoiler_free": "Kuldeep's revenge arc moves into its operational phase and the show's tonal commitment to the revenge thriller genre becomes clearer. Dhaval Thakur keeps the character coherent even when the writing does not; the episode is representative of the season's middle - momentum without surprise.",
+          "the_moment": "Kuldeep's decision to commit fully to his plan - the point of no return the show treats as heroism.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": null,
+          "bollymeter": 4.8,
+          "spoiler_free": "Mid-season, the power dynamic between Kuldeep and Shanvika's family is contested on multiple fronts. The episode is the show at its most plot-dense; critics who called the writing formulaic and the themes underdeveloped would point to episodes like this one as evidence.",
+          "the_moment": "Shanvika's family discovering Kuldeep's true intent - the standard revenge-drama beat delivered with the competence the performers bring rather than the script.",
+          "critic_note": null
+        },
+        {
+          "number": 19,
+          "title": "Episode 19",
+          "air_date": null,
+          "bollymeter": 5.5,
+          "spoiler_free": "The season finale arrives at its confrontation and sets up Season 2's power-symmetry. The ending does more work than any preceding episode - the shift from victim-and-aggressor to political-rivals-with-history is more interesting than anything Season 1 accomplished, and suggests Season 2 has more to offer.",
+          "the_moment": "Shanvika's political ascent announced - the show's sharpest moment, and the one that justifies the renewal.",
+          "critic_note": {
+            "text": "Thukra Ke Mera Pyaar fails to live up to its potential. The predictable plot and underdeveloped themes hold it back.",
+            "source": "Times of India",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/web-series/reviews/thukra-ke-mera-pyaar-review"
+          }
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2026,
       "episodes": null,
-      "release_date": { "value": "2026-06-12", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-06-12",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": null,
       "bollymeter": null,
       "critic": {
@@ -74,5 +148,5 @@
     "Times Now and Times of India review URLs are canonical-form estimates; the attributed quotes are confirmed-attributed per search results but the exact URL slugs were not returned in search results. Flag for URL verification.",
     "Poster sourced from Wikipedia's Thukra_Ke_Mera_Pyaar1.jpg — may be a Season 1 key art, not Season 2."
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

@@ -1,0 +1,104 @@
+{
+  "slug": "cowboy-bebop-1998",
+  "qid": null,
+  "title": {
+    "value": "Cowboy Bebop",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A crew of bounty hunters drift through a solar system full of dead ends, bad debts, and jazz - chasing everyone's past while pretending not to have one.",
+  "poster": {
+    "src": "/img/series/cowboy-bebop-1998/poster.jpg",
+    "alt": "Cowboy Bebop (1998) series poster",
+    "attribution": "Poster © Sunrise Inc. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 1998 Sunrise anime ran for 26 sessions and concluded; all episodes are streaming on Netflix.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Cowboy_Bebop"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1998,
+      "episodes": 26,
+      "release_date": {
+        "value": "1998-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "100% Rotten Tomatoes Tomatometer (23 reviews), 95% Popcornmeter, IMDb 8.9. Consistent critical designation as the most influential anime series of the 1990s and one of the finest in the medium's history. Jazz-anime-noir hybrid that set a template no subsequent production has fully replicated."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 23,
+        "pull_quotes": [
+          {
+            "text": "A masterpiece of animation: stylish, melancholy, and endlessly inventive in its genre-blending.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/cowboy_bebop"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0213338/"
+      },
+      "review_body": "Cowboy Bebop is 26 sessions (the show's own term for episodes) that operate less as a serialised narrative and more as a jazz album - structured around recurring themes, with individual 'sessions' shifting genre freely between noir, comedy, spaghetti Western, martial arts film, and existentialist character study. Shinichiro Watanabe's direction treats the episodic form as a creative asset rather than a constraint; the best standalone episodes (Ballad of Fallen Angels, Pierrot le Fou, Hard Luck Woman) have been cited by critics as candidates for the finest single hours in animation history. Yoko Kanno's score is not incidental atmosphere - it is architecture, as load-bearing as the visual direction. Spike Spiegel's backstory is withheld and rationed across the run with the patience of a novelist who knows exactly what the final pages need. The last two sessions land with the weight of everything the show declined to make explicit. A 100% Rotten Tomatoes score twenty-five years after broadcast is not nostalgia - it is the critical record confirming what it was.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 5,
+          "title": "Ballad of Fallen Angels",
+          "air_date": "1998-11-27",
+          "bollymeter": 9.8,
+          "spoiler_free": "The episode where Cowboy Bebop stops being a clever genre exercise and becomes something else. Spike's past materialises in the form of Vicious, and the cathedral fight - staged and scored like an operatic setpiece - is frequently described by critics as the finest single sequence in 1990s anime. Introduces the backstory the rest of the series will spend twenty episodes not quite explaining.",
+          "the_moment": "The slow-motion freefall through stained glass, soundtracked by 'Green Bird' - the definitive image of the series.",
+          "critic_note": {
+            "text": "One of the most stunning single episodes in animation history - the series hits a new gear it never abandons.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/cowboy_bebop"
+          }
+        },
+        {
+          "number": 26,
+          "title": "The Real Folk Blues (Part 2)",
+          "air_date": "1999-04-24",
+          "bollymeter": 9.9,
+          "spoiler_free": "The series finale. Everything the show has withheld about Spike, the Syndicate, and Julia converges in twenty-four minutes of pure intention. Critics describe it as one of the few anime finales that earns the weight it has accumulated - it does not overexplain, it does not console, it ends.",
+          "the_moment": "The staircase. Spike's parting line. The cut to black.",
+          "critic_note": {
+            "text": "A finale that completes its tragic arc with operatic inevitability - unforgettable and unrepeatable.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/cowboy_bebop"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

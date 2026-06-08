@@ -1,11 +1,26 @@
 {
   "slug": "sacred-games",
   "qid": null,
-  "title": { "value": "Sacred Games", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "title": {
+    "value": "Sacred Games",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A Mumbai cop and a fugitive gangster are drawn into a conspiracy to destroy the city within 25 days, adapted from Vikram Chandra's sprawling novel of the same name.",
   "poster": {
@@ -24,9 +39,17 @@
       "number": 1,
       "year": 2018,
       "episodes": 8,
-      "release_date": { "value": "2018-07-06", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2018-07-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.8, "basis": "92% on Rotten Tomatoes from 26 critics; the only Indian series on the New York Times' Best International TV of the Decade list. Directed by Anurag Kashyap and Vikramaditya Motwane." },
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "92% on Rotten Tomatoes from 26 critics; the only Indian series on the New York Times' Best International TV of the Decade list. Directed by Anurag Kashyap and Vikramaditya Motwane."
+      },
       "critic": {
         "positive_pct": 92,
         "sample": 26,
@@ -43,17 +66,76 @@
           }
         ]
       },
-      "audience": { "rating": 8.7, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6077448/" },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6077448/"
+      },
       "review_body": "Sacred Games Season 1, released globally in July 2018, became the first Indian Netflix original to break into serious international critical conversation. Directed by Anurag Kashyap and Vikramaditya Motwane, adapted from Vikram Chandra's doorstop novel, the eight-episode run braids a Mumbai cop procedural with a gangster's long confessional into something that felt categorically new for Indian prestige television. Nawazuddin Siddiqui's Ganesh Gaitonde is built for the ages: funny, monstrous, and deeply specific to a particular Indian masculine tradition. The season hit 92% on Rotten Tomatoes from 26 critics, earned an IMDb rating of 8.7, and was later named the only Indian series on the New York Times' Best International TV of the Decade list. The threshold for what Indian streaming could look like changed on release day.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Aswatthama",
+          "air_date": "2018-07-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "Mumbai cop Sartaj Singh gets a call from gangster Ganesh Gaitonde, who tells him the city has 25 days. The first episode does the foundational work of any prestige pilot - establishes two worlds, two voices, and a tension that has no obvious resolution - and does it with the confidence of a series that knows exactly what it is.",
+          "the_moment": "Gaitonde's voice on the phone - Nawazuddin Siddiqui making an introduction that is also a mythology.",
+          "critic_note": {
+            "text": "Bollywood maximalism meets downbeat Euro noir meets Hollywood gangster epic - mesmerizing and addictive.",
+            "source": "Vogue (Taylor Antrim)",
+            "url": "https://www.vogue.com/article/sacred-games-netflix-india-review"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Atapi Vatapi",
+          "air_date": "2018-07-06",
+          "bollymeter": 8.9,
+          "spoiler_free": "Gaitonde's origin in the slums deepens while Sartaj follows the trail to Bunty. The episode is Anurag Kashyap's half of the season at its most controlled - the gangster world is ugly, funny, and strangely principled, and Nawazuddin makes every contradiction cohere.",
+          "the_moment": "Young Gaitonde's first act of violence - the moment the mythology becomes biography.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Sarama",
+          "air_date": "2018-07-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "Vikramaditya Motwane's episodes take over and the conspiracy layer deepens. Sartaj and Anjali close in on the network behind Gaitonde while the 1992 sequences show how political violence and criminal power fused in Mumbai. The tonal handover between directors is seamless.",
+          "the_moment": "The Bombay riots sequence - the show's most shattering historical recreation.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Yayati",
+          "air_date": "2018-07-06",
+          "bollymeter": 9.2,
+          "spoiler_free": "Sartaj races to find the third father and stop the 25-day deadline. The season finale closes its immediate plot with one of the most formally memorable endings in Indian streaming - not a twist but a revelation that reframes everything preceding it.",
+          "the_moment": "The final image of the bunker - the show's mythology made horrifyingly literal.",
+          "critic_note": {
+            "text": "There are clear flaws, but there's something riveting about India's bleaker, darker heart being exposed.",
+            "source": "Hollywood Reporter (Tim Goodman)",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/sacred-games-review-1125388/"
+          }
+        }
+      ]
     },
     {
       "number": 2,
       "year": 2019,
       "episodes": 8,
-      "release_date": { "value": "2019-08-15", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2019-08-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "ONE-TIME WATCH",
-      "bollymeter": { "score": 6.5, "basis": "60% on Rotten Tomatoes from 5 critics; critics widely noted the loss of Season 1's urgency, dark humour, and emotional specificity as the mythology expanded and the human story contracted." },
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "60% on Rotten Tomatoes from 5 critics; critics widely noted the loss of Season 1's urgency, dark humour, and emotional specificity as the mythology expanded and the human story contracted."
+      },
       "critic": {
         "positive_pct": 60,
         "sample": 5,
@@ -71,5 +153,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

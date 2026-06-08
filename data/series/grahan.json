@@ -1,0 +1,116 @@
+{
+  "slug": "grahan",
+  "qid": {
+    "value": "Q107340729",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Grahan",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A Ranchi SIT officer investigating the 1984 anti-Sikh riots discovers the prime accused is her own father - Grahan switches between 2016 and Bokaro 1984 to build a case study in how violence travels down generations.",
+  "poster": {
+    "src": "/img/series/grahan/poster.jpg",
+    "alt": "Grahan series poster",
+    "attribution": "Poster © Disney+ Hotstar / Walkwater Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season of 8 episodes released June 2021; no renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Grahan_(2021_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-06-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "IMDb 8.3 overall (tt14820482); individual episode scores 8.0 - 8.7 with 'Ardh Satya' and 'Ek Deewana Tha' at the season's peak. RT has a dedicated page but insufficient critic count for a percentage - the handful of critical write-ups (The Cinema Wala, Scroll) read it as one of 2021's overlooked originals."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14820482/"
+      },
+      "review_body": "Grahan did something difficult: it dramatised the 1984 anti-Sikh riots without reducing them to spectacle, and threaded a present-day investigation through the historical material without letting the thriller mechanics drain the historical material of its weight. Pavan Malhotra as Gursevak Singh - a Sikh man who participated in the violence against his own community - gave the show its moral complexity; the performance was read universally as the season's anchor. Wamiqa Gabbi as his daughter Amrita navigated the show's structural challenge: her investigation is both personal and professional, and the writers kept those tensions from collapsing into each other. The dual-timeline structure was handled with discipline - Bokaro 1984 never became mere backstory. IMDb 8.3 from a substantial vote count reflects genuine audience investment in a show that did not receive the marketing it deserved.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Goonj",
+          "air_date": "2021-06-24",
+          "bollymeter": 8.0,
+          "spoiler_free": "The show opens in both timelines simultaneously - Amrita receiving the SIT assignment in 2016, and a young Gursevak navigating the communal atmosphere of 1984 Bokaro. The episode's job is to establish why both stories matter and how they are connected, and it does this with economy rather than exposition. The dual-timeline structure arrives fully formed.",
+          "the_moment": "Amrita recognises the photograph of a riot suspect - the moment the professional and the personal collapse into each other, and the show begins.",
+          "critic_note": {
+            "text": "Grahan opens with the quiet confidence of a show that knows what it wants to say and how to say it - a rare quality in Indian streaming drama.",
+            "source": "Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/grahan/s01"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Ardh Satya",
+          "air_date": "2021-06-24",
+          "bollymeter": 8.7,
+          "spoiler_free": "The episode's title - 'Half Truth' - captures what the show has been building toward: the realisation that guilt and victimhood can coexist in a single person, and that the law's binary (guilty / not guilty) is insufficient for what happened in 1984. Malhotra's Gursevak reaches his most complex hour; the IMDb episode score of 8.7 was the season's highest.",
+          "the_moment": "Gursevak's account of what happened during the riots - told to Amrita, who cannot be just a daughter while she is also an officer. The scene holds both of them in the same unbearable position.",
+          "critic_note": {
+            "text": "The episode that confirms Grahan as something more than a crime procedural - it is an ethical inquiry with a crime at its centre.",
+            "source": "Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/grahan/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Ek Deewana Tha",
+          "air_date": "2021-06-24",
+          "bollymeter": 8.7,
+          "spoiler_free": "The finale closes both timelines: the SIT's findings in 2016, and the events of November 1984 rendered in full. Director Ranjan Chandel does not offer a verdict that the real history never produced - the ending is as much about what institutions cannot do as what individuals must carry. The final image is held long enough to mean something.",
+          "the_moment": "The last conversation between Amrita and Gursevak - the show's final word on whether love can survive knowledge, delivered without sentiment.",
+          "critic_note": {
+            "text": "A finale that earns its devastation by having never promised a resolution the history didn't provide.",
+            "source": "Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/grahan/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

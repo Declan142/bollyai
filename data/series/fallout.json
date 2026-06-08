@@ -1,11 +1,31 @@
 {
   "slug": "fallout",
-  "qid": { "value": "Q113127312", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Fallout", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q113127312",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Fallout",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "United States",
-  "original_language": { "value": "en", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "A vault-dweller, a ghoul bounty hunter, and a soldier navigate the post-nuclear wasteland of the Fallout video game universe in an adaptation that treats the games' dark absurdism as a design brief.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2024,
       "episodes": 8,
-      "release_date": { "value": "2024-04-10", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-04-10",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.5, "basis": "94% on Rotten Tomatoes from 100+ critics; the critical consensus positioned it as the benchmark for video game adaptations, with praise centred on tonal commitment and Ella Purnell's lead performance." },
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "94% on Rotten Tomatoes from 100+ critics; the critical consensus positioned it as the benchmark for video game adaptations, with praise centred on tonal commitment and Ella Purnell's lead performance."
+      },
       "critic": {
         "positive_pct": 94,
         "sample": 106,
@@ -38,11 +66,62 @@
           }
         ]
       },
-      "audience": { "rating": 8.5, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt12637874/" },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12637874/"
+      },
       "review_body": "Fallout Season 1 arrived in April 2024 as the most critically successful video game adaptation to date. The show earned 94% on Rotten Tomatoes across 106 reviews and drew 65 million viewers in its first two weeks, becoming one of Prime Video's top-three most-watched titles. Critics praised Jonathan Nolan and Lisa Joy's production for treating the games' dark comedy and archaic-tech aesthetic not as a limitation but as a formal commitment. Variety called it 'bizarre but intensely fun.' Some critics flagged mid-season pacing drag, but the three-protagonist structure gave the show narrative flexibility that pure adaptations often lack. Metacritic landed at 73 from 33 critics, reflecting a more tempered critical centre.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The End",
+          "air_date": "2024-04-10",
+          "bollymeter": 8.8,
+          "spoiler_free": "A brilliant cold open - pre-war suburban America at a children's birthday party, then the bombs fall - before the show pivots to its three-protagonist structure. Lucy emerges from Vault 33 and the show's tonal commitment to dark comedy is established immediately. Ella Purnell is a revelation.",
+          "the_moment": "The party's abrupt nuclear interruption - the jump-cut that defines the show's relationship between optimism and catastrophe.",
+          "critic_note": {
+            "text": "Bizarre but intensely fun, Fallout is like nothing you've ever seen.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/reviews/fallout-tv-series-review-prime-video-1235964070/"
+          }
+        },
+        {
+          "number": 2,
+          "title": "The Target",
+          "air_date": "2024-04-10",
+          "bollymeter": 8.5,
+          "spoiler_free": "The three protagonists begin converging as their separate quests intersect. The Ghoul's origin is hinted at; Maximus's Brotherhood storyline picks up pace. The wasteland world gains texture without becoming a video game tourism reel.",
+          "the_moment": "The Ghoul's first extended action sequence - Walton Goggins establishing the character as the show's mercurial, violent heart.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "The Head",
+          "air_date": "2024-04-10",
+          "bollymeter": 8.3,
+          "spoiler_free": "A weirder, more confident episode that leans into the games' dark-comic grotesque. The MacGuffin driving the plot gains urgency; the world's faction politics clarify. The show's willingness to be genuinely odd is on full display.",
+          "the_moment": "The reveal of what's in the cold storage unit - the show demonstrating it has the courage of its source material's convictions.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Beginning",
+          "air_date": "2024-04-10",
+          "bollymeter": 9.0,
+          "spoiler_free": "The season finale delivers an origin-story revelation that reframes the entire world, connects pre-war corporate horror to post-war wasteland politics, and ends on a cliffhanger of genuine scale. The show reveals it was always about capitalism as apocalypse.",
+          "the_moment": "The underground complex reveal and what it means for the show's moral universe - the moment Fallout graduates from genre entertainment to something with real intent.",
+          "critic_note": {
+            "text": "Fallout's finale lands with the weight of a story that knew exactly where it was going.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/fallout-season-1-finale-review-the-beginning-1851418890"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

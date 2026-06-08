@@ -1,11 +1,31 @@
 {
   "slug": "aspirants",
-  "qid": { "value": "Q106765478", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Aspirants", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q106765478",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Aspirants",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "India",
-  "original_language": { "value": "hi", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Amazon Prime Video", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "Three UPSC aspirants navigate friendship, ambition, and the long shadow of success in Delhi's coaching belt.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 3,
       "year": 2026,
       "episodes": 5,
-      "release_date": { "value": "2026-03-13", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2026-03-13",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "Critics called it the best TVF threequel in years: the show finally scrutinises its own protagonist, earning its emotional payoff with structural discipline and a dual-inquiry framing that the earlier seasons lacked." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Critics called it the best TVF threequel in years: the show finally scrutinises its own protagonist, earning its emotional payoff with structural discipline and a dual-inquiry framing that the earlier seasons lacked."
+      },
       "critic": {
         "positive_pct": 80,
         "sample": 7,
@@ -38,7 +66,12 @@
           }
         ]
       },
-      "audience": { "rating": 9.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14392248/" },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14392248/"
+      },
       "review_body": "Season 3 restructures the series around a formal inquiry that pits DM Abhilash against his former mentor Sandeep Bhaiya, a device that forces the show to examine the moral contradictions it previously glossed over. Reviewers across the board noted that the writing finally holds its protagonist accountable rather than excusing him. The dual-timeline format is tighter than Season 2, and the emotional climax recovers the warmth of the debut season without retreating into nostalgia. Audience scores on IMDb climbed back to franchise highs. The critical consensus framed it as TVF's most mature pivot: aspirational but no longer naive.",
       "season_over_season": "Season 3 corrects the main-character inflation that dogged Season 2, returning ensemble weight to Guri and SK while adding institutional friction through the inquiry arc."
     },
@@ -46,9 +79,17 @@
       "number": 2,
       "year": 2023,
       "episodes": 5,
-      "release_date": { "value": "2023-10-25", "source": "Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-10-25",
+        "source": "Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.2, "basis": "Tonal pivot to serious interpersonal drama works in patches but the shift away from ensemble focus toward Naveen Kasturia's character attracted mixed critical returns." },
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Tonal pivot to serious interpersonal drama works in patches but the shift away from ensemble focus toward Naveen Kasturia's character attracted mixed critical returns."
+      },
       "critic": {
         "positive_pct": 55,
         "sample": 5,
@@ -60,7 +101,12 @@
           }
         ]
       },
-      "audience": { "rating": 9.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt14392248/" },
+      "audience": {
+        "rating": 9.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14392248/"
+      },
       "review_body": "Season 2 shed the comedy coating and went straight for interpersonal conflict, a tonal move that critics treated with mixed reactions. The glass-half-full optimism of TVF's signature mode gave way to professional rivalry and political friction. Film Companion flagged how the show tends to reduce real-world complexity to neat bleeding-heart resolutions. Audience numbers stayed high because the performances remained strong. The consensus: a flawed but genuinely felt upgrade over Season 1 in ambition, even if the execution stretched into over-sentimental territory.",
       "season_over_season": "Drops TVF's comfort-zone comedy tone entirely in favour of sharp professional drama, expanding scope but losing some of Season 1's communal warmth."
     },
@@ -68,7 +114,12 @@
       "number": 1,
       "year": 2021,
       "episodes": 5,
-      "release_date": { "value": "2021-04-07", "source": "TVF YouTube / Amazon Prime Video", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2021-04-07",
+        "source": "TVF YouTube / Amazon Prime Video",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
       "bollymeter": null,
       "critic": {
@@ -78,11 +129,53 @@
       },
       "audience": null,
       "review_body": "The debut season launched as a TVF YouTube original and established the UPSC milieu with economical storytelling and a three-hander friendship at its core. Widely cited as one of the finest short-run series from the TVF stable.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "UPSC – Optional Me Kya Hai?",
+          "air_date": "2021-04-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "Abhilash arrives at Old Rajinder Nagar to begin his UPSC prep and meets Guri and SK. The episode earns its audience by translating the specific anxiety of optional-subject choice into something universally recognisable; the camaraderie feels lived-in from the first scene.",
+          "the_moment": "Abhilash's wide-eyed first look at the coaching belt - equal parts awe and dread.",
+          "critic_note": {
+            "text": "An overstated TVF hybrid of Dil Chahta Hai and Kota Factory that somehow earns it.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/aspirants-tvf-review-web-series-youtube-an-overstated-hybrid-of-dil-chahta-hai-and-kota-factory-naveen-kasturia-sunny-hinduja-rahul-desai"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Negative Approach",
+          "air_date": "2021-04-28",
+          "bollymeter": 8.7,
+          "spoiler_free": "Taunted for his attitude, Abhilash starts studying alone at the library and finds an unexpected anchor in Dhairya. The episode balances comedy and creeping self-doubt with a lightness the show never quite recaptures after this.",
+          "the_moment": "Abhilash and Dhairya's library encounter - the season's warmest scene.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Plan B Kya Hai?",
+          "air_date": "2021-05-01",
+          "bollymeter": 9.0,
+          "spoiler_free": "The trio faces a crisis of direction as Prelims pressure peaks. Sandeep Bhaiya's counsel cuts through the noise. The emotional stakes are highest here and the writing finally gives Sunny Hinduja the material he has been waiting for.",
+          "the_moment": "Sandeep Bhaiya's monologue about having no Plan B - the scene the internet would not stop quoting.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Pre… Mains Aur Life",
+          "air_date": "2021-05-08",
+          "bollymeter": 9.2,
+          "spoiler_free": "Past meets present as Abhilash's result reckoning arrives alongside a mentor's quiet return. The finale sticks its landing by refusing a fairy-tale resolution and instead opting for a harder, truer kind of comfort.",
+          "the_moment": "The final exchange between Abhilash and SK on the rooftop - understated and devastating.",
+          "critic_note": null
+        }
+      ]
     }
   ],
   "_quarantine": [
     "Poster MISS: Wikipedia REST API returned no originalimage for Aspirants_(TV_series). Fallback SVG used."
   ],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

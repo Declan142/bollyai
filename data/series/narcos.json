@@ -1,0 +1,194 @@
+{
+  "slug": "narcos",
+  "qid": {
+    "value": "Q20642206",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Narcos",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "DEA agent Steve Murphy narrates the rise and fall of Pablo Escobar and the Medellín cartel - a decade of cocaine, money, and sovereign-level violence told with the confidence of biography and the propulsion of thriller.",
+  "poster": {
+    "src": "/img/series/narcos/poster.jpg",
+    "alt": "Narcos series poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original Narcos ended after Season 3 (2017); the universe continued in the separate Narcos: Mexico spinoff (2018 - 2021).",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Narcos"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-08-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "IMDb series rating of 8.7, 95% audience score on RT; the Escobar years generated a gravity that critics found irresistible even if some noted the narration as over-explanatory."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "Narcos is a crackling crime drama that benefits greatly from stunning South American locations and a star-making turn from Wagner Moura.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/narcos/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2707408/"
+      },
+      "review_body": "Critics in 2015 read Narcos S1 as a ferociously entertaining machine that ran on Wagner Moura's physically transforming Escobar performance and Eric Newman's decision to shoot in actual Colombian locations. The 78% Tomatometer reflected a divide: those who found the DEA-narrator framing reductive and those who thought it gave the show its propulsive clarity. Audience reception was unambiguous - 95% on RT's Popcornmeter, 8.7 on IMDb. The show treated cocaine as a geopolitical event as much as a crime story, mapping U.S. policy failures alongside cartel mythology. The bilingual texture (Spanish bleeds into the English narration without apology) kept it honest. A season that arrived, conquered, and immediately made clear the show would never stop.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Descenso",
+          "air_date": "2015-08-28",
+          "bollymeter": 8.8,
+          "spoiler_free": "Murphy's opening narration sets the show's moral register immediately: he is not here to judge, he is here to count the dead. The episode establishes the cocaine supply chain from Chilean chemist to Colombian distributor to Miami street, contextualising Escobar's emergence within a system rather than presenting him as a lone genius. The Medellin landscape arrives like a character.",
+          "the_moment": "Murphy's voice-over over footage of actual 1970s Medellín - the moment where the show signals it will blur documentary and drama unapologetically.",
+          "critic_note": {
+            "text": "A propulsive opening that blends biography and thriller with disarming confidence.",
+            "source": "Metacritic",
+            "url": "https://www.metacritic.com/tv/narcos/season-1/episode-1-descenso/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "There Will Be a Future",
+          "air_date": "2015-08-28",
+          "bollymeter": 8.9,
+          "spoiler_free": "The midseason episode deepens the show's interest in institutional failure - Colombian police, DEA, and the U.S. Embassy are all operating at cross purposes while Escobar consolidates. Moura's performance shifts from cartoonish to genuinely menacing as the cartel's violence reaches the political class. The episode earned 8.8 on IMDb from viewers.",
+          "the_moment": "Escobar's negotiation with a Colombian politician - the scene where gangster and state discover they need each other.",
+          "critic_note": {
+            "text": "Wagner Moura makes Escobar terrifying without a single moment of movie-villain theatrics.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/narcos/s01"
+          }
+        },
+        {
+          "number": 10,
+          "title": "La Gran Mentira",
+          "air_date": "2015-08-28",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale deposits Escobar into La Catedral - a prison of his own design - as the season's great irony lands: the state has surrendered the most wanted man in the world to his own custody. The episode is the show's thesis statement on sovereignty, corruption, and the terms on which power negotiates with itself.",
+          "the_moment": "Escobar walking into La Catedral with the quiet authority of a man who has already won - one of the great single-image endings in Netflix drama.",
+          "critic_note": {
+            "text": "A season finale that understands history's black comedy better than any fictional drama has a right to.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/narcos/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-09-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "93% on Rotten Tomatoes critics; the season covering Escobar's final months and death is read by most critics as the show's dramatic peak - tighter, more tragic, and better calibrated than S1."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 28,
+        "pull_quotes": [
+          {
+            "text": "Season 2 is Narcos at its most viscerally compelling - the Escobar endgame is harrowing and operatic in equal measure.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/narcos/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2707408/"
+      },
+      "review_body": "Season 2 is the one most critics recommend if pressed - it covers Escobar's flight from La Catedral to his death on a Medellín rooftop in December 1993 and benefits from the accumulated weight of Season 1's worldbuilding. The 93% RT score reflects a critical consensus that Moura's Escobar reaches his dramatic ceiling here: trapped, paranoid, still dangerous but now mortal. The Los Pepes plotline introduced a vigilante counter-force that complicated the show's moral geography in productive ways. Critics singled out the final two episodes as among the best hours in Netflix's original drama catalogue at the time. The bilingual script remains rigorous.",
+      "season_over_season": "Peak Narcos - the Escobar arc reaches its logical, historically inevitable conclusion, and the show earns every frame of it.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-09-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "97% on Rotten Tomatoes - the post-Escobar pivot to the Cali Cartel was received by critics as a confident reinvention; audiences were slightly cooler having lost the show's defining protagonist."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 33,
+        "pull_quotes": [
+          {
+            "text": "Narcos successfully reinvents itself after Escobar, delivering a corporate-crime thriller that's arguably more chilling than anything that came before.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/narcos/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2707408/"
+      },
+      "review_body": "Season 3's 97% Tomatometer was the show's best critical score, and the reason was simple: the Cali Cartel, run by businessmen rather than gangsters, forced the show to become a corporate thriller. The Rodriguez Orejuela brothers operated in spreadsheets and boardrooms; the violence was subcontracted. Critics found this pivot genuinely unsettling - the second generation of the cocaine economy had professionalised. Pedro Pascal's Peña now leads, and his quieter charisma worked for the more procedural register. Audience attachment to the Escobar years meant the season played cooler with some viewers than critics anticipated, but the craftsmanship held.",
+      "season_over_season": "The post-Escobar gamble works - a different show in the same world, and critic scores actually went up.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

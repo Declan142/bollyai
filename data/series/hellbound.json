@@ -1,11 +1,31 @@
 {
   "slug": "hellbound",
-  "qid": { "value": "Q100934044", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Hellbound", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q100934044",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hellbound",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "returning",
   "logline": "Supernatural beings deliver death sentences to ordinary people in public, spawning a religious cult that exploits the phenomenon to consolidate power.",
   "poster": {
@@ -24,25 +44,83 @@
       "number": 1,
       "year": 2021,
       "episodes": 6,
-      "release_date": { "value": "2021-11-19", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2021-11-19",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.3, "basis": "Formally bold: director Yeon Sang-ho splits the season across two distinct tonal halves, generating the disorientation the premise needs. Thoughtful horror that refuses easy theodicy." },
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Formally bold: director Yeon Sang-ho splits the season across two distinct tonal halves, generating the disorientation the premise needs. Thoughtful horror that refuses easy theodicy."
+      },
       "critic": {
         "positive_pct": 97,
         "sample": 32,
         "pull_quotes": []
       },
-      "audience": { "rating": 7.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt12235718/" },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12235718/"
+      },
       "review_body": "Season 1 dropped November 19, 2021, and the following day surpassed Squid Game as Netflix's most-watched series globally, a record driven partly by the post-Squid-Game appetite for Korean content and partly by genuine critical enthusiasm. Rotten Tomatoes scored it 97 percent across 32 critics, with the consensus praising Yeon Sang-ho's mix of grounded horror and rigorous theological inquiry. The show's conceit, supernatural death sentences delivered publicly, allowed it to interrogate how institutions capture crisis rather than resolve it. RogerEbert.com's Nick Allen praised the blend of horror spectacle with thoughtful discussions about sin. Audience scores settled lower than the critical ceiling, reflecting a show better suited to cold-start viewing than casual weekend streaming.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-11-19",
+          "bollymeter": 8.8,
+          "spoiler_free": "Supernatural beings publicly execute a man in broad daylight, and the world does not end - it reorganises. A religious organisation called the New Truth moves immediately to claim the event as theological proof. What to Watch called the opening episode a terrifying punch that sets Hellbound apart from conventional supernatural horror.",
+          "the_moment": "The public execution on a city street, filmed without horror-movie framing - just daylight, bystanders, and consequence.",
+          "critic_note": {
+            "text": "Hellbound is the kind of horror series that visibly grows with each episode - a fascinating entry into stories about faith.",
+            "source": "RogerEbert.com",
+            "url": "https://www.rogerebert.com/streaming/hellbound-netflix-tv-review-2021"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Episode 2",
+          "air_date": "2021-11-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The New Truth brokers a live broadcast deal with a condemned woman, monetising the supernatural as media spectacle before the episode is out. The show's argument about institutional capture of religious terror is sharpest here - the mechanics of exploitation presented without commentary because none is needed.",
+          "the_moment": "The live broadcast execution - the moment the show stops being about horror and becomes about the audience watching horror.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2021-11-19",
+          "bollymeter": 8.2,
+          "spoiler_free": "The season's tonal rupture: the second half begins with new characters, a new timeline, and a radically different social landscape after the New Truth has had years to consolidate. Critics praised Yeon Sang-ho for the structural audacity rather than treating the break as a flaw.",
+          "the_moment": "The opening of the second half - the world rebuilt around the phenomenon, and everything that looks like order that actually is not.",
+          "critic_note": {
+            "text": "A dark take on fanaticism - a grim, wild ride for fans of horror, cult stories, and the darker side of human nature.",
+            "source": "Dramabeans",
+            "url": "https://dramabeans.com/2021/11/hellbound-episodes-1-3-series-review/"
+          }
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2024,
       "episodes": 6,
-      "release_date": { "value": "2024-10-25", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-10-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.0, "basis": "Three-year gap between seasons hurt momentum; critics found the philosophical ambitions intact but the execution more uneven than Season 1." },
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Three-year gap between seasons hurt momentum; critics found the philosophical ambitions intact but the execution more uneven than Season 1."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -59,11 +137,16 @@
           }
         ]
       },
-      "audience": { "rating": 6.2, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt12235718/" },
+      "audience": {
+        "rating": 6.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12235718/"
+      },
       "review_body": "Season 2 arrived October 2024, three years after its predecessor. Critics divided: the philosophical ambitions were acknowledged as intact, with the show continuing to probe how media and religion exploit collective terror. NME called it a worthy return. But the episode-level IMDb ratings in the low 6s and split critical reception tracked a season where the gap had eroded the original's urgency. Reviews at outlets like DMTalkies found the season derivative and drier in tone. Metacritic landed at 66 out of 100, generally favorable but a step below Season 1's ceiling. The ending left the mythology open, and whether a third season arrives to complete it remains unconfirmed.",
       "season_over_season": "Holds the philosophical ambitions of Season 1 but loses the kinetic shock of the original premise; the three-year gap between seasons registered in both audience and critical expectations."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

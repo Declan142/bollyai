@@ -1,0 +1,98 @@
+{
+  "slug": "monster-2004",
+  "qid": null,
+  "title": {
+    "value": "Monster",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Anime News Network / Netflix India",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "logline": "A Japanese brain surgeon in Germany saves the life of a boy who grows up to become a serial killer - and then spends years across a ruined Europe trying to correct that decision.",
+  "poster": {
+    "src": "/img/series/monster-2004/poster.jpg",
+    "alt": "Monster (2004) series poster",
+    "attribution": "Poster © Naoki Urasawa / Shogakukan / Madhouse / Nippon TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 74-episode Madhouse adaptation aired on Nippon TV from April 2004 to September 2005, covering the manga in full. Added to Netflix India in January 2023.",
+    "source": "Anime News Network",
+    "source_url": "https://www.animenewsnetwork.com/news/2022-12-13/netflix-adds-monster-anime-in-india/.192873"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2004,
+      "episodes": 74,
+      "release_date": {
+        "value": "2004-04-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "IMDb 8.7; consistently cited in critical literature as the best crime-thriller manga-to-anime adaptation in the medium's history. Naoki Urasawa's source material translated intact - the slow procedural texture, the post-Cold War European geography, the philosophical weight of the villain. No filler, no padding; 74 episodes of deliberate craft."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0434706/"
+      },
+      "review_body": "Monster is 74 episodes of adult crime fiction wearing an anime format, and it is the rare case where that pairing produces something neither medium could have achieved alone. Naoki Urasawa's manga adaptation follows Dr. Kenzo Tenma from the moment his professional conscience collides with a medical institution's politics - a collision with a consequence that unfolds across years, countries, and a body count he can trace back to one operating room. The antagonist Johan Liebert is the medium's most unsettling villain: present at the edges of the narrative, glimpsed in consequences rather than acts, never quite reducible to a psychological explanation. Madhouse's production is austere and European in its visual palette - grey skies, Düsseldorf architecture, characters who look like they might exist. Critics who revisit Monster consistently describe it as the most serious anime made for adults; the pacing is television-drama slow and rewards that patience across 74 episodes without a visible drop in tension. The Netflix India addition gave the series the Indian audience it deserved.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Herr Dr. Tenma",
+          "air_date": "2004-04-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Tenma at the height of his professional arc - a gifted surgeon, an institution's golden boy, a man comfortable with deferred moral questions. The hospital hierarchy and the political event that triggers the series' inciting incident are set up with economy. Dark tone, confident pacing.",
+          "the_moment": "Tenma's choice in the operating room - the single decision that every subsequent episode is a consequence of.",
+          "critic_note": {
+            "text": "A cold, assured premiere that treats its audience as adults and its premise as a serious moral question.",
+            "source": "IMDb (user reviews)",
+            "url": "https://www.imdb.com/title/tt0434706/reviews/"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Wolf's Confession",
+          "air_date": "2004-07-28",
+          "bollymeter": 9.1,
+          "spoiler_free": "One of the first episodes where Johan Liebert is given substantial screen time, and critics cite it as the moment they understood the show was doing something unusual with its central antagonist. A character study conducted through indirection - what is said around Johan rather than by him.",
+          "the_moment": "Johan's first direct conversation with a survivor - a scene that several critics described as the most disturbing in the series.",
+          "critic_note": {
+            "text": "Johan Liebert emerges as one of the most chilling villain constructions in all of television animation.",
+            "source": "IMDb (user reviews)",
+            "url": "https://www.imdb.com/title/tt0434706/reviews/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

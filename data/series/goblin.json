@@ -1,11 +1,31 @@
 {
   "slug": "goblin",
-  "qid": { "value": "Q24859151", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Goblin (Guardian: The Lonely and Great God)", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q24859151",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Goblin (Guardian: The Lonely and Great God)",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "An immortal goblin cursed with a sword in his chest searches for his human bride, whose touch alone can grant him the death he seeks.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2016,
       "episodes": 16,
-      "release_date": { "value": "2016-12-02", "source": "Wikipedia", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2016-12-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.8, "basis": "Writer Kim Eun-sook's Daesang win and an 18.68% finale rating mark a high-water point for Korean cable fantasy; the score holds on rewatches." },
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Writer Kim Eun-sook's Daesang win and an 18.68% finale rating mark a high-water point for Korean cable fantasy; the score holds on rewatches."
+      },
       "critic": {
         "positive_pct": 85,
         "sample": 5,
@@ -45,9 +73,51 @@
         "source_url": "https://mydramalist.com/18452-goblin"
       },
       "review_body": "Goblin set benchmarks that Korean cable fantasy has not comfortably cleared since. Writer Kim Eun-sook collected the Baeksang Daesang, Gong Yoo took Best Actor, and the finale drew 18.68% nationwide, ranking seventh in Korean cable history. The MyDramaList audience score of 8.8 across 167,000 users reflects sustained affection rather than opening-week hype. Critics clustered around three praise points: the mythology's internal consistency, the cinematography, and the Goblin-Grim Reaper double act that gave the show its unexpected comic register. Dissenting voices pointed to the female lead's agency being limited by the mythology's rules. The OST, particularly Stay With Me by Chanyeol and Punch, became a cultural artefact independent of the show.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-12-02",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere opens in the Goryeo dynasty and arrives in modern-day Canada without losing coherence, establishing the goblin myth, the reincarnation structure, and Gong Yoo's charismatic physical presence all at once. Debut ratings hit 6.9% cable, impressive for a first episode.",
+          "the_moment": "The Goblin opening a portal in a field of buckwheat flowers - the image that defined the show's visual identity before it had an audience.",
+          "critic_note": {
+            "text": "The depth of perspective looking at life of the goblin that bears a bloody sword in his chest immerses the audience into the fantasy story.",
+            "source": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/www/art/2017/01/688_221821.html"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2017-01-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "The midpoint is where the show earns its emotional credibility: the Goblin-Grim Reaper dynamic reaches its most absurdist-comic peak while the goblin-bride mythology delivers its first genuinely painful twist. Both tones coexist here more elegantly than anywhere else in the run.",
+          "the_moment": "The Grim Reaper's past colliding with the present in a detail so small the show trusts the audience to absorb it without underscoring.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Episode 13",
+          "air_date": "2017-01-14",
+          "bollymeter": 8.9,
+          "spoiler_free": "The penultimate episode is the emotional apex - the mythology's cost becomes unavoidable and the show commits to a consequence that lesser fantasy dramas would have reversed by episode's end. The writing earns the tears it is asking for.",
+          "the_moment": "A disappearance in the middle of an ordinary street - a scene that aired and broke Twitter before the episode had finished streaming.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2017-01-21",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale drew 18.68% nationwide and became the seventh highest-rated drama in Korean cable history. It resolves the mythology across multiple timelines with a finality that respects both the supernatural premise and the human need for closure - the rare fantasy finale that does not collapse under its own ambition.",
+          "the_moment": "The final meeting between the goblin and his bride - the scene the entire series was constructed to earn.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

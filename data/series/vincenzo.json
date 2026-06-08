@@ -1,11 +1,31 @@
 {
   "slug": "vincenzo",
-  "qid": { "value": "Q101252455", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Vincenzo", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q101252455",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Vincenzo",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A Korean-born Italian mafia consigliere returns to Seoul to recover hidden gold and ends up leading the residents of a crumbling commercial plaza in a war against a corrupt pharmaceutical conglomerate.",
   "poster": {
@@ -24,9 +44,17 @@
       "number": 1,
       "year": 2021,
       "episodes": 20,
-      "release_date": { "value": "2021-02-20", "source": "tvN broadcast record", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2021-02-20",
+        "source": "tvN broadcast record",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 8.0, "basis": "Song Joong-ki carries the genre-blending spectacle with ease and the villain ensemble is a genuine pleasure; the twenty-episode length and tonal inconsistency keep it shy of the prestige tier." },
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Song Joong-ki carries the genre-blending spectacle with ease and the villain ensemble is a genuine pleasure; the twenty-episode length and tonal inconsistency keep it shy of the prestige tier."
+      },
       "critic": {
         "positive_pct": 89,
         "sample": 2,
@@ -45,9 +73,51 @@
         "source_url": "https://mydramalist.com/61371-vincenzo"
       },
       "review_body": "Vincenzo is the rare K-drama that commits fully to tonal chaos and makes it work for the majority of its run. The show pivots between operatic slapstick, mafia procedural, romantic subplot, and courtroom thriller within a single episode, and Song Joong-ki absorbs all of it with a performance calibrated to hold the center. The formal critic sample on Rotten Tomatoes was thin but positive, while MyDramaList's mass audience settled at a high 8.9 across over 130,000 users. Where the room split was on the finale: several critics noted the closing episodes leaned into a sadistic streak that felt at odds with the show's comedic energy. The twenty-episode run is the structural tax, with padding most visible around episodes 10 to 14. Still, it remains the gold standard for K-drama action-comedy hybrids with international reach.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-02-20",
+          "bollymeter": 8.5,
+          "spoiler_free": "Vincenzo Cassano returns to Seoul on mob business and encounters the tenants of a crumbling commercial plaza who are as ungovernable as any Mafia problem he has faced. The premiere establishes the show's tonal rules: operatic violence and slapstick occupy the same scene without apology, held together by Song Joong-ki's deadpan authority.",
+          "the_moment": "Vincenzo's first meeting with the Geumga Plaza tenants - the absurdist ensemble introduction that tells the audience what kind of show they're watching.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2021-03-07",
+          "bollymeter": 8.3,
+          "spoiler_free": "The show's courtroom subplot materialises and the comedy-action balance finds its most confident register - the villains are hateable enough for the revenge plotting to feel satisfying, and the Plaza tenants have graduated from bit players to genuine ensemble comedy.",
+          "the_moment": "Vincenzo deploying a Mafia tactic against a corporate lawyer in a setting that is not supposed to permit Mafia tactics.",
+          "critic_note": null
+        },
+        {
+          "number": 15,
+          "title": "Episode 15",
+          "air_date": "2021-04-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The show's moral darkness, flagged by critics in the finale cluster, becomes visible here as Vincenzo's methods escalate past comedy into something the show seems to endorse without interrogation. The SCMP called it wild and absorbing up to this point; what follows divides viewers.",
+          "the_moment": "A victory staged as entertainment that the show frames as pure catharsis - the moment critics cited when noting the finale's troubling streak.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2021-05-02",
+          "bollymeter": 8.1,
+          "spoiler_free": "The finale drew a 14.6% average nationwide, the sixth-highest tvN drama ever. The revenge arc concludes in a way that fully satisfies the audience's appetite for justice; critics who flagged the sadism noted the finale leaned into it. Song Joong-ki's closing performance is the show's final bid to hold the contradictions together.",
+          "the_moment": "Vincenzo's closing monologue - the character defining himself against the world the show spent twenty episodes burning down.",
+          "critic_note": {
+            "text": "Netflix's wild and absorbing show starring Song Joong-ki ends on a troubling note.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3132066/k-drama-review-vincenzo-netflixs-wild-and-absorbing-show"
+          }
+        }
+      ],
       "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

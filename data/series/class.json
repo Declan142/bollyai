@@ -1,0 +1,90 @@
+{
+  "slug": "class",
+  "qid": {
+    "value": "Q116691847",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Class",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "logline": "Three working-class students earn places at Hampton International, Delhi's most elite school, and find themselves caught in the same spiral of desire, rivalry, and violence that the Spanish original Elite mapped in Madrid.",
+  "poster": {
+    "src": "/img/series/class/poster.jpg",
+    "alt": "Class series poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Renewed for Season 2 by Netflix in March 2023.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(2023_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-02-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "IMDb 6.3; critics read Class as an adaptation that understood the Elite formula but couldn't quite ignite it - the Delhi class-divide commentary gave it identity, the execution was uneven."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt22297684/"
+      },
+      "review_body": "Class arrived carrying the structural advantages of the Elite adaptation: built-in narrative architecture, a proven hook, and the compelling local substitution of Spain's class anxiety with India's. Director Ashim Ahluwalia set Hampton International in a Delhi that looks aspirational from outside and carnivorous within, and the show was at its most alive when it used the school's social geography - scholarship students navigating a world designed for people who have always owned rooms like this. Critics read the show as intermittently effective rather than consistently good: the murder-mystery mechanics worked, the romantic arcs were variable in their conviction, and the class commentary occasionally landed as statement rather than drama. IMDb at 6.3 and mixed reviews suggest a show that found its audience without fully satisfying its ambitions.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-02-03",
+          "bollymeter": 6.8,
+          "spoiler_free": "The show wastes no time establishing the Hampton social ecosystem and the central three-way class collision. The premiere sets up the murder-mystery frame efficiently while spending most of its time on the relational dynamics that will drive the season. The Delhi elite school milieu - cricket fields, chandelier corridors, imported uniforms - is rendered with genuine visual interest.",
+          "the_moment": "The first Hampton assembly scene, where the camera slowly surveys a room full of old money and the three new students registering, at different speeds, that they have entered something they don't yet have the vocabulary for.",
+          "critic_note": {
+            "text": "Class adapts Elite's formula with local intelligence - the Delhi class-divide is a more jagged wound than Madrid's, and the show knows it.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/class_2023/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-08T05:00:00+05:30"
+}

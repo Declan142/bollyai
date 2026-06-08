@@ -1,11 +1,31 @@
 {
   "slug": "gyeongseong-creature",
-  "qid": { "value": "Q110614173", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Gyeongseong Creature", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q110614173",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Gyeongseong Creature",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "In 1945 Japanese-occupied Seoul, a wealthy businessman and a talented young woman cross paths inside a hospital where Imperial forces conduct secret biological experiments.",
   "poster": {
@@ -24,25 +44,79 @@
       "number": 1,
       "year": 2023,
       "episodes": 7,
-      "release_date": { "value": "2023-12-22", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2023-12-22",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "WORTH-IT",
-      "bollymeter": { "score": 7.6, "basis": "92% on Rotten Tomatoes from 12 critics; the Japanese-occupation setting gives the horror real historical weight, even as tonal inconsistency between horror and comedy drew flags." },
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "92% on Rotten Tomatoes from 12 critics; the Japanese-occupation setting gives the horror real historical weight, even as tonal inconsistency between horror and comedy drew flags."
+      },
       "critic": {
         "positive_pct": 92,
         "sample": 12,
         "pull_quotes": []
       },
-      "audience": { "rating": 7.1, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt22352854/" },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt22352854/"
+      },
       "review_body": "Season 1 released December 22, 2023 to strong critical marks: 92 percent on Rotten Tomatoes, with reviewers flagging that the combination of history, mystery, science fiction and horror made it a standout K-drama. The Joseon-occupation setting sharpened the horror by grounding the creature in real atrocity, making the biological experiments more disturbing than genre convention usually allows. The reservation critics shared was tonal: the series oscillated between brutal horror drama and slapstick comedy in ways that occasionally disrupted the dread. Audience scores at IMDb settled around 7.1, reflecting appreciation for the production quality and leads Park Seo-joon and Han So-hee without the enthusiast ceiling of the franchise's best comp.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Najin",
+          "air_date": "2023-12-22",
+          "bollymeter": 8.0,
+          "spoiler_free": "In 1945 occupied Seoul, Jang Tae-sang runs a pawnshop that survives on discretion while the Japanese military conducts something classified underground. The premiere establishes the historical atmosphere with production design that critics across Inverse and Tom's Guide singled out as the season's most distinctive asset.",
+          "the_moment": "The first glimpse underground - the show revealing what the hospital is actually doing before the characters do.",
+          "critic_note": {
+            "text": "Gyeongseong Creature weaves romance, horror, and political intrigue throughout its historical remix; addictive all the same.",
+            "source": "Inverse",
+            "url": "https://www.rottentomatoes.com/tv/gyeongseong_creature/s01"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Signal",
+          "air_date": "2023-12-22",
+          "bollymeter": 7.8,
+          "spoiler_free": "Tae-sang re-enters the hospital knowing the danger, and the episode escalates the creature threat into full view for the first time. The tonal split critics flagged - comedy adjacent to genuine body horror - is at its sharpest here, but the creature reveal earns its shock.",
+          "the_moment": "The creature's first fully lit confrontation with the leads in the hospital corridor.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2023-12-29",
+          "bollymeter": 7.5,
+          "spoiler_free": "The Part 1 finale resolves the hospital siege and delivers the creature's origin as both biological and political tragedy - the show's most coherent statement on what the Japanese occupation cost its subjects. The ending sets up Part 2 while functioning as a complete arc.",
+          "the_moment": "The creature's final scene in the hospital - an image the show earns by spending seven episodes building toward it.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2024,
       "episodes": 7,
-      "release_date": { "value": "2024-09-27", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2024-09-27",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "SKIP",
-      "bollymeter": { "score": 4.5, "basis": "Critics across NME, Ready Steady Cut, SCMP and DMTalkies converged on a season that abandons the historical grounding for a modern-day setting, producing a messy, overstuffed conclusion." },
+      "bollymeter": {
+        "score": 4.5,
+        "basis": "Critics across NME, Ready Steady Cut, SCMP and DMTalkies converged on a season that abandons the historical grounding for a modern-day setting, producing a messy, overstuffed conclusion."
+      },
       "critic": {
         "positive_pct": null,
         "sample": null,
@@ -65,5 +139,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }

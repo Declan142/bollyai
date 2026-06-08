@@ -1,11 +1,31 @@
 {
   "slug": "kingdom",
-  "qid": { "value": "Q30947892", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "title": { "value": "Kingdom", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "qid": {
+    "value": "Q30947892",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kingdom",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "canonical_industry": "streaming",
   "origin": "South Korea",
-  "original_language": { "value": "ko", "source": "wikidata", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
-  "platform": { "value": "Netflix", "source": "trade announcement", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
   "status": "ended",
   "logline": "A Joseon-era crown prince investigates a plague of the undead while navigating palace conspiracies that reach the throne itself.",
   "poster": {
@@ -24,25 +44,88 @@
       "number": 1,
       "year": 2019,
       "episodes": 6,
-      "release_date": { "value": "2019-01-25", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2019-01-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.6, "basis": "Reinvents zombie and sageuk genres simultaneously; tight six-episode pacing and immaculate production design give historical horror real dread." },
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Reinvents zombie and sageuk genres simultaneously; tight six-episode pacing and immaculate production design give historical horror real dread."
+      },
       "critic": {
         "positive_pct": 96,
         "sample": 25,
         "pull_quotes": []
       },
-      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6611916/" },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6611916/"
+      },
       "review_body": "Season 1 landed on Netflix in January 2019 and earned immediate critical recognition as one of the streaming era's most accomplished genre hybrids. The zombie mythology was reconfigured around Joseon-era power dynamics: the undead dormant in daylight, rampaging at night, forcing characters to race the sun rather than one another. Critics at 96 percent positive on Rotten Tomatoes praised the formal discipline, the production design, and writer Kim Eun-hee's refusal to treat the plague as mere spectacle. The political subplot, with its corrupt regent and dying king, gave the horror stakes that extended beyond the body count.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-01-25",
+          "bollymeter": 8.8,
+          "spoiler_free": "Crown Prince Chang arrives at his father's sick chamber and finds something wrong that the palace refuses to name. The episode builds dread through political maneuvering before the first zombie appears, which means the horror lands with full dramatic weight rather than as genre spectacle.",
+          "the_moment": "The king's chamber at night - a scene that redefines what the prince has walked into and what the series is actually about.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2019-01-25",
+          "bollymeter": 8.6,
+          "spoiler_free": "The plague mechanics are now fully operational and the episode uses the Joseon daylight rule - the undead dormant in sun, lethal at night - to stage a race that is unlike anything in the genre. Dramabeans described it as where the show stops being about zombies and becomes a fever dream about a kingdom's rot.",
+          "the_moment": "A crowd of infected caught between the rising sun and the survivors - the show's central image in its most distilled form.",
+          "critic_note": {
+            "text": "This is where Kingdom stops being a show about zombies and becomes something closer to a fever dream about what happens when a kingdom's rot finally catches up with its crown.",
+            "source": "Dramabeans",
+            "url": "https://dramabeans.com/2019/02/kingdom-series-review-part-1/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2019-01-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "The political and horror arcs intersect for the first time with full consequences - the regent's corruption is now inseparable from the plague's spread, which is Kim Eun-hee's thesis made explicit without ever being stated. The episode is the most formally complete single hour of Season 1.",
+          "the_moment": "The revelation connecting the plague's origin to the political crisis - a moment that recontextualises every episode before it.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2019-01-25",
+          "bollymeter": 8.4,
+          "spoiler_free": "The season finale is a tense conclusion that resolves the immediate siege while refusing to close the larger political mystery - a disciplined cliffhanger that critics praised as satisfying rather than manipulative. Reviewers at FanFiAddict called it neat, satisfying, and well-packaged.",
+          "the_moment": "The final shot establishing what the prince now understands about the palace - and what he cannot yet prove.",
+          "critic_note": null
+        }
+      ],
       "season_over_season": null
     },
     {
       "number": 2,
       "year": 2020,
       "episodes": 6,
-      "release_date": { "value": "2020-03-13", "source": "Netflix", "fetched_at": "2026-06-08T01:30:00+05:30", "confidence": "verified" },
+      "release_date": {
+        "value": "2020-03-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
       "verdict": "MUST-WATCH",
-      "bollymeter": { "score": 8.4, "basis": "Deepens both the viral mythology and the political intrigue without losing kinetic momentum; widely reviewed as a sequel that matches rather than diminishes its predecessor." },
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Deepens both the viral mythology and the political intrigue without losing kinetic momentum; widely reviewed as a sequel that matches rather than diminishes its predecessor."
+      },
       "critic": {
         "positive_pct": 94,
         "sample": 20,
@@ -54,11 +137,16 @@
           }
         ]
       },
-      "audience": { "rating": 8.3, "scale": 10, "source": "IMDb", "source_url": "https://www.imdb.com/title/tt6611916/" },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6611916/"
+      },
       "review_body": "Season 2 arrived in March 2020 and critics largely held their enthusiasm, with reviewers flagging that the show doubled down on the viral mythology, tracing the plague's biological evolution while sharpening the political conspiracy to its resolution. GameSpot's review called it a zombie show that actually has something to say, noting the outbreak's natural origin and evolutionary behaviour were explored with genuine rigour. The season concluded the main crown prince arc, leaving the cliffhanger that pointed toward the Ashin of the North special. Audience scores on IMDb remained consistent with Season 1, an unusual achievement for a sequel.",
       "season_over_season": "Resolves the core palace conspiracy while escalating the plague's scope; maintains Season 1's critical standing and audience loyalty, a rare sequel parity."
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T01:30:00+05:30"
+  "date_modified": "2026-06-08T06:00:00+05:30"
 }
