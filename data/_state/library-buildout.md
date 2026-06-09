@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 332 / ~500   (baseline 183)
+## Progress: 362 / ~500   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -35,6 +35,13 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 05 — 2026-06-09 — 30 series — STATUS: DONE (commit 30512cc pushed; 332->362)
+- **W** K-drama romance/slice-of-life: the-world-of-the-married · reply-1997 · nevertheless · romance-is-a-bonus-book · be-melodramatic · love-alarm
+- **X** US drama/comedy classics: the-office-us · parks-and-recreation · homeland · the-good-place · arrested-development · american-crime-story
+- **Y** Anime: samurai-champloo · great-pretender · odd-taxi · pluto-2023 · ranking-of-kings · nana
+- **Z** UK/Europe prestige: the-young-pope · my-brilliant-friend · deutschland-83 · the-end-of-the-f-ing-world · giri-haji · the-fall
+- **AA** Indian + World: she · little-things · 3-percent · who-killed-sara · cable-girls · dark-desire
+
 ### Batch 04 — 2026-06-09 — 30 series — STATUS: DONE (commit af8550b pushed; 302->332)
 - **R** K-drama romance/fantasy: my-love-from-the-star · secret-garden · pinocchio-kdrama · fight-my-way · vagabond-kdrama · suspicious-partner
 - **S** US prestige/FX/HBO: the-americans · atlanta · the-handmaids-tale · boardwalk-empire · justified · six-feet-under
