@@ -203,6 +203,20 @@ export function getOttPlatforms(): string[] {
   return Array.from(new Set(getOttCalendar().entries.map((entry) => entry.platform))).sort();
 }
 
+// The /ott/<slug>/ pages are generated from the CALENDAR's platform set, which differs from
+// series platform values (a series on "tvN / Netflix" has no /ott/tvn-netflix/ page). Return
+// the slug of the first platform token that actually has a static OTT page, else null — so
+// callers can link to /ott/netflix/ for a "tvN / Netflix" series, and skip the link otherwise.
+export function ottPageSlug(platform: string): string | null {
+  const calendarSlugs = new Set(getOttPlatforms().map(platformSlug));
+  const candidates = [platform, ...platform.split(/[/,&]/).map((s) => s.trim())];
+  for (const c of candidates) {
+    const slug = platformSlug(c);
+    if (calendarSlugs.has(slug)) return slug;
+  }
+  return null;
+}
+
 export function formatDate(value: string): string {
   return new Intl.DateTimeFormat("en-IN", {
     day: "numeric",
