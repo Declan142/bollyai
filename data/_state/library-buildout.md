@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 422 / ~500   (baseline 183)
+## Progress: 452 / ~500   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -35,6 +35,13 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 08 — 2026-06-09 — 30 series — STATUS: DONE (commit cb25f3c pushed; 422->452)
+- **LL** K-drama romance/supernatural: memories-of-the-alhambra · doom-at-your-service · the-penthouse-war-in-life · romantic-doctor-teacher-kim · sisyphus-the-myth · under-the-queen-umbrella
+- **MM** US prestige drama: halt-and-catch-fire · rome · the-shield · sharp-objects · the-knick · rectify
+- **NN** Anime: ping-pong-the-animation · land-of-the-lustrous · vivy-fluorite-eyes-song · to-your-eternity · lycoris-recoil · summertime-rendering
+- **OO** UK/Euro/Scandinavian: the-night-manager · the-office-uk · the-inbetweeners · the-killing · skam · spiral
+- **PP** Indian + World: breathe-into-the-shadows · guilty-minds · a-suitable-boy · wentworth · top-of-the-lake · tvf-cubicles
+
 ### Batch 07 — 2026-06-09 — 30 series — STATUS: DONE (commit a44f436 pushed; 392->422)
 - **GG** K-drama romance/historical: reply-1994 · navillera · weightlifting-fairy-kim-bok-joo · moon-lovers-scarlet-heart-ryeo · inspector-koo · our-blues
 - **HH** US prestige: band-of-brothers · deadwood · abbott-elementary · blue-eye-samurai · gen-v · the-pacific
