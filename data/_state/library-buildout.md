@@ -35,7 +35,7 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
-### Batch 04 — 2026-06-09 — 30 series — STATUS: DONE (commit TBD; 302->332)
+### Batch 04 — 2026-06-09 — 30 series — STATUS: DONE (commit af8550b pushed; 302->332)
 - **R** K-drama romance/fantasy: my-love-from-the-star · secret-garden · pinocchio-kdrama · fight-my-way · vagabond-kdrama · suspicious-partner
 - **S** US prestige/FX/HBO: the-americans · atlanta · the-handmaids-tale · boardwalk-empire · justified · six-feet-under
 - **T** Anime: violet-evergarden · toradora · 86-eighty-six · fruits-basket-2019 · your-lie-in-april · berserk-1997
