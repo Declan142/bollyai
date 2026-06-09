@@ -1,0 +1,245 @@
+{
+  "slug": "wentworth",
+  "qid": {
+    "value": "Q7983000",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Wentworth",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Australia",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Foxtel / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Crime", "Thriller", "LGBTQ"],
+  "logline": "A gripping Australian prison drama following the women of Wentworth Correctional Centre - from Bea Smith's entry as a murder suspect to the ensemble power plays, violent loyalties, and survival strategies that define life behind bars.",
+  "poster": {
+    "src": "/img/series/wentworth/poster.jpg",
+    "alt": "Wentworth poster",
+    "attribution": "Poster © Foxtel / Fremantle Australia. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Eight-season run concluded October 26, 2021 with Season 8 Part 2. A spinoff, Wentworth: The Next Chapter, was commissioned in February 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Wentworth_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 10,
+      "release_date": {
+        "value": "2013-05-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "The premiere drew 244,000 viewers - the most-watched Australian drama premiere in Foxtel history - and critics called the debut 'a triumph' with dead-on casting and tense atmospheric direction."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/wentworth"
+      },
+      "review_body": "Wentworth debuted May 1, 2013 on Foxtel's SoHo channel as a contemporary reimagining of the 1979-1986 Australian series Prisoner. The ten-episode debut drew 244,000 viewers - a record for an Australian drama premiere in Foxtel history - and critics called it a 'triumph' with 'well-written characters' and a 'tense, atmospheric direction' that rivalled acclaimed US prestige dramas. Danielle Cormack's portrayal of Bea Smith - a domestic violence survivor navigating the prison hierarchy - anchored a pilot that established the ensemble's dynamics with economy and confidence. Reviewers noted the show's refusal to sugarcoat prison violence, drawing comparisons to Orange Is the New Black while arguing Wentworth was the grittier, less sanitised production.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-05-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "The season sustained the ensemble's momentum and deepened the prison politics established in Season 1, maintaining critical approval with 24 Logie Award nominations across the run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 aired May to August 2014 across 12 episodes, expanding the prison's ensemble and escalating the power dynamics that made the debut compelling. Critics held their approval and the show's Logie presence grew - the series would accumulate 24 Logie nominations across its run, winning Most Outstanding Drama in 2015, 2018, and 2019. Season 2 deepened Bea Smith's arc from reactive survivor to calculated operator, a shift that rewarded viewers who had followed the show's careful character work. Pamela Rabe arrived in this period to set up the antagonist who would define the series' middle seasons.",
+      "season_over_season": "Expands the ensemble and escalates the power hierarchy, with Bea Smith's evolution from victim to strategist as the dominant arc."
+    },
+    {
+      "number": 3,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-04-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Pamela Rabe's Joan Ferguson ('The Freak') became one of Australian television's most celebrated antagonists; the season won the Logie for Most Outstanding Drama Series in 2015."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 (April to June 2015) is widely regarded as the series' peak, driven by Pamela Rabe's performance as Governor Joan Ferguson - a character that critics and audiences placed among Australian television's most indelible antagonists. The season's 12 episodes built to confrontations that critics described as among the most intense in Australian drama. The Logie win for Most Outstanding Drama in 2015 validated what audiences had been arguing since the character's introduction: the Ferguson era elevated an already strong ensemble into something approaching prestige territory.",
+      "season_over_season": "The arrival of Pamela Rabe's Governor Ferguson shifts the show into its most acclaimed phase, with the antagonist matching and exceeding Bea Smith in narrative weight."
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-05-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 4 navigated the consequences of Season 3's major events with mixed success; still compelling ensemble work but the emotional peak of the Ferguson arc was behind it."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 (May to July 2016) grappled with the aftermath of Season 3's decisive events, reshaping the ensemble's landscape while maintaining the procedural intensity that defined the show. The 12 episodes found the writers redistributing narrative weight across a deepened ensemble - Kate Jenkinson and Leah Purcell absorbed more screen time as the season rebuilt toward a new central conflict. Critics found the season a solid continuation even if the emotional voltage of the Ferguson-Bea confrontations was now a benchmark impossible to match on every episode.",
+      "season_over_season": "Rebuilds after Season 3's landmark events, redistributing the ensemble's dramatic weight in ways that pay dividends across Seasons 5 and 6."
+    },
+    {
+      "number": 5,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-04-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The shift to Fox Showcase and a post-Bea narrative tested the ensemble's durability; critics acknowledged the quality held while audiences noted the emotional anchor of the first four seasons was gone."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 (April to June 2017) premiered on the relaunched Fox Showcase and marked the show's first full season without Danielle Cormack at its centre. The 12 episodes tested the ensemble's strength - and largely found it intact. The Logie wins in 2018 and 2019 for Most Outstanding Drama Series and Most Popular Drama confirmed that audiences and critics continued to regard the series as the benchmark of Australian prestige television even in its post-Bea iteration.",
+      "season_over_season": "Tests and ultimately confirms the ensemble's durability without its original lead; the Fox Showcase rebrand brought no loss of ambition."
+    },
+    {
+      "number": 6,
+      "year": 2018,
+      "episodes": 12,
+      "release_date": {
+        "value": "2018-06-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Logie wins for Most Outstanding Drama and Most Popular Drama in 2018 confirmed the show's sustained standing; Joan Ferguson's return provided the season's dramatic centrepiece."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 (June to September 2018) brought Ferguson back to Wentworth and with her the heightened dramatic energy that defined the series' strongest run. The season won both Most Outstanding Drama and Most Popular Drama at the 2018 Logies - the peak of the show's awards recognition. Twelve episodes built to a finale that set up the endgame arc while delivering the confrontational set-pieces the audience expected from any season involving Pamela Rabe.",
+      "season_over_season": "Joan Ferguson's return restores the show's highest-voltage dynamic and earns Wentworth its strongest Logie haul."
+    },
+    {
+      "number": 7,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-05-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The penultimate full season sustained critical approval and won Most Outstanding Drama at the 2019 Logies, placing it among the show's more consistent endgame chapters."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 7 (May to July 2019) across ten episodes functioned as the setup for an extended finale, with the creative team trimming from twelve to ten episodes in apparent preparation for a focused final chapter. The Logie for Most Outstanding Drama in 2019 - the show's third win in that category - indicated the series remained a critical favourite even as it moved toward conclusion. Writing gravitated toward resolving long-running character arcs rather than introducing new complications.",
+      "season_over_season": "A focused penultimate season that begins resolving long-running arcs rather than expanding them, with tighter ten-episode pacing."
+    },
+    {
+      "number": 8,
+      "year": 2020,
+      "episodes": 20,
+      "release_date": {
+        "value": "2020-07-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The 20-episode finale split across two years (Part 1 in 2020, Part 2 in 2021) gave the ensemble space for a measured conclusion; audience reception to the final episodes was largely positive."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 8 ran to 20 episodes across two broadcast windows: Part 1 (July to September 2020) and Part 2 (August to October 2021). The split was reportedly a pandemic-related production decision rather than a creative one. The extended finale gave the ensemble room to resolve eight years of layered storylines, and critical consensus found the conclusion earned rather than perfunctory. Pamela Rabe's performance in the final stretch drew particular attention as the one element whose quality the show maintained across every season it appeared in.",
+      "season_over_season": "A 20-episode pandemic-split finale that resolves eight seasons of ensemble arcs with more room and patience than a compressed end would have allowed."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

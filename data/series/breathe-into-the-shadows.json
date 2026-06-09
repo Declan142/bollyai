@@ -1,0 +1,101 @@
+{
+  "slug": "breathe-into-the-shadows",
+  "qid": {
+    "value": "Q97280369",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Breathe: Into the Shadows",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Psychological", "Crime", "Drama"],
+  "logline": "A respected doctor begins killing on command to rescue his kidnapped daughter, while the detective hunting the killer inches closer to a truth that will destroy everything he believes about the case.",
+  "poster": {
+    "src": "/img/series/breathe-into-the-shadows/poster.jpg",
+    "alt": "Breathe: Into the Shadows poster",
+    "attribution": "Poster © Amazon Prime Video / Abundantia Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded with Season 2 in November 2022. No further renewal announced by Amazon Prime Video India.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Breathe:_Into_the_Shadows"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-07-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 3.5,
+        "basis": "Rotten Tomatoes critics scored it 17% (17 reviews), with outlets like Hindustan Times calling it 'inept and illogical' and NDTV awarding 1.5 out of 5 stars. Audience reception was far warmer at 76%."
+      },
+      "critic": {
+        "positive_pct": 17,
+        "sample": 17,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/breathe_into_the_shadows"
+      },
+      "review_body": "Season 1 dropped all 12 episodes on July 10, 2020, marking Abhishek Bachchan's streaming debut. Critics were largely unmoved: Rotten Tomatoes aggregated just 17 percent approval from 17 reviewers, with the Hindustan Times labelling the writing 'inept and illogical' and NDTV giving it 1.5 out of 5 stars under the headline 'Low on Oxygen.' The Indian Express acknowledged 'the bones of a crackerjack thriller' buried within a premise that collapses under logical scrutiny. Audience scores told a sharply different story - the Popcornmeter sat at 76 percent - suggesting fans of Bachchan and Amit Sadh found enough to enjoy in the cat-and-mouse procedural even as critics dismissed the plotting as implausible.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-11-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 3.0,
+        "basis": "Indian Express called Season 2 'plain preposterous,' and critical consensus held that the second run compounded the first season's structural problems without resolving them."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived November 9, 2022 with the show's mythology expanded into murkier mythological territory. Critics who had found Season 1 implausible found the second outing even harder to defend - the Indian Express verdict of 'plain preposterous' captured the consensus. The season attempts to deepen the antagonist's psychology but layers plot mechanics on top of a foundation critics never found credible. Amit Sadh's Kabir Sawant remained the most watchable element, as in Season 1, with reviewers noting the performer's commitment to a show that too often let him down in the writing room. No aggregated RT score emerged for Season 2, pointing to diminished critical engagement with the franchise.",
+      "season_over_season": "Doubles down on the first season's mythology-heavy plotting without correcting the logic gaps that drew the sharpest critical fire."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

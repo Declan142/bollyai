@@ -1,0 +1,102 @@
+{
+  "slug": "land-of-the-lustrous",
+  "qid": {
+    "value": "Q53877791",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Land of the Lustrous",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Sci-Fi",
+    "Action",
+    "Psychological"
+  ],
+  "logline": "In a post-apocalyptic world, crystalline gem-beings wage a lonely war against lunar invaders - and the weakest among them, Phosphophyllite, embarks on an obsessive search for purpose that will cost everything they once were.",
+  "poster": {
+    "src": "/img/series/land-of-the-lustrous/poster.jpg",
+    "alt": "Land of the Lustrous poster",
+    "attribution": "Poster © Orange / Takahiko Kyogoku. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season anime adaptation of Haruko Ichikawa's manga, 12 episodes, completed December 2017. The manga concluded in April 2024; no second season has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Land_of_the_Lustrous"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-10-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Orange studio's all-CG production redefined what 3DCG anime could achieve visually and emotionally; critics and audiences converged on rare agreement, with a MAL score of 8.39 ranked #236. Won a VFX-Japan Award."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.39,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/35557/Houseki_no_Kuni"
+      },
+      "review_body": "Orange studio's 2017 adaptation of Haruko Ichikawa's manga arrived as the most visually distinctive anime of the year - a full-CG production that critics acknowledged as proof the format could carry genuine emotional weight. The series won a VFX-Japan Award and earned recognition in 2024 with the Sense of Gender Awards Grand Prize and the 2025 Nihon SF Taisho Award. ANN reviewer Lauren Orsini covered every episode, consistently noting how the CG allowed fluid gem-body movement that traditional animation could not replicate. The MAL score of 8.39 ranks it among the top 250 anime on the platform, supported by 520,000 ratings. Audiences and critics shared admiration for both the technical achievement and the increasingly dark philosophical territory the series explored through Phosphophyllite's transformation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Phos and Cinnabar",
+          "air_date": "2017-10-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere introduces the gem society and its logic: each gem has a hardness value that determines their combat role, and Phosphophyllite - the weakest and most fragile - is assigned encyclopedia work as a consequence. The CG rendering of gem bodies refracting light establishes the series' visual language immediately.",
+          "the_moment": "Phos first meets the isolated Cinnabar, whose corrosive body forces a solitary existence - the central relationship that will shape the season.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Promise",
+          "air_date": "2017-12-23",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale recontextualises Phos's arc as a tragedy of well-intentioned transformation, leaving the central question about identity and sacrifice open rather than resolved. It is the formal commitment to ambiguity that critics cited as the series' defining move.",
+          "the_moment": "Phos contemplates what remains of who they were - a quiet ending that lands harder than any action climax the season produced.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "rome",
+  "qid": {
+    "value": "Q209878",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Rome",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "War", "Action"],
+  "logline": "Two Roman soldiers - one a patrician officer, one a blunt plebeian legionary - navigate the collapse of the Republic and the birth of the Empire as Caesar, Antony, and Octavian tear the known world apart.",
+  "poster": {
+    "src": "/img/series/rome/poster.jpg",
+    "alt": "Rome poster",
+    "attribution": "Poster © HBO / BBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled after Season 2 due to the enormous production cost (reported at $100 million for Season 1). Showrunner Bruno Heller confirmed a planned third season was compressed into Season 2's finale.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rome_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 12,
+      "release_date": {
+        "value": "2005-08-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "83% Tomatometer on a debut season critics described as the most opulent and politically astute historical drama since I, Claudius; the street-level view of Roman society through Vorenus and Pullo became its signature innovation."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Rome is a lavish series that offers many lusty pleasures similar to the net's other period drama, Deadwood.",
+            "source": "Variety",
+            "url": "https://variety.com/2005/tv/reviews/rome-4-1200523863/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/rome/"
+      },
+      "review_body": "Rome's first season debuted on HBO and BBC Two in August 2005 to an 83-percent Tomatometer, with critics praising its formal ambition and its willingness to treat Roman politics as genuinely analogous to modern power dynamics. The San Francisco Chronicle called it a lavishly shot big-screen movie; Variety invoked Deadwood. The innovation of anchoring Julius Caesar's civil war through the eyes of two common soldiers - Kevin McKidd's dutiful Vorenus and Ray Stevenson's exuberant Pullo - gave the show a democratic perspective on history that the HBO drama cycle had not previously attempted. Ciarán Hinds's Caesar drew particular acclaim for its authority and intelligence. The $100-million production budget was visible in every frame.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Stolen Eagle",
+          "air_date": "2005-08-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "The pilot establishes Rome's democratic premise immediately: the fall of the Republic will be filtered through two soldiers who have no ambition beyond survival and loyalty. The production design announces the series' scale without apology.",
+          "the_moment": "Vorenus and Pullo's first scene together in Gaul - two men whose friendship will bookend one of history's largest pivots.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "The Spoils",
+          "air_date": "2005-11-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode leading into the Ides of March delivers what the season has been building toward: the political chess game arrives at checkmate, and every personal relationship is implicated. Hinds's Caesar in these final episodes is the performance of the season.",
+          "the_moment": "Caesar's response to the warning he receives - a scene that captures the precise texture of a man who knows and refuses to run.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2007,
+      "episodes": 10,
+      "release_date": {
+        "value": "2007-01-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "89% Tomatometer on a compressed but brilliant final season that covered the Antony-Octavian conflict and the birth of the Empire while delivering the Vorenus-Pullo arc to a genuinely moving conclusion."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/rome/"
+      },
+      "review_body": "Season 2 aired January 2007 knowing it was the series finale, and the writing responded accordingly: a third season's worth of history was compressed into ten densely packed hours covering Antony's alliance with Cleopatra, Octavian's consolidation of power, and the long aftermath of everything the first season set in motion. Critics awarded it 89 percent on Rotten Tomatoes, an improvement on the debut that reflected a season willing to move fast and end things cleanly. James Purefoy's Antony and Simon Woods's young Octavian dominated the political storyline; Vorenus and Pullo's civilian arc in Rome's underworld offered the show's most emotionally developed thread. The series finale compressed an entire act of Roman history into a single hour - a compromise forced by cancellation, but one that worked.",
+      "season_over_season": "Shifts from Caesar's civil war to the Antony-Octavian conflict, compressing an entire historical period into ten episodes; critics noted the pace gain and mourned the years of story that budget cancellation erased.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

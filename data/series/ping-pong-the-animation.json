@@ -1,0 +1,112 @@
+{
+  "slug": "ping-pong-the-animation",
+  "qid": {
+    "value": "Q115221233",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ping Pong the Animation",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sports",
+    "Drama",
+    "Coming of Age",
+    "Psychological"
+  ],
+  "logline": "Two childhood friends with opposite personalities collide at the national table tennis circuit, where one's fearless ambition and the other's suppressed genius force both to reckon with what victory actually costs.",
+  "poster": {
+    "src": "/img/series/ping-pong-the-animation/poster.jpg",
+    "alt": "Ping Pong the Animation poster",
+    "attribution": "Poster © Tatsunoko Production / Funimation. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season adaptation of Taiyo Matsumoto's manga, 11 episodes, completed June 2014. No continuation planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ping_Pong_the_Animation"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 11,
+      "release_date": {
+        "value": "2014-04-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Grand Prize at the 2015 Tokyo Anime Awards; critics cited zero wasted scenes and the rare feat of sports drama that doubles as existential character study. MAL score 8.63 ranked #96 among all anime."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Ping Pong is a triumph of artistry and treasure of storytelling.",
+            "source": "Anime News Network (Nick Creamer)",
+            "url": "https://www.animenewsnetwork.com/review/ping-pong-the-animation/bd-dvd-complete-series/.89583"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.63,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/22135/Ping_Pong_the_Animation"
+      },
+      "review_body": "Masaaki Yuasa's 11-episode adaptation of Taiyo Matsumoto's manga arrived in spring 2014 and immediately separated itself from every other sports anime in memory. The series won the Grand Prize for Television Animation at the 2015 Tokyo Anime Awards and earned recognition from Polygon, Crunchyroll, and IGN as one of the defining anime of the 2010s. Critics converged on two qualities: Yuasa's kinetic, expressionist animation that makes a ping-pong rally feel like a metaphysical argument, and the show's refusal to let athletic outcome carry the emotional weight that character interiority should bear. ANN reviewer Nick Creamer graded it A, calling it a triumph of artistry. MAL score of 8.63, ranked #96 overall, reflects audience agreement.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I've Been Waiting for You, Hero",
+          "air_date": "2014-04-11",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Peco's swagger and Smile's deliberate detachment at a summer tournament, then introduces the Chinese player Kong who will shatter Peco's self-assurance. Yuasa's distorted panel-influenced layouts signal immediately that this is a sports series with a completely different agenda.",
+          "the_moment": "Smile deliberately loses a match he could win - the series' first hint that talent and the will to use it are entirely separate problems.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "I Was Born to Break Your Heart",
+          "air_date": "2014-06-06",
+          "bollymeter": 9.5,
+          "spoiler_free": "The semi-final between Smile and Peco delivers the emotional payoff the season has been building across two contrasting character arcs. The match functions less as sports spectacle and more as a conversation the two friends could never have off the court.",
+          "the_moment": "The Hero arrives - the moment Smile finally plays without the ceiling he has imposed on himself, animated with Yuasa's full visual range.",
+          "critic_note": {
+            "text": "Masaaki Yuasa is an animator's animator - a singular voice in the medium.",
+            "source": "Anime News Network (Nick Creamer)",
+            "url": "https://www.animenewsnetwork.com/review/ping-pong-the-animation/bd-dvd-complete-series/.89583"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "the-killing",
+  "qid": {
+    "value": "Q956446",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Killing",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Denmark",
+  "original_language": {
+    "value": "da",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "DR1",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Thriller", "Drama", "Psychological"],
+  "logline": "Detective Inspector Sarah Lund investigates long-form murder cases through rain-soaked Copenhagen - the Danish Forbrydelsen that defined Scandi noir and proved subtitled crime drama could captivate mainstream global audiences.",
+  "poster": {
+    "src": "/img/series/the-killing/poster.jpg",
+    "alt": "The Killing poster",
+    "attribution": "Poster © DR / Danmarks Radio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run on DR1, concluded November 2012. Broadcast in over 120 countries. Won the 2011 BAFTA Award for Best International TV Series. An American remake aired on AMC 2011-2014.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Killing_(Danish_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": 20,
+      "release_date": {
+        "value": "2007-01-07",
+        "source": "DR1",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Season 1 received audience appreciation figures of 94% in the UK and won the BAFTA for Best International Series; critics called it the best series then on television, paving the way for the entire Scandi noir wave."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The best series currently on TV - absorbing, addictive, and emotionally devastating.",
+            "source": "The Hollywood Reporter",
+            "url": "https://en.wikipedia.org/wiki/The_Killing_(Danish_TV_series)"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/the-killing/"
+      },
+      "review_body": "Season 1 of Forbrydelsen follows one murder investigation across 20 episodes, each covering roughly 24 hours - a structure that had never been sustained at this length for a crime procedural. The case of Nanna Birk Larsen draws together a school, a political campaign, and a traumatised family, and the show's genius is in keeping all three strands equally weighted. Sofie Grabol's Sarah Lund - in her Faroe Islands jumper, moving through the series in a state of borderline compulsion - became one of European television's most analysed characters. UK audience appreciation figures reached 94 percent. The BAFTA followed in 2011. Critics across the English-speaking press catalogued the show as proof that subtitled drama could be genuinely mainstream.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2007-01-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere introduces Nanna Birk Larsen's disappearance on a Saturday night, Sarah Lund preparing to leave Copenhagen for a new life, and a political campaign that will intersect with the investigation in ways nobody onscreen yet suspects. The cold, flat photography of Copenhagen in November sets the register immediately.",
+          "the_moment": "Lund's decision to stay - to take one more look at one more detail - establishes the obsessive logic that will drive every episode of the series.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2007-11-29",
+          "bollymeter": 9.3,
+          "spoiler_free": "The Season 1 finale resolves twenty episodes of accumulating dread with a revelation that restructures how the viewer reads everything that came before. The final moments with Lund belong to one of the best season-ending decisions in crime television.",
+          "the_moment": "The revelation of who was involved - and the precise moment Lund understands it - lands with the force of a conclusion twenty hours in the making.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 10,
+      "release_date": {
+        "value": "2009-09-27",
+        "source": "DR1",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Season 2 trades the family-focused intimacy of Season 1 for a military conspiracy thriller; critics found the political architecture compelling but the emotional register cooler and more procedural."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returns Lund after a two-year gap to investigate the murder of a military adviser, uncovering a cover-up involving Danish soldiers in Afghanistan and civilian casualties. The geopolitical scope is wider than Season 1's intimate family tragedy, and the political-thriller architecture is credibly constructed. Lund's partner Strange becomes a more central figure, and the season's central betrayal landed with considerable impact for those who watched it on original broadcast. The ten-episode format is tighter than Season 1's twenty, and the pacing reflects that compression. Critical consensus held the season as accomplished if less emotionally devastating than its predecessor.",
+      "season_over_season": "Shifts from domestic grief to military-political conspiracy; the scope widens but the intimate human damage of Season 1 is harder to replicate.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2012,
+      "episodes": 10,
+      "release_date": {
+        "value": "2012-09-23",
+        "source": "DR1",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Season 3 was received as a strong farewell for Lund, with corporate corruption replacing political conspiracy; critics noted it as an honourable close to an influential run, if not a return to Season 1's heights."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 sets its murder in the context of the 2008 financial crisis, drawing Lund into an investigation touching financial institutions and state corruption. The ten-episode structure again allows for a complete case-per-season format. Grabol's performance remained the series' core: Lund in Season 3 is a woman who has given up almost everything outside the work and knows it. The season finale generated significant discussion about its final minutes and what they mean for the character. Critics received it as a respectful and satisfying close for a series that had changed European crime television irreversibly. The show's broadcast in over 120 countries had by this point established Scandi noir as an export category.",
+      "season_over_season": "Completes Lund's arc with a financial-corruption investigation that asks what the work has cost her - a more elegiac season than its predecessors.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

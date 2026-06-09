@@ -1,0 +1,117 @@
+{
+  "slug": "summertime-rendering",
+  "qid": {
+    "value": "Q107612221",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Summer Time Rendering",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Mystery",
+    "Thriller",
+    "Supernatural",
+    "Action"
+  ],
+  "logline": "A teenager returns to his island hometown for a childhood friend's funeral, discovers evidence of murder, and finds himself in a time-loop battle against shadow doppelgangers with a single rule: die, reset, try again.",
+  "poster": {
+    "src": "/img/series/summertime-rendering/poster.jpg",
+    "alt": "Summer Time Rendering poster",
+    "attribution": "Poster © OLM / Disney Platform Distribution. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season adaptation of Yasuki Tanaka's Shonen Jump+ manga, 25 episodes, completed September 2022. Disney+ exclusive streaming in Japan. Full story resolved.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Summer_Time_Rendering"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 25,
+      "release_date": {
+        "value": "2022-04-15",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "ANN reviewer Kim Morrissy awarded an A- and wrote that the series accomplished everything it set out to do. MAL score 8.46 ranked #189 from 293,000 ratings - among the highest-rated mystery-thriller anime of the 2020s."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The biggest strength is that it keeps adding layers to its central premise, keeping you guessing.",
+            "source": "Anime News Network (Kim Morrissy)",
+            "url": "https://www.animenewsnetwork.com/review/summer-time-rendering/.193190"
+          },
+          {
+            "text": "Everything this series set out to do, it accomplished.",
+            "source": "Anime News Network (Kim Morrissy)",
+            "url": "https://www.animenewsnetwork.com/review/summer-time-rendering/.193190"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.46,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/47194/Summertime_Render"
+      },
+      "review_body": "OLM's adaptation of Yasuki Tanaka's Shonen Jump+ manga premiered in spring 2022 as a Disney+ exclusive in Japan and became the season's most discussed mystery series. The time-loop premise - teenager Shinpei dying and resetting each time the shadow doppelgangers kill him or those he is trying to protect - layers new information into each cycle without becoming repetitive. ANN reviewer Kim Morrissy awarded it an A-, praising its sustained layering of the central premise and noting full resolution of every established element. The MAL score of 8.46, ranked #189 among all anime from 293,000 ratings, places it in the elite tier of the format. The 25-episode count gave the story room to complete its mystery fully, a rarity in contemporary anime adaptations.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Reaper",
+          "air_date": "2022-04-15",
+          "bollymeter": 8.5,
+          "spoiler_free": "Shinpei returns to Hitogashima island for Ushio's funeral and within hours discovers that the accidental drowning may have been a murder. The premiere establishes the island's isolated setting and introduces the shadow phenomenon with enough ambiguity to sustain multiple theories. The final scene redefined the tone of the entire series.",
+          "the_moment": "Shinpei encounters something that cannot be Ushio but wears her face exactly - the image that recontextualises the entire episode.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "Summer Time Rendering",
+          "air_date": "2022-09-29",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale resolves every mystery thread the series established across 25 episodes and delivers a structural conclusion that critics praised for its completeness. The final sequence drew consistent comparisons to the best mystery-thriller finales in anime history.",
+          "the_moment": "The island at rest after all cycles close - a quiet final image that earns its warmth because of everything the series put in front of it.",
+          "critic_note": {
+            "text": "Everything this series set out to do, it accomplished.",
+            "source": "Anime News Network (Kim Morrissy)",
+            "url": "https://www.animenewsnetwork.com/review/summer-time-rendering/.193190"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

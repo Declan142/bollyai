@@ -1,0 +1,162 @@
+{
+  "slug": "the-office-uk",
+  "qid": {
+    "value": "Q23829",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Office (UK)",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC Two",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Slice of Life"],
+  "logline": "A mockumentary crew follows the grimly self-deluded David Brent and his suffering Slough paper-company employees - the British comedy that invented modern workplace cringe and launched a thousand global remakes.",
+  "poster": {
+    "src": "/img/series/the-office-uk/poster.jpg",
+    "alt": "The Office (UK) poster",
+    "attribution": "Poster © BBC / Wernham Hogg. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two series and two Christmas specials, concluded December 2003. Ricky Gervais and Stephen Merchant confirmed the Christmas specials as a deliberate ending. No revival planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Office_(British_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2001,
+      "episodes": 6,
+      "release_date": {
+        "value": "2001-07-09",
+        "source": "BBC Two",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "Metacritic 98/100 across 12 reviews for Series 1, rated universal acclaim - critics catalogued it as an invention of a new comic form, not just an unusually good sitcom."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 12,
+        "pull_quotes": [
+          {
+            "text": "Considered one of the greatest British sitcoms of all time.",
+            "source": "The Telegraph",
+            "url": "https://en.wikipedia.org/wiki/The_Office_(British_TV_series)"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/the-office/"
+      },
+      "review_body": "Series 1 aired on BBC Two from July 2001 and critics recognised immediately that Gervais and Merchant had done something formally new: a comedy that generates suffering from sincerity, where the joke is always on the person who most desperately wants to be liked. The mockumentary camera does not mock the format - it is the instrument of exposure. Brent's oblivious monologues to camera became the template for an entire mode of television comedy. The 98 Metacritic from 12 critics catalogued a near-universal verdict of invention. The British Comedy Award for Best New TV Comedy arrived the same year. Series 1 is the laboratory where the form was perfected.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Downsize",
+          "air_date": "2001-07-09",
+          "bollymeter": 9.0,
+          "spoiler_free": "The series begins with the threat of redundancy at Wernham Hogg's Slough branch, and Brent's response to that threat tells you everything about who he is. The documentary crew catches him performing competence he does not have. Martin Freeman's Tim Canterbury arrives as the audience's surrogate - pained, sardonic, and quietly desperate.",
+          "the_moment": "Brent's first extended monologue to the camera establishes that this man genuinely believes what he is saying - and that is the whole joke.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Charity",
+          "air_date": "2001-08-20",
+          "bollymeter": 9.3,
+          "spoiler_free": "The Series 1 finale concentrates the show's humiliation comedy around a charity fundraiser that strips Brent of every defence. The office quiz, the performance, and the final revelation about his position compress the series' themes into their most devastating form.",
+          "the_moment": "Brent's response to the news about his job - performed with Gervais's particular brand of squirming self-deception - is the moment the series crystallises.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2002,
+      "episodes": 6,
+      "release_date": {
+        "value": "2002-09-30",
+        "source": "BBC Two",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "Metacritic 93/100 from 16 reviews, with Series 2 deepening the Tim and Dawn romance and pushing Brent toward genuine pathos - a rare comedy that earned its sentimental turn."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 16,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 in autumn 2002 built on the first with greater confidence, expanding Gareth's militaristic paranoia, developing Tim and Dawn's unconsummated romance with genuine emotional weight, and pushing Brent into more exposed territory. Critics awarded 93 on Metacritic (16 reviews), noting that the show had achieved what almost no sitcom manages: turning cringe into something approaching tragedy. The British Comedy Awards gave it Best TV Comedy. The love story subplot was criticised by some as conventionally warming a series built on anti-sentimentality - but even that warmth arrives via a note read in a taxi, not a declaration at a podium.",
+      "season_over_season": "Shifts from pure cringe invention to a sitcom with a genuine love story - the sentiment earns its place because it has been withheld so carefully.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2003,
+      "episodes": 2,
+      "release_date": {
+        "value": "2003-12-26",
+        "source": "BBC One",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.6,
+        "basis": "Metacritic 98/100 from 19 reviews for the Christmas specials, which resolved the series with both earned sentiment and a Brent who finally finds some dignity - critics called it a perfect ending."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 19,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The two-part Christmas Special broadcast on BBC One on 26 and 27 December 2003 and functioned as the series finale, earning the franchise's highest critical score. Gervais and Merchant deliberately chose to resolve Tim and Dawn's will-they-won't-they with a pay-off that critics found genuinely affecting rather than cynically deployed. Brent's encounter with his own celebrity - modest, provincial, and ultimately human - reframed the character from pure comic engine to something more melancholy. The 98 Metacritic (19 reviews) placed the specials among the highest-rated single pieces of British television comedy ever reviewed. The show won the Golden Globe for Best Comedy Series in 2004, the first British comedy to do so in 25 years.",
+      "season_over_season": "The specials resolve the series with earned sentiment: Brent finds some grace, Tim and Dawn get their moment - a conclusion the regular series carefully denied for two years.",
+      "episode_reviews": [
+        {
+          "number": 2,
+          "title": "The Office Special - Part 2",
+          "air_date": "2003-12-27",
+          "bollymeter": 9.7,
+          "spoiler_free": "The second Christmas Special delivers the moments the entire series withheld. Brent faces the camera one final time as a man who has learned something - modest, painful, human. The Tim and Dawn resolution lands because the preceding fourteen episodes refused to give it away cheaply.",
+          "the_moment": "The note in the taxi. The moment the series had been patiently building toward for two years and two specials - and Gervais and Merchant knew exactly when to let it arrive.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

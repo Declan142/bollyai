@@ -1,0 +1,218 @@
+{
+  "slug": "halt-and-catch-fire",
+  "qid": {
+    "value": "Q15072819",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Halt and Catch Fire",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "AMC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "Biographical"],
+  "logline": "Inside the 1980s personal computer revolution, a volatile visionary and two brilliant engineers risk everything to build a machine that could change the world - before the world changes them.",
+  "poster": {
+    "src": "/img/series/halt-and-catch-fire/poster.jpg",
+    "alt": "Halt and Catch Fire poster",
+    "attribution": "Poster © AMC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Four-season run concluded October 14, 2017. Creators Christopher Cantwell and Christopher C. Rogers confirmed it as a planned ending.",
+    "source": "AMC",
+    "source_url": "https://www.amc.com/shows/halt-and-catch-fire"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 10,
+      "release_date": {
+        "value": "2014-06-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Tomatometer of 76% reflected a pilot that impressed on craft - performances, period detail, visual style - but polarised critics over whether its protagonist was derivative of Don Draper. Strong foundations for what followed."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A triumphant pilot with excellent writing, impressive acting and a noteworthy cinematic visual style.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/halt-catch-fire-review-706847/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/halt-and-catch-fire/"
+      },
+      "review_body": "The debut season arrived in June 2014 and earned a 76-percent Tomatometer, with critics divided between admiration for its craft and skepticism about Lee Pace's Joe MacMillan feeling like a Silicon Prairie Don Draper. The period texture - early 1980s Dallas, Cardiff Electric, the IBM clone wars - was consistently praised as meticulous and evocative. Scoot McNairy and Mackenzie Davis drew the stronger notices as the engineer and the punk coder whose dynamic would eventually power the series' best chapters. Variety called it programmatic despite its assets; The Hollywood Reporter countered with praise for its cinematic visual style. A solid if uneven debut that undervalued its best characters.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I/O",
+          "air_date": "2014-06-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series opens with Joe MacMillan walking into Cardiff Electric and immediately reordering every gravitational field in the building. Director Juan Jose Campanella shoots 1983 Dallas with a sun-bleached palette that feels authentic rather than costumed. The dynamic between Pace and McNairy clicks from the first scene.",
+          "the_moment": "Joe's enigmatic reverse-engineering speech that reveals just how much risk he is willing to impose on people who did not ask for it.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Giant",
+          "air_date": "2014-08-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season finale delivers on the hardware-race premise while redirecting the show's center of gravity toward the characters who will carry its best seasons. The Cardiff Giant demo sequence functions as a sustained set piece of technical and emotional tension.",
+          "the_moment": "Cameron and Gordon's frantic overnight code session to save the demo - the scene that established their dynamic as the show's true engine.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-05-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "91% Tomatometer on the season that relocated to Silicon Valley and sharpened Cameron and Donna as its true protagonists; critics recognised the series had found its voice and its theme."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/halt-and-catch-fire/"
+      },
+      "review_body": "Season 2 earned 91 percent on Rotten Tomatoes and represented the series' first critical breakthrough. The relocation from Texas to California brought Mutiny - Cameron's online gaming startup - to the centre, and with it a sharper feminist lens on the tech industry's gendered hierarchies. Mackenzie Davis and Kerry Bishe began receiving the awards attention the performances warranted. Critics noted the show had stepped out from Mad Men's shadow entirely, building its own argument about ambition, compromise, and what Silicon Valley's utopian rhetoric cost the people who actually built it. The Vox review called it one of the best shows on television; the consensus was that Season 2 was the inflection point where a promising drama became a great one.",
+      "season_over_season": "Swaps the Texas hardware-race premise for a California software startup narrative, and in doing so transfers the show's emotional centre from Joe to Cameron and Donna - a recalibration critics praised as the series finally trusting its best characters.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Heaven Is a Place",
+          "air_date": "2015-08-02",
+          "bollymeter": 8.8,
+          "spoiler_free": "The season finale crystallises the argument that Halt and Catch Fire is fundamentally about what ambition takes from the people who carry it. The relationship dynamics shift into configurations that will define the remaining two seasons.",
+          "the_moment": "The climactic scene between Cameron and Joe that closes not just the season but a chapter of the show's emotional logic.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-08-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "96% Tomatometer on the season critics called the show's peak - a meditation on the origins of the World Wide Web where every character arc earned its weight and the writing abandoned all compromise."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "One of the best made series on TV, in terms of writing, performance, and direction.",
+            "source": "Vox",
+            "url": "https://www.vox.com/culture/2016/8/23/12585116/halt-and-catch-fire-season-3-review"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/halt-and-catch-fire/"
+      },
+      "review_body": "Season 3 achieved a 96-percent Tomatometer and represented the series operating without any safety net. Set in 1986-87 as the internet moves from experiment to infrastructure, the season tracked all four principals navigating a tech landscape that rewards neither loyalty nor talent in predictable ways. The Donna and Cameron dynamic - now framed around a proto-search-engine company, Comet - became the defining creative relationship of the run. Emily VanDerWerff at Vox declared it one of the best made series on television. Critics noted the show had developed a formal confidence to match its thematic ambition: handheld camera work, non-linear episode structures, and performances from the entire ensemble at career-high level.",
+      "season_over_season": "Elevates the Cameron-Donna axis from supporting dynamic to the show's explicit subject, while the internet's arrival shifts the series from period piece to origin story of the present moment.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-08-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Perfect 100% Tomatometer on a final season critics called one of the best series finales in television history - elegant, devastating, and fully earned by the characters' journeys."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/halt-and-catch-fire/"
+      },
+      "review_body": "The fourth and final season achieved a rare 100-percent Tomatometer, with critics unified in describing it as one of the finest series conclusions in cable drama history. Set in 1990-94 as the World Wide Web becomes public, the season brought every character arc to a close with a specificity and emotional restraint that reviewers contrasted sharply with the overextended finales of its prestige drama peers. The series ended on October 14, 2017, with an episode that critics described as genuinely moving without recourse to sentimentality. Metacritic's overall score of 75 across the series undersells a show that was widely acknowledged in retrospect as a criminally under-watched masterwork of the Golden Age.",
+      "season_over_season": "The most emotionally concentrated season of the run, compressing a decade of the internet's birth into ten episodes while paying off character investments that stretch back to the pilot.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Ten of Swords",
+          "air_date": "2017-10-14",
+          "bollymeter": 9.5,
+          "spoiler_free": "The series finale is a sustained exercise in earned resolution. Each character lands in a place that feels both surprising and inevitable - the gold standard for prestige drama closure. Critics described it as one of the finest final episodes since The Sopranos-era HBO.",
+          "the_moment": "The final scene's quiet visual callback to the series' opening - a grace note that rewards everyone who watched from the beginning.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "guilty-minds",
+  "qid": {
+    "value": "Q111698026",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Guilty Minds",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Legal", "Drama", "Crime"],
+  "logline": "Two law school friends end up on opposing sides of Indian courtrooms - one fighting humanitarian cases from a legal aid centre, the other defending powerful clients at an elite firm - with every case testing their friendship, ethics, and competing visions of justice.",
+  "poster": {
+    "src": "/img/series/guilty-minds/poster.jpg",
+    "alt": "Guilty Minds poster",
+    "attribution": "Poster © Amazon Prime Video / Breathless Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run released April 2022. No Season 2 announced by Amazon Prime Video India.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Guilty_Minds"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-04-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Indian Express called it 'well-done, well-acted' and Hindustan Times praised its 'refreshing realism' in depicting Indian courtrooms; six Filmfare OTT Award nominations signalled wider industry recognition."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Released across April 20-22, 2022 on Prime Video, Guilty Minds arrived as a rare attempt to ground an Indian legal drama in procedural authenticity rather than courtroom melodrama. Creators Shefali Bhushan and Jayant Digambar Somalkar structured each of the ten episodes around a self-contained case - touching on rape adjudication, artificial intelligence liability, and water rights - while the central rivalry between Shriya Pilgaonkar's idealist Kashaf and Varun Mitra's corporate lawyer Deepak carried the emotional throughline. The Indian Express found it 'well-done, well-acted' and Hindustan Times praised the 'refreshing realism' of its courtroom depiction. Six Filmfare OTT Award nominations including Best Drama Series confirmed the show's standing among peers even without a widely aggregated critic score.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

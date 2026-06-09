@@ -1,0 +1,88 @@
+{
+  "slug": "a-suitable-boy",
+  "qid": {
+    "value": "Q85739314",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Suitable Boy",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Romance", "Historical"],
+  "logline": "In 1951 post-independence India, a determined mother searches for the right husband for her youngest daughter Lata - a university student torn between family duty and her own desires - as the country negotiates its new democratic identity.",
+  "poster": {
+    "src": "/img/series/a-suitable-boy/poster.jpg",
+    "alt": "A Suitable Boy poster",
+    "attribution": "Poster © BBC / Lookout Point. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series adapted from Vikram Seth's 1993 novel. No continuation planned; the adaptation covers the complete novel.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/A_Suitable_Boy_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-07-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Metacritic scored it 73 from 9 critics; RogerEbert.com gave 90 and called it a 'fascinating period piece,' but Rotten Tomatoes landed at 68% (31 reviews) with a 56% audience score, indicating appreciation that stopped short of enthusiasm."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 31,
+        "pull_quotes": [
+          {
+            "text": "A fascinating period piece that fuses elements of romantic drama and political thriller.",
+            "source": "RogerEbert.com",
+            "url": "https://www.metacritic.com/tv/a-suitable-boy/"
+          },
+          {
+            "text": "A luscious, zesty pie of a drama, directed to be beautiful and cinematic.",
+            "source": "The Times",
+            "url": "https://www.metacritic.com/tv/a-suitable-boy/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 5.6,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/a_suitable_boy"
+      },
+      "review_body": "Mira Nair's six-episode adaptation of Vikram Seth's 1993 novel aired on BBC One from July 26 to August 24, 2020 - the first BBC period drama with an entirely non-white principal cast, produced at a budget of approximately 16 million pounds. Critics appreciated the visual opulence and Tabu's performance as Mrs. Mehra, and Metacritic settled at 73 from 9 reviewers with RogerEbert.com awarding 90 and praising its 'fascinating' fusion of romance and political drama. The Rotten Tomatoes score of 68 percent (31 reviews) reflected a more divided field: supporters called it 'luscious and cinematic' while detractors, including a Guardian critic, felt Andrew Davies's adaptation of an 1,349-page novel prioritised surface beauty over the novel's political and social depth. Audience response at 56 percent mirrored that ambivalence.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

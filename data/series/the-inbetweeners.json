@@ -1,0 +1,164 @@
+{
+  "slug": "the-inbetweeners",
+  "qid": {
+    "value": "Q978011",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Inbetweeners",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "E4",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Coming of Age", "Teen"],
+  "logline": "Four socially hapless sixth-form boys navigate the rituals of suburban English adolescence - parties, girls, driving disasters, and comprehensive humiliation - with zero self-awareness and maximum enthusiasm.",
+  "poster": {
+    "src": "/img/series/the-inbetweeners/poster.jpg",
+    "alt": "The Inbetweeners poster",
+    "attribution": "Poster © Bwark Productions / Channel 4. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-series run concluded October 2010. Two theatrical films followed (2011, 2014). As of 2025, a revival is reported to be in development.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Inbetweeners"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 6,
+      "release_date": {
+        "value": "2008-05-01",
+        "source": "E4",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "77% Rotten Tomatoes (13 critics) praised it for distinguishing itself from lesser teen comedies with an accurately painful, sweetly irreverent portrait of male adolescence."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 13,
+        "pull_quotes": [
+          {
+            "text": "Captures the pathetic sixth-form male experience quite splendidly.",
+            "source": "The Guardian",
+            "url": "https://en.wikipedia.org/wiki/The_Inbetweeners"
+          },
+          {
+            "text": "Distinguishes itself with a sweetly irreverent take on the pain of pubescence.",
+            "source": "Rotten Tomatoes Critic Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the-inbetweeners/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.6,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/the-inbetweeners/s01"
+      },
+      "review_body": "Series 1 established the four leads - Will (the pretentious newcomer), Simon (the hopeless romantic), Jay (the compulsive fabricator), and Neil (the cheerfully dim) - as immediately recognisable archetypes. The British Comedy Awards gave it Best New TV Comedy in 2008 and Best Male Comedy Newcomer to Simon Bird. Critics at 77 percent on Rotten Tomatoes (13 reviews) clustered around the accuracy of the dialogue: the show captured the specific texture of provincial English sixth-form life in a way that felt documentary rather than comic invention. The Guardian noted it captures the sixth-form male experience splendidly. The audience score of 96 percent reflects a fanbase for whom the show is not merely a comedy but a record of a recognisable experience.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "First Day",
+          "air_date": "2008-05-01",
+          "bollymeter": 8.0,
+          "spoiler_free": "Will arrives at Rudge Park Comprehensive and within twenty minutes has been placed in the bottom set, acquired a nickname involving a specific item of protective wear, and alienated every possible ally. The premiere is less about plot than character economy - four boys, four personality types, one shared condition of total social failure.",
+          "the_moment": "Will's arrival at the school gates with a briefcase establishes the whole show's comic premise in a single prop.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 6,
+      "release_date": {
+        "value": "2009-04-02",
+        "source": "E4",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "93% Rotten Tomatoes (small sample) and audience score of 100% mark Series 2 as the run the ensemble fully locked in - consistent, confident, and increasingly beloved."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 2,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 10.0,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/the-inbetweeners/s02"
+      },
+      "review_body": "Series 2 deepened the four leads' dynamic without changing the formula - Will still narrates with a vocabulary that exceeds his social competence, Jay's claims grow more elaborate, Simon's romantic disasters multiply, and Neil remains contentedly oblivious. The audience response was near-total: the Rotten Tomatoes audience score of 100 percent against a critic sample that was growing reflects a show that had found its audience completely. The show's comedy now operated on fan familiarity as well as character - the audience had memorised the register and the series rewarded that knowledge.",
+      "season_over_season": "Builds on the ensemble chemistry from Series 1 with greater confidence; the boys feel like old friends, and the comedy deepens through that familiarity.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2010,
+      "episodes": 6,
+      "release_date": {
+        "value": "2010-09-13",
+        "source": "E4",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "90% Rotten Tomatoes (20 critics) and the BAFTA Audience Award confirm Series 3 as the franchise peak - the critical consensus noting the gang 'graduates without learning a jot' is a compliment, not a criticism."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 20,
+        "pull_quotes": [
+          {
+            "text": "The gang graduates after learning not a jot - the merry band of sad sacks remain compulsively lovable.",
+            "source": "Rotten Tomatoes Critic Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the-inbetweeners/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/the-inbetweeners/s03"
+      },
+      "review_body": "Series 3 opened to 2.6 million viewers on E4 - strong for a cable network - and won the BAFTA Television Audience Award in 2010, the only publicly voted BAFTA category. Critics at 90 percent (20 reviews) produced the franchise's best-sampled critical verdict. The series finale's graduation episode served as a natural end-point: the boys complete sixth form precisely as they arrived - unchanged, unwise, and constitutionally immune to personal development. The Rose d'Or for Best Situation Comedy confirmed its standing beyond the UK. A theatrical film followed in 2011 and became one of the highest-grossing British comedies of all time.",
+      "season_over_season": "The graduation of the four leads gives Series 3 a natural endpoint energy the prior runs lacked - the comedy is sharper for knowing it is ending.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

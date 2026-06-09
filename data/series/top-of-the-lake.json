@@ -1,0 +1,131 @@
+{
+  "slug": "top-of-the-lake",
+  "qid": {
+    "value": "Q7779266",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Top of the Lake",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Australia",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC Two / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Mystery", "Crime", "Drama", "Psychological"],
+  "logline": "Detective Robin Griffin returns to her New Zealand hometown to investigate the disappearance of a pregnant 12-year-old, and years later resurfaces in Sydney to untangle the identity of a dead girl found in a suitcase - both cases excavating buried trauma and the violence communities keep quiet.",
+  "poster": {
+    "src": "/img/series/top-of-the-lake/poster.jpg",
+    "alt": "Top of the Lake poster",
+    "attribution": "Poster © BBC / See-Saw Films / Sundance Channel. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two limited-series run concluded with China Girl in 2017. Creator Jane Campion has not announced further chapters.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Top_of_the_Lake"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 6,
+      "release_date": {
+        "value": "2013-03-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Rotten Tomatoes scored it 95% (44 reviews) and Metacritic 87 (48 reviews, 'universal acclaim'); Collider called the cast and New Zealand backdrop a combination 'that will stick with you.'"
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 44,
+        "pull_quotes": [
+          {
+            "text": "With a great cast and bizarre characters set against a dramatic New Zealand backdrop, the miniseries is one that will stick with you.",
+            "source": "Collider",
+            "url": "https://www.rottentomatoes.com/tv/top_of_the_lake/s01"
+          },
+          {
+            "text": "There's artful stillness and palpable sadness in almost every frame, and the collective performances are firmly must-see territory.",
+            "source": "Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/top_of_the_lake/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/top_of_the_lake"
+      },
+      "review_body": "Jane Campion's six-episode debut series premiered on Sundance Channel on March 18, 2013 and arrived in the UK on BBC Two in July. Critics responded with near-unanimous acclaim - 95 percent on Rotten Tomatoes from 44 reviews and 87 on Metacritic from 48 critics, qualifying for 'universal acclaim.' Elisabeth Moss's performance as Detective Robin Griffin anchored a work that critics described as 'absorbing and deeply atmospheric,' with Peter Mullan and Holly Hunter in essential supporting roles. The Metacritic consensus called it 'impressionistically structured' and praised Campion and co-director Garth Davis's use of New Zealand's landscape as active emotional texture rather than backdrop. The New Yorker described it as 'a moody, impressionistic portrait of a strange New Zealand town' that dismantled detective genre conventions from the inside.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Paradise Sold",
+          "air_date": "2013-03-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Laketop's landscape and its silences - a pregnant 12-year-old wading into a freezing lake, a detective with unfinished business returning home. Campion's framing refuses urgency in favour of dread, letting the New Zealand mountains bear the weight of what the community won't say.",
+          "the_moment": "Tui walks into the lake - a scene that sets the show's entire moral and visual register in under two minutes.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "She's Gone",
+          "air_date": "2013-04-15",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale delivers the investigation's conclusion without the catharsis a conventional crime drama would provide - which is the point. Robin's case closes, but the community's rot remains, and the show argues that justice and resolution are rarely the same thing.",
+          "the_moment": "The final image of Robin is one of the most quietly devastating endings in crime television of the 2010s.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 6,
+      "release_date": {
+        "value": "2017-07-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Rotten Tomatoes scored China Girl at 72% and Metacritic at 73 ('generally favorable'); critics found the Sydney setting looser and the tone less tightly wound than the debut's New Zealand precision."
+      },
+      "critic": {
+        "positive_pct": 72,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Top of the Lake: China Girl aired from July 27 to August 31, 2017, co-directed by Campion and Ariel Kleiman and moving Robin Griffin's story from New Zealand to Sydney - a new setting that brought Nicole Kidman and Gwendoline Christie into the cast. Critics approved at 72 percent on Rotten Tomatoes and 73 on Metacritic, both 'generally favorable' but a measurable step down from Season 1's universal acclaim. The consensus - 'impressively idiosyncratic but not quite as tightly wound as its predecessor' - captured the divergence accurately. Sydney's urban texture diffused the claustrophobic dread that made the New Zealand series exceptional, and some critics found the central mystery less cleanly constructed than the debut's missing-girl case.",
+      "season_over_season": "Moves Robin to Sydney with a larger and more overtly political case; gains in thematic scope but loses the geographic and tonal compression that made Season 1 a near-masterwork."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

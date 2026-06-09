@@ -1,0 +1,107 @@
+{
+  "slug": "the-night-manager",
+  "qid": {
+    "value": "Q19865538",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Night Manager",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / AMC",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Spy", "Thriller", "Drama", "Action"],
+  "logline": "A former British soldier-turned-hotel night manager is recruited by intelligence to infiltrate the inner circle of a charming but lethal arms dealer - a glamorous, slow-burn spy thriller adapted from John le Carre's 1993 novel.",
+  "poster": {
+    "src": "/img/series/the-night-manager/poster.jpg",
+    "alt": "The Night Manager poster",
+    "attribution": "Poster © The Ink Factory / BBC / AMC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "The original 2016 six-episode series was a standalone limited adaptation. A second season featuring Pine, Roper and Burr in a new story broadcast in 2026 on BBC One.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Night_Manager_(British_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-02-21",
+        "source": "BBC One",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "91% on Rotten Tomatoes (67 critics) and Metacritic 82 reflect a near-unanimous verdict: Hiddleston and Laurie are electrifying, Susanne Bier's direction sumptuous, the le Carre source material handled with rare fidelity."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 67,
+        "pull_quotes": [
+          {
+            "text": "Jonathan Pine is the most charming, intelligent, seductive spy on television.",
+            "source": "NPR",
+            "url": "https://www.rottentomatoes.com/tv/the_night_manager/s01"
+          },
+          {
+            "text": "With Tom Hiddleston and Hugh Laurie heading a perfect cast, this adaptation is a ripper.",
+            "source": "Sydney Morning Herald",
+            "url": "https://www.rottentomatoes.com/tv/the_night_manager/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/the-night-manager/"
+      },
+      "review_body": "When The Night Manager premiered on BBC One in February 2016, critics responded as if le Carre had finally been adapted with the ambition his work deserved. The 91-percent Rotten Tomatoes score from 67 critics rested on two pillars: Tom Hiddleston's physically precise performance as Jonathan Pine, and Hugh Laurie's turn as arms dealer Richard Roper - charming, intelligent, and genuinely menacing. Director Susanne Bier wrapped the six episodes in postcard cinematography across Cairo, Swiss Alps, and Spanish villas, giving the moral ambiguity of the source material a distinctly cinematic frame. Olivia Colman as intelligence handler Burr provided the series' moral centre. The Metacritic score of 82 (49 reviews) underscored a consensus that this was prestige television delivering on its casting and premise.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-02-21",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Pine as a man without a country, drifting through luxury hotels carrying a morally crushing secret. The opening act sets Cairo, the Swiss Alps, and the first encounter with Roper with the confidence of a feature film. The scene that hooks the series arrives quickly.",
+          "the_moment": "Pine witnesses something he cannot unsee in the hotel corridor - and the espionage machinery starts to close around him from that instant.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2016-03-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the slow-burn infiltration with a satisfying convergence of intelligence tradecraft and personal reckoning. Laurie and Hiddleston face each other across all six episodes of tension - and the payoff rewards the viewer who sat with the series' unhurried pace.",
+          "the_moment": "The confrontation between Pine and Roper delivers the moral weight the whole series built toward.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

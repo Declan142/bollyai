@@ -1,0 +1,112 @@
+{
+  "slug": "sisyphus-the-myth",
+  "qid": {
+    "value": "Q104216669",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sisyphus: The Myth",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Sci-Fi",
+    "Thriller",
+    "Action",
+    "Mystery",
+    "Drama"
+  ],
+  "logline": "A genius engineer uncovers evidence of a coming apocalypse and is pulled into a time-loop conspiracy by a woman from the future who has crossed into the present to stop the war that destroys the world.",
+  "poster": {
+    "src": "/img/series/sisyphus-the-myth/poster.jpg",
+    "alt": "Sisyphus: The Myth poster",
+    "attribution": "Poster © JTBC Studios / Studio Dragon / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season 16-episode run concluded April 8, 2021. No second season produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sisyphus:_The_Myth"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-02-17",
+        "source": "JTBC",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Rotten Tomatoes landed at 69 percent from two critics; IMDb at 7.0; South China Morning Post gave it 1.5 out of 5 stars and called the time-travel gamble one that does not remotely pay off - a split that accurately maps the show's strengths in premise and early execution against its collapse in internal logic by the final stretch."
+      },
+      "critic": {
+        "positive_pct": 69,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "the plot for being internally inconsistent, with different rules about time travel added only to be broken later.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3128902/k-drama-review-netflixs-sisyphus-myth-disappointing-and"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13715448/"
+      },
+      "review_body": "Sisyphus: The Myth aired on JTBC from February to April 2021 and was distributed simultaneously on Netflix internationally, marking it as one of the higher-profile Korean sci-fi exports of that year. JTBC cable ratings averaged 4.963 percent nationwide with a peak of 6.677 percent in episode two - strong by cable standards. The show's first four episodes drew consistent praise for their action-movie energy and the genuine intrigue of their near-future premise. The collapse in internal logic during the back half was the story critics agreed on: Cho Seung-woo and Park Shin-hye were committed leads stranded by a screenplay that introduced time-travel rules episodically and broke them almost as fast. The South China Morning Post awarded 1.5 out of 5 stars; Rotten Tomatoes aggregated 69 percent from a thin two-critic sample. IMDb settled at 7.0, capturing an audience that found partial value even in a structurally compromised run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-02-17",
+          "bollymeter": 7.8,
+          "spoiler_free": "The series opens with action-movie confidence: a plane in crisis, a mysterious woman from the future, and a tech genius who instinctively knows more than he is supposed to. The premise is delivered at speed without exposition dumps, and the JTBC production values make the near-future Seoul feel grounded rather than generic. This is the episode that justified the high pre-air expectations.",
+          "the_moment": "Kang Seo-hae materialises in the present - a woman who has clearly survived things the present-day world has not yet suffered.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2021-04-08",
+          "bollymeter": 5.8,
+          "spoiler_free": "The finale attempts to close a time-loop narrative whose internal rules had been contradicted across the final third of the season. The emotional beats between Han Tae-sul and Seo-hae are committed and the leads earn genuine sympathy; the structural resolution does not survive scrutiny. Viewers who had sustained investment in the characters found more to value here than critics, which explains the gap between the 7.0 IMDb audience score and the 1.5-star South China Morning Post rating.",
+          "the_moment": "The final choice at the loop's end - the show's answer to its central question, which half the audience found moving and half found unearned.",
+          "critic_note": {
+            "text": "the gamble that doesn't even remotely pay off",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3128902/k-drama-review-netflixs-sisyphus-myth-disappointing-and"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

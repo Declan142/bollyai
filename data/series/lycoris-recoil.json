@@ -1,0 +1,112 @@
+{
+  "slug": "lycoris-recoil",
+  "qid": {
+    "value": "Q110361884",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Lycoris Recoil",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Drama",
+    "Slice of Life",
+    "Thriller"
+  ],
+  "logline": "Two orphaned teenage assassins - the optimistic Chisato and the methodical Takina - run a cafe cover for a covert government operation, and their clashing philosophies about life and lethal force become the show's true subject.",
+  "poster": {
+    "src": "/img/series/lycoris-recoil/poster.jpg",
+    "alt": "Lycoris Recoil poster",
+    "attribution": "Poster © A-1 Pictures / Asaura. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original single-season anime, 13 episodes, completed September 2022. Won Crunchyroll Anime Award for Best Original Anime. Companion short films released 2025.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Lycoris_Recoil"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 13,
+      "release_date": {
+        "value": "2022-07-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "A surprise summer 2022 hit that won the Crunchyroll Anime Award for Best Original Anime; MAL score 8.14 from 598,000 ratings. Critics praised character chemistry and action consistency while noting tonal unevenness."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The show's celebration of life as lived makes Chisato's ultimate victory feel entirely earned.",
+            "source": "Anime News Network (Christopher Farris)",
+            "url": "https://www.animenewsnetwork.com/review/lycoris-recoil/episode-13/.190127"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.14,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/50709/Lycoris_Recoil"
+      },
+      "review_body": "A-1 Pictures' original summer 2022 series became the season's breakout hit on the strength of its central pairing. Chisato Nishikigi - who refuses to use lethal force despite her prodigious combat ability - and Takina Inoue - precise, lethal, rule-bound - function as a comedy couple in cafe scenes and a compelling philosophical argument in action sequences. ANN reviewer Christopher Farris tracked each episode, consistently citing the production's ability to make both registers work. The series won the Crunchyroll Anime Award for Best Original Anime and posted a MAL score of 8.14 from nearly 600,000 ratings. Critics who found the finale emotionally satisfying outnumbered those who questioned the tonal balance between its dark premise and light execution.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Easy does it",
+          "air_date": "2022-07-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the show's core contract in a single episode: Chisato operates with lethal competence and deliberate non-lethality side by side, while Takina arrives from a stricter institution and immediately finds the cafe assignment absurd. The tonal balance between cozy and violent is set from the first scene.",
+          "the_moment": "Chisato neutralises multiple armed attackers using rubber bullets and acrobatics, demonstrating her philosophy as action rather than argument.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Lycoris Recoil",
+          "air_date": "2022-09-24",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale resolves the central conflict around Chisato's artificial heart and her remaining time, delivering on the season's investment in her character while leaving the world's political situation deliberately unresolved. The epilogue generated significant positive audience response.",
+          "the_moment": "The post-credits sequence - confirming Chisato's fate in a single image that audiences debated for weeks.",
+          "critic_note": {
+            "text": "The show's celebration of life as lived makes Chisato's ultimate victory feel entirely earned.",
+            "source": "Anime News Network (Christopher Farris)",
+            "url": "https://www.animenewsnetwork.com/review/lycoris-recoil/episode-13/.190127"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
