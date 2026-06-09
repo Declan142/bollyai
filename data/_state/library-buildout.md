@@ -35,7 +35,7 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
-### Batch 10 — 2026-06-09 — 30 series — STATUS: DONE (commit TBD; 482->512) — TARGET REACHED
+### Batch 10 — 2026-06-09 — 30 series — STATUS: DONE (commit c2dd836 pushed; 482->512) — TARGET REACHED
 - **VV** K-drama prestige: chief-detective-1958 · welcome-to-samdal-ri · strong-girl-nam-soon · my-girlfriend-is-a-gumiho · strangers-from-hell · live-up-to-your-name
 - **WW** US comedy/drama: only-murders-in-the-building · the-marvelous-mrs-maisel · hacks · shrinking · orange-is-the-new-black · pose
 - **XX** Anime: psycho-pass · devilman-crybaby · natsumes-book-of-friends · gintama · trigun-stampede · barakamon
