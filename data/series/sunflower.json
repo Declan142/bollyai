@@ -1,0 +1,112 @@
+{
+  "slug": "sunflower",
+  "qid": {
+    "value": "Q106645543",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sunflower",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ZEE5",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Crime",
+    "Comedy",
+    "Mystery",
+    "Thriller"
+  ],
+  "logline": "A bumbling, endlessly cheerful middle-class salesman living in a Mumbai housing society called Sunflower becomes the unlikely central figure in a murder mystery that implicates every eccentric neighbour around him.",
+  "poster": {
+    "src": "/img/series/sunflower/poster.jpg",
+    "alt": "Sunflower poster",
+    "attribution": "Poster © ZEE5 / Reliance Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 released March 1, 2024. No Season 3 announced as of June 2026.",
+    "source": "ZEE5",
+    "source_url": "https://www.imdb.com/title/tt13304410/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-06-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "A 6.7 IMDb rating reflects a show that works when it commits to dark comedy and Sunil Grover's performance; Film Companion split between calling it a beautiful experience and a quirky mess, both diagnoses landing partly right."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A quirky mess, unable to muster the funny, twisty murder investigative it wants to be.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/streaming/sunflower-zee5-review-sunil-grover-is-a-quirky-mess-unable-to-muster-the-funny-twisty-murder-investigative-it-wants-to-be"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13304410/"
+      },
+      "review_body": "Created by Vikas Bahl and premiering June 11, 2021, Season 1 arrived as one of ZEE5's more ambitious originals - a black-comedy murder mystery set entirely within a Mumbai housing society. Critical reception split along the same fault line as the show itself: Film Companion found it a quirky mess unable to deliver on its genre promises, while the Times of India's Archika Khurana called it an engrossing thriller laced with dark humour and gave it three stars. Sunil Grover's portrait of the hapless, OCD-afflicted Sonu Singh was widely singled out as the show's consistent anchor. IMDb's 6.7 from a reasonable vote base suggests a qualified recommendation.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-03-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Critics across Outlook India (3.5 stars) and Gadgets 360 (4/5) found Sunil Grover and new addition Adah Sharma compelling but the unresolved murder mystery a repeat structural frustration."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived March 1, 2024, adding Adah Sharma to the cast and a new layer to the ongoing murder investigation. Critics were warmer on the performances than the plotting: Outlook India gave it 3.5 stars but noted the mystery once again leaves audiences hanging at the close; Gadgets 360 reached four out of five on the strength of the Grover-Sharma dynamic. India Forums found it a bumpy ride saved by its leads. The structural problem from Season 1 - a comedy mystery that sustains the comedy better than the mystery - was not resolved, but the show's genre pleasures remained distinctive enough to hold an audience.",
+      "season_over_season": "Adah Sharma's addition injects fresh comic energy; the unresolved-mystery formula, charming once, becomes a structural crutch in its second deployment."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

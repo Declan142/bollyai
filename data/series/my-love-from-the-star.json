@@ -1,0 +1,112 @@
+{
+  "slug": "my-love-from-the-star",
+  "qid": {
+    "value": "Q14655473",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Love from the Star",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Fantasy",
+    "Drama",
+    "Comedy"
+  ],
+  "logline": "An alien stranded on Earth for 400 years falls for a top actress just as a conspiracy threatens both their lives, forcing him to choose between love and survival.",
+  "poster": {
+    "src": "/img/series/my-love-from-the-star/poster.jpg",
+    "alt": "My Love from the Star poster",
+    "attribution": "Poster © SBS / HB Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 21 episodes completed on February 27, 2014. No sequel was produced. The series sparked the Korean Wave internationally and won the Magnolia Award for Best Foreign Television Series at the 2014 Shanghai International Film Festival.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_Love_from_the_Star"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 21,
+      "release_date": {
+        "value": "2013-12-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "One of the defining K-dramas of the 2010s - it averaged 24% national viewership, swept the Baeksang Arts Awards, and earned a 9/10 from The Drama Corner for its deft blend of romance, comedy, and fantasy without losing momentum."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "An exhilarating drama that deftly mixes romance, comedy, thrills and fantasy into one enjoyable ride.",
+            "source": "The Drama Corner",
+            "url": "https://thedramacorner.com/2014/03/05/review-you-from-another-star-2014/"
+          },
+          {
+            "text": "A fast and funny drama with one of the most lovable heroines of dramaland.",
+            "source": "The Drama Corner",
+            "url": "https://thedramacorner.com/2014/03/05/review-you-from-another-star-2014/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3469052/"
+      },
+      "review_body": "Premiering December 18, 2013, My Love from the Star averaged 24 percent nationwide viewership in South Korea and became a genuine pan-Asian cultural event, crashing servers hosting international streams. Critics at The Drama Corner scored it 9 out of 10, praising the series for sustaining romantic and comedic energy across 21 episodes without the customary late-stretch sag. Kim Soo-hyun's alien Do Min-joon and Jun Ji-hyun's chaotic star Cheon Song-yi generated audience consensus that their chemistry was among the finest pairing in the genre's history. The show collected three wins at the Baeksang Arts Awards and the Magnolia Award for Best Foreign Television Series in 2014, cementing it as the flagship Korean drama that carried the Korean Wave to new markets.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2013-12-18",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Do Min-joon's 400 years of solitary Earth residency and engineers his collision with Cheon Song-yi. The tonal range is established immediately - historical prologue, present-day celebrity satire, and a genuine romantic undertow - signalling a show with more formal ambition than its rom-com packaging suggests.",
+          "the_moment": "Min-joon saves Song-yi from a speeding car, the first of many interventions he swore he would never make.",
+          "critic_note": null
+        },
+        {
+          "number": 21,
+          "title": "Episode 21",
+          "air_date": "2014-02-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the season's central emotional argument: whether an immortal who has chosen distance can commit to a mortal love knowing the cost. Critics and audiences converged on the ending as one of the most emotionally earned conclusions in the K-drama canon at that time.",
+          "the_moment": "The farewell scene between Min-joon and Song-yi, structured around what is left unsaid as much as the declaration itself.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

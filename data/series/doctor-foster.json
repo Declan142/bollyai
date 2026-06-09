@@ -1,0 +1,135 @@
+{
+  "slug": "doctor-foster",
+  "qid": {
+    "value": "Q16988855",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Doctor Foster",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Drama",
+    "Psychological",
+    "Thriller"
+  ],
+  "logline": "A successful GP suspects her husband of infidelity and begins a quiet, methodical investigation that strips away everything she thought she knew about her marriage, her town, and herself.",
+  "poster": {
+    "src": "/img/series/doctor-foster/poster.jpg",
+    "alt": "Doctor Foster poster",
+    "attribution": "Poster © BBC One / Drama Republic. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Series 1 aired 2015, Series 2 aired 2017. A third series has been confirmed for 2026 by the BBC, with Suranne Jones and Bertie Carvel expected to return.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Doctor_Foster_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 5,
+      "release_date": {
+        "value": "2015-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A 91% Rotten Tomatoes score from 11 critics and strong Guardian and Telegraph praise focus consistently on Suranne Jones's performance as one of BBC drama's finest of the decade - controlled, coiled, and fully in command of every register."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "A brilliant and gripping portrait of a marriage slowly being poisoned.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2015/sep/09/doctor-foster-review-bbc-one"
+          },
+          {
+            "text": "The small moments that make this a drama worth noticing.",
+            "source": "The Guardian",
+            "url": "https://www.rottentomatoes.com/tv/doctor_foster/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4602768/ratings/"
+      },
+      "review_body": "Series 1 aired on BBC One from September to October 2015, attracting up to 10.2 million viewers and establishing Suranne Jones as one of the dominant British television performers of the decade. Critics scored it at 91% on Rotten Tomatoes from 11 reviews. The Guardian called it a brilliant and gripping portrait of a marriage slowly being poisoned; The Daily Telegraph gave it four stars. Mike Bartlett's script drew on the Greek myth of Medea - an educated woman's cold, strategic response to betrayal - without making the classical reference feel schematic. The show's refusal to let Gemma be a simple victim or a simple villain was the quality critics and audiences clustered on; Jones's ability to make both registers simultaneously legible drove the season's 9.5 million average viewership.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2015-09-09",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Gemma Foster's perfectly ordered world - successful GP, beautiful house, devoted son - and then, through accumulated small wrongnesses, begins to dismantle it. Mike Bartlett's script trusts the audience to read subtext, and Jones's performance trusts the script; the result is a first episode that communicates an enormous amount through expressions held a half-second too long.",
+          "the_moment": "Gemma discovering lipstick on a coat and choosing, for now, to say nothing - the moment the series' central psychology snaps into focus.",
+          "critic_note": {
+            "text": "A brilliant and gripping portrait of a marriage slowly being poisoned.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2015/sep/09/doctor-foster-review-bbc-one"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 5,
+      "release_date": {
+        "value": "2017-09-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An 81% Rotten Tomatoes score from 16 critics reflects a series that delivered on Jones's performance while critics noted the plotting leaned more heavily into melodrama than Series 1's controlled psychological register."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 16,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4602768/ratings/"
+      },
+      "review_body": "Series 2 aired September to October 2017, returning to Gemma two years after the events of Series 1 when Simon and Kate move back to town. Critics scored it at 81% on Rotten Tomatoes from 16 reviews - a meaningful drop from the debut season's 91%, tracking a general critical sense that the second run tilted toward a more operatic mode. The show's domestic-thriller mechanics remained well-executed and Jones continued to receive near-universal individual praise, but the plotting tested credibility in ways Series 1 had managed to avoid. An average of 9 million BBC One viewers per episode indicated that the audience's appetite was undiminished. The series ended on a note designed to leave a third instalment possible.",
+      "season_over_season": "Tilts toward melodrama while Jones remains the anchor; the 81% RT score tracks a real but modest step back from the debut's controlled register."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

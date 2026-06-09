@@ -1,0 +1,103 @@
+{
+  "slug": "scam-2003-the-telgi-story",
+  "qid": {
+    "value": "Q121667235",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Scam 2003: The Telgi Story",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SonyLIV",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Biographical",
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "logline": "The true story of Abdul Karim Telgi, a street vendor who built India's largest stamp-paper counterfeiting racket - a fraud valued at approximately 30,000 crore rupees - through systematic bribery and institutional corruption.",
+  "poster": {
+    "src": "/img/series/scam-2003-the-telgi-story/poster.jpg",
+    "alt": "Scam 2003: The Telgi Story poster",
+    "attribution": "Poster © SonyLIV / Studio NEXT / Applause Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A single 10-episode season, released in two volumes in 2023, covers the complete arc of Telgi's rise and fall. No additional seasons announced.",
+    "source": "SonyLIV",
+    "source_url": "https://www.imdb.com/title/tt28804856/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-09-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "A 7.9 IMDb rating and a 67% Rotten Tomatoes score converge on the same reading: Gagan Dev Riar's lead performance is the season's dominant virtue, carrying the uneven writing further than it deserves."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "The show holds interest largely because of Riar's astutely judged performance and the cultural fascination with hucksters.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/reel/1055237/scam-2003-the-telgi-story-review-the-fake-stamp-paper-mastermind-is-still-buffering"
+          },
+          {
+            "text": "A brilliant lead performance holds this series together.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/scam-2003-the-telgi-story-review-a-star-is-born"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28804856/"
+      },
+      "review_body": "Released in two volumes - September 1 and November 3, 2023 - Scam 2003 carried the weight of comparison with its franchise predecessor, which holds the highest IMDb rating ever for an Indian web series. Critics were honest about the gap: Rotten Tomatoes settled at 67 percent from six reviews, with the consensus centring on Gagan Dev Riar's tour-de-force turn as Telgi and finding the writing less reliable than his performance. The Quint praised his nuance; Scroll.in noted the show's strongest asset was its lead and the inherent fascination of the true story. IMDb's 7.9 from a large audience sample suggests the performance and subject matter sustained genuine engagement despite structural weaknesses.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-09-01",
+          "bollymeter": 7.0,
+          "spoiler_free": "The series opens on Telgi's modest origins as a street fruit vendor in Khanapur, Karnataka - a portrait of poverty and ambition before the criminal architecture takes shape. Director Tushar Hiranandani establishes the tone as grounded biographical drama, grounding the eventual scale of the fraud in the specificities of a particular Indian milieu.",
+          "the_moment": "The early scene establishing Telgi's gift for persuasion and reading people - the trait that would later corrupt an entire bureaucracy.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

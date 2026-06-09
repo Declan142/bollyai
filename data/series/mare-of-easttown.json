@@ -1,0 +1,125 @@
+{
+  "slug": "mare-of-easttown",
+  "qid": {
+    "value": "Q61040213",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mare of Easttown",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "HBO",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery",
+    "Thriller"
+  ],
+  "logline": "A gruff small-town Pennsylvania detective investigating a teenage mother's murder while her own life unravels - a portrait of grief, community, and the limits of heroism.",
+  "poster": {
+    "src": "/img/series/mare-of-easttown/poster.jpg",
+    "alt": "Mare of Easttown poster",
+    "attribution": "Poster © HBO / wiip. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Mare of Easttown was designed as a standalone limited series. Creator Brad Ingelsby has discussed potential continuation but as of 2026 no formal sequel or second season has been greenlit by HBO.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2021/tv/news/mare-of-easttown-season-2-hbo-1234990000/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 7,
+      "release_date": {
+        "value": "2021-04-18",
+        "source": "HBO",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "95% on Rotten Tomatoes (131 reviews), 94% audience score, and an 8.4 on IMDb align with a consensus around Kate Winslet's career-best performance and Brad Ingelsby's dense, empathetic sense of place."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 131,
+        "pull_quotes": [
+          {
+            "text": "If you can have a defining performance this late in a career, this is surely Winslet's.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2021/apr/18/mare-of-easttown-review-kate-winslet"
+          },
+          {
+            "text": "Mare of Easttown evokes classic crime dramas while bringing something new: a raw authenticity.",
+            "source": "Decider",
+            "url": "https://decider.com/2021/04/18/mare-of-easttown-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10155688/ratings/"
+      },
+      "review_body": "HBO's seven-part limited series aired from April to May 2021 and became the prestige crime event of the year. Critics scored it at 95% on Rotten Tomatoes from 131 reviews, with a Metacritic score of 81 from 42 critics. The consensus landed on two things: the extraordinary specificity of its Delaware County, Pennsylvania setting - the working-class Catholic parishes, the high-school basketball legacy culture, the exhausted civic pride - and Kate Winslet's performance, which The Guardian called her career-defining turn. The audience aligned at 8.4 on IMDb and a 94% Rotten Tomatoes audience score, a rare double lock between critics and viewers. The show operates as both a murder mystery and an elegy for communities where everyone knows everyone and loss is collective.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Miss Lady Hawk Herself",
+          "air_date": "2021-04-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere introduces Mare Sheehan through the accumulation of her failures and loyalties - an unsolved missing-person case, a custody battle, a town's loaded expectations. The episode operates as immersive world-building rather than plot mechanics, which is the correct call: by the time a body is found, the community in which it matters has been fully established.",
+          "the_moment": "Mare at the bar, rebuffing her daughter's well-meaning attempt to fix her up - the compressed portrait of a woman who has learned to prefer her own damage.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Sore Must Be the Storm",
+          "air_date": "2021-05-23",
+          "bollymeter": 9.0,
+          "spoiler_free": "The penultimate episode makes a major mid-series twist that resets the entire mystery and generated widespread social media debate the weekend it aired. The craft is in how the revelation is weighted - it does not feel like a cheat because the character logic holds throughout.",
+          "the_moment": "An arrest that solves one question and immediately opens a more disturbing one - the moment the show's reputation solidified.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Sacrament",
+          "air_date": "2021-05-30",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale resolves the murder while refusing to let Mare off the hook for her own accumulated costs. The final minutes pivot away from the case entirely and deliver something rarer in prestige crime drama: a quiet emotional reckoning that earns its closing image.",
+          "the_moment": "Mare climbing the attic stairs in the final scene - an act of private courage the show has been building toward for seven hours.",
+          "critic_note": {
+            "text": "It's the first true must-see drama of 2021, an excellent ensemble piece.",
+            "source": "RogerEbert.com",
+            "url": "https://www.rogerebert.com/reviews/mare-of-easttown-season-1-2021"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

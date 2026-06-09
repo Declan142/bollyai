@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 302 / ~500   (baseline 183)
+## Progress: 332 / ~500   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -35,6 +35,13 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 04 — 2026-06-09 — 30 series — STATUS: DONE (commit TBD; 302->332)
+- **R** K-drama romance/fantasy: my-love-from-the-star · secret-garden · pinocchio-kdrama · fight-my-way · vagabond-kdrama · suspicious-partner
+- **S** US prestige/FX/HBO: the-americans · atlanta · the-handmaids-tale · boardwalk-empire · justified · six-feet-under
+- **T** Anime: violet-evergarden · toradora · 86-eighty-six · fruits-basket-2019 · your-lie-in-april · berserk-1997
+- **U** UK/Euro/HBO limited: unorthodox · mare-of-easttown · the-night-of · misfits · downton-abbey · doctor-foster
+- **V** Indian OTT: four-more-shots-please · bombay-begums · mismatched · scam-2003-the-telgi-story · sunflower · hostel-daze
+
 ### Batch 03 — 2026-06-09 — 30 series — STATUS: DONE (commit 77c64c8 pushed; 267->297)
 - **M** K-drama recent/crime: juvenile-justice · through-the-darkness · happiness-kdrama · jirisan · the-silent-sea · celebrity
 - **N** Netflix/Western: the-haunting-of-hill-house · midnight-mass · never-have-i-ever · daredevil · outer-banks · suits

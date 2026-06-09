@@ -1,0 +1,117 @@
+{
+  "slug": "suspicious-partner",
+  "qid": {
+    "value": "Q29032346",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Suspicious Partner",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Thriller",
+    "Legal",
+    "Comedy",
+    "Mystery"
+  ],
+  "logline": "A prosecutor trainee becomes a murder suspect overnight, forcing the prosecutor who fired her to become her defense attorney - and slowly her closest ally.",
+  "poster": {
+    "src": "/img/series/suspicious-partner/poster.jpg",
+    "alt": "Suspicious Partner poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season legal romance thriller of 20 episodes concluded July 13, 2017. No sequel produced. The series is regularly cited as one of Ji Chang-wook's strongest pre-military service performances.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Suspicious_Partner"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 20,
+      "release_date": {
+        "value": "2017-05-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb audience rates it 7.7; Kdrama Kisses gave it 8.5/10 for its satisfying genre blend; critics praised Ji Chang-wook's performance and the serial killer thread, while noting pacing issues and filler in the second half."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "K-drama managed to combine a genuinely tense murder mystery with a sweet, silly romance and come up with entertaining results.",
+            "source": "Nose in a Book",
+            "url": "https://noseinabook.co.uk/2023/02/06/k-drama-review-suspicious-partner/"
+          },
+          {
+            "text": "Ji Chang Wook and Nam Ji Hyun had such wonderful chemistry.",
+            "source": "Kdrama Kisses",
+            "url": "https://kdramakisses.com/2017/07/14/suspicious-partner-korean-drama-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6720154/"
+      },
+      "review_body": "Suspicious Partner aired May to July 2017 on SBS, mixing legal procedural, serial killer thriller, and romantic comedy in a combination that reviewers described as a rarity in the K-drama landscape. Ji Chang-wook's Noh Ji-wook was praised across multiple outlets for the depth he brought to a character who communicates injury mostly through silence - The Fangirl Verdict noted his silently profound delivery of wordless moments communicated so much without dialogue. Nam Ji-hyun as Eun Bong-hee earned consistent praise for keeping the character likable through circumstances designed to test audience patience. The serial killer subplot was credited as simple but well-executed, and the show ends on a note that critics called genuinely satisfying. The standard caveats applied: pacing slackened in the second half, and some subplots accumulated filler weight that the first half did not suggest.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-05-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere positions Noh Ji-wook and Eun Bong-hee as two people already connected by prior heartbreak before engineering the crisis that transforms their dynamic overnight. The genre-blend - workplace comedy, murder setup, romantic tension - is introduced with enough confidence that the tonal shifts feel purposeful rather than arbitrary.",
+          "the_moment": "Bong-hee's arrest at the end of the first episode: the pivot that reframes everything that seemed like a slow-burn romance as a legal emergency.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2017-07-13",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale resolves the serial killer case and the central romance in a manner that critics called a genuine rarity: a satisfying conclusion in a genre that often disappoints. The emotional payoff between the leads lands because the show spent its run establishing their specific dynamic rather than depending on genre conventions alone.",
+          "the_moment": "The courtroom sequence that closes the serial killer arc and the private moment between the leads that follows it.",
+          "critic_note": {
+            "text": "A reasonably successful blend of crime and romance - a rarity in dramaland.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2017/10/03/review-suspicious-partner/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

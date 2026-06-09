@@ -1,0 +1,116 @@
+{
+  "slug": "pinocchio-kdrama",
+  "qid": {
+    "value": "Q17401474",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Pinocchio",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Mystery",
+    "Legal"
+  ],
+  "logline": "A young man whose family was destroyed by a media witch-hunt reinvents himself as a journalist and falls for the woman whose mother broadcast the lie that ruined his life.",
+  "poster": {
+    "src": "/img/series/pinocchio-kdrama/poster.jpg",
+    "alt": "Pinocchio poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 20 episodes concluded January 15, 2015. No sequel produced. The series is praised for tackling media accountability and sensationalism in Korean news broadcasting with unusual directness for a primetime romance.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Pinocchio_(2014_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 20,
+      "release_date": {
+        "value": "2014-11-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Scored 8.0 on IMDb from a substantial global audience; critics praised Lee Jong-suk's powerhouse performance and an unusually substantive thematic argument about media responsibility embedded in a genuinely romantic lead pairing."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Lee Jong-suk showed some powerhouse acting and Park Shin-hye proved to be his equal in every way.",
+            "source": "Jae-Ha Kim (Substack)",
+            "url": "https://jaehakim.substack.com/p/pinocchio-kdrama-review-lee-jongsuk"
+          },
+          {
+            "text": "Pinocchio is a jewel, giddily romantic and constantly surprising.",
+            "source": "Coffee and Irony",
+            "url": "https://coffeeandirony.com/2014/12/12/kdrama-review-pinocchio-starring-park-shin-hye-and-lee-jong-suk/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4201628/"
+      },
+      "review_body": "Pinocchio aired November 2014 to January 2015 on SBS and drew sustained ratings throughout its 20-episode run. The series is unusual in Korean primetime drama for placing a critique of broadcast media sensationalism at its structural centre - a journalist family whose reckless coverage destroys a firefighter's reputation becomes the engine of both the revenge plot and the romance. Critics noted Lee Jong-suk's performance as the strongest of his career at that point, while Park Shin-hye's Choi In-ha - afflicted by an inherited condition that causes hiccupping when she lies - gave the show its most original formal device. The rare combination of romantic chemistry and substantive thematic argument earned the series a dedicated following and an IMDb score of 8.0 from a large international audience.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2014-11-12",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the tragedy at the series' root - a firefighter's death turned into a national scapegoating by a broadcast journalist - and then jumps forward to show how the wreckage shaped the next generation. The tonal calibration between grief and romantic-comedy setup is handled with more care than the genre usually requires.",
+          "the_moment": "The broadcast that destroys the family: the moment that makes every subsequent interaction between the leads carry historical weight.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2015-01-15",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale delivers on the show's thematic promise - the reckoning between media accountability and personal justice - while resolving the central romance in a manner audiences found satisfying. Critics cited the finale as a rare K-drama ending that honoured the intelligence of its setup.",
+          "the_moment": "The confrontation in the newsroom that forces every character to account for the cost of the lies that shaped their lives.",
+          "critic_note": {
+            "text": "Lee Jong-suk showed some powerhouse acting and Park Shin-hye proved to be his equal in every way.",
+            "source": "Jae-Ha Kim (Substack)",
+            "url": "https://jaehakim.substack.com/p/pinocchio-kdrama-review-lee-jongsuk"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

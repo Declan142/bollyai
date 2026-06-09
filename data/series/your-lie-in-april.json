@@ -1,0 +1,102 @@
+{
+  "slug": "your-lie-in-april",
+  "qid": {
+    "value": "Q11419997",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Your Lie in April",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Romance", "Musical", "Coming of Age"],
+  "logline": "A piano prodigy who can no longer hear his own playing meets a fearless violinist who forces him back onto the stage - and into feelings he has suppressed since his mother's death.",
+  "poster": {
+    "src": "/img/series/your-lie-in-april/poster.jpg",
+    "alt": "Your Lie in April poster",
+    "attribution": "Poster © A-1 Pictures / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Your Lie in April completed its 22-episode run on Fuji TV on March 20, 2015. The story is self-contained and no continuation has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Your_Lie_in_April"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 22,
+      "release_date": {
+        "value": "2014-10-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Anime News Network's Nick Creamer awarded a B+ and called it a beautiful show excelling at expressing the terror and triumph of performance. IMDb audience rates it 8.5/10."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Your Lie in April is a beautiful show that excels at expressing both the terror and triumph of performance.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/your-lie-in-april/episodes-1-22-streaming/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3895150/"
+      },
+      "review_body": "Your Lie in April aired October 10, 2014 to March 20, 2015 on Fuji TV's Noitamina programming block, produced by A-1 Pictures. Anime News Network's Nick Creamer gave it a B+ and praised its capacity to render both the terror and triumph of musical performance on screen. The 22-episode series occupies a rare space in anime - using classical music as both plot engine and emotional vocabulary - and critics pointed to the concert sequences as the production's highlight. The IMDb audience rating of 8.5 reflects a fanbase that responded intensely to the romance and the series' willingness to follow its premise to a painful conclusion. Some critics noted the series leans into melodrama in its final arc; the consensus held that it earned the emotional weight it accrued.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Monotone/Colorful",
+          "air_date": "2014-10-10",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes Kousei's colourless world through the show's defining visual metaphor - sheet music as black-and-white reality - before Kaori detonates into it. The contrast in colour palette between the two characters' perspectives is the visual argument of the entire series made immediate.",
+          "the_moment": "Kaori's first performance, which forces Kousei to hear music as something joyful again for the first time.",
+          "critic_note": null
+        },
+        {
+          "number": 22,
+          "title": "Spring and You",
+          "air_date": "2015-03-20",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale is among the most discussed final episodes in romance anime. Critics and audiences noted it as the natural conclusion of the series' central lie and its emotional logic. The piano performance in the finale is the sequence the series was building toward across all 22 episodes.",
+          "the_moment": "A letter read aloud over a final performance - the moment that defined the series for its audience.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

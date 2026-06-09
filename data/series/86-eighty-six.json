@@ -1,0 +1,102 @@
+{
+  "slug": "86-eighty-six",
+  "qid": {
+    "value": "Q88295102",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "86 - Eighty Six",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Sci-Fi", "Action", "Drama", "War"],
+  "logline": "In a republic that claims to fight wars with unmanned machines, the soldiers inside those machines are human children from a persecuted ethnic minority, condemned and forgotten by the society they protect.",
+  "poster": {
+    "src": "/img/series/86-eighty-six/poster.jpg",
+    "alt": "86 - Eighty Six poster",
+    "attribution": "Poster © A-1 Pictures / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The split-cour 23-episode series ran April 2021 to March 2022 on Crunchyroll. No second season has been announced; the story adapts the first two novel volumes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/86_(novel_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 23,
+      "release_date": {
+        "value": "2021-04-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Critics and IGN named it among the best anime of 2021. A-1 Pictures' direction, Hiroyuki Sawano's score, and the military-ethics allegory drew strong praise. IMDb rates it 8.2/10."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "86 EIGHTY-SIX is a storytelling champion with hard hitting themes and great character development.",
+            "source": "Anime Trending",
+            "url": "https://anitrendz.net/news/2021/06/25/86-eighty-six-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13718450/"
+      },
+      "review_body": "86 - Eighty Six aired in two cours: April 11 to June 20, 2021 (Part 1) and October 3, 2021 to March 19, 2022 (Part 2), produced by A-1 Pictures. The series ran 23 total episodes on Crunchyroll and was among IGN's best anime picks of 2021. Critics cited Toshimasa Ishii's direction, Hiroyuki Sawano and Kohta Yamamoto's score, and the series' refusal to soften its racial-allegory premise. Anime Trending called it a storytelling champion with hard-hitting themes; Anime News Network tracked its first cour as an impressively sustained production. The IMDb audience rating of 8.2 from a large voter base reflects a passionate fanbase that found both the action and the political subtext compelling. The second cour pushed further into psychological territory and drew particularly strong responses.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Undertaker",
+          "air_date": "2021-04-11",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes the series' central moral horror - a society that wages war with 'autonomous' drones that are actually piloted by children it has stripped of legal personhood. The gap between the pristine world of the Republic's handlers and the death-steeped cockpits of the 86 is rendered with clear-eyed precision.",
+          "the_moment": "The moment the audience understands what the Republic's propaganda is concealing - the full weight of the show's allegory drops at once.",
+          "critic_note": null
+        },
+        {
+          "number": 21,
+          "title": "Farewell",
+          "air_date": "2021-12-19",
+          "bollymeter": 9.3,
+          "spoiler_free": "One of the most discussed episodes of 2021 anime, the penultimate arc reaches a devastating conclusion. Critics and audiences rated it the emotional peak of the series; the combination of Sawano's score and the direction made it the production highlight of the run.",
+          "the_moment": "A final transmission from the Spearhead Squadron - the scene that defined the year for thousands of anime viewers.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

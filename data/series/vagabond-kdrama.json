@@ -1,0 +1,121 @@
+{
+  "slug": "vagabond-kdrama",
+  "qid": {
+    "value": "Q55695457",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Vagabond",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Action",
+    "Thriller",
+    "Mystery",
+    "Drama",
+    "Spy"
+  ],
+  "logline": "A stuntman investigating his nephew's death in a plane crash uncovers a state-level conspiracy and partners with a NIS operative to expose the corruption before it buries them both.",
+  "poster": {
+    "src": "/img/series/vagabond-kdrama/poster.jpg",
+    "alt": "Vagabond poster",
+    "attribution": "Poster © SBS / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 16-episode season concluded November 23, 2019. A second season to resolve the cliffhanger ending was announced but never produced. The open ending remains one of the most discussed unresolved finales in K-drama history.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vagabond_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-09-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Rotten Tomatoes registered 87% from 2 critics; IMDb audience sits at 8.1 - the action sequences and Lee Seung-gi/Bae Suzy lead pairing earned genuine praise, while the unresolved cliffhanger finale dragged the overall assessment down significantly."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "Vagabond offers a reliably entertaining experience that will please K-drama fans.",
+            "source": "Cinema Escapist",
+            "url": "https://www.cinemaescapist.com/2019/09/review-vagabond-kdrama-netflix-suzy/"
+          },
+          {
+            "text": "The action sequences in Vagabond are thrilling and the plot is fast-paced and engaging.",
+            "source": "Jae-Ha Kim (Substack)",
+            "url": "https://jaehakim.substack.com/p/vagabond-kdrama-review-bae-suzy-lee-seunggi"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8523042/"
+      },
+      "review_body": "Vagabond premiered September 20, 2019 simultaneously on SBS and Netflix, representing one of the Korean drama industry's most expensive productions at that point. Critics registered 87 percent on Rotten Tomatoes from a small sample of 2 reviews, with Cinema Escapist and Jae-Ha Kim on Substack both praising the show's kinetic action sequences and the reliable star power of Lee Seung-gi and Bae Suzy as leads. The political conspiracy narrative - involving a government cover-up of a civilian air crash - was credited with multiple tense subplots that built toward a genuinely tense finish. The major critical and audience grievance was structural: the finale ended on a cliffhanger that presupposed a second season that never materialised, leaving the character arcs unresolved. Seven years on, the show's reputation sits as a solidly entertaining action thriller with an unhealed wound where its conclusion should be.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-09-20",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere drops Cha Dal-gun into the aftermath of the plane crash with immediate physical and emotional stakes. The action choreography and Morocco location work signal production ambition above the usual K-drama scale. The conspiracy is introduced with enough clarity to orient the viewer without exposing its hand.",
+          "the_moment": "Dal-gun arriving at the crash site and the moment he understands the official explanation cannot be true.",
+          "critic_note": {
+            "text": "The show cultivates multiple subplots in a manner that does not feel overwhelming, and leaves audiences hungering for answers.",
+            "source": "Cinema Escapist",
+            "url": "https://www.cinemaescapist.com/2019/09/review-vagabond-kdrama-netflix-suzy/"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2019-11-23",
+          "bollymeter": 5.5,
+          "spoiler_free": "The finale advances several plot threads but ends on a hard cliffhanger that functions as a season break rather than a conclusion. Critics who praised the series throughout called the ending disjointed and frustrating; audiences were left with no resolution to the central conspiracy or the lead relationship.",
+          "the_moment": "The final scene's unresolved standoff - a deliberate setup for a season 2 that was never made.",
+          "critic_note": {
+            "text": "The disjointed, WTF finale is not one of them.",
+            "source": "Jae-Ha Kim (Substack)",
+            "url": "https://jaehakim.substack.com/p/vagabond-kdrama-review-bae-suzy-lee-seunggi"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

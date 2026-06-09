@@ -1,0 +1,102 @@
+{
+  "slug": "toradora",
+  "qid": {
+    "value": "Q483150",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Toradora!",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Romance", "Comedy", "Coming of Age"],
+  "logline": "Two social misfits - a gentle boy with an intimidating face and a tiny girl with a vicious temper - forge an unlikely alliance to help each other pursue their crushes, and gradually fall in love.",
+  "poster": {
+    "src": "/img/series/toradora/poster.jpg",
+    "alt": "Toradora! poster",
+    "attribution": "Poster © J.C.Staff / TV Tokyo. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Toradora! completed its single 25-episode run on TV Tokyo on March 26, 2009. The series has remained a definitive romantic comedy anime but no continuation has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Toradora!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 25,
+      "release_date": {
+        "value": "2008-10-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Theron Martin at Anime News Network awarded an A- overall, citing quality writing that avoids typical romantic comedy pitfalls. IMDb rates it 7.9/10 from a substantial vote base, with the finale episode scoring 8.7."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Quality writing emphasizes drama and character development, allowing the series to avoid typical romantic comedy pitfalls.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/toradora-volume-1-premium-edition/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1279024/"
+      },
+      "review_body": "Toradora! aired October 2, 2008 to March 26, 2009 on TV Tokyo, produced by J.C.Staff. Anime News Network's Theron Martin awarded an A- grade, specifically praising writing that elevates the series beyond formula-level romance. The 25-episode run is regarded as one of the gold-standard romantic comedy anime productions, with critics noting that the central pairing of Ryuji and Taiga develops with unusual emotional honesty for the genre. The IMDb rating of 7.9/10 places it firmly in the upper tier of rom-com anime, while the finale's individual score of 8.7 confirms the series earned its emotional payoff. The series' central Christmas arc, in particular, is cited as one of the more affecting sequences in the genre's history.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 19,
+          "title": "Christmas Eve Festival",
+          "air_date": "2009-02-05",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Christmas Eve arc reaches its turning point here, and the episode is widely cited as the moment the series transitions from romantic comedy to something more emotionally serious. The shift in tone and the confession scene that follows have made this the most-discussed episode in the series.",
+          "the_moment": "A rooftop scene in the snow that reframes the entire dynamic between the two leads.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "Toradora!",
+          "air_date": "2009-03-26",
+          "bollymeter": 8.7,
+          "spoiler_free": "The finale resolves each character's arc with the emotional honesty that defines the series at its best. IMDb users rate it 8.7, the highest episode score in the run, affirming that the series landed its ending.",
+          "the_moment": "The final run sequence - an impulsive, messy act that feels entirely true to both characters.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

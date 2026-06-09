@@ -1,0 +1,117 @@
+{
+  "slug": "the-night-of",
+  "qid": {
+    "value": "Q17986725",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Night Of",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "HBO",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Legal",
+    "Thriller",
+    "Mystery"
+  ],
+  "logline": "A Pakistani-American college student wakes up next to a murdered woman after a blackout night in Manhattan, and is drawn into a legal machinery that transforms him long before the verdict is read.",
+  "poster": {
+    "src": "/img/series/the-night-of/poster.jpg",
+    "alt": "The Night Of poster",
+    "attribution": "Poster © HBO / BBC Worldwide Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "The Night Of was a standalone eight-episode limited series adapted from the BBC drama Criminal Justice. No sequel or continuation has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Night_Of"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 8,
+      "release_date": {
+        "value": "2016-07-10",
+        "source": "HBO",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 94% Rotten Tomatoes score, a Metacritic score of 90 from 40 critics, and an 8.4 IMDb rating place it among HBO's most critically praised limited series; Riz Ahmed's performance is the consistent anchor of that consensus."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 88,
+        "pull_quotes": [
+          {
+            "text": "Compulsively watchable and extraordinarily rewarding, a brilliant and addictive mystery.",
+            "source": "Variety",
+            "url": "https://variety.com/2016/tv/news/tv-review-the-night-of-hbo-john-turturro-1201810455/"
+          },
+          {
+            "text": "The Night Of is a richly crafted, exquisitely performed mystery that will keep viewers enthralled.",
+            "source": "RogerEbert.com",
+            "url": "https://www.rogerebert.com/reviews/the-night-of-2016"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2401256/ratings/"
+      },
+      "review_body": "Airing on HBO from July to August 2016, The Night Of arrived as the definitive successor to the literary crime drama tradition Richard Price and Steve Zaillian had each built separately. Critics rated it 94% on Rotten Tomatoes from 88 reviews and awarded it a Metacritic score of 90, with Variety calling it compulsively watchable and Ebert's site positioning it as an essential American legal portrait. The show earned 14 Emmy nominations and won five, including Outstanding Lead Actor for Riz Ahmed. The consensus fixed on two achievements: the show's refusal to function as a simple whodunit and its unflinching portrait of what incarceration does to a person before any verdict is delivered. The audience at 8.4 on IMDb registered the same conviction.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Beach",
+          "air_date": "2016-07-10",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere follows a single night in real time as Naz Khan borrows his father's cab, picks up a fare, and ends up in a situation that will define the rest of the series. The filmmaking is almost Hitchcockian in how it accumulates mundane bad decisions into catastrophe, and the final image of the first episode is among the most unnerving season-opener endings in HBO history.",
+          "the_moment": "Naz waking in the kitchen of a stranger's apartment - the single frame that crystallises everything the show is about.",
+          "critic_note": {
+            "text": "Compulsively watchable and extraordinarily rewarding, a brilliant and addictive mystery.",
+            "source": "Variety",
+            "url": "https://variety.com/2016/tv/news/tv-review-the-night-of-hbo-john-turturro-1201810455/"
+          }
+        },
+        {
+          "number": 8,
+          "title": "The Call of the Wild",
+          "air_date": "2016-08-28",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale delivers a verdict but refuses the catharsis the genre conventionally provides. What lingers is the portrait of Naz after the machinery of justice has run its course - the transformation the show has been tracking in the background of every courtroom scene. Some critics found the ending unsatisfying; others read its ambivalence as the show's final and most honest statement.",
+          "the_moment": "Naz emerging from Rikers Island - the moment that forces the question of whether any outcome constitutes justice.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

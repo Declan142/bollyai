@@ -1,0 +1,283 @@
+{
+  "slug": "the-americans",
+  "qid": {
+    "value": "Q498438",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Americans",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Thriller",
+    "Spy",
+    "Crime"
+  ],
+  "logline": "Two Soviet KGB officers posing as a married American couple in suburban Virginia navigate Cold War espionage while raising a family that knows nothing of their true identities.",
+  "poster": {
+    "src": "/img/series/the-americans/poster.jpg",
+    "alt": "The Americans poster",
+    "attribution": "Poster © FX Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Six-season run on FX concluded May 30, 2018. Creator Joe Weisberg and showrunner Joel Fields confirmed the series finale as a planned ending.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Americans_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 13,
+      "release_date": {
+        "value": "2013-01-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Critics scored Season 1 at 88% on Rotten Tomatoes, praising its refusal to make the Soviet agents simple villains and its Cold War domestic tension as a genuinely fresh espionage premise."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2149175/ratings/"
+      },
+      "review_body": "Season 1 arrived in January 2013 and drew immediate critical attention for its moral complexity: the protagonists are Soviet spies who genuinely believe in their mission, and the show refuses to make that belief simply evil. The 88-percent Rotten Tomatoes score reflected a consensus that the series was something unusual in American television - an espionage drama that cared more about marriage, parenthood, and identity than about action sequences. Keri Russell and Matthew Rhys were singled out for the physical and emotional commitment of their performances. The Hollywood Reporter called it one of television's finest dramas from this inaugural season.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2013-01-30",
+          "bollymeter": 8.1,
+          "spoiler_free": "The series premiere establishes the double life of the Jennings household in Falls Church, Virginia, with a Cold War mission that immediately tests the line between professional duty and personal feeling. The tension is set up with economy - the show trusts viewers to find the moral architecture unsettling without spelling it out.",
+          "the_moment": "A trunk, a KGB officer, and a decision that sets the moral stakes for the entire six-season run.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "The Colonel",
+          "air_date": "2013-04-03",
+          "bollymeter": 8.5,
+          "spoiler_free": "The Season 1 finale tightens every thread the series established - Soviet mission, FBI neighbour, marriage under strain - into a sustained hour of dread and release. Critics noted it as a promise kept: the show could deliver on its premise without a conventional action-thriller payoff.",
+          "the_moment": "Stan Beeman and the Jennings standing on opposite sides of a quiet street - two worlds that have not yet collided.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 13,
+      "release_date": {
+        "value": "2014-02-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Season 2 climbed to 97% on Rotten Tomatoes as the series deepened its thematic ambitions; the Paige storyline began drawing the domestic and ideological threads tighter."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "All of the elements that made it must-see last year are working at full throttle.",
+            "source": "San Francisco Chronicle",
+            "url": "http://www.sfgate.com/tv/article/The-Americans-review-FX-series-starts-2nd-5252413.php"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2149175/ratings/"
+      },
+      "review_body": "Season 2 registered a 97-percent Rotten Tomatoes score, a jump the critical consensus attributed to the show fully realising its ambitions. The introduction of the next generation - Paige being drawn toward awareness of her parents' double life - gave the espionage plot a domestic moral weight that critics found irresistible. The Hollywood Reporter called the season proof that the series was 'one of television's finest dramas.' The direction and writing tightened alongside the cast's performances, with Russell and Rhys praised for making the Jennings marriage a genuinely layered relationship rather than a tradecraft cover.",
+      "season_over_season": "Builds on the first season's moral framework with sharper stakes and the Paige thread emerging as the show's most painful long game.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2015,
+      "episodes": 13,
+      "release_date": {
+        "value": "2015-01-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Season 3 hit 100% on Rotten Tomatoes. The Paige recruitment arc brought the series to its moral peak: the question of whether ideology can be passed down like a disease reached something close to tragedy."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Just as absorbing and dark and impeccably realized as what we saw in Season 2.",
+            "source": "Washington Post",
+            "url": "http://www.washingtonpost.com/entertainment/tv/the-americans-tvs-best-show-returns-as-strong-as-ever-with-perfect-cold-war-chill/2015/01/27/b9918748-9f6e-11e4-9f89-561284a573f8_story.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2149175/ratings/"
+      },
+      "review_body": "Season 3 achieved a perfect 100-percent Rotten Tomatoes score and marked the point critics most consistently cited as the series at its peak. The arc around recruiting Paige into the KGB forced the show to ask whether the Jennings' conviction is honourable or monstrous - and resisted providing a clean answer. The Washington Post called it 'just as absorbing and dark and impeccably realized' as what preceded it. The season's willingness to let its episodes breathe, with long stretches of domestic silence punctuating genuine operational dread, became the signature of the series' mature period.",
+      "season_over_season": "The Paige storyline reaches critical mass; the series moves from espionage thriller to something closer to a moral tragedy about ideology and inheritance.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-03-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Season 4 scored 99% on Rotten Tomatoes and a Metacritic peak of 95. Critics identified it as the strongest single season of the run - emotionally devastating and operating at the highest pitch of the show's craft."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sometimes watching greatness expand is just the kind of assurance you need to cement your allegiance.",
+            "source": "The Hollywood Reporter",
+            "url": "http://www.hollywoodreporter.com/review/americans-tv-review-683740"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2149175/ratings/"
+      },
+      "review_body": "Season 4 is the consensus peak of The Americans, scoring 99% on Rotten Tomatoes and a Metacritic season high of 95. The season introduced a biological weapon storyline that gave the geopolitical stakes visceral weight while simultaneously pushing the Jennings marriage to near-breaking point. Critics uniformly praised the performances of Russell and Rhys, with the Hollywood Reporter singling out the season as proof of a series operating at 'the absolute top of television.' The 2016 Emmy nominations for both leads reflected critical consensus that this was the finest year the show produced.",
+      "season_over_season": "The operational stakes reach their most dangerous, and the marriage reaches its most honest reckoning - the series at full power.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2017,
+      "episodes": 13,
+      "release_date": {
+        "value": "2017-03-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 5 scored 94% with critics but carried the IMDb series-low average, widely described as a deliberate slow-burn penultimate year that prioritised setup over payoff."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2149175/ratings/"
+      },
+      "review_body": "Season 5 earned 94% on Rotten Tomatoes but registered the series' lowest average episode ratings on IMDb - a gap that tracked a deliberate creative choice: the season operates as an extended exhale before the finale, with the Soviet grain-sabotage storyline running long and the emotional confrontations deferred. Critics respected the patience; audiences found the pacing difficult. The season is best understood as a structural decision rather than a quality dip: Weisberg and Fields were clearing the board for what they knew would be a definitive final year.",
+      "season_over_season": "Intentionally slower and more procedural, functioning as a long penultimate act - the setup cost is real but the finale payoff is earned.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-03-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "Season 6 scored 99% on Rotten Tomatoes. The finale 'START' earned a 9.8 on IMDb and won the Emmy for Outstanding Writing - a near-universally acclaimed series conclusion that critics placed among the greatest finales in television history."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2149175/ratings/"
+      },
+      "review_body": "Season 6 arrived as the acknowledged culmination of one of American television's finest dramas. The 99-percent Rotten Tomatoes score and the finale 'START' earning a 9.8 on IMDb placed it among the most acclaimed series conclusions of its decade. The A.V. Club called it 'tense, affecting, and one of the greats.' Matthew Rhys won the Emmy for Outstanding Lead Actor. The season answered every question the series had posed about identity, loyalty, and marriage without a false resolution: the Jennings' fate is earned, specific, and devastating. Critics and audiences converged on the view that this was one of the rare shows whose final season surpassed everything before it.",
+      "season_over_season": "The series arrives at its reckoning with full force - the finale is among the most acclaimed in prestige drama history.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "START",
+          "air_date": "2018-05-30",
+          "bollymeter": 9.8,
+          "spoiler_free": "The series finale resolves every thread - operational, domestic, ideological - with a quietness that critics called braver than a conventional action climax. The garage scene, the platform scene, the final image: all have entered the canon of prestige television's most discussed endings. The show earns its conclusion by refusing comfort.",
+          "the_moment": "A train platform and two people watching something they cannot stop - the emotional centre of six years of television, held without a score.",
+          "critic_note": {
+            "text": "The Americans ends as it lived: tense, affecting, and one of the greats.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/the-americans-series-finale-review-start-1826038313"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

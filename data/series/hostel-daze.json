@@ -1,0 +1,179 @@
+{
+  "slug": "hostel-daze",
+  "qid": {
+    "value": "Q106238357",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hostel Daze",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Coming of Age",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "Four first-year engineering students navigate the chaotic, hilarious, and quietly formative world of hostel life in India - ragging, roommates, exams, and the relationships that define the years between home and adulthood.",
+  "poster": {
+    "src": "/img/series/hostel-daze/poster.jpg",
+    "alt": "Hostel Daze poster",
+    "attribution": "Poster © Amazon Prime Video / The Viral Fever (TVF). Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Four seasons aired between 2019 and 2023. Season 4, released September 27, 2023, is the final season. TVF has not announced further continuations.",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hostel_Daze"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 5,
+      "release_date": {
+        "value": "2019-12-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Film Companion's Rahul Desai called it sharp, observant, and immensely entertaining; individual episode IMDb ratings peaked at 8.7 and 8.9, anchoring TVF's claim on the Indian campus-comedy genre."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sharp, observant and immensely entertaining as a new-age campus show.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/hostel-daze-review-the-tvf-show-is-the-little-things-of-the-campus-comedy-universe"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11407524/"
+      },
+      "review_body": "Premiering December 13, 2019, Season 1 established TVF as the definitive creator of the Indian engineering-college genre on streaming. Film Companion's Rahul Desai called it sharp, observant, and immensely entertaining - positioning it as the campus-comedy equivalent of TVF's earlier domestic-drama work. The five-episode debut ran brief enough to feel tight without a wasted scene: individual IMDb episode ratings climbed from 7.9 for the opener to 8.7 and 8.9 for the best episodes. The 8.5 overall series rating on IMDb, across a substantial vote base, represents one of the stronger audience endorsements in Indian streaming comedy.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Intro",
+          "air_date": "2019-12-13",
+          "bollymeter": 7.9,
+          "spoiler_free": "The arrival episode drops four very different first-years into a shared hostel room and immediately establishes the comedy through the collision of personality types: the idealist, the anxious overachiever, the hype man, and the quietly resourceful survivor. TVF's signature observational naturalism is present from the first scene.",
+          "the_moment": "The four roommates' first group negotiation over who sleeps on which bunk - the social contract of hostel life reduced to its earliest, funniest form.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "F.O.S.L.A",
+          "air_date": "2019-12-13",
+          "bollymeter": 8.7,
+          "spoiler_free": "The Season 1 standout episode earns the highest single-episode IMDb rating in the season. The FOSLA (Friend of Someone Looking for Attachment) dynamic crystallises the social economy of hostel romance and the specific desperation and comedy it produces. A formative episode for understanding what the show does at its best.",
+          "the_moment": "The group's collective strategy for the FOSLA situation - simultaneously absurd, recognisable, and genuinely funny.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 4,
+      "release_date": {
+        "value": "2021-07-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 5.4,
+        "basis": "Season 2 is widely cited as the franchise's weakest, with IMDb episode ratings dropping as low as 6.2 - a stark contrast to Season 1 peaks - indicating the writing lost the first season's specific observational edge."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Arriving July 23, 2021, Season 2 stumbled sharply from the debut's quality. The four-episode run - shortest in the franchise - failed to recapture the naturalistic ensemble energy that defined Season 1. IMDb episode ratings dropped significantly, with the D.I.S.C.O episode scoring 6.2, reflecting audience disappointment at a season described by multiple viewers as a disastrous step back in writing quality. The campus-comedy specificity that Film Companion had praised was replaced by broader, less grounded humour.",
+      "season_over_season": "A significant drop in both episode count and writing quality; Season 2 is the franchise's weakest entry by audience metric and critical memory."
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-11-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Widely seen as a meaningful recovery from Season 2, with the return to observational campus specificity and a stronger character focus restoring much of what the second season had squandered."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3, released November 16, 2022, is the franchise's acknowledged recovery run. Critics and audience commentary pointed to a return to the first season's strengths: character-rooted comedy, specific campus situations, and the warmth of the ensemble dynamic. The six-episode structure mirrored Season 1's discipline after Season 2's compressed and unfocused four-episode run. Not a return to the debut's heights, but a genuine corrective that reminded the audience why they invested in the show.",
+      "season_over_season": "A material improvement on Season 2, recovering the show's observational roots and ensemble warmth without fully matching Season 1's first-run freshness."
+    },
+    {
+      "number": 4,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-09-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 4's IMDb episode ratings climbed back to 8.9 for the finale, with the Hostel Departure episode becoming the highest-rated in the entire series - fans rewarded the show for delivering a satisfying conclusion."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The final season, released September 27, 2023, closed the engineering-hostel run on a strong note by audience measurement: IMDb episode ratings climbed to 8.9 for both The Offer and the series finale Hostel Departure - the highest individual episode scores in the entire four-season run. The finale earned its reputation as a genuinely affecting conclusion, with long-term viewers responding to the emotional weight of the characters leaving the hostel behind. TVF chose not to announce a continuation, ending the series at a point of natural closure.",
+      "season_over_season": "The series exits on its emotional peak - Season 4's finale episode is its highest-rated, rewarding the audience that stayed through Season 2's trough."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

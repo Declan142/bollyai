@@ -1,0 +1,277 @@
+{
+  "slug": "justified",
+  "qid": {
+    "value": "Q1535208",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Justified",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Action",
+    "Thriller"
+  ],
+  "logline": "U.S. Marshal Raylan Givens is reassigned to Kentucky and drawn back into the criminal world of Harlan County, where his oldest enemy is also his most complicated mirror.",
+  "poster": {
+    "src": "/img/series/justified/poster.jpg",
+    "alt": "Justified poster",
+    "attribution": "Poster © FX Productions / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Six-season run on FX concluded April 14, 2015. A sequel limited series, Justified: City Primeval, aired on FX in 2023.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Justified_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 13,
+      "release_date": {
+        "value": "2010-03-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Season 1 scored 93% on Rotten Tomatoes and a Metacritic of 86. Critics praised Timothy Olyphant's performance and the show's Elmore Leonard-derived dialogue as an immediately addictive brew of action, dark humour, and moral complexity."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Immediately addictive brew of action, suspense and wry humor.",
+            "source": "TV Guide Magazine",
+            "url": "http://www.tvguidemagazine.com/matt-roush-daily-review/tvs-cool-new-lawman-4374.html"
+          },
+          {
+            "text": "Olyphant backs it up with an incredibly riveting performance.",
+            "source": "San Francisco Chronicle",
+            "url": "http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2010/03/15/DD3I1CF9S1.DTL"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1489428/ratings/"
+      },
+      "review_body": "Season 1 premiered March 2010 and established Justified as one of the more distinctive crime dramas in the prestige era: a neo-Western with Elmore Leonard's signature rhythm - quickdraw wit, moral complexity, and violence that arrives without announcement. Timothy Olyphant's Raylan Givens was praised by virtually every critic as one of television's great characters: a lawman who is only technically the good guy. The Metacritic of 86 placed the debut in 'Universal Acclaim' territory. TV Guide called it 'an immediately addictive brew of action, suspense and wry humor.' The show's Harlan County setting was praised as a geographic character in itself.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Fire in the Hole",
+          "air_date": "2010-03-16",
+          "bollymeter": 8.3,
+          "spoiler_free": "The pilot, adapted directly from Elmore Leonard's short story, establishes Raylan as a man who has spent his career making his instincts look like procedure. The Wynona and Boyd threads introduce the show's emotional geometry in the first hour. The dialogue's rhythmic specificity sets a standard the series maintained across six seasons.",
+          "the_moment": "The first draw in a Miami restaurant - the scene that defines Raylan's approach to law enforcement in under thirty seconds.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2011,
+      "episodes": 13,
+      "release_date": {
+        "value": "2011-02-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "Season 2 scored 100% on Rotten Tomatoes - the series' critical peak. The Mags Bennett arc introduced Margo Martindale's Emmy-winning performance and gave Justified a villain who matched the show's moral complexity rather than simply opposing it."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1489428/ratings/"
+      },
+      "review_body": "Season 2 achieved a perfect 100-percent Rotten Tomatoes score and is consistently cited as the finest year the series produced. The Mags Bennett arc - built around Margo Martindale's Emmy-winning performance as a crime matriarch operating through family loyalty and apple pie moonshine - gave the show a villain whose moral architecture was as complicated as Raylan's. Critics called the season a sustained exercise in Elmore Leonard's best instinct: that every criminal believes they are the hero of their own story. The finale 'Bloody Harlan' was described by the A.V. Club as 'both explosive and unexpectedly moving.'",
+      "season_over_season": "The Mags Bennett arc elevates the show to its creative peak - a season that critics routinely list among the finest in prestige drama.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "Bloody Harlan",
+          "air_date": "2011-05-11",
+          "bollymeter": 9.4,
+          "spoiler_free": "The Season 2 finale resolves the Mags Bennett arc with violence and grief in proper proportion. The apple juice scene and its callback are among the most discussed moments in the show's run - a payoff that makes an earlier quiet gesture devastating in retrospect.",
+          "the_moment": "The apple juice and its meaning - a piece of foreshadowing that lands with full weight at the finale.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2012,
+      "episodes": 13,
+      "release_date": {
+        "value": "2012-01-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Season 3 scored 96% on Rotten Tomatoes. Neal McDonough's Robert Quarles gave the season a menacing outside villain while the Raylan-Boyd dynamic continued its complicated dance."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1489428/ratings/"
+      },
+      "review_body": "Season 3 maintained the 96-percent Rotten Tomatoes approval that signalled Justified as one of FX's most consistent productions. The season introduced Robert Quarles - a Detroit mob enforcer arriving in Harlan with his own brand of ruthlessness - as an outsider antagonist whose contrast with the local criminal ecosystem gave the show textural richness. Critics continued to praise the dialogue's rhythmic precision and Olyphant and Goggins' rapport. The season's criminal ensemble work - Elmore Leonard's ensemble-building instincts rendered faithfully for television - received particular notice.",
+      "season_over_season": "The Quarles season maintains quality with an outside villain who illuminates Harlan by contrast with what he brings from Detroit.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2013,
+      "episodes": 13,
+      "release_date": {
+        "value": "2013-01-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Season 4 scored 100% on Rotten Tomatoes. The Drew Thompson mystery gave the season a structural focus that critics praised as the tightest plotting of the run, with the ensemble used at its most efficient."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1489428/ratings/"
+      },
+      "review_body": "Season 4 returned a 100-percent Rotten Tomatoes score built around the Drew Thompson mystery, which critics called the show's most tightly plotted season. The whodunit structure gave the ensemble maximum deployment - every character pulled into the mystery's orbit - while the Raylan and Boyd parallel investigation gave the show its annual meditation on the two men's mirrored lives. Jim Beaver's guest turn and the Arlo revelation were cited as season highlights. Critics described Season 4 as proof that Justified had solved the problem of how to run a long-arc plot without losing the show's episodic texture.",
+      "season_over_season": "The mystery structure gives the season the tightest plotting of the run - every character in motion, the ensemble at full deployment.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2014,
+      "episodes": 13,
+      "release_date": {
+        "value": "2014-01-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 5 scored 96% on Rotten Tomatoes but is consistently rated the weakest of the run by both critics and audiences. The Crowe family arc was found less compelling than prior seasons' villains."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1489428/ratings/"
+      },
+      "review_body": "Season 5 held a 96-percent Rotten Tomatoes score but is the season critics and audiences most consistently identify as the series' weakest stretch. The Crowe family from Florida - a dynasty of dim, volatile criminals - provided a different register of menace from the Harlan ecosystem, but critics found them less interesting than the Bennett or Quarles arcs. The show's strengths - dialogue precision, Olyphant and Goggins - remained intact. The season functions best as a transition: burning off storylines and positioning the pieces for a final year Weisberg and Fields knew they were building toward.",
+      "season_over_season": "The acknowledged trough of the run - maintains quality of craft while the central villain arc fails to match prior seasons' dramatic weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2015,
+      "episodes": 13,
+      "release_date": {
+        "value": "2015-01-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Season 6 scored 100% on Rotten Tomatoes. The Raylan-Boyd endgame was praised as the correct resolution for six years of brilliant antagonism. Variety called the finale true to the show's modern-cowboy ethos. The season returned to the form of Seasons 2 and 4."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1489428/ratings/"
+      },
+      "review_body": "Season 6 arrived knowing it was the last year, and critics awarded it a perfect 100-percent Rotten Tomatoes score in response to how the show used that knowledge. The Avery Markham arc gave the season an antagonist with genuine weight, while the Raylan-Boyd endgame became the season's emotional organising principle: two men who grew up together, chose different paths, and have spent six years avoiding the reckoning their shared history demands. Variety called the finale 'true to the modern-cowboy ethos' of the series. The A.V. Club noted that the season was 'proof the show never stopped caring about what it was doing.'",
+      "season_over_season": "The Raylan-Boyd endgame delivers - six seasons of complicated antagonism resolved with the show's characteristic combination of wit and moral seriousness.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "The Promise",
+          "air_date": "2015-04-14",
+          "bollymeter": 9.2,
+          "spoiler_free": "The series finale resolves every relationship the show built across six years without a conventional bloodbath. Critics praised the ending's refusal to sacrifice either character to melodrama. Variety noted the finale stayed true to the show's 'heady mixture of drama, comedy and tension' - the rarest kind of ending, where every major character ends up somewhere earned.",
+          "the_moment": "Raylan and Boyd's final conversation - the full weight of their shared history in a handful of lines.",
+          "critic_note": {
+            "text": "True to the program's modern-cowboy ethos and the heady mixture of drama, comedy and tension defining its key players.",
+            "source": "Variety",
+            "url": "https://variety.com/2015/tv/columns/justified-series-finale-review-spoilers-1201471705/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

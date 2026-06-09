@@ -1,0 +1,113 @@
+{
+  "slug": "fight-my-way",
+  "qid": {
+    "value": "Q28834863",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Fight My Way",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "KBS2",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Comedy",
+    "Drama",
+    "Slice of Life",
+    "Sports"
+  ],
+  "logline": "Two broke underachievers - a former taekwondo athlete turned MMA fighter and his best friend chasing a broadcasting career - navigate stalled dreams and a slow-burn romance they have been avoiding for years.",
+  "poster": {
+    "src": "/img/series/fight-my-way/poster.jpg",
+    "alt": "Fight My Way poster",
+    "attribution": "Poster © KBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season romantic comedy of 16 episodes concluded July 11, 2017. The series was the slot leader throughout its run and topped the TV popularity index for three consecutive weeks, launching Park Seo-joon to wider international recognition.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Fight_for_My_Way"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-05-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Park Seo-joon and Kim Ji-won's natural, sparky chemistry is the show's engine; critics scored it around B++ for delivering warmth, friendship, and ambition in equal measure, though the finale convenience undercut the rawness that made earlier episodes work."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A tad short of perfect, but still a nicely balanced mix of real and raw, with warm and bright.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2017/10/05/review-fight-my-way/"
+          },
+          {
+            "text": "A show that manages to showcase friendship, romance, family, reaching for dreams in one cozy package.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2017/10/05/review-fight-my-way/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6824234/"
+      },
+      "review_body": "Fight My Way ran May to July 2017 on KBS2 and topped the Korean TV popularity index for three consecutive weeks. The series works primarily as a character showcase: Park Seo-joon and Kim Ji-won's 20-year-friendship chemistry is described by The Fangirl Verdict as having a shared natural easy vibe that feels entirely earned. Critics broadly placed it in the B to B++ range - a show delivering genuine warmth and underdog ambition without the melodrama the genre usually deploys. The weakness identified across reviews was the finale, which resolved character conflicts too conveniently after 15 episodes of grounded, earned difficulty. The IMDb rating of 8.0 reflects an audience that valued the sincerity of the slice-of-life framing more than it forgave the wrap-up.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-05-22",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes four friends whose shared apartment building life constitutes their entire social world, and whose career stalls are presented without melodrama as simply the texture of their late twenties. The tone - funny, warm, slightly defeated - is established immediately and holds across the run.",
+          "the_moment": "Dong-man and Ae-ra's first bickering scene: the subtext of long-suppressed attraction dressed up as mutual irritation.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2017-07-11",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale delivers the romantic resolution the show has been building toward and celebrates the characters' individual career wins, but critics noted that the real, raw quality of the earlier episodes was replaced by a convenience that felt slightly unearned.",
+          "the_moment": "The marriage proposal scene: the payoff audiences had been waiting for, if not the one critics felt the show had quite earned.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "violet-evergarden",
+  "qid": {
+    "value": "Q22101190",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Violet Evergarden",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Fantasy", "Slice of Life"],
+  "logline": "A former child soldier turned letter-writer slowly learns the meaning of love and human emotion through the messages she crafts for grieving strangers.",
+  "poster": {
+    "src": "/img/series/violet-evergarden/poster.jpg",
+    "alt": "Violet Evergarden poster",
+    "attribution": "Poster © Kyoto Animation / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 13-episode series aired January to April 2018 on Netflix and remains complete. A follow-up film, Violet Evergarden: The Movie (2020), concluded the story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Violet_Evergarden"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-01-11",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Kyoto Animation's visual peak: critics at ANN awarded an A grade for direction, music, and Violet's character arc from weapon to empathetic writer. IMDb audience scores it 8.4/10."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "From her own beginnings as a discarded tool to her final emergence as an abundantly compassionate hero, Violet is a terrific protagonist.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/violet-evergarden/episodes-1-13-streaming/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7078180/"
+      },
+      "review_body": "Violet Evergarden aired on Netflix from January 11 to April 5, 2018, produced by Kyoto Animation under director Taichi Ishidate. Anime News Network's Nick Creamer awarded the series an A grade, calling Violet a terrific protagonist whose arc from discarded weapon to compassionate Auto Memory Doll is rendered with exceptional craft. The series earned particular praise for its visual quality - widely regarded as among the finest animation Kyoto Animation has produced - and for Evan Call's score. The IMDb audience rating of 8.4 from a substantial vote base confirms a near-consensus of excellence. Where some critics noted early episodes could feel emotionally distant, the consensus held that the back half delivered on the premise's emotional promise.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "I Love You",
+          "air_date": "2018-03-15",
+          "bollymeter": 9.8,
+          "spoiler_free": "Frequently cited as one of the great single episodes in anime history, this instalment follows a terminally ill mother writing letters for her daughter's future milestones. Critics and audiences singled it out as the emotional summit of the series, carrying an IMDb episode rating of 9.8.",
+          "the_moment": "A dying mother addresses letters to every birthday her daughter will have without her - the scene that broke audiences worldwide.",
+          "critic_note": {
+            "text": "This was one of the best stories in the series, the best example of how letter-writing can change a person's life.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/violet-evergarden/episode-10/.129019"
+          }
+        },
+        {
+          "number": 13,
+          "title": "The Day I Stopped Being a Tool",
+          "air_date": "2018-04-05",
+          "bollymeter": 9.1,
+          "spoiler_free": "The finale resolves Violet's emotional arc with a clarity and restraint that critics praised as exactly right. The episode carries the highest individual episode score on IMDb among the finale batch, affirming that the series earned its emotional conclusion.",
+          "the_moment": "Violet finally understands the words Major Gilbert said to her - the payoff the whole series built toward.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

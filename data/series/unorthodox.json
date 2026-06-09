@@ -1,0 +1,115 @@
+{
+  "slug": "unorthodox",
+  "qid": {
+    "value": "Q88759629",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Unorthodox",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "yi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Biographical",
+    "LGBTQ"
+  ],
+  "logline": "A 19-year-old ultra-Orthodox Jewish woman flees her arranged marriage in Williamsburg, Brooklyn and reinvents herself in Berlin - while her husband and his cousin are sent to bring her back.",
+  "poster": {
+    "src": "/img/series/unorthodox/poster.jpg",
+    "alt": "Unorthodox poster",
+    "attribution": "Poster © Netflix / Studio Airlift. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Unorthodox was conceived as a standalone four-part miniseries, adapted from Deborah Feldman's memoir. No continuation has been announced; the story is complete as aired.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/80241619"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 4,
+      "release_date": {
+        "value": "2020-03-26",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "A 96% Rotten Tomatoes score and Metascore of 85 reflect near-unanimous critical acclaim for Shira Haas and for the show's immersive, documentary-like authenticity in depicting the Satmar Hasidic community."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "A remarkable turn from Israeli actress Shira Haas.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/shows/unorthodox-review-netflix-shira-haas-1202220615/"
+          },
+          {
+            "text": "What unfolds is a story of personal discovery with the intensity of a spy thriller.",
+            "source": "The New York Times",
+            "url": "https://www.nytimes.com/2020/03/25/arts/television/review-unorthodox.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9815454/ratings/"
+      },
+      "review_body": "Released on Netflix in March 2020, Unorthodox became the first Netflix series primarily in Yiddish, and critics treated it as an immediate landmark. With a 96% Rotten Tomatoes score from 50 reviews and a Metascore of 85, the consensus clustered around two qualities: the lived-in, documentary-like authenticity of the Williamsburg sequences and Shira Haas's career-making central performance. The New York Times praised its spy-thriller intensity; IndieWire foregrounded the immersive authenticity underwriting every scene. At 8.0 on IMDb, audience response matched critical enthusiasm. Director Maria Schrader won the Primetime Emmy for Outstanding Directing, one of the few non-English-language limited series to break into those awards at the time.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Part 1",
+          "air_date": "2020-03-26",
+          "bollymeter": 8.5,
+          "spoiler_free": "The opening episode establishes a dual timeline: Esty in present-day Berlin, alone and adrift; Esty in Williamsburg, trapped in a marriage that is already failing. The Yiddish-language Satmar world is rendered with precision rather than condescension, and the juxtaposition of claustrophobic Brooklyn streets against the open expanse of Berlin parks gives the premise its entire emotional force from the first frame.",
+          "the_moment": "Esty wading into the Wannsee lake - barefoot, hair loose for the first time - the image that anchors the whole series.",
+          "critic_note": {
+            "text": "What unfolds is a story of personal discovery with the intensity of a spy thriller.",
+            "source": "The New York Times",
+            "url": "https://www.nytimes.com/2020/03/25/arts/television/review-unorthodox.html"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Part 4",
+          "air_date": "2020-03-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale brings both timelines to a reckoning. Esty's decision is framed not as a triumphant escape but as a quiet, hard-won act of self-determination, which makes it more convincing than a conventional liberation arc. The musical audition scene crystallises everything the series has built and functions as the emotional payoff the four parts have been carefully constructing.",
+          "the_moment": "Esty's a cappella audition at the Berlin conservatory - the scene that settles every question the series has been asking.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "berserk-1997",
+  "qid": {
+    "value": "Q18559016",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Berserk (1997)",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "reported",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Drama", "Historical", "Psychological"],
+  "logline": "A lone swordsman joins a charismatic mercenary band during a medieval war, forging a bond of friendship and ambition that will end in supernatural betrayal and massacre.",
+  "poster": {
+    "src": "/img/series/berserk-1997/poster.jpg",
+    "alt": "Berserk (1997) poster",
+    "attribution": "Poster © Oriental Light and Magic / VAP. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 25-episode series aired October 1997 to April 1998 on Nippon TV and covered the Golden Age arc of Kentaro Miura's manga. The story concluded with a cliffhanger that was not resolved in this production.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Berserk_(1997_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1997,
+      "episodes": 25,
+      "release_date": {
+        "value": "1997-10-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb rates it 8.7/10 from over 76,000 votes - placing it among the highest-rated anime of all time. Critics and scholars consistently call it a landmark of the medium despite its limited animation budget."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Even with its non-ending and cheap animation, Berserk still stands as a great series that earns its reputation as a classic.",
+            "source": "A Piece of Anime",
+            "url": "https://apieceofanime.com/2016/05/14/berserk/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0318871/"
+      },
+      "review_body": "Berserk aired October 8, 1997 to April 1, 1998 on Nippon TV, produced by Oriental Light and Magic. The 25 episodes cover the Black Swordsman framing sequence and the extended Golden Age flashback arc - the peak of Kentaro Miura's manga. Critics have consistently noted the contradiction at its heart: a low-budget production with limited animation that nonetheless achieves extraordinary dramatic weight through direction, Susumu Hirasawa's hypnotic score, and the exceptional characterisation of Guts, Griffith, and Casca. The IMDb audience rating of 8.7 from over 76,000 votes places it in the top tier of all anime. Critics across blog criticism and academic writing cite it as proof that budget constraints are irrelevant when writing and direction are strong. The infamous cliffhanger ending remains a sore point for many viewers encountering it for the first time.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Black Swordsman",
+          "air_date": "1997-10-08",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Guts as a figure of extreme violence operating in a world of supernatural horror, then jumps back years to show how he came to be this way. The framing device promises the audience that the Golden Age story they are about to watch ends in catastrophe.",
+          "the_moment": "The tonal whiplash from Guts' brutal present-day scene to the young mercenary who will become him.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "Overwhelming",
+          "air_date": "1998-04-01",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale adapts the Eclipse - the most famous single event in the Berserk manga - and delivers it with a directness that made the series notorious. Critics note that the episode is disturbing by design and functions as the series' thesis statement on ambition, betrayal, and the cost of surviving.",
+          "the_moment": "The eclipse ritual begins - the scene that the entire 25 episodes were building toward and that ends on an unresolved note still discussed decades later.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
