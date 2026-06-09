@@ -1,0 +1,101 @@
+{
+  "slug": "strong-girl-nam-soon",
+  "qid": {
+    "value": "Q112307747",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Strong Girl Nam-soon",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Action",
+    "Romance",
+    "Comedy",
+    "Supernatural"
+  ],
+  "logline": "A superhuman young woman raised in Mongolia returns to Seoul's Gangnam to find her mother and ends up dismantling a billion-dollar drug empire.",
+  "poster": {
+    "src": "/img/series/strong-girl-nam-soon/poster.jpg",
+    "alt": "Strong Girl Nam-soon poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "16-episode limited run concluded November 26, 2023 on JTBC. A spin-off of the 2017 series Strong Girl Bong-soon, written by the same writer Baek Mi-kyung as a standalone story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Strong_Girl_Nam-soon"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-10-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "The finale recorded 10.42% nationwide on Nielsen Korea - strong numbers for cable. However, critics noted the drug-trafficking plot failed to match the charm of the supernatural premise, with mixed reviews from international outlets."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27060285/"
+      },
+      "review_body": "Strong Girl Nam-soon aired October through November 2023 on JTBC, also streaming on Netflix internationally. A spin-off of the beloved 2017 hit Strong Girl Bong-soon, the series introduces a new superhuman protagonist raised in Mongolia who returns to Gangnam in search of her parents and gets drawn into a drug investigation. The finale peaked at 10.42% nationwide, validating the franchise's commercial pull. However, critics were more divided than the original - the show's tonal inconsistency between its action-comedy premise and dark drug storyline drew comment from Korean entertainment press. Lee Yoo-mi's physical commitment in the action sequences earned praise, and the three-generation super-strength family dynamic provided moments of genuine warmth. Byeon Woo-seok's stylish villainy contributed to the show's breakout social media presence even as the plot mechanics disappointed some reviewers.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-10-07",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere efficiently establishes the superhuman family mythology across three generations and sets Nam-soon's origin - abandoned in Mongolia, impossibly strong, searching for identity. The Gangnam setting is deployed with comedic self-awareness. Lee Yoo-mi makes an immediate impression as a physically committed, warmly played lead.",
+          "the_moment": "Nam-soon's first casual display of superhuman strength in the middle of Seoul traffic - played for deadpan comedy in a way the original series earned.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2023-11-26",
+          "bollymeter": 6.8,
+          "spoiler_free": "The finale resolves the drug cartel arc with action-heavy setpieces that showcase the series' visual ambitions. The family reunion elements land emotionally, though the crime procedural threads resolve more mechanically. The 10.42% finale rating confirmed strong domestic audience attachment.",
+          "the_moment": "The three-generation superhero family uniting for the climactic confrontation - a crowd-pleasing moment that pays off the show's core premise.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:10:00+05:30"
+}

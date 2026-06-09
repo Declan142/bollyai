@@ -1,0 +1,110 @@
+{
+  "slug": "strangers-from-hell",
+  "qid": {
+    "value": "Q65332996",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Strangers from Hell",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "OCN / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Horror",
+    "Psychological",
+    "Mystery"
+  ],
+  "logline": "A young man rents a cheap Seoul dormitory room and slowly realises the other tenants - including his unsettlingly charming dentist neighbor - may be predators.",
+  "poster": {
+    "src": "/img/series/strangers-from-hell/poster.jpg",
+    "alt": "Strangers from Hell poster",
+    "attribution": "Poster © OCN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season, 10-episode complete story that concluded October 6, 2019. Based on a Naver Webtoon by Kim Yong-ki. Won the Grand Prize (Daesang) at the 2020 Cable TV Broadcasting Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Strangers_from_Hell"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-08-31",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Won the Grand Prize (Daesang) at the 2020 Cable TV Broadcasting Awards. Lee Dong-wook's villain performance became widely celebrated, and the show's psychological horror approach - rare on Korean television - earned international cult status after Netflix distribution."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10533562/"
+      },
+      "review_body": "Strangers from Hell aired August through October 2019 on OCN as part of the network's Dramatic Cinema project - a short-form prestige strand. Based on Kim Yong-ki's Naver Webtoon, the ten-episode series follows a young man who takes a room at an inexpensive Seoul dormitory called Eden Studio and becomes increasingly convinced his neighbours are dangerous. Lee Dong-wook's dentist Seo Moon-jo, all studied charm and concealed menace, became the show's breakout performance and a touchstone for villain acting in the K-drama conversation. The series averaged 3% nationwide on cable and peaked at 3.9% in its finale - modest live numbers that understated the show's impact after Netflix global distribution reached international horror audiences. It won the Grand Prize at the 2020 Cable TV Broadcasting Awards, and in the years since has been consistently cited by genre critics as among the finest psychological thrillers Korean television has produced.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-08-31",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere installs Jong-woo in Eden Studio and begins the systematic erosion of his comfort. The dormitory is established as a space where ordinary social rules have quietly corroded. Lee Dong-wook appears midway through and the atmosphere shifts - a masterclass in the deployment of a villain whose menace lives entirely in behaviour rather than action.",
+          "the_moment": "Moon-jo's first one-on-one conversation with Jong-woo in the hallway - pleasant, patient, and deeply wrong.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2019-09-22",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series' psychological pressure reaches its first major peak. Jong-woo's grip on what constitutes normal begins to slip, and the show refuses to reassure him or the audience. The episode represents the turning point where the series commits fully to its darkest register.",
+          "the_moment": "Jong-woo can no longer be certain which of his own reactions are rational - and neither can the viewer watching him.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2019-10-06",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale delivers one of Korean drama's most discussed endings of its era - one that takes the show's psychological premise to its logical extreme without flinching. The final scene became the subject of extensive critical analysis and audience debate. The 3.9% finale rating was the series' peak.",
+          "the_moment": "The final image of Jong-woo - where the show lands on what survival at Eden Studio costs a person.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:20:00+05:30"
+}

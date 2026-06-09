@@ -1,0 +1,112 @@
+{
+  "slug": "one-day",
+  "qid": {
+    "value": "Q115484851",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "One Day",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Drama", "Coming of Age"],
+  "logline": "On one day each year - July 15th - two people from wildly different worlds check in on each other, tracing two decades of love, ambition, missed timing, and the question of whether some people are simply meant to find their way back.",
+  "poster": {
+    "src": "/img/series/one-day/poster.jpg",
+    "alt": "One Day poster",
+    "attribution": "Poster © Netflix / Synchronicity Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Designed as a one-season limited series adapting David Nicholls' 2009 novel. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/One_Day_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 14,
+      "release_date": {
+        "value": "2024-02-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "A 92% Rotten Tomatoes score on 49 reviews and a 86% audience score reflect near-unanimous critical and viewer approval; Leo Woodall and Ambika Mod were cited as breakthrough performances whose chemistry sustains 14 episodes of a structure that could easily have felt repetitive."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 49,
+        "pull_quotes": [
+          {
+            "text": "This is a rom-com at its most delightful: warm, witty, and occasionally, quite devastating.",
+            "source": "The Australian",
+            "url": "https://www.rottentomatoes.com/tv/one_day_2024/s01/reviews"
+          },
+          {
+            "text": "A story beautifully depicted, yet at times feeling unbalanced and frustrating in ways that suit its subject.",
+            "source": "Collider",
+            "url": "https://collider.com/one-day-netflix-review/"
+          },
+          {
+            "text": "The spark between Emma and Dexter burns bright enough throughout to make the ride more enjoyable than not.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/one-day-review-netflix-1235812784/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/one_day_2024/s01"
+      },
+      "review_body": "One Day arrived on Netflix on February 8, 2024, adapting David Nicholls' 2009 novel across 14 episodes. The device - revisiting Emma Morley (Ambika Mod) and Dexter Mayhew (Leo Woodall) on a single date each year from their Edinburgh graduation in 1988 through two subsequent decades - requires an ensemble chemistry robust enough to carry episodic snapshots rather than conventional narrative momentum. The 92-percent Rotten Tomatoes score on 49 reviews confirmed that it does. Critics clustered around Mod and Woodall as genuine star-making performances, and Nicholls' own adaptation of his novel avoided the 2011 film's casting problems. The Australian called it 'warm, witty, and occasionally quite devastating.' Netflix reported 9.9 million views in the week of 12 February 2024. The finale's emotional impact generated substantial audience conversation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "1988",
+          "air_date": "2024-02-08",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere anchors the series on a single Edinburgh night in 1988. Mod and Woodall establish the central dynamic with confident specificity - class difference, mutual attraction and mutual deflection, the particular chemistry of two people deciding not to sleep together and becoming something more complicated instead.",
+          "the_moment": "The morning conversation on the rooftop that gives the whole series its structural logic - these two will keep finding each other, until the year they cannot.",
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "2004",
+          "air_date": "2024-02-08",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale's emotional weight derives entirely from the 13 episodes of accumulated care the series has built. The show earns its devastating final movement by never cheating the structure that brought the audience there.",
+          "the_moment": "The final July 15th - what the day brings and what it takes, handled with the restraint the novel's ending demands.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:20:00+05:30"
+}

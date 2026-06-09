@@ -1,0 +1,102 @@
+{
+  "slug": "les-miserables-bbc",
+  "qid": {
+    "value": "Q52769346",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T11:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Les Misérables",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T11:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T11:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / PBS",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T11:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Historical", "Crime", "Biographical"],
+  "logline": "Andrew Davies strips Victor Hugo's epic back to its bones: an ex-convict who has rebuilt his life, the relentless policeman who cannot forgive him, and the France that made them both.",
+  "poster": {
+    "src": "/img/series/les-miserables-bbc/poster.jpg",
+    "alt": "Les Misérables poster",
+    "attribution": "Poster © BBC / Lookout Point. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode miniseries, complete as broadcast. Adaptor Andrew Davies confirmed the work as a single definitive adaptation with no sequel planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_(2018_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 6,
+      "release_date": {
+        "value": "2018-12-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T11:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "An 88 percent Rotten Tomatoes score from 40 critics and a Metacritic of 79 reflect broad critical praise for Andrew Davies' stripped-down adaptation, with the cast - Dominic West, David Oyelowo, Lily Collins - drawing particular notice."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 40,
+        "pull_quotes": [
+          {
+            "text": "Emotional, engrossing - an adaptation that brings newfound intimacy with these outcasts.",
+            "source": "Collider",
+            "url": "https://collider.com/les-miserables-bbc-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7556402/"
+      },
+      "review_body": "Andrew Davies's 2018 adaptation of Les Misérables arrived on BBC One as the most prominent straight-drama version of Hugo's novel in decades - explicitly not a musical, and deliberately stripped of the sentiment the stage production had layered onto the source. The casting was the story: Dominic West's Jean Valjean found the man's dignity and exhaustion beneath the heroism; David Oyelowo's Javert was rigidly principled rather than melodramatically villainous; Lily Collins's Fantine was played with what The Independent called 'steeliness and grace.' Critics scored the miniseries at 88 percent on Rotten Tomatoes from 40 reviews and 79 on Metacritic. The six-episode structure gave the adaptation room for the subplot architecture Hugo's novel demands, and the production design placed the June Rebellion in convincingly unglamorous Paris. Olivia Colman's Madame Thenardier and Josh O'Connor's Marius rounded out an ensemble of unusual depth.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-12-30",
+          "bollymeter": 8.1,
+          "spoiler_free": "The opening episode covers Valjean's release from the Bagne of Toulon and his transformation at the hands of the Bishop of Digne. Davies's script wastes no time on preamble; the moral argument that will drive six episodes is established in the first hour with precision. Dominic West's performance is immediately commanding.",
+          "the_moment": "The Bishop's act of forgiveness - the pivot on which the entire narrative turns, rendered without sentimentality.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2019-02-03",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale brings the June Rebellion, Valjean's final reckoning with Javert, and the resolution of every character arc Davies has constructed across six episodes. The Telegraph noted that West 'steals the show in a stirring finale,' and the production honours Hugo's ending without the musical's consolations.",
+          "the_moment": "Valjean's last conversation with Javert in the Paris sewers - the moral confrontation the entire adaptation has been engineering.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T11:00:00+05:30"
+}

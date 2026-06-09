@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 482 / ~500   (baseline 183)
+## Progress: 512 / ~500   (baseline 183) — TARGET REACHED
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -35,6 +35,14 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 10 — 2026-06-09 — 30 series — STATUS: DONE (commit TBD; 482->512) — TARGET REACHED
+- **VV** K-drama prestige: chief-detective-1958 · welcome-to-samdal-ri · strong-girl-nam-soon · my-girlfriend-is-a-gumiho · strangers-from-hell · live-up-to-your-name
+- **WW** US comedy/drama: only-murders-in-the-building · the-marvelous-mrs-maisel · hacks · shrinking · orange-is-the-new-black · pose
+- **XX** Anime: psycho-pass · devilman-crybaby · natsumes-book-of-friends · gintama · trigun-stampede · barakamon
+- **YY** UK/Euro: the-it-crowd · its-a-sin · poldark · outlander · les-miserables-bbc · i-may-destroy-you
+- **ZZ** Indian+World: tripling · your-honor · queen-charlotte · hijack · one-day · 1883
+- 30/30 validate clean · build green (2245 pages) · AggregateRating gate clean · 28/30 posters (shrinking + hijack SVG fallback)
+
 ### Batch 09 — 2026-06-09 — 30 series — STATUS: DONE (commit bba76e5 pushed; 452->482)
 - **QQ** K-drama romance/historical: forecasting-love-and-weather · defendant · when-the-camellia-blooms · law-school · love-in-the-moonlight · my-perfect-stranger
 - **RR** US prestige drama: twin-peaks · friday-night-lights · american-horror-story · yellowstone · billions · the-outsider

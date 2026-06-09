@@ -1,0 +1,131 @@
+{
+  "slug": "hijack",
+  "qid": {
+    "value": "Q112131897",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hijack",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Thriller", "Crime", "Action", "Mystery"],
+  "logline": "A seasoned corporate negotiator is the only person on a Dubai-to-London flight with the skills to de-escalate a hijacking - if he can stay alive long enough to use them.",
+  "poster": {
+    "src": "/img/series/hijack/poster.jpg",
+    "alt": "Hijack poster",
+    "attribution": "Poster © Apple TV+ / 60Forty Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Season 2 in January 2024; Season 2 premiered January 14, 2026 on Apple TV+.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hijack_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 7,
+      "release_date": {
+        "value": "2023-06-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "A 90% Rotten Tomatoes critic score on 69 reviews reflects near-consensus that the real-time pacing and Elba's magnetic lead performance overcame the inherent implausibility of the premise."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 69,
+        "pull_quotes": [
+          {
+            "text": "Hijack excels at getting viewers invested in characters you've just met.",
+            "source": "Tellyvisions",
+            "url": "https://www.rottentomatoes.com/tv/hijack/s01/reviews"
+          },
+          {
+            "text": "Elba can sell the silliest of premises with ease.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/hijack/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 5.2,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/hijack/s01"
+      },
+      "review_body": "Hijack premiered on Apple TV+ in June 2023, running seven episodes in real time over the seven-hour flight from Dubai to London. Creators George Kay and Jim Field Smith built the series around Idris Elba as Sam Nelson, a corporate negotiator whose professional toolkit - patience, empathy, calculated risk - becomes the only weapon available on a seized aircraft. The 90-percent Rotten Tomatoes score on 69 reviews pointed to near-critical consensus that the format worked. The RT Critics Consensus noted the series was 'largely devoid of storytelling turbulence and benefitting greatly from its real-time pacing.' The 52-percent audience score revealed a more sceptical viewer base, with many citing the premise's reliance on implausible escalations. Elba's performance was the consistent point of praise across both camps.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Beware of Wolves",
+          "air_date": "2023-06-28",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the real-time conceit and Elba's Sam Nelson in a single sustained movement - a corporate negotiator trapped in coach when the cockpit is taken. The mechanics of the hijack are revealed slowly and without melodrama.",
+          "the_moment": "The moment Sam realises something is wrong before anyone on the plane does - the camera staying close on Elba's face as he processes the situation.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Final Approach",
+          "air_date": "2023-08-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale lands the plane and the season's accumulated tension in a sequence that rewards the real-time structure's payoff. Sam's negotiating skills face their most direct test, and Elba delivers.",
+          "the_moment": "The final approach to London - seven episodes of real-time tension converging into a single runway sequence.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-01-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "A 74% Rotten Tomatoes score on 34 reviews reflects solid but diminished critical approval - Season 2's Berlin train-hijack setting worked, but the novelty of the real-time format was less fresh the second time."
+      },
+      "critic": {
+        "positive_pct": 74,
+        "sample": 34,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 of Hijack premiered January 14, 2026, relocating Sam Nelson to a Berlin train hijacking that echoes the first season's real-time structure in a new environment. The 74-percent Rotten Tomatoes score on 34 reviews reflected the inevitable second-season problem: the format's freshness was the first season's biggest asset, and replicating it in a different vehicle required the writers to find new dramatic textures rather than rely on the novelty factor. Elba remained watchable as Sam, and the Berlin setting added a political dimension absent from the Dubai-London flight. The eight-episode count gave the season more room to breathe than Season 1's tight seven.",
+      "season_over_season": "Moves from airborne to rail; retains the real-time structure but cannot replicate the first season's sense of claustrophobic novelty - solid thriller craft in familiar territory."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:15:00+05:30"
+}

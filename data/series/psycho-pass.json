@@ -1,0 +1,186 @@
+{
+  "slug": "psycho-pass",
+  "qid": {
+    "value": "Q1315951",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Psycho-Pass",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Thriller",
+    "Psychological",
+    "Action"
+  ],
+  "logline": "In 22nd-century Japan, the authoritarian Sibyl System measures citizens' psychological states to predict crime - but rookie Inspector Akane Tsunemori begins to question whether a society policed by probability can ever be just.",
+  "poster": {
+    "src": "/img/series/psycho-pass/poster.jpg",
+    "alt": "Psycho-Pass poster",
+    "attribution": "Poster © Production I.G / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original three-season run concluded in 2019. A film trilogy and compilation films followed, with Providence (2023) serving as the franchise's current narrative endpoint.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Psycho-Pass"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 22,
+      "release_date": {
+        "value": "2012-10-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "RT 87% from 3 critics and MAL 8.32 from over 830,000 users confirm Season 1 as a landmark cyberpunk thriller; praised for philosophical depth, Gen Urobuchi's writing, and Production I.G's atmospheric craft."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "With a thought-provoking narrative, fascinating characters and stunning animation, Psycho-Pass is a thrilling anime from start to finish.",
+            "source": "CBR",
+            "url": "https://www.cbr.com/psycho-pass-review/"
+          },
+          {
+            "text": "Psycho-Pass excels in character depth, which reaches a level very uncommon among anime.",
+            "source": "Asian Movie Pulse",
+            "url": "https://asianmoviepulse.com/2019/03/anime-review-psycho-pass/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.32,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/13601/Psycho-Pass"
+      },
+      "review_body": "Season 1 aired on Fuji TV's Noitamina block from October 2012 to March 2013, with series composition by Gen Urobuchi (Fate/Zero, Puella Magi Madoka Magica) and animation by Production I.G. Critics at CBR and Asian Movie Pulse converged on the same virtues: the moral complexity of the Sibyl System as a critique of surveillance capitalism, the cat-and-mouse dynamic between Inspector Tsunemori and the criminally asymptomatic villain Makishima, and the dense Blade Runner-adjacent world-building delivered without exposition dumps. The MAL community rating of 8.32 from over 830,000 scorers places it among the decade's most influential cyberpunk anime. Where detractors push back - on internal logic and graphic violence - supporters counter that the bleakness is structural argument, not wallowing.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Crime Coefficient",
+          "air_date": "2012-10-12",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere introduces the Sibyl System's logic with deliberate efficiency - a world where a number defines whether you live free or die. Akane Tsunemori's first field deployment alongside the Enforcers establishes the moral stakes instantly: justice administered by algorithm, and the humans trapped inside it.",
+          "the_moment": "The first time an Enforcer's dominator targets a victim and the numbers refuse to lie - the system's terrifying neutrality made visible.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "Saint's Devil",
+          "air_date": "2012-12-14",
+          "bollymeter": 9.0,
+          "spoiler_free": "The mid-season pivot that fully reveals the antagonist and reframes the entire premise. Makishima emerges not as a monster but as a philosophical argument against the Sibyl System - which makes him more frightening than any mere criminal. The episode the fandom returns to for debate.",
+          "the_moment": "Makishima acts without a flicker of Psycho-Pass elevation - the system's fundamental failure made human and immediate.",
+          "critic_note": null
+        },
+        {
+          "number": 22,
+          "title": "Where the Thought Police Wait",
+          "air_date": "2013-03-22",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale delivers its moral verdict without softening it: Akane emerges from the season carrying knowledge the system would prefer buried, and chooses to operate within it anyway. The ending is neither triumphant nor despairing - it is lucid, which is its own kind of bravery.",
+          "the_moment": "Akane's final confrontation with what she now knows about Sibyl - the moment where idealism and pragmatism negotiate a truce.",
+          "critic_note": {
+            "text": "Its ability to engage with complex moral questions in a nuanced way makes it compelling for those seeking mature content.",
+            "source": "Common Sense Media",
+            "url": "https://www.commonsensemedia.org/tv-reviews/psycho-pass"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 11,
+      "release_date": {
+        "value": "2014-10-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Audience reception dropped sharply without Urobuchi's writing; the compressed 11-episode structure and a less compelling antagonist could not replicate Season 1's philosophical weight."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/23777/Psycho-Pass_2"
+      },
+      "review_body": "Season 2 aired October to December 2014, produced without Gen Urobuchi and written by Tow Ubukata. The condensed 11-episode count and a new antagonist - Kirito Kamui, who can remain invisible to Sibyl - built an interesting concept but delivered it with less philosophical rigour than its predecessor. Audience scores on MAL dropped to the high 6s, and critical consensus noted the season leaned on action spectacle at the expense of the methodical moral inquiry that made Season 1 essential. Loyal to the franchise's world and visuals, but measurably diminished as a drama.",
+      "season_over_season": "Loses Urobuchi's writing and the careful intellectual scaffolding of Season 1; faster, louder, and philosophically thinner despite a genuinely interesting central conceit.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-10-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 3 introduced a new duo of Inspectors and longer 45-minute episodes, recovering some critical respect with its expanded canvas and a politically ambitious storyline."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/37510/Psycho-Pass_3"
+      },
+      "review_body": "Season 3 debuted October 2019 with a restructured format - eight episodes at roughly 45 minutes each, effectively double the runtime per instalment. New protagonist duo Kei Mikhail Ignatov and Nobuchika Ginoza's son Arata Shindo brought fresh perspectives to the franchise's central question. The political scope widened to include immigration and stateless populations, which critics noted as the most ambitious worldbuilding since Season 1. MAL scores stabilised in the low 7s, reflecting an audience that found the new leads compelling but felt the film-trilogy resolution (First Inspector, 2020) was required to make the season narratively complete.",
+      "season_over_season": "A genuine recovery from Season 2, with longer episodes and political ambition that recalls the franchise's best work - though it requires the follow-up film to fully resolve.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

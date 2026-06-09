@@ -1,0 +1,287 @@
+{
+  "slug": "outlander",
+  "qid": {
+    "value": "Q15072906",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:45:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Outlander",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:45:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:45:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Starz",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:45:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Historical", "Fantasy", "Adventure"],
+  "logline": "A WWII-era British nurse touches a standing stone in Scotland and falls two centuries back into a Jacobite uprising - and into the arms of a Highland warrior she has no safe way home from.",
+  "poster": {
+    "src": "/img/series/outlander/poster.jpg",
+    "alt": "Outlander poster",
+    "attribution": "Poster © Starz / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded with its eighth season finale on May 15, 2026, completing the adaptation of Diana Gabaldon's novel series after eight seasons and 101 episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Outlander_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 16,
+      "release_date": {
+        "value": "2014-08-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A 92 percent Rotten Tomatoes score from 263 critics establishes one of the most closely-reviewed debut seasons in prestige cable history; Entertainment Weekly gave the premiere an A-, calling it 'sexy and smart and stirring.'"
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 263,
+        "pull_quotes": [
+          {
+            "text": "Defiantly its own thing: part romance-novel fantasy, part time-travel story and part wartime drama.",
+            "source": "New York Magazine (Matt Zoller Seitz)",
+            "url": "https://www.vulture.com/2014/08/tv-review-starz-outlander.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3006802/"
+      },
+      "review_body": "Outlander's debut season remains the series' creative peak and one of the most praised first seasons of the prestige cable era. The 16-episode run adapted Diana Gabaldon's first novel with considerable fidelity - Claire's time-displacement, her marriage to Jamie Fraser, and the cruelties of the Jacobite period were all rendered with visual and emotional ambition. The 92 percent Rotten Tomatoes score from 263 critics reflected a critical consensus that the show had successfully fused genres that rarely cohabit: the A.V. Club gave the first six episodes a straight A, Entertainment Weekly's premiere review graded it A-. Caitríona Balfe's Claire was the season's defining performance - in command of a character who is the audience's intelligence in a world determined to strip her agency. The season won the Saturn Award for Best Fantasy Television Series in both 2016 and 2017.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Sassenach",
+          "air_date": "2014-08-09",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere establishes both timelines - 1945 Scotland and 1743 Scotland - with clarity and visual confidence. Claire's displacement through the standing stones at Craigh na Dun is handled as unsettling fact rather than fantasy spectacle, which sets the tone for everything that follows.",
+          "the_moment": "Claire's first full view of Castle Leoch - the moment the show commits to its 18th-century world without apology.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "To Ransom a Man's Soul",
+          "air_date": "2015-05-30",
+          "bollymeter": 9.0,
+          "spoiler_free": "The season finale confronts the series' most disturbing narrative directly and without evasion. The episode is demanding viewing, but critics acknowledged that the show's refusal to soften or sidestep the consequences of its central trauma set it apart from comparable prestige drama. Sam Heughan's performance carries the full weight.",
+          "the_moment": "Jamie's account of what happened in the garrison - the scene the show had been building toward across the entire season.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-04-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "A 92 percent Rotten Tomatoes score from 234 critics and a Metacritic of 85 register the Paris-set second series as a creative peer of the debut, with the A.V. Club grading it a perfect A."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 234,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 moved the action to Versailles as Claire and Jamie worked to prevent the Jacobite rising at the French court, then returned to Scotland for Culloden. The change of setting risked the show's Highlands identity but critics largely found the gambit paid off. The A.V. Club's Marah Eakin graded it a perfect A and called it 'downright immersive.' The Metacritic score of 85 from 11 critics marked the series' critical peak. The Culloden sequence in the closing episodes proved the production's ability to handle historical catastrophe at scale, and the time-jump structure of the finale demonstrated the show's willingness to break from the episodic comfort zone.",
+      "season_over_season": "The Paris relocation initially tests the show's identity but the return to Scotland for Culloden delivers the season's most powerful material.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 13,
+      "release_date": {
+        "value": "2017-09-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "A 90 percent Rotten Tomatoes score from 195 critics and Metacritic of 87 reflect a series that critics felt had 'grown and matured since its initial premiere in ways that defied early expectations.'"
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 195,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 handled the twenty-year separation of Claire and Jamie - and Claire's life in the 20th century - with a two-timeline structure that critics found the show's most ambitious storytelling yet. IndieWire's Liz Shannon Miller awarded an A grade and stated the show had 'grown and matured since its initial premiere.' The Metacritic score of 87 was the series' joint-highest. The season's second half, set partly at sea and in the Caribbean, tested audience patience with the globe-trotting pace, but Balfe and Heughan's reunion scenes - among the most anticipated in the show's run - delivered on years of expectation.",
+      "season_over_season": "The time-jump and reunion arc is the season's emotional engine; the Caribbean tangent in the back half loses some momentum but the performances carry it.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-11-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "An 88 percent Rotten Tomatoes score from 170 critics reflects consistent critical approval, though the American colonial setting moved the show furthest from its Scottish roots and some reviewers noted the expanded narrative felt diluted."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 170,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 relocated Claire and Jamie to colonial North Carolina, adapting the fourth Gabaldon novel in the Fraser's Ridge arc. The season received 88 percent on Rotten Tomatoes from a substantial 170-critic sample, maintaining the franchise's strong critical position. The American setting was the most significant departure from the show's Scottish identity to date, and while the frontier drama brought new narrative possibilities it diluted the particular atmosphere the Highlands had provided. The introduction of Sophie Skelton and Richard Rankin's Roger and Brianna as a parallel romantic lead pair expanded the ensemble in directions that would define the later seasons.",
+      "season_over_season": "The colonial setting opens new narrative territory at some cost to the Scottish atmosphere that anchored the earlier seasons.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-02-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An 86 percent Rotten Tomatoes score from 142 critics maintains the franchise's approval floor; the pre-Revolutionary War Fraser's Ridge setting delivers satisfying domestic drama for the established audience."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 142,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 settled into the established Fraser's Ridge world as the American colonies edged toward revolution, with Jamie navigating loyalties to the Crown while protecting his homestead. The 12-episode run - shorter than the earlier seasons - kept the pacing tighter, and critics maintained an 86 percent approval. The domestic drama of the Ridge had become the show's default mode by this point, a comfortable groove for the loyal audience even if the series was operating further from the original Highlands drama that made its reputation. Production was completed just before the COVID-19 pandemic disrupted filming schedules.",
+      "season_over_season": "Comfortable rather than ambitious; the shorter episode count improves pacing, and the cast's deep familiarity with their characters provides consistent pleasure.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-03-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "An 89 percent Rotten Tomatoes score from only 9 reviews reflects limited critical coverage of the shortened COVID-affected season; audience response was positive but the six-episode arc felt abbreviated."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 9,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 was shortened to eight episodes due to COVID-19 production disruptions, and the compression showed. The series maintained its strong critical standing in the limited reviews received, but the condensed arc meant storylines that might have breathed across a full season were compressed to the point of haste. Caitríona Balfe's pregnancy was incorporated into the story rather than worked around, a production decision that received warm audience response. The season ended on significant cliffhangers that pushed viewer investment into the final two-season arc.",
+      "season_over_season": "COVID-shortened but maintains quality within its constraints; the abbreviated season leaves the franchise's final act feeling set up rather than resolved.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-06-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "A 95 percent Rotten Tomatoes score from 18 critics and Metacritic of 75 mark a strong penultimate season, split across two broadcast blocks with the American Revolution at full force."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 18,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 7 returned the episode count to 16 and split its broadcast across two parts through 2023 and into 2025. The American Revolutionary War backdrop provided the most historically engaged backdrop since Culloden, and the critical response reflected a creative revival - 95 percent on Rotten Tomatoes. The split-season structure frustrated viewers accustomed to complete arcs, but the individual episodes maintained high production values. The season drew converging timelines toward what would be the franchise's concluding chapter, and longtime viewers who had followed Claire and Jamie across seven seasons found the cumulative emotional weight considerable.",
+      "season_over_season": "A genuine creative upswing from Season 6; the Revolutionary War context reinvests the historical drama that had been the show's original distinction.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2026,
+      "episodes": 10,
+      "release_date": {
+        "value": "2026-03-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:45:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "A perfect 100 percent Rotten Tomatoes score from 45 critics and Metacritic of 80 give the final season the franchise's best critical reception since the debut; a rare ending that critics found genuinely earned."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 45,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 8 closed the Outlander franchise on May 15, 2026, completing an eight-season, 101-episode journey that began with Claire's first step through the standing stones at Craigh na Dun in 2014. The perfect 100 percent Rotten Tomatoes score from 45 critics was the franchise's best since its debut and among the most emphatic critical verdicts for a series finale in the prestige drama era. A Metacritic of 80 confirmed the consensus. Critics found the ending true to the characters' twelve-year arc without forcing a resolution that the source material's scope made impossible to tidy. Balfe and Heughan's final performances were widely cited as among the best work of their careers.",
+      "season_over_season": "The perfect critical score mirrors the emotional completion the audience needed; the finale redeems the franchise's later-season unevenness with an ending genuinely proportionate to its beginning.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Where the Sky Meets the Land",
+          "air_date": "2026-05-15",
+          "bollymeter": 9.0,
+          "spoiler_free": "The series finale resolves twelve years of narrative and brings Claire and Jamie to their final destination. The show earned its ending by refusing the shortcuts a lesser production would have taken, and the final sequence is constructed with care for every viewer who has been with these characters since 2014.",
+          "the_moment": "The closing image that mirrors the series premiere - a visual callback twelve years in the making.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:45:00+05:30"
+}

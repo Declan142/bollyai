@@ -1,0 +1,116 @@
+{
+  "slug": "1883",
+  "qid": {
+    "value": "Q110124251",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "1883",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "Adventure", "War"],
+  "logline": "In the post-Civil War American West, the Dutton family joins a brutal wagon train from Texas toward Montana - an origin story for the Yellowstone dynasty, narrated by Elsa Dutton as the land claims the cost of the journey.",
+  "poster": {
+    "src": "/img/series/1883/poster.jpg",
+    "alt": "1883 poster",
+    "attribution": "Poster © Paramount+ / MTV Entertainment Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Designed as a limited series; concluded with 10 episodes. Creator Taylor Sheridan confirmed no further seasons of 1883 planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/1883_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-12-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "An 89% Rotten Tomatoes score on 27 reviews reflects strong critical consensus around the series' uncompromising frontier realism, Sam Elliott's commanding presence, and Isabel May's performance as narrator Elsa - with Variety calling it a Yellowstone prequel that 'spared no expense, creative or financial.'"
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 27,
+        "pull_quotes": [
+          {
+            "text": "Taylor Sheridan's new Yellowstone prequel spared no expense, creative or financial, on its journey into the wild west. It worked.",
+            "source": "Esquire",
+            "url": "https://www.rottentomatoes.com/tv/1883/s01/reviews"
+          },
+          {
+            "text": "A beautifully produced ode to grim nation building - the initial episodes are uncompromising and compelling.",
+            "source": "The Age",
+            "url": "https://www.rottentomatoes.com/tv/1883/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/1883/s01"
+      },
+      "review_body": "1883 premiered on Paramount+ in December 2021, the first major prequel in Taylor Sheridan's Yellowstone franchise. The 10-episode series follows the Dutton family - Tim McGraw and Faith Hill as James and Margaret, Isabel May as their teenage daughter Elsa, Sam Elliott as the trail guide Shea Brennan - from Tennessee through Texas toward the Montana territory that becomes the Yellowstone Ranch. Sheridan's script insisted on frontier mortality as a structuring condition rather than dramatic punctuation, and the 89-percent Rotten Tomatoes score reflected critical respect for that commitment. Esquire called it a Yellowstone prequel that 'spared no expense, creative or financial.' The 78-percent audience score and substantial viewership made it the most-watched Paramount+ original at its launch. Isabel May's narration as Elsa gave the brutal westward journey an elegiac register that separated the series from conventional prestige-Western pacing.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "1883",
+          "air_date": "2021-12-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere opens with violence, then rewinds to show how the Dutton family came to the trail. Elsa's voice-over establishes the elegiac register immediately - this is a story being told from the far side of grief.",
+          "the_moment": "Elsa's opening narration over the chaos of an attack, setting the terms: the West is beautiful and it will kill you.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Boring the Devil",
+          "air_date": "2022-01-23",
+          "bollymeter": 8.3,
+          "spoiler_free": "The midseason episode deepens the wagon-train relationships and sets the crossing's cost in human terms that no amount of landscape photography could convey alone. Elliott's Shea carries the weight of a man who has already buried everything he loved.",
+          "the_moment": "Shea's conversation about loss with James Dutton - two men who have survived things they should not have, deciding whether to keep going.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "This Is Not Your Heaven",
+          "air_date": "2022-02-27",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale completes Elsa's arc with a directness that earns the entire season's investment. Sheridan gives the Dutton origin story its founding sacrifice without softening the transaction the frontier extracts.",
+          "the_moment": "The final image of James Dutton looking at the land his family bought with the journey's cost - the founding of a dynasty rooted in irreparable loss.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}

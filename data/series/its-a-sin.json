@@ -1,0 +1,102 @@
+{
+  "slug": "its-a-sin",
+  "qid": {
+    "value": "Q104630896",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "It's a Sin",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Channel 4 / HBO Max",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "LGBTQ", "Historical", "Coming of Age"],
+  "logline": "Five young friends move to London in 1981 and spend a decade building a life together as the AIDS crisis methodically dismantles everything they have made.",
+  "poster": {
+    "src": "/img/series/its-a-sin/poster.jpg",
+    "alt": "It's a Sin poster",
+    "attribution": "Poster © Channel 4 / Red Production Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Five-episode limited series, complete as broadcast. Russell T Davies confirmed no plans for a second series; the story is told.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/It%27s_a_Sin_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": {
+        "value": "2021-01-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "A 97 percent Rotten Tomatoes score from 75 critics and a Metacritic of 91 register near-universal acclaim; Russell T Davies delivers one of British television's most devastating accounts of a generation lost."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 75,
+        "pull_quotes": [
+          {
+            "text": "A joyful tribute to lost lives that delivers a seething verdict on ignorance and cruelty.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/its-a-sin-review-channel-4-olly-alexander/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9140342/"
+      },
+      "review_body": "Russell T Davies wrote It's a Sin as a tribute to people he knew and lost during the AIDS crisis of the 1980s, and that personal weight saturates every scene. The five episodes follow Ritchie, Jill, Ash, Roscoe, and Colin from their arrival in London in 1981 through a decade of friendship, joy, and accumulating loss. Critics awarded it 97 percent on Rotten Tomatoes and a Metacritic of 91, with the consensus calling it 'an incredible feat of small-screen magic' propelled by an exquisite cast. Olly Alexander's performance as Ritchie - charming, self-deceiving, and ultimately devastating - earned comparisons to the finest work in Davies's career. The series won 12 BAFTA nominations including Best Mini-Series, and the GLAAD Media Award for Outstanding Limited Series. Rarely has British television made grief feel this alive.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-01-22",
+          "bollymeter": 8.6,
+          "spoiler_free": "Three young men arrive in London from different corners of Britain, full of appetite for the life they have been denied at home. Davies establishes the warmth and freedom of the found family with such precision that when the series begins its long turn toward loss, the audience has already been fully implicated.",
+          "the_moment": "Ritchie's first nights in London - the pure, uncomplicated joy of arrival before the decade begins to darken.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "air_date": "2021-02-19",
+          "bollymeter": 9.6,
+          "spoiler_free": "The finale completes the decade and delivers the full weight of what the series has been building. Davies refuses easy comfort; the ending is true to the historical record and to the characters he has spent four episodes making the audience love. The performances across the ensemble reach their peaks.",
+          "the_moment": "Jill's final act of loyalty - a scene that collapsed television critics and general audiences equally.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:15:00+05:30"
+}

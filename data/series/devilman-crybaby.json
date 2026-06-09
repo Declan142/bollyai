@@ -1,0 +1,108 @@
+{
+  "slug": "devilman-crybaby",
+  "qid": {
+    "value": "Q47087518",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Devilman Crybaby",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Horror",
+    "Action",
+    "Psychological",
+    "Drama"
+  ],
+  "logline": "A soft-hearted teenager merges with a demon to fight an ancient threat, but as the world fractures into paranoia and violence, director Masaaki Yuasa's adaptation of Go Nagai's manga asks whether humanity is worth saving at all.",
+  "poster": {
+    "src": "/img/series/devilman-crybaby/poster.jpg",
+    "alt": "Devilman Crybaby poster",
+    "attribution": "Poster © Science Saru / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A self-contained 10-episode limited series adapting Go Nagai's Devilman manga, released globally on Netflix on January 5, 2018. No continuation planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Devilman_Crybaby"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-01-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "RT 89% from 9 critics and the 3rd Crunchyroll Anime Awards Anime of the Year title confirm a genuine critical event; Yuasa's Science Saru animation and the unsparing finale are the franchise's definitive artistic statement."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "A viscerally artistic achievement unlike anything else airing this season.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/preview-guide/2018/winter/devilman-crybaby/.126094"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6660498/ratings/"
+      },
+      "review_body": "Devilman Crybaby dropped on Netflix on January 5, 2018 - a global simultaneous release that became one of anime's first major streaming events. Director Masaaki Yuasa (Ping Pong the Animation, Lu Over the Wall) brought Science Saru's fluid, expressionist animation to Go Nagai's 1970s source material, stripping it down to ten tightly coiled episodes. Critics at Rotten Tomatoes approved at 89 percent, with the consensus clustering around Yuasa's visual invention, the visceral confrontation with violence and empathy, and an apocalyptic final act that earned genuine shock reactions. The IMDb audience score of 7.6 reflects viewers divided between those exhilarated by the nihilism and those who found the gratuitousness unearned. The Crunchyroll Anime of the Year win is the cleaner signal: industry recognition for work that rewrote what a Netflix anime could be.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I Need More Power",
+          "air_date": "2018-01-05",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the world and its central friendship with speed and visual flair. Yuasa's camera refuses stillness - every scene is in motion, a formal choice that mirrors the story's premise of bodies in transformation. The opening act's party sequence is already unlike any anime premiere of the decade.",
+          "the_moment": "The transformation sequence: Science Saru's animation stretching the human form past its limits, making the merger between boy and demon feel genuinely terrifying.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Crybaby",
+          "air_date": "2018-01-05",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale that critics and audiences could not stop arguing about. Devilman Crybaby does not flinch from its source material's conclusion - and the decision to honour Nagai's bleakest vision rather than soften it for a streaming audience is what separates the series from safe adaptations. Harrowing and essential.",
+          "the_moment": "The final revelation about Ryo and its implications for everything that preceded it - the shot that turned the entire series into elegy.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:05:00+05:30"
+}

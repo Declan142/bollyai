@@ -1,0 +1,112 @@
+{
+  "slug": "queen-charlotte",
+  "qid": {
+    "value": "Q111360692",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Queen Charlotte: A Bridgerton Story",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Romance", "Historical"],
+  "logline": "A Bridgerton prequel tracing the young Charlotte's arranged marriage to King George III - how a foreign princess and a troubled king built an unlikely love that reshaped Regency high society.",
+  "poster": {
+    "src": "/img/series/queen-charlotte/poster.jpg",
+    "alt": "Queen Charlotte: A Bridgerton Story poster",
+    "attribution": "Poster © Netflix / Shondaland. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Designed as a standalone limited series by creator Shonda Rhimes. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Queen_Charlotte:_A_Bridgerton_Story"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-05-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "A 94% Rotten Tomatoes score on 80 reviews marks one of the strongest critical receptions in the Bridgerton franchise; India Amarteifio and Arsema Thomas drew particular praise for performances that ground the period spectacle in emotional credibility."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 80,
+        "pull_quotes": [
+          {
+            "text": "A richer and more complex than the flagship series, but no less delectable in its romance.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/queen-charlotte-bridgerton-story-review-netflix-1235403995/"
+          },
+          {
+            "text": "A beautiful, self-contained love story that champions relationships both romantic and platonic built on trust.",
+            "source": "Collider",
+            "url": "https://collider.com/queen-charlotte-a-bridgerton-story-review/"
+          },
+          {
+            "text": "The complex and compelling backstory of Queen Charlotte is rich fodder for Bridgerton's prequel.",
+            "source": "TIME",
+            "url": "https://www.rottentomatoes.com/tv/queen_charlotte_a_bridgerton_story/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/queen_charlotte_a_bridgerton_story/s01"
+      },
+      "review_body": "Released May 4, 2023, Queen Charlotte functions as both prequel and standalone limited series - tracing the dual timeline of a young Charlotte navigating her arranged marriage to King George III (Corey Mylchreest) and the older Charlotte (Golda Rosheuvel) responding to her granddaughter's death in the Bridgerton present. Creator Shonda Rhimes centred the series on a love story shaped by King George's mental illness, and the 94-percent Rotten Tomatoes score on 80 reviews reflected a rare critical consensus that the gambit worked. India Amarteifio as young Charlotte and Arsema Thomas as young Lady Danbury drew the most sustained praise, their performances providing the emotional credibility the Bridgerton flagship's romance often lacked. The Hollywood Reporter called it richer and more complex than the parent series. The series won the 75th Primetime Emmy for Outstanding Hairstyling.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Queen Charlotte",
+          "air_date": "2023-05-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes both timelines with confident pacing - young Charlotte's bewildered arrival in England against older Charlotte's calculated court manoeuvrings. Amarteifio commands the screen immediately.",
+          "the_moment": "Charlotte's first meeting with George - a scene that sets the season's central question about whether love can coexist with a king's fracturing mind.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Crown Yourself",
+          "air_date": "2023-05-04",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale closes both timelines with an emotional honesty that most period dramas avoid. The convergence of past and present reframes Charlotte's authority as something built through grief rather than inherited through marriage.",
+          "the_moment": "The final scene uniting old and young Charlotte's arcs - the moment the series earns its prequel status.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:10:00+05:30"
+}

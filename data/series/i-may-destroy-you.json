@@ -1,0 +1,111 @@
+{
+  "slug": "i-may-destroy-you",
+  "qid": {
+    "value": "Q96079649",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T11:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "I May Destroy You",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T11:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T11:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / HBO",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T11:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Psychological", "Coming of Age", "LGBTQ"],
+  "logline": "A young London writer wakes up after a night out with a fractured memory and the growing certainty she was raped - and spends twelve episodes rebuilding herself, and her story, from the wreckage.",
+  "poster": {
+    "src": "/img/series/i-may-destroy-you/poster.jpg",
+    "alt": "I May Destroy You poster",
+    "attribution": "Poster © BBC / HBO / Various Artists Limited. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Twelve-episode limited series, complete as broadcast. Michaela Coel confirmed no plans for a continuation; the work was conceived as a single complete statement.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/I_May_Destroy_You"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-06-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T11:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "A 97 percent Rotten Tomatoes score from 72 critics and a Metacritic of 86 reflect near-universal critical acclaim; Michaela Coel's writing, direction, and performance were cited by multiple critics as among the finest television work of the decade."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 72,
+        "pull_quotes": [
+          {
+            "text": "At once brave and delicate, untangling trauma with dark humour and moments of deep discomfort, held together by Michaela Coel's undeniable talent.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/i_may_destroy_you"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9698480/"
+      },
+      "review_body": "I May Destroy You is one of the most formally inventive British series of the past decade. Michaela Coel wrote all twelve episodes, co-directed, and performed the central role of Arabella, a writer navigating the aftermath of sexual assault while her social world continues at its normal speed around her. The 97 percent Rotten Tomatoes score from 72 critics and Metacritic of 86 registered near-total critical consensus. The New York Times called it 'touching and quietly hilarious'; Time named it among the decade's best work. The series won the BAFTA for Best Mini-Series, Best Actress, Best Director: Drama, Best Writer: Drama, and Best Editing: Fiction - five awards that collectively describe a piece of television with full creative authorship at every level. Coel's Emmy for Outstanding Writing made her the first Black woman to win in the category. The finale's non-linear structure divided some viewers but the critical consensus held it as the only possible ending.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Eyes Eyes Eyes Eyes",
+          "air_date": "2020-06-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes Arabella's world - her friendships, her creative life, her social confidence - and then puts a crack through it. Coel's script moves between timelines without announcement, and the formal instability mirrors the subject matter precisely. The viewer is disoriented in the same way the protagonist is.",
+          "the_moment": "The gap in Arabella's memory - the missing hour that the series will spend twelve episodes mapping.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Social Media Is a Great Way to Connect",
+          "air_date": "2020-07-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode that most critics cited as the series' formal peak. Coel uses the structure of online public shaming to mirror Arabella's internal experience of disclosure, and the tonal shifts between comic and devastating are managed with complete control.",
+          "the_moment": "Arabella's Twitter thread - the moment the private grief becomes public in ways she cannot control.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Ego Death",
+          "air_date": "2020-07-14",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale refuses every convention of the assault narrative - no courtroom catharsis, no stable resolution, no lesson neatly extracted from pain. Coel's three-track ending has been extensively analysed and argued over since broadcast. It is the ending the series earned.",
+          "the_moment": "Arabella's final scene - an image of survival without redemption arc that became the most discussed moment of 2020 television.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T11:15:00+05:30"
+}

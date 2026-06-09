@@ -1,0 +1,108 @@
+{
+  "slug": "barakamon",
+  "qid": {
+    "value": "Q6579725",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Barakamon",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Slice of Life",
+    "Comedy",
+    "Drama",
+    "Coming of Age"
+  ],
+  "logline": "A hotshot calligrapher punches a critic and is exiled to a remote island, where a seven-year-old girl and a cast of unhurried villagers proceed to teach him everything he thought he already knew about art and life.",
+  "poster": {
+    "src": "/img/series/barakamon/poster.jpg",
+    "alt": "Barakamon poster",
+    "attribution": "Poster © Kinema Citrus / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A single 12-episode anime season aired July to September 2014, adapted from Satsuki Yoshino's manga by Kinema Citrus. A prequel spin-off, Handa-kun, aired in 2016. No continuation of the main anime.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Barakamon"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-07-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "IMDb 8.2 and ANN community weighted mean of 7.93 with 86 Masterpiece votes and 241 Excellent votes confirm a critical consensus; Anime News Network's Nick Creamer made it one of summer 2014's most praised series."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Barakamon offers a meaningful exploration of artistic growth and community connection through its thoughtful storytelling.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/barakamon/.77870"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3660104/ratings/"
+      },
+      "review_body": "Barakamon aired July to September 2014 on Fuji TV, produced by Kinema Citrus from Satsuki Yoshino's manga. The premise is deceptively simple: Seishuu Handa, a prize-winning calligrapher whose work a critic called derivative, punches the critic and is sent to cool off on the Goto Islands. What follows is a twelve-episode argument for the proposition that genuine artistic voice cannot be manufactured - it has to be lived. Kinema Citrus rendered the island setting with warmth and specificity, and the young girl Naru became the season's breakout presence: her energy and cheerful invasiveness functioning as a catalyst for Handa's thaw. Anime News Network's Nick Creamer reviewed it as one of the season's finest. IMDb scores settled at 8.2 - high for a slice-of-life title without action or genre hooks.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Shindoi Mono wa Shindoi",
+          "air_date": "2014-07-06",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere establishes Handa's problem - technical excellence masking an inner life that has never had to be honest - within its first five minutes. Naru's arrival in the episode is handled with real comic timing, and the island itself is introduced as a place with its own gravity, pulling Handa toward something he does not yet have words for.",
+          "the_moment": "Naru's first appearance in Handa's new home: an intrusion that sets the entire series' emotional temperature in a single scene.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Sono Saki no Koto",
+          "air_date": "2014-09-28",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale earns the journey. Handa's work by this point reflects something genuinely different from the polished emptiness of his Tokyo output, and the episode makes that visible without lecturing about it. The island and its people have done their work. The ending is quiet and correct - a series that knew exactly how to stop.",
+          "the_moment": "Handa's completed work presented to the island: the visual proof of twelve episodes of internal change, made concrete.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "chief-detective-1958",
+  "qid": {
+    "value": "Q121438415",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Chief Detective 1958",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC / Disney+",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Historical",
+    "Comedy"
+  ],
+  "logline": "Four mismatched detectives in 1950s Seoul crack cases by instinct and audacity, exposing corrupt power in an era before forensics existed.",
+  "poster": {
+    "src": "/img/series/chief-detective-1958/poster.jpg",
+    "alt": "Chief Detective 1958 poster",
+    "attribution": "Poster © MBC / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run concluded May 18, 2024. A prequel to the classic MBC series Chief Inspector (1971-1989), it was conceived as a standalone origin story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Chief_Detective_1958"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-04-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Averaged a strong 9.5% nationwide rating on MBC, peaking at 10.8% - exceptional for a period drama. Critics and audiences praised Lee Je-hoon's charismatic lead and the show's warm, retro procedural energy."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28073624/"
+      },
+      "review_body": "Chief Detective 1958 aired April through May 2024 on MBC, a prequel to the beloved classic Chief Inspector that ran from 1971 to 1989. The ten-episode limited run followed four idiosyncratic detectives in 1950s Seoul solving crimes without modern forensics, relying on tenacity, intuition, and a defiant streak against the corrupt power structures of the era. The series averaged 9.5% nationwide ratings (Nielsen Korea), peaking at 10.8% in episode three - strong numbers for a period procedural on a public broadcaster. Lee Je-hoon's lead performance anchored consistent praise across Korean entertainment press, who noted the show's ability to blend period atmosphere with comedic warmth and genre tension. The retro setting translated into a distinct visual identity that separated it from contemporary crime dramas.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-04-19",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the ragtag detective unit in post-Korean War Seoul, where the city's chaos and corruption provide the backdrop for the first investigation. Lee Je-hoon's Park Yeong-han arrives fully formed - morally driven, procedurally unorthodox, and immediately compelling. The period production design sets a confident visual tone.",
+          "the_moment": "Park Yeong-han confronts a corrupt official bare-handed, establishing the show's refusal to play by the rules of its own era.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2024-05-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale wraps the central arc with the kind of emotionally satisfying resolution that rewards the full ensemble - each detective gets their moment. The episode sustains the series' commitment to period authenticity while delivering the genre catharsis that drove viewership to season-high territory.",
+          "the_moment": "The unit's final case closes in a way that nods to the long legacy of the original Chief Inspector series it precedes.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

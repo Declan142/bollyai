@@ -1,0 +1,127 @@
+{
+  "slug": "your-honor",
+  "qid": {
+    "value": "Q65118624",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Your Honor",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime / Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Crime", "Drama", "Legal"],
+  "logline": "A respected New Orleans judge watches his moral architecture collapse in real time after his teenage son kills the wrong person in a hit-and-run - and the cover-up pulls everyone closer to the city's most dangerous crime family.",
+  "poster": {
+    "src": "/img/series/your-honor/poster.jpg",
+    "alt": "Your Honor poster",
+    "attribution": "Poster © Showtime Networks / CBS Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run on Showtime concluded with Season 2 in March 2023. The series was not renewed for a third season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Your_Honor_(American_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-12-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A 50% Rotten Tomatoes critic score reflects a divided press - Cranston's performance praised as commanding while the show's escalating contrivances drew consistent criticism."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 50,
+        "pull_quotes": [
+          {
+            "text": "A judge who prizes morality above all else until Adam, his son, is endangered.",
+            "source": "Variety",
+            "url": "https://variety.com/2020/tv/reviews/your-honor-review-showtime-bryan-cranston-1234845314/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Your Honor landed on Showtime in December 2020 adapted from the Israeli series Kvodo by Peter Moffat. Bryan Cranston plays Judge Michael Desiato, a New Orleans jurist who dismantles his own integrity to protect his son after a hit-and-run killing draws the wrong family's attention. The 50-percent Rotten Tomatoes score on 50 reviews captures an accurate split: critics acknowledged Cranston's typically authoritative lead performance while consistently noting the show's reliance on increasingly far-fetched plot mechanics to sustain tension. The New Orleans backdrop gave the moral-collapse premise a distinctive atmosphere, and the Kowalski crime family added procedural momentum. A sleeper hit when it reached Netflix audiences in 2024.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Part One",
+          "air_date": "2020-12-06",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere sets up the central moral trap with clinical efficiency - a judge, an accident, the wrong dead boy. Cranston carries the weight of a man calculating whether the law he has served can protect his son.",
+          "the_moment": "The moment Desiato realises whose son was in the other car - the scene where every possible escape route closes simultaneously.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Part Ten",
+          "air_date": "2021-02-14",
+          "bollymeter": 7.0,
+          "spoiler_free": "The season finale escalates the moral stakes to a satisfying if uneven conclusion. Cranston delivers his sharpest work in the closing stretch, even as the plotting requires a final suspension of disbelief.",
+          "the_moment": "The courtroom and the streets converge - the season's final collision of public justice and private guilt.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-01-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "A 67% RT score on only 6 reviews reflects limited critical attention; Collider's B-grade review captured the consensus that grief and corruption were handled authentically despite a slower pace."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Grim, slow, and not as exciting as the first, but paints an authentic image of grief and corruption.",
+            "source": "Collider",
+            "url": "https://collider.com/your-honor-season-2-review/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2 of Your Honor premiered on Showtime in January 2023, shifting the premise: Desiato now works undercover against the Kowalski mob while investigating the murder of his wife. The season drew a 67-percent Rotten Tomatoes score from a thin critical sample of six reviews, suggesting diminished press attention compared to Season 1. Collider's B-grade review reflected the general critical read - tonally consistent, Cranston reliably watchable, but the pacing sacrificed the tight moral-clock urgency that gave Season 1 its best moments. The undercover structure added procedural texture without resolving the show's larger credibility issues. The two-season run concluded without renewal.",
+      "season_over_season": "Pivots from cover-up moral thriller to undercover crime procedural; slower pacing and fewer critical eyes reflected both the show's diminished buzz and a structural gear shift."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:05:00+05:30"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "welcome-to-samdal-ri",
+  "qid": {
+    "value": "Q118611683",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Welcome to Samdal-ri",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "A Seoul fashion photographer whose career collapses returns to her Jeju Island hometown, where the weather forecaster she hurt years ago is the only one waiting.",
+  "poster": {
+    "src": "/img/series/welcome-to-samdal-ri/poster.jpg",
+    "alt": "Welcome to Samdal-ri poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "16-episode limited run concluded January 21, 2024 on JTBC. The series was written as a standalone story set on Jeju Island with no announced continuation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Welcome_to_Samdal-ri"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-12-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "The finale hit 12.4% nationwide on Nielsen Korea - an exceptional number for a JTBC weekend drama. South China Morning Post ranked it among the best K-dramas of 2024, and Ji Chang-wook won Top Excellence at the APAN Star Awards."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27558433/"
+      },
+      "review_body": "Welcome to Samdal-ri aired December 2023 through January 2024 on JTBC, with Netflix distributing in select international territories. The 16-episode romance follows a disgraced Seoul photographer returning to Jeju Island and rekindling a relationship with a meteorologist whose life was derailed by a tragedy connected to her. The series earned consistently strong viewership, with the finale reaching 12.4% nationwide and 13.1% in Seoul (Nielsen Korea). Ji Chang-wook won Top Excellence Actor at the 2024 APAN Star Awards for his performance. The South China Morning Post included it in its best K-dramas of 2024 rankings. The Jeju setting gave the show a distinctive visual warmth, and critics noted the central pairing's chemistry as the engine that carried the slower-burn early episodes. A comfort watch with genuine emotional investment by the final stretch.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-12-02",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere introduces Sam-dal at her professional lowest - Seoul career in ruins, identity fractured - and sets up her reluctant return to the island she left behind. The Jeju cinematography is immediately distinctive. Yong-pil's emotional wound is established clearly without overplaying the backstory.",
+          "the_moment": "Sam-dal arrives on Jeju and sees Yong-pil from a distance - the gap between who they were and who they are now communicated entirely in posture.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2024-01-21",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale resolves both the romantic arc and the professional reckoning with a naturalistic sense of earned resolution. The pacing rewards the slow build of the full 16 episodes, and the Jeju setting becomes symbolically loaded in a way the early episodes seeded carefully. The 12.4% final rating confirmed audience investment held to the end.",
+          "the_moment": "The reconciliation scene on the coast - quiet, unhurried, and exactly what the series had been building toward.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:05:00+05:30"
+}

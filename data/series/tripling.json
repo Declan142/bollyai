@@ -1,0 +1,130 @@
+{
+  "slug": "tripling",
+  "qid": {
+    "value": "Q28001476",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "TVF Tripling",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TVF Play / SonyLIV / ZEE5",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Slice of Life", "Family", "Adventure"],
+  "logline": "Three estranged Hindi-speaking siblings embark on an unplanned road trip across India, stumbling into the frictions and warmth of a family they had almost forgotten how to be.",
+  "poster": {
+    "src": "/img/series/tripling/poster.jpg",
+    "alt": "TVF Tripling poster",
+    "attribution": "Poster © TVF (The Viral Fever). Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded with Season 3 in October 2022. No further seasons announced by TVF.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/TVF_Tripling"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 5,
+      "release_date": {
+        "value": "2016-08-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 1 earned the Asian Television Award for Best Scriptwriting and sustained strong audience word-of-mouth for its naturalistic ensemble chemistry and road-trip warmth."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "TVF Tripling's first season arrived in August 2016 on TVF Play - a low-budget, high-charm road-trip comedy that found an audience through sheer sincerity. Sumeet Vyas, Maanvi Gagroo, and Amol Parashar play the three Sharma siblings with a naturalism rare in Indian web originals of that era. Critics and audiences responded to the writing by Akarsh Khurana and Sumeet Vyas, which won the Asian Television Award for Best Scriptwriting. The season established the show's signature tone: warm without being saccharine, funny without straining for it, and genuinely invested in the emotional friction of adult siblings rediscovering each other across five tightly constructed episodes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Chalo Chalein",
+          "air_date": "2016-08-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "The opener efficiently establishes all three sibling personalities through a single awkward reunion. The road-trip premise clicks into gear without preamble, and the casting chemistry is immediately apparent.",
+          "the_moment": "The moment the three agree to get in the car together - reluctant, bickering, and entirely convincing.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 5,
+      "release_date": {
+        "value": "2019-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Mixed critical response on return after a three-year gap; the core ensemble chemistry held, though the missing-family-member premise stretched credibility for some reviewers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived on SonyLIV in April 2019, three years after the original. The new platform shift brought a modest production upgrade but also a somewhat more plot-heavy structure: the siblings must locate a missing family member. Critical response was mixed, with reviewers noting that the show's strength had always been in its quiet, character-driven moments rather than narrative stakes. The ensemble - Vyas, Gagroo, Parashar - retained their easy chemistry, and the writing delivered enough sharp observations about adult Indian family dynamics to satisfy fans of the original.",
+      "season_over_season": "Platform shift to SonyLIV and a more plot-driven premise marks the step from pure character comedy; the ensemble held, the stakes felt less organic."
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 5,
+      "release_date": {
+        "value": "2022-10-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 3 received positive reviews for its writing and performances; the parental-separation plotline gave the ensemble richer emotional material than Season 2's search structure."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3, released on ZEE5 in October 2022, finds the Sharma siblings confronting a more emotionally charged crisis - their parents' imminent separation and the sale of the family home. Reviewers noted this as the show's most mature season, with Sameer Saxena's direction drawing standout work from all three leads. The writing, credited again to the Season 1 team, earned comparisons to the original's warmth. Moving across a third streaming platform in as many seasons did nothing to dampen the series' core appeal; the finale provided a satisfying close to a franchise that quietly became a touchstone of Indian web comedy.",
+      "season_over_season": "The shift to ZEE5 and a domestic-crisis plotline rather than a road trip gives the finale season its most grounded emotional stakes; reviewers called it a return to Season 1 form."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "live-up-to-your-name",
+  "qid": {
+    "value": "Q30949689",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Live Up to Your Name",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Medical",
+    "Romance",
+    "Historical"
+  ],
+  "logline": "A Joseon-era acupuncturist shot by arrows wakes up in modern Seoul and must navigate 21st-century medicine alongside a cardiothoracic surgeon who has no patience for his ancient ways.",
+  "poster": {
+    "src": "/img/series/live-up-to-your-name/poster.jpg",
+    "alt": "Live Up to Your Name poster",
+    "attribution": "Poster © tvN / Bon Factory Worldwide. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season, 16-episode complete story that concluded October 1, 2017. The final episode recorded 6.907% on Nielsen Korea paid platform, one of the highest-rated cable drama finales in Korean television history at that time.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Live_Up_to_Your_Name"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-08-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "The finale recorded 6.907% on Nielsen Korea paid platform - among the highest-rated cable finales of its era. Kim Nam-gil and Kim Ah-joong's chemistry drove consistent audience growth across the 16-episode run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7094874/"
+      },
+      "review_body": "Live Up to Your Name aired August through October 2017 on tvN, with Netflix carrying it internationally. The 16-episode series takes a Joseon-era acupuncturist named Heo Im - a historical figure referenced in Korean medical texts - and drops him into 21st-century Seoul after a time-travel accident. There he encounters Choi Yeon-kyung, a cardiothoracic surgeon whose Western medicine training makes her the perfect foil for his traditional methods. The show worked the culture-clash premise with genuine playfulness while maintaining medical drama credibility. The finale hit 6.907% on Nielsen Korea's paid platform, a notable figure for tvN at the time and one that reflected the show's strong word-of-mouth trajectory across its run. Kim Nam-gil's physical transformation for the role - the period posture, the Joseon speech patterns translated into contemporary settings - was regularly cited in Korean entertainment coverage as a standout performance of the year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-08-12",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes Heo Im in the Joseon period with enough period-drama credibility to sell the time-travel jump. His arrival in modern Seoul is handled with visual wit - the contemporary cityscape read through the eyes of someone for whom none of it has a reference point. The tone is established quickly: warm, comedic, with a genuine respect for both medical traditions.",
+          "the_moment": "Heo Im's first encounter with modern surgical equipment - genuine bewilderment played against Choi Yeon-kyung's impatient expertise.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2017-10-01",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale navigates the time-travel premise's built-in emotional problem - what it means for two people from different centuries to end up together - with more earnestness than formula. The 6.907% closing rating was the series' peak, confirming the audience had followed the full arc to its conclusion.",
+          "the_moment": "The resolution of Heo Im's temporal displacement and what it costs him to remain in Yeon-kyung's world.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}
