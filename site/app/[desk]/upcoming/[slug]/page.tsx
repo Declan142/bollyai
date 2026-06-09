@@ -4,6 +4,7 @@ import { FilmHero } from "../../../../components/FilmHero";
 import { JsonLd } from "../../../../components/JsonLd";
 import { formatDate, getAllFilms, getFilm } from "../../../../lib/data";
 import { breadcrumbJsonLd } from "../../../../lib/jsonld";
+import { pageSeo } from "../../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -24,7 +25,7 @@ export function generateMetadata({ params }: { params: { desk: string; slug: str
     : "OTT date not confirmed yet.";
   const raw = `${filmTitle} release date, pre-release buildup, and ${ottPart} ${film.logline}`;
   const description = raw.slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/${params.desk}/upcoming/${params.slug}/`, image: film.poster.src, type: "article" }) };
 }
 
 export default function UpcomingPage({ params }: { params: { desk: string; slug: string } }) {

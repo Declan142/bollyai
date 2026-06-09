@@ -20,7 +20,12 @@ export const metadata: Metadata = {
   description: "BollyAI is a pan-India entertainment answer engine for verdicts, live box-office trackers, and OTT release answers.",
   openGraph: {
     siteName: "BollyAI",
-    type: "website"
+    type: "website",
+    images: [{ url: "/og-default.png", width: 1200, height: 630, alt: "BollyAI — Har Friday ka faisla" }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-default.png"]
   }
 };
 

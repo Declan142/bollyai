@@ -5,6 +5,7 @@ import { DeskTint } from "../../components/DeskTint";
 import { FilmCard } from "../../components/FilmCard";
 import { DESK_SLUGS, getDesk } from "../../lib/desks";
 import { getFilmsByDesk, getLatestModified } from "../../lib/data";
+import { pageSeo } from "../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -17,7 +18,7 @@ export function generateMetadata({ params }: { params: { desk: string } }) {
   if (!desk) return {};
   const title = `${desk.label} Movie Reviews, Box Office & Verdicts`;
   const description = desk.answer.slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/${params.desk}/` }) };
 }
 
 export default function DeskHub({ params }: { params: { desk: string } }) {

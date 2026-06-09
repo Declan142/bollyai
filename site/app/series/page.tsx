@@ -1,11 +1,13 @@
 import { BrowseClient, type BrowseItem } from "../../components/BrowseClient";
 import { DateModified } from "../../components/DateModified";
 import { getSeriesByRecency, peakSeason, seriesRecency, isFreshSeries } from "../../lib/series";
+import { pageSeo } from "../../lib/seo";
 
 export const metadata = {
   title: "Browse Series & OTT Shows by Genre, Platform & Year",
   description:
-    "Filter and sort BollyAI verdicts on Korean drama, anime, Indian OTT and global streaming by genre, platform, country and year. Newest drops surface first."
+    "Filter and sort BollyAI verdicts on Korean drama, anime, Indian OTT and global streaming by genre, platform, country and year. Newest drops surface first.",
+  ...pageSeo({ path: "/series/" })
 };
 
 export default function SeriesIndex() {

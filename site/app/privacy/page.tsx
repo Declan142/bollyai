@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "BollyAI is a static site. No accounts, no uploads, no sensitive data collection. Analytics tools, when enabled, will be disclosed here."
+  description: "BollyAI is a static site. No accounts, no uploads, no sensitive data collection. Analytics tools, when enabled, will be disclosed here.",
+  ...pageSeo({ path: "/privacy/" })
 };
 
 export default function PrivacyPage() {

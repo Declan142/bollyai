@@ -16,6 +16,7 @@
   --accent-ink: oklch(8% .025 280);
   --shadow-poster: 0 24px 80px -12px oklch(0% 0 0 / .72);
   --scrim: linear-gradient(180deg, oklch(8% .025 280 / 0) 0%, oklch(8% .025 280 / .62) 54%, oklch(8% .025 280 / .96) 100%);
+  --header-h: 60px;
 }
 
 .theme-marquee {
@@ -129,19 +130,27 @@ p {
   line-height: 1.65;
 }
 
-.site-header,
 .site-footer {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
 }
 
+/* site-header: full-width sticky bar; content centred via padding-inline */
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 22px 0;
+  padding: 16px max(16px, calc(50% - 590px));
   border-bottom: 1px solid var(--border-hair);
+  background: oklch(11% .03 280 / .94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .brand-lockup {
@@ -503,7 +512,7 @@ p {
 
 .day-wise-table th {
   position: sticky;
-  top: 0;
+  top: var(--header-h);
   background: var(--surface);
   color: var(--accent);
   font-family: var(--font-number);
@@ -552,16 +561,6 @@ p {
   line-height: 1.72;
 }
 
-.ad-slot {
-  display: grid;
-  min-height: 280px;
-  place-items: center;
-  border: 1px dashed var(--border-hair);
-  color: var(--text-faint);
-  font-family: var(--font-number);
-  font-size: .76rem;
-  text-transform: uppercase;
-}
 
 .calendar-list {
   display: grid;
@@ -590,20 +589,211 @@ p {
   font-size: .86rem;
 }
 
+/* ============================================================
+   CSS-ONLY HAMBURGER DRAWER (checkbox-hack)
+   Breakpoint: ≤720px → drawer; ≥721px → inline nav (unchanged)
+   ============================================================ */
+
+/* hide the raw checkbox everywhere */
+.nav-toggle-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* hamburger button — hidden on desktop, shown on mobile */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: transparent;
+  flex-shrink: 0;
+  /* keyboard-focus ring */
+  border-radius: 4px;
+}
+
+.nav-hamburger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.nav-hamburger__bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--text);
+  transition: transform .22s ease, opacity .18s ease;
+}
+
+/* overlay — invisible tap-target that closes the drawer */
+.nav-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 198;
+  background: oklch(0% 0 0 / .55);
+  cursor: pointer;
+}
+
+/* nav drawer — off-screen by default on mobile */
+.nav-drawer {
+  /* on desktop this is just a normal flex child — transparent passthrough */
+  display: contents;
+}
+
+/* site-search: one instance for desktop, one inside drawer for mobile */
+.site-search--drawer {
+  display: none;
+}
+
+/* ---- DESKTOP (≥721px): inline nav, no hamburger, no drawer ---- */
+@media (min-width: 721px) {
+  .nav-hamburger { display: none !important; }
+  .nav-overlay   { display: none !important; }
+  .nav-toggle-input { display: none !important; }
+
+  /* drawer is transparent on desktop — children flow inline */
+  .nav-drawer {
+    display: contents;
+  }
+
+  .site-search--drawer { display: none !important; }
+  .site-search--desktop { display: flex; }
+
+  /* desktop nav — unchanged inline layout */
+  .site-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px 18px;
+  }
+}
+
+/* ---- MOBILE (≤720px): hamburger + off-canvas drawer ---- */
+@media (max-width: 720px) {
+  /* header: brand + hamburger only in the top bar */
+  .site-header {
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+
+  /* show hamburger */
+  .nav-hamburger {
+    display: flex;
+    margin-left: auto;
+    order: 10;
+  }
+
+  /* drawer: off-canvas panel */
+  .nav-drawer {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 199;
+    width: min(300px, 82vw);
+    height: 100dvh;
+    padding: 24px 20px 32px;
+    overflow-y: auto;
+    background: var(--surface);
+    border-left: 1px solid var(--border);
+    box-shadow: -8px 0 40px oklch(0% 0 0 / .55);
+    transform: translateX(100%);
+    transition: transform .28s cubic-bezier(.4,0,.2,1);
+  }
+
+  /* open state — checkbox checked */
+  .nav-toggle-input:checked ~ .nav-overlay {
+    display: block;
+  }
+
+  .nav-toggle-input:checked ~ .nav-drawer {
+    transform: translateX(0);
+  }
+
+  /* animate hamburger → X when open */
+  .nav-toggle-input:checked ~ .nav-hamburger .nav-hamburger__bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .nav-toggle-input:checked ~ .nav-hamburger .nav-hamburger__bar:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-toggle-input:checked ~ .nav-hamburger .nav-hamburger__bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* nav links inside drawer — vertical stack */
+  .nav-drawer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 24px;
+  }
+
+  .nav-drawer nav a {
+    display: block;
+    padding: 13px 4px;
+    border-bottom: 1px solid var(--border-hair);
+    color: var(--text-dim);
+    font-size: .95rem;
+    text-decoration: none;
+  }
+
+  .nav-drawer nav a:first-child {
+    border-top: 1px solid var(--border-hair);
+  }
+
+  .nav-drawer nav a:hover,
+  .nav-drawer nav a:focus-visible {
+    color: var(--accent);
+  }
+
+  /* search form inside drawer */
+  .site-search--drawer {
+    display: flex;
+    width: 100%;
+  }
+
+  .site-search--drawer input {
+    width: 100%;
+    max-width: 100%;
+    flex: 1;
+  }
+
+  /* hide desktop search on mobile */
+  .site-search--desktop {
+    display: none !important;
+  }
+
+  /* accent bar at top of drawer */
+  .nav-drawer::before {
+    display: block;
+    width: 36px;
+    height: 3px;
+    margin-bottom: 22px;
+    background: var(--accent);
+    content: "";
+  }
+}
+
+/* ============================================================
+   LEGACY MOBILE BLOCKS (900px / 520px — non-nav rules kept)
+   ============================================================ */
 @media (max-width: 900px) {
-  .site-header,
   .home-lead,
   .hub-layout,
   .film-hero {
     grid-template-columns: 1fr;
-  }
-
-  .site-header {
-    align-items: start;
-  }
-
-  .site-header nav {
-    justify-content: start;
   }
 
   .desk-strip {
@@ -634,7 +824,6 @@ p {
 
   .page-shell,
   .film-page,
-  .site-header,
   .site-footer {
     width: min(100% - 22px, 1180px);
   }
@@ -1343,7 +1532,7 @@ p {
 /* ---- Series browse: filter / sort / search (the viral wall) ---- */
 .browse { margin-top: 10px; display: grid; gap: 18px; }
 .browse__bar {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: var(--header-h); z-index: 20;
   display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
   padding: 14px 0; background: linear-gradient(180deg, var(--bg-deep) 72%, transparent);
   backdrop-filter: blur(6px);

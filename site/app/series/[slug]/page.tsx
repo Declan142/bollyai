@@ -8,6 +8,7 @@ import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
 import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
+import { pageSeo } from "../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -28,7 +29,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
     ? `Is ${t} worth watching? BollyAI verdict: ${peak.verdict}${score}. `
     : `${t} on ${series.platform.value}. `;
   const description = (lead + series.logline).slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/series/${params.slug}/`, image: series.poster.src, type: "article" }) };
 }
 
 export default function SeriesHub({ params }: { params: { slug: string } }) {
@@ -72,7 +73,6 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
       </section>
 
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
         <section className="panel">
           <h2>Seasons</h2>
           <ol className="season-list">

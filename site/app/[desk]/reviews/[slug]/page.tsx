@@ -5,6 +5,7 @@ import { FilmHero } from "../../../../components/FilmHero";
 import { JsonLd } from "../../../../components/JsonLd";
 import { getAllFilms, getFilm } from "../../../../lib/data";
 import { breadcrumbJsonLd, reviewJsonLd } from "../../../../lib/jsonld";
+import { pageSeo } from "../../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -35,7 +36,7 @@ export function generateMetadata({ params }: { params: { desk: string; slug: str
     : "Verdict tracking, run not closed yet.";
   const raw = `Is ${filmTitle} worth watching? ${verdictPart} ${film.logline}`;
   const description = raw.slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/${params.desk}/reviews/${params.slug}/`, image: film.poster.src, type: "article" }) };
 }
 
 export default function ReviewPage({ params }: { params: { desk: string; slug: string } }) {
@@ -69,7 +70,6 @@ export default function ReviewPage({ params }: { params: { desk: string; slug: s
         }
       />
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
         <section className="panel">
           <h2>What BollyAI Thinks</h2>
           <p>

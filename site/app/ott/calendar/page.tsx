@@ -3,11 +3,13 @@ import { DateModified } from "../../../components/DateModified";
 import { JsonLd } from "../../../components/JsonLd";
 import { DESKS } from "../../../lib/desks";
 import { formatDate, getOttCalendar } from "../../../lib/data";
+import { pageSeo } from "../../../lib/seo";
 
 export const metadata = {
   title: "OTT Release Calendar India — Upcoming Movies & Series",
   description:
-    "Verified OTT release dates for Indian movies and series across Netflix, JioHotstar, SonyLIV, ZEE5, Prime Video and more."
+    "Verified OTT release dates for Indian movies and series across Netflix, JioHotstar, SonyLIV, ZEE5, Prime Video and more.",
+  ...pageSeo({ path: "/ott/calendar/" })
 };
 
 export default function OttCalendarPage() {
@@ -58,7 +60,6 @@ export default function OttCalendarPage() {
           );
         })}
       </section>
-      <div className="ad-slot">Reserved ad slot</div>
     </main>
   );
 }

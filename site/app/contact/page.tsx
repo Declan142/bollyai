@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Contact BollyAI",
-  description: "Reach BollyAI for corrections, takedown requests, source disputes, and editorial feedback at contact@bollyai.in."
+  description: "Reach BollyAI for corrections, takedown requests, source disputes, and editorial feedback at contact@bollyai.in.",
+  ...pageSeo({ path: "/contact/" })
 };
 
 export default function ContactPage() {

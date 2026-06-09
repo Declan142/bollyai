@@ -6,6 +6,7 @@ import { JsonLd } from "../../../../components/JsonLd";
 import { TrajectoryChart } from "../../../../components/TrajectoryChart";
 import { formatCrore, getAllFilms, getFilm } from "../../../../lib/data";
 import { breadcrumbJsonLd, trackerFaqJsonLd } from "../../../../lib/jsonld";
+import { pageSeo } from "../../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -29,7 +30,7 @@ export function generateMetadata({ params }: { params: { desk: string; slug: str
     : "India nett collection tracking — estimates awaited.";
   const raw = `${filmTitle} day-wise box office. ${totalStr} ${film.logline}`;
   const description = raw.slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/${params.desk}/box-office/${params.slug}/`, image: film.poster.src, type: "article" }) };
 }
 
 export default function BoxOfficePage({ params }: { params: { desk: string; slug: string } }) {
@@ -57,7 +58,6 @@ export default function BoxOfficePage({ params }: { params: { desk: string; slug
         showMeter={false}
       />
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
         <section className="panel">
           <h2>Day-wise India Nett</h2>
           <DayWiseTable rows={film.box_office.day_rows} />

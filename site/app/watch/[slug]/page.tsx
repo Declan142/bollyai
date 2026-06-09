@@ -4,6 +4,7 @@ import { DeskTint } from "../../../components/DeskTint";
 import { JsonLd } from "../../../components/JsonLd";
 import { breadcrumbJsonLd, watchListJsonLd, watchListFaqJsonLd } from "../../../lib/jsonld";
 import { getAllWatchLists, getWatchList, pickHref } from "../../../lib/recommendations";
+import { pageSeo } from "../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -14,7 +15,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const list = getWatchList(params.slug);
   if (!list) return {};
-  return { title: list.title, description: list.intro };
+  return { title: list.title, description: list.intro, ...pageSeo({ path: `/watch/${params.slug}/`, type: "article" }) };
 }
 
 export default function WatchListPage({ params }: { params: { slug: string } }) {
@@ -42,8 +43,6 @@ export default function WatchListPage({ params }: { params: { slug: string } }) 
       </section>
 
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
-
         <ol className="pick-list">
           {list.picks.map((pick, i) => {
             const href = pickHref(pick);

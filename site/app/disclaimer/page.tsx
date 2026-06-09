@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { StaticPage } from "../../components/StaticPage";
+import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Disclaimer",
-  description: "BollyAI publishes entertainment analysis and trade-estimate framing, not official financial certification. Numbers carry source rows and confidence labels."
+  description: "BollyAI publishes entertainment analysis and trade-estimate framing, not official financial certification. Numbers carry source rows and confidence labels.",
+  ...pageSeo({ path: "/disclaimer/" })
 };
 
 export default function DisclaimerPage() {
