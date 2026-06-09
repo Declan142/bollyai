@@ -1,0 +1,117 @@
+{
+  "slug": "dark-desire",
+  "qid": null,
+  "title": {
+    "value": "Dark Desire",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Mexico",
+  "original_language": {
+    "value": "es",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Drama", "Mystery", "Crime"],
+  "logline": "A married law professor's weekend affair with a younger man triggers a cascade of violence, secrets, and a murder investigation that will not stop until it reaches her.",
+  "poster": {
+    "src": "/img/series/dark-desire/poster.jpg",
+    "alt": "Dark Desire poster",
+    "attribution": "Poster © Netflix Mexico / Argos Comunicacion. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 2 released February 2, 2022 concluded the series. Netflix confirmed no renewal; the two-season arc resolved Alma's story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dark_Desire_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 18,
+      "release_date": {
+        "value": "2020-07-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "Season 1 holds 60% on Rotten Tomatoes from 5 critics with an 87% audience score - a sharp critic-audience split. Ready Steady Cut flagged the 18-episode length as the season's most striking problem. Netflix reported 35 million viewers in 28 days at launch."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "The most striking thing about Dark Desire is not its saucy content - it's the length.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2020/07/15/dark-desire-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12540080/ratings/"
+      },
+      "review_body": "Season 1 arrived July 15, 2020 and immediately became a massive global audience event - Netflix reported 35 million viewers in its first 28 days and 213 million hours watched, making it the most-watched non-English title on the platform at that point. Critical reception told a different story: 60 percent on Rotten Tomatoes from 5 reviews, with critics split between those who found the erotic thriller pleasures functional and those who found the 18-episode run punishingly long for the story it was telling. Ready Steady Cut identified the length as the defining problem - the premise was enough for a 10-episode season, not 18. Maite Perroni's lead performance as Alma held the unwieldy runtime together; her GQ Mexico award for Mexican Actress of the Year reflected the role's cultural footprint.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-07-15",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere establishes Alma's constrained domestic life and the weekend encounter with Dario efficiently. The erotic thriller mechanics are deployed without apology, and Maite Perroni's performance suggests more psychological depth than the genre typically requires. The hook functions as intended.",
+          "the_moment": "Alma and Dario's first meeting at the hotel - the show announces its genre contract clearly and Perroni conveys exactly how much Alma knows she is making a mistake.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 15,
+      "release_date": {
+        "value": "2022-02-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.0,
+        "basis": "Season 2 received no formal Rotten Tomatoes critic score, reflecting minimal critical attention. The second season retained the erotic thriller framework but critics who covered Season 1 largely moved on; the audience that drove Season 1's record numbers was the intended continuation audience."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12540080/ratings/"
+      },
+      "review_body": "Season 2, released February 2022, concluded the series across 15 episodes - a trim by three from Season 1's 18, though still longer than the story warranted. Critical coverage had effectively evaporated: no formal Rotten Tomatoes score registered, confirming that the show's audience and its critical observers had never been the same people. The second season extended Alma's arc into the consequences of what Season 1's violence had set in motion, with the murder investigation deepening and the cast of suspects widening. For viewers who found Season 1's pleasures sufficient, Season 2 delivered more of the same. The series concluded without resolution ambition beyond closing the case - a modest target it achieved.",
+      "season_over_season": "Trimmed by three episodes and leaner for it, but the critical vacuum around Season 2 signals the show had exhausted its outside-audience moment."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

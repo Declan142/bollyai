@@ -1,0 +1,106 @@
+{
+  "slug": "giri-haji",
+  "qid": {
+    "value": "Q60775920",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Giri/Haji",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Drama", "Mystery"],
+  "logline": "A Tokyo detective arrives in London hunting his fugitive brother - accused of killing a Yakuza boss's nephew - and finds himself entangled with a disgraced British detective and the city's underworld in a crime thriller that blends two nations' moral codes.",
+  "poster": {
+    "src": "/img/series/giri-haji/poster.jpg",
+    "alt": "Giri/Haji poster",
+    "attribution": "Poster © BBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by BBC Two in September 2020 after one season, despite 100 percent critical approval on Rotten Tomatoes. No continuation has been developed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Giri/Haji"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-10-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "A perfect 100 percent Rotten Tomatoes score from 24 critics with consensus 'Smart, suspenseful, and superbly shot - a near-perfect crime thriller with a surprisingly sharp sense of humor' and 88 percent audience approval."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 24,
+        "pull_quotes": [
+          {
+            "text": "Smart, suspenseful, and superbly shot, Giri/Haji is a near-perfect crime thriller with a surprisingly sharp sense of humor.",
+            "source": "Rotten Tomatoes Critic Consensus",
+            "url": "https://www.rottentomatoes.com/tv/giri_haji/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/giri_haji/s01"
+      },
+      "review_body": "Giri/Haji premiered on BBC Two in October 2019 to immediate critical acclaim, earning the first perfect Rotten Tomatoes score for a British crime drama in years - 100 percent from 24 critics. Creator Joe Barton and director Julian Farino constructed something genuinely original: a crime thriller that swaps between Tokyo and London genre registers with formal confidence, using split-screen sequences, animated interludes, and bilingual storytelling to illuminate the cultural gap between its two settings. Takehiro Hira and Kelly Macdonald gave career performances. Radio Times awarded five stars; The Daily Telegraph described it as 'impressionistic, playful and unashamedly arty.' The Metacritic score of 76 from just 4 critics understates the critical enthusiasm. Its cancellation after one season remains one of the decade's more bewildering television decisions.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-10-17",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere juxtaposes Tokyo police procedure and London underworld with formal flair that signals immediately this is not a standard crime import. Kenzo Mori's arrival in London is staged as a slow collision of cultural expectations - his rigid duty ethic versus the chaos he finds. The Daily Telegraph called the opening episode 'impressionistic, playful and unashamedly arty.'",
+          "the_moment": "The switch between Tokyo's ordered institutional world and London's messy, multicultural crime scene - the formal gap that defines the show's entire sensibility.",
+          "critic_note": {
+            "text": "Impressionistic, playful and unashamedly arty - a breath of fresh air for the crime drama genre.",
+            "source": "Radio Times",
+            "url": "https://www.rottentomatoes.com/tv/giri_haji/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2019-12-05",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the central mystery in a way that honours the show's complexity - loyalties tested, duty and shame weighed against each other, and a conclusion that leaves the cultural question open rather than tidying it into a Western narrative resolution.",
+          "the_moment": "The final confrontation between the two brothers - a moment the show earns through eight episodes of careful setup.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

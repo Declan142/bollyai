@@ -1,0 +1,116 @@
+{
+  "slug": "love-alarm",
+  "qid": {
+    "value": "Q55621340",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Love Alarm",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Teen",
+    "Sci-Fi",
+    "Drama"
+  ],
+  "logline": "In a world transformed by an app that rings when someone within ten metres has romantic feelings for you, a high school girl at the centre of a love triangle must decide what the alarm's silence or ring actually means about herself.",
+  "poster": {
+    "src": "/img/series/love-alarm/poster.jpg",
+    "alt": "Love Alarm poster",
+    "attribution": "Poster © Netflix / Studio N. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded March 12, 2021. Netflix confirmed no further seasons. Adapted from Chon Kye-young's webtoon; noted as one of the first Korean dramas confirmed for Netflix global distribution.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Love_Alarm"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-08-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Rotten Tomatoes Season 1 score of 65% from 4 critics reflects mixed reception; the social-commentary dimension around app-mediated feeling earned genuine praise while the flat lead performances drew criticism. The show ranked 6th among most-watched K-dramas globally on Netflix in 2021, confirming real audience reach."
+      },
+      "critic": {
+        "positive_pct": 65,
+        "sample": 4,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9145880/ratings/"
+      },
+      "review_body": "Love Alarm landed on Netflix in August 2019 as one of the first Korean dramas the platform confirmed for global streaming. Season 1 generated immediate attention for its premise - an app that rings when someone nearby has romantic feelings for you - and critics noted that the show's best material is its social commentary on digital validation, surveillance of emotion, and the coercive pull of quantified feeling. Rotten Tomatoes certified 65% on four reviews. The central love triangle between Kim Jo-jo, the earnest Hye-yeong, and the more magnetic Sun-oh drove consistent viewer engagement; Song Kang's performance as Sun-oh was a particular audience draw. The 8-episode first season functions as a strong premise delivery, though some critics found the lead performances uneven. Netflix Top-10 data from 2021 confirmed the show ranked 6th among most-watched Korean dramas globally on the platform that year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Your Heart Is Safe Now",
+          "air_date": "2019-08-22",
+          "bollymeter": 7.6,
+          "spoiler_free": "The premiere establishes the app's social logic efficiently and places Jo-jo immediately at the intersection of two very different boys. The world-building is brisk - the show is less interested in explaining the technology than in exploring what it does to people's behaviour - and the romantic tension is established without melodramatic scaffolding.",
+          "the_moment": "Jo-jo's first encounter with the app ringing in an unexpected direction - the premise's central tension is activated within the first episode.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-03-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "The Review Geek scored it 5/10; critical consensus on Season 2 flagged a compressed arc and a resolution that many viewers found abrupt after the Season 1 premise setup. The shorter six-episode count underserved the emotional payoff."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in March 2021 with six episodes, a notably shorter run than Season 1. Critical response cooled: The Review Geek rated it 5 out of 10, describing the season as a lukewarm offering that struggles to find fresh territory for its romantic premise. The season advances the story two years and introduces a shield feature that blocks the app's signal - a narrative device reviewers noted was more dramatically interesting as a concept than as executed. Audience reception divided between viewers who found the ending earned and those who felt the time skip undercut the characters' emotional arcs. The season functions as closure for those committed to the love triangle, but does not match Season 1's tonal confidence.",
+      "season_over_season": "Season 2 trades the premise-driven energy of Season 1 for a truncated resolution arc; the emotional stakes are present but the shorter episode count leaves less room to earn them."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

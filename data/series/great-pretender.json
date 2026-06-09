@@ -1,0 +1,116 @@
+{
+  "slug": "great-pretender",
+  "qid": {
+    "value": "Q83712396",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Great Pretender",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Crime",
+    "Comedy",
+    "Thriller"
+  ],
+  "logline": "A small-time Japanese con artist gets outplayed by a superior French swindler and is recruited into an international ring that targets corrupt tycoons and crime bosses across Los Angeles, Singapore, London, and Tokyo.",
+  "poster": {
+    "src": "/img/series/great-pretender/poster.jpg",
+    "alt": "Great Pretender poster",
+    "attribution": "Poster © Wit Studio / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 23-episode series concluded in September 2020. A four-episode sequel ONA, Great Pretender: Razbliuto, was released in February-March 2024, completing the story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Great_Pretender_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 23,
+      "release_date": {
+        "value": "2020-06-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "A 100 percent Rotten Tomatoes score from 7 critics and a 92 percent audience score reflect genuine enthusiasm for the heist structure and globe-trotting style; IMDb lands at 7.8, capturing a modest audience-critic gap. Anime News Network graded it A-, calling it fun, bingeable con artist hijinks."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Fun, bingeable con artist hijinks that will keep you guessing, in a setting that feels almost real.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/great-pretender/streaming-eps-1-14/.164744"
+          },
+          {
+            "text": "Great Pretender understands that knowing when to make an exit is just as important as nailing the first impression.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/great-pretender/streaming-eps-1-14/.164744"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11680468/"
+      },
+      "review_body": "Great Pretender dropped on Netflix globally in August 2020, the original run of 23 episodes structured in four self-contained con arcs spanning Los Angeles, Singapore, London, and Tokyo. Critics gave it a 100 percent Rotten Tomatoes score on 7 reviews, with Anime News Network awarding an A- and calling it fun, bingeable con artist hijinks. The Polygon review compared its slowburn suspense to Breaking Bad. WIT Studio's candy-bright colour palette pushed against the narrative's moral murkiness. The IMDb score of 7.8 - lower than the critical pile - tracks a segment of viewers who found the late reveals over-engineered. MAL users rate it around 8.4, indicating the core anime audience responded warmly. For heist-genre fans the episodic arc structure rewards binge watching.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Case 1_1: Los Angeles Connection",
+          "air_date": "2020-06-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere drops Makoto Edamura into an attempted street con that immediately backfires, establishing the show's playful inversion of the genre - the protagonist is the mark, not the master. The visual direction signals WIT Studio's ambition from the first frame.",
+          "the_moment": "The moment Makoto realises he has been outplayed by Laurent - the entire premise snaps into place.",
+          "critic_note": {
+            "text": "It has an irreverence for society and law that makes crime just seem so much fun.",
+            "source": "CBR",
+            "url": "https://www.rottentomatoes.com/tv/great_pretender/s01"
+          }
+        },
+        {
+          "number": 15,
+          "title": "Case 4_1: Wizard of Far East",
+          "air_date": "2020-11-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "The fourth and final case turns the show's con-artist formula against itself, bringing the team's backstory into the foreground. Critics noted this arc as the emotional payoff the series had been building toward.",
+          "the_moment": "The reveal that recontextualises the team's origin - the con the audience did not see coming.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

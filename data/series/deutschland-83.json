@@ -1,0 +1,159 @@
+{
+  "slug": "deutschland-83",
+  "qid": {
+    "value": "Q19278140",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Deutschland 83",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Spy", "Drama", "Thriller", "Historical"],
+  "logline": "A 24-year-old East German border guard is coerced into going undercover in the West German military in 1983 - navigating NATO war games, nuclear anxieties, and his own crumbling certainties while his cover identity slowly swallows the person he was.",
+  "poster": {
+    "src": "/img/series/deutschland-83/poster.jpg",
+    "alt": "Deutschland 83 poster",
+    "attribution": "Poster © UFA Fiction / RTL / SundanceTV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The trilogy concluded with Deutschland 89 in 2020. All three seasons - Deutschland 83 (2015), Deutschland 86 (2018), Deutschland 89 (2020) - are complete.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deutschland_83"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 8,
+      "release_date": {
+        "value": "2015-06-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "A 95 percent Rotten Tomatoes score from 37 reviews and a Peabody Award confirmed Deutschland 83 as landmark television - the first German-language series to air on American network TV, arriving as an assured, propulsive Cold War thriller with a banger 1980s soundtrack."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 37,
+        "pull_quotes": [
+          {
+            "text": "Superb characterizations and riveting action are leavened by wry humor, making Deutschland delightfully addictive.",
+            "source": "St. Louis Post-Dispatch",
+            "url": "https://www.metacritic.com/tv/deutschland-83/"
+          },
+          {
+            "text": "It's serious and it can be stark, but it's also funny and brisk, a coming-of-age story with a sense of adventure.",
+            "source": "Time",
+            "url": "https://www.metacritic.com/tv/deutschland-83/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/deutschland_83/s01"
+      },
+      "review_body": "Deutschland 83 premiered on SundanceTV in June 2015, becoming the first German-language drama to air on a major US network - a milestone the show earned through quality rather than novelty. Critics scored it 95 percent on Rotten Tomatoes (37 reviews) and awarded it a Peabody Award. The series creator Anna Winger found the sweet spot between Cold War paranoia and coming-of-age awkwardness: Martin Rauch (Jonas Nay) is genuinely out of his depth in the West, and the show mines comedy and tension from the same situations. The 79 Metacritic (11 critics) reflected mixed feelings only among outliers - the consensus at every major outlet was overwhelmingly positive. It became 'the most popular foreign-language drama in the history of British television' with 2.5 million Channel 4 viewers by January 2016.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Quantum Jump",
+          "air_date": "2015-06-17",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops Martin into West Germany with minimal preparation - the culture shock is played for both laughs and genuine disorientation. The opening hour establishes the period detail, the key players on both sides of the border, and the nuclear stakes with commendable economy.",
+          "the_moment": "Martin's first encounter with a Western supermarket - a small, comic collision of ideologies that the show handles with more intelligence than most spy thrillers manage in an entire season.",
+          "critic_note": {
+            "text": "An engrossing drama with a fun 80s soundtrack that chronicles an intense spy story.",
+            "source": "Rotten Tomatoes Critic Consensus",
+            "url": "https://www.rottentomatoes.com/tv/deutschland_83/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Able Archer",
+          "air_date": "2015-08-05",
+          "bollymeter": 9.0,
+          "spoiler_free": "Named after the real NATO exercise in November 1983 that Soviet intelligence genuinely mistook for a first-strike preparation, the finale brings Martin's double life to a crisis while the world edges toward accidental nuclear war. The historical resonance gives the personal stakes real weight.",
+          "the_moment": "The intercut of the real Able Archer crisis with Martin's mission - the moment the show's Cold War backdrop stops being backdrop.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-10-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Deutschland 86 earned 100 percent from 12 Rotten Tomatoes critics with consensus 'a rollicking spy caper that leverages its chic 1980s aesthetic to addictive effect' - a slight step down in dramatic gravity but equal in craft and entertainment value."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 12,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Deutschland 86 premiered on Amazon Prime Video in Germany in October 2018, following Martin into the mid-decade as the Stasi's African operations take centre stage. The 100 percent Rotten Tomatoes score from 12 critics - with consensus praising its 'rollicking spy caper' energy - confirmed the trilogy's sophomore chapter as a confident expansion of the original's world. The show moved further into black comedy territory than its predecessor, trading some of Season 1's tension for a broader canvas across multiple continents. The step up to 10 episodes added room for supporting characters who enriched the Cold War panorama.",
+      "season_over_season": "Expands the geography from Germany to Africa and the Caribbean while shifting tonally toward black comedy; the domestic stakes of Season 1 are replaced by global intrigue."
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-09-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Deutschland 89 concluded the trilogy with the Wall's fall as historical backdrop; the Guardian awarded 4/5 stars and IndieWire a B grade, reflecting a satisfying but uneven conclusion that peaked with its period detail."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Deutschland 89 premiered in September 2020 with the fall of the Berlin Wall as its central event - the climax the whole trilogy had been building toward. The Guardian awarded 4 out of 5 stars, praising the direction of Anna and Joerg Winger. IndieWire gave it a B grade, acknowledging the show's ambition while critiquing uneven pacing. The 8-episode season returned to the tighter structure of the original and delivered on the historical promise of the series title trilogy, even if the finale could not fully equal the freshness of 2015's breakthrough debut.",
+      "season_over_season": "The trilogy closes on the Wall's fall - the historical payoff the series always promised; tighter than Season 2 but unable to match the original's freshness."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

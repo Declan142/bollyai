@@ -1,0 +1,101 @@
+{
+  "slug": "odd-taxi",
+  "qid": {
+    "value": "Q105965081",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Odd Taxi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TV Tokyo",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Mystery",
+    "Crime",
+    "Psychological"
+  ],
+  "logline": "In a Tokyo populated entirely by anthropomorphic animals, a solitary walrus taxi driver's late-night passenger conversations pull him into the orbit of a missing schoolgirl case, the yakuza, and a conspiracy that ties every fare together.",
+  "poster": {
+    "src": "/img/series/odd-taxi/poster.jpg",
+    "alt": "Odd Taxi poster",
+    "attribution": "Poster © P.I.C.S. / OLM. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 13-episode season concluded June 29, 2021. A theatrical film, Odd Taxi: In the Woods, released April 2022, retells the events from new perspectives and adds a new conclusion.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Odd_Taxi"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 13,
+      "release_date": {
+        "value": "2021-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb holds at 8.3 and AniList users score it 85 percent; IGN named it Best Anime of 2021 and Crunchyroll Anime Awards gave it Best Director (Baku Kinoshita) and Best Protagonist (Odokawa). The series stands as one of the tightest noir mystery constructions in recent anime."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14134550/"
+      },
+      "review_body": "Odd Taxi aired on TV Tokyo in spring 2021, produced by P.I.C.S. and OLM, with a deceptive premise - a walrus driving a taxi in a city of animals - that unfolds into one of the most precisely engineered mystery plots in recent anime. IGN named it Best Anime of 2021; the Crunchyroll Anime Awards gave it Best Director and Best Protagonist. Rotten Tomatoes has no formal critic reviews logged, but IMDb users settled at 8.3, and AniList places it in the top 65 all-time. Review Geek called it gritty, gripping and absolutely glorious. Paste Magazine's year-end list named it one of the best anime of recent years. The 13-episode count is exactly sufficient - no fat, no padding. The finale's final line mirrors its opening word for word.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Eccentric Driver",
+          "air_date": "2021-04-06",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere plants seeds for every thread that will converge 12 episodes later. Odokawa picks up a series of passengers, each conversation seemingly inconsequential. The series commits fully to its anthropomorphic animal world without once winking at the audience about it.",
+          "the_moment": "The opening question - Where to? - will only fully land on a second viewing.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Where To?",
+          "air_date": "2021-06-29",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale snaps every loose thread into place with rare precision. Viewers who felt the series was a gentle slice-of-life comedy arrive here and realise they were watching a noir thriller all along. The closing line mirrors the very first words of the series.",
+          "the_moment": "The final fare - the question Odokawa asks, and what the answer now means.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

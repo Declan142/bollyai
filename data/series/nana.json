@@ -1,0 +1,108 @@
+{
+  "slug": "nana",
+  "qid": {
+    "value": "Q89343467",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Nana",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Nippon TV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Romance",
+    "Drama",
+    "Musical",
+    "Slice of Life"
+  ],
+  "logline": "Two young women who share only a first name - Nana Osaki, a punk vocalist chasing a record deal, and Nana Komatsu, a romantic drifting toward her boyfriend - meet on a train to Tokyo and become unlikely roommates whose lives become inseparably entangled.",
+  "poster": {
+    "src": "/img/series/nana/poster.jpg",
+    "alt": "Nana poster",
+    "attribution": "Poster © Madhouse / Nippon TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 47-episode anime run concluded March 27, 2007, adapting Ai Yazawa's manga through volume 12. Yazawa has been on medical hiatus since 2009; the manga remains unfinished. No anime continuation has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Nana_(manga)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2006,
+      "episodes": 47,
+      "release_date": {
+        "value": "2006-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "IMDb holds at 8.5 from a large audience sample; ANN users gave it an arithmetic mean of 8.52, placing it in the top 203 of 10,368 titles. Star Crossed Anime rated it 92.5/100. The cult following it built over nearly two decades without a manga conclusion signals genuine emotional staying power."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "This isn't just a good romance, it blows away just about every other romance I've seen away.",
+            "source": "Star Crossed Anime",
+            "url": "https://starcrossedanime.com/nana-review-925100/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0810705/"
+      },
+      "review_body": "Nana aired on Nippon TV from April 2006 to March 2007, animated by Madhouse under director Morio Asaka, adapting Ai Yazawa's manga up to volume 12. The series tracks two women with the same name sharing a Tokyo apartment while pursuing opposite futures - one chasing punk-rock fame, the other romantic stability - and uses that symmetry to dissect how ambition and attachment corrode each other. ANN users gave it an arithmetic mean of 8.52, ranking it in the top 203 of over 10,000 titles; IMDb sits at 8.5. Star Crossed Anime's 92.5/100 review declared it blows away just about every other romance. Reviewers across platforms noted that the series treats its adult characters with unusual honesty about addiction, co-dependency, and grief. The unresolved manga means the anime ends without full closure - a fact the series' devoted cult treats as part of the text.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Two Nanas",
+          "air_date": "2006-04-05",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere cross-cuts between the two Nanas on the same train to Tokyo, establishing their contrasting personalities with precise visual and tonal economy. The show's central question - how two completely different people become each other's most important person - arrives immediately.",
+          "the_moment": "The moment both women reach for the same seat - the collision that starts everything.",
+          "critic_note": null
+        },
+        {
+          "number": 47,
+          "title": "The Story of Nana and Nana",
+          "air_date": "2007-03-27",
+          "bollymeter": 8.0,
+          "spoiler_free": "The final episode does not resolve the manga's larger arc - it cannot, given the source material's state. It functions instead as an emotional pause, capturing where both Nanas stand without pretending to conclude. Viewers who loved the series found the incompleteness honest; those who wanted resolution were left wanting.",
+          "the_moment": "Nana Osaki's final scene - an image that functions as both a goodbye and an open question.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "arrested-development",
+  "qid": {
+    "value": "Q11598",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Arrested Development",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Fox / Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Family",
+    "Slice of Life"
+  ],
+  "logline": "After patriarch George Bluth Sr. is arrested for fraud, his son Michael tries to hold the family together while discovering they are all spectacularly, specifically, irredeemably awful - a comedy of compounding dysfunction that treats its audience as co-conspirators.",
+  "poster": {
+    "src": "/img/series/arrested-development/poster.jpg",
+    "alt": "Arrested Development poster",
+    "attribution": "Poster © 20th Century Fox Television / Imagine Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original three-season Fox run ended February 10, 2006. Netflix revival ran Seasons 4 and 5 from 2013 to 2019. No further continuation has been confirmed following the Season 5 finale.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Arrested_Development_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2003,
+      "episodes": 22,
+      "release_date": {
+        "value": "2003-11-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.5,
+        "basis": "A perfect 100% on Rotten Tomatoes across 24 reviews; multiple critics named it the funniest comedy of the year - a comedy of such structural density that repeat viewings reveal layers invisible on first pass."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 24,
+        "pull_quotes": [
+          {
+            "text": "It's the funniest comedy of the year.",
+            "source": "Sioux City Journal",
+            "url": "https://www.rottentomatoes.com/tv/arrested_development/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0367279/ratings/"
+      },
+      "review_body": "Season 1 opened in November 2003 and earned a perfect 100% on Rotten Tomatoes across 24 reviews, with critics identifying something structurally new in American comedy: a sitcom where every joke was also a plant for a joke three episodes away, and where every character was a walking dysfunction whose specific absurdity was never generic. The Bluth family's collective awfulness was calibrated with unusual care - Michael's martyrdom, George Michael's earnestness, Tobias's staggering self-deception, Lucille's weaponised elegance. The show won six Primetime Emmy Awards across its original run. Rob Owen of the Pittsburgh Post-Gazette noted it wrung laughs from the strange, the uncomfortable, and the inappropriate; that compression of registers in a single sentence captures what Arrested Development was doing that other comedies were not.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2003-11-02",
+          "bollymeter": 9.0,
+          "spoiler_free": "The pilot establishes one of television's most elaborate comedy premises: the entire Bluth world, its specific rules of dysfunction, its structural irony, and the dense network of callbacks and plants that will pay off across five seasons - all within 24 minutes. The use of narrator Ron Howard was immediately identified as inspired.",
+          "the_moment": "The banana stand sequence - the show's founding joke and its founding structural rule, both delivered in the pilot.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2004,
+      "episodes": 18,
+      "release_date": {
+        "value": "2004-11-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "94% on Rotten Tomatoes across 18 reviews; critics noted the show doubling down on absurdist density and cementing the Bluths as TV's best worst family."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 18,
+        "pull_quotes": [
+          {
+            "text": "Doubles down on the absurd antics and densely layered gags, cementing the Bluths as TV's best worst family.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/arrested_development/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0367279/ratings/"
+      },
+      "review_body": "Season 2 earned 94% on Rotten Tomatoes across 18 reviews, with critics noting the show's refusal to simplify its comedy for a broader audience - a decision that was simultaneously the source of its critical excellence and its commercial failure. The season introduced the Iraq storyline and the Hot Cops recurring bit, and the narrative callbacks from Season 1 began delivering their payoff with the precise timing of engineered machinery. Nick Venable at CinemaBlend noted the extraordinary density - the show's information yield per minute of runtime was unlike anything else on television. David Bianculli at the New York Daily News called it better not to miss it at all. The low Fox ratings that would eventually cancel the show were already apparent; the critical standing had never been higher.",
+      "season_over_season": "Intensified the structural density of Season 1 rather than simplifying it - a commercially self-defeating but artistically correct choice.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2005,
+      "episodes": 13,
+      "release_date": {
+        "value": "2005-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "100% on Rotten Tomatoes across 11 reviews; a farewell season that delivered maximum structural payoff on three seasons of investment and contained the show's own cancellation within its comedy."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "Arrested Development is simply the best comedy on television, period. No qualifications.",
+            "source": "Pajiba",
+            "url": "https://www.rottentomatoes.com/tv/arrested_development/s03/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0367279/ratings/"
+      },
+      "review_body": "Season 3 returned a perfect 100% on Rotten Tomatoes across 11 reviews, and included something rare in television comedy: the show literally addressed its own cancellation within the narrative, making Fox's rejection of the series a plot point. The 13-episode run - truncated from Fox's original order as the network backed away - was treated by creators as a proper finale opportunity, and the density of callback payoffs reached its peak. Noel Murray at the AV Club called it one of the funniest and most accomplished seasons in the show's history. Seth Freilich at Pajiba called it simply the best comedy on television, period. The show won its final Emmy Awards this year, and its cancellation was widely cited in subsequent years as a case study in television networks mistreating artistically superior work.",
+      "season_over_season": "The tightest structural construction in the show's Fox run - the compressed episode count focused the writers and produced the densest comedy payoffs of the entire series.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2013,
+      "episodes": 15,
+      "release_date": {
+        "value": "2013-05-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "79% on Rotten Tomatoes across 147 reviews; the Netflix revival received a divided critical reception - the mazelike structure built around scheduling conflicts was praised for ambition and criticised for sacrificing the ensemble chemistry that made the Fox seasons exceptional."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 147,
+        "pull_quotes": [
+          {
+            "text": "So much about this new Arrested Development season had me laughing out loud, and often.",
+            "source": "NPR Fresh Air",
+            "url": "https://www.rottentomatoes.com/tv/arrested_development/s04/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0367279/ratings/"
+      },
+      "review_body": "Netflix's 15-episode Season 4 revival arrived seven years after the Fox cancellation and earned 79% on Rotten Tomatoes across 147 reviews - a much larger critical sample than any Fox season, reflecting the show's cult status in the intervening years. The season's structure - individual character episodes that overlapped and revealed new information from different perspectives - was a bold formal choice that critics acknowledged in principle while criticising in execution. The scheduling conflicts of a cast now spread across multiple film and TV projects meant the ensemble almost never shared scenes, and the ensemble's chemistry had been the irreplaceable engine of the Fox run. Robert Lloyd at the LA Times found it as side-achingly funny as ever; others noted the loneliness of watching the Bluth family separately rather than together. The remixed Season 4 released in 2018 addressed some structural criticisms.",
+      "season_over_season": "A structurally ambitious revival that gained new ideas while losing the ensemble chemistry that had made the Fox seasons essential.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-05-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.8,
+        "basis": "54% on Rotten Tomatoes across 52 reviews; critics noted the show's creative exhaustion and the absence of the purpose that had driven the Fox seasons - a continuation that existed without a clear reason for existing."
+      },
+      "critic": {
+        "positive_pct": 54,
+        "sample": 52,
+        "pull_quotes": [
+          {
+            "text": "What's missing here, to a depressing degree, is a sense of purpose.",
+            "source": "The Verge",
+            "url": "https://www.rottentomatoes.com/tv/arrested_development/s05/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0367279/ratings/"
+      },
+      "review_body": "Season 5 dropped to 54% on Rotten Tomatoes across 52 reviews - the show's only rotten season and a clear signal that the creative rationale for continuing had expired. The Guardian's Stuart Heritage was blunt: the episodes were not funny, and the spark that made the original run so incredible was absent. The Verge identified the core problem as a missing sense of purpose - the Fox seasons had been structurally driven by the Bluth patriarch's fraud and the family's desperate attempts to survive; Season 5 had no equivalent engine. The off-screen controversy involving Jeffrey Tambor's conduct on set added an additional layer of discomfort. The show that was once cited as TV's greatest comedy concluded its run in a critical trough that served as a painful reminder of how specifically the original conditions had produced the original quality.",
+      "season_over_season": "A creative collapse that confirmed the Fox seasons were not repeatable - the conditions that made Arrested Development exceptional could not be reconstructed.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,223 @@
+{
+  "slug": "the-good-place",
+  "qid": {
+    "value": "Q22908690",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Good Place",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "NBC",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "logline": "Selfish Arizona woman Eleanor Shellstrop is accidentally admitted to a Heaven-like afterlife, and spends four seasons trying to become a genuinely good person while the show rebuilds its entire premise around her from scratch.",
+  "poster": {
+    "src": "/img/series/the-good-place/poster.jpg",
+    "alt": "The Good Place poster",
+    "attribution": "Poster © NBCUniversal / Fremulon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Four-season run concluded January 30, 2020 on NBC. Creator Michael Schur chose to end the show at the point he considered narratively complete; no revival has been pursued.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Good_Place"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "92% on Rotten Tomatoes across 74 reviews; the show introduced a rare thing in network comedy - a genuine structural twist that reorganised everything the audience had understood about the first thirteen episodes."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 74,
+        "pull_quotes": [
+          {
+            "text": "It's sparky, clever, original comedy that will cheer you up while contemplating hell.",
+            "source": "The Times",
+            "url": "https://www.rottentomatoes.com/tv/good_place/s01/reviews"
+          },
+          {
+            "text": "Confident, intriguing, and wonderfully performed, The Good Place is everything network comedy needed heading into the 2016 season.",
+            "source": "TV Overmind",
+            "url": "https://www.rottentomatoes.com/tv/good_place/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4955642/ratings/"
+      },
+      "review_body": "Season 1 earned 92% on Rotten Tomatoes across 74 reviews - a strong debut that nonetheless understated what the season was actually doing. Critics praised the philosophical premise (Eleanor and her accidental afterlife companions study ethics with demon-turned-teacher Michael) and the performances across a sharp ensemble. What the 92% score could not fully capture was the structural engineering: the season finale delivered a twist that retroactively reframed every preceding episode, a device so architecturally complete that the show's creators had built it into the pitch. The Times called it sparky, clever, original comedy. Ars Technica called it the nerdiest comedy of 2016 for its philosophical bent. The season works as a complete story and as a setup for the escalating premise-reinventions that would follow.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "Michael's Gambit",
+          "air_date": "2017-01-19",
+          "bollymeter": 9.8,
+          "spoiler_free": "The Season 1 finale delivers a structural revelation that functions as a philosophical argument: what does it mean to be in the wrong place, and who decided where the wrong place is? The final minutes reframe every joke, every character dynamic, and every moral lesson from the preceding twelve episodes.",
+          "the_moment": "The reveal - the single moment where the season's entire architecture snaps into a completely different shape.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 13,
+      "release_date": {
+        "value": "2017-09-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "A perfect 100% on Rotten Tomatoes across 59 reviews; the season voluntarily detonated its own Season 1 premise and rebuilt the show from scratch - Rolling Stone called it one of the single best shows on TV."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 59,
+        "pull_quotes": [
+          {
+            "text": "The Good Place has established itself as one of the single best shows on TV today: slyly intelligent, relentlessly creative, existentially profound and consistently funny.",
+            "source": "Rolling Stone",
+            "url": "https://www.rottentomatoes.com/tv/good_place/s02/reviews"
+          },
+          {
+            "text": "The show continues to work as a light sitcom, even as it fearlessly explores weighty philosophical questions and peels back layers of liberal self-delusion.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/good_place/s02/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4955642/ratings/"
+      },
+      "review_body": "Season 2 achieved a perfect 100% on Rotten Tomatoes across 59 reviews and is widely considered the show's creative peak. The season opened by disassembling the premise Season 1 had established and rebuilding it again with new rules - the critics' consensus noted that by voluntarily blowing up its own premise, the show set up a second season even funnier than its first. Rolling Stone called it one of the single best shows on TV: slyly intelligent, relentlessly creative, existentially profound. The Guardian identified the show's rare ability to work as both a light sitcom and a genuine philosophical inquiry. Entertainment Weekly said it felt like the show could do anything. The Trolley Problem episode won Hugo Awards for Best Dramatic Presentation, Short Form.",
+      "season_over_season": "A near-impossible creative achievement: the show destroyed its first-season premise, rebuilt from scratch, and emerged at a higher quality level.",
+      "episode_reviews": [
+        {
+          "number": 5,
+          "title": "Existential Crisis",
+          "air_date": "2017-10-19",
+          "bollymeter": 9.5,
+          "spoiler_free": "Michael confronts the philosophical implications of his own existence while Eleanor and the humans continue studying ethics - the episode where the show's satirical portrait of a demon who has absorbed too much human culture becomes something genuinely moving rather than merely funny.",
+          "the_moment": "Michael's breakdown in the frozen yoghurt shop - the moment the show's comic architecture briefly opens into something much more uncomfortable.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-09-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "98% on Rotten Tomatoes across 47 reviews; the show expanded its philosophical scope to the living world and the afterlife bureaucracy, sustaining the structural boldness of Season 2 while deepening the ethical arguments."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 47,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4955642/ratings/"
+      },
+      "review_body": "Season 3 earned 98% on Rotten Tomatoes across 47 reviews. The show moved its action partially to the living world - a premise reset that critics noted was handled with more structural care than most shows manage in a single tonal shift, let alone their third consecutive one. The philosophical content deepened: the season's central argument, that the complexity of modern life makes genuinely good behaviour structurally impossible under capitalism, was delivered through comedy with a rigour that academic outlets cited approvingly. The Judge and the afterlife bureaucracy expanded the show's cosmology in ways that prepared the ground for Season 4's conclusion. Hugo Award-winning writing continued through the third year.",
+      "season_over_season": "The show demonstrated that its premise-reinvention engine still had fuel - a third consecutive structural reset executed without losing the character precision built across forty episodes.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 14,
+      "release_date": {
+        "value": "2019-09-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "100% on Rotten Tomatoes; the final season's conclusion was widely praised as one of television's finest series endings - emotionally complete, philosophically honest, and the right length for what the show had been building."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4955642/ratings/"
+      },
+      "review_body": "The final 14-episode season returned to a perfect 100% on Rotten Tomatoes as critics recognised a show choosing to end at exactly the right moment. Creator Michael Schur's decision to conclude the series while it retained creative authority was praised as the correct call; the industry is full of shows that overstayed, and The Good Place did not. The finale - Whenever You're Ready - was treated as a masterpiece of the form: a meditation on what an ending means, why it matters, and what the point of becoming better actually is. The show won four Hugo Awards for Best Dramatic Presentation, Short Form across its run, and its finale generated academic discussions about television, philosophy of mind, and the ethics of finitude. It earned the Peabody Award for its four-season run.",
+      "season_over_season": "The rarest of endings: a show that reached its final season with full creative authority and used it to say something true about why endings matter.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "Whenever You're Ready",
+          "air_date": "2020-01-30",
+          "bollymeter": 9.9,
+          "spoiler_free": "The series finale resolves the show's central philosophical question - what is the right relationship to finitude? - with an answer that is simultaneously comic, moving, and intellectually honest. Critics were nearly unanimous in calling it one of the finest endings in American television comedy.",
+          "the_moment": "Chidi's last conversation with Eleanor - the single sequence in which the show delivers its full philosophical argument through character rather than dialogue.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

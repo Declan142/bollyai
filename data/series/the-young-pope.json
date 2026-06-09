@@ -1,0 +1,111 @@
+{
+  "slug": "the-young-pope",
+  "qid": {
+    "value": "Q22026371",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Young Pope",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Italy",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Psychological", "Historical"],
+  "logline": "A young, unpredictable American cardinal becomes Pope Pius XIII and immediately turns Vatican tradition on its head - his radical theology and deliberate mystique alarming the cardinals who installed him as a controllable figurehead.",
+  "poster": {
+    "src": "/img/series/the-young-pope/poster.jpg",
+    "alt": "The Young Pope poster",
+    "attribution": "Poster © HBO / Sky Atlantic / Wildside. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A single 10-episode limited series concluded in November 2016. A sequel series, The New Pope (2020), follows different characters alongside a returning Jude Law.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Young_Pope"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-10-21",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An audacious, visually ravishing work from Paolo Sorrentino that critics admired more than loved - scoring 79% on RT (87 reviews) and 68 on Metacritic, reflecting genuine division between those seduced by its surrealism and those exhausted by its slow pace."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 87,
+        "pull_quotes": [
+          {
+            "text": "Lush, often surreal, filled with contradictory characters and backstabbing intrigue - one of the more remarkable television shows in memory.",
+            "source": "The Detroit News",
+            "url": "https://www.metacritic.com/tv/the-young-pope/season-1/"
+          },
+          {
+            "text": "The Young Pope is a fascinating mess with a puckish sense of humor and an outsized goal - to know the mind of God.",
+            "source": "Newsday",
+            "url": "https://www.metacritic.com/tv/the-young-pope/season-1/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/the_young_pope/s01"
+      },
+      "review_body": "Paolo Sorrentino brought his signature operatic cinema style to television with this HBO and Sky Atlantic co-production, and the result divided critics cleanly along lines of temperament. The 79 percent Rotten Tomatoes score from 87 reviews reflects a genuine split: those who surrendered to the surrealist visual language and Jude Law's magnetic performance of repressed faith found something extraordinary, while skeptics noted lugubrious pacing and cryptic plotting that outstayed their welcome. The series premiered at the Venice Film Festival - the first TV series in competition - and earned two Emmy nominations. Law's performance was near-universally praised as a career high. The Guardian called it 'fantastically anxiety-inducing for lapsed Catholics.' What Sorrentino built is less a traditional drama than a meditation on divine power, loneliness, and institutional corruption.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-10-21",
+          "bollymeter": 8.0,
+          "spoiler_free": "The opener establishes Sorrentino's formal vocabulary immediately - a dream sequence in which the new pope crawls over a pile of children, then delivers a hilariously provocative speech. The tone is set: equal parts deadpan comedy and spiritual unease. Jude Law commands every frame.",
+          "the_moment": "Lenny's fantasy address to the crowds - the new Pope's creed delivered in a surrealist reverie that announces the show's ambitions.",
+          "critic_note": {
+            "text": "Sorrentino's approach is bracingly different - over-the-top melodrama with profane comedy helping overcome an occasionally muddled plot.",
+            "source": "Rotten Tomatoes Critic Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_young_pope/s01"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2016-11-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale resolves the season's central mystery about Lenny's faith and his parents with an image of such crystalline beauty that it retroactively earns the series' every indulgence. Sorrentino earns his epilogue.",
+          "the_moment": "The final scene on the beach - the moment critics most often cited when trying to explain what the show is really about.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

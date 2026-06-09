@@ -1,0 +1,101 @@
+{
+  "slug": "be-melodramatic",
+  "qid": {
+    "value": "Q63264267",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Be Melodramatic",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life",
+    "Drama"
+  ],
+  "logline": "Three women in their thirties working in the Korean television industry navigate love, loss, and the gap between the melodramas they produce and the messy lives they are actually living.",
+  "poster": {
+    "src": "/img/series/be-melodramatic/poster.jpg",
+    "alt": "Be Melodramatic poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded September 28, 2019 at 16 episodes. The show aired on a low-profile Friday-Saturday slot and earned a cult following despite modest cable ratings averaging 1.488%. No renewal planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Be_Melodramatic"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-08-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "IMDb audience rating of 8.2 from a niche but devoted viewer base; critics and drama-community reviewers consistently placed it among the best Korean dramas of 2019, praising the writing's meta-comedy layers and the trio of female leads as unusually grounded portrayals of adult friendship."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10559276/ratings/"
+      },
+      "review_body": "Be Melodramatic aired on JTBC from August to September 2019, averaging 1.488% nationwide cable ratings - modest enough to qualify it as one of the year's best-kept secrets. Critics and community reviewers who found it were consistently effusive: the show was cited as having the chops to compete for best Korean drama of 2019, distinguished by a meta-comedy structure that layers a show-within-a-show against the protagonists' real emotional lives. The three female leads - Chun Woo-hee, Jeon Yeo-been, and Han Ji-eun - received praise for portrayals of women in their thirties that resisted the genre's usual infantilisation. Reviewers noted the first three episodes are comparatively shaky but that the show rewards patience, deepening into something genuinely affecting. The IMDb audience rating of 8.2 signals the strength of appreciation among those who sought it out.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-08-09",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere introduces the three friends and their interlocking professional and romantic situations, with the TV-industry backdrop providing an immediate source of meta-comedy. The show's refusal to over-explain its character dynamics rewards close attention, though reviewers noted the pilot takes time to find its footing.",
+          "the_moment": "The scene establishing Jin-joo's grief - the show's emotional depth arrives earlier than the comedic tone would suggest.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2019-09-06",
+          "bollymeter": 8.6,
+          "spoiler_free": "Mid-series, the three storylines have achieved individual momentum and the meta-comedy of the drama-within-a-drama begins to comment directly on the characters' lives. This is the episode where reviewers noted the show stops being charming and starts being genuinely great.",
+          "the_moment": "The moment where the show the characters are making begins to echo what the audience is watching - the meta layer closes on itself in an unexpectedly moving way.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

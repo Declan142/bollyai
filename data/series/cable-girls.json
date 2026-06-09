@@ -1,0 +1,215 @@
+{
+  "slug": "cable-girls",
+  "qid": {
+    "value": "Q27443124",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Cable Girls",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Spain",
+  "original_language": {
+    "value": "es",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "Romance", "LGBTQ"],
+  "logline": "Four women at Madrid's National Telephone Company in 1928 find that decent pay and a little independence can crack open a world that the patriarchy spent centuries sealing shut.",
+  "poster": {
+    "src": "/img/series/cable-girls/poster.jpg",
+    "alt": "Cable Girls poster",
+    "attribution": "Poster © Netflix / Bambu Producciones. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 5 (split into two parts and released February and July 2020) concluded the series. Netflix and Bambu Producciones confirmed no further seasons.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Cable_Girls"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 8,
+      "release_date": {
+        "value": "2017-04-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 1 holds a perfect 100% on Rotten Tomatoes from 6 critics with an 85% audience score. Decider called it worth a binge; it was the first Spanish original series produced by Netflix. IMDb series rating is 7.7."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Spanish soap set in late-1920s Madrid is worth a binge.",
+            "source": "Decider",
+            "url": "https://decider.com/2017/04/28/cable-girls-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5674718/ratings/"
+      },
+      "review_body": "Season 1 launched April 28, 2017 as Netflix's first original Spanish-language series, co-produced with Bambu Producciones. Critics gave it a perfect 100 percent Rotten Tomatoes score from 6 reviews - unanimous approval from a small but consistent critical sample. Decider flagged it as a binge-worthy period soap; Cinema Movil appreciated its placement in the telenovela tradition without the exhausting pacing typical of the format. The 1920s Madrid setting grounded female friendship and workplace politics in a specific historical moment: the brief pre-Republican period when women could earn a wage and imagine more, before the Civil War foreclosed everything. Blanca Suarez, Ana Fernandez, Nadia de Santiago, and Maggie Civantos created a central quartet whose chemistry the series relied on entirely and wisely.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-04-28",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere efficiently establishes 1928 Madrid, the telephone company's social dynamics, and the four lead characters' distinct class and personal situations. The historical texture is specific without being a lecture, and the central friendships form quickly enough to generate genuine stakes.",
+          "the_moment": "The four women at their switchboard positions for the first time - a visual that defines the series' governing image of women as the connective tissue of a city that officially ignores them.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 8,
+      "release_date": {
+        "value": "2017-12-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 2 scored 90% on Rotten Tomatoes from 4 critics. Metro called it brave, beautiful, delightful and dark; CNET praised the feminist message and 1920s fashion for fans of Season 1's ingredients."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "This Spanish drama is brave and beautiful, delightful and dark and certainly not one to be missed.",
+            "source": "Metro",
+            "url": "https://metro.co.uk/2017/12/25/cable-girls-season-2-review-brave-beautiful-delightful-dark/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5674718/ratings/"
+      },
+      "review_body": "Season 2 aired December 2017, released the same year as Season 1 in a double-drop that gave the show immediate momentum. Critical approval held at 90 percent from 4 reviews - a slight dip from the perfect Season 1 score but still firmly in consensus territory. Metro called it brave, beautiful, delightful and dark. CNET framed it explicitly as comfort for fans of Season 1's specific pleasures: the feminist message, 1920s period fashion, and the central ensemble's chemistry. The timeline pushed the characters through the political turbulence of Spain's late-1920s transition toward the Republic, giving the domestic and romantic storylines a rising historical pressure that the show handled better than most period dramas.",
+      "season_over_season": "Historical stakes sharpen as Spain's political instability becomes unavoidable - Season 2 deepens rather than merely continues Season 1."
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 8,
+      "release_date": {
+        "value": "2018-09-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 3 registered 67% on Rotten Tomatoes; formal critic tracking thinned. The series won the 29th GLAAD Media Award for Outstanding Scripted Television (Spanish-language) and the 5th Platino Award for Best Actress (Blanca Suarez)."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5674718/ratings/"
+      },
+      "review_body": "Season 3, released September 2018, brought the timeline into the early 1930s and the gathering shadow of the Civil War. Critical coverage thinned - Rotten Tomatoes tracked a 67 percent score - but industry recognition compensated: the GLAAD Media Award for Outstanding Scripted Television in Spanish-language acknowledged the show's careful treatment of queer storylines within the period setting, and the Platino Award for Best Actress recognized Blanca Suarez's sustained lead performance across three seasons. The third season marked the show's shift from a drama about workplace independence to one explicitly grappling with political survival as Spain fractured.",
+      "season_over_season": "Political history becomes unavoidable as the Civil War approaches - the show's tone darkens noticeably from Season 2's relative warmth."
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-02-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 4 set during the Civil War period received no formal Rotten Tomatoes critic score but the series' overall audience score held at 69% across the run. The wartime setting forced the characters into survival choices the telephone company framework had previously insulated them from."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5674718/ratings/"
+      },
+      "review_body": "Season 4, released February 2019, set the four central characters against the backdrop of the Spanish Civil War - the historical destination the series had been moving toward since Season 1's first political tremors. Formal critical tracking had effectively stopped by this point, but the show retained its audience. The wartime storylines tested the series' ensemble in different registers: survival, resistance, and the consequences of political choices made under pressure rather than in peacetime comfort. The season is the darkest of the five, reflecting the historical reality honestly rather than softening it for period-drama palatability.",
+      "season_over_season": "The Civil War setting demands a tonal register the show had been building toward but delivers it with enough weight to justify the four-season journey."
+    },
+    {
+      "number": 5,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-02-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 5 (split in two, concluding July 3, 2020) closed the series across 10 episodes. The overall Rotten Tomatoes audience score for the series sits at 69%, reflecting a devoted but not universally enthusiastic audience by the finale."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5674718/ratings/"
+      },
+      "review_body": "Season 5, split across February and July 2020, served as both the Civil War epilogue and the series finale. The 10-episode count was the longest single season, allowing the show to honor each of its four central characters with resolutions appropriate to who they had become across three years of historical turbulence. The series concluded having become something rarer in historical television: a drama about women's working lives where labor is not merely backdrop but genuinely constitutive of identity. The 64th Ondas Award for Best Fiction Web Series and the GLAAD recognition summarize the critical case for Cable Girls - a show that consistently punched above its genre designation.",
+      "season_over_season": "The series finale resolves five seasons of character development against the post-Civil War reckoning - an earned ending for a show that respected its historical frame."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

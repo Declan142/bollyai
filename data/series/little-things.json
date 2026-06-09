@@ -1,0 +1,181 @@
+{
+  "slug": "little-things",
+  "qid": null,
+  "title": {
+    "value": "Little Things",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Comedy", "Slice of Life", "Drama"],
+  "logline": "Kavya and Dhruv share a Mumbai flat, a relationship, and a quiet terror of becoming ordinary - four seasons tracking what it actually costs two people to grow up together.",
+  "poster": {
+    "src": "/img/series/little-things/poster.jpg",
+    "alt": "Little Things poster",
+    "attribution": "Poster © Netflix India / Dice Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 4, released October 2021, concluded the series. Creator Dhruv Sehgal confirmed it as the final chapter of Kavya and Dhruv's story.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81011159"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 5,
+      "release_date": {
+        "value": "2016-10-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 1 originally on Dice Media earned immediate attention for its slice-of-life authenticity. Scroll.in called it frequently charming, often relatable and never boring; the IMDb series rating sits at 8.2."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Frequently charming, often relatable and never boring.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/reel/820505/review-little-things-is-a-charming-series-about-the-everyday-details-of-a-live-in-relationship"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6522580/ratings/"
+      },
+      "review_body": "Season 1 began as a five-episode web series on Dice Media in October 2016 and quietly assembled one of the most devoted fanbases in Indian digital content. The show's bet was simple: no melodrama, no villain, just two specific people negotiating cohabitation, finances, in-jokes, and the gap between who they are and who they thought they would be. Scroll.in called it frequently charming, often relatable and never boring. Hindustan Times rated it 4 out of 5, praising how heavily the show relies on its performers' chemistry. Mithila Palkar and Dhruv Sehgal's naturalistic rapport is the technical core of everything that works here. The five-episode brevity is a feature - no filler, every scene earns its runtime.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-10-25",
+          "bollymeter": 8.0,
+          "spoiler_free": "The opening episode earns its reputation as one of the most honest depictions of Indian millennial live-in relationships. Kavya and Dhruv feel like people overheard, not characters constructed. The domestic rhythms are specific enough to be universal.",
+          "the_moment": "A small argument over nothing that turns into something - the series announces it understands how real couples actually fight.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2018,
+      "episodes": 8,
+      "release_date": {
+        "value": "2018-10-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Netflix acquired the franchise and Season 2 expanded to 8 episodes. The Indian Express noted it lacked the first season's sweet-natured relatability at points, but the performances held the emotional core intact."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6522580/ratings/"
+      },
+      "review_body": "Season 2 arrived on Netflix in October 2018 as the platform's first acquisition from Dice Media. The expanded episode count (five to eight) tested whether the show's economy could scale - it mostly could. The Indian Express noted that stretching to 22-minute episodes over eight installments occasionally diluted the sweet-natured relatability of the original, and that a tighter four-episode structure might have served the season better. Mithila Palkar's Kavya grew more specifically drawn here as career ambitions sharpened, and the long-distance tension introduced late in the season gave the story new stakes without abandoning the domestic register that made Season 1 work.",
+      "season_over_season": "Netflix's longer episode format introduces some padding but Kavya's career arc adds dimension the original five episodes lacked."
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-11-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Critics at MTV IWMBuzz and the IReel Awards recognized the season with multiple wins. The long-distance arc reached its emotional peak here, with the couple's geographic separation forcing the show's first real external conflict."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6522580/ratings/"
+      },
+      "review_body": "Season 3, arriving November 2019, followed the couple through the stress of physical separation as Kavya pursues her career outside Mumbai. The long-distance dynamic gave the series a formal gear-shift: the prior seasons lived in shared space, and the third had to find intimacy in calls, visits, and absence. Critics responded warmly - the season swept multiple IWMBuzz and IReel awards recognizing Mithila Palkar's performance and the writing team's restraint. The show did not exaggerate conflict for dramatic effect, a discipline that cost it some energy but preserved the tonal consistency audiences had come to rely on.",
+      "season_over_season": "Geographic separation forces structural innovation - less domestic texture, more about what sustains a relationship under pressure."
+    },
+    {
+      "number": 4,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-10-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "The finale season resolves Kavya and Dhruv's trajectory with characteristic quietness. The Rotten Tomatoes series aggregate sits at 79% from a thin critical sample. Audience scores on RT track at 79%, consistent with the series' devoted but niche following."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The show relies more heavily on performances than most others.",
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/entertainment/web-series-review-little-things-season-2/story-xhFTMvgdSIBZl0wX9cVcCN.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6522580/ratings/"
+      },
+      "review_body": "Season 4, released October 2021, closed out a five-year run with the same refusal to manufacture crisis that defined the series from the beginning. Kavya and Dhruv's story ended not with a bang but with the quieter satisfaction of two people who figured out, gradually and unglamorously, how to choose each other. The Rotten Tomatoes aggregate of 79% - while drawn from a thin formal critical sample - reflects a consensus that the show earned its ending. The Filmfare OTT Award to Mithila Palkar acknowledged a performance sustained across four seasons without a single misstep. The finale season rewarded patient viewers; newcomers should start at Season 1.",
+      "season_over_season": "The series closes where it started - in the ordinary texture of two people together. The restraint that defined the run held to the end."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

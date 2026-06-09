@@ -1,0 +1,107 @@
+{
+  "slug": "ranking-of-kings",
+  "qid": {
+    "value": "Q101230845",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ranking of Kings",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Fuji TV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Adventure",
+    "Coming of Age"
+  ],
+  "logline": "A deaf prince dismissed by his entire kingdom as too small and powerless to rule sets out to become the greatest king in the world, discovering that the ranking system everyone obeys conceals something far darker than court politics.",
+  "poster": {
+    "src": "/img/series/ranking-of-kings/poster.jpg",
+    "alt": "Ranking of Kings poster",
+    "attribution": "Poster © Wit Studio / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The main 23-episode series aired October 2021 to March 2022. A spin-off, Ranking of Kings: The Treasure Chest of Courage, aired 10 episodes in April-June 2023. The source manga by Sosuke Toka went on hiatus in April 2023 and resumed December 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ranking_of_Kings"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 23,
+      "release_date": {
+        "value": "2021-10-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "IMDb holds at 8.4 and MAL users score it 8.49, reflecting a strong consensus from a large viewing base. Rotten Tomatoes shows 90 percent from 1 critic review; Slashfilm praised its emotionally complex characters. AniTrendz scored it 77/100, noting pacing unevenness in the second half."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "Characters initially appear simplistic but are revealed to be emotionally complex and fully-fledged.",
+            "source": "Slashfilm",
+            "url": "https://www.rottentomatoes.com/tv/ranking_of_kings/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13409432/"
+      },
+      "review_body": "Ranking of Kings aired on Fuji TV's Noitamina block from October 2021 to March 2022, produced by Wit Studio from Sosuke Toka's web manga. The premise - a deaf, physically diminutive prince seeking the world's highest rank - positioned itself as a subversive take on fantasy tropes, and critics broadly accepted that framing. Slashfilm noted characters initially appear simplistic but become emotionally complex. IMDb users landed at 8.4; MAL registers 8.49. AniTrendz's 77/100 review identified a structural split: the first half, built on Bojji's underdog arc, was praised for excellent pacing; the second half's escalating revelations divided opinion. The presence of a deaf protagonist in a high-fantasy setting drew notice across anime criticism as a meaningful design choice. The series streams internationally on Amazon Prime Video and Funimation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The New King",
+          "air_date": "2021-10-15",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere introduces Bojji through a series of humiliations that would crush a lesser protagonist, then immediately reveals the depth beneath the surface with a single wordless sequence. The episode earned an individual IMDb rating of 8.8, the series' highest for any single hour.",
+          "the_moment": "Bojji's first genuine smile - and what the shadow Kage makes of it.",
+          "critic_note": null
+        },
+        {
+          "number": 23,
+          "title": "The Gigan Clan and the Greatest King",
+          "air_date": "2022-03-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale resolves the season's central arc and delivers an emotional catharsis that many viewers found disproportionately moving given the show's fairy-tale register. The ending landed differently for audiences who felt the second half over-complicated what the first half did cleanly.",
+          "the_moment": "Bojji's final declaration of intent - the moment the premise of the entire series earns its payoff.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

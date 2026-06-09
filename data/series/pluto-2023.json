@@ -1,0 +1,122 @@
+{
+  "slug": "pluto-2023",
+  "qid": {
+    "value": "Q116783101",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Pluto",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Mystery",
+    "Psychological",
+    "Drama"
+  ],
+  "logline": "Europol robot detective Gesicht investigates a series of murders in which the world's most powerful robots and the humans connected to them are found dead with objects positioned like horns - evidence pointing toward a robot as killer for the first time in eight years.",
+  "poster": {
+    "src": "/img/series/pluto-2023/poster.jpg",
+    "alt": "Pluto poster",
+    "attribution": "Poster © Studio M2 / Genco / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series adapting Naoki Urasawa's complete manga run. No continuation is possible; the story is self-contained. Nominated for Best Anime Series at the 2024 Astra TV Awards and Best Drama at the 2025 Crunchyroll Anime Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Pluto_(Japanese_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-10-26",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "100 percent Rotten Tomatoes from 7 critics, 94 percent audience score, IMDb at 8.1, and MAL at 8.44. Kotaku called it a chilling, visionary tale; Polygon's Joshua Rivera named it one of the best new shows on Netflix, period. Rare unanimous critical and audience alignment for an adult-oriented sci-fi anime."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Pluto is a strong contender for one of the best anime of the year - also one of the best new shows on Netflix, period.",
+            "source": "Polygon",
+            "url": "https://www.rottentomatoes.com/tv/pluto/s01"
+          },
+          {
+            "text": "A truly masterful anime, one of those chiefly directed to a more mature audience due to its narrative intricacy.",
+            "source": "Asian Movie Pulse",
+            "url": "https://www.rottentomatoes.com/tv/pluto/s01"
+          },
+          {
+            "text": "Studio M2 gives Naoki Urasawa's beloved manga the anime adaptation it deserves.",
+            "source": "Kotaku",
+            "url": "https://kotaku.com/pluto-netflix-anime-review-1850975057"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26737616/"
+      },
+      "review_body": "Pluto dropped in full on Netflix on October 26, 2023 - all eight OVA-length episodes at once. The series adapts Naoki Urasawa's manga reimagining of Osamu Tezuka's Astro Boy arc, translating its robot-murder-mystery structure into a meditation on war, grief, and the ethics of artificial empathy. Critics were unanimous: 100 percent on Rotten Tomatoes from 7 reviews. Polygon declared it one of the best new shows on Netflix; Kotaku said Studio M2 gave the manga the adaptation it deserves; IGN called the central whodunnit slightly flat but praised impeccable emotional arcs. The 94 percent audience score and IMDb at 8.1 confirmed the critical reading translated to general viewers. MAL users rate it 8.44. The series was shortlisted at both the Astra TV Awards and Crunchyroll Anime Awards 2025.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-10-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "The first episode establishes Gesicht's investigation with a control and melancholy tone that critics immediately noted as distinct from conventional anime. The world-building - advanced robots integrated into human society with legal protections - is delivered without exposition dumps.",
+          "the_moment": "Gesicht's first visit to the crime scene, where the scale of what is being hunted becomes clear.",
+          "critic_note": {
+            "text": "The series' central whodunnit falls a little flat, but it more than makes up for it with impeccable emotional arcs.",
+            "source": "IGN",
+            "url": "https://www.rottentomatoes.com/tv/pluto/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2023-10-26",
+          "bollymeter": 9.3,
+          "spoiler_free": "The finale resolves both the murder mystery and the series' larger thematic argument about memory, violence, and whether machines built to feel can build something worth protecting. Critics noted the emotional culmination lands harder than the plot mechanics that lead there.",
+          "the_moment": "The final act's reversal - the moment the series reveals what it has actually been about since episode one.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

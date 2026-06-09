@@ -1,0 +1,102 @@
+{
+  "slug": "nevertheless",
+  "qid": {
+    "value": "Q106091446",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Nevertheless,",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "A fine-arts student who has sworn off love collides with a charming classmate allergic to commitment, and the series tracks the honest, frustrating chemistry between two people who want each other but cannot agree on what that means.",
+  "poster": {
+    "src": "/img/series/nevertheless/poster.jpg",
+    "alt": "Nevertheless, poster",
+    "attribution": "Poster © JTBC Studios / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded at 10 episodes on August 21, 2021. Adapted from Jung Se-rang's webtoon published on Naver. A Japanese remake aired on Netflix in December 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Nevertheless_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-06-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "79% Rotten Tomatoes from 4 critics reflects approval for the leads and frank adult tone; IMDb audience score of 7.0 and MyDramaList 7.4 suggest solid but not rapturous reception - the polarising ending is the dominant fault line in audience discourse."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "A primer for how women are manipulated into diminishing their own wants and desires for a man.",
+            "source": "Jae-Ha Kim",
+            "url": "https://www.jaehakim.com/2021/12/nevertheless/"
+          },
+          {
+            "text": "Appealing leads...will keep fans of K-dramas interested.",
+            "source": "Decider",
+            "url": "https://decider.com/2021/06/25/nevertheless-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14518284/ratings/"
+      },
+      "review_body": "Nevertheless, aired June to August 2021 on JTBC with simultaneous Netflix streaming, adapted from Jung Se-rang's acclaimed Naver webtoon. The 10-episode run attracted attention primarily for two things: its frank treatment of sexual desire - a relative rarity in mainstream Korean romance drama - and the chemistry between Han So-hee and Song Kang as two art students circling each other without resolution. Critics on Rotten Tomatoes rated it 79% across four reviews, with Decider praising the appeal of the leads and Jae-Ha Kim offering the sharpest note - that the show functions, perhaps unintentionally, as an anatomy of how women are pressured to manage their own needs around an unwilling partner. The audience response on IMDb (7.0) and MyDramaList (7.4) reflects divided opinion on the ending, which many found unsatisfying.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Nevertheless, I Liked You",
+          "air_date": "2021-06-19",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the show's central tension quickly: Na-bi has been burned before and knows better, Jae-eon is evasive by habit, and their first encounter at a sculpture class sets a tone of mutual attraction undercut by mutual wariness. The visual language - muted pastels, tactile close-ups - signals that the show will be more interested in texture than plot.",
+          "the_moment": "Na-bi watching Jae-eon in the studio - the show announces its aesthetic and emotional register in a single, unhurried scene.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

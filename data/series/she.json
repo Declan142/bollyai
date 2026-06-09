@@ -1,0 +1,127 @@
+{
+  "slug": "she",
+  "qid": null,
+  "title": {
+    "value": "She",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Drama", "Psychological"],
+  "logline": "A timid Mumbai constable goes undercover as a sex worker to infiltrate a drug cartel - and the assignment cracks open a side of herself she was never supposed to find.",
+  "poster": {
+    "src": "/img/series/she/poster.jpg",
+    "alt": "She poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 2 released June 17, 2022, concluding the series. No renewal announced; the story reached a natural end with Bhumi's arc resolved.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81183494"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 7,
+      "release_date": {
+        "value": "2020-03-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.2,
+        "basis": "Season 1 holds 20% on Rotten Tomatoes from 5 critics and a 38% audience score. Critics largely found Imtiaz Ali's male-gaze framing undermining an otherwise bold premise; Aaditi Pohankar's performance was the near-universal saving grace."
+      },
+      "critic": {
+        "positive_pct": 20,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "She does smoulder occasionally, but it never crackles with energy.",
+            "source": "NDTV",
+            "url": "https://www.ndtv.com/entertainment/she-review-does-smoulder-occasionally-but-never-crackles-with-energy-2202536"
+          },
+          {
+            "text": "She is too focused on the seasoning, not the meat. It throws only sporadic light on the one strong female character.",
+            "source": "Firstpost",
+            "url": "https://www.firstpost.com/entertainment/she-review-netflix-imtiaz-ali-aaditi-pohankar-vijay-varma-too-focused-on-seasoning-not-the-meat-8177181.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11905720/ratings/"
+      },
+      "review_body": "Season 1 arrived on Netflix India in March 2020 to a divisive critical reception, landing at 20 percent on Rotten Tomatoes from 5 reviews. The premise - a repressed constable discovering her own agency through an undercover operation - had genuine potential, and Aaditi Pohankar's interior performance gave critics something to hold onto. The problem, as multiple reviewers identified, was the framing: Imtiaz Ali and Divya Johry's writing kept the camera at the service of the male gaze, turning a story ostensibly about female awakening into something critics called sleazy and evasive. NDTV found it never crackles; Hindustan Times called it sleazy and sloppy. Vijay Varma's menacing Sasya was noted as the season's best-drawn figure - a pointed commentary on where the creative energy actually went.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-03-20",
+          "bollymeter": 5.5,
+          "spoiler_free": "The premiere establishes Bhumika's claustrophobic home life and her recruitment into the anti-narcotics operation. The setup is efficient and Pohankar's underconfident physicality is instantly compelling - the episode earns attention before the series wastes it.",
+          "the_moment": "Bhumika's first interaction with the cartel boss Nayak - the discomfort is palpable and the threat register is immediately different from anything in the police station scenes.",
+          "critic_note": {
+            "text": "At the heart of this brisk series is a thoroughly dark, twisted relationship between a conscience-less mobster and an unwilling undercover cop.",
+            "source": "Firstpost",
+            "url": "https://www.firstpost.com/entertainment/she-review-netflix-imtiaz-ali-aaditi-pohankar-vijay-varma-too-focused-on-seasoning-not-the-meat-8177181.html"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-06-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.0,
+        "basis": "Season 2 registers 33% on Rotten Tomatoes from 3 critics. Reviewers noted continued evolution in Pohankar's performance but flagged drag pacing and poor writing from Akhil Arora (Gadgets360), calling it a showcase of the creator's weaknesses."
+      },
+      "critic": {
+        "positive_pct": 33,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "The second season offers up a continued evolution in Bhumi's character.",
+            "source": "Decider",
+            "url": "https://decider.com/2022/06/17/she-season-2-netflix-review/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2, released June 2022, carried forward the series' core problem: a character whose inner transformation Pohankar played with real conviction, trapped in writing that critics found repetitive and poorly structured. Rotten Tomatoes logged only 3 reviews for a 33 percent score, itself a signal of how little critical attention the second season generated. Decider credited Bhumi's continued evolution; Film Companion praised a compelling vulgarity in the show's register; Gadgets360 called it a glorious showcase of the creator's weaknesses, with scenes that drag. The series concluded here, ending a run that promised more than it delivered but gave Pohankar a showcase role that launched her to wider attention.",
+      "season_over_season": "Pohankar's performance deepens but the writing regresses - Season 2 is slower and more repetitive than the already-flawed first run."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "the-world-of-the-married",
+  "qid": {
+    "value": "Q79997161",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The World of the Married",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Thriller",
+    "Psychological",
+    "Romance"
+  ],
+  "logline": "A respected family doctor discovers her husband's years-long affair and methodically dismantles his life - only to find that revenge reshapes her own identity just as violently.",
+  "poster": {
+    "src": "/img/series/the-world-of-the-married/poster.jpg",
+    "alt": "The World of the Married poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run; concluded May 16, 2020 at 16 episodes. No continuation announced. The series was adapted from the BBC One drama Doctor Foster.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_World_of_the_Married"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-03-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Historic cable ratings peak at 28.371% finale viewership - the highest in Korean cable television history at broadcast. Critics and Baeksang Arts Award voters aligned on Kim Hee-ae's performance and the screenplay's psychological ferocity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Bold in its attempts to tackle a controversial subject; offers a rare representation of a strong female lead.",
+            "source": "Cinema Escapist",
+            "url": "https://www.cinemaescapist.com/2020/05/review-the-world-of-the-married/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12042964/ratings/"
+      },
+      "review_body": "Adapted from the BBC drama Doctor Foster, this 16-episode revenge thriller became the highest-rated cable drama in Korean television history, with its finale pulling a 28.371% nationwide rating and surpassing the previous record held by Sky Castle. Critics praised the screenplay's psychological precision and Kim Hee-ae's formidable lead performance, with the 56th Baeksang Arts Awards granting her Best Actress and director Mo Wan-il Best Director. The series earned controversy for its unflinching portrayal of infidelity and violence, but reviewers noted that the 19+ rating reflects a willingness to portray the dark mechanics of a marriage's collapse with rare realism. The show operates as a sustained study in power, vengeance, and the cost of winning.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Infidelity",
+          "air_date": "2020-03-27",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Dr Ji Sun-woo as a composed, admired figure in her community before quietly assembling the evidence of her husband's betrayal. The restraint in these early scenes makes the emotional detonation land harder - the show signals early that it will trust the audience with ambiguity.",
+          "the_moment": "The discovery that confirms Sun-woo's suspicions - the series earns its reputation for psychological voltage from the first hour.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2020-05-16",
+          "bollymeter": 8.9,
+          "spoiler_free": "The finale drew the historic 28.371% cable rating as it delivered on the series' central moral question: whether a woman who wins her revenge is truly free. The resolution is deliberately unsentimental, refusing the clean resolution that genre convention would allow.",
+          "the_moment": "The scene between Sun-woo and her son that closes the series - the cost of the preceding sixteen episodes fully visible in a single exchange.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
