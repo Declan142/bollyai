@@ -1,0 +1,105 @@
+{
+  "slug": "yuri-on-ice",
+  "qid": {
+    "value": "Q25104182",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Yuri!!! on Ice",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TV Asahi / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Sports", "Romance", "Drama", "LGBTQ"],
+  "logline": "A Japanese figure skater who collapsed at the Grand Prix Finals returns home in defeat, only to have his idol - five-time world champion Victor Nikiforov - show up at his family's inn and offer to coach him back to the podium.",
+  "poster": {
+    "src": "/img/series/yuri-on-ice/poster.jpg",
+    "alt": "Yuri!!! on Ice poster",
+    "attribution": "Poster © MAPPA / TV Asahi. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 12-episode series concluded in December 2016. The sequel film 'Ice Adolescence' was announced in 2017 and officially cancelled by MAPPA in April 2024 due to creative reasons. No Season 2 has been announced.",
+    "source": "AV Club",
+    "source_url": "https://www.avclub.com/yuri-on-ice-sequel-cancelled-due-to-creative-reasons-instead-of-business-ones-according-to-producer"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-10-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Yuri on Ice holds an IMDb rating of 8.2 and a MAL score of 7.90 from nearly a million users; five of nine Anime News Network reviewers named it the season's best show, and professional figure skaters including Johnny Weir praised it for competitive authenticity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6112556/ratings/"
+      },
+      "review_body": "Yuri on Ice premiered on TV Asahi in October 2016, an original MAPPA series directed by Sayo Yamamoto and written by Mitsuro Kubo. Five of nine Anime News Network reviewers named it the season's best show, and Crunchyroll placed it on its top-25 anime of the 2010s list. Professional figure skater Johnny Weir praised it for its authentic portrayal of competitive anxiety and performance. The series drew widespread critical attention for depicting an explicit same-sex romantic relationship - a public kiss and exchange of rings - unprecedented in a mainstream anime. Critics noted it resisted being categorized as yaoi while still centering the Victor-Yuuri relationship without ambiguity. The series won awards at the Tokyo Anime Award Festival and the Crunchyroll Anime Awards.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Easy as Pirozhki!! The Grand Prix Final of Tears",
+          "air_date": "2016-10-06",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere opens on defeat rather than triumph - Yuuri finishing last at the Grand Prix Final - and spends its first half in the quiet humiliation of returning home. The arrival of Victor at the inn is staged as absurdist comedy before pivoting into something warmer. The skate sequences use animation to capture the kinetic specificity of competitive figure skating.",
+          "the_moment": "Victor appearing at the onsen - the series establishing its romantic premise through physical comedy rather than confession.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "China's on Fire!! Grand Prix Series, Cup of China Free Skate",
+          "air_date": "2016-11-16",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode that catalysed the series' cultural moment - Yuuri's free skate performance of 'Yuri on Ice,' the post-performance embrace with Victor, and the ambiguous moment that became the most-discussed image from any anime in 2016. Critics and audiences processed it as a kiss or near-kiss; the series never clarified and never needed to.",
+          "the_moment": "The post-skate embrace - the moment that made Yuri on Ice a landmark for LGBTQ representation in mainstream anime.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Gotta Super-Supercharge It!! Grand Prix Final Free Skate",
+          "air_date": "2016-12-22",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale delivers Yuuri's final competitive skate and the clearest statement of the Victor-Yuuri relationship the series allows. The resolution is deliberately imperfect in competitive terms while being emotionally complete - a conclusion that critics found earned and satisfying.",
+          "the_moment": "The ring exchange - the series committing to its romantic premise with a gesture that had no equivalent in prior anime.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}

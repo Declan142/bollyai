@@ -1,0 +1,106 @@
+{
+  "slug": "bodies",
+  "qid": null,
+  "title": {
+    "value": "Bodies",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Crime", "Mystery", "Thriller", "Sci-Fi"],
+  "logline": "The same unidentified corpse surfaces in Whitechapel across four time periods - 1890, 1941, 2023, and 2053 - triggering four separate police investigations that gradually reveal a conspiracy engineered through time itself.",
+  "poster": {
+    "src": "/img/series/bodies/poster.jpg",
+    "alt": "Bodies poster",
+    "attribution": "Poster © Netflix / Sid Gentle Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series, completed. Based on Si Spencer's graphic novel. No second season announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bodies_(2023_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-10-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "An 81 percent Rotten Tomatoes score from 27 critics and a 7.3 IMDb rating confirm Bodies as a genuinely inventive genre piece - the four-timeline structure is intellectually satisfying, and Stephen Graham anchors every period with characteristic weight."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 27,
+        "pull_quotes": [
+          {
+            "text": "Bodies is more than able to keep up with the pack - Netflix came for its slice of the quantum physical pie.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2023/oct/19/bodies-review-stephen-grahams-thrilling-cop-drama-leaves-you-wanting-more-and-more-and-more"
+          },
+          {
+            "text": "Bodies is beautifully told - the real test is the capability of its leading cast and whether it gives us some heart.",
+            "source": "Radio Times",
+            "url": "https://www.radiotimes.com/tv/sci-fi/bodies-netflix-stephen-graham-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt18347622/"
+      },
+      "review_body": "Bodies dropped on Netflix on 19 October 2023, adapted from Si Spencer's graphic novel by Paul Tomalin and produced by Sid Gentle Films. The series deploys four detectives across four Londons - 1890 (Kyle Soller as DI Hillinghead), 1941 (Shira Haas as DC Maplewood), 2023 (Amaka Okafor as DS Hasan), and 2053 (Jacob Fortune-Lloyd as DS Weissman) - each investigating the same impossible corpse. Critics approved at 81 percent from 27 reviewers; The Guardian found it more than able to sustain the ambition of its central conceit. Stephen Graham's work across the timelines was singled out as the performance that unified an otherwise segmented narrative. Audience scores at 7.3 on IMDb reflected solid engagement, with genre fans who came via Dark and Cloud Atlas most enthusiastic. The primary critical caveat was the exposition-heavy final episode, which works to collapse the four threads into a single explanation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-10-19",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere introduces all four timelines within a single episode, each anchored to Longharvest Lane and a naked male corpse with a bullet wound. The cross-cutting is disciplined rather than dazzling - Tomalin establishes the rules of the conceit cleanly before the series earns its right to complicate them. Each detective has a distinct register, and the production design work across four distinct period Londons is immediately impressive.",
+          "the_moment": "The fourth-period reveal of the same lane in 2053 - the moment the series announces its full structural ambition.",
+          "critic_note": {
+            "text": "Bodies is more than able to keep up with the pack - Netflix came for its slice of the quantum physical pie.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/tv-and-radio/2023/oct/19/bodies-review-stephen-grahams-thrilling-cop-drama-leaves-you-wanting-more-and-more-and-more"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2023-10-19",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale draws all four timelines into a single explanatory framework, and the exposition required to do so is the season's weakest stretch. Audiences who invested in the character work across the preceding seven episodes will find enough emotional payoff to satisfy; those watching primarily for the puzzle may find the mechanics disappointingly tidy once fully revealed.",
+          "the_moment": "The moment the temporal loop is revealed to be both the crime's cause and its solution - the structural payoff the series spent eight hours earning.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "love-in-the-moonlight",
+  "qid": {
+    "value": "Q23001122",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Love in the Moonlight",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "KBS2",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Historical", "Drama", "Coming of Age"],
+  "logline": "A street-smart young woman disguised as a male eunuch entangles herself with the Joseon Crown Prince - and a coming-of-age romance that will shape a future king.",
+  "poster": {
+    "src": "/img/series/love-in-the-moonlight/poster.jpg",
+    "alt": "Love in the Moonlight poster",
+    "attribution": "Poster © KBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 18 episodes; concluded October 18, 2016. Peak rating of 23.3 percent made it one of the defining historical romances of the decade.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Love_in_the_Moonlight"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 18,
+      "release_date": {
+        "value": "2016-08-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Peak viewership of 23.3 percent and a 7.8 IMDb rating anchor a consensus around the chemistry between Park Bo-gum and Kim You-jung. Rolling Stone India called it one of the best historical K-dramas; critics singled out Park Bo-gum's expressiveness as a career-defining performance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A timeless classic K-drama that looks into the intersection of culture and society while placing an improbable love story at the forefront.",
+            "source": "Rolling Stone India",
+            "url": "https://rollingstoneindia.com/k-drama-flashback-love-in-the-moonlight/amp/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5575678/"
+      },
+      "review_body": "Love in the Moonlight aired August 22 to October 18, 2016, on KBS2 and peaked at 23.3 percent viewership - making it one of the highest-rated Korean dramas of 2016 and a watershed moment for the historical romance genre on cable. The series launched Park Bo-gum to national stardom, with critics isolating his ability to convey the Crown Prince's transition from sheltered heir to emotionally literate young ruler as the show's core achievement. Kim You-jung matched him beat for beat as Hong Ra-on, whose cross-dressing premise provides comic friction before the romance's emotional weight takes over. Rolling Stone India, in a retrospective, named it one of the best historical K-dramas for its attention to the intersection of personal growth and dynastic obligation. The 7.8 IMDb rating reflects a drama that has retained its reputation well beyond its broadcast window.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Moonlight Drawn by Clouds",
+          "air_date": "2016-08-22",
+          "bollymeter": 8.7,
+          "spoiler_free": "The highest-rated individual episode on IMDb at 8.7, the premiere establishes Hong Ra-on's ingenuity and social precarity before her collision with the Crown Prince. The gender-disguise comedy is played with precision and the Joseon court atmosphere is rendered without sacrificing pace. IMDb voters consistently rank this episode among the series' finest hours.",
+          "the_moment": "The first meeting between Ra-on and the Crown Prince - neither knowing who the other is, both immediately off-balance.",
+          "critic_note": null
+        },
+        {
+          "number": 18,
+          "title": "The Path to You",
+          "air_date": "2016-10-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale brings the royal coming-of-age arc and the romance to simultaneous resolution across 18 episodes. At 23.3 percent, this was one of 2016's most-watched broadcast hours and the episode that cemented the series' place in the genre canon. The emotional payoff was broadly judged proportionate to the investment.",
+          "the_moment": "Crown Prince Lee Yeong's final choice - the moment where the distance between personal desire and royal duty collapses.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:20:00+05:30"
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "defendant",
+  "qid": {
+    "value": "Q27881698",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Defendant",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Drama", "Mystery", "Crime", "Psychological"],
+  "logline": "A prosecutor wakes up on death row with no memory of the crime that put him there, and must piece together the truth before his execution - while a corrupt doppelganger has stolen his identity and family.",
+  "poster": {
+    "src": "/img/series/defendant/poster.jpg",
+    "alt": "Defendant poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 18 episodes; concluded March 21, 2017. Ji Sung won the Grand Prize at the 2017 SBS Drama Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Innocent_Defendant"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 18,
+      "release_date": {
+        "value": "2017-01-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Ji Sung's committed lead performance drives this amnesia thriller to consistent ratings above 25 percent nationwide, peaking at 26.6 percent for the finale. Critics praised the propulsive premise while noting the show's reliance on repetitive twist cycles to sustain tension."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A warning sign to the evil and powerful figures of the real world.",
+            "source": "Korea Times",
+            "url": "https://en.wikipedia.org/wiki/Innocent_Defendant"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6256692/"
+      },
+      "review_body": "Defendant aired on SBS from January 23 to March 21, 2017, and became one of that year's dominant ratings performers, consistently exceeding 25 percent viewership and closing with a 26.6 percent nationwide average - the second-highest-rated SBS miniseries of 2017. The premise is a high-concept hook: a prosecutor wakes up as a death row inmate with total amnesia, pursued by a twin who has usurped his life. Ji Sung's dual registers - terrified victim and scheming antagonist, embodied by Um Ki-joon - gave the series its emotional engine. The Korea Times praised it as a real-world allegory for impunity among the powerful. Critics tempered enthusiasm with observations that the narrative recycled its twist mechanics, introducing new revelations on a near-episode basis to maintain momentum rather than deepening character. The 8.0 IMDb rating reflects a thriller that delivered on spectacle and performance while coasting on formula.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-01-23",
+          "bollymeter": 8.2,
+          "spoiler_free": "The cold open drops the viewer into the disorientation alongside Park Jung-woo: a prosecutor in a prison cell, charges he cannot remember, a execution date approaching. The premise is established with economy and the first episode earns its hook - what happened in that gap is a genuine puzzle.",
+          "the_moment": "Park Jung-woo waking up in a death row cell, unable to account for a single night that apparently destroyed his entire life.",
+          "critic_note": null
+        },
+        {
+          "number": 18,
+          "title": "Episode 18",
+          "air_date": "2017-03-21",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale closes out the legal and personal reckoning with a directness the series earned through its sustained tension. Audience engagement peaked here - the finale's 26.6 percent nationwide rating confirmed the show had locked in its viewers across 18 weeks and delivered enough payoff to justify the investment.",
+          "the_moment": "The full truth of what happened that night finally laid bare - the gap in memory that opened episode one filled in at last.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:05:00+05:30"
+}

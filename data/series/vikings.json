@@ -1,0 +1,243 @@
+{
+  "slug": "vikings",
+  "qid": {
+    "value": "Q2579463",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Vikings",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Canada",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "History Channel / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "Action", "Adventure"],
+  "logline": "A Viking farmer-turned-warrior defies his tyrannical chieftain to lead raids westward, charting the Norse conquest of England and France through six generations of bloodshed and ambition.",
+  "poster": {
+    "src": "/img/series/vikings/poster.jpg",
+    "alt": "Vikings poster",
+    "attribution": "Poster © MGM Television / History Channel. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Series concluded after six seasons in March 2021 with the airing of Season 6 Part 2. Creator Michael Hirst wrapped the saga of Ragnar Lothbrok's descendants. A spinoff, Vikings: Valhalla, launched on Netflix in 2022.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vikings_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 9,
+      "release_date": {
+        "value": "2013-03-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An 82% RT debut that critics read as a pleasant surprise - not deep historical drama but compulsively watchable action built on Travis Fimmel's charismatic lead. The world-building is more visceral than scholarly."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A winning combination of action and historical drama that should attract a robust audience.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/vikings-tv-review-424805/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2306299/"
+      },
+      "review_body": "Season 1 arrived in March 2013 on History Channel and earned an 82-percent Rotten Tomatoes score, with critics clustering around the same observation: Michael Hirst's show was not the prestige Norse drama it could have been, but it was startlingly compelling genre entertainment. The Hollywood Reporter called it a winning combination of action and historical drama. Travis Fimmel's Ragnar is the engine - magnetic, feral, and just legible enough to follow across the morally murky raids on England's Lindisfarne. Production shot in Ireland brought visual credibility; the Old Norse dialogue threads added texture without becoming indulgent. The nine-episode order worked in its favour, keeping the pacing tight and the mythology economical.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Rites of Passage",
+          "air_date": "2013-03-03",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the world fast and brutally: Ragnar Lothbrok as farmer-warrior-dreamer, the Norse community's codes of honour and violence, and the central antagonist in Haraldson. The opening battle sequence and Bjorn's coming-of-age ritual make the tonal register immediately clear - this is spectacle with just enough character scaffolding underneath.",
+          "the_moment": "The raid on Lindisfarne - the monks have no frame of reference for men who fight and laugh simultaneously.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 10,
+      "release_date": {
+        "value": "2014-02-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "The series peaked critically here at 93% on RT, deepening the political intrigue and expanding the geography without losing the primal energy that made Season 1 work."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2306299/"
+      },
+      "review_body": "Season 2 secured the series' reputation with a 93-percent Rotten Tomatoes score, and audience ratings on IMDb peaked at 8.5 - a genuine uptick from the debut. The broader canvas of political scheming, alliance-building in England, and the escalating rivalry between Ragnar and King Ecbert gave the writers more to work with than raiding-as-spectacle. Lagertha's exit from Ragnar's household opened a parallel narrative that deepened the show's gender politics beyond the shieldmaiden-as-prop shorthand of Season 1. The battle sequences grew in scale without sacrificing clarity. Critics who had graded the first season as entertaining but thin found the second season substantively richer.",
+      "season_over_season": "The shift from outlaw-raider stakes to dynastic politics gave the show more structural depth; critical and audience scores both jumped meaningfully.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-02-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A 100% RT score on a small sample marks the creative peak: the Paris siege arc delivered the show at its most cinematically ambitious, anchored by Floki's arc and Ragnar's psychological unravelling."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2306299/"
+      },
+      "review_body": "Season 3 earned a perfect Rotten Tomatoes score and represents the series at its most operatic. The siege of Paris is the centrepiece - a genuinely spectacular multi-episode set piece that combined tactical ingenuity with personal cost. Gustaf Skarsgard's Floki reached a breaking point that the season used to interrogate the Norse gods versus Christian God collision at the heart of the saga. Ragnar began his slow disintegration into unpredictability, which the show framed as historical inevitability rather than character collapse. IMDb audience ratings held at 8.5. The season benefited from a tighter episode count and a singular geographic mission that kept narrative sprawl in check.",
+      "season_over_season": "The Paris arc gave Season 3 a centrepiece event that unified the political and spiritual threads better than any prior season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": 20,
+      "release_date": {
+        "value": "2016-02-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The expanded 20-episode format introduced pacing strain, but the season finale delivered the kind of consequence-driven tragedy the saga was always building toward."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2306299/"
+      },
+      "review_body": "Expanded to 20 episodes and split into two halves across 2016 and early 2017, Season 4 maintained strong RT approval at 92 percent but showed the structural cost of doubling episode count without proportionally increasing story. The first half felt padded; the second half was where the season earned its reputation. The finale ranks among the series' defining hours and represents the hinge point between the Ragnar era and the sons-of-Ragnar era. Audience IMDb scores held at 8.5 - the show still delivering emotionally even as the writing took on more water. Critics noted the expansion as a necessary trade-off given History Channel's appetite for more content per season.",
+      "season_over_season": "The 20-episode split format strained pacing, but the second half's payoff justified the investment for most viewers.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2017,
+      "episodes": 20,
+      "release_date": {
+        "value": "2017-11-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The post-Ragnar era generated genuine dramatic opportunities but the writing struggled to consolidate multiple competing arcs; IMDb audience ratings dropped to 8.2, signalling viewer fatigue."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2306299/"
+      },
+      "review_body": "Season 5 maintained a 92-percent Rotten Tomatoes figure on the strength of its ambition, yet the audience told a different story: IMDb ratings fell to 8.2 and the critical approval masked widespread viewer frustration. The post-Ragnar ensemble - Bjorn, Ivar, Ubbe, Hvitserk - splintered the narrative across too many geographies simultaneously. Ivar the Boneless became the breakout antagonist, with Alex Hogh Andersen delivering the season's most electric performances. The civil war arc in Season 5B gave the storyline a clear through-line that the first half lacked. Critics appreciated the structural ambition; audiences wanted the show to find a successor to Ragnar's gravitational pull, and Season 5 only half-delivered that.",
+      "season_over_season": "The handover from Ragnar's era to the sons is the correct dramatic move, but Season 5 spreads the weight unevenly across its expanded cast.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2019,
+      "episodes": 20,
+      "release_date": {
+        "value": "2019-12-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "The final season earned a perfect 100% RT score and delivered a structurally complete ending, though IMDb audience ratings at 7.9 reflected a fanbase that had grown ambivalent after two seasons of narrative sprawl."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2306299/"
+      },
+      "review_body": "Season 6 arrived on History Channel in December 2019 and concluded on Amazon Prime Video in early 2021 with a 100-percent RT score from critics who appreciated the saga's formal closure. The final season brought the Norse expansion arc to the Americas and resolved the Ivar-Bjorn rivalry in terms befitting the saga tradition. IMDb audience scores settled at 7.9, a meaningful drop from the show's peak, reflecting a viewer base that had partly tuned out during Season 5's muddle but returned for the ending. The Part 2 conclusion, exclusive to Amazon for international markets, generated a second wave of appreciation once it became available. Critics noted the series ended better than it had run for two seasons.",
+      "season_over_season": "The finale season partially redeems the sprawl of Seasons 5-6 by delivering closure that feels mythologically earned even if dramatically uneven.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

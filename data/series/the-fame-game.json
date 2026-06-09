@@ -1,0 +1,107 @@
+{
+  "slug": "the-fame-game",
+  "qid": {
+    "value": "Q111018103",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Fame Game",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Mystery", "Thriller", "Biographical"],
+  "logline": "When India's most beloved Bollywood actress vanishes without a trace, investigators peel back the glamorous facade of her life to uncover painful family secrets and hidden enemies.",
+  "poster": {
+    "src": "/img/series/the-fame-game/poster.jpg",
+    "alt": "The Fame Game poster",
+    "attribution": "Poster © Netflix India / Dharmatic Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One season of 8 episodes. Netflix India has not announced a second season and the miniseries format suggests a closed run.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81133092"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-02-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Madhuri Dixit-Nene carries the show on sheer screen presence, but a 50 percent Rotten Tomatoes score from 6 critics and a 6.6 IMDb rating reflect a series that works as a star showcase without cohering as a satisfying thriller."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Dixit and the ensemble cast delivers pitch-perfect family drama.",
+            "source": "India TV",
+            "url": "https://www.indiatv.in/entertainment/web-series/the-fame-game-review-madhuri-dixit-nene-netflix-2022-02-25-828421"
+          },
+          {
+            "text": "What The Fame Game showcases is the depth and marvels of Dixit as she switches between star and human, mother and woman.",
+            "source": "Rediff",
+            "url": "https://www.rediff.com/movies/review/review-the-fame-game/20220225.htm"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9447956/"
+      },
+      "review_body": "Netflix India debuted The Fame Game on 25 February 2022, directed by Bejoy Nambiar and Karishma Kohli. The critical consensus - split evenly at 50 percent on Rotten Tomatoes from six reviewers - was that the show worked best as family drama and struggled as a crime investigation. Madhuri Dixit-Nene's portrayal of superstar Anamika Anand drew near-universal praise, with Rediff noting her fluency in switching between public persona and private suffering. Sanjay Kapoor and Manav Kaul in supporting roles added weight to the family dysfunction at the story's centre. Audience scores at 6.6 on IMDb reflected appreciation for the lead performance but frustration with a mystery that telegraphed its reveals early.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-02-25",
+          "bollymeter": 6.8,
+          "spoiler_free": "The premiere establishes Anamika's glossy public life and her fraught private one with efficiency. Madhuri Dixit commands every frame - the gap between the star she plays and the woman underneath is established through body language before a single line of dialogue about it is spoken.",
+          "the_moment": "The moment Anamika's perfect public smile drops as soon as she is alone - the performance within a performance that grounds the season's central mystery.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2022-02-25",
+          "bollymeter": 6.0,
+          "spoiler_free": "The finale resolves Anamika's disappearance in a manner that prioritises emotional catharsis over procedural rigour. Viewers who invested in the family drama over the mystery will find more satisfaction here than those who expected a tightly plotted thriller payoff.",
+          "the_moment": "The final revelation of where Anamika has been - a choice that divides audiences who wanted a darker resolution.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:05:00+05:30"
+}

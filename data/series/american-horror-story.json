@@ -1,0 +1,215 @@
+{
+  "slug": "american-horror-story",
+  "qid": {
+    "value": "Q53922",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "American Horror Story",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Horror",
+    "Drama",
+    "Thriller",
+    "Supernatural",
+    "Psychological"
+  ],
+  "logline": "Ryan Murphy and Brad Falchuk's FX anthology cycles through a new location, cast and horror subgenre each season, building a shared universe of American dread from haunted houses to asylums to witch covens.",
+  "poster": {
+    "src": "/img/series/american-horror-story/poster.jpg",
+    "alt": "American Horror Story poster",
+    "attribution": "Poster © 20th Television / FX Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 13 confirmed for 2026, with filming beginning April 2026. The series has run continuously since 2011 with over 130 episodes across 12 completed seasons.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/American_Horror_Story"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 12,
+      "release_date": {
+        "value": "2011-10-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Murder House earned 72% on Rotten Tomatoes from 148 critics - strong but divisive - with critics split between those who found its horror-cliche remixing genuinely inventive and those who found the plotting incoherent. Metacritic scored it 62."
+      },
+      "critic": {
+        "positive_pct": 72,
+        "sample": 148,
+        "pull_quotes": [
+          {
+            "text": "Against every single odd, this haunted-Hollywood saga managed to take all the horror cliches in the book and spin a thought-provoking stew of compelling originality.",
+            "source": "Associated Press",
+            "url": "https://www.rottentomatoes.com/tv/american_horror_story/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1844624/ratings/"
+      },
+      "review_body": "American Horror Story: Murder House launched on FX on October 5, 2011 with a concept that seemed too unstable to work: a haunted house drama where every victim becomes a permanent ghost, populating the building with decades of violent history. Critics gave it 72% on Rotten Tomatoes from 148 reviews and 62 on Metacritic - numbers that captured the show's genuine division between admirers and detractors. Admirers cited Ryan Murphy's maximalist energy and the sustained Jessica Lange performance as the ghost of a washed-up actress, which was immediately recognised as Emmy-level work. Detractors argued the plotting was deliberately incoherent. Both were correct, and that tension defined the anthology format Murphy would extend for over a decade.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 13,
+      "release_date": {
+        "value": "2012-10-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "American Horror Story: Asylum earned 84% on Rotten Tomatoes from 220 critics - the highest score among the classic seasons - with a critical consensus that the 1960s mental institution setting unlocked the show's social-horror potential more effectively than any subsequent iteration."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 220,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1844624/ratings/"
+      },
+      "review_body": "Asylum is the season most critics and audiences identify as the peak of American Horror Story. Set in a 1960s Massachusetts psychiatric institution, it achieved 84% on Rotten Tomatoes from 220 critics - the series' strongest critical mark. The season braided together Nazism, demonic possession, alien abduction and serial murder without the seams showing, partly because Murphy and Falchuk kept the character psychology coherent even as the plot went to extremes. Jessica Lange's Sister Jude and James Cromwell's Doctor Arden anchored a season that used the asylum as a metaphor for a society that institutionalises anything it cannot categorise. Audience scores on IMDb placed it at 8.7, higher than Murder House and most subsequent seasons.",
+      "season_over_season": "Discards the domestic haunting of Murder House for institutional horror with real historical grounding; the tonal control is markedly improved and the thematic ambition considerably higher.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 13,
+      "release_date": {
+        "value": "2013-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Coven earned 85% on Rotten Tomatoes from 221 critics - the series' highest critic percentage - with critics citing the ensemble of Lange, Kathy Bates, Angela Bassett and Sarah Paulson as among the finest assemblages of female talent in prestige television."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 221,
+        "pull_quotes": [
+          {
+            "text": "Unlike the series' first two iterations, Coven has finally figured out a way to incorporate feminism convincingly into the DNA of American Horror Story.",
+            "source": "Flavorwire",
+            "url": "https://www.rottentomatoes.com/tv/american_horror_story/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1844624/ratings/"
+      },
+      "review_body": "American Horror Story: Coven scored the series' highest Rotten Tomatoes percentage at 85% from 221 critics, though Metacritic's 71 reflected a more mixed response to what many saw as gleeful entertainment rather than coherent horror. Set in a New Orleans witch school, the season stacked its cast with exceptional female talent - Jessica Lange, Kathy Bates, Angela Bassett, Sarah Paulson, and Gabourey Sidibe in a season that critics read as both a camp delight and a serious engagement with race and gender in American culture. Flavorwire credited it with embedding feminism into the anthology's DNA more convincingly than the previous two seasons. The audience score on IMDb at 8.1 confirmed Coven as the season that attracted the show's largest devoted fanbase.",
+      "season_over_season": "Trades Asylum's institutional dread for New Orleans camp witchcraft; lighter in tone, more overtly feminist in frame, and considerably more accessible to audiences new to the anthology.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2014,
+      "episodes": 13,
+      "release_date": {
+        "value": "2014-10-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Freak Show achieved 75% on Rotten Tomatoes, with critics praising the 1950s carnival setting and Lange's final season as a regular but noting the plotting grew unwieldy in the back half. Kathy Bates and Evan Peters received sustained critical attention."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1844624/ratings/"
+      },
+      "review_body": "Freak Show set its 1950s carnival in Jupiter, Florida and made Jessica Lange's Elsa Mars the emotional centre of her final season as a main cast regular. Critics awarded it 75% on Rotten Tomatoes and noted a first-half stronger than its conclusion. The show's use of anachronistic musical numbers - Lange singing Lana Del Rey, Evan Peters performing David Bowie - divided critics between those who found the genre commentary bracing and those who found the tonal shifts unearned. Kathy Bates as the Bearded Lady and Evan Peters as a hammer-wielding killer delivered performances that audiences consistently rate highly. The season functions as Lange's formal farewell to the franchise she defined.",
+      "season_over_season": "The 1950s period setting and Lange's valedictory turn give Freak Show a nostalgic grandeur Coven's camp register lacked, but the narrative discipline is looser.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-10-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Hotel earned 64% on Rotten Tomatoes from 215 critics and a Metacritic score of 60, with critics split over Lady Gaga's strikingly controlled screen presence against a season many found overcrowded with subplots. Gaga's Golden Globe win validated the performance case."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": 215,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1844624/ratings/"
+      },
+      "review_body": "American Horror Story: Hotel is the season most associated with Lady Gaga, whose portrayal of the blood-drinking Countess at the Hotel Cortez won the Golden Globe for Best Actress in a Limited Series - a casting coup that dominated critical discussion. RT scored it 64% from 215 critics; Metacritic gave it 60. Critics broadly acknowledged that Gaga's cold elegance and self-possession surprised everyone and stole the season from established actors. The season itself was considered the most maximally overcrowded in the anthology's run, with a mythology that accumulated faster than the episodes could resolve it. Audience interest tracked with the Gaga coverage rather than the horror mechanics.",
+      "season_over_season": "Lady Gaga's debut as a series lead displaces Lange's absence effectively on performance terms, but the season's narrative architecture is the most overextended in the franchise to this point.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "when-the-camellia-blooms",
+  "qid": {
+    "value": "Q65247139",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "When the Camellia Blooms",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "KBS2",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Drama", "Thriller", "Slice of Life"],
+  "logline": "A single mother running a bar in a small judgmental town finds an unlikely protector in a cheerful police officer, while a serial killer begins circling her neighbourhood.",
+  "poster": {
+    "src": "/img/series/when-the-camellia-blooms/poster.jpg",
+    "alt": "When the Camellia Blooms poster",
+    "attribution": "Poster © KBS / Pan Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run concluded November 21, 2019. Won Grand Prize at the 56th Baeksang Arts Awards plus Drama of the Year at 2019 KBS Drama Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/When_the_Camellia_Blooms"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 20,
+      "release_date": {
+        "value": "2019-09-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "The second-highest rated Korean drama of 2019 with a peak of 23.8 percent; swept the Baeksang Grand Prize and KBS awards. Critic Jae-Ha Kim praised the show's sensitive treatment of unwed motherhood and the series' layered genre blend of romantic comedy and serial-killer thriller."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "At its core, Camellia is a story of love - not just between a man and a woman, but between parents and their children.",
+            "source": "Jae-Ha Kim",
+            "url": "https://www.jaehakim.com/2019/11/when-the-camellia-blooms/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10826064/"
+      },
+      "review_body": "When the Camellia Blooms aired September 18 to November 21, 2019, on KBS2 and became the second-highest rated Korean drama of the year with an all-episode average of 14.83 percent and a finale peak of 23.8 percent. The Rotten Tomatoes critic aggregate sits at 82 percent. What made the show distinct was its genre audacity: a warm small-town romance about a single mother facing social ostracism ran in parallel with a serial killer storyline targeting the same woman. Critics clustered on the show's warmth and Gong Hyo-jin's performance, which earned her the Grand Prize at the KBS Drama Awards. Kang Ha-neul's guileless police officer became a benchmark for earnest male leads. Jae-Ha Kim, reviewing for Rotten Tomatoes, noted the series' generous treatment of unwed motherhood as one of its defining achievements. The 2019 Baeksang Arts Awards handed the show four prizes, including Grand Prize for Television.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Woman with the Germanium Bracelet",
+          "air_date": "2019-09-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Oh Dong-baek's world with precision: the small town's social hierarchy, the bar, the son, and the low-grade menace surrounding her. Gong Hyo-jin makes the character's guarded warmth legible from the first scene, and the arrival of Hwang Yong-sik announces the tonal blend - absurdist lightness over simmering threat.",
+          "the_moment": "The first glimpse of the town's collective disapproval of Dong-baek, and the way Yong-sik refuses to join it.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Do Miracles Happen?",
+          "air_date": "2019-11-21",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale resolved both the serial killer thread and the romance with a clarity the series had earned over twenty hours. The 23.8 percent peak rating for this episode made it one of 2019's most-watched single broadcast units in Korean television. Reviewers found the ending true to the show's emotional register - a genuine payoff rather than a tidy bow.",
+          "the_moment": "The identity reveal of the killer bringing the thriller thread to a close, leaving the romantic resolution to breathe in the final minutes.",
+          "critic_note": {
+            "text": "Each episode found its focus and finished with a satisfying finale that felt true.",
+            "source": "Jae-Ha Kim",
+            "url": "https://www.jaehakim.com/2019/11/when-the-camellia-blooms/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:10:00+05:30"
+}

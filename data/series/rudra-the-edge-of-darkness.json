@@ -1,0 +1,111 @@
+{
+  "slug": "rudra-the-edge-of-darkness",
+  "qid": {
+    "value": "Q108841520",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Rudra: The Edge of Darkness",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Drama", "Psychological"],
+  "logline": "A brooding Mumbai DCP with a genius for criminal psychology and a talent for crossing lines pursues a series of complex murders in this Indian remake of the BBC's Luther.",
+  "poster": {
+    "src": "/img/series/rudra-the-edge-of-darkness/poster.jpg",
+    "alt": "Rudra: The Edge of Darkness poster",
+    "attribution": "Poster © Disney+ Hotstar / Applause Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One season of 6 episodes released March 4, 2022. No second season has been announced; the format mirrors the limited-run structure of the BBC original.",
+    "source": "Disney+ Hotstar",
+    "source_url": "https://www.hotstar.com/in/tv/rudra-the-edge-of-darkness/s-3146"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-03-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "Ajay Devgn's performance is the reason to watch; Film Companion and other critics found the adaptation too close to a scene-for-scene Luther copy with insufficient cultural rewriting to justify its existence, landing a 6.7 on IMDb."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Rudra remains steadfastly derivative in its vision.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/rudra-series-hotstar-review-ajay-devgn-a-cold-and-uninspired-remake"
+          },
+          {
+            "text": "Rudra is a breath of fresh air and yet, familiar and dramatic and makes me excited to see more of Ajay Devgn in web shows.",
+            "source": "The Quint",
+            "url": "https://www.thequint.com/entertainment/movie-reviews/rudra-the-edge-of-darkness-ajay-devgn-show-full-show-review-disney-hotstar-luther-based-raashi-khanna"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14486948/"
+      },
+      "review_body": "Released simultaneously across all six episodes on Disney+ Hotstar on 4 March 2022, Rudra: The Edge of Darkness is an official remake of the BBC series Luther, transplanted to Mumbai with Ajay Devgn playing DCP Rudraveer Singh opposite Raashii Khanna's morally complex foil. Critical reception split along predictable lines: those unfamiliar with Luther found a watchable, atmospheric crime thriller propelled by Devgn's brooding screen presence; those who knew the original found Film Companion's verdict - steadfastly derivative in its vision - difficult to argue with. The show's central weakness is the lack of cultural translation: it copies Luther's architecture without bending the psychology to fit the Indian setting. IMDb audiences rated it 6.7, reflecting a middle ground between engaged newcomers and disappointed Luther fans.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Khooni Khel",
+          "air_date": "2022-03-04",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere establishes DCP Rudra's methods - psychological acuity deployed without institutional patience - and introduces the season's primary antagonist with a first-scene revelation that mirrors Luther's pilot beat for beat. Ajay Devgn commands the frame; the Mumbai textures, though underutilised, at least give the procedural a local pulse.",
+          "the_moment": "Rudra reading the suspect's body language before a word is spoken - Devgn's best moment of the opener, built from intensity rather than dialogue.",
+          "critic_note": {
+            "text": "Rudra remains steadfastly derivative in its vision.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/rudra-series-hotstar-review-ajay-devgn-a-cold-and-uninspired-remake"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Antim Sach",
+          "air_date": "2022-03-04",
+          "bollymeter": 6.2,
+          "spoiler_free": "The finale resolves Rudra's primary case and gestures toward a second season without fully earning the emotional weight it reaches for. Devgn and Khanna carry the confrontation scenes; the writing lets them down by staying too close to the Luther template rather than finding a conclusion specific to these characters in this city.",
+          "the_moment": "The rooftop standoff - the season's most visually ambitious sequence, and the closest Rudra comes to being its own show.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:10:00+05:30"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "ripley",
+  "qid": {
+    "value": "Q116769269",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ripley",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Crime", "Thriller", "Drama", "Psychological", "Mystery"],
+  "logline": "A small-time New York grifter dispatched to Italy to retrieve a millionaire's wayward son discovers that identity theft, fraud, and murder are a far more elegant career path than honest work.",
+  "poster": {
+    "src": "/img/series/ripley/poster.jpg",
+    "alt": "Ripley poster",
+    "attribution": "Poster © Netflix / Showtime / Doppio Espresso Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Designed as a limited series; further seasons are possible but unconfirmed. Won 4 Emmy Awards including Outstanding Directing for Steven Zaillian and a Peabody Award.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ripley_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-04-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "86 percent on Rotten Tomatoes from 135 critics and an 8.1 on IMDb reflect a sustained critical consensus: Zaillian's black-and-white visual language and Andrew Scott's cold, interior performance constitute the most distinctive American prestige TV of 2024."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 135,
+        "pull_quotes": [
+          {
+            "text": "Tom is utterly charmless - his sociopathic personality and inability to show even a sliver of humanity make Ripley an uncomfortable, somber watch.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/reviews/ripley-tv-review-netflix-series-1235957687/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11016042/"
+      },
+      "review_body": "All eight episodes of Ripley dropped on Netflix on 4 April 2024, written and directed entirely by Steven Zaillian and shot in black and white by cinematographer Robert Elswit. The series is set in 1960s Italy and follows con artist Tom Ripley - played by Andrew Scott - as a murder spree accumulates behind the polished surfaces of the Italian landscape. Critics approved at 86 percent on Rotten Tomatoes from 135 reviewers, with the consensus citing the sumptuous photography and Scott's unsettling, interiority-first performance as the season's twin pillars. Metacritic scored it 76. Even dissenting voices - Variety called Ripley arduous - could not deny the formal rigour. The show won 4 Emmy Awards including Outstanding Limited Series Direction, and a Peabody Award. Audience scores at 8.1 on IMDb confirmed wide viewer engagement.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I A Hard Man to Find",
+          "air_date": "2024-04-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Ripley's world in near-silence - a grifter in a walk-up apartment, a job offer he cannot refuse, and a first-class flight that rearranges his ambitions completely. Elswit's black-and-white photography of New York and then Naples makes every frame feel like a crime scene before any crime has occurred.",
+          "the_moment": "Ripley's first sight of Dickie Greenleaf's life in Atrani - the precise moment the con man decides he wants to become rather than merely rob.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "IV La Dolce Vita",
+          "air_date": "2024-04-04",
+          "bollymeter": 9.0,
+          "spoiler_free": "The season's pivot episode, in which Ripley's improvised solutions calcify into something more deliberate and sinister. The extended sequence on water is the show at its most formally controlled - Zaillian holds shots far beyond comfort, and Andrew Scott fills the silence with a stillness that conveys more than any monologue.",
+          "the_moment": "A boat on flat Italian water, an argument that goes wrong, and the cut that follows - the moment the series stops being a con-artist story.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "VIII Narcissus",
+          "air_date": "2024-04-04",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale closes Ripley's Italian chapter with a last-act image of perfect composition: the grifter surrounded by art, entirely alone, having acquired everything except the ability to inhabit it. Zaillian refuses catharsis or punishment, and the refusal feels like the most honest conclusion available.",
+          "the_moment": "The final image of Ripley among the masterworks - a composition that summarises the season's argument about identity, theft, and emptiness.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:15:00+05:30"
+}

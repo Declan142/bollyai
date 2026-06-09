@@ -1,0 +1,106 @@
+{
+  "slug": "my-perfect-stranger",
+  "qid": {
+    "value": "Q114616573",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Perfect Stranger",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "KBS2",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Mystery", "Romance", "Drama", "Thriller"],
+  "logline": "A news anchor investigating a 1987 serial murder and a woman trying to prevent her parents' doomed marriage are thrown back in time together - and discover their missions are entangled.",
+  "poster": {
+    "src": "/img/series/my-perfect-stranger/poster.jpg",
+    "alt": "My Perfect Stranger poster",
+    "attribution": "Poster © KBS / Arc Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes; concluded June 20, 2023. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_Perfect_Stranger"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-05-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "An 8.0 IMDb score and an enthusiastic reception from K-drama communities reflect a show whose emotional sincerity and consistent pacing outweigh its modest production values. The Fangirl Verdict graded it B++ for staying heartfelt from start to finish."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A surprisingly engaging, heartfelt time travel mystery that stays nicely consistent, from start to finish.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2023/07/24/review-my-perfect-stranger/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26351388/"
+      },
+      "review_body": "My Perfect Stranger aired May 1 to June 20, 2023, on KBS2, averaging 4.4 percent nationwide - modest for linear broadcast but with a disproportionate online following that built through Kocowa, Viki, and Viu. The time-travel premise is used to serve two emotional tracks simultaneously: a murder mystery set in 1987 and a daughter's attempt to rewrite a painful family history. Kim Dong-wook and Jin Ki-joo earned wide praise for their chemistry. The Fangirl Verdict awarded a B++ and specifically called out the mother-daughter relationship as the show's emotional core - an element reviewers found more affecting than the procedural spine. Critics with reservations noted the time-travel logic occasionally strained and the serial killer plot was resolved with less rigor than it promised. The 8.0 IMDb score places it among the better-regarded KBS2 dramas of 2023.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "My Perfect Stranger",
+          "air_date": "2023-05-01",
+          "bollymeter": 8.9,
+          "spoiler_free": "The highest-rated episode in the series on IMDb at 8.9, the premiere executes the time-travel setup with clarity and establishes the two leads' mismatched objectives before dropping them both into 1987. The period atmosphere is sketched without nostalgia tourism, and the structural conceit - two strangers with secretly overlapping missions - generates immediate narrative energy.",
+          "the_moment": "The moment both characters realise their objectives in 1987 are not as separate as each assumed.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "The Reason You Can't Leave",
+          "air_date": "2023-06-20",
+          "bollymeter": 8.1,
+          "spoiler_free": "The finale ties together the serial killer resolution and the family history threads. The Fangirl Verdict's observation that the show manages to finish strong is borne out by audience engagement: the final episode accumulated IMDb ratings (8.1) above the series average, suggesting viewers who stayed were rewarded rather than disappointed.",
+          "the_moment": "Yoon Young's final conversation with Soon-ae - the moment the family thread finds its resolution and the show earns the emotional ground it has been laying since episode one.",
+          "critic_note": {
+            "text": "Show more than makes up for its shortcomings with how much heart it has, and manages to finish strong.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2023/07/24/review-my-perfect-stranger/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}

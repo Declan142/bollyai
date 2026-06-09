@@ -1,0 +1,96 @@
+{
+  "slug": "forecasting-love-and-weather",
+  "qid": {
+    "value": "Q107343177",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Forecasting Love and Weather",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Drama", "Comedy", "Slice of Life"],
+  "logline": "Two meteorologists at South Korea's weather agency - a rule-bound senior and her free-spirited junior - fall into a workplace romance while navigating the storms of past betrayals and professional rivalries.",
+  "poster": {
+    "src": "/img/series/forecasting-love-and-weather/poster.jpg",
+    "alt": "Forecasting Love and Weather poster",
+    "attribution": "Poster © JTBC Studios / Npio Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run of 16 episodes; concluded April 3, 2022. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Forecasting_Love_and_Weather"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 16,
+      "release_date": {
+        "value": "2022-02-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "Appealing workplace-romance premise with a strong Park Min-young performance, but critics noted tonal inconsistency and uneven writing dragged the execution below its concept. IMDb consensus sits at 7.1, reflecting a charming but flawed run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15140592/"
+      },
+      "review_body": "Premiering February 12, 2022, on JTBC and streaming simultaneously on Netflix, Forecasting Love and Weather spent six consecutive weeks in Netflix's Global Top 10 for international TV - a commercial signal that its office-romance formula found a broad audience. Critics and viewers split, however, on whether it delivered on that promise. The concept - mapping romantic turbulence onto weather phenomena at South Korea's meteorological agency - drew consistent praise for freshness and for Park Min-young's timing. The execution attracted sharper criticism: reviewers flagged shifting tonal registers (procedural, melodrama, romcom) that never cohered, and a central romance that took time to generate heat. The 7.1 IMDb rating reflects the consensus: likable and occasionally sharp, but not fully weather-proof.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Signal",
+          "air_date": "2022-02-12",
+          "bollymeter": 7.6,
+          "spoiler_free": "The premiere establishes Jin Ha-kyung as a precision-obsessed forecaster whose personal life is as controlled as her workstation, before an unforecast hailstorm - and a disruptive new transfer - cracks the surface. Efficient world-building; the meteorological workplace feels genuinely observed rather than set-dressed.",
+          "the_moment": "The KMA team scrambles to account for a hailstorm their models missed - the show's thesis on imperfect predictions landing right in episode one.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Tomorrow's Answers",
+          "air_date": "2022-04-03",
+          "bollymeter": 8.4,
+          "spoiler_free": "The finale resolves the central relationship with the same methodical patience the series brought to its weather metaphors - earned rather than rushed. Audiences responding warmly on IMDb (episode 16 among the season's highest-rated hours) suggests the payoff landed for those who stayed through the mid-season sag.",
+          "the_moment": "A final forecast that doubles as a statement of intent for the two leads - the show's central conceit brought to a satisfying close.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "twin-peaks",
+  "qid": {
+    "value": "Q2085",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Twin Peaks",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ABC / Showtime",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Drama",
+    "Supernatural",
+    "Thriller",
+    "Crime"
+  ],
+  "logline": "FBI Special Agent Dale Cooper arrives in the eerie Pacific Northwest town of Twin Peaks to investigate the murder of homecoming queen Laura Palmer, only to find a community hiding secrets far stranger than any crime.",
+  "poster": {
+    "src": "/img/series/twin-peaks/poster.jpg",
+    "alt": "Twin Peaks poster",
+    "attribution": "Poster © Lynch/Frost Productions / ABC / Showtime. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by ABC after Season 2 in 1991; revived 26 years later as an 18-part limited series on Showtime in 2017. No further continuation has been confirmed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Twin_Peaks"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1990,
+      "episodes": 8,
+      "release_date": {
+        "value": "1990-04-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "An era-defining debut that rewired network television. Critics awarded 91% on Rotten Tomatoes (118 reviews) and a perfect 96/100 on Metacritic, citing Lynch and Frost's fusion of soap opera, horror and surrealist noir as something the medium had never attempted."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 118,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0098936/ratings/"
+      },
+      "review_body": "Twin Peaks Season 1 premiered on ABC on April 8, 1990 and immediately fractured every expectation audiences had of network television. The eight-episode first run earned 91% on Rotten Tomatoes from 118 critics and a 96/100 on Metacritic - figures that still stand among the highest in television history. Critics pointed to Kyle MacLachlan's Agent Cooper as an anchor of eccentric warmth holding the surrealism in place, while the soap-opera daytime-drama pastiche under the horror surface gave the show its uniquely destabilising texture. Audiences were gripped: the question of who killed Laura Palmer became a national obsession before social media, driven entirely by water-cooler conversation. The season functions as a near-perfect act of genre alchemy.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "1990-04-08",
+          "bollymeter": 9.5,
+          "spoiler_free": "The feature-length pilot opens on the plastic-wrapped body of Laura Palmer washing up on the shore of a Pacific Northwest lake. What follows is 94 minutes of controlled disorientation: an entire town's social fabric peeled back one eccentric character at a time, while Cooper dictates memo after memo into his cassette recorder for Diane. The tonal range - grief, deadpan comedy, genuine dread - established a template television is still borrowing from.",
+          "the_moment": "Cooper's first entry into the Great Northern Hotel lobby, and his unshakeable delight at the Douglas firs - the moment the audience understands this will not be a conventional detective show.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Zen, or the Skill to Catch a Killer",
+          "air_date": "1990-04-19",
+          "bollymeter": 9.4,
+          "spoiler_free": "The episode that introduced the Red Room sequence and Cooper's Black Lodge dream, cementing Twin Peaks as something genuinely new. Lynch directed this hour himself, and the backward-talking Man from Another Place and the dancing woman in red became the show's most iconic images. Critics have retrospectively identified this episode as the moment the show declared its full surrealist ambition.",
+          "the_moment": "Cooper wakes from the Red Room dream with the killer's name on his lips - television's most discussed cliffhanger of its decade.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1990,
+      "episodes": 22,
+      "release_date": {
+        "value": "1990-09-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Rotten Tomatoes sits at 65% for a season widely agreed to have lost its way after the Laura Palmer resolution in episode 7, with critics noting a creative vacuum that Lynch and Frost filled with increasingly meandering subplots."
+      },
+      "critic": {
+        "positive_pct": 65,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0098936/ratings/"
+      },
+      "review_body": "Season 2 is Twin Peaks at its most uneven. The 22-episode run opens with a rattlesnake-tense resolution to the Palmer mystery, then staggers through a mid-section - widely attributed to Lynch and Frost's reduced involvement - that critics and audiences have consistently identified as the show's weakest stretch. Rotten Tomatoes sits at 65%. Network pressure to reveal the killer early stripped the show of its central mystery engine, and the replacement plots (a Civil War ghost, a Miss Twin Peaks contest, James Hurley's ill-fated road trip) rarely found equivalent dramatic weight. The season recovers spectacularly in its final two episodes, which Lynch directed personally - ending on one of the most harrowing cliffhangers in television history and suggesting what a more coherent season could have been.",
+      "season_over_season": "Loses the tightly coiled mystery architecture of Season 1 after the Palmer case resolves midway; patchy middle section is the agreed low point of the original run.",
+      "episode_reviews": [
+        {
+          "number": 29,
+          "title": "Beyond Life and Death",
+          "air_date": "1991-06-10",
+          "bollymeter": 9.6,
+          "spoiler_free": "Lynch returns to direct the Season 2 finale, pulling the show back to its Black Lodge mythology with full force. The Red Room sequences here are among the most unsettling twenty minutes in broadcast television history. After a second season that frequently let down its audience, this hour is a reminder of exactly what the show was capable of at full power.",
+          "the_moment": "Cooper's final encounter in the Black Lodge - the image that ended the original run and would not be resolved for 26 years.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 18,
+      "release_date": {
+        "value": "2017-05-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Twin Peaks: The Return earned 94% on Rotten Tomatoes from 461 critics - one of the largest and most positive samples for any prestige drama - with IndieWire calling it 'a meteor' for the medium and the NYT's James Poniewozik noting its capacity to consistently produce images television had never seen before."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 461,
+        "pull_quotes": [
+          {
+            "text": "'Twin Peaks: The Return' feels like another moment of reckoning for the medium - another meteor. Where do we go from here?",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/features/general/twin-peaks-2017-the-return-everything-we-know-david-lynch-dougie-1201853519/"
+          },
+          {
+            "text": "The Return made me say - over and over - 'I've never seen that before.'",
+            "source": "The New York Times",
+            "url": "https://www.nytimes.com/2017/09/01/arts/television/twin-peaks-the-return-review-finale.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4093826/ratings/"
+      },
+      "review_body": "Twenty-six years after ABC cancelled the original run, Showtime handed David Lynch 18 uninterrupted hours and zero creative oversight. The result is Twin Peaks: The Return - 94% on Rotten Tomatoes from 461 critics, one of the largest positive samples ever assembled for a prestige drama. Critics called it an auteurist triumph, a formal experiment that functioned simultaneously as a continuation, a deconstruction and a cinematic installation. The Log Lady returns. Agent Cooper spends the better part of 10 episodes as Dougie Jones, and critics and audiences divided sharply on how long they were prepared to wait. Part 8 - structured around a nuclear explosion and the birth of evil - received near-universal recognition as one of the most formally audacious hours of television ever produced. The finale split its audience precisely as Lynch intended.",
+      "season_over_season": "The Return abandons Season 2's network compromise and operates as a 18-hour art film; far less conventionally satisfying than Season 1 but almost certainly more important.",
+      "episode_reviews": [
+        {
+          "number": 8,
+          "title": "Part 8",
+          "air_date": "2017-06-25",
+          "bollymeter": 10.0,
+          "spoiler_free": "Part 8 is the episode that most challenged what television is permitted to do. A nuclear test in 1945. A vast, silent void. The birth of something monstrous. Lynch uses the hour to construct a creation myth for the entire series in pure image and sound - no dialogue for long stretches, no narrative scaffolding. Critics and academics have written more about this single episode than most entire series receive.",
+          "the_moment": "The Nine Inch Nails performance at the Roadhouse transitioning into the nuclear explosion sequence - the moment the show declared itself to be something beyond television.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "emily-in-paris",
+  "qid": {
+    "value": "Q64584978",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Emily in Paris",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Comedy", "Romance", "Drama"],
+  "logline": "A Chicago marketing executive relocates to Paris for work and stumbles through French culture with relentless American positivity - a show whose critics and its audience have never quite agreed on whether that is funny or insufferable.",
+  "poster": {
+    "src": "/img/series/emily-in-paris/poster.jpg",
+    "alt": "Emily in Paris poster",
+    "attribution": "Poster © Netflix / Darren Star Productions / Paramount Television Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "final-season",
+    "note": "Season 5 aired December 2025. Season 6 has been announced as the final series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Emily_in_Paris"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-10-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "A 61% RT score from 57 critics and a 58 Metacritic both signalled mixed reception; French critics called the show's portrait of Paris embarrassing while Hollywood Reporter found it strikingly watchable escapism - two readings that are both accurate."
+      },
+      "critic": {
+        "positive_pct": 61,
+        "sample": 57,
+        "pull_quotes": [
+          {
+            "text": "Strikingly watchable, an escapist confection brimming with easily digestible plots, costumes and characters.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/review/emily-in-paris-tv-review"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8962124/"
+      },
+      "review_body": "Emily in Paris launched on Netflix on 2 October 2020 and immediately became one of the most argued-about shows on the platform - not because critics and audiences agreed on its quality but because they disagreed so specifically. The 61-percent Rotten Tomatoes score from 57 critics and a 58 Metacritic reflected the split: Hollywood Reporter found it strikingly watchable escapist fantasy; French critics called the show's portrait of Parisian life embarrassing in its stereotyping. Lily Collins carries the show on charm and wardrobe alone, which is not enough for the critics who wanted satire and exactly enough for the viewers who watched three seasons in a week. Darren Star's formula - successful-woman-in-glamorous-city from Sex and the City - was visibly the template, Paris substituting New York's textures. The show entered Netflix's all-time viewership conversations within weeks.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Emily in Paris",
+          "air_date": "2020-10-02",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere establishes every element the show will live or die by: Lily Collins as Emily, the Paris look, the cross-cultural comedy of errors, the love triangle scaffolding. It is efficient, visually confident, and morally uncomplicated. Whether those qualities constitute a recommendation depends entirely on what kind of viewing session is required.",
+          "the_moment": "Emily's first day at Savoir, surrounded by French colleagues who view her arrival as an insult - the show's comic premise crystallised into one office scene.",
+          "critic_note": {
+            "text": "Strikingly watchable, an escapist confection brimming with easily digestible plots, costumes and characters.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/review/emily-in-paris-tv-review"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-12-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "61% on RT with a Metacritic of 64 - the show held its audience without convincing its critics; the love triangle complications gave the season's defenders more to work with but did not change the fundamental dynamic."
+      },
+      "critic": {
+        "positive_pct": 61,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8962124/"
+      },
+      "review_body": "Season 2 arrived on 22 December 2021 with the same critical reception as Season 1: a 61-percent Rotten Tomatoes score and a Metacritic of 64 from 11 critics indicating generally favourable but not enthusiastic approval. The season expanded Emily's personal entanglements - the Alfie arrival complicated the existing love triangle, and the Camille-Emily-Gabriel dynamic added some genuine emotional texture under the couture surface. Audience ratings on IMDb ticked up slightly, indicating the core viewership was more satisfied than the critics. The show was by this point operating as a brand rather than a drama - its audience returning for the Paris photography, the outfits, and the consequence-free romantic shuffling - and critics who had made their peace with that framework found the season functional.",
+      "season_over_season": "Season 2 expands the romantic complications without expanding the show's emotional range; audience satisfaction held while critical enthusiasm remained measured.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-12-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.3,
+        "basis": "67% on RT - a slight uptick as critics credited the season with more dramatic ambition, though Metacritic at 54 registered the mixed-average consensus that has defined the show throughout."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8962124/"
+      },
+      "review_body": "Season 3 dropped on 21 December 2022 with a 67-percent Rotten Tomatoes score, a modest improvement that critics attributed to the show attempting some genuine dramatic stakes - career decisions with real consequences, the Emily-Gabriel resolution forced into a less comfortable configuration than prior seasons allowed. Metacritic at 54 held the mixed-average critical picture. Audience IMDb scores continued tracking slightly above the critical scores, the consistent pattern across all Emily in Paris seasons: its viewers are more satisfied than its reviewers. The season moved part of the action to Rome, adding a fresh geographic canvas. Critics who found the show's uncritical relationship with its protagonist's behaviour fundamentally limiting still found nothing in Season 3 to revise that view.",
+      "season_over_season": "Season 3 introduces slightly more dramatic consequence to the romantic decisions and earns a modest critical improvement without resolving the show's fundamental critical-audience divide.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-08-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.3,
+        "basis": "68% on RT from 37 critics - the highest for any season but anchored by a 47 Metacritic from 13 critics suggesting the most mixed critical response despite the RT improvement; the show's audience-versus-critic gap widened to its most pronounced."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 37,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8962124/"
+      },
+      "review_body": "Season 4 was released in two parts beginning 15 August 2024 and earned 68 percent on Rotten Tomatoes from 37 critics - the series' highest RT score - while simultaneously registering a 47 Metacritic from 13 critics, its worst. The split tracked a critical population divided between reviewers who had decided to meet the show on its own terms and those who found Season 4's romantic shuffling increasingly arbitrary. The overall RT score across four seasons settled at 63 percent, with a 49-percent audience Popcornmeter suggesting the long-term audience had grown as ambivalent as the critics. Collider noted the show's renewal as a Netflix structural decision, not a quality one. The Parisian setting, the fashion sequences, and Lily Collins' wardrobe remained the show's most consistent achievements.",
+      "season_over_season": "Season 4 posts the show's highest RT score while also its lowest Metacritic, reflecting a critical audience that has definitively split on the show's merits.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:25:00+05:30"
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "the-outsider",
+  "qid": {
+    "value": "Q59622879",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Outsider",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Horror",
+    "Mystery",
+    "Drama",
+    "Supernatural"
+  ],
+  "logline": "When a brutal child murder is pinned on a beloved small-town baseball coach whose alibi is airtight, detective Ralph Anderson must confront the possibility that the killer is something the law cannot prosecute.",
+  "poster": {
+    "src": "/img/series/the-outsider/poster.jpg",
+    "alt": "The Outsider poster",
+    "attribution": "Poster © HBO / Aggregate Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "HBO passed on a second season in November 2020, leaving the series as a standalone limited adaptation of Stephen King's 2018 novel. Richard Price adapted the novel; Jason Bateman directed the first two episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Outsider_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-01-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% on Rotten Tomatoes from 75 critics and a Metacritic score of 68 reflected strong critical enthusiasm for the performances and atmosphere alongside consistent notes about the adaptation's pacing issues in its back half - a common King-adaptation problem."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 75,
+        "pull_quotes": [
+          {
+            "text": "The Outsider pulls off a remarkable high-wire balancing act - it's classic King, this eruption of the otherworldly in the midst of Middle American normality.",
+            "source": "The Age",
+            "url": "https://www.rottentomatoes.com/tv/the_outsider/s01"
+          },
+          {
+            "text": "The whirlingly macabre, ruthlessly tense, and transfixingly spooky mood of The Outsider makes the mini-series a must-see.",
+            "source": "Pajiba",
+            "url": "https://www.rottentomatoes.com/tv/the_outsider/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8550800/ratings/"
+      },
+      "review_body": "The Outsider premiered on HBO on January 12, 2020, adapting Stephen King's 2018 novel through Richard Price's screenplay with Jason Bateman directing the first two episodes and starring. Critics awarded it 91% on Rotten Tomatoes from 75 reviews, with the consensus acknowledging a slow burn not always satisfying but redeemed by excellent performances - particularly Cynthia Erivo's private investigator Holly Gibney, who became the season's critical favourite. The 68 Metacritic score and 7.6 IMDb rating captured a show that opened with genuine procedural confidence before the supernatural elements created division: critics who accepted the genre blend on King's terms found a genuinely unsettling 10-hour experience; those who wanted the police procedural maintained through the finale found the pivot frustrating. Ben Mendelsohn's controlled grief performance and Bateman's direction in the early episodes were cited without dissent.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Fish in a Barrel",
+          "air_date": "2020-01-12",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the central paradox with procedural confidence: a crime with overwhelming forensic evidence pointing to one man, and an alibi that makes that same man completely impossible as a suspect. Jason Bateman directs with a Fincher-influenced restraint, and the small-town Georgia atmosphere is built with documentary precision. The episode plays as a high-quality crime drama before the series' supernatural register asserts itself.",
+          "the_moment": "The arrest of Terry Maitland at a little league game in front of the entire town - a scene of public humiliation whose violence is in the look on his face, not in what is being done to him.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Roanoke",
+          "air_date": "2020-01-19",
+          "bollymeter": 8.3,
+          "spoiler_free": "The second episode deepens the impossible contradiction at the show's centre and begins the slow introduction of the supernatural framework. Bateman again directs; the atmosphere is sustained at the same pitch as the premiere. The episode lands the series' central thesis before the subsequent instalments spread across a wider canvas.",
+          "the_moment": "The discovery that Terry Maitland cannot be in two places at once - and that both of those impossibilities are documented.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

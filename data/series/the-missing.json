@@ -1,0 +1,123 @@
+{
+  "slug": "the-missing",
+  "qid": {
+    "value": "Q16203903",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Missing",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Starz",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Thriller", "Drama", "Psychological"],
+  "logline": "An anthology crime series in which each self-contained season follows a different disappearance case, with French detective Julien Baptiste threading the two narratives together across years and borders.",
+  "poster": {
+    "src": "/img/series/the-missing/poster.jpg",
+    "alt": "The Missing poster",
+    "attribution": "Poster © BBC One / New Pictures / Two Brothers Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded in 2016. The Baptiste character received his own BBC One spinoff series, Baptiste, which ran for two series (2019, 2021).",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Missing_(British_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 8,
+      "release_date": {
+        "value": "2014-10-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A 91% RT score from 32 critics and an 89% audience score aligned behind the same qualities: Nesbitt's devastating performance and Harry and Jack Williams' time-bending structure that made a familiar premise feel genuinely urgent."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 32,
+        "pull_quotes": [
+          {
+            "text": "An engaging and haunting eight-part series - a remarkable piece of television.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/missing-tv-review-748786/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3877200/"
+      },
+      "review_body": "Season 1 premiered on BBC One in October 2014 and reached a 91-percent Rotten Tomatoes score from 32 critics. The Williams brothers' structure - intercutting between 2006, when five-year-old Oliver Hughes disappeared in a French market town, and 2014, when his father Tony is still searching - gave the familiar missing-child premise a formal architecture that sustained dread across eight hours. James Nesbitt's performance as Tony Hughes is the critical centrepiece: a man dismantled by grief, by guilt, and by the refusal to stop. Tcheki Karyo as detective Julien Baptiste brought a counterweight of weary procedural intelligence. Variety called it Starz's most compelling programme to date. The Guardian described it as hauntingly brilliant television. The audience score of 89% on Rotten Tomatoes and IMDb ratings around 8.4 confirmed the critical read.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Eden",
+          "air_date": "2014-10-28",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes both timelines simultaneously - 2006 and 2014 - with the structural ingenuity that makes the season work. Tony Hughes in both frames is unmistakably the same man shaped differently by loss. The French small-town setting builds atmosphere without picturesque comfort; this is a landscape associated only with the worst day of a father's life.",
+          "the_moment": "The market square moment where Oliver simply vanishes - filmed with almost no dramatic punctuation, which makes it more disturbing than any manufactured shock.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 8,
+      "release_date": {
+        "value": "2016-10-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "A 96% RT score on 26 reviews, with the critical consensus noting that the anthology structure liberated Season 2 to be formally bolder - the time-jumping is more aggressive, the reveals darker, and David Morrissey and Keeley Hawes anchor it with equal weight to Nesbitt's Season 1 performance."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 26,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3877200/"
+      },
+      "review_body": "Season 2 aired on BBC One from October 2016 with a new case - a British soldier's daughter reported missing in Germany - and earned a 96-percent Rotten Tomatoes score from 26 critics, improving on Season 1's already strong approval. David Morrissey and Keeley Hawes as the parents replaced Nesbitt and Frances O'Connor but maintained the weight of the central relationship. The Williams brothers' time-structure grew more complex and more confident; this season jumps across multiple years with less expository scaffolding, trusting the audience to locate themselves in each cut. Tcheki Karyo's Baptiste remained the connective tissue and earned enough audience affection to generate his own spinoff. Critics highlighted that the anthology format was not a compromise but an upgrade - Season 2 feels like the show knowing exactly what it is.",
+      "season_over_season": "The anthology reset allowed Season 2 to take the structural boldness further; critical reception improved and audience scores matched Season 1's level.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:10:00+05:30"
+}

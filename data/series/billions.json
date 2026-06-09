@@ -1,0 +1,284 @@
+{
+  "slug": "billions",
+  "qid": {
+    "value": "Q20656755",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Billions",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Crime",
+    "Legal",
+    "Thriller",
+    "Psychological"
+  ],
+  "logline": "New York US Attorney Chuck Rhoades and hedge fund king Bobby Axelrod run a high-stakes game of legal chess, each willing to torch their own ethics to destroy the other before the other destroys them.",
+  "poster": {
+    "src": "/img/series/billions/poster.jpg",
+    "alt": "Billions poster",
+    "attribution": "Poster © Showtime Networks / Jax Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Ran seven seasons on Showtime from January 2016 to October 2023, concluding with 84 total episodes. Season 7 was announced as the final season in February 2022. Damian Lewis departed after Season 5; Corey Stoll joined the cast in Season 6.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Billions_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-01-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "A 77% Rotten Tomatoes score from 134 critics and a Metacritic of 69 captured a divided press: most acknowledged the MacLachlan-level star power of Giamatti and Lewis and the pleasure of the combat, while questioning whether the show had anything to say about Wall Street beyond dramatising its excess."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 134,
+        "pull_quotes": [
+          {
+            "text": "Full of delicious twists and turns, Billions is a juicy melodrama that delights in poking fun at the lifestyles of the rich.",
+            "source": "USA Today",
+            "url": "https://www.rottentomatoes.com/tv/billions/s01"
+          },
+          {
+            "text": "Billions excels most at painting a compelling portrait of how powerful men - and the women behind them - move the world.",
+            "source": "NPR",
+            "url": "https://www.rottentomatoes.com/tv/billions/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "Billions launched on Showtime on January 17, 2016 with the single most powerful casting argument of the television year: Paul Giamatti as a morally compromised US Attorney and Damian Lewis as the hedge fund king he is trying to destroy. Critics awarded it 77% on Rotten Tomatoes from 134 reviews and a Metacritic of 69, with the consensus noting the soapy melodrama as a feature rather than a flaw if approached with the right expectations. USA Today called it full of delicious twists; NPR credited it with painting a compelling portrait of power's mechanics. Variety praised Lewis as turning in some of his best work post-Homeland. The financial world detail was authentic enough to hold but never so technical as to exclude general audiences.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2016-01-17",
+          "bollymeter": 8.0,
+          "spoiler_free": "The pilot establishes the Chuck-Axe combat engine with full efficiency: a BDSM scene that immediately declares the show's willingness to transgress, a wiretap investigation that maps the legal cat-and-mouse, and two lead performances of extraordinary containment. The first hour does not waste a minute establishing the show's pleasure principle.",
+          "the_moment": "The first scene - played entirely for character revelation rather than shock value - signals that Billions will be smarter about its provocations than its premise implies.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-02-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "89% on Rotten Tomatoes marked critical recognition that the second season improved on the first, introducing new characters and a narrative twist that refreshed the central antagonism."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "Season 2 jumped to 89% on Rotten Tomatoes as critics recognised the show finding its rhythm. The introduction of new characters expanded the world beyond the two leads without diluting the central combat, and the narrative twist that shifted the power balance mid-season was cited as a sign of creative confidence. Axe Capital's internal politics grew more interesting as the season progressed, and Taylor Mason's introduction - a non-binary analyst played by Asia Kate Dillon - was handled with the same sharp-elbowed intelligence the show applied to its financial material. Critics noted the show running faster and more inventively than Season 1.",
+      "season_over_season": "New characters and a shifted power axis give Season 2 more structural variety than the first season's sustained two-man siege.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 12,
+      "release_date": {
+        "value": "2018-03-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "93% on Rotten Tomatoes and Metacritic's 77 confirmed Season 3 as the creative peak of the Giamatti-Lewis era, with the central antagonism temporarily suspended in favour of an uneasy alliance that critics found more dramatically interesting than the straight combat."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "Season 3 is the critical peak of the Giamatti-Lewis era at 93% Rotten Tomatoes and Metacritic 77, with the consensus credited to a structural gamble: Chuck and Axe stop fighting each other and form a tactical alliance, which critics found more dramatically complex than the head-to-head combat of the first two seasons. The greed, power and competition fable the show always wanted to be became most visible in this configuration. The writing grew sharper in its financial satire, and the supporting cast - particularly Asia Kate Dillon's Taylor - was given room to develop ambitions that would reshape the series beyond Season 5.",
+      "season_over_season": "The Chuck-Axe alliance radically reconfigures the show's engine; critics responded to the structural risk with the strongest approval the original lineup would receive.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-03-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "97% on Rotten Tomatoes - the series' highest mark - and Metacritic's 87 placed Season 4 in universal acclaim territory, with the Taylor Mason vs Axe Capital civil war delivering the most exciting narrative construction in the show's run."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "Season 4 is the formal peak of Billions by critical consensus: 97% on Rotten Tomatoes and 87 on Metacritic placed it in near-universal acclaim. Taylor Mason's defection from Axe Capital to launch a rival fund gave the season a three-way antagonism - Chuck vs Axe vs Taylor - that the writing exploited with wit and economy. Critics called it a season of sharp dialogue, better rivalries and bigger stakes. Asia Kate Dillon's Taylor became a fully realised third lead, and the Showtime drama justified its reputation as the most consistently entertaining premium cable offering of its type.",
+      "season_over_season": "The Taylor defection opens a three-front war that Season 3's alliance hinted at; the most formally constructed season in the show's run.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-05-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "91% on Rotten Tomatoes for a split season (7 episodes in 2020, 5 in 2021 after COVID disruption) that also marked Damian Lewis's final season - his departure reshaped the show's identity for the subsequent two seasons."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "Season 5 aired across two COVID-disrupted parts in 2020 and 2021. Critics gave it 91% on Rotten Tomatoes, though the split run diminished narrative momentum. More consequentially, this marked Damian Lewis's final season as Bobby Axelrod - a departure announced in 2021 that raised genuine questions about the show's viability. Lewis left behind a performance that had defined the series' moral ambiguity for five seasons, and the back five episodes worked with an air of valediction that critics noted more in retrospect than in real time. The season's plotting maintained the franchise's trademark energy, but the central relationship was closing rather than opening.",
+      "season_over_season": "COVID production split and Lewis's impending departure give the season a transitional quality that the strong RT score only partially conceals.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-01-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "100% on Rotten Tomatoes for a post-Axe season that critics awarded generously for successfully reconfiguring the show without its defining star; Corey Stoll's Mike Prince gave the Giamatti combat engine a new antagonist."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "Season 6 launched without Damian Lewis and critics rewarded the show's survival instinct with a 100% Rotten Tomatoes score - though the sample size was small and the show's cultural visibility had diminished after Lewis's departure. Corey Stoll's Mike Prince brought a different texture to the Giamatti antagonism: less mercurial than Axelrod, more ideologically costumed. Critics found the reconfiguration credible if not as electrifying as the original pairing. The season demonstrated the show's confidence in its own mechanisms: the Wall Street satire, the legal maneuvering, the power-couple dynamics continued to function without the specific chemistry that had defined the first five seasons.",
+      "season_over_season": "Corey Stoll replaces Lewis as the central antagonist and the show survives the transition, but the electric specificity of the Axe-Chuck dynamic is not reproduced.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-08-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "60% on Rotten Tomatoes for the final season indicated that critic goodwill had substantially eroded; audience engagement had tracked downward since Season 5 and the finale attracted little of the conversation that had defined the show at its peak."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4270492/ratings/"
+      },
+      "review_body": "The seventh and final season of Billions premiered in August 2023, and the 60% Rotten Tomatoes score suggested critical patience had substantially run out. The show's seven-season lifespan outlasted both the cultural conversation around it and its own central narrative logic. The finale resolved Chuck Rhoades's arc, but two seasons without Lewis had not generated equivalent investment. Critics who had championed the show in its Season 3-4 peak found the ending serviceable rather than earned. The show's legacy rests on the Giamatti-Lewis seasons rather than the Prince era, which functioned as an extended coda to a story that had already concluded emotionally.",
+      "season_over_season": "The final season cannot recover the critical and cultural traction lost with Lewis's departure; a functional but underpowered conclusion to an uneven final act.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

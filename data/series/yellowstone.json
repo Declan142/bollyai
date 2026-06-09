@@ -1,0 +1,220 @@
+{
+  "slug": "yellowstone",
+  "qid": {
+    "value": "Q47452423",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Yellowstone",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount Network",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Crime",
+    "Action",
+    "Historical"
+  ],
+  "logline": "Patriarch John Dutton commands the largest cattle ranch in Montana, fighting off land developers, a neighbouring Native American reservation and his own family's fractures - a modern Western where power is the only currency that matters.",
+  "poster": {
+    "src": "/img/series/yellowstone/poster.jpg",
+    "alt": "Yellowstone poster",
+    "attribution": "Poster © Paramount Network / 101 Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded on December 15, 2024 after five seasons and 53 episodes. Star Kevin Costner's departure mid-Season 5 shaped the final run. Multiple spinoffs (1883, 1923, The Madison) continue the Dutton universe.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Yellowstone_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 9,
+      "release_date": {
+        "value": "2018-06-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "A 58% Rotten Tomatoes score from 55 critics reflected genuine critical skepticism about the melodrama quotient, but an 82% audience score signalled exactly the disconnect that would define the show's trajectory: critics found it too soapy, audiences found it compulsively watchable."
+      },
+      "critic": {
+        "positive_pct": 58,
+        "sample": 55,
+        "pull_quotes": [
+          {
+            "text": "Yellowstone only debuted in the summer of 2018, but it's already outdated to call it a mere TV show.",
+            "source": "BuzzFeed News",
+            "url": "https://www.rottentomatoes.com/tv/yellowstone/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4236770/ratings/"
+      },
+      "review_body": "Yellowstone debuted on the Paramount Network in June 2018 with a premise that reviewers quickly bracketed as Dallas with mountains: the Dutton family's Montana cattle ranch under siege from developers, Indigenous land claims and internal succession warfare. The 58% Rotten Tomatoes score from 55 critics captured a mainstream press consensus that the show was too melodramatic and too content with moral ambiguity to qualify as prestige drama. Critics noted few likable characters and a Kevin Costner performance pitched at stoic grandiosity. The 82% audience score told a completely different story: Yellowstone found a massive popular audience that cable television had not produced for years, a viewership that would swell to record-breaking numbers by Season 4.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-06-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Rotten Tomatoes jumped to 89% from 9 critics - a small but positive sample - as the show deepened its ensemble and the audience kept growing; the critical-audience gap began narrowing as reviewers acknowledged the show's undeniable craft."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 9,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4236770/ratings/"
+      },
+      "review_body": "Season 2 expanded the Dutton ranch conflict by introducing Beck Brothers as antagonists and deepening the reservation storyline with Monica and Kayce Dutton at its centre. Critics were kinder: 89% on Rotten Tomatoes, though from only 9 reviews. The writing grew more focused and the action sequences more confident. Taylor Sheridan's instinct for western violence - sudden, unglamorous, consequence-bearing - became more distinctly his own across these ten episodes. Audience retention held and grew, as word of mouth continued to build the show's following on a cable network most of mainstream television ignored.",
+      "season_over_season": "The Beck Brothers arc gives Season 2 a cleaner antagonist structure than Season 1's diffuse threat landscape, and the reservation storylines gained moral complexity.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-06-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "A perfect 100% Rotten Tomatoes score from 7 critics - admittedly a small sample - and the most-discussed season finale in the show's run confirmed Season 3 as the creative peak of Yellowstone's original run."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Yellowstone is best when it bathes in a mood, and the mood of this season is of a rattlesnake quietly slithering through the desert.",
+            "source": "Pajiba",
+            "url": "https://www.rottentomatoes.com/tv/yellowstone/s03"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4236770/ratings/"
+      },
+      "review_body": "Season 3 earned Yellowstone its first perfect 100% Rotten Tomatoes score, from 7 critics who cited the show's escalating willingness to sit in mood rather than drive plot mechanics - a quality Pajiba described as the rattlesnake calm before violence. The Market Equities corporate takeover bid placed the Dutton ranch against a more abstract threat than the Beck Brothers, and Sheridan used the slower pace to develop the Beth-Rip relationship and John Dutton's political calculus with greater patience. The season finale cliffhanger - simultaneous attacks on multiple Dutton family members - drove the biggest Season 4 anticipation of any cable drama in years.",
+      "season_over_season": "The corporate antagonist gives Season 3 an ideological dimension that the crime-war structure of the first two seasons did not carry; the pacing is the most confident in the show's run.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-11-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% on Rotten Tomatoes from 11 critics, and a Season 4 finale that drew over 10 million viewers - a record for Paramount Network - confirmed Yellowstone as the largest audience phenomenon in American linear television since the peak broadcast era."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 11,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4236770/ratings/"
+      },
+      "review_body": "Season 4 returned in November 2021 and the audience numbers were staggering. The Season 4 finale drew over 10 million viewers according to Variety - a record for Paramount Network and one of the largest audiences for an American cable drama since the prestige-TV era began. Critics gave it 91% from 11 reviews, noting the show's efficient resolution of the Season 3 cliffhanger and the continued development of Beth Dutton as the series' most charismatic character. The consensus noted the show had mastered its own genre - a neo-Western soap that knew exactly what it was offering and delivered it without apology. Summer Thomas entered the season as a scene-stealing addition.",
+      "season_over_season": "Resolves the Season 3 assassination cliffhanger efficiently and doubles down on Beth Dutton's centrality; the record audience figures confirm the show's cultural position.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2022,
+      "episodes": 14,
+      "release_date": {
+        "value": "2022-11-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 5 scored 79% on Rotten Tomatoes from 62 critics but a 41% audience score - the show's sharpest critic-viewer divergence - with Kevin Costner's real-world contract dispute casting a shadow over the final run and the finale drawing less audience than earlier peaks."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 62,
+        "pull_quotes": [
+          {
+            "text": "It's a lusty, larger-than-life soap opera harking back to Dallas and Dynasty, with a hint of Cormac McCarthy's cowboy stoicism.",
+            "source": "Daily Telegraph",
+            "url": "https://www.rottentomatoes.com/tv/yellowstone/s05"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4236770/ratings/"
+      },
+      "review_body": "The fifth and final season aired across two parts - eight episodes in late 2022 and six in late 2024 - with Kevin Costner's departure over a production dispute creating narrative gaps the writing visibly struggled to fill. Critics at 79% Rotten Tomatoes from 62 reviews were broadly positive about the season's ambition, but an audience score of 41% indicated viewer frustration with a finale that could not fully deliver on five seasons of investment. Entertainment Weekly's Kristen Baldwin acknowledged the show's historical significance - proving linear television could still produce a gargantuan hit - while noting the ending felt constrained by real-world production circumstances. The spinoffs (1883, 1923) absorbed the ongoing Dutton universe appetite.",
+      "season_over_season": "Costner's reduced then absent presence reshapes the season's centre of gravity; the split structure and production disputes give the final run an uneven quality the first four seasons avoided.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:00:00+05:30"
+}

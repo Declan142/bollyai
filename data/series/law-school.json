@@ -1,0 +1,102 @@
+{
+  "slug": "law-school",
+  "qid": {
+    "value": "Q105360413",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Law School",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Legal", "Drama", "Mystery", "Thriller"],
+  "logline": "When a professor is found dead during a mock trial at an elite Korean law school, his abrasive criminal-law colleague becomes the prime suspect - and the students caught between them must decide what justice actually means.",
+  "poster": {
+    "src": "/img/series/law-school/poster.jpg",
+    "alt": "Law School poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes; concluded June 9, 2021. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Law_School_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-04-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "A tightly plotted legal thriller that earned a 7.9 on IMDb and an 8.6 on MyDramaList (30,827 users), with Kim Myung-min's commanding professor widely praised. Critics noted the whodunit architecture rewards patient viewers while the resolution leaned convenient."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Law School has faithfully captured the fun of the whodunit genre, tracing who is the culprit.",
+            "source": "Zapzee",
+            "url": "https://zapzee.net/2021/05/12/k-drama-review-law-school-legal-thriller-that-is-fun-to-put-together-like-a-jigsaw-puzzle/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13885336/"
+      },
+      "review_body": "Law School aired April 14 to June 9, 2021, on JTBC with simultaneous Netflix availability, finishing with a peak cable rating of 6.891 percent on episode 13. The premise - a law professor arrested for murdering a colleague during a mock trial, with his students investigating from inside the classroom - turned the legal genre into a pedagogical puzzle box. Kim Myung-min's sharp-tongued Yang Jong-hoon became the series' calling card, critics consistently flagging his performance as the reason to watch. Zapzee praised the show's fidelity to whodunit pleasures; MyDramaList's 8.6 audience score (from over 30,000 users) confirmed the genre appeal was real. The main critical reservation was structural: the villain's identity and the narrative's neat resolution struck several reviewers as under-earned given the moral complexity the show had promised through its discussions of privilege, interpretation, and legal truth.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-04-14",
+          "bollymeter": 8.1,
+          "spoiler_free": "The premiere places us inside the mock trial classroom at Hankuk University Law School and ends with a body. The setup is crisp and the ensemble - students with distinct class backgrounds and ethical starting points - is sketched fast enough to feel populated rather than crammed. Kim Myung-min establishes Professor Yang as confrontational, brilliant, and instantly suspicious.",
+          "the_moment": "The mock trial interrupted by the discovery of a real crime - the moment the classroom stops being a safe space.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2021-05-19",
+          "bollymeter": 8.6,
+          "spoiler_free": "The mid-season pivot tightens the net around multiple suspects simultaneously and is the episode where the puzzle architecture clicks into highest gear. IMDb rates it the series' single best episode at 8.6. The courtroom sequences here demonstrate why Kim Myung-min was cast - the cross-examination writing is the sharpest in the run.",
+          "the_moment": "A cross-examination sequence that reframes the entire case using evidence the audience has been holding since episode three.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:15:00+05:30"
+}

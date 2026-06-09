@@ -1,0 +1,106 @@
+{
+  "slug": "all-the-light-we-cannot-see",
+  "qid": {
+    "value": "Q110602969",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "All the Light We Cannot See",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "War", "Historical", "Romance"],
+  "logline": "A blind French girl and a German soldier with a conscience find their fates entangled across occupied France during the final days of World War II, in this adaptation of Anthony Doerr's Pulitzer Prize-winning novel.",
+  "poster": {
+    "src": "/img/series/all-the-light-we-cannot-see/poster.jpg",
+    "alt": "All the Light We Cannot See poster",
+    "attribution": "Poster © Netflix / 21 Laps Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Four-episode limited series, completed. Based on Anthony Doerr's Pulitzer Prize-winning novel. Produced by Steven Spielberg and 21 Laps Entertainment.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/All_the_Light_We_Cannot_See_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 4,
+      "release_date": {
+        "value": "2023-11-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "A 28 percent Rotten Tomatoes score from 64 critics is among the harshest receptions for a major prestige Netflix production; critics found the adaptation flattened the novel's moral complexity into a tonally awkward war romance despite a committed cast."
+      },
+      "critic": {
+        "positive_pct": 28,
+        "sample": 64,
+        "pull_quotes": [
+          {
+            "text": "The series leans into sentiment and moral simplicity - Werner is always pure and decent, while every Nazi adult he encounters is a menacing cartoon.",
+            "source": "Variety",
+            "url": "https://variety.com/2023/tv/tv-reviews/all-the-light-we-cannot-see-review-1235762557/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15320362/"
+      },
+      "review_body": "Netflix released All the Light We Cannot See on 2 November 2023, adapted by Steven Knight and directed by Shawn Levy, with Mark Ruffalo as Daniel LeBlanc and first-time actress Aria Mia Loberti as blind protagonist Marie-Laure. The 28 percent Rotten Tomatoes score from 64 critics represents a near-consensus critical rejection: Variety faulted the series for moral simplicity and sentimental flattening of Doerr's more ambivalent source material; Time called it a schmaltzy mess. The audience score at 7.5 on IMDb tells a different story - general viewers who had not read the novel, or who valued the casting of a genuinely vision-impaired actress in Loberti, responded far more warmly. The 57-point gap between critic and audience scores is the defining fact of the show's reception. Historically rich production design and the chemistry between Loberti and Louis Hofmann as Werner are the genuine assets.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-11-02",
+          "bollymeter": 6.0,
+          "spoiler_free": "The premiere establishes both timelines - young Marie-Laure learning Paris through her father's wooden models, Werner discovering a physics radio programme in an orphanage - with visual clarity if not thematic depth. Aria Mia Loberti's naturalistic performance is immediately the series' most persuasive element.",
+          "the_moment": "Marie-Laure navigating the model of her neighbourhood by touch alone - the series' strongest single image, and the one that earns the novel's central metaphor.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2023-11-02",
+          "bollymeter": 5.5,
+          "spoiler_free": "The finale delivers the convergence of Marie-Laure and Werner that the novel builds toward, and the meeting itself is tender. Critics who found the preceding three episodes emotionally manipulative will not be converted; those watching for the leads will find the climax earns their investment. The resolution handles the diamond subplot with more elegance than the broader war backdrop.",
+          "the_moment": "Werner and Marie-Laure's first exchange in the attic - the emotional centrepiece that the adaptation hinges on.",
+          "critic_note": {
+            "text": "The series leans into sentiment and moral simplicity - Werner is always pure and decent, while every Nazi adult he encounters is a menacing cartoon.",
+            "source": "Variety",
+            "url": "https://variety.com/2023/tv/tv-reviews/all-the-light-we-cannot-see-review-1235762557/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:20:00+05:30"
+}

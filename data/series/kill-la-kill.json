@@ -1,0 +1,125 @@
+{
+  "slug": "kill-la-kill",
+  "qid": {
+    "value": "Q13637192",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kill la Kill",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBS / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Comedy", "Sci-Fi", "Supernatural"],
+  "logline": "A girl wielding half a scissor blade storms the most tyrannical school in Japan looking for her father's killer - and discovers the school's elite uniforms are made of parasitic alien life fibers.",
+  "poster": {
+    "src": "/img/series/kill-la-kill/poster.jpg",
+    "alt": "Kill la Kill poster",
+    "attribution": "Poster © Trigger / MBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 24-episode run completed in March 2014, with an OVA in September 2014. No sequel series announced. Hiroyuki Imaishi has moved to other Trigger productions.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kill_la_Kill"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 24,
+      "release_date": {
+        "value": "2013-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "A 100 percent Rotten Tomatoes score from 8 critics reflects a near-universal view of Kill la Kill as uniquely inventive camp - Studio Trigger's debut TV series announced a new voice in anime with complete conviction."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "Two dozen episodes of pure, unadulterated camp, Kill la Kill shamelessly goes for gold when it comes to racy humor.",
+            "source": "Vulture",
+            "url": "https://www.rottentomatoes.com/tv/kill_la_kill/s01"
+          },
+          {
+            "text": "Kill la Kill is deceptively clever, offering a skewering look at the darker side of the fashion industry.",
+            "source": "Starburst",
+            "url": "https://www.rottentomatoes.com/tv/kill_la_kill/s01"
+          },
+          {
+            "text": "It takes well-worn tropes from countless anime series and throws them back with a nod and a wink.",
+            "source": "What Culture",
+            "url": "https://www.rottentomatoes.com/tv/kill_la_kill/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3114390/ratings/"
+      },
+      "review_body": "Kill la Kill premiered on MBS in October 2013 as Studio Trigger's debut television series, directed by Hiroyuki Imaishi (Gurren Lagann) and written by Kazuki Nakashima. The series earned a perfect 100 percent on Rotten Tomatoes from 8 critics, who clustered around its self-aware, gleefully excessive energy. Vulture called it 'two dozen episodes of pure, unadulterated camp.' The deeper critical argument - that the overt fanservice is itself a satirical commentary on fashion, consumption, and power - gained traction among reviewers who engaged with it seriously. The 4th Newtype Anime Awards gave it Best Picture, Best Script, and Best Character Design, a sweep that signals the industry's recognition of its formal achievement.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "If Only I Had Thorns Like a Rose...",
+          "air_date": "2013-10-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops Ryuko into Honnouji Academy, establishes the ruthless hierarchy of Goku Uniforms, and ends with a fight scene animated with the kind of kinetic recklessness that signals Trigger is not interested in restraint. The tone - comedy, menace, and operatic sincerity simultaneously - is fully formed by episode's end.",
+          "the_moment": "Ryuko's first transformed clash with Satsuki on the school roof - the show declaring its aesthetic with no apology.",
+          "critic_note": null
+        },
+        {
+          "number": 18,
+          "title": "Into the Night",
+          "air_date": "2014-02-13",
+          "bollymeter": 8.8,
+          "spoiler_free": "The episode where the series pivots from school-rebellion drama to something stranger and larger. The revelation reframes the entire premise and the student council's purpose, pushing Kill la Kill from 'great genre anime' into the territory of genuine structural ambition.",
+          "the_moment": "The reveal that changes who the enemy actually is - the series earning its escalation.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "Incomplete",
+          "air_date": "2014-03-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale delivers on the absurdist promise of every prior episode while landing a genuine emotional note in the Ryuko-Satsuki relationship. The final battle is as maximalist as the show gets, and the closing beat is earned.",
+          "the_moment": "The final exchange between Ryuko and Satsuki - the emotional core the series has been quietly building.",
+          "critic_note": {
+            "text": "Kill la Kill is deceptively clever, offering a skewering look at the darker side of the fashion industry.",
+            "source": "Starburst",
+            "url": "https://www.rottentomatoes.com/tv/kill_la_kill/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:05:00+05:30"
+}

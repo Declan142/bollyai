@@ -1,0 +1,119 @@
+{
+  "slug": "dororo",
+  "qid": {
+    "value": "Q56451122",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dororo",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Tokyo MX / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Historical", "Adventure", "Supernatural"],
+  "logline": "A child born without body parts - sacrificed by his warlord father to twelve demon gods - wanders feudal Japan reclaiming his own flesh one demon at a time, guided by an orphan thief named Dororo.",
+  "poster": {
+    "src": "/img/series/dororo/poster.jpg",
+    "alt": "Dororo poster",
+    "attribution": "Poster © MAPPA / Tezuka Productions / Amazon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 24-episode single-season run concluded in June 2019. MAPPA and Tezuka Productions have not announced a continuation. The manga's original ending was adapted with modifications.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dororo_(2019_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 24,
+      "release_date": {
+        "value": "2019-01-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Dororo holds an IMDb score of 8.2 and earned a B+ from Anime News Network's Lauren Orsini, who declared it 'a contender for 2019's anime of the year' after three episodes; Anime News Network later listed it among the best MAPPA series of all time."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "This tribute is already a contender for 2019's anime of the year after just three episodes.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/dororo/episodes-1-3/.142383"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9458304/ratings/"
+      },
+      "review_body": "Dororo premiered on Tokyo MX in January 2019, a MAPPA and Tezuka Productions adaptation of Osamu Tezuka's 1967 manga. Anime News Network's Lauren Orsini awarded it a B+ after three episodes, calling it a contender for 2019's anime of the year and praising the modernized visual language - limited color palette, watercolor washes, and a reimagined Hyakkimaru who communicates entirely through sensing life forces rather than speech. The 4th Crunchyroll Anime Awards recognized it with the Best Character Design award. ANN later placed it among the best MAPPA series of all time. Some critics noted the episodic second half lost momentum relative to the focused first half, but the character work on Hyakkimaru and Dororo's relationship was consistently cited as exceptional.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Story of Daigo",
+          "air_date": "2019-01-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes the series' premise in its most brutal form: a warlord's pact, a newborn sacrificed to twelve demons, and the resulting creature that grows into Hyakkimaru. MAPPA's visual design - prosthetic limbs against Sengoku-era Japan, a muted palette broken by demon silhouettes - is immediately arresting.",
+          "the_moment": "The moment Hyakkimaru first sees Dororo's aura as living light - the sensory world of a person who perceives differently.",
+          "critic_note": {
+            "text": "This tribute is already a contender for 2019's anime of the year after just three episodes.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/dororo/episodes-1-3/.142383"
+          }
+        },
+        {
+          "number": 12,
+          "title": "The Story of Bandai",
+          "air_date": "2019-03-25",
+          "bollymeter": 8.6,
+          "spoiler_free": "The midseason episode that deepens Dororo's backstory and begins closing the distance between the two protagonists' emotional registers. The series is at its best when the episodic demon-hunting gives way to the question of what Hyakkimaru is recovering - and what he loses with each body part reclaimed.",
+          "the_moment": "Dororo's full history with Itachi - the episode that turns a comic sidekick into a fully realized character.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "The Story of Dororo and Hyakkimaru",
+          "air_date": "2019-06-24",
+          "bollymeter": 8.4,
+          "spoiler_free": "The series finale resolves Hyakkimaru's quest and his relationship with his father in a modified version of Tezuka's original ending. Anime News Network's reviewer noted that 'after all the chips fall, our two protagonists' lives drift into a big question mark' - a conclusion some found earned and others found incomplete.",
+          "the_moment": "Hyakkimaru's choice about his reclaimed humanity - the moral weight the series has been building to.",
+          "critic_note": {
+            "text": "After all the chips fall, our two protagonists' lives drift into a big question mark.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/dororo/episode-24/.148240"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:20:00+05:30"
+}

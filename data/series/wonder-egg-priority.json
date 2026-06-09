@@ -1,0 +1,96 @@
+{
+  "slug": "wonder-egg-priority",
+  "qid": {
+    "value": "Q100235430",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Wonder Egg Priority",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Nippon TV / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Psychological", "Fantasy", "Drama", "Coming of Age"],
+  "logline": "A girl who refuses to go to school discovers that buying a strange egg pulls her into a dream world where she must fight monsters to rescue other teenagers from the grip of suicide - in exchange for a chance to bring back her dead best friend.",
+  "poster": {
+    "src": "/img/series/wonder-egg-priority/poster.jpg",
+    "alt": "Wonder Egg Priority poster",
+    "attribution": "Poster © CloverWorks / Nippon TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded with a finale special aired June 30, 2021. No second season announced. CloverWorks has moved to other productions.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Wonder_Egg_Priority"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 13,
+      "release_date": {
+        "value": "2021-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Wonder Egg Priority's first half received euphoric critical acclaim for animation, thematic handling of suicide and bullying, and Shin Wakabayashi's direction - but the MAL score settled at 7.70 reflecting audience polarization over the controversial finale special."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/41025/Wonder_Egg_Priority"
+      },
+      "review_body": "Wonder Egg Priority premiered on Nippon TV in January 2021, an original CloverWorks series directed by Shin Wakabayashi. Critics at Polygon, Anime News Network, and Anime Feminist were 'widely euphoric' in early coverage, praising the animation quality, complex narrative, and careful handling of suicide, bullying, and assault. The series drew comparisons to directors Naoko Yamada and Kunihiko Ikuhara - high praise in the medium. However, a production crisis - episodes completed hours before broadcast, staff hospitalizations - visibly damaged the second half. The finale special (June 2021) generated significant backlash for failing to resolve its narrative threads. The MAL score of 7.70 reflects a show whose first six episodes were genuinely exceptional and whose ending was widely considered a failure.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-01-13",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere introduces Ai Ohto's isolation through precise visual storytelling - her eye, her refusal to leave home - before dropping her into a dream world that treats trauma as a literal monster. CloverWorks's animation is immediately distinctive: fluid, painterly, and precise in its character expression.",
+          "the_moment": "Ai's first Wonder Egg fight - the transition from domestic stillness to surreal violence handled without tonal rupture.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2021-01-28",
+          "bollymeter": 8.8,
+          "spoiler_free": "The episode that established Wonder Egg Priority's critical reputation. Ai's encounter with another egg's traumatic memory - a middle school victim of a teacher's obsession - is drawn and written with specificity that most anime avoids entirely. The best single episode of the first half.",
+          "the_moment": "The confrontation between Ai and the Wonder Killer that literalizes grooming as a monster - unusually direct for the medium.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T10:15:00+05:30"
+}
