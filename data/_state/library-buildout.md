@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 392 / ~500   (baseline 183)
+## Progress: 422 / ~500   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -35,6 +35,13 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 07 — 2026-06-09 — 30 series — STATUS: DONE (commit a44f436 pushed; 392->422)
+- **GG** K-drama romance/historical: reply-1994 · navillera · weightlifting-fairy-kim-bok-joo · moon-lovers-scarlet-heart-ryeo · inspector-koo · our-blues
+- **HH** US prestige: band-of-brothers · deadwood · abbott-elementary · blue-eye-samurai · gen-v · the-pacific
+- **II** Anime: assassination-classroom · erased · parasyte-the-maxim · beastars · blue-period · mushishi
+- **JJ** UK/Euro: the-last-kingdom · peep-show · ragnarok-2020 · the-returned · afterlife · ganglands
+- **KK** Indian+World: khakee-the-bihar-chapter · mai-2022 · yeh-kaali-kaali-ankhein · taaza-khabar · blood-and-water · katla
+
 ### Batch 06 — 2026-06-09 — 30 series — STATUS: DONE (commit cfb2a9d pushed; 362->392)
 - **BB** K-drama crime/thriller: voice-kdrama · one-ordinary-day · thirty-nine · divorce-attorney-shin · bad-and-crazy · grid
 - **CC** US prestige drama/comedy: station-eleven · this-is-us · dopesick · the-terror · greys-anatomy · community
