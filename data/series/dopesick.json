@@ -1,0 +1,107 @@
+{
+  "slug": "dopesick",
+  "qid": {
+    "value": "Q101420707",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dopesick",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Biographical",
+    "Crime",
+    "Psychological"
+  ],
+  "logline": "A multi-threaded drama tracing how Purdue Pharma manufactured the opioid crisis - from a Virginia mining town doctor and his patients to the DEA agents and prosecutors closing in on the Sackler family.",
+  "poster": {
+    "src": "/img/series/dopesick/poster.jpg",
+    "alt": "Dopesick series poster",
+    "attribution": "Poster © Hulu / 20th Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Dopesick was produced as an eight-episode limited series adapting Beth Macy's non-fiction book. No second season has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dopesick_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-10-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "89 percent on Rotten Tomatoes from 73 critics, an 8.6 on IMDb, and 14 Emmy nominations including a win for Michael Keaton establish this as the definitive dramatic treatment of the opioid crisis; the show's willingness to empathize with every layer of a systemic catastrophe distinguishes it from issue-drama peers."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 73,
+        "pull_quotes": [
+          {
+            "text": "Strong performances from Keaton and Dever and an empathetic approach to the very real people impacted by the opioid crisis make for harrowing drama.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/dopesick/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9174558/"
+      },
+      "review_body": "Dopesick premiered on Hulu October 13, 2021, and concluded November 17, 2021. Critics scored it 89 percent on Rotten Tomatoes from 73 reviews with an average of 7.7 out of 10. The series runs three timelines simultaneously: a Virginia mining community where Dr. Samuel Finnix begins prescribing OxyContin; the DEA and federal prosecutors building a case against Purdue Pharma; and Purdue's own boardroom where the Sackler family manages the crisis. Critics at IndieWire noted that 'committed turns from Keaton and Dever only get you so far' as a mild reservation, but The Hollywood Reporter and others credited the show for refusing to simplify its moral architecture. The 8.6 IMDb score and 94-percent audience score placed it among Hulu's most positively received originals. Michael Keaton won the Emmy for Outstanding Lead Actor in a Limited Series from 14 total nominations.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "First Bottle",
+          "air_date": "2021-10-13",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere introduces Dr. Finnix treating miners in Lee County, Virginia, and a Purdue Pharma sales rep beginning her push into Appalachian hospitals. The three-timeline structure is established efficiently, and the show's core argument - that OxyContin's design as a 'less addictive' opioid was a knowing pharmaceutical fabrication - is set up without the didacticism that would have made it a lesser series.",
+          "the_moment": "Dr. Finnix prescribing OxyContin to a miner with a genuine back injury, the good-faith moment that the rest of the series will methodically dismantle.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Hammer the Abusers",
+          "air_date": "2021-11-17",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale delivers legal and personal reckonings across all three timelines without providing false catharsis. Critics praised its tonal honesty - the Sacklers face consequences that feel both real and insufficient, mirroring the actual legal record. Dr. Finnix's arc reaches a quiet resolution that lands as the series' most earned emotional moment.",
+          "the_moment": "Finnix's final scene, a convergence of professional ruin and personal survival that the show earns across eight episodes of accumulated detail.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

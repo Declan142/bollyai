@@ -1,0 +1,102 @@
+{
+  "slug": "aranyak",
+  "qid": {
+    "value": "Q110529245",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Aranyak",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Thriller", "Drama", "Supernatural"],
+  "logline": "Two mismatched Himachal Pradesh cops - a sharp-tongued local chief and a city transfer - untangle a tourist murder that awakens a decades-old legend of a man-leopard haunting the mountain forest.",
+  "poster": {
+    "src": "/img/series/aranyak/poster.jpg",
+    "alt": "Aranyak poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run; Netflix India has not announced a renewal as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Aranyak_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-12-10",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Strong lead performances and a genuinely atmospheric Himalayan setting earn consistent praise; a 57% Rotten Tomatoes score from 7 critics and a divided Indian press suggest uneven writing keeps it from greatness, but Raveena Tandon's Filmfare OTT Best Actress win is real recognition."
+      },
+      "critic": {
+        "positive_pct": 57,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Raveena and Parambrata's nuanced chemistry powers this whodunit.",
+            "source": "Times of India",
+            "url": "https://timesofindia.indiatimes.com/web-series/news/hindi/aranyak-review-raveena-parambrata-nuanced-chemistry-powers-this-whodunit/articleshow/88186780.cms"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14167344/ratings/"
+      },
+      "review_body": "Aranyak dropped on Netflix on December 10, 2021, marking Raveena Tandon's return to a lead role after years away from the screen. The series builds its atmosphere on the snowcapped hills of Himachal Pradesh and a dormant folklore about a man-leopard who claimed 19 lives two decades ago. Critics split roughly down the middle - the Rotten Tomatoes tally settled at 57 percent from a small seven-critic sample. The Hindu praised Tandon as acing the whodunit, while Times of India highlighted her chemistry with Parambrata Chatterjee. Koimoi was blunter, calling it ambitious but ultimately bland. The consensus clusters around strong lead work and striking visuals undercut by a script that tries to carry too many genre threads simultaneously. Tandon won Best Actress at the 2022 Filmfare OTT Awards for the role - the clearest external validation of the performance.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-12-10",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the hill-station geography and the culture clash between Kasturi Dogra, the incumbent cop protecting her turf, and Angad Malik, the Kolkata transfer foisted on her case. The man-leopard legend is introduced without overplaying it, keeping the show's horror-adjacent edge credible.",
+          "the_moment": "The discovery of the body suspended in the forest - the image that anchors the show's unsettling tone for all eight episodes.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2021-12-10",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale resolves the mystery and the mythological thread, though some critics found the payoff rushed relative to the slow-burn buildup. Tandon's final scenes are the strongest of the season - controlled, specific, and emotionally grounded.",
+          "the_moment": "The reveal of what lies beneath the Sironah legend - the point the show has been building toward since the opening corpse.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

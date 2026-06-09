@@ -1,0 +1,93 @@
+{
+  "slug": "no-game-no-life",
+  "qid": {
+    "value": "Q11325839",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "No Game No Life",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "crunchyroll.com",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Fantasy", "Comedy", "Adventure"],
+  "logline": "Two genius hikikomori step-siblings, undefeated in every game ever played, are transported to a world called Disboard where all conflicts are settled by games - and set out to conquer all sixteen intelligent races and dethrone the god who runs the place.",
+  "poster": {
+    "src": "/img/series/no-game-no-life/poster.jpg",
+    "alt": "No Game No Life poster",
+    "attribution": "Poster © Madhouse / Media Factory. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "The 12-episode anime adaptation concluded June 2014 and has not received a continuation series. A prequel film, No Game No Life: Zero, was released in July 2017. A second season has been announced and cancelled multiple times; as of 2026 no production has been confirmed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/No_Game_No_Life"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-04-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "IMDb 7.5 and Anime News Network B grade reflect a visually inventive isekai that critics found entertaining but narratively shallow; ANN noted 'it's never a question of whether the duo will win, but how'."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "It's never a question of whether Shiro and Sora will win, but how.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/no-game-no-life/episodes-1-12/.77101"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3431758/"
+      },
+      "review_body": "Madhouse adapted Yuu Kamiya's light novel series for the spring 2014 season, airing on AT-X and Tokyo MX. Anime News Network reviewer Carl Kimlinger graded it B, identifying the game-as-conflict mechanic as the show's genuine strength and the character appeal as its primary hook - noting that the absence of stakes (Sora and Shiro's victory is a foregone conclusion) is both a structural limitation and a feature, making each episode a puzzle to solve rather than a narrative to follow. The series' hyper-saturated visual palette drew consistent notice from critics as a deliberate aesthetic choice. IMDb audiences settled at 7.5. The fanservice elements attracted editorial criticism at ANN and elsewhere, with Hope Chapman's preview-guide response describing them in strongly negative terms - a divide that maps onto the show's broader reception as a technically impressive but tonally divisive title.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Beginner",
+          "air_date": "2014-04-09",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the Blank mythology and gets Sora and Shiro to Disboard within a single episode. Critics noted the speed of setup as a strength - the show knows what it is and wastes no time getting there. The chess match against Tet is a confident opening.",
+          "the_moment": "Sora accepts Tet's chess challenge from what appears to be a dying world - the moment the show's central appeal snaps into focus.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

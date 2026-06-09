@@ -1,0 +1,137 @@
+{
+  "slug": "the-terror",
+  "qid": {
+    "value": "Q27538067",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Terror",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "AMC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Horror",
+    "Historical",
+    "Drama",
+    "Mystery",
+    "Supernatural"
+  ],
+  "logline": "An anthology horror series in which each season plants a real historical event inside a supernatural framework - Season 1 follows the doomed 1845 Royal Navy Arctic expedition aboard HMS Terror and Erebus, where the crew faces both lethal cold and something far worse stalking the ice.",
+  "poster": {
+    "src": "/img/series/the-terror/poster.jpg",
+    "alt": "The Terror series poster",
+    "attribution": "Poster © AMC / Scott Free Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "An anthology series. Season 3 (Devil in Silver) premiered May 7, 2026 on AMC. AMC has not confirmed a Season 4 as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Terror_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-03-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "94 percent on Rotten Tomatoes from 69 critics and an 89 percent audience score; the season's synthesis of rigorous historical drama with genuinely unnerving supernatural horror - anchored by Jared Harris's career-best performance - marks it as one of AMC's finest prestige achievements."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 69,
+        "pull_quotes": [
+          {
+            "text": "A thriller wrapped in a prestige drama package - The Terror makes for gripping, atmospheric supernatural horror.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_terror/s01"
+          },
+          {
+            "text": "The drama's strength is its claustrophobia, the feeling of foreboding and the complete and utter isolation experienced by the crew.",
+            "source": "Scott Bryan, BBC.com",
+            "url": "https://www.rottentomatoes.com/tv/the_terror/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2708480/ratings/"
+      },
+      "review_body": "Season 1 premiered March 25, 2018 on AMC, adapting Dan Simmons's historical horror novel about the failed Franklin Expedition of 1845. Critics scored it 94 percent on Rotten Tomatoes from 69 reviews with a Metacritic score of 76. The consensus centered on two virtues: the claustrophobic accumulation of dread as the Royal Navy ships become locked in Arctic ice, and Jared Harris's performance as Captain Crozier as one of the finest lead turns in prestige TV that year. BBC.com praised 'the feeling of foreboding and complete isolation.' The supernatural element - a massive, unknowable predator on the ice - was credited for serving as horror amplifier rather than distraction from the show's bleak human drama. The 89-percent audience score confirmed that the slow, methodical pacing rewarded rather than frustrated the audience that stayed with it. Metacritic's 76 score noted some critics found the middle episodes too deliberate.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Go for Broke",
+          "air_date": "2018-03-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes both ships and their commanders, the scale of the Arctic environment, and the first hints that something is wrong on the ice beyond weather and ice pressure. The production design alone sets a standard - the cramped interiors, the blue-grey palette - and Jared Harris arrives fully formed as a captain who knows more about what is coming than he is telling his superiors.",
+          "the_moment": "The first glimpse of movement on the ice, glimpsed from the ship's rigging in the dead of an Arctic night.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Terror Camp Clear",
+          "air_date": "2018-05-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "By the time the crew abandons ship and begins its overland trek toward rescue that will not come, the series' tone has shifted from dread to grief. This episode crystallizes the horror's real subject: not the creature on the ice but the institutional failure, the class hierarchy, and the hubris that put 129 men in an unwinnable situation. Critics noted the episode as the season's pivot toward its devastating endgame.",
+          "the_moment": "The overland march begins - a procession that functions as both historical record and visual elegy for men who will not return.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-08-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "80 percent on Rotten Tomatoes; the season shifted setting to Japanese American internment camps in World War II with a new cast, earning respect for its political seriousness but losing some of Season 1's dense, claustrophobic momentum."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2, subtitled Infamy, premiered August 12, 2019, with a completely new story and cast set in a Japanese American internment camp during World War II. Critics scored it 80 percent on Rotten Tomatoes. The season was praised for its moral seriousness - placing a supernatural folk-horror narrative inside one of American history's most shameful episodes gave the anthology format genuine political purpose. The performances from the Japanese American cast, including George Takei in a significant role, were highlighted. Critics noted the season lacked Season 1's suffocating physical dread, which was partly a function of the different historical setting; the internment camp milieu is agonizing in a different register. The reduced critical score reflected both the tonal shift and some unevenness in pacing, not a failure of intent.",
+      "season_over_season": "Shifts from Arctic isolation to wartime internment; retains the anthology's historical-horror template but trades claustrophobic dread for a broader political canvas."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "grid",
+  "qid": {
+    "value": "Q110627632",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Grid",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Mystery", "Thriller", "Drama"],
+  "logline": "In a future where a mysterious entity called the Ghost saved humanity from solar extinction, two investigators across different timelines must find her before a condemned killer does - and the grid she built starts to fail.",
+  "poster": {
+    "src": "/img/series/grid/poster.jpg",
+    "alt": "Grid series poster",
+    "attribution": "Poster © Disney+ / Ace Factory / Arc Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Grid is a 10-episode limited series that concluded April 20, 2022. No second season was announced.",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Grid_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-02-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.4,
+        "basis": "IMDb settled at 6.4. Pierce Conran at the South China Morning Post gave it 1.5/5, arguing the show squanders its atmospheric setup once time-travel mechanics undermine narrative coherence. Rotten Tomatoes shows a 67% audience score with no formal critic count registered."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Starts well but devolves into just another Korean time-travel mess.",
+            "source": "Pierce Conran / South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3175138/k-drama-review-grid-disney-sci-fi-drama-starts-well"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt18265192/"
+      },
+      "review_body": "Grid premiered on Disney+ on February 16, 2022, for Asia-Pacific subscribers (Hulu in the US), running 10 episodes and concluding April 20. The concept is ambitious: a dystopian future protected by a quantum grid, two parallel-timeline investigators hunting the phantom who built it, a serial killer also in pursuit. The production values are Disney+ standard and Seo Kang-joon brings committed intensity to the lead role. The problem, identified by Pierce Conran at the South China Morning Post (1.5/5), is that the time-travel mechanics the show introduces to resolve its central mystery introduce more logical inconsistencies than they solve - a pattern familiar in Korean serialised fantasy. IMDb audiences settled at 6.4, broadly consistent with the critical read: a show that earns its first few episodes and gives back the goodwill in the final stretch.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-02-16",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere is the season's strongest hour by consensus - the world-building is delivered through character observation rather than exposition dump, and the central mystery of the Ghost is framed with genuine visual atmosphere. Reviewers who later dropped the series often cited this episode as the reason they committed to the rest.",
+          "the_moment": "The Ghost's first documented appearance in the archive footage - the series establishing its central image before beginning to unravel it.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

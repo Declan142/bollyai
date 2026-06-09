@@ -1,0 +1,123 @@
+{
+  "slug": "clannad",
+  "qid": {
+    "value": "Q1095034",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Clannad",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HIDIVE",
+    "source": "justwatch.com",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Romance", "Drama", "Slice of Life", "Coming of Age"],
+  "logline": "High-school delinquent Tomoya Okazaki meets girl after girl with quiet sorrows in his final year - then the story follows him into adulthood, marriage, and grief, in one of anime's most emotionally demanding coming-of-age sagas.",
+  "poster": {
+    "src": "/img/series/clannad/poster.jpg",
+    "alt": "Clannad poster",
+    "attribution": "Poster © Kyoto Animation / Pony Canyon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Both cours - Clannad (2007-2008) and Clannad: After Story (2008-2009) - completed their run. No sequel series has been produced. The source visual novel by Key/Visual Art's remains the definitive version of the story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Clannad_(anime)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": 23,
+      "release_date": {
+        "value": "2007-10-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb 8.2 across both cours reflects audience affection, but season 1 functions as an extended prologue - praised for Kyoto Animation's craft yet critically considered thinner than After Story."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1118804/"
+      },
+      "review_body": "Kyoto Animation adapted Key's beloved visual novel across the TBS and MBS networks starting October 2007. Season 1 is a high-school arc that introduces Tomoya Okazaki and a set of girls with individual routes drawn directly from the visual novel structure: each girl's backstory gets 2-4 episodes of careful emotional payoff. Critics consistently noted Kyoto Animation's production quality - fluid character animation, expressive faces, a score by Yoshino Natsume and Maeda Jun that reviewers called one of the studio's finest - while also noting the episodic route structure makes season 1 feel like a deliberate warm-up. The IMDb combined series rating of 8.2 sits a full point below After Story's isolated score, reflecting that assessment.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2008,
+      "episodes": 22,
+      "release_date": {
+        "value": "2008-10-03",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "IMDb 8.8 and a MAL weighted score of 9.01 place After Story among the highest-rated anime series in recorded history; critics at Anime News Network called it an 'exploration of adult life that most romance anime gloss over'."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The last two-thirds of After Story offer some of the most heartbreaking and authentic explorations of everyday adulthood pains.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/shelf-life/2018-01-22/.126717"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1118804/"
+      },
+      "review_body": "Clannad: After Story is considered one of the most emotionally devastating second seasons in anime history. Where season 1 was school-drama scaffolding, After Story discards the multi-route structure to follow Tomoya and Nagisa from marriage into parenthood and profound loss. The MAL weighted score of 9.01 ranks it among the all-time top anime, and the IMDb audience score of 8.8 reflects that consensus. Anime News Network's shelf-life review singled out the final act as 'heartbreaking and authentic' in its depiction of adult grief. Critics noted Kyoto Animation's willingness to let tragedy sit without resolution for multiple episodes - a structural patience unusual in the medium. The divisive ending, which invokes a visual novel mechanic to offer reprieve, split audiences between those who found it earned and those who felt it undermined the preceding grief work.",
+      "season_over_season": "Abandons the episodic route structure entirely for a sustained life-arc that takes the show from teenage romance to adult bereavement - a tonal leap few anime attempt.",
+      "episode_reviews": [
+        {
+          "number": 18,
+          "title": "The Ends of the Earth",
+          "air_date": "2009-02-05",
+          "bollymeter": 9.6,
+          "spoiler_free": "Widely cited as After Story's emotional apex - the episode where Tomoya's arc reaches its lowest point and the full weight of the series' themes arrives without mitigation. Audiences consistently identify it as the episode that made them cry hardest.",
+          "the_moment": "Tomoya walks away from the hospital in silence. What he has lost and what it costs him is written entirely in that walk.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

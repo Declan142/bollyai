@@ -1,0 +1,137 @@
+{
+  "slug": "tanaav",
+  "qid": {
+    "value": "Q114819635",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tanaav",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SonyLIV",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Action", "Crime", "Spy", "Drama"],
+  "logline": "A disgraced STG officer goes undercover in the Kashmir Valley in 2017 to dismantle a Pakistan-backed terror network - India's official adaptation of the Israeli series Fauda.",
+  "poster": {
+    "src": "/img/series/tanaav/poster.jpg",
+    "alt": "Tanaav poster",
+    "attribution": "Poster © SonyLIV / Applause Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed. Season 2 concluded in December 2024. No Season 3 announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tanaav"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-11-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Individual episode IMDb ratings cluster in the 7.9-8.4 range; critics at Times of India and Scroll.in praised the breakneck pacing and striking Kashmir cinematography, while Hindustan Times and Film Companion flagged the adaptation's unwillingness to interrogate the conflict from multiple angles."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A nail-biting espionage thriller set in Kashmir that moves at a breakneck pace throughout.",
+            "source": "Times of India",
+            "url": "https://timesofindia.indiatimes.com/web-series/reviews/hindi/tanaav-review/articleshow/95440869.cms"
+          },
+          {
+            "text": "The show delivers the sugar rush of a fast-paced action thriller.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/tanaav-review-the-fauda-remake-is-set-in-kashmir"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21916016/"
+      },
+      "review_body": "Tanaav premiered on SonyLIV on November 11, 2022 - India's official adaptation of the Israeli action thriller Fauda, transposed from the West Bank to the Kashmir Valley in 2017. Directors Sachin Krishn and Sudhir Mishra established the show's register immediately: kinetic editing, authentic Kashmiri locations and dialogue, and a relentless operational momentum borrowed from its Israeli source. Times of India called it a nail-biting espionage thriller that moves at a breakneck pace. Scroll.in noted it as an undoubtedly gripping thriller but cautioned that it rushes past the important questions about the conflict it depicts. Film Companion's review registered the same tension: the show delivers action-thriller propulsion but shies away from the moral complexity that made Fauda itself divisive and essential. Episode ratings on IMDb sit between 7.9 and 8.4, indicating consistent audience engagement across the twelve-episode run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Resurrection",
+          "air_date": "2022-11-11",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premiere resets the premise cleanly: a burned operative pulled back into the field in a region he knows too well, facing an enemy who exploits both the terrain and the institutional fractures within the STG. The Kashmir setting is deployed without exoticization.",
+          "the_moment": "The opening field operation that establishes what the STG is willing to do - and what its costs will be.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "An Eye For An Eye",
+          "air_date": "2022-11-11",
+          "bollymeter": 8.4,
+          "spoiler_free": "The season's mid-point is its highest-rated episode on IMDb, building the personal stakes that the procedural opening had deliberately underplayed. The episode's title announces its moral logic plainly, and the show follows through.",
+          "the_moment": "A confrontation that collapses the professional distance between hunter and target - the scene that critics noted as Tanaav's most Fauda-faithful moment.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 12,
+      "release_date": {
+        "value": "2024-09-06",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Season 2 episode IMDb ratings trend slightly lower (7.4-8.4 range); the Kashmiri conflict backdrop remains visually strong but some episodes show the plotting fatigue that long-running action serials encounter in their second cycle."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21916016/"
+      },
+      "review_body": "Season 2 premiered in two batches - six episodes on September 6, 2024, and the remaining six on December 6, 2024 - with an expanded cast that added Arbaaz Khan, Arslan Goni, and Soni Razdan alongside returning leads Manav Vij and Rajat Kapoor. The split-release format kept the show in conversation across the final quarter of 2024. Episode IMDb ratings dip modestly from Season 1 peaks, with the stronger entries still landing in the 8.0-8.4 range but the mid-season episodes trailing lower. The season maintains the visual quality and operational authenticity that critics credited in Season 1 while deepening the personal arcs. For committed viewers of the first season, the second continues what it promises; for new viewers, Season 1 is the correct entry point.",
+      "season_over_season": "Expands the ensemble and splits its run across two release windows; slightly lower episode-by-episode audience scores but a consistent action-thriller tone.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

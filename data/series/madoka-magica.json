@@ -1,0 +1,115 @@
+{
+  "slug": "madoka-magica",
+  "qid": {
+    "value": "Q53353",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Puella Magi Madoka Magica",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "crunchyroll.com",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Psychological", "Fantasy", "Supernatural"],
+  "logline": "Middle-school girls in Mitakihara are offered magical powers by a small creature called Kyubey - but the contract they sign binds their souls to a war against witches with a far darker cost than they imagined.",
+  "poster": {
+    "src": "/img/series/madoka-magica/poster.jpg",
+    "alt": "Puella Magi Madoka Magica poster",
+    "attribution": "Poster © Shaft / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 12-episode series concluded in April 2011. A sequel film, Puella Magi Madoka Magica the Movie - Walpurgisnacht: Rising, was announced and is scheduled for Japanese theatrical release in August 2026.",
+    "source": "Siliconera",
+    "source_url": "https://www.siliconera.com/madoka-magica-the-movie-walpurgisnacht-rising-new-release-date-set/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 12,
+      "release_date": {
+        "value": "2011-01-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "IMDb 8.2 from a large voter base and near-universal critical acclaim for its deconstruction of the magical girl genre; Anime News Network gave it an A grade, calling it 'truly attempting to do something different'."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Madoka Magica is truly attempting to do something different, introducing a host of wildly creative and deeply sinister elements.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/puella-magi-madoka-magica"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1773185/"
+      },
+      "review_body": "Airing on MBS and TBS in January 2011, Puella Magi Madoka Magica became one of the most discussed anime of the decade within weeks of its premiere. Critics at Anime News Network awarded it an A grade, praising Shaft's decision to subvert every magical-girl convention by embedding genuine dread and a tightly constructed tragic narrative inside a pastel aesthetic. The unsettling witch barrier sequences - rendered in collage-style animation unlike anything else on television - became the visual signature of the season. IMDb audience scores settled at 8.2 from tens of thousands of votes. The 12-episode run is self-contained and dense, and the final two episodes in particular generated enormous conversation about the nature of hope, sacrifice, and what it costs to be a hero.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I First Met Her in a Dream... or Something.",
+          "air_date": "2011-01-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere introduces Madoka's ordinary world with deliberate warmth before Kyubey's offer arrives - a deceptively gentle setup that critics noted plants every seed of the tragedy to come. The dream sequence and the fight against the witch give the first episode a visual vocabulary unlike any other magical girl series.",
+          "the_moment": "Homura appears in battle against the witch - stylish, cold, and completely unexplained, making the viewer's first question 'what does she know that we don't?'",
+          "critic_note": {
+            "text": "There's a palpable sense of dread hanging over everything that happens past the halfway mark in the first episode.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/puella-magi-madoka-magica"
+          }
+        },
+        {
+          "number": 3,
+          "title": "I'm Not Afraid of Anything Anymore",
+          "air_date": "2011-01-21",
+          "bollymeter": 9.2,
+          "spoiler_free": "The episode that changed the conversation around the series entirely - a brutal, sudden narrative shift that audiences and critics cited as the moment Madoka Magica proved it was not a conventional show. The tonal whiplash is earned and devastating.",
+          "the_moment": "Mami Tomoe's fate arrives without warning or ceremony - the scene that convinced audiences this series would spare no one.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "My Very Best Friend",
+          "air_date": "2011-04-22",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale delivers on every narrative promise made since the opening dream sequence, culminating in a wish and a transformation that recontextualises the entire series. Critics and audiences consistently identify this as one of anime's finest single episodes - a satisfying resolution that is also a profound statement about hope.",
+          "the_moment": "Madoka's wish and the cosmological reversal that follows - the payoff for twelve episodes of careful construction.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

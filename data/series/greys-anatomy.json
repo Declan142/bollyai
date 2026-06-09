@@ -1,0 +1,166 @@
+{
+  "slug": "greys-anatomy",
+  "qid": {
+    "value": "Q438406",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Grey's Anatomy",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ABC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Drama",
+    "Medical",
+    "Romance"
+  ],
+  "logline": "Surgical interns become residents become attendings at a Seattle hospital across two decades of catastrophe, grief, romance, and improbable survival - Shonda Rhimes's defining study of how ambition and intimacy collide in medicine.",
+  "poster": {
+    "src": "/img/series/greys-anatomy/poster.jpg",
+    "alt": "Grey's Anatomy series poster",
+    "attribution": "Poster © ABC / Shondaland / 20th Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "ABC renewed Grey's Anatomy for Season 23 in March 2026. The series has aired since 2005 and is the longest-running primetime medical drama in US television history.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Grey%27s_Anatomy"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 9,
+      "release_date": {
+        "value": "2005-03-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "70 percent on Rotten Tomatoes from 40 critics with an 84 percent audience score; critics called it a 'guilty pleasure' short on realism but addictive - a fair summary of a nine-episode launch that traded medical authenticity for ensemble chemistry."
+      },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 40,
+        "pull_quotes": [
+          {
+            "text": "A guilty pleasure short on guts - its cast of improbably fresh-faced characters may be addictive, but lack authenticity.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/greys_anatomy/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0413573/ratings/"
+      },
+      "review_body": "Grey's Anatomy launched March 27, 2005 on ABC as a mid-season replacement, running nine episodes in its first abbreviated season. Critics gave it 70 percent on Rotten Tomatoes from 40 reviews - a mixed but not unfavorable reception that accurately identified the show's trade-off: it privileged character dynamics and romantic tension over procedural realism. The consensus called it 'a guilty pleasure' that 'lacks authenticity' while conceding its addictive pull. Shonda Rhimes's decision to center the surgical intern ensemble rather than the attending surgeons gave the series its distinctive voice. The 84-percent audience score was the real signal - viewers responded to Ellen Pompeo's Meredith Grey and the ensemble chemistry in numbers that made Grey's Anatomy ABC's biggest new drama hit in years. The short season limited what critics could assess; the full measure of the show's ambitions would arrive in Season 2.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Hard Day's Night",
+          "air_date": "2005-03-27",
+          "bollymeter": 7.5,
+          "spoiler_free": "The pilot drops five surgical interns into their first day at Seattle Grace with no orientation and immediate life-or-death stakes. The pacing is efficient, the ensemble chemistry is apparent from the first scene, and Rhimes establishes quickly that this is a show about the psychological cost of acquiring competence rather than the mechanics of medicine itself.",
+          "the_moment": "Meredith discovering her one-night stand is her new attending surgeon - the inciting complication that structures the first two seasons.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2005,
+      "episodes": 27,
+      "release_date": {
+        "value": "2005-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100 percent on Rotten Tomatoes from 15 critics and an 89 percent audience score; the season's 'It's the End of the World' two-parter and the introduction of Denny Duquette set the emotional ceiling for the entire run - critics recognized the show graduating from guilty pleasure into genuine prestige drama."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 15,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0413573/ratings/"
+      },
+      "review_body": "Season 2 premiered September 25, 2005 and ran 27 episodes - the longest single season in the show's history. Critics returned a perfect 100 percent from 15 reviews. The consensus credited the season for transforming Grey's Anatomy from 'addictive guilty pleasure' into 'grand melodrama' with genuine emotional stakes. The Denny Duquette arc - a terminally ill heart patient who falls for Izzie Stevens - became the season's defining story and the show's first claim to genuine tearjerker status. The two-part bomb-squad episode set in the hospital became appointment television. The 89-percent audience score confirmed that the expanded emotional range landed with viewers. Season 2 is widely considered, alongside Season 3, the creative peak of the entire run - the point at which Grey's Anatomy justified the cultural conversation it was generating.",
+      "season_over_season": "The show graduates from premise-delivery to genuine ensemble drama; the Denny arc sets an emotional standard the series rarely matched again.",
+      "episode_reviews": [
+        {
+          "number": 16,
+          "title": "It's the End of the World",
+          "air_date": "2006-02-05",
+          "bollymeter": 9.0,
+          "spoiler_free": "A patient arrives at Seattle Grace with a live bomb lodged in his body cavity, and Meredith reaches inside to prevent detonation. The two-part episode is the show's first sustained claim to genuine procedural thriller territory, anchoring the high-stakes plot in character psychology rather than pure spectacle. Critics noted this as the moment Grey's Anatomy announced it was more than soap-medical drama.",
+          "the_moment": "Meredith's hand inside the body cavity while the bomb squad team debates whether to evacuate - a scene that redefined what ABC drama could do.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2006,
+      "episodes": 25,
+      "release_date": {
+        "value": "2006-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "64 percent on Rotten Tomatoes from 14 critics marks the first critical retreat; the consensus cited 'increasingly ludicrous plotting' even as the audience score held at 84 percent - a gap that defined the show's trajectory for the rest of its run."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": 14,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0413573/ratings/"
+      },
+      "review_body": "Season 3 premiered September 21, 2006 and critics scored it 64 percent on Rotten Tomatoes from 14 reviews - the first season to drop below certified-fresh on the Tomatometer. The consensus captured the central critique: 'infatuation for this twisty drama will have worn off for many viewers as the plotting gets increasingly ludicrous.' The audience score at 84 percent revealed a meaningful gap developing between critical and viewer response - a pattern that would define the show's long-running relationship with critics for the next decade. The season's finale, centering on Cristina and Burke's wedding, was the period's most-discussed Grey's event outside of the bomb episode. Critics who praised the season pointed to Sandra Oh's work as Cristina Yang as consistently the show's most reliable dramatic anchor.",
+      "season_over_season": "The first critical retreat from Season 2's peak; audience loyalty outpaces critical enthusiasm as plotting escalates beyond realism."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

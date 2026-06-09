@@ -1,0 +1,125 @@
+{
+  "slug": "station-eleven",
+  "qid": {
+    "value": "Q85803299",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Station Eleven",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO Max",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Sci-Fi",
+    "Mystery",
+    "Psychological"
+  ],
+  "logline": "Twenty years after a flu pandemic collapses civilization, a traveling theater troupe encounters a violent prophet whose past is unknowingly entangled with one of its performers - a meditation on memory, art, and survival.",
+  "poster": {
+    "src": "/img/series/station-eleven/poster.jpg",
+    "alt": "Station Eleven series poster",
+    "attribution": "Poster © HBO Max / Paramount Television Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Station Eleven was conceived and completed as a ten-episode limited series. No continuation has been announced by HBO Max or Paramount Television Studios.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-12-16",
+        "source": "HBO Max",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 98-percent Rotten Tomatoes score from 56 critics and a Metacritic score of 81 confirm near-consensus acclaim; the series is lauded for its structural ambition, non-linear storytelling, and a rare ability to find grace rather than despair in an apocalyptic premise."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 56,
+        "pull_quotes": [
+          {
+            "text": "Station Eleven rewards patient viewers with an insightful and thematically rich assertion that the show must go on.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/station_eleven/s01"
+          },
+          {
+            "text": "You cannot help but be comforted by a series driven by the faith that humanity's creativity and kinship will endure.",
+            "source": "Financial Times",
+            "url": "https://www.rottentomatoes.com/tv/station_eleven/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10574236/ratings/"
+      },
+      "review_body": "Premiering December 16, 2021 on HBO Max, Station Eleven earned a 98-percent Rotten Tomatoes score from 56 critics and a Metacritic score of 81. Critics clustered on two qualities: the structural bravery of its non-linear storytelling - which weaves a pre-pandemic Chicago stage night, the chaos of the outbreak, and a post-collapse world twenty years later - and its insistence on hope rather than horror as the emotional register of the apocalypse. The Financial Times praised 'a series driven by faith that humanity's creativity and kinship will always endure.' IndieWire called it 'an end-of-the-world saga like no other.' The 75-percent Popcornmeter reflected a real audience split - some found the literary pacing slow, while others embraced it as prestige television at its most assured. IMDb settled at 7.5, consistent with an audience that respects it more than it loves it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Wheel of Fire",
+          "air_date": "2021-12-16",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere cross-cuts between a Chicago theater on the night of the Georgian Flu's arrival and the post-collapse present, establishing the show's formal conceit immediately. The match-cutting between a famous actor's death on stage and the world unraveling around it is a bravura opening. Critics noted the premiere's refusal to sensationalize the collapse.",
+          "the_moment": "Arthur Leander collapses on stage while performing King Lear, and young Kirsten reaches out from the audience - the scene that anchors two decades of story.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "The Severn City Airport",
+          "air_date": "2021-12-23",
+          "bollymeter": 9.0,
+          "spoiler_free": "A bottle episode set almost entirely in the early days of the collapse at an airport, this installment assembles a community of strangers with no rule book and no certainty. Critics highlighted it as the season's structural centerpiece - a miniature series within the series. Its portrayal of ordinary improvised community under catastrophe is the series' clearest statement of purpose.",
+          "the_moment": "The grounded passengers choose to stay, voting not on evacuation but on whether to keep the lights on - a small act of collective will that defines the show's ethos.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Unbroken Circle",
+          "air_date": "2022-01-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale draws every timeline into convergence, paying off the season's obsessive circling around Arthur Leander's life and its long aftershocks. Critics praised it for resolving the prophet's identity and Kirsten's arc without sensationalism. The New Yorker's praise for the show's obsession with how people 'remake and imprint on the material they cherish' reaches its fullest expression here.",
+          "the_moment": "The Traveling Symphony performing for the first time in the complete amphitheater - a quiet triumph of persistence over catastrophe.",
+          "critic_note": {
+            "text": "Even more than the book, the show is obsessed with how people change, remake, and imprint on the material they cherish.",
+            "source": "The New Yorker",
+            "url": "https://www.rottentomatoes.com/tv/station_eleven/s01/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

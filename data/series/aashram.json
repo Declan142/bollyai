@@ -1,0 +1,153 @@
+{
+  "slug": "aashram",
+  "qid": {
+    "value": "Q98478771",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Aashram",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MX Player",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Crime", "Drama", "Thriller", "Psychological"],
+  "logline": "A charismatic godman builds a political and spiritual empire on fraud, exploitation, and absolute loyalty - a crime drama about how manufactured faith becomes a weapon.",
+  "poster": {
+    "src": "/img/series/aashram/poster.jpg",
+    "alt": "Aashram poster",
+    "attribution": "Poster © MX Player / Prakash Jha Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Three seasons produced, with Season 3 split across two parts (June 2022 and February 2025). Available free on MX Player (now Amazon MX Player). Future continuation not confirmed as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Aashram"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-08-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "NDTV's Saibal Chatterjee gave it 3 out of 5 stars, calling it ambitious, provocative and action-packed - an accurate read of a show whose strongest asset is Bobby Deol's unexpectedly credible transformation into Baba Nirala and whose weakest is an over-stretched episode count."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Prakash Jha's digital debut is ambitious, provocative and action-packed.",
+            "source": "NDTV",
+            "url": "https://www.ndtv.com/entertainment/aashram-review-bobby-deol-prakash-jha-mx-player-2285613"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12805346/"
+      },
+      "review_body": "Aashram launched on MX Player on August 28, 2020 - notable as a free-to-stream original at a time when Indian OTT was still largely paywalled. Prakash Jha directed Bobby Deol as Baba Nirala, a self-appointed spiritual leader whose ashram operates as a political patronage machine and a cover for exploitation. NDTV rated it 3 out of 5 stars, praising Jha's ambition and Deol's commitment to the role while noting the series' structural flaws: an episode count that invites padding, and self-censorship that softens the edges of the critique the premise requires. The 6.6 IMDb aggregate across the series reflects audiences registering the gap between a compelling central performance and uneven craft around it. Deol's career rehabilitation angle - this was a genuine second act after years of decline - became inseparable from the show's reception narrative.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-08-28",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes Baba Nirala's operation in full: the stagecraft of the darbar, the devotees who surrender judgment along with money, and the political functionaries who need him as much as he needs them. Deol is immediately more present than his career at this point suggested he could be.",
+          "the_moment": "Nirala's first public appearance as a spiritual figure - the gap between the performer and the performance.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-11-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The rapid same-year follow-up raised questions about pacing discipline; the story threads begun in Season 1 continue without significant escalation, and the episode count again tests patience, though the central conspiracy deepens."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12805346/"
+      },
+      "review_body": "Season 2 followed Season 1 by less than three months, arriving on November 11, 2020, which raised structural concerns immediately: the production's ambition to keep audiences engaged came at the cost of the careful plotting that the premise required. The nine-episode run continues the investigation threads from Season 1 and deepens the political patronage network around the ashram. The most effective sections are those that focus on the women within the ashram's orbit, particularly Aaditi Pohankar's arc. The show's free-to-stream model on MX Player meant the audience was enormous by Indian OTT standards, but critical coverage was sparser for Season 2 than for the debut season.",
+      "season_over_season": "Rapid same-year release; extends Season 1's threads without escalating them - a bridge season rather than a step forward.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 15,
+      "release_date": {
+        "value": "2022-06-03",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "The fifteen-episode Season 3 (split across Part 1 in June 2022 and Part 2 in February 2025) is the series' most stretched run; individual episode IMDb ratings in the 6.1 range signal audience fatigue with a story whose central thesis has been stated and re-stated across 33 total episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12805346/"
+      },
+      "review_body": "Season 3 arrived in two parts: the first ten episodes on June 3, 2022, and five additional episodes on February 28, 2025. The fifteen-episode total makes Season 3 the largest and most structurally diffuse season. The Ormax Media tracking noted it as a top-watched streaming original across multiple weeks, confirming that the free-to-stream audience for Aashram remains substantial even as critical enthusiasm has not returned to the Season 1 baseline. IMDb episode ratings for Season 3 drop into the low 6s, consistent with a show that has exhausted its central argument without finding a structural way to conclude it. The Part 2 delay of nearly three years further fractured narrative momentum. For viewers committed to the full arc, this is the completion of a long story; for new viewers, it is the least recommended entry point.",
+      "season_over_season": "A fifteen-episode run split across three years; biggest audience by platform metrics, lowest episode-level ratings of the entire run.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "bad-and-crazy",
+  "qid": {
+    "value": "Q108876770",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bad and Crazy",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Action", "Comedy", "Psychological"],
+  "logline": "A corrupt detective starts seeing a righteous, motorcycle-riding alter ego who will not let him keep cutting corners - part buddy-cop thriller, part split-personality character study.",
+  "poster": {
+    "src": "/img/series/bad-and-crazy/poster.jpg",
+    "alt": "Bad and Crazy series poster",
+    "attribution": "Poster © tvN / Studio Dragon / Mink Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Bad and Crazy ran for a single 12-episode season on tvN and iQIYI, concluding January 28, 2022. No continuation was announced.",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bad_and_Crazy"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-12-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "NME gave it 4/5 and praised 'water-tight writing, pitch-perfect casting and great production value.' IMDb settled at 7.9. The split-personality premise is handled with more tonal discipline than the genre usually manages, though the back half's conventional mystery mechanics drew criticism."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A violence-charged story that is surprisingly peppered with sentimentality.",
+            "source": "Lauren Webb / NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/bad-and-crazy-review-lee-dong-wook-wi-ha-joon-3157593"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15146202/"
+      },
+      "review_body": "Bad and Crazy premiered on tvN and iQIYI on December 17, 2021, co-produced by Studio Dragon. Lee Dong-wook plays a detective who is competent and deeply corrupt - comfortable with moral compromise until a second personality, K, manifests as a motorcycle-riding idealist who will not leave him alone. NME's Lauren Webb awarded 4/5 and wrote it was 'a violence-charged story surprisingly peppered with sentimentality,' citing 'water-tight writing, pitch-perfect casting and great production value.' Wi Ha-joon, already a breakout from Squid Game Season 1, brought credibility and energy to the K role. IMDb users settled at 7.9, reflecting broad approval with a caveat: reviewers consistently noted the second half's shift toward conventional mystery uncovers the standard K-drama 'protagonist discovers his own dark past' skeleton under the original split-personality conceit. The twelve-episode count keeps it lean enough that the formula drift lands before audience patience runs out.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-12-17",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premiere immediately establishes the central relationship: Lee Dong-wook's detective is smooth, careerist and cutting corners at every turn, and K appears as an interruption he cannot rationalise away. The tone - dark crime thriller with a seam of deadpan comedy running through it - is set confidently and does not overexplain the split-personality premise.",
+          "the_moment": "K's first full appearance on the motorcycle - the series signals it is going to lean into the absurdist premise rather than hedge around it.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Episode 2",
+          "air_date": "2021-12-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The second episode secured the series' audience with its highest individual IMDb rating of the run. The detective-K dynamic moves from novelty to genuine comic and dramatic engine. The action set-pieces here were widely cited in audience reviews as the most purely enjoyable sequences of the season.",
+          "the_moment": "The first extended sequence where the detective and K are forced to cooperate in real time - the buddy-cop formula landing before it can become familiar.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

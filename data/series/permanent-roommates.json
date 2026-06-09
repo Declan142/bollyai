@@ -1,0 +1,147 @@
+{
+  "slug": "permanent-roommates",
+  "qid": {
+    "value": "Q24521502",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Permanent Roommates",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TVF Play / Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Romance", "Slice of Life", "Drama"],
+  "logline": "Mikesh flies back from the US after three years to propose to Tanya, who is not yet sure she wants marriage - India's first major web series, which launched TVF and the Indian streaming era.",
+  "poster": {
+    "src": "/img/series/permanent-roommates/poster.jpg",
+    "alt": "Permanent Roommates poster",
+    "attribution": "Poster © The Viral Fever (TVF). Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons completed. Season 3 released October 2023 on Amazon Prime Video. TVF has not announced a Season 4.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Permanent_Roommates"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 5,
+      "release_date": {
+        "value": "2014-10-31",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "A landmark 8.6 IMDb rating reflects the outsized cultural impact - this is the series that proved Indian audiences would watch scripted drama online; the writing is tight and the central dynamic between Sumeet Vyas and Nidhi Singh is immediately genuine."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4156586/"
+      },
+      "review_body": "Permanent Roommates premiered on YouTube on October 31, 2014 - India's first major scripted web series from TVF. The first episode crossed 4.5 million YouTube views, a staggering number for Indian digital content at the time. The five-episode run follows Mikesh returning from the US to propose to Tanya after three years of a long-distance relationship, and the romantic comedy format found an immediate audience. Audience consensus on IMDb at 8.6/10 reflects both the novelty effect and genuine affection for the show's naturalistic dialogue. Critics writing for outlets like Scroll.in later recognized it as a foundational text for the Indian web series form. The performances are relaxed in a way Indian television rarely achieved, and the writing trusts its leads to carry extended two-person scenes without the staginess of mainstream TV.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Proposal",
+          "air_date": "2014-10-31",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes the show's entire dynamic in a single airport scene and a long car ride: Mikesh's disarming directness against Tanya's guarded skepticism. It felt unlike anything else on Indian screens at the time - low-budget, naturalistic, and immediately watchable.",
+          "the_moment": "Mikesh pulling out the ring in the most awkward possible setting - the scene that defined the show's tone.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 7,
+      "release_date": {
+        "value": "2016-02-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Expands the couple's story into cohabitation and wedding planning territory; the additional seven episodes give the relationship more texture, though the novelty premium of Season 1 is no longer available."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4156586/"
+      },
+      "review_body": "Season 2 arrived on Valentine's Day 2016 and expanded to seven episodes, following Tanya and Mikesh's transition from reluctant co-habitation to navigating an actual relationship. The audience held - IMDb aggregate across the series remained at 8.6/10 - and the added runtime let the supporting characters develop. The writing for Season 2 is warmer and less high-concept than the proposal-driven Season 1, settling into a register closer to slice-of-life relationship comedy. The parents' episode received particular praise for its ensemble performance. Season 2 consolidated TVF's position as the dominant force in Indian digital fiction rather than extending the original's cultural breakthrough.",
+      "season_over_season": "Trades the high-concept proposal hook of Season 1 for a slower, warmer register; bigger ensemble but less urgency.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 5,
+      "release_date": {
+        "value": "2023-10-18",
+        "source": "trade announcement",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "A seven-year gap between seasons creates a fan-service quality; the story of Mikesh wanting to move abroad while Tanya feels stuck is credible but the urgency of the original two seasons does not transfer to this belated revival."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4156586/"
+      },
+      "review_body": "Season 3 emerged on Amazon Prime Video in October 2023, seven years after Season 2, with Tanya feeling professionally stuck and Mikesh proposing a move abroad as the solution. The five-episode count mirrors the original but the show now competes in a market it helped create - one saturated with far more ambitious Indian web content. Audience IMDb scores for Season 3 episodes land around 8.0, a step below the earlier seasons. The series retains the warmth and the central performances, but the stakes feel domesticated compared to what Indian streaming can now offer. Worthwhile viewing for fans of the original run; thin as a standalone entry point.",
+      "season_over_season": "Returns seven years later with a career-crisis arc that feels smaller than the landmark seasons that preceded it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

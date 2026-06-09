@@ -1,0 +1,93 @@
+{
+  "slug": "human-india",
+  "qid": {
+    "value": "Q110800225",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Human",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Medical", "Thriller", "Crime", "Drama"],
+  "logline": "A star surgeon and an ambitious junior doctor become entangled in a pharmaceutical company's illegal human drug trials preying on the rural poor - a medical thriller built on institutional rot.",
+  "poster": {
+    "src": "/img/series/human-india/poster.jpg",
+    "alt": "Human poster",
+    "attribution": "Poster © Disney+ Hotstar / Sunshine Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. No renewal announced as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Human_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-01-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "A 7.6 IMDb rating reflects audience appreciation of Shefali Shah's performance in a show critics found overambitious - Film Companion's Rahul Desai argued it bites off more than it can chew, and the high-on-films.com review called it a hasty thriller; the subject matter is important but the execution is cluttered."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Human bites off more than it can chew.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/human-hotstar-review-is-an-ill-timed-ill-conceived-medical-thriller-shefali-shah-kirti-kulhari-ram-kapoor"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15128088/"
+      },
+      "review_body": "Human arrived on Disney+ Hotstar on January 14, 2022 - a ten-episode medical thriller co-directed by Vipul Amrutlal Shah and Mozez Singh, exposing the machinery of unethical pharmaceutical drug trials conducted on vulnerable rural patients. The subject matter is both urgent and under-explored in Indian popular fiction. IMDb audiences rated it 7.6/10, making it the most-searched Indian web series in the first half of 2022 according to IMDb's own data. Critics split on execution. Film Companion's review argued the show is overloaded - too many characters, too many plot threads, and dialogue that strains under expository pressure. Bollywood Life praised it as mysterious, murky and magnificent. The consensus sits at a genuine performance-versus-writing tension: Shefali Shah's Dr. Gauri Nath is complex and committed, Kirti Kulhari's junior doctor arc is credibly observed, but the ten-episode structure frequently sacrifices coherence for shock. The drug-trial subject matter alone makes it worth one watch.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-01-14",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere drops both leads into the hospital system at different altitudes - Shah as the commanding department head, Kulhari as the aspirant who needs her patronage. The pharmaceutical subplot is introduced early and the socioeconomic stakes are established without sentimentality.",
+          "the_moment": "The first glimpse of what Vayu Pharma's trial patients actually look like - a visual argument the show makes before it makes a verbal one.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

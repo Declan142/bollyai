@@ -1,0 +1,96 @@
+{
+  "slug": "anohana",
+  "qid": {
+    "value": "Q483943",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "AnoHana: The Flower We Saw That Day",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "crunchyroll.com",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Supernatural", "Coming of Age", "Romance"],
+  "logline": "A group of childhood friends in Chichibu, Japan, who drifted apart after one of them died in an accident, are forced back together when the ghost of Menma appears to her former best friend and asks him to grant a wish she cannot remember.",
+  "poster": {
+    "src": "/img/series/anohana/poster.jpg",
+    "alt": "AnoHana: The Flower We Saw That Day poster",
+    "attribution": "Poster © A-1 Pictures / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 11-episode series concluded June 2011 on Fuji TV's Noitamina block. A compilation film was released in 2013. A live-action Japanese drama adaptation aired in 2015. No sequel anime has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 11,
+      "release_date": {
+        "value": "2011-04-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "IMDb 8.1 and a MAL score reported at 9.01 reflect consistent critical and audience acclaim; the series is regularly cited alongside Grave of the Fireflies as one of anime's most effective grief narratives."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1913273/"
+      },
+      "review_body": "A-1 Pictures aired AnoHana on Fuji TV's Noitamina programming block from April to June 2011, a short-run 11-episode series that became one of the most emotionally affecting anime of the decade. The Noitamina block was designed for shorter, character-driven works and AnoHana exemplified its mandate - a tight grief-and-reconciliation drama whose brevity prevents it from overstaying its welcome. IMDb audiences rated it 8.1 across a large voter base. The MAL community score sits around 9.01, placing it among the top-rated anime. Critics consistently praised the ensemble characterisation - each of the six former friends carries a distinct form of guilt and unresolved feeling about Menma's death - and the show's restraint in withholding catharsis until the final episode. The Chichibu setting is used with unusual care, the landscape becoming a visual metaphor for the characters' arrested development.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Super Peace Busters",
+          "air_date": "2011-04-14",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Jinta's reclusive life and Menma's reappearance with enough warmth and strangeness to immediately distinguish the series from typical supernatural drama. Critics noted the show's confidence in avoiding easy emotional manipulation in the first episode, setting up a grief story rather than a ghost story.",
+          "the_moment": "Menma appears in Jinta's room in daylight, completely casual - the contrast between her warmth and his isolation says everything about what the series is about.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "The Flower We Saw That Day",
+          "air_date": "2011-06-23",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale delivers the series' emotional thesis in full - the wish revealed, the goodbyes said, the weight of five years of unspoken grief lifted in a single night. Audiences consistently rate it among anime's most powerful final episodes; the closing sequence prompted widespread viewer responses that became part of the show's cultural legacy.",
+          "the_moment": "The group reads Menma's letters aloud on the hillside. Everything the series built pays out in that scene.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

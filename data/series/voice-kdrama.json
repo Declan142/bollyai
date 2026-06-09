@@ -1,0 +1,168 @@
+{
+  "slug": "voice-kdrama",
+  "qid": {
+    "value": "Q27949148",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Voice",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "OCN",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Mystery", "Action"],
+  "logline": "A voice profiler who can identify killers by sound alone teams with a volatile detective at an emergency call center to hunt the serial killer who murdered both their families.",
+  "poster": {
+    "src": "/img/series/voice-kdrama/poster.jpg",
+    "alt": "Voice K-drama series poster",
+    "attribution": "Poster © OCN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Voice ran for four seasons on OCN (Seasons 1-3) and tvN (Season 4), concluding its run in 2021. Season 4 aired June-July 2021 with a new lead cast.",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Voice_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-01-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 1 holds an 8.5 on MyDramaList from over 21,000 ratings and set OCN cable records at the time of broadcast, with critics and fans converging on Jang Hyuk's ferocious performance and the relentless pacing of the emergency-call-center conceit."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/20378-voice"
+      },
+      "review_body": "Season 1 of Voice arrived in January 2017 and promptly set a new viewership record for OCN cable dramas at the time. The premise is tight: every case is worked through sound - voice analysis, ambient noise, the split-second calls to the 112 emergency center. Jang Hyuk plays a grief-maddened detective with a physicality that critics and audience reviewers consistently flagged as the season's single greatest asset. The serial-killer antagonist is genuinely disturbing - OCN escalated the content rating to 19+ for three episodes mid-run - and the procedural mechanics stay taut through all 16 hours. MyDramaList aggregated over 21,000 user scores to an 8.5 average, unusually high for a long-running cable procedural.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Voice in the Dark",
+          "air_date": "2017-01-14",
+          "bollymeter": 8.1,
+          "spoiler_free": "The series opens with parallel origin traumas - the detective's murdered wife, the profiler's murdered father - then slams both characters into the same 112 call center. The framing device of building an entire thriller around sound rather than vision is established cleanly and with real urgency.",
+          "the_moment": "The call center dispatch team realises the same voice signature links two separate murders - the investigation's central spine snaps into place.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "For the Last Golden Time",
+          "air_date": "2017-03-12",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale delivers the season's promised confrontation between voice profiler and the killer who haunted both leads. The episode holds back on easy catharsis and lets the grief stay in the frame after the case closes - a tonal choice that separates Season 1 from a standard procedural payoff.",
+          "the_moment": "The final exchange between the profiler and the detective over what catching the killer actually resolves - and what it does not.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2018,
+      "episodes": 12,
+      "release_date": {
+        "value": "2018-08-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 replaced Jang Hyuk with Lee Jin-wook and shifted the central villain to a more stylised antagonist; audience ratings on MyDramaList dipped relative to Season 1 but the procedural engine remained functional."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 compresses the episode count to 12 and introduces a new detective lead (Lee Jin-wook) while retaining Lee Ha-na's voice profiler as the through-line. The shorter run accelerates pace but sacrifices some of the slow character accumulation that made Season 1 land emotionally. Audience reception remained warm - MyDramaList users kept the franchise score high - but reviewers noted the villain felt more theatrical than the controlled menace of Season 1's antagonist. The OCN production values stayed consistent: night-set procedural visual grammar, a sound-design approach that keeps audio front in the mix.",
+      "season_over_season": "Loses Jang Hyuk's presence and compresses to 12 episodes; the procedural mechanics hold but the emotional register is measurably lighter than Season 1."
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-05-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Season 3 returns to 16 episodes but audience response tracked below Season 1 levels; the franchise formula was showing diminishing returns by this point, though the procedural craft remained competent."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 brings back the 16-episode count and continues with Lee Jin-wook, but audience enthusiasm visible in early-season social metrics was cooler than at the franchise's peak. The voice-profiling conceit that felt fresh in 2017 was by 2019 a familiar procedural scaffold; Season 3 leans harder into melodrama to compensate. For committed fans of the franchise the production standard stays professional, but new viewers are better served by starting at Season 1.",
+      "season_over_season": "Returns to the 16-episode format but the franchise's novelty has worn thin; melodrama compensates where the procedural hook no longer surprises."
+    },
+    {
+      "number": 4,
+      "year": 2021,
+      "episodes": 14,
+      "release_date": {
+        "value": "2021-06-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "Season 4 moves to tvN with an entirely new cast led by Song Seung-heon and loses the continuity thread that tied the first three seasons together; audience reception was measurably weaker."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 shifts to tvN and replaces the entire principal cast, with Song Seung-heon taking the detective role. The structural link to the original premise - the specific voice-profiler and her personal stake in the franchise's founding crime - is severed entirely. Without that thread, Season 4 functions as a standalone OCN-style procedural that happens to share a title and concept with a better show. Viewers who came for Lee Ha-na's profiler had no continuation here.",
+      "season_over_season": "A complete cast reset on a different network severs the franchise's narrative continuity; Season 4 plays as a stand-alone procedural, not a continuation."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

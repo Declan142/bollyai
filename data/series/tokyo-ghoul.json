@@ -1,0 +1,132 @@
+{
+  "slug": "tokyo-ghoul",
+  "qid": {
+    "value": "Q11102941",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tokyo Ghoul",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "crunchyroll.com",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Horror", "Action", "Psychological", "Supernatural"],
+  "logline": "Tokyo college student Ken Kaneki survives a ghoul attack only to be surgically transformed into a half-ghoul himself, forcing him to navigate a hidden society of flesh-eating beings while struggling to hold onto his humanity.",
+  "poster": {
+    "src": "/img/series/tokyo-ghoul/poster.jpg",
+    "alt": "Tokyo Ghoul poster",
+    "attribution": "Poster © Studio Pierrot / Funimation. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original series ran two seasons - Tokyo Ghoul (2014) and Tokyo Ghoul Root A (2015). A further two-season adaptation of the sequel manga Tokyo Ghoul:re aired in 2018. Root A diverged from the source manga and drew significant audience criticism for the original storyline choices.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tokyo_Ghoul"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-07-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "IMDb 7.7 and Anime News Network B+ reflect a visually ambitious season that rushes Sui Ishida's manga source material but delivers genuine visceral impact and a strong protagonist arc."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Tokyo Ghoul is a surprisingly cinematic anime, and not just in the well-animated fight scenes.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/tokyo-ghoul/episodes-1-8/.78182"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3741634/"
+      },
+      "review_body": "Studio Pierrot's adaptation of Sui Ishida's manga aired on Tokyo MX from July to September 2014 and became a cultural reference point for dark shonen horror. Anime News Network's Jacob Chapman rated it B+ and called it 'surprisingly cinematic,' praising director Shuhei Morita's visual style and the show's willingness to be genuinely grotesque. The season condenses the manga's first arc into 12 episodes, a pace critics noted sacrifices character depth - supporting ghouls in particular - in favour of propulsion. The IMDb audience rating settled at 7.7 across a large voter base. The first season stays relatively close to Ishida's source material, and critics consistently rate it the strongest of the franchise's television run. Kaneki's psychological deterioration in the final episodes, and the infamous torture sequence, generated significant critical discussion about the show's tonal ambitions.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Tragedy",
+          "air_date": "2014-07-04",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the series' core horror mechanics swiftly - Kaneki's ordinary student life, the ghoul attack, and the surgical aftermath. Critics at ANN noted the episode's willingness to be graphically unsettling from the outset and highlighted Morita's directorial confidence in the action sequences.",
+          "the_moment": "Rize's transformation in the alley - the show's first real declaration that this is not a tame adaptation.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Ghoul",
+          "air_date": "2014-09-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The season finale depicts Kaneki's transformation after prolonged torture - a shift in his character that divides critics between those who found it earned and those who felt the censorship of the broadcast cut too much visceral detail. The central image of Kaneki's changed psychology is unmistakable.",
+          "the_moment": "Kaneki cracks his fingers and accepts what he has become - the visual that defined the series' cultural footprint.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-01-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "IMDb 7.5 and widespread manga-reader criticism for the original storyline; Root A abandons Ishida's narrative and the resulting season is considered the weakest of the franchise's television entries."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5497534/"
+      },
+      "review_body": "Tokyo Ghoul Root A aired January to March 2015 and was the point at which the anime diverged explicitly from Sui Ishida's manga, following an original story approved by Ishida but widely criticised by the fanbase. The IMDb audience score dropped to 7.5 relative to season 1's 7.7, and community discourse was sharply divided. Critics noted the season's striking visual sequences - including a widely discussed final scene - but found the narrative incoherent without the character and world-building work the manga had done. Root A functions as a standalone action showcase more than a satisfying story, and viewers approaching the franchise are consistently advised to read the manga to understand what the anime compressed or discarded.",
+      "season_over_season": "Abandons the manga's storyline for an original narrative that most critics and audiences rated below the source material's ambitions.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

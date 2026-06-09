@@ -1,0 +1,98 @@
+{
+  "slug": "taboo",
+  "qid": {
+    "value": "Q17021920",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Taboo",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / FX",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Drama",
+    "Historical",
+    "Crime",
+    "Thriller"
+  ],
+  "logline": "In 1814 London, a man returns from Africa to claim his dead father's estate and finds himself trapped between the East India Company, the Crown, and his own buried past.",
+  "poster": {
+    "src": "/img/series/taboo/poster.jpg",
+    "alt": "Taboo poster",
+    "attribution": "Poster © Scott Free Productions / Hardy Son and Baker / BBC / FX. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Series 2 in March 2017. As of 2025, production has not commenced. Steven Knight confirmed six of eight planned episodes written; start date contingent on Tom Hardy's scheduling.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Taboo_(2017_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 8,
+      "release_date": {
+        "value": "2017-01-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "76 percent Rotten Tomatoes from 68 critics and an 8.3 IMDb rating reflect a divided response: mainstream critics found the pace indulgent and the plotting opaque, while audiences valued Hardy's performance and the period noir atmosphere at a level the critics did not."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": 68,
+        "pull_quotes": [
+          {
+            "text": "After a sluggish start, Taboo takes hold as a mysterious, dark, and often brutal period drama.",
+            "source": "Rotten Tomatoes critics consensus",
+            "url": "https://www.rottentomatoes.com/tv/taboo/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3647998/"
+      },
+      "review_body": "Taboo premiered on BBC One on 7 January 2017 and on FX in the US three days later. Created by Steven Knight with Tom Hardy and his father Chips Hardy, the eight episodes follow James Keziah Delaney through early nineteenth-century London's colonial machinery. Rotten Tomatoes recorded 76 percent from 68 critics, with Metacritic awarding 67 from 32. The split between positive and negative reviews tracked a consistent fault line: critics who valued slow-burn period atmosphere and Hardy's physically committed central performance were broadly positive; those expecting propulsive plotting found the pacing punishing. The 91 percent audience score on Rotten Tomatoes versus the 76 percent critic score is one of the wider gaps in prestige British television of this period. Variety's Sonia Saraiya described it as manufactured darkness; the Hollywood Reporter called Hardy's turn solid if slow. The period production design, Max Richter's score, and director Kristoffer Nyholm's visual language were the consistent critical positives.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-01-07",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes James Delaney's arrival in London and the immediate hostility from the East India Company over the piece of land his father has left him. Hardy barely speaks for the first twenty minutes; the episode is a mood piece that trusts its atmosphere over its plot mechanics. Whether that is a strength depends entirely on appetite for slow prestige television.",
+          "the_moment": "Delaney's graveside appearance in the rain, coat and hat, watched by everyone who wants him dead - the image that defined the show's promotional presence.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}

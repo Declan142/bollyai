@@ -1,0 +1,107 @@
+{
+  "slug": "thirty-nine",
+  "qid": {
+    "value": "Q108306908",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Thirty-Nine",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Romance", "Slice of Life"],
+  "logline": "Three women on the edge of forty hold their friendship together as one of them receives a terminal diagnosis - a Korean slice-of-life that treats mortality without the comfort of sentiment.",
+  "poster": {
+    "src": "/img/series/thirty-nine/poster.jpg",
+    "alt": "Thirty-Nine series poster",
+    "attribution": "Poster © JTBC / Lotte Cultureworks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Thirty-Nine is a standalone 12-episode limited series. Son Ye-jin went on hiatus following the production; no second season was announced.",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Thirty-Nine"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-02-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Rotten Tomatoes certified Fresh at 94% from 2 critic reviews (small sample); IMDb settled at 7.7 from a broader audience base. The series appeared in Netflix's Global Top 10 for four consecutive weeks after its February 2022 launch, signalling strong international draw despite divided viewer response to its pacing."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "Life is short. There is no guarantee of a tomorrow. Be honest and live your best life.",
+            "source": "Jae-Ha Kim / Substack",
+            "url": "https://www.rottentomatoes.com/tv/thirty_nine/s01"
+          },
+          {
+            "text": "About the friendship between these women, what it means to them, and how to keep on without it.",
+            "source": "Pierce Conran / South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/thirty_nine/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15181094/"
+      },
+      "review_body": "Thirty-Nine premiered on JTBC on February 16, 2022, simultaneously streaming on Netflix, where it reached the Global Top 10 for four consecutive weeks. The series follows three lifelong friends - a dermatologist, an acting coach, a cosmetics saleswoman - as they navigate the threshold of forty, with one of them facing terminal illness. Rotten Tomatoes certified it Fresh at 94%, though the sample of two reviews is narrow. The IMDb audience score of 7.7 reflects broader but still warm reception. Critics grouped around two praise points: the chemistry of the three leads and the show's refusal to resolve grief with tidy uplift. Detractors noted the romance subplots consume screen time the friendship deserved. Son Ye-jin's final project before her personal hiatus registers as a graceful, if imperfect, showcase for the specific register of emotional restraint she built her career on.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Thirty, Nine",
+          "air_date": "2022-02-16",
+          "bollymeter": 6.7,
+          "spoiler_free": "The premiere takes its time establishing the texture of a decade-long friendship: shared shorthand, old wounds handled gently, the particular ease of people who no longer need to perform for each other. The terminal diagnosis arrives as a structural fact, not a melodramatic reveal - the series commits early to a tone of clear-eyed acceptance rather than crisis.",
+          "the_moment": "The moment the three friends sit in silence having absorbed the news - the show's emotional contract with the audience made visible.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Choice",
+          "air_date": "2022-03-31",
+          "bollymeter": 8.4,
+          "spoiler_free": "The finale earned its strongest individual episode IMDb score of the season at 8.4 - a notable jump from the opener's 6.7. Audiences who committed to the slow accumulation of the middle episodes found the closing hour paid back the investment. Critics noted it resists the conventional catharsis of tearjerker finales in favour of something quieter and more durable.",
+          "the_moment": "The goodbye scene that the whole season has been building toward - handled in a single held shot with no score underneath.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T00:00:00+05:30"
+}
