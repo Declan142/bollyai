@@ -1,0 +1,105 @@
+{
+  "slug": "our-blues",
+  "qid": {
+    "value": "Q110627977",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Our Blues",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Slice of Life"],
+  "logline": "An anthology of interlocking stories set on Jeju Island traces the ordinary grief, late-blooming love, and quiet resilience of residents at the beginning and end of their lives.",
+  "poster": {
+    "src": "/img/series/our-blues/poster.jpg",
+    "alt": "Our Blues poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single anthology season of 20 episodes on tvN, concluded June 12, 2022. Writer Noh Hee-kyung's first drama since Live (2018); marked Kim Woo-bin's television return after a six-year health hiatus.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Our_Blues"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 20,
+      "release_date": {
+        "value": "2022-04-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Peaked at 14.597% cable viewership - among the highest in Korean cable history - and IMDb 8.6 reflects a broad audience consensus that Noh Hee-kyung's ensemble writing and the Jeju setting combined to produce one of 2022's finest K-drama seasons."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt19115260/"
+      },
+      "review_body": "Our Blues aired on tvN from April to June 2022 and peaked at 14.597% nationwide viewership, placing it among the highest-rated dramas in Korean cable television history. Writer Noh Hee-kyung structured the series as a true anthology - not a single central romance, but a set of interlocking character studies ranging from a grieving fisherman to a pair of high-school students navigating an unplanned pregnancy. The star ensemble (Lee Byung-hun, Shin Min-a, Cha Seung-won, Han Ji-min, Kim Woo-bin) was universally praised for committing to unglamorous vulnerability, particularly in the arcs involving physical labour, aging, and social shame. The Jeju setting, filmed largely on location, gave the series a textural specificity rare in studio-bound K-dramas. Rotten Tomatoes placed the series at 85%, with critics highlighting the anthology structure as both the show's bravest formal choice and its most consistent strength.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-04-09",
+          "bollymeter": 8.5,
+          "spoiler_free": "The opener introduces several story threads simultaneously, establishing the Jeju marketplace world and its dense web of longstanding relationships. Rather than prioritising a single lead, it places all its ensemble characters on equal footing from the first scene.",
+          "the_moment": "The Jeju fish market establishing sequence - a burst of physical, working-class life that signals the drama's distance from standard K-drama settings.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2022-05-21",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode centring the high-school pregnancy storyline received widespread attention for its unflinching, unsentimental handling of a topic K-drama typically avoids or defangs. Critics cited this arc as evidence that Noh Hee-kyung was willing to follow her characters into genuinely uncomfortable territory.",
+          "the_moment": "The confrontation between the two teenagers and their respective families - the episode's refusal of easy resolution setting it apart from comparable K-drama storylines.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2022-06-12",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale closes each story thread with the quiet earned completeness that characterised the series throughout. The resolution of Kim Woo-bin's arc, in particular, carried the weight of his real-life absence from television and the show's consistent interest in second chances and things worth surviving for.",
+          "the_moment": "The final scene on the Jeju shore - a closing image that earned its emotional register across twenty episodes of careful preparation.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

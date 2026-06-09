@@ -1,0 +1,96 @@
+{
+  "slug": "parasyte-the-maxim",
+  "qid": {
+    "value": "Q137808011",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Parasyte: The Maxim",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Sci-Fi", "Horror", "Psychological"],
+  "logline": "A Tokyo high schooler's right hand is hijacked by an alien parasite with a mind of its own - and the two must coexist as humanity faces a silent invasion by creatures that wear human faces.",
+  "poster": {
+    "src": "/img/series/parasyte-the-maxim/poster.jpg",
+    "alt": "Parasyte: The Maxim poster",
+    "attribution": "Poster © Madhouse / NTV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 24-episode season adapting Hitoshi Iwaaki's manga, aired on Nippon TV from October 2014 to March 2015. Produced by Madhouse. The original 1990s manga ran in Monthly Afternoon for a decade before this adaptation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parasyte"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 24,
+      "release_date": {
+        "value": "2014-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Scored 8.32 by over 1.25 million MyAnimeList users and ranked #299 overall, Parasyte is recognised as one of Madhouse's strongest productions of the 2010s - a body-horror premise deployed with philosophical rigour rather than shock value."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.32,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/22535/Kiseijuu__Sei_no_Kakuritsu"
+      },
+      "review_body": "Madhouse's 2014 adaptation of Hitoshi Iwaaki's long-running manga updated the setting from the 1990s original to contemporary Tokyo without losing the central dread: an alien parasite that cannot take Shinichi's brain must share his body and, gradually, his perspective on humanity. The 24-episode run is paced for density - the horror escalates steadily through the first half while the second half shifts into a more philosophical examination of what separates humans from the creatures consuming them. MAL's 1.25 million voters awarded it 8.32 and a popularity rank of #43, reflecting the show's crossover appeal beyond dedicated horror fans. Critics who reviewed it highlighted Madhouse's fluid action choreography and the strength of the Shinichi-Migi relationship as the moral engine holding the violence in check.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Metamorphosis",
+          "air_date": "2014-10-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the show's central image - a parasite that wanted the brain settling for the right hand instead - and immediately begins the uneasy negotiation between Shinichi and Migi. The body-horror sequences are direct without being gratuitous, and the episode ends at exactly the right moment of horror.",
+          "the_moment": "Migi emerges for the first time and introduces itself - the show's central relationship defined in thirty seconds.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "Life and Oath",
+          "air_date": "2015-03-26",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale resolves both the survival plot and the philosophical question the show has been building since episode one: what does it mean to be human when the creatures replacing humans are indistinguishable, and possibly not worse, than what they replaced. The conclusion does not offer easy comfort.",
+          "the_moment": "Shinichi's final confrontation with the parasite threat - the scene where the show commits fully to its moral ambiguity.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

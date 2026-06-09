@@ -1,0 +1,91 @@
+{
+  "slug": "blue-period",
+  "qid": null,
+  "title": {
+    "value": "Blue Period",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Coming of Age", "Drama", "Slice of Life"],
+  "logline": "A popular but hollow high schooler stumbles into oil painting and discovers a consuming obsession - then throws away his easy social life to attempt the near-impossible: passing the Tokyo University of the Arts entrance exam.",
+  "poster": {
+    "src": "/img/series/blue-period/poster.jpg",
+    "alt": "Blue Period poster",
+    "attribution": "Poster © Seven Arcs / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single 12-episode season adapting Tsubasa Yamaguchi's manga. Premiered on Netflix internationally on October 9, 2021, with television broadcast on MBS/TBS running October to December 2021. Produced by Seven Arcs.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Blue_Period_(manga)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-10-09",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Rotten Tomatoes logged an 83% audience score (under 50 ratings); the series earned warm reception for its sincere depiction of artistic obsession and art examination culture, though critics noted the adaptation's pacing compressed the manga's emotional beats."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/blue_period"
+      },
+      "review_body": "Netflix released Blue Period internationally in October 2021, two weeks before the Japanese television broadcast began. Seven Arcs produced the 12-episode adaptation of Tsubasa Yamaguchi's still-running manga, compressing a story about the Tokyo University of the Arts entrance exam process into a single cour. The show's specific subject matter - not art in the inspirational-montage sense but art as a meritocratic ordeal with high failure rates - distinguished it from most coming-of-age anime. Yatora Yaguchi's passion is rendered without sentimentality: the process is painful, the competition is real, and the social cost of the pivot is not glossed over. Audience reception was warm (83% on Rotten Tomatoes), and the show found a dedicated following among viewers who found the art-school competitive pressure unusually well-observed for the genre.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I'll Take It",
+          "air_date": "2021-10-09",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere does its crucial work efficiently: establishing Yatora as someone who is good at the performance of everything but passionate about nothing, then breaking that in a single afternoon in front of a painting. The show earns the pivot by making the emptiness feel real first.",
+          "the_moment": "Yatora's first encounter with the early morning Shibuya painting - the image that breaks something open in him.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "My Blue",
+          "air_date": "2021-12-18",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale delivers the exam results and the emotional reckoning of whether the year was worth its costs. Fans of the manga noted the adaptation moved quickly through material that took many chapters to breathe, but as a compressed statement on creative identity the ending holds.",
+          "the_moment": "The exam panel's verdict - and Yatora's face in the moment after - the scene around which season reception divided.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

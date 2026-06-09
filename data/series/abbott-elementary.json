@@ -1,0 +1,189 @@
+{
+  "slug": "abbott-elementary",
+  "qid": {
+    "value": "Q107072019",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Abbott Elementary",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ABC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Drama"
+  ],
+  "logline": "An optimistic second-grade teacher navigates the beautiful chaos of an underfunded Philadelphia public school alongside colleagues who are barely holding it together - a mockumentary that makes systemic failure funny and then quietly devastating.",
+  "poster": {
+    "src": "/img/series/abbott-elementary/poster.jpg",
+    "alt": "Abbott Elementary poster",
+    "attribution": "Poster © ABC / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed through Season 6 as of March 2026. Creator and lead Quinta Brunson has said the show will run as long as the stories feel honest.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Abbott_Elementary"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 13,
+      "release_date": {
+        "value": "2021-12-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "98% on Rotten Tomatoes and a Metacritic of 80 for the debut season - critics immediately placed it in the lineage of The Office and Parks and Recreation while noting it had its own clearly distinct voice."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 45,
+        "pull_quotes": [
+          {
+            "text": "It has Parks and Recreation's sense of community, Modern Family's precision-tooling, Ted Lasso's charm, but it is its own, hilarious thing.",
+            "source": "The Guardian",
+            "url": "https://www.metacritic.com/tv/abbott-elementary/season-1/"
+          },
+          {
+            "text": "Abbott Elementary should be everyone's new comedic obsession, with a cast who've already formed honest, connective chemistry.",
+            "source": "IndieWire",
+            "url": "https://www.metacritic.com/tv/abbott-elementary/season-1/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/abbott-elementary/"
+      },
+      "review_body": "Abbott Elementary debuted on ABC in December 2021 with a 98 percent Rotten Tomatoes score and quickly became the most-talked-about broadcast comedy in years. Creator Quinta Brunson built the series on a mockumentary grammar familiar from The Office and Parks and Recreation but grounded it in a specificity - underfunded Black urban schools, teachers spending personal money on supplies, administrators more concerned with appearances than outcomes - that made the comedy feel earned rather than generic. IndieWire called it everyone's new comedic obsession; the Guardian placed it in a tradition of great workplace ensemble comedies while noting its own distinct identity. Brunson won the Primetime Emmy for Outstanding Lead Actress in a Comedy, and Sheryl Lee Ralph's supporting win completed a historic first season sweep for a show that arrived without fanfare and left as the industry's consensus best new comedy.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2021-12-07",
+          "bollymeter": 8.8,
+          "spoiler_free": "Brunson's Janine Teagues is introduced buying classroom supplies out of pocket while navigating the barely-functioning machinery of Abbott Elementary. The pilot deploys the mockumentary format with precision: every confessional reveals character, the ensemble is established without crowding, and the comedy lands because the underlying institutional failure is treated seriously. A compact, confident debut.",
+          "the_moment": "Janine presenting the supply budget she spent herself - the laugh that also functions as an indictment of how the system treats its teachers.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 22,
+      "release_date": {
+        "value": "2022-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "100% on Rotten Tomatoes and a Metacritic of 88 - the show at full creative power over 22 episodes, the highest Metacritic score in the series' run."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 30,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/abbott-elementary/"
+      },
+      "review_body": "Season 2 expanded to 22 episodes and reached 100 percent on Rotten Tomatoes with a Metacritic score of 88, the series' critical peak. The longer run gave the writers space to develop the ensemble's relationships - Janine and Gregory's slow-burn dynamic became a running comedy of self-deception that critics and audiences tracked with genuine investment. Sheryl Lee Ralph's Barbara Howard emerged as the season's MVP, her warmth and experience providing a tonal counterweight to the younger teachers' chaos. The show demonstrated that a broadcast network comedy could sustain this level of critical reception over a full 22-episode order, a format most considered commercially driven and creatively limiting.",
+      "season_over_season": "An expanded 22-episode order that amplifies the ensemble's chemistry rather than diluting it - the season where Abbott Elementary confirmed its place among the great workplace comedies."
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 14,
+      "release_date": {
+        "value": "2024-02-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100% on Rotten Tomatoes but a Metacritic of 82 - critics noted a slight softening of satirical edge as the show's audience-friendly warmth began to shade some of the earlier institutional bite."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 20,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/abbott-elementary/"
+      },
+      "review_body": "Season 3 returned in February 2024 and held its 100 percent Rotten Tomatoes approval but slipped to a Metacritic of 82, a minor dip critics attributed to the series' growing comfort with its own warmth. The romantic plots advanced in ways that satisfied the show's fan base while some reviewers felt the harder institutional commentary receded. The shortened 14-episode count, a function of the 2023 writers' strike, produced a season that critics described as effortlessly watchable but less structurally ambitious. Individual performances maintained high standards throughout - Lisa Ann Walter's Melissa Schemmenti was a recurring highlight - and the show's fundamental decency toward its subject remained intact.",
+      "season_over_season": "Slightly shorter run post-writers'-strike; maintains warmth and performance quality but some critics noted the institutional satire softened as the ensemble relationships took precedence."
+    },
+    {
+      "number": 4,
+      "year": 2024,
+      "episodes": 22,
+      "release_date": {
+        "value": "2024-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes and a Metacritic of 86 for Season 4 - a creative rebound over a full 22-episode order with critics noting the show found renewed satirical energy."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 18,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/abbott-elementary/"
+      },
+      "review_body": "Season 4 premiered October 2024 and returned to a full 22-episode order, earning 100 percent on Rotten Tomatoes and a Metacritic score of 86. Critics read the season as a creative rebound: the ensemble dynamics were recalibrated after the slow-burn Janine-Gregory arc reached its resolution in Season 3, opening new comic configurations. The show's institutional satire - the chronic underfunding, the bureaucratic absurdity, the emotional labour placed on teachers - remained the bedrock from which the comedy grew. Season 4 confirmed that Abbott Elementary, entering its fourth year, had the structural resilience of a long-running workplace ensemble rather than a show running on debut momentum.",
+      "season_over_season": "Full 22-episode order signals renewed creative confidence; critics noted the resolution of the central romantic arc freed the writers to recalibrate ensemble dynamics with fresh energy."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "the-pacific",
+  "qid": {
+    "value": "Q598499",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Pacific",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "War",
+    "Drama",
+    "Historical",
+    "Action"
+  ],
+  "logline": "Three US Marines - Leckie, Sledge, and Basilone - fight through Guadalcanal, Peleliu, Iwo Jima, and Okinawa in Spielberg and Hanks's $217 million companion to Band of Brothers, placing the Pacific Theater's psychological cost at the centre of its storytelling.",
+  "poster": {
+    "src": "/img/series/the-pacific/poster.jpg",
+    "alt": "The Pacific poster",
+    "attribution": "Poster © HBO / DreamWorks Television / Playtone. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A 10-episode limited series that concluded in May 2010. At $217 million it was the most expensive television production made to that date. No continuation was produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Pacific_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 10,
+      "release_date": {
+        "value": "2010-03-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "89% on Rotten Tomatoes (46 critics) and a Primetime Emmy for Outstanding Miniseries - a slightly lower critical ceiling than Band of Brothers reflecting the deliberate tonal shift toward psychological damage rather than tactical heroism."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 46,
+        "pull_quotes": [
+          {
+            "text": "The Pacific never feels like anything less than a cohesive whole. It's really a remarkable piece of television.",
+            "source": "Zap2it",
+            "url": "https://www.metacritic.com/tv/the-pacific/season-1/"
+          },
+          {
+            "text": "It will show you how character and sheer, unfair randomness combine to produce cruelty or decency.",
+            "source": "Time",
+            "url": "https://www.metacritic.com/tv/the-pacific/season-1/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/the-pacific/"
+      },
+      "review_body": "The Pacific aired on HBO in spring 2010 with a reported production budget of $217 million - the most expensive television production at the time - and earned 89 percent on Rotten Tomatoes from 46 critics, plus the Emmy for Outstanding Miniseries. Spielberg and Hanks's deliberate choice to distinguish it from Band of Brothers was apparent: where that series charted Easy Company's trajectory through European campaigns with a degree of tactical clarity and unit cohesion, The Pacific centred psychological disintegration. Eugene Sledge's memoir 'With the Old Breed' provided the emotional spine. James Badge Dale, Joseph Mazzello, and Jon Seda carried interlocking storylines through some of the war's most brutal engagements. Time's James Poniewozik credited the series with showing how randomness and character combine to produce either cruelty or decency - a moral frame Band of Brothers rarely needed to state explicitly.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Guadalcanal/Leckie",
+          "air_date": "2010-03-14",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere introduces Leckie and Basilone's parallel paths into the Pacific: one a writer turned rifleman, the other already a decorated veteran of Guadalcanal's early defensive fighting. The production design and Hans Zimmer's score immediately signal a different emotional register to Band of Brothers - less triumphant, more unsettled. The jungle combat sequences are deliberately disorienting.",
+          "the_moment": "Basilone's machine gun position holding through wave after wave of night attack - the sequence that introduced audiences to the Pacific Theater's particular horror.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Peleliu Hills",
+          "air_date": "2010-04-25",
+          "bollymeter": 9.3,
+          "spoiler_free": "Eugene Sledge's descent into the dehumanising logic of prolonged combat is the subject of this hour - widely cited as the series' emotional and moral peak. The writing refuses redemptive framing; the ground Sledge covers by episode's end is not reclaimed in the seasons to come. Critics and audiences identified this as the episode that most clearly distinguished The Pacific from all previous screen treatments of the Pacific War.",
+          "the_moment": "Sledge at the coral ridge - the moment that shows what repeated exposure to mass death does to a man who arrived at war with a poet's sensibility.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

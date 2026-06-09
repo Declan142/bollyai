@@ -1,0 +1,150 @@
+{
+  "slug": "beastars",
+  "qid": {
+    "value": "Q62583787",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Beastars",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Psychological", "Mystery"],
+  "logline": "In a high school where carnivores and herbivores coexist under strict social rules, a gentle grey wolf named Legoshi fights his own predatory instincts while investigating a murder and falling for the rabbit who should be his prey.",
+  "poster": {
+    "src": "/img/series/beastars/poster.jpg",
+    "alt": "Beastars poster",
+    "attribution": "Poster © Orange / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run. Season 3 Part 1 released December 5, 2024 and Part 2 released March 7, 2026 on Netflix, completing the adaptation of Paru Itagaki's manga. All seasons produced by Studio Orange.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Beastars"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-10-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Season 1 holds a 94% Rotten Tomatoes approval from 18 reviews with an average of 8.1/10, and won the Best Opening Sequence award at the 5th Crunchyroll Anime Awards while being nominated for Anime of the Year."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 18,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/beastars"
+      },
+      "review_body": "Season 1 arrived on Netflix internationally in March 2020 after its October 2019 Fuji TV +Ultra debut, and Studio Orange's choice of CGI animation - unusual for a school drama - turned out to be one of its distinguishing virtues. The fluid, organic movement suited a story where physical biology is a constant moral pressure. Critics gave it 94 percent on Rotten Tomatoes, with the consensus clustering on two strengths: the anthropomorphic world-building as an allegory for social prejudice, and Legoshi as a lead character whose inner conflict - restraint versus instinct - was rendered with real psychological weight. The opening theme won the Crunchyroll Anime Award for Best Opening Sequence; the show itself was nominated for Anime of the Year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Moon and a Beast Named Wolf",
+          "air_date": "2019-10-10",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Cherryton Academy's social ecology - the tension between carnivores and herbivores that governs every interaction - and introduces Legoshi as an anomaly: a predator whose instincts horrify him. The CGI animation draws immediate attention and earns it.",
+          "the_moment": "Legoshi's first unguarded encounter with Haru in the dark - the scene that sets the series' central conflict in motion.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Beast Supremacy",
+          "air_date": "2019-12-26",
+          "bollymeter": 8.5,
+          "spoiler_free": "The season finale confronts Legoshi with the full cost of who he is in this world. The culmination of the murder investigation, the Legoshi-Haru dynamic, and the show's running argument about nature versus social contract all converge without a tidy resolution.",
+          "the_moment": "Legoshi's climactic choice - the series' statement on whether instinct or identity defines a person.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-01-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 2 expanded the world-building and introduced the illegal meat trade arc but received more mixed reception than the debut, with Rotten Tomatoes audience score at 80% - still positive but below Season 1's critical peak."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/beastars"
+      },
+      "review_body": "Season 2 released on Fuji TV in January 2021 and arrived on Netflix internationally in July 2021. The focus shifted toward the Shishi-gumi, the criminal organisation running illegal meat, and deepened the show's examination of systemic violence normalised by society. Louis's storyline moved to centre stage and divided audiences - some found the expanded canvas compelling, others missed the claustrophobic school focus of Season 1. The 12-episode structure held, and Studio Orange's animation maintained the technical quality that made the first season distinctive. Critical attention was thinner in this cycle but audience engagement remained strong.",
+      "season_over_season": "Shifts from school-mystery to crime thriller; the world expands but some of Season 1's intimate tension dissipates as the ensemble broadens.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 24,
+      "release_date": {
+        "value": "2024-12-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The final season completed the manga adaptation across two parts (December 2024 and March 2026); reception was broadly positive from dedicated fans though critical coverage was limited, consistent with the series' niche rather than mainstream streaming profile."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 released in two parts on Netflix - Part 1 in December 2024, Part 2 in March 2026 - completing the adaptation of Paru Itagaki's 22-volume manga. At 24 episodes it was the longest season and covered the most narrative ground, taking Legoshi and the supporting cast to the confrontations the prior two seasons had been building toward. The split-cour structure was standard for Netflix anime at this scale. Audience discourse among the dedicated fanbase was positive on resolution, though the show never broke into broader streaming conversation in the way that might have earned substantial critic coverage at this stage in its run.",
+      "season_over_season": "The climactic arc that pays off both the Legoshi personal arc and the world-building; the 24-episode count gives the finale room that prior seasons lacked."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "band-of-brothers",
+  "qid": {
+    "value": "Q208048",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Band of Brothers",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "War",
+    "Drama",
+    "Historical",
+    "Action"
+  ],
+  "logline": "Easy Company, 506th Parachute Infantry Regiment, fights from D-Day to Hitler's Eagle's Nest in this Spielberg-Hanks production that set the ceiling for prestige war television.",
+  "poster": {
+    "src": "/img/series/band-of-brothers/poster.jpg",
+    "alt": "Band of Brothers poster",
+    "attribution": "Poster © HBO / DreamWorks Television / Playtone. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A 10-episode limited series that concluded in November 2001. No sequel or continuation was produced for Band of Brothers itself; the companion miniseries The Pacific aired in 2010.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Band_of_Brothers_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2001,
+      "episodes": 10,
+      "release_date": {
+        "value": "2001-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "Earned 94% on Rotten Tomatoes (34 critics), a Metacritic score of 87, and 7 Primetime Emmy Awards including Outstanding Miniseries - a near-universal critical consensus that it redefined the war drama on television."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 34,
+        "pull_quotes": [
+          {
+            "text": "It is doubtful that any war movie has captured the varied experiences of ordinary soldiers better than Band of Brothers.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.metacritic.com/tv/band-of-brothers/"
+          },
+          {
+            "text": "May be the best-ever film depiction of war in the trenches, large screen or small.",
+            "source": "Los Angeles Times",
+            "url": "https://www.metacritic.com/tv/band-of-brothers/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/band-of-brothers/"
+      },
+      "review_body": "Produced by Steven Spielberg and Tom Hanks with a reported $125 million budget - roughly $12.5 million per episode - Band of Brothers aired on HBO in autumn 2001 and arrived as an immediate landmark. Critics awarded 94 percent on Rotten Tomatoes and a Metacritic score of 87, clustering around the series' extraordinary feat of dramatising Easy Company's full European campaign without losing individual humanity inside the war machine. The Hollywood Reporter called it the best depiction of ordinary soldiers in screen history; the Los Angeles Times placed it above any war film regardless of format. Seven Emmy wins, including Outstanding Miniseries, confirmed the critical consensus. The 10-episode structure lets each hour spotlight a different facet of combat and brotherhood without ever losing Damian Lewis's Major Winters as the moral compass of the whole.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Currahee",
+          "air_date": "2001-09-09",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes Easy Company under the brutal training regime of Captain Sobel at Toccoa, Georgia. David Schwimmer is cast against type to unsettling effect, and the episode earns every subsequent act of loyalty by first earning the audience's impatience. The final minutes of the paratroopers' jump preparation are a controlled escalation into dread.",
+          "the_moment": "The company runs Currahee hill again and again in full gear - the physical cost of belonging to Easy Company made literal.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Day of Days",
+          "air_date": "2001-09-09",
+          "bollymeter": 9.6,
+          "spoiler_free": "D-Day, June 6, 1944: Easy Company drops into Normandy under fire and scattered across the countryside. Winters leads an assault on a German artillery position at Brecourt Manor that critics and military historians alike consider one of the finest depictions of small-unit tactics in any medium. Pure controlled chaos filmed with a clarity that makes the danger legible.",
+          "the_moment": "Winters directing the Brecourt Manor assault - the sequence military academies reportedly use as a teaching example.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Why We Fight",
+          "air_date": "2001-11-04",
+          "bollymeter": 9.5,
+          "spoiler_free": "Easy Company discovers a concentration camp outside Landsberg. The episode strips away every Hollywood war-film convention: there is no catharsis, no triumph - only men confronted with evidence that reframes the moral weight of everything that preceded it. Widely cited as one of the most quietly devastating hours in television history.",
+          "the_moment": "The company stands at the perimeter fence in silence - the episode resists any score or speechmaking, letting the stillness do the work.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

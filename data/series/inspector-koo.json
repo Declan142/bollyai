@@ -1,0 +1,96 @@
+{
+  "slug": "inspector-koo",
+  "qid": {
+    "value": "Q107817259",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Inspector Koo",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Comedy", "Thriller", "Mystery"],
+  "logline": "A slovenly, brilliant former detective turned insurance investigator is pulled back into the field when she discovers that her seemingly accidental cases share a single architect - a college student who kills for sport.",
+  "poster": {
+    "src": "/img/series/inspector-koo/poster.jpg",
+    "alt": "Inspector Koo poster",
+    "attribution": "Poster © JTBC / KeyEast. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season of 12 episodes on JTBC, concluded December 12, 2021. Kim Hye-jun won the Baeksang Arts Award for Best New Actress Television 2022 for her role as the antagonist K.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Inspector_Koo"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-10-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Rotten Tomatoes Tomatometer at 79% reflects a strong but not unanimous critical reception; the Baeksang win for Kim Hye-jun's villain performance is the clearest signal of the show's craft ceiling, even as audience scores hovered at 7.1 on IMDb."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14731794/"
+      },
+      "review_body": "Inspector Koo aired on JTBC and Netflix in late 2021 with Lee Young-ae returning to television after a lengthy absence. The show distinguished itself in a crowded crime-comedy field by centering its appeal on the antagonist as much as the detective: Kim Hye-jun's portrayal of K, a college student who orchestrates murders with cheerful precision, earned a Baeksang Best New Actress award and drew the season's most consistent critical praise. Reviews clustered around the cat-and-mouse dynamic between the two leads - Koo Kyung-yi's studied eccentricity versus K's unsettling composure - as the drama's strongest element. The back half attracted criticism for tonal inconsistency and an ending some reviewers found underpowered relative to the setup. The Rotten Tomatoes Tomatometer registered 79%, a figure that reflects the show's genuine strengths alongside its structural unevenness.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-10-30",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere introduces Koo Kyung-yi mid-slump - dishevelled, underemployed, and spectacularly unmotivated. The opening crime is framed as an accident, as all K's crimes will be, until a detail too coincidental to ignore pulls the insurance investigator back into focus.",
+          "the_moment": "The moment Koo notices the one wrong detail in a scene staged to look accidental - the show announcing its central game.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2021-11-27",
+          "bollymeter": 8.0,
+          "spoiler_free": "The mid-season episode in which the cat-and-mouse dynamic between Koo and K is fully established. Both characters now understand they are watching each other, and the tonal register shifts from procedural to something closer to a psychological sparring match.",
+          "the_moment": "K's first direct acknowledgement that she is being followed - delivered with a smile that removes any doubt about the villain's awareness and intelligence.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

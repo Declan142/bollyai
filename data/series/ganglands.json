@@ -1,0 +1,128 @@
+{
+  "slug": "ganglands",
+  "qid": {
+    "value": "Q108752016",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ganglands",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "France",
+  "original_language": {
+    "value": "fr",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Action",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A professional heist crew is pulled into a brutal drug war spanning Brussels and Antwerp after the crew leader's teenage niece accidentally steals cocaine from a cartel courier.",
+  "poster": {
+    "src": "/img/series/ganglands/poster.jpg",
+    "alt": "Ganglands poster",
+    "attribution": "Poster © Netflix / Quad+1. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run on Netflix concluded in February 2023. Created by Hamid Hlioua and Julien Leclercq. The series shares its lead actor Sami Bouajila with Leclercq's 2015 film Braqueurs but carries no shared story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ganglands"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-09-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "A 68% Rotten Tomatoes score from a single review and a 7.2 IMDb rating reflected modest critical engagement: Decider noted compelling lead performances overcoming predictable tendencies, and audiences found the action sequences genuinely accomplished."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "Ganglands overcomes its predictable tendencies with some compelling lead performances.",
+            "source": "Decider",
+            "url": "https://decider.com/2021/09/24/ganglands-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13278100/ratings/"
+      },
+      "review_body": "Ganglands (original French title: Braqueurs) arrived on Netflix in September 2021, a six-episode French crime thriller set between France and the Franco-Belgian drug corridor. Created by Julien Leclercq, the series featured Sami Bouajila as Mehdi, a professional armed robber whose crew is dragged into a cartel conflict after his niece's accidental cocaine theft. Critical engagement was minimal: a single Rotten Tomatoes review from Decider praised the lead performances and the gritty action choreography while acknowledging the plot's genre predictability. The 7.2 IMDb score from nearly 5,000 votes suggested a broader audience found the show serviceable action-thriller entertainment. The gunfight sequences were specifically commended for their practical stuntwork.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-09-24",
+          "bollymeter": 6.9,
+          "spoiler_free": "The premiere establishes the crew's professional competence in an opening heist and then immediately destabilises it through the niece subplot. The shift from controlled professional crime to chaotic personal stakes is handled efficiently if not elegantly.",
+          "the_moment": "The moment Mehdi realises what his niece has stolen and what that means for everyone she is connected to - the plot machine engaging.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-02-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "A 62% Rotten Tomatoes score based on insufficient critical coverage and continued audience engagement at 7.2 IMDb tracked a season that delivered more of the same without meaningfully developing the show's premise."
+      },
+      "critic": {
+        "positive_pct": 62,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13278100/ratings/"
+      },
+      "review_body": "Season 2 premiered in February 2023 and continued the Franco-Belgian crime narrative with Mehdi and Liana's working partnership under escalating pressure from the drug trafficking network. Critical coverage remained sparse. The Rotten Tomatoes score of 62% was calculated from an insufficient sample to draw meaningful conclusions. Audience scores held at the same IMDb level as Season 1, suggesting the show retained its core action-thriller viewership without attracting new critical attention. The season functioned as a competent continuation of an established genre formula - solid enough for audiences who came for the action, unlikely to convert anyone who had not committed in Season 1.",
+      "season_over_season": "Season 2 maintains the formula of Season 1 without elevation; the action sequences remain accomplished and the character work stays functional rather than revelatory.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

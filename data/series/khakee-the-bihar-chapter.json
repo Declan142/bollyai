@@ -1,0 +1,102 @@
+{
+  "slug": "khakee-the-bihar-chapter",
+  "qid": {
+    "value": "Q115030676",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Khakee: The Bihar Chapter",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Drama", "Biographical", "Action"],
+  "logline": "In Bihar's lawless heartland, IPS officer Amit Lodha wages a high-stakes hunt for the state's most feared gangster, Chandan Mahto - a true-crime saga where the line between law and legend blurs.",
+  "poster": {
+    "src": "/img/series/khakee-the-bihar-chapter/poster.jpg",
+    "alt": "Khakee: The Bihar Chapter poster",
+    "attribution": "Poster © Netflix / Friday Storytellers. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A standalone sequel, Khakee: The Bengal Chapter, was announced in August 2023 and released in 2025 as a separate story, not a continuation of this season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Khakee:_The_Bihar_Chapter"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-11-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb rating of 8.1 from Indian audiences reflects strong word-of-mouth; critics split between praise for Avinash Tiwary's menacing turn and frustration at the show's drift into black-and-white moralising after episode three."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sharp writing and performances elevate this supercop-versus-gangster saga beyond the genre's usual limits.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/reel/1038285/khakee-the-bihar-chapter-review-in-supercop-versus-gangster-saga-fiction-trumps-the-facts"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt23037654/"
+      },
+      "review_body": "Neeraj Pandey's Bihar adaptation, directed by Bhav Dhulia, dropped on Netflix on November 25, 2022, adapting IPS officer Amit Lodha's memoir Bihar Diaries. Critics found the opening episodes strong - the show is grounded in Bihari geography and culture, and Avinash Tiwary's Chandan Mahto was singled out as the standout performance, a villain rendered with uncommon texture. Karan Tacker holds the cop side with restraint. Where reviews split was around the midpoint: several critics noted the narrative shifts from its morally ambiguous early tone into a more conventional hero-villain binary, losing the complexity that made the first half compelling. Scroll called it gripping but more powerful with its fictional embellishments than its fact-based beats. Audience reception, reflected in an 8.1 IMDb rating, ran significantly warmer than critical consensus.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Patra Parichay",
+          "air_date": "2022-11-25",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes both principals with economy - the gangster's origin and the officer's posting sketched in parallel. Dhulia grounds the storytelling in actual Bihar geography and social texture, making the stakes feel lived-in from the first frame.",
+          "the_moment": "The introduction of Chandan Mahto signals that the show's real interest lies with its villain, not its procedural hero.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Phace to Phace",
+          "air_date": "2022-11-25",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale brings the long cat-and-mouse game to its real-crime resolution. The season earns its climax through patient accumulation of detail, though the tonal shift toward triumph undercuts the moral complexity the show built early on.",
+          "the_moment": "The final confrontation between Lodha and Mahto, staged with restraint, anchors the resolution in something approaching documentary sobriety.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

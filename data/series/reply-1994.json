@@ -1,0 +1,102 @@
+{
+  "slug": "reply-1994",
+  "qid": {
+    "value": "Q13525112",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Reply 1994",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Comedy", "Coming of Age"],
+  "logline": "Six college students from different South Korean provinces share a Seoul boarding house in 1994, their bonds and buried identities slowly revealed through a mystery of who the female lead eventually marries.",
+  "poster": {
+    "src": "/img/series/reply-1994/poster.jpg",
+    "alt": "Reply 1994 poster",
+    "attribution": "Poster © tvN / CJ ENM. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 21 episodes, concluded December 28, 2013. The Reply series continued with Reply 1988 in 2015, but Reply 1994 is a standalone story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Reply_1994"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 21,
+      "release_date": {
+        "value": "2013-10-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "IMDb 7.7 understates its cult standing - the final episode broke Korean cable records at 11.5% nationwide, and critics praised the ensemble warmth and 1990s nostalgia as the series' defining achievement."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The characters and their relationships are the shining jewels crowning this show.",
+            "source": "The Fangirl Verdict",
+            "url": "https://thefangirlverdict.com/2015/04/01/review-answer-me-1994-reply-1994/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3357586/"
+      },
+      "review_body": "Reply 1994 aired on tvN from October to December 2013 and became one of the highest-rated Korean cable dramas of its era, with the finale peaking at 11.5% nationwide viewership. Critics and audiences praised the drama's richly textured ensemble - six provincial students navigating Seoul's Sinchon neighbourhood in the year of the Sampoong collapse and the birth of K-pop fandom. The nonlinear husband-mystery device divided opinion: some found it a clever structural hook, others felt it overstayed its 21-episode welcome. What held universal agreement was the quality of the character writing and the chemistry between Jung Woo, Go Ara, and the full boarding-house cast. The 1990s period detail, from cassette players to PC room culture, earned consistent praise for specificity and warmth.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2013-10-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the Sinchon boarding house and its six mismatched residents in the autumn of 1994. Director Shin Won-ho's signature device - a flash-forward to an older couple, identity withheld - hooks viewers immediately into the husband mystery that will drive the season.",
+          "the_moment": "The flash-forward to the adult couple, identities obscured, sets up the central question that will sustain twenty more episodes.",
+          "critic_note": null
+        },
+        {
+          "number": 21,
+          "title": "Episode 21",
+          "air_date": "2013-12-28",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the husband mystery and delivers the emotional payoff of the boarding-house friendships. The episode drew 11.5% nationwide cable viewership, the series' peak, reflecting an audience fully invested in the outcome of relationships built across five months of storytelling.",
+          "the_moment": "The reveal of the husband's identity - a long-withheld answer that reframes the entire 21-episode structure.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "blue-eye-samurai",
+  "qid": {
+    "value": "Q122899426",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Blue Eye Samurai",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Action",
+    "Drama",
+    "Historical",
+    "Anime"
+  ],
+  "logline": "A mixed-race female warrior in Edo-period Japan disguises her identity to pursue vengeance against the four white men - including her father - who illegally broke Japan's isolationist laws and shattered her chance at belonging.",
+  "poster": {
+    "src": "/img/series/blue-eye-samurai/poster.jpg",
+    "alt": "Blue Eye Samurai poster",
+    "attribution": "Poster © Netflix / Blue Spirit. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Season 2, scheduled for release in 2026. Creators Michael Green and Amber Noizumi confirmed the story was conceived as a multi-season arc.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Blue_Eye_Samurai"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-11-03",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "97% on Rotten Tomatoes (29 critics), Metacritic of 88, and audience approval of 93% - critics placed it among the finest animated series of the decade; it won the Primetime Emmy for Outstanding Animated Program."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 29,
+        "pull_quotes": [
+          {
+            "text": "A gorgeous, addictive thrill-ride that never loses sight of Mizu's point-of-view, even when the road ahead is obscured with blood.",
+            "source": "Empire",
+            "url": "https://www.empireonline.com/tv/reviews/blue-eye-samurai/"
+          },
+          {
+            "text": "An incredible, utterly badass example of how animation can create worlds and characters every bit as vivid as live-action.",
+            "source": "Rolling Stone",
+            "url": "https://www.rollingstone.com/tv-movies/tv-movie-reviews/blue-eye-samurai-review-netflix-animation-maya-erskine-gory-japan-1234871458/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/blue-eye-samurai/"
+      },
+      "review_body": "Blue Eye Samurai arrived on Netflix in November 2023 and immediately generated the kind of critical unanimity rare for an animated series: 97 percent on Rotten Tomatoes, a Metacritic score of 88, and a Primetime Emmy for Outstanding Animated Program. Created by Michael Green and Amber Noizumi, the series uses the conventions of the samurai revenge saga to examine identity, belonging, and the violence done to people who fall between social categories. Maya Erskine voices Mizu with controlled ferocity; the animation studio Blue Spirit's craft renders Edo-period Japan with a tactile density that heightens rather than softens the action's brutality. Empire called it a gorgeous, addictive thrill-ride; Rolling Stone placed it among the best animated works regardless of medium. Game designer Hideo Kojima publicly called it the best anime of the year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Hamster and Snake",
+          "air_date": "2023-11-03",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere establishes Mizu's concealed identity and her singular purpose in a Japan formally closed to outsiders. The opening action sequence announces the series' combat aesthetic immediately: fluid, bloody, and precisely choreographed. By the episode's end the scope of Mizu's quest and the cost she has already paid for it are both fully in frame.",
+          "the_moment": "The reveal of Mizu's eyes in a moment of vulnerability - the visual that crystallises what the entire series is about: what the world sees and what it refuses to see.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Great Wave",
+          "air_date": "2023-11-03",
+          "bollymeter": 9.7,
+          "spoiler_free": "The season finale delivers an extended action sequence critics described as a technical and emotional pinnacle - a continuous, intricately designed battle that functions simultaneously as physical climax and character resolution. The final minutes reframe Mizu's quest in a way that makes Season 2 essential rather than optional.",
+          "the_moment": "The staircase sequence - a sustained piece of animation that critics placed among the finest action set pieces in any medium in 2023.",
+          "critic_note": {
+            "text": "An incredible, utterly badass example of how animation can create worlds and characters every bit as vivid as live-action.",
+            "source": "Rolling Stone",
+            "url": "https://www.rollingstone.com/tv-movies/tv-movie-reviews/blue-eye-samurai-review-netflix-animation-maya-erskine-gory-japan-1234871458/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

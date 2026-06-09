@@ -1,0 +1,158 @@
+{
+  "slug": "afterlife",
+  "qid": {
+    "value": "Q55603316",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "After Life",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Slice of Life",
+    "Psychological"
+  ],
+  "logline": "A newspaper reporter in a sleepy English town decides to spend his grief by saying and doing whatever he wants - and slowly discovers that cruelty and compassion are not as far apart as he assumed.",
+  "poster": {
+    "src": "/img/series/afterlife/poster.jpg",
+    "alt": "After Life poster",
+    "attribution": "Poster © Netflix / Derek Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded in January 2022. Ricky Gervais confirmed Season 3 as the final series. The show became one of Netflix's most-watched UK original productions.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/After_Life_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-03-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A 74% Rotten Tomatoes score from 47 critics and 92% audience score split on Gervais's handling of grief: critics found the tonal shifts between dark comedy and earnest sentiment uneasy, but audiences responded strongly to its emotional sincerity."
+      },
+      "critic": {
+        "positive_pct": 74,
+        "sample": 47,
+        "pull_quotes": [
+          {
+            "text": "A redemption story about learning to live with clarity and compassion even when doing so feels completely impossible.",
+            "source": "Variety",
+            "url": "https://variety.com/2019/tv/news/after-life-ricky-gervais-netflix-review-1203155366/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8398600/ratings/"
+      },
+      "review_body": "After Life premiered on Netflix in March 2019 and divided critics along a now-familiar Gervais fault line: is the sentimentality earned or manipulative? The 74% Rotten Tomatoes score from 47 reviews captured that split, with the RT consensus noting that the show teeters tonally between dark comedy and affecting drama but that Gervais's performance illuminates new sides of his talent. Variety called it a redemption story about learning to live with clarity and compassion. The 92% audience Popcornmeter was the more revealing number: viewers ignored the critical ambivalence and responded to the show's emotional directness about grief, loneliness and the people who accidentally hold each other together. The six-episode structure kept it from overstaying.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-03-08",
+          "bollymeter": 7.5,
+          "spoiler_free": "Tony's morning routine - the video messages from his dead wife, the dog, the commute to a newspaper nobody reads - establishes the show's register with quiet precision. Gervais is performing a man performing grief as armour, and the gap between the two is where the comedy lives.",
+          "the_moment": "The first video message from Tony's wife: the tone-setter that makes clear this show intends to be both funny and genuinely painful.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-04-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "A 79% Rotten Tomatoes score from 33 critics and 87% audience score represented the show's critical peak; the continuation deepened the supporting ensemble and allowed Tony's recovery arc to progress without resolution."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 33,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8398600/ratings/"
+      },
+      "review_body": "Season 2 arrived in April 2020 and achieved the show's highest critical score at 79% from 33 reviews. The season gave more room to the supporting cast - the postman Pat, the care home residents Tony visits, and the people of Tambury who function as a chorus of ordinary human persistence against grief. Critics who had been ambivalent about Season 1 found the continuation had improved, with the expanded ensemble providing tonal relief from Tony's sustained darkness. The 87% audience score reflected a show that had become comfort viewing during the Covid lockdown period in which it aired - a series about grief and community that landed at a moment when both themes were culturally live.",
+      "season_over_season": "Season 2 represents the critical high point, expanding the ensemble and giving Tony's recovery arc more breathing room; the slightly higher critical approval (79% vs 74%) tracked genuine improvement.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-01-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "A 64% Rotten Tomatoes score from 14 critics and a Metacritic score of 44 (mixed reviews, 7 critics) marked a clear critical decline; critics found the final season overly sentimental and the grief arc unresolved in a way that felt evasive."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": 14,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8398600/ratings/"
+      },
+      "review_body": "Season 3 landed in January 2022 as the announced final series, and the critical response was the most mixed in the show's run. The 64% Rotten Tomatoes score from 14 reviews and a Metacritic score of 44 from 7 critics indicated that the critics who had always been ambivalent about Gervais's emotional register found the finale overly sentimental. The show's habit of using its supporting cast as a redemption chorus felt more laboured in a season explicitly designed to close arcs. Audience scores at 79% Popcornmeter remained positive, and Gervais's core following received the ending warmly. The divide tracked a show that was always more effective as unresolved atmosphere than as completed emotional statement.",
+      "season_over_season": "A marked critical decline from Season 2; the show's tonal tension between dark comedy and sincere grief resolves toward the sincere in a way that divided critics who preferred its darker mode.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

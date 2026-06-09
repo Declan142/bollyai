@@ -1,0 +1,106 @@
+{
+  "slug": "mai-2022",
+  "qid": {
+    "value": "Q111697720",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mai",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Crime", "Drama", "Mystery"],
+  "logline": "A mild-mannered nurse stumbles onto the truth behind her daughter's death and finds herself drawn deeper into a pharmaceutical crime network she was never meant to survive.",
+  "poster": {
+    "src": "/img/series/mai-2022/poster.jpg",
+    "alt": "Mai poster",
+    "attribution": "Poster © Netflix / Clean Slate Filmz. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A second season was reported in development but as of 2026 has not released; the show functions as a self-contained six-episode story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mai_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-04-15",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Critical consensus centred almost entirely on Sakshi Tanwar's performance - universally praised as a career-best turn - while the writing, especially in the final two episodes, received more mixed assessments. IMDb audience score of 6.8 reflects that gap."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Sakshi Tanwar demonstrates a haunting exhibition, continuing to flourish her unexplored talent even after 25 years.",
+            "source": "Koimoi",
+            "url": "https://www.koimoi.com/reviews/web-reviews/mai-review-sakshi-tanwar-demonstrates-a-haunting-exhibition-continues-to-flourish-her-unexplored-talent-even-after-25-years/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14160684/"
+      },
+      "review_body": "Produced by Anushka Sharma and Karnesh Ssharma under Clean Slate Filmz, Mai arrived on Netflix on April 15, 2022, directed by Atul Mongia and Anshai Lal. The series attracted an unusual consensus: every major critic led with Sakshi Tanwar. Koimoi called it a career-best showcase for an actor Bollywood had underused for decades. Leisurebyte, one of the more skeptical voices, acknowledged her brilliance while noting the thriller chassis did not match her. The writing drew mixed marks - the first four episodes were praised for controlled escalation, while the final two were widely flagged as rushed and reliant on conveniences. The pharmaceutical-crime premise was seen as functional scaffolding for a character study that worked best when staying close to the protagonist's grief. An IMDb score of 6.8 reflects an audience that found the show good but not exceptional.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-04-15",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the domestic world that is about to collapse - the nurse, the daughter, the ordinary household - and then systematically dismantles it. Directors Mongia and Lal avoid melodrama; the devastation is rendered in small precise beats rather than operatic grief.",
+          "the_moment": "The moment Sheel realises her daughter's death was not an accident - a quiet scene that resets the entire series' moral stakes.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2022-04-15",
+          "bollymeter": 6.5,
+          "spoiler_free": "The finale delivers resolution but at cost - critics noted the writing accelerates past several character beats that needed more space. Tanwar carries the conclusion on her performance alone; the plot mechanics feel manufactured relative to the naturalism of the early episodes.",
+          "the_moment": "Sheel's final confrontation with the network she has spent six episodes dismantling - anchored by a performance that makes the thin scripting beside the point.",
+          "critic_note": {
+            "text": "Sakshi Tanwar is a mad wave of talent embodying guilt, grief, anger, vengeance and the softness of being a mother.",
+            "source": "Haradonablogspotcom - Netflix Series Review",
+            "url": "https://haradonablogspotcom.wordpress.com/2022/04/18/netflix-series-review-sakshi-tanwars-is-majestic-in-gritty-thriller-mai/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

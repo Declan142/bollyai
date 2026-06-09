@@ -1,0 +1,132 @@
+{
+  "slug": "gen-v",
+  "qid": {
+    "value": "Q112623392",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Gen V",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Superhero",
+    "Drama",
+    "Coming of Age",
+    "Thriller"
+  ],
+  "logline": "Young supes at Godolkin University compete for spots in Vought's elite Seven while uncovering a conspiracy that turns their campus into a battleground between human and superhero interests.",
+  "poster": {
+    "src": "/img/series/gen-v/poster.jpg",
+    "alt": "Gen V poster",
+    "attribution": "Poster © Amazon Prime Video / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by Amazon in April 2026 after two seasons. The show had been planned as an ongoing spinoff of The Boys but was ended following shifting streaming priorities at Prime Video.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gen_V_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-09-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% on Rotten Tomatoes (135 critics) and a Metacritic of 73 - a critical success that demonstrated The Boys' satirical universe could sustain a collegiate spinoff without losing its edge."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 135,
+        "pull_quotes": [
+          {
+            "text": "You'll laugh out loud, wince often, and wonder how Gen V gets away with half of what's displayed.",
+            "source": "IGN",
+            "url": "https://www.metacritic.com/tv/gen-v/season-1/"
+          },
+          {
+            "text": "Gen V retains the edge, cynicism and adolescent humor that make its parent show tick.",
+            "source": "Variety",
+            "url": "https://www.metacritic.com/tv/gen-v/season-1/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/gen-v/"
+      },
+      "review_body": "Gen V launched on Prime Video in late September 2023 and immediately earned 97 percent on Rotten Tomatoes from 135 critics - a larger sample than most prestige shows accumulate. The Boys spinoff transplanted that franchise's gleeful willingness to indict superhero mythology into a college drama framework, using Godolkin University's corporate-sponsored supe education system to satirise admissions culture, student debt, and institutional cover-ups simultaneously. Jaz Sinclair led a game ensemble through conspiracies that escalated in scope without losing character stakes. Variety called it as cynical and funny as the parent show; IGN credited the series with getting away with more boundary-testing than almost anything else on streaming. The audience Popcornmeter of 73 percent reflected some viewer resistance to the graphic content but not the critical consensus.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "God U.",
+          "air_date": "2023-09-29",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere drops Marie Moreau into Godolkin University with the established franchise's visual grammar intact: corporate supe branding, violence presented as entertainment product, and a moral vacuum at the institutional core. The college setting refreshes the parent show's satirical targets without diluting them. The tone calibration between dark comedy and genuine horror is confident from the first scene.",
+          "the_moment": "The opening sequence - a powers demonstration that establishes this spinoff's willingness to go places The Boys itself has avoided.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-09-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "91% on Rotten Tomatoes and a Metacritic of 74 - critically well-received but the cancellation announcement that followed denied the season a full narrative conclusion."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 30,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/gen-v/"
+      },
+      "review_body": "Season 2 arrived in September 2025 during what critics were already calling a streaming contraction cycle, earning 91 percent on Rotten Tomatoes and a Metacritic of 74. The season navigated 'Homelander's reign' through the university setting, raising the stakes of the human-supe conflict in ways that tied the spinoff more directly into The Boys' larger mythology. Reviews noted the writing maintained its predecessor's subversive energy while adding new layers to the ensemble. The April 2026 cancellation announcement - arriving before the season had fully settled into the cultural conversation - rendered the series finale an accidental one, a fate critics considered unjust given the consistent quality of both seasons.",
+      "season_over_season": "Tighter connection to The Boys' main timeline adds franchise weight but also increases dependency on that show's narrative; cancellation mid-arc is the lasting frustration."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

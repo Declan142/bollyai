@@ -1,0 +1,96 @@
+{
+  "slug": "moon-lovers-scarlet-heart-ryeo",
+  "qid": {
+    "value": "Q21980662",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Moon Lovers: Scarlet Heart Ryeo",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS / Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Historical", "Fantasy", "Drama"],
+  "logline": "A modern woman is swept back to 10th-century Goryeo during a solar eclipse and becomes entangled in deadly royal succession politics, falling for the battle-scarred fourth prince despised by the court.",
+  "poster": {
+    "src": "/img/series/moon-lovers-scarlet-heart-ryeo/poster.jpg",
+    "alt": "Moon Lovers: Scarlet Heart Ryeo poster",
+    "attribution": "Poster © SBS / BaramiBunda Inc. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season of 20 episodes, concluded November 1, 2016 on SBS. Adapted from the Chinese novel Bu Bu Jing Xin by Tong Hua; a standalone conclusion with no Korean continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Moon_Lovers:_Scarlet_Heart_Ryeo"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 20,
+      "release_date": {
+        "value": "2016-08-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb 8.6 reflects strong international fan devotion; domestic reception was more muted at a 7.6% Nielsen average, with critics citing pacing damage from a 20-episode compression of source material designed for 35 episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5320412/"
+      },
+      "review_body": "Moon Lovers: Scarlet Heart Ryeo aired on SBS across August to November 2016 with a US$13 million budget and an ensemble headlined by Lee Joon-gi, IU, and Kang Ha-neul. The domestic reception was commercially disappointing, averaging 7.6% on Nielsen Korea. International audiences told a different story: the drama became the first Korean series to trend on Tumblr globally and accumulated a passionate following on Chinese streaming platforms. Critics noted a sharp division between the drama's first half - rich in court intrigue, ensemble chemistry, and Lee Joon-gi's career-best brooding performance - and a second half where network editing compressed roughly half the source material's plot into the remaining episodes. The consensus framing: a great story visibly damaged by pacing and episode-count constraints, but the emotional core survived intact for dedicated audiences.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-08-29",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere deploys the time-travel conceit with brisk efficiency - a modern woman, a solar eclipse, and a sudden arrival in Goryeo's royal court. The opening also introduces the drama's aesthetic: lush period costumes, a large ensemble of princes, and immediate romantic and political complication.",
+          "the_moment": "The solar eclipse sequence that transports the female lead into Goryeo, establishing the show's premise in one visually striking scene.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2016-11-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale delivered the tragedy the show had been building toward - a conclusion that satisfied viewers who valued melodrama and frustrated those expecting a genre concession toward reunion. The compressed pacing of the final episodes remained a point of criticism even among the show's admirers.",
+          "the_moment": "The separation sequence that defines the show's legacy as one of K-drama's best-loved tragic romances.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

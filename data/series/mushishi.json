@@ -1,0 +1,131 @@
+{
+  "slug": "mushishi",
+  "qid": {
+    "value": "Q1055370",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mushishi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Supernatural", "Slice of Life", "Mystery"],
+  "logline": "A wandering Mushi Master named Ginko travels through a haunting pre-modern Japan, investigating and mediating between humans and Mushi - primitive supernatural lifeforms that exist at the boundary of life and death.",
+  "poster": {
+    "src": "/img/series/mushishi/poster.jpg",
+    "alt": "Mushishi poster",
+    "attribution": "Poster © Artland. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run: Season 1 aired October 2005 to June 2006 on Fuji TV (26 episodes, Artland). Season 2 (Mushishi Zoku Shou) aired April to December 2014 on Tokyo MX (20 episodes). Adapts Yuki Urushibara's manga in full.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mushishi"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 26,
+      "release_date": {
+        "value": "2005-10-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Scored 8.65 by nearly 300,000 MyAnimeList users and ranked #86 all-time; won grand prizes at the 5th Tokyo Anime Award for television series and best art direction, and received the Kodansha Manga Award for general manga."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.65,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/457/Mushishi"
+      },
+      "review_body": "Artland's 2005 adaptation of Yuki Urushibara's manga is one of the few anime that operates entirely in its own register. Mushishi is an anthology: every episode is self-contained, Ginko arrives in a village, investigates a Mushi phenomenon, and moves on. There is no arc, no tournament, no romantic subplot. What accumulates instead is atmosphere - a pre-modern Japan rendered in muted earth tones where the supernatural is not dramatic but ecological, and where resolution is rarely clean. The 5th Tokyo Anime Award gave it grand prizes in both television series and best art direction categories. MAL's 298,000 voters scored it 8.65, ranking it #86 all-time. One critic called the narrative near flawless; another described it as a rare breed of anime where the storytelling is genuinely original.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Green Seat",
+          "air_date": "2005-10-23",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops Ginko into a village where a child is slowly being consumed by a Mushi living in her eye. The episode establishes the show's entire grammar in 24 minutes: the Mushi are not evil, the resolution is not triumphant, and Ginko's role is mediation rather than heroism.",
+          "the_moment": "The Mushi in the child's eye is revealed - the show's clearest image of the line it will walk between wonder and horror.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "The Light of the Eyelid",
+          "air_date": "2006-03-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "Regularly cited as one of the finest single episodes the series produced - a story about light-eating Mushi and a painter whose work has begun to disappear. The visual metaphor for creative loss and the show's handling of grief in its signature understated register make this the episode most viewers remember.",
+          "the_moment": "The painter's finished canvas - and what Ginko discovers when the light catches it - the image that defines the series for many viewers.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 20,
+      "release_date": {
+        "value": "2014-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Season 2 (Mushishi Zoku Shou) is regarded by many critics as equal to or exceeding Season 1; one reviewer called it one of the all-time greatest animated anthology series, and MAL scores for the continuation episodes consistently tracked above the original season average."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Eight years after Season 1, Artland returned with Mushishi Zoku Shou in April 2014, airing on Tokyo MX. The eight-year gap had not dulled the show's visual or narrative sensibility - if anything, the continuation is regarded by critics as the point where the anthology format fully transcended its apparent limitations. At 20 episodes it is slightly shorter than Season 1 but the stories are more assured and the emotional register wider. Reviewers described the second season as one of the all-time greatest animated anthology series. Director Hiroshi Nagahama received the Animation Kobe Individual Award for his work on the series. The return was treated by the anime community as a rare second chance that improved on the original.",
+      "season_over_season": "Returns eight years after Season 1 with more emotionally ambitious stories; the format's cumulative power deepens rather than depletes across the second run.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Banquet in the Farthest Field",
+          "air_date": "2014-04-05",
+          "bollymeter": 8.8,
+          "spoiler_free": "The Season 2 premiere is a statement of intent: the years away have sharpened rather than softened the approach. A story about Mushi and a dying field demonstrates immediately that the continuation will not coast on the first season's reputation.",
+          "the_moment": "The field in bloom at the episode's close - a quietly devastating image that sets the tone for the entire season.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

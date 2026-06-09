@@ -1,0 +1,188 @@
+{
+  "slug": "blood-and-water",
+  "qid": {
+    "value": "Q94990702",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Blood & Water",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Africa",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Mystery", "Drama", "Teen", "Coming of Age", "Thriller"],
+  "logline": "A Cape Town teenager transfers to an elite school after suspecting a fellow student may be her long-abducted sister, setting off a web of secrets, privilege, and family trauma.",
+  "poster": {
+    "src": "/img/series/blood-and-water/poster.jpg",
+    "alt": "Blood & Water poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Ran four seasons from 2020 to 2024. Netflix has not renewed for Season 5 as of 2026.",
+    "source": "The Review Geek",
+    "source_url": "https://www.thereviewgeek.com/renewedorcanceled-bloodwaters5/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-05-20",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "IndieWire's C+ and characterisation of the show as 'regrettably pedestrian' teen melodrama sits opposite Ready Steady Cut's 4/5 praising its vibe and authentic South African texture; IMDb series rating of 6.7 tracks the split."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A rather facile teen melodrama that doesn't pack much of a wallop - it's very soapy, but not quite addictive.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/shows/blood-and-water-review-netflix-1202232200/"
+          },
+          {
+            "text": "What's most impressive about Blood & Water is its vibe - the way the characters interact is consistent and cool.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2020/05/19/review-blood-and-water-season-1-netflix-series/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9839146/"
+      },
+      "review_body": "Netflix's second African original premiered May 20, 2020, created by Nosipho Dumisa. The six-episode first season follows Puleng Khumalo (Ama Qamata) as she transfers to an elite Cape Town swimming academy to investigate whether star athlete Fikile Bhele (Khosi Ngema) is her abducted sister. Critical reception split sharply on ambition versus execution. IndieWire's Tambay Obenson (C+) found it Euphoria-adjacent in aspiration but pedestrian in delivery - soapy without the addictive quality that would justify the comparison. Ready Steady Cut's Daniel Hart took the opposite position, rating it 4/5 and celebrating its cultural authenticity and the chemistry between its leads. Both camps agreed the South African setting and multilingual texture (English, Xhosa, Afrikaans) gave the show a genuine identity absent from comparable US teen dramas. The mystery central premise - is Fikile really Puleng's sister? - was praised for sustaining tension across the compact run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Fiksation",
+          "air_date": "2020-05-20",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere drops the audience into the elite school world without extensive setup, establishing both the social hierarchy and Puleng's outsider perspective quickly. The DNA mystery hook is introduced with restraint - the show trusts the premise without over-explaining it.",
+          "the_moment": "Puleng's first real interaction with Fikile - the scene that shifts the show from premise to personal, making the investigation feel urgent rather than procedural.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Propaganda",
+          "air_date": "2020-05-20",
+          "bollymeter": 7.5,
+          "spoiler_free": "The season finale delivers the central mystery's first major turn with enough earned weight to justify a second season. The resolution is partial rather than complete, which divided audiences but served the longer arc.",
+          "the_moment": "The DNA test result scene - the sequence the entire season had been building toward, handled with more emotional restraint than the genre typically allows.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 7,
+      "release_date": {
+        "value": "2021-09-24",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9839146/"
+      },
+      "review_body": "Season 2 dropped September 24, 2021 with seven episodes, expanding the cast and the school's social world while deepening the family-secret arc. The season continued to leverage its South African setting and the chemistry between Qamata and Ngema. Critical coverage was sparser than Season 1 but audience reception maintained the show's IMDb baseline, suggesting the core fanbase remained engaged. The longer episode count allowed for more subplot development but also drew some criticism for pacing.",
+      "season_over_season": "Expands the cast and deepens the family mystery, trading Season 1's tight premise focus for broader social world-building with mixed results.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-11-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9839146/"
+      },
+      "review_body": "Season 3 arrived November 25, 2022 with six episodes, continuing the school drama arc through its penultimate chapter. Individual episode ratings on IMDb reached as high as 8.7 for the season-three highlight 'A Tale of Two Sisters', suggesting that when the show hit its emotional register it could still land effectively. The season moved the series toward its endgame.",
+      "season_over_season": "Returns to the tighter six-episode format of Season 1 and delivers the series' most emotionally concentrated single episode, though the broader arc remained familiar.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-03-01",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9839146/"
+      },
+      "review_body": "The fourth and final season released March 1, 2024, bringing Puleng and Fikile's story to its conclusion. The season ends with a graduation sequence and a flash-forward to Johannesburg, closing out the four-season arc with a degree of resolution. Netflix did not renew for a fifth season.",
+      "season_over_season": "Functions as a proper series finale - resolves the core sibling arc and closes character journeys that had been running since Season 1.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

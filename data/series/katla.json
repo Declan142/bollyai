@@ -1,0 +1,120 @@
+{
+  "slug": "katla",
+  "qid": {
+    "value": "Q107210735",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Katla",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Iceland",
+  "original_language": {
+    "value": "is",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Supernatural", "Mystery", "Drama", "Fantasy"],
+  "logline": "In the ash-grey town beneath Iceland's erupting Katla volcano, people who disappeared years ago start walking back - unchanged, unaware of the time lost, and carrying consequences no one is ready for.",
+  "poster": {
+    "src": "/img/series/katla/poster.jpg",
+    "alt": "Katla poster",
+    "attribution": "Poster © Netflix / RUV / Pegasus Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix did not renew Katla for a second season. The series stands as a self-contained eight-episode limited run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Katla_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-06-17",
+        "source": "Netflix",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Perfect 100 percent Rotten Tomatoes score from 11 critics (average 7.8/10) reflects unanimous praise for its atmospheric slow burn, grief-as-horror metaphor, and Icelandic landscape cinematography. IMDb audience score of 7.0 registers the slow-burn patience required."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "A rich atmosphere and compelling mysteries keep Katla engaging even as it takes its sweet time to get to the point.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2021/06/16/katla-season-1-netflix-review/"
+          },
+          {
+            "text": "There's a beguiling mystery about heartbreak in this slow-moving, Stygian and enigmatic eight-part series.",
+            "source": "The Globe and Mail",
+            "url": "https://en.wikipedia.org/wiki/Katla_(TV_series)"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11102190/"
+      },
+      "review_body": "Created by Baltasar Kormákur and Sigurjón Kjartansson (the team behind the Icelandic series Trapped), Katla premiered on Netflix on June 17, 2021. The eight-episode series was shot in and around the Katla volcano region and uses the eruption - and the ash-caked returning figures it produces - as a metaphor for grief, guilt, and the weight of unresolved loss. Critics were unanimous: 100 percent on Rotten Tomatoes from 11 reviews, averaging 7.8/10. Jonathon Wilson at Ready Steady Cut called it a determined slow burn that keeps its cards close to its chest. John Doyle of The Globe and Mail highlighted its beguiling mystery about heartbreak. Reel 2 Reel Talk called the performances universally outstanding and praised the Dolby Vision cinematography. The deliberate, accumulating pacing divided audiences - IMDb's 7.0 audience rating reflects viewers who wanted more narrative momentum than the show's literary register provides - but critics recognised the show as one of the more formally accomplished Netflix originals in the Nordic drama space.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "From Under the Glacier",
+          "air_date": "2021-06-17",
+          "bollymeter": 7.3,
+          "spoiler_free": "The premiere establishes the near-emptied town of Vik with quiet precision - the ash, the skeleton crew of residents, the volcano still erupting in the background. The first ash-covered figure arrives at the episode's end, and the show wisely refuses to explain anything.",
+          "the_moment": "The emergence of the first changeling from the ash - a scene that sets the series' entire tonal contract: restrained, uncanny, deeply sad.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Northerly Winds",
+          "air_date": "2021-06-17",
+          "bollymeter": 7.4,
+          "spoiler_free": "The fourth episode deepens the mythology around the returning figures and brings the show's grief metaphor into sharpest focus. This is the point where critics noted the show's slow accumulation of dread begins to pay emotional dividends.",
+          "the_moment": "A returned figure confronts someone who knew them - the scene where the metaphor for unresolved loss becomes fully explicit without losing its strangeness.",
+          "critic_note": {
+            "text": "The performances in Katla are universally outstanding.",
+            "source": "Reel 2 Reel Talk",
+            "url": "https://reel2reeltalk.com/2021/07/02/katla-an-icelandic-show-on-netflix-a-review/"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Ása",
+          "air_date": "2021-06-17",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale does not resolve the supernatural mystery so much as arrive at an emotional resting place for the characters who have been most transformed by the eruption's returns. It functions as a meditation on acceptance rather than an explanation - which divided audience expectations from critical approval.",
+          "the_moment": "The final image of Vik - ash still in the air, the volcano still rumbling, lives irrevocably changed by the arrivals - a conclusion that earns its ambiguity.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

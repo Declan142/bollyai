@@ -1,0 +1,148 @@
+{
+  "slug": "the-returned",
+  "qid": {
+    "value": "Q3853767",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Returned",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "France",
+  "original_language": {
+    "value": "fr",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Supernatural",
+    "Mystery",
+    "Horror",
+    "Psychological"
+  ],
+  "logline": "In a small French mountain town, the dead return without explanation - not as monsters, but as themselves - and the living must decide whether to accept what cannot be understood.",
+  "poster": {
+    "src": "/img/series/the-returned/poster.jpg",
+    "alt": "The Returned poster",
+    "attribution": "Poster © Canal+ / Haut et Court TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run on Canal+ (2012, 2015) concluded with no further continuation announced. The series is available internationally via Netflix. A US remake aired on A&E in 2015.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Returned_(French_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 8,
+      "release_date": {
+        "value": "2012-11-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "A 100% Rotten Tomatoes score from 39 critics with an average 9.2/10 made Season 1 one of the most unanimously acclaimed supernatural dramas of its decade; critics clustered on its beauty, slowness and genuine strangeness."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 39,
+        "pull_quotes": [
+          {
+            "text": "Beautiful, riveting and above all thought-provoking - let it have your brains.",
+            "source": "Rotten Tomatoes Critics",
+            "url": "https://www.rottentomatoes.com/tv/the_returned/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2521668/ratings/"
+      },
+      "review_body": "The Returned premiered on Canal+ in November 2012 and arrived in the United States in 2013, where critics received it as one of the essential television events of the year. The 100% Rotten Tomatoes score from 39 reviews - the largest critical sample for any season in the show's run - reflected a consensus that the show had achieved something rare: a supernatural drama that operated at the level of literary fiction. Creator Fabrice Gobert's deliberate pacing, Mogwai's score, and the Alpes setting produced a show that several critics named the best series of that fall season. The premise - the dead return not as zombies but as themselves, confused and human - stripped the genre of its usual shock apparatus and replaced it with unease that built for eight episodes without resolution.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Camille",
+          "air_date": "2012-11-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere introduces Camille, a teenage girl who died in a bus crash and returns home as if nothing happened. The season's emotional architecture is established in the first scene: not horror but grief, and the unbearable possibility that the grief might not be necessary.",
+          "the_moment": "Camille arriving at her family home and her mother's face - the look that the series refuses to explain as joy or terror.",
+          "critic_note": {
+            "text": "A must-see oddity that is both smart and sure to disturb.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_returned/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Les Revenants",
+          "air_date": "2012-12-17",
+          "bollymeter": 9.2,
+          "spoiler_free": "The season finale deepens the mystery rather than resolving it, as the number of returned individuals in the town reaches a critical threshold. The closing image is the rare kind of ambiguity that generates more thought the longer it sits - not a cliffhanger but a genuine question about what the series has actually been about.",
+          "the_moment": "The final shot of the town as the returned gather - what it signals about the world of the show is deliberately and productively unanswerable.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 8,
+      "release_date": {
+        "value": "2015-09-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "A 95% Rotten Tomatoes score from 20 critics and 86% audience score confirmed that the three-year wait had not dulled the show's singularity; critics praised the sustained storytelling and the expanded mythology."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 20,
+        "pull_quotes": [
+          {
+            "text": "Back with more of the chilling, deliberate, and masterful storytelling that made season one a spooky success.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_returned/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2521668/ratings/"
+      },
+      "review_body": "Season 2 arrived in September 2015, three years after the first and carrying the weight of one of the most anticipated returns in European television. The 95% Rotten Tomatoes score from 20 critics confirmed that the delay had not diminished the show's power: critics found the second season expanding the mythology with the same deliberate pace and atmospheric precision that distinguished the first. The 86% audience score was strong, though measurably lower than the critical consensus, reflecting some viewer impatience with the show's characteristic refusal to provide explanatory comfort. The show's final episodes did not fully resolve the central mystery - a choice some critics celebrated as consistent and others found frustrating after a six-season-equivalent wait across two runs.",
+      "season_over_season": "Maintains the atmospheric precision and deliberate pacing of Season 1 over a three-year gap; the expanded mythology satisfies critics more than audiences, who wanted resolution the show is constitutionally unable to provide.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}

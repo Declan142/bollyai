@@ -1,0 +1,102 @@
+{
+  "slug": "navillera",
+  "qid": {
+    "value": "Q98080934",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Navillera",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-09T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Slice of Life", "Family"],
+  "logline": "A 70-year-old retired postal worker pursues his lifelong dream of learning ballet alongside a struggling young dancer, each discovering what it means to keep moving forward.",
+  "poster": {
+    "src": "/img/series/navillera/poster.jpg",
+    "alt": "Navillera poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Limited 12-episode run on tvN, concluded April 27, 2021. Adapted from the Daum webtoon by Hun and Ji-min; no further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Navillera_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-03-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-09T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "IMDb 8.7 aligns with a critical consensus that Park In-hwan's central performance and the drama's unhurried emotional honesty make it one of 2021's standout limited series; Rotten Tomatoes audience score sits at 100% on limited sample."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Such a heartfelt drama - an inspirational story of two people at very different points pursuing their dreams.",
+            "source": "Kdrama Kisses",
+            "url": "https://kdramakisses.com/2021/06/06/navillera-korean-drama-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13885302/"
+      },
+      "review_body": "Navillera aired on tvN from March to April 2021 and averaged 3% nationwide cable viewership, consistently topping its time slot. Based on the acclaimed Daum webtoon, the series pairs two actors of radically different generations - Park In-hwan as the 70-year-old dreamer Shim Deok-chul and Song Kang as the young dancer Lee Chae-rok - and asks them to sustain a mentor-student relationship of genuine depth across 12 episodes. Critics responded to the show's refusal to manufacture drama: the conflicts arise from Deok-chul's early-stage dementia and Chae-rok's financial precarity, not from plot contrivances. The ballet sequences were praised for authenticity, and the second half's emotional weight was described as earned rather than manipulative. IMDb settled at 8.7 on a substantial vote count.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-03-22",
+          "bollymeter": 8.5,
+          "spoiler_free": "The first episode establishes the central contrast economically: a 70-year-old man who has waited his whole life to dance, and a 23-year-old who dances but cannot afford to keep doing so. Director Han Dong-hwa wastes no time on backstory that can be discovered in motion.",
+          "the_moment": "Deok-chul watches a ballet performance through a studio window, and the distance between longing and action collapses in a single held shot.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2021-04-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale delivers on the central promise without false resolution. Deok-chul's condition and Chae-rok's career arrive at meaningful endpoints that honor the show's honest treatment of aging, illness, and the cost of chasing a dream late in life.",
+          "the_moment": "The final ballet sequence - the payoff of an arc that began with an old man watching through glass.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-09T12:00:00+05:30"
+}
