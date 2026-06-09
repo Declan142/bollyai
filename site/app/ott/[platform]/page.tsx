@@ -3,6 +3,7 @@ import { AnswerBlock } from "../../../components/AnswerBlock";
 import { DateModified } from "../../../components/DateModified";
 import { JsonLd } from "../../../components/JsonLd";
 import { formatDate, getOttCalendar, getOttPlatforms, platformSlug } from "../../../lib/data";
+import { pageSeo } from "../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -17,7 +18,7 @@ export function generateMetadata({ params }: { params: { platform: string } }) {
   const description = `Upcoming and new ${platform} releases in India — verified OTT dates, film and series announcements, and BollyAI verdicts.`
     .slice(0, 158)
     .replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/ott/${params.platform}/` }) };
 }
 
 export default function OttPlatformPage({ params }: { params: { platform: string } }) {

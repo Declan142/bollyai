@@ -5,6 +5,7 @@ import { DateModified } from "../../../../components/DateModified";
 import { getSeries } from "../../../../lib/series";
 import { getAllEndings, getEnding } from "../../../../lib/endings";
 import { breadcrumbJsonLd, endingArticleJsonLd, endingFaqJsonLd } from "../../../../lib/jsonld";
+import { pageSeo } from "../../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -22,7 +23,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const t = series.title.value;
   const title = `${t} Ending Explained — How Does It End?`;
   const description = ending.hook.slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/series/${params.slug}/ending-explained/`, image: series.poster.src, type: "article" }) };
 }
 
 export default function EndingExplainedPage({ params }: { params: { slug: string } }) {
@@ -57,8 +58,6 @@ export default function EndingExplainedPage({ params }: { params: { slug: string
       </section>
 
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
-
         <aside className="spoiler-gate" role="note">
           <strong>⚠ Full spoilers ahead.</strong> This page explains how {series.title.value}{" "}
           ends, including the Season {ending.season_number} finale. BollyAI hasn&apos;t watched

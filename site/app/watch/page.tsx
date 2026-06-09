@@ -2,11 +2,13 @@ import { DateModified } from "../../components/DateModified";
 import { JsonLd } from "../../components/JsonLd";
 import { breadcrumbJsonLd } from "../../lib/jsonld";
 import { getAllWatchLists } from "../../lib/recommendations";
+import { pageSeo } from "../../lib/seo";
 
 export const metadata = {
   title: "What to Watch — Curated Streaming Picks for India",
   description:
-    "Curated watch lists across Indian cinema, OTT, and Korean drama. What is actually worth a weekend, where it streams, and why — BollyAI reads the room so you don't gamble the night."
+    "Curated watch lists across Indian cinema, OTT, and Korean drama. What is actually worth a weekend, where it streams, and why — BollyAI reads the room so you don't gamble the night.",
+  ...pageSeo({ path: "/watch/" })
 };
 
 export default function WatchIndex() {

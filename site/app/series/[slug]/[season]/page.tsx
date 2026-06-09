@@ -10,6 +10,7 @@ import { formatDate } from "../../../../lib/data";
 import { getAllSeries, getSeries } from "../../../../lib/series";
 import { hasEnding } from "../../../../lib/endings";
 import { breadcrumbJsonLd, seasonReviewJsonLd, episodeReviewsJsonLd } from "../../../../lib/jsonld";
+import { pageSeo } from "../../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -34,7 +35,7 @@ export function generateMetadata({ params }: { params: { slug: string; season: s
     ? `${t} Season ${num} verdict: ${season.verdict}${score}. `
     : `${t} Season ${num} — BollyAI opens a verdict once the season finishes. `;
   const description = (lead + (season.review_body ?? "")).slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description };
+  return { title, description, ...pageSeo({ path: `/series/${params.slug}/s${num}/`, image: series.poster.src, type: "article" }) };
 }
 
 export default function SeasonPage({ params }: { params: { slug: string; season: string } }) {
@@ -84,7 +85,6 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
       </section>
 
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
         <section className="panel">
           <h2>What BollyAI Thinks</h2>
           <p>{season.review_body}</p>

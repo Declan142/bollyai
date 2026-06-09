@@ -1,8 +1,10 @@
 import { SearchClient } from "../../components/SearchClient";
+import { pageSeo } from "../../lib/seo";
 
 export const metadata = {
   title: "Search",
   description: "Search BollyAI films, series, ending explainers and watch lists.",
+  ...pageSeo({ path: "/search/" }),
   // Search results are a utility surface, never an indexable destination.
   robots: { index: false, follow: true }
 };

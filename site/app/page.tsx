@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { DateModified } from "../components/DateModified";
+import { pageSeo } from "../lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "BollyAI — Is It Worth Watching? OTT & Movie Verdicts for India" },
-  description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla."
+  description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
+  ...pageSeo({ path: "/" })
 };
 import { FilmCard } from "../components/FilmCard";
 import { JsonLd } from "../components/JsonLd";
@@ -13,7 +15,6 @@ import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
 import { getAllSeries, getSeriesByRecency, latestSeason } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
-import { webSiteJsonLd } from "../lib/jsonld";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
   const net = film.box_office.totals.india_net_inr_cr?.value;
@@ -63,8 +64,6 @@ export default function HomePage() {
 
   return (
     <main className="page-shell home-marquee" data-desk="bollywood">
-      <JsonLd data={webSiteJsonLd()} />
-
       {lead && (
         <section className="hero-marquee full-bleed" data-desk={lead.canonical_industry}>
           <img
@@ -266,7 +265,6 @@ export default function HomePage() {
       </section>
 
       <section className="content-sections">
-        <div className="ad-slot">Reserved ad slot</div>
         <section>
           <header className="home-section-head">
             <h2>Fresh Reviews</h2>
