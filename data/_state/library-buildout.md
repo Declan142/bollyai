@@ -35,7 +35,7 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
-### Batch 09 — 2026-06-09 — 30 series — STATUS: DONE (commit PENDING; 452->482)
+### Batch 09 — 2026-06-09 — 30 series — STATUS: DONE (commit bba76e5 pushed; 452->482)
 - **QQ** K-drama romance/historical: forecasting-love-and-weather · defendant · when-the-camellia-blooms · law-school · love-in-the-moonlight · my-perfect-stranger
 - **RR** US prestige drama: twin-peaks · friday-night-lights · american-horror-story · yellowstone · billions · the-outsider
 - **SS** Anime: noragami · kill-la-kill · tokyo-revengers · wonder-egg-priority · dororo · yuri-on-ice
