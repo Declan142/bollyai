@@ -1,223 +1,167 @@
 {
-  "schema": "ott-calendar/v1",
-  "generated_at": "2026-06-08T00:50:00+05:30",
-  "window": {
-    "start": "2026-05-08",
-    "end": "2026-07-05"
-  },
   "_provenance": {
     "source": "official_announcements"
   },
   "entries": [
     {
-      "title": "Vaazha II: Biopic of a Billion Bros",
-      "qid": "Q137661261",
-      "industry": "mollywood",
-      "platform": "JioHotstar",
-      "release_date": "2026-05-08",
-      "type": "film",
-      "language": "ml",
-      "status": "verified",
-      "source_url": "https://www.theweek.in/news/entertainment/2026/05/02/when-is-vaazha-2-coming-to-streaming-ott-release-date-platform-cast-and-crew-details.html",
-      "source_type": "trade",
+      "_status": "verified",
       "fetched_at": "2026-06-08T00:50:00+05:30",
-      "slug": "vaazha-2-2026"
-    },
-    {
-      "title": "Dhurandhar: The Revenge",
-      "qid": "Q137998501",
-      "industry": "bollywood",
-      "platform": "JioHotstar",
-      "release_date": "2026-06-04",
-      "type": "film",
-      "language": "hi",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30",
-      "slug": "dhurandhar-the-revenge-2026"
-    },
-    {
-      "title": "Maa Behen",
-      "qid": "series-maa-behen",
       "industry": "streaming",
-      "platform": "Netflix",
-      "release_date": "2026-06-04",
-      "type": "series",
-      "language": "hi",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "The Pyramid Scheme",
-      "qid": "film-the-pyramid-scheme",
-      "industry": "streaming",
-      "platform": "Amazon Prime Video",
-      "release_date": "2026-06-05",
-      "type": "film",
-      "language": "hi",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "Brown",
-      "qid": "series-brown",
-      "industry": "streaming",
-      "platform": "ZEE5",
-      "release_date": "2026-06-05",
-      "type": "series",
-      "language": "hi",
-      "status": "verified",
-      "source_url": "https://www.newsx.com/photos/entertainment/latest-ott-releases-this-week-june-1-7-2026-6-new-movies-series-streaming-on-netflix-prime-video-jiohotstar-sonyliv-more-228953/",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "Gullak Season 5",
-      "qid": "series-gullak-s5",
-      "industry": "streaming",
-      "platform": "SonyLIV",
-      "release_date": "2026-06-05",
-      "type": "series",
-      "language": "hi",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "Office Romance",
-      "qid": "film-office-romance",
-      "industry": "streaming",
-      "platform": "Netflix",
-      "release_date": "2026-06-05",
-      "type": "film",
       "language": "en",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "Moolyam",
-      "qid": "film-moolyam",
-      "industry": "tollywood",
-      "platform": "ETV Win",
-      "release_date": "2026-06-05",
-      "type": "film",
-      "language": "te",
-      "status": "verified",
-      "source_url": "https://www.newsx.com/photos/entertainment/latest-ott-releases-this-week-june-1-7-2026-6-new-movies-series-streaming-on-netflix-prime-video-jiohotstar-sonyliv-more-228953/",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "Every Year After",
+      "platform": "Amazon Prime Video",
       "qid": "film-every-year-after",
-      "industry": "streaming",
-      "platform": "Amazon Prime Video",
-      "release_date": "2026-06-10",
-      "type": "film",
-      "language": "en",
-      "status": "verified",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-10"
+      },
+      "slug": null,
+      "source_type": "trade",
       "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "title": "Every Year After",
+      "type": "film"
     },
     {
-      "title": "Dridam",
-      "qid": "series-dridam",
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
       "industry": "streaming",
-      "platform": "JioHotstar",
-      "release_date": "2026-06-12",
-      "type": "series",
-      "language": "ml",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-week",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
-    },
-    {
-      "title": "Raakh",
+      "language": "hi",
+      "platform": "Amazon Prime Video",
       "qid": "series-raakh",
-      "industry": "streaming",
-      "platform": "Amazon Prime Video",
-      "release_date": "2026-06-12",
-      "type": "series",
-      "language": "hi",
-      "status": "verified",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-12"
+      },
+      "slug": null,
+      "source_type": "trade",
       "source_url": "https://www.myvi.in/blog/ott-releases-this-week",
-      "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "title": "Raakh",
+      "type": "series"
     },
     {
-      "title": "Your Fault: London",
-      "qid": "film-your-fault-london",
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
       "industry": "streaming",
+      "language": "ml",
+      "platform": "JioHotstar",
+      "qid": "series-dridam",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-12"
+      },
+      "slug": null,
+      "source_type": "trade",
+      "source_url": "https://www.myvi.in/blog/ott-releases-this-week",
+      "title": "Dridam",
+      "type": "series"
+    },
+    {
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
+      "industry": "streaming",
+      "language": "en",
       "platform": "Amazon Prime Video",
-      "release_date": "2026-06-17",
-      "type": "film",
-      "language": "en",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "qid": "film-your-fault-london",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-17"
+      },
+      "slug": null,
       "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "title": "Your Fault: London",
+      "type": "film"
     },
     {
-      "title": "Thukra Ke Mera Pyaar S2",
-      "qid": "series-tkmp-s2",
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
       "industry": "streaming",
-      "platform": "JioHotstar",
-      "release_date": "2026-06-19",
-      "type": "series",
       "language": "hi",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "platform": "JioHotstar",
+      "qid": "series-tkmp-s2",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-19"
+      },
+      "slug": null,
       "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "title": "Thukra Ke Mera Pyaar S2",
+      "type": "series"
     },
     {
-      "title": "House of the Dragon S3",
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
+      "industry": "streaming",
+      "language": "en",
+      "platform": "JioHotstar",
       "qid": "series-hotd-s3",
-      "industry": "streaming",
-      "platform": "JioHotstar",
-      "release_date": "2026-06-22",
-      "type": "series",
-      "language": "en",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-22"
+      },
+      "slug": null,
       "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "title": "House of the Dragon S3",
+      "type": "series"
     },
     {
-      "title": "Avatar: Fire and Ash",
-      "qid": "film-avatar-fire-ash",
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
       "industry": "hollywood",
-      "platform": "JioHotstar",
-      "release_date": "2026-06-24",
-      "type": "film",
       "language": "en",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "platform": "JioHotstar",
+      "qid": "film-avatar-fire-ash",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-24"
+      },
+      "slug": null,
       "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "title": "Avatar: Fire and Ash",
+      "type": "film"
     },
     {
-      "title": "Avatar: The Last Airbender",
-      "qid": "series-avatar-tla",
+      "_status": "verified",
+      "fetched_at": "2026-06-08T00:50:00+05:30",
       "industry": "streaming",
-      "platform": "Netflix",
-      "release_date": "2026-06-25",
-      "type": "series",
       "language": "en",
-      "status": "verified",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "platform": "Netflix",
+      "qid": "series-avatar-tla",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-06-08T00:50:00+05:30",
+        "source": "ott_announcements",
+        "value": "2026-06-25"
+      },
+      "slug": null,
       "source_type": "trade",
-      "fetched_at": "2026-06-08T00:50:00+05:30"
+      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
+      "title": "Avatar: The Last Airbender",
+      "type": "series"
     }
-  ]
+  ],
+  "generated_at": "2026-06-09T08:07:56Z",
+  "schema": "ott-calendar/v1",
+  "window": {
+    "basis": "official_announcements",
+    "end": "2026-07-06",
+    "start": "2026-06-09",
+    "weeks": 4
+  }
 }
