@@ -66,12 +66,18 @@ for (const f of films) {
   );
 }
 
-// series hubs + seasons (separate children)
+// series hubs + seasons + where-to-watch (separate children)
 const seriesRows = [];
 const seasonRows = [];
+const w2wRows = [];
 for (const s of series) {
   const lm = day(s.date_modified);
   seriesRows.push({ loc: `${SITE}/series/${s.slug}/`, lastmod: lm });
+  // mirror qualifiesForWhereToWatch(): multi-season titles only (single-season w2w pages
+  // are near-duplicates of the hub per the IG gate)
+  if ((s.seasons || []).length >= 2) {
+    w2wRows.push({ loc: `${SITE}/series/${s.slug}/where-to-watch/`, lastmod: lm });
+  }
   for (const season of s.seasons || []) {
     seasonRows.push({ loc: `${SITE}/series/${s.slug}/s${season.number}/`, lastmod: lm });
   }
@@ -104,6 +110,7 @@ const children = [
   ["sitemap-pages.xml", urlXml(pages), maxDay(pages.map((r) => r.lastmod))],
   ["sitemap-films.xml", urlXml(filmRows), maxDay(filmRows.map((r) => r.lastmod))],
   ["sitemap-series.xml", urlXml(seriesRows), maxDay(seriesRows.map((r) => r.lastmod))],
+  ["sitemap-where-to-watch.xml", urlXml(w2wRows), maxDay(w2wRows.map((r) => r.lastmod))],
   ["sitemap-seasons.xml", urlXml(seasonRows), maxDay(seasonRows.map((r) => r.lastmod))],
   ["sitemap-endings.xml", urlXml(endingRows), maxDay(endingRows.map((r) => r.lastmod))],
   ["sitemap-watch.xml", urlXml(watchRows), maxDay(watchRows.map((r) => r.lastmod))],
@@ -119,8 +126,8 @@ const indexXml =
   `\n</sitemapindex>\n`;
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), indexXml);
 
-const total = pages.length + filmRows.length + seriesRows.length + seasonRows.length + endingRows.length + watchRows.length;
+const total = pages.length + filmRows.length + seriesRows.length + w2wRows.length + seasonRows.length + endingRows.length + watchRows.length;
 console.log(
   `sitemaps: index + ${children.length} children | ${total} URLs ` +
-  `(pages ${pages.length}, films ${filmRows.length}, series ${seriesRows.length}, seasons ${seasonRows.length}, endings ${endingRows.length}, watch ${watchRows.length}) + ${imgRows.length} images`
+  `(pages ${pages.length}, films ${filmRows.length}, series ${seriesRows.length}, where-to-watch ${w2wRows.length}, seasons ${seasonRows.length}, endings ${endingRows.length}, watch ${watchRows.length}) + ${imgRows.length} images`
 );

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { DeskSlug } from "./desks";
 import type { Confidence, SourceValue } from "./data";
+import { isFreeInIndia, platformInfo } from "./platforms";
 
 // OTT verdict ladder (Seat 05 series/OTT variant): 5 rungs, craft + word-of-mouth, not box office.
 export const OTT_RUNGS = ["DISASTER DROP", "SKIP", "ONE-TIME WATCH", "WORTH-IT", "MUST-WATCH"] as const;
@@ -141,6 +142,76 @@ export function isFreshSeries(series: Series, now: number = Date.now(), days = 1
 // All series, newest-content first. Default order for the viral browse + home.
 export function getSeriesByRecency(): Series[] {
   return [...getAllSeries()].sort((a, b) => seriesRecency(b).localeCompare(seriesRecency(a)));
+}
+
+// ---- Where-to-Watch surface (per-title streaming guide) ----
+
+// Total aired episodes across all seasons — the "how long is the binge" number.
+export function totalEpisodes(series: Series): number {
+  return series.seasons.reduce((sum, s) => sum + (s.episodes || 0), 0);
+}
+
+// Tokenise a platform string ("JTBC / Netflix" -> ["jtbc","netflix"]) so a show on a
+// combined platform still shares the "Netflix" cohort.
+function platformTokens(p: string): string[] {
+  return p
+    .split(/[/,&]|\band\b/i)
+    .map((x) => x.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+// Other series sharing a streaming platform — powers the "more to watch on X" mesh and
+// the internal-link cluster. Ranks by shared-genre overlap, then recency. Excludes self.
+export function moreOnPlatform(series: Series, limit = 6): Series[] {
+  const mine = new Set(platformTokens(series.platform.value));
+  const myGenres = new Set(series.genres ?? []);
+  return getAllSeries()
+    .filter((s) => s.slug !== series.slug && platformTokens(s.platform.value).some((tok) => mine.has(tok)))
+    .map((s) => ({ s, shared: (s.genres ?? []).filter((g) => myGenres.has(g)).length }))
+    .sort((a, b) => b.shared - a.shared || seriesRecency(b.s).localeCompare(seriesRecency(a.s)))
+    .slice(0, limit)
+    .map((x) => x.s);
+}
+
+// Platform-specific FAQ for the where-to-watch page — deliberately does NOT repeat the
+// hub's "Quick Answers" (where can I watch / how many seasons / is it worth it). These
+// target the India access questions the hub never answers: free-or-paid, how-to-watch,
+// dub/subtitle. Built ONLY from real fields + the platform table. No fabricated availability.
+export function whereToWatchFaq(series: Series): Array<{ q: string; a: string }> {
+  const t = series.title.value;
+  const plat = series.platform.value;
+  const info = platformInfo(plat);
+  const free = isFreeInIndia(plat);
+  const lang = series.original_language.value;
+  const foreign = !["en", "hi"].includes(lang.toLowerCase());
+  const faq: Array<{ q: string; a: string }> = [];
+
+  faq.push({
+    q: `Is ${t} free to watch in India?`,
+    a: free
+      ? `Yes — ${t} streams free with ads on ${plat} in India, no subscription needed.`
+      : `No — ${t} needs a ${plat} subscription in India. ${info.note}`
+  });
+  faq.push({
+    q: `How do I watch ${t} on ${plat} in India?`,
+    a: `${info.note} ${t} then plays in full on ${plat}; BollyAI tracks it on ${plat} only.`
+  });
+  faq.push({
+    q: foreign ? `Can I watch ${t} dubbed or subtitled in India?` : `What language is ${t} in?`,
+    a: foreign
+      ? `${t} is a ${lang.toUpperCase()} original; ${plat} carries subtitles and often a dub for popular titles.`
+      : `${t} is in ${lang.toUpperCase()} and streams as-is on ${plat}.`
+  });
+  return faq;
+}
+
+// Build a standalone streaming guide ONLY for multi-season titles. The IG gate showed a
+// single-season where-to-watch page is a near-duplicate of its own hub (cosine ~0.93 — the
+// hub already answers "where to watch X"); a multi-season page carries genuinely distinct
+// info: per-season binge order + divergent season verdicts the hub frames differently and
+// the SERP lacks. Single-season titles stay on the hub.
+export function qualifiesForWhereToWatch(series: Series): boolean {
+  return series.seasons.length >= 2;
 }
 
 export type { Confidence };

@@ -5,7 +5,7 @@ import { JsonLd } from "../../../components/JsonLd";
 import { SeasonVerdict } from "../../../components/SeasonVerdict";
 import { AnswerBlock } from "../../../components/AnswerBlock";
 import { formatDate } from "../../../lib/data";
-import { getAllSeries, getSeries, latestSeason, peakSeason } from "../../../lib/series";
+import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
 import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
 import { pageSeo } from "../../../lib/seo";
@@ -91,6 +91,13 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
               ))}
           </ol>
         </section>
+
+        {qualifiesForWhereToWatch(series) && (
+          <a className="ending-cta" href={`/series/${series.slug}/where-to-watch/`}>
+            <span className="ending-cta__k">STREAM</span>
+            <span>Where to watch {series.title.value} in India →</span>
+          </a>
+        )}
 
         {hasEnding(series.slug) && (
           <a className="ending-cta" href={`/series/${series.slug}/ending-explained/`}>
