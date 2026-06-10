@@ -1,9 +1,9 @@
 {
   "checked_count": 19,
-  "generated_at": "2026-06-09T08:07:57Z",
+  "generated_at": "2026-06-10T08:32:28Z",
   "items": [
     {
-      "age_hours": 37.13,
+      "age_hours": 61.54,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q107105860.json",
       "qid": "Q107105860",
@@ -14,40 +14,40 @@
       "title": "Project Hail Mary"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q120188867.json",
       "qid": "Q120188867",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "ustaad-bhagat-singh-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Ustaad Bhagat Singh"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q124301053.json",
       "qid": "Q124301053",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "the-rajasaab-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "The RajaSaab"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q126734387.json",
       "qid": "Q126734387",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "border-2-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Border 2"
     },
     {
-      "age_hours": 152.13,
+      "age_hours": 176.54,
       "latest_boxoffice_at": "2026-06-02T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q131341662.json",
       "qid": "Q131341662",
@@ -58,29 +58,29 @@
       "title": "Karuppu"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q131445677.json",
       "qid": "Q131445677",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "parasakthi-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Parasakthi"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q131763755.json",
       "qid": "Q131763755",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "mardaani-3-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Mardaani 3"
     },
     {
-      "age_hours": 37.88,
+      "age_hours": 62.29,
       "latest_boxoffice_at": "2026-06-07T18:15:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q133573186.json",
       "qid": "Q133573186",
@@ -91,7 +91,7 @@
       "title": "Peddi"
     },
     {
-      "age_hours": 37.13,
+      "age_hours": 61.54,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q134435699.json",
       "qid": "Q134435699",
@@ -102,7 +102,7 @@
       "title": "Aadu 3"
     },
     {
-      "age_hours": 37.88,
+      "age_hours": 62.29,
       "latest_boxoffice_at": "2026-06-07T18:15:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q134562010.json",
       "qid": "Q134562010",
@@ -113,40 +113,40 @@
       "title": "Hai Jawani Toh Ishq Hona Hai"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q135025214.json",
       "qid": "Q135025214",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "drishyam-3-2026",
-      "stale": false,
+      "stale": true,
       "status": "live",
       "title": "Drishyam 3"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q135647565.json",
       "qid": "Q135647565",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "mana-shankara-vara-prasad-garu-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Mana Shankara Vara Prasad Garu"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q136187174.json",
       "qid": "Q136187174",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "bhooth-bangla-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Bhooth Bangla"
     },
     {
-      "age_hours": 37.13,
+      "age_hours": 61.54,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q136673072.json",
       "qid": "Q136673072",
@@ -157,40 +157,40 @@
       "title": "Ikkis"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q137713080.json",
       "qid": "Q137713080",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "anaganaga-oka-raju-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "Anaganaga Oka Raju"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q137783833.json",
       "qid": "Q137783833",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "oromeo-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "O'Romeo"
     },
     {
-      "age_hours": 8.13,
+      "age_hours": 32.54,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q138381591.json",
       "qid": "Q138381591",
-      "reason": "within_sla",
+      "reason": "older_than_sla",
       "slug": "the-kerala-story-2-2026",
-      "stale": false,
+      "stale": true,
       "status": "released",
       "title": "The Kerala Story 2: Goes Beyond"
     },
     {
-      "age_hours": 37.13,
+      "age_hours": 61.54,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q139209789.json",
       "qid": "Q139209789",
@@ -201,7 +201,7 @@
       "title": "Pati Patni Aur Woh Do"
     },
     {
-      "age_hours": 37.88,
+      "age_hours": 62.29,
       "latest_boxoffice_at": "2026-06-07T18:15:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q139962231.json",
       "qid": "Q139962231",
@@ -215,5 +215,5 @@
   "ok": false,
   "schema": "bollyai-staleness/v1",
   "sla_hours": 26.0,
-  "stale_count": 8
+  "stale_count": 19
 }
