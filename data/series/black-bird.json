@@ -1,0 +1,88 @@
+{
+  "slug": "black-bird",
+  "qid": {
+    "value": "Q106911884",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Black Bird",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Crime", "Thriller", "Drama", "Psychological"],
+  "logline": "A drug dealer with nothing to lose is offered a deal: get transferred to a maximum-security prison and extract a confession from a suspected serial killer, or let his father die without a pardon.",
+  "poster": {
+    "src": "/img/series/black-bird/poster.jpg",
+    "alt": "Black Bird poster",
+    "attribution": "Poster © Apple TV+ / Fifth Season / Blumhouse Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series released July-August 2022. Story self-contained; no sequel announced.",
+    "source": "Apple TV+",
+    "source_url": "https://tv.apple.com/us/show/black-bird/umc.cmc.3ofcfpf8v3hj29dqrvsz74bjg"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-07-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "98% RT from critics citing Dennis Lehane's authentic grit, Paul Walter Hauser's terrifying performance as alleged serial killer Larry Hall, and Ray Liotta's final major role - a genuinely irreplaceable piece of crime television."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Dennis Lehane's penchant for authentic grit is on full display in Black Bird, an absorbing prison drama distinguished by its moral complexity and outstanding ensemble.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/black_bird/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Black Bird premiered July 8, 2022 as six episodes based on the true account of Jimmy Keene's undercover operation inside a federal prison for the criminally insane. Dennis Lehane adapted James Keene's memoir, and the result is the best-reviewed Apple TV+ limited series of its year. Taron Egerton as Jimmy Keene and Paul Walter Hauser as suspected serial killer Larry Hall generate a central dynamic of genuine menace: Hauser's Larry is soft-spoken, ambiguous, and deeply unsettling in ways that never tip into explicit horror. Ray Liotta - in one of his final performances - plays Jimmy's father with heartbreaking economy. Critics awarded 98 percent on Rotten Tomatoes, praising the moral complexity and the refusal to simplify either man.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 6,
+          "title": "Endgame",
+          "air_date": "2022-08-05",
+          "bollymeter": 9.3,
+          "spoiler_free": "The finale places Jimmy in the position the entire series has been building toward - get the confession or lose everything - and the resolution is as morally uncomfortable as the premise promised. The ending refuses catharsis, which is precisely the right choice.",
+          "the_moment": "The final conversation between Jimmy and Larry, where the nature of what Larry is becomes simultaneously clearer and more ambiguous.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

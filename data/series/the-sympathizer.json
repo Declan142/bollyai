@@ -1,0 +1,72 @@
+{
+  "slug": "the-sympathizer",
+  "qid": {
+    "value": "Q115011776",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Sympathizer",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Spy", "Historical", "War", "Psychological"],
+  "logline": "A communist spy embedded within the South Vietnamese army flees to America after the fall of Saigon - a double agent narrating his own story from a re-education camp in Park Chan-wook's most politically explicit series.",
+  "poster": {
+    "src": "/img/series/the-sympathizer/poster.jpg",
+    "alt": "The Sympathizer poster",
+    "attribution": "Poster © HBO / A24 Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode limited series adapting Viet Thanh Nguyen's Pulitzer Prize-winning novel, released April-May 2024. No sequel announced.",
+    "source": "HBO",
+    "source_url": "https://www.hbo.com/the-sympathizer"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-04-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "89% RT from 73 critics for Park Chan-wook's English-language debut: a formally rigorous spy narrative about the Vietnam War's aftermath that uses Robert Downey Jr. in multiple roles to embody a single imperialist system."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 73,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The Sympathizer premiered April 14, 2024 as Park Chan-wook's English-language debut on HBO, adapted from Viet Thanh Nguyen's 2015 Pulitzer Prize-winning novel. Hoa Xuande plays the nameless Captain, a communist spy who served in the South Vietnamese army and narrates his story from captivity after the fall of Saigon. Robert Downey Jr. plays multiple distinct characters across the series - each a different face of American power - a formal conceit that earned significant critical attention. Critics approved at 89 percent from 73 reviews, with the consensus noting the adaptation effectively conveyed the novel's core themes despite structural challenges. Sandra Oh appears in a supporting role. The show is formally ambitious, politically explicit, and demands active engagement from its audience - the kind of prestige television that wins awards by being genuinely difficult.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

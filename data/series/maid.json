@@ -1,0 +1,78 @@
+{
+  "slug": "maid",
+  "qid": {
+    "value": "Q99955255",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Maid",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Biographical"],
+  "logline": "A young mother flees an abusive relationship with her toddler and almost nothing else, navigating the welfare system, poverty, and institutional indifference while cleaning houses for wages that barely cover bus fare.",
+  "poster": {
+    "src": "/img/series/maid/poster.jpg",
+    "alt": "Maid poster",
+    "attribution": "Poster © Netflix / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Ten-episode limited series adapted from Stephanie Land's memoir; released October 2021. Netflix confirmed no second season, with the story self-contained.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/80995819"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-10-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "94% RT and a consensus that called it 'not always easy to watch, but undeniably powerful' - Margaret Qualley's performance anchors a harrowing systemic portrait that holds nothing back."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Maid takes great care with its sensitive subject matter to craft a drama that is not always easy to watch, but undeniably powerful.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/maid/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Maid arrived October 1, 2021, adapted from Stephanie Land's memoir by showrunner Molly Smith Metzler. Margaret Qualley plays Alex, a young mother who escapes an emotionally abusive relationship with her toddler and is immediately consumed by the bureaucratic nightmare of poverty: housing programs with months-long waitlists, welfare systems designed to humiliate, jobs that barely cover childcare. Critics awarded 94 percent on Rotten Tomatoes, with the consensus praising both the unflinching systemic critique and Qualley's outstanding lead performance. Andie MacDowell - Qualley's real mother - plays Alex's erratic, unwell mother with uncomfortable authenticity. The show is deliberately exhausting in the way poverty itself is: each solved problem reveals three more. One of Netflix's most purposeful limited series.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

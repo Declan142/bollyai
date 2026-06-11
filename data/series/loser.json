@@ -1,0 +1,100 @@
+{
+  "slug": "loser",
+  "qid": {
+    "value": "Q96390828",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Loser",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "te",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ZEE5",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Sports", "Slice of Life", "Coming of Age"],
+  "logline": "A Telugu sports anthology drama following athletes across different disciplines - each written off as a failure - whose parallel stories of ambition, loss, and tenacity challenge what winning actually means.",
+  "poster": {
+    "src": "/img/series/loser/poster.jpg",
+    "alt": "Loser poster",
+    "attribution": "Poster © ZEE5 / Annapurna Studios / Spectrum Media Networks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season Telugu anthology sports drama on ZEE5; Season 2 concluded the series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Loser_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-05-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "A warm and breezy Telugu sports drama - Times of India awarded 3 out of 5, and The Hindu praised the 30-minute episode pacing as a strength. Modest in ambition but honest in execution."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The 30-minute duration works in Loser's favour, as the stories don't get stretched needlessly.",
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/entertainment/reviews/loser-review-zee5-telugu-series/article61501234.ece"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Loser debuted on ZEE5 in May 2020 as a Telugu-language sports drama anthology directed by Abhilash Reddy Kankara, produced by Annapurna Studios and Spectrum Media Networks. The first season follows multiple athletes - including characters played by Priyadarshi and Shashank - whose sporting careers have been written off by peers and institutions. Times of India gave Season 1 three out of five stars, noting the show warms the heart while remaining a breezy watch. The Hindu credited the compact 30-minute episode format as a structural advantage that prevents storylines from overstaying their welcome. The series occupies a small but real space in Telugu OTT: an earnest, unpretentious sports drama that focuses on character over spectacle.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": {
+        "value": "2021-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 continued the anthology structure with a new set of athlete stories. Critical reception was more divided: reviewers ranged from two to three-and-a-half stars, praising the ensemble cast but raising concerns about writing consistency compared to the first season. The warm character-first approach remained the show's core appeal, though the sense of discovery from the debut run was harder to sustain across a second cycle. Still a competent and watchable extension of the Loser universe for Telugu OTT viewers drawn to low-key sports storytelling.",
+      "season_over_season": "Maintains the anthology format and cast warmth but divided critics more sharply than Season 1, with writing quality flagged as uneven.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

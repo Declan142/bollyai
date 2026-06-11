@@ -1,0 +1,88 @@
+{
+  "slug": "the-fall-of-the-house-of-usher",
+  "qid": {
+    "value": "Q110156249",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Fall of the House of Usher",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Horror", "Thriller", "Mystery", "Drama", "Psychological"],
+  "logline": "A pharmaceutical dynasty whose fortune is built on an opioid epidemic watches its heirs die one by one in elaborate Poe-inspired deaths - Mike Flanagan's best work: corporate horror with a moral ledger that finally gets paid.",
+  "poster": {
+    "src": "/img/series/the-fall-of-the-house-of-usher/poster.jpg",
+    "alt": "The Fall of the House of Usher poster",
+    "attribution": "Poster © Netflix / Intrepid Pictures / Sarnoff Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series released October 2023. Story self-contained; no continuation planned.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81416591"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-10-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "91% RT from 116 critics - the most substantial critical sample in Flanagan's Netflix run - and the consensus that his 'deliciously dark lens' brings Poe to life through a corporate horror framework that doubles as the sharpest critique of the opioid crisis on television."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 116,
+        "pull_quotes": [
+          {
+            "text": "Vintage Poe filtered through Flanagan's dark lens: The Fall of the House of Usher will get a rise out of horror fans.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_fall_of_the_house_of_usher/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The Fall of the House of Usher dropped October 12, 2023 as Mike Flanagan's most ambitious Netflix project. The conceit is structural genius: the Usher family is a pharmaceutical dynasty whose Fortunato drug - clearly modelled on OxyContin - has killed hundreds of thousands of Americans. The eight heirs of patriarch Roderick Usher (Bruce Greenwood) die in deaths drawn directly from Poe's stories - Masque of the Red Death, The Murders in the Rue Morgue, The Pit and the Pendulum - administered by a figure named Verna (Carla Gugino). Critics gave 91 percent from 116 reviews, the largest critical sample of Flanagan's Netflix work. The show works as horror, as satire, and as a Dickensian reckoning with inherited guilt. Mark Hamill as Fortunato's attorney is the supporting-cast standout.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Midnight Dreary",
+          "air_date": "2023-10-12",
+          "bollymeter": 8.8,
+          "spoiler_free": "The opener sets up the Usher empire - its pharmaceutical fortune and the Fortunato drug's body count - through the frame of a federal investigator interviewing an elderly Roderick. The time structure and the scope of what Flanagan is attempting become clear: this is not horror for horror's sake.",
+          "the_moment": "The cold open's revelation of the Usher family's end - presented before the cause - sets the show's moral tone precisely.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

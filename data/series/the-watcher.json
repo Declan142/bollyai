@@ -1,0 +1,78 @@
+{
+  "slug": "the-watcher",
+  "qid": {
+    "value": "Q110885430",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Watcher",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Thriller", "Mystery", "Horror", "Drama"],
+  "logline": "A family buys their dream house in a wealthy New Jersey suburb and immediately receives anonymous letters from someone who calls himself The Watcher - claiming to observe the house as his predecessors have observed it for decades.",
+  "poster": {
+    "src": "/img/series/the-watcher/poster.jpg",
+    "alt": "The Watcher poster",
+    "attribution": "Poster © Netflix / Blumhouse Television / Brad Falchuk Teley-Vision. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Season 2 in November 2022 despite mixed critical reception of Season 1. Season 2 had not premiered as of this writing.",
+    "source": "Deadline",
+    "source_url": "https://deadline.com/2022/11/the-watcher-renewed-season-2-netflix-1235161792/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-10-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "56% RT and a consensus that the show 'sprawls in too many ludicrous directions' - Ryan Murphy's suburban horror works in flashes but cannot sustain coherent tension across seven episodes."
+      },
+      "critic": {
+        "positive_pct": 56,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "This suburban nightmare sometimes achieves the campy fright of creator Ryan Murphy's best horror fare, but it sprawls in too many ludicrous directions to satisfy.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_watcher_2022/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The Watcher premiered October 13, 2022, Ryan Murphy's dramatisation of the true story of the Broaddus family and the threatening letters they received after buying a house in Westfield, New Jersey. The Brannock family (Naomi Watts, Bobby Cannavale) receive the letters and their suburban dream turns into a paranoia spiral. Critics gave 56 percent - below Murphy's critical average - noting the show achieves its best effects in individual scenes of campy suburban menace but loses narrative coherence across its seven-episode run. Jennifer Coolidge and Margo Martindale as sinister neighbours generated the show's most entertaining moments. The underlying true story's unresolved nature means the show must invent an ending, and the invention did not satisfy critics. Audience engagement on Netflix was strong enough to earn a second season renewal.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

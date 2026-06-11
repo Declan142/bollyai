@@ -1,0 +1,73 @@
+{
+  "slug": "bodkin",
+  "qid": null,
+  "title": {
+    "value": "Bodkin",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Ireland",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Comedy", "Crime", "Mystery", "Thriller"],
+  "logline": "An American podcaster investigating a cold case in a remote Irish coastal town finds his true-crime instincts are less useful than he assumed, and the locals are hiding something stranger than a good podcast episode.",
+  "poster": {
+    "src": "/img/series/bodkin/poster.jpg",
+    "alt": "Bodkin poster",
+    "attribution": "Poster © Netflix / Anonymous Content. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode limited series released May 2024; no second season announced.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81681929"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-05-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.4,
+        "basis": "68% RT from 40 critics: the show's true-crime satire lands but the mystery underneath is too thin to support seven episodes - the tone is right, the plot isn't quite there."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 40,
+        "pull_quotes": [
+          {
+            "text": "The series' satire of true crime could benefit from a stronger mystery, though its eccentricity provides intrigue.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/bodkin/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Bodkin premiered May 9, 2024 as a Netflix Irish black comedy created by Jez Scharf. Will Forte plays Gilbert Power, an American podcaster who travels to the Irish coastal village of Bodkin to investigate the 30-year-old disappearance of three people during a Samhain festival. He is joined by an Irish investigative journalist (Siobhan Cullen) and a researcher (Robyn Cara). Critics approved at 68 percent from 40 reviews, crediting the show's satirical edge on true-crime media consumption and the distinct eccentricity of its Irish setting and characters. The consensus reservation - that the underlying mystery is too thin to sustain seven episodes - was repeated across multiple reviews. The show is more interested in its satirical mode than its genre mechanics, which is either a strength or a limitation.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "the-tourist",
+  "qid": {
+    "value": "Q107104310",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Tourist",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Mystery", "Crime", "Comedy"],
+  "logline": "A man wakes in the Australian outback with no memory of who he is, pursued by people who want him dead for reasons he cannot recall - a darkly comic cat-and-mouse thriller that never quite plays the scene you expect.",
+  "poster": {
+    "src": "/img/series/the-tourist/poster.jpg",
+    "alt": "The Tourist poster",
+    "attribution": "Poster © BBC Studios / Two Brothers Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded January 2024. BBC confirmed both seasons as self-contained; no third season announced.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/programmes/m0013mbp"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% RT from 36 critics and a consensus crediting Jamie Dornan's performance and the show's willingness to mix genuine menace with dark comedy - a tonal balance that BBC crime dramas rarely attempt."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 36,
+        "pull_quotes": [
+          {
+            "text": "Jamie Dornan makes for a compelling guide through The Tourist, a beguiling drama that deepens its mystery with solid shocks and welcome moments of levity.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_tourist/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 1 aired January 1, 2022 on BBC One and became one of the year's most-discussed British thrillers. Written by Harry and Jack Williams (The Missing), the show drops Jamie Dornan's unnamed man into the Australian outback with no memory and an immediate set of people trying to kill him. The tonal balance is the series' achievement: genuinely threatening and genuinely funny in alternation, with the comedy landing without deflating the danger. Critics awarded 97 percent from 36 reviewers, with Dornan's performance as a blank who slowly becomes a person praised uniformly. Danielle Macdonald as local constable Helen Chambers provides the warm counterweight. The show works as both a thriller and a black comedy.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "96% RT - almost matching Season 1, with a new setting (Ireland) and the show's confidence in its tonal register now fully established."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 23,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 aired January 2024, relocating from Australia to Ireland and introducing a new mystery structure while retaining the central cast. Critics maintained 96 percent approval from 23 reviews, noting the show's confidence in its own tonal register - the dark comedy and genuine thriller mechanics - was now fully established and executed with precision. The change of geography refreshed the visual palette without altering the formula, and the Williams brothers' writing remained the tightest in the genre. The smaller critical sample relative to Season 1 is a product of media attention patterns rather than quality decline.",
+      "season_over_season": "Relocates to Ireland and introduces a new mystery; the tonal confidence of Season 1 is sustained rather than recaptured.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

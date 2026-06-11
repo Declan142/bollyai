@@ -1,0 +1,253 @@
+{
+  "slug": "gilmore-girls",
+  "qid": {
+    "value": "Q193462",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Gilmore Girls",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Romance", "Slice of Life", "Coming of Age"],
+  "logline": "A fast-talking single mother and her daughter navigate small-town Connecticut, Ivy League ambitions, and a rotating cast of complicated men - the archetypal mother-daughter dramedy that Netflix revival culture has never stopped trying to recreate.",
+  "poster": {
+    "src": "/img/series/gilmore-girls/poster.jpg",
+    "alt": "Gilmore Girls poster",
+    "attribution": "Poster © Warner Bros. Television / Dorothy Parker Drank Here Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original series ended May 2007 (7 seasons, WB/CW). Netflix revival 'A Year in the Life' released November 2016 as four 90-minute episodes. No further revival confirmed.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/70155618"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2000,
+      "episodes": 21,
+      "release_date": {
+        "value": "2000-10-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "A Metacritic season-one average of 81/100 - 'universal praise' classification - and Time magazine's 'All-Time 100 TV Shows' selection reflect a debut that invented a new register of female-centred comedy-drama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A witty, charming show.",
+            "source": "The New York Times",
+            "url": "https://www.nytimes.com/2000/10/05/arts/television-review-a-mother-and-daughter-bond-over-words.html"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 1 premiered October 5, 2000 on The WB and introduced Lorelai Gilmore (Lauren Graham) and her sixteen-year-old daughter Rory (Alexis Bledel) to a television landscape that had not seen this particular combination before: relentlessly witty, pop-culture-saturated dialogue between women, in a heightened small-town setting that existed somewhere between realism and fairy tale. Metacritic assigned 81/100, indicating universal praise. The New York Times called it 'a witty, charming show.' Creator Amy Sherman-Palladino's signature fast-dialogue style, the mother-daughter dynamic, and the Stars Hollow world-building all arrived fully formed. The show's influence on a generation of streaming dramas - everything from Fleabag to Parenthood to Emily in Paris - is traceable to this first season.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2001,
+      "episodes": 22,
+      "release_date": {
+        "value": "2001-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Sustained critical and audience acclaim; the Luke-Lorelai slow burn and Rory's Harvard ambitions deepened the ensemble's emotional investments."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 expanded the show's emotional stakes across 22 episodes, developing the will-they-won't-they dynamic between Lorelai and diner owner Luke Danes (Scott Patterson) into one of broadcast television's most patiently constructed slow burns. Rory's preparations for Harvard and her complicated relationship with her wealthy grandparents (Kelly Bishop and Edward Herrmann) provided narrative tension that the first season had only sketched. Critics continued to praise the writing's density and warmth. Season 2 established that the show's tonal register - simultaneously funny and genuinely moving - was not a first-season fluke but a deliberate and sustainable mode.",
+      "season_over_season": "Deepens the supporting world and develops its central slow-burn romance without hurrying toward resolution.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2002,
+      "episodes": 22,
+      "release_date": {
+        "value": "2002-10-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Widely cited as the show's creative peak: Rory's Yale acceptance, Dean and Jess dynamics, and the graduation episode delivered the series' most emotionally resonant payoffs."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 is frequently cited by fans and critics as the show's creative peak. Rory's senior year builds toward Yale acceptance, the triangle between Dean, Jess, and Rory reaches its most dramatically productive moment, and the Lorelai-Emily relationship deepens in ways that reward the accumulated weight of two prior seasons. The graduation episode is one of the most emotionally precise half-hours in the show's run. Sherman-Palladino's control over the series' tonal and narrative register was at its most assured across these 22 episodes.",
+      "season_over_season": "The show's creative summit: character arcs from three seasons converge with the most emotionally proportionate writing of the original run.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2003,
+      "episodes": 22,
+      "release_date": {
+        "value": "2003-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Rory's first year at Yale and Lorelai's Dragonfly Inn storyline sustained quality but introduced a slight plateau after Season 3's peaks."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 followed Rory into her first year at Yale and tracked Lorelai building her own inn. The emotional investment of prior seasons sustained the show's quality while the absence of the high-school social world introduced a slight structural plateau. The writing remained sharp, the ensemble dependable, and the show never lost its essential warmth. The Luke-Lorelai timeline continued its patient architecture, and the Rory-Logan relationship arc began to take shape. A comfortable season rather than a memorable one.",
+      "season_over_season": "A transitional year that relocates Rory to Yale; sustains quality without matching Season 3's emotional resonance.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2004,
+      "episodes": 22,
+      "release_date": {
+        "value": "2004-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Luke and Lorelai finally get together in Season 5, delivering the payoff five seasons of patient slow-burn had earned; fans and critics responded with the warmest reception since Season 3."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 delivered the payoff the show had been building toward since Season 1: Luke and Lorelai begin their relationship. Critics and fans responded with what was largely considered the show's second great season, matching Season 3's warmth after the fourth-season plateau. The Rory-Logan relationship also gained traction. The show demonstrated that it could sustain major character developments without losing the small-town texture that made it distinctive - a structural achievement that many comparable dramedies fail at when forced to move their central romance forward.",
+      "season_over_season": "The slow-burn payoff arrives and lands; the show recaptures Season 3's emotional authority around its central romantic arc.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-09-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The Lorelai-Luke arc strained under manufactured conflict; critics and fans noted the writing pulling characters in directions that felt inconsistent with six seasons of established behaviour."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 tested viewer patience with the show's relationship structures. The Lorelai-Luke dynamic was put under a strain that many viewers found inconsistent with how the characters had been written; manufactured conflict to delay resolution frustrated the audience that Season 5 had so recently satisfied. The Rory storyline also divided viewers. The season is still watchable and the ensemble reliable, but it is the first run where the seams of long-season broadcast television production showed against the writing's aspirations. Sherman-Palladino and Daniel Palladino left the show before Season 7, and the quality dip became the subject of series lore.",
+      "season_over_season": "The first season where the writing strains against its own established characters; the creators' departure after this run is felt in retrospect.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2006,
+      "episodes": 22,
+      "release_date": {
+        "value": "2006-09-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The first and only season written without Sherman-Palladino; the series concluded on the CW with a finale that the creator disowned as not her intended ending."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 7 aired on the CW after The WB merged, written entirely without Amy Sherman-Palladino and Daniel Palladino after a contract dispute. The voice shift is perceptible to any viewer who has watched six seasons of the Palladinos' distinctive style: the jokes land less precisely, character decisions feel less rooted in established psychology, and the finale arrived at an ending that Sherman-Palladino publicly described as not what she intended. Watchable for franchise completists but clearly diminished; the season exists as a cautionary tale about creator replacement in voice-driven comedy-dramas.",
+      "season_over_season": "The creator-less season: audibly different in voice, notably weaker in execution, and concluded by an ending its own creator rejected.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2016,
+      "episodes": 4,
+      "release_date": {
+        "value": "2016-11-25",
+        "source": "Netflix",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Sherman-Palladino returned to deliver her intended ending in four 90-minute Netflix episodes; fans got the famous 'last four words' she had planned since Season 1, though the revival's treatment of certain characters divided audiences."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "A Year in the Life arrived November 25, 2016 on Netflix as four 90-minute chapters (Winter, Spring, Summer, Fall), with Sherman-Palladino returning to deliver the ending she had planned since the series' beginning. The final four words of the finale - withheld from audiences for nine years - landed with the emotional gravity she intended, but the revival's critical reception was mixed: fans were grateful for the creative restoration, while some reviewers and viewers found the handling of supporting characters unsatisfying and the nostalgia tone occasionally indulgent. Still a necessary watch for anyone who invested in the original seven seasons.",
+      "season_over_season": "The creator returns to deliver her intended ending; the 'last four words' land, but the revival's treatment of its world is less secure than the original run at its best.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

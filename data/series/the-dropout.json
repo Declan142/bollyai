@@ -1,0 +1,78 @@
+{
+  "slug": "the-dropout",
+  "qid": {
+    "value": "Q65056901",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Dropout",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Biographical", "Drama", "Crime"],
+  "logline": "The rise and fall of Elizabeth Holmes: how a charismatic Stanford dropout built Theranos into a billion-dollar health-tech fraud by telling investors and patients what they wanted to believe.",
+  "poster": {
+    "src": "/img/series/the-dropout/poster.jpg",
+    "alt": "The Dropout poster",
+    "attribution": "Poster © Hulu / 20th Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series covering the Theranos scandal, released March-April 2022. Story self-contained.",
+    "source": "Hulu",
+    "source_url": "https://www.hulu.com/series/the-dropout"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-03-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "90% RT from 98 critics and an Amanda Seyfried performance that earned wide Emmy consideration: the show works as a docudrama while Seyfried makes Holmes genuinely unsettling rather than simply fraudulent."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 98,
+        "pull_quotes": [
+          {
+            "text": "The Dropout succeeds more as a docudrama than a dark comedy, but Amanda Seyfried's disquieting portrayal of Elizabeth Holmes brings fresh blood to this retelling.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/the_dropout/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The Dropout premiered March 3, 2022 as Hulu's account of the Theranos scandal, covering Elizabeth Holmes's path from Stanford idealist to convicted fraudster. Eight episodes gives the show room to chart the arc properly - the early idealism, the first lies to protect the bigger vision, the point at which the vision became subordinate to the lie. Amanda Seyfried's performance was the critical consensus: she makes Holmes both a believer and a manipulator simultaneously, refusing the easier reading of pure cynicism. Critics scored it 90 percent from 98 reviews, noting it succeeds more as grounded docudrama than dark comedy. Naveen Andrews as Sunny Balwani anchors the show's most uncomfortable dynamics.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

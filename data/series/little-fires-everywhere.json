@@ -1,0 +1,78 @@
+{
+  "slug": "little-fires-everywhere",
+  "qid": {
+    "value": "Q55012468",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Little Fires Everywhere",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Mystery", "Psychological"],
+  "logline": "A wealthy white family and a Black artist-mother collide in a meticulously planned Cleveland suburb, and the fire that burns down the Richardson house turns out to be the least of what they have done to each other.",
+  "poster": {
+    "src": "/img/series/little-fires-everywhere/poster.jpg",
+    "alt": "Little Fires Everywhere poster",
+    "attribution": "Poster © Hulu / Hello Sunshine / Pacific Standard. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series adapted from Celeste Ng's novel, released March-April 2020. Story self-contained.",
+    "source": "Hulu",
+    "source_url": "https://www.hulu.com/series/little-fires-everywhere"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-03-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "78% RT from 78 critics: the consensus praised the Witherspoon-Washington dynamic but noted the show plays it too safe on its most difficult material, softening the novel's sharper class and race critique."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 78,
+        "pull_quotes": [
+          {
+            "text": "Though the series plays it too safe, sparks fly when Washington and Witherspoon dig into the difficult questions it dares to ask.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/little_fires_everywhere/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Little Fires Everywhere premiered March 18, 2020 on Hulu, adapted from Celeste Ng's bestselling novel. Reese Witherspoon and Kerry Washington play Elena Richardson and Mia Warren: the wealthy, rule-following homeowner and the free-spirited artist who rents her property. The collision of their worldviews - and the racial, class, and parenting philosophies each embodies - is the show's material. Critics scored it 78 percent from 78 reviews, praising the leads' chemistry while noting the adaptation occasionally softens the novel's harder edges around race and privilege. Washington's performance was singled out as the more fully inhabited of the two. The show is comfortable rather than confrontational, which is either its limitation or its accessibility depending on your expectations.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

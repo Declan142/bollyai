@@ -1,0 +1,97 @@
+{
+  "slug": "rings-of-power",
+  "qid": {
+    "value": "Q59149852",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Lord of the Rings: The Rings of Power",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Fantasy", "Drama", "Action", "Adventure"],
+  "logline": "A multi-strand epic set in Tolkien's Second Age, charting the rise of Sauron, the forging of the Rings of Power, and the alliance that will define Middle-earth's fate across millennia.",
+  "poster": {
+    "src": "/img/series/rings-of-power/poster.jpg",
+    "alt": "The Lord of the Rings: The Rings of Power poster",
+    "attribution": "Poster © Amazon Studios / New Line Cinema. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed through Season 5 per Amazon's original five-season order. Season 3 is scheduled to premiere November 11, 2026.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2022/tv/news/lord-of-the-rings-rings-of-power-renewal-season-2-1235368987/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-09-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "An 84% RT score (critics) backed by near-universal praise for design and production scale, though the slow-burn multi-strand pacing and thin character work divided audiences sharply from day one."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 1 landed September 1, 2022 as the most expensive television season ever produced, and critics approved at 84 percent on Rotten Tomatoes. The consensus praised the series for its opulent presentation - costume, landscape, music, and the sheer scope of Tolkien's Second Age rendered on screen. Critics consistently flagged the narrative: eight episodes spread across five interweaving storylines that sacrifice character depth for world-building breadth. Morfydd Clark as a young Galadriel and Robert Aramayo as Elrond emerged as the clearest focal points, but the audience score fell well below critical approval, reflecting a viewer base divided between Tolkien purists and those who found the slow burn rewarding. The season ends on a mystery that polarised the fanbase.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-08-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 2 nudged RT to 85% with critics praising tighter pacing and a more focused Sauron arc; Charlie Vickers' performance as the dark lord was a consensus highlight."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 premiered August 29, 2024 and addressed the first season's most consistent critique: the multi-strand sprawl was tightened, and Sauron's infiltration plot became the narrative spine critics had been waiting for. Rotten Tomatoes approval held at 85 percent, with reviewers singling out Charlie Vickers' more active Sauron as a structural improvement. The design work remained exceptional and Metacritic registered 67, indicating a slight divergence between critics and the industry's opinion-shaping tier. Audience response was warmer than Season 1 among viewers who had acclimatised to the show's pace. The season covers the forging of the Rings in earnest - the moment the Second Age plot has been building toward.",
+      "season_over_season": "Delivers the narrative focus Season 1 deferred; critics and audiences responded more positively to the Sauron-centred arc that the first season only teased.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "bad-sisters",
+  "qid": {
+    "value": "Q111943988",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bad Sisters",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Ireland",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Crime", "Drama", "Mystery"],
+  "logline": "Four Irish sisters conspire to kill their sister's abusive husband - and the dark comedy is that each attempt fails spectacularly while the body count stays stubbornly at zero until the finale.",
+  "poster": {
+    "src": "/img/series/bad-sisters/poster.jpg",
+    "alt": "Bad Sisters poster",
+    "attribution": "Poster © Apple TV+ / Merman Films / Element Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded December 2024. Creator Sharon Horgan confirmed the second season as the conclusion of the Garvey sisters' story.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/news/bad-sisters-season-2-review-apple-tv-1236185922/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-08-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 100% RT score from 61 critics - a genuine consensus - backed by BAFTA Best Drama 2023 and a Peabody Award. The darkest comedy Apple TV+ has produced, executed without a wasted episode."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 61,
+        "pull_quotes": [
+          {
+            "text": "Dark secrets are a family affair in Bad Sisters, a riotously funny murder mystery that makes fine use of its gifted ensemble.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/bad_sisters/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Bad Sisters premiered August 19, 2022, adapted from the Belgian series Clan by creator and star Sharon Horgan. The premise - four sisters plotting to kill their sister Eva's abusive husband John Paul (Claes Bang) - sounds grim, but the execution is a controlled riot: the show alternates between the failed assassination attempts in the past and a present-day insurance investigation after John Paul is actually found dead. Critics awarded 100 percent on Rotten Tomatoes from 61 reviews, won BAFTA Best Drama Series 2023, and earned a Peabody Award. The cast chemistry among Horgan, Anne-Marie Duff, Eva Birthistle, Sarah Greene, and Eve Hewson is the engine of every scene. Claes Bang's villain is the show's cold structural centre.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Finale",
+          "air_date": "2022-10-14",
+          "bollymeter": 9.2,
+          "spoiler_free": "The season finale resolves the insurance investigation timeline and the past timeline simultaneously, delivering the payoff the series has been earning across nine episodes. The balance of comedy and grief holds until the final frame.",
+          "the_moment": "The reveal of what actually happened to John Paul - and who did what - lands with the weight of ten episodes behind it.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-11-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "RT dropped to 76% from 37 critics - the consensus acknowledged 'too much of a good thing' while praising the performers. A competent closer that cannot replicate Season 1's novelty."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": 37,
+        "pull_quotes": [
+          {
+            "text": "Bad Sisters' return feels like too much of a good thing, but these outstanding performers continue to pay highly watchable dividends.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/bad_sisters/s02"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2 premiered November 13, 2024 and concluded the Garvey sisters' story across eight episodes. The drop from 100 to 76 percent on Rotten Tomatoes was expected: Season 1 was a structural surprise, and Season 2 operates with the audience already knowing the format's tricks. Critics noted the performers remained outstanding but the plotting leaned on familiar beats, and the satirical sharpness of the debut - targeting Irish toxic masculinity through the lens of farce - was harder to sustain into a sequel chapter. The consensus phrase 'too much of a good thing' appeared in multiple reviews. As a conclusion to a two-season arc, it satisfies more than it excites.",
+      "season_over_season": "Trades the shock of a fresh premise for the comfort of returning to beloved characters; critical approval dropped sharply but the ensemble chemistry remained the show's reliable anchor.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}
