@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 const SITE = "https://bollyai.in";
 const DEFAULT_OG = "/og-default.png"; // 1200x630 branded card (public/og-default.png)
-const DEFAULT_OG_ALT = "BollyAI — Har Friday ka faisla. OTT & movie verdicts for India.";
+const DEFAULT_OG_ALT = "BollyAI - Har Friday ka faisla. OTT & movie verdicts for India.";
 
 function abs(p: string): string {
   if (p.startsWith("http")) return p;
@@ -14,7 +14,7 @@ export type SeoInput = {
   path: string;
   /** Site-relative or absolute share image (e.g. a poster). Falls back to the branded default card. */
   image?: string | null;
-  /** OpenGraph type — "website" (default) for hubs, "article" for a single verdict / explainer. */
+  /** OpenGraph type - "website" (default) for hubs, "article" for a single verdict / explainer. */
   type?: "website" | "article";
 };
 
@@ -31,7 +31,7 @@ export type SeoInput = {
  */
 export function pageSeo({ path, image, type = "website" }: SeoInput): Metadata {
   const canonical = abs(path);
-  // Only raster images make valid share cards — X/Facebook/WhatsApp don't render an SVG
+  // Only raster images make valid share cards - X/Facebook/WhatsApp don't render an SVG
   // og:image, so an SVG poster fallback must degrade to the branded default card.
   const raster = image && image.length > 0 && !image.toLowerCase().endsWith(".svg") ? image : null;
   const usingDefault = !raster;

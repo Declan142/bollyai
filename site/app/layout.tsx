@@ -12,7 +12,7 @@ import { organizationJsonLd, webSiteJsonLd } from "../lib/jsonld";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bollyai.in"),
-  // LAUNCHED 2026-06-08 — noindex pre-launch gate removed (Aditya's call). Site is public.
+  // LAUNCHED 2026-06-08 - noindex pre-launch gate removed (Aditya's call). Site is public.
   title: {
     default: "BollyAI - Har Friday ka faisla",
     template: "%s | BollyAI"
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "BollyAI",
     type: "website",
-    images: [{ url: "/og-default.png", width: 1200, height: 630, alt: "BollyAI — Har Friday ka faisla" }]
+    images: [{ url: "/og-default.png", width: 1200, height: 630, alt: "BollyAI - Har Friday ka faisla" }]
   },
   twitter: {
     card: "summary_large_image",
