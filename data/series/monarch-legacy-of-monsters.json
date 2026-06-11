@@ -1,0 +1,103 @@
+{
+  "slug": "monarch-legacy-of-monsters",
+  "qid": {
+    "value": "Q113114887",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Monarch: Legacy of Monsters",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Sci-Fi", "Action", "Adventure", "Drama", "Mystery"],
+  "logline": "Two siblings discover their father had a secret life connected to Monarch, the shadowy organisation that studies Kaiju - and two timelines (1950s and present day) converge on what Godzilla means for the human species.",
+  "poster": {
+    "src": "/img/series/monarch-legacy-of-monsters/poster.jpg",
+    "alt": "Monarch: Legacy of Monsters poster",
+    "attribution": "Poster © Apple TV+ / Legendary Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 completed May 1, 2026. A Monarch prequel series was greenlit November 2025; further seasons of the main show not yet confirmed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Monarch:_Legacy_of_Monsters"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-11-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "87% RT from 87 critics, with the consensus noting the show adds 'a welcome wrinkle to the Godzilla legacy by honing its monstrous scope to a very human level' - the Russell father-son dynamic was the breakout creative element."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 87,
+        "pull_quotes": [
+          {
+            "text": "Monarch: Legacy of Monsters adds a welcome wrinkle to the Godzilla legacy by honing its monstrous scope to a very human level.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/monarch_legacy_of_monsters/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 1 premiered November 17, 2023 and ran until January 12, 2024, expanding the MonsterVerse into long-form television for the first time. The dual-timeline structure - Anna Sawai and Kiersey Clemons in the present; Kurt Russell and Wyatt Russell playing the same character in different eras - gave critics a structural hook to engage with beyond Kaiju spectacle. The 87 percent Rotten Tomatoes score from 87 critics reflected genuine approval: the show successfully scaled the franchise to human drama without abandoning the monster mythology. The casting of real-life father and son Kurt and Wyatt Russell as the same character across timelines was universally cited as the season's most inspired decision.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 10,
+      "release_date": {
+        "value": "2026-02-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "79% RT from 29 critics shows mild decline from Season 1; critics approved but the freshness of the dual-timeline device was harder to sustain across a second run."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 29,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 ran February 27-May 1, 2026 and earned 79 percent from 29 critics, down from Season 1's 87 percent. The smaller sample size and the slight critical decline reflect both reduced media attention and a narrative that was working harder to sustain the dual-timeline device that had felt fresh in the debut. The show remained technically accomplished and the monster sequences continued to deliver scale. Critics who reviewed it favourably credited the human drama's consistency; those who found it wanting noted the mythology was starting to feel recursive. Still a solid entry in the MonsterVerse franchise's longer-form aspirations.",
+      "season_over_season": "A modest critical decline; the dual-timeline device carries less novelty, but the human drama and production scale maintain franchise standards.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "tulsa-king",
+  "qid": {
+    "value": "Q111967146",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tulsa King",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Crime", "Comedy", "Drama", "Action"],
+  "logline": "A New York mob capo exiled to Tulsa, Oklahoma by his own boss builds a new criminal enterprise in unfamiliar territory - a comedic crime drama that works entirely on the star charisma of Sylvester Stallone.",
+  "poster": {
+    "src": "/img/series/tulsa-king/poster.jpg",
+    "alt": "Tulsa King poster",
+    "attribution": "Poster © Paramount+ / MTV Entertainment Studios / 101 Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed through Season 4; three seasons have aired (2022-2025). Season 4 in development.",
+    "source": "Deadline",
+    "source_url": "https://deadline.com/2025/11/tulsa-king-renewed-season-4-paramount-1235680312/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 9,
+      "release_date": {
+        "value": "2022-11-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "79% RT but a Metacritic of 65; the consensus acknowledged the show 'sometimes feels like egg noodles and ketchup' while crediting Stallone's screen command as the reason to watch."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 1 premiered November 13, 2022 as a Taylor Sheridan-created fish-out-of-water crime comedy built entirely around Sylvester Stallone. Dwight Manfredi (Stallone), exiled by the New York Mafia for refusing to testify against his boss, arrives in Tulsa to build a criminal enterprise from nothing. Critics split: Rotten Tomatoes recorded 79 percent but Metacritic assigned 65 indicating mixed reactions. The Rotten Tomatoes consensus noted the show 'sometimes feels like egg noodles and ketchup' compared to Sheridan's stronger work, while uniformly crediting Stallone's screen presence as the premise's core justification. The comedy of culture clash - a New York mobster encountering Oklahoma's norms - generates the show's most consistent entertainment.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-09-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 aired September-November 2024, expanding Dwight Manfredi's Tulsa operation across ten episodes. The show maintained its core appeal: Stallone's relaxed, authoritative performance in a comedy-crime framework that rewards viewers who have accepted the premise without demanding it be more than it is. The ensemble built around the star was strengthened, and the season's longer run gave more room to supporting characters. Audience figures on Paramount+ justified the multi-season renewal even as critical engagement remained moderate.",
+      "season_over_season": "Expanded run gives supporting characters more room; the show's core appeal - Stallone's screen authority in a mild crime comedy - remains unchanged.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2025,
+      "episodes": 10,
+      "release_date": {
+        "value": "2025-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 aired September-November 2025 and maintained the show's position as one of Paramount+'s more dependable audience draws. Three seasons in, Tulsa King operates as a comfort-watch crime comedy: familiar, well-executed, and built around a star whose charisma renders plotting secondary. The show has found a stable audience that values the character over the plot, and Season 3 delivered what that audience expected without attempting to expand the series' ambition. Season 4 has been ordered.",
+      "season_over_season": "The show's third season is its most settled; the formula is locked and the audience is comfortable with it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

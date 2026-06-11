@@ -1,0 +1,78 @@
+{
+  "slug": "alias-grace",
+  "qid": {
+    "value": "Q25209813",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Alias Grace",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Canada",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Historical", "Mystery", "Drama", "Psychological"],
+  "logline": "Based on the true case of Grace Marks, convicted of double murder in 1840s Canada - the series follows her account of events as told to a psychiatrist, and refuses to decide whether she is innocent, guilty, or something stranger.",
+  "poster": {
+    "src": "/img/series/alias-grace/poster.jpg",
+    "alt": "Alias Grace poster",
+    "attribution": "Poster © Netflix / CBC / Halfire Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode miniseries adapted from Margaret Atwood's novel; released October 2017. Story self-contained.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/80174420"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 6,
+      "release_date": {
+        "value": "2017-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "99% RT and a consensus crediting 'hypnotic' Sarah Gadon and Margaret Atwood's novel given its full due - a near-perfect Atwood adaptation that The Handmaid's Tale set as the gold standard and Alias Grace quietly matched."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Biting social commentary and Sarah Gadon's hypnotic performance make Alias Grace a worthy addition to the Margaret Atwood adaptation catalog.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/alias_grace/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Alias Grace arrived September 2017, adapted by Sarah Polley from Margaret Atwood's 1996 novel about Grace Marks (Sarah Gadon), an Irish immigrant convicted of murdering her employer and his housekeeper in 1840s Upper Canada. Dr. Simon Jordan (Edward Holcroft) is commissioned to interview her and assess her sanity; what he encounters is a narrative that refuses resolution: Grace is simultaneously convincing and opaque. Critics gave 99 percent approval, with reviewers praising Gadon's 'hypnotic' performance and the adaptation's fidelity to Atwood's formal ambiguity - the novel never tells us definitively what Grace did or knew, and the series respects that refusal. David Cronenberg as a reverend and Zachary Levi against type are notable supporting performances.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

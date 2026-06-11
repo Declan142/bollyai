@@ -1,0 +1,97 @@
+{
+  "slug": "interview-with-the-vampire",
+  "qid": {
+    "value": "Q109242187",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Anne Rice's Interview with the Vampire",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "AMC+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Drama", "Horror", "Supernatural", "LGBTQ", "Romance"],
+  "logline": "A New Orleans vampire tells his two-century story to a journalist, but in this radical reimagining the narrator is Black, the romance is queer, and the relationship between Louis and Lestat is a gothic dissection of power and love.",
+  "poster": {
+    "src": "/img/series/interview-with-the-vampire/poster.jpg",
+    "alt": "Anne Rice's Interview with the Vampire poster",
+    "attribution": "Poster © AMC / Paramount Television Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 3, subtitled 'The Vampire Lestat', began airing June 7, 2026. Further seasons not yet announced.",
+    "source": "AMC",
+    "source_url": "https://www.amc.com/shows/anne-rices-interview-with-the-vampire"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-10-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "98% RT marks a near-consensus: critics across the board credited the show's audacity in reimagining Rice's novel as a queer Black love story without losing the gothic horror or the source's moral complexity."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 1 premiered October 2, 2022 as one of the most acclaimed AMC productions in years. Showrunner Rolin Jones radically resituated Rice's vampire novel: Louis (Jacob Anderson) is now a Black Creole businessman in 1910s New Orleans, and the relationship between him and Lestat (Sam Reid) is an explicit gay romance. Critics responded with 98 percent approval on Rotten Tomatoes, praising the reimagining as both faithful to Rice's emotional core - obsession, dependency, the horror of immortality - and genuinely new in its racial and queer framing. Anderson and Reid's chemistry was universally cited. The show's willingness to engage with the violence and eroticism of the source without flinching gave it a texture rare in prestige adaptations.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-05-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "100% RT - the perfect score and expanded canvas of 1970s Paris, with Assad Zaman's Armand added to the central triangle, delivered the most formally ambitious season yet."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 moved the story to Paris in the 1970s and introduced Assad Zaman as Armand, completing the central triangle. A perfect Rotten Tomatoes score reflected critical consensus that the expansion of the canvas suited the show: the Theatre des Vampires arc from Rice's novel gave Jones room to build a genuinely operatic structure. Critics singled out the formal ambition - the unreliable narrator device was deployed with more sophistication than Season 1, as the interview between Louis and journalist Daniel Molloy (Eric Bogosian) began to reveal its own distortions. The show's willingness to take intellectual risks with an established property continued to earn critical respect.",
+      "season_over_season": "Expands from New Orleans to Paris and adds a third narrative voice; the unreliable-narrator structure deepens in ways that reward close attention.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

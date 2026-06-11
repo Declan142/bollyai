@@ -21,7 +21,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 512 / ~500   (baseline 183) — TARGET REACHED
+## Progress: 542 / ~500   (baseline 183) — TARGET REACHED
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -35,6 +35,14 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 11 — 2026-06-12 — 30 series — STATUS: DONE (branch agents/bolly-south-0612; 512->542)
+- **South Indian (5):** november-story · inspector-rishi · navarasa · victim-who-is-next · loser
+- **Prestige/Fantasy:** rings-of-power · bad-sisters · the-great · interview-with-the-vampire · what-we-do-in-the-shadows
+- **Thriller/Drama:** jack-ryan · maid · inventing-anna · the-dropout · 1923 · gilmore-girls · black-bird · little-fires-everywhere
+- **UK/Intl/Limited:** the-tourist · disclaimer · monarch-legacy-of-monsters · presumed-innocent · tulsa-king · alias-grace
+- **Variety/Horror:** physical-100 · the-fall-of-the-house-of-usher · bodkin · a-murder-at-the-end-of-the-world · the-watcher · the-sympathizer
+- 30/30 validate clean · 150/150 pytest · build green (EXIT:0) · AggregateRating gate clean
+
 ### Batch 10 — 2026-06-09 — 30 series — STATUS: DONE (commit c2dd836 pushed; 482->512) — TARGET REACHED
 - **VV** K-drama prestige: chief-detective-1958 · welcome-to-samdal-ri · strong-girl-nam-soon · my-girlfriend-is-a-gumiho · strangers-from-hell · live-up-to-your-name
 - **WW** US comedy/drama: only-murders-in-the-building · the-marvelous-mrs-maisel · hacks · shrinking · orange-is-the-new-black · pose

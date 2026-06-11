@@ -1,0 +1,69 @@
+{
+  "slug": "navarasa",
+  "qid": {
+    "value": "Q104866568",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Navarasa",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "ta",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Anthology", "Romance", "Thriller", "Comedy"],
+  "logline": "Nine Tamil short films produced by Mani Ratnam, each directed by a different filmmaker and built around one of the nine classical Indian emotions - a star-studded experiment in form as much as feeling.",
+  "poster": {
+    "src": "/img/series/navarasa/poster.jpg",
+    "alt": "Navarasa poster",
+    "attribution": "Poster © Netflix / Madras Talkies / Paranormal Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single anthology collection released August 2021 on Netflix; no second season produced.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81346239"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": {
+        "value": "2021-08-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Navarasa released on Netflix on August 6, 2021 as a nine-episode Tamil anthology produced by Mani Ratnam and Jayendra Panchapakesan under the banner of Paranormal Studios. Each episode is a standalone short film by a different director - the lineup includes Gautham Vasudev Menon, Karthik Subbaraj, Bejoy Nambiar, Arvind Swami, Priyadarshan, Sarjun KM, Karthick Naren, Vasanth, and Rathindran R. Prasad - with the cast featuring Suriya, Vijay Sethupathi, Siddharth, Revathi, and Parvathy Thiruvothu. Critical reception was mixed. Praise focused on the formal ambition and the talent assembled; controversy arose around caste undertones in one episode and religious sensitivities in another. The anthology format guarantees uneven quality but also genuine surprises.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

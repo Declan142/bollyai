@@ -1,0 +1,78 @@
+{
+  "slug": "presumed-innocent",
+  "qid": {
+    "value": "Q116736420",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Presumed Innocent",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Crime", "Mystery", "Thriller", "Legal", "Drama"],
+  "logline": "A prominent prosecutor is accused of murdering his colleague and mistress, and the courtroom drama that follows asks whether the justice system can try one of its own fairly.",
+  "poster": {
+    "src": "/img/series/presumed-innocent/poster.jpg",
+    "alt": "Presumed Innocent poster",
+    "attribution": "Poster © Apple TV+ / Bad Robot Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Season 2 in July 2024, which will adapt a different source story featuring a new cast including Rachel Brosnahan.",
+    "source": "Deadline",
+    "source_url": "https://deadline.com/2024/07/presumed-innocent-renewed-season-2-apple-tv-1235985741/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-06-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "76% RT from 68 critics and a consensus noting the show 'acquits itself well as an entertaining courtroom drama' - Jake Gyllenhaal's performance drove the engagement even when the plotting leaned on the original 1987 film's beats."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": 68,
+        "pull_quotes": [
+          {
+            "text": "Enlivened by an outstanding ensemble, Presumed Innocent isn't guilty of upstaging the original movie but acquits itself well as an entertaining courtroom drama.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/presumed_innocent_2024/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Presumed Innocent premiered June 12, 2024 on Apple TV+, based on Scott Turow's 1987 novel (previously adapted as the Harrison Ford film). Jake Gyllenhaal plays Rusty Sabich, an assistant DA accused of murdering the colleague he was having an affair with. The show benefits from an eight-episode structure that allows the courtroom procedural more room than the original film. Critics approved at 76 percent from 68 reviews, crediting the ensemble - Ruth Negga as Barbara, Bill Camp as the DA, Peter Sarsgaard as opposing counsel - alongside Gyllenhaal's performance. The consensus noted the show does not surpass its source while still functioning as solid prestige courtroom drama with reliable Apple TV+ production values.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

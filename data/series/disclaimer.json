@@ -1,0 +1,78 @@
+{
+  "slug": "disclaimer",
+  "qid": {
+    "value": "Q112241985",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Disclaimer",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Psychological", "Thriller", "Mystery", "Drama"],
+  "logline": "A successful documentary filmmaker finds a novel left in her home - and realises she is the villain of its story - triggering a thriller about memory, complicity, and how much of what we remember is construction.",
+  "poster": {
+    "src": "/img/series/disclaimer/poster.jpg",
+    "alt": "Disclaimer poster",
+    "attribution": "Poster © Apple TV+ / Bad Wolf / Concordia Studio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode limited series written and directed by Alfonso Cuaron, released October-November 2024. Story self-contained.",
+    "source": "Apple TV+",
+    "source_url": "https://tv.apple.com/us/show/disclaimer/umc.cmc.4g3tss53apd7kz0vqovhv7p4a"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-10-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "76% RT and a consensus that called it 'a dense and rewarding psychological puzzle' from a dream team of talent - but Cuaron's formal ambition (split-screen, time structure, unreliable narration) divided audiences who wanted plot clarity."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "An intelligent offering from a dream team of talent that dishes some plain pulpy pleasures - Disclaimer is a dense and rewarding psychological puzzle.",
+            "source": "Rotten Tomatoes (consensus)",
+            "url": "https://www.rottentomatoes.com/tv/disclaimer/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Disclaimer premiered October 11, 2024, written and directed entirely by Alfonso Cuaron and based on Renee Knight's novel. Cate Blanchett plays Catherine Ravenscroft, a BAFTA-winning documentary filmmaker who discovers a self-published novel that recounts an incident from her past - and casts her as its monster. Kevin Kline narrates as the dead author's husband seeking posthumous justice. Cuaron deploys split timelines, unreliable narration, and formal devices that earned 76 percent critical approval while dividing audiences who found the construction intellectually rigorous or self-indulgent depending on their appetite for ambiguity. Sacha Baron Cohen against type as Catherine's husband is a notable performance. The show asks how we construct the stories of our own guilt.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}

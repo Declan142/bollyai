@@ -1,0 +1,94 @@
+{
+  "slug": "physical-100",
+  "qid": {
+    "value": "Q116009655",
+    "source": "wikidata",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Physical: 100",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-12T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Documentary", "Sports", "Action"],
+  "logline": "One hundred of South Korea's most physically elite people - athletes, bodybuilders, martial artists, first responders - compete in extreme challenges to find who has the closest thing to a perfect human body.",
+  "poster": {
+    "src": "/img/series/physical-100/poster.jpg",
+    "alt": "Physical: 100 poster",
+    "attribution": "Poster © Netflix Korea / ZBAY Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 aired March 2024. Netflix has not yet confirmed Season 3.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81587446"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 9,
+      "release_date": {
+        "value": "2023-01-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Became Netflix's most popular non-English show in its third and fourth weeks of release - a metric Netflix does publish - and won the Asia Contents Awards Best Reality program. The production design and contestant diversity drove global engagement."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Physical: 100 premiered January 24, 2023 and became the most popular non-English show on Netflix in its third and fourth weeks post-release, an audience metric Netflix publicly reports. The format assembled 100 elite South Koreans from across physical disciplines - Olympic athletes, CrossFit champions, martial artists, special forces, stunt performers - and eliminated them through increasingly demanding physical challenges. The production design was a significant differentiator: the challenge environments were architecturally ambitious and visually striking rather than functional. Season 1 won the Asia Contents Awards Best Reality program. Global viewers responded to the contestants' diversity of backgrounds and the genuinely challenging physical demands that separated it from standard reality competition formats.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 9,
+      "release_date": {
+        "value": "2024-03-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-12T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 premiered March 19, 2024 and maintained the show's global following. The format was adjusted after Season 1's competition structure, with new challenge designs and a fresh roster of 100 competitors. Audience response was positive and the show retained its international viewing base, though Season 2 lacked the discovery factor that made the debut such a breakout. The production values and contestant selection remained strong, and the show continued to deliver the premium physical competition content that differentiated it from comparable reality formats.",
+      "season_over_season": "A competent continuation without the debut season's discovery effect; the show's established audience engaged consistently with the evolved format.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-12T12:00:00+05:30"
+}
