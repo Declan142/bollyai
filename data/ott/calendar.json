@@ -7,25 +7,6 @@
       "_status": "verified",
       "fetched_at": "2026-06-08T00:50:00+05:30",
       "industry": "streaming",
-      "language": "en",
-      "platform": "Amazon Prime Video",
-      "qid": "film-every-year-after",
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-06-08T00:50:00+05:30",
-        "source": "ott_announcements",
-        "value": "2026-06-10"
-      },
-      "slug": null,
-      "source_type": "trade",
-      "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-      "title": "Every Year After",
-      "type": "film"
-    },
-    {
-      "_status": "verified",
-      "fetched_at": "2026-06-08T00:50:00+05:30",
-      "industry": "streaming",
       "language": "hi",
       "platform": "Amazon Prime Video",
       "qid": "series-raakh",
@@ -156,12 +137,12 @@
       "type": "series"
     }
   ],
-  "generated_at": "2026-06-10T08:32:28Z",
+  "generated_at": "2026-06-11T07:24:52Z",
   "schema": "ott-calendar/v1",
   "window": {
     "basis": "official_announcements",
-    "end": "2026-07-07",
-    "start": "2026-06-10",
+    "end": "2026-07-08",
+    "start": "2026-06-11",
     "weeks": 4
   }
 }
