@@ -589,6 +589,125 @@ p {
   font-size: .86rem;
 }
 
+.box-office-hub {
+  display: grid;
+  gap: 28px;
+}
+
+.box-office-head .answer-block {
+  max-width: 860px;
+}
+
+.bo-alert {
+  border-left: 3px solid var(--accent);
+}
+
+.bo-alert p:last-child {
+  margin-bottom: 0;
+  max-width: 70ch;
+  color: var(--text-dim);
+}
+
+.bo-panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.bo-panel-head h2 {
+  margin-top: 6px;
+}
+
+.bo-board {
+  min-width: 980px;
+}
+
+.bo-film-cell {
+  min-width: 220px;
+}
+
+.bo-film-cell strong,
+.bo-film-cell span {
+  display: block;
+}
+
+.bo-film-cell strong {
+  margin-bottom: 5px;
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  line-height: 1.05;
+}
+
+.bo-film-cell span {
+  color: var(--text-dim);
+  font-size: .88rem;
+}
+
+.bo-metric {
+  display: grid;
+  gap: 5px;
+  min-width: 158px;
+}
+
+.bo-metric strong {
+  font-family: var(--font-number);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.bo-metric span,
+.bo-metric small {
+  color: var(--text-dim);
+  font-size: .82rem;
+  line-height: 1.35;
+}
+
+.bo-metric[data-state="published"] strong {
+  color: var(--text);
+  text-shadow: 0 1px 0 color-mix(in oklch, var(--accent) 45%, transparent), 0 2px 0 black;
+}
+
+.bo-metric[data-state="tracking"] strong {
+  color: var(--accent);
+  letter-spacing: .08em;
+}
+
+.bo-source-stack {
+  display: grid;
+  gap: 7px;
+  min-width: 220px;
+}
+
+.bo-source-stack a {
+  color: var(--text-dim);
+  font-size: .86rem;
+  overflow-wrap: anywhere;
+}
+
+.bo-method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.bo-method-grid p:last-child {
+  margin-bottom: 0;
+  color: var(--text-dim);
+}
+
+@media (max-width: 760px) {
+  .bo-method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bo-panel-head {
+    align-items: start;
+  }
+}
+
 /* ============================================================
    CSS-ONLY HAMBURGER DRAWER (checkbox-hack)
    Breakpoint: ≤720px → drawer; ≥721px → inline nav (unchanged)

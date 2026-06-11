@@ -30,6 +30,12 @@ const DESKS = [
 for (const [slug, label] of DESKS) {
   entries.push({ t: `${label} desk`, u: `/${slug}/`, k: "Desk", d: `${label} reviews, box office and verdicts` });
 }
+entries.push({
+  t: "India Box Office",
+  u: "/box-office/",
+  k: "Box Office",
+  d: "Current-week India box office tracker with source-gated trade estimates"
+});
 
 // Films
 for (const f of listJson(path.join(dataDir, "films"))) {

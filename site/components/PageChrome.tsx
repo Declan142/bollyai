@@ -3,7 +3,7 @@ import { DESKS } from "../lib/desks";
 export function SiteHeader() {
   return (
     <header className="site-header">
-      {/* hidden checkbox — CSS-only drawer toggle */}
+      {/* hidden checkbox - CSS-only drawer toggle */}
       <input
         type="checkbox"
         id="nav-toggle"
@@ -17,7 +17,7 @@ export function SiteHeader() {
         <small>Har Friday ka faisla.</small>
       </a>
 
-      {/* hamburger button — visible only on mobile */}
+      {/* hamburger button - visible only on mobile */}
       <label
         htmlFor="nav-toggle"
         className="nav-hamburger"
@@ -28,7 +28,7 @@ export function SiteHeader() {
         <span className="nav-hamburger__bar" />
       </label>
 
-      {/* drawer overlay — closes the menu when tapped outside */}
+      {/* drawer overlay - closes the menu when tapped outside */}
       <label htmlFor="nav-toggle" className="nav-overlay" aria-hidden="true" />
 
       {/* nav drawer */}
@@ -39,6 +39,7 @@ export function SiteHeader() {
               {desk.label}
             </a>
           ))}
+          <a href="/box-office/">Box Office</a>
           <a href="/series/">Series</a>
           <a href="/watch/">What to Watch</a>
           <a href="/ott/calendar/">OTT Calendar</a>
@@ -55,7 +56,7 @@ export function SiteHeader() {
         </form>
       </div>
 
-      {/* desktop search — hidden on mobile (drawer has its own) */}
+      {/* desktop search - hidden on mobile (drawer has its own) */}
       <form className="site-search site-search--desktop" action="/search/" method="get" role="search">
         <input
           type="search"
@@ -78,7 +79,7 @@ export function SiteFooter() {
         <a href="https://x.com/aditya14" rel="me noopener" target="_blank">
           Aditya Sharma
         </a>
-        , who signs his name to every verdict — drafted with disclosed AI, checked against primary sources.
+        , who signs his name to every verdict - drafted with disclosed AI, checked against primary sources.
       </p>
       <p>Metadata is keyed on Wikidata QIDs; OTT listings render attributed official and trade announcements.</p>
       <nav aria-label="Policy navigation">

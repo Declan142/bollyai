@@ -1,30 +1,39 @@
-Status: COMPLETE
+Status: PARTIAL
 Did:
-  - Dropped the old movie-provider spine and deleted engine/fetchers/tmdb.py.
-  - Added Wikidata as the metadata spine with QID-keyed fetch, discovery, revision helpers, fixtures, cache, and degrade-on-pressure behavior.
-  - Migrated film JSON files from numeric filenames to QID filenames and replaced tmdb_id/wikidata_qid with qid.
-  - Replaced provider-delta OTT data with attributed official/trade announcement registry plus Sacnilk fixture parsing.
-  - Added Next.js sitemap generation and OTT platform hubs generated from the calendar.
-  - Purged old source vocabulary from Python, TypeScript, TSX, and JSON files.
+  - Added the `/box-office/` hub with South-first weekly rows, methodology copy, ItemList JSON-LD, source attribution, and tracking states for unpublishable figures.
+  - Added `data/boxoffice/current-week.json` with `DATA_PENDING: true` and no published current-week amounts because live pointers did not form two independent same-metric readings.
+  - Added renderer-side box-office publish-rule enforcement in `site/lib/boxoffice.ts`: within 10 percent = trade estimate, 10 to 25 percent = lower figure with caveat, else tracking.
+  - Wired the hub into site navigation, search index generation, and sitemap generation.
+  - Added pytest coverage for the Python box-office publish rule and the pending weekly-data schema.
 Artefacts:
-  - engine/fetchers/wikidata.py (568 lines)
-  - engine/fetchers/ott_announcements.py (312 lines)
-  - site/app/sitemap.ts (70 lines)
-  - site/app/ott/[platform]/page.tsx (62 lines)
-  - data/films/Q112430183.json (264 lines)
-  - data/films/Q124515855.json (189 lines)
-  - data/ott/announcements.json (28 lines)
-  - data/ott/calendar.json (72 lines)
+  - data/boxoffice/current-week.json (218 lines)
+  - data/boxoffice/README.md (41 lines)
+  - site/lib/boxoffice.ts (247 lines)
+  - site/app/box-office/page.tsx (160 lines)
+  - tests/test_boxoffice_publish_rule.py (87 lines)
+  - site/app/globals.css (box-office CSS added)
+  - site/components/PageChrome.tsx (nav link added)
+  - site/scripts/build-search-index.mjs (box-office search entry)
+  - site/scripts/build-sitemaps.mjs (box-office sitemap entry)
 Verification:
-  - cd /home/aditya/bollyai/site && npm run build -> passed; exported 26 HTML files; out/sitemap.xml exists.
-  - cd /home/aditya/bollyai && python3 engine/fetchers/run_all.py --fixture-mode --write data/ -> passed; films_fetched=2; metadata_enrichment_skipped=0; wrote data/films/Q112430183.json and data/films/Q124515855.json.
-  - cd /home/aditya/bollyai && python3 engine/fetchers/wikidata.py probe --qid Q124515855 --resolve-label "Kalki 2898 AD" -> one live SPARQL GET passed; enrichment_skipped=false; Kalki label resolved to Q112430183; Q124515855 returned a live item but no useful label/date/language metadata.
-  - cd /home/aditya/bollyai && python3 -m pytest tests/ -> 29 passed.
-  - cd /home/aditya/bollyai && grep -ri tmdb --include='*.py' --include='*.ts' --include='*.tsx' --include='*.json' . | grep -v node_modules | grep -v '\.git/' -> empty output.
-  - cd /home/aditya/bollyai && git diff --check -> clean.
+  - python3 -m pytest tests/test_boxoffice_publish_rule.py -> 5 passed
+  - python3 -m pytest tests/ -> 155 passed
+  - cd site && npm run build -> passed; `/box-office` exported; aggregate-rating guard passed
+  - rg touched files for fancy dashes and first-person viewing phrases -> clean
+  - command -v design-reviewer -> unavailable in this environment
+  - grep -r -- '--' data/ -> failed on pre-existing `data/series/` rows and `data/_state/library-buildout.md`
 Open issues:
-  - Wikidata live probe did not confirm useful metadata on the user-directed Manjummel Boys QID Q124515855; retained that QID per directive and fixture-backed the expected metadata shape.
-  - A commit cannot contain its own final hash; the final HEAD commit hash is reported in the final response.
-Next step suggested: Re-check Manjummel Boys on Wikidata manually when the item is updated or if Aditya wants to override the directed QID.
+  - PARTIAL because repo-level `grep -r -- '--' data/` is not green, and this brief explicitly forbids touching `data/series/`.
+  - design-reviewer gate could not be run because no local command or connector tool was available.
+Next step suggested: Fix or quarantine the pre-existing `data/series/` dash violations in the owning content lane, then rerun the repo-level data dash gate.
 Network URLs:
-  - https://query.wikidata.org/sparql (one live GET)
+  - https://www.sacnilk.com/
+  - https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms
+  - https://indianexpress.com/article/entertainment/telugu/peddi-box-office-collection-day-1-update-ram-charan-film-earns-over-rs-112-crore-10724436/
+  - https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms
+  - https://m.economictimes.com/magazines/panache/karuppu-box-office-collection-day-1-suriya-trisha-krishnans-film-sees-thunderous-opening-earns-rs-20-crore-globally/articleshow/131130045.cms
+  - https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms
+  - https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_19
+  - https://indianexpress.com/article/entertainment/malayalam/drishyam-3-box-office-collection-day-3-mohanlals-film-crosses-rs-100-crore-mark-worldwide-10705069/
+  - https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms
+  - https://www.bollywoodhungama.com/news/box-office-special-features/box-office-hai-jawani-toh-ishq-hona-hai-opens-well-varun-dhawan-starrer-collects-rs-8-50-crores-on-day-1/

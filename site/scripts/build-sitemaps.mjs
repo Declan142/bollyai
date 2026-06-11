@@ -41,7 +41,18 @@ const urlXml = (rows) =>
   `\n</urlset>\n`;
 
 // pages: statics + desk hubs + ott
-const staticPaths = ["/", "/about/", "/privacy/", "/disclaimer/", "/contact/", "/takedown/", "/how-bollyai-works/", "/series/", "/watch/"];
+const staticPaths = [
+  "/",
+  "/about/",
+  "/privacy/",
+  "/disclaimer/",
+  "/contact/",
+  "/takedown/",
+  "/how-bollyai-works/",
+  "/box-office/",
+  "/series/",
+  "/watch/"
+];
 const pages = [];
 for (const p of staticPaths) pages.push({ loc: `${SITE}${p}`, lastmod: LAUNCH });
 for (const desk of DESKS) {
