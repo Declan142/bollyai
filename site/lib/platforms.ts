@@ -1,5 +1,5 @@
 // India streaming context for the Where-to-Watch surface: the free-vs-paid answer and a
-// one-line "how this platform works in India" note — real India-specific information the
+// one-line "how this platform works in India" note - real India-specific information the
 // global guides (JustWatch/OTTplay) carry and our series hub does NOT. Categorical and
 // durable on purpose: no volatile rupee price numbers we can't keep accurate (same
 // integrity line as the no-AggregateRating rule). Always defer to the platform for current
@@ -19,11 +19,12 @@ const PLATFORMS: Record<string, PlatformInfo> = {
   hotstar: { access: "paid", note: "Now part of JioHotstar in India; most originals need a paid plan." },
   sonyliv: { access: "paid", note: "SonyLIV needs a paid subscription in India." },
   zee5: { access: "paid", note: "ZEE5 needs a paid subscription in India." },
+  aha: { access: "paid", note: "aha needs a paid subscription in India and focuses on Telugu and Tamil titles." },
   "apple tv+": { access: "paid", note: "Apple TV+ needs a paid subscription in India." },
   "apple tv": { access: "paid", note: "Apple TV+ needs a paid subscription in India." },
   jiocinema: { access: "paid", note: "JioCinema content now sits under JioHotstar in India." },
-  "mx player": { access: "free-ad", note: "Streams free with ads in India — no subscription needed." },
-  "amazon mx player": { access: "free-ad", note: "Streams free with ads in India — no subscription needed." },
+  "mx player": { access: "free-ad", note: "Streams free with ads in India - no subscription needed." },
+  "amazon mx player": { access: "free-ad", note: "Streams free with ads in India - no subscription needed." },
   youtube: { access: "free-ad", note: "Available free with ads on YouTube in India." }
 };
 

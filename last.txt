@@ -1,30 +1,50 @@
 Status: COMPLETE
 Did:
-  - Dropped the old movie-provider spine and deleted engine/fetchers/tmdb.py.
-  - Added Wikidata as the metadata spine with QID-keyed fetch, discovery, revision helpers, fixtures, cache, and degrade-on-pressure behavior.
-  - Migrated film JSON files from numeric filenames to QID filenames and replaced tmdb_id/wikidata_qid with qid.
-  - Replaced provider-delta OTT data with attributed official/trade announcement registry plus Sacnilk fixture parsing.
-  - Added Next.js sitemap generation and OTT platform hubs generated from the calendar.
-  - Purged old source vocabulary from Python, TypeScript, TSX, and JSON files.
+  - Extended the OTT announcement fetcher into a verified two-week rollup for Netflix, Prime Video, JioHotstar, ZEE5, SonyLIV, and aha India.
+  - Added source-enveloped weekly entries with title, platform, release date, language, and industry, plus official-or-two-trade verification and omitted-unverified tracking.
+  - Added cron-safe regeneration via engine/regen_ott_weekly.py, including current calendar JSON, week archives, and changed-url output.
+  - Built the stable /ott/calendar/ hub, week archive pages, and platform hubs with ItemList JSON-LD only, no AggregateRating.
+  - Added aha platform metadata, sitemap/archive support, and focused tests for verification gates and calendar output shape.
 Artefacts:
-  - engine/fetchers/wikidata.py (568 lines)
-  - engine/fetchers/ott_announcements.py (312 lines)
-  - site/app/sitemap.ts (70 lines)
-  - site/app/ott/[platform]/page.tsx (62 lines)
-  - data/films/Q112430183.json (264 lines)
-  - data/films/Q124515855.json (189 lines)
-  - data/ott/announcements.json (28 lines)
-  - data/ott/calendar.json (72 lines)
+  - engine/fetchers/ott_announcements.py (538 lines)
+  - engine/regen_ott_weekly.py (111 lines)
+  - engine/fetchers/ott_calendar.py (compatibility wrapper)
+  - engine/fetchers/run_all.py (regen integration)
+  - data/ott/announcements.json (verified registry)
+  - data/ott/calendar.json (1508 lines)
+  - data/ott/calendar/2026-W24.json (1029 lines)
+  - data/ott/calendar/2026-W25.json (469 lines)
+  - site/app/ott/calendar/page.tsx (146 lines)
+  - site/app/ott/calendar/[year]/[week]/page.tsx (131 lines)
+  - site/app/ott/[platform]/page.tsx (112 lines)
+  - site/lib/data.ts (526 lines)
+  - site/scripts/build-sitemaps.mjs (archive/platform support)
+  - tests/test_ott_calendar.py (76 lines)
 Verification:
-  - cd /home/aditya/bollyai/site && npm run build -> passed; exported 26 HTML files; out/sitemap.xml exists.
-  - cd /home/aditya/bollyai && python3 engine/fetchers/run_all.py --fixture-mode --write data/ -> passed; films_fetched=2; metadata_enrichment_skipped=0; wrote data/films/Q112430183.json and data/films/Q124515855.json.
-  - cd /home/aditya/bollyai && python3 engine/fetchers/wikidata.py probe --qid Q124515855 --resolve-label "Kalki 2898 AD" -> one live SPARQL GET passed; enrichment_skipped=false; Kalki label resolved to Q112430183; Q124515855 returned a live item but no useful label/date/language metadata.
-  - cd /home/aditya/bollyai && python3 -m pytest tests/ -> 29 passed.
-  - cd /home/aditya/bollyai && grep -ri tmdb --include='*.py' --include='*.ts' --include='*.tsx' --include='*.json' . | grep -v node_modules | grep -v '\.git/' -> empty output.
-  - cd /home/aditya/bollyai && git diff --check -> clean.
+  - python3 engine/regen_ott_weekly.py --today 2026-06-12 -> passed; wrote 13 verified entries across 2026-W24 and 2026-W25.
+  - python3 -m json.tool data/ott/calendar.json >/dev/null -> passed.
+  - python3 -m pytest tests/ -> passed; 152 passed.
+  - cd site && npm run build -> passed; exported 2247 static pages; assert-no-aggregate-rating passed.
+  - test -s site/out/ott/calendar/index.html && test -s site/out/ott/calendar/2026/wk-24/index.html && test -s site/out/ott/aha/index.html && echo ok -> ok.
+  - rg -n "AggregateRating" site/out || true -> empty output.
+  - rg -n -P "\\x{2014}|\\x{2013}" data/ott engine/fetchers/ott_announcements.py engine/fetchers/ott_calendar.py engine/fetchers/run_all.py engine/regen_ott_weekly.py site/app/ott site/lib/data.ts site/lib/platforms.ts tests/test_ott_calendar.py last.txt -> empty output.
+  - git diff --check -> clean.
 Open issues:
-  - Wikidata live probe did not confirm useful metadata on the user-directed Manjummel Boys QID Q124515855; retained that QID per directive and fixture-backed the expected metadata shape.
-  - A commit cannot contain its own final hash; the final HEAD commit hash is reported in the final response.
-Next step suggested: Re-check Manjummel Boys on Wikidata manually when the item is updated or if Aditya wants to override the directed QID.
+  - None for this lane. Unverified or single-source candidates were intentionally omitted into tracking state instead of published.
+Next step suggested: Floor can merge this with the voice lane for editorial verdict copy; this lane intentionally supplied structure and verified data only.
 Network URLs:
-  - https://query.wikidata.org/sparql (one live GET)
+  - Full per-title source URLs are embedded in data/ott/announcements.json.
+  - netflix.com/tudum
+  - aboutamazon.com
+  - youtube.com
+  - instagram.com
+  - sonyliv.com
+  - economictimes.indiatimes.com
+  - pinkvilla.com
+  - ndtv.com
+  - gadgets360.com
+  - vogue.in
+  - theweek.com
+  - moneycontrol.com
+  - mensxp.com
+  - filmibeat.com

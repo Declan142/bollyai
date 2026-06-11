@@ -1,210 +1,314 @@
 [
   {
-    "qid": "Q137998501",
-    "platform": "JioHotstar",
-    "date": "2026-06-04",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Dhurandhar: The Revenge",
-    "slug": "dhurandhar-the-revenge-2026",
-    "industry": "bollywood",
-    "language": "hi",
-    "type": "film"
-  },
-  {
-    "qid": "Q137661261",
-    "platform": "JioHotstar",
-    "date": "2026-05-08",
-    "source_url": "https://www.theweek.in/news/entertainment/2026/05/02/when-is-vaazha-2-coming-to-streaming-ott-release-date-platform-cast-and-crew-details.html",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Vaazha II: Biopic of a Billion Bros",
-    "slug": "vaazha-2-2026",
-    "industry": "mollywood",
-    "language": "ml",
-    "type": "film"
-  },
-  {
-    "qid": "series-maa-behen",
-    "platform": "Netflix",
-    "date": "2026-06-04",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Maa Behen",
-    "slug": null,
-    "industry": "streaming",
-    "language": "hi",
-    "type": "series"
-  },
-  {
-    "qid": "film-the-pyramid-scheme",
-    "platform": "Amazon Prime Video",
-    "date": "2026-06-05",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "The Pyramid Scheme",
-    "slug": null,
-    "industry": "streaming",
-    "language": "hi",
-    "type": "film"
-  },
-  {
-    "qid": "series-brown",
-    "platform": "ZEE5",
-    "date": "2026-06-05",
-    "source_url": "https://www.newsx.com/photos/entertainment/latest-ott-releases-this-week-june-1-7-2026-6-new-movies-series-streaming-on-netflix-prime-video-jiohotstar-sonyliv-more-228953/",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Brown",
-    "slug": null,
-    "industry": "streaming",
-    "language": "hi",
-    "type": "series"
-  },
-  {
-    "qid": "series-gullak-s5",
-    "platform": "SonyLIV",
-    "date": "2026-06-05",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Gullak Season 5",
-    "slug": null,
-    "industry": "streaming",
-    "language": "hi",
-    "type": "series"
-  },
-  {
-    "qid": "film-office-romance",
-    "platform": "Netflix",
-    "date": "2026-06-05",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Office Romance",
-    "slug": null,
-    "industry": "streaming",
-    "language": "en",
-    "type": "film"
-  },
-  {
-    "qid": "film-moolyam",
-    "platform": "ETV Win",
-    "date": "2026-06-05",
-    "source_url": "https://www.newsx.com/photos/entertainment/latest-ott-releases-this-week-june-1-7-2026-6-new-movies-series-streaming-on-netflix-prime-video-jiohotstar-sonyliv-more-228953/",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Moolyam",
-    "slug": null,
-    "industry": "tollywood",
-    "language": "te",
-    "type": "film"
-  },
-  {
-    "qid": "film-every-year-after",
-    "platform": "Amazon Prime Video",
-    "date": "2026-06-10",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
+    "id": "series-every-year-after",
+    "qid": null,
     "title": "Every Year After",
     "slug": null,
     "industry": "streaming",
     "language": "en",
-    "type": "film"
+    "type": "series",
+    "platform": "Prime Video",
+    "date": "2026-06-10",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "Amazon MGM Studios",
+        "url": "https://press.amazonmgmstudios.com/us/en/original-series/every-year-after/1",
+        "type": "press"
+      },
+      {
+        "name": "Vogue India",
+        "url": "https://www.vogue.in/content/latest-ott-releases-streaming-netflix-prime-video-jiohotstar-june-8-june-14-2026",
+        "type": "trade"
+      }
+    ]
   },
   {
-    "qid": "series-dridam",
-    "platform": "JioHotstar",
-    "date": "2026-06-12",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-week",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Dridam",
+    "id": "series-sweet-magnolias-s5",
+    "qid": null,
+    "title": "Sweet Magnolias Season 5",
     "slug": null,
     "industry": "streaming",
-    "language": "ml",
-    "type": "series"
+    "language": "en",
+    "type": "series",
+    "platform": "Netflix",
+    "date": "2026-06-11",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/new-on-netflix",
+        "type": "press"
+      },
+      {
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/new-ott-releases-this-week-june-8-june-14-bhooth-bangla-to-raakh-to-karuppu-10-new-movies-and-shows-on-netflix-jiohotstar-prime-video-and-more/articleshow/131576067.cms",
+        "type": "trade"
+      }
+    ]
   },
   {
-    "qid": "series-raakh",
-    "platform": "Amazon Prime Video",
+    "id": "film-karuppu-2026",
+    "qid": "Q131341662",
+    "title": "Karuppu",
+    "slug": "karuppu-2026",
+    "industry": "kollywood",
+    "language": "ta",
+    "type": "film",
+    "platform": "Prime Video",
     "date": "2026-06-12",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-week",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/new-ott-releases-this-week-june-8-june-14-bhooth-bangla-to-raakh-to-karuppu-10-new-movies-and-shows-on-netflix-jiohotstar-prime-video-and-more/articleshow/131576067.cms",
+        "type": "trade"
+      },
+      {
+        "name": "Pinkvilla",
+        "url": "https://www.pinkvilla.com/entertainment/south/karuppu-ott-release-when-and-where-to-watch-suriya-trisha-krishnans-fantasy-action-entertainer-online-1403581",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "film-dridam-2026",
+    "qid": null,
+    "title": "Dridam",
+    "slug": null,
+    "industry": "mollywood",
+    "language": "ml",
+    "type": "film",
+    "platform": "JioHotstar",
+    "date": "2026-06-12",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "JioHotstar YouTube",
+        "url": "https://www.youtube.com/watch?v=zY7w55Bcd3s",
+        "type": "official_social"
+      },
+      {
+        "name": "Pinkvilla",
+        "url": "https://www.pinkvilla.com/entertainment/south/dridam-ott-release-when-and-where-to-watch-shane-nigams-mystery-thriller-online-1403453",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "series-sshhh-s3",
+    "qid": null,
+    "title": "Sshhh Season 3",
+    "slug": null,
+    "industry": "kollywood",
+    "language": "ta",
+    "type": "series",
+    "platform": "aha",
+    "date": "2026-06-12",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "aha Tamil Instagram",
+        "url": "https://www.instagram.com/reel/DZZaH3gJXzU/",
+        "type": "official_social"
+      },
+      {
+        "name": "Filmibeat",
+        "url": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "film-bhooth-bangla-2026",
+    "qid": "Q136187174",
+    "title": "Bhooth Bangla",
+    "slug": "bhooth-bangla-2026",
+    "industry": "bollywood",
+    "language": "hi",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-06-12",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/bhooth-bangla-ott-release-date-confirmed-when-and-where-to-watch-akshay-kumar-starrer-hit-horror-comedy-movie/articleshow/131656924.cms",
+        "type": "trade"
+      },
+      {
+        "name": "Filmibeat",
+        "url": "https://www.filmibeat.com/bollywood/movies/bhooth-bangla/ott.html",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "series-raakh",
+    "qid": null,
     "title": "Raakh",
+    "slug": "raakh",
+    "industry": "streaming",
+    "language": "hi",
+    "type": "series",
+    "platform": "Prime Video",
+    "date": "2026-06-12",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "Prime Video India YouTube",
+        "url": "https://www.youtube.com/watch?v=d-PUa2YoiNg",
+        "type": "official_social"
+      },
+      {
+        "name": "NDTV",
+        "url": "https://www.ndtv.com/entertainment/ali-fazal-sonali-bendres-raakh-to-be-released-on-june-12-11564629",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "series-maa-hai-na",
+    "qid": null,
+    "title": "Maa Hai Na",
     "slug": null,
     "industry": "streaming",
     "language": "hi",
-    "type": "series"
+    "type": "series",
+    "platform": "ZEE5",
+    "date": "2026-06-12",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "ZEE5 Instagram",
+        "url": "https://www.instagram.com/p/DYTq3NUCjAH/",
+        "type": "official_social"
+      },
+      {
+        "name": "Gadgets 360",
+        "url": "https://www.gadgets360.com/entertainment/news/maa-hai-na-ott-release-date-revealed-know-when-and-where-to-watch-this-upcoming-reality-show-11617409",
+        "type": "trade"
+      }
+    ]
   },
   {
-    "qid": "film-your-fault-london",
-    "platform": "Amazon Prime Video",
-    "date": "2026-06-17",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
+    "id": "series-taarkata",
+    "qid": null,
+    "title": "Taarkata",
+    "slug": null,
+    "industry": "streaming",
+    "language": "bn",
+    "type": "series",
+    "platform": "ZEE5",
+    "date": "2026-06-12",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "Vogue India",
+        "url": "https://www.vogue.in/content/latest-ott-releases-streaming-netflix-prime-video-jiohotstar-june-8-june-14-2026",
+        "type": "trade"
+      },
+      {
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/new-ott-releases-this-week-june-8-june-14-bhooth-bangla-to-raakh-to-karuppu-10-new-movies-and-shows-on-netflix-jiohotstar-prime-video-and-more/articleshow/131576067.cms",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "film-your-fault-london",
+    "qid": null,
     "title": "Your Fault: London",
     "slug": null,
     "industry": "streaming",
     "language": "en",
-    "type": "film"
+    "type": "film",
+    "platform": "Prime Video",
+    "date": "2026-06-17",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "Amazon MGM Studios",
+        "url": "https://press.amazonmgmstudios.com/us/en/original-movies/your-fault-london",
+        "type": "press"
+      },
+      {
+        "name": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0T4QQ149SJ0V8W8MHKZUZZ70RP",
+        "type": "press"
+      }
+    ]
   },
   {
-    "qid": "series-tkmp-s2",
-    "platform": "JioHotstar",
-    "date": "2026-06-19",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Thukra Ke Mera Pyaar S2",
+    "id": "series-i-will-find-you",
+    "qid": null,
+    "title": "I Will Find You",
     "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Netflix",
+    "date": "2026-06-18",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/harlan-coben-i-will-find-you",
+        "type": "press"
+      },
+      {
+        "name": "The Week",
+        "url": "https://www.theweek.in/news/entertainment/2026/05/29/i-will-find-you-netflix-series.html",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "film-athiradi-2026",
+    "qid": null,
+    "title": "Athiradi",
+    "slug": null,
+    "industry": "mollywood",
+    "language": "ml",
+    "type": "film",
+    "platform": "SonyLIV",
+    "date": "2026-06-19",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "SonyLIV",
+        "url": "https://www.sonyliv.com/movies/athiradi-1590016248",
+        "type": "press"
+      },
+      {
+        "name": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/entertainment/athiradi-ott-release-basil-joseph-tovino-thomas-campus-entertainer-to-stream-on-sony-liv-article-13942473.html",
+        "type": "trade"
+      }
+    ]
+  },
+  {
+    "id": "series-thukra-ke-mera-pyaar-s2",
+    "qid": null,
+    "title": "Thukra Ke Mera Pyaar Season 2",
+    "slug": "thukra-ke-mera-pyaar",
     "industry": "streaming",
     "language": "hi",
-    "type": "series"
-  },
-  {
-    "qid": "series-hotd-s3",
+    "type": "series",
     "platform": "JioHotstar",
-    "date": "2026-06-22",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "House of the Dragon S3",
-    "slug": null,
-    "industry": "streaming",
-    "language": "en",
-    "type": "series"
-  },
-  {
-    "qid": "film-avatar-fire-ash",
-    "platform": "JioHotstar",
-    "date": "2026-06-24",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Avatar: Fire and Ash",
-    "slug": null,
-    "industry": "hollywood",
-    "language": "en",
-    "type": "film"
-  },
-  {
-    "qid": "series-avatar-tla",
-    "platform": "Netflix",
-    "date": "2026-06-25",
-    "source_url": "https://www.myvi.in/blog/ott-releases-this-month",
-    "source_type": "trade",
-    "fetched_at": "2026-06-08T00:50:00+05:30",
-    "title": "Avatar: The Last Airbender",
-    "slug": null,
-    "industry": "streaming",
-    "language": "en",
-    "type": "series"
+    "date": "2026-06-19",
+    "fetched_at": "2026-06-12T03:43:52+05:30",
+    "sources": [
+      {
+        "name": "JioHotstar YouTube",
+        "url": "https://www.youtube.com/watch?v=RTxWlfBydKw",
+        "type": "official_social"
+      },
+      {
+        "name": "MensXP",
+        "url": "https://www.mensxp.com/entertainment/celebrities/183978-june-2026-ott-releases-dhurandhar-the-revenge-bhooth-bangla-gullak-season-5.html",
+        "type": "trade"
+      }
+    ]
   }
 ]

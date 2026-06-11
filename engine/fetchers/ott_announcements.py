@@ -1,12 +1,8 @@
-"""Official-announcement OTT calendar assembler.
+"""Weekly OTT calendar assembler from attributed announcements.
 
-The layer consumes attributed announcements from two places:
-
-* data/ott/announcements.json, curated by QID.
-* Saved Sacnilk OTT-list fixtures, with a small HTML/table fallback parser.
-
-Live parsing is intentionally best-effort and degrades to an empty source when
-the page cannot be fetched.
+The calendar is intentionally announcement-led. A title ships only when it has
+one official platform source or at least two distinct trade sources. Single
+trade-source claims stay out of the rendered calendar.
 """
 
 from __future__ import annotations
@@ -26,26 +22,56 @@ try:
 except ImportError:  # pragma: no cover - fixture and registry mode still work.
     requests = None
 
-from common import DATA_DIR, FIXTURE_DIR, USER_AGENT, read_json, repo_path, source_value, unwrap_value, utc_now, write_json
+from common import (
+    DATA_DIR,
+    FIXTURE_DIR,
+    USER_AGENT,
+    film_url,
+    read_json,
+    repo_path,
+    unwrap_value,
+    utc_now,
+    write_json,
+)
 
 
 SOURCE_TYPES = {"press", "official_social", "trade"}
+OFFICIAL_SOURCE_TYPES = {"press", "official_social"}
 DEFAULT_REGISTRY = DATA_DIR / "ott" / "announcements.json"
+ARCHIVE_DIRNAME = "calendar"
+TARGET_PLATFORMS = ["Netflix", "Prime Video", "JioHotstar", "ZEE5", "SonyLIV", "aha"]
+SOUTH_FIRST_INDUSTRIES = {
+    "tollywood": 0,
+    "kollywood": 1,
+    "mollywood": 2,
+    "sandalwood": 3,
+    "streaming": 4,
+    "bollywood": 5,
+    "hollywood": 6,
+}
+
+
+@dataclass(frozen=True)
+class SourceRef:
+    name: str
+    url: str
+    source_type: str
 
 
 @dataclass(frozen=True)
 class Announcement:
-    qid: str
+    item_id: str
     platform: str
     date: str
-    source_url: str
-    source_type: str
+    sources: tuple[SourceRef, ...]
     fetched_at: str
-    title: str | None = None
+    title: str
+    qid: str | None = None
     slug: str | None = None
     industry: str | None = None
     language: str | None = None
     content_type: str = "film"
+    url: str | None = None
 
 
 def parse_date(value: str) -> date:
@@ -54,6 +80,21 @@ def parse_date(value: str) -> date:
 
 def default_today() -> date:
     return date.today()
+
+
+def current_week_start(value: date | None = None) -> date:
+    value = value or default_today()
+    return value - timedelta(days=value.weekday())
+
+
+def iso_week_key(value: date) -> str:
+    year, week, _ = value.isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def week_archive_url(value: date) -> str:
+    year, week, _ = value.isocalendar()
+    return f"/ott/calendar/{year}/wk-{week:02d}/"
 
 
 def load_announcements(*, fixture_mode: bool = False, data_dir: Path = DATA_DIR) -> list[dict[str, Any]]:
@@ -150,20 +191,24 @@ def parse_row_cells(cells: list[str], *, default_url: str) -> dict[str, Any] | N
         return None
     platform = next((cell for cell in cells if platform_like(cell)), None)
     qid = next((match.group(0) for cell in cells for match in [re.search(r"\bQ\d+\b", cell)] if match), None)
-    if not platform or not qid:
+    title = next((cell for cell in cells if cell and not platform_like(cell) and not re.search(r"\bQ\d+\b", cell)), None)
+    if not platform or not (qid or title):
         return None
     return {
+        "id": qid or slugify(title or row_text),
         "qid": qid,
+        "title": title or qid or "Untitled",
         "platform": platform,
         "date": date_value,
         "source_url": default_url,
+        "source_name": "Sacnilk",
         "source_type": "trade",
     }
 
 
 def platform_like(value: str) -> bool:
     lower = value.lower()
-    hints = ("netflix", "prime", "hotstar", "jio", "zee5", "sonyliv", "aha", "sunnxt")
+    hints = ("netflix", "prime", "hotstar", "jio", "zee5", "sonyliv", "sony liv", "aha", "sunnxt")
     return any(hint in lower for hint in hints)
 
 
@@ -172,34 +217,79 @@ def extract_iso_date(text: str) -> str | None:
     return match.group(1) if match else None
 
 
+def source_refs_from_item(item: dict[str, Any], *, default_source_type: str | None = None) -> tuple[SourceRef, ...]:
+    raw_sources = item.get("sources")
+    refs: list[SourceRef] = []
+    if isinstance(raw_sources, list):
+        for raw in raw_sources:
+            if not isinstance(raw, dict):
+                continue
+            url = str(raw.get("url") or "").strip()
+            if not url:
+                continue
+            source_type = str(raw.get("type") or raw.get("source_type") or default_source_type or "trade")
+            if source_type not in SOURCE_TYPES:
+                raise ValueError(f"Unsupported OTT announcement source_type: {source_type}")
+            refs.append(SourceRef(name=str(raw.get("name") or source_type_label(source_type)), url=url, source_type=source_type))
+
+    if not refs and item.get("source_url"):
+        source_type = str(item.get("source_type") or default_source_type or "")
+        if source_type not in SOURCE_TYPES:
+            raise ValueError(f"Unsupported OTT announcement source_type: {source_type}")
+        refs.append(
+            SourceRef(
+                name=str(item.get("source_name") or source_type_label(source_type)),
+                url=str(item["source_url"]),
+                source_type=source_type,
+            )
+        )
+
+    return tuple(refs)
+
+
+def source_type_label(source_type: str) -> str:
+    return {
+        "press": "Official press",
+        "official_social": "Official social",
+        "trade": "Trade source",
+    }.get(source_type, source_type)
+
+
 def announcement_from_dict(item: dict[str, Any], *, default_source_type: str | None = None) -> Announcement:
-    source_type = str(item.get("source_type") or default_source_type or "")
-    if source_type not in SOURCE_TYPES:
-        raise ValueError(f"Unsupported OTT announcement source_type: {source_type}")
-    qid = str(item["qid"])
-    platform = str(item["platform"])
+    sources = source_refs_from_item(item, default_source_type=default_source_type)
+    title = str(item.get("title") or item.get("name") or "").strip()
+    qid_value = item.get("qid")
+    qid = str(qid_value) if qid_value not in (None, "") else None
+    item_id = str(item.get("id") or qid or item.get("slug") or slugify(title))
+    if not item_id:
+        raise ValueError("OTT announcement needs id, qid, slug, or title")
+    if not title:
+        raise ValueError(f"OTT announcement {item_id} needs a title")
+    if not sources:
+        raise ValueError(f"OTT announcement {item_id} needs at least one source")
     return Announcement(
+        item_id=item_id,
         qid=qid,
-        platform=platform,
+        platform=str(item["platform"]),
         date=str(item["date"]),
-        source_url=str(item["source_url"]),
-        source_type=source_type,
+        sources=sources,
         fetched_at=str(item.get("fetched_at") or utc_now()),
-        title=item.get("title"),
+        title=title,
         slug=item.get("slug"),
         industry=item.get("industry"),
         language=item.get("language"),
         content_type=str(item.get("type") or item.get("content_type") or "film"),
+        url=item.get("url"),
     )
 
 
 def announcement_to_dict(item: Announcement) -> dict[str, Any]:
-    return {
+    payload: dict[str, Any] = {
+        "id": item.item_id,
         "qid": item.qid,
         "platform": item.platform,
         "date": item.date,
-        "source_url": item.source_url,
-        "source_type": item.source_type,
+        "sources": [source_ref_to_dict(source) for source in item.sources],
         "fetched_at": item.fetched_at,
         "title": item.title,
         "slug": item.slug,
@@ -207,6 +297,13 @@ def announcement_to_dict(item: Announcement) -> dict[str, Any]:
         "language": item.language,
         "type": item.content_type,
     }
+    if item.url:
+        payload["url"] = item.url
+    return payload
+
+
+def source_ref_to_dict(source: SourceRef) -> dict[str, str]:
+    return {"name": source.name, "url": source.url, "type": source.source_type}
 
 
 def build_calendar(
@@ -214,13 +311,14 @@ def build_calendar(
     *,
     films: list[dict[str, Any]] | None = None,
     start: date | None = None,
-    weeks: int = 4,
+    weeks: int = 2,
 ) -> dict[str, Any]:
-    start = start or default_today()
+    start = start or current_week_start()
     end = start + timedelta(days=weeks * 7)
     generated_at = utc_now()
     films_by_qid = {str(unwrap_value(film.get("qid"))): film for film in films or [] if unwrap_value(film.get("qid"))}
     output_entries = []
+    omitted_unverified: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
 
     for raw in entries:
@@ -228,35 +326,51 @@ def build_calendar(
         release_date = parse_date(announcement.date)
         if not (start <= release_date < end):
             continue
-        key = (announcement.qid, normalized_platform(announcement.platform))
+        if not is_verified_announcement(announcement):
+            omitted_unverified.append({"id": announcement.item_id, "title": announcement.title})
+            continue
+        key = (announcement.item_id, normalized_platform(announcement.platform))
         if key in seen:
             continue
         seen.add(key)
-        film = films_by_qid.get(announcement.qid, {})
+        film = films_by_qid.get(announcement.qid or "", {})
+        industry = announcement.industry or unwrap_value(film.get("canonical_industry")) or unwrap_value(film.get("industry")) or "streaming"
+        language = announcement.language or unwrap_value(film.get("original_language")) or "und"
+        slug = announcement.slug or unwrap_value(film.get("slug"))
+        resolved_url = resolve_local_url(announcement, industry=str(industry), slug=str(slug) if slug else None)
+        week_start = current_week_start(release_date)
+        week_index = (week_start - start).days // 7
+        first_source = announcement.sources[0]
+        sources = [source_ref_to_dict(source) for source in announcement.sources]
         title = announcement.title or unwrap_value(film.get("title")) or "Untitled"
         output_entries.append(
             {
+                "id": announcement.item_id,
                 "qid": announcement.qid,
-                "title": title,
-                "slug": announcement.slug or unwrap_value(film.get("slug")),
-                "industry": announcement.industry or unwrap_value(film.get("canonical_industry")) or unwrap_value(film.get("industry")),
-                "platform": announcement.platform,
+                "title": claim(title, announcement, generated_at=generated_at),
+                "slug": slug,
+                "url": resolved_url,
+                "industry": claim(str(industry), announcement, generated_at=generated_at),
+                "platform": claim(announcement.platform, announcement, generated_at=generated_at),
                 "type": announcement.content_type,
-                "language": announcement.language or unwrap_value(film.get("original_language")),
-                "release_date": source_value(
-                    release_date.isoformat(),
-                    "ott_announcements",
-                    fetched_at=announcement.fetched_at or generated_at,
-                    confidence="verified",
-                ),
-                "source_url": announcement.source_url,
-                "source_type": announcement.source_type,
+                "language": claim(str(language), announcement, generated_at=generated_at),
+                "release_date": claim(release_date.isoformat(), announcement, generated_at=generated_at),
+                "sources": sources,
+                "source_url": first_source.url,
+                "source_type": first_source.source_type,
                 "fetched_at": announcement.fetched_at,
+                "confidence": "verified",
+                "verification": verification_basis(announcement),
+                "week": iso_week_key(week_start),
+                "section": "this_week" if week_index == 0 else "coming",
                 "_status": "verified",
             }
         )
 
-    output_entries.sort(key=lambda item: (item["release_date"]["value"], item.get("platform") or "", item.get("title") or ""))
+    output_entries.sort(key=entry_sort_key)
+    week_payloads = build_week_payloads(start=start, weeks=weeks, entries=output_entries)
+    present_platforms = {normalized_platform(unwrap_claim(entry["platform"])) for entry in output_entries}
+    missing_platforms = [platform for platform in TARGET_PLATFORMS if normalized_platform(platform) not in present_platforms]
     return {
         "schema": "ott-calendar/v1",
         "generated_at": generated_at,
@@ -266,32 +380,140 @@ def build_calendar(
             "weeks": weeks,
             "basis": "official_announcements",
         },
+        "tracking": {
+            "platforms": TARGET_PLATFORMS,
+            "missing_platforms": missing_platforms,
+            "omitted_unverified": omitted_unverified,
+        },
+        "weeks": week_payloads,
         "entries": output_entries,
         "_provenance": {
             "source": "official_announcements",
+            "verification_rule": "official source or two distinct trade sources",
         },
     }
+
+
+def build_week_payloads(*, start: date, weeks: int, entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    payloads = []
+    counts_by_week: dict[str, int] = {}
+    for entry in entries:
+        counts_by_week[str(entry.get("week"))] = counts_by_week.get(str(entry.get("week")), 0) + 1
+    for index in range(weeks):
+        week_start = start + timedelta(days=index * 7)
+        week_end = week_start + timedelta(days=6)
+        iso_key = iso_week_key(week_start)
+        iso = week_start.isocalendar()
+        payloads.append(
+            {
+                "iso_week": iso_key,
+                "year": iso.year,
+                "week": iso.week,
+                "label": "This week" if index == 0 else "Coming next week",
+                "status": "current" if index == 0 else "coming",
+                "start": week_start.isoformat(),
+                "end": week_end.isoformat(),
+                "archive_url": week_archive_url(week_start),
+                "entry_count": counts_by_week.get(iso_key, 0),
+            }
+        )
+    return payloads
+
+
+def write_week_archives(data_dir: Path, calendar: dict[str, Any]) -> list[Path]:
+    archive_dir = data_dir / "ott" / ARCHIVE_DIRNAME
+    written: list[Path] = []
+    for week in calendar.get("weeks", []):
+        iso_key = week.get("iso_week")
+        if not iso_key:
+            continue
+        entries = [entry for entry in calendar.get("entries", []) if entry.get("week") == iso_key]
+        payload = {
+            "schema": "ott-calendar-week/v1",
+            "generated_at": calendar.get("generated_at"),
+            "week": week,
+            "entries": entries,
+            "_provenance": calendar.get("_provenance", {}),
+        }
+        path = archive_dir / f"{iso_key}.json"
+        write_json(path, payload)
+        written.append(path)
+    return written
+
+
+def is_verified_announcement(announcement: Announcement) -> bool:
+    if any(source.source_type in OFFICIAL_SOURCE_TYPES for source in announcement.sources):
+        return True
+    trade_urls = {source.url for source in announcement.sources if source.source_type == "trade"}
+    return len(trade_urls) >= 2
+
+
+def verification_basis(announcement: Announcement) -> str:
+    if any(source.source_type in OFFICIAL_SOURCE_TYPES for source in announcement.sources):
+        return "official_source"
+    return "two_trade_sources"
+
+
+def claim(value: Any, announcement: Announcement, *, generated_at: str) -> dict[str, Any]:
+    return {
+        "value": value,
+        "sources": [source_ref_to_dict(source) for source in announcement.sources],
+        "fetched_at": announcement.fetched_at or generated_at,
+        "confidence": "verified",
+    }
+
+
+def unwrap_claim(value: Any) -> Any:
+    if isinstance(value, dict) and "value" in value:
+        return value.get("value")
+    return value
+
+
+def resolve_local_url(announcement: Announcement, *, industry: str, slug: str | None) -> str | None:
+    if announcement.url:
+        return announcement.url
+    if not slug:
+        return None
+    if announcement.content_type == "series":
+        return f"/series/{slug}/"
+    if announcement.content_type == "film":
+        return film_url(industry, "review", slug)
+    return None
+
+
+def entry_sort_key(item: dict[str, Any]) -> tuple[str, int, str, str]:
+    release_date = str(unwrap_claim(item.get("release_date")) or "")
+    industry = str(unwrap_claim(item.get("industry")) or "")
+    platform = str(unwrap_claim(item.get("platform")) or "")
+    title = str(unwrap_claim(item.get("title")) or "")
+    return (release_date, SOUTH_FIRST_INDUSTRIES.get(industry, 99), platform, title)
 
 
 def normalized_platform(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
+def slugify(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Emit next-four-weeks OTT calendar from attributed announcements.")
+    parser = argparse.ArgumentParser(description="Emit two-week OTT calendar from attributed announcements.")
     parser.add_argument("--fixture-mode", action="store_true")
     parser.add_argument("--fixture-path")
     parser.add_argument("--registry", default="data/ott/announcements.json")
-    parser.add_argument("--today", help="Override today as YYYY-MM-DD.")
-    parser.add_argument("--weeks", type=int, default=4)
+    parser.add_argument("--today", help="Override today as YYYY-MM-DD. The week starts on Monday.")
+    parser.add_argument("--weeks", type=int, default=2)
     parser.add_argument("--emit", default="data/ott/calendar.json")
+    parser.add_argument("--no-archives", action="store_true", help="Do not write week archive JSON files.")
     parser.add_argument("--dry-run", action="store_true", help="Print only; do not write --emit.")
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    start = parse_date(args.today) if args.today else default_today()
+    today = parse_date(args.today) if args.today else default_today()
+    start = current_week_start(today)
     entries = [announcement_to_dict(item) for item in load_registry(repo_path(args.registry))]
     entries.extend(
         announcement_to_dict(item)
@@ -301,8 +523,12 @@ def main(argv: list[str] | None = None) -> int:
         )
     )
     payload = build_calendar(entries, start=start, weeks=args.weeks)
+    emit_path = repo_path(args.emit)
+    archive_data_dir = emit_path.parents[1] if emit_path.name == "calendar.json" and emit_path.parent.name == "ott" else DATA_DIR
     if not args.dry_run:
-        write_json(repo_path(args.emit), payload)
+        write_json(emit_path, payload)
+        if not args.no_archives:
+            write_week_archives(archive_data_dir, payload)
     json.dump(payload, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
     sys.stdout.write("\n")
     return 0

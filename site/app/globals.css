@@ -569,6 +569,36 @@ p {
   background: var(--border-hair);
 }
 
+.calendar-weeks {
+  display: grid;
+  gap: 30px;
+  margin-top: 28px;
+}
+
+.calendar-week {
+  display: grid;
+  gap: 16px;
+}
+
+.calendar-week__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-hair);
+}
+
+.calendar-week__head p {
+  margin: 8px 0 0;
+  color: var(--text-dim);
+}
+
+.calendar-week__head a,
+.platform-chip {
+  text-decoration: none;
+}
+
 .calendar-row {
   display: grid;
   grid-template-columns: 140px 1fr 120px 100px;
@@ -583,10 +613,63 @@ p {
   font-size: 1.25rem;
 }
 
+.calendar-row--weekly {
+  grid-template-columns: 96px minmax(0, 1fr) minmax(72px, auto) minmax(96px, auto);
+}
+
+.calendar-row__main {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.calendar-row__main span {
+  color: var(--text-dim);
+  font-size: .92rem;
+}
+
 .calendar-row .source-line {
   grid-column: 2 / -1;
   overflow-wrap: anywhere;
   font-size: .86rem;
+}
+
+.platform-tracker {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1px;
+  margin: 26px 0 30px;
+  border: 1px solid var(--border-hair);
+  background: var(--border-hair);
+}
+
+.platform-chip {
+  display: grid;
+  gap: 8px;
+  min-height: 86px;
+  padding: 14px;
+  background: var(--bg-deep);
+}
+
+.platform-chip span {
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+}
+
+.platform-chip strong {
+  color: var(--accent);
+  font-family: var(--font-number);
+  font-size: .78rem;
+  text-transform: uppercase;
+}
+
+.tracking-empty {
+  margin: 0;
+  padding: 18px;
+  border: 1px solid var(--border-hair);
+  color: var(--text-dim);
+  background: color-mix(in oklch, var(--surface) 72%, transparent);
 }
 
 /* ============================================================
@@ -815,6 +898,10 @@ p {
   .calendar-row .source-line {
     grid-column: auto;
   }
+
+  .platform-tracker {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 520px) {
@@ -831,6 +918,15 @@ p {
   .marquee-panel {
     min-height: 360px;
     padding: 18px;
+  }
+
+  .platform-tracker {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .calendar-week__head {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
