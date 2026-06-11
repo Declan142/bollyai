@@ -5,6 +5,7 @@ import { CriticConsensus } from "../../../../components/CriticConsensus";
 import { DateModified } from "../../../../components/DateModified";
 import { DeskTint } from "../../../../components/DeskTint";
 import { JsonLd } from "../../../../components/JsonLd";
+import { PosterImage } from "../../../../components/PosterImage";
 import { SeasonVerdict } from "../../../../components/SeasonVerdict";
 import { formatDate } from "../../../../lib/data";
 import { getAllSeries, getSeries } from "../../../../lib/series";
@@ -64,7 +65,16 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
 
       <section className="film-hero" data-desk={series.canonical_industry}>
         <div className="poster-frame">
-          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" fetchPriority="high" loading="eager" />
+          <PosterImage
+            src={series.poster.src}
+            alt={series.poster.alt}
+            width="342"
+            height="513"
+            fetchPriority="high"
+            loading="eager"
+            avifSrcSet={series.poster.variants?.avifSrcSet}
+            webpSrcSet={series.poster.variants?.webpSrcSet}
+          />
         </div>
         <div className="film-hero__copy">
           <p className="eyebrow">

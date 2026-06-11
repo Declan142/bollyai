@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © TVF / Amazon Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/f/fe/TVF_Aspirants_Poster.jpeg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-11T22:19:07Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/aspirants/poster.jpg",
+    "source_height": 354,
+    "source_width": 283,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "aspirants",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Aspirants",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/f/fe/TVF_Aspirants_Poster.jpeg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/aspirants/w185.avif",
+      "bytes": 10496
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/aspirants/w185.webp",
+      "bytes": 10714
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/aspirants/w342.avif",
+      "bytes": 20469
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/aspirants/w342.webp",
+      "bytes": 23380
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/aspirants/w500.avif",
+      "bytes": 30335
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/aspirants/w500.webp",
+      "bytes": 35016
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-11T22:30:45.528Z"
+}

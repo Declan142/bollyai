@@ -12,14 +12,15 @@ export default function TakedownPage() {
   return (
     <StaticPage
       title="Takedown"
-      answer="Rights holders can request correction or removal of image, attribution, or factual material through the BollyAI contact channel."
-      dateModified="2026-06-07T00:00:00+05:30"
+      answer="Rights holders can request correction or removal of image, attribution, or factual material at takedown@bollyai.in."
+      dateModified="2026-06-12T00:00:00+05:30"
     >
       <p>
-        Send the URL, the disputed material, proof of rights or authority, and the requested action. BollyAI targets a
-        36-hour first response for valid image and attribution complaints.
+        Email <a href="mailto:takedown@bollyai.in">takedown@bollyai.in</a> with the page URL, the disputed material,
+        proof of rights or authority, and the requested action. BollyAI targets a 36-hour first response for valid image
+        and attribution complaints.
       </p>
-      <p>Until a dedicated mailbox is provisioned, use the contact page for takedown requests.</p>
+      <p>Images are used sparingly for criticism and review, with attribution stored beside self-hosted files.</p>
     </StaticPage>
   );
 }

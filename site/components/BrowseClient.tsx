@@ -1,11 +1,14 @@
 "use client";
 
 import { useMemo, useState, type ReactNode } from "react";
+import { PosterImage } from "./PosterImage";
 
 export type BrowseItem = {
   slug: string;
   t: string;        // title
   p: string;        // poster src
+  pa?: string;      // AVIF poster srcset
+  pw?: string;      // WebP poster srcset
   o: string;        // origin / country
   pl: string;       // platform
   st: string;       // status
@@ -181,7 +184,15 @@ export function BrowseClient({ items }: { items: BrowseItem[] }) {
         {results.map((s) => (
           <a className="series-card" data-desk="streaming" href={`/series/${s.slug}/`} key={s.slug}>
             <span className="series-card__media">
-              <img src={s.p} alt={`${s.t} poster`} width="342" height="513" loading="lazy" />
+              <PosterImage
+                src={s.p}
+                alt={`${s.t} poster`}
+                width="342"
+                height="513"
+                loading="lazy"
+                avifSrcSet={s.pa}
+                webpSrcSet={s.pw}
+              />
               {s.fr && <span className="series-card__fresh">NEW</span>}
               {s.sc != null && <span className="series-card__score">{s.sc.toFixed(1)}</span>}
             </span>
