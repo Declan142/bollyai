@@ -1,31 +1,37 @@
 Status: PARTIAL
 Did:
-  - Added the `/box-office/` hub with South-first weekly rows, methodology copy, ItemList JSON-LD, source attribution, and tracking states for unpublishable figures.
-  - Added `data/boxoffice/current-week.json` with `DATA_PENDING: true` and no published current-week amounts because live pointers did not form two independent same-metric readings.
-  - Added renderer-side box-office publish-rule enforcement in `site/lib/boxoffice.ts`: within 10 percent = trade estimate, 10 to 25 percent = lower figure with caveat, else tracking.
-  - Wired the hub into site navigation, search index generation, and sitemap generation.
-  - Added pytest coverage for the Python box-office publish rule and the pending weekly-data schema.
+  - Read `/home/aditya/bollyai-blueprint/MASTER-BLUEPRINT.md` read-only and aligned the box-office surface to the master namespace.
+  - Kept `/box-office/` as the cross-industry hub and added `/box-office/<tier>-crore-club/` routes for 100, 200, 500, and 1000 crore clubs.
+  - Added `/{industry}/box-office/{YYYY}/` year scoreboards through the existing box-office route without breaking per-film tracker URLs.
+  - Refactored box-office structured data so box-office pages emit Dataset and ItemList JSON-LD only; removed FAQ/Breadcrumb schema from film tracker pages.
+  - Preserved the hard BO publish rule in the renderer and kept all unverified current-week figures in tracking.
+  - Documented the blueprint ID conflict: the master file has an earlier `tmdb_id` ruling, but its 2026-06-07 amendment says NO TMDB and promotes QID primary. This repo follows the amendment and AGENTS.
 Artefacts:
   - data/boxoffice/current-week.json (218 lines)
-  - data/boxoffice/README.md (41 lines)
-  - site/lib/boxoffice.ts (247 lines)
-  - site/app/box-office/page.tsx (160 lines)
+  - data/boxoffice/README.md (49 lines)
+  - site/lib/boxoffice.ts (391 lines)
+  - site/components/BoxOfficeBoardTable.tsx (107 lines)
+  - site/app/box-office/page.tsx (109 lines)
+  - site/app/box-office/[club]/page.tsx (82 lines)
+  - site/app/[desk]/box-office/[slug]/page.tsx (166 lines)
   - tests/test_boxoffice_publish_rule.py (87 lines)
   - site/app/globals.css (box-office CSS added)
-  - site/components/PageChrome.tsx (nav link added)
-  - site/scripts/build-search-index.mjs (box-office search entry)
-  - site/scripts/build-sitemaps.mjs (box-office sitemap entry)
+  - site/app/layout.tsx and site/lib/seo.ts (global OG dash cleanup for emitted box-office pages)
+  - site/scripts/build-search-index.mjs and site/scripts/build-sitemaps.mjs (club and year routes)
 Verification:
   - python3 -m pytest tests/test_boxoffice_publish_rule.py -> 5 passed
   - python3 -m pytest tests/ -> 155 passed
-  - cd site && npm run build -> passed; `/box-office` exported; aggregate-rating guard passed
-  - rg touched files for fancy dashes and first-person viewing phrases -> clean
+  - cd site && npm run build -> passed; 2254 static pages; aggregate-rating guard passed
+  - rg generated box-office HTML for `AggregateRating|FAQPage|Review` -> clean
+  - rg generated box-office HTML for fancy dashes -> clean
+  - rg touched box-office files for fancy dashes and first-person viewing phrases -> clean
   - command -v design-reviewer -> unavailable in this environment
   - grep -r -- '--' data/ -> failed on pre-existing `data/series/` rows and `data/_state/library-buildout.md`
 Open issues:
-  - PARTIAL because repo-level `grep -r -- '--' data/` is not green, and this brief explicitly forbids touching `data/series/`.
+  - PARTIAL because repo-level `grep -r -- '--' data/` is not green, and this lane is fenced away from `data/series/`.
   - design-reviewer gate could not be run because no local command or connector tool was available.
-Next step suggested: Fix or quarantine the pre-existing `data/series/` dash violations in the owning content lane, then rerun the repo-level data dash gate.
+  - No TMDB IDs were added because the master blueprint amendment and current repo guide make QID primary, and guessing IDs would violate the honesty fence.
+Next step suggested: Content lane fixes pre-existing data dash violations; floor confirms whether the older `tmdb_id` ruling is revived despite the master amendment.
 Network URLs:
   - https://www.sacnilk.com/
   - https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms

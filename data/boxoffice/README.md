@@ -1,6 +1,12 @@
 # BollyAI Box Office Data
 
-This directory feeds the `/box-office/` hub. It is separate from `data/films/` so the weekly board can be updated without touching film or series authoring lanes.
+This directory feeds the `/box-office/` namespace. It is separate from `data/films/` so the weekly board can be updated without touching film or series authoring lanes.
+
+Blueprint namespace:
+
+- `/box-office/` - current cross-industry board.
+- `/box-office/<tier>-crore-club/` - cross-industry club trackers.
+- `/{industry}/box-office/{YYYY}/` - industry year scoreboards.
 
 ## Schema
 
@@ -15,6 +21,8 @@ Each record must include:
 - `india_net_inr_cr` and `worldwide_gross_inr_cr`, each as `{value, sources, label}`.
 
 `value` is either `null` or a `{low, high}` crore range. `sources` must be visible public URLs. Source objects may include a private-to-renderer `value` field for source readings, but the page will not show any amount unless the renderer-side publish rule passes.
+
+Note on IDs: the master blueprint has an earlier `tmdb_id` spine ruling, but its 2026-06-07 amendment drops TMDB and promotes Wikidata QID as primary. This repo follows the amendment and the active project guide: QID primary, no TMDB images, no guessed IDs.
 
 ## Publish Rule
 

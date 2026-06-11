@@ -1,0 +1,82 @@
+import { notFound } from "next/navigation";
+import { AnswerBlock } from "../../../components/AnswerBlock";
+import { BoxOfficeBoardTable } from "../../../components/BoxOfficeBoardTable";
+import { DateModified } from "../../../components/DateModified";
+import { JsonLd } from "../../../components/JsonLd";
+import {
+  boxOfficeDatasetJsonLd,
+  boxOfficeRecordsItemListJsonLd,
+  getBoxOfficeClub,
+  getBoxOfficeClubs,
+  getClubRecords,
+  getCurrentBoxOfficeBoard
+} from "../../../lib/boxoffice";
+import { pageSeo } from "../../../lib/seo";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getBoxOfficeClubs().map((club) => ({ club: club.slug }));
+}
+
+export function generateMetadata({ params }: { params: { club: string } }) {
+  const club = getBoxOfficeClub(params.club);
+  if (!club) return {};
+  return {
+    title: `${club.label} - India Box Office Tracker`,
+    description: `${club.label} tracker across Indian industries, publishing only source-gated trade figures.`,
+    ...pageSeo({ path: `/box-office/${club.slug}/` })
+  };
+}
+
+export default function BoxOfficeClubPage({ params }: { params: { club: string } }) {
+  const club = getBoxOfficeClub(params.club);
+  if (!club) {
+    notFound();
+  }
+
+  const board = getCurrentBoxOfficeBoard();
+  const records = getClubRecords(club.tier);
+  const answer = `This club stays empty until a film has a publishable conservative figure at or above Rs ${club.tier} crore. A press-only or single-source figure does not count.`;
+
+  return (
+    <main className="page-shell box-office-hub" data-desk="tollywood">
+      <JsonLd
+        data={boxOfficeDatasetJsonLd({
+          name: `${club.label} tracker`,
+          description: `${club.label} cross-industry box-office dataset using conservative source-gated figures.`,
+          url: `/box-office/${club.slug}/`,
+          dateModified: board.generated_at,
+          records
+        })}
+      />
+      <JsonLd
+        data={boxOfficeRecordsItemListJsonLd({
+          name: `${club.label} entries`,
+          description: `Films that have cleared the ${club.label} threshold under BollyAI publish rules.`,
+          records
+        })}
+      />
+      <section className="section-head box-office-head">
+        <p className="eyebrow">Cross-industry club</p>
+        <h1>{club.label}</h1>
+        <AnswerBlock>{answer}</AnswerBlock>
+        <DateModified value={board.generated_at} />
+      </section>
+
+      <section className="panel bo-board-panel">
+        <header className="bo-panel-head">
+          <div>
+            <p className="eyebrow">Verified entries</p>
+            <h2>Club Board</h2>
+          </div>
+          <span className="pill">Rs {club.tier} cr threshold</span>
+        </header>
+        <BoxOfficeBoardTable
+          records={records}
+          emptyState="No film has cleared this club threshold under the renderer publish rule yet."
+        />
+      </section>
+    </main>
+  );
+}

@@ -31,8 +31,12 @@ const watch = listJson(path.join(dataDir, "recommendations"));
 const calendar = fs.existsSync(path.join(dataDir, "ott", "calendar.json"))
   ? readJson(path.join(dataDir, "ott", "calendar.json"))
   : { generated_at: LAUNCH, entries: [] };
+const boxoffice = fs.existsSync(path.join(dataDir, "boxoffice", "current-week.json"))
+  ? readJson(path.join(dataDir, "boxoffice", "current-week.json"))
+  : { generated_at: LAUNCH, records: [] };
 
 const DESKS = ["bollywood", "kollywood", "tollywood", "mollywood", "sandalwood", "hollywood", "streaming"];
+const CLUB_TIERS = [100, 200, 500, 1000];
 
 // ---- build URL rows per child {loc, lastmod} ----
 const urlXml = (rows) =>
@@ -55,9 +59,19 @@ const staticPaths = [
 ];
 const pages = [];
 for (const p of staticPaths) pages.push({ loc: `${SITE}${p}`, lastmod: LAUNCH });
+for (const tier of CLUB_TIERS) pages.push({ loc: `${SITE}/box-office/${tier}-crore-club/`, lastmod: day(boxoffice.generated_at) });
 for (const desk of DESKS) {
   const deskMod = maxDay(films.filter((f) => f.canonical_industry === desk).map((f) => f.date_modified));
   pages.push({ loc: `${SITE}/${desk}/`, lastmod: deskMod });
+}
+const scoreboardKeys = new Set();
+for (const row of boxoffice.records || []) {
+  if (!row.industry || !row.week?.start) continue;
+  scoreboardKeys.add(`${row.industry}|${String(row.week.start).slice(0, 4)}`);
+}
+for (const key of [...scoreboardKeys].sort()) {
+  const [industry, year] = key.split("|");
+  pages.push({ loc: `${SITE}/${industry}/box-office/${year}/`, lastmod: day(boxoffice.generated_at) });
 }
 pages.push({ loc: `${SITE}/ott/calendar/`, lastmod: day(calendar.generated_at) });
 const platforms = [...new Set((calendar.entries || []).map((e) => e.platform).filter(Boolean))];

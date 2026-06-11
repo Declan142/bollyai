@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
 import { AnswerBlock } from "../../components/AnswerBlock";
+import { BoxOfficeBoardTable } from "../../components/BoxOfficeBoardTable";
 import { DateModified } from "../../components/DateModified";
 import { JsonLd } from "../../components/JsonLd";
 import {
+  boxOfficeDatasetJsonLd,
   boxOfficeItemListJsonLd,
-  decideBoxOfficeFigure,
+  getBoxOfficeClubs,
   getCurrentBoxOfficeBoard,
-  uniqueFigureSources,
-  type BoxOfficeFigure,
-  type BoxOfficeRecord,
-  type BoxOfficeSource
+  getYearScoreboardParams
 } from "../../lib/boxoffice";
-import { formatCrore, formatDate } from "../../lib/data";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -26,6 +24,15 @@ export default function BoxOfficeHubPage() {
 
   return (
     <main className="page-shell box-office-hub" data-desk="tollywood">
+      <JsonLd
+        data={boxOfficeDatasetJsonLd({
+          name: `India box office tracker: ${board.week.label}`,
+          description: "Current-week India box-office dataset with conservative source-gated publishing.",
+          url: "/box-office/",
+          dateModified: board.generated_at,
+          records: board.records
+        })}
+      />
       <JsonLd data={boxOfficeItemListJsonLd(board)} />
       <section className="section-head box-office-head">
         <p className="eyebrow">Box office desk</p>
@@ -56,41 +63,26 @@ export default function BoxOfficeHubPage() {
           </div>
           <span className="pill">{board.territory}</span>
         </header>
-        <div className="table-wrap">
-          <table className="day-wise-table bo-board">
-            <thead>
-              <tr>
-                <th>Film</th>
-                <th>Industry</th>
-                <th>Week</th>
-                <th>India nett</th>
-                <th>Worldwide gross</th>
-                <th>Sources</th>
-              </tr>
-            </thead>
-            <tbody>
-              {board.records.map((record) => (
-                <tr key={`${record.industry}-${record.film.slug ?? record.film.title}`}>
-                  <td className="bo-film-cell">
-                    <strong>{record.film.url ? <a href={record.film.url}>{record.film.title}</a> : record.film.title}</strong>
-                    <span>
-                      {record.language} | {record.territory}
-                    </span>
-                  </td>
-                  <td>{industryLabel(record.industry)}</td>
-                  <td>
-                    {formatDate(record.week.start)} to {formatDate(record.week.end)}
-                  </td>
-                  <MetricCell figure={record.india_net_inr_cr} />
-                  <MetricCell figure={record.worldwide_gross_inr_cr} />
-                  <td>
-                    <SourceStack sources={uniqueFigureSources(record)} record={record} />
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <BoxOfficeBoardTable records={board.records} />
+      </section>
+
+      <section className="bo-link-grid" aria-label="Box office scoreboards">
+        {getBoxOfficeClubs().map((club) => (
+          <a className="bo-link-card" href={`/box-office/${club.slug}/`} key={club.slug}>
+            <span className="eyebrow">Cross-industry club</span>
+            <strong>{club.label}</strong>
+            <span>Only films with a publishable conservative figure cross the line.</span>
+          </a>
+        ))}
+        {getYearScoreboardParams().map((scoreboard) => (
+          <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
+            <span className="eyebrow">Year scoreboard</span>
+            <strong>
+              {scoreboard.year} | {scoreboard.industry}
+            </strong>
+            <span>Industry-scoped tracker rows for the year.</span>
+          </a>
+        ))}
       </section>
 
       <section className="bo-method-grid" aria-label="Box office methodology">
@@ -114,47 +106,4 @@ export default function BoxOfficeHubPage() {
       </section>
     </main>
   );
-}
-
-function MetricCell({ figure }: { figure: BoxOfficeFigure }) {
-  const decision = decideBoxOfficeFigure(figure);
-  return (
-    <td>
-      <span className="bo-metric" data-state={decision.published ? "published" : "tracking"}>
-        <strong>{decision.published ? formatCrore(decision.range) : "tracking"}</strong>
-        <span>{decision.published ? decision.label : figure.label}</span>
-        {decision.published && <small>Basis: {decision.basisSources.join(" + ")}</small>}
-        {decision.caveat && <small>{decision.caveat}</small>}
-      </span>
-    </td>
-  );
-}
-
-function SourceStack({ sources, record }: { sources: BoxOfficeSource[]; record: BoxOfficeRecord }) {
-  if (sources.length === 0) {
-    return <span className="source-line">Sources pending.</span>;
-  }
-
-  return (
-    <span className="bo-source-stack">
-      {sources.map((source) => (
-        <a href={source.url} key={`${record.film.title}-${source.name}-${source.url}`} rel="noopener" target="_blank">
-          {source.name}
-          {source.as_of ? ` as of ${formatDate(source.as_of)}` : ""}
-        </a>
-      ))}
-    </span>
-  );
-}
-
-function industryLabel(industry: string): string {
-  return {
-    bollywood: "Bollywood",
-    hollywood: "Hollywood",
-    kollywood: "Kollywood",
-    mollywood: "Mollywood",
-    sandalwood: "Sandalwood",
-    streaming: "Streaming",
-    tollywood: "Tollywood"
-  }[industry] ?? industry;
 }

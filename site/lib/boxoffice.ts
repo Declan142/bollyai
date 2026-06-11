@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { DeskSlug } from "./desks";
-import type { MoneyRange } from "./data";
+import type { Film, MoneyRange } from "./data";
 
 export type BoxOfficeSource = {
   name: string;
@@ -49,6 +49,12 @@ export type BoxOfficeBoard = {
   records: BoxOfficeRecord[];
 };
 
+export type BoxOfficeClub = {
+  slug: string;
+  label: string;
+  tier: number;
+};
+
 export type FigureDecision =
   | {
       published: true;
@@ -70,6 +76,7 @@ const boxofficeDir = path.resolve(process.cwd(), "..", "data", "boxoffice");
 const currentWeekPath = path.join(boxofficeDir, "current-week.json");
 
 const SOUTH_FIRST: DeskSlug[] = ["tollywood", "kollywood", "mollywood", "sandalwood", "bollywood", "hollywood", "streaming"];
+const CLUB_TIERS = [100, 200, 500, 1000] as const;
 
 const SOURCE_GROUPS: Record<string, string> = {
   sacnilk: "sacnilk",
@@ -182,16 +189,75 @@ export function uniqueFigureSources(record: BoxOfficeRecord): BoxOfficeSource[] 
   return output;
 }
 
+export function getBoxOfficeClubs(): BoxOfficeClub[] {
+  return CLUB_TIERS.map((tier) => ({
+    slug: `${tier}-crore-club`,
+    label: `${tier} Crore Club`,
+    tier
+  }));
+}
+
+export function getBoxOfficeClub(slug: string): BoxOfficeClub | undefined {
+  return getBoxOfficeClubs().find((club) => club.slug === slug);
+}
+
+export function getClubRecords(tier: number): BoxOfficeRecord[] {
+  return getCurrentBoxOfficeBoard()
+    .records.filter((record) => {
+      const indiaDecision = decideBoxOfficeFigure(record.india_net_inr_cr);
+      const worldwideDecision = decideBoxOfficeFigure(record.worldwide_gross_inr_cr);
+      const indiaLow = indiaDecision.published ? indiaDecision.range.low : 0;
+      const worldwideLow = worldwideDecision.published ? worldwideDecision.range.low : 0;
+      return Math.max(indiaLow, worldwideLow) >= tier;
+    })
+    .sort(compareRecordsSouthFirst);
+}
+
+export function getYearScoreboardRecords(industry: DeskSlug, year: string): BoxOfficeRecord[] {
+  return getCurrentBoxOfficeBoard()
+    .records.filter((record) => record.industry === industry && record.week.start.startsWith(year))
+    .sort(compareRecordsSouthFirst);
+}
+
+export function getYearScoreboardParams(): Array<{ industry: DeskSlug; year: string }> {
+  const seen = new Set<string>();
+  const output: Array<{ industry: DeskSlug; year: string }> = [];
+  for (const record of getCurrentBoxOfficeBoard().records) {
+    const year = record.week.start.slice(0, 4);
+    const key = `${record.industry}-${year}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    output.push({ industry: record.industry, year });
+  }
+  return output.sort((left, right) => industryRank(left.industry) - industryRank(right.industry) || right.year.localeCompare(left.year));
+}
+
 export function boxOfficeItemListJsonLd(board: BoxOfficeBoard) {
+  return boxOfficeRecordsItemListJsonLd({
+    name: `India box office tracker: ${board.week.label}`,
+    description: "Current-week Indian theatrical box-office tracking with conservative trade publishing rules.",
+    records: board.records
+  });
+}
+
+export function boxOfficeRecordsItemListJsonLd({
+  name,
+  description,
+  records
+}: {
+  name: string;
+  description: string;
+  records: BoxOfficeRecord[];
+}) {
   const site = "https://bollyai.in";
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `India box office tracker: ${board.week.label}`,
-    description: "Current-week Indian theatrical box-office tracking with conservative trade publishing rules.",
+    name,
+    description,
     itemListOrder: "https://schema.org/ItemListOrderAscending",
-    numberOfItems: board.records.length,
-    itemListElement: board.records.map((record, index) => ({
+    numberOfItems: records.length,
+    itemListElement: records.map((record, index) => ({
       "@type": "ListItem",
       position: index + 1,
       item: {
@@ -202,6 +268,84 @@ export function boxOfficeItemListJsonLd(board: BoxOfficeBoard) {
       }
     }))
   };
+}
+
+export function boxOfficeDatasetJsonLd({
+  name,
+  description,
+  url,
+  dateModified,
+  records
+}: {
+  name: string;
+  description: string;
+  url: string;
+  dateModified: string;
+  records: BoxOfficeRecord[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name,
+    description,
+    url: `https://bollyai.in${url}`,
+    dateModified,
+    creator: {
+      "@type": "Organization",
+      name: "BollyAI",
+      url: "https://bollyai.in"
+    },
+    measurementTechnique: "Two-source independent trade verification with conservative lower-bound publishing.",
+    variableMeasured: ["India nett box office", "Worldwide gross box office"],
+    spatialCoverage: "India",
+    keywords: records.map((record) => record.film.title).join(", ")
+  };
+}
+
+export function filmBoxOfficeDatasetJsonLd(film: Film) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: `${film.title.value} box office tracker`,
+    description: `${film.title.value} day-wise India nett box-office tracker with attributed trade sources.`,
+    url: `https://bollyai.in/${film.canonical_industry}/box-office/${film.slug}/`,
+    dateModified: film.date_modified,
+    creator: {
+      "@type": "Organization",
+      name: "BollyAI",
+      url: "https://bollyai.in"
+    },
+    about: {
+      "@type": "Movie",
+      name: film.title.value,
+      sameAs: `https://www.wikidata.org/wiki/${film.qid.value}`
+    },
+    measurementTechnique: "Day-wise trade readings rendered through BollyAI box-office publish rules.",
+    variableMeasured: "India nett box office"
+  };
+}
+
+export function filmDayRowsItemListJsonLd(film: Film) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${film.title.value} day-wise box office rows`,
+    numberOfItems: film.box_office.day_rows.length,
+    itemListElement: film.box_office.day_rows.map((row, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Dataset",
+        name: `${film.title.value} day ${row.day} box office`,
+        dateModified: row.net_inr_cr.fetched_at,
+        variableMeasured: "India nett box office"
+      }
+    }))
+  };
+}
+
+export function isYearSlug(slug: string): boolean {
+  return /^20\d{2}$/.test(slug);
 }
 
 function industryRank(industry: DeskSlug): number {
