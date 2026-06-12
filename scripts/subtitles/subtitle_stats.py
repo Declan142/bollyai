@@ -15,7 +15,8 @@ TAG_RE = re.compile(r"<[^>]+>")
 CREDIT_RE = re.compile(r"addic|opensubtitl|podnapisi|subscene|synced|corrected by|subtitles? by|encoded by|resync|www\.|\.com|\.org", re.I)
 SDH_BRACKET_RE = re.compile(r"\[[^\]]*\]|\([^)]*\)")  # [door creaks] / (sighs)
 
-# FROM principal cast (public knowledge; used only to COUNT spoken name mentions)
+# FROM principal cast (public knowledge; used only to COUNT spoken name mentions).
+# Other series: drop a roster.json (["Name", ...]) in data/subtitles/<slug>/ - loaded in main().
 ROSTER = ["Boyd", "Tabitha", "Jim", "Julie", "Ethan", "Victor", "Sara", "Kenny",
           "Donna", "Kristi", "Jade", "Elgin", "Fatima", "Tian-Chen", "Tillie",
           "Randall", "Marielle", "Dale", "Henry", "Abby", "Martin", "Smiley",
@@ -141,7 +142,11 @@ def episode_stats(path, ep_id):
 
 
 def main(slug):
+    global ROSTER
     root = os.path.expanduser(f"~/bollyai/data/subtitles/{slug}")
+    roster_p = os.path.join(root, "roster.json")
+    if os.path.exists(roster_p):
+        ROSTER = json.load(open(roster_p))
     out = os.path.join(root, "_stats")
     os.makedirs(out, exist_ok=True)
     series = {"episodes": [], "phrase_index": defaultdict(list)}

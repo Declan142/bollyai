@@ -1,3 +1,29 @@
+# BollyAI — pickup state (2026-06-12 ~23:55, SUBTITLE INTELLIGENCE ENGINE LIVE — overnight batch running)
+
+**FREE-MODEL SUBTITLE ENGINE (built+proven tonight):** scripts/subtitles/ now has the full
+free-lane stack - FREE_MODEL_RULES.md (4-gate quality contract G1 schema/G2 grep-grounding/
+G3 cross-family judge/G4 Fable adjudication) + orfree.py (staggered hedge: gpt-oss ->
+nemotron-super thinking-low +75s -> deepseek-v4-flash PAID backstop +150s; 900 req/day
+quota guard) + extract_dossier.py + season_crosspass.py (1M-ctx whole-series, 2-family
+consensus: both-found=high, single=candidate) + verify_grounding.py (G2: every timestamp
+exists, every quote verbatim, caps enforced, claims stripped not argued) + stage_series.py
+(14 rosters) + run_batch.py. PILOT PROVEN scam-1992 E01: gpt-oss 36s, real dossier, gate
+caught 3 errors incl a quote anchored 14s off and a DISHONEST self_check.
+**BATCH RUNNING:** PID in _engine/batch-console.log, 13 series ~250 eps, ledger at
+data/subtitles/_engine/batch-ledger.jsonl. STOP: touch data/subtitles/_engine/STOP.
+Resume-safe. llm_router v2 shipped globally (dead deepseek:free leg healed, 8/8 smoke,
+synced to placement-papers-fresh + pushed).
+**SUBTITLE CORPUS GIT STATE (Aditya ruled: not a violation):** data/subtitles/ now in
+.gitignore + 112 files untracked in a LOCAL commit (not pushed). Remote main still has 37
+FROM .srt. Aditya's read: fence #8 = don't SERVE on site, repo-hosting fine. Local commit
+kept as hygiene (new 284-file corpus stays out of repo; site never reads it). Revert =
+`git revert HEAD` if he wants tracking back. Next push WILL remove them from origin HEAD.
+**NEXT (his stated vision):** review-stage for ALL series from verified dossiers (free
+models draft per RULES Part 3, G3 judge, Fable adjudicates voice) -> homepage "naye
+episode reviews" rail (frontend increment, design-reviewer >=7.5, deploy = his approval).
+FROM showcase verdict still standing.
+
+---
 # BollyAI — pickup state (2026-06-12 ~08:00, OVERNIGHT FLEET WAVE — MEGA-DEPLOY LIVE)
 
 **5-lane wave merged + 2 deploys to bollyai.in:** batch-11 +30 South-first series (catalogue 542) · /box-office/ hub + crore-clubs (blueprint namespace, BO publish rule in renderer - 56 honest tracking states live) · /tools/hit-flop-calculator + /tools/box-office-comparator (Seat-08) · poster-harvester v2 engine + attribution manifests (0 posters filled - only 9 SVG gaps, no legit sources; honest) · /ott/calendar verified weekly OTT calendar (Monday-anchored, regen via engine/regen_ott_weekly.py). Tests 157/157. Em-dash purged source-wide (24 strings). MYSTERY SOLVED: dirty-main w2w residue was COUPLED WIP (ogImage og-card stack) - restored from stash, committed 6a98020; stash entry retained. sharp now a real dep (variant generator in prebuild). IndexNow full 2831 one-time + hash-gated delta after. Deploy = wrangler direct (vault cloudflare.md works).
