@@ -84,7 +84,7 @@ REVIEW DRAFT:
 AUTOMATIC FAIL (set overall=0, verdict=fail) if ANY of these are present in spoiler_free or the_moment:
 - Any timestamp or beat-ref (e.g. "beat 05:20", "at 38:02", "2882 s", "12:01")
 - Any meta-reference to subtitles or production process ("as the English subtitles render it", "as the dialogue has it", "the subtitles show")
-- Any silence/gap duration used as criticism ("143-second silent stretch", "29-minute pause", "48-second gap", "two-minute dead silence")
+- Any silence, gap, or pause used as pacing criticism. Variants that ALWAYS fail: numbered duration + silence/pause/gap/stretch ("143-second silent stretch", "29-minute pause", "48-second gap"); weighted adjective + silence/pause noun ("long silences", "relentless silence", "extended pause", "dead silence"); "silent stretch"; silence/pause noun followed by a pacing-consequence verb ("silences stall momentum", "long silences, which, though atmospheric, stall momentum", "pause drags", "silence hampers pacing"). Only criticism anchored in story events, character decisions, or structural repetition is allowed.
 - Any first-person viewing claim ("I watched", "we saw")
 
 If no auto-fail, score rubric (each 0-2):
@@ -133,6 +133,29 @@ def sanitize_prose(text: str) -> str:
     return text
 
 
+# Regex patterns that flag silence/gap/pause criticism.
+# Rule: subtitle silence is songs, action, reaction - not pacing evidence.
+# Any of these patterns in spoiler_free or the_moment = local FAIL (forces regen, no G3 call).
+_GAP_PATTERNS: list[re.Pattern] = [
+    # numbered duration + silence/pause/gap/stretch noun (either order)
+    re.compile(r'\b\d+[\s\-](?:second|minute|sec|min)s?\b.{0,40}\b(?:silence|pause|gap|stretch|lull)\b', re.I),
+    re.compile(r'\b(?:silence|pause|gap|stretch|lull)s?\b.{0,40}\b\d+[\s\-](?:second|minute|sec|min)', re.I),
+    # weighted-adjective + silence/pause noun ("long silences", "relentless silence", "dead silence")
+    re.compile(r'\b(?:long|relentless|extended|prolonged|dead|protracted|lengthy|overlong)\s+(?:silence|silences|pause|pauses|gap|gaps)\b', re.I),
+    # "silent stretch" - common LLM phrasing for subtitle gaps
+    re.compile(r'\bsilent\s+stretch\b', re.I),
+    # silence/pause noun anywhere followed by a pacing-consequence verb within 80 chars
+    re.compile(r'\b(?:silence|silences|pause|pauses)\b.{0,80}\b(?:stalls?|drags?|hampers?|bogs?\s+down|slows?\s+(?:the\s+)?(?:pace|pacing|momentum)|kills?\s+(?:the\s+)?(?:pace|pacing|momentum)|undermines?|wastes?|pacing\s+suffers)\b', re.I),
+]
+
+
+def gap_criticism_hit(text: str) -> bool:
+    """Return True if text uses silence/gap/pause as pacing criticism."""
+    if not text:
+        return False
+    return any(p.search(text) for p in _GAP_PATTERNS)
+
+
 def banned_hit(text: str) -> list[str]:
     low = (text or "").lower()
     return [b for b in BANNED if b in low] + (["em-dash"] if re.search(r"[—–]", text or "") else [])
@@ -155,6 +178,8 @@ def draft_one(slug: str, ep_stem: str, dossier: dict, ctx: str) -> dict | None:
     issues = []
     if banned_hit(sf) or banned_hit(obj.get("the_moment", "")):
         issues.append(f"banned: {banned_hit(sf) + banned_hit(obj.get('the_moment',''))}")
+    if gap_criticism_hit(sf) or gap_criticism_hit(obj.get("the_moment", "")):
+        issues.append("gap-criticism: silence/pause/gap used as pacing criticism")
     if not (95 <= wc <= 175):
         issues.append(f"length {wc}")
     if re.search(r"\b(I|we) (watch|saw|watched|see)\b", sf, re.I):
