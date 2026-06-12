@@ -1,32 +1,25 @@
 Status: COMPLETE
 Did:
-  - Ran the v2 official-only poster harvester on the 8 fallback SVG series in this worktree.
-  - Kept fallback SVGs because all 8 poster retries failed the official/usable-poster checks.
-  - Resolved 37 qid nulls from Wikipedia sidebar or wikidata.org evidence with title, year, and platform or platform-family concurrence.
-  - Left 14 qid nulls where evidence was missing, ambiguous, wrong-media, or platform-mismatched.
-  - Cleaned touched-series double-hyphen and unicode-dash prose hits.
-  - Rebuilt generated public sitemaps after date_modified changes.
+  - Read BRIEF-INTEGRATOR.md and executed the requested integrator flow.
+  - Merged agents/bolly-quality-0612c into main; it fast-forwarded cleanly to 39b4fec.
+  - Merged agents/bolly-ottfill-0612c into main; only last.txt conflicted and was resolved with --ours per brief.
+  - Committed the OTT merge as f878812 using the default merge message.
+  - Ran the required local verification gates after the merges.
+  - Did not push, deploy, or run IndexNow.
 Artefacts:
-  - data/_state/poster-harvest-0612c-deep-retry.json (328 lines)
-  - data/_state/qid-null-sweep-0612c.json (62 lines)
-  - 38 data/series JSON files updated
-  - site/public/sitemap-series.xml (546 lines)
-  - site/public/sitemap-seasons.xml (1295 lines)
-  - site/public/sitemap-where-to-watch.xml (290 lines)
+  - merge commit f878812 (12 files, 446 insertions, 9 deletions)
+  - quality commit 39b4fec fast-forwarded into main
+  - site/out (177M static build output)
+  - last.txt (this handoff)
 Verification:
-  - python3 scripts/batch/validate_series.py <38 touched slugs> -> 38/38 clean, 0 failed
-  - python3 -m pytest tests/ -> 168 passed
-  - npm run build in site -> Next static build passed and assert-no-aggregate-rating passed
-  - grep JSON/prose double-hyphen sweep over data/series, data/endings, data/boxoffice, data/_state -> clean
-  - grep unicode dash sweep over data/series -> clean
+  - git diff --cached --check -> clean before merge commit
+  - python3 -m pytest tests/ -> 169 passed
+  - cd site && npm run build -> passed; generated 2365 static pages and assert-no-aggregate-rating passed
+  - conductor outcome bollyai done "merged quality+ottfill lanes; pytest 169 passed; site build passed; no push/deploy/indexnow" -> accepted
+  - git status --short --branch -> main ahead of origin/main; only BRIEF-INTEGRATOR.md untracked before this handoff write
 Open issues:
-  - Poster deep-retry wrote no new posters: avatar-the-last-airbender, made-in-india-a-titan-story, mirzapur, panchayat, raakh, severance, the-family-man, and wednesday remain on honest fallback SVG.
-  - 14 qid values remain null; details are in data/_state/qid-null-sweep-0612c.json.
-  - Literal grep over all data still matches pre-existing subtitle timestamp arrows in data/subtitles and ledger prose in data/_state/library-buildout.md; scoped JSON/prose sweeps for this lane are clean.
-Next step suggested: review the two state reports before any separate approval-gated deploy or IndexNow action.
+  - BRIEF-INTEGRATOR.md remains untracked input in the workspace.
+  - No push/deploy/IndexNow was performed, per floor/credentialed fence.
+Next step suggested: Review local main ahead of origin/main, then push/deploy only through the approved credentialed lane.
 Network URLs:
-  - https://en.wikipedia.org/w/api.php
-  - https://en.wikipedia.org/api/rest_v1/page/summary/
-  - https://www.wikidata.org/w/api.php
-  - https://www.wikidata.org/wiki/Special:EntityData/
-  - https://upload.wikimedia.org/
+  - none
