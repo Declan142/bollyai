@@ -1,30 +1,33 @@
 Status: COMPLETE
 Did:
-  - Dropped the old movie-provider spine and deleted engine/fetchers/tmdb.py.
-  - Added Wikidata as the metadata spine with QID-keyed fetch, discovery, revision helpers, fixtures, cache, and degrade-on-pressure behavior.
-  - Migrated film JSON files from numeric filenames to QID filenames and replaced tmdb_id/wikidata_qid with qid.
-  - Replaced provider-delta OTT data with attributed official/trade announcement registry plus Sacnilk fixture parsing.
-  - Added Next.js sitemap generation and OTT platform hubs generated from the calendar.
-  - Purged old source vocabulary from Python, TypeScript, TSX, and JSON files.
+  - Built Seat 08 top-two tools: Hit-Flop Verdict Calculator and X-vs-Y Box Office Comparator.
+  - Added client-safe verdict math, 9-rung Seat 05 recovery bands, GST/share controls, and honest tracking states for missing budgets.
+  - Added comparator typeahead, day/calendar alignment, India nett trajectory chart, cumulative rows, and disabled tracking states for missing worldwide/footfall feeds.
+  - Added static route pages with methodology blocks, internal mesh links, and ItemList JSON-LD only.
+  - Added data-fill README notes for Seat 03 gaps.
+  - Added tool routes to sitemap/search generation scripts.
 Artefacts:
-  - engine/fetchers/wikidata.py (568 lines)
-  - engine/fetchers/ott_announcements.py (312 lines)
-  - site/app/sitemap.ts (70 lines)
-  - site/app/ott/[platform]/page.tsx (62 lines)
-  - data/films/Q112430183.json (264 lines)
-  - data/films/Q124515855.json (189 lines)
-  - data/ott/announcements.json (28 lines)
-  - data/ott/calendar.json (72 lines)
+  - site/lib/tool-math.ts (241 lines)
+  - site/lib/tool-data.ts (96 lines)
+  - site/components/HitFlopCalculatorClient.tsx (247 lines)
+  - site/components/BoxOfficeComparatorClient.tsx (310 lines)
+  - site/app/tools/hit-flop-calculator/page.tsx (84 lines)
+  - site/app/tools/box-office-comparator/page.tsx (80 lines)
+  - site/app/tools/README.md (27 lines)
+  - site/app/globals.css (tool styles added)
+  - site/scripts/build-search-index.mjs (tool search entries)
+  - site/scripts/build-sitemaps.mjs (tool sitemap paths)
 Verification:
-  - cd /home/aditya/bollyai/site && npm run build -> passed; exported 26 HTML files; out/sitemap.xml exists.
-  - cd /home/aditya/bollyai && python3 engine/fetchers/run_all.py --fixture-mode --write data/ -> passed; films_fetched=2; metadata_enrichment_skipped=0; wrote data/films/Q112430183.json and data/films/Q124515855.json.
-  - cd /home/aditya/bollyai && python3 engine/fetchers/wikidata.py probe --qid Q124515855 --resolve-label "Kalki 2898 AD" -> one live SPARQL GET passed; enrichment_skipped=false; Kalki label resolved to Q112430183; Q124515855 returned a live item but no useful label/date/language metadata.
-  - cd /home/aditya/bollyai && python3 -m pytest tests/ -> 29 passed.
-  - cd /home/aditya/bollyai && grep -ri tmdb --include='*.py' --include='*.ts' --include='*.tsx' --include='*.json' . | grep -v node_modules | grep -v '\.git/' -> empty output.
-  - cd /home/aditya/bollyai && git diff --check -> clean.
+  - cd site && npm run build -> passed; 2247 static pages exported; /tools/box-office-comparator and /tools/hit-flop-calculator present; assert-no-aggregate-rating ran.
+  - python3 -m pytest tests/ -> 150 passed.
+  - rg fancy-dash pattern over changed tool files -> empty output.
+  - rg first-person viewing-claim pattern over changed tool files -> empty output.
+  - rg AggregateRating/Review schema pattern over changed tool files -> empty output.
+  - curl -I http://127.0.0.1:4173/tools/hit-flop-calculator/ -> HTTP 200.
+  - curl -I http://127.0.0.1:4173/tools/box-office-comparator/ -> HTTP 200.
 Open issues:
-  - Wikidata live probe did not confirm useful metadata on the user-directed Manjummel Boys QID Q124515855; retained that QID per directive and fixture-backed the expected metadata shape.
-  - A commit cannot contain its own final hash; the final HEAD commit hash is reported in the final response.
-Next step suggested: Re-check Manjummel Boys on Wikidata manually when the item is updated or if Aditya wants to override the directed QID.
+  - design-reviewer executable/tool was not available in this workspace, so no numeric design score was produced.
+Next step suggested: Seat 03 should fill first-party budgets, film-specific share ratios, day-wise worldwide gross, and footfall fields per site/app/tools/README.md.
 Network URLs:
-  - https://query.wikidata.org/sparql (one live GET)
+  - http://127.0.0.1:4173/tools/hit-flop-calculator/ (local preview)
+  - http://127.0.0.1:4173/tools/box-office-comparator/ (local preview)
