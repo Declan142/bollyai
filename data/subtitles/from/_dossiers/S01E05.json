@@ -1,0 +1,46 @@
+{
+  "episode": "S01E05",
+  "title": "Silhouettes",
+  "air_date": "2022-03-06",
+  "beats": [
+    {"t": "01:35", "what": "Sara collapses with a seizure in the diner; Nathan is summoned"},
+    {"t": "02:55", "what": "Boyd asks Kristi whether physical seizures could be a reaction specific to the place; he admits his own tremors"},
+    {"t": "06:12", "what": "Jim turns the house wall into a question board with Ethan, framing escape as a solvable engineering problem"},
+    {"t": "10:35", "what": "Jade and the bar philosopher argue about Schrodinger's cat and whether figuring out where 'here' is can unlock escape"},
+    {"t": "19:03", "what": "Father Khatri tells Julie the story of his father being killed in Iran; defines survival as refusing to let monsters own your interior life"},
+    {"t": "30:55", "what": "Sara asks Boyd whether he would do 'one bad thing' if it got everyone home; he says yes"},
+    {"t": "38:47", "what": "Sara steals a scalpel from the clinic and runs into the woods with it"},
+    {"t": "46:35", "what": "Boyd receives his sign at the grave and announces he knows what to do"}
+  ],
+  "character_beats": [
+    {"who": "Sara", "beat": "Wants to be believed as someone healing yet is actually probing Boyd for permission to commit a specific act; the hospitality and the seizure are both cover", "evidence_t": "11:29"},
+    {"who": "Boyd", "beat": "Wants a sign from a dead woman before he acts; says yes to Sara's hypothetical without knowing he is authorizing something real", "evidence_t": "30:55"},
+    {"who": "Jim", "beat": "Wants to problem-solve his family out of the place; makes a game of it for Ethan but the questions on the wall expose how little any of them actually know", "evidence_t": "06:08"}
+  ],
+  "key_lines": [
+    {"t": "11:29", "speaker": null, "line": "If you did one bad thing and everyone gets to go home, would you do it?", "why": "Sara's hypothetical is actually a test of whether Boyd will authorize the plan the voices gave her"},
+    {"t": "12:46", "speaker": null, "line": "A lot of good for one bad thing.", "why": "Boyd's answer is the consent Sara needed; the episode hinges on this exchange"},
+    {"t": "28:26", "speaker": null, "line": "There are always going to be monsters in the world. I promised myself I would never let them scare the life out of me.", "why": "Khatri's philosophy is the episode's thematic counter-statement to Sara's logic"},
+    {"t": "13:57", "speaker": null, "line": "If the cat turns on the radio, you can be sure the people outside the box know it's still alive.", "why": "The Schrodinger framing reframes escape as a communication problem, not a geography problem"}
+  ],
+  "open_loops": [
+    "What exactly did Sara intend to do with the scalpel in the woods?",
+    "What are the voices Sara hears and what do they want?",
+    "What is Boyd's plan, and what did the 'sign' at the grave confirm?",
+    "Will Kristi's radio idea actually broadcast a signal outside the town?",
+    "What is the significance of multiple people having seizures including Ethan and Sara?"
+  ],
+  "payoffs": [
+    {"plants_from": "S01E02 16:24", "pays_here": "19:03", "what": "Fatima's 'nightmare can look like a dream' philosophy from E02 is echoed and deepened by Khatri's silhouette story about his father"},
+    {"plants_from": "S01E03 11:29", "pays_here": "11:29", "what": "Sara's earlier confession that she 'left the door open' because voices told her it was the only way home connects directly to her hypothetical question to Boyd about doing one bad thing"},
+    {"plants_from": "S01E04 46:31", "pays_here": "46:35", "what": "Boyd's promise to the grave that he will swing big if he gets a sign is fulfilled when the sign arrives at episode end"}
+  ],
+  "contradiction": {
+    "who": "Sara",
+    "wants": "To be seen as someone trying to help people go home",
+    "does": "Manipulates Boyd into a consent he does not know he is giving, then steals a weapon and runs into the woods the voices told her to use",
+    "line_t": "11:29"
+  },
+  "tone_notes": "Two consecutive silences bracket the mid-episode turn: 68 seconds (07:11-08:19) and 48 seconds (08:20-09:10) flanking the episode title card, producing roughly two minutes of near-quiet at the episode's center of gravity. Density peaks at minutes 0-1 and 3 (193, 180 w/min), matching the Sara seizure chaos. Minutes 7-9 drop to 5-24 w/min, the quietest sustained stretch in this batch, functioning as a reset before the Sara-Boyd night conversation that drives the episode.",
+  "speaker_attribution_confidence": "low"
+}

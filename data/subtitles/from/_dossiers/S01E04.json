@@ -1,0 +1,45 @@
+{
+  "episode": "S01E04",
+  "title": "A Rock and a Farway",
+  "air_date": "2022-02-27",
+  "beats": [
+    {"t": "04:39", "what": "Frank's remains are carried out after his night in the box; the creatures left little"},
+    {"t": "08:19", "what": "Jade insists on seeing where the dead man lay in the tunnel; there is nothing there now"},
+    {"t": "13:01", "what": "Victor shows Ethan his crayon drawing of the boy who lives outside; Ethan confirms it is the same figure he saw"},
+    {"t": "17:36", "what": "Jim confronts Tabitha with Tabitha's revelation that Julie knows about the planned divorce"},
+    {"t": "22:30", "what": "Khatri confronts Boyd about punishing himself; names a dead woman as the grief Boyd cannot process"},
+    {"t": "27:42", "what": "Victor leads Ethan to a farway tree, a branch that teleports objects to unpredictable locations"},
+    {"t": "32:56", "what": "Ethan vanishes while Victor and Ethan examine the farway tree; parents discover he is gone"},
+    {"t": "46:31", "what": "Boyd speaks to a grave, reveals tremors in his hand matching his father's illness, discloses his plan to get people home"}
+  ],
+  "character_beats": [
+    {"who": "Boyd", "beat": "Wants to be emotionally unavailable and purely functional yet cannot stop talking to a dead woman's grave; the tremors make his denial of grief both poignant and urgent", "evidence_t": "29:27"},
+    {"who": "Tabitha", "beat": "Wants to keep the family unit together yet goes to confront Julie alone without telling Jim, choosing individual action over the united front she argues for", "evidence_t": "22:08"},
+    {"who": "Jade", "beat": "Has abandoned the escape-room theory but replaced it with a new delusion: that someone designed this and can be reasoned with; his map of origins is the episode's intellectual substitute for grief", "evidence_t": "24:38"}
+  ],
+  "key_lines": [
+    {"t": "29:14", "speaker": null, "line": "She died for nothing.", "why": "Khatri's closing line names the unnamed woman as the wound driving Boyd; it reframes every prior Boyd scene"},
+    {"t": "23:54", "speaker": null, "line": "I don't just sit around accepting the world as it is! Someone is doing this.", "why": "Jade's refusal to adapt is his clearest statement of the show's alternative survival posture"},
+    {"t": "17:36", "speaker": null, "line": "Thomas is dead. You have two other kids. Why aren't we enough for you?", "why": "Julie names the dead brother Thomas; first confirmation the Matthews family grief predates the town"},
+    {"t": "31:57", "speaker": null, "line": "Sometimes you end up stuck inside a mountain somewhere. They're temperamental that way.", "why": "Victor's casual warning about the farway trees introduces teleportation risk just before Ethan uses one"}
+  ],
+  "open_loops": [
+    "Where did Ethan teleport to via the farway tree?",
+    "Who is the unnamed woman Boyd grieves, and how did she die?",
+    "Who is Thomas and what happened to him before the family trip?",
+    "How many farway trees exist in the town, and who knows about them?",
+    "What is Boyd's plan that requires a 'big swing' and could leave people worse off?"
+  ],
+  "payoffs": [
+    {"plants_from": "S01E03 30:31", "pays_here": "17:37", "what": "Victor's tree-measurement obsession from E03 is contextualized: he has been tracking the farway trees, not just proximity of the forest"},
+    {"plants_from": "S01E03 30:20", "pays_here": "13:01", "what": "The mysterious boy Ethan saw in E03 is confirmed real by Victor's crayon drawing matching Ethan's description"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "To hold himself to pure function and duty, no grief allowed",
+    "does": "Visits a grave alone, confesses tremors, admits to needing a sign, and asks a dead person for permission to act",
+    "line_t": "46:31"
+  },
+  "tone_notes": "The episode contains the batch's longest silence at 174 seconds (01:45-04:39), a long cold open that holds on Frank's aftermath without dialogue. A second silence of 136 seconds (36:22-38:38) follows the farway tree sequence as Ethan vanishes, letting the panic build without spoken words. Density peaks at minutes 22-23 (179 w/min) during the Jade mapping scene. Minutes 37-38 drop to zero, making Ethan's disappearance purely physical.",
+  "speaker_attribution_confidence": "low"
+}

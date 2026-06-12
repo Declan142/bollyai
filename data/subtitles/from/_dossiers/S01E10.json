@@ -1,0 +1,127 @@
+{
+  "episode": "S01E10",
+  "title": "Oh, the Places We'll Go",
+  "beats": [
+    {
+      "t": "02:17",
+      "what": "Jade demonstrates the lamp-socket workaround that turns Colony House into a giant battery, solving the power problem for the radio"
+    },
+    {
+      "t": "06:09",
+      "what": "Boyd and Sara march toward a distant floodlight; Sara warns the voice said they were wrong to come this deep"
+    },
+    {
+      "t": "09:29",
+      "what": "Jim and Sara discuss who Mr. Fish and Loaves is; Boyd confirms it is his army nickname known only to Ellis and his wife Abby"
+    },
+    {
+      "t": "17:50",
+      "what": "Ellis proposes to Fatima at the exact spot where he first saw her arrive; gives her a ring made of wire from the tower project"
+    },
+    {
+      "t": "21:57",
+      "what": "Boyd hears Abby's voice and chases it, is attacked by creatures; screams at the forest that it is feeding on pain"
+    },
+    {
+      "t": "27:48",
+      "what": "Boyd collapses from spider-bite venom; Sara pushes him toward the light while Khatri's voice urges him onward"
+    },
+    {
+      "t": "36:07",
+      "what": "Radio tower activates; first transmission goes out -- Jim broadcasts a Mayday and a voice responds, asking if this is Jim Matthews"
+    },
+    {
+      "t": "40:39",
+      "what": "Mysterious voice tells Jim his wife should not be digging that hole, then the signal dies; Jim runs from the radio"
+    },
+    {
+      "t": "42:34",
+      "what": "Boyd and Sara discover a structure in the deep forest; inside, Tabitha is found having apparently arrived through the basement hole"
+    },
+    {
+      "t": "44:21",
+      "what": "Sara urges Boyd into a Farway Tree as something closes in; Boyd disappears and Sara is left stranded, screaming into an empty forest"
+    }
+  ],
+  "character_beats": [
+    {
+      "who": "Jim",
+      "beat": "Wants to be the one who gets everyone home; achieves the radio contact he has been building toward all season then abandons the radio mid-transmission when the voice reveals it knows Tabitha is in danger -- the engineer becomes a husband",
+      "evidence_t": "40:39"
+    },
+    {
+      "who": "Boyd",
+      "beat": "Wants to find answers; the forest shows him Abby's voice and creature-bait built from his grief, then the venom breaks his resolve -- only Sara's invocation of his son pulls him back into motion",
+      "evidence_t": "25:49"
+    },
+    {
+      "who": "Sara",
+      "beat": "Spent the season as captive and liability; in the finale she is the one who knows the forest's rules, pushes Boyd to safety, and is left alone -- her utility saves everyone but herself",
+      "evidence_t": "44:21"
+    },
+    {
+      "who": "Kristi",
+      "beat": "Promises Kenny she will come to him if she falls apart; quietly supports the tower through its completion, holding the emotional infrastructure Kenny cannot see",
+      "evidence_t": "34:52"
+    }
+  ],
+  "key_lines": [
+    {
+      "t": "24:51",
+      "speaker": null,
+      "line": "It gives you hope, then it takes it away, like it's feeding on your pain.",
+      "why": "Boyd's mid-breakdown diagnosis of the place's mechanics -- a genuine in-world theory about what the entity does and why, not just despair"
+    },
+    {
+      "t": "36:22",
+      "speaker": null,
+      "line": "Mayday. Mayday. Is anybody out there?",
+      "why": "The payoff for eight episodes of tower construction; the first moment the town makes contact with something outside"
+    },
+    {
+      "t": "40:40",
+      "speaker": null,
+      "line": "Your wife shouldn't be digging that hole, Jim.",
+      "why": "The mystery voice demonstrates it can see inside the town in real time -- and its knowledge is specific enough to end the radio contact abruptly"
+    }
+  ],
+  "open_loops": [
+    "Who is the voice on the radio that knows Jim Matthews by name and can see Tabitha digging in the basement?",
+    "What is at the end of the basement hole -- where does it lead, and is Tabitha physically transported or does she appear to Boyd via some other mechanism?",
+    "Where does Boyd go after entering the Farway Tree, and will the venom affect him inside?",
+    "Sara is left stranded alone in deep forest with night approaching -- what happens to her?",
+    "The Boy in White told the person in the deep structure to wait for Boyd -- who is the Boy in White and what is his role in the town's design?",
+    "The bottles contained dates suggesting people have been trapped since at least 1864 -- what does the scale of the prison imply about any escape attempt?",
+    "The place feeds on pain according to Boyd's theory -- if true, what does that mean for the entity's motive and whether escape is actually possible?"
+  ],
+  "payoffs": [
+    {
+      "plants_from": "S01E09 40:01",
+      "pays_here": "09:29",
+      "what": "Mr. Fish and Loaves confirmed as Boyd's army nickname; Sara's relayed message is tied to Abby, whose voice Boyd hears and chases in the forest"
+    },
+    {
+      "plants_from": "S01E09 41:44",
+      "pays_here": "42:34",
+      "what": "The basement breakthrough from E09's final moment pays off: Tabitha is found in the deep forest structure, apparently deposited there by whatever came through the hole"
+    },
+    {
+      "plants_from": "S01E07 45:41",
+      "pays_here": "42:34",
+      "what": "Victor's instruction to find his brother and warn him is echoed; the Boy in White in the deep structure told the occupant Boyd would come -- Victor's role as a guide converges with this"
+    },
+    {
+      "plants_from": "S01E06 44:00",
+      "pays_here": "40:40",
+      "what": "The impossible bracelet in E06 established that an outside force knows the Matthews' personal history; the radio voice's specific knowledge of Tabitha's basement activity confirms a watcher with real-time access to the town"
+    }
+  ],
+  "contradiction": {
+    "who": "Jim",
+    "wants": "To be the engineer who gets everyone home -- the radio is his identity and mission all season",
+    "does": "Abandons the radio mid-Mayday when the voice reveals his wife is in danger; the rescue instinct overrides the rescue plan",
+    "line_t": "40:47"
+  },
+  "tone_notes": "The season finale opens at 181 words in minute 1 -- the highest density opener in this five-episode batch -- before dropping to 104 and 83 as the tower preparations settle. Minutes 6-8 register 3, 0, 0 (a 133-second silence from 06:11 to 08:24), the episode's single longest pause, which separates the Jade solution scene from the Boyd-Sara forest march. The tower activation sequence at minutes 35-36 hits 134 before the radio contact lands; the celebration spike at minute 40 (98 words) is immediately followed by the episode's final collapse to 26, 35 for the closing forest sequence. The episode's pacing mirrors its plot shape: loud preparation, structural silence before the reveal, a brief peak at contact, then near-silence as the season ends mid-crisis.",
+  "speaker_attribution_confidence": "medium"
+}

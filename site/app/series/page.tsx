@@ -21,6 +21,8 @@ export default function SeriesIndex() {
       slug: s.slug,
       t: s.title.value,
       p: s.poster.src,
+      pa: s.poster.variants?.avifSrcSet,
+      pw: s.poster.variants?.webpSrcSet,
       o: s.origin,
       pl: s.platform.value,
       st: s.status,

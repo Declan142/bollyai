@@ -1,0 +1,39 @@
+{
+  "episode": "S04E05",
+  "title": "What a Long Strange Trip It's Been",
+  "beats": [
+    {"t": "02:08", "what": "Marielle sets Tabitha's broken arm without anaesthesia; Tabitha is newly arrived at the settlement"},
+    {"t": "10:16", "what": "The group pulls life-sized dolls from the settlement lake; Donna reads them as scarecrows keeping something in"},
+    {"t": "14:48", "what": "Jade's mushroom trip begins; Boyd attempts to anchor him in the forest"},
+    {"t": "18:55", "what": "Jade's trip surfaces a memory of his grandmother's death, not the answers he demanded"},
+    {"t": "33:58", "what": "Jade's hallucination shows all his previous incarnations murdered by townspeople who learned the truth about him"},
+    {"t": "40:58", "what": "Tabitha recovers a buried memory: the dolls were hers as a child in a previous life; when their owner died, their fears emerged from the lake"}
+  ],
+  "character_beats": [
+    {"who": "Jade", "beat": "Demands the trip deliver tactical intelligence about how to go home; instead it delivers grief and then a vision that the town itself will eventually kill him", "evidence_t": "14:48"},
+    {"who": "Tabitha", "beat": "Has been passive about her memories all episode, but the doll crisis forces a breakthrough; she accesses the past-life memory that saves the group", "evidence_t": "42:54"},
+    {"who": "Boyd", "beat": "Acts as Jade's anchor and safety net throughout the trip, but is himself showing tremors and a possible hallucination that he hides from Jade", "evidence_t": "24:00"}
+  ],
+  "key_lines": [
+    {"t": "14:53", "speaker": null, "line": "Show me what I used to know that I can't remember. Show me what's in here that'll help us leave.", "why": "Jade's framing of the trip as a retrieval mission; the episode then refuses that framing"},
+    {"t": "35:17", "speaker": null, "line": "None of them are ripped apart. These men were murdered.", "why": "The revelation that Jade's previous deaths were by human hands, not creatures"},
+    {"t": "50:55", "speaker": null, "line": "I know what we have to do to go home. I know how we can save the children.", "why": "The episode's closing turn: Jade emerges from the trip with what he believes is a complete answer"}
+  ],
+  "open_loops": [
+    "Jade says he knows how to save the children and get home; no one else has heard the specifics yet",
+    "The dolls were put back in the lake as scarecrows, but what they contain is now known; will that entity surface again?",
+    "Boyd's tremors and possible hallucination suggest personal deterioration he is not disclosing",
+    "Marielle had a breakdown in the ambulance during the episode; its cause is unnamed"
+  ],
+  "payoffs": [
+    {"plants_from": "S01E01", "pays_here": "40:58", "what": "The Lake of Tears phrase reaches its first concrete payoff: the settlement lake is not the Lake of Tears, but the memory Tabitha recovers from it is a past-life fragment about dolls thrown into a lake, linking the lake motif from the earliest episodes to Tabitha's reincarnation arc"}
+  ],
+  "contradiction": {
+    "who": "Jade",
+    "wants": "A controlled retrieval of tactical knowledge about how to break the trap",
+    "does": "Opens himself to uncontrolled visions that include his own repeated murder at the hands of the people he is trying to save",
+    "line_t": "14:53"
+  },
+  "tone_notes": "The episode sustains a 65.6 words/min average, the second lowest in the season, but the density map is violently spiky rather than evenly quiet. Two silences over 50 seconds anchor the trip sequence: 09:19-10:13 (55 sec) before the dolls surface, and 34:20-35:12 (52 sec) inside Jade's vision of his murdered past selves. The density spike at minute 33 (161 words/min) is the highest single-minute count of the episode and lands exactly on the moment Jade realizes the nature of his deaths.",
+  "speaker_attribution_confidence": "medium"
+}

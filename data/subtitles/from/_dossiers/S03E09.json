@@ -1,0 +1,46 @@
+{
+  "episode": "S03E09",
+  "title": "Revelations: Chapter One",
+  "beats": [
+    {"t": "02:14", "what": "Elgin feeds the reluctant Fatima in the hidden room; her belly has visibly grown at impossible speed"},
+    {"t": "07:29", "what": "Boyd reveals to Ellis his Parkinson's has been worsening; his leg nearly froze the day before -- the clock is ticking faster"},
+    {"t": "16:32", "what": "Boyd rings the bell and calls a town meeting; announces Fatima is missing and rallies a search party by invoking the talisman victory"},
+    {"t": "22:39", "what": "Boyd tells Kenny the illness is accelerating and offers him the deputy badge back; Kenny accepts"},
+    {"t": "35:41", "what": "Victor takes an axe to the bottle tree; the Boy in White appears and tells him not to cut it down, then leaves without more"},
+    {"t": "47:06", "what": "Tabitha finds Victor in the root cellar where his mother left that night; Victor confesses he was the reason she went to the tree"},
+    {"t": "55:51", "what": "Something impossible appears in the root cellar; Tabitha and the children react with terror -- episode ends on her screaming 'don't touch me'"}
+  ],
+  "character_beats": [
+    {"who": "Boyd", "beat": "has been concealing his Parkinson's progression from everyone; now tells Ellis precisely because he needs a successor, not because he wants help -- his self-sufficiency has become its own trap", "evidence_t": "35:58"},
+    {"who": "Fatima", "beat": "wants to escape and fight what is inside her; every attempt -- physical, verbal -- is met with Elgin's calm certainty; the place has convinced the person closest to her that her suffering is sacred", "evidence_t": "03:58"},
+    {"who": "Victor", "beat": "wants to destroy the tree that his mother walked into; the Boy in White stops him with one sentence -- and Victor asks his dead friend for help instead of fighting, showing how far his rage has converted to grief", "evidence_t": "40:36"}
+  ],
+  "key_lines": [
+    {"t": "21:14", "speaker": null, "line": "We proved this place couldn't break us. Now it's trying again. Fuck you.", "why": "Boyd's rally speech; the phrase is a direct callback to the talisman origin"},
+    {"t": "35:58", "speaker": null, "line": "I got a clock ticking on me. Yesterday it started ticking a little faster.", "why": "Boyd finally names the Parkinson's to Ellis; defines the season's mortality clock"},
+    {"t": "40:01", "speaker": null, "line": "You're supposed to be my friend. I am your friend. Then help me.", "why": "Victor's plea to the Boy in White -- only answer: 'Don't cut down that tree'"},
+    {"t": "47:30", "speaker": null, "line": "I was the reason she died.", "why": "Victor's core guilt finally spoken aloud; the weight he has carried the whole series"},
+    {"t": "55:20", "speaker": null, "line": "That's impossible. That's impossible!", "why": "The scene that ends the chapter; 'impossible' said twice signals something fundamental has broken"}
+  ],
+  "open_loops": [
+    "What impossible thing appeared in the root cellar at episode's end?",
+    "Fatima's belly has grown to near-term in days; what is the entity's timeline and endgame?",
+    "The Boy in White told Victor the bottle tree must not be cut; what happens if it is?",
+    "Tabitha recognizes something in the root cellar that she calls 'impossible' -- is this her childhood nightmare made real?",
+    "Victor's mother's night: he told her about the tree and the children; is there more to that night than he remembers?"
+  ],
+  "payoffs": [
+    {"plants_from": "S03E08 34:01", "pays_here": "02:14", "what": "Elgin's locked room is now revealed: Fatima is inside it, belly grown, being fed rotten things as the entity accelerates"},
+    {"plants_from": "S03E08 28:16", "pays_here": "22:01", "what": "Julie's screaming-voices go silent again at the root cellar ruins -- the place that was silencing them is now being sought deliberately"},
+    {"plants_from": "S03E06 (Victor tunnels)", "pays_here": "40:36", "what": "Victor's axe mission connects to the Boy in White who was the source of secrets all along, not Jasper"},
+    {"plants_from": "Early seasons (Boyd Parkinson's onset)", "pays_here": "35:58", "what": "Boyd's disease is now explicitly accelerating and driving his succession conversation with Kenny"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "to remain in control long enough to protect everyone and find a way home",
+    "does": "discloses his illness only transactionally -- to secure a successor -- rather than asking for help; the act of appearing strong is the thing that prevents the community from rallying around his vulnerability",
+    "line_t": "35:58"
+  },
+  "tone_notes": "Fatima's name appears 35 times -- by far the highest for any character in any episode of this batch -- because her absence is the episode's gravitational center. The 115-second silence at minutes 5-7 lands between Elgin's feeding scene and Boyd's illness disclosure, separating the horror of captivity from the horror of mortality. Density spikes at minutes 28 (156 wpm), 35 (148 wpm), and 49 (164 wpm) map to the search-party rally, Boyd-Kenny handoff, and root cellar finale. The episode's pace (91 wpm, second highest in batch) matches the urgency of a community in motion after a missing person.",
+  "speaker_attribution_confidence": "medium"
+}

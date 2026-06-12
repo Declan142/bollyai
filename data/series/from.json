@@ -1,0 +1,559 @@
+{
+ "slug": "from",
+ "qid": {
+  "value": "Q107072432",
+  "source": "wikidata",
+  "fetched_at": "2026-06-10T14:30:00+05:30",
+  "confidence": "verified"
+ },
+ "title": {
+  "value": "From",
+  "source": "wikidata",
+  "fetched_at": "2026-06-10T14:30:00+05:30",
+  "confidence": "verified"
+ },
+ "canonical_industry": "streaming",
+ "origin": "United States",
+ "original_language": {
+  "value": "en",
+  "source": "wikidata",
+  "fetched_at": "2026-06-10T14:30:00+05:30",
+  "confidence": "verified"
+ },
+ "platform": {
+  "value": "MGM+",
+  "source": "Wikipedia",
+  "fetched_at": "2026-06-10T14:30:00+05:30",
+  "confidence": "verified"
+ },
+ "status": "running",
+ "genres": [
+  "Horror",
+  "Sci-Fi",
+  "Mystery",
+  "Thriller",
+  "Supernatural"
+ ],
+ "logline": "A town in middle America that you cannot leave: every road loops back, the forest hides something worse than monsters, and the smiling creatures that come at night only need you to open the door.",
+ "poster": {
+  "src": "/img/series/from/poster.jpg",
+  "alt": "From poster",
+  "attribution": "Poster (c) MGM+ / Midnight Radio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+ },
+ "renewal": {
+  "state": "renewed",
+  "note": "Season 4 is airing weekly on MGM+ (April 19 - June 28, 2026). Three episodes remain in the run.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/From_(TV_series)"
+ },
+ "seasons": [
+  {
+   "number": 1,
+   "year": 2022,
+   "episodes": 10,
+   "release_date": {
+    "value": "2022-02-20",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-10T14:30:00+05:30",
+    "confidence": "verified"
+   },
+   "verdict": "MUST-WATCH",
+   "bollymeter": {
+    "score": 8.4,
+    "basis": "A 96% critic score with an 87% audience score is the rare horror-mystery double: critics praised the dread-craft, audiences stayed for the puzzle. The pilot's creature rules are among the cleanest in modern TV horror."
+   },
+   "critic": {
+    "positive_pct": 96,
+    "sample": 25,
+    "pull_quotes": [
+     {
+      "text": "The horror is real - and it gets real gory - but this is no simple splatterfest.",
+      "source": "Brad Newsome, Sydney Morning Herald",
+      "url": "https://www.rottentomatoes.com/tv/from/s01"
+     },
+     {
+      "text": "From is one of the best shows on TV. It's a terrifying puzzle that continuously raises the stakes.",
+      "source": "Sharai Bohannon, Anatomy of a Scream",
+      "url": "https://www.rottentomatoes.com/tv/from/s01"
+     }
+    ]
+   },
+   "audience": {
+    "rating": 8.7,
+    "scale": 10,
+    "source": "Rotten Tomatoes Popcornmeter",
+    "source_url": "https://www.rottentomatoes.com/tv/from/s01"
+   },
+   "review_body": "Ten hours built on one rule, spoken plainly at 46:39 of the premiere: run, and do not stop, no matter what you hear. The trick of season one is that the monsters are the least frightening thing on the page. The dialogue keeps circling bargains instead: Boyd agreeing that one bad thing is worth everyone going home, Sara's voices collecting on that consent, Khatri filing his own lawbreaking under providence. Critics scored it 96% across 25 reviews and the audience ran hotter here than for any season since, at 87%, and both were reacting to the same design: a show that answers almost nothing, then makes its people so specific that the questions start to feel personal. By the finale a voice on the radio can see a woman digging in her own basement. Hope, the season keeps insisting, is what this place eats.",
+   "season_over_season": null,
+   "episode_reviews": [
+    {
+     "number": 1,
+     "title": "Long Day's Journey into Night",
+     "air_date": "2022-02-20",
+     "bollymeter": 8.3,
+     "spoiler_free": "The pilot does its world-building through a man who has already failed. Boyd preaches that a man protects his family, yet the cold open buries two people his system could not save, and every rule he recites afterward sounds like penance. The episode's nerve shows in its silences: a 91-second hush before the first kill, held like a breath the town refuses to release. By the time the Matthews family's RV finds the road that only loops back, the show has taught you its grammar without explaining a single thing.",
+     "the_moment": "A voice at the window saying it will keep a little girl's secret. The episode's monsters introduce themselves not with teeth but with kindness.",
+     "critic_note": null
+    },
+    {
+     "number": 2,
+     "title": "The Way Things Are Now",
+     "air_date": "2022-02-20",
+     "bollymeter": 8.1,
+     "spoiler_free": "The first full night in town, and the script's smartest decision is letting Jim ask the questions a sane person would ask, then refusing him a single satisfying answer. Boyd can state what the creatures are not, but when pressed on why a gun is useless he has nothing: the survival system here is inherited, not understood. Boyd's count of three years, six months and 17 days does more dread-work than any creature at the door, because precision like that belongs to prisoners.",
+     "the_moment": "Boyd's sister story, delivered flat and exact. What the creatures do to a face is described once, and the show never needs to show it.",
+     "critic_note": null
+    },
+    {
+     "number": 3,
+     "title": "Choosing Day",
+     "air_date": "2022-02-20",
+     "bollymeter": 8.0,
+     "spoiler_free": "The hour where the town's social contract is read aloud, and it turns out to be written in dread. Boyd built a deterrent he hoped never to use, and Khatri names the trap at 34:07: a guillotine in the square is only mercy until someone tests your conviction. The episode resolves it with the season's quietest horror, a volunteer. Meanwhile Victor measures trees to see if they have moved, which is somehow the most upsetting sentence in the episode.",
+     "the_moment": "Frank addressing the town before walking into the box, his confession landing on the same phrase Boyd shouted at him in the premiere.",
+     "critic_note": null
+    },
+    {
+     "number": 4,
+     "title": "A Rock and a Farway",
+     "air_date": "2022-02-27",
+     "bollymeter": 7.9,
+     "spoiler_free": "A grief episode wearing a mystery's clothes. The cold open holds 174 seconds without dialogue, the longest hush of the season, and the script spends the hour proving Boyd's stoicism is a costume: he visits a grave, confesses the tremor in his hand, and asks a dead woman for permission to act. The Matthews family fractures along the name Thomas, spoken for the first time. And a tree swallows a child, casually, the way this show prefers its impossible things.",
+     "the_moment": "Victor mentioning that the farway trees are temperamental, sometimes leaving you inside a mountain, seconds before anyone can react to what he has said.",
+     "critic_note": null
+    },
+    {
+     "number": 5,
+     "title": "Silhouettes",
+     "air_date": "2022-03-06",
+     "bollymeter": 8.0,
+     "spoiler_free": "The season's most carefully laid trap, built from a hypothetical. Sara asks Boyd whether one bad thing would be worth everyone going home, and his easy answer, a lot of good for one bad thing, becomes a consent he does not know he gave. The bar-room Schrodinger's cat digression reframes the entire show in one scene: escape is not a geography problem, it is a communication problem. Then a scalpel goes missing, and the woods get an answer before the audience does.",
+     "the_moment": "The question at 11:29. Rewatch it knowing what Sara is actually asking, and the scene changes temperature entirely.",
+     "critic_note": null
+    },
+    {
+     "number": 6,
+     "title": "Book 74",
+     "air_date": "2022-03-13",
+     "bollymeter": 8.2,
+     "spoiler_free": "The theological pivot. A reverend tells a chained woman she may be living inside scripture still being written, and the episode treats that idea with the same evidentiary seriousness as the wires Jade finds carrying current through cords with no wire inside. Boyd's disclosure to Kenny lands harder than any jump scare because it puts a medical clock under every prior episode's hesitation. And then a bracelet that should not exist turns up in a basement, and the show quietly breaks its own physics.",
+     "the_moment": "A knock at the Reverend's door near the hour's end, and a voice asking, politely, when it can come inside.",
+     "critic_note": null
+    },
+    {
+     "number": 7,
+     "title": "All Good Things",
+     "air_date": "2022-03-20",
+     "bollymeter": 8.7,
+     "spoiler_free": "The hour the season was building toward, and the rare massacre episode whose worst wound is a confession. The Reverend's I was the one who was supposed to listen reframes his fanaticism as guilt with a collar on, exactly as his certainty gets people killed. A creature is given a name, Jasmine, and the ability to be lonely, which is far more destabilizing than anything she does with her hands. The episode ends on a prayer spoken over a dying man, and means it.",
+     "the_moment": "Kevin at the window, and the smile that talks its way through it. The season's entire safety system, undone by company.",
+     "critic_note": null
+    },
+    {
+     "number": 8,
+     "title": "Broken Windows, Open Doors",
+     "air_date": "2022-03-27",
+     "bollymeter": 8.2,
+     "spoiler_free": "Triage, the morning after. The script's insight is that Boyd's sense of duty has curdled into a delay tactic, and it takes Kenny, the gentlest person in town, to say it to his face: the talismans were a Band-Aid, and staying is its own kind of abandonment. Julie steps out of a cabinet she did not enter, a sentence the show treats as Tuesday. The farewell at 50:51 is three words long and carries more weight than the breach that caused it.",
+     "the_moment": "Kenny's speech, the deputy pushing the sheriff out the door. The town's order of authority quietly inverts in a single scene.",
+     "critic_note": null
+    },
+    {
+     "number": 9,
+     "title": "Into the Woods",
+     "air_date": "2022-04-03",
+     "bollymeter": 8.0,
+     "spoiler_free": "Two expeditions, one psychological. In the deep forest, Boyd finally interrogates Sara honestly and gets the season's saddest motive in return: they said my brother would die. In town, Donna argues against hope itself while taking an axe to her own home, dismantling the exact position she is defending, the kind of contradiction this show writes better than any of its monsters. Then bottles appear, hanging in the trees, and one carries a date that resets the scale of everything: 1864.",
+     "the_moment": "A relayed message addressed to Mr. Fish and Loaves. A nickname no one in that forest should know, used precisely.",
+     "critic_note": null
+    },
+    {
+     "number": 10,
+     "title": "Oh, the Places We'll Go",
+     "air_date": "2022-04-10",
+     "bollymeter": 8.6,
+     "spoiler_free": "The finale fires the season's one true flare of hope, a Mayday crackling out of a homemade tower, and then takes 40 seconds to weaponize it. The voice that answers knows Jim's name, and what his wife is doing in the basement at that exact moment, and the radio that was supposed to reach the world instead proves the watcher is already inside the walls. Boyd's theory, that the place feeds you hope so it can feed on the pain of losing it, stops being a theory.",
+     "the_moment": "The reply at 40:40: your wife should not be digging that hole, Jim. Eight episodes of tower-building, answered in one sentence.",
+     "critic_note": null
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "year": 2023,
+   "episodes": 10,
+   "release_date": {
+    "value": "2023-04-23",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-10T14:30:00+05:30",
+    "confidence": "verified"
+   },
+   "verdict": "WORTH-IT",
+   "bollymeter": {
+    "score": 7.9,
+    "basis": "Critics stayed on board at 93% while the audience score cooled to 80% - the season deepens mythology faster than it answers it, a trade some viewers called stalling and critics called nerve."
+   },
+   "critic": {
+    "positive_pct": 93,
+    "sample": 15,
+    "pull_quotes": [
+     {
+      "text": "From undeniably works as an exemplar of its genre.",
+      "source": "David Whelan, Slate",
+      "url": "https://www.rottentomatoes.com/tv/from/s02"
+     },
+     {
+      "text": "Full-throttle pacing, incredibly high stakes, enigmatic horrors, and an immensely talented cast exploring the murky grey areas of morality",
+      "source": "Meagan Navarro, Bloody Disgusting",
+      "url": "https://www.rottentomatoes.com/tv/from/s02"
+     }
+    ]
+   },
+   "audience": {
+    "rating": 8.0,
+    "scale": 10,
+    "source": "Rotten Tomatoes Popcornmeter",
+    "source_url": "https://www.rottentomatoes.com/tv/from/s02"
+   },
+   "review_body": "Season two splits its hero in half and watches both halves bleed. Boyd spends the year paying for season one's bargains: a stranger's blood in his veins, worms under his skin, and the slow discovery that his bravest act was the single worst thing he could have done. Critics held at 93% across 15 reviews while the audience cooled to 80%, and the gap is honest: this is the stretch where the show deepens its mythology faster than it answers it. But the dialogue earns the stall. A dead woman's voice tells Boyd that leaders make tough decisions, a music box laughs at a hero, and a word, anghkooey, repeats fifteen times in a finale that finally says the quiet thing out loud: it is not your fear that feeds the forest. It is hope.",
+   "season_over_season": "Slower to answer than season one and harsher on its leads: the season trades the premiere's clean dread for body horror and guilt, and asks the audience to sit in the not-knowing longer than some wanted.",
+   "episode_reviews": [
+    {
+     "number": 1,
+     "title": "Strangers in a Strange Land",
+     "air_date": "2023-04-23",
+     "bollymeter": 8.2,
+     "spoiler_free": "The premiere answers season one's cliffhanger by making everything worse in three directions at once. A bus of new arrivals idles outside the diner during monster hours, nearly two minutes of the episode passing in paralyzed silence while they sit in the dark not knowing the rules. Donna, holding the town alone, makes her first command decision by shooting out the tires, protection and panic in the same gesture. And underground, Victor says the season's thesis sentence: this is where the monsters live. This is where they sleep.",
+     "the_moment": "A voice calling down into the pit where Boyd wakes: I can help you if you help me. The season's worst bargain, offered in its first hour.",
+     "critic_note": null
+    },
+    {
+     "number": 2,
+     "title": "The Kindness of Strangers",
+     "air_date": "2023-04-30",
+     "bollymeter": 8.0,
+     "spoiler_free": "A two-hander in a hole in the ground, and the season's quietest episode by the numbers, 72 words a minute, most of them between Boyd and a dying stranger whose first words are a request to be killed. Boyd answers with Marine code, leave no man behind, and the episode spends its runtime testing whether that ethic is mercy or vanity. The answer arrives through blood, with a line that will poison half the season: my blood is your blood now.",
+     "the_moment": "Martin's delirious blood-transfer, played less like horror than like a ritual neither man fully consents to.",
+     "critic_note": null
+    },
+    {
+     "number": 3,
+     "title": "Tether",
+     "air_date": "2023-05-07",
+     "bollymeter": 7.8,
+     "spoiler_free": "The hangover episode. Boyd comes home to a town that wants answers he does not have, and Julie says it to his face: you said you were going to find a way home. The hour belongs to Kristi, reunited by impossible coincidence with a fiancee who arrived on the bus, and too buried in triage to feel it. When a dying woman asks if she is going to die, Kristi's one-word answer is the most honest line of the season, and the show holds on it without flinching.",
+     "the_moment": "A bus survivor found pinned to a tree, alive, left that way for hours. The creatures' cruelty acquires intent.",
+     "critic_note": null
+    },
+    {
+     "number": 4,
+     "title": "This Way Gone",
+     "air_date": "2023-05-14",
+     "bollymeter": 8.1,
+     "spoiler_free": "The episode where Boyd's guilt gets a voice, literally: a hallucinated conversation with his dead wife who argues, reasonably, soothingly, that leaders sometimes have to make tough decisions. The script lets you decide whether this is grief or the place inside his head. Around it, the Sara secret detonates in stages, and Kenny's exit line to the man he called family, you watch your own six, severs the season's most load-bearing relationship.",
+     "the_moment": "Kristi noticing something move under the skin of Boyd's arm, and the episode declining to comment further.",
+     "critic_note": null
+    },
+    {
+     "number": 5,
+     "title": "Lullaby",
+     "air_date": "2023-05-21",
+     "bollymeter": 8.0,
+     "spoiler_free": "The season's most patient episode, 71 words a minute, built on confessions traded like contraband. Sara says I killed my brother out loud for the first time, plainly, in a church. Victor shows Jade a field of buried cars, a graveyard he has tended alone, and the show recalibrates how much this man has survived. The thread tying it together is a question the place keeps asking: how literally does it treat spoken permission? Kristi's offhand clinic remark may have armed Sara, and the episode lets that sit.",
+     "the_moment": "A resident screaming defiance at the creatures through glass, and the creatures walking away. Nobody knows why, which is the point.",
+     "critic_note": null
+    },
+    {
+     "number": 6,
+     "title": "Pas de Deux",
+     "air_date": "2023-05-28",
+     "bollymeter": 8.5,
+     "spoiler_free": "Body horror as character study. Boyd's infection stops being a mystery and becomes a clock, and the episode's best scene is him asking Kristi for the favor no sheriff should need: you'll put an end to things before it goes too far. Then the show does something audacious with the cure, a purge scene that weaponizes the season's central wound, capped by Boyd inverting the ritual phrase that infected him. It plays as triumph for exactly one episode, which is the cruelest thing this show does all season.",
+     "the_moment": "I got worms under my skin, said out loud at 16:31, the first time Boyd lets anyone see the whole truth.",
+     "critic_note": null
+    },
+    {
+     "number": 7,
+     "title": "Belly of the Beast",
+     "air_date": "2023-06-04",
+     "bollymeter": 8.1,
+     "spoiler_free": "A dead creature on a table and a town deciding whether to look inside it. The dissection hour doubles as a referendum on every relationship in the cast: Kenny refuses to stay in the room and names the gap between love and solidarity on his way out. Donna hands Fatima the season's best line, a miracle is just the other side of a nightmare, in a scene about an impossible pregnancy in a town that feeds on what people cannot bear to lose. The dread compounds quietly.",
+     "the_moment": "The worry, spoken plainly: not the monster, the thing that killed it. Boyd's cure becomes the town's newest fear.",
+     "critic_note": null
+    },
+    {
+     "number": 8,
+     "title": "Forest for the Trees",
+     "air_date": "2023-06-11",
+     "bollymeter": 8.2,
+     "spoiler_free": "Victor's episode, and the season's saddest hour. The man who remembers everything reveals his amnesia was a choice: I put them somewhere so I would never have to remember, a trunk of childhood drawings hidden so that no one else would die. His three-word verdict on people who go looking for answers, because they don't come back, is the show's entire mythology compressed. Then cicadas crawl out of a dead creature, matching a dream someone described an episode earlier, and the wall between dreaming and dying comes down.",
+     "the_moment": "Victor handing Julie a portrait so she can remember him if something happens, an act of love that contradicts his entire survival strategy.",
+     "critic_note": null
+    },
+    {
+     "number": 9,
+     "title": "Ball of Magic Fire",
+     "air_date": "2023-06-18",
+     "bollymeter": 8.3,
+     "spoiler_free": "A siege episode where the enemy is sleep. A nursery rhyme kills a woman mid-dream, Boyd orders the town to stay awake, and the show runs its characters through a night where every coping mechanism fails on camera. Sara's theory lands in the middle of it like a grenade: what if their fears become part of the forest? Every death in the series, recast as expansion. Her other line is quieter and worse: this place destroyed the only person I ever get to be.",
+     "the_moment": "The creatures freezing mid-advance when Randall steps outside, for no reason anyone can name, and resuming. The rules flicker, once.",
+     "critic_note": null
+    },
+    {
+     "number": 10,
+     "title": "Once Upon a Time...",
+     "air_date": "2023-06-25",
+     "bollymeter": 8.4,
+     "spoiler_free": "The longest episode of the season and its slowest by design, 69 words a minute, because the finale's business is revelation, not rescue. A word nobody understands, anghkooey, repeats fifteen times in the tunnels. A music box laughs at the season's one heroic act. Victor finds what is left of his mother at the bottle tree, and Tabitha chooses to attempt the exact journey that killed her. And then the season's final scene steps outside the town entirely, and the show changes shape in sixty seconds.",
+     "the_moment": "The correction delivered at 51:07: it's not your fear that feeds the forest, Boyd. The season's whole cosmology, inverted in one line.",
+     "critic_note": null
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "year": 2024,
+   "episodes": 10,
+   "release_date": {
+    "value": "2024-09-22",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-10T14:30:00+05:30",
+    "confidence": "verified"
+   },
+   "verdict": "MUST-WATCH",
+   "bollymeter": {
+    "score": 8.2,
+    "basis": "A perfect 100% from 25 critics against a 73% audience score is the show's thesis in numbers: season 3 finally starts paying the mystery off, and the craft of how it pays is what critics scored."
+   },
+   "critic": {
+    "positive_pct": 100,
+    "sample": 25,
+    "pull_quotes": [
+     {
+      "text": "For all the smoke and mirrors, From has real bite - and that streak of horror is where it differs profoundly from Lost.",
+      "source": "Ed Power, Daily Telegraph",
+      "url": "https://www.rottentomatoes.com/tv/from/s03"
+     },
+     {
+      "text": "From gets grislier and grander.",
+      "source": "Leila Latif, AV Club",
+      "url": "https://www.rottentomatoes.com/tv/from/s03"
+     }
+    ]
+   },
+   "audience": {
+    "rating": 7.3,
+    "scale": 10,
+    "source": "Rotten Tomatoes Popcornmeter",
+    "source_url": "https://www.rottentomatoes.com/tv/from/s03"
+   },
+   "review_body": "The season where the show stops hoarding and starts paying. A perfect 100% from 25 critics against a 73% audience score looks like a contradiction until you read what each group was grading: critics scored the craft of the answering, audiences the cost of the wait. The dialogue this year is built on confession. Donna admits the armor was always grief. Victor finally says the sentence he has been not-saying for forty years: I was the reason she died. And the word that haunted season two, anghkooey, turns out to be the key to the whole architecture, in a 73-minute finale that rewrites two characters' entire histories and ends with one survivor outside the town, watching a news broadcast that suggests the world they are trying to get home to has its own problems now.",
+   "season_over_season": "The pivot season: where seasons one and two planted, this one pays, trading some of the early dread for revelation at scale, and asking its lead actor to carry a moral collapse instead of a mystery.",
+   "episode_reviews": [
+    {
+     "number": 1,
+     "title": "Shatter",
+     "air_date": "2024-09-22",
+     "bollymeter": 8.3,
+     "spoiler_free": "The premiere opens somewhere impossible, a hospital in Camden, Maine, and lets that single image destabilize everything the show has established about the rules. Back in town, the crops are rotting, and Boyd delivers a rally speech, this place will not break us, that the episode immediately sets about testing. The structural cruelty is precise: it is Boyd's one act of hope, walking into the forest to protect a search, that hands the creatures their opening.",
+     "the_moment": "Jade crouched at a wall, repeating that he cannot see the thing he is supposed to see. Whatever the place wants from him, it has stopped asking politely.",
+     "critic_note": null
+    },
+    {
+     "number": 2,
+     "title": "When We Go",
+     "air_date": "2024-09-29",
+     "bollymeter": 8.4,
+     "spoiler_free": "A grief episode with the season's best writing in it. The 132 seconds of near-silence after the barn are the longest dead air in the run, and the show spends them on faces. Donna's confession at 19:50 is the hour's quiet earthquake: the town's most unsentimental survivor admitting she believed Boyd's promise of home, that the hardness was performance all the way down. It ends with Boyd's pivot from mourning to offense in one profane sentence, and the season suddenly has a mission statement.",
+     "the_moment": "Boyd's account of the barn: she looked at me, and she did not take her eyes off me. What the creatures wanted him to carry, described exactly.",
+     "critic_note": null
+    },
+    {
+     "number": 3,
+     "title": "Mouse Trap",
+     "air_date": "2024-10-06",
+     "bollymeter": 7.9,
+     "spoiler_free": "A connective-tissue hour that works because its small story is a perfect miniature of the show's psychology. Jade declares he will be more helpful back in town, abandons the foraging party, and walks directly into a bear trap, rescued by the exact people he dismissed. Meanwhile the warning that frames the season lands at 19:21: the things in the woods said they wanted to break Boyd, which means they wanted to change him, and his new offensive posture might be the change they ordered.",
+     "the_moment": "An ancient talisman ring at the lake settlement, evidence that someone fought this fight long before the town's current tenants, and lost.",
+     "critic_note": null
+    },
+    {
+     "number": 4,
+     "title": "There and Back Again",
+     "air_date": "2024-10-13",
+     "bollymeter": 8.2,
+     "spoiler_free": "The memory episode. Victor invites Boyd into a guided excavation of the worst night of his life, leading him to the objects he spent decades hiding from himself, and the script understands that this is the bravest thing anyone does all season. Jade gets the line that reframes the show's stakes: everybody here talks about dying, and he does not think that is the worst thing that can happen to you here. An ambulance arrives in town the way cars do, which is to say impossibly.",
+     "the_moment": "Victor describing his childhood friend: he was nice, but then he started seeing the symbol, and then he started getting scary.",
+     "critic_note": null
+    },
+    {
+     "number": 5,
+     "title": "The Light of Day",
+     "air_date": "2024-10-20",
+     "bollymeter": 8.1,
+     "spoiler_free": "The hour where hope becomes a public safety hazard. Tabitha is back, the town demands answers she does not have, and her apology at the meeting, I'm sorry I don't have your answers, is met like a betrayal. Elgin quietly offers the season's darkest theory: the best way to make us suffer is to give us hope, which would mean her escape was engineered. It ends with Boyd screaming I am trying to keep you alive over a body, authority and impotence in the same breath.",
+     "the_moment": "Dale stepping through the tree while Boyd watches, all of the sheriff's warnings spent and none of them binding.",
+     "critic_note": null
+    },
+    {
+     "number": 6,
+     "title": "Scar Tissue",
+     "air_date": "2024-10-27",
+     "bollymeter": 8.0,
+     "spoiler_free": "An episode about the verdicts people pass on themselves. Tabitha's spine is set in her first scene, I should have done more, and every conversation that follows confirms the sentence she has already served herself. The town agrees with her worst self-assessment, you had an opportunity none of us have ever had and you blew it, which is the cruelest thing a crowd says all season. Then the closing scene drops the season's real bomb in nine words: it was not just Miranda who dreamed of this place as a child.",
+     "the_moment": "The confession at 53:45, and the way it instantly converts a marriage drama into a mythology episode.",
+     "critic_note": null
+    },
+    {
+     "number": 7,
+     "title": "These Fragile Lives",
+     "air_date": "2024-11-03",
+     "bollymeter": 8.4,
+     "spoiler_free": "The season's trap snaps shut. Fatima's predicament is an epistemological horror the show states with total clarity: if there is nothing there, if the baby is not real, that means it is me. The episode gives Tillie a quiet scene about grief and adaptation, you either adapt or you lose your mind, and then spends that goodwill with surgical cruelty inside twenty-five minutes. The final line is a scream of self-recognition, and the season's most upsetting cliffhanger by some distance.",
+     "the_moment": "The ultrasound result, followed by 116 seconds of near-silence. The show lets the worst possibility settle in real time.",
+     "critic_note": null
+    },
+    {
+     "number": 8,
+     "title": "Thresholds",
+     "air_date": "2024-11-10",
+     "bollymeter": 8.3,
+     "spoiler_free": "The hour Boyd crosses his own line. A body in the greenhouse, an investigation he stages rather than conducts, and a lie to the deputy who trusts him most: the season's moral ledger opens an account it will settle in the finale. Victor's breakdown produces the episode's most piercing line about his drawings, the pictures always remembered so that I didn't have to. And Elgin's calm this is for the best, the last words before credits, is scarier than any creature this show has put at a window.",
+     "the_moment": "Julie finally naming what the ruins did to her: ever since I woke up, I hear people screaming. And it won't stop.",
+     "critic_note": null
+    },
+    {
+     "number": 9,
+     "title": "Revelations: Chapter One",
+     "air_date": "2024-11-17",
+     "bollymeter": 8.6,
+     "spoiler_free": "Chapter one of the finale runs on a single statistic the script never states but every scene obeys: Fatima's name is spoken 35 times this hour, more than any character in any episode of the season, because her absence is the gravitational center the town orbits. Boyd names his ticking clock to Ellis, transactionally, to install a successor rather than to ask for help, which is the entire tragedy of the man in one disclosure. The chapter ends on the word impossible, said twice.",
+     "the_moment": "Victor swinging an axe at the bottle tree and the Boy in White appearing with one instruction: do not cut down that tree.",
+     "critic_note": null
+    },
+    {
+     "number": 10,
+     "title": "Revelations: Chapter Two",
+     "air_date": "2024-11-24",
+     "bollymeter": 8.8,
+     "spoiler_free": "Seventy-three minutes, the longest hour the show has produced, and the slowest by dialogue count, because the finale's biggest scenes are silences with revelations inside them. The word from season two gets translated, anghkooey means remember, and the instruction rewrites three seasons of children's whispers into a single request. Two characters learn they have been here before, in a sentence that turns the entire series into a cycle. Boyd does the thing he swore separated him from the place, and Henry's ultimatum, you need to decide right now who you are, goes unanswered in the way that is an answer. The last scene leaves the town entirely and looks at a television.",
+     "the_moment": "The reveal at 55:42, the season's whole architecture in eleven words. The fandom argued about it for a year; the line itself is delivered almost gently.",
+     "critic_note": null
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "year": 2026,
+   "episodes": 10,
+   "release_date": {
+    "value": "2026-04-19",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-10T14:30:00+05:30",
+    "confidence": "verified"
+   },
+   "verdict": null,
+   "bollymeter": {
+    "score": 8.5,
+    "basis": "Scored on the weekly run through episode 7 (June 7): 100% from 17 critics, with reviewers calling it the strongest season yet. Verdict stays open until the finale lands June 28."
+   },
+   "critic": {
+    "positive_pct": 100,
+    "sample": 17,
+    "pull_quotes": [
+     {
+      "text": "Every time the writing gets frustrating on a critical level, the sheer momentum of the piece keeps you engaged.",
+      "source": "Brian Tallerico, RogerEbert.com",
+      "url": "https://www.rottentomatoes.com/tv/from/s04"
+     },
+     {
+      "text": "It's mysterious, creative, and continues to be one of the scariest shows in our era.",
+      "source": "Jeff Ewing, That Hashtag Show",
+      "url": "https://www.rottentomatoes.com/tv/from/s04"
+     }
+    ]
+   },
+   "audience": {
+    "rating": 7.6,
+    "scale": 10,
+    "source": "Rotten Tomatoes Popcornmeter",
+    "source_url": "https://www.rottentomatoes.com/tv/from/s04"
+   },
+   "review_body": "Seven hours into the weekly run and season four is doing the thing fans stopped expecting: collecting on the show's oldest debts. A phrase spoken in the very first episode of the series, Lake of Tears, four words from a child's dream in 2022, has become the season's central quest, the longest-armed callback this show has ever landed. Critics have it at 100% across 17 reviews so far, the second perfect score in a row, and the writing justifies it with a darker register: the season opens on Boyd counting bullets for a decision no sheriff should be planning, and keeps finding new ways to ask whether protecting people and preparing to lose them are the same job. A man in a yellow suit has entered the story. Three episodes remain. The verdict stays open until June 28.",
+   "season_over_season": "Bleaker and more serialized than season three: where Revelations answered the past, this season spends its hours deciding whether the answers arrived in time to matter.",
+   "episode_reviews": [
+    {
+     "number": 1,
+     "title": "The Arrival",
+     "air_date": "2026-04-19",
+     "bollymeter": 8.4,
+     "spoiler_free": "The premiere's scariest scene has no creature in it: Boyd, alone, counting ammunition, and a line delivered with terrible administrative calm, the day may come when the only thing we get to decide is how we choose to leave. The season opens with its protector quietly budgeting for surrender, and everything else in the hour, a car crash rescue at the season's highest dialogue density, a new arrival who seizes on approach exactly the way others have, plays out under that shadow.",
+     "the_moment": "The euphemism at 17:01: just making sure there's enough, just in case. The show trusts you to do the math it refuses to say aloud.",
+     "critic_note": null
+    },
+    {
+     "number": 2,
+     "title": "Fray",
+     "air_date": "2026-04-26",
+     "bollymeter": 8.2,
+     "spoiler_free": "The quietest episode the show has produced, 64 words a minute, and the silence is structural: this is an hour about grief that has no language left. The cruelest line of the season so far is said inside a family, not by a monster. And then the final scene hands the season its quest, a ghost naming the Lake of Tears and asking a child to find it, a phrase the attentive will recognize from the series' very first night.",
+     "the_moment": "The instruction at 51:27, delivered from somewhere no instruction should come from: it's here, and I need you to find it.",
+     "critic_note": null
+    },
+    {
+     "number": 3,
+     "title": "Merrily We Go",
+     "air_date": "2026-05-03",
+     "bollymeter": 8.0,
+     "spoiler_free": "An episode about the jobs people invent to survive their own grief. Boyd assigns a newcomer the task of cataloguing the belongings of the dead, framed as purpose, functioning as a museum of loss neither of them can leave. His admission at 29:09, you remind me of someone I could have helped and I didn't, opens a door the season has not yet walked through. And Ethan's quiet rebuttal to adult skepticism, before we got here I thought monsters were made up too, wins every argument in the hour.",
+     "the_moment": "The Lake of Tears named in daylight for the first time, and the realization that the show planted those four words in its first two episodes, four years ago.",
+     "critic_note": null
+    },
+    {
+     "number": 4,
+     "title": "Of Myths and Monsters",
+     "air_date": "2026-05-10",
+     "bollymeter": 8.3,
+     "spoiler_free": "The hour where the season's private despair goes on the record: we are losing, Boyd admits, whatever game this is, we are losing, the most honest sentence he has spoken in four seasons. Around it, the episode introduces its new nightmare, a man in a yellow suit whose appearance drops Victor mid-sentence, and the show holds 117 seconds of near-silence on the aftermath. Tabitha finally names her burden in plain terms: memories in her head that belong to other people.",
+     "the_moment": "Victor's collapse at the sight of the yellow suit. Whatever he knows about that figure, he has been carrying it since childhood.",
+     "critic_note": null
+    },
+    {
+     "number": 5,
+     "title": "What a Long Strange Trip It's Been",
+     "air_date": "2026-05-17",
+     "bollymeter": 8.5,
+     "spoiler_free": "The trip episode, and the season's boldest swing so far. Jade frames it as tactical retrieval, show me what I used to know that I can't remember, and the place answers with a slideshow of his own prior deaths. The detail that reorders everything arrives at 35:17: the bodies in the vision were not torn apart. They were murdered, by human hands, which quietly indicts someone the story has not yet named. He comes out the other side claiming to know the way home, and the episode ends before anyone can ask him how.",
+     "the_moment": "Dolls in a lake, recovered from a memory that belongs to a previous life. The image the season has been circling, finally surfaced.",
+     "critic_note": null
+    },
+    {
+     "number": 6,
+     "title": "The Heart Is a Lonely Hunter",
+     "air_date": "2026-05-31",
+     "bollymeter": 8.4,
+     "spoiler_free": "The discovery hour: a hidden door, sealed with a talisman, in a basement everyone thought they knew, and the show marks the find with nearly two minutes of silence, its longest hush of the season. The emotional spine is harder than the mythology: Boyd, refusing a death he has no power over, you don't die until I say you die, the protector's logic pushed past its breaking point into something like prayer. Fatima's counter-thesis, I need to believe in magical things, is the season's gentlest line and its most desperate.",
+     "the_moment": "What Victor has been carrying alone since childhood, finally said out loud. The man in yellow stops being a mystery and becomes a memory.",
+     "critic_note": null
+    },
+    {
+     "number": 7,
+     "title": "Best Laid Plans",
+     "air_date": "2026-06-07",
+     "bollymeter": 8.3,
+     "spoiler_free": "The freshest hour, and a pattern-recognition episode: Julie names the season's cruelest rule, every time someone here feels like they have a purpose, somebody always ends up dead, and the script spends the hour testing it. Victor tries to armor Ethan with the truth about the last time a boy and a girl came to town, and grief makes the warning land like a curse instead. A 116-second silence after the sealed door is abandoned does the dread-work. It ends on a doorstep visit no one wanted, and a test the episode declines to score.",
+     "the_moment": "A bag of teeth in a car that should not exist. Three episodes left, and the show is still introducing evidence.",
+     "critic_note": null
+    }
+   ]
+  }
+ ],
+ "_quarantine": [],
+ "date_modified": "2026-06-10",
+ "backdrop": {
+  "src": "/img/series/from/backdrop.jpg",
+  "alt": "From key art: Boyd Stevens against the man in yellow mural",
+  "attribution": "Key art (c) MGM+ / Midnight Radio. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+ }
+}

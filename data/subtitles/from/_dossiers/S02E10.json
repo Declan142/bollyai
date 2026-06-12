@@ -1,0 +1,102 @@
+{
+  "episode": "S02E10",
+  "title": "Once Upon a Time...",
+  "beats": [
+    {"t": "01:58", "what": "The boy in white appears in recap; the full nursery rhyme is assembled and Elgin identifies it as an old rhyme"},
+    {"t": "02:37", "what": "Julie convulses and is placed in a bed at Colony House; she is catatonic and getting cold"},
+    {"t": "05:58", "what": "Silver bullets brought from the RV are confirmed useless: Randall was not dead despite a direct shot"},
+    {"t": "08:41", "what": "Boyd and Kenny bring Sara to the clearing where Boyd's worm infection began; Sara hears the music box"},
+    {"t": "09:46", "what": "Sara receives what the music box is communicating: it needs three people to die; the creatures are its instruments"},
+    {"t": "11:44", "what": "Boyd prays Psalm 23 over Sara in the clearing; this appears to interrupt the music box's hold on her"},
+    {"t": "13:19", "what": "Tabitha tells Jim she must go to the tower and asks his permission to leave; she invokes Victor's mother"},
+    {"t": "16:33", "what": "Victor takes Tabitha to the bottle tree; reveals his mother's body was found here, outside the tree, on the night everyone died"},
+    {"t": "19:35", "what": "Tabitha enters the bottle tree alone, disappearing from the town"},
+    {"t": "20:43", "what": "Ellis and Fatima get married in a hillside ceremony officiated by Boyd"},
+    {"t": "34:59", "what": "Boyd descends into the tunnels alone to find the music box's source"},
+    {"t": "47:32", "what": "Boyd smashes the music box; Julie and Marielle revive; the buzzing stops"},
+    {"t": "51:07", "what": "A creature attacks Boyd in the tunnel; Sara intervenes and sacrifices herself so Boyd can escape"},
+    {"t": "54:23", "what": "Boyd surfaces from the tunnels; Ethan asks where his mother is; Jim has no answer"},
+    {"t": "57:45", "what": "Season finale kicker: a woman wakes in St. Anthony's Hospital, three days after hikers found her unconscious in the woods"}
+  ],
+  "character_beats": [
+    {
+      "who": "Boyd",
+      "beat": "Wants to be worthy of the hero role the town assigned him; an imagined dead Tom tells him he has been looking at the symbol wrong, and that only the tunnels hold the answer; Boyd descends alone",
+      "evidence_t": "23:26"
+    },
+    {
+      "who": "Tabitha",
+      "beat": "Wants to save Julie and believes the tower is the only path; asks Jim's blessing not because she needs it but because she needs him to let her go, knowing Victor's mother never came back",
+      "evidence_t": "15:15"
+    },
+    {
+      "who": "Sara",
+      "beat": "Spends the hour trying to earn her place in the town through usefulness; ends it by choosing to die so Boyd can live, completing the arc from murderer to self-sacrifice",
+      "evidence_t": "51:07"
+    }
+  ],
+  "key_lines": [
+    {
+      "t": "51:07",
+      "speaker": null,
+      "line": "It's not your fear that feeds the forest, Boyd.",
+      "why": "Reverses the season's established logic; hope, not fear, is the engine of suffering here"
+    },
+    {
+      "t": "33:34",
+      "speaker": null,
+      "line": "Just because we're only a thread doesn't mean we don't matter.",
+      "why": "Boyd reframes collective sacrifice; seeds the possibility trapped people are preconditions for others' escape"
+    },
+    {
+      "t": "11:09",
+      "speaker": null,
+      "line": "It's laughing at you.",
+      "why": "Sara translates the music box: Boyd's act of heroism in E06 was the direct cause of the finale crisis"
+    },
+    {
+      "t": "36:50",
+      "speaker": null,
+      "line": "Anghkooey.",
+      "why": "Recurs 15 times in the episode clustered in the tunnel sequence; the most-repeated unit is a word nobody in the town can translate"
+    }
+  ],
+  "open_loops": [
+    "Where does Tabitha emerge from the bottle tree and what is the tower she is looking for?",
+    "The woman waking in St. Anthony's Hospital: who is she and how did she get out of the town?",
+    "The boy in white told Elgin the rhyme and appeared to Boyd's group: what is he?",
+    "Victor grew up in the town alone after everyone died; what does his unbroken survival mean about the town's rules?",
+    "With the music box destroyed, can the creatures still kill, or was it the box that directed them?",
+    "Khatri appears to Boyd in the tunnels: is this the same mechanism as Boyd's earlier Khatri visions or something the town is generating?"
+  ],
+  "payoffs": [
+    {
+      "plants_from": "S02E08 44:40 (Victor's mother went toward the tower and never returned)",
+      "pays_here": "16:33",
+      "what": "Victor finds his mother's body at the bottle tree: she did not make it inside; Tabitha chooses to attempt what Eloise failed"
+    },
+    {
+      "plants_from": "S02E06 35:24 (Boyd brings worm infection back to town)",
+      "pays_here": "08:01",
+      "what": "Sara confirms the music box is laughing because Boyd brought the entity back; the heroic act of E06 is retrospectively a catastrophic error"
+    },
+    {
+      "plants_from": "S02E09 44:45 (boy in white delivers nursery rhyme)",
+      "pays_here": "01:58",
+      "what": "The boy in white is identified across multiple dreamers as a single source; the rhyme's three-victim structure is now the mechanism being acted out on Julie, Marielle, and Randall"
+    },
+    {
+      "plants_from": "S02E07 35:53 (bile extracted as weapon) and S02E09 24:23 (silver bullets prepared)",
+      "pays_here": "05:58",
+      "what": "Silver bullets failed: Randall is alive. The bile weapon, pinned as the season's big discovery, does not work as a field weapon at distance"
+    }
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "to keep everyone safe and bear the cost of leadership himself",
+    "does": "descends alone into the tunnels without telling anyone what he knows, making himself the single point of failure for the entire town's survival",
+    "line_t": "35:07"
+  },
+  "tone_notes": "At 58 minutes this is the longest episode in the run; words per minute drops to 69.6, the lowest of any episode here. The top silence at 05:58-07:54 (116 seconds) falls between the silver bullet failure and the Sara-in-the-clearing scene, giving the loss of the weapon its full weight. Minutes 8-10 spike to 171 w/min for the Sara music box scene, then density collapses for the ceremony (minutes 41-47 average 40-66 w/min), letting the wedding breathe against the ongoing crisis. The phrase 'anghkooey' appears 15 times, clustered in minutes 37-38 as Boyd enters the tunnel, functioning as the episode's sonic texture rather than dialogue. The final scene outside the town carries zero ambient density; the hospital cut lands in silence.",
+  "speaker_attribution_confidence": "medium"
+}

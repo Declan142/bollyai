@@ -1,0 +1,113 @@
+{
+  "episode": "S01E09",
+  "title": "Into the Woods",
+  "beats": [
+    {
+      "t": "02:31",
+      "what": "Boyd and Sara make camp at the furthest point Boyd has ever reached in the forest; she is still cuffed"
+    },
+    {
+      "t": "10:18",
+      "what": "Kenny tells a construction crew the tower needs more material; Eric, a colony regular, is reported dead by suicide"
+    },
+    {
+      "t": "15:44",
+      "what": "Donna, deep in grief over Colony House's loss, takes an axe to Colony House's own floor when Kenny asks for wood for the tower"
+    },
+    {
+      "t": "22:18",
+      "what": "Boyd directly interrogates Sara about the voices' instructions to kill Ethan; she reveals they threatened her brother's death if she refused"
+    },
+    {
+      "t": "25:24",
+      "what": "Donna and Kenny argue: she says the tower will destroy people's hope when it fails; he insists they must try"
+    },
+    {
+      "t": "38:20",
+      "what": "Boyd and Sara discover glass bottles suspended in trees deep in the forest -- each containing a paper slip"
+    },
+    {
+      "t": "39:40",
+      "what": "Sara hears new voices near the bottles and collapses; after recovery she relays that a woman's voice said she was wrong and to warn Mr. Fish and Loaves"
+    },
+    {
+      "t": "41:44",
+      "what": "Tabitha and Jim hit what feels like the bottom of the basement dig; something breaches the hole from below"
+    }
+  ],
+  "character_beats": [
+    {
+      "who": "Donna",
+      "beat": "Wants to preserve what Colony House was -- a functioning community with joy -- rather than gamble it on the tower; her grief tips into sabotage then collapses into honesty with Kenny",
+      "evidence_t": "25:24"
+    },
+    {
+      "who": "Boyd",
+      "beat": "Wants answers from the forest; walks deeper despite Sara's warning that Nathan believed pushing too hard makes the place push back -- Boyd ignores this and is rewarded with a new lead and a new terror",
+      "evidence_t": "23:09"
+    },
+    {
+      "who": "Jade",
+      "beat": "Discovers the power problem is solvable by tapping the town's own mysterious wiring directly -- his breakthrough shifts from ego-driven to collaborative",
+      "evidence_t": "38:10"
+    },
+    {
+      "who": "Jim",
+      "beat": "Optimism under resource pressure; insists the tower will work even as Kristi confronts him about the human cost of false hope",
+      "evidence_t": "34:04"
+    }
+  ],
+  "key_lines": [
+    {
+      "t": "24:44",
+      "speaker": null,
+      "line": "They said my brother would die, okay?!",
+      "why": "Sara's motive finally stated plainly; she was not a zealot but a terrified sister -- reframes E01-E05 retroactively"
+    },
+    {
+      "t": "28:56",
+      "speaker": null,
+      "line": "We're not the same people anymore.",
+      "why": "Fatima voices the season's hidden cost: even if the radio works, going home is not the same as being restored"
+    },
+    {
+      "t": "32:04",
+      "speaker": null,
+      "line": "It's not a home anymore. It's a fucking tomb!",
+      "why": "Donna's Colony House epitaph; names the season's elegiac undertow -- every safe space becomes a memorial"
+    },
+    {
+      "t": "40:01",
+      "speaker": null,
+      "line": "Tell Mr. Fish and Loaves that I was wrong.",
+      "why": "Message from Abby's voice (using Boyd's private military nickname) warning that deeper forces are worse than the night creatures"
+    }
+  ],
+  "open_loops": [
+    "What is the date 1864 on the paper slip inside the bottle, and what does it imply about how long people have been trapped here?",
+    "Who is the woman's voice Sara hears -- and why does it know Boyd by his private army nickname Mr. Fish and Loaves?",
+    "What breaches the bottom of the Matthews' basement dig in the final moments?",
+    "Are the suspended bottles a message system left by prior arrivals, or something the place itself created?",
+    "Nathan's theory was that pushing too hard makes the place push back -- does the voice warning confirm this?"
+  ],
+  "payoffs": [
+    {
+      "plants_from": "S01E08 26:36",
+      "pays_here": "03:58",
+      "what": "Fatima articulates what Tabitha's Thomas confession set up: the people here are changed in ways that make the concept of going home complicated"
+    },
+    {
+      "plants_from": "S01E06 11:35",
+      "pays_here": "38:10",
+      "what": "Jade's discovery that the town wires carry real electricity -- established in E06 with the wire-has-no-wire anomaly -- becomes the power solution for the tower"
+    }
+  ],
+  "contradiction": {
+    "who": "Donna",
+    "wants": "To protect the community from the crash that follows false hope -- she argues against the tower to prevent psychological damage",
+    "does": "Destroys Colony House's own floor with an axe, then privately tells Kenny she will put her game face on and support the tower, undermining her own stated position",
+    "line_t": "27:04"
+  },
+  "tone_notes": "The episode's central silence is its most dramatic: 141 seconds from 07:57 to 10:18 (minutes 8-10 at density 0, 0) spans the title card and fully separates the recap from the tower-construction day. It is the longest single silence in this batch. Minutes 1-2 open at a frantic 209 words -- the episode's peak -- then drop to 47 before settling into the tower-prep scenes at 90-140 range. The Donna-Kenny confrontation at minute 16 (density 139) briefly peaks before the forest scenes pull density back to the 50-115 range for much of the back half. The episode ends on an implied crescendo that the dialogue doc cannot measure: the basement breach is a silent visual shock.",
+  "speaker_attribution_confidence": "medium"
+}

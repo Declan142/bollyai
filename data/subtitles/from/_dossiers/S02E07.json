@@ -1,0 +1,88 @@
+{
+  "episode": "S02E07",
+  "title": "Belly of the Beast",
+  "beats": [
+    {"t": "01:38", "what": "Boyd uses his blood infection to kill the night creature; Kristi decides to bring the body inside for study"},
+    {"t": "01:55", "what": "Fatima confirms her pregnancy to Kristi and asks her not to tell Ellis"},
+    {"t": "03:15", "what": "Kenny presses Boyd about the worms; Kristi prepares to dissect the creature"},
+    {"t": "08:15", "what": "Donna confronts Dale about the stabbing; he is unrepentant; she locks him in his room"},
+    {"t": "10:21", "what": "Jim and Julie argue about Victor and the voice on the radio; their worldviews diverge sharply"},
+    {"t": "15:04", "what": "Donna tells Fatima: a miracle is just the other side of a nightmare"},
+    {"t": "20:53", "what": "Donna reveals to Fatima she is pregnant in a town that feeds on pain; Donna reframes it as a possible miracle"},
+    {"t": "27:55", "what": "Jade and Donna begin dissecting the creature; Kenny refuses to assist and walks out"},
+    {"t": "28:53", "what": "Kenny tells Kristi he cannot watch her risk her life; he leaves the room"},
+    {"t": "31:07", "what": "The dissected creature reanimates; Marielle is nearly killed; Boyd shoots it and the creature drops dead again"},
+    {"t": "35:53", "what": "Kristi and Boyd extract bile from the creature as a possible weapon"},
+    {"t": "47:07", "what": "Kenny's informant character mentions a music box dream; seeds the next threat"}
+  ],
+  "character_beats": [
+    {
+      "who": "Kristi",
+      "beat": "Wants a scientific foothold against the creatures; pushes forward with the dissection despite Kenny's fear, taking a risk whose magnitude she cannot yet measure",
+      "evidence_t": "27:55"
+    },
+    {
+      "who": "Kenny",
+      "beat": "Wants to protect Kristi and keep order; refuses to participate in an act he believes is reckless, choosing withdrawal over confrontation",
+      "evidence_t": "28:47"
+    },
+    {
+      "who": "Jim",
+      "beat": "Wants a logical, human-scale explanation for the town; when Julie counters every rational theory he retreats to the breakfast table rather than update his model",
+      "evidence_t": "12:53"
+    }
+  ],
+  "key_lines": [
+    {
+      "t": "33:12",
+      "speaker": null,
+      "line": "A miracle is just the other side of a nightmare.",
+      "why": "Donna gives Fatima a frame for the impossible pregnancy that also applies to the whole season"
+    },
+    {
+      "t": "29:36",
+      "speaker": null,
+      "line": "I can't go in there and watch you do something that might get you killed.",
+      "why": "Kenny names the exact gap between love and solidarity that drives his exit"
+    },
+    {
+      "t": "28:09",
+      "speaker": null,
+      "line": "I'm not worried about the monster. I'm worried about the thing that killed it.",
+      "why": "Inverts the episode's danger source: Boyd's worm-derived power is more frightening than the creature"
+    },
+    {
+      "t": "46:42",
+      "speaker": null,
+      "line": "That thing in the basement came alive, and I think there was a music box.",
+      "why": "First mention of the music box as a dream element; plants the season's closing threat"
+    }
+  ],
+  "open_loops": [
+    "Can the extracted bile actually kill the creatures, or will it have unpredicted effects?",
+    "What happened to the worms Boyd expelled: are they still present in the creature's body?",
+    "Does the music box that appears in the dream have a physical correlate inside the town?",
+    "How long can Fatima keep the pregnancy from Ellis given the escalating danger?",
+    "Will Kenny's refusal to assist Kristi permanently fracture their relationship?"
+  ],
+  "payoffs": [
+    {
+      "plants_from": "S02E06 35:24 (Boyd purges worms into creature)",
+      "pays_here": "01:38",
+      "what": "The infected blood Boyd introduced kills the creature; his gamble is confirmed effective"
+    },
+    {
+      "plants_from": "S02E06 47:04 (Fatima asks for pregnancy test)",
+      "pays_here": "01:55",
+      "what": "Pregnancy confirmed; Fatima explicitly frames it as medically impossible, raising the stakes of the reveal"
+    }
+  ],
+  "contradiction": {
+    "who": "Kenny",
+    "wants": "to stay close to Kristi and protect her at any cost",
+    "does": "abandons her at the dissection table precisely when she needs him most, choosing self-protection over presence",
+    "line_t": "29:36"
+  },
+  "tone_notes": "The longest silence of the episode (2:03-8:15, over 131 seconds) separates the creature kill from the morning aftermath, functioning as a hard act break. The episode's two density spikes above 150 w/min occur at minutes 4-5 (creature decision) and 28-29 (dissection crisis/Kenny exit). The final minutes drop under 10 w/min, giving the music box dream revelation an almost inaudible quality that contrasts with the earlier visceral action.",
+  "speaker_attribution_confidence": "medium"
+}

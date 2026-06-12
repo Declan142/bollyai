@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 import { FilmCard } from "../components/FilmCard";
 import { JsonLd } from "../components/JsonLd";
+import { PosterImage } from "../components/PosterImage";
 import { VerdictMeter } from "../components/VerdictMeter";
 import { DESKS } from "../lib/desks";
 import { SeasonVerdict } from "../components/SeasonVerdict";
@@ -195,7 +196,15 @@ export default function HomePage() {
             const season = latestSeason(s);
             return (
               <a className="poster-card" data-desk="streaming" href={`/series/${s.slug}/`} key={`fresh-${s.slug}`}>
-                <img src={s.poster.src} alt={s.poster.alt} width="342" height="513" loading="lazy" />
+                <PosterImage
+                  src={s.poster.src}
+                  alt={s.poster.alt}
+                  width="342"
+                  height="513"
+                  loading="lazy"
+                  avifSrcSet={s.poster.variants?.avifSrcSet}
+                  webpSrcSet={s.poster.variants?.webpSrcSet}
+                />
                 <span className="poster-card__plate">
                   <span className="poster-card__origin-tag">{s.origin}{season?.year ? ` · ${season.year}` : ""}</span>
                   <strong>{s.title.value}</strong>
@@ -219,7 +228,15 @@ export default function HomePage() {
         <div className="poster-wall full-bleed">
           {seriesRail.map(({ s, season }) => (
             <a className="poster-card" data-desk="streaming" href={`/series/${s.slug}/`} key={s.slug}>
-              <img src={s.poster.src} alt={s.poster.alt} width="342" height="513" loading="lazy" />
+              <PosterImage
+                src={s.poster.src}
+                alt={s.poster.alt}
+                width="342"
+                height="513"
+                loading="lazy"
+                avifSrcSet={s.poster.variants?.avifSrcSet}
+                webpSrcSet={s.poster.variants?.webpSrcSet}
+              />
               <span className="poster-card__plate">
                 <span className="poster-card__origin-tag">{s.origin}</span>
                 <strong>{s.title.value}</strong>

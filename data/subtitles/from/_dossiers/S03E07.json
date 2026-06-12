@@ -1,0 +1,42 @@
+{
+  "episode": "S03E07",
+  "title": "These Fragile Lives",
+  "beats": [
+    {"t": "02:05", "what": "Ultrasound reveals nothing -- Kristi declares no visible fetus; Fatima refuses to accept it and leaves in distress"},
+    {"t": "06:32", "what": "Victor spends the night screaming at his Jasper doll, demanding it speak; Boyd's father Henry witnesses the breakdown"},
+    {"t": "14:54", "what": "Donna tells Boyd that given two possibilities -- supernatural or psychological -- she cannot let Fatima and Ellis stay at Colony House"},
+    {"t": "19:56", "what": "Randall teaches Julie to drive the Colony House van; she finds ruins in the woods that make the hair on their necks stand up"},
+    {"t": "38:22", "what": "New arrival Dani Acosta confronts Boyd about her confiscated gun; Boyd returns it unloaded and sets a boundary"},
+    {"t": "47:13", "what": "Fatima stabs Tillie with shears in the greenhouse; episode ends on her screaming at Ellis over what she has done"}
+  ],
+  "character_beats": [
+    {"who": "Fatima", "beat": "wants to be believed that something real is growing inside her; is dismissed by medical fact -- then the force inside her acts out anyway, bypassing her will entirely", "evidence_t": "10:47"},
+    {"who": "Boyd", "beat": "oscillates between protecting Fatima and protecting the community; his compromise (keep the secret, move them out) satisfies neither and plants the episode's crisis", "evidence_t": "13:45"},
+    {"who": "Victor", "beat": "has reversed from decades of endurance into acute desperation; his father's arrival unlocked something he cannot put back", "evidence_t": "06:32"}
+  ],
+  "key_lines": [
+    {"t": "10:43", "speaker": null, "line": "Why is my point of view the only one everybody assumes is wrong?", "why": "Fatima articulates the injustice at the center of her arc"},
+    {"t": "11:54", "speaker": null, "line": "If there's nothing there, if the baby isn't real, that means that it's me.", "why": "The epistemological trap: either something horrible is real, or she is broken"},
+    {"t": "22:43", "speaker": null, "line": "I was so busy taking care of my dad that I was just...", "why": "Tillie's quiet reveal of her own grief; sets up her death 25 minutes later"},
+    {"t": "27:22", "speaker": null, "line": "You either adapt or you lose your mind.", "why": "Tillie's philosophy -- ironically her final advice before the killing"},
+    {"t": "47:40", "speaker": null, "line": "Ellis, what have I done? What have I done?!", "why": "Final line; closes the episode on Fatima's horror at her own hand"}
+  ],
+  "open_loops": [
+    "Tillie is dead -- stabbed by Fatima; the community does not yet know who did it or why",
+    "The ruins in the woods gave both Randall and Julie a physical sensation; what are they and what happens if Julie goes back?",
+    "Boyd's Parkinson's episode mid-search is the first time it has visibly impaired him -- is this accelerating?",
+    "Is the entity inside Fatima acting with independent intent to protect itself?"
+  ],
+  "payoffs": [
+    {"plants_from": "S03E06 08:42", "pays_here": "20:15", "what": "Jade's bottle-number theory pays off: Jim finds the settlement and begins working the numbers in earnest"},
+    {"plants_from": "S03E06 21:19", "pays_here": "02:02", "what": "Ultrasound machine from ambulance is used; confirms no fetus visible, forcing the psychosomatic-vs-supernatural fork"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "to protect both Fatima and the community, keeping everyone safe",
+    "does": "chooses community safety over Fatima's needs by arranging her removal from Colony House -- a decision that removes the medical proximity that might have contained the crisis",
+    "line_t": "13:45"
+  },
+  "tone_notes": "Two major silence blocks: 116 seconds at the 4-6 minute mark (immediately after the ultrasound result lands) and 65 seconds around minute 17 (between Fatima's breakdown and Victor's breakdown) create back-to-back wells of dread. Density spikes at minutes 3-4 (200 wpm) and 43-44 (175 wpm) correspond to the ultrasound confrontation and the greenhouse attack run-up. The episode is the fastest in the batch at 88.1 wpm, matching escalation.",
+  "speaker_attribution_confidence": "medium"
+}

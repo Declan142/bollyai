@@ -1,0 +1,37 @@
+{
+  "episode": "S04E06",
+  "title": "The Heart Is a Lonely Hunter",
+  "beats": [
+    {"t": "02:06", "what": "Jade pitches the tunnel plan to Boyd: descend to the children's bones to break the trap; Boyd resists"},
+    {"t": "06:35", "what": "Jade and Boyd discover a hidden door in the Colony House basement exactly where Jade described from his trip"},
+    {"t": "11:55", "what": "Victor on the rooftop; Boyd learns Victor saw the man in yellow eat Miranda"},
+    {"t": "17:42", "what": "Tabitha explains the doll-nightmare mechanics: fears of the dead become creatures of the forest"},
+    {"t": "26:32", "what": "Donna collapses mid-sentence with a cardiac arrest; Boyd refuses to stop resuscitation attempts"},
+    {"t": "29:45", "what": "Donna's pulse returns after Boyd shouts commands at her to survive; she does not regain consciousness"}
+  ],
+  "character_beats": [
+    {"who": "Boyd", "beat": "Wants hard evidence before committing people to a lethal tunnel mission; the hidden door provides it, but he is simultaneously carrying news of Donna's collapse and his own health decline", "evidence_t": "06:35"},
+    {"who": "Fatima", "beat": "Explains her golem project to Ellis as an act of theological hope rather than breakdown; wants him to understand the difference between belief and delusion", "evidence_t": "19:40"},
+    {"who": "Donna", "beat": "Wants to hold the community together through sheer force of will; her body overrides that will in the episode's most structurally abrupt beat", "evidence_t": "26:32"}
+  ],
+  "key_lines": [
+    {"t": "09:49", "speaker": null, "line": "There is only so long that you can hold this place together with grit and good intentions.", "why": "Jade names Boyd's leadership strategy as finite; the episode then makes it literal with Donna's collapse"},
+    {"t": "27:27", "speaker": null, "line": "You don't die until I say you die. You hear me?", "why": "Boyd's refusal of Donna's death is the episode's emotional center; it also exposes the magical thinking he otherwise suppresses"},
+    {"t": "20:00", "speaker": null, "line": "I need to believe in magical things.", "why": "Fatima states the episode's thesis: faith as survival mechanism, not delusion"}
+  ],
+  "open_loops": [
+    "Donna is unconscious with unknown brain-oxygen deprivation; her recovery is uncertain",
+    "The man in yellow ate Miranda; Victor has been carrying this alone since childhood",
+    "The hidden door in the Colony House basement is now confirmed; it is sealed with a talisman",
+    "The fear-to-creature mechanism means every future death risks generating a new threat"
+  ],
+  "payoffs": [],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "To proceed only when he has enough evidence and a survivable plan",
+    "does": "Once the door is confirmed, he is instantly re-engaged in pushing the tunnel plan forward, abandoning the caution he demanded of Jade moments before",
+    "line_t": "06:35"
+  },
+  "tone_notes": "The episode's 118.9-second silence at 06:57-08:56 is the longest single gap across the seven episodes, landing in the space after Jade and Boyd discover the hidden door. The weight of confirmed evidence goes unspoken for nearly two full minutes. Overall density at 89.3 words/min is the highest in the back half of the season. The minute-30 spike (215 words/min, the episode's highest) corresponds precisely to the frantic Donna resuscitation sequence.",
+  "speaker_attribution_confidence": "medium"
+}

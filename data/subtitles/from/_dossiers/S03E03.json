@@ -1,0 +1,80 @@
+{
+  "episode": "S03E03",
+  "title": "Mouse Trap",
+  "beats": [
+    {"t": "02:18", "what": "Jim heard the Thomas voice; rushes outside and finds children fine but is shaken"},
+    {"t": "09:23", "what": "Boyd reveals plan to catch a creature; Donna opposes it as reckless grief-rage"},
+    {"t": "14:45", "what": "Boyd and Kenny's foraging group reaches the lake settlement with statues and old talismans"},
+    {"t": "17:35", "what": "Jade fights with Dale and the others; storms off from foraging party"},
+    {"t": "19:50", "what": "Boyd walks alongside the memory board he is building -- names of the dead"},
+    {"t": "21:40", "what": "Jade trapped in old bear trap; Kristi and Kenny work to free her as dark approaches"},
+    {"t": "26:35", "what": "Tabitha and Henry arrive at the park; Tabitha sees the bottle tree and has a crisis of reality"},
+    {"t": "36:11", "what": "Ethan directly asks Jim who will bury Mom if she is dead outside"},
+    {"t": "40:12", "what": "Fatima opens up to Tillie about her terror of something being wrong with the baby"},
+    {"t": "44:58", "what": "Henry drives Tabitha to the park tree -- car accident on the road back into town begins"}
+  ],
+  "character_beats": [
+    {
+      "who": "Boyd",
+      "beat": "wants to honor the dead through purposeful action rather than grief paralysis; designs a creature-capture plan while building a memory board -- two forms of doing that mask an inability to simply feel the loss",
+      "evidence_t": "19:50"
+    },
+    {
+      "who": "Jade",
+      "beat": "wants to return to his obsession at the bar rather than do communal labor; abandons the group, gets trapped, and has to be saved by the same people he dismissed",
+      "evidence_t": "30:00"
+    },
+    {
+      "who": "Tabitha",
+      "beat": "wants to trust that the outside world is real; the moment she sees Miranda's necklace in a car near the park, she breaks down -- convinced the place is still staging her reality",
+      "evidence_t": "43:58"
+    }
+  ],
+  "key_lines": [
+    {
+      "t": "19:21",
+      "speaker": null,
+      "line": "Those things said they wanted to break you, and that means they wanted to change you.",
+      "why": "Frames Boyd's offensive pivot as the very behavior the creatures engineered"
+    },
+    {
+      "t": "16:05",
+      "speaker": null,
+      "line": "We can't just sit around playing it safe anymore.",
+      "why": "Boyd's stated rationale for the capture plan; echoes through the episode's action"
+    },
+    {
+      "t": "34:24",
+      "speaker": null,
+      "line": "You'll never be alone, okay? You're gonna be fine.",
+      "why": "Kristi to Kenny, invoking Tian-Chen's dying message; links grief to forward motion"
+    },
+    {
+      "t": "43:18",
+      "speaker": null,
+      "line": "No matter what this place throws at us, we are going to find our way home.",
+      "why": "Boyd to Donna's son -- defiant promise made as the episode's crisis accelerates"
+    }
+  ],
+  "open_loops": [
+    "What triggered the car crash on the road to the park -- is the place preventing Tabitha from reaching the tree?",
+    "What were the ancient talismans at the lake settlement doing, and who placed them?",
+    "Will the creature-capture plan work, and what will it cost?",
+    "What exactly is wrong with Fatima's pregnancy that she cannot speak aloud?"
+  ],
+  "payoffs": [
+    {
+      "plants_from": "S03E02 35:29",
+      "pays_here": "26:35",
+      "what": "Henry takes Tabitha to the park with Miranda's bottle tree -- the physical location finally reached"
+    }
+  ],
+  "contradiction": {
+    "who": "Jade",
+    "wants": "to leave the foraging party and return to his private obsession, framing it as being 'more helpful back in town'",
+    "does": "abandons the group in the forest and immediately gets caught in a trap, requiring rescue from the people he just abandoned",
+    "line_t": "30:01"
+  },
+  "tone_notes": "This episode has three major silence pockets: 144 seconds (~04:08-06:32), 104 seconds (~13:04-14:48), and 71 seconds (~27:39-28:51). The first two sit around Jim's Thomas-voice paranoia and the approach to the lake settlement -- both dread-build pauses. The 144-second gap is the season's second-longest. Density peaks at minutes 30 and 31 (200 and 124 words/min) -- the exact trap sequence and its aftermath. At 96.9 words/min average this is the most verbally dense of the five hours, suggesting a script that rarely lets characters breathe.",
+  "speaker_attribution_confidence": "low"
+}

@@ -1,0 +1,38 @@
+{
+  "episode": "S04E07",
+  "title": "Best Laid Plans",
+  "beats": [
+    {"t": "05:01", "what": "Jade and Boyd attempt to open the tunnel door in the basement; it is sealed, they leave a talisman on it"},
+    {"t": "08:58", "what": "Boyd tells Henry and Victor about Tabitha's reincarnation memories; Henry erupts and refuses to hear it"},
+    {"t": "15:15", "what": "Tabitha discloses to Julie and Ethan that she was Miranda; Julie challenges the claim, Ethan goes quiet"},
+    {"t": "18:17", "what": "Victor arrives at Tabitha's house; insists on going to the car graveyard to find the yellow-suit man's vehicle"},
+    {"t": "24:18", "what": "Boyd plans a night test of the totems against the creatures; describes running directly at one"},
+    {"t": "28:30", "what": "Victor discovers a bag of teeth in the yellow-suit car; announces Ethan must be prepared because the pattern is repeating"}
+  ],
+  "character_beats": [
+    {"who": "Jade", "beat": "Now in full operational mode after the trip's revelations; wants everyone aligned and moving fast, but Boyd keeps slowing the pace for safety checks that feel like stalling", "evidence_t": "10:34"},
+    {"who": "Victor", "beat": "Wants to warn Ethan about the man in yellow repeating the same massacre pattern, but telling Henry first destroyed that relay; he goes directly to the source", "evidence_t": "28:30"},
+    {"who": "Henry", "beat": "Wants to protect Miranda's memory and Victor's peace; his refusal of Tabitha's claim is grief, not logic, and he knows it", "evidence_t": "11:11"}
+  ],
+  "key_lines": [
+    {"t": "11:55", "speaker": null, "line": "You cannot save dead things. No matter how fucking smart you think you are.", "why": "Henry's counter-thesis to the season's entire project; it also echoes the show's own existential doubt about whether the arc is solvable"},
+    {"t": "21:05", "speaker": null, "line": "Every time someone here feels like they have a purpose, somebody always ends up dead.", "why": "Julie names the pattern that makes every hopeful turn feel like a death sentence"},
+    {"t": "28:47", "speaker": null, "line": "You came to town last time with a boy and a girl, and the man in yellow showed up. Everyone died.", "why": "Victor completes the structural parallel that makes Ethan and Julie's presence a direct threat to themselves"}
+  ],
+  "open_loops": [
+    "The bag of teeth in the yellow-suit car: whose teeth, and what do they signify about the man's nature?",
+    "Boyd plans a live test of the totems against the creatures tonight; the episode ends before the outcome",
+    "Henry has been approached by the man in yellow at the end of the episode",
+    "Donna remains unconscious at Colony House with no confirmed prognosis",
+    "Julie's mental state is fragile and she has not accepted Tabitha's disclosure"
+  ],
+  "payoffs": [],
+  "contradiction": {
+    "who": "Victor",
+    "wants": "To protect Ethan from the pattern he knows is repeating by telling him what is coming",
+    "does": "Delivers the warning in a way that traumatizes rather than prepares, because his grief over Miranda's death overrides his capacity to calibrate the truth for a child",
+    "line_t": "28:30"
+  },
+  "tone_notes": "The 116-second silence from 07:03 to 09:00 dominates the episode's structure, landing immediately after Boyd and Jade abandon the sealed basement door. It is the longest silence of the final three episodes and sits in a double-zero density corridor (minutes 7 and 8 both read 0 words/min), suggesting the scene plays entirely on image and ambient sound. The back half of the episode is markedly denser, with minutes 15-17 peaking at 192-201 words/min during the family disclosure scene. Episode ends on a low-density stretch (minutes 47-50 range 14-68 words/min) as Henry encounters the man in yellow, letting dread accumulate slowly.",
+  "speaker_attribution_confidence": "medium"
+}

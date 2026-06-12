@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { DeskTint } from "../../../../components/DeskTint";
 import { JsonLd } from "../../../../components/JsonLd";
 import { DateModified } from "../../../../components/DateModified";
+import { PosterImage } from "../../../../components/PosterImage";
 import { SeasonVerdict } from "../../../../components/SeasonVerdict";
 import {
   getAllSeries,
@@ -93,7 +94,15 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
 
       <section className="film-hero" data-desk={series.canonical_industry}>
         <div className="poster-frame">
-          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" loading="eager" />
+          <PosterImage
+            src={series.poster.src}
+            alt={series.poster.alt}
+            width="342"
+            height="513"
+            loading="eager"
+            avifSrcSet={series.poster.variants?.avifSrcSet}
+            webpSrcSet={series.poster.variants?.webpSrcSet}
+          />
         </div>
         <div className="film-hero__copy">
           <p className="eyebrow">{series.origin} · Streaming Guide</p>
@@ -206,7 +215,15 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
                   : `/series/${s.slug}/`;
                 return (
                   <a className="poster-card" data-desk="streaming" href={href} key={s.slug}>
-                    <img src={s.poster.src} alt={s.poster.alt} width="342" height="513" loading="lazy" />
+                    <PosterImage
+                      src={s.poster.src}
+                      alt={s.poster.alt}
+                      width="342"
+                      height="513"
+                      loading="lazy"
+                      avifSrcSet={s.poster.variants?.avifSrcSet}
+                      webpSrcSet={s.poster.variants?.webpSrcSet}
+                    />
                     <span className="poster-card__plate">
                       <strong>{s.title.value}</strong>
                       <span className="poster-card__money">{s.platform.value}</span>

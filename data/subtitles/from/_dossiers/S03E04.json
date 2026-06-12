@@ -1,0 +1,85 @@
+{
+  "episode": "S03E04",
+  "title": "There and Back Again",
+  "beats": [
+    {"t": "02:18", "what": "The Thomas voice contacts Ethan: tells him Mom is alive and on an ambulance; Jim overhears"},
+    {"t": "08:54", "what": "Victor takes Boyd inside a childhood house; tells the story of the night everyone died"},
+    {"t": "10:41", "what": "Victor reveals the boy in white was his only friend during the years alone after the massacre"},
+    {"t": "17:43", "what": "Tabitha's ambulance drives toward town; she begs the paramedics not to turn back"},
+    {"t": "18:45", "what": "Boyd watches the creatures' night routines from the bus, cataloguing their patterns"},
+    {"t": "22:08", "what": "Julie confesses to Ethan she is scared and cannot remember what happened to her"},
+    {"t": "24:11", "what": "Jade opens up to Boyd about the vision he and Julie and Marielle shared; says death is not the worst thing here"},
+    {"t": "30:22", "what": "Victor's memory session with Boyd: he remembers Jasper and what Christopher's seeing-the-symbol led to"},
+    {"t": "37:47", "what": "Tabitha arrives -- Jim and Boyd race to pull survivors from the ambulance during a creature attack"},
+    {"t": "45:12", "what": "Nicky bleeds out internally despite Marielle's surgery; Donna breaks down with Boyd in private"}
+  ],
+  "character_beats": [
+    {
+      "who": "Victor",
+      "beat": "wants to suppress the memory of everyone dying; the memory session reveals Jasper, Christopher, and the detail that seeing the symbol made someone become dangerous -- knowledge he has protected himself from for decades",
+      "evidence_t": "30:22"
+    },
+    {
+      "who": "Julie",
+      "beat": "wants to hold herself together for Ethan and keep her experience secret; breaks the silence with Ethan alone -- admits she is more scared than she has ever been",
+      "evidence_t": "31:05"
+    },
+    {
+      "who": "Boyd",
+      "beat": "wants to catch a creature through careful observation; the night-watch plan is overtaken by the ambulance emergency, forcing improvised crisis response instead of the calculated offense",
+      "evidence_t": "18:45"
+    }
+  ],
+  "key_lines": [
+    {
+      "t": "16:09",
+      "speaker": null,
+      "line": "Everybody here just talks about how afraid they are of dying. I don't think that's the worst thing that can happen to you here.",
+      "why": "Jade naming a fear beyond death -- the clearest signal about what the shared vision did to them"
+    },
+    {
+      "t": "30:40",
+      "speaker": null,
+      "line": "He was our friend. He was nice, but then he started seeing the symbol, and then he started getting scary.",
+      "why": "Victor's key disclosure: the symbol drives people dangerous -- context for Jade's storyline"
+    },
+    {
+      "t": "31:37",
+      "speaker": null,
+      "line": "All I remember is being more scared than I've ever been in my entire life.",
+      "why": "Julie's private confession to Ethan -- first honest account of her unspoken experience"
+    },
+    {
+      "t": "44:00",
+      "speaker": null,
+      "line": "What if that was our only chance to go home?",
+      "why": "Tabitha's question crystallizes the episode's dread: the escape window may already be closed"
+    }
+  ],
+  "open_loops": [
+    "Who or what is Jasper, and what happened to Christopher after he saw the symbol?",
+    "What did the Thomas-voice gain by steering the ambulance into town -- is it ally or manipulator?",
+    "What did Julie, Marielle, and Jade experience together in that shared vision?",
+    "Can Boyd still execute the creature-capture plan after the ambulance night upended everything?"
+  ],
+  "payoffs": [
+    {
+      "plants_from": "S03E02 35:29",
+      "pays_here": "32:15",
+      "what": "Henry is confirmed as Victor's father; Victor's room shown to him for the first time in decades"
+    },
+    {
+      "plants_from": "S03E03 44:58",
+      "pays_here": "03:44",
+      "what": "Tabitha's ambulance arrival fulfills the Thomas-voice prediction from S03E02's closing seconds"
+    }
+  ],
+  "contradiction": {
+    "who": "Victor",
+    "wants": "to keep the darkest memories buried -- he never drew pictures of his father because he needed to believe that life was a dream",
+    "does": "invites Boyd into the memory session and leads him to the exact objects that unlock those memories, inching toward what he most fears to know",
+    "line_t": "31:52"
+  },
+  "tone_notes": "The sole major silence falls at 42:44-43:56 (72 seconds) -- the pivot between Nicky's apparent stabilization and her sudden collapse. This structural placement makes it a false-calm beat; the show weaponizes the quiet. At 84.5 words/min the episode is mid-range but the density_per_min chart shows two explosive clusters: minutes 19-24 (the ambulance night sequence, peaking at 194) and minutes 29-35 (Victor's memory session). The episode is unusual in having virtually no density in its final two minutes -- the hour ends in silence after Donna's breakdown.",
+  "speaker_attribution_confidence": "low"
+}

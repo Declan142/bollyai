@@ -1,0 +1,39 @@
+{
+  "episode": "S04E03",
+  "title": "Merrily We Go",
+  "beats": [
+    {"t": "02:59", "what": "Fatima and Elgin negotiate shared culpability in private; both acknowledge they will never be the same"},
+    {"t": "09:07", "what": "At Jim's burial, Boyd's eulogy breaks down; he cannot find words"},
+    {"t": "19:03", "what": "Ethan asks Victor about lakes; Victor refuses but is bargained into leading Ethan to the Brundles"},
+    {"t": "22:28", "what": "Boyd offers suicidal Acosta a reason to live: investigate the storage shed as a detective would"},
+    {"t": "30:52", "what": "Julie and Randall enter the collapsed house to retrieve the children's books for Storywalking research"},
+    {"t": "38:27", "what": "Ethan learns from Victor about the Lake of Tears; Jade joins the search"}
+  ],
+  "character_beats": [
+    {"who": "Jade", "beat": "Wants to unlock the memories that will explain why they are trapped, but cannot stop pushing even when warned the knowledge costs lives", "evidence_t": "10:54"},
+    {"who": "Boyd", "beat": "Wants to give Acosta a reason to survive but the reason he offers (investigate the dead) is a mirror of his own inability to grieve or stop", "evidence_t": "22:28"},
+    {"who": "Ethan", "beat": "Wants to find proof that Jim's ghost was real by locating the Lake of Tears; treats discovery as a way to un-lose his father", "evidence_t": "23:28"}
+  ],
+  "key_lines": [
+    {"t": "03:02", "speaker": null, "line": "This place took advantage of both of us. Neither of us will ever be the same again.", "why": "Fatima names the shared contamination without assigning blame, enabling the episode's theme of collective grief"},
+    {"t": "23:08", "speaker": null, "line": "Before we got here, I thought monsters were made up, too.", "why": "Ethan's rebuttal to Jade's skepticism; collapses the line between children's fiction and lived reality"},
+    {"t": "29:09", "speaker": null, "line": "You remind me of someone I could have helped and I didn't.", "why": "Boyd's admission that Acosta is a proxy for unresolved guilt about someone unnamed"}
+  ],
+  "open_loops": [
+    "The children's books retrieved from the collapsed house may contain a working Storywalking method",
+    "Boyd's unnamed person he failed to help: who is it?",
+    "The Brundles lake is not the Lake of Tears; where is the real one?",
+    "Sophia has asked to live with Sara, which Kristi blocked; what is that dynamic building toward?"
+  ],
+  "payoffs": [
+    {"plants_from": "S01E01", "pays_here": "23:07", "what": "The phrase 'Lake of Tears' first surfaces in Ethan's arrival dream (S01E01/E02); here Ethan names it and Jim's ghost confirms it exists in the place"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "To find a way forward, to break the pattern of loss",
+    "does": "Assigns Acosta the task of cataloguing the dead's belongings, which is exactly the act of staying inside the loss rather than escaping it",
+    "line_t": "22:28"
+  },
+  "tone_notes": "A 55-second silence at 08:39-09:34 separates the closing of the burial from the opening of Boyd's speechlessness, the longest pause in the episode. Density map shows two conversation-heavy corridors around minutes 31-32 (190 words/min, highest of episode) during the collapsed-house retrieval, and minute 43-44 (134 words/min) when Ethan negotiates with Jade at the Brundles. The low-density trench at minute 21 (5 words) sits exactly at Jade's frustrated meditation, a near-silent beat of blocked memory.",
+  "speaker_attribution_confidence": "medium"
+}

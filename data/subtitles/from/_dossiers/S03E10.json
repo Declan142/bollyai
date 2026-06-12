@@ -1,0 +1,54 @@
+{
+  "episode": "S03E10",
+  "title": "Revelations: Chapter Two",
+  "beats": [
+    {"t": "01:35", "what": "Search coordination: Randall reports Elgin knows where Fatima is; Boyd locks down Colony House to interrogate him"},
+    {"t": "06:01", "what": "Tabitha tells Jade she felt Miranda's presence in the root cellar; Jade uses thermodynamics to explain how energy might linger here"},
+    {"t": "08:31", "what": "Boyd interrogates Elgin, who insists a baby will save everyone; Boyd heads to the shed for tools, choosing coercion"},
+    {"t": "16:36", "what": "Henry takes Victor to Miranda's grave; Victor reveals he was the reason his mother went to the tree and asks Henry to stop being his father"},
+    {"t": "30:48", "what": "Tillie cracks the bottle numbers as a musical key; 12 notes, two backwards; Victor's mother's violin is retrieved"},
+    {"t": "38:53", "what": "Boyd tortures Elgin; Sara intervenes and tells Elgin that Boyd does not understand how far he will go -- Elgin breaks and reveals the root cellar"},
+    {"t": "49:23", "what": "Fatima is rescued from the root cellar; the entity that 'took' the pregnancy departs into the tunnels; Boyd descends alone to see it"},
+    {"t": "56:05", "what": "Jade plays the bottle-number melody at the bottle tree; the children appear; the creatures come out in daylight attracted by the song"},
+    {"t": "55:47", "what": "Tabitha reveals to Jim: she was Miranda in a past life; Jade was Christopher; they have been here before and failed; a daughter was theirs"},
+    {"t": "58:41", "what": "A creature attacks Jim at the bottle tree; Julie storywalks back to warn him; the creature kills Jim while Julie screams"}
+  ],
+  "character_beats": [
+    {"who": "Boyd", "beat": "spends the episode insisting he is the protector who keeps the rules; chooses to torture a frightened kid to save Fatima, knowing it will break something in him -- then descends alone into the tunnels after the rescue because he still cannot stop controlling the information", "evidence_t": "25:25"},
+    {"who": "Tabitha", "beat": "arrives at the most destabilizing truth of the series -- she was Miranda, Jade was Christopher, they failed before -- and her response is to ask Jim for time, still carrying the weight alone rather than letting the revelation shatter her", "evidence_t": "55:47"},
+    {"who": "Victor", "beat": "confesses the source of his lifelong guilt to his father at his mother's grave; Henry refuses to let him go -- the most direct parental acceptance Victor has ever received; it does not fix him but it witnesses him", "evidence_t": "28:20"}
+  ],
+  "key_lines": [
+    {"t": "19:16", "speaker": null, "line": "You need to decide right now who you are,", "why": "Henry's ultimatum to Boyd before the torture; the moral pivot of the episode"},
+    {"t": "30:11", "speaker": null, "line": "I was the reason that she died.", "why": "Victor's full confession; the weight of the series' longest-running guilt"},
+    {"t": "46:27", "speaker": null, "line": "They sacrificed their children, because It promised them they would live forever.", "why": "Fatima's revelation from the root cellar names the origin of the creatures"},
+    {"t": "55:42", "speaker": null, "line": "The reason I felt what Miranda felt is because I was Miranda.", "why": "The episode's central revelation; Tabitha identifies the cycle she and Jade are trapped in"},
+    {"t": "57:56", "speaker": null, "line": "I need to change the story.", "why": "Julie's Storywalk crisis; the counterline 'no one can change a story once told' defines the tragedy of Jim's death"}
+  ],
+  "open_loops": [
+    "Jim is dead; what does that mean for Tabitha's mission, which required them to work together?",
+    "The creatures came into daylight drawn by the bottle-number melody; what does the song actually unlock?",
+    "Anghkooey means 'remember'; the children want someone to remember something specific -- what is it and can it free them?",
+    "Boyd descended alone into the tunnels after Fatima's rescue; what did he find or what found him?",
+    "Tabitha was Miranda and Jade was Christopher in a prior cycle; if they failed before, what must they do differently this time?",
+    "Fatima survived but 'the thing' departed into the tunnels; is it still in the town and what does it want now?",
+    "The season ends with a survivor outside the town watching a TV broadcast about a viral outbreak -- what is the world outside now?"
+  ],
+  "payoffs": [
+    {"plants_from": "S03E06 53:45", "pays_here": "55:47", "what": "Tabitha's childhood nightmare revelation pays off: she was Miranda in a prior life -- the dream was memory"},
+    {"plants_from": "S03E08 17:26", "pays_here": "30:48", "what": "Victor's church-basement memory leads to retrieving Miranda's violin, which becomes the musical key for the bottle numbers"},
+    {"plants_from": "S03E09 40:36", "pays_here": "56:05", "what": "Boy in White's warning not to cut the tree is vindicated: playing the song AT the tree is the correct action, not destroying it"},
+    {"plants_from": "S03E09 47:30", "pays_here": "28:56", "what": "Victor's 'I was the reason she died' spoken in E09 is now delivered fully to Henry at Miranda's grave"},
+    {"plants_from": "S03E07 (Tillie's death)", "pays_here": "38:53", "what": "Sara's relationship to Tillie's killer Fatima is what gives her the moral standing to stop Boyd from torturing Elgin -- she too was once the person this place broke"},
+    {"plants_from": "Early seasons (Anghkooey symbol)", "pays_here": "52:28", "what": "Anghkooey is translated for the first time as 'remember'; the children chanting it were asking to be remembered by whoever would come back"},
+    {"plants_from": "S03E08 (ruins blackout / Storywalker)", "pays_here": "58:41", "what": "Julie's Storywalker ability is deployed in crisis; she sees Jim's death coming but cannot change it -- 'no one can change a story once it's been told'"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "to protect people without breaking the moral code that defines his authority and separates him from the place's cruelty",
+    "does": "tortures Elgin -- the same act he condemned the place for doing to its people -- and then frames it as necessary protection, which is exactly the logic the place uses",
+    "line_t": "16:38"
+  },
+  "tone_notes": "At 73.4 minutes and 69.9 wpm the finale is the slowest and longest episode in the batch -- the low density is deceptive because it comes from two massive silence blocks: 99 seconds at minutes 52-53 (between the bottle-tree music and the creatures appearing) and 62.5 seconds at minutes 59-60 (after Jim's death). These are not pauses for contemplation -- they are the show holding its breath while the audience absorbs what just happened. The density spike to 200 wpm at minute 15 is the interrogation of Elgin; the spike at 14 is Tabitha and Jade decoding the thermodynamics of Miranda's lingering presence. Miranda's name appears 10 times -- highest for any absent character in any episode -- because the finale is structurally about her shadow over every living character.",
+  "speaker_attribution_confidence": "medium"
+}

@@ -27,6 +27,19 @@ export type EpisodeReview = {
   critic_note?: { text: string; source: string; url: string } | null;
 };
 
+export type PosterVariants = {
+  avifSrcSet: string;
+  webpSrcSet: string;
+  widths: number[];
+};
+
+export type PosterAsset = {
+  src: string;
+  alt: string;
+  attribution: string;
+  variants?: PosterVariants;
+};
+
 export type SeriesSeason = {
   number: number;
   year: number;
@@ -61,8 +74,8 @@ export type Series = {
   status: "running" | "returning" | "ended" | "limited";
   genres?: string[]; // facet tags (Wikidata P136, normalized) — optional
   logline: string;
-  poster: { src: string; alt: string; attribution: string };
-  backdrop?: { src: string; alt: string; attribution: string };
+  poster: PosterAsset;
+  backdrop?: PosterAsset;
   renewal: {
     state: "renewed" | "awaiting" | "ended" | "final-season" | "limited";
     note: string;
@@ -78,6 +91,34 @@ const seriesDir = path.resolve(process.cwd(), "..", "data", "series");
 
 const SERIES_POSTER_FALLBACK = "/img/series/_fallback.svg";
 const publicDir = path.resolve(process.cwd(), "public");
+const POSTER_VARIANT_WIDTHS = [185, 342, 500];
+
+function posterVariantPath(src: string, width: number, extension: "avif" | "webp"): string {
+  return src.replace(/poster\.jpg$/, `w${width}.${extension}`);
+}
+
+function posterVariants(src: string): PosterVariants | undefined {
+  if (!src.startsWith("/img/series/") || src.includes("_fallback") || !src.endsWith("/poster.jpg")) return undefined;
+  const manifest = path.join(publicDir, src.replace(/poster\.jpg$/, "manifest.json").replace(/^\//, ""));
+  if (!fs.existsSync(manifest)) return undefined;
+  const hasEveryVariant = POSTER_VARIANT_WIDTHS.every((width) =>
+    (["avif", "webp"] as const).every((extension) => {
+      const variant = posterVariantPath(src, width, extension);
+      return fs.existsSync(path.join(publicDir, variant.replace(/^\//, "")));
+    })
+  );
+  if (!hasEveryVariant) return undefined;
+  return {
+    widths: POSTER_VARIANT_WIDTHS,
+    avifSrcSet: POSTER_VARIANT_WIDTHS.map((width) => `${posterVariantPath(src, width, "avif")} ${width}w`).join(", "),
+    webpSrcSet: POSTER_VARIANT_WIDTHS.map((width) => `${posterVariantPath(src, width, "webp")} ${width}w`).join(", ")
+  };
+}
+
+function attachPosterVariants(series: Series): Series {
+  const variants = posterVariants(series.poster.src);
+  return variants ? { ...series, poster: { ...series.poster, variants } } : series;
+}
 
 // At build time, swap any poster whose file isn't on disk to the fallback SVG so a
 // not-yet-harvested series never ships a broken <img>. The attribution still reads
@@ -86,7 +127,7 @@ function resolvePoster(series: Series): Series {
   const src = series.poster?.src;
   if (!src || !src.startsWith("/")) return series;
   const onDisk = path.join(publicDir, src.replace(/^\//, ""));
-  if (fs.existsSync(onDisk)) return series;
+  if (fs.existsSync(onDisk)) return attachPosterVariants(series);
   return { ...series, poster: { ...series.poster, src: SERIES_POSTER_FALLBACK } };
 }
 

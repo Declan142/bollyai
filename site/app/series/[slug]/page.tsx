@@ -4,6 +4,7 @@ import { DeskTint } from "../../../components/DeskTint";
 import { JsonLd } from "../../../components/JsonLd";
 import { SeasonVerdict } from "../../../components/SeasonVerdict";
 import { AnswerBlock } from "../../../components/AnswerBlock";
+import { PosterImage } from "../../../components/PosterImage";
 import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
@@ -53,7 +54,16 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
 
       <section className="film-hero" data-desk={series.canonical_industry}>
         <div className="poster-frame">
-          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" fetchPriority="high" loading="eager" />
+          <PosterImage
+            src={series.poster.src}
+            alt={series.poster.alt}
+            width="342"
+            height="513"
+            fetchPriority="high"
+            loading="eager"
+            avifSrcSet={series.poster.variants?.avifSrcSet}
+            webpSrcSet={series.poster.variants?.webpSrcSet}
+          />
         </div>
         <div className="film-hero__copy">
           <p className="eyebrow">{series.origin} · {series.platform.value}</p>

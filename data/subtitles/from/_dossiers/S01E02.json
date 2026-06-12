@@ -1,0 +1,44 @@
+{
+  "episode": "S01E02",
+  "title": "The Way Things Are Now",
+  "air_date": "2022-02-20",
+  "beats": [
+    {"t": "04:15", "what": "Boyd physically restrains Jim from opening the door to the creatures mimicking familiar voices"},
+    {"t": "06:41", "what": "Donna refuses to open Colony House despite cries outside; Kenny and residents are still running"},
+    {"t": "07:37", "what": "A creature stops in front of a car and stands perfectly still before killing Boyd's sister"},
+    {"t": "08:55", "what": "Boyd explains the talisman rule to Jim for the first time: doors and windows shut, creatures cannot enter"},
+    {"t": "11:39", "what": "Fatima tells Julie to cover windows so the creatures cannot trick her if she cannot see them"},
+    {"t": "16:18", "what": "Boyd's sister story delivered: she got out of the car and was skinned alive while he froze and hid"},
+    {"t": "22:04", "what": "Jim presses Boyd on what happens if they get in; Boyd says a gun is useless"},
+    {"t": "32:36", "what": "Ethan's leg fragment extracted in the RV under Boyd and Kristi's care"}
+  ],
+  "character_beats": [
+    {"who": "Donna", "beat": "Wants to protect Colony House yet her refusal to open the door nearly kills Boyd and the newcomers; she enforces the rule but it is visibly costing her", "evidence_t": "07:10"},
+    {"who": "Boyd", "beat": "Wants to lead Jim through the first night with calm authority yet his sister story reveals he survived by abandoning her; his authority rests on a foundation of survivor guilt", "evidence_t": "31:50"},
+    {"who": "Jim", "beat": "Wants action and escape yet is forced into stillness and trust by a man he does not know", "evidence_t": "17:28"}
+  ],
+  "key_lines": [
+    {"t": "08:55", "speaker": null, "line": "They are not people and they are not here to help, Jim!", "why": "First hard statement of the creatures' nature; opens the season's core ontological question"},
+    {"t": "29:11", "speaker": null, "line": "They'd ripped her face off, right in front of me, ripped it clean off.", "why": "The show's most visceral backstory beat; establishes what the creatures actually do"},
+    {"t": "32:38", "speaker": null, "line": "It's been three years, six months and 17 days, and I can still hear my sister screaming.", "why": "Boyd's precise countdown reveals how long people can be trapped; makes the horror mathematical"},
+    {"t": "16:24", "speaker": null, "line": "Even a nightmare can look like a dream.", "why": "Fatima's rooftop frame for the place; inverted dread as a survival philosophy"}
+  ],
+  "open_loops": [
+    "Who or what is Victor, and how long has he actually been in the town?",
+    "What happened to Boyd's wife, referenced obliquely through guilt?",
+    "Why does Donna count days so precisely?",
+    "What do the creatures want beyond hunting?",
+    "Why did two cars arrive simultaneously, which Victor says has never happened before?"
+  ],
+  "payoffs": [
+    {"plants_from": "S01E01 07:49", "pays_here": "04:15", "what": "Boyd's warning that the creatures mimic voices is demonstrated when they imitate familiar cries outside the Colony House door"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "To lead the newcomers through the night safely and prove the system works",
+    "does": "Cannot answer Jim's basic question of why a gun is useless, exposing that the system is survived, not understood",
+    "line_t": "17:05"
+  },
+  "tone_notes": "Two silences bracket the episode's emotional center: 91 seconds (02:44-04:15) holding on the title card and song, and 69 seconds (46:24-47:33) near the close. The opening eight minutes hit density spikes of 149-195 words/min, the highest sustained intensity in the batch, matching the sprint to Colony House. Minutes 23-24 drop to 20-45 w/min as Boyd tells the sister story; the camera and script both slow to let the horror of stillness land.",
+  "speaker_attribution_confidence": "low"
+}

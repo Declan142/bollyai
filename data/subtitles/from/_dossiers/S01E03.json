@@ -1,0 +1,45 @@
+{
+  "episode": "S01E03",
+  "title": "Choosing Day",
+  "air_date": "2022-02-20",
+  "beats": [
+    {"t": "03:28", "what": "Jade wakes up from the car crash in straps; dismisses the entire situation as an elaborate escape-room stunt"},
+    {"t": "07:22", "what": "Frank is told his punishment is a night in the box with no talisman; Boyd admits he built the box as a deterrent he never intended to use"},
+    {"t": "17:43", "what": "Father Khatri explains the Choosing Day ceremony to Jim and Tabitha; the town and Colony House as permanent factions"},
+    {"t": "21:28", "what": "Boyd and Khatri argue over whether to actually put Frank in the box; Khatri invokes the guillotine metaphor"},
+    {"t": "30:31", "what": "Victor reveals to Ethan he is checking whether the trees have moved; says they are four inches closer"},
+    {"t": "37:17", "what": "Frank addresses the gathered town, confesses he let the place get into his head, then chooses the box voluntarily"},
+    {"t": "43:06", "what": "Julie chooses Colony House at the ceremony, splitting the family"},
+    {"t": "45:25", "what": "Jade finally confronts reality when he sees Tobey's body; his escape-room theory collapses"}
+  ],
+  "character_beats": [
+    {"who": "Boyd", "beat": "Wants to uphold the rule of the box to preserve social order yet cannot bring himself to enforce it; resolution comes only when Frank removes the choice from him", "evidence_t": "34:28"},
+    {"who": "Jade", "beat": "Wants the entire situation to be an elaborate prank and performs that belief through the whole episode until the body breaks it", "evidence_t": "45:25"},
+    {"who": "Julie", "beat": "Wants autonomy and is done being treated as the child who makes wrong decisions; chooses Colony House as an act of self-assertion even if it hurts her family", "evidence_t": "42:26"}
+  ],
+  "key_lines": [
+    {"t": "34:07", "speaker": null, "line": "You built a guillotine in the town square. What happens when people realize you lack the conviction to use it?", "why": "Khatri names the structural trap Boyd is caught in; the logic of deterrence requires follow-through"},
+    {"t": "39:15", "speaker": null, "line": "I let this town, those things in the woods, I let them get to my head.", "why": "Frank's confession articulates how the place destroys people from the inside, not only outside"},
+    {"t": "31:01", "speaker": null, "line": "I'm checking to see if they've moved. The trees.", "why": "Victor's obsessive tree-measurement is the first sign the town's geography is actively changing"},
+    {"t": "20:22", "speaker": null, "line": "There is a fine line between savagery and consequence.", "why": "Boyd's framing of the box problem in public sets up his private inability to act"}
+  ],
+  "open_loops": [
+    "Are the trees physically closing in on the town?",
+    "What is the mysterious boy Ethan sees who Victor says hello to?",
+    "How long has Victor been in the town and what does he actually know?",
+    "What did Sara do that led to an incident before the newcomers arrived?",
+    "Will Julie's choice to live apart from her family hold?"
+  ],
+  "payoffs": [
+    {"plants_from": "S01E01 11:21", "pays_here": "37:19", "what": "The 'man protects his family' phrase echoes in Frank's confession that he failed his family by letting the town break him"},
+    {"plants_from": "S01E02 08:55", "pays_here": "20:01", "what": "The talisman rule explained in E02 becomes the source of the punishment logic: no talisman in the box means death"}
+  ],
+  "contradiction": {
+    "who": "Boyd",
+    "wants": "To be a fair leader who maintains order without cruelty",
+    "does": "Built a torture device and is now forced to use it or lose authority; chooses to enforce it only because Frank volunteers",
+    "line_t": "34:07"
+  },
+  "tone_notes": "The episode's longest silence is 97 seconds (05:02-06:40), the title card and song gap. A second silence of 50 seconds (51:13-52:03) closes the episode after Frank enters the box, the longest dead-quiet ending in the batch. Density is highest at minutes 17-22 (100-174 w/min), matching the Boyd-Khatri argument. The Jade scenes punctuate with dark comedy at low-density pockets, functioning as tonal relief before the Frank sequence tightens.",
+  "speaker_attribution_confidence": "low"
+}
