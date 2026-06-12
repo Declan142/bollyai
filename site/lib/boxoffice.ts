@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { DeskSlug } from "./desks";
+import { DESK_SLUGS, type DeskSlug } from "./desks";
 import type { Film, MoneyRange } from "./data";
 
 export type BoxOfficeSource = {
@@ -113,8 +113,18 @@ export function getCurrentBoxOfficeBoard(): BoxOfficeBoard {
   };
 }
 
+export function getCurrentBoxOfficeYear(): string {
+  return getCurrentBoxOfficeBoard().week.start.slice(0, 4);
+}
+
 export function compareRecordsSouthFirst(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
   return industryRank(left.industry) - industryRank(right.industry) || left.film.title.localeCompare(right.film.title);
+}
+
+export function compareRecordsByPublishedIndiaNet(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
+  const leftNet = getPublishedIndiaNet(left) ?? -1;
+  const rightNet = getPublishedIndiaNet(right) ?? -1;
+  return rightNet - leftNet || compareRecordsSouthFirst(left, right);
 }
 
 export function decideBoxOfficeFigure(figure: BoxOfficeFigure): FigureDecision {
@@ -202,34 +212,45 @@ export function getBoxOfficeClub(slug: string): BoxOfficeClub | undefined {
 }
 
 export function getClubRecords(tier: number): BoxOfficeRecord[] {
+  const year = getCurrentBoxOfficeYear();
   return getCurrentBoxOfficeBoard()
-    .records.filter((record) => {
-      const indiaDecision = decideBoxOfficeFigure(record.india_net_inr_cr);
-      const worldwideDecision = decideBoxOfficeFigure(record.worldwide_gross_inr_cr);
-      const indiaLow = indiaDecision.published ? indiaDecision.range.low : 0;
-      const worldwideLow = worldwideDecision.published ? worldwideDecision.range.low : 0;
-      return Math.max(indiaLow, worldwideLow) >= tier;
-    })
-    .sort(compareRecordsSouthFirst);
+    .records.filter((record) => recordYear(record) === year && (getPublishedClubFigure(record) ?? 0) >= tier)
+    .sort(compareRecordsByPublishedClubFigure);
+}
+
+export function getBoxOfficeRecordForFilm(industry: DeskSlug, slug: string): BoxOfficeRecord | undefined {
+  const year = getCurrentBoxOfficeYear();
+  return getCurrentBoxOfficeBoard().records.find(
+    (record) =>
+      record.industry === industry &&
+      recordYear(record) === year &&
+      (record.film.slug === slug || record.film.url === `/${industry}/box-office/${slug}/`)
+  );
+}
+
+export function getQualifiedClubsForRecord(record: BoxOfficeRecord): BoxOfficeClub[] {
+  const figure = getPublishedClubFigure(record);
+  if (figure === null) return [];
+  return getBoxOfficeClubs().filter((club) => figure >= club.tier);
 }
 
 export function getYearScoreboardRecords(industry: DeskSlug, year: string): BoxOfficeRecord[] {
   return getCurrentBoxOfficeBoard()
-    .records.filter((record) => record.industry === industry && record.week.start.startsWith(year))
-    .sort(compareRecordsSouthFirst);
+    .records.filter((record) => record.industry === industry && recordYear(record) === year)
+    .sort(compareRecordsByPublishedIndiaNet);
 }
 
 export function getYearScoreboardParams(): Array<{ industry: DeskSlug; year: string }> {
-  const seen = new Set<string>();
-  const output: Array<{ industry: DeskSlug; year: string }> = [];
-  for (const record of getCurrentBoxOfficeBoard().records) {
-    const year = record.week.start.slice(0, 4);
-    const key = `${record.industry}-${year}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    output.push({ industry: record.industry, year });
+  const board = getCurrentBoxOfficeBoard();
+  const years = new Set<string>([board.week.start.slice(0, 4)]);
+  for (const record of board.records) {
+    years.add(recordYear(record));
   }
-  return output.sort((left, right) => industryRank(left.industry) - industryRank(right.industry) || right.year.localeCompare(left.year));
+
+  return [...years]
+    .sort((left, right) => right.localeCompare(left))
+    .flatMap((year) => DESK_SLUGS.map((industry) => ({ industry, year })))
+    .sort((left, right) => right.year.localeCompare(left.year) || industryRank(left.industry) - industryRank(right.industry));
 }
 
 export function boxOfficeItemListJsonLd(board: BoxOfficeBoard) {
@@ -255,7 +276,7 @@ export function boxOfficeRecordsItemListJsonLd({
     "@type": "ItemList",
     name,
     description,
-    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
     numberOfItems: records.length,
     itemListElement: records.map((record, index) => ({
       "@type": "ListItem",
@@ -351,6 +372,34 @@ export function isYearSlug(slug: string): boolean {
 function industryRank(industry: DeskSlug): number {
   const index = SOUTH_FIRST.indexOf(industry);
   return index === -1 ? SOUTH_FIRST.length : index;
+}
+
+function recordYear(record: BoxOfficeRecord): string {
+  return record.week.start.slice(0, 4);
+}
+
+function getPublishedIndiaNet(record: BoxOfficeRecord): number | null {
+  const decision = decideBoxOfficeFigure(record.india_net_inr_cr);
+  return decision.published ? decision.range.low : null;
+}
+
+function getPublishedWorldwideGross(record: BoxOfficeRecord): number | null {
+  const decision = decideBoxOfficeFigure(record.worldwide_gross_inr_cr);
+  return decision.published ? decision.range.low : null;
+}
+
+function getPublishedClubFigure(record: BoxOfficeRecord): number | null {
+  const indiaNet = getPublishedIndiaNet(record);
+  const worldwideGross = getPublishedWorldwideGross(record);
+  const figures = [indiaNet, worldwideGross].filter((value): value is number => value !== null);
+  if (figures.length === 0) return null;
+  return Math.max(...figures);
+}
+
+function compareRecordsByPublishedClubFigure(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
+  const leftFigure = getPublishedClubFigure(left) ?? -1;
+  const rightFigure = getPublishedClubFigure(right) ?? -1;
+  return rightFigure - leftFigure || compareRecordsSouthFirst(left, right);
 }
 
 function sourceKey(source: BoxOfficeSource): string {

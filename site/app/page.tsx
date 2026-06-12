@@ -11,7 +11,8 @@ import { FilmCard } from "../components/FilmCard";
 import { JsonLd } from "../components/JsonLd";
 import { PosterImage } from "../components/PosterImage";
 import { VerdictMeter } from "../components/VerdictMeter";
-import { DESKS } from "../lib/desks";
+import { getYearScoreboardParams } from "../lib/boxoffice";
+import { DESKS, getDesk } from "../lib/desks";
 import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
 import { getAllSeries, getSeriesByRecency, latestSeason } from "../lib/series";
@@ -60,6 +61,7 @@ export default function HomePage() {
   const freshRail = getSeriesByRecency().slice(0, 14);
 
   const watchLists = getAllWatchLists().slice(0, 6);
+  const yearScoreboards = getYearScoreboardParams();
 
   const leadFig = lead ? bestFigure(lead) : null;
 
@@ -184,6 +186,27 @@ export default function HomePage() {
             Full OTT calendar →
           </a>
         </aside>
+      </section>
+
+      <section className="poster-wall-block">
+        <header className="home-section-head">
+          <h2>2026 Yearboards</h2>
+          <p>Seven desk scoreboards, ranked by verified India nett when the two-source rule clears.</p>
+        </header>
+        <div className="bo-link-grid">
+          {yearScoreboards.map((scoreboard) => {
+            const desk = getDesk(scoreboard.industry);
+            return (
+              <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
+                <span className="eyebrow">{desk?.industryName ?? "Industry"}</span>
+                <strong>
+                  {desk?.label ?? scoreboard.industry} {scoreboard.year}
+                </strong>
+                <span>Open the {scoreboard.year} board →</span>
+              </a>
+            );
+          })}
+        </div>
       </section>
 
       <section className="poster-wall-block">

@@ -64,14 +64,15 @@ for (const desk of DESKS) {
   const deskMod = maxDay(films.filter((f) => f.canonical_industry === desk).map((f) => f.date_modified));
   pages.push({ loc: `${SITE}/${desk}/`, lastmod: deskMod });
 }
-const scoreboardKeys = new Set();
+const scoreboardYears = new Set([String(boxoffice.week?.start || boxoffice.generated_at || LAUNCH).slice(0, 4)]);
 for (const row of boxoffice.records || []) {
   if (!row.industry || !row.week?.start) continue;
-  scoreboardKeys.add(`${row.industry}|${String(row.week.start).slice(0, 4)}`);
+  scoreboardYears.add(String(row.week.start).slice(0, 4));
 }
-for (const key of [...scoreboardKeys].sort()) {
-  const [industry, year] = key.split("|");
-  pages.push({ loc: `${SITE}/${industry}/box-office/${year}/`, lastmod: day(boxoffice.generated_at) });
+for (const year of [...scoreboardYears].sort().reverse()) {
+  for (const industry of DESKS) {
+    pages.push({ loc: `${SITE}/${industry}/box-office/${year}/`, lastmod: day(boxoffice.generated_at) });
+  }
 }
 pages.push({ loc: `${SITE}/ott/calendar/`, lastmod: day(calendar.generated_at) });
 for (const week of calendar.weeks || []) {

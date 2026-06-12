@@ -1,25 +1,36 @@
 Status: COMPLETE
 Did:
-  - Read BRIEF-INTEGRATOR.md and executed the requested integrator flow.
-  - Merged agents/bolly-quality-0612c into main; it fast-forwarded cleanly to 39b4fec.
-  - Merged agents/bolly-ottfill-0612c into main; only last.txt conflicted and was resolved with --ours per brief.
-  - Committed the OTT merge as f878812 using the default merge message.
-  - Ran the required local verification gates after the merges.
+  - Read BRIEF.md, AGENTS.md, RESUME.md, and the referenced blueprint IA sections.
+  - Shipped 2026 year scoreboards for all 7 desks at /{desk}/box-office/2026/.
+  - Ranked yearboard records by renderer-publishable India nett, not by stored labels.
+  - Kept crore clubs sourced from data/boxoffice/current-week.json and renderer publish decisions.
+  - Wired homepage, box-office hub, yearboards, film trackers, reviews, and buildup pages into the yearboard and crore-club mesh.
+  - Regenerated sitemap-pages.xml so all 7 yearboard URLs are discoverable.
   - Did not push, deploy, or run IndexNow.
 Artefacts:
-  - merge commit f878812 (12 files, 446 insertions, 9 deletions)
-  - quality commit 39b4fec fast-forwarded into main
-  - site/out (177M static build output)
+  - site/lib/boxoffice.ts (440 lines)
+  - site/app/[desk]/box-office/[slug]/page.tsx (190 lines)
+  - site/app/[desk]/reviews/[slug]/page.tsx (114 lines)
+  - site/app/[desk]/upcoming/[slug]/page.tsx (89 lines)
+  - site/app/box-office/page.tsx (113 lines)
+  - site/app/page.tsx (323 lines)
+  - site/app/globals.css (1846 lines)
+  - site/scripts/build-sitemaps.mjs (176 lines)
+  - site/public/sitemap-pages.xml (40 lines, 4.0K)
   - last.txt (this handoff)
 Verification:
-  - git diff --cached --check -> clean before merge commit
+  - python3 -m pytest tests/test_boxoffice_publish_rule.py -> 7 passed
   - python3 -m pytest tests/ -> 169 passed
-  - cd site && npm run build -> passed; generated 2365 static pages and assert-no-aggregate-rating passed
-  - conductor outcome bollyai done "merged quality+ottfill lanes; pytest 169 passed; site build passed; no push/deploy/indexnow" -> accepted
-  - git status --short --branch -> main ahead of origin/main; only BRIEF-INTEGRATOR.md untracked before this handoff write
+  - cd site && npm run build -> passed; generated 2368 static pages and assert-no-aggregate-rating passed
+  - find site/out -path '*/box-office/2026/index.html' -> 7 yearboard HTML files
+  - rg -o "/[a-z]+/box-office/2026/" site/out/index.html -> South-first homepage links present
+  - rg -o "https://bollyai.in/[a-z]+/box-office/2026/" site/public/sitemap-pages.xml -> all 7 sitemap URLs present
+  - grep -R "AggregateRating" site/out -> no matches
+  - git diff --check -> clean
 Open issues:
-  - BRIEF-INTEGRATOR.md remains untracked input in the workspace.
-  - No push/deploy/IndexNow was performed, per floor/credentialed fence.
-Next step suggested: Review local main ahead of origin/main, then push/deploy only through the approved credentialed lane.
+  - Literal grep -R -- '--' data still finds pre-existing SRT timestamp arrows in data/subtitles and one pre-existing data/_state note; this lane did not modify data prose.
+  - design-reviewer command/tool was not present in the repo; visual changes were verified through build and generated HTML only.
+  - AGENTS.md and BRIEF.md remain untracked briefing files from the workspace.
+Next step suggested: Review the committed branch, then merge through the approved lane without push, deploy, or IndexNow from this session.
 Network URLs:
   - none

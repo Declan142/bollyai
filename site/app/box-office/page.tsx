@@ -10,6 +10,7 @@ import {
   getCurrentBoxOfficeBoard,
   getYearScoreboardParams
 } from "../../lib/boxoffice";
+import { getDesk } from "../../lib/desks";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -74,15 +75,18 @@ export default function BoxOfficeHubPage() {
             <span>Only films with a publishable conservative figure cross the line.</span>
           </a>
         ))}
-        {getYearScoreboardParams().map((scoreboard) => (
-          <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
-            <span className="eyebrow">Year scoreboard</span>
-            <strong>
-              {scoreboard.year} | {scoreboard.industry}
-            </strong>
-            <span>Industry-scoped tracker rows for the year.</span>
-          </a>
-        ))}
+        {getYearScoreboardParams().map((scoreboard) => {
+          const desk = getDesk(scoreboard.industry);
+          return (
+            <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
+              <span className="eyebrow">Year scoreboard</span>
+              <strong>
+                {desk?.label ?? scoreboard.industry} {scoreboard.year}
+              </strong>
+              <span>{desk?.industryName ?? "Industry"} tracker rows for the year.</span>
+            </a>
+          );
+        })}
       </section>
 
       <section className="bo-method-grid" aria-label="Box office methodology">

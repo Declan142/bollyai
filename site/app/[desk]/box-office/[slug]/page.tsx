@@ -10,9 +10,12 @@ import { TrajectoryChart } from "../../../../components/TrajectoryChart";
 import {
   boxOfficeDatasetJsonLd,
   boxOfficeRecordsItemListJsonLd,
+  getBoxOfficeClubs,
+  getBoxOfficeRecordForFilm,
   filmBoxOfficeDatasetJsonLd,
   filmDayRowsItemListJsonLd,
   getCurrentBoxOfficeBoard,
+  getQualifiedClubsForRecord,
   getYearScoreboardParams,
   getYearScoreboardRecords,
   isYearSlug
@@ -73,6 +76,10 @@ export default function BoxOfficePage({ params }: { params: { desk: string; slug
   }
 
   const total = formatCrore(film.box_office.totals.india_net_inr_cr.value);
+  const boardRecord = getBoxOfficeRecordForFilm(film.canonical_industry, film.slug);
+  const scoreboardYear = boardRecord?.week.start.slice(0, 4) ?? film.release_date.value.slice(0, 4);
+  const clubLinks = boardRecord ? getQualifiedClubsForRecord(boardRecord) : [];
+  const deskLabel = getDesk(film.canonical_industry)?.label ?? film.canonical_industry;
 
   return (
     <DeskTint desk={film.canonical_industry} className="film-page">
@@ -103,7 +110,13 @@ export default function BoxOfficePage({ params }: { params: { desk: string; slug
         <nav className="mesh-links" aria-label="Film page links">
           <a href={`/${film.canonical_industry}/reviews/${film.slug}/`}>Read our verdict</a>
           <a href={`/${film.canonical_industry}/upcoming/${film.slug}/`}>Pre-release buildup</a>
-          <a href={`/${film.canonical_industry}/`}>Back to {film.canonical_industry}</a>
+          <a href={`/${film.canonical_industry}/box-office/${scoreboardYear}/`}>{deskLabel} {scoreboardYear} scoreboard</a>
+          {clubLinks.map((club) => (
+            <a href={`/box-office/${club.slug}/`} key={club.slug}>
+              {club.label}
+            </a>
+          ))}
+          <a href={`/${film.canonical_industry}/`}>Back to {deskLabel}</a>
         </nav>
       </section>
     </DeskTint>
@@ -118,7 +131,8 @@ function YearScoreboardPage({ desk, year }: { desk: string; year: string }) {
 
   const board = getCurrentBoxOfficeBoard();
   const records = getYearScoreboardRecords(deskMeta.slug as DeskSlug, year);
-  const answer = `Industry-scoped scoreboard for ${deskMeta.label}. Rows remain in tracking until the same renderer-side publish rule clears a figure.`;
+  const clubs = getBoxOfficeClubs();
+  const answer = `${deskMeta.label} ${year} ranks source-gated rows by verified India nett. Rows remain in tracking until the same renderer-side publish rule clears a figure.`;
 
   return (
     <DeskTint desk={deskMeta.slug} className="page-shell box-office-hub">
@@ -161,6 +175,16 @@ function YearScoreboardPage({ desk, year }: { desk: string; year: string }) {
           showIndustry={false}
         />
       </section>
+
+      <nav className="mesh-links" aria-label="Scoreboard links">
+        <a href="/box-office/">India box office hub</a>
+        <a href={`/${deskMeta.slug}/`}>{deskMeta.label} desk</a>
+        {clubs.map((club) => (
+          <a href={`/box-office/${club.slug}/`} key={club.slug}>
+            {club.label}
+          </a>
+        ))}
+      </nav>
     </DeskTint>
   );
 }
