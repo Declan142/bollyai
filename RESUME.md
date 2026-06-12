@@ -1,6 +1,7 @@
 # BollyAI — pickup state (2026-06-12 ~08:00, OVERNIGHT FLEET WAVE — MEGA-DEPLOY LIVE)
 
 **5-lane wave merged + 2 deploys to bollyai.in:** batch-11 +30 South-first series (catalogue 542) · /box-office/ hub + crore-clubs (blueprint namespace, BO publish rule in renderer - 56 honest tracking states live) · /tools/hit-flop-calculator + /tools/box-office-comparator (Seat-08) · poster-harvester v2 engine + attribution manifests (0 posters filled - only 9 SVG gaps, no legit sources; honest) · /ott/calendar verified weekly OTT calendar (Monday-anchored, regen via engine/regen_ott_weekly.py). Tests 157/157. Em-dash purged source-wide (24 strings). MYSTERY SOLVED: dirty-main w2w residue was COUPLED WIP (ogImage og-card stack) - restored from stash, committed 6a98020; stash entry retained. sharp now a real dep (variant generator in prebuild). IndexNow full 2831 one-time + hash-gated delta after. Deploy = wrangler direct (vault cloudflare.md works).
+**Evening waves 3+4 (2026-06-12):** box-office DATA live (tracking 56→1, Sacnilk+ToI 2-source envelopes) · 5 GHA workflows authored+dry-run (ARM = secrets pending Aditya/floor) · /ott/calendar verdict lines (grounded-only) · 37 QIDs resolved (14 honest-null) · interactive tools live (/tools/hit-flop-calculator + box-office-comparator) · em-dash source purge. Deploys ed799ab6/c52b959f.
 
 # BollyAI — pickup state (2026-06-09, LIBRARY BUILDOUT LOOP running)
 
