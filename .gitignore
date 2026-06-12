@@ -9,3 +9,6 @@ data/_cache/
 .env*
 *.log
 __pycache__/
+
+# Private subtitle corpus - NEVER public (Undertexter.se conviction shape, CLAUDE.md fence #8)
+data/subtitles/
