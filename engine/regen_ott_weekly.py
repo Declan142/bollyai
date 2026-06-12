@@ -41,6 +41,18 @@ def load_films(data_dir: Path) -> list[dict[str, Any]]:
     return films
 
 
+def load_series(data_dir: Path) -> list[dict[str, Any]]:
+    series_dir = data_dir / "series"
+    if not series_dir.exists():
+        return []
+    series = []
+    for path in sorted(series_dir.glob("*.json")):
+        doc = read_json(path, default=None)
+        if isinstance(doc, dict):
+            series.append(doc)
+    return series
+
+
 def platform_url(platform: str) -> str:
     return f"/ott/{normalized_platform(platform)}/"
 
@@ -71,7 +83,7 @@ def main(argv: list[str] | None = None) -> int:
     today = parse_date(args.today) if args.today else date.today()
     start = current_week_start(today)
     announcements = load_announcements(fixture_mode=args.fixture_mode, data_dir=data_dir)
-    calendar = build_calendar(announcements, films=load_films(data_dir), start=start, weeks=args.weeks)
+    calendar = build_calendar(announcements, films=load_films(data_dir), series=load_series(data_dir), start=start, weeks=args.weeks)
     urls = changed_urls(calendar)
 
     wrote: list[str] = []

@@ -55,6 +55,43 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
     assert calendar["weeks"][0]["iso_week"] == "2026-W24"
     assert calendar["weeks"][1]["iso_week"] == "2026-W25"
     assert calendar["entries"][0]["release_date"]["sources"][0]["url"] == "https://example.com/prime"
+    assert calendar["entries"][0]["verdict_line"] == "English-language film listed for Prime Video on 2026-06-12."
+    assert calendar["entries"][0]["verdict_line_basis"]["kind"] == "calendar_facts"
+
+
+def test_calendar_verdict_line_uses_catalogue_season_basis():
+    entries = [
+        {
+            "id": "catalogue-season",
+            "title": "Example Show Season 2",
+            "slug": "example-show",
+            "platform": "JioHotstar",
+            "date": "2026-06-19",
+            "industry": "streaming",
+            "language": "hi",
+            "type": "series",
+            "sources": [{"name": "Platform", "url": "https://example.com/platform", "type": "press"}],
+        }
+    ]
+    series = [
+        {
+            "slug": "example-show",
+            "title": {"value": "Example Show"},
+            "seasons": [
+                {"number": 1, "bollymeter": {"score": 5.0, "basis": "Season 1 basis."}},
+                {"number": 2, "bollymeter": {"score": 8.0, "basis": "Season 2 basis from the catalogue page."}},
+            ],
+        }
+    ]
+
+    calendar = build_calendar(entries, series=series, start=date(2026, 6, 15), weeks=1)
+
+    assert calendar["entries"][0]["verdict_line"] == "Season 2 basis from the catalogue page."
+    assert calendar["entries"][0]["verdict_line_basis"] == {
+        "kind": "catalogue_page",
+        "source_url": "/series/example-show/",
+        "source_field": "series.seasons[2].bollymeter.basis",
+    }
 
 
 def test_generated_calendar_has_source_envelopes():
@@ -74,3 +111,5 @@ def test_generated_calendar_has_source_envelopes():
         official = any(source["type"] in {"press", "official_social"} for source in entry["sources"])
         trade_count = len({source["url"] for source in entry["sources"] if source["type"] == "trade"})
         assert official or trade_count >= 2
+        assert entry.get("verdict_line"), "calendar entry must render a verdict line"
+        assert entry.get("verdict_line_basis", {}).get("kind") in {"catalogue_page", "calendar_facts"}

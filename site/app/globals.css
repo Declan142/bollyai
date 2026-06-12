@@ -623,9 +623,16 @@ p {
   min-width: 0;
 }
 
-.calendar-row__main span {
+.calendar-row__main span,
+.calendar-row__verdict {
   color: var(--text-dim);
   font-size: .92rem;
+}
+
+.calendar-row__verdict {
+  margin: 0;
+  max-width: 70ch;
+  line-height: 1.5;
 }
 
 .calendar-row .source-line {

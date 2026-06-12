@@ -47,10 +47,14 @@ export default function OttCalendarPage() {
       <section className="calendar-list">
         {calendar.entries.map((entry) => {
           const desk = DESKS.find((item) => item.slug === entry.industry);
+          const title = entry.url ? <a href={entry.url}>{entry.title}</a> : entry.title;
           return (
             <article className="calendar-row" data-desk={entry.industry} key={`${entry.title}-${entry.platform}-${entry.release_date}`}>
               <time dateTime={entry.release_date}>{formatDate(entry.release_date)}</time>
-              <strong>{entry.title}</strong>
+              <div className="calendar-row__main">
+                <strong>{title}</strong>
+                <p className="calendar-row__verdict">{entry.verdict_line}</p>
+              </div>
               <span className="pill">{entry.platform}</span>
               <span className="pill">{desk?.label ?? entry.industry}</span>
               <span className="source-line">
