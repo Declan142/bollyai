@@ -1,45 +1,40 @@
-Status: PARTIAL
+Status: COMPLETE
 Did:
-  - Read `/home/aditya/bollyai-blueprint/MASTER-BLUEPRINT.md` read-only and aligned the box-office surface to the master namespace.
-  - Kept `/box-office/` as the cross-industry hub and added `/box-office/<tier>-crore-club/` routes for 100, 200, 500, and 1000 crore clubs.
-  - Added `/{industry}/box-office/{YYYY}/` year scoreboards through the existing box-office route without breaking per-film tracker URLs.
-  - Refactored box-office structured data so box-office pages emit Dataset and ItemList JSON-LD only; removed FAQ/Breadcrumb schema from film tracker pages.
-  - Preserved the hard BO publish rule in the renderer and kept all unverified current-week figures in tracking.
-  - Documented the blueprint ID conflict: the master file has an earlier `tmdb_id` ruling, but its 2026-06-07 amendment says NO TMDB and promotes QID primary. This repo follows the amendment and AGENTS.
+  - Read BRIEF.md, AGENTS.md, RESUME.md, and the read-only Day-2 ops spec sections 4-7 plus MASTER-BLUEPRINT cron rulings.
+  - Replaced the single combined cron workflow with five explicit workflows: daily-refresh, friday-surge, ott-calendar-roll, tentpole-live, and health-digest.
+  - Added workflow_dispatch, concurrency guards, HC_URL_* healthcheck placeholders, failure alerts, secret-gated Cloudflare Direct Upload deploy steps, dry-run IndexNow steps, and no-op behavior when secrets are absent.
+  - Added an opt-in tentpole runner so the every-3h Fri-Mon workflow stays no-op unless forced or data/_state/tentpole-live.json enables it.
+  - Added a local dry-run harness plus committed dry-run report for all five workflows.
+  - Added a weekly health digest builder with Resend send support only when env secrets are present.
+  - Fixed IndexNow delta handling so relative changed URLs become absolute bollyai.in URLs.
+  - Added pytest coverage for workflow contracts and cheap chaos checks: Wikidata 429 stale-cache degrade, missing fixture degrade, Sacnilk 403, and empty feed handling.
+  - Did not push, deploy, or run IndexNow.
 Artefacts:
-  - data/boxoffice/current-week.json (218 lines)
-  - data/boxoffice/README.md (49 lines)
-  - site/lib/boxoffice.ts (391 lines)
-  - site/components/BoxOfficeBoardTable.tsx (107 lines)
-  - site/app/box-office/page.tsx (109 lines)
-  - site/app/box-office/[club]/page.tsx (82 lines)
-  - site/app/[desk]/box-office/[slug]/page.tsx (166 lines)
-  - tests/test_boxoffice_publish_rule.py (87 lines)
-  - site/app/globals.css (box-office CSS added)
-  - site/app/layout.tsx and site/lib/seo.ts (global OG dash cleanup for emitted box-office pages)
-  - site/scripts/build-search-index.mjs and site/scripts/build-sitemaps.mjs (club and year routes)
+  - .github/workflows/daily-refresh.yml (134 lines)
+  - .github/workflows/friday-surge.yml (134 lines)
+  - .github/workflows/ott-calendar-roll.yml (129 lines)
+  - .github/workflows/tentpole-live.yml (153 lines)
+  - .github/workflows/health-digest.yml (91 lines)
+  - deleted .github/workflows/bollyai-crons.yml (old combined workflow)
+  - scripts/ops/dryrun.sh (209 lines)
+  - scripts/ops/DRYRUN-REPORT.md (80 lines)
+  - scripts/ops/health_digest.py (173 lines)
+  - scripts/ops/tentpole_live.py (99 lines)
+  - scripts/lib/indexnow_ping.py (relative URL normalization change)
+  - tests/test_ops_workflows.py (84 lines)
+  - tests/test_fetcher_degrade.py (75 lines)
 Verification:
-  - python3 -m pytest tests/test_boxoffice_publish_rule.py -> 5 passed
-  - python3 -m pytest tests/ -> 155 passed
-  - cd site && npm run build -> passed; 2254 static pages; aggregate-rating guard passed
-  - rg generated box-office HTML for `AggregateRating|FAQPage|Review` -> clean
-  - rg generated box-office HTML for fancy dashes -> clean
-  - rg touched box-office files for fancy dashes and first-person viewing phrases -> clean
-  - command -v design-reviewer -> unavailable in this environment
-  - grep -r -- '--' data/ -> failed on pre-existing `data/series/` rows and `data/_state/library-buildout.md`
+  - python3 -m py_compile scripts/ops/health_digest.py scripts/ops/tentpole_live.py scripts/lib/indexnow_ping.py -> passed
+  - python3 YAML safe_load over .github/workflows/*.yml -> passed for 5 workflows
+  - scripts/ops/dryrun.sh all --report scripts/ops/DRYRUN-REPORT.md -> PASS for all 5 workflows; no push, deploy, or IndexNow network ping
+  - python3 -m pytest tests/test_ops_workflows.py tests/test_fetcher_degrade.py -q -> 9 passed
+  - python3 -m pytest tests/ -> 166 passed
+  - cd site && npm run build -> passed; 2365 static pages; aggregate-rating guard passed
+  - rg -n "[—–]" .github/workflows scripts/ops tests/test_fetcher_degrade.py tests/test_ops_workflows.py scripts/lib/indexnow_ping.py -> clean
+  - git diff --check -> clean
 Open issues:
-  - PARTIAL because repo-level `grep -r -- '--' data/` is not green, and this lane is fenced away from `data/series/`.
-  - design-reviewer gate could not be run because no local command or connector tool was available.
-  - No TMDB IDs were added because the master blueprint amendment and current repo guide make QID primary, and guessing IDs would violate the honesty fence.
-Next step suggested: Content lane fixes pre-existing data dash violations; floor confirms whether the older `tmdb_id` ruling is revived despite the master amendment.
+  - Existing repo-wide dash scans are noisy outside this lane: old docs/source-title data contain fancy dashes, and data/subtitles has SRT timestamp arrows. This lane did not touch data content and the changed-surface dash scan is clean.
+Next step suggested: Floor arms GH secrets for HC_URL_*, Cloudflare, TMDB, IndexNow, Telegram, Resend, DIGEST_TO, and DIGEST_FROM before manual workflow_dispatch tests in GitHub.
 Network URLs:
-  - https://www.sacnilk.com/
-  - https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms
-  - https://indianexpress.com/article/entertainment/telugu/peddi-box-office-collection-day-1-update-ram-charan-film-earns-over-rs-112-crore-10724436/
-  - https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms
-  - https://m.economictimes.com/magazines/panache/karuppu-box-office-collection-day-1-suriya-trisha-krishnans-film-sees-thunderous-opening-earns-rs-20-crore-globally/articleshow/131130045.cms
-  - https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms
-  - https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_19
-  - https://indianexpress.com/article/entertainment/malayalam/drishyam-3-box-office-collection-day-3-mohanlals-film-crosses-rs-100-crore-mark-worldwide-10705069/
-  - https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms
-  - https://www.bollywoodhungama.com/news/box-office-special-features/box-office-hai-jawani-toh-ishq-hona-hai-opens-well-varun-dhawan-starrer-collects-rs-8-50-crores-on-day-1/
+  - https://registry.npmjs.org (npm ci during local builds, if not satisfied from cache)
+  - none for push, deploy, or IndexNow

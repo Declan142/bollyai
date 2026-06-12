@@ -1,0 +1,91 @@
+name: health-digest
+
+on:
+  schedule:
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build digest without sending Resend or Telegram messages"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+concurrency:
+  group: bollyai-health-digest
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  TZ: Asia/Kolkata
+  RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+  DIGEST_TO: ${{ secrets.DIGEST_TO }}
+  DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Healthcheck start
+        env:
+          HC_URL_DIGEST: ${{ secrets.HC_URL_DIGEST }}
+        run: scripts/lib/hc_ping.sh "${HC_URL_DIGEST:-}" start "health-digest start" || true
+
+      - name: Build weekly digest
+        run: |
+          args=(--output "${RUNNER_TEMP}/health-digest.txt")
+          if [[ "${{ github.event.inputs.dry_run }}" == "true" ]]; then
+            args+=(--dry-run)
+          fi
+          python3 scripts/ops/health_digest.py "${args[@]}"
+
+      - name: Upload digest artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bollyai-health-digest
+          path: ${{ runner.temp }}/health-digest.txt
+          if-no-files-found: error
+
+      - name: Telegram digest summary
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          TG_SEVERITY: P3
+        run: scripts/lib/tg_alert.sh < "${RUNNER_TEMP}/health-digest.txt" || true
+
+      - name: Healthcheck success
+        if: success()
+        env:
+          HC_URL_DIGEST: ${{ secrets.HC_URL_DIGEST }}
+        run: scripts/lib/hc_ping.sh "${HC_URL_DIGEST:-}" success "health-digest success" || true
+
+      - name: Healthcheck failure
+        if: failure()
+        env:
+          HC_URL_DIGEST: ${{ secrets.HC_URL_DIGEST }}
+        run: scripts/lib/hc_ping.sh "${HC_URL_DIGEST:-}" fail "health-digest failure" || true
+
+      - name: Telegram failure alert
+        if: failure()
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          TG_SEVERITY: P3
+        run: |
+          scripts/lib/tg_alert.sh "BollyAI health-digest failed: run ${GITHUB_RUN_ID}" || true

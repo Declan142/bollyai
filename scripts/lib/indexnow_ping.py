@@ -44,13 +44,15 @@ def save_state(path: Path, state: dict[str, Any]) -> None:
     path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def normalize_urls(urls: list[str]) -> list[str]:
+def normalize_urls(urls: list[str], host: str = DEFAULT_HOST) -> list[str]:
     seen: set[str] = set()
     clean: list[str] = []
     for raw in urls:
         url = str(raw).strip()
         if not url or url in seen:
             continue
+        if url.startswith("/"):
+            url = f"https://{host}{url}"
         parsed = urllib.parse.urlparse(url)
         if parsed.scheme not in ("http", "https") or not parsed.netloc:
             continue
@@ -215,7 +217,7 @@ def main(argv: list[str] | None = None) -> int:
     except (OSError, ET.ParseError, ValueError, urllib.error.URLError) as exc:
         return die(str(exc))
 
-    urls = normalize_urls(urls)
+    urls = normalize_urls(urls, host=args.host)
     if not urls:
         print("IndexNow: no URLs to ping.")
         return 0
