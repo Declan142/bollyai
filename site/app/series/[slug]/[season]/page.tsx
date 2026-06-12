@@ -5,13 +5,14 @@ import { CriticConsensus } from "../../../../components/CriticConsensus";
 import { DateModified } from "../../../../components/DateModified";
 import { DeskTint } from "../../../../components/DeskTint";
 import { JsonLd } from "../../../../components/JsonLd";
-import { PosterImage } from "../../../../components/PosterImage";
 import { SeasonVerdict } from "../../../../components/SeasonVerdict";
 import { formatDate } from "../../../../lib/data";
+import { getDna, seasonDna } from "../../../../lib/dna";
+import { getEpisodeBreakdown, epPath } from "../../../../lib/episodes";
 import { getAllSeries, getSeries } from "../../../../lib/series";
 import { hasEnding } from "../../../../lib/endings";
 import { breadcrumbJsonLd, seasonReviewJsonLd, episodeReviewsJsonLd } from "../../../../lib/jsonld";
-import { pageSeo } from "../../../../lib/seo";
+import { ogImage, pageSeo } from "../../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -36,7 +37,7 @@ export function generateMetadata({ params }: { params: { slug: string; season: s
     ? `${t} Season ${num} verdict: ${season.verdict}${score}. `
     : `${t} Season ${num} — BollyAI opens a verdict once the season finishes. `;
   const description = (lead + (season.review_body ?? "")).slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description, ...pageSeo({ path: `/series/${params.slug}/s${num}/`, image: series.poster.src, type: "article" }) };
+  return { title, description, ...pageSeo({ path: `/series/${params.slug}/s${num}/`, image: ogImage(series.slug, num) ?? ogImage(series.slug) ?? series.poster.src, type: "article" }) };
 }
 
 export default function SeasonPage({ params }: { params: { slug: string; season: string } }) {
@@ -49,6 +50,7 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
   const review = seasonReviewJsonLd(series, season);
   const episodeLd = episodeReviewsJsonLd(series, season);
   const episodeReviews = season.episode_reviews ?? [];
+  const dna = seasonDna(getDna(series.slug), season.number);
 
   return (
     <DeskTint desk={series.canonical_industry} className="film-page">
@@ -65,16 +67,7 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
 
       <section className="film-hero" data-desk={series.canonical_industry}>
         <div className="poster-frame">
-          <PosterImage
-            src={series.poster.src}
-            alt={series.poster.alt}
-            width="342"
-            height="513"
-            fetchPriority="high"
-            loading="eager"
-            avifSrcSet={series.poster.variants?.avifSrcSet}
-            webpSrcSet={series.poster.variants?.webpSrcSet}
-          />
+          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" fetchPriority="high" loading="eager" />
         </div>
         <div className="film-hero__copy">
           <p className="eyebrow">
@@ -108,6 +101,17 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
           <CriticConsensus season={season} />
         </section>
 
+        {dna.length > 0 && (
+          <div className="dna-disclosure">
+            <span className="dna-disclosure__k">PRIMARY TEXT</span>
+            <p>
+              BollyAI ran every line of dialogue of this season through its engine - {""}
+              {dna.reduce((a, e) => a + e.words, 0).toLocaleString()} words across {dna.length} episodes.
+              Episode breakdowns below are grounded in that text.
+            </p>
+          </div>
+        )}
+
         {episodeReviews.length > 0 && (
           <section className="panel">
             <h2>Standout Episodes</h2>
@@ -137,6 +141,11 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
                         &ldquo;{ep.critic_note.text}&rdquo;{" "}
                         <a href={ep.critic_note.url}>— {ep.critic_note.source}</a>
                       </p>
+                    )}
+                    {getEpisodeBreakdown(series.slug, season.number, ep.number) && (
+                      <a className="episode-card__more" href={epPath(series.slug, season.number, ep.number)}>
+                        Full recap + breakdown of E{ep.number} →
+                      </a>
                     )}
                   </li>
                 ))}

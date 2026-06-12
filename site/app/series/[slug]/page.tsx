@@ -4,12 +4,11 @@ import { DeskTint } from "../../../components/DeskTint";
 import { JsonLd } from "../../../components/JsonLd";
 import { SeasonVerdict } from "../../../components/SeasonVerdict";
 import { AnswerBlock } from "../../../components/AnswerBlock";
-import { PosterImage } from "../../../components/PosterImage";
 import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
 import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
-import { pageSeo } from "../../../lib/seo";
+import { ogImage, pageSeo } from "../../../lib/seo";
 
 export const dynamicParams = false;
 
@@ -30,7 +29,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
     ? `Is ${t} worth watching? BollyAI verdict: ${peak.verdict}${score}. `
     : `${t} on ${series.platform.value}. `;
   const description = (lead + series.logline).slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description, ...pageSeo({ path: `/series/${params.slug}/`, image: series.poster.src, type: "article" }) };
+  return { title, description, ...pageSeo({ path: `/series/${params.slug}/`, image: ogImage(series.slug) ?? series.poster.src, type: "article" }) };
 }
 
 export default function SeriesHub({ params }: { params: { slug: string } }) {
@@ -53,17 +52,13 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
       />
 
       <section className="film-hero" data-desk={series.canonical_industry}>
+        {series.backdrop && (
+          <div className="film-hero__backdrop" aria-hidden="true">
+            <img src={series.backdrop.src} alt="" loading="eager" fetchPriority="low" />
+          </div>
+        )}
         <div className="poster-frame">
-          <PosterImage
-            src={series.poster.src}
-            alt={series.poster.alt}
-            width="342"
-            height="513"
-            fetchPriority="high"
-            loading="eager"
-            avifSrcSet={series.poster.variants?.avifSrcSet}
-            webpSrcSet={series.poster.variants?.webpSrcSet}
-          />
+          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" fetchPriority="high" loading="eager" />
         </div>
         <div className="film-hero__copy">
           <p className="eyebrow">{series.origin} · {series.platform.value}</p>

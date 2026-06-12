@@ -589,163 +589,6 @@ p {
   font-size: .86rem;
 }
 
-.box-office-hub {
-  display: grid;
-  gap: 28px;
-}
-
-.box-office-head .answer-block {
-  max-width: 860px;
-}
-
-.bo-alert {
-  border-left: 3px solid var(--accent);
-}
-
-.bo-alert p:last-child {
-  margin-bottom: 0;
-  max-width: 70ch;
-  color: var(--text-dim);
-}
-
-.bo-panel-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: end;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.bo-panel-head h2 {
-  margin-top: 6px;
-}
-
-.bo-board {
-  min-width: 980px;
-}
-
-.bo-empty {
-  padding: 18px;
-  border: 1px solid var(--border-hair);
-  background: color-mix(in oklch, var(--surface) 70%, transparent);
-}
-
-.bo-empty p {
-  margin: 0;
-  color: var(--text-dim);
-}
-
-.bo-film-cell {
-  min-width: 220px;
-}
-
-.bo-film-cell strong,
-.bo-film-cell span {
-  display: block;
-}
-
-.bo-film-cell strong {
-  margin-bottom: 5px;
-  font-family: var(--font-display);
-  font-size: 1.18rem;
-  line-height: 1.05;
-}
-
-.bo-film-cell span {
-  color: var(--text-dim);
-  font-size: .88rem;
-}
-
-.bo-metric {
-  display: grid;
-  gap: 5px;
-  min-width: 158px;
-}
-
-.bo-metric strong {
-  font-family: var(--font-number);
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.bo-metric span,
-.bo-metric small {
-  color: var(--text-dim);
-  font-size: .82rem;
-  line-height: 1.35;
-}
-
-.bo-metric[data-state="published"] strong {
-  color: var(--text);
-  text-shadow: 0 1px 0 color-mix(in oklch, var(--accent) 45%, transparent), 0 2px 0 black;
-}
-
-.bo-metric[data-state="tracking"] strong {
-  color: var(--accent);
-  letter-spacing: .08em;
-}
-
-.bo-source-stack {
-  display: grid;
-  gap: 7px;
-  min-width: 220px;
-}
-
-.bo-source-stack a {
-  color: var(--text-dim);
-  font-size: .86rem;
-  overflow-wrap: anywhere;
-}
-
-.bo-link-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
-}
-
-.bo-link-card {
-  display: grid;
-  gap: 9px;
-  min-height: 148px;
-  padding: 18px;
-  border: 1px solid var(--border-hair);
-  background: color-mix(in oklch, var(--surface) 78%, black);
-  text-decoration: none;
-}
-
-.bo-link-card strong {
-  font-family: var(--font-display);
-  font-size: 1.35rem;
-  line-height: 1.02;
-}
-
-.bo-link-card span:last-child {
-  color: var(--text-dim);
-  line-height: 1.45;
-}
-
-.bo-method-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-}
-
-.bo-method-grid p:last-child {
-  margin-bottom: 0;
-  color: var(--text-dim);
-}
-
-@media (max-width: 760px) {
-  .bo-method-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .bo-panel-head {
-    align-items: start;
-  }
-}
-
 /* ============================================================
    CSS-ONLY HAMBURGER DRAWER (checkbox-hack)
    Breakpoint: ≤720px → drawer; ≥721px → inline nav (unchanged)
@@ -1753,3 +1596,82 @@ p {
 .browse-verdict[data-rung="SKIP"] { color: oklch(74% .15 45); border-color: oklch(74% .15 45 / .4); }
 .browse-verdict[data-rung="DISASTER DROP"] { color: oklch(64% .2 25); border-color: oklch(64% .2 25 / .5); }
 @media (max-width: 640px) { .browse__bar { position: static; backdrop-filter: none; } }
+
+/* ── Dialogue DNA (owned data-art from the dialogue corpus) ───────────── */
+.dna-figure { margin: 18px 0 6px; }
+.dna-figure svg { width: 100%; height: auto; display: block; }
+.dna-figure figcaption {
+  margin-top: 10px; font-size: .82rem; color: var(--text-dim); line-height: 1.5; max-width: 62ch;
+}
+.dna-label {
+  font-family: var(--font-number); font-size: 13px; font-weight: 700;
+  letter-spacing: .08em; fill: var(--text-dim);
+}
+.dna-label--dim { opacity: .55; font-weight: 400; }
+.dna-label--accent { fill: var(--accent); }
+.dna-name {
+  font-family: var(--font-body); font-size: 14px; font-weight: 600; fill: var(--text);
+}
+.dna-disclosure {
+  display: flex; align-items: baseline; gap: 10px; margin: 4px 0 14px;
+}
+.dna-disclosure__k {
+  font-family: var(--font-number); font-size: .62rem; font-weight: 700; letter-spacing: .14em;
+  color: var(--accent-ink); background: var(--accent); padding: 3px 8px; border-radius: 3px; white-space: nowrap;
+}
+.dna-disclosure p { margin: 0; font-size: .88rem; color: var(--text-dim); }
+.dna-h3 {
+  font-family: var(--font-number); font-size: .68rem; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--accent); margin: 22px 0 0;
+}
+
+/* hero backdrop wash (series with key art) */
+.film-hero { position: relative; }
+.film-hero__backdrop {
+  position: absolute; inset: 0; z-index: -1; overflow: hidden; border-radius: 6px;
+}
+.film-hero__backdrop img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center 22%;
+  opacity: .28; filter: saturate(.92);
+  -webkit-mask-image: linear-gradient(180deg, oklch(0% 0 0 / .9), transparent 96%);
+  mask-image: linear-gradient(180deg, oklch(0% 0 0 / .9), transparent 96%);
+}
+
+/* ── Episode breakdown pages ─────────────────────────────────────────── */
+.ep-hero { padding: 40px 0 8px; }
+.ep-hero h1 { margin: 8px 0 12px; font-size: clamp(1.7rem, 4.2vw, 2.6rem); }
+.ep-hero__n {
+  font-family: var(--font-number); font-size: .55em; font-weight: 700; letter-spacing: .1em;
+  color: var(--accent); vertical-align: middle; margin-right: 10px;
+  border: 1px solid color-mix(in oklch, var(--accent) 45%, transparent); padding: 3px 8px; border-radius: 4px;
+}
+.ep-hero__score { font-family: var(--font-number); color: var(--text-dim); font-size: .8rem; letter-spacing: .08em; margin: 0 0 10px; }
+.ep-hero__score span { color: var(--accent); font-size: 1.7em; font-weight: 700; }
+.spoiler-warning {
+  font-size: .8rem; color: var(--text-dim); border-left: 3px solid var(--accent);
+  padding: 6px 12px; margin: 14px 0 6px; background: color-mix(in oklch, var(--accent) 6%, transparent);
+}
+.ep-recap h3 {
+  font-family: var(--font-display); font-size: 1.18rem; margin: 26px 0 8px; color: var(--text);
+}
+.ep-recap p, .panel > p { line-height: 1.72; max-width: 70ch; }
+.thread-list { list-style: none; padding: 0; display: grid; gap: 14px; }
+.thread-item { display: flex; gap: 12px; align-items: baseline; }
+.thread-item__k {
+  font-family: var(--font-number); font-size: .58rem; font-weight: 700; letter-spacing: .12em;
+  padding: 3px 7px; border-radius: 3px; white-space: nowrap;
+  background: var(--border-hair); color: var(--text-dim);
+}
+.thread-item[data-dir="pays"] .thread-item__k { background: var(--accent); color: var(--accent-ink); }
+.thread-item p { margin: 4px 0 0; color: var(--text-dim); font-size: .92rem; line-height: 1.6; }
+.question-list { display: grid; gap: 10px; padding-left: 1.2em; }
+.question-list li { line-height: 1.6; }
+.ep-nav {
+  display: flex; justify-content: space-between; gap: 16px; padding: 18px 0;
+  border-top: 1px solid var(--border-hair); flex-wrap: wrap;
+}
+.ep-nav a { font-family: var(--font-number); font-size: .82rem; font-weight: 700; }
+.episode-card__more {
+  font-family: var(--font-number); font-size: .78rem; font-weight: 700; letter-spacing: .04em;
+  color: var(--accent); width: fit-content;
+}
