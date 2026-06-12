@@ -61,6 +61,21 @@ for (const key of [...yearScoreboards].sort()) {
   });
 }
 
+entries.push(
+  {
+    t: "Hit-Flop Verdict Calculator",
+    u: "/tools/hit-flop-calculator/",
+    k: "Tool",
+    d: "Estimate an Indian box-office verdict band from budget, gross, GST and distributor-share inputs"
+  },
+  {
+    t: "Box Office Comparator",
+    u: "/tools/box-office-comparator/",
+    k: "Tool",
+    d: "Compare film box-office trajectories day by day using published India nett trade-estimate rows"
+  }
+);
+
 // Films
 for (const f of listJson(path.join(dataDir, "films"))) {
   const d = readJson(path.join(dataDir, "films", f));
