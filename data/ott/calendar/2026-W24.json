@@ -113,6 +113,12 @@
       },
       "type": "series",
       "url": null,
+      "verdict_line": "English-language series listed for Prime Video on 2026-06-10.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W24"
     },
@@ -225,6 +231,12 @@
       },
       "type": "series",
       "url": null,
+      "verdict_line": "English-language series listed for Netflix on 2026-06-11.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W24"
     },
@@ -337,6 +349,12 @@
       },
       "type": "film",
       "url": "/kollywood/reviews/karuppu-2026/",
+      "verdict_line": "Suriya's career-best run in RJ Balaji's fantasy action drama, already the highest-grossing Tamil film of 2026 and still holding screens in week four.",
+      "verdict_line_basis": {
+        "kind": "catalogue_page",
+        "source_field": "film.logline",
+        "source_url": "/kollywood/reviews/karuppu-2026/"
+      },
       "verification": "two_trade_sources",
       "week": "2026-W24"
     },
@@ -449,6 +467,12 @@
       },
       "type": "series",
       "url": null,
+      "verdict_line": "Tamil-language series listed for aha on 2026-06-12.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W24"
     },
@@ -561,6 +585,12 @@
       },
       "type": "film",
       "url": null,
+      "verdict_line": "Malayalam-language film listed for JioHotstar on 2026-06-12.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W24"
     },
@@ -673,6 +703,12 @@
       },
       "type": "series",
       "url": "/series/raakh/",
+      "verdict_line": "Critical reviews had not aggregated at the time of seeding; the verdict and BollyMeter will be updated once the critical window closes.",
+      "verdict_line_basis": {
+        "kind": "catalogue_page",
+        "source_field": "series.seasons[1].review_body",
+        "source_url": "/series/raakh/"
+      },
       "verification": "official_source",
       "week": "2026-W24"
     },
@@ -785,6 +821,12 @@
       },
       "type": "series",
       "url": null,
+      "verdict_line": "Hindi-language series listed for ZEE5 on 2026-06-12.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W24"
     },
@@ -897,6 +939,12 @@
       },
       "type": "series",
       "url": null,
+      "verdict_line": "Bengali-language series listed for ZEE5 on 2026-06-12.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "two_trade_sources",
       "week": "2026-W24"
     },
@@ -1009,11 +1057,17 @@
       },
       "type": "film",
       "url": "/bollywood/reviews/bhooth-bangla-2026/",
+      "verdict_line": "The April horror-comedy that out-collected louder openers on legs, closing past Rs 245 crore worldwide.",
+      "verdict_line_basis": {
+        "kind": "catalogue_page",
+        "source_field": "film.logline",
+        "source_url": "/bollywood/reviews/bhooth-bangla-2026/"
+      },
       "verification": "two_trade_sources",
       "week": "2026-W24"
     }
   ],
-  "generated_at": "2026-06-12T02:25:10Z",
+  "generated_at": "2026-06-12T10:48:46Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-24/",

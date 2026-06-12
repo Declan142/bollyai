@@ -105,6 +105,7 @@ function CalendarRow({ entry }: { entry: OttCalendarEntry }) {
         <span>
           {entry.type === "film" ? "Film" : "Series"} on {entry.platform}
         </span>
+        <p className="calendar-row__verdict">{entry.verdict_line}</p>
       </div>
       <span className="pill">{entry.language.toUpperCase()}</span>
       <span className="pill">{desk?.label ?? entry.industry}</span>

@@ -1,40 +1,37 @@
 Status: COMPLETE
 Did:
-  - Read BRIEF.md, AGENTS.md, RESUME.md, and the read-only Day-2 ops spec sections 4-7 plus MASTER-BLUEPRINT cron rulings.
-  - Replaced the single combined cron workflow with five explicit workflows: daily-refresh, friday-surge, ott-calendar-roll, tentpole-live, and health-digest.
-  - Added workflow_dispatch, concurrency guards, HC_URL_* healthcheck placeholders, failure alerts, secret-gated Cloudflare Direct Upload deploy steps, dry-run IndexNow steps, and no-op behavior when secrets are absent.
-  - Added an opt-in tentpole runner so the every-3h Fri-Mon workflow stays no-op unless forced or data/_state/tentpole-live.json enables it.
-  - Added a local dry-run harness plus committed dry-run report for all five workflows.
-  - Added a weekly health digest builder with Resend send support only when env secrets are present.
-  - Fixed IndexNow delta handling so relative changed URLs become absolute bollyai.in URLs.
-  - Added pytest coverage for workflow contracts and cheap chaos checks: Wikidata 429 stale-cache degrade, missing fixture degrade, Sacnilk 403, and empty feed handling.
+  - Read BRIEF.md, AGENTS.md, scripts/batch/AUTHORING_BRIEF.md, the OTT weekly generator, calendar data shape, and calendar pages.
+  - Extended the OTT calendar schema with verdict_line and verdict_line_basis for every entry.
+  - Derived catalogue lines only from existing local film/series page data when a live page exists.
+  - Generated neutral fact-only lines from platform, date, language, and type for entries without catalogue coverage.
+  - Wired the weekly regen script and run_all writer to load series catalogue records as well as films.
+  - Rendered the verdict line on /ott/calendar/ and /ott/calendar/[year]/[week]/ rows.
+  - Regenerated data/ott/calendar.json, 2026-W24, 2026-W25, and changed-urls with python3 engine/regen_ott_weekly.py --today 2026-06-12 --weeks 2.
   - Did not push, deploy, or run IndexNow.
 Artefacts:
-  - .github/workflows/daily-refresh.yml (134 lines)
-  - .github/workflows/friday-surge.yml (134 lines)
-  - .github/workflows/ott-calendar-roll.yml (129 lines)
-  - .github/workflows/tentpole-live.yml (153 lines)
-  - .github/workflows/health-digest.yml (91 lines)
-  - deleted .github/workflows/bollyai-crons.yml (old combined workflow)
-  - scripts/ops/dryrun.sh (209 lines)
-  - scripts/ops/DRYRUN-REPORT.md (80 lines)
-  - scripts/ops/health_digest.py (173 lines)
-  - scripts/ops/tentpole_live.py (99 lines)
-  - scripts/lib/indexnow_ping.py (relative URL normalization change)
-  - tests/test_ops_workflows.py (84 lines)
-  - tests/test_fetcher_degrade.py (75 lines)
+  - engine/fetchers/ott_announcements.py (698 lines)
+  - engine/regen_ott_weekly.py (123 lines)
+  - engine/fetchers/run_all.py (192 lines)
+  - site/lib/data.ts (571 lines)
+  - site/app/ott/calendar/page.tsx (69 lines)
+  - site/app/ott/calendar/[year]/[week]/page.tsx (132 lines)
+  - site/app/globals.css (1780 lines)
+  - tests/test_ott_calendar.py (115 lines)
+  - data/ott/calendar.json (1586 lines)
+  - data/ott/calendar/2026-W24.json (1083 lines)
+  - data/ott/calendar/2026-W25.json (493 lines)
+  - data/_state/changed-urls.json (20 lines)
 Verification:
-  - python3 -m py_compile scripts/ops/health_digest.py scripts/ops/tentpole_live.py scripts/lib/indexnow_ping.py -> passed
-  - python3 YAML safe_load over .github/workflows/*.yml -> passed for 5 workflows
-  - scripts/ops/dryrun.sh all --report scripts/ops/DRYRUN-REPORT.md -> PASS for all 5 workflows; no push, deploy, or IndexNow network ping
-  - python3 -m pytest tests/test_ops_workflows.py tests/test_fetcher_degrade.py -q -> 9 passed
-  - python3 -m pytest tests/ -> 166 passed
+  - python3 -m pytest tests/test_ott_calendar.py -> 3 passed
+  - python3 -m pytest tests/ -> 169 passed
   - cd site && npm run build -> passed; 2365 static pages; aggregate-rating guard passed
-  - rg -n "[—–]" .github/workflows scripts/ops tests/test_fetcher_degrade.py tests/test_ops_workflows.py scripts/lib/indexnow_ping.py -> clean
-  - git diff --check -> clean
+  - grep -R -n -- '--' data/ott data/_state/changed-urls.json -> no matches
+  - grep -R -n -P '[\x{2013}\x{2014}]' data/ott data/_state/changed-urls.json -> no matches
+  - rg 'calendar-row__verdict|Critical reviews had not aggregated|career-best run' site/out/ott/calendar/index.html site/out/ott/calendar/2026/wk-24/index.html site/out/ott/calendar/2026/wk-25/index.html -> rendered output contains new lines
+  - validate_series.py -> not run; no data/series files were touched
 Open issues:
-  - Existing repo-wide dash scans are noisy outside this lane: old docs/source-title data contain fancy dashes, and data/subtitles has SRT timestamp arrows. This lane did not touch data content and the changed-surface dash scan is clean.
-Next step suggested: Floor arms GH secrets for HC_URL_*, Cloudflare, TMDB, IndexNow, Telegram, Resend, DIGEST_TO, and DIGEST_FROM before manual workflow_dispatch tests in GitHub.
+  - No callable design-reviewer command or tool was available in the repo or tool registry, so no numeric design-reviewer score was produced. Static export render checks were performed instead.
+  - Repo-wide grep -R -- '--' data/ remains noisy from pre-existing SRT timestamp arrows and old series prose outside this lane.
+Next step suggested: Review the calendar copy in browser from the built static export, then deploy only after explicit approval.
 Network URLs:
-  - https://registry.npmjs.org (npm ci during local builds, if not satisfied from cache)
-  - none for push, deploy, or IndexNow
+  - none

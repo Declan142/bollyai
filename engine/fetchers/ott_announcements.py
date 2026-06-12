@@ -310,6 +310,7 @@ def build_calendar(
     entries: list[dict[str, Any]],
     *,
     films: list[dict[str, Any]] | None = None,
+    series: list[dict[str, Any]] | None = None,
     start: date | None = None,
     weeks: int = 2,
 ) -> dict[str, Any]:
@@ -317,6 +318,8 @@ def build_calendar(
     end = start + timedelta(days=weeks * 7)
     generated_at = utc_now()
     films_by_qid = {str(unwrap_value(film.get("qid"))): film for film in films or [] if unwrap_value(film.get("qid"))}
+    films_by_slug = {str(unwrap_value(film.get("slug"))): film for film in films or [] if unwrap_value(film.get("slug"))}
+    series_by_slug = {str(unwrap_value(item.get("slug"))): item for item in series or [] if unwrap_value(item.get("slug"))}
     output_entries = []
     omitted_unverified: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
@@ -333,7 +336,8 @@ def build_calendar(
         if key in seen:
             continue
         seen.add(key)
-        film = films_by_qid.get(announcement.qid or "", {})
+        film = films_by_qid.get(announcement.qid or "", {}) or films_by_slug.get(str(announcement.slug or ""), {})
+        series_doc = series_by_slug.get(str(announcement.slug or ""), {})
         industry = announcement.industry or unwrap_value(film.get("canonical_industry")) or unwrap_value(film.get("industry")) or "streaming"
         language = announcement.language or unwrap_value(film.get("original_language")) or "und"
         slug = announcement.slug or unwrap_value(film.get("slug"))
@@ -343,6 +347,16 @@ def build_calendar(
         first_source = announcement.sources[0]
         sources = [source_ref_to_dict(source) for source in announcement.sources]
         title = announcement.title or unwrap_value(film.get("title")) or "Untitled"
+        verdict_line, verdict_line_basis = calendar_verdict_line(
+            announcement=announcement,
+            film=film,
+            series_doc=series_doc,
+            title=str(title),
+            language=str(language),
+            platform=announcement.platform,
+            release_date=release_date.isoformat(),
+            resolved_url=resolved_url,
+        )
         output_entries.append(
             {
                 "id": announcement.item_id,
@@ -358,6 +372,8 @@ def build_calendar(
                 "sources": sources,
                 "source_url": first_source.url,
                 "source_type": first_source.source_type,
+                "verdict_line": verdict_line,
+                "verdict_line_basis": verdict_line_basis,
                 "fetched_at": announcement.fetched_at,
                 "confidence": "verified",
                 "verification": verification_basis(announcement),
@@ -461,6 +477,150 @@ def claim(value: Any, announcement: Announcement, *, generated_at: str) -> dict[
         "fetched_at": announcement.fetched_at or generated_at,
         "confidence": "verified",
     }
+
+
+def calendar_verdict_line(
+    *,
+    announcement: Announcement,
+    film: dict[str, Any],
+    series_doc: dict[str, Any],
+    title: str,
+    language: str,
+    platform: str,
+    release_date: str,
+    resolved_url: str | None,
+) -> tuple[str, dict[str, Any]]:
+    if announcement.content_type == "film" and film:
+        line, source_field = film_verdict_line(film)
+        if line:
+            return line, verdict_basis("catalogue_page", resolved_url, source_field)
+    if announcement.content_type == "series" and series_doc:
+        line, source_field = series_verdict_line(series_doc, title)
+        if line:
+            return line, verdict_basis("catalogue_page", resolved_url, source_field)
+    return neutral_calendar_line(
+        content_type=announcement.content_type,
+        language=language,
+        platform=platform,
+        release_date=release_date,
+    ), verdict_basis("calendar_facts", None, "calendar.platform_date_language")
+
+
+def verdict_basis(kind: str, source_url: str | None, source_field: str) -> dict[str, Any]:
+    return {
+        "kind": kind,
+        "source_url": source_url,
+        "source_field": source_field,
+    }
+
+
+def film_verdict_line(film: dict[str, Any]) -> tuple[str | None, str]:
+    bollymeter = film.get("bollymeter")
+    if isinstance(bollymeter, dict):
+        basis = clean_verdict_line(bollymeter.get("basis"))
+        if basis:
+            return basis, "film.bollymeter.basis"
+
+    verdict = film.get("verdict") if isinstance(film.get("verdict"), dict) else {}
+    rung = verdict.get("ladder_rung")
+    if rung:
+        return f"Catalogue trade verdict: {clean_verdict_line(rung)}.", "film.verdict.ladder_rung"
+
+    logline = clean_verdict_line(film.get("logline"))
+    if logline:
+        return limit_sentences(logline), "film.logline"
+
+    if verdict.get("tracking") is True:
+        return "Catalogue verdict is still tracking until the run closes.", "film.verdict.tracking"
+    return None, ""
+
+
+def series_verdict_line(series_doc: dict[str, Any], entry_title: str) -> tuple[str | None, str]:
+    season = select_series_season(series_doc, entry_title)
+    if not season:
+        return None, ""
+
+    season_number = season.get("number")
+    bollymeter = season.get("bollymeter")
+    if isinstance(bollymeter, dict):
+        basis = clean_verdict_line(bollymeter.get("basis"))
+        if basis:
+            return basis, f"series.seasons[{season_number}].bollymeter.basis"
+
+    verdict = clean_verdict_line(season.get("verdict"))
+    if verdict:
+        title = clean_verdict_line(unwrap_value(series_doc.get("title")) or series_doc.get("slug") or entry_title)
+        return f"{title} Season {season_number} carries a {verdict} catalogue verdict.", f"series.seasons[{season_number}].verdict"
+
+    review_body = str(season.get("review_body") or "")
+    open_sentence = sentence_matching(review_body, ("critical reviews", "verdict", "bollymeter"))
+    if open_sentence:
+        return open_sentence, f"series.seasons[{season_number}].review_body"
+    return None, ""
+
+
+def select_series_season(series_doc: dict[str, Any], entry_title: str) -> dict[str, Any] | None:
+    seasons = [season for season in series_doc.get("seasons") or [] if isinstance(season, dict)]
+    if not seasons:
+        return None
+    requested = season_number_from_title(entry_title)
+    if requested is not None:
+        for season in seasons:
+            if season.get("number") == requested:
+                return season
+    return sorted(seasons, key=lambda season: int(season.get("number") or 0), reverse=True)[0]
+
+
+def season_number_from_title(title: str) -> int | None:
+    match = re.search(r"\bseason\s+(\d+)\b|\bs(\d+)\b", title, flags=re.IGNORECASE)
+    if not match:
+        return None
+    return int(match.group(1) or match.group(2))
+
+
+def sentence_matching(text: str, needles: tuple[str, ...]) -> str | None:
+    for sentence in split_sentences(text):
+        lower = sentence.lower()
+        if any(needle in lower for needle in needles):
+            return clean_verdict_line(sentence)
+    return None
+
+
+def split_sentences(text: str) -> list[str]:
+    normalized = clean_verdict_line(text)
+    if not normalized:
+        return []
+    return [part.strip() for part in re.split(r"(?<=[.!?])\s+", normalized) if part.strip()]
+
+
+def limit_sentences(text: str, max_sentences: int = 2) -> str:
+    sentences = split_sentences(text)
+    if not sentences:
+        return clean_verdict_line(text)
+    return " ".join(sentences[:max_sentences])
+
+
+def clean_verdict_line(value: Any) -> str:
+    text = str(value or "").strip()
+    text = text.replace("\u2014", " - ").replace("\u2013", " - ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def neutral_calendar_line(*, content_type: str, language: str, platform: str, release_date: str) -> str:
+    type_label = "film" if content_type == "film" else "series"
+    language_label = language_name(language)
+    return f"{language_label}-language {type_label} listed for {platform} on {release_date}."
+
+
+def language_name(code: str) -> str:
+    return {
+        "bn": "Bengali",
+        "en": "English",
+        "hi": "Hindi",
+        "ml": "Malayalam",
+        "ta": "Tamil",
+        "te": "Telugu",
+    }.get(code.lower(), code.upper())
 
 
 def unwrap_claim(value: Any) -> Any:

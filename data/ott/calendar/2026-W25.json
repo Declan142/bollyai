@@ -113,6 +113,12 @@
       },
       "type": "film",
       "url": null,
+      "verdict_line": "English-language film listed for Prime Video on 2026-06-17.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W25"
     },
@@ -225,6 +231,12 @@
       },
       "type": "series",
       "url": null,
+      "verdict_line": "English-language series listed for Netflix on 2026-06-18.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W25"
     },
@@ -337,6 +349,12 @@
       },
       "type": "film",
       "url": null,
+      "verdict_line": "Malayalam-language film listed for SonyLIV on 2026-06-19.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
       "verification": "official_source",
       "week": "2026-W25"
     },
@@ -449,11 +467,17 @@
       },
       "type": "series",
       "url": "/series/thukra-ke-mera-pyaar/",
+      "verdict_line": "Critical reviews had not aggregated at the time of seeding; verdict and BollyMeter will be updated once the window closes.",
+      "verdict_line_basis": {
+        "kind": "catalogue_page",
+        "source_field": "series.seasons[2].review_body",
+        "source_url": "/series/thukra-ke-mera-pyaar/"
+      },
       "verification": "official_source",
       "week": "2026-W25"
     }
   ],
-  "generated_at": "2026-06-12T02:25:10Z",
+  "generated_at": "2026-06-12T10:48:46Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-25/",

@@ -50,6 +50,18 @@ def load_seed_films(*, fixture_mode: bool, data_dir: Path) -> list[dict[str, Any
     return films
 
 
+def load_seed_series(*, fixture_mode: bool, data_dir: Path) -> list[dict[str, Any]]:
+    if fixture_mode:
+        return []
+
+    series = []
+    for path in sorted((data_dir / "series").glob("*.json")):
+        doc = read_json(path, default=None)
+        if isinstance(doc, dict):
+            series.append(doc)
+    return series
+
+
 def seed_qid(seed: dict[str, Any]) -> str | None:
     for key in ("qid", "wikidata"):
         value = unwrap_value(seed.get(key))
@@ -98,6 +110,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
     week_start = current_week_start(today)
     client = WikidataClient(fixture_mode=fixture_mode)
     seeds = load_seed_films(fixture_mode=fixture_mode, data_dir=data_dir)
+    series_seeds = load_seed_series(fixture_mode=fixture_mode, data_dir=data_dir)
     if args.live_only:
         fetchable_seeds = [seed for seed in seeds if seed_status(seed) in LIVE_STATUSES]
     else:
@@ -116,7 +129,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         readings_by_film.setdefault(str(reading.qid), []).append(reading)
 
     announcements = load_announcements(fixture_mode=fixture_mode, data_dir=data_dir)
-    calendar = build_calendar(announcements, films=seeds, start=week_start, weeks=2)
+    calendar = build_calendar(announcements, films=seeds, series=series_seeds, start=week_start, weeks=2)
     changed_urls = stable_unique(url for seed in seeds for url in changed_urls_for_seed(seed))
 
     wrote = []

@@ -108,6 +108,12 @@ export type SourceEnvelope<T> = {
   confidence: Confidence;
 };
 
+export type OttVerdictLineBasis = {
+  kind: "catalogue_page" | "calendar_facts" | string;
+  source_url?: string | null;
+  source_field?: string;
+};
+
 const filmsDir = path.resolve(process.cwd(), "..", "data", "films");
 const ottCalendarPath = path.resolve(process.cwd(), "..", "data", "ott", "calendar.json");
 const ottCalendarArchiveDir = path.resolve(process.cwd(), "..", "data", "ott", "calendar");
@@ -173,6 +179,8 @@ export type OttCalendarEntry = {
   sources: SourceRef[];
   source_url: string;
   source_type: OttSourceType;
+  verdict_line: string;
+  verdict_line_basis: OttVerdictLineBasis;
   fetched_at: string;
   week?: string;
   section?: "this_week" | "coming" | string;
@@ -238,6 +246,8 @@ export function getOttCalendar(): OttCalendar {
     | "language_claim"
     | "status"
     | "sources"
+    | "verdict_line"
+    | "verdict_line_basis"
   > & {
     id?: string;
     title: string | SourceEnvelope<string>;
@@ -246,6 +256,8 @@ export function getOttCalendar(): OttCalendar {
     release_date: string | SourceValue<string> | SourceEnvelope<string>;
     language: string | SourceEnvelope<string>;
     sources?: SourceRef[];
+    verdict_line?: string;
+    verdict_line_basis?: OttVerdictLineBasis;
     status?: "verified" | "expected";
     _status?: "verified" | "unverified";
   };
@@ -278,6 +290,8 @@ function normalizeOttEntry(entry: {
   sources?: SourceRef[];
   source_url?: string;
   source_type?: OttSourceType;
+  verdict_line?: string;
+  verdict_line_basis?: OttVerdictLineBasis;
   fetched_at?: string;
   week?: string;
   section?: "this_week" | "coming" | string;
@@ -314,6 +328,20 @@ function normalizeOttEntry(entry: {
     sources: fallbackSources,
     source_url: entry.source_url ?? firstSource.url,
     source_type: entry.source_type ?? firstSource.type ?? "trade",
+    verdict_line:
+      entry.verdict_line ??
+      defaultOttVerdictLine({
+        type: entry.type,
+        language: languageClaim.value,
+        platform: platformClaim.value,
+        releaseDate: releaseDateClaim.value
+      }),
+    verdict_line_basis:
+      entry.verdict_line_basis ?? {
+        kind: "calendar_facts",
+        source_url: null,
+        source_field: "calendar.platform_date_language"
+      },
     fetched_at: fetchedAt
   };
 }
@@ -354,6 +382,23 @@ function sourceTypeLabel(type: OttSourceType): string {
   if (type === "official_social") return "Official social";
   if (type === "press") return "Official press";
   return "Trade source";
+}
+
+function defaultOttVerdictLine(entry: { type: "film" | "series"; language: string; platform: string; releaseDate: string }): string {
+  const typeLabel = entry.type === "film" ? "film" : "series";
+  return `${languageLabel(entry.language)}-language ${typeLabel} listed for ${entry.platform} on ${entry.releaseDate}.`;
+}
+
+function languageLabel(code: string): string {
+  const labels: Record<string, string> = {
+    bn: "Bengali",
+    en: "English",
+    hi: "Hindi",
+    ml: "Malayalam",
+    ta: "Tamil",
+    te: "Telugu"
+  };
+  return labels[code.toLowerCase()] ?? code.toUpperCase();
 }
 
 function defaultOttTracking(entries: OttCalendarEntry[]): OttTracking {
