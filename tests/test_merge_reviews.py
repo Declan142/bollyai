@@ -458,3 +458,34 @@ def test_film_gate_refuses_missing_voice_pass(tmp_path):
     assert rc == 0  # 0 eligible, not an error
     result = json.loads(film_path.read_text())
     assert "review" not in result
+
+
+# ---------------------------------------------------------------------------
+# Q4: unmatched slug must fail loudly (SystemExit, stderr message)
+# ---------------------------------------------------------------------------
+
+def test_unmatched_film_slug_fails_loudly(tmp_path, capsys):
+    """_find_film_path must raise SystemExit(2) and print to stderr — never silent skip."""
+    slug = "nonexistent-film"
+    subs = tmp_path / "data" / "subtitles" / slug
+    write_staging(subs, FILM_STAGING_PASS)
+
+    films_dir = tmp_path / "data" / "films"
+    films_dir.mkdir(parents=True)
+    # Deliberately do NOT create a film JSON with this slug
+
+    import importlib
+    spec = importlib.util.spec_from_file_location("merge_reviews", MERGE_SCRIPT)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    mod.SUBS_ROOT = tmp_path / "data" / "subtitles"
+    mod.SERIES_DIR = tmp_path / "data" / "series"
+    mod.FILMS_DIR = tmp_path / "data" / "films"
+
+    with pytest.raises(SystemExit) as exc_info:
+        mod.merge_film(slug, apply=True, force=False)
+    assert exc_info.value.code == 2
+
+    captured = capsys.readouterr()
+    assert "ERROR" in captured.err
+    assert slug in captured.err

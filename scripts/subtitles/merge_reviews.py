@@ -10,8 +10,8 @@ Gate: only entries carrying BOTH g3_pass AND voice_pass are eligible.
   voice_pass = entry["voice_pass"] == True  (stamped by the G4 Opus voice-pass)
 
 Default mode: DRY-RUN (prints plan, touches nothing).
---apply: writes and runs validate_series.py on each touched series slug;
-         rolls back on validator failure. Films get a basic fence check instead.
+--apply: writes and runs validate_series.py (series) or validate_films.py (films)
+         on each touched file; rolls back on validator failure.
 --force: overwrite episodes already present in the live JSON.
 
 Usage:
@@ -35,6 +35,7 @@ SUBS_ROOT = REPO_ROOT / "data" / "subtitles"
 SERIES_DIR = REPO_ROOT / "data" / "series"
 FILMS_DIR = REPO_ROOT / "data" / "films"
 VALIDATE_SERIES = REPO_ROOT / "scripts" / "batch" / "validate_series.py"
+VALIDATE_FILMS = REPO_ROOT / "scripts" / "batch" / "validate_films.py"
 
 IST = timezone(timedelta(hours=5, minutes=30))
 EMDASH = ("—", "–", "―")
@@ -219,8 +220,12 @@ def merge_series(slug: str, *, apply: bool, force: bool) -> int:
 # Film merge path
 # ---------------------------------------------------------------------------
 
-def _find_film_path(slug: str) -> Path | None:
-    """Films are keyed by QID filename; look for the slug match."""
+def _find_film_path(slug: str) -> Path:
+    """Films are keyed by QID filename; scan for the slug match.
+
+    Raises SystemExit with a loud stderr message if not found — a missing
+    film JSON is always a caller error, never a silent skip.
+    """
     for p in FILMS_DIR.glob("*.json"):
         try:
             d = json.loads(p.read_text(encoding="utf-8"))
@@ -228,7 +233,12 @@ def _find_film_path(slug: str) -> Path | None:
                 return p
         except Exception:
             continue
-    return None
+    print(f"ERROR: no film JSON with slug={slug!r} found in {FILMS_DIR}", file=sys.stderr)
+    print(f"  Staged film slugs must match a data/films/*.json 'slug' field exactly.", file=sys.stderr)
+    print(f"  Run: python3 -c \"import json,pathlib; "
+          f"[print(json.load(open(p)).get('slug')) for p in pathlib.Path('{FILMS_DIR}').glob('*.json')]\"",
+          file=sys.stderr)
+    raise SystemExit(2)
 
 
 def merge_film(slug: str, *, apply: bool, force: bool) -> int:
@@ -257,10 +267,7 @@ def merge_film(slug: str, *, apply: bool, force: bool) -> int:
         print(f"[{slug}] FENCE-FAIL: {'; '.join(issues)}")
         return 1
 
-    film_path = _find_film_path(slug)
-    if not film_path:
-        print(f"[{slug}] film JSON not found in data/films/")
-        return 1
+    film_path = _find_film_path(slug)  # raises SystemExit(2) if not found
 
     film = json.loads(film_path.read_text(encoding="utf-8"))
     if film.get("review") and not force:
@@ -288,20 +295,15 @@ def merge_film(slug: str, *, apply: bool, force: bool) -> int:
         print(f"[{slug}] ROLLBACK: write failed: {e}")
         return 1
 
-    # Basic fence check on the written file (no validate_films yet - see FILM_REVIEW_PROPOSAL.md)
-    try:
-        written = json.loads(film_path.read_text(encoding="utf-8"))
-        rev = written.get("review") or {}
-        post_issues = fence_check_review(rev)
-        if post_issues:
-            film_path.write_text(original_text, encoding="utf-8")
-            print(f"[{slug}] ROLLBACK: post-write fence check failed: {'; '.join(post_issues)}")
-            return 1
-        print(f"[{slug}] fence check PASS")
-    except Exception as e:
+    # Validate with validate_films.py (full fence, rollback on failure)
+    r = subprocess.run([sys.executable, str(VALIDATE_FILMS), str(film_path)],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
         film_path.write_text(original_text, encoding="utf-8")
-        print(f"[{slug}] ROLLBACK: post-write read failed: {e}")
+        print(f"[{slug}] ROLLBACK: validate_films failed:")
+        print(r.stderr or r.stdout)
         return 1
+    print(f"[{slug}] validate_films PASS")
 
     return 0
 
