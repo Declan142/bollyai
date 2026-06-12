@@ -28,16 +28,16 @@ Note on IDs: the master blueprint has an earlier `tmdb_id` spine ruling, but its
 
 The page enforces the hard box-office rule in TypeScript:
 
-- Two independent source readings within 10 percent render as `trade estimate`.
+- Two independent source readings within 10 percent render the lower reading as `trade estimate`.
 - Independent readings 10 to 25 percent apart render only the lower figure with a caveat.
 - Single-source rows, PR-only pairs, and readings more than 25 percent apart render as `tracking`.
 - Budgets and salaries are not part of this schema and must never be auto-published.
 
 ## Current Status
 
-`current-week.json` is intentionally `DATA_PENDING: true`.
+`current-week.json` is filled by the boxoffice fetcher's current-week fill mode.
 
-Live search on 2026-06-12 found current pointers for Peddi, Karuppu, Drishyam 3, and Hai Jawani Toh Ishq Hona Hai, but not enough same-metric independent readings to publish a weekly figure. The hub therefore ships with tracked rows and source attribution, not amounts.
+The fill command uses cached public HTML under `_cache/boxoffice/`, a Sacnilk quicknews adapter, and a public trade-article adapter. Each published figure must carry at least two source envelopes with numeric same-metric readings.
 
 ## Fill Steps
 

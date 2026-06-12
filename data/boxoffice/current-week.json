@@ -1,6 +1,6 @@
 {
-  "DATA_PENDING": true,
-  "generated_at": "2026-06-12T03:23:14+05:30",
+  "DATA_PENDING": false,
+  "generated_at": "2026-06-12T11:21:49+05:30",
   "records": [
     {
       "film": {
@@ -11,29 +11,37 @@
         "url": "/tollywood/box-office/peddi-2026/"
       },
       "india_net_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:31Z",
+            "group": "sacnilk",
+            "metric": "india_net",
             "name": "Sacnilk",
-            "url": "https://www.sacnilk.com/"
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/peddi_2026_Box_Office_Collection_Day_7",
+            "value": 187.25
           },
           {
             "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:31Z",
+            "group": "times_of_india",
+            "metric": "india_net",
             "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms"
-          },
-          {
-            "as_of": "2026-06-10",
-            "name": "Indian Express",
-            "url": "https://indianexpress.com/article/entertainment/telugu/peddi-box-office-collection-day-1-update-ram-charan-film-earns-over-rs-112-crore-10724436/"
+            "territory": "India",
+            "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms",
+            "value": 187.25
           }
         ],
-        "value": null
+        "value": {
+          "high": 187.25,
+          "low": 187.25
+        }
       },
       "industry": "tollywood",
       "language": "Telugu",
-      "notes": "Current live pointers are not yet two independent, same-metric readings for the week.",
+      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -41,20 +49,33 @@
         "start": "2026-06-08"
       },
       "worldwide_gross_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:31Z",
+            "group": "sacnilk",
+            "metric": "worldwide_gross",
             "name": "Sacnilk",
-            "url": "https://www.sacnilk.com/"
+            "territory": "Worldwide",
+            "url": "https://www.sacnilk.com/quicknews/peddi_2026_Box_Office_Collection_Day_7",
+            "value": 271.33
           },
           {
             "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:31Z",
+            "group": "times_of_india",
+            "metric": "worldwide_gross",
             "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms"
+            "territory": "Worldwide",
+            "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms",
+            "value": 271.33
           }
         ],
-        "value": null
+        "value": {
+          "high": 271.33,
+          "low": 271.33
+        }
       }
     },
     {
@@ -66,24 +87,37 @@
         "url": "/kollywood/box-office/karuppu-2026/"
       },
       "india_net_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms"
+            "fetched_at": "2026-06-12T05:51:36Z",
+            "group": "sacnilk",
+            "metric": "india_net",
+            "name": "Sacnilk",
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/karuppu_2026_Box_Office_Collection_Day_27",
+            "value": 194.81
           },
           {
-            "as_of": "2026-05-16",
-            "name": "Economic Times",
-            "url": "https://m.economictimes.com/magazines/panache/karuppu-box-office-collection-day-1-suriya-trisha-krishnans-film-sees-thunderous-opening-earns-rs-20-crore-globally/articleshow/131130045.cms"
+            "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:37Z",
+            "group": "times_of_india",
+            "metric": "india_net",
+            "name": "Times of India",
+            "territory": "India",
+            "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms",
+            "value": 194.81
           }
         ],
-        "value": null
+        "value": {
+          "high": 194.81,
+          "low": 194.81
+        }
       },
       "industry": "kollywood",
       "language": "Tamil",
-      "notes": "Current live pointers do not expose a pair-verified current-week India nett figure.",
+      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -91,20 +125,33 @@
         "start": "2026-06-08"
       },
       "worldwide_gross_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms"
+            "fetched_at": "2026-06-12T05:51:36Z",
+            "group": "sacnilk",
+            "metric": "worldwide_gross",
+            "name": "Sacnilk",
+            "territory": "Worldwide",
+            "url": "https://www.sacnilk.com/quicknews/karuppu_2026_Box_Office_Collection_Day_27",
+            "value": 306.05
           },
           {
-            "as_of": "2026-05-16",
-            "name": "Economic Times",
-            "url": "https://m.economictimes.com/magazines/panache/karuppu-box-office-collection-day-1-suriya-trisha-krishnans-film-sees-thunderous-opening-earns-rs-20-crore-globally/articleshow/131130045.cms"
+            "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:37Z",
+            "group": "times_of_india",
+            "metric": "worldwide_gross",
+            "name": "Times of India",
+            "territory": "Worldwide",
+            "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms",
+            "value": 306.05
           }
         ],
-        "value": null
+        "value": {
+          "high": 306.05,
+          "low": 306.05
+        }
       }
     },
     {
@@ -116,29 +163,37 @@
         "url": "/mollywood/box-office/drishyam-3-2026/"
       },
       "india_net_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms"
-          },
-          {
-            "as_of": "2026-06-10",
+            "fetched_at": "2026-06-12T05:51:38Z",
+            "group": "sacnilk",
+            "metric": "india_net",
             "name": "Sacnilk",
-            "url": "https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_19"
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_21",
+            "value": 107.7
           },
           {
-            "as_of": "2026-05-25",
-            "name": "Indian Express",
-            "url": "https://indianexpress.com/article/entertainment/malayalam/drishyam-3-box-office-collection-day-3-mohanlals-film-crosses-rs-100-crore-mark-worldwide-10705069/"
+            "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:39Z",
+            "group": "times_of_india",
+            "metric": "india_net",
+            "name": "Times of India",
+            "territory": "India",
+            "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms",
+            "value": 107.7
           }
         ],
-        "value": null
+        "value": {
+          "high": 107.7,
+          "low": 107.7
+        }
       },
       "industry": "mollywood",
       "language": "Malayalam",
-      "notes": "Totals are being watched, but current-week same-metric source pairs are incomplete.",
+      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -146,20 +201,33 @@
         "start": "2026-06-08"
       },
       "worldwide_gross_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms"
+            "fetched_at": "2026-06-12T05:51:38Z",
+            "group": "sacnilk",
+            "metric": "worldwide_gross",
+            "name": "Sacnilk",
+            "territory": "Worldwide",
+            "url": "https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_21",
+            "value": 236.59
           },
           {
-            "as_of": "2026-06-10",
-            "name": "Sacnilk",
-            "url": "https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_19"
+            "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:39Z",
+            "group": "times_of_india",
+            "metric": "worldwide_gross",
+            "name": "Times of India",
+            "territory": "Worldwide",
+            "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms",
+            "value": 236.59
           }
         ],
-        "value": null
+        "value": {
+          "high": 236.59,
+          "low": 236.59
+        }
       }
     },
     {
@@ -171,24 +239,37 @@
         "url": "/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-2026/"
       },
       "india_net_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms"
+            "fetched_at": "2026-06-12T05:51:48Z",
+            "group": "sacnilk",
+            "metric": "india_net",
+            "name": "Sacnilk",
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_6",
+            "value": 34.25
           },
           {
-            "as_of": "2026-06-07",
-            "name": "Bollywood Hungama",
-            "url": "https://www.bollywoodhungama.com/news/box-office-special-features/box-office-hai-jawani-toh-ishq-hona-hai-opens-well-varun-dhawan-starrer-collects-rs-8-50-crores-on-day-1/"
+            "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:49Z",
+            "group": "times_of_india",
+            "metric": "india_net",
+            "name": "Times of India",
+            "territory": "India",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms",
+            "value": 34.15
           }
         ],
-        "value": null
+        "value": {
+          "high": 34.15,
+          "low": 34.15
+        }
       },
       "industry": "bollywood",
       "language": "Hindi",
-      "notes": "The row is visible, but the amount stays withheld until independent same-metric readings clear the rule.",
+      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -196,15 +277,33 @@
         "start": "2026-06-08"
       },
       "worldwide_gross_inr_cr": {
-        "label": "tracking",
+        "label": "trade estimate",
         "sources": [
           {
             "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:48Z",
+            "group": "sacnilk",
+            "metric": "worldwide_gross",
+            "name": "Sacnilk",
+            "territory": "Worldwide",
+            "url": "https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_6",
+            "value": 51.96
+          },
+          {
+            "as_of": "2026-06-12",
+            "fetched_at": "2026-06-12T05:51:49Z",
+            "group": "times_of_india",
+            "metric": "worldwide_gross",
             "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms"
+            "territory": "Worldwide",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms",
+            "value": 51.85
           }
         ],
-        "value": null
+        "value": {
+          "high": 51.85,
+          "low": 51.85
+        }
       }
     }
   ],
