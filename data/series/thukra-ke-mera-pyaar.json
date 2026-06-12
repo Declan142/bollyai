@@ -1,6 +1,11 @@
 {
   "slug": "thukra-ke-mera-pyaar",
-  "qid": null,
+  "qid": {
+    "value": "Q131407029",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Thukra Ke Mera Pyaar",
     "source": "wikidata",
@@ -150,7 +155,7 @@
   "_quarantine": [
     "Season 2 episode count not confirmed at seeding time (set to null).",
     "Times Now and Times of India review URLs are canonical-form estimates; the attributed quotes are confirmed-attributed per search results but the exact URL slugs were not returned in search results. Flag for URL verification.",
-    "Poster sourced from Wikipedia's Thukra_Ke_Mera_Pyaar1.jpg — may be a Season 1 key art, not Season 2."
+    "Poster sourced from Wikipedia's Thukra_Ke_Mera_Pyaar1.jpg - may be a Season 1 key art, not Season 2."
   ],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

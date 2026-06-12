@@ -1,0 +1,328 @@
+{
+  "fail": 8,
+  "generated_at": "2026-06-12T10:47:18Z",
+  "ok": 0,
+  "results": [
+    {
+      "attempts": [
+        {
+          "reason": "image_too_small",
+          "size": [
+            643,
+            155
+          ],
+          "url": "https://upload.wikimedia.org/wikipedia/en/a/ab/Avatar_The_Last_Airbender_%282024_TV_series%29_logo.png"
+        }
+      ],
+      "checked": [
+        {
+          "accepted": true,
+          "candidate": {
+            "credit": "Wikipedia infobox image",
+            "filename": "Avatar The Last Airbender (2024 TV series) logo.png",
+            "height": 155,
+            "mime": "image/png",
+            "page_url": "https://en.wikipedia.org/wiki/Avatar%3A_The_Last_Airbender_%282024_TV_series%29",
+            "source_name": "Wikipedia infobox image",
+            "source_type": "wikipedia_infobox_image",
+            "title": "Avatar:_The_Last_Airbender_(2024_TV_series)",
+            "url": "https://upload.wikimedia.org/wikipedia/en/a/ab/Avatar_The_Last_Airbender_%282024_TV_series%29_logo.png",
+            "width": 643
+          },
+          "reasons": []
+        }
+      ],
+      "notes": [
+        "Avatar:_The_Last_Airbender_(2024_TV_series): summary_no_image",
+        "Avatar:_The_Last_Airbender: wiki_qid_mismatch",
+        "Avatar:_The_Last_Airbender_(TV_series): wiki_qid_mismatch",
+        "Avatar:_The_Last_Airbender_(television_series): summary_404",
+        "Avatar:_The_Last_Airbender_(web_series): summary_404",
+        "Avatar:_The_Last_Airbender_(Indian_TV_series): summary_404",
+        "Avatar:_The_Last_Airbender_(Indian_web_series): summary_404",
+        "Avatar:_The_Last_Airbender_(2024_TV_series): wiki_page_no_og_image",
+        "Avatar:_The_Last_Airbender: wiki_qid_mismatch",
+        "Avatar:_The_Last_Airbender_(TV_series): wiki_qid_mismatch",
+        "Avatar:_The_Last_Airbender_(television_series): summary_404",
+        "Avatar:_The_Last_Airbender_(web_series): summary_404",
+        "Avatar:_The_Last_Airbender_(Indian_TV_series): summary_404",
+        "Avatar:_The_Last_Airbender_(Indian_web_series): summary_404",
+        "Avatar:_The_Last_Airbender: wiki_qid_mismatch",
+        "Avatar:_The_Last_Airbender_(TV_series): wiki_qid_mismatch",
+        "Avatar:_The_Last_Airbender_(television_series): summary_404",
+        "Avatar:_The_Last_Airbender_(web_series): summary_404",
+        "Avatar:_The_Last_Airbender_(Indian_TV_series): summary_404",
+        "Avatar:_The_Last_Airbender_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "avatar-the-last-airbender",
+      "status": "fail"
+    },
+    {
+      "attempts": [],
+      "checked": [],
+      "notes": [
+        "Made_in_India:_A_Titan_Story: summary_404",
+        "Made_in_India:_A_Titan_Story_(TV_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(television_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(web_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(Indian_TV_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(Indian_web_series): summary_404",
+        "Made_in_India:_A_Titan_Story: summary_404",
+        "Made_in_India:_A_Titan_Story_(TV_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(television_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(web_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(Indian_TV_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(Indian_web_series): summary_404",
+        "Made_in_India:_A_Titan_Story: summary_404",
+        "Made_in_India:_A_Titan_Story_(TV_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(television_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(web_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(Indian_TV_series): summary_404",
+        "Made_in_India:_A_Titan_Story_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "made-in-india-a-titan-story",
+      "status": "fail"
+    },
+    {
+      "attempts": [
+        {
+          "reason": "image_too_small",
+          "size": [
+            336,
+            96
+          ],
+          "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mirzapur_Logo.png"
+        }
+      ],
+      "checked": [
+        {
+          "accepted": true,
+          "candidate": {
+            "credit": "Wikipedia infobox image",
+            "filename": "Mirzapur Logo.png",
+            "height": 96,
+            "mime": "image/png",
+            "page_url": "https://en.wikipedia.org/wiki/Mirzapur_%28TV_series%29",
+            "source_name": "Wikipedia infobox image",
+            "source_type": "wikipedia_infobox_image",
+            "title": "Mirzapur_(TV_series)",
+            "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mirzapur_Logo.png",
+            "width": 336
+          },
+          "reasons": []
+        }
+      ],
+      "notes": [
+        "Mirzapur: wiki_page_not_series",
+        "Mirzapur_(TV_series): summary_no_image",
+        "Mirzapur_(television_series): summary_404",
+        "Mirzapur_(web_series): summary_404",
+        "Mirzapur_(Indian_TV_series): summary_404",
+        "Mirzapur_(Indian_web_series): summary_404",
+        "Mirzapur: wiki_page_not_series",
+        "Mirzapur_(TV_series): wiki_page_no_og_image",
+        "Mirzapur_(television_series): summary_404",
+        "Mirzapur_(web_series): summary_404",
+        "Mirzapur_(Indian_TV_series): summary_404",
+        "Mirzapur_(Indian_web_series): summary_404",
+        "Mirzapur: wiki_page_not_series",
+        "Mirzapur_(television_series): summary_404",
+        "Mirzapur_(web_series): summary_404",
+        "Mirzapur_(Indian_TV_series): summary_404",
+        "Mirzapur_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "mirzapur",
+      "status": "fail"
+    },
+    {
+      "attempts": [
+        {
+          "reason": "image_too_small",
+          "size": [
+            900,
+            146
+          ],
+          "url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Panchayat_%28TV_series%29_logo.png"
+        }
+      ],
+      "checked": [
+        {
+          "accepted": true,
+          "candidate": {
+            "credit": "Wikipedia infobox image",
+            "filename": "Panchayat (TV series) logo.png",
+            "height": 146,
+            "mime": "image/png",
+            "page_url": "https://en.wikipedia.org/wiki/Panchayat_%28TV_series%29",
+            "source_name": "Wikipedia infobox image",
+            "source_type": "wikipedia_infobox_image",
+            "title": "Panchayat_(TV_series)",
+            "url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Panchayat_%28TV_series%29_logo.png",
+            "width": 900
+          },
+          "reasons": []
+        }
+      ],
+      "notes": [
+        "Panchayat_(TV_series): summary_no_image",
+        "Panchayat: wiki_qid_mismatch",
+        "Panchayat_(television_series): summary_404",
+        "Panchayat_(web_series): summary_no_image",
+        "Panchayat_(Indian_TV_series): summary_404",
+        "Panchayat_(Indian_web_series): summary_404",
+        "Panchayat_(TV_series): wiki_page_no_og_image",
+        "Panchayat: wiki_qid_mismatch",
+        "Panchayat_(television_series): summary_404",
+        "Panchayat_(web_series): wiki_page_no_og_image",
+        "Panchayat_(Indian_TV_series): summary_404",
+        "Panchayat_(Indian_web_series): summary_404",
+        "Panchayat: wiki_qid_mismatch",
+        "Panchayat_(television_series): summary_404",
+        "Panchayat_(Indian_TV_series): summary_404",
+        "Panchayat_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "panchayat",
+      "status": "fail"
+    },
+    {
+      "attempts": [],
+      "checked": [],
+      "notes": [
+        "Raakh: wiki_page_not_series",
+        "Raakh_(TV_series): summary_404",
+        "Raakh_(television_series): summary_404",
+        "Raakh_(web_series): summary_404",
+        "Raakh_(Indian_TV_series): summary_404",
+        "Raakh_(Indian_web_series): summary_404",
+        "Raakh: wiki_page_not_series",
+        "Raakh_(TV_series): summary_404",
+        "Raakh_(television_series): summary_404",
+        "Raakh_(web_series): summary_404",
+        "Raakh_(Indian_TV_series): summary_404",
+        "Raakh_(Indian_web_series): summary_404",
+        "Raakh: wiki_page_not_series",
+        "Raakh_(TV_series): summary_404",
+        "Raakh_(television_series): summary_404",
+        "Raakh_(web_series): summary_404",
+        "Raakh_(Indian_TV_series): summary_404",
+        "Raakh_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "raakh",
+      "status": "fail"
+    },
+    {
+      "attempts": [],
+      "checked": [],
+      "notes": [
+        "Severance_(TV_series): summary_no_image",
+        "Severance: wiki_qid_mismatch",
+        "Severance_(television_series): summary_404",
+        "Severance_(web_series): summary_404",
+        "Severance_(Indian_TV_series): summary_404",
+        "Severance_(Indian_web_series): summary_404",
+        "Severance_(TV_series): wiki_page_no_og_image",
+        "Severance: wiki_qid_mismatch",
+        "Severance_(television_series): summary_404",
+        "Severance_(web_series): summary_404",
+        "Severance_(Indian_TV_series): summary_404",
+        "Severance_(Indian_web_series): summary_404",
+        "Severance_(TV_series): infobox_no_image",
+        "Severance: wiki_qid_mismatch",
+        "Severance_(television_series): summary_404",
+        "Severance_(web_series): summary_404",
+        "Severance_(Indian_TV_series): summary_404",
+        "Severance_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "severance",
+      "status": "fail"
+    },
+    {
+      "attempts": [
+        {
+          "reason": "image_too_small",
+          "size": [
+            500,
+            98
+          ],
+          "url": "https://upload.wikimedia.org/wikipedia/en/a/aa/The_Family_Man_logo.webp"
+        }
+      ],
+      "checked": [
+        {
+          "accepted": true,
+          "candidate": {
+            "credit": "Wikipedia infobox image",
+            "filename": "The Family Man logo.webp",
+            "height": 98,
+            "mime": "image/webp",
+            "page_url": "https://en.wikipedia.org/wiki/The_Family_Man_%28Indian_TV_series%29",
+            "source_name": "Wikipedia infobox image",
+            "source_type": "wikipedia_infobox_image",
+            "title": "The_Family_Man_(Indian_TV_series)",
+            "url": "https://upload.wikimedia.org/wikipedia/en/a/aa/The_Family_Man_logo.webp",
+            "width": 500
+          },
+          "reasons": []
+        }
+      ],
+      "notes": [
+        "The_Family_Man: wiki_page_not_series",
+        "The_Family_Man_(TV_series): wiki_page_not_series",
+        "The_Family_Man_(television_series): summary_404",
+        "The_Family_Man_(web_series): summary_404",
+        "The_Family_Man_(Indian_TV_series): summary_no_image",
+        "The_Family_Man_(Indian_web_series): summary_404",
+        "The_Family_Man: wiki_page_not_series",
+        "The_Family_Man_(TV_series): wiki_page_not_series",
+        "The_Family_Man_(television_series): summary_404",
+        "The_Family_Man_(web_series): summary_404",
+        "The_Family_Man_(Indian_TV_series): wiki_page_no_og_image",
+        "The_Family_Man_(Indian_web_series): summary_404",
+        "The_Family_Man: wiki_page_not_series",
+        "The_Family_Man_(TV_series): wiki_page_not_series",
+        "The_Family_Man_(television_series): summary_404",
+        "The_Family_Man_(web_series): summary_404",
+        "The_Family_Man_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "the-family-man",
+      "status": "fail"
+    },
+    {
+      "attempts": [],
+      "checked": [],
+      "notes": [
+        "Wednesday_(TV_series): summary_no_image",
+        "Wednesday: wiki_qid_mismatch",
+        "Wednesday_(television_series): summary_404",
+        "Wednesday_(web_series): summary_404",
+        "Wednesday_(Indian_TV_series): summary_404",
+        "Wednesday_(Indian_web_series): summary_404",
+        "Wednesday_(TV_series): wiki_page_no_og_image",
+        "Wednesday: wiki_qid_mismatch",
+        "Wednesday_(television_series): summary_404",
+        "Wednesday_(web_series): summary_404",
+        "Wednesday_(Indian_TV_series): summary_404",
+        "Wednesday_(Indian_web_series): summary_404",
+        "Wednesday_(TV_series): infobox_no_image",
+        "Wednesday: wiki_qid_mismatch",
+        "Wednesday_(television_series): summary_404",
+        "Wednesday_(web_series): summary_404",
+        "Wednesday_(Indian_TV_series): summary_404",
+        "Wednesday_(Indian_web_series): summary_404"
+      ],
+      "reason": "no_usable_candidate",
+      "slug": "wednesday",
+      "status": "fail"
+    }
+  ],
+  "schema": "bollyai-series-poster-sweep/v2",
+  "skip": 0,
+  "target_count": 8
+}

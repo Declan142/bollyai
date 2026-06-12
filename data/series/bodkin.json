@@ -1,6 +1,11 @@
 {
   "slug": "bodkin",
-  "qid": null,
+  "qid": {
+    "value": "Q123757663",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Bodkin",
     "source": "Wikipedia",
@@ -69,5 +74,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

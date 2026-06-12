@@ -1,6 +1,11 @@
 {
   "slug": "hunter-x-hunter-2011",
-  "qid": null,
+  "qid": {
+    "value": "Q70209136",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Hunter x Hunter (2011)",
     "source": "wikidata",
@@ -204,5 +209,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T05:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

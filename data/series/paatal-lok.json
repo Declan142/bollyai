@@ -1,6 +1,11 @@
 {
   "slug": "paatal-lok",
-  "qid": null,
+  "qid": {
+    "value": "Q95229824",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Paatal Lok",
     "source": "Wikipedia",
@@ -153,5 +158,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

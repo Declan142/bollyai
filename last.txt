@@ -1,40 +1,32 @@
 Status: COMPLETE
 Did:
-  - Read BRIEF.md, AGENTS.md, RESUME.md, and the read-only Day-2 ops spec sections 4-7 plus MASTER-BLUEPRINT cron rulings.
-  - Replaced the single combined cron workflow with five explicit workflows: daily-refresh, friday-surge, ott-calendar-roll, tentpole-live, and health-digest.
-  - Added workflow_dispatch, concurrency guards, HC_URL_* healthcheck placeholders, failure alerts, secret-gated Cloudflare Direct Upload deploy steps, dry-run IndexNow steps, and no-op behavior when secrets are absent.
-  - Added an opt-in tentpole runner so the every-3h Fri-Mon workflow stays no-op unless forced or data/_state/tentpole-live.json enables it.
-  - Added a local dry-run harness plus committed dry-run report for all five workflows.
-  - Added a weekly health digest builder with Resend send support only when env secrets are present.
-  - Fixed IndexNow delta handling so relative changed URLs become absolute bollyai.in URLs.
-  - Added pytest coverage for workflow contracts and cheap chaos checks: Wikidata 429 stale-cache degrade, missing fixture degrade, Sacnilk 403, and empty feed handling.
-  - Did not push, deploy, or run IndexNow.
+  - Ran the v2 official-only poster harvester on the 8 fallback SVG series in this worktree.
+  - Kept fallback SVGs because all 8 poster retries failed the official/usable-poster checks.
+  - Resolved 37 qid nulls from Wikipedia sidebar or wikidata.org evidence with title, year, and platform or platform-family concurrence.
+  - Left 14 qid nulls where evidence was missing, ambiguous, wrong-media, or platform-mismatched.
+  - Cleaned touched-series double-hyphen and unicode-dash prose hits.
+  - Rebuilt generated public sitemaps after date_modified changes.
 Artefacts:
-  - .github/workflows/daily-refresh.yml (134 lines)
-  - .github/workflows/friday-surge.yml (134 lines)
-  - .github/workflows/ott-calendar-roll.yml (129 lines)
-  - .github/workflows/tentpole-live.yml (153 lines)
-  - .github/workflows/health-digest.yml (91 lines)
-  - deleted .github/workflows/bollyai-crons.yml (old combined workflow)
-  - scripts/ops/dryrun.sh (209 lines)
-  - scripts/ops/DRYRUN-REPORT.md (80 lines)
-  - scripts/ops/health_digest.py (173 lines)
-  - scripts/ops/tentpole_live.py (99 lines)
-  - scripts/lib/indexnow_ping.py (relative URL normalization change)
-  - tests/test_ops_workflows.py (84 lines)
-  - tests/test_fetcher_degrade.py (75 lines)
+  - data/_state/poster-harvest-0612c-deep-retry.json (328 lines)
+  - data/_state/qid-null-sweep-0612c.json (62 lines)
+  - 38 data/series JSON files updated
+  - site/public/sitemap-series.xml (546 lines)
+  - site/public/sitemap-seasons.xml (1295 lines)
+  - site/public/sitemap-where-to-watch.xml (290 lines)
 Verification:
-  - python3 -m py_compile scripts/ops/health_digest.py scripts/ops/tentpole_live.py scripts/lib/indexnow_ping.py -> passed
-  - python3 YAML safe_load over .github/workflows/*.yml -> passed for 5 workflows
-  - scripts/ops/dryrun.sh all --report scripts/ops/DRYRUN-REPORT.md -> PASS for all 5 workflows; no push, deploy, or IndexNow network ping
-  - python3 -m pytest tests/test_ops_workflows.py tests/test_fetcher_degrade.py -q -> 9 passed
-  - python3 -m pytest tests/ -> 166 passed
-  - cd site && npm run build -> passed; 2365 static pages; aggregate-rating guard passed
-  - rg -n "[—–]" .github/workflows scripts/ops tests/test_fetcher_degrade.py tests/test_ops_workflows.py scripts/lib/indexnow_ping.py -> clean
-  - git diff --check -> clean
+  - python3 scripts/batch/validate_series.py <38 touched slugs> -> 38/38 clean, 0 failed
+  - python3 -m pytest tests/ -> 168 passed
+  - npm run build in site -> Next static build passed and assert-no-aggregate-rating passed
+  - grep JSON/prose double-hyphen sweep over data/series, data/endings, data/boxoffice, data/_state -> clean
+  - grep unicode dash sweep over data/series -> clean
 Open issues:
-  - Existing repo-wide dash scans are noisy outside this lane: old docs/source-title data contain fancy dashes, and data/subtitles has SRT timestamp arrows. This lane did not touch data content and the changed-surface dash scan is clean.
-Next step suggested: Floor arms GH secrets for HC_URL_*, Cloudflare, TMDB, IndexNow, Telegram, Resend, DIGEST_TO, and DIGEST_FROM before manual workflow_dispatch tests in GitHub.
+  - Poster deep-retry wrote no new posters: avatar-the-last-airbender, made-in-india-a-titan-story, mirzapur, panchayat, raakh, severance, the-family-man, and wednesday remain on honest fallback SVG.
+  - 14 qid values remain null; details are in data/_state/qid-null-sweep-0612c.json.
+  - Literal grep over all data still matches pre-existing subtitle timestamp arrows in data/subtitles and ledger prose in data/_state/library-buildout.md; scoped JSON/prose sweeps for this lane are clean.
+Next step suggested: review the two state reports before any separate approval-gated deploy or IndexNow action.
 Network URLs:
-  - https://registry.npmjs.org (npm ci during local builds, if not satisfied from cache)
-  - none for push, deploy, or IndexNow
+  - https://en.wikipedia.org/w/api.php
+  - https://en.wikipedia.org/api/rest_v1/page/summary/
+  - https://www.wikidata.org/w/api.php
+  - https://www.wikidata.org/wiki/Special:EntityData/
+  - https://upload.wikimedia.org/

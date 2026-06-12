@@ -1,6 +1,11 @@
 {
   "slug": "delhi-crime",
-  "qid": null,
+  "qid": {
+    "value": "Q61837900",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Delhi Crime",
     "source": "wikidata",
@@ -195,5 +200,5 @@
   "_quarantine": [
     "Delhi Crime QID not confirmed via Wikidata search; Q61837900 returned for 'Delhi Crime Story' which may be a different entry. QID set to null pending manual verification at wikidata.org/wiki/Delhi_Crime."
   ],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

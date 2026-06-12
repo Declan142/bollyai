@@ -1,6 +1,11 @@
 {
   "slug": "made-in-india-a-titan-story",
-  "qid": null,
+  "qid": {
+    "value": "Q140149503",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Made in India: A Titan Story",
     "source": "trade announcement",
@@ -129,5 +134,5 @@
   "_quarantine": [
     "Poster miss: no Wikipedia article with image found for Made in India: A Titan Story at seeding time. Using fallback."
   ],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

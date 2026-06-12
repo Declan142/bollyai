@@ -1,6 +1,11 @@
 {
   "slug": "sacred-games",
-  "qid": null,
+  "qid": {
+    "value": "Q48727094",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Sacred Games",
     "source": "Wikipedia",
@@ -60,7 +65,7 @@
         "sample": 26,
         "pull_quotes": [
           {
-            "text": "Bollywood maximalism meets downbeat Euro noir meets Hollywood gangster epic -- mesmerizing and addictive.",
+            "text": "mesmerizing and addictive.",
             "source": "Vogue (Taylor Antrim)",
             "url": "https://www.vogue.com/article/sacred-games-netflix-india-review"
           },
@@ -158,5 +163,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

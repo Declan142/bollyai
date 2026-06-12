@@ -1,6 +1,11 @@
 {
   "slug": "mirzapur",
-  "qid": null,
+  "qid": {
+    "value": "Q58815840",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Mirzapur",
     "source": "Wikipedia",
@@ -166,5 +171,5 @@
   "_quarantine": [
     "Poster: no originalimage found on Wikipedia REST API for Mirzapur_(TV_series); using _fallback.svg."
   ],
-  "date_modified": "2026-06-08T05:30:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

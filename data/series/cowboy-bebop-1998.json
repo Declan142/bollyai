@@ -1,6 +1,11 @@
 {
   "slug": "cowboy-bebop-1998",
-  "qid": null,
+  "qid": {
+    "value": "Q101244908",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Cowboy Bebop",
     "source": "wikidata",
@@ -105,5 +110,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T05:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }

@@ -1,6 +1,11 @@
 {
   "slug": "farzi",
-  "qid": null,
+  "qid": {
+    "value": "Q18354811",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
   "title": {
     "value": "Farzi",
     "source": "Wikipedia",
@@ -53,7 +58,7 @@
       "verdict": "WORTH-IT",
       "bollymeter": {
         "score": 7.6,
-        "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split -- Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room."
+        "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split - Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room."
       },
       "critic": {
         "positive_pct": null,
@@ -124,5 +129,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-06-12T16:32:31+05:30"
 }
