@@ -1,7 +1,7 @@
 import type { DnaEpisode } from "../lib/dna";
 import { topMentioned } from "../lib/dna";
 
-/* Dialogue DNA — BollyAI's owned data-art, computed from the dialogue corpus.
+/* Dialogue DNA - BollyAI's owned data-art, computed from the dialogue corpus.
    Two figures: SeasonPulse (per-episode dialogue-density curves with the longest
    hush marked) and TalkHeatmap (who the town talks about, episode by episode).
    Inline SVG so it inherits site fonts + desk accent tokens. */

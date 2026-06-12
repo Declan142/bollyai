@@ -3,7 +3,7 @@ import { DateModified } from "../components/DateModified";
 import { pageSeo } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "BollyAI — Is It Worth Watching? OTT & Movie Verdicts for India" },
+  title: { absolute: "BollyAI - Is It Worth Watching? OTT & Movie Verdicts for India" },
   description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
   ...pageSeo({ path: "/" })
 };
@@ -255,7 +255,7 @@ export default function HomePage() {
         <section className="poster-wall-block">
           <header className="home-section-head">
             <h2>What to Watch</h2>
-            <p>Curated for a mood, a platform, or a weekend — not a star-rating dump. Indian cinema, global OTT, K-drama, anime.</p>
+            <p>Curated for a mood, a platform, or a weekend - not a star-rating dump. Indian cinema, global OTT, K-drama, anime.</p>
           </header>
           <div className="watch-rail full-bleed">
             {watchLists.map((list) => (

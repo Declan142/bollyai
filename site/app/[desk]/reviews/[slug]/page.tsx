@@ -28,7 +28,7 @@ export function generateMetadata({ params }: { params: { desk: string; slug: str
     ? `${filmTitle} Review: ${rung} Trade Verdict`
     : score
     ? `${filmTitle} Review: BollyMeter ${score}/10`
-    : `${filmTitle} Review — Verdict Tracking`;
+    : `${filmTitle} Review - Verdict Tracking`;
   const verdictPart = rung
     ? `Verdict: ${rung}${score ? `, BollyMeter ${score}/10` : ""}.`
     : score

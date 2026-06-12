@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 /* Long-form per-episode breakdown pages (recap + read + threads).
-   Source: data/episodes/<slug>/SxxExx.json — written by the subtitle-grounded
+   Source: data/episodes/<slug>/SxxExx.json - written by the subtitle-grounded
    editorial pipeline. Same hard fences as everything else: no viewing claims,
    no em-dashes, quotes within fair-dealing caps. */
 

@@ -205,7 +205,7 @@ export function getOttPlatforms(): string[] {
 
 // The /ott/<slug>/ pages are generated from the CALENDAR's platform set, which differs from
 // series platform values (a series on "tvN / Netflix" has no /ott/tvn-netflix/ page). Return
-// the slug of the first platform token that actually has a static OTT page, else null — so
+// the slug of the first platform token that actually has a static OTT page, else null - so
 // callers can link to /ott/netflix/ for a "tvN / Netflix" series, and skip the link otherwise.
 export function ottPageSlug(platform: string): string | null {
   const calendarSlugs = new Set(getOttPlatforms().map(platformSlug));

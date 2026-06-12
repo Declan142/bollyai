@@ -603,7 +603,7 @@ p {
   pointer-events: none;
 }
 
-/* hamburger button — hidden on desktop, shown on mobile */
+/* hamburger button - hidden on desktop, shown on mobile */
 .nav-hamburger {
   display: none;
   flex-direction: column;
@@ -633,7 +633,7 @@ p {
   transition: transform .22s ease, opacity .18s ease;
 }
 
-/* overlay — invisible tap-target that closes the drawer */
+/* overlay - invisible tap-target that closes the drawer */
 .nav-overlay {
   display: none;
   position: fixed;
@@ -643,9 +643,9 @@ p {
   cursor: pointer;
 }
 
-/* nav drawer — off-screen by default on mobile */
+/* nav drawer - off-screen by default on mobile */
 .nav-drawer {
-  /* on desktop this is just a normal flex child — transparent passthrough */
+  /* on desktop this is just a normal flex child - transparent passthrough */
   display: contents;
 }
 
@@ -660,7 +660,7 @@ p {
   .nav-overlay   { display: none !important; }
   .nav-toggle-input { display: none !important; }
 
-  /* drawer is transparent on desktop — children flow inline */
+  /* drawer is transparent on desktop - children flow inline */
   .nav-drawer {
     display: contents;
   }
@@ -668,7 +668,7 @@ p {
   .site-search--drawer { display: none !important; }
   .site-search--desktop { display: flex; }
 
-  /* desktop nav — unchanged inline layout */
+  /* desktop nav - unchanged inline layout */
   .site-header nav {
     display: flex;
     flex-wrap: wrap;
@@ -712,7 +712,7 @@ p {
     transition: transform .28s cubic-bezier(.4,0,.2,1);
   }
 
-  /* open state — checkbox checked */
+  /* open state - checkbox checked */
   .nav-toggle-input:checked ~ .nav-overlay {
     display: block;
   }
@@ -732,7 +732,7 @@ p {
     transform: translateY(-7px) rotate(-45deg);
   }
 
-  /* nav links inside drawer — vertical stack */
+  /* nav links inside drawer - vertical stack */
   .nav-drawer nav {
     display: flex;
     flex-direction: column;
@@ -787,7 +787,7 @@ p {
 }
 
 /* ============================================================
-   LEGACY MOBILE BLOCKS (900px / 520px — non-nav rules kept)
+   LEGACY MOBILE BLOCKS (900px / 520px - non-nav rules kept)
    ============================================================ */
 @media (max-width: 900px) {
   .home-lead,
@@ -1391,7 +1391,7 @@ p {
 }
 .episode-card__critic a { font-style: normal; font-family: var(--font-number); font-size: .72rem; }
 
-/* What to Watch — index grid */
+/* What to Watch - index grid */
 .watch-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 24px;
 }
@@ -1408,7 +1408,7 @@ p {
 .watch-card__intro { font-size: .86rem; color: var(--text-dim); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .watch-card__count { font-family: var(--font-number); font-size: .72rem; color: var(--accent); margin-top: 2px; }
 
-/* What to Watch — ranked picks */
+/* What to Watch - ranked picks */
 .pick-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; counter-reset: pick; }
 .pick-card { border-bottom: 1px solid var(--border-hair); }
 .pick-card__link { display: block; text-decoration: none; color: inherit; }
@@ -1437,7 +1437,7 @@ p {
 .watch-faq dt { font-family: var(--font-display); font-weight: 600; font-size: 1.02rem; margin-bottom: 4px; }
 .watch-faq dd { margin: 0; color: var(--text-dim); font-size: .92rem; line-height: 1.55; }
 
-/* Ending Explained — spoiler surface */
+/* Ending Explained - spoiler surface */
 .film-hero__copy--full { max-width: 760px; }
 .spoiler-gate {
   border: 1px solid var(--accent);
@@ -1507,7 +1507,7 @@ p {
 .search-result__t { font-family: var(--font-display); font-size: 1.1rem; color: var(--text); }
 .search-result__d { color: var(--text-dim); font-size: .88rem; line-height: 1.45; }
 
-/* Home — What to Watch rail */
+/* Home - What to Watch rail */
 .watch-rail {
   display: grid; grid-auto-flow: column; grid-auto-columns: minmax(220px, 1fr);
   gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px;

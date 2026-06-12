@@ -3,7 +3,7 @@ import { StaticPage } from "../../components/StaticPage";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "About BollyAI — Who We Are & How We Judge",
+  title: "About BollyAI - Who We Are & How We Judge",
   description: "BollyAI is a disclosed AI critic for Indian entertainment: one brain, seven desks, and a source-first verdict system that separates craft from commerce.",
   ...pageSeo({ path: "/about/" })
 };

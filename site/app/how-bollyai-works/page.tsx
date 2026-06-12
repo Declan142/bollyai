@@ -3,7 +3,7 @@ import { StaticPage } from "../../components/StaticPage";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "How BollyAI Works — Our Verdict & BollyMeter Method",
+  title: "How BollyAI Works - Our Verdict & BollyMeter Method",
   description: "How BollyAI reads verified metadata, trade estimates, and OTT signals before publishing a verdict. Source rows, confidence labels, and generation gates explained.",
   ...pageSeo({ path: "/how-bollyai-works/" })
 };

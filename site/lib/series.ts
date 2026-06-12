@@ -14,7 +14,7 @@ export type PullQuote = {
   url: string;
 };
 
-// Standout-episode reviews. NOT every episode (that's slop) — premieres, finales,
+// Standout-episode reviews. NOT every episode (that's slop) - premieres, finales,
 // and the turning-point hours critics and audiences actually argue about.
 // Same hard fence as season review_body: NO first-person viewing claims (gate #1).
 export type EpisodeReview = {
@@ -58,7 +58,7 @@ export type SeriesSeason = {
     source: string;
     source_url: string;
   } | null;
-  review_body: string; // BollyAI's read — NO first-person viewing claims (gate #1)
+  review_body: string; // BollyAI's read - NO first-person viewing claims (gate #1)
   season_over_season: string | null;
   episode_reviews?: EpisodeReview[]; // optional standout-episode breakdowns
 };
@@ -72,7 +72,7 @@ export type Series = {
   original_language: SourceValue<string>;
   platform: SourceValue<string>;
   status: "running" | "returning" | "ended" | "limited";
-  genres?: string[]; // facet tags (Wikidata P136, normalized) — optional
+  genres?: string[]; // facet tags (Wikidata P136, normalized) - optional
   logline: string;
   poster: PosterAsset;
   backdrop?: PosterAsset;
@@ -149,7 +149,7 @@ export function latestSeason(series: Series): SeriesSeason | undefined {
   return [...series.seasons].sort((a, b) => b.number - a.number)[0];
 }
 
-// The show's best-scored season — what the franchise is remembered/searched for.
+// The show's best-scored season - what the franchise is remembered/searched for.
 // Used for the HUB title so a declined show isn't headlined by its weakest latest
 // season (per-season pages still carry their own per-season verdict). Falls back to
 // the latest season when no season has a BollyMeter score yet.
@@ -163,7 +163,7 @@ export function ottIndex(rung: OttRung): number {
   return Math.max(0, OTT_RUNGS.indexOf(rung));
 }
 
-// Most recent season air date (ISO yyyy-mm-dd) — the recency signal that powers
+// Most recent season air date (ISO yyyy-mm-dd) - the recency signal that powers
 // "recent always surfaces first" across the browse + home rails.
 export function seriesRecency(series: Series): string {
   let best = "";
@@ -187,7 +187,7 @@ export function getSeriesByRecency(): Series[] {
 
 // ---- Where-to-Watch surface (per-title streaming guide) ----
 
-// Total aired episodes across all seasons — the "how long is the binge" number.
+// Total aired episodes across all seasons - the "how long is the binge" number.
 export function totalEpisodes(series: Series): number {
   return series.seasons.reduce((sum, s) => sum + (s.episodes || 0), 0);
 }
@@ -201,7 +201,7 @@ function platformTokens(p: string): string[] {
     .filter(Boolean);
 }
 
-// Other series sharing a streaming platform — powers the "more to watch on X" mesh and
+// Other series sharing a streaming platform - powers the "more to watch on X" mesh and
 // the internal-link cluster. Ranks by shared-genre overlap, then recency. Excludes self.
 export function moreOnPlatform(series: Series, limit = 6): Series[] {
   const mine = new Set(platformTokens(series.platform.value));
@@ -214,7 +214,7 @@ export function moreOnPlatform(series: Series, limit = 6): Series[] {
     .map((x) => x.s);
 }
 
-// Platform-specific FAQ for the where-to-watch page — deliberately does NOT repeat the
+// Platform-specific FAQ for the where-to-watch page - deliberately does NOT repeat the
 // hub's "Quick Answers" (where can I watch / how many seasons / is it worth it). These
 // target the India access questions the hub never answers: free-or-paid, how-to-watch,
 // dub/subtitle. Built ONLY from real fields + the platform table. No fabricated availability.
@@ -230,8 +230,8 @@ export function whereToWatchFaq(series: Series): Array<{ q: string; a: string }>
   faq.push({
     q: `Is ${t} free to watch in India?`,
     a: free
-      ? `Yes — ${t} streams free with ads on ${plat} in India, no subscription needed.`
-      : `No — ${t} needs a ${plat} subscription in India. ${info.note}`
+      ? `Yes - ${t} streams free with ads on ${plat} in India, no subscription needed.`
+      : `No - ${t} needs a ${plat} subscription in India. ${info.note}`
   });
   faq.push({
     q: `How do I watch ${t} on ${plat} in India?`,
@@ -247,7 +247,7 @@ export function whereToWatchFaq(series: Series): Array<{ q: string; a: string }>
 }
 
 // Build a standalone streaming guide ONLY for multi-season titles. The IG gate showed a
-// single-season where-to-watch page is a near-duplicate of its own hub (cosine ~0.93 — the
+// single-season where-to-watch page is a near-duplicate of its own hub (cosine ~0.93 - the
 // hub already answers "where to watch X"); a multi-season page carries genuinely distinct
 // info: per-season binge order + divergent season verdicts the hub frames differently and
 // the SERP lacks. Single-season titles stay on the hub.

@@ -5,9 +5,9 @@ import { getAllWatchLists } from "../../lib/recommendations";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata = {
-  title: "What to Watch — Curated Streaming Picks for India",
+  title: "What to Watch - Curated Streaming Picks for India",
   description:
-    "Curated watch lists across Indian cinema, OTT, and Korean drama. What is actually worth a weekend, where it streams, and why — BollyAI reads the room so you don't gamble the night.",
+    "Curated watch lists across Indian cinema, OTT, and Korean drama. What is actually worth a weekend, where it streams, and why - BollyAI reads the room so you don't gamble the night.",
   ...pageSeo({ path: "/watch/" })
 };
 
@@ -25,7 +25,7 @@ export default function WatchIndex() {
         <p className="eyebrow">Recommendations · theatres · OTT · K-drama</p>
         <h1>What to Watch</h1>
         <p className="answer-block">
-          Not a star rating dump — curated lists for a specific mood, platform, or weekend. Every pick names where it
+          Not a star rating dump - curated lists for a specific mood, platform, or weekend. Every pick names where it
           streams and earns its slot on craft and word of mouth. BollyAI hasn&apos;t watched these. BollyAI has read
           everyone who has.
         </p>

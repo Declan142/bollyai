@@ -2,10 +2,10 @@ import fs from "node:fs";
 import path from "node:path";
 import type { DeskSlug } from "./desks";
 
-// "What to Watch" — curated, editorial recommendation lists. This is the one surface
+// "What to Watch" - curated, editorial recommendation lists. This is the one surface
 // where BollyAI is allowed to be opinionated and lean-forward, but the fences hold:
 // NO first-person viewing claims, every pick names where it streams, every score is
-// a craft/word-of-mouth read with a basis — never invented box-office.
+// a craft/word-of-mouth read with a basis - never invented box-office.
 
 export type WatchPick = {
   ref_type: "film" | "series";
@@ -13,7 +13,7 @@ export type WatchPick = {
   desk?: DeskSlug | null; // for /[desk] film links
   title: string;
   year?: number | null;
-  one_line: string; // why it earns the slot — punchy, < 30 words, no viewing claim
+  one_line: string; // why it earns the slot - punchy, < 30 words, no viewing claim
   where: string; // platform(s), e.g. "Netflix" / "JioHotstar"
   bollymeter?: number | null; // optional /10
 };

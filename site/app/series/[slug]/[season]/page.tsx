@@ -32,10 +32,10 @@ export function generateMetadata({ params }: { params: { slug: string; season: s
   const score = season.bollymeter ? `, BollyMeter ${season.bollymeter.score.toFixed(1)}/10` : "";
   const title = season.verdict
     ? `${t} Season ${num} Review: ${season.verdict}${score}`
-    : `${t} Season ${num} Review — Is It Worth Watching?`;
+    : `${t} Season ${num} Review - Is It Worth Watching?`;
   const lead = season.verdict
     ? `${t} Season ${num} verdict: ${season.verdict}${score}. `
-    : `${t} Season ${num} — BollyAI opens a verdict once the season finishes. `;
+    : `${t} Season ${num} - BollyAI opens a verdict once the season finishes. `;
   const description = (lead + (season.review_body ?? "")).slice(0, 158).replace(/\s+\S*$/, "");
   return { title, description, ...pageSeo({ path: `/series/${params.slug}/s${num}/`, image: ogImage(series.slug, num) ?? ogImage(series.slug) ?? series.poster.src, type: "article" }) };
 }
@@ -116,7 +116,7 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
           <section className="panel">
             <h2>Standout Episodes</h2>
             <p className="panel-sub">
-              The hours worth arguing about — premieres, finales, and the turning points. BollyAI reads the room episode by episode.
+              The hours worth arguing about - premieres, finales, and the turning points. BollyAI reads the room episode by episode.
             </p>
             <ol className="episode-list">
               {[...episodeReviews]
@@ -139,7 +139,7 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
                     {ep.critic_note && (
                       <p className="episode-card__critic">
                         &ldquo;{ep.critic_note.text}&rdquo;{" "}
-                        <a href={ep.critic_note.url}>— {ep.critic_note.source}</a>
+                        <a href={ep.critic_note.url}>- {ep.critic_note.source}</a>
                       </p>
                     )}
                     {getEpisodeBreakdown(series.slug, season.number, ep.number) && (

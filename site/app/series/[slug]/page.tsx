@@ -24,7 +24,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const score = peak?.bollymeter ? `, BollyMeter ${peak.bollymeter.score.toFixed(1)}/10` : "";
   const title = peak?.verdict
     ? `${t} Review: ${peak.verdict}${score}`
-    : `${t} Review & Verdict — ${series.platform.value}`;
+    : `${t} Review & Verdict - ${series.platform.value}`;
   const lead = peak?.verdict
     ? `Is ${t} worth watching? BollyAI verdict: ${peak.verdict}${score}. `
     : `${t} on ${series.platform.value}. `;
@@ -112,7 +112,7 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
         )}
 
         <section className="panel">
-          <h2>{series.title.value} — Quick Answers</h2>
+          <h2>{series.title.value} - Quick Answers</h2>
           <dl className="watch-faq">
             {faq.map((f) => (
               <div key={f.q}>

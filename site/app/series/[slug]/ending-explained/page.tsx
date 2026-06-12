@@ -21,7 +21,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!ending || !series) return {};
   const t = series.title.value;
-  const title = `${t} Ending Explained — How Does It End?`;
+  const title = `${t} Ending Explained - How Does It End?`;
   const description = ending.hook.slice(0, 158).replace(/\s+\S*$/, "");
   return { title, description, ...pageSeo({ path: `/series/${params.slug}/ending-explained/`, image: series.poster.src, type: "article" }) };
 }
@@ -61,7 +61,7 @@ export default function EndingExplainedPage({ params }: { params: { slug: string
         <aside className="spoiler-gate" role="note">
           <strong>⚠ Full spoilers ahead.</strong> This page explains how {series.title.value}{" "}
           ends, including the Season {ending.season_number} finale. BollyAI hasn&apos;t watched
-          this — this walkthrough is read off the published record, sourced below.
+          this - this walkthrough is read off the published record, sourced below.
         </aside>
 
         {ending.sections.map((sec) => (

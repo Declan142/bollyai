@@ -99,7 +99,7 @@ export function seriesFaq(series: Series, peak: SeriesSeason | undefined): Array
   const t = series.title.value;
   const faq: Array<{ q: string; a: string }> = [];
 
-  // Renewal / next-season — straight from the sourced renewal note.
+  // Renewal / next-season - straight from the sourced renewal note.
   const nextSeasonQ =
     series.renewal.state === "ended" || series.renewal.state === "final-season"
       ? `Will there be another season of ${t}?`
@@ -120,14 +120,14 @@ export function seriesFaq(series: Series, peak: SeriesSeason | undefined): Array
     }.`
   });
 
-  // Worth watching — peak verdict, honestly framed when unscored.
+  // Worth watching - peak verdict, honestly framed when unscored.
   faq.push({
     q: `Is ${t} worth watching?`,
     a: peak?.verdict
       ? `BollyAI rates ${t} a ${peak.verdict}${
           peak.bollymeter ? ` at BollyMeter ${peak.bollymeter.score.toFixed(1)}/10` : ""
         }${peak.number ? ` (Season ${peak.number}, its strongest)` : ""}.`
-      : `${t} is still being tracked — BollyAI opens a verdict once a season finishes.`
+      : `${t} is still being tracked - BollyAI opens a verdict once a season finishes.`
   });
 
   return faq;
@@ -187,7 +187,7 @@ export function seasonReviewJsonLd(series: Series, season: SeriesSeason) {
 }
 
 // TVEpisode + Review per standout episode. Review block only when a per-episode
-// BollyMeter exists (same rule as season/film — never mark up an unscored hour).
+// BollyMeter exists (same rule as season/film - never mark up an unscored hour).
 export function episodeReviewsJsonLd(series: Series, season: SeriesSeason) {
   const eps = season.episode_reviews ?? [];
   if (eps.length === 0) return null;
@@ -221,7 +221,7 @@ export function episodeReviewsJsonLd(series: Series, season: SeriesSeason) {
   });
 }
 
-// ItemList for a curated watch list — the AEO-friendly shape for "best X to watch".
+// ItemList for a curated watch list - the AEO-friendly shape for "best X to watch".
 export function watchListJsonLd(list: {
   slug: string;
   title: string;
@@ -296,7 +296,7 @@ export function endingFaqJsonLd(ending: Ending) {
   };
 }
 
-// Founder identity — single Person entity reused as Organization.founder and as the
+// Founder identity - single Person entity reused as Organization.founder and as the
 // author the whole site signs under. sameAs chain anchors the E-E-A-T entity.
 export const FOUNDER = {
   "@type": "Person",

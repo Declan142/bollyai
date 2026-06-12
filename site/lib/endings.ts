@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// "Ending Explained" — spoiler-FULL walkthroughs of how a show ends. This is the
+// "Ending Explained" - spoiler-FULL walkthroughs of how a show ends. This is the
 // ONE surface that is deliberately spoiler-heavy (everything else on BollyAI is
 // spoiler-free). The honesty fences still hold and are STRICTER here:
 //   - spoiler === true is mandatory (the page renders a spoiler gate from it).
@@ -30,11 +30,11 @@ export type Ending = {
   qid?: string | null;
   title: string;
   season_number: number; // the finale season this explains
-  spoiler: true; // always true — this is the gate flag
+  spoiler: true; // always true - this is the gate flag
   hook: string; // the search-intent lede, e.g. "How does Dark end? ..."
   sections: EndingSection[]; // the walkthrough, >= 3 sections
   final_image?: string | null; // the literal last shot / closing beat, optional
-  lingering_questions?: EndingQA[]; // optional FAQ — drives the FAQPage schema
+  lingering_questions?: EndingQA[]; // optional FAQ - drives the FAQPage schema
   sources: EndingSource[]; // >= 1, what the walkthrough is grounded in
   date_modified: string; // ISO
 };

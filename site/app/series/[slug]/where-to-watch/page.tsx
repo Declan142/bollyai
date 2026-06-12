@@ -37,8 +37,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const plat = series.platform.value;
   const n = series.seasons.length;
   const free = isFreeInIndia(plat);
-  const title = `Where to Watch ${t} in India — ${free ? `Free on ${plat}` : `Stream on ${plat}`}`;
-  const description = `Watch ${t} on ${plat} in India — ${
+  const title = `Where to Watch ${t} in India - ${free ? `Free on ${plat}` : `Stream on ${plat}`}`;
+  const description = `Watch ${t} on ${plat} in India - ${
     free ? "free with ads" : "subscription needed"
   }, ${n} season${n === 1 ? "" : "s"}, where to start, is it worth it, and what to stream next on ${plat}.`
     .slice(0, 158)
@@ -74,7 +74,7 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
     series.renewal.state === "renewed"
       ? `Another season of ${t} has been confirmed.`
       : series.renewal.state === "ended" || series.renewal.state === "limited"
-        ? `${t} is complete — no further seasons are planned.`
+        ? `${t} is complete - no further seasons are planned.`
         : series.renewal.state === "final-season"
           ? `${t} is in its final season.`
           : `A new season of ${t} has not been confirmed yet.`;
@@ -133,7 +133,7 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
             <div>
               <dt>Cost</dt>
               <dd>
-                {free ? "Free, ad-supported" : "Paid subscription"} — {info.note}
+                {free ? "Free, ad-supported" : "Paid subscription"} - {info.note}
               </dd>
             </div>
             <div>
@@ -146,7 +146,7 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
             <div>
               <dt>Where to start</dt>
               <dd>
-                Season 1{seasonsAsc[0]?.year ? ` (${seasonsAsc[0].year})` : ""} — {t} is best watched in order.
+                Season 1{seasonsAsc[0]?.year ? ` (${seasonsAsc[0].year})` : ""} - {t} is best watched in order.
               </dd>
             </div>
             <div>
@@ -187,7 +187,7 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
                 }${peak.number ? ` (Season ${peak.number}, its strongest)` : ""}. ${
                   worthIt ? `${t} earns the binge` : `Worth a look if the genre is your thing`
                 }.`
-              : `${t} is still being tracked — BollyAI opens a verdict once a season finishes.`}{" "}
+              : `${t} is still being tracked - BollyAI opens a verdict once a season finishes.`}{" "}
             <a href={`/series/${series.slug}/`}>Read the full {t} review →</a>
           </p>
         </section>
@@ -237,7 +237,7 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
         )}
 
         <section className="panel">
-          <h2>{t} — Where to Watch FAQ</h2>
+          <h2>{t} - Where to Watch FAQ</h2>
           <dl className="watch-faq">
             {faq.map((f) => (
               <div key={f.q}>
@@ -250,7 +250,7 @@ export default function WhereToWatchPage({ params }: { params: { slug: string } 
 
         <p className="standing-line">
           BollyAI tracks {t} on {plat} in India and lists attributed availability only. BollyAI hasn&apos;t watched
-          this — BollyAI has read the room around it.
+          this - BollyAI has read the room around it.
         </p>
 
         <nav className="mesh-links" aria-label="Series links">
