@@ -256,3 +256,41 @@ export function qualifiesForWhereToWatch(series: Series): boolean {
 }
 
 export type { Confidence };
+
+// Represents a single episode review surfaced on the homepage rail.
+export type EpisodeReviewCard = {
+  slug: string;
+  title: string;
+  poster: PosterAsset;
+  canonical_industry: DeskSlug;
+  season_number: number;
+  episode: EpisodeReview & { merged_at?: string };
+  sort_key: string;
+};
+
+// Pull the 8-12 newest standout episode reviews across the catalogue.
+// Sort key: prefer episode-level `merged_at` ISO field (engine writes it during merge),
+// fall back to series `date_modified` so the function is useful before the engine updates.
+export function getNewestEpisodeReviews(limit = 10): EpisodeReviewCard[] {
+  const cards: EpisodeReviewCard[] = [];
+  for (const series of getAllSeries()) {
+    for (const season of series.seasons) {
+      for (const ep of season.episode_reviews ?? []) {
+        const merged = (ep as EpisodeReview & { merged_at?: string }).merged_at;
+        const sort_key = merged ?? series.date_modified;
+        cards.push({
+          slug: series.slug,
+          title: series.title.value,
+          poster: series.poster,
+          canonical_industry: series.canonical_industry,
+          season_number: season.number,
+          episode: ep as EpisodeReview & { merged_at?: string },
+          sort_key,
+        });
+      }
+    }
+  }
+  return cards
+    .sort((a, b) => b.sort_key.localeCompare(a.sort_key))
+    .slice(0, limit);
+}

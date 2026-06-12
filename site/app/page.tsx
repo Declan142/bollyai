@@ -15,7 +15,7 @@ import { getYearScoreboardParams } from "../lib/boxoffice";
 import { DESKS, getDesk } from "../lib/desks";
 import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
-import { getAllSeries, getSeriesByRecency, latestSeason } from "../lib/series";
+import { getAllSeries, getNewestEpisodeReviews, getSeriesByRecency, latestSeason } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
@@ -59,6 +59,9 @@ export default function HomePage() {
 
   // Recency-first: the newest seasons to land, freshest at the front.
   const freshRail = getSeriesByRecency().slice(0, 14);
+
+  // Newest standout episode reviews across the catalogue, sorted by merge date.
+  const episodeReviews = getNewestEpisodeReviews(10);
 
   const watchLists = getAllWatchLists().slice(0, 6);
   const yearScoreboards = getYearScoreboardParams();
@@ -242,6 +245,45 @@ export default function HomePage() {
           Browse all series by genre, platform &amp; year →
         </a>
       </section>
+
+      {episodeReviews.length > 0 && (
+        <section className="poster-wall-block" data-desk="streaming">
+          <header className="home-section-head">
+            <h2>Naye Episode Reviews</h2>
+            <p>Standout hours from across the catalogue, freshest first. Premiers, finales, and the turning-point episodes critics argue about.</p>
+          </header>
+          <div className="ep-review-rail">
+            {episodeReviews.map((card) => {
+              const ep = card.episode;
+              const badge = `S${String(card.season_number).padStart(2, "0")}E${String(ep.number).padStart(2, "0")}`;
+              return (
+                <a
+                  className="ep-review-card"
+                  data-desk={card.canonical_industry}
+                  href={`/series/${card.slug}/`}
+                  key={`epr-${card.slug}-s${card.season_number}e${ep.number}`}
+                >
+                  <PosterImage
+                    src={card.poster.src}
+                    alt={card.poster.alt}
+                    width="210"
+                    height="200"
+                    loading="lazy"
+                    avifSrcSet={card.poster.variants?.avifSrcSet}
+                    webpSrcSet={card.poster.variants?.webpSrcSet}
+                  />
+                  <div className="ep-review-card__plate">
+                    <span className="ep-review-card__badge">{badge}</span>
+                    <span className="ep-review-card__ep-title">{ep.title}</span>
+                    <span className="ep-review-card__series">{card.title}</span>
+                    {ep.spoiler_free && <p className="ep-review-card__hook">{ep.spoiler_free}</p>}
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       <section className="poster-wall-block">
         <header className="home-section-head">
