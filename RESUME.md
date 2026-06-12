@@ -1,27 +1,78 @@
-# BollyAI — pickup state (2026-06-12 ~23:55, SUBTITLE INTELLIGENCE ENGINE LIVE — overnight batch running)
+# BollyAI — pickup state (2026-06-13 ~01:40, SUBTITLE ENGINE running overnight — Vyom handoff)
 
-**FREE-MODEL SUBTITLE ENGINE (built+proven tonight):** scripts/subtitles/ now has the full
-free-lane stack - FREE_MODEL_RULES.md (4-gate quality contract G1 schema/G2 grep-grounding/
-G3 cross-family judge/G4 Fable adjudication) + orfree.py (staggered hedge: gpt-oss ->
-nemotron-super thinking-low +75s -> deepseek-v4-flash PAID backstop +150s; 900 req/day
-quota guard) + extract_dossier.py + season_crosspass.py (1M-ctx whole-series, 2-family
-consensus: both-found=high, single=candidate) + verify_grounding.py (G2: every timestamp
-exists, every quote verbatim, caps enforced, claims stripped not argued) + stage_series.py
-(14 rosters) + run_batch.py. PILOT PROVEN scam-1992 E01: gpt-oss 36s, real dossier, gate
-caught 3 errors incl a quote anchored 14s off and a DISHONEST self_check.
-**BATCH RUNNING:** PID in _engine/batch-console.log, 13 series ~250 eps, ledger at
-data/subtitles/_engine/batch-ledger.jsonl. STOP: touch data/subtitles/_engine/STOP.
-Resume-safe. llm_router v2 shipped globally (dead deepseek:free leg healed, 8/8 smoke,
-synced to placement-papers-fresh + pushed).
-**SUBTITLE CORPUS GIT STATE (Aditya ruled: not a violation):** data/subtitles/ now in
-.gitignore + 112 files untracked in a LOCAL commit (not pushed). Remote main still has 37
-FROM .srt. Aditya's read: fence #8 = don't SERVE on site, repo-hosting fine. Local commit
-kept as hygiene (new 284-file corpus stays out of repo; site never reads it). Revert =
-`git revert HEAD` if he wants tracking back. Next push WILL remove them from origin HEAD.
-**NEXT (his stated vision):** review-stage for ALL series from verified dossiers (free
-models draft per RULES Part 3, G3 judge, Fable adjudicates voice) -> homepage "naye
-episode reviews" rail (frontend increment, design-reviewer >=7.5). Deploy/push: standing grant 2026-06-13, gates = approval.
-FROM showcase verdict still standing.
+## RUNNING RIGHT NOW (session-independent — do NOT relaunch blindly, check pgrep first)
+- **Dossier batch** `pgrep -f run_batch.py` (was PID 990268): 13 series ~250 eps, sequential.
+  Done so far: crash-landing-on-you(16+CP), every-year-after(8+CP), films(4). In flight: rest.
+  Ledger `data/subtitles/_engine/batch-ledger.jsonl`. Console `_engine/batch-console.log`.
+  **@reboot cron relaunches it** (resume-safe) unless STOP/QUOTA_HALT present.
+- **Freshness fetch** `fetch_new_subs.py`: sweeping the 18-item fresh-queue, pulling subs via
+  subliminal, auto-pushing successes through the engine. Got every-year-after + sweet-magnolias.
+  Daily **cron 07:30 IST** (`freshness_tick.sh`) re-runs radar+fetch; 10-try retry per item.
+- **Review chain** `review_chain.sh`: WAITS for batch to clear, then drafts+G3-judges reviews
+  for every series with dossiers. Console `_engine/reviews-console.log`. Staging only.
+- HALT everything: `touch data/subtitles/_engine/STOP`. Quota: ~160/900 today, budget guard at 900.
+
+## SHIPPED THIS SESSION (2026-06-13 ~01:36, commit 78fddc0, deployed 167b681a)
+- **Homepage "Naye Episode Reviews" rail** — `site/lib/series.ts` `getNewestEpisodeReviews(10)`,
+  horizontal-scroll rail between Just Dropped and Binge Verdicts. Sort key: `merged_at` ISO
+  (engine will write it) else `date_modified`. Each card: poster thumb, S01E01 badge, episode
+  title, series name, 3-line hook. Design-reviewer **PASS 8.3/10** (two runs: 8.3 + 8.1).
+  Gates: `npm run build` green, 180 pytest green. Committed 78fddc0, deployed CF Pages
+  `167b681a` (bollyai.in live), IndexNow `https://bollyai.in/` HTTP 200.
+
+## FIXED TONIGHT (verified)
+- **Consensus matching bug** (was: ALL callbacks "candidate", 0 high). Root cause: `intersect()`
+  required setup_t within 20s — two model families cite the SAME callback at DIFFERENT timestamps.
+  Fixed to match on (setup_ep,payoff_ep) PAIR + semantic token-overlap of "what"; timestamps are
+  G2-verified independently so not a join key. PROVEN via `--rematch` (zero LLM): every-year-after
+  0→4 high, CLOY →1. Running batch's remaining crosspasses auto-use the fix.
+  ⚠️ caught a missing `import re` at runtime test — would have crashed every remaining crosspass.
+  Always RUN-test season_crosspass after edits, compile-check alone misses NameErrors.
+- llm_router v2 (dead deepseek:free leg healed, 8/8 smoke, pushed to PA-fresh).
+- Engine code committed+pushed (4f28f58); origin HEAD now has 0 subtitle .srt.
+
+## STILL BROKEN / NOT DONE (honest — this is NOT flawless yet; priority order)
+1. **No finished review has been READ for quality.** review_chain is generating drafts but
+   nobody (not Aditya, not Vyom) has eyeballed one. FIRST morning job: read 3-4 spoiler_free
+   drafts, confirm grounded+specific+has-criticism+no-slop. If weak → fix draft_reviews.py prompt.
+2. **Speaker-attribution gate gap (Fix 2, NOT built).** key_line.speaker is LLM-INFERRED;
+   subs are non-SDH so the gate can't verify WHO said a line (only that the line exists at t).
+   Plan: verify_dossier should null any key_line.speaker not backed by an SDH tag in the
+   dialogue doc (don't kill the quote, kill the guessed attribution) + count in _verified.
+   Reviews already attribute quotes to "the dialogue/subtitles" not characters, so downstream
+   is safe — but the dossier field is dishonest until this lands.
+3. **merge_reviews.py DOES NOT EXIST (Fix 3).** No path from `_reviews/episodes.json` staging
+   → `data/series/<slug>.json` `episode_reviews[]`. Must: match by number, run validate_series,
+   only merge G3-passed + Vyom-voice-passed drafts. This is the blocker for shipping anything.
+4. **bollymeter + critic_note are null by design.** Per-hour numeric score + real critic quote
+   need real reception (verify-or-strip) — that's the Vyom voice-pass (G4), not a free-model job.
+5. **Films review/merge path undesigned.** 4 films staged+extracted as 1-episode corpora; the
+   EpisodeReview schema is per-episode-of-a-series. Films need a film-review shape + merge target.
+
+## MORNING PLAN (Vyom, ~07:00 — the work Aditya wants: "sab series review + homepage naye reviews")
+1. Read drafts (item 1 above). 2. Build Fix 2 + Fix 3 + film path. 3. G4 voice-pass: BollyAI
+   voice on passed drafts, fill bollymeter/critic_note from real reception where groundable.
+4. merge → `validate_series.py` → `pytest tests/` → `cd site && npm run build`. 5. ~~Homepage
+   "Naye Episode Reviews" rail behind design-reviewer ≥7.5~~ **DONE (8.3/10, 78fddc0, deployed)**.
+   6. Deploy `wrangler pages deploy site/out --project-name=bollyai-in` + hash-gated IndexNow
+   **DONE (167b681a, IndexNow 200)**. Deploy/push = standing grant, GATES are the approval
+   (tests+build+design green). Force-push/history stay DENIED.
+
+## GOVERNANCE / CONTEXT
+- **Deploy/push grant** to Vyom recorded in CLAUDE.md (2026-06-13): push needs tests green;
+  deploy needs tests+build (+design≥7.5 frontend); IndexNow hash-gated; force-push DENIED.
+- **Subtitle corpus**: gitignored, untracked, removed from origin HEAD. Aditya ruled NOT a
+  violation (fence #8 = don't SERVE, repo-hosting ok). 37 FROM .srt still in git HISTORY;
+  only `git filter-repo`+force-push purges that = fenced, Aditya's explicit call only.
+  Leak manifest: `~/.claude/state/bollyai-subtitle-leak-manifest-20260612.txt`.
+- **Cost proof**: 75% of answers from FREE models (gpt-oss 32 / nemotron 14 wins of 61);
+  paid deepseek backstop ~$0.12 total. The MOAT is the gates, not the models.
+- **Model-switch annoyance**: Fable 5's safety classifier false-positives on this session's
+  copyright+security vocab cocktail (subtitle/leak/criminal-conviction + DLP-bypass/attack/
+  ghatak in empire context) and auto-switches to Opus 4.8. Harmless, work unaffected, both
+  models equivalent for this. Channel: /feedback. Not Vyom-fixable.
+- **BRIEF-INTEGRATOR.md deletion** parked in `git stash@{0}` (foreign fleet residue, untouched).
+- Engine docs: `scripts/subtitles/FREE_MODEL_RULES.md` (the 4-gate quality contract — READ FIRST).
 
 ---
 # BollyAI — pickup state (2026-06-12 ~08:00, OVERNIGHT FLEET WAVE — MEGA-DEPLOY LIVE)
