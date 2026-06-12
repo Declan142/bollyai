@@ -1,9 +1,78 @@
-"""Tests for draft_reviews.py pre-judge gates: gap_criticism_hit, banned_hit, sanitize_prose."""
+"""Tests for draft_reviews.py pre-judge gates: gap_criticism_hit, banned_hit, sanitize_prose.
+Also tests orfree.requests_today() UTC-midnight reset semantics.
+"""
 import sys
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
+import json, tempfile, os
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts" / "subtitles"))
 from draft_reviews import gap_criticism_hit, banned_hit, sanitize_prose
+
+
+# ---------------------------------------------------------------------------
+# orfree.requests_today — UTC midnight reset semantics
+# ---------------------------------------------------------------------------
+
+class TestRequestsToday:
+    """Verifies that requests_today() counts from UTC midnight, not IST midnight."""
+
+    def _make_log(self, entries: list[dict], tmpdir: Path) -> Path:
+        log = tmpdir / "orfree-log.jsonl"
+        with log.open("w") as f:
+            for rec in entries:
+                f.write(json.dumps(rec) + "\n")
+        return log
+
+    def _count(self, entries: list[dict]) -> int:
+        import importlib
+        import orfree as _orf
+        with tempfile.TemporaryDirectory() as d:
+            log = self._make_log(entries, Path(d))
+            orig_log = _orf.LOG
+            _orf.LOG = log
+            try:
+                return _orf.requests_today()
+            finally:
+                _orf.LOG = orig_log
+
+    def test_entries_before_utc_midnight_excluded(self):
+        IST = timezone(timedelta(hours=5, minutes=30))
+        utc_midnight = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+        # Entry 1 second before UTC midnight = previous UTC day, should NOT count
+        pre_midnight = (utc_midnight - timedelta(seconds=1)).astimezone(IST)
+        count = self._count([{"ts": pre_midnight.isoformat(), "ctx": "test"}])
+        assert count == 0, f"pre-midnight entry should be excluded, got {count}"
+
+    def test_entries_at_utc_midnight_included(self):
+        IST = timezone(timedelta(hours=5, minutes=30))
+        utc_midnight = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+        # Entry exactly at UTC midnight should count
+        at_midnight = utc_midnight.astimezone(IST)
+        count = self._count([{"ts": at_midnight.isoformat(), "ctx": "test"}])
+        assert count == 1, f"at-midnight entry should be included, got {count}"
+
+    def test_recent_entries_included(self):
+        IST = timezone(timedelta(hours=5, minutes=30))
+        now_ist = datetime.now(IST)
+        count = self._count([
+            {"ts": now_ist.isoformat(), "ctx": "a"},
+            {"ts": now_ist.isoformat(), "ctx": "b"},
+        ])
+        assert count == 2
+
+    def test_empty_log(self):
+        assert self._count([]) == 0
+
+    def test_malformed_entry_skipped(self):
+        IST = timezone(timedelta(hours=5, minutes=30))
+        now_ist = datetime.now(IST)
+        count = self._count([
+            {"ctx": "no_ts_field"},
+            {"ts": "not-a-date"},
+            {"ts": now_ist.isoformat(), "ctx": "valid"},
+        ])
+        assert count == 1
 
 
 # ---------------------------------------------------------------------------

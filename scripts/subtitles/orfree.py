@@ -78,14 +78,26 @@ def _log(rec: dict) -> None:
 
 
 def requests_today() -> int:
+    """Count requests since the last UTC midnight (matches OpenRouter's free-tier reset cycle).
+
+    Log timestamps are IST ISO strings. Entries written before 05:30 IST (= UTC midnight)
+    belong to the previous UTC day and are excluded after the reset.
+    """
     if not LOG.exists():
         return 0
-    today = datetime.now(IST).strftime("%Y-%m-%d")
+    utc_midnight = datetime.now(timezone.utc).replace(
+        hour=0, minute=0, second=0, microsecond=0
+    )
     n = 0
     with LOG.open() as f:
         for line in f:
-            if f'"ts": "{today}' in line or f'"ts":"{today}' in line:
-                n += 1
+            try:
+                ts_str = line.split('"ts":', 1)[1].split('"')[1]
+                ts = datetime.fromisoformat(ts_str)
+                if ts.astimezone(timezone.utc) >= utc_midnight:
+                    n += 1
+            except Exception:
+                pass
     return n
 
 
