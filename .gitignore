@@ -2,6 +2,8 @@ node_modules/
 site/out/
 site/.next/
 data/cache/*
+_cache/
+data/_cache/
 !data/cache/fixtures/
 !data/cache/fixtures/*.json
 .env*

@@ -1,45 +1,45 @@
-Status: PARTIAL
+Status: COMPLETE
 Did:
-  - Read `/home/aditya/bollyai-blueprint/MASTER-BLUEPRINT.md` read-only and aligned the box-office surface to the master namespace.
-  - Kept `/box-office/` as the cross-industry hub and added `/box-office/<tier>-crore-club/` routes for 100, 200, 500, and 1000 crore clubs.
-  - Added `/{industry}/box-office/{YYYY}/` year scoreboards through the existing box-office route without breaking per-film tracker URLs.
-  - Refactored box-office structured data so box-office pages emit Dataset and ItemList JSON-LD only; removed FAQ/Breadcrumb schema from film tracker pages.
-  - Preserved the hard BO publish rule in the renderer and kept all unverified current-week figures in tracking.
-  - Documented the blueprint ID conflict: the master file has an earlier `tmdb_id` ruling, but its 2026-06-07 amendment says NO TMDB and promotes QID primary. This repo follows the amendment and AGENTS.
+  - Implemented lower-bound BO publish rule in Python and the Next renderer: <=10 percent publishes the lower reading as trade estimate; 10-25 percent publishes the lower reading with caveat; wider gaps track.
+  - Added budget, salary, metric, territory, same-source, same-group, and PR-only protections to the pure publish rule.
+  - Added cached source adapters for current-week fill: Sacnilk quicknews plus public trade-article extraction, using BollyAI UA, robots checks, and ignored `_cache/boxoffice/`.
+  - Added current-week fill CLI with fixture alias: `python3 engine/fetchers/boxoffice.py --fill-current-week --write-current-week`.
+  - Filled `data/boxoffice/current-week.json` with 8 published figure slots, 16 numeric source envelopes, and `DATA_PENDING: false`.
+  - Updated box-office docs and frontend methodology copy to match the lower-bound rule.
+  - Installed `site/node_modules` locally with `npm ci` for build verification only; node_modules is ignored.
 Artefacts:
-  - data/boxoffice/current-week.json (218 lines)
+  - .gitignore (11 lines)
   - data/boxoffice/README.md (49 lines)
-  - site/lib/boxoffice.ts (391 lines)
-  - site/components/BoxOfficeBoardTable.tsx (107 lines)
+  - data/boxoffice/current-week.json (317 lines)
+  - engine/fetchers/boxoffice.py (877 lines)
   - site/app/box-office/page.tsx (109 lines)
-  - site/app/box-office/[club]/page.tsx (82 lines)
-  - site/app/[desk]/box-office/[slug]/page.tsx (166 lines)
-  - tests/test_boxoffice_publish_rule.py (87 lines)
-  - site/app/globals.css (box-office CSS added)
-  - site/app/layout.tsx and site/lib/seo.ts (global OG dash cleanup for emitted box-office pages)
-  - site/scripts/build-search-index.mjs and site/scripts/build-sitemaps.mjs (club and year routes)
+  - site/lib/boxoffice.ts (391 lines)
+  - tests/test_boxoffice_publish_rule.py (141 lines)
 Verification:
-  - python3 -m pytest tests/test_boxoffice_publish_rule.py -> 5 passed
-  - python3 -m pytest tests/ -> 155 passed
-  - cd site && npm run build -> passed; 2254 static pages; aggregate-rating guard passed
-  - rg generated box-office HTML for `AggregateRating|FAQPage|Review` -> clean
-  - rg generated box-office HTML for fancy dashes -> clean
-  - rg touched box-office files for fancy dashes and first-person viewing phrases -> clean
-  - command -v design-reviewer -> unavailable in this environment
-  - grep -r -- '--' data/ -> failed on pre-existing `data/series/` rows and `data/_state/library-buildout.md`
+  - python3 -m py_compile engine/fetchers/boxoffice.py -> passed
+  - python3 engine/fetchers/boxoffice.py --fill-current-week --write-current-week -> published_figures 8, tracking_after 0
+  - python3 -m pytest tests/test_boxoffice_publish_rule.py -> 7 passed
+  - python3 -m pytest tests/ -> 159 passed
+  - cd site && npm run build -> passed; 2365 static pages; aggregate-rating guard passed
+  - git diff --check -> passed
+  - grep -R -- '--' data/boxoffice -> no matches
+  - changed-file scan for em/en dash characters -> no matches
+  - current-week audit -> figures 8, published 8, tracking 0, numeric_envelopes 16
 Open issues:
-  - PARTIAL because repo-level `grep -r -- '--' data/` is not green, and this lane is fenced away from `data/series/`.
-  - design-reviewer gate could not be run because no local command or connector tool was available.
-  - No TMDB IDs were added because the master blueprint amendment and current repo guide make QID primary, and guessing IDs would violate the honesty fence.
-Next step suggested: Content lane fixes pre-existing data dash violations; floor confirms whether the older `tmdb_id` ruling is revived despite the master amendment.
+  - Repo-wide `grep -R -- '--' data/` still reports pre-existing matches outside this lane, mostly subtitle arrows and older series/endings prose. `data/boxoffice` and changed files are clean.
+  - `npm ci` reported 2 npm audit findings in existing dependencies; no dependency updates were made in this lane.
+Next step suggested: Floor can review whether article outlets that quote Sacnilk should stay independent source groups or be collapsed under Sacnilk for stricter provenance.
 Network URLs:
-  - https://www.sacnilk.com/
+  - https://www.sacnilk.com/quicknews/peddi_2026_Box_Office_Collection_Day_7
+  - https://www.sacnilk.com/quicknews/karuppu_2026_Box_Office_Collection_Day_27
+  - https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_21
+  - https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_6
   - https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/peddi-box-office-collections-day-7-ram-charan-film-witnesses-midweek-decline-india-gross-reaches-rs-222-53-cr/articleshow/131646544.cms
-  - https://indianexpress.com/article/entertainment/telugu/peddi-box-office-collection-day-1-update-ram-charan-film-earns-over-rs-112-crore-10724436/
   - https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/karuppu-box-office-collections-day-27-suriyas-film-nears-end-of-theatrical-run-falls-4-4-percent/articleshow/131647614.cms
-  - https://m.economictimes.com/magazines/panache/karuppu-box-office-collection-day-1-suriya-trisha-krishnans-film-sees-thunderous-opening-earns-rs-20-crore-globally/articleshow/131130045.cms
   - https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/drishyam-3-box-office-collections-day-21-mohanlal-film-nears-end-of-third-week-strongly-collects-rs-236-59-cr-worldwide/articleshow/131646656.cms
-  - https://www.sacnilk.com/quicknews/drishyam_3_malayalam_2026_Box_Office_Collection_Day_19
-  - https://indianexpress.com/article/entertainment/malayalam/drishyam-3-box-office-collection-day-3-mohanlals-film-crosses-rs-100-crore-mark-worldwide-10705069/
   - https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms
+  - https://www.sacnilk.com/
+  - https://indianexpress.com/article/entertainment/telugu/peddi-box-office-collection-day-1-update-ram-charan-film-earns-over-rs-112-crore-10724436/
+  - https://m.economictimes.com/magazines/panache/karuppu-box-office-collection-day-1-suriya-trisha-krishnans-film-sees-thunderous-opening-earns-rs-20-crore-globally/articleshow/131130045.cms
+  - https://indianexpress.com/article/entertainment/malayalam/drishyam-3-box-office-collection-day-3-mohanlals-film-crosses-rs-100-crore-mark-worldwide-10705069/
   - https://www.bollywoodhungama.com/news/box-office-special-features/box-office-hai-jawani-toh-ishq-hona-hai-opens-well-varun-dhawan-starrer-collects-rs-8-50-crores-on-day-1/

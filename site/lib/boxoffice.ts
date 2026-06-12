@@ -149,7 +149,7 @@ export function decideBoxOfficeFigure(figure: BoxOfficeFigure): FigureDecision {
   if (best.pct <= 10) {
     return {
       published: true,
-      range: { low: roundCrore(low), high: roundCrore(high) },
+      range: { low: roundCrore(low), high: roundCrore(low) },
       label: "trade estimate",
       agreementPct: roundPct(best.pct),
       basisSources,

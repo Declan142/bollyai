@@ -90,9 +90,9 @@ export default function BoxOfficeHubPage() {
           <p className="eyebrow">Publish rule</p>
           <h2>When a number appears</h2>
           <p>
-            Two independent readings within 10 percent render as a trade estimate. If readings differ by 10 to 25
-            percent, only the lower figure is shown with a caveat. Wider divergence, single-source data, and PR-only
-            pairs stay as tracking.
+            Two independent readings within 10 percent render the lower reading as a trade estimate. If readings differ
+            by 10 to 25 percent, only the lower figure is shown with a caveat. Wider divergence, single-source data, and
+            PR-only pairs stay as tracking.
           </p>
         </article>
         <article className="panel">
