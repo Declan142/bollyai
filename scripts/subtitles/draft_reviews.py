@@ -42,7 +42,7 @@ BANNED = ["delve", "tapestry", "rollercoaster", "must-watch", "edge of your seat
           "masterclass", "elevates the narrative", "a testament to", "binge-worthy",
           "buckle up", "look no further", "in conclusion"]
 
-WRITER_TMPL = """VERIFIED DOSSIER for {slug} {ep} (every timestamp + quote here already passed a grounding gate - you may rely on it; you may NOT add facts beyond it):
+WRITER_TMPL = """VERIFIED DOSSIER for {slug} {ep} (every quote and beat here already passed a grounding gate - you may rely on it; you may NOT add facts beyond it):
 
 {dossier}
 
@@ -54,19 +54,22 @@ TASK: draft this episode's review as STRICT JSON:
  "title": "Episode {num}",
  "bollymeter": null,
  "critic_note": null,
- "spoiler_free": "110-160 words. BollyAI's read of what THIS hour does and how well, grounded ONLY in the dossier. Structure: a concrete 1-sentence hook (no rhetorical-question opener) / what the hour does / what elevates it WITH evidence (cite a beat or the contradiction) / what drags WITH evidence (mandatory - a review with zero criticism fails) / a one-line verdict that actually says something falsifiable. Tease the central question, never resolve it.",
- "the_moment": "<=25 words: the beat people will remember, named spoiler-carefully (do NOT reveal its outcome).",
- "_evidence": ["2-4 dossier anchors you leaned on, e.g. 'contradiction: Meera wants X does Y', 'beat 19:08'"],
+ "spoiler_free": "110-160 words. BollyAI reads what the record shows. Structure: cold-open hook from a specific story moment (never a generic setup sentence) / what this hour does / what elevates it - grounded in a contradiction, character decision, or earned payoff from the dossier / what drags - mandatory, a review with zero criticism fails; criticism must be about story, structure, or character (unearned payoff, repetition, contradiction ignored or dropped) / a one-line verdict that says something falsifiable.",
+ "the_moment": "One clean sentence, <=25 words. The beat people will remember, named spoiler-carefully. No parentheticals.",
+ "_evidence": ["2-4 dossier anchors you used, by type: 'contradiction: Sunny wants X but does Y', 'payoff: planted desire pays off in confrontation', 'character_beat: Firoz terror shows at climax'"],
  "_self_check": {{"viewing_claims": 0, "words_spoiler_free": <int>, "every_claim_in_dossier": true, "banned_phrases": 0}}
 }}
 
-HARD RULES (a judge on a different model checks these - don't bluff):
+HARD RULES (a strict judge on a different model auto-fails any violation - no bluffing):
 1. Zero first-person viewing claims, any language.
-2. spoiler_free 110-160 words; must contain at least one concrete criticism with evidence.
-3. Quote at most 25 words total from the dossier's key_lines, attributed naturally ("as the {qlbl} put it"); subtitle text is fuel, never a transcript dump.
-4. No banned register: {banned}. No em-dash, no emoji, no sentence over 35 words.
-5. bollymeter and critic_note stay exactly null (a later layer fills them from real reception).
-6. the_moment names the beat, never its resolution."""
+2. spoiler_free 110-160 words; must contain at least one concrete criticism with dossier evidence.
+3. Dialogue quotes land naked in quotation marks, <=25 words total. BANNED: any attribution to process or source ('as the subtitles render it', 'as the dialogue has it', 'as the English subtitles render', 'the subtitles show').
+4. NO timestamps, beat refs (e.g. 'beat 05:20', 'at 38:02'), or second/minute counts anywhere in spoiler_free or the_moment. Evidence citations belong ONLY in _evidence.
+5. NO silence or gap durations as criticism. Subtitle silence is songs, action, reaction - not pacing evidence. Criticism must come from story events, character decisions, or structural repetition.
+6. No banned register: {banned}. No em-dash. No sentence over 35 words.
+7. No inline 'Verdict:' label. No stock opener ('The hour thrusts', 'The episode thrusts', 'The hour opens', 'This hour cranks', 'The hour begins'). Cold-open on a character action or story turn.
+8. bollymeter and critic_note stay exactly null.
+9. the_moment: one clean sentence, no parentheticals, no timestamps, names the beat without resolving it."""
 
 JUDGE_SYS = "You are a strict editorial judge. You score against a rubric and return only JSON."
 
@@ -78,9 +81,20 @@ DOSSIER (ground truth):
 REVIEW DRAFT:
 {draft}
 
-Rubric, each 0-2: grounding (spot 3 claims vs dossier), specificity (would this be false for a different episode? generic=0), honesty (any viewing claim / invented number / uncited quote = overall 0), register (banned-phrase + sentence-length + hook quality), verdict_courage (says something falsifiable with evidence=2, hedge-mush=0).
+AUTOMATIC FAIL (set overall=0, verdict=fail) if ANY of these are present in spoiler_free or the_moment:
+- Any timestamp or beat-ref (e.g. "beat 05:20", "at 38:02", "2882 s", "12:01")
+- Any meta-reference to subtitles or production process ("as the English subtitles render it", "as the dialogue has it", "the subtitles show")
+- Any silence/gap duration used as criticism ("143-second silent stretch", "29-minute pause", "48-second gap", "two-minute dead silence")
+- Any first-person viewing claim ("I watched", "we saw")
 
-Return STRICT JSON: {{"scores": {{"grounding": n, "specificity": n, "honesty": n, "register": n, "verdict_courage": n}}, "overall": <sum, 0-10>, "verdict": "pass|revise|fail", "worst_sentence": "...", "fix": "one line"}}. pass requires overall>=7 AND honesty=2."""
+If no auto-fail, score rubric (each 0-2):
+- grounding: spot 3 specific claims vs dossier beats/contradictions/payoffs. All traceable=2, 1 uncited=1, fabricated claim=0.
+- specificity: would this review be FALSE for a different episode? Generic=0, episode-specific=2.
+- honesty: any invented number or uncited quote = 0. Clean = 2.
+- register: no banned phrases, no sentence over 35 words, no stock opener, no 'Verdict:' label. Violations = 0.
+- verdict_courage: the criticism names a real story/character problem with dossier evidence=2. Vague or absent=0.
+
+Return STRICT JSON: {{"scores": {{"grounding": n, "specificity": n, "honesty": n, "register": n, "verdict_courage": n}}, "overall": <sum 0-10>, "verdict": "pass|revise|fail", "worst_sentence": "...", "fix": "one line"}}. pass requires overall>=7 AND honesty=2 AND no auto-fail."""
 
 
 def mmss_ep(stem: str) -> int:
@@ -95,18 +109,28 @@ def dossier_digest(d: dict) -> str:
     return json.dumps(keep, ensure_ascii=False)
 
 
-def series_context(slug: str) -> tuple[str, str]:
+def series_context(slug: str) -> str:
     p = SERIES_DIR / f"{slug}.json"
     if not p.exists():
-        return ("(no catalogue entry yet)", "English subtitles")
+        return "(no catalogue entry yet)"
     d = json.loads(p.read_text())
     def sv(x): return x.get("value") if isinstance(x, dict) else x
     title = sv(d.get("title")) or slug
     lang = sv(d.get("original_language")) or ""
     plat = sv(d.get("platform")) or ""
-    ctx = f"{title}, {lang} on {plat}, status {d.get('status','?')}".strip(", ")
-    qlbl = "English subtitles render it" if (lang and lang.lower() not in ("english", "en")) else "dialogue has it"
-    return ctx, qlbl
+    return f"{title}, {lang} on {plat}, status {d.get('status','?')}".strip(", ")
+
+
+def sanitize_prose(text: str) -> str:
+    """Strip em/en-dashes and Verdict: label. Called before G3 judging so the judge sees clean text."""
+    if not text:
+        return text
+    # Replace em-dash (U+2014) and en-dash (U+2013) with spaced hyphen
+    text = text.replace("—", " - ").replace("–", " - ")
+    # Strip trailing "Verdict: <sentence>" label (last sentence if it starts with "Verdict:")
+    # Handles both "Verdict: X" at end and "Verdict: X." variations
+    text = re.sub(r"\s*Verdict:\s+[^\n]+$", "", text.rstrip()).rstrip()
+    return text
 
 
 def banned_hit(text: str) -> list[str]:
@@ -114,14 +138,17 @@ def banned_hit(text: str) -> list[str]:
     return [b for b in BANNED if b in low] + (["em-dash"] if re.search(r"[—–]", text or "") else [])
 
 
-def draft_one(slug: str, ep_stem: str, dossier: dict, ctx: str, qlbl: str) -> dict | None:
+def draft_one(slug: str, ep_stem: str, dossier: dict, ctx: str) -> dict | None:
     num = mmss_ep(ep_stem)
     prompt = WRITER_TMPL.format(
         slug=slug, ep=ep_stem, dossier=dossier_digest(dossier), context=ctx, num=num,
-        qlbl=qlbl, banned=", ".join(BANNED[:8]))
+        banned=", ".join(BANNED[:8]))
     obj, meta = orfree.call(WRITER_SYS, prompt, lane="json", max_tokens=2500,
                             temperature=0.55, required_keys=("spoiler_free", "the_moment", "number"),
                             ctx=f"review:{slug}:{ep_stem}")
+    # sanitize before local checks and G3 judging
+    obj["spoiler_free"] = sanitize_prose(obj.get("spoiler_free", ""))
+    obj["the_moment"] = sanitize_prose(obj.get("the_moment", ""))
     # local pre-judge mechanical checks
     sf = obj.get("spoiler_free", "")
     wc = len(sf.split())
@@ -168,7 +195,7 @@ def main() -> int:
     out_p = out_dir / "episodes.json"
     existing = {e["number"]: e for e in json.loads(out_p.read_text())} if out_p.exists() and not args.force else {}
 
-    ctx, qlbl = series_context(slug)
+    ctx = series_context(slug)
     reviews = []
     dossiers = sorted(p for p in ddir.glob("*.json") if not p.stem.startswith("_"))
     for p in dossiers:
@@ -179,11 +206,11 @@ def main() -> int:
             print(f"keep  {p.stem} (already passed)")
             continue
         try:
-            draft = draft_one(slug, p.stem, d, ctx, qlbl)
+            draft = draft_one(slug, p.stem, d, ctx)
             judge = judge_one(slug, p.stem, d, draft)
             if judge.get("verdict") != "pass" and judge.get("overall", 0) < 7:
                 # one regen on the next writer lane via temperature nudge
-                draft = draft_one(slug, p.stem, d, ctx, qlbl)
+                draft = draft_one(slug, p.stem, d, ctx)
                 judge = judge_one(slug, p.stem, d, draft)
             draft["_judge"] = {k: judge.get(k) for k in ("overall", "verdict", "worst_sentence", "fix", "_judge_lane")}
             reviews.append(draft)
