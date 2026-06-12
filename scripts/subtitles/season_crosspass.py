@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -77,46 +78,88 @@ def build_corpus(slug: str) -> tuple[str, int, str]:
     return "\n\n".join(blocks), len(eps), recurring
 
 
-def ts_close(a: str, b: str, tol: int = 20) -> bool:
-    def s(x):
-        m, sec = x.split(":")
-        return int(m) * 60 + int(sec)
-    try:
-        return abs(s(a) - s(b)) <= tol
-    except Exception:
+_CP_STOP = set("the a an and or but to of in on at for with is are was were be been this that "
+               "as from his her its their he she it they who when where what while into "
+               "about after before then there here both each".split())
+
+
+def _sig_tokens(text: str) -> set[str]:
+    toks = re.findall(r"[a-z']+", (text or "").lower())
+    return {t for t in toks if len(t) > 3 and t not in _CP_STOP}
+
+
+def _same_callback(a: dict, b: dict) -> bool:
+    """Two families describe the SAME callback if they agree on the structural
+    claim (setup_ep -> payoff_ep) AND their descriptions share content. Timestamps
+    are NOT a join key - different models cite the line vs the scene; both ends are
+    independently G2-verified anyway, so structural + semantic agreement is the signal."""
+    if (a.get("setup_ep"), a.get("payoff_ep")) != (b.get("setup_ep"), b.get("payoff_ep")):
         return False
+    ta = _sig_tokens(a.get("what", "")) | _sig_tokens(a.get("why_missable", ""))
+    tb = _sig_tokens(b.get("what", "")) | _sig_tokens(b.get("why_missable", ""))
+    if not ta or not tb:
+        return True  # same ep-pair, no describable content to disagree on
+    overlap = ta & tb
+    # high bar: >=2 shared content words, or one description >=40% covered by the other
+    return len(overlap) >= 2 or (len(overlap) / min(len(ta), len(tb))) >= 0.40
 
 
 def intersect(primary: dict, secondary: dict) -> dict:
-    """Mark callbacks found by both families high-confidence."""
-    sec_cbs = (secondary or {}).get("callbacks", [])
+    """Mark callbacks found by BOTH families high-confidence (ep-pair + semantic match)."""
+    sec_cbs = list((secondary or {}).get("callbacks", []))
+    matched_sec = set()
     for cb in primary.get("callbacks", []):
-        match = any(
-            cb.get("setup_ep") == s.get("setup_ep") and cb.get("payoff_ep") == s.get("payoff_ep")
-            and ts_close(cb.get("setup_t", "0:0"), s.get("setup_t", "99:99"))
-            for s in sec_cbs
-        )
-        cb["confidence"] = "high" if match else "candidate"
-    # secondary-only callbacks come in as candidates too
-    seen = {(c.get("setup_ep"), c.get("payoff_ep"), c.get("setup_t")) for c in primary.get("callbacks", [])}
-    for s in sec_cbs:
-        k = (s.get("setup_ep"), s.get("payoff_ep"), s.get("setup_t"))
-        if k not in seen and not any(
-            s.get("setup_ep") == c.get("setup_ep") and s.get("payoff_ep") == c.get("payoff_ep")
-            and ts_close(s.get("setup_t", "0:0"), c.get("setup_t", "99:99"))
-            for c in primary.get("callbacks", [])
-        ):
+        hit = next((i for i, s in enumerate(sec_cbs)
+                    if i not in matched_sec and _same_callback(cb, s)), None)
+        if hit is not None:
+            matched_sec.add(hit)
+            cb["confidence"] = "high"
+        else:
+            cb["confidence"] = "candidate"
+    # secondary-only callbacks (no primary twin) enter as candidates
+    for i, s in enumerate(sec_cbs):
+        if i not in matched_sec:
             s["confidence"] = "candidate"
             s["source"] = "secondary_family"
             primary.setdefault("callbacks", []).append(s)
     return primary
 
 
+def rematch_existing(slug: str) -> int:
+    """Zero-cost: re-run the (fixed) intersect on an already-generated _crosspass.json
+    by splitting it back into the two families (primary-origin vs secondary_family).
+    No LLM calls - repairs consensus on series done before the matching fix."""
+    p = ROOT / slug / "_dossiers" / "_crosspass.json"
+    if not p.exists():
+        print(f"{slug}: no _crosspass.json")
+        return 1
+    d = json.loads(p.read_text())
+    cbs = d.get("callbacks", [])
+    prim = {"callbacks": [c for c in cbs if c.get("source") != "secondary_family"]}
+    sec = {"callbacks": [c for c in cbs if c.get("source") == "secondary_family"]}
+    for c in prim["callbacks"]:
+        c.pop("confidence", None)
+        c.pop("source", None)
+    for c in sec["callbacks"]:
+        c.pop("confidence", None)
+    merged = intersect(prim, sec)
+    d["callbacks"] = merged["callbacks"]
+    hi = sum(1 for c in d["callbacks"] if c.get("confidence") == "high")
+    d.setdefault("_meta", {})["rematched"] = True
+    p.write_text(json.dumps(d, ensure_ascii=False, indent=1))
+    print(f"{slug}: rematched -> {len(d['callbacks'])} callbacks, {hi} high-confidence")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
     ap.add_argument("--single", action="store_true")
+    ap.add_argument("--rematch", action="store_true", help="re-run intersect on existing file, no LLM")
     args = ap.parse_args()
+
+    if args.rematch:
+        return rematch_existing(args.slug)
 
     corpus, neps, recurring = build_corpus(args.slug)
     est_tokens = int(len(corpus.split()) * 1.4)

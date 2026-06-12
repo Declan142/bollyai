@@ -5,6 +5,10 @@ Every timestamp must exist in the SRT-derived dialogue; every quote must be a
 verbatim substring of the line at its timestamp; quote caps enforced. Claims
 that fail are STRIPPED (recorded in _stripped), never argued with.
 
+Speaker-attribution gate: any key_line.speaker not backed by an SDH speaker tag
+in the dialogue doc is nulled in-place (quote kept, attribution discarded).
+Count logged in _verified.nulled_speakers.
+
 Verifies per-episode dossiers AND _crosspass.json.
 
 Usage:
@@ -60,6 +64,10 @@ class EpisodeIndex:
         nq = norm(quote)
         return bool(nq) and any(nq in norm(l["line"]) for l in self.lines)
 
+    def has_sdh_speaker_at(self, ts: str) -> bool:
+        """True if any dialogue line within TOL of ts has a non-null speaker (SDH source)."""
+        return any(l.get("speaker") for l in self.at(ts))
+
 
 def load_index(slug: str) -> dict[str, EpisodeIndex]:
     idx = {}
@@ -105,6 +113,15 @@ def verify_dossier(ep: str, d: dict, ix: EpisodeIndex) -> tuple[list[str], dict]
         return None
     out["key_lines"] = keep(d.get("key_lines"), "key_line", kl_check)[:6]
 
+    # Speaker-attribution gate: null any speaker not backed by an SDH tag.
+    # Keep the quote; kill only the inferred attribution. Not an error - just a
+    # correction for non-SDH corpora where speaker names are LLM-guessed.
+    nulled_speakers = 0
+    for kl in out["key_lines"]:
+        if kl.get("speaker") and not ix.has_sdh_speaker_at(kl.get("t", "")):
+            kl["speaker"] = None
+            nulled_speakers += 1
+
     total_q = sum(len((k.get("line") or "").split()) for k in out["key_lines"])
     if total_q > 80:
         errs.append(f"quote budget {total_q} > 80 - trimming")
@@ -130,7 +147,8 @@ def verify_dossier(ep: str, d: dict, ix: EpisodeIndex) -> tuple[list[str], dict]
 
     if stripped:
         out["_stripped"] = stripped
-    out["_verified"] = {"errors": len(errs), "gate": "G2", "tol_s": TOL}
+    out["_verified"] = {"errors": len(errs), "gate": "G2", "tol_s": TOL,
+                        "nulled_speakers": nulled_speakers}
     return errs, out
 
 
@@ -202,12 +220,15 @@ def main() -> int:
             continue
         d = json.loads(p.read_text())
         errs, cleaned = verify_dossier(ep, d, idx[ep])
-        report["episodes"][ep] = {"errors": errs, "kept_key_lines": len(cleaned.get("key_lines", []))}
+        ns = cleaned.get("_verified", {}).get("nulled_speakers", 0)
+        report["episodes"][ep] = {"errors": errs, "kept_key_lines": len(cleaned.get("key_lines", [])),
+                                  "nulled_speakers": ns}
         any_errs += len(errs)
         if args.strip:
             p.write_text(json.dumps(cleaned, ensure_ascii=False, indent=1))
         flag = "CLEAN" if not errs else f"{len(errs)} ERR"
-        print(f"{flag:>7}  {ep}")
+        ns_note = f" ({ns} speaker(s) nulled)" if ns else ""
+        print(f"{flag:>7}  {ep}{ns_note}")
 
     cp = ddir / "_crosspass.json"
     if cp.exists():
@@ -223,7 +244,8 @@ def main() -> int:
               f"({report['crosspass']['high_confidence']} high)")
 
     (ddir / "_verify_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1))
-    print(f"\nreport written; total errors: {any_errs}")
+    total_nulled = sum(v.get("nulled_speakers", 0) for v in report["episodes"].values())
+    print(f"\nreport written; total errors: {any_errs}; total speakers nulled: {total_nulled}")
     return 0
 
 
