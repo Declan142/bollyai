@@ -19,6 +19,7 @@ const PLATFORMS: Record<string, PlatformInfo> = {
   hotstar: { access: "paid", note: "Now part of JioHotstar in India; most originals need a paid plan." },
   sonyliv: { access: "paid", note: "SonyLIV needs a paid subscription in India." },
   zee5: { access: "paid", note: "ZEE5 needs a paid subscription in India." },
+  aha: { access: "paid", note: "aha needs a paid subscription in India and focuses on Telugu and Tamil titles." },
   "apple tv+": { access: "paid", note: "Apple TV+ needs a paid subscription in India." },
   "apple tv": { access: "paid", note: "Apple TV+ needs a paid subscription in India." },
   jiocinema: { access: "paid", note: "JioCinema content now sits under JioHotstar in India." },

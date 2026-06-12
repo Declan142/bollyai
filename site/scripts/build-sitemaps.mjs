@@ -74,9 +74,26 @@ for (const key of [...scoreboardKeys].sort()) {
   pages.push({ loc: `${SITE}/${industry}/box-office/${year}/`, lastmod: day(boxoffice.generated_at) });
 }
 pages.push({ loc: `${SITE}/ott/calendar/`, lastmod: day(calendar.generated_at) });
-const platforms = [...new Set((calendar.entries || []).map((e) => e.platform).filter(Boolean))];
+for (const week of calendar.weeks || []) {
+  if (!week.archive_url) continue;
+  pages.push({ loc: `${SITE}${week.archive_url}`, lastmod: day(calendar.generated_at) });
+}
+const archiveDir = path.join(dataDir, "ott", "calendar");
+if (fs.existsSync(archiveDir)) {
+  for (const file of fs.readdirSync(archiveDir)) {
+    const match = file.match(/^(20\d{2})-W(\d{2})\.json$/);
+    if (!match) continue;
+    const archive = readJson(path.join(archiveDir, file));
+    const url = `${SITE}/ott/calendar/${match[1]}/wk-${match[2]}/`;
+    if (!pages.some((row) => row.loc === url)) {
+      pages.push({ loc: url, lastmod: day(archive.generated_at || calendar.generated_at) });
+    }
+  }
+}
+const trackedPlatforms = calendar.tracking?.platforms || [];
+const platforms = [...new Set([...trackedPlatforms, ...(calendar.entries || []).map((e) => val(e.platform)).filter(Boolean)])];
 for (const plat of platforms) {
-  const lm = maxDay((calendar.entries || []).filter((e) => e.platform === plat).map((e) => e.fetched_at));
+  const lm = maxDay((calendar.entries || []).filter((e) => val(e.platform) === plat).map((e) => e.fetched_at));
   pages.push({ loc: `${SITE}/ott/${platformSlug(plat)}/`, lastmod: lm });
 }
 

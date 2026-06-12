@@ -30,7 +30,7 @@ from common import (
     utc_now,
     write_json,
 )
-from ott_announcements import build_calendar, load_announcements, parse_date
+from ott_announcements import build_calendar, current_week_start, load_announcements, parse_date, write_week_archives
 from wikidata import WikidataClient
 
 
@@ -95,6 +95,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
     fixture_mode = bool(args.fixture_mode)
     data_dir = repo_path(args.write) if args.write else DATA_DIR
     today = parse_date(args.today) if args.today else date.today()
+    week_start = current_week_start(today)
     client = WikidataClient(fixture_mode=fixture_mode)
     seeds = load_seed_films(fixture_mode=fixture_mode, data_dir=data_dir)
     if args.live_only:
@@ -115,7 +116,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         readings_by_film.setdefault(str(reading.qid), []).append(reading)
 
     announcements = load_announcements(fixture_mode=fixture_mode, data_dir=data_dir)
-    calendar = build_calendar(announcements, films=seeds, start=today, weeks=4)
+    calendar = build_calendar(announcements, films=seeds, start=week_start, weeks=2)
     changed_urls = stable_unique(url for seed in seeds for url in changed_urls_for_seed(seed))
 
     wrote = []
@@ -123,6 +124,8 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         calendar_path = data_dir / "ott" / "calendar.json"
         write_json(calendar_path, calendar)
         wrote.append(str(calendar_path))
+        for archive_path in write_week_archives(data_dir, calendar):
+            wrote.append(str(archive_path))
 
         state_payload = {
             "schema": "changed-urls/v1",
