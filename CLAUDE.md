@@ -73,7 +73,10 @@ Hourly buildout loop: `data/_state/buildout-loop.log` + single-flight flock + BU
 flag. To stop: `touch data/_state/BUILDOUT_STOP`. Loop commits but does NOT deploy - new
 series go live only on manual deploy (velocity-throttled by design).
 
-**Deploy / push-to-main / IndexNow = WAITING-APPROVAL, never auto.**
+**Deploy/push authority: GRANTED to Vyom (Aditya, 2026-06-13)** - hard conditions:
+push only with full test suite green; deploy only with tests + `npm run build` green
+(+ design-reviewer >= 7.5 for any frontend change); IndexNow stays hash-gated +
+throttled. Force-push / history rewrite / branch deletion remain DENIED, always.
 
 ## Repo conventions
 
@@ -102,7 +105,8 @@ series go live only on manual deploy (velocity-throttled by design).
 - Never write first-person viewing claims in any language.
 - Never set a partial bollymeter object - full object or null.
 - Never overwrite an existing `data/series/<slug>.json` without reading it first.
-- Never run IndexNow or deploy without Aditya's green light.
+- Deploy/push: standing grant (2026-06-13) under the conditions above - tests/build/design
+  gates are the approval now; skip a gate = no ship.
 - Never use `gpt swarm` (Spark) for repo edits - exits 0 silently even when it no-ops tasks.
 - Never add off-topic subdomains to bollyai.in (apex topical map locked to pan-India cinema).
 - Never touch TMDB watch-providers "JustWatch scrape" path - attribution only via TMDB API.

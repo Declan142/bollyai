@@ -20,7 +20,7 @@ kept as hygiene (new 284-file corpus stays out of repo; site never reads it). Re
 `git revert HEAD` if he wants tracking back. Next push WILL remove them from origin HEAD.
 **NEXT (his stated vision):** review-stage for ALL series from verified dossiers (free
 models draft per RULES Part 3, G3 judge, Fable adjudicates voice) -> homepage "naye
-episode reviews" rail (frontend increment, design-reviewer >=7.5, deploy = his approval).
+episode reviews" rail (frontend increment, design-reviewer >=7.5). Deploy/push: standing grant 2026-06-13, gates = approval.
 FROM showcase verdict still standing.
 
 ---
