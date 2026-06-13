@@ -7,7 +7,7 @@ from pathlib import Path
 import json, tempfile, os
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts" / "subtitles"))
-from draft_reviews import gap_criticism_hit, banned_hit, sanitize_prose
+from draft_reviews import gap_criticism_hit, banned_hit, sanitize_prose, timestamp_hit
 
 
 # ---------------------------------------------------------------------------
@@ -279,3 +279,54 @@ class TestBannedHit:
 
     def test_none_safe(self):
         assert banned_hit(None) == []
+
+
+# ---------------------------------------------------------------------------
+# timestamp_hit — inline MM:SS timestamps must always trigger
+# ---------------------------------------------------------------------------
+
+class TestTimestampHitShouldFail:
+    # scam-1992 E03 regression — "the payoff at 23:54" slipped triage
+    def test_scam_e03_payoff_at_timestamp(self):
+        assert timestamp_hit(
+            "the payoff at 23:54 where he calls the scheme a twisted use of trust feels earned"
+        )
+
+    # scam-1992 E08 regression — "planted at 00:26" slipped triage
+    def test_scam_e08_planted_at_timestamp(self):
+        assert timestamp_hit(
+            "The payoff of the earlier 15-day scheme - planted at 00:26 - materialises when"
+        )
+
+    def test_bare_timestamp_in_prose(self):
+        assert timestamp_hit("the confrontation at 38:02 resolves the arc")
+
+    def test_timestamp_at_start_of_context(self):
+        assert timestamp_hit("at 12:01 Harshad finally breaks")
+
+    def test_zero_padded_timestamp(self):
+        assert timestamp_hit("planted at 00:26 for later payoff")
+
+    def test_single_digit_minute(self):
+        assert timestamp_hit("the scene at 4:45 pays off the setup")
+
+
+class TestTimestampHitShouldPass:
+    def test_clean_story_prose(self):
+        assert not timestamp_hit(
+            "The payoff lands when he finally calls the scheme a twisted use of trust."
+        )
+
+    def test_planted_in_cold_open(self):
+        assert not timestamp_hit(
+            "planted in the cold open, the 15-day scheme materialises when Pherwani dies."
+        )
+
+    def test_crore_figure_no_colon(self):
+        assert not timestamp_hit("a 12,000-crore counterfeit operation")
+
+    def test_empty_string(self):
+        assert not timestamp_hit("")
+
+    def test_none_safe(self):
+        assert not timestamp_hit(None)

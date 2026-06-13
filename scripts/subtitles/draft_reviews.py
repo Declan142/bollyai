@@ -162,6 +162,19 @@ def gap_criticism_hit(text: str) -> bool:
     return any(p.search(text) for p in _GAP_PATTERNS)
 
 
+# MM:SS timestamp pattern — any digit-colon-digit-digit sequence in prose is a subtitle
+# artifact leak (e.g. "at 23:54", "planted at 00:26"). Evidence citations belong only
+# in _evidence, never in spoiler_free or the_moment.
+_TIMESTAMP_RE = re.compile(r'\b\d{1,2}:\d{2}\b')
+
+
+def timestamp_hit(text: str) -> bool:
+    """Return True if text contains an inline MM:SS timestamp."""
+    if not text:
+        return False
+    return bool(_TIMESTAMP_RE.search(text))
+
+
 def banned_hit(text: str) -> list[str]:
     low = (text or "").lower()
     return [b for b in BANNED if b in low] + (["em-dash"] if re.search(r"[—–]", text or "") else [])
@@ -186,6 +199,8 @@ def draft_one(slug: str, ep_stem: str, dossier: dict, ctx: str) -> dict | None:
         issues.append(f"banned: {banned_hit(sf) + banned_hit(obj.get('the_moment',''))}")
     if gap_criticism_hit(sf) or gap_criticism_hit(obj.get("the_moment", "")):
         issues.append("gap-criticism: silence/pause/gap used as pacing criticism")
+    if timestamp_hit(sf) or timestamp_hit(obj.get("the_moment", "")):
+        issues.append("timestamp: inline MM:SS timestamp in prose")
     if not (95 <= wc <= 175):
         issues.append(f"length {wc}")
     if re.search(r"\b(I|we) (watch|saw|watched|see)\b", sf, re.I):
