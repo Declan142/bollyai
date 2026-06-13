@@ -7,16 +7,17 @@ export const metadata: Metadata = {
   description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
   ...pageSeo({ path: "/" })
 };
-import { FilmCard } from "../components/FilmCard";
+import { CountUp } from "../components/CountUp";
 import { JsonLd } from "../components/JsonLd";
+import { MediaCard } from "../components/MediaCard";
 import { PosterImage } from "../components/PosterImage";
 import { VerdictMeter } from "../components/VerdictMeter";
 import { getYearScoreboardParams } from "../lib/boxoffice";
 import { DESKS, getDesk } from "../lib/desks";
-import { SeasonVerdict } from "../components/SeasonVerdict";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
-import { getAllSeries, getNewestEpisodeReviews, getSeriesByRecency, latestSeason } from "../lib/series";
+import { getNewestEpisodeReviews } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
+import { bigThisWeek, catalogueStats, deskCounts, justDropped } from "../lib/home";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
   const net = film.box_office.totals.india_net_inr_cr?.value;
@@ -26,11 +27,24 @@ function bestFigure(film: Film): { label: string; text: string } | null {
   return null;
 }
 
+// Friendly freshness label for the liveness ribbon. "Updated today" only when the newest
+// merge is actually today's date in IST - never a fabricated freshness.
+function freshnessLabel(iso: string): string {
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
+  const modified = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date(iso));
+  return modified === today ? "Updated today" : `Updated ${formatDate(iso)}`;
+}
+
 export default function HomePage() {
   const films = getAllFilms();
   const lead = films[0];
-  const wall = films.slice(1, 11);
   const latestModified = getLatestModified();
+  const stats = catalogueStats();
+  const updated = freshnessLabel(latestModified);
+
+  const drops = justDropped(16);
+  const trending = bigThisWeek(14);
+  const counts = deskCounts();
 
   const board = [...films]
     .filter((film) => film.box_office.totals.worldwide_gross_inr_cr?.value)
@@ -51,25 +65,17 @@ export default function HomePage() {
     .entries.filter((entry) => entry.release_date >= "2026-06-01")
     .slice(0, 8);
 
-  // Series rail: prefer scored seasons (MUST-WATCH/WORTH-IT lead), cap at 12.
-  const seriesRail = getAllSeries()
-    .map((s) => ({ s, season: latestSeason(s) }))
-    .sort((a, b) => (b.season?.bollymeter?.score ?? 0) - (a.season?.bollymeter?.score ?? 0))
-    .slice(0, 12);
-
-  // Recency-first: the newest seasons to land, freshest at the front.
-  const freshRail = getSeriesByRecency().slice(0, 14);
-
-  // Newest standout episode reviews across the catalogue, sorted by merge date.
   const episodeReviews = getNewestEpisodeReviews(10);
-
   const watchLists = getAllWatchLists().slice(0, 6);
   const yearScoreboards = getYearScoreboardParams();
 
   const leadFig = lead ? bestFigure(lead) : null;
 
+  // Desk quick-nav: collapse the five cinema desks + Streaming into a scannable strip.
+  const deskNav = DESKS.map((desk) => ({ ...desk, count: counts[desk.slug] ?? 0 }));
+
   return (
-    <main className="page-shell home-marquee" data-desk="bollywood">
+    <main className="page-shell home-hub" data-desk="bollywood">
       {lead && (
         <section className="hero-marquee full-bleed" data-desk={lead.canonical_industry}>
           <img
@@ -97,7 +103,33 @@ export default function HomePage() {
             <div className="hero-marquee__meter">
               <VerdictMeter rung={lead.verdict.ladder_rung} tracking={lead.verdict.tracking} />
             </div>
-            <DateModified value={lead.date_modified} />
+            <dl className="live-stats" aria-label="What BollyAI is tracking right now">
+              <div className="live-stats__cell">
+                <dt>Series tracked</dt>
+                <dd>
+                  <CountUp value={stats.series} />
+                </dd>
+              </div>
+              <div className="live-stats__cell">
+                <dt>Films tracked</dt>
+                <dd>
+                  <CountUp value={stats.films} />
+                </dd>
+              </div>
+              <div className="live-stats__cell">
+                <dt>Desks live</dt>
+                <dd>
+                  <CountUp value={DESKS.length} />
+                </dd>
+              </div>
+              <div className="live-stats__cell live-stats__cell--pulse">
+                <dt>Freshness</dt>
+                <dd>
+                  <span className="live-dot" aria-hidden="true" />
+                  {updated}
+                </dd>
+              </div>
+            </dl>
           </div>
         </section>
       )}
@@ -117,37 +149,55 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="poster-wall-block">
-        <header className="home-section-head">
-          <h2>Now Running</h2>
-          <p>The poster wall. Every plate carries a verified number, not a press release.</p>
+      <section className="hub-block">
+        <header className="home-section-head home-section-head--rail">
+          <div>
+            <span className="eyebrow">Films &amp; series · one feed</span>
+            <h2>Just Dropped</h2>
+            <p>The newest titles to land, theatrical and OTT side by side. BollyAI reads the room the moment it forms.</p>
+          </div>
+          <a className="home-section-head__more" href="/series/">
+            Browse all →
+          </a>
         </header>
-        <div className="poster-wall full-bleed">
-          {wall.map((film) => {
-            const fig = bestFigure(film);
-            return (
-              <a
-                className="poster-card"
-                data-desk={film.canonical_industry}
-                href={`/${film.canonical_industry}/box-office/${film.slug}/`}
-                key={film.slug}
-              >
-                <img src={film.poster.src} alt={film.poster.alt} width="342" height="513" loading="lazy" />
-                <span className="poster-card__plate">
-                  <strong>{film.title.value}</strong>
-                  <span className="poster-card__money">{fig ? fig.text : "figures under verification"}</span>
-                  <VerdictMeter rung={film.verdict.ladder_rung} tracking={film.verdict.tracking} compact />
-                </span>
-              </a>
-            );
-          })}
+        <div className="media-rail full-bleed">
+          {drops.map((item) => (
+            <MediaCard item={item} key={`drop-${item.kind}-${item.slug}`} />
+          ))}
+        </div>
+      </section>
+
+      <section className="desk-nav" aria-label="BollyAI desks">
+        {deskNav.map((desk) => (
+          <a className="desk-nav__tile" href={`/${desk.slug}/`} data-desk={desk.slug} key={desk.slug}>
+            <span className="desk-nav__name">{desk.label}</span>
+            <span className="desk-nav__count">{desk.count} titles</span>
+          </a>
+        ))}
+      </section>
+
+      <section className="hub-block">
+        <header className="home-section-head home-section-head--rail">
+          <div>
+            <span className="eyebrow">High signal · this week</span>
+            <h2>Big This Week</h2>
+            <p>The theatrical runs in cinemas now and the highest-scored drops of the season, mixed. Order is real box office and real BollyMeter, never hype.</p>
+          </div>
+          <a className="home-section-head__more" href="/bollywood/box-office/2026/">
+            Box-office boards →
+          </a>
+        </header>
+        <div className="media-rail full-bleed">
+          {trending.map((item) => (
+            <MediaCard item={item} key={`trend-${item.kind}-${item.slug}`} />
+          ))}
         </div>
       </section>
 
       <section className="board-split">
         <div className="big-board">
           <header className="home-section-head">
-            <h2>The Big Board</h2>
+            <h2>Box Office Now</h2>
             <p>2026 worldwide gross, pair-verified. The whole year on one wall.</p>
           </header>
           <ol>
@@ -171,7 +221,7 @@ export default function HomePage() {
         </div>
         <aside className="ott-rail" aria-label="Streaming this week">
           <header className="home-section-head">
-            <h2>On OTT</h2>
+            <h2>OTT This Week</h2>
             <p>Confirmed drops, attributed announcements.</p>
           </header>
           <ul>
@@ -191,66 +241,11 @@ export default function HomePage() {
         </aside>
       </section>
 
-      <section className="poster-wall-block">
-        <header className="home-section-head">
-          <h2>2026 Yearboards</h2>
-          <p>Seven desk scoreboards, ranked by verified India nett when the two-source rule clears.</p>
-        </header>
-        <div className="bo-link-grid">
-          {yearScoreboards.map((scoreboard) => {
-            const desk = getDesk(scoreboard.industry);
-            return (
-              <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
-                <span className="eyebrow">{desk?.industryName ?? "Industry"}</span>
-                <strong>
-                  {desk?.label ?? scoreboard.industry} {scoreboard.year}
-                </strong>
-                <span>Open the {scoreboard.year} board →</span>
-              </a>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="poster-wall-block">
-        <header className="home-section-head">
-          <h2>Just Dropped</h2>
-          <p>The newest seasons to land on OTT, freshest first. BollyAI&apos;s read the moment the room forms.</p>
-        </header>
-        <div className="poster-wall full-bleed">
-          {freshRail.map((s) => {
-            const season = latestSeason(s);
-            return (
-              <a className="poster-card" data-desk="streaming" href={`/series/${s.slug}/`} key={`fresh-${s.slug}`}>
-                <PosterImage
-                  src={s.poster.src}
-                  alt={s.poster.alt}
-                  width="342"
-                  height="513"
-                  loading="lazy"
-                  avifSrcSet={s.poster.variants?.avifSrcSet}
-                  webpSrcSet={s.poster.variants?.webpSrcSet}
-                />
-                <span className="poster-card__plate">
-                  <span className="poster-card__origin-tag">{s.origin}{season?.year ? ` · ${season.year}` : ""}</span>
-                  <strong>{s.title.value}</strong>
-                  <span className="poster-card__money">{s.platform.value}</span>
-                  {season && <SeasonVerdict rung={season.verdict} compact />}
-                </span>
-              </a>
-            );
-          })}
-        </div>
-        <a className="ott-rail__more" href="/series/">
-          Browse all series by genre, platform &amp; year →
-        </a>
-      </section>
-
       {episodeReviews.length > 0 && (
-        <section className="poster-wall-block" data-desk="streaming">
+        <section className="hub-block" data-desk="streaming">
           <header className="home-section-head">
             <h2>Naye Episode Reviews</h2>
-            <p>Standout hours from across the catalogue, freshest first. Premiers, finales, and the turning-point episodes critics argue about.</p>
+            <p>Standout hours from across the catalogue, freshest first. Premieres, finales, and the turning-point episodes critics argue about.</p>
           </header>
           <div className="ep-review-rail">
             {episodeReviews.map((card) => {
@@ -285,39 +280,8 @@ export default function HomePage() {
         </section>
       )}
 
-      <section className="poster-wall-block">
-        <header className="home-section-head">
-          <h2>Binge Verdicts</h2>
-          <p>India, Korea, and global OTT, season by season. BollyAI reads the room so you don&apos;t gamble a weekend.</p>
-        </header>
-        <div className="poster-wall full-bleed">
-          {seriesRail.map(({ s, season }) => (
-            <a className="poster-card" data-desk="streaming" href={`/series/${s.slug}/`} key={s.slug}>
-              <PosterImage
-                src={s.poster.src}
-                alt={s.poster.alt}
-                width="342"
-                height="513"
-                loading="lazy"
-                avifSrcSet={s.poster.variants?.avifSrcSet}
-                webpSrcSet={s.poster.variants?.webpSrcSet}
-              />
-              <span className="poster-card__plate">
-                <span className="poster-card__origin-tag">{s.origin}</span>
-                <strong>{s.title.value}</strong>
-                <span className="poster-card__money">{s.platform.value}</span>
-                {season && <SeasonVerdict rung={season.verdict} compact />}
-              </span>
-            </a>
-          ))}
-        </div>
-        <a className="ott-rail__more" href="/series/">
-          All series &amp; OTT verdicts →
-        </a>
-      </section>
-
       {watchLists.length > 0 && (
-        <section className="poster-wall-block">
+        <section className="hub-block">
           <header className="home-section-head">
             <h2>What to Watch</h2>
             <p>Curated for a mood, a platform, or a weekend - not a star-rating dump. Indian cinema, global OTT, K-drama, anime.</p>
@@ -337,7 +301,28 @@ export default function HomePage() {
         </section>
       )}
 
-      <section className="desk-strip" aria-label="BollyAI desks">
+      <section className="hub-block">
+        <header className="home-section-head">
+          <h2>2026 Yearboards</h2>
+          <p>Seven desk scoreboards, ranked by verified India nett when the two-source rule clears.</p>
+        </header>
+        <div className="bo-link-grid">
+          {yearScoreboards.map((scoreboard) => {
+            const desk = getDesk(scoreboard.industry);
+            return (
+              <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
+                <span className="eyebrow">{desk?.industryName ?? "Industry"}</span>
+                <strong>
+                  {desk?.label ?? scoreboard.industry} {scoreboard.year}
+                </strong>
+                <span>Open the {scoreboard.year} board →</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="desk-strip" aria-label="BollyAI desks in depth">
         {DESKS.map((desk) => (
           <a className="desk-tile" href={`/${desk.slug}/`} data-desk={desk.slug} key={desk.slug}>
             <strong>{desk.label}</strong>
@@ -346,20 +331,17 @@ export default function HomePage() {
         ))}
       </section>
 
-      <section className="content-sections">
-        <section>
-          <header className="home-section-head">
-            <h2>Fresh Reviews</h2>
-            <p>Money on one axis, craft on the other. BollyAI reads the whole room before scoring.</p>
-          </header>
-          <div className="film-grid">
-            {films.slice(0, 8).map((film) => (
-              <FilmCard key={`review-${film.slug}`} film={film} type="review" />
-            ))}
-          </div>
-        </section>
-        <DateModified value={latestModified} />
-      </section>
+      <DateModified value={latestModified} />
+
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "BollyAI - pan-India cinema and OTT verdicts",
+          description: `Live verdicts and BollyMeter scores across ${stats.series} series and ${stats.films} films.`,
+          url: "https://bollyai.in/"
+        }}
+      />
     </main>
   );
 }
