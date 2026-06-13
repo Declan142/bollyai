@@ -316,6 +316,7 @@ export function boxOfficeDatasetJsonLd({
       name: "BollyAI",
       url: "https://bollyai.in"
     },
+    license: "https://bollyai.in/about",
     measurementTechnique: "Two-source independent trade verification with conservative lower-bound publishing.",
     variableMeasured: ["India nett box office", "Worldwide gross box office"],
     spatialCoverage: "India",
@@ -336,6 +337,7 @@ export function filmBoxOfficeDatasetJsonLd(film: Film) {
       name: "BollyAI",
       url: "https://bollyai.in"
     },
+    license: "https://bollyai.in/about",
     about: {
       "@type": "Movie",
       name: film.title.value,
@@ -359,6 +361,7 @@ export function filmDayRowsItemListJsonLd(film: Film) {
         "@type": "Dataset",
         name: `${film.title.value} day ${row.day} box office`,
         dateModified: row.net_inr_cr.fetched_at,
+        license: "https://bollyai.in/about",
         variableMeasured: "India nett box office"
       }
     }))
