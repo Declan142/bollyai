@@ -1,17 +1,24 @@
-# BollyAI — pickup state (2026-06-13 ~14:00, RICH-FORMAT REWRITE — mass-regen IN FLIGHT)
+# BollyAI - pickup state (2026-06-13 ~15:30, RICH REVIEWS SHIPPED LIVE)
 
 ## THE BIG PIVOT THIS SESSION
 Aditya reviewed the live site and REJECTED the thin reviews (113-word single paragraph, no
 photos). Directive: competitor-grade RICH reviews (Den of Geek bar ~2100w) for EVERY series,
 full-season coverage. We rewired the whole review format. The thin pipeline is HALTED.
 
-## RUNNING RIGHT NOW (do NOT relaunch blindly — check first)
-- **Mass-regen batch**: conductor lane `work:1` (bolly-massregen) driving
-  `scripts/subtitles/regen_batch.py` over the 6 LIVE series (farzi, scam-1992,
-  crash-landing-on-you, every-year-after, sweet-magnolias-season-5, house-of-the-dragon).
-  ~54 episodes, SERIAL, ~40 min, gpt-5.4-Azure, ₹0. Ledger: `data/subtitles/_engine/regen-batch.jsonl`
-  (watch for `batch_end`). Re-runnable (done episodes skip). On finish the FLOOR audits + deploys.
-  🚨 Check `conductor board` + `grep batch_end regen-batch.jsonl` before touching — may already be done.
+## SHIPPED THIS RUN (2026-06-13 ~15:30, floor-driven post-batch)
+- **Mass-regen COMPLETE**: 50 episodes across the 6 LIVE series regenerated to rich format
+  (batch_end ok=48 fail=2). Both fails were DETERMINISTIC (not transient), both fixed:
+  - every-year-after E3: `KeyError: 'beat'` in `draft_prompt` -> defensive `.get()` + skip-malformed
+    in `build_review.py` (root-cause, zero regression). Re-ran clean on Azure (1528w).
+  - crash-landing-on-you E12: Azure content-filter blocked it (violent content). Re-ran via
+    `BOLLYAI_REVIEW_MODEL=gpt-5.5` (non-Azure sampler) -> clean (1397w), voice-consistent with Azure.
+    🚨 LESSON: any violent/adult title (Sheridan-verse etc.) will hit the same Azure filter -> the
+    gpt-5.5 fallback lane is the escape hatch. Bake it into any future backfill.
+- Gates GREEN: validate_series 6/6, pytest 256 passed, em/en dash + double-hyphen clean.
+- Floor-audit PASS: EYA E3 / CLOY E12 / HotD E10 / scam-1992 E2 (1358-1520w, 0 dash/ts/viewing, correct H1).
+- DEPLOYED: npm build RC=0 (2427 html), wrangler -> bollyai-in (4876 files), 4 episode pages
+  live-verified 200+review on bollyai.in. IndexNow: 55 changed episode URLs submitted.
+- Committed + pushed; build_review.py fix + regen_batch.py/bakeoff_review.py/RICH-REVIEW-SPEC.md versioned.
 
 ## THE RICH-REVIEW ARCHITECTURE (locked)
 - **Writer = gpt-5.4 on Azure** (deployment `gpt-5-4`, endpoint
@@ -43,8 +50,13 @@ full-season coverage. We rewired the whole review format. The thin pipeline is H
   design-reviewer 8.7, 0 timestamps/dashes/viewing-claims).
 
 ## QUEUE (the path to "every series, full-season, rich")
-1. **NOW**: mass-regen 6 LIVE series (work:1) → floor audit → validate+pytest+build → DEPLOY
-   (thin→rich live) → IndexNow → commit.
+1. ✅ DONE (2026-06-13 ~15:30): mass-regen 6 LIVE series -> audit -> gates -> DEPLOY -> IndexNow -> commit.
+   *(Aditya raised the catalog-coverage gap this run: big new Western/Sheridan-verse titles - landman,
+   lioness, mayor-of-kingstown, the-madison, 6666 - are ABSENT. Cause: the 183->546 curated buildout
+   loop self-disabled at target 2026-06-09 (BUILDOUT_STOP, no cron), and the calendar freshness radar
+   is India/streaming-weighted (no US-cable). Subs EXIST on subliminal providers for these. PROPOSED:
+   (a) tactical curated Sheridan/marquee backfill wave, (b) demand-driven radar = TMDB trending minus
+   existing slugs. AWAITING Aditya a/b/c call. Use gpt-5.5 lane for the violent titles per the CLOY E12 lesson.)*
 2. **Phase 2**: the 75 MISSING episodes (full-season coverage) via same `regen_batch` + gpt-5.4.
    Under-reviewed catalogued series to expand: HOTD(+16), kingdom(+10), teach-you-a-lesson(+10),
    mirzapur(+8), berlin(+6), fauda(+5). Uncatalogued needing authoring first: i-will-find-you(14),

@@ -19,20 +19,66 @@ import os
 import json
 import re
 import subprocess
+import time
+import urllib.request
+import urllib.error
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 HOUSE_STYLE = os.path.join(os.path.dirname(__file__), 'REVIEW-HOUSE-STYLE.md')
 
+# Model routing (bake-off 2026-06-13: gpt-5.4-Azure won on analysis density + in-target
+# length + ZERO marginal cost on sponsored credits; frees the ChatGPT weekly pool).
+# Override with BOLLYAI_REVIEW_MODEL=gpt-5.5 to use the codex/gpt-5.5 sampler.
+REVIEW_MODEL = os.environ.get('BOLLYAI_REVIEW_MODEL', 'gpt-5-4')
+AZ_ENDPOINT = "https://adity-mnuhhdt9-eastus2.cognitiveservices.azure.com"
+AZ_API_VER = "2024-12-01-preview"
+_AZ_KEY = None
+
+
+def _az_key() -> str:
+    global _AZ_KEY
+    if _AZ_KEY is None:
+        _AZ_KEY = subprocess.run(
+            ["az", "cognitiveservices", "account", "keys", "list", "-g", "empire-ai",
+             "-n", "adity-mnuhhdt9-eastus2", "--query", "key1", "-o", "tsv"],
+            capture_output=True, text=True).stdout.strip()
+    return _AZ_KEY
+
+
+def _azure_chat(deployment: str, instruction: str, user: str, budget: int = 9000,
+                timeout: int = 600) -> tuple[str, int]:
+    """OpenAI-compatible Azure call. gpt-5.x = max_completion_tokens (reasoning, no temp).
+    Exponential backoff on 429 (the gpt-5-4 deployment is low-capacity; respect Retry-After)."""
+    url = f"{AZ_ENDPOINT}/openai/deployments/{deployment}/chat/completions?api-version={AZ_API_VER}"
+    body = {"messages": [{"role": "system", "content": instruction},
+                         {"role": "user", "content": user}],
+            "max_completion_tokens": budget}
+    data = json.dumps(body).encode()
+    for attempt in range(6):
+        req = urllib.request.Request(url, data=data,
+            headers={"Content-Type": "application/json", "api-key": _az_key()})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                d = json.loads(r.read())
+            return (d["choices"][0]["message"]["content"] or "").strip(), 0
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 5:
+                wait = int(e.headers.get('Retry-After', 0)) or min(60, 8 * (2 ** attempt))
+                print(f"  429 rate-limited, backoff {wait}s (attempt {attempt+1}/6)", flush=True)
+                time.sleep(wait); continue
+            print(f"  azure HTTP {e.code}: {e.read()[:160]!r}", file=sys.stderr); return "", 1
+        except Exception as e:
+            print(f"  azure call failed: {e!r}", file=sys.stderr); return "", 1
+    return "", 1
+
 
 def gpt_ask(instruction: str, stdin_text: str, timeout: int = 600) -> tuple[str, int]:
-    p = subprocess.run(
-        ['gpt', 'ask', instruction],
-        input=stdin_text,
-        capture_output=True,
-        text=True,
-        timeout=timeout,
-    )
-    return p.stdout.strip(), p.returncode
+    """Route to the chosen review model. Default gpt-5.4-Azure (sponsored, ~$0)."""
+    if REVIEW_MODEL == 'gpt-5.5':
+        p = subprocess.run(['gpt', 'ask', instruction], input=stdin_text,
+                           capture_output=True, text=True, timeout=timeout)
+        return p.stdout.strip(), p.returncode
+    return _azure_chat(REVIEW_MODEL, instruction, stdin_text, timeout=timeout)
 
 
 def strip_fences(text: str) -> str:
@@ -51,6 +97,22 @@ def strip_em_dashes(text: str) -> str:
     return text
 
 
+def strip_timestamps(text: str) -> str:
+    """Belt-and-suspenders: house-style bans inline subtitle timestamps; some models
+    still leak 'At 62:49,' type tokens. Strip them, keep the sentence readable."""
+    # "At 62:49, " / "around 1:23:45 " / "(62:49)" / bare " 62:49"
+    text = re.sub(r'\s*\(?\b(?:[Aa]t|[Aa]round|by)\s+\d{1,2}:\d{2}(?::\d{2})?\)?,?', '', text)
+    text = re.sub(r'\s*\(\d{1,2}:\d{2}(?::\d{2})?\)', '', text)
+    text = re.sub(r'\s+\b\d{1,2}:\d{2}(?::\d{2})?\b', '', text)
+    text = re.sub(r'  +', ' ', text)            # collapse double spaces
+    text = re.sub(r' ([,.])', r'\1', text)      # fix orphaned punctuation spacing
+    return text
+
+
+def timestamp_count(text: str) -> int:
+    return len(re.findall(r'\b\d{1,2}:\d{2}\b', text))
+
+
 def build_draft_prompt(house_style: str, dossier: dict, slug: str) -> str:
     ep_tag = dossier.get('episode', 'S01E01')
     ep_title = dossier.get('title') or ep_tag
@@ -62,7 +124,11 @@ def build_draft_prompt(house_style: str, dossier: dict, slug: str) -> str:
 
     char_lines = []
     for c in dossier.get('character_beats', []):
-        char_lines.append(f"  {c['who']}: {c['beat']} (evidence t={c['evidence_t']})")
+        who = c.get('who')
+        beat = c.get('beat')
+        if not who or not beat:
+            continue  # skip malformed dossier entries instead of crashing the build
+        char_lines.append(f"  {who}: {beat} (evidence t={c.get('evidence_t', '?')})")
 
     key_lines = []
     for k in dossier.get('key_lines', []):
@@ -180,7 +246,7 @@ def main():
         dossier['title'] = ep_review['title']
 
     # --- DRAFT ---
-    print(f"Drafting review for {slug} {ep_tag} via gpt-5.5...")
+    print(f"Drafting review for {slug} {ep_tag} via {REVIEW_MODEL}...")
     draft_instr, dossier_text = build_draft_prompt(house_style, dossier, slug)
     draft, rc = gpt_ask(draft_instr, dossier_text, timeout=600)
     draft = strip_fences(draft)
@@ -221,6 +287,12 @@ def main():
     if remaining_em > 0:
         print(f"  WARNING: {remaining_em} em/en-dashes remain after strip — stripping again")
         review_body = strip_em_dashes(review_body)
+
+    # Hard timestamp strip (house-style bans them; models leak 'At 62:49,' type tokens)
+    ts_before = timestamp_count(review_body)
+    if ts_before > 0:
+        review_body = strip_timestamps(review_body)
+        print(f"  timestamps stripped: {ts_before} -> {timestamp_count(review_body)}")
 
     # --- MERGE INTO SERIES JSON ---
     ep_review['review_body'] = review_body
