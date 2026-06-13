@@ -162,6 +162,15 @@ class TestGapCriticismShouldFail:
     def test_quiet_stagnant(self):
         assert gap_criticism_hit("the quiet stretches without narrative gain, making pacing feel stagnant")
 
+    # CLOY E10 observed variant: "stretches of silence" — missed by original patterns
+    def test_cloy_e10_stretches_of_silence(self):
+        assert gap_criticism_hit(
+            "the episode stalls during long stretches of silence that repeat without adding tension"
+        )
+
+    def test_stretches_of_pause(self):
+        assert gap_criticism_hit("stretches of pause interrupt the climax")
+
 
 # ---------------------------------------------------------------------------
 # gap_criticism_hit — sentences that must NOT trigger (legit story criticism)

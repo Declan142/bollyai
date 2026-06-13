@@ -141,8 +141,9 @@ _GAP_PATTERNS: list[re.Pattern] = [
     re.compile(r'\b(?:silence|pause|gap|stretch|lull)s?\b.{0,40}\b\d+[\s\-](?:second|minute|sec|min)', re.I),
     # weighted-adjective + silence/pause/quiet noun — includes "lingering quiet" variant
     re.compile(r'\b(?:long|relentless|extended|prolonged|dead|protracted|lengthy|overlong|lingering)\s+(?:silence|silences|pause|pauses|gap|gaps|quiet)\b', re.I),
-    # "silent stretch" - common LLM phrasing for subtitle gaps
+    # "silent stretch" and "stretches of silence/pause/quiet" — both orderings
     re.compile(r'\bsilent\s+stretch\b', re.I),
+    re.compile(r'\bstretches?\s+of\s+(?:silence|pause|pauses|quiet)\b', re.I),
     # silence/pause/quiet noun followed by a pacing-consequence verb within 80 chars
     # "quiet" included to catch "lingering quiet...stagnant/stretches" variants
     re.compile(r'\b(?:silence|silences|pause|pauses|quiet)\b.{0,80}\b(?:stalls?|drags?|hampers?|bogs?\s+down|slows?\s+(?:the\s+)?(?:pace|pacing|momentum)|kills?\s+(?:the\s+)?(?:pace|pacing|momentum)|undermines?|wastes?|pacing\s+suffers|stagnant|stretches\s+without)\b', re.I),
