@@ -98,6 +98,11 @@ Return STRICT JSON: {{"scores": {{"grounding": n, "specificity": n, "honesty": n
 
 
 def mmss_ep(stem: str) -> int:
+    """Episode identifier. S01=flat (S01E03->3). S02+=compound (S02E03->203). Keeps backward compat."""
+    m = re.search(r"S(\d+)E(\d+)", stem, re.I)
+    if m:
+        season, episode = int(m.group(1)), int(m.group(2))
+        return episode if season == 1 else season * 100 + episode
     m = re.search(r"E(\d+)", stem)
     return int(m.group(1)) if m else 1
 

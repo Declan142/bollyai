@@ -80,8 +80,9 @@ def ep_to_season_map(slug: str) -> dict[int, int]:
         m = re.match(r"S(\d+)E(\d+)", p.stem, re.I)
         if m:
             snum, enum = int(m.group(1)), int(m.group(2))
-            if enum not in mapping:  # first season wins on conflict
-                mapping[enum] = snum
+            # Compound key mirrors draft_reviews.mmss_ep: S01 stays flat, S02+ = season*100+episode
+            key = enum if snum == 1 else snum * 100 + enum
+            mapping[key] = snum  # unique compound keys - no collision
     return mapping
 
 
@@ -151,30 +152,33 @@ def merge_series(slug: str, *, apply: bool, force: bool) -> int:
     series = json.loads(series_path.read_text(encoding="utf-8"))
     seasons_by_num: dict[int, dict] = {s["number"]: s for s in series.get("seasons", [])}
 
-    plan: list[tuple[int, int, dict]] = []  # (season_num, ep_num, cleaned_entry)
+    plan: list[tuple[int, int, int, dict]] = []  # (season_num, staging_num, ep_for_json, cleaned)
     for entry in eligible:
-        ep_num = entry.get("number")
-        if ep_num is None:
+        staging_num = entry.get("number")
+        if staging_num is None:
             print(f"  WARN  entry missing 'number', skipping")
             continue
         issues = fence_check_review(entry)
         if issues:
-            print(f"  FENCE-FAIL  ep {ep_num}: {'; '.join(issues)}")
+            print(f"  FENCE-FAIL  ep {staging_num}: {'; '.join(issues)}")
             continue
-        season_num = ep_season.get(ep_num, 1)
+        season_num = ep_season.get(staging_num, 1)
         if season_num not in seasons_by_num:
-            print(f"  WARN  ep {ep_num}: season {season_num} not in series JSON, defaulting to 1")
+            print(f"  WARN  ep {staging_num}: season {season_num} not in series JSON, defaulting to 1")
             season_num = 1
         if season_num not in seasons_by_num:
-            print(f"  SKIP  ep {ep_num}: no matching season {season_num}")
+            print(f"  SKIP  ep {staging_num}: no matching season {season_num}")
             continue
+        # Decode episode-within-season from compound staging number (S02E03 -> 203 -> ep 3)
+        ep_for_json = staging_num % 100 if staging_num > 100 else staging_num
         existing_eps = {e["number"] for e in (seasons_by_num[season_num].get("episode_reviews") or [])}
-        if ep_num in existing_eps and not force:
-            print(f"  SKIP  ep {ep_num} (already in S{season_num} - use --force to overwrite)")
+        if ep_for_json in existing_eps and not force:
+            print(f"  SKIP  ep {staging_num} (already in S{season_num} - use --force to overwrite)")
             continue
         cleaned = clean_for_publish(entry)
-        plan.append((season_num, ep_num, cleaned))
-        print(f"  PLAN  S{season_num}E{ep_num} -> seasons[{season_num}].episode_reviews")
+        cleaned["number"] = ep_for_json  # use episode-within-season, not compound staging number
+        plan.append((season_num, staging_num, ep_for_json, cleaned))
+        print(f"  PLAN  S{season_num}E{ep_for_json} -> seasons[{season_num}].episode_reviews")
 
     if not plan:
         print(f"[{slug}] nothing to merge after gates")
@@ -187,10 +191,10 @@ def merge_series(slug: str, *, apply: bool, force: bool) -> int:
     # Apply: build updated seasons, write, validate, rollback on failure
     original_text = series_path.read_text(encoding="utf-8")
     try:
-        for season_num, ep_num, cleaned in plan:
+        for season_num, staging_num, ep_for_json, cleaned in plan:
             s = seasons_by_num[season_num]
             reviews = list(s.get("episode_reviews") or [])
-            reviews = [e for e in reviews if e.get("number") != ep_num]  # remove old if force
+            reviews = [e for e in reviews if e.get("number") != ep_for_json]  # remove old if force
             reviews.append(cleaned)
             reviews.sort(key=lambda e: e.get("number", 0))
             s["episode_reviews"] = reviews
