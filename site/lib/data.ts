@@ -120,6 +120,19 @@ const ottCalendarArchiveDir = path.resolve(process.cwd(), "..", "data", "ott", "
 
 export const TARGET_OTT_PLATFORMS = ["Netflix", "Prime Video", "JioHotstar", "ZEE5", "SonyLIV", "aha"] as const;
 
+export const FILM_POSTER_FALLBACK = "/img/films/_fallback.svg";
+
+// Films seeded before the poster harvester runs carry poster: null. ~20 components read
+// film.poster.src unguarded, so a null poster crashes static generation. Hand back a FULL
+// fallback poster object so every film always has a renderable poster.
+function resolveFilmPoster(film: Film): Film {
+  if (film.poster?.src) {
+    return film;
+  }
+  const title = typeof film.title === "object" && film.title !== null ? film.title.value : String(film.title ?? "");
+  return { ...film, poster: { src: FILM_POSTER_FALLBACK, alt: `${title} poster`, attribution: "" } };
+}
+
 export function getAllFilms(): Film[] {
   if (!fs.existsSync(filmsDir)) {
     return [];
@@ -131,7 +144,7 @@ export function getAllFilms(): Film[] {
     .sort()
     .map((file) => {
       const full = path.join(filmsDir, file);
-      return JSON.parse(fs.readFileSync(full, "utf8")) as Film;
+      return resolveFilmPoster(JSON.parse(fs.readFileSync(full, "utf8")) as Film);
     })
     .sort((a, b) => filmRank(b) - filmRank(a) || b.date_modified.localeCompare(a.date_modified));
 }

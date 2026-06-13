@@ -130,7 +130,12 @@ function attachPosterVariants(series: Series): Series {
 // the original (we only degrade the pixels, not the credit line).
 function resolvePoster(series: Series): Series {
   const src = series.poster?.src;
-  if (!src || !src.startsWith("/")) return series;
+  // poster is null/missing (not yet harvested) - hand back a FULL fallback object so
+  // downstream consumers that read poster.src unguarded never hit a null.
+  if (!src) {
+    return { ...series, poster: { src: SERIES_POSTER_FALLBACK, alt: `${series.title.value} poster`, attribution: "" } };
+  }
+  if (!src.startsWith("/")) return series;
   const onDisk = path.join(publicDir, src.replace(/^\//, ""));
   if (fs.existsSync(onDisk)) return attachPosterVariants(series);
   return { ...series, poster: { ...series.poster, src: SERIES_POSTER_FALLBACK } };
