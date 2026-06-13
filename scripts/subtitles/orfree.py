@@ -78,10 +78,14 @@ def _log(rec: dict) -> None:
 
 
 def requests_today() -> int:
-    """Count requests since the last UTC midnight (matches OpenRouter's free-tier reset cycle).
+    """Count actual HTTP API requests since the last UTC midnight.
 
     Log timestamps are IST ISO strings. Entries written before 05:30 IST (= UTC midnight)
     belong to the previous UTC day and are excluded after the reset.
+
+    Only counts actual HTTP calls (ok=True or ok=False from _one_call). Excludes:
+    - winner events (no HTTP call, just a log of which lane won)
+    - g1_schema_fail re-logs (same HTTP call already counted once as ok=True)
     """
     if not LOG.exists():
         return 0
@@ -92,6 +96,10 @@ def requests_today() -> int:
     with LOG.open() as f:
         for line in f:
             try:
+                rec = json.loads(line)
+                # Skip phantom entries that don't correspond to new HTTP calls
+                if rec.get("event") == "winner" or rec.get("reason") == "g1_schema_fail":
+                    continue
                 ts_str = line.split('"ts":', 1)[1].split('"')[1]
                 ts = datetime.fromisoformat(ts_str)
                 if ts.astimezone(timezone.utc) >= utc_midnight:

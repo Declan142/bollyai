@@ -226,6 +226,11 @@ def judge_one(slug: str, ep_stem: str, dossier: dict, draft: dict) -> dict:
         return {"overall": 0, "verdict": "fail", "fix": f"judge error: {str(e)[:100]}"}
 
 
+def _save(reviews: list, out_p: "Path") -> None:
+    reviews.sort(key=lambda r: r.get("number", 0))
+    out_p.write_text(json.dumps(reviews, ensure_ascii=False, indent=1))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
@@ -234,22 +239,32 @@ def main() -> int:
     slug = args.slug
     ddir = ROOT / slug / "_dossiers"
     if not ddir.exists():
-        print(f"no dossiers for {slug}")
+        print(f"no dossiers for {slug}", flush=True)
         return 1
     out_dir = ROOT / slug / "_reviews"
     out_dir.mkdir(exist_ok=True)
     out_p = out_dir / "episodes.json"
-    existing = {e["number"]: e for e in json.loads(out_p.read_text())} if out_p.exists() and not args.force else {}
+
+    # Load existing - keep only episodes that already passed G3, retry everything else.
+    existing: dict[int, dict] = {}
+    if out_p.exists() and not args.force:
+        try:
+            for e in json.loads(out_p.read_text()):
+                if isinstance(e, dict) and e.get("_judge", {}).get("verdict") == "pass":
+                    existing[e["number"]] = e
+        except Exception:
+            pass
 
     ctx = series_context(slug)
-    reviews = []
+    # Seed in-memory list with already-passed reviews so incremental saves preserve them.
+    reviews: list[dict] = list(existing.values())
+    failures: list[str] = []
     dossiers = sorted(p for p in ddir.glob("*.json") if not p.stem.startswith("_"))
     for p in dossiers:
         d = json.loads(p.read_text())
         num = mmss_ep(p.stem)
-        if num in existing and existing[num].get("_judge", {}).get("verdict") == "pass":
-            reviews.append(existing[num])
-            print(f"keep  {p.stem} (already passed)")
+        if num in existing:
+            print(f" keep {p.stem} (already passed)", flush=True)
             continue
         try:
             draft = draft_one(slug, p.stem, d, ctx)
@@ -261,17 +276,22 @@ def main() -> int:
             draft["_judge"] = {k: judge.get(k) for k in ("overall", "verdict", "worst_sentence", "fix", "_judge_lane")}
             reviews.append(draft)
             v = judge.get("verdict"); o = judge.get("overall")
-            print(f"{'PASS' if v=='pass' else v.upper():>6} {p.stem}  G3={o}  lane={draft['_writer']['lane']}")
+            print(f"{'PASS' if v=='pass' else v.upper():>6} {p.stem}  G3={o}  lane={draft['_writer']['lane']}", flush=True)
         except orfree.QuotaExhausted:
-            print("QUOTA_HALT")
+            print("QUOTA_HALT", flush=True)
             (ROOT / "_engine" / "QUOTA_HALT").touch()
+            _save(reviews, out_p)
             break
         except Exception as e:
-            print(f"FAIL  {p.stem}: {str(e)[:150]}")
-    reviews.sort(key=lambda r: r.get("number", 0))
-    out_p.write_text(json.dumps(reviews, ensure_ascii=False, indent=1))
+            failures.append(p.stem)
+            print(f" SKIP {p.stem}: {str(e)[:120]}", flush=True)
+        finally:
+            # Incremental write: every episode survives even if the next one crashes.
+            _save(reviews, out_p)
+    _save(reviews, out_p)
     npass = sum(1 for r in reviews if r.get("_judge", {}).get("verdict") == "pass")
-    print(f"\n{slug}: {len(reviews)} drafted, {npass} passed G3 -> {out_p}")
+    suffix = f"  failures={failures}" if failures else ""
+    print(f"\n{slug}: {len(reviews)} written, {npass} passed G3{suffix} -> {out_p}", flush=True)
     return 0
 
 
