@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q123119123",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "amaran",
+  "canonical_industry": "kollywood",
+  "title": {
+    "value": "Amaran",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ta",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-10-31",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Rajkumar Periasamy biographical action war film stars Sivakarthikeyan as Major Mukund Varadarajan and Sai Pallavi as Indhu Rebecca Varghese. Reception coverage praises the performances, direction, screenplay, music, and emotional tribute framing.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 7.7,
+    "basis": "Wikipedia reception summaries, Rotten Tomatoes listing, and audience signals support a positive reception. The score reflects a strongly received biographical war drama driven by performance and emotion."
+  },
+  "ott": {
+    "platform": {
+      "value": "Netflix",
+      "source": "https://en.wikipedia.org/wiki/Amaran_(2024_film)",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2024-12-05",
+      "source": "https://en.wikipedia.org/wiki/Amaran_(2024_film)",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Amaran_(2024_film)",
+    "source_type": "trade"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q124457266",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "moana-2",
+  "canonical_industry": "hollywood",
+  "title": {
+    "value": "Moana 2",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-11-27",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Moana and Maui reunite for a wider ocean voyage after a call from Moana wayfinding ancestors. Reception is mixed, with critics often finding it entertaining but below the first film.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 6.4,
+    "basis": "Rotten Tomatoes and Metacritic show a mixed critical response despite very strong family-audience reach. The score reflects commercial scale without overstating the review consensus."
+  },
+  "ott": {
+    "platform": {
+      "value": "Disney+",
+      "source": "https://press.disneyplus.com/news/disney-plus-moana-2-streaming-march-12",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2025-03-12",
+      "source": "https://press.disneyplus.com/news/disney-plus-moana-2-streaming-march-12",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://press.disneyplus.com/news/disney-plus-moana-2-streaming-march-12",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

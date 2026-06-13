@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q29580929",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "avatar-fire-and-ash",
+  "canonical_industry": "hollywood",
+  "title": {
+    "value": "Avatar: Fire and Ash",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2025-12-19",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "released",
+  "logline": "James Cameron continues the Pandora saga with Jake Sully, Neytiri, the Sully family, and the Ash People. Reception sources praise spectacle while flagging narrative repetition and runtime.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 6.8,
+    "basis": "Rotten Tomatoes and Metacritic show mixed-to-positive reviews, with stronger marks for visual scale than story freshness. The score separates technical spectacle from narrative reservations."
+  },
+  "ott": {
+    "platform": {
+      "value": "Disney+",
+      "source": "https://movies.disney.com/avatar-fire-and-ash",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2026-06-24",
+      "source": "https://movies.disney.com/avatar-fire-and-ash",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://movies.disney.com/avatar-fire-and-ash",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

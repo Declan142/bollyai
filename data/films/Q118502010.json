@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q118502010",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "devara",
+  "canonical_industry": "tollywood",
+  "title": {
+    "value": "Devara: Part 1",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "te",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-09-27",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Koratala Siva action drama follows Devara, a coastal warrior opposing criminal activity, and his son Vara, whose apparent weakness hides a continuing mission. Critics are mixed-to-negative, even with Jr NTR star force and action scale.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 5.3,
+    "basis": "Rotten Tomatoes, Metacritic snippets, and The Hollywood Reporter coverage point to an ambitious but exhausting and uneven film. The score reflects scale without smoothing over the writing concerns."
+  },
+  "ott": {
+    "platform": {
+      "value": "Netflix",
+      "source": "https://www.netflix.com/title/81728598",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": null,
+      "source": "https://www.netflix.com/title/81728598",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "reported"
+    },
+    "source_url": "https://www.netflix.com/title/81728598",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

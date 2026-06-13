@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q126595889",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "maharaja",
+  "canonical_industry": "kollywood",
+  "title": {
+    "value": "Maharaja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ta",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-06-14",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Nithilan Saminathan thriller follows a Chennai barber who tells police that his Lakshmi has been stolen, launching an investigation with a hidden object and motive. Critics praise the structure, performances, editing, screenplay, and direction.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 8.2,
+    "basis": "Rotten Tomatoes, IMDb signals, and reception summaries point to strong acclaim. The score reflects a sharply received revenge thriller whose late revelations and construction became a major talking point."
+  },
+  "ott": {
+    "platform": {
+      "value": "Netflix",
+      "source": "https://www.netflix.com/title/81690671",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": null,
+      "source": "https://www.netflix.com/title/81690671",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "reported"
+    },
+    "source_url": "https://www.netflix.com/title/81690671",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

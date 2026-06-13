@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q109228991",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "dune-part-two",
+  "canonical_industry": "hollywood",
+  "title": {
+    "value": "Dune: Part Two",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-03-01",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Paul Atreides joins the Fremen on a path of revenge while trying to prevent a catastrophic future. Reviews are strongly positive, and awards coverage highlights major craft recognition.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 8.8,
+    "basis": "Rotten Tomatoes and Metacritic show high critical consensus, with strong audience scores and craft-awards recognition. The score reflects a sequel widely treated as a major science-fiction achievement."
+  },
+  "ott": {
+    "platform": {
+      "value": "HBO Max",
+      "source": "https://www.hbomax.com/movies/dune-part-two/f0a4f239-0b57-47e2-a39a-54fb96925e61",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2024-05-21",
+      "source": "https://www.hbomax.com/movies/dune-part-two/f0a4f239-0b57-47e2-a39a-54fb96925e61",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://www.hbomax.com/movies/dune-part-two/f0a4f239-0b57-47e2-a39a-54fb96925e61",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

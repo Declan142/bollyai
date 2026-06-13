@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q112430183",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "kalki-2898-ad",
+  "canonical_industry": "tollywood",
+  "title": {
+    "value": "Kalki 2898 AD",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "te",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-06-27",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Nag Ashwin sets a mythological science-fiction epic in dystopian Kashi, where Ashwatthama protects the pregnant SUM-80 in a story tied to Kalki. Reviews praise ambition and scale while noting pacing and franchise setup issues.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 7.3,
+    "basis": "Rotten Tomatoes, Metacritic, Variety, and The Hollywood Reporter support a broadly favorable but caveated reception. The score credits the mythic sci-fi breakthrough while accounting for overload."
+  },
+  "ott": {
+    "platform": {
+      "value": "Prime Video / Netflix",
+      "source": "https://en.wikipedia.org/wiki/Kalki_2898_AD",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": null,
+      "source": "https://en.wikipedia.org/wiki/Kalki_2898_AD",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "reported"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Kalki_2898_AD",
+    "source_type": "trade"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

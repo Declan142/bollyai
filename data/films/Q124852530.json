@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q124852530",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "war-2",
+  "canonical_industry": "bollywood",
+  "title": {
+    "value": "War 2",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2025-08-14",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Ayan Mukerji directs the sixth YRF Spy Universe film, with Hrithik Roshan returning as Kabir and Jr NTR entering as Vikram Chelapathi. Reception coverage is weak to mixed, and trade reports do not align tightly enough for a published total here.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 4.2,
+    "basis": "Rotten Tomatoes shows weak critic response and only middling audience response, while independent trade totals vary materially. The score reflects an underperforming spy sequel despite scale and star power."
+  },
+  "ott": {
+    "platform": {
+      "value": "Netflix",
+      "source": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/war-2-ott-release-hrithik-roshan-jr-ntr-film-to-stream-on-this-platform-from-october-9/articleshow/124402209.cms",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": null,
+      "source": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/war-2-ott-release-hrithik-roshan-jr-ntr-film-to-stream-on-this-platform-from-october-9/articleshow/124402209.cms",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "reported"
+    },
+    "source_url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/war-2-ott-release-hrithik-roshan-jr-ntr-film-to-stream-on-this-platform-from-october-9/articleshow/124402209.cms",
+    "source_type": "trade"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

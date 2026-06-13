@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q124636001",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "manjummel-boys",
+  "canonical_industry": "mollywood",
+  "title": {
+    "value": "Manjummel Boys",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ml",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-02-22",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Chidambaram survival thriller adapts the 2006 Guna Caves rescue incident, following friends from Manjummel after one falls into a cave pit in Kodaikanal. Reviews praise restraint, craft, emotional stakes, and rescue set pieces.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 8.3,
+    "basis": "Wikipedia reception summaries, Rotten Tomatoes, Indian Express, and New Indian Express coverage support a strong critical read. The score reflects a critic favorite that also became a historic Malayalam grosser."
+  },
+  "ott": {
+    "platform": {
+      "value": "Disney+ Hotstar",
+      "source": "https://www.deccanchronicle.com/entertainment/disney-hotstar-to-stream-manjummel-boys-from-may-5-891923",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2024-05-05",
+      "source": "https://www.deccanchronicle.com/entertainment/disney-hotstar-to-stream-manjummel-boys-from-may-5-891923",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://www.deccanchronicle.com/entertainment/disney-hotstar-to-stream-manjummel-boys-from-may-5-891923",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

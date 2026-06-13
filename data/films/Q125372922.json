@@ -1,0 +1,99 @@
+{
+  "qid": {
+    "value": "Q125372922",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "slug": "aavesham",
+  "canonical_industry": "mollywood",
+  "title": {
+    "value": "Aavesham",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "original_language": {
+    "value": "ml",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "release_date": {
+    "value": "2024-04-11",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ott",
+  "logline": "Jithu Madhavan action comedy follows three engineering students in Bengaluru who befriend gangster Ranga to retaliate against seniors. Reviews strongly favor Fahadh Faasil performance, comic energy, music, and mass-comedy tone.",
+  "budget": null,
+  "box_office": {
+    "day_rows": [
+      {
+        "date": "2026-06-13",
+        "day": 0,
+        "label": "figures not yet pair-verified",
+        "framing": "awaited",
+        "published": false,
+        "reason": "single_source_or_no_valid_independent_pair",
+        "as_of": "2026-06-13T00:00:00+05:30",
+        "net_inr_cr": {
+          "value": null,
+          "source": "pending independent pair",
+          "fetched_at": "2026-06-13T00:00:00+05:30",
+          "confidence": "unverified"
+        },
+        "sources": [
+          {
+            "name": "pending independent pair",
+            "url": "https://sacnilk.com/box-office-collections?tab=top-100",
+            "as_of": "2026-06-13"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "as_of": "2026-06-13",
+      "india_net_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      },
+      "worldwide_gross_inr_cr": {
+        "value": null,
+        "source": "pending independent pair",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "unverified"
+      }
+    }
+  },
+  "verdict": {
+    "ladder_rung": null,
+    "tracking": false
+  },
+  "bollymeter": {
+    "score": 7.9,
+    "basis": "Wikipedia, Indian Express, New Indian Express, and platform/audience signals support a positive crowd-pleaser read. The score reflects a performance-driven blockbuster with some tonal excess."
+  },
+  "ott": {
+    "platform": {
+      "value": "Prime Video",
+      "source": "https://www.indiatoday.in/movies/regional-cinema/story/fahadh-faasils-aavesham-to-stream-on-prime-video-from-may-9-2536077-2024-05-07",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "date": {
+      "value": "2024-05-09",
+      "source": "https://www.indiatoday.in/movies/regional-cinema/story/fahadh-faasils-aavesham-to-stream-on-prime-video-from-may-9-2536077-2024-05-07",
+      "fetched_at": "2026-06-13T00:00:00+05:30",
+      "confidence": "verified"
+    },
+    "source_url": "https://www.indiatoday.in/movies/regional-cinema/story/fahadh-faasils-aavesham-to-stream-on-prime-video-from-may-9-2536077-2024-05-07",
+    "source_type": "press"
+  },
+  "poster": null,
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}
