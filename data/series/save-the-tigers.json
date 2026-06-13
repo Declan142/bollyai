@@ -1,0 +1,107 @@
+{
+  "slug": "save-the-tigers",
+  "qid": {
+    "value": "Q124415879",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Save the Tigers",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "te",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Comedy", "Drama"],
+  "logline": "Three middle-aged husbands with stalled marriages and stalled dreams stumble into increasingly chaotic situations while desperately trying to hold their domestic lives together - and occasionally making everything worse.",
+  "poster": {
+    "src": "/img/series/save-the-tigers/poster.jpg",
+    "alt": "Save the Tigers series poster",
+    "attribution": "Poster © JioHotstar / UV Creations. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Save the Tigers has completed two seasons (2023 and 2024), with both well-received. No Season 3 has been announced as of 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Save_the_Tigers_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-04-27",
+        "source": "JioHotstar",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Critics averaged 3 to 3.5 stars out of 5; praised for ensemble chemistry and Telugu-middle-class comedy that felt specific and observed rather than generic."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Save the Tigers arrived April 27, 2023 and became one of the breakout Telugu originals on Disney+ Hotstar. The six-episode debut follows three frustrated middle-aged husbands navigating marital frustration, drunk-driving consequences, and a missing actress investigation - a premise that sounds busier than it plays. Critics averaged 3 to 3.5 stars, consistently praising the ensemble: Priyadarshi Pulikonda, Abhinav Gomatam, and Krishna Chaitanya build a genuine comic rapport that carries the show through its more laboured subplots. The show's distinctiveness lies in its specificity to a Telugu middle-class social register - the pressures, the humour, the vernacular - that most Indian comedy-dramas smooth out into a generic urban setting.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-04-27",
+          "bollymeter": 7.5,
+          "spoiler_free": "The pilot introduces the three leads and their particular brands of domestic frustration with charm and precision. The trio's dynamic is established quickly, and the show's core comic argument - that middle-aged men are essentially hapless in the face of their own unhappiness - is laid out with enough warmth to make the gallery sympathetic rather than pitiful.",
+          "the_moment": "The first scene of all three husbands together, which immediately establishes why this ensemble works.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-03-15",
+        "source": "JioHotstar",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 2 maintained the critical and audience appreciation of the debut, with reviewers noting the ensemble's continued chemistry and the expanded episode count allowing more breathing room for each storyline."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned March 15, 2024 with seven episodes and the same core cast navigating new complications. The expansion from six to seven episodes gave the writing more room to develop the domestic storylines that Season 1 had established. Critics maintained the same 3 to 3.5 star range, with most noting that the show's greatest strength remains its ensemble chemistry rather than any individual plot. Priyadarshi Pulikonda in particular earned praise for elevating material that could have been played for easy laughs. Season 2 consolidates rather than expands - comfortable, specific, and reliable.",
+      "season_over_season": "Season 2 adds an episode and deepens the domestic threads, but the core comic dynamic remains the show's engine - more of the same, for an audience that came for exactly that.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

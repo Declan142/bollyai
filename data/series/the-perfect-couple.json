@@ -1,0 +1,91 @@
+{
+  "slug": "the-perfect-couple",
+  "qid": {
+    "value": "Q117317112",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Perfect Couple",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Thriller", "Mystery", "Drama"],
+  "logline": "A picture-perfect Nantucket wedding unravels when a body is found on the beach - and the bride's arrival in the glamorous Winbury family turns into a murder investigation that implicates everyone.",
+  "poster": {
+    "src": "/img/series/the-perfect-couple/poster.jpg",
+    "alt": "The Perfect Couple series poster",
+    "attribution": "Poster © Netflix / Amblin Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "The Perfect Couple was released as a limited series in September 2024. Netflix had discussions about a second season as of early 2025, but no confirmed renewal order had been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Perfect_Couple_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-09-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Rotten Tomatoes 66% and Metacritic 67 reflect a divided critical response: Nicole Kidman's performance and the Nantucket production design are praised, but critics found the mystery derivative and the pacing uneven."
+      },
+      "critic": {
+        "positive_pct": 66,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The Perfect Couple arrived September 5, 2024 as a stylish but divisive whodunit. The six-episode Netflix limited series adapts Elin Hilderbrand's bestseller with Nicole Kidman anchoring a cast that includes Liev Schreiber, Eve Hewson, and Dakota Fanning. Critics at Rotten Tomatoes (66%) and Metacritic (67/100) found the Nantucket setting lush and the ensemble game, but struggled with plotting that felt familiar against better prestige mysteries. Kidman's turn as the patrician matriarch Greer Winbury - ice-cool, morally opaque - was consistently cited as the season's main draw. Audience reception outpaced critical response significantly, making it one of Netflix's more-watched limited series of fall 2024. A second season had entered discussion by early 2025.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-09-05",
+          "bollymeter": 6.5,
+          "spoiler_free": "The opener drops viewers directly into the Winbury world - wealth, social performance, and the controlled chaos of wedding weekend. Kidman commands every scene she inhabits, and the pilot's reveal at the beach is staged with enough ambiguity to sustain the whodunit through the run.",
+          "the_moment": "The body discovered at the beach while the wedding party sleeps - the image that opens the mystery and defines the season's visual language.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2024-09-05",
+          "bollymeter": 6.5,
+          "spoiler_free": "The finale delivers the resolution critics found competent but unsurprising. The final confrontation clarifies every thread the series left open, and the closing scenes carry an emotional weight that outperforms the mystery mechanics that got there.",
+          "the_moment": "The truth about who was at the beach and why - the reveal the series structures everything around.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

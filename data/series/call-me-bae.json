@@ -1,0 +1,88 @@
+{
+  "slug": "call-me-bae",
+  "qid": {
+    "value": "Q128797487",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Call Me Bae",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Comedy", "Drama"],
+  "logline": "Bella 'Bae' Chowdhary - Delhi socialite, everything-at-will - loses her luxe life overnight when her family cuts her off after scandal, and must rebuild herself in Mumbai while investigating corporate misconduct she never intended to touch.",
+  "poster": {
+    "src": "/img/series/call-me-bae/poster.jpg",
+    "alt": "Call Me Bae series poster",
+    "attribution": "Poster © Amazon MGM Studios / Dharmatic Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Prime Video renewed Call Me Bae for Season 2 following the first season's reception in September 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Call_Me_Bae"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-09-06",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Call Me Bae launched September 6, 2024 on Prime Video with Ananya Panday in the lead role of Bella, a pampered Delhi heiress who must navigate the real world after her family exiles her. Critical reception split along familiar lines: The Indian Express (2.5/5) praised the show's self-aware humour but found it uneven when it pivoted to social commentary, while Times of India (3.5/5) highlighted the production quality and Panday's energetic performance. The comedy-drama format - fish-out-of-water reinvention meets accidental journalism - keeps the series light, and the ensemble cast (including Vir Das and Gurfateh Pirzada) provides strong comedic support. The show functions best as a breezy, fashionable diversion: not demanding viewing, but enjoyable on its own terms.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-09-06",
+          "bollymeter": null,
+          "spoiler_free": "The pilot sets up Bae's fall from grace with energy and style. Panday commits to both the comedy and the character's dawning awareness that her skills-set - charm, confidence, aesthetic intelligence - may actually transfer to the world outside her social bubble. The Mumbai fish-out-of-water beats are familiar but well-executed.",
+          "the_moment": "Bae's first real-world job interview: the collision of maximum confidence and zero relevant experience.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2024-09-06",
+          "bollymeter": null,
+          "spoiler_free": "The finale resolves the investigative thread and Bae's personal transformation. The closing arc consolidates what the show has been arguing throughout: that Bae's apparent superficiality was never actually about lack of capability. The resolution is warm without being saccharine.",
+          "the_moment": "Bae's confrontation with the corporate wrongdoing she stumbled into - the moment the show's comedy and drama registers fully merge.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}

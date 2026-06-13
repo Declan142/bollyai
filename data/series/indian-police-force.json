@@ -1,0 +1,82 @@
+{
+  "slug": "indian-police-force",
+  "qid": {
+    "value": "Q111664412",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Indian Police Force",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "wikidata",
+    "fetched_at": "2026-06-13T00:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Action", "Crime", "Thriller"],
+  "logline": "DCP Kabir Malik races to stop a phantom terrorist behind a chain of bomb blasts across Delhi - an investigation that takes the team from the capital into the country's most dangerous networks.",
+  "poster": {
+    "src": "/img/series/indian-police-force/poster.jpg",
+    "alt": "Indian Police Force series poster",
+    "attribution": "Poster © Amazon MGM Studios / Rohit Shetty Picturez. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Indian Police Force completed its first and only season in January 2024. No renewal has been announced as of 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Indian_Police_Force_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-01-19",
+        "source": "Prime Video",
+        "fetched_at": "2026-06-13T00:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.2,
+        "basis": "Rotten Tomatoes 18% from 11 critics; consensus noted formulaic plotting and predictable storytelling despite high-production action set pieces typical of Rohit Shetty's theatrical style."
+      },
+      "critic": {
+        "positive_pct": 18,
+        "sample": 11,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Indian Police Force arrived January 19, 2024 as Rohit Shetty's first web series, extending his Mumbai cop cinematic universe to Prime Video. Critics were largely dismissive: Rotten Tomatoes recorded 18% from 11 reviewers, with the consensus converging on predictable plotting and an antagonist whose menace never fully landed on screen. Sidharth Malhotra's DCP Kabir Malik carries the show's procedural momentum, and Shilpa Shetty provides a capable counterpoint, but the writing prioritises spectacle over character. The seven-episode structure struggles to sustain the tension its theatrical Shetty siblings (Singham, Sooryavanshi) generate in two-hour doses. A functional genre exercise for committed fans of the cop-universe franchise; others may find it underwhelming.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-19",
+          "bollymeter": 4.5,
+          "spoiler_free": "The series opener establishes Kabir Malik's task force and the opening blast sequence. Rohit Shetty's signature production scale is present, but the pilot's pacing - built for theatrical momentum rather than streaming patience - leaves character establishment rushed and the threat somewhat abstract.",
+          "the_moment": "The opening bomb blast sequence that establishes the scale of the threat and signals this is the Shetty universe in streaming form.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T00:00:00+05:30"
+}
