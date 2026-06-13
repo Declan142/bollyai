@@ -1,0 +1,132 @@
+{
+  "slug": "the-madison",
+  "qid": {
+    "value": "Q131461120",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Madison",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Drama", "Family"],
+  "logline": "A New York family transplants to Montana's Madison River valley after a plane crash kills the patriarch and his brother, and what follows is a grief drama in landscape clothes - the river valley indifferent to whether the Clyburns can hold themselves together.",
+  "poster": {
+    "src": "/img/series/the-madison/poster.jpg",
+    "alt": "The Madison poster",
+    "attribution": "Poster © Paramount+ / MTV Entertainment Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed through Season 3; Season 3 confirmed April 2026. A standalone Sheridan-verse series - not a Yellowstone spinoff.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Madison_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 6,
+      "release_date": {
+        "value": "2026-03-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "63 percent Tomatometer from 51 critics and 57 out of 100 on Metacritic from 22 critics indicates mixed-to-average reception; Michelle Pfeiffer was the most consistent point of praise across outlets against a plot the Guardian called thuddingly simplistic."
+      },
+      "critic": {
+        "positive_pct": 63,
+        "sample": 51,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 71,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/the_madison"
+      },
+      "review_body": "The Madison debuted March 14, 2026 on Paramount+ with six episodes released in two batches across two weeks, introducing Michelle Pfeiffer and Kurt Russell as the Clyburn couple processing grief in Montana's Madison River valley after a plane crash. Critics scored it 63 percent on Rotten Tomatoes from 51 reviews and 57 out of 100 on Metacritic from 22 critics, the latter categorising reception as mixed or average. The Guardian's review cited thuddingly simplistic plotting while the Rotten Tomatoes consensus credited Pfeiffer as the season's principal reason to watch. The show drew 8 million global streaming views in its first 10 days, marking Taylor Sheridan's strongest series premiere performance - suggesting the audience base outpaces the critical reception significantly.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2026-03-14",
+          "bollymeter": null,
+          "spoiler_free": "The Clyburn family's relocation from New York City to Montana's Madison River valley is established through the specific weight of people who are not running toward something but away from a loss they cannot outrun.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Let the Land Hold Me",
+          "air_date": "2026-03-14",
+          "bollymeter": null,
+          "spoiler_free": "The episode's title frames Montana as a kind of external container for grief that internal resources cannot provide - the land as therapist, impervious and impartial.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Watch Her Fall",
+          "air_date": "2026-03-14",
+          "bollymeter": null,
+          "spoiler_free": "The women in the Clyburn family and the local community come into sharper focus as the episode suggests that what looks like collapse from outside sometimes constitutes its own kind of reckoning.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Tomorrow Is Goodbye",
+          "air_date": "2026-03-21",
+          "bollymeter": null,
+          "spoiler_free": "The second half of the season opens with the family at a crossroads - between the Montana commitment and the pull of the life they left, between the river valley's demands and the city's easier grief.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "No Name and a New Dream",
+          "air_date": "2026-03-21",
+          "bollymeter": null,
+          "spoiler_free": "The episode stages the dissolution of the old identity and the tentative construction of something new - a Sheridan-verse study in reinvention that asks whether Montana is a place or a story someone tells themselves.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "I Give Me Permission",
+          "air_date": "2026-03-21",
+          "bollymeter": null,
+          "spoiler_free": "The Season 1 finale arrives at self-authorisation as the grammar of survival: the Clyburns cannot wait for permission to continue, and the episode treats that recognition as the only resolution grief allows.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T12:00:00+05:30"
+}

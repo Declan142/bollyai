@@ -1,0 +1,213 @@
+{
+  "slug": "the-pitt",
+  "qid": {
+    "value": "Q131431817",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Pitt",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Max",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Drama", "Medical", "Thriller"],
+  "logline": "Emergency staff at Pittsburgh Trauma Medical Center fight through a single 15-hour shift per season in real time, where staffing shortages, underfunding, and cascading patient crises strip away every illusion about what American healthcare asks of the people inside it.",
+  "poster": {
+    "src": "/img/series/the-pitt/poster.jpg",
+    "alt": "The Pitt poster",
+    "attribution": "Poster © HBO / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed through Season 3 in January 2026, ahead of Season 2's January 8 premiere on Max.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Pitt_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": 15,
+      "release_date": {
+        "value": "2025-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "94 percent on Rotten Tomatoes from 149 critics and 86 percent audience approval - rare critical-audience alignment for a medical procedural, built on Noah Wyle's return to the ER genre and a real-time structure that converts healthcare dysfunction into unbroken dramatic pressure."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 149,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 86,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/the_pitt"
+      },
+      "review_body": "The Pitt launched January 9, 2025 on Max with a formal conceit borrowed from live television: 15 episodes mapping 15 hours of a single ER shift at Pittsburgh Trauma Medical Center, with no time-jump between scenes. Critics delivered 94 percent on Rotten Tomatoes across 149 reviews, clustering on the real-time architecture as the series' decisive structural advantage - it converts systemic healthcare dysfunction into moment-to-moment dramatic pressure without the relief of an ellipsis. Noah Wyle's Dr. Robby carries an ensemble with clear ER-genre pedigree, and creator R. Scott Gemmill's decade writing the original ER series surfaces in the procedural grain. The 86 percent audience Popcornmeter matched critical enthusiasm, making Season 1 one of the strongest debut alignments for a Max original in the medical drama category.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "7:00 A.M.",
+          "air_date": "2025-01-09",
+          "bollymeter": null,
+          "spoiler_free": "The morning shift begins at Pittsburgh Trauma Medical Center as Dr. Robby's team clocks in for what the real-time structure will reveal as anything but a routine day in emergency medicine.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "8:00 A.M.",
+          "air_date": "2025-01-09",
+          "bollymeter": null,
+          "spoiler_free": "The second hour of the shift escalates intake as competing cases force the ER team into the first real resource-allocation decisions of the day.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "9:00 A.M.",
+          "air_date": "2025-01-16",
+          "bollymeter": null,
+          "spoiler_free": "Midmorning pressures compound as the department's staffing limits become the shift's sharpest dramatic constraint, and the team's interpersonal tensions start bleeding into clinical decisions.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "10:00 A.M.",
+          "air_date": "2025-01-23",
+          "bollymeter": null,
+          "spoiler_free": "The shift reaches its first significant peak as overlapping crises test the team's clinical judgment and the real-time format refuses to let anyone look away from the consequences.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "11:00 A.M.",
+          "air_date": "2025-01-30",
+          "bollymeter": null,
+          "spoiler_free": "Late morning delivers the kind of case that reframes the day, forcing the staff's personal histories into professional focus in ways no shift schedule accounts for.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "12:00 P.M.",
+          "air_date": "2025-02-06",
+          "bollymeter": null,
+          "spoiler_free": "The midday hour converts the department's accumulated stress into its first genuine leadership crisis, with the team's command structure showing visible strain under real-time pressure.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "1:00 P.M.",
+          "air_date": "2025-02-13",
+          "bollymeter": null,
+          "spoiler_free": "The early afternoon brings no relief as the real-time conceit makes each new patient feel like another weight added to a structure already at its load limit.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "2:00 P.M.",
+          "air_date": "2025-02-20",
+          "bollymeter": null,
+          "spoiler_free": "A pivotal afternoon hour where individual backstories intersect with the shift's mounting emergency load in ways the real-time format makes viscerally immediate and impossible to defer.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "3:00 P.M.",
+          "air_date": "2025-02-27",
+          "bollymeter": null,
+          "spoiler_free": "The shift's middle hours begin converting into something harder as each new hour narrows the margin for the team's composure and the department's remaining capacity.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "4:00 P.M.",
+          "air_date": "2025-03-06",
+          "bollymeter": null,
+          "spoiler_free": "Late afternoon tightens the screws as the cumulative toll of the shift reshapes the team dynamic in ways that will carry weight into the final hours.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "5:00 P.M.",
+          "air_date": "2025-03-13",
+          "bollymeter": null,
+          "spoiler_free": "The day shift enters its final stretch, with the department's most strained decisions now carrying the accumulated weight of everything that preceded them.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "6:00 P.M.",
+          "air_date": "2025-03-20",
+          "bollymeter": null,
+          "spoiler_free": "The penultimate block of hours arrives as the show's real-time architecture pays off its most demanding structural bet: every prior decision now has consequence that cannot be walked back.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "7:00 P.M.",
+          "air_date": "2025-03-27",
+          "bollymeter": null,
+          "spoiler_free": "Twelve hours in, the team's reserves are spent and the ER's systemic failures are no longer background noise but the foreground of every scene and every choice.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "8:00 P.M.",
+          "air_date": "2025-04-03",
+          "bollymeter": null,
+          "spoiler_free": "The penultimate episode drives the shift toward its crisis point as the real-time model strips away every narrative escape valve and forces the ensemble into its most exposed positions.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 15,
+          "title": "9:00 P.M.",
+          "air_date": "2025-04-10",
+          "bollymeter": null,
+          "spoiler_free": "The season finale closes the 15-hour shift as the real-time experiment reaches its endpoint - not a resolution so much as a shift change, exhausted and honest about what emergency medicine costs the people who show up for it.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T12:00:00+05:30"
+}

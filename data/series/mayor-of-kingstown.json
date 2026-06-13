@@ -1,0 +1,528 @@
+{
+  "slug": "mayor-of-kingstown",
+  "qid": {
+    "value": "Q108392632",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mayor of Kingstown",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Drama", "Crime", "Thriller"],
+  "logline": "In Kingstown, Michigan - a fictional city whose economy is the prison industry - the McLusky family operates as informal power brokers between gangs, prisoners, corrections officers, and law enforcement, trading in influence where the law refuses to reach.",
+  "poster": {
+    "src": "/img/series/mayor-of-kingstown/poster.jpg",
+    "alt": "Mayor of Kingstown poster",
+    "attribution": "Poster © Paramount+ / MTV Entertainment Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "final-season",
+    "note": "Renewed for Season 5 on January 5, 2026 as the confirmed final season; production began March 13, 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mayor_of_Kingstown"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-11-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "31 percent Tomatometer reflects critics finding the show's grim prison-economy world-building schematic and its moral nihilism underdeveloped, while 84 percent audience approval tracked strong viewer engagement with the Jeremy Renner-led ensemble and the Kingstown setting's raw premise."
+      },
+      "critic": {
+        "positive_pct": 31,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 84,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/mayor_of_kingstown"
+      },
+      "review_body": "Mayor of Kingstown launched November 14, 2021 on Paramount+ with Taylor Sheridan and Hugh Dillon's concept of Kingstown, Michigan - a company town where the company is incarceration. Jeremy Renner leads the McLusky family as informal mediators between the prison complex and the surrounding community. Critics were harsh at 31 percent on Rotten Tomatoes, citing a world-building approach that privileged grim atmosphere over character depth and a moral framework too nihilistic to generate dramatic traction. The 84 percent audience Popcornmeter marked one of the largest critic-audience gaps in the Sheridan catalogue, with viewers responding to Renner's physical authority and the show's willingness to portray institutional violence without sanitising it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Mayor of Kingstown",
+          "air_date": "2021-11-14",
+          "bollymeter": null,
+          "spoiler_free": "The pilot establishes Kingstown as a city whose geography is organised around prisons and whose social logic runs on the informal authority of people like the McLuskys - mediators who hold the system together precisely because the system cannot acknowledge them.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "The End Begins",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The second episode complicates the McLusky family's position as the equilibrium of Season 1's opening is disrupted faster than any of them anticipated.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Simply Murder",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "Kingstown's baseline violence is foregrounded as the episode strips the institutional language from what the prison economy requires and names it with the directness its title promises.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "The Price",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The McLusky brokerage requires payment in kinds the family is discovering it cannot always afford, and this episode makes the accounting explicit.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Orion",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A constellation named for a hunter structures an episode about what it means to pursue something through Kingstown's social terrain when both predator and prey are also prey.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Every Feather",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The episode catalogues collateral damage with the attention that its title's every feather implies - nothing in Kingstown falls cleanly and nothing is lost without being tracked by someone.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Along Came a Spider",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A new threat vector threads itself into the McLusky network as the spiderweb of Kingstown's alliances becomes impossible to navigate without compromising something.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Devil Is Us",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The season's most theologically pointed episode makes the McLusky family's complicity in Kingstown's violence the explicit subject rather than the implicit context.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "The Lie of the Truth",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The penultimate episode asks what honesty looks like inside a system whose operation depends on everyone pretending the lie is the truth - a question the McLuskys are uniquely positioned to answer.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "This Piece of My Soul",
+          "air_date": "2022-01-09",
+          "bollymeter": null,
+          "spoiler_free": "The Season 1 finale extracts the price the McLusky brokerage has been accumulating across ten episodes, landing on a conclusion that makes Season 2's inevitability feel less like renewal than obligation.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-01-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "50 percent Tomatometer marks incremental critical improvement from Season 1's 31 percent, with reviewers beginning to credit the show's procedural texture even while finding its dramatic ambitions still underdeveloped."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 84,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/mayor_of_kingstown"
+      },
+      "review_body": "Season 2 arrived January 15, 2023 with the critic-audience gap still wide - 50 percent Tomatometer against an audience that remained committed at 84 percent Popcornmeter. The season extended the Kingstown conflict across a longer political canvas, bringing the McLusky network under new pressure from both the prison hierarchy and the street-level criminal economy. Critics moved incrementally toward the show, acknowledging its procedural commitment while maintaining reservations about the depth of its character work. The Renner ensemble held, and the show's willingness to present incarceration as industrial infrastructure rather than individual moral failure remained its most distinctive formal argument.",
+      "season_over_season": "Builds on Season 1's world-establishment with expanded political scope; critics moved from 31 to 50 percent while the audience held steady, suggesting a show consolidating rather than growing its position.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Never Missed a Pigeon",
+          "air_date": "2023-01-15",
+          "bollymeter": null,
+          "spoiler_free": "Season 2 opens with the McLusky family's informal authority under renewed strain as the pigeon-spotter metaphor frames the episode's attention to what goes unnoticed until it matters.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Staring at the Devil",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The season's moral framework sharpens as the characters are positioned in direct confrontation with the systems they have long negotiated around rather than against.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Five at Five",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A compressed operational timeframe puts the McLusky network's reflexes under pressure in an episode that treats Kingstown's logistics like a clock that is always running against someone.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "The Pool",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "Kingstown's power is shown to operate like pooled water - it collects in low places, and the people who control the drainage control everything else.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Kill Box",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "Military tactical vocabulary enters the Kingstown grammar as the episode maps the zone into which the McLuskys have manoeuvred themselves - a position with no clean exit.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Left with the Nose",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A boxing-culture reference structures an episode about what it means to absorb damage in Kingstown without going down - and whether that resilience is strength or simply the absence of better options.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Drones",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "Surveillance technology enters the Kingstown world as an episode about who watches whom - and the specific power asymmetry that comes with watching from above.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Santa Jesus",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The episode juxtaposes seasonal generosity with the Kingstown economy's zero-sum logic in one of the season's more tonally pointed hours.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Peace in the Valley",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The penultimate episode offers the valley peace as a goal the McLusky network is positioned to broker - and uses the season to show exactly how expensive that peace is to maintain.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Little Green Ant",
+          "air_date": "2023-03-19",
+          "bollymeter": null,
+          "spoiler_free": "The Season 2 finale uses the ant's combination of structural invisibility and load-bearing importance to frame how the McLusky family is perceived by Kingstown's official institutions - essential and expendable simultaneously.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-06-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "78 percent Tomatometer marks the show's critical turning point - reviewers credited deepened character work, tighter plotting, and a clearer sense of what the Kingstown setting means as a system rather than a backdrop."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 84,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/mayor_of_kingstown"
+      },
+      "review_body": "Season 3 premiered June 2, 2024 and represented the show's clearest critical rehabilitation, reaching 78 percent on Rotten Tomatoes - a 28-point gain from Season 2. Reviewers credited tighter plotting, more deliberate character development, and the show's growing sophistication in using Kingstown's prison economy as a genuine structural argument rather than atmospheric dressing. The McLusky family's position as institutional intermediaries finally found the dramatic weight critics had withheld through two seasons of setup. The audience Popcornmeter remained at 84 percent as the critic-audience gap narrowed considerably.",
+      "season_over_season": "The show's critical turning point - from 50 to 78 percent Tomatometer as reviewers credited the Kingstown world-building converting from atmosphere into argument.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Soldier's Heart",
+          "air_date": "2024-06-02",
+          "bollymeter": null,
+          "spoiler_free": "Season 3 opens with the McLusky network carrying its accumulated trauma into a new set of institutional pressures - the soldier's heart of the title not a medal but a diagnosis.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Guts",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The second episode strips the season's moral framework to its most direct register as the Kingstown economy demands the particular courage that has nothing to do with bravery.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Barbarians at the Gate",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "External threats to the Kingstown equilibrium that the McLusky network has maintained push through the boundary in an episode that frames institutional stability as permanently provisional.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Rag Doll",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A character is positioned as the system's plaything in an episode that uses the rag doll image to examine what happens when Kingstown's informal power decides someone is expendable.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Iris",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "Named for the eye's aperture as much as for any character, the episode focuses Kingstown's institutional gaze on something that has previously been peripheral and cannot remain so.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Ecotone",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The ecological term for a transition zone between ecosystems frames an episode set at the threshold between Kingstown's competing power structures - where the rules of each system apply partially and unpredictably.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Marya Was Here",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A presence that has shaped the McLusky orbit is examined through what it left behind - the episode doing the work of marking what Kingstown's violence erases from the official record.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Captain of the Shit Out of Luck",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The season's bluntest episode title delivers the most compressed articulation of the McLusky position: authority without institutional backing, responsibility without institutional protection.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Home on the Range",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The penultimate episode ironises the pioneer song's promise of boundless freedom against the Kingstown reality of constraint so total it has become the only landscape anyone in the show knows.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Comeuppance",
+          "air_date": "2024-08-04",
+          "bollymeter": null,
+          "spoiler_free": "The Season 3 finale delivers consequence in the specific Kingstown mode: not justice - the show has been clear that Kingstown does not produce justice - but the slightly different thing that the prison economy substitutes for it.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2025,
+      "episodes": 10,
+      "release_date": {
+        "value": "2025-10-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 84,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/mayor_of_kingstown"
+      },
+      "review_body": "Season 4 premiered October 26, 2025 and ran through December 28. Rotten Tomatoes logged a 100 percent Tomatometer though the per-season sample size is unknown from an overall series corpus of 48 reviews across four seasons, making the figure reflect a small critical cohort rather than a broad consensus. The season continued the show's trajectory established in Season 3 as it positions the McLusky network ahead of the confirmed final Season 5. BollyAI defers a scored bollymeter for Season 4 pending a clearer sample-size confirmation.",
+      "season_over_season": "Continues Season 3's critical rehabilitation; the 100 percent Tomatometer carries the caveat of an unverified per-season sample within a 48-review total series corpus.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Coming 'Round the Mountain",
+          "air_date": "2025-10-26",
+          "bollymeter": null,
+          "spoiler_free": "Season 4 opens with the sense that something long approaching has finally arrived - the mountain metaphor less a geography than a deadline the McLusky world has been circling.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Promises to Keep",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The obligations the McLusky family has accumulated across four seasons are itemised in an episode that asks which of them are still serviceable and which are already broken.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "People Who Died",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The season acknowledges its accumulated mortality as an episode that functions less as a flashback than as a ledger - Kingstown keeps count even when its inhabitants would prefer to forget.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Sins of Omission",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The theological category of sins committed by not acting frames an episode about what the McLusky network has permitted by its silence and what consequences are now arriving from that permission.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Damned",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The monosyllable lands with the finality the show has been building toward since Season 1 - an episode that places the damnation category on the table without the courtesy of a question mark.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "#081693",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A prisoner number as episode title reduces a human being to their institutional identifier in an episode that uses that reduction as its primary argument about what the Kingstown economy does to individuals.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "My Way",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The Sinatra reference frames a season that has been about whether the McLuskys get to make choices on their own terms or whether Kingstown makes those choices for them.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Belleville",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "A location name that translates to beautiful city lands with its irony fully intact as the episode maps what Kingstown's beautiful city looks like from inside its least visible institutions.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Teeth and Tissue",
+          "air_date": null,
+          "bollymeter": null,
+          "spoiler_free": "The forensic language of the penultimate episode - what violence leaves behind - positions the season finale as a reckoning with what four seasons of Kingstown brutality has cost in material rather than moral terms.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Belly of the Beast",
+          "air_date": "2025-12-28",
+          "bollymeter": null,
+          "spoiler_free": "The Season 4 finale places the McLusky network at the most dangerous interior position in Kingstown's institutional geography - not outside the beast but inside it, and the question the episode asks is whether that is still a place from which you can act.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T12:00:00+05:30"
+}

@@ -1,0 +1,253 @@
+{
+  "slug": "lioness",
+  "qid": {
+    "value": "Q116199566",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Special Ops: Lioness",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-13T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Thriller", "Spy", "Drama", "Action"],
+  "logline": "CIA case officer Joe McNamara runs the Lioness program, embedding female operatives into terrorist targets' inner circles - a strategy that demands Cruz Manuelos become someone else entirely while the institution around her decides how much of her it is willing to spend.",
+  "poster": {
+    "src": "/img/series/lioness/poster.jpg",
+    "alt": "Special Ops: Lioness poster",
+    "attribution": "Poster © Paramount+ / MTV Entertainment Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for Season 3 on October 1, 2025; Season 3 premieres August 2, 2026 on Paramount+.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Lioness_(American_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-07-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "54 percent Tomatometer reflects critic ambivalence about Sheridan's masculine-stoicism framework applied to the spy genre, while 74 percent audience approval tracks a viewer base that responded to Saldana's physicality and the show's action craft."
+      },
+      "critic": {
+        "positive_pct": 54,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 74,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/special_ops_lioness"
+      },
+      "review_body": "Lioness launched July 23, 2023 on Paramount+ with Zoe Saldana as CIA case officer Joe McNamara, leading an undercover program that plants Cruz Manuelos inside a terror target's social circle. Critics were divided at 54 percent on Rotten Tomatoes, with reservations clustering around the Sheridan template's familiar textures: stoic moral arithmetic, macho institutional friction, and a lead-female framing that some reviewers argued did not fully escape the masculine gaze of its creator's other work. Audiences were more engaged, with 74 percent approval tracking investment in Saldana's physical authority and the show's kinetic operational sequences. The pilot pair established Cruz's integration as the season's structural engine, building toward a finale that forced the moral cost of the program into the open.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Sacrificial Soldiers",
+          "air_date": "2023-07-23",
+          "bollymeter": null,
+          "spoiler_free": "The series opens by establishing the Lioness program's core logic: operatives are deployed into enemy proximity at extreme personal cost, and the institution's appetite for that cost is the show's real subject.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "The Beating",
+          "air_date": "2023-07-23",
+          "bollymeter": null,
+          "spoiler_free": "Cruz's integration into the target's world requires a physical and psychological gauntlet that the episode renders without softening - the violence of cover is treated as the program's factual currency.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Bruise Like a Fist",
+          "air_date": "2023-07-30",
+          "bollymeter": null,
+          "spoiler_free": "The third episode deepens the cost of Cruz's undercover posture as the metaphor of her title sharpens: the damage of this work is cumulative, not singular.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "The Choice of Failure",
+          "air_date": "2023-08-06",
+          "bollymeter": null,
+          "spoiler_free": "Joe McNamara is forced to weigh operational success against human expenditure in an episode that makes the CIA's institutional logic the episode's actual antagonist.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Truth Is the Shrewdest Lie",
+          "air_date": "2023-08-13",
+          "bollymeter": null,
+          "spoiler_free": "Cruz's cover story and her actual identity begin colliding in ways the Lioness program's planners did not anticipate, and the episode uses the gap between them as its dramatic engine.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "The Lie Is the Truth",
+          "air_date": "2023-08-20",
+          "bollymeter": null,
+          "spoiler_free": "The series inverts its own title episode premise as the constructed persona Cruz has inhabited begins functioning more honestly than anything the institution surrounding her offers.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Wish the Fight Away",
+          "air_date": "2023-08-27",
+          "bollymeter": null,
+          "spoiler_free": "The penultimate episode positions Cruz and Joe at cross-purposes on what the mission's completion actually requires, with the institutional and the personal pulling in opposite directions.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Gone Is the Illusion of Order",
+          "air_date": "2023-09-03",
+          "bollymeter": null,
+          "spoiler_free": "The Season 1 finale strips the program's operational framework down to its ethical residue, landing on a conclusion that refuses comfort while setting up the show's second-season ambitions.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-10-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-13T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "90 percent Tomatometer marks a sharp critical turnaround from Season 1's 54 percent, with reviewers citing expanded scope, Nicole Kidman's CIA political layer, and the show finding a register for Sheridan's spy framework that Season 1 only gestured at."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 74,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/special_ops_lioness"
+      },
+      "review_body": "Season 2 premiered October 27, 2024 on Paramount+ and reversed the critical trajectory dramatically: 90 percent on Rotten Tomatoes reflected reviewers recognising that the Lioness framework had found its proper register. The season's expanded scope - deeper CIA political machinery, a more geographically ambitious mission, and Nicole Kidman's Kaitlyn Meade elevated to a co-equal narrative thread - addressed the primary critique of Season 1's narrower male-centric framing. Multiple outlets identified Kidman's DC layer as the season's most distinctive contribution to the Sheridan canon. The show's 8.3 million domestic household audience for Season 2 confirmed the commercial basis for the already-confirmed Season 3 renewal.",
+      "season_over_season": "Swaps Season 1's rough-edged infiltration-only focus for a wider political canvas; the critical turnaround from 54 to 90 percent Tomatometer is among the sharpest single-season recoveries in Sheridan's television output.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Beware the Old Soldier",
+          "air_date": "2024-10-27",
+          "bollymeter": null,
+          "spoiler_free": "Season 2 opens by reorienting the Lioness program's mission parameters, with the title's warning about veteran institutional power setting the tone for a season more interested in who runs the war than who fights it.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "I Love My Country",
+          "air_date": "2024-10-27",
+          "bollymeter": null,
+          "spoiler_free": "The second episode interrogates the phrase of its title against the operational reality the Lioness team inhabits, with Joe and Cruz's definitions of patriotism under renewed pressure.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Along Came a Spider",
+          "air_date": "2024-11-03",
+          "bollymeter": null,
+          "spoiler_free": "A new threat vector emerges as the season's web of institutional actors and field operatives begins tightening around a target with more connections than the program anticipated.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Five Hundred Children",
+          "air_date": "2024-11-10",
+          "bollymeter": null,
+          "spoiler_free": "The episode's title signals the scale of what is at stake as the mission's moral weight becomes impossible to contain within the program's operational language.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Shatter the Moon",
+          "air_date": "2024-11-17",
+          "bollymeter": null,
+          "spoiler_free": "The season reaches its ideological midpoint as the ambition of what the Lioness program is attempting collides with the institutional limits of what the CIA will sanction.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "2381",
+          "air_date": "2024-11-24",
+          "bollymeter": null,
+          "spoiler_free": "A numerically titled episode that operates as the season's most elliptical hour, withholding context to build dread around a specific number that carries operational and human significance.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "The Devil Has Aces",
+          "air_date": "2024-12-01",
+          "bollymeter": null,
+          "spoiler_free": "The penultimate episode positions all the season's institutional and operational actors against each other as the Devil's-hand metaphor makes the likelihood of a clean resolution clear: there is no clean resolution.",
+          "the_moment": null,
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Compass Points Home",
+          "air_date": "2024-12-08",
+          "bollymeter": null,
+          "spoiler_free": "The Season 2 finale resolves the mission through a lens of moral exhaustion rather than triumph, with the compass-home framing asking what home means for operatives whose cover has been their most honest self.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T12:00:00+05:30"
+}
