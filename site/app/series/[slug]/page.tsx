@@ -3,6 +3,7 @@ import { DateModified } from "../../../components/DateModified";
 import { DeskTint } from "../../../components/DeskTint";
 import { JsonLd } from "../../../components/JsonLd";
 import { SeasonVerdict } from "../../../components/SeasonVerdict";
+import { RelatedSeries } from "../../../components/RelatedSeries";
 import { AnswerBlock } from "../../../components/AnswerBlock";
 import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
@@ -122,6 +123,8 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
             ))}
           </dl>
         </section>
+
+        <RelatedSeries slug={series.slug} />
       </section>
     </DeskTint>
   );

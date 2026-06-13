@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""build_review — rich episode review via gpt-5.5.
+"""build_review - rich episode review via the multi-endpoint model router.
 
-Reads the dossier + REVIEW-HOUSE-STYLE.md, calls gpt-5.5 for a draft,
-then a tighten/edit pass, then extracts verdict JSON.
+Reads the dossier + REVIEW-HOUSE-STYLE.md, drafts the review, runs a tighten/edit
+polish pass (the polish pass re-sends the upgraded house-style contract = the quality
+mechanism), then extracts verdict JSON. Draft and polish can target different endpoints
+(FULL/NANO/MINI/KIMI/DSV4) via env; default = gpt-5-4 on both, fully backward-compatible.
 Merges the result back into data/series/<slug>.json.
 
 Usage:
@@ -26,18 +28,81 @@ import urllib.error
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 HOUSE_STYLE = os.path.join(os.path.dirname(__file__), 'REVIEW-HOUSE-STYLE.md')
 
-# Model routing (bake-off 2026-06-13: gpt-5.4-Azure won on analysis density + in-target
-# length + ZERO marginal cost on sponsored credits; frees the ChatGPT weekly pool).
-# Override with BOLLYAI_REVIEW_MODEL=gpt-5.5 to use the codex/gpt-5.5 sampler.
-REVIEW_MODEL = os.environ.get('BOLLYAI_REVIEW_MODEL', 'gpt-5-4')
+# =============================================================================
+# MULTI-ENDPOINT MODEL ROUTING (BLITZ, 2026-06-13)
+# =============================================================================
+# The REVIEW-BLITZ runs many writer lanes IN PARALLEL across 5 endpoints with
+# SEPARATE rate limits, so no single 429 throttles the swarm:
+#
+#   key   | model id (canonical)          | endpoint family       | rate niche
+#   ------+-------------------------------+-----------------------+------------------
+#   FULL  | gpt-5-4                       | azure-cog (eastus2)   | cap-3, QUALITY finals
+#   NANO  | gpt-5.4-nano                  | azure-cog (eastus2)   | 250 RPM, bulk DRAFTS
+#   MINI  | gpt-5-4-mini                  | azure-cog (eastus2)   | cap-3, 2nd quality
+#   KIMI  | kimi-k2-6                     | azure-foundry (eastus2)| cap-3, THINKING, 3rd quality
+#   DSV4  | deepseek/deepseek-v4-pro      | openrouter            | OFF-Azure, diff corpus, 4th quality
+#
+# BACKWARD-COMPATIBLE: with NO env overrides this behaves EXACTLY as before -
+# REVIEW_MODEL defaults to gpt-5-4 and both draft + edit go to the azure-cog
+# eastus2 deployment with max_completion_tokens. work:5 and the buildout loop are
+# unaffected. New knobs (all optional):
+#   BOLLYAI_REVIEW_MODEL  - default model for both passes (alias OR canonical id)
+#   BOLLYAI_DRAFT_MODEL   - override the draft pass only (e.g. NANO for bulk)
+#   BOLLYAI_FINAL_MODEL   - override the edit/polish pass only (e.g. FULL or KIMI)
+# Aliases (FULL/NANO/MINI/KIMI/DSV4) and canonical ids both accepted everywhere.
+# Keys are read from env first, vault second; a key is NEVER printed or logged.
+
 AZ_ENDPOINT = "https://adity-mnuhhdt9-eastus2.cognitiveservices.azure.com"
 AZ_API_VER = "2024-12-01-preview"
+FOUNDRY_URL = "https://adity-mnuhhdt9-eastus2.services.ai.azure.com/models/chat/completions"
+FOUNDRY_API_VER = "2024-05-01-preview"
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+VAULT_DIR = os.path.expanduser("~/.claude/vault")
+
+# Friendly routing keys -> canonical model id.
+MODEL_ALIASES = {
+    'FULL': 'gpt-5-4',
+    'NANO': 'gpt-5.4-nano',
+    'MINI': 'gpt-5-4-mini',
+    'KIMI': 'kimi-k2-6',
+    'DSV4': 'deepseek/deepseek-v4-pro',
+}
+
+# Canonical model id -> which transport to use. Anything NOT listed (an arbitrary
+# Azure deployment string) falls through to azure-cog, preserving legacy behavior.
+MODEL_KIND = {
+    'gpt-5-4': 'azure-cog',
+    'gpt-5.4-nano': 'azure-cog',
+    'gpt-5-4-mini': 'azure-cog',
+    'kimi-k2-6': 'azure-foundry',
+    'deepseek/deepseek-v4-pro': 'openrouter',
+}
+
+# Thinking-prone models (Kimi, DeepSeek V4 Pro) leak chain-of-thought into the content
+# field unless told to emit prose only - we have seen DSV4 return "We are asked to tighten
+# a review..." plus a word-counting scratchpad as the body. This guard suppresses that.
+KIMI_THINK_GUARD = ("\n\nOutput ONLY the finished prose (the review text and the VERDICT_JSON "
+                    "line). Do NOT include reasoning, planning, notes, word-counts, self-edits, "
+                    "compliance checks, or any meta-commentary in the output.")
+PROSE_ONLY_GUARD = KIMI_THINK_GUARD  # shared by foundry (Kimi) + openrouter (DSV4)
+KIMI_MIN_TOKENS = 32000
+
+
+def resolve_model(name: str) -> str:
+    """Map a friendly alias (FULL/NANO/...) to its canonical model id; pass others through."""
+    return MODEL_ALIASES.get((name or '').strip().upper(), (name or '').strip())
+
+
 _AZ_KEY = None
 
 
 def _az_key() -> str:
+    """Azure account key: env AZURE_FOUNDRY_KEY first (lets a swarm skip 200 az subprocesses),
+    else the az CLI. Same account-level key works for cog + foundry deployments."""
     global _AZ_KEY
     if _AZ_KEY is None:
+        _AZ_KEY = os.environ.get('AZURE_FOUNDRY_KEY', '').strip()
+    if not _AZ_KEY:
         _AZ_KEY = subprocess.run(
             ["az", "cognitiveservices", "account", "keys", "list", "-g", "empire-ai",
              "-n", "adity-mnuhhdt9-eastus2", "--query", "key1", "-o", "tsv"],
@@ -45,40 +110,157 @@ def _az_key() -> str:
     return _AZ_KEY
 
 
-def _azure_chat(deployment: str, instruction: str, user: str, budget: int = 9000,
-                timeout: int = 600) -> tuple[str, int]:
-    """OpenAI-compatible Azure call. gpt-5.x = max_completion_tokens (reasoning, no temp).
-    Exponential backoff on 429 (the gpt-5-4 deployment is low-capacity; respect Retry-After)."""
-    url = f"{AZ_ENDPOINT}/openai/deployments/{deployment}/chat/completions?api-version={AZ_API_VER}"
-    body = {"messages": [{"role": "system", "content": instruction},
-                         {"role": "user", "content": user}],
-            "max_completion_tokens": budget}
-    data = json.dumps(body).encode()
-    for attempt in range(6):
-        req = urllib.request.Request(url, data=data,
-            headers={"Content-Type": "application/json", "api-key": _az_key()})
+_OR_KEY = None
+
+
+def _or_key() -> str:
+    """OpenRouter key: env OPENROUTER_API_KEY first, else parse ~/.claude/vault/openrouter.md.
+    Handles both '- **API Key:**' (bold) and '- API Key:' (plain) line conventions."""
+    global _OR_KEY
+    if _OR_KEY is None:
+        _OR_KEY = os.environ.get('OPENROUTER_API_KEY', '').strip()
+    if not _OR_KEY:
+        path = os.path.join(VAULT_DIR, 'openrouter.md')
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                d = json.loads(r.read())
-            return (d["choices"][0]["message"]["content"] or "").strip(), 0
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 5:
-                wait = int(e.headers.get('Retry-After', 0)) or min(60, 8 * (2 ** attempt))
-                print(f"  429 rate-limited, backoff {wait}s (attempt {attempt+1}/6)", flush=True)
-                time.sleep(wait); continue
-            print(f"  azure HTTP {e.code}: {e.read()[:160]!r}", file=sys.stderr); return "", 1
-        except Exception as e:
-            print(f"  azure call failed: {e!r}", file=sys.stderr); return "", 1
+            for line in open(path):
+                low = line.strip().lower()
+                if low.startswith('- **api key:**'):
+                    _OR_KEY = line.split('**API Key:**', 1)[1].strip().split()[0]; break
+                if low.startswith('- api key:'):
+                    _OR_KEY = line.split('API Key:', 1)[1].strip().split()[0]; break
+        except FileNotFoundError:
+            pass
+    if not _OR_KEY:
+        raise RuntimeError("no OpenRouter key (set OPENROUTER_API_KEY or vault/openrouter.md)")
+    return _OR_KEY
+
+
+def _http_json(url: str, headers: dict, body: dict, timeout: int) -> tuple[int, dict | None, str]:
+    """POST JSON, return (http_code, parsed_or_None, retry_after). code 0 = transport error."""
+    data = json.dumps(body).encode()
+    req = urllib.request.Request(url, data=data, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return 200, json.loads(r.read()), ''
+    except urllib.error.HTTPError as e:
+        return e.code, None, str(e.headers.get('Retry-After', '') or '')
+    except Exception as e:
+        print(f"  call failed: {e!r}", file=sys.stderr)
+        return 0, None, ''
+
+
+def _backoff_loop(call, label: str):
+    """Run call() with exponential backoff on 429. call() -> (code, parsed, retry_after, text).
+    Returns (text, rc). The low-capacity cap-3 deployments need this; respect Retry-After."""
+    for attempt in range(6):
+        code, parsed, retry_after, text = call()
+        if code == 200:
+            return text, 0
+        if code == 429 and attempt < 5:
+            wait = int(retry_after) if str(retry_after).isdigit() else min(60, 8 * (2 ** attempt))
+            print(f"  429 rate-limited [{label}], backoff {wait}s (attempt {attempt+1}/6)", flush=True)
+            time.sleep(wait); continue
+        print(f"  {label} HTTP {code}", file=sys.stderr)
+        return "", 1
     return "", 1
 
 
-def gpt_ask(instruction: str, stdin_text: str, timeout: int = 600) -> tuple[str, int]:
-    """Route to the chosen review model. Default gpt-5.4-Azure (sponsored, ~$0)."""
-    if REVIEW_MODEL == 'gpt-5.5':
+def _azure_chat(deployment: str, instruction: str, user: str, budget: int = 9000,
+                timeout: int = 600) -> tuple[str, int]:
+    """azure-cog transport: OpenAI-compatible, gpt-5.x = max_completion_tokens (no temp)."""
+    url = f"{AZ_ENDPOINT}/openai/deployments/{deployment}/chat/completions?api-version={AZ_API_VER}"
+
+    def _call():
+        code, parsed, ra = _http_json(
+            url, {"Content-Type": "application/json", "api-key": _az_key()},
+            {"messages": [{"role": "system", "content": instruction},
+                          {"role": "user", "content": user}],
+             "max_completion_tokens": budget}, timeout)
+        text = ((parsed["choices"][0]["message"]["content"] or "").strip()
+                if parsed else "")
+        return code, parsed, ra, text
+
+    return _backoff_loop(_call, f"azure-cog/{deployment}")
+
+
+def _foundry_chat(model: str, instruction: str, user: str, budget: int = 9000,
+                  timeout: int = 600) -> tuple[str, int]:
+    """azure-foundry transport (Kimi): thinking model, max_tokens >= 32K + prose-only guard.
+    Falls back to reasoning_content if the content field comes back empty."""
+    budget = max(budget, KIMI_MIN_TOKENS)
+    sys_prompt = instruction + KIMI_THINK_GUARD
+    url = f"{FOUNDRY_URL}?api-version={FOUNDRY_API_VER}"
+
+    def _call():
+        code, parsed, ra = _http_json(
+            url, {"Content-Type": "application/json", "api-key": _az_key()},
+            {"model": model,
+             "messages": [{"role": "system", "content": sys_prompt},
+                          {"role": "user", "content": user}],
+             "max_tokens": budget}, timeout)
+        text = ""
+        if parsed:
+            msg = parsed["choices"][0]["message"]
+            text = (msg.get("content") or "").strip()
+            if not text:  # thinking-ate-the-content fallback (vault: feedback_kimi_k26_...)
+                reasoning = msg.get("reasoning_content") or msg.get("reasoning") or ""
+                idx = reasoning.find("Full draft assembly:")
+                if idx >= 0:
+                    text = reasoning[idx + len("Full draft assembly:"):].split("---\n\nLet me")[0].strip()
+        return code, parsed, ra, text
+
+    return _backoff_loop(_call, f"foundry/{model}")
+
+
+def _openrouter_chat(model: str, instruction: str, user: str, budget: int = 9000,
+                     timeout: int = 600) -> tuple[str, int]:
+    """openrouter transport (DeepSeek V4 Pro): off-Azure, different corpus, 1M ctx.
+    DSV4 is thinking-prone, so we append the prose-only guard. We do NOT fall back to the
+    `reasoning` field on empty content - for a chat model that field is raw chain-of-thought,
+    and emitting it as the review is exactly the leak we are guarding against."""
+    url = OPENROUTER_URL
+    sys_prompt = instruction + PROSE_ONLY_GUARD
+
+    def _call():
+        code, parsed, ra = _http_json(
+            url, {"Authorization": f"Bearer {_or_key()}",
+                  "Content-Type": "application/json",
+                  "HTTP-Referer": "https://bollyai.in",
+                  "X-Title": "bollyai-review-blitz"},
+            {"model": model,
+             "messages": [{"role": "system", "content": sys_prompt},
+                          {"role": "user", "content": user}],
+             "max_tokens": budget, "stream": False}, timeout)
+        text = ""
+        if parsed:
+            text = (parsed["choices"][0]["message"].get("content") or "").strip()
+        return code, parsed, ra, text
+
+    return _backoff_loop(_call, f"openrouter/{model}")
+
+
+def gpt_ask(instruction: str, stdin_text: str, timeout: int = 600,
+            model: str | None = None, budget: int = 9000) -> tuple[str, int]:
+    """Route a single chat turn to the chosen model across any of the 5 endpoints.
+    `model` may be a friendly key (FULL/NANO/MINI/KIMI/DSV4) or a canonical id;
+    defaults to REVIEW_MODEL (today's gpt-5-4) -> fully backward-compatible."""
+    canon = resolve_model(model or REVIEW_MODEL)
+    if canon == 'gpt-5.5':  # codex/gpt-5.5 sampler (legacy escape hatch)
         p = subprocess.run(['gpt', 'ask', instruction], input=stdin_text,
                            capture_output=True, text=True, timeout=timeout)
         return p.stdout.strip(), p.returncode
-    return _azure_chat(REVIEW_MODEL, instruction, stdin_text, timeout=timeout)
+    kind = MODEL_KIND.get(canon, 'azure-cog')  # unknown id -> legacy azure-cog deployment
+    if kind == 'azure-foundry':
+        return _foundry_chat(canon, instruction, stdin_text, budget=budget, timeout=timeout)
+    if kind == 'openrouter':
+        return _openrouter_chat(canon, instruction, stdin_text, budget=budget, timeout=timeout)
+    return _azure_chat(canon, instruction, stdin_text, budget=budget, timeout=timeout)
+
+
+# Default model for both passes (alias or canonical). Per-pass overrides below.
+REVIEW_MODEL = resolve_model(os.environ.get('BOLLYAI_REVIEW_MODEL', 'gpt-5-4'))
+DRAFT_MODEL = resolve_model(os.environ.get('BOLLYAI_DRAFT_MODEL', REVIEW_MODEL))
+FINAL_MODEL = resolve_model(os.environ.get('BOLLYAI_FINAL_MODEL', REVIEW_MODEL))
 
 
 def strip_fences(text: str) -> str:
@@ -92,8 +274,15 @@ def em_dash_count(text: str) -> int:
 
 
 def strip_em_dashes(text: str) -> str:
-    text = text.replace('—', ' - ')
-    text = text.replace('–', ' - ')
+    # em / en / horizontal-bar = clause separators -> spaced hyphen
+    text = text.replace('—', ' - ')   # em dash
+    text = text.replace('–', ' - ')   # en dash
+    text = text.replace('―', ' - ')   # horizontal bar
+    # in-word dash look-alikes -> plain hyphen (never spaced: "Gi-hun", "debt-soaked")
+    text = text.replace('‐', '-')     # hyphen (unicode)
+    text = text.replace('‑', '-')     # non-breaking hyphen
+    text = text.replace('‒', '-')     # figure dash
+    text = text.replace(' ', ' ')     # non-breaking space -> normal space
     return text
 
 
@@ -111,6 +300,23 @@ def strip_timestamps(text: str) -> str:
 
 def timestamp_count(text: str) -> int:
     return len(re.findall(r'\b\d{1,2}:\d{2}\b', text))
+
+
+_REASONING_HEAD = re.compile(
+    r"\s*(we are asked|we need to|we must|we should|let me|let's|the (current )?draft|okay,|"
+    r"first,? (i|we|let)|i (will|need to|should|am going)|the user (wants|asks)|"
+    r"here('?s| is) (the|my) (tightened|edited|revised|final))", re.IGNORECASE)
+
+
+def looks_like_reasoning_leak(text: str) -> bool:
+    """Thinking models (DSV4, Kimi) sometimes dump chain-of-thought into the content field:
+    a reasoning preamble ('We are asked to tighten...') and/or a word-counting scratchpad
+    ('storyline(2) threads(3) directly(4)'). Detect both so we can fall back to a clean pass."""
+    if _REASONING_HEAD.match(text[:300] or ""):
+        return True
+    if re.search(r"\w\(\d+\)\s+\w+\(\d+\)", text):   # numbered-word counting scratchpad
+        return True
+    return False
 
 
 def build_draft_prompt(house_style: str, dossier: dict, slug: str) -> str:
@@ -246,21 +452,27 @@ def main():
         dossier['title'] = ep_review['title']
 
     # --- DRAFT ---
-    print(f"Drafting review for {slug} {ep_tag} via {REVIEW_MODEL}...")
+    print(f"Drafting review for {slug} {ep_tag} via {DRAFT_MODEL} (final: {FINAL_MODEL})...")
     draft_instr, dossier_text = build_draft_prompt(house_style, dossier, slug)
-    draft, rc = gpt_ask(draft_instr, dossier_text, timeout=600)
+    draft, rc = gpt_ask(draft_instr, dossier_text, timeout=600, model=DRAFT_MODEL)
     draft = strip_fences(draft)
-    if rc != 0 or len(draft.split()) < 400:
-        print(f"ERROR: draft failed (rc={rc}, words={len(draft.split())})", file=sys.stderr)
+    if rc != 0 or len(draft.split()) < 400 or looks_like_reasoning_leak(draft):
+        print(f"ERROR: draft failed (rc={rc}, words={len(draft.split())}, "
+              f"leak={looks_like_reasoning_leak(draft)})", file=sys.stderr)
         sys.exit(1)
     print(f"  Draft: {len(draft.split())} words | em-dash={em_dash_count(draft)}")
 
-    # --- EDIT PASS ---
-    print(f"Edit pass...")
-    edited, rc2 = gpt_ask(EDIT_INSTR, draft, timeout=480)
+    # --- EDIT PASS (the polish pass: where the upgraded house style does its work) ---
+    print(f"Edit pass via {FINAL_MODEL}...")
+    edited, rc2 = gpt_ask(EDIT_INSTR, draft, timeout=480, model=FINAL_MODEL)
     edited = strip_fences(edited)
-    if rc2 != 0 or len(edited.split()) < 400:
-        print(f"  WARNING: edit pass failed (rc={rc2}), using draft")
+    draft_wc = len(draft.split())
+    edit_wc = len(edited.split())
+    leak = looks_like_reasoning_leak(edited)
+    too_long = edit_wc > max(2200, int(draft_wc * 1.6))   # editor should TIGHTEN, not bloat
+    if rc2 != 0 or edit_wc < 400 or too_long or leak:
+        print(f"  WARNING: edit pass rejected (rc={rc2} words={edit_wc} draft={draft_wc} "
+              f"leak={leak} too_long={too_long}) - using clean draft")
         edited = draft
 
     # Strip em-dashes as final safety
@@ -285,7 +497,7 @@ def main():
     # Validate no em-dash
     remaining_em = em_dash_count(review_body)
     if remaining_em > 0:
-        print(f"  WARNING: {remaining_em} em/en-dashes remain after strip — stripping again")
+        print(f"  WARNING: {remaining_em} em/en-dashes remain after strip - stripping again")
         review_body = strip_em_dashes(review_body)
 
     # Hard timestamp strip (house-style bans them; models leak 'At 62:49,' type tokens)
@@ -301,7 +513,8 @@ def main():
     if verdict:
         ep_review['verdict'] = {
             'score': float(verdict['score']),
-            'one_liner': verdict['one_liner'],
+            # normalize the one_liner too (models leak em/en/nbsp-hyphen here, not just the body)
+            'one_liner': strip_em_dashes(verdict['one_liner']),
         }
         # Sync bollymeter with verdict score (per spec: per-episode bollymeter = BollyAI craft score)
         ep_review['bollymeter'] = float(verdict['score'])

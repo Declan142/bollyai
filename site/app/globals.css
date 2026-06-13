@@ -2947,3 +2947,25 @@ p {
     font-size: 1.25rem;
   }
 }
+
+/* --- Watch Next (inter-series link mesh) ----------------------------------- */
+/* Scoped, additive: composes the existing .poster-wall / .poster-card motif and
+   only refines the per-card reason line + motion a11y for THIS section. No change
+   to the shared primitive used by where-to-watch and other surfaces. */
+.watch-next .poster-card__money {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .watch-next .poster-card,
+  .watch-next .poster-card:hover {
+    transform: none;
+  }
+  .watch-next .poster-card {
+    transition: box-shadow .22s ease;
+  }
+}

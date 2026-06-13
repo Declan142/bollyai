@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "prebuild": "node scripts/sync-public.mjs && node scripts/generate-image-variants.mjs && node scripts/build-search-index.mjs && node scripts/build-sitemaps.mjs",
+    "prebuild": "node scripts/build-series-links.mjs && node scripts/sync-public.mjs && node scripts/generate-image-variants.mjs && node scripts/build-search-index.mjs && node scripts/build-sitemaps.mjs",
     "build": "next build && npm run lint:aggregate",
     "lint:aggregate": "node scripts/assert-no-aggregate-rating.mjs"
   },

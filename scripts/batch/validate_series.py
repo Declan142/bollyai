@@ -10,6 +10,9 @@ Runs every hard fence over a set of series JSON files BEFORE they are committed:
   * episode_reviews shape (number/title/bollymeter/spoiler_free)
   * NO em-dash / en-dash anywhere (engine/gates/emdash_strip parity)
   * NO first-person viewing claims in any prose field (engine viewing-claim gate)
+  * NO fabricated critic/audience attributions ("Critics noted", "widely praised", ...) in
+    spoiler_free / the_moment / review_body UNLESS the file has a real backing pull_quote
+    with a URL (engine attribution gate) - build-breaking, like the viewing-claim gate
   * poster attribution present with a takedown line
   * slug matches filename; date_modified present
 
@@ -31,6 +34,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT))
 from engine.gates.viewing_claim_regex import scan_text  # noqa: E402
+from engine.gates.attribution_regex import scan_text as scan_attribution  # noqa: E402
 
 SERIES_DIR = REPO_ROOT / "data" / "series"
 
@@ -75,6 +79,37 @@ def _check_viewing(text, where, errs):
     if text and scan_text(text):
         hits = "; ".join(f.match for f in scan_text(text)[:3])
         errs.append(f"viewing-claim in {where}: {hits}")
+
+
+def _quote_backed(pq) -> bool:
+    """A reception quote is real backing only if it has both text and a verifiable URL."""
+    return isinstance(pq, dict) and bool((pq.get("text") or "").strip()) and bool((pq.get("url") or "").strip())
+
+
+def _season_backing(s) -> bool:
+    """SEASON-scope reception evidence: a season-level critic pull_quote with a URL."""
+    crit = s.get("critic") or {}
+    return any(_quote_backed(pq) for pq in (crit.get("pull_quotes") or []))
+
+
+def _episode_backing(ep) -> bool:
+    """EPISODE-scope reception evidence: this episode's own critic_note or pull_quote with a URL.
+    A series/season-level review does NOT license a per-EPISODE attribution - inventing
+    'Critics noted that Episode 7...' on a show that only has overall reviews is exactly the
+    fabrication that contaminated ~14k episodes. Backing must match the claim's scope."""
+    return _quote_backed(ep.get("critic_note")) or _quote_backed(ep.get("pull_quote"))
+
+
+def _check_attribution(text, where, licensed, errs):
+    """BUILD-BREAKING: a critic/reviewer/audience attribution is invention unless a real
+    backing pull_quote with a URL exists AT THE CLAIM'S SCOPE (episode field -> episode quote;
+    season field -> season quote). Mirrors the viewing-claim gate's severity."""
+    if not text or licensed:
+        return
+    hits = scan_attribution(text)
+    if hits:
+        sample = "; ".join(f.match for f in hits[:3])
+        errs.append(f"FABRICATED-attribution in {where} (no backing pull_quote w/ url at this scope): {sample}")
 
 
 def validate_file(path: Path) -> list[str]:
@@ -157,8 +192,10 @@ def validate_file(path: Path) -> list[str]:
         rb = s.get("review_body") or ""
         if len(rb.strip()) < 60:
             errs.append(f"{tag}: review_body too thin ({len(rb.strip())} chars)")
+        season_licensed = _season_backing(s)
         for key in PROSE_KEYS_SEASON:
             _check_viewing(s.get(key), f"{tag}.{key}", errs)
+            _check_attribution(s.get(key), f"{tag}.{key}", season_licensed, errs)
 
         crit = s.get("critic") or {}
         for pq in (crit.get("pull_quotes") or []):
@@ -178,8 +215,10 @@ def validate_file(path: Path) -> list[str]:
                 errs.append(f"{etag}: episode bollymeter must be 0-10 or null")
             if not (ep.get("spoiler_free") or "").strip():
                 errs.append(f"{etag}: spoiler_free empty")
+            ep_licensed = _episode_backing(ep)
             for key in PROSE_KEYS_EPISODE:
                 _check_viewing(ep.get(key), f"{etag}.{key}", errs)
+                _check_attribution(ep.get(key), f"{etag}.{key}", ep_licensed, errs)
             cn = ep.get("critic_note")
             if cn and not (cn.get("text") and cn.get("source") and cn.get("url")):
                 errs.append(f"{etag}: critic_note missing text/source/url")

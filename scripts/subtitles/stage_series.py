@@ -75,6 +75,28 @@ SERIES_CFG: dict[str, dict] = {
                                "Travis", "Mo", "Carter", "Summer", "Garrett", "Caroline", "Sarah"],
                     "quote_lang": "en"},
     "from": {"roster": [], "quote_lang": "en"},  # roster hardcoded in subtitle_stats.py; already done
+    # blitz-top30 non-English / Indian-language additions
+    "physical-100": {"roster": [], "quote_lang": "en-sub"},  # Korean
+    "hellbound": {"roster": ["Jeong-jin", "Jin-su", "Hye-jin", "Min-hye", "Youngjae",
+                             "Dongwook", "Hyunjo", "Ui-myeong"],
+                  "quote_lang": "en-sub"},  # Korean
+    "sweet-home": {"roster": ["Cha-hyun", "Eun-yoo", "Sang-wook", "Yi-kyung", "Du-sik",
+                              "Seung-wan", "Soo-yeong", "Ji-su", "Pyeon-seok"],
+                   "quote_lang": "en-sub"},  # Korean
+    "delhi-crime": {"roster": ["Vartika", "Bhupendra", "Neeti", "Jairaj", "Subhash",
+                               "Chandrashekhar", "Santosh", "Vimla"],
+                    "quote_lang": "en-sub"},  # Hindi
+    "navarasa": {"roster": [], "quote_lang": "en-sub"},  # Tamil/multi-language anthology
+    "maharani": {"roster": ["Hema", "Navin", "Kavya", "Naveen", "Nandini", "Rohit",
+                            "Sarvesh", "Rani", "Sushil"],
+                 "quote_lang": "en-sub"},  # Hindi
+    "mismatched": {"roster": ["Dimple", "Rishi", "Celina", "Namrata", "Zara", "Harsh",
+                              "Anmol", "Rohini"],
+                   "quote_lang": "en-sub"},  # Hindi/English mix
+    "money-heist": {"roster": ["Professor", "Berlin", "Tokyo", "Moscow", "Denver", "Nairobi",
+                               "Rio", "Helsinki", "Oslo", "Arturo", "Alicia", "Raquel",
+                               "Palermo", "Bogota", "Manila", "Lisbon", "Sagasta"],
+                    "quote_lang": "en-sub"},  # Spanish
 }
 
 
