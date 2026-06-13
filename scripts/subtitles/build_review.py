@@ -133,7 +133,7 @@ def build_draft_prompt(house_style: str, dossier: dict, slug: str) -> str:
     key_lines = []
     for k in dossier.get('key_lines', []):
         sp = k.get('speaker') or 'Unknown'
-        key_lines.append(f"  [{k['t']}] {sp}: \"{k['line']}\" — {k['why']}")
+        key_lines.append(f"  [{k['t']}] {sp}: \"{k['line']}\" - {k['why']}")
 
     open_loops = []
     for q in dossier.get('open_loops', []):
