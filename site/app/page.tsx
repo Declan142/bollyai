@@ -7,17 +7,16 @@ export const metadata: Metadata = {
   description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
   ...pageSeo({ path: "/" })
 };
-import { CountUp } from "../components/CountUp";
+import { FeaturedMosaic } from "../components/FeaturedMosaic";
 import { JsonLd } from "../components/JsonLd";
 import { MediaCard } from "../components/MediaCard";
 import { PosterImage } from "../components/PosterImage";
-import { VerdictMeter } from "../components/VerdictMeter";
 import { getYearScoreboardParams } from "../lib/boxoffice";
 import { DESKS, getDesk } from "../lib/desks";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
 import { getNewestEpisodeReviews } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
-import { bigThisWeek, catalogueStats, deskCounts, justDropped } from "../lib/home";
+import { bigThisWeek, catalogueStats, deskCounts, justDropped, mosaicSecondary } from "../lib/home";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
   const net = film.box_office.totals.india_net_inr_cr?.value;
@@ -70,6 +69,11 @@ export default function HomePage() {
   const yearScoreboards = getYearScoreboardParams();
 
   const leadFig = lead ? bestFigure(lead) : null;
+  // Lead routes by lifecycle so the door is always a live page (theatrical -> box-office,
+  // already-on-OTT -> reviews, not-yet-out -> upcoming).
+  const leadSurface = lead?.status === "upcoming" ? "upcoming" : lead?.status === "ott" ? "reviews" : "box-office";
+  const leadHref = lead ? `/${lead.canonical_industry}/${leadSurface}/${lead.slug}/` : "/";
+  const mosaicTiles = lead ? mosaicSecondary(lead.slug, 8) : [];
 
   // Desk quick-nav: collapse the five cinema desks + Streaming into a scannable strip.
   const deskNav = DESKS.map((desk) => ({ ...desk, count: counts[desk.slug] ?? 0 }));
@@ -77,61 +81,15 @@ export default function HomePage() {
   return (
     <main className="page-shell home-hub" data-desk="bollywood">
       {lead && (
-        <section className="hero-marquee full-bleed" data-desk={lead.canonical_industry}>
-          <img
-            className="hero-marquee__backdrop"
-            src={lead.backdrop?.src ?? lead.poster.src}
-            alt={lead.backdrop?.alt ?? lead.poster.alt}
-            fetchPriority="high"
-            loading="eager"
-          />
-          <div className="hero-marquee__scrim" aria-hidden="true" />
-          <div className="hero-marquee__inner">
-            <p className="hero-marquee__brand">
-              BollyAI <span>Har Friday ka faisla</span>
-            </p>
-            <p className="eyebrow">Today&apos;s big verdict · {lead.canonical_industry} desk</p>
-            <h1>
-              <a href={`/${lead.canonical_industry}/box-office/${lead.slug}/`}>{lead.title.value}</a>
-            </h1>
-            {leadFig && (
-              <p className="hero-marquee__money">
-                <span className="hero-marquee__money-figure">{leadFig.text}</span>
-                <span className="hero-marquee__money-label">{leadFig.label} · TRADE ESTIMATE</span>
-              </p>
-            )}
-            <div className="hero-marquee__meter">
-              <VerdictMeter rung={lead.verdict.ladder_rung} tracking={lead.verdict.tracking} />
-            </div>
-            <dl className="live-stats" aria-label="What BollyAI is tracking right now">
-              <div className="live-stats__cell">
-                <dt>Series tracked</dt>
-                <dd>
-                  <CountUp value={stats.series} />
-                </dd>
-              </div>
-              <div className="live-stats__cell">
-                <dt>Films tracked</dt>
-                <dd>
-                  <CountUp value={stats.films} />
-                </dd>
-              </div>
-              <div className="live-stats__cell">
-                <dt>Desks live</dt>
-                <dd>
-                  <CountUp value={DESKS.length} />
-                </dd>
-              </div>
-              <div className="live-stats__cell live-stats__cell--pulse">
-                <dt>Freshness</dt>
-                <dd>
-                  <span className="live-dot" aria-hidden="true" />
-                  {updated}
-                </dd>
-              </div>
-            </dl>
-          </div>
-        </section>
+        <FeaturedMosaic
+          lead={lead}
+          leadHref={leadHref}
+          leadFig={leadFig}
+          tiles={mosaicTiles}
+          stats={stats}
+          desksLive={DESKS.length}
+          updated={updated}
+        />
       )}
 
       <section className="ticker full-bleed" aria-label="Trade ticker">

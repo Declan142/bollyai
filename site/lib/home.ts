@@ -122,6 +122,40 @@ export function bigThisWeek(limit = 14, now: number = Date.now()): MediaItem[] {
   return [...liveFilms, ...recent].slice(0, limit);
 }
 
+// FEATURED MOSAIC - the above-the-fold "many doors in". The lead tile (today's big verdict)
+// is a Film and handled separately by the page; this builds the deduped, films+series-MIXED
+// secondary set that fills the rest of the bento wall. High-signal (Big This Week) and the
+// freshest landings (Just Dropped) are interleaved so the wall reads both "best" and "newest",
+// then any gap is back-filled from the remaining pool. Real ordering only, never a fake metric.
+export function mosaicSecondary(excludeFilmSlug: string, count = 8, now: number = Date.now()): MediaItem[] {
+  const big = bigThisWeek(count + 24, now);
+  const fresh = justDropped(count + 24, now);
+
+  // Build one deduped, films+series-interleaved priority list (best AND newest, no lead).
+  const ordered: MediaItem[] = [];
+  const seen = new Set<string>([`film:${excludeFilmSlug}`]);
+  const push = (item?: MediaItem) => {
+    if (!item) return;
+    const key = `${item.kind}:${item.slug}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    ordered.push(item);
+  };
+  const longest = Math.max(big.length, fresh.length);
+  for (let i = 0; i < longest; i++) {
+    push(big[i]);
+    push(fresh[i]);
+  }
+
+  // Artwork-first for the hero wall: a tile carrying a real poster pops far harder than a
+  // placeholder, so surface poster-having titles first (priority order preserved), then
+  // back-fill with placeholder titles. Still 100% real titles - only the order is biased.
+  const hasPoster = (i: MediaItem) => Boolean(i.poster.src) && !i.poster.src.includes("_fallback");
+  const withArt = ordered.filter(hasPoster);
+  const withoutArt = ordered.filter((i) => !hasPoster(i));
+  return [...withArt, ...withoutArt].slice(0, count);
+}
+
 // Per-desk counts for the quick-nav strip (films + series that map to that desk).
 export function deskCounts(): Record<DeskSlug, number> {
   const counts = {
