@@ -127,9 +127,8 @@ def sanitize_prose(text: str) -> str:
         return text
     # Replace em-dash (U+2014) and en-dash (U+2013) with spaced hyphen
     text = text.replace("—", " - ").replace("–", " - ")
-    # Strip trailing "Verdict: <sentence>" label (last sentence if it starts with "Verdict:")
-    # Handles both "Verdict: X" at end and "Verdict: X." variations
-    text = re.sub(r"\s*Verdict:\s+[^\n]+$", "", text.rstrip()).rstrip()
+    # Strip trailing "Verdict:" / "verdict:" label — case-insensitive, any capitalisation
+    text = re.sub(r"\s*[Vv]erdict:\s+[^\n]+$", "", text.rstrip()).rstrip()
     return text
 
 

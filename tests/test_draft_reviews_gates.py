@@ -233,6 +233,13 @@ class TestSanitizeProse:
         result = sanitize_prose("Great episode with real stakes. Verdict: A taut hour.")
         assert "Verdict:" not in result
 
+    def test_lowercase_verdict_stripped(self):
+        # sweet-magnolias E04 observed variant: lowercase "verdict:"
+        result = sanitize_prose(
+            "This episode prioritizes setup over payoff. verdict: Promising but incomplete."
+        )
+        assert "verdict:" not in result.lower()
+
     def test_clean_text_unchanged(self):
         text = "Harshad's gamble pays off when the debt is cleared early."
         assert sanitize_prose(text) == text
