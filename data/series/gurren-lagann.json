@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Anime", "Action", "Sci-Fi", "Adventure"],
+  "genres": [
+    "Anime",
+    "Action",
+    "Sci-Fi",
+    "Adventure"
+  ],
   "logline": "Two teenagers dig their way to the surface from an underground village, commandeer a drill-powered mecha, and ignite a rebellion that escalates from overthrowing a tyrant king to saving all of existence.",
   "poster": {
     "src": "/img/series/gurren-lagann/poster.jpg",
@@ -73,7 +78,7 @@
         "source": "IMDb",
         "source_url": "https://www.imdb.com/title/tt0948103/"
       },
-      "review_body": "Gainax aired Tengen Toppa Gurren Lagann on TV Tokyo from April to September 2007, and it arrived as one of the studio's most accessible and critically embraced works. The series earned 100 percent on Rotten Tomatoes from 17 critics - a perfect score that held across more than a decade of catalogue additions - and an IMDb audience score of 8.3. The RT critics consensus credits 'brilliant animation, charismatic characters, and subversive writing.' Directed by Hiroyuki Imaishi, whose kinetic style later defined Studio Trigger, the series operates in two distinct acts: a boisterous surface-war in the first half and a cosmic-scale confrontation in the second, with critics noting the shift could have killed the momentum but instead delivered its biggest emotional payoffs. The death of fan-favourite Kamina at the midpoint is consistently cited by reviewers as one of anime's most effective structural gambles.",
+      "review_body": "Gainax aired Tengen Toppa Gurren Lagann on TV Tokyo from April to September 2007, and it arrived as one of the studio's most accessible and critically embraced works. The series earned 100 percent on Rotten Tomatoes from 17 critics - a perfect score that held across more than a decade of catalogue additions - and an IMDb audience score of 8.3. The RT critics consensus credits 'brilliant animation, charismatic characters, and subversive writing.' Directed by Hiroyuki Imaishi, whose kinetic style later defined Studio Trigger, the series operates in two distinct acts: a boisterous surface-war in the first half and a cosmic-scale confrontation in the second, with critics noting the shift could have killed the momentum but instead delivered its biggest emotional payoffs.",
       "season_over_season": null,
       "episode_reviews": [
         {
@@ -90,7 +95,7 @@
           "title": "The Sky Is Yours",
           "air_date": "2007-09-30",
           "bollymeter": 9.2,
-          "spoiler_free": "The finale delivers the cosmic payoff promised since the series' tone expanded in episode 17. Critics praised it for earning its scale through character work rather than spectacle alone - Simon's arc closes cleanly, and the epilogue lands with unusual emotional grace for a mecha series.",
+          "spoiler_free": "The finale delivers the cosmic payoff promised since the series' tone expanded in episode 17.",
           "the_moment": "Simon drives the drill into the Anti-Spiral. Everything the series told you about believing in yourself is crystallised in a single image.",
           "critic_note": null
         }
