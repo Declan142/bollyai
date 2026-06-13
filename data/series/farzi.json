@@ -1,103 +1,149 @@
 {
- "slug": "farzi",
- "qid": {
-  "value": "Q18354811",
-  "source": "Wikipedia sidebar (Wikidata item link)",
-  "fetched_at": "2026-06-12T16:32:31+05:30",
-  "confidence": "verified"
- },
- "title": {
-  "value": "Farzi",
-  "source": "Wikipedia",
-  "fetched_at": "2026-06-08T01:30:00+05:30",
-  "confidence": "verified"
- },
- "canonical_industry": "streaming",
- "origin": "India",
- "original_language": {
-  "value": "hi",
-  "source": "Wikipedia",
-  "fetched_at": "2026-06-08T01:30:00+05:30",
-  "confidence": "verified"
- },
- "platform": {
-  "value": "Amazon Prime Video",
-  "source": "trade announcement",
-  "fetched_at": "2026-06-08T01:30:00+05:30",
-  "confidence": "verified"
- },
- "status": "returning",
- "genres": [
-  "Crime",
-  "Thriller",
-  "Drama"
- ],
- "logline": "A street artist and small-time counterfeiter gets pulled into a high-stakes currency fraud, while a tenacious STF officer closes in from the other side of the system.",
- "poster": {
-  "src": "/img/series/farzi/poster.jpg",
-  "alt": "Farzi series poster: Shahid Kapoor and Vijay Sethupathi",
-  "attribution": "Poster © Amazon MGM Studios / Raj and DK / D2R Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
- },
- "renewal": {
-  "state": "renewed",
-  "note": "Season 2 confirmed in production. On the show's third anniversary in February 2026, Raj and DK posted a teaser image. Shahid Kapoor confirmed principal photography underway in March 2026. Expected late 2026 or early 2027.",
-  "source": "Zee Zest / Magicpin",
-  "source_url": "https://zeezest.com/culture/farzi-season-2-5723"
- },
- "seasons": [
-  {
-   "number": 1,
-   "year": 2023,
-   "episodes": 8,
-   "release_date": {
-    "value": "2023-02-10",
+  "slug": "farzi",
+  "qid": {
+    "value": "Q18354811",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-12T16:32:31+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Farzi",
     "source": "Wikipedia",
     "fetched_at": "2026-06-08T01:30:00+05:30",
     "confidence": "verified"
-   },
-   "verdict": "WORTH-IT",
-   "bollymeter": {
-    "score": 7.6,
-    "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split - Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room."
-   },
-   "critic": {
-    "positive_pct": null,
-    "sample": null,
-    "pull_quotes": [
-     {
-      "text": "Farzi is the first of Raj and DK's projects to feel like a tired imitation rather than its own, vital thing.",
-      "source": "Variety",
-      "url": "https://variety.com/2023/tv/global/farzi-tv-review-prime-video-family-man-1235519603/"
-     },
-     {
-      "text": "Shahid Kapoor and Vijay Sethupathi make a pitch-perfect debut in this Raj and DK crime thriller.",
-      "source": "Film Companion",
-      "url": "https://www.filmcompanion.in/reviews/streaming-reviews/farzi-review-shahid-kapoor-vijay-sethupathi-make-a-pitch-perfect-debut-with-this-raj-and-dk-crime-thriller-amazon-prime"
-     }
-    ]
-   },
-   "audience": {
-    "rating": 8.3,
-    "scale": 10,
-    "source": "IMDb",
-    "source_url": "https://www.imdb.com/title/tt15477488/"
-   },
-   "review_body": "Farzi premiered on 10 February 2023 and became the most-watched Hindi web series of the year with a reported 37.1 million viewers. The Raj and DK series pairs Shahid Kapoor's street-artist counterfeiter with Vijay Sethupathi's obsessive STF officer, setting up a cat-and-mouse that the directors animate with their trademark tonal fluency. Critical response split along a familiar fault line: sympathetic reviews from Film Companion and Indian outlets cited the assured screenplay and career-best Kapoor; Variety's international notice called it the first Raj and DK project that felt formulaic. The audience sided decisively with the domestic consensus. The eight-episode structure was debated, with Variety noting the plot could have been tighter, but the finale episode scored 9.0 on IMDb, suggesting the payoff landed for viewers who stayed.",
-   "season_over_season": null,
-   "episode_reviews": [
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-08T01:30:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A street artist and small-time counterfeiter gets pulled into a high-stakes currency fraud, while a tenacious STF officer closes in from the other side of the system.",
+  "poster": {
+    "src": "/img/series/farzi/poster.jpg",
+    "alt": "Farzi series poster: Shahid Kapoor and Vijay Sethupathi",
+    "attribution": "Poster © Amazon MGM Studios / Raj and DK / D2R Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 confirmed in production. On the show's third anniversary in February 2026, Raj and DK posted a teaser image. Shahid Kapoor confirmed principal photography underway in March 2026. Expected late 2026 or early 2027.",
+    "source": "Zee Zest / Magicpin",
+    "source_url": "https://zeezest.com/culture/farzi-season-2-5723"
+  },
+  "seasons": [
     {
-     "number": 2,
-     "title": "Episode 2",
-     "bollymeter": null,
-     "critic_note": null,
-     "spoiler_free": "The scene where Sunny clutches a counterfeit note while his grandfather warns him not to carry fakes kicks off a tense hour. The episode expands the urgency motif introduced in the opening memory, turning a childhood game of ten‑minute evacuations into a high‑speed factory heist. Sunny's demand, \"I want two crores,\" propels the plot and starkly exposes the contradiction that he claims to save the press yet bankrolls a illegal print run, alienating his grandfather. The rapid exchanges keep momentum, but the repeated flashbacks to the packing game feel redundant, diluting the payoff of the later theft. The narrative's strength lies in the earned clash between family loyalty and criminal ambition, even if the urgency echo becomes a bit over‑cooked.",
-     "the_moment": "Sunny demands two crores, sealing his descent into counterfeit crime.",
-     "_floor_audit": "bollymeter 7.8 stripped to null by floor 03:17: no per-episode reception exists for farzi (fence 4 / RESUME item 4 - per-hour numeric needs real reception); series-level reception belongs on series.json bollymeter with basis",
-     "merged_at": "2026-06-13T03:18:30+05:30"
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-02-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-08T01:30:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb 8.3 from 55K+ votes and the most-watched Hindi web show of 2023 by reported viewership (37.1M); critics split - Film Companion called it pitch-perfect, Variety called it a tired imitation. Audience placed it above the critical room."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Farzi is the first of Raj and DK's projects to feel like a tired imitation rather than its own, vital thing.",
+            "source": "Variety",
+            "url": "https://variety.com/2023/tv/global/farzi-tv-review-prime-video-family-man-1235519603/"
+          },
+          {
+            "text": "Shahid Kapoor and Vijay Sethupathi make a pitch-perfect debut in this Raj and DK crime thriller.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/farzi-review-shahid-kapoor-vijay-sethupathi-make-a-pitch-perfect-debut-with-this-raj-and-dk-crime-thriller-amazon-prime"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15477488/"
+      },
+      "review_body": "Farzi premiered on 10 February 2023 and became the most-watched Hindi web series of the year with a reported 37.1 million viewers. The Raj and DK series pairs Shahid Kapoor's street-artist counterfeiter with Vijay Sethupathi's obsessive STF officer, setting up a cat-and-mouse that the directors animate with their trademark tonal fluency. Critical response split along a familiar fault line: sympathetic reviews from Film Companion and Indian outlets cited the assured screenplay and career-best Kapoor; Variety's international notice called it the first Raj and DK project that felt formulaic. The audience sided decisively with the domestic consensus. The eight-episode structure was debated, with Variety noting the plot could have been tighter, but the finale episode scored 9.0 on IMDb, suggesting the payoff landed for viewers who stayed.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "bollymeter": null,
+          "critic_note": null,
+          "spoiler_free": "Grandpa's press erupts in flames as Sunny, clutching the perfect counterfeit, confesses, \"I made it.\" The hour spirals from a police briefing on fake notes to a tense showdown where Sunny snarls, \"You made it personal!\" It builds on the contradiction of Sunny's promise to save his family legacy while becoming the very threat he vowed to stop. The payoff of his earlier boast about drawing better than a masterpiece lands neatly when he admits to forging the note. However, the episode drags when the new task force C‑C‑F‑A‑R‑T is introduced without clear purpose, repeating exposition already covered by the voice‑over. A stylish opening that earns its contradictions but stumbles on self-inflicted redundancy.",
+          "the_moment": "Sunny confesses to forging the perfect counterfeit note just as the press catches fire.",
+          "merged_at": "2026-06-13T05:47:03+05:30"
+        },
+        {
+          "number": 2,
+          "title": "Episode 2",
+          "bollymeter": null,
+          "critic_note": null,
+          "spoiler_free": "The scene where Sunny clutches a counterfeit note while his grandfather warns him not to carry fakes kicks off a tense hour. The episode expands the urgency motif introduced in the opening memory, turning a childhood game of ten‑minute evacuations into a high‑speed factory heist. Sunny's demand, \"I want two crores,\" propels the plot and starkly exposes the contradiction that he claims to save the press yet bankrolls a illegal print run, alienating his grandfather. The rapid exchanges keep momentum, but the repeated flashbacks to the packing game feel redundant, diluting the payoff of the later theft. The narrative's strength lies in the earned clash between family loyalty and criminal ambition, even if the urgency echo becomes a bit over‑cooked.",
+          "the_moment": "Sunny demands two crores, sealing his descent into counterfeit crime.",
+          "_floor_audit": "bollymeter 7.8 stripped to null by floor 03:17: no per-episode reception exists for farzi (fence 4 / RESUME item 4 - per-hour numeric needs real reception); series-level reception belongs on series.json bollymeter with basis",
+          "merged_at": "2026-06-13T03:18:30+05:30"
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "bollymeter": null,
+          "critic_note": null,
+          "spoiler_free": "When Shekhar Ahlawat steps into the dim warehouse and declares, “Switch off the lights. All of them,” the team’s desperate gamble to halt the counterfeit presses erupts. The episode follows the investigation’s tightening spiral, from Megha’s discovery of a fake bill to the grim tally of eleven illicit presses. Shekhar’s authority frames each move, while Sunny’s bargain‑driven compromise - accepting a low‑margin order despite his profit‑hunting aim - highlights the crew’s moral stretch. Firoz’s duplicitous claim of “just checking the local presses” adds a tense layer, as his covert aid to a press threatens to undo the raid. The relentless dialogue drives momentum, but the repeated “switch off the lights” stunt feels redundant, offering little new tension after the first attempt. Overall, the hour balances gritty procedural beats with character friction, though it leans on déjà‑vu tactics.",
+          "the_moment": "Shekhar orders all lights off in the warehouse to stop the counterfeit presses.",
+          "merged_at": "2026-06-13T05:47:03+05:30"
+        },
+        {
+          "number": 5,
+          "title": "Episode 5",
+          "bollymeter": null,
+          "critic_note": null,
+          "spoiler_free": "When Uncle snarls, \"You're a full-time criminal now,\" Sunny's ambition collides with his family's moral alarm. The hour tightens the counterfeit plot by showing the German printer's role and the perfect paper from Mansoor's press, then lets the group unanimously seal the risky release with a chilling \"100%.\" This payoff rewards the earlier setup of resources and highlights Sunny's internal clash, echoing Grandpa's warning that money can enslave. However, the repeated insistence on the same smuggling route feels redundant, stretching tension without adding new stakes. The episode balances rapid confrontations with reflective pauses, but the over‑reliance on route debates dilutes the momentum. The accusation sticks because the show has spent four episodes earning it.",
+          "the_moment": "Uncle's blunt accusation that Sunny has become a full‑time criminal reverberates through the climax.",
+          "merged_at": "2026-06-13T05:47:03+05:30"
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "bollymeter": null,
+          "critic_note": null,
+          "spoiler_free": "A tense hallway confrontation reveals the mole, snapping the group's fragile trust. The hour deepens the counterfeit saga by linking the supernote's signature flaw to a daring capture plan, turning a technical detail into narrative momentum. Michael's double‑life contradiction - projecting ministerial competence while spiralling into daily drinking and a gun‑safety lie - adds a jagged edge to his authority, making his attempts at redemption feel earned. Sunny's counsel to “let go” feels hollow once the betrayal surfaces, exposing a missed chance for internal cohesion. The episode drags when the urgency to move the fake cash is repeated without new stakes, stretching a plot point already established. The exposure still hits harder than the urgency it wastes.",
+          "the_moment": "The mole among the counterfeit crew is finally exposed during a heated hallway showdown.",
+          "merged_at": "2026-06-13T05:47:03+05:30"
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "bollymeter": null,
+          "critic_note": null,
+          "spoiler_free": "Sunny's frantic call to the buyers, revealing a white Fortuner, launches a police trap that spirals into a high‑octane chase. The hour pushes the cat‑and‑mouse game to its peak, then flips to a bruising showdown where Sunny confronts Mansoor about his grandfather's death. The scene works because it finally forces Sunny to own the fallout of his own betrayal  -  the removed tracker that led to the ambush. However, the series glosses over the core contradiction: Sunny claims to protect his loved ones yet repeatedly endangers them, and the narrative never fully penalises that lapse, leaving the payoff feeling unearned. The chase thrills, but the moral reckoning feels rushed, and the promised police‑Mansoor extradition thread stalls. \"You made it personal.\"  -  a sharp line that caps the hour's emotional spike.",
+          "the_moment": "Sunny orders Firoz to toss fake money, creating chaos that lets them slip away.",
+          "_floor_audit": "bollymeter 7.5 stripped to null by floor 03:17: no per-episode reception exists for farzi (fence 4 / RESUME item 4 - per-hour numeric needs real reception); series-level reception belongs on series.json bollymeter with basis",
+          "merged_at": "2026-06-13T05:47:03+05:30"
+        }
+      ]
     }
-   ]
-  }
- ],
- "_quarantine": [],
- "date_modified": "2026-06-13T03:18:30+05:30"
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-13T05:47:03+05:30"
 }
