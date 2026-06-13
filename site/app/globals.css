@@ -1961,3 +1961,182 @@ p {
   .ep-review-card img { height: 168px; }
   .ep-review-card + .ep-review-card { margin-left: -12px; }
 }
+
+/* ── Rich episode review page ────────────────────────────────────────── */
+/* Promote repeated bright-text literal to token */
+:root { --text-bright: var(--text-bright); }
+.rich-ep-hero {
+  display: grid;
+  grid-template-columns: 185px 1fr;
+  gap: 32px;
+  align-items: start;
+  padding: 40px 0 8px;
+}
+@media (max-width: 640px) {
+  .rich-ep-hero { grid-template-columns: 120px 1fr; gap: 18px; }
+  .rich-ep-hero__poster img { width: 120px; height: 180px; object-fit: cover; }
+}
+.rich-ep-hero__poster {
+  flex-shrink: 0;
+}
+.rich-ep-hero__poster img {
+  width: 185px; height: 278px; object-fit: cover;
+  border-radius: 4px;
+  box-shadow: var(--shadow-poster);
+}
+.rich-ep-hero h1 { margin: 8px 0 16px; font-size: clamp(1.5rem, 3.8vw, 2.4rem); }
+
+/* Verdict box */
+.verdict-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: color-mix(in oklch, var(--accent) 10%, var(--surface));
+  border: 1px solid color-mix(in oklch, var(--accent) 30%, transparent);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 0 0 14px;
+}
+.verdict-box__score {
+  font-family: var(--font-number);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  flex-shrink: 0;
+}
+.verdict-box__right { flex: 1; min-width: 0; }
+.verdict-box__label {
+  font-family: var(--font-number);
+  font-size: .62rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  display: block;
+  margin-bottom: 4px;
+}
+.verdict-box__line {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+/* The Moment badge */
+.the-moment {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: .9rem;
+  color: var(--text-dim);
+}
+.the-moment__k {
+  font-family: var(--font-number);
+  font-size: .6rem;
+  letter-spacing: .14em;
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+/* Review body typography */
+.review-panel { max-width: 72ch; }
+.review-body { max-width: 70ch; }
+.review-body__p {
+  line-height: 1.78;
+  margin: 0 0 1.3rem;
+  color: var(--text);
+  max-width: 70ch;
+  text-wrap: pretty;
+}
+.review-body__p--lede {
+  font-family: var(--font-display);
+  font-size: 1.22rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: -.005em;
+  color: var(--text-bright);
+  margin-bottom: 1.7rem;
+}
+.review-body__h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.6rem);
+  font-weight: 600;
+  color: var(--text-bright);
+  margin: 2.6rem 0 1rem;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.review-body__h2-rule {
+  display: block;
+  width: 2.2rem;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.review-body strong { font-weight: 600; color: var(--text-bright); }
+.review-body em { font-style: italic; color: var(--text-dim); }
+.review-body__footer {
+  font-size: .78rem;
+  color: var(--text-faint);
+  letter-spacing: .02em;
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-hair);
+  padding-top: 1.2rem;
+}
+
+/* Pull quote callout */
+.pull-quote-callout {
+  margin: 0;
+  border-left: 3px solid var(--accent);
+  padding: 14px 20px;
+  background: color-mix(in oklch, var(--accent) 5%, var(--surface));
+  border-radius: 0 6px 6px 0;
+}
+.pull-quote-callout__text {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+.pull-quote-callout__cite {
+  font-family: var(--font-number);
+  font-size: .72rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+.pull-quote-callout__cite a { color: var(--accent); }
+
+/* Scroll-reveal: subheads + pull-quote fade-up as they enter viewport. Zero JS. */
+@media (prefers-reduced-motion: no-preference) {
+  .review-body__h2,
+  .pull-quote-callout {
+    animation: review-fadein linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 28%;
+  }
+  @keyframes review-fadein {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Rich episode card variant on season page */
+.episode-card--rich .episode-card__one-liner {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.5;
+  margin: 6px 0 8px;
+}

@@ -25,6 +25,11 @@ export type EpisodeReview = {
   spoiler_free: string; // BollyAI's read, spoiler-light, no viewing claim
   the_moment?: string | null; // the beat people remember (kept spoiler-careful)
   critic_note?: { text: string; source: string; url: string } | null;
+  // Rich review fields (optional, backward-compatible)
+  review_body?: string | null; // full Markdown review ~1.2-1.7k words, sectioned (## subheads)
+  verdict?: { score: number; one_liner: string } | null; // BollyAI craft score + one-liner
+  pull_quote?: { text: string; source: string; url: string } | null; // real external critic, <=25w
+  hero_image?: string | null; // /img/series/<slug>/poster.jpg or backdrop/still
 };
 
 export type PosterVariants = {
@@ -256,6 +261,27 @@ export function qualifiesForWhereToWatch(series: Series): boolean {
 }
 
 export type { Confidence };
+
+// Look up a single EpisodeReview by slug + season + episode number.
+// Used by the episode page to overlay rich review fields onto the breakdown page.
+export function getEpisodeReview(slug: string, seasonNum: number, epNum: number): EpisodeReview | undefined {
+  const series = getSeries(slug);
+  return series?.seasons.find((s) => s.number === seasonNum)?.episode_reviews?.find((ep) => ep.number === epNum);
+}
+
+// Return all episode reviews across a series that have a rich review_body,
+// formatted as {slug, seasonNum, epNum} so generateStaticParams can include them.
+export function getRichEpisodeParams(series: Series): { slug: string; season: string; episode: string }[] {
+  const out: { slug: string; season: string; episode: string }[] = [];
+  for (const season of series.seasons) {
+    for (const ep of season.episode_reviews ?? []) {
+      if (ep.review_body) {
+        out.push({ slug: series.slug, season: `s${season.number}`, episode: `e${ep.number}` });
+      }
+    }
+  }
+  return out;
+}
 
 // Represents a single episode review surfaced on the homepage rail.
 export type EpisodeReviewCard = {

@@ -121,34 +121,44 @@ export default function SeasonPage({ params }: { params: { slug: string; season:
             <ol className="episode-list">
               {[...episodeReviews]
                 .sort((a, b) => a.number - b.number)
-                .map((ep) => (
-                  <li key={ep.number} className="episode-card">
-                    <div className="episode-card__head">
-                      <span className="episode-card__n">E{ep.number}</span>
-                      <span className="episode-card__title">{ep.title}</span>
-                      {ep.bollymeter != null && (
-                        <span className="episode-card__score">{ep.bollymeter.toFixed(1)}</span>
+                .map((ep) => {
+                  const hasRichReview = !!ep.review_body;
+                  const hasBreakdown = !!getEpisodeBreakdown(series.slug, season.number, ep.number);
+                  const hasPage = hasRichReview || hasBreakdown;
+                  const scoreVal = ep.verdict?.score ?? ep.bollymeter;
+                  return (
+                    <li key={ep.number} className={`episode-card${hasRichReview ? " episode-card--rich" : ""}`}>
+                      <div className="episode-card__head">
+                        <span className="episode-card__n">E{ep.number}</span>
+                        <span className="episode-card__title">{ep.title}</span>
+                        {scoreVal != null && (
+                          <span className="episode-card__score">{Number(scoreVal).toFixed(1)}</span>
+                        )}
+                      </div>
+                      {hasRichReview && ep.verdict ? (
+                        <p className="episode-card__one-liner">{ep.verdict.one_liner}</p>
+                      ) : (
+                        <p className="episode-card__body">{ep.spoiler_free}</p>
                       )}
-                    </div>
-                    <p className="episode-card__body">{ep.spoiler_free}</p>
-                    {ep.the_moment && (
-                      <p className="episode-card__moment">
-                        <strong>The moment:</strong> {ep.the_moment}
-                      </p>
-                    )}
-                    {ep.critic_note && (
-                      <p className="episode-card__critic">
-                        &ldquo;{ep.critic_note.text}&rdquo;{" "}
-                        <a href={ep.critic_note.url}>- {ep.critic_note.source}</a>
-                      </p>
-                    )}
-                    {getEpisodeBreakdown(series.slug, season.number, ep.number) && (
-                      <a className="episode-card__more" href={epPath(series.slug, season.number, ep.number)}>
-                        Full recap + breakdown of E{ep.number} →
-                      </a>
-                    )}
-                  </li>
-                ))}
+                      {ep.the_moment && (
+                        <p className="episode-card__moment">
+                          <strong>The moment:</strong> {ep.the_moment}
+                        </p>
+                      )}
+                      {!hasRichReview && ep.critic_note && (
+                        <p className="episode-card__critic">
+                          &ldquo;{ep.critic_note.text}&rdquo;{" "}
+                          <a href={ep.critic_note.url}>- {ep.critic_note.source}</a>
+                        </p>
+                      )}
+                      {hasPage && (
+                        <a className="episode-card__more" href={epPath(series.slug, season.number, ep.number)}>
+                          {hasRichReview ? `Full review of E${ep.number} →` : `Full recap + breakdown of E${ep.number} →`}
+                        </a>
+                      )}
+                    </li>
+                  );
+                })}
             </ol>
           </section>
         )}
