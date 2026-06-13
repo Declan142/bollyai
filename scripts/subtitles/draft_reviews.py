@@ -65,7 +65,7 @@ HARD RULES (a strict judge on a different model auto-fails any violation - no bl
 2. spoiler_free 110-160 words; must contain at least one concrete criticism with dossier evidence.
 3. Dialogue quotes land naked in quotation marks, <=25 words total. BANNED: any attribution to process or source ('as the subtitles render it', 'as the dialogue has it', 'as the English subtitles render', 'the subtitles show').
 4. NO timestamps, beat refs (e.g. 'beat 05:20', 'at 38:02'), or second/minute counts anywhere in spoiler_free or the_moment. Evidence citations belong ONLY in _evidence.
-5. NO silence or gap durations as criticism. Subtitle silence is songs, action, reaction - not pacing evidence. Criticism must come from story events, character decisions, or structural repetition.
+5. NO silence or gap durations as criticism. If the dossier's tone_notes mention silence seconds, gap lengths, or quiet periods - IGNORE THEM ENTIRELY, they are subtitle file artifacts (songs, action, non-verbal scenes). Criticism MUST come from story events, character decisions, or structural repetition that you can name. Never write "long silences", "lingering quiet", "stretches of silence/pause", "long pause", or any variant.
 6. No banned register: {banned}. No em-dash. No sentence over 35 words.
 7. No inline 'Verdict:' label. No stock opener ('The hour thrusts', 'The episode thrusts', 'The hour opens', 'This hour cranks', 'The hour begins'). Cold-open on a character action or story turn.
 8. bollymeter and critic_note stay exactly null.
