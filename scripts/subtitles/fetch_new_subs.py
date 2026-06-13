@@ -152,10 +152,8 @@ def main() -> int:
             print(f"  GOT {len(got)} srt(s)")
             log.append({"key": key, "new_srts": len(got)})
             if item["kind"] == "series" and not args.dry_run:
-                # slug used by stage_series = dir name lowercased+dots->hyphens
-                dirname = (item.get("title") or item["slug"]).replace(" ", ".")
-                from stage_series import to_slug
-                push_through_engine(to_slug(dirname))
+                # Queue slug is authoritative - avoids apostrophe/special-char corruption from titles
+                push_through_engine(item["slug"])
         st[key] = rec
         processed += 1
     if not args.dry_run:

@@ -20,7 +20,8 @@ EP_RE = re.compile(r"(S\d{2}E\d{2})", re.I)
 
 # dir-name -> slug (site convention: lowercase, dots to hyphens)
 def to_slug(dirname: str) -> str:
-    return dirname.lower().replace(".", "-")
+    import re as _re
+    return _re.sub(r"[^a-z0-9-]+", "", dirname.lower().replace(".", "-").replace("'", ""))
 
 # principal-cast rosters: PUBLIC KNOWLEDGE names, used ONLY to count spoken mentions.
 # quote_lang: en = English-original dialogue; en-sub = translated subtitle rendering.
