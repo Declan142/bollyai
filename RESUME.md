@@ -1,3 +1,52 @@
+# BollyAI — pickup state (2026-06-13 ~07:00, OVERNIGHT FLOOR SHIFT COMPLETE — review pipeline PROVEN)
+
+## THE HEADLINE
+**farzi: 6/8 episode reviews gated-merged into data/series/farzi.json and PUSHED (03e0741)** via the
+full moat pipeline: dossier -> draft -> triage -> G4 voice-pass -> floor audit -> merge_reviews
+--apply -> validate_series -> 242 tests -> build (2366 pages, 0 errors). NOT yet deployed - that is
+the morning call. Homepage "Naye Episode Reviews" rail is LIVE on bollyai.in since 01:45 (deploy
+167b681a, design-reviewer 8.3, IndexNow 200) and will surface farzi reviews at next deploy.
+
+## WHAT GOT FIXED TONIGHT (each cycle found + welded a new gate)
+- Draft voice v1 floor-REJECTED (timestamps/beat-refs/meta-refs/silence-stat criticism in reader
+  prose) -> v2 5 hard prompt rules -> v2.1 sanitize_prose step -> v3 PASS. Judge hardened: 4
+  auto-fail conditions + case-insensitive label strip + expanded gap-stat patterns (34 regression
+  tests, commit f394088).
+- validate_films.py born (proposal Q3) + loud-fail on unmatched film slug (Q4). merge_reviews.py
+  is THE only write path into data/series + data/films - 4 ungated direct-writes with invented
+  bollymeters were caught and rolled back (35af5cd; snapshot .bak in data/series/).
+- FLOOR RULINGS (standing): per-episode bollymeter = null (no per-episode reception exists for
+  Indian OTT; series-level score with cited basis is the home for reception). critic_note only
+  primary-verified quotes <=25w (Wikipedia reception sections = pointers, not citable). Speaker
+  attributions not backed by SDH = nulled (28 stripped).
+- Quota cycle DECODED: 900/day guard mirrors OpenRouter free tier, resets UTC midnight = 05:30
+  IST. QUOTA_HALT trips gracefully, lane clears flag + resumes queue after probe. Tonight burned
+  903 to the cap, reset confirmed 05:31.
+
+## RUNNING / QUEUED RIGHT NOW (priority order, steered 06:45)
+work:6 (engine lane, tmux session work): (1) scam-1992 completion - 5/10 triage-passed, E03-E10
+regen was stalled, diagnosing; (2) widow's-bay -> widows-bay dir rename + slugify fix (engine
+ignored queue slug field); (3) farzi E04 (the_moment causal error) + E06 (chronology inversion)
+regen; (4) CLOY / every-year-after / sweet-magnolias drafts; (5) from S4 fetch retry (E8 airs Sun
+Jun 14); (6) HOTD drafts; (7) berlin last. Floor reads every batch before a G4 lane spawns.
+Aditya added tonight: widows-bay (Apple TV+, S1 finale Jun 16) + from S4 to fresh-queue.
+
+## MORNING DECISIONS (Aditya)
+1. **Deploy call**: farzi 6/8 reviews are data-ready; deploy now or accumulate scam+CLOY+others
+   first? (gates all green, single wrangler command.)
+2. E03 farzi nuance: "blind-folded raids" imprecise vs dossier (lights-off tactic) - shipped
+   as-is on lane+floor pass; flag if you want a re-touch.
+3. bollymeter strategy confirm: series-level scores with cited basis next (reception.json files
+   exist for 11 slugs, Wikipedia-sourced pointers + primary-verify queue).
+
+## INFRA (drishti repo, pushed)
+Conductor floor-first notify (5d10854) - desktop popups only when no live floor; classify
+_claude_alive fix (803ff1f) - bash-foreground no longer mis-classifies a tool-running session as
+DEAD (this bug had silently killed watchdog steer + popup suppression). Fleet gotchas memorized:
+approve injects+submits; tell replaces box text; .conductor-task.md single-path race; NEEDS-SUBMIT
+blocks auto-transplant; transplant can leave donor alive (verify + drain).
+
+---
 # BollyAI — pickup state (2026-06-13 ~01:40, SUBTITLE ENGINE running overnight — Vyom handoff)
 
 ## RUNNING RIGHT NOW (session-independent — do NOT relaunch blindly, check pgrep first)
