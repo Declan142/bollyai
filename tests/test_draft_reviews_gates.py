@@ -135,6 +135,33 @@ class TestGapCriticismShouldFail:
     def test_long_silences_alone(self):
         assert gap_criticism_hit("long silences punctuate the second half")
 
+    # every-year-after E02 observed variant: "lingering quiet" + stagnant — missed by original regex
+    def test_eya_e02_lingering_quiet_stagnant(self):
+        assert gap_criticism_hit(
+            "The lingering quiet, though atmospheric, stretches without narrative gain, "
+            "making the pacing feel stagnant."
+        )
+
+    # every-year-after E04 variant: "long silence" used positively — rule 5 covers any silence ref
+    def test_eya_e04_long_silence_positive(self):
+        assert gap_criticism_hit(
+            "using the long silence before the final decision to ratchet up emotional pressure"
+        )
+
+    # every-year-after E08 variant: "long silences between beats stall momentum"
+    def test_eya_e08_long_silences_stall(self):
+        assert gap_criticism_hit(
+            "The episode drags when the long silences between beats stall momentum"
+        )
+
+    # lingering quiet alone (adjective + noun)
+    def test_lingering_quiet_alone(self):
+        assert gap_criticism_hit("the lingering quiet after the argument")
+
+    # quiet + stagnant (consequence verb pattern)
+    def test_quiet_stagnant(self):
+        assert gap_criticism_hit("the quiet stretches without narrative gain, making pacing feel stagnant")
+
 
 # ---------------------------------------------------------------------------
 # gap_criticism_hit — sentences that must NOT trigger (legit story criticism)

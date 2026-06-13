@@ -140,12 +140,13 @@ _GAP_PATTERNS: list[re.Pattern] = [
     # numbered duration + silence/pause/gap/stretch noun (either order)
     re.compile(r'\b\d+[\s\-](?:second|minute|sec|min)s?\b.{0,40}\b(?:silence|pause|gap|stretch|lull)\b', re.I),
     re.compile(r'\b(?:silence|pause|gap|stretch|lull)s?\b.{0,40}\b\d+[\s\-](?:second|minute|sec|min)', re.I),
-    # weighted-adjective + silence/pause noun ("long silences", "relentless silence", "dead silence")
-    re.compile(r'\b(?:long|relentless|extended|prolonged|dead|protracted|lengthy|overlong)\s+(?:silence|silences|pause|pauses|gap|gaps)\b', re.I),
+    # weighted-adjective + silence/pause/quiet noun — includes "lingering quiet" variant
+    re.compile(r'\b(?:long|relentless|extended|prolonged|dead|protracted|lengthy|overlong|lingering)\s+(?:silence|silences|pause|pauses|gap|gaps|quiet)\b', re.I),
     # "silent stretch" - common LLM phrasing for subtitle gaps
     re.compile(r'\bsilent\s+stretch\b', re.I),
-    # silence/pause noun anywhere followed by a pacing-consequence verb within 80 chars
-    re.compile(r'\b(?:silence|silences|pause|pauses)\b.{0,80}\b(?:stalls?|drags?|hampers?|bogs?\s+down|slows?\s+(?:the\s+)?(?:pace|pacing|momentum)|kills?\s+(?:the\s+)?(?:pace|pacing|momentum)|undermines?|wastes?|pacing\s+suffers)\b', re.I),
+    # silence/pause/quiet noun followed by a pacing-consequence verb within 80 chars
+    # "quiet" included to catch "lingering quiet...stagnant/stretches" variants
+    re.compile(r'\b(?:silence|silences|pause|pauses|quiet)\b.{0,80}\b(?:stalls?|drags?|hampers?|bogs?\s+down|slows?\s+(?:the\s+)?(?:pace|pacing|momentum)|kills?\s+(?:the\s+)?(?:pace|pacing|momentum)|undermines?|wastes?|pacing\s+suffers|stagnant|stretches\s+without)\b', re.I),
 ]
 
 
