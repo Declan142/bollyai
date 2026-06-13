@@ -1,3 +1,80 @@
+# BollyAI — pickup state (2026-06-13 ~14:00, RICH-FORMAT REWRITE — mass-regen IN FLIGHT)
+
+## THE BIG PIVOT THIS SESSION
+Aditya reviewed the live site and REJECTED the thin reviews (113-word single paragraph, no
+photos). Directive: competitor-grade RICH reviews (Den of Geek bar ~2100w) for EVERY series,
+full-season coverage. We rewired the whole review format. The thin pipeline is HALTED.
+
+## RUNNING RIGHT NOW (do NOT relaunch blindly — check first)
+- **Mass-regen batch**: conductor lane `work:1` (bolly-massregen) driving
+  `scripts/subtitles/regen_batch.py` over the 6 LIVE series (farzi, scam-1992,
+  crash-landing-on-you, every-year-after, sweet-magnolias-season-5, house-of-the-dragon).
+  ~54 episodes, SERIAL, ~40 min, gpt-5.4-Azure, ₹0. Ledger: `data/subtitles/_engine/regen-batch.jsonl`
+  (watch for `batch_end`). Re-runnable (done episodes skip). On finish the FLOOR audits + deploys.
+  🚨 Check `conductor board` + `grep batch_end regen-batch.jsonl` before touching — may already be done.
+
+## THE RICH-REVIEW ARCHITECTURE (locked)
+- **Writer = gpt-5.4 on Azure** (deployment `gpt-5-4`, endpoint
+  https://adity-mnuhhdt9-eastus2.cognitiveservices.azure.com, key via
+  `az cognitiveservices account keys list -g empire-ai -n adity-mnuhhdt9-eastus2 --query key1 -o tsv`).
+  WON a 3-way bake-off vs deepseek-v4-pro (thin/recap-y) + gpt-5.5 (weekly-pool). gpt-5.4 = best
+  analysis density + in-target length + **₹0 sponsored credits + frees the ChatGPT weekly pool**.
+  🚨 Deployment is **capacity-3** (tiny TPM) → MUST stay SERIAL (max_workers=1) + the 429
+  exponential backoff in `build_review._azure_chat` is load-bearing. Parallel = 429 wall.
+  Override model with `BOLLYAI_REVIEW_MODEL=gpt-5.5` (codex sampler). deepseek-v4-pro reserved
+  for recap/hook surface. gpt-5-5 Azure deployment = idle, kal verify ke liye.
+- **The quality MOAT = `scripts/subtitles/REVIEW-HOUSE-STYLE.md`** (the writing contract, sent
+  in-context every call) + the draft→ruthless-edit two-pass in `build_review.py`. Models are
+  STOCK (no fine-tune); 100% of quality is the re-sent instructions. Improve the contract =
+  instantly better output, any model, ₹0. This is why a cheap model writes flagship-grade.
+- **Generator**: `scripts/subtitles/build_review.py <slug> <season> <ep>` — reads dossier +
+  house-style, gpt-5.4 draft+edit, hard timestamp-strip + em-dash-strip + viewing-claim ban,
+  writes review_body/verdict/hero_image/pull_quote DIRECTLY into data/series/<slug>.json
+  (no staging). `regen_batch.py` = the parallel-across-series (now serial) driver.
+- **Schema** (site/lib/series.ts EpisodeReview, backward-compatible): added `review_body`
+  (~1.2-1.7k md), `verdict{score,one_liner}`, `pull_quote`, `hero_image`. `spoiler_free` stays
+  as the card teaser. Full rich review renders on the EPISODE page
+  (site/app/series/[slug]/[season]/[episode]/page.tsx); season page = teaser cards.
+- **FENCE EVOLUTION (Aditya-approved)**: per-episode bollymeter NOW = BollyAI's own DISCLOSED
+  craft score (= verdict.score), anchored in the review's grounded points. Banned: faking
+  AGGREGATE/reception numbers + AggregateRating schema (unchanged). Season-level bollymeter
+  still needs real reception (farzi 7.6 / scam 9.2 / CLOY 8.9 grounded; EYA/SM null till reception).
+- Spec: `scripts/subtitles/RICH-REVIEW-SPEC.md`. Pilot proven on HotD S1E1 (1484w, verdict 8.9,
+  design-reviewer 8.7, 0 timestamps/dashes/viewing-claims).
+
+## QUEUE (the path to "every series, full-season, rich")
+1. **NOW**: mass-regen 6 LIVE series (work:1) → floor audit → validate+pytest+build → DEPLOY
+   (thin→rich live) → IndexNow → commit.
+2. **Phase 2**: the 75 MISSING episodes (full-season coverage) via same `regen_batch` + gpt-5.4.
+   Under-reviewed catalogued series to expand: HOTD(+16), kingdom(+10), teach-you-a-lesson(+10),
+   mirzapur(+8), berlin(+6), fauda(+5). Uncatalogued needing authoring first: i-will-find-you(14),
+   widows-bay(6). DEDUP rule: read existing review count, only regen missing.
+3. **Films** (inception/jawan/maharaja-2024/manjummel-boys) via merge_reviews `--film` path last.
+
+## SHIPPED LIVE THIS SESSION (bollyai.in)
+- 6 series with reviews (currently thin, being upgraded): farzi 8, scam-1992 9, CLOY 16,
+  every-year-after 8, sweet-magnolias-season-5 10, from 37 (from was already done).
+  Deploys: 819f9502 (farzi rail), cb9cec7b (scam+CLOY+EYA+SM), c3c419fb (GSC fix).
+- Homepage "Naye Episode Reviews" rail LIVE (design-reviewer 8.3).
+- **GSC `license` fix SHIPPED** (c3c419fb): added `license: bollyai.in/about` to all 3 Dataset
+  JSON-LD blocks in site/lib/boxoffice.ts (the "missing field license" non-critical issue).
+
+## 🚨 GOTCHAS / FENCES (this session's hard-won)
+- **Engine STOP flag is SET deliberately** (`data/subtitles/_engine/STOP`) — it halts the THIN
+  auto-engine (@reboot + freshness crons both check it). We drive rich `build_review` MANUALLY.
+  Remove STOP ONLY when the engine's review step is rewired to build_review (not yet).
+- **Real quota ≠ batch-ledger** — manual draft runs don't update requests_today; use orfree-log
+  line-count for the free-tier 900/day. gpt-5.4-Azure is OFF that budget (sponsored).
+- **NEVER hand-edit JSON strings** (a lane corrupted scam with smart-quotes + bad `\"` escape;
+  floor repaired). json.dump only. CLOY had 4 old ungated reviews with fabricated bollymeters —
+  replaced via --force gated merge.
+- **merge_reviews / build_review = the ONLY write-path into data/series for reviews.** Lanes
+  never run --apply; the floor does. `git add <valid> <ignored>` exits non-zero + breaks &&
+  chains (data/subtitles is gitignored) — commit tracked paths explicitly + verify HEAD after.
+- Deploy = wrangler direct upload, vault token inline (never echo). IndexNow hash-gated + --key
+  from site/public/*.txt. Standing deploy/push grant (gates = approval). Force-push DENIED.
+
+---
 # BollyAI — pickup state (2026-06-13 ~07:00, OVERNIGHT FLOOR SHIFT COMPLETE — review pipeline PROVEN)
 
 ## THE HEADLINE
