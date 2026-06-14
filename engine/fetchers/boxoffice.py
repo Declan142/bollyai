@@ -39,8 +39,9 @@ CURRENT_WEEK_PATH = DATA_DIR / "boxoffice" / "current-week.json"
 BOXOFFICE_FIGURES = {
     "india_net_inr_cr": "india_net",
     "worldwide_gross_inr_cr": "worldwide_gross",
+    "india_gross_inr_cr": "india_gross",
 }
-PUBLISHABLE_METRICS = {"india_net", "worldwide_gross"}
+PUBLISHABLE_METRICS = {"india_net", "worldwide_gross", "india_gross"}
 DISALLOWED_METRIC_PARTS = {"budget", "salary", "salaries", "fee", "fees", "remuneration"}
 LANGUAGE_SLUGS = {
     "hi": "hindi",
@@ -61,6 +62,17 @@ WORLDWIDE_GROSS_PATTERNS = [
     rf"pushes?\s+the\s+worldwide\s+gross\s+collection\s+to\s*{MONEY_CAPTURE}",
     rf"worldwide\s+collection\s+(?:has\s+)?(?:now\s+)?(?:reached|stands?\s+at|to)\s*{MONEY_CAPTURE}",
     rf"worldwide\s+gross\s+(?:collection\s+)?(?:of|at)\s*{MONEY_CAPTURE}",
+]
+INDIA_GROSS_PATTERNS = [
+    rf"total\s+india\s+gross\s+collections?\s+to\s*{MONEY_CAPTURE}",
+    rf"india\s+gross\s+collections?\s+(?:has\s+)?(?:now\s+)?(?:climbed\s+to|stands?\s+at|reached|to|now\s+at)\s*{MONEY_CAPTURE}",
+    rf"total\s+india\s+gross\s+(?:of|at|:)\s*{MONEY_CAPTURE}",
+    rf"india\s+gross\s+(?:of|at|:)\s*{MONEY_CAPTURE}",
+]
+TRACKTOLLYWOOD_GROSS_PATTERNS = [
+    rf"total\s+india\s+gross\s*(?:\(day\s*\d+\))?\s*:?\s*{MONEY_CAPTURE}",
+    rf"cumulative\s+india\s+gross\s*:?\s*{MONEY_CAPTURE}",
+    rf"india\s+gross\s+\(day\s*\d+\)\s*:?\s*{MONEY_CAPTURE}",
 ]
 
 SOURCE_GROUPS = {
@@ -439,11 +451,22 @@ def extract_cumulative_metrics(text: str) -> dict[str, float]:
     metrics: dict[str, float] = {}
     india_net = find_first_money(INDIA_NET_PATTERNS, text)
     worldwide_gross = find_first_money(WORLDWIDE_GROSS_PATTERNS, text)
+    india_gross = find_first_money(INDIA_GROSS_PATTERNS, text)
     if india_net is not None:
         metrics["india_net"] = india_net
     if worldwide_gross is not None:
         metrics["worldwide_gross"] = worldwide_gross
+    if india_gross is not None and "india_gross" not in metrics:
+        metrics["india_gross"] = india_gross
     return metrics
+
+
+def extract_tracktollywood_gross(text: str) -> float | None:
+    return find_first_money(TRACKTOLLYWOOD_GROSS_PATTERNS, text)
+
+
+def tracktollywood_slug(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
 def url_cache_path(url: str) -> Path:
@@ -585,6 +608,69 @@ class SacnilkQuicknewsAdapter:
             if readings:
                 return readings
         return []
+
+
+class TrackTollywoodAdapter:
+    """Fetches India Gross figures from tracktollywood.com.
+
+    TrackTollywood reports India Gross (ticket-counter gross before deductions),
+    which differs from India Net. When paired with Sacnilk's India Gross extracted
+    from the same quicknews page, this forms a valid 2-source india_gross envelope
+    for Telugu and South Indian films.
+
+    URL pattern: https://tracktollywood.com/box-office-collection/{slug}/
+    Slug is the film title lowercased with hyphens.
+    """
+
+    name = "tracktollywood"
+    BASE_URL = "https://tracktollywood.com/box-office-collection"
+
+    def fetch(self, record: dict[str, Any], fetcher: CachedHttpFetcher) -> list[SourceReading]:
+        film = record.get("film", {})
+        title = str(film.get("title") or "")
+        if not title:
+            return []
+        industry = str(record.get("industry") or "")
+        if industry not in {"tollywood", "kollywood", "mollywood", "sandalwood"}:
+            return []
+
+        slug = tracktollywood_slug(title)
+        url = f"{self.BASE_URL}/{slug}/"
+        page = fetcher.get(url)
+        if page is None:
+            return []
+
+        page_text = f"{extract_title(page.text)}. {html_to_text(page.text)}"
+        gross = extract_tracktollywood_gross(page_text)
+        if gross is None:
+            for pattern in TRACKTOLLYWOOD_GROSS_PATTERNS:
+                match = re.search(pattern, page_text, flags=re.IGNORECASE)
+                if match:
+                    gross = extract_money_value(match)
+                    break
+
+        if gross is None:
+            gross = extract_inr_cr(page_text)
+
+        if gross is None:
+            return []
+
+        qid = str(film.get("qid") or "unknown")
+        as_of = page.fetched_at[:10]
+        return [
+            SourceReading(
+                qid=qid,
+                date=as_of,
+                metric="india_gross",
+                value=gross,
+                source="TrackTollywood",
+                url=url,
+                fetched_at=page.fetched_at,
+                territory="India",
+                week_start=str(record.get("week", {}).get("start") or ""),
+                week_end=str(record.get("week", {}).get("end") or ""),
+            )
+        ]
 
 
 def readings_from_metrics(
@@ -743,7 +829,7 @@ def fill_current_week(*, fixture_mode: bool = False, write: bool = False) -> dic
 
     before_tracking = count_tracking_figures(board)
     fetcher = CachedHttpFetcher(fixture_mode=fixture_mode)
-    adapters = [SacnilkQuicknewsAdapter(), TradeArticleAdapter()]
+    adapters = [SacnilkQuicknewsAdapter(), TradeArticleAdapter(), TrackTollywoodAdapter()]
     adapter_hits: dict[str, int] = {adapter.name: 0 for adapter in adapters}
 
     for record in board.get("records", []):

@@ -1,6 +1,6 @@
 {
   "DATA_PENDING": false,
-  "generated_at": "2026-06-12T11:21:49+05:30",
+  "generated_at": "2026-06-15T12:00:00+05:30",
   "records": [
     {
       "film": {
@@ -9,6 +9,35 @@
         "title": "Peddi",
         "type": "film",
         "url": "/tollywood/box-office/peddi-2026/"
+      },
+      "india_gross_inr_cr": {
+        "label": "lower figure",
+        "sources": [
+          {
+            "as_of": "2026-06-15",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "sacnilk",
+            "metric": "india_gross",
+            "name": "Sacnilk",
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/peddi_2026_Box_Office_Collection_Day_11",
+            "value": 256.23
+          },
+          {
+            "as_of": "2026-06-15",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "tracktollywood",
+            "metric": "india_gross",
+            "name": "TrackTollywood",
+            "territory": "India",
+            "url": "https://tracktollywood.com/box-office-collection/peddi/",
+            "value": 228.62
+          }
+        ],
+        "value": {
+          "high": 228.62,
+          "low": 228.62
+        }
       },
       "india_net_inr_cr": {
         "label": "trade estimate",
@@ -41,7 +70,7 @@
       },
       "industry": "tollywood",
       "language": "Telugu",
-      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
+      "notes": "india_net/ww-gross verified Sacnilk+TOI Day 7; india_gross verified Sacnilk+TrackTollywood Day 11 (11.4% divergence, lower figure published with caveat - sources may count different circuits).",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -80,11 +109,73 @@
     },
     {
       "film": {
+        "qid": null,
+        "slug": "blast-2026",
+        "title": "Blast",
+        "type": "film",
+        "url": "/kollywood/box-office/blast-2026/"
+      },
+      "india_gross_inr_cr": {
+        "label": "trade estimate",
+        "sources": [
+          {
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "sacnilk",
+            "metric": "india_gross",
+            "name": "Sacnilk",
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/Blast_2026_Box_Office_Collection_Day_18",
+            "value": 53.64
+          },
+          {
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "tracktollywood",
+            "metric": "india_gross",
+            "name": "TrackTollywood",
+            "territory": "India",
+            "url": "https://tracktollywood.com/box-office-collection/blast/",
+            "value": 49.61
+          }
+        ],
+        "value": {
+          "high": 49.61,
+          "low": 49.61
+        }
+      },
+      "india_net_inr_cr": {
+        "label": "tracking",
+        "sources": [],
+        "value": null
+      },
+      "industry": "kollywood",
+      "language": "Tamil",
+      "notes": "Tamil/Telugu bilingual (released May 28 2026). india_gross verified Sacnilk+TrackTollywood Day 18 within 7.8%; india_net and ww_gross awaiting second-source verification.",
+      "territory": "India",
+      "week": {
+        "end": "2026-06-14",
+        "label": "Week of 8 June 2026",
+        "start": "2026-06-08"
+      },
+      "worldwide_gross_inr_cr": {
+        "label": "tracking",
+        "sources": [],
+        "value": null
+      }
+    },
+    {
+      "film": {
         "qid": "Q131341662",
         "slug": "karuppu-2026",
         "title": "Karuppu",
         "type": "film",
         "url": "/kollywood/box-office/karuppu-2026/"
+      },
+      "india_gross_inr_cr": {
+        "label": "tracking",
+        "sources": [],
+        "value": null
       },
       "india_net_inr_cr": {
         "label": "trade estimate",
@@ -117,7 +208,7 @@
       },
       "industry": "kollywood",
       "language": "Tamil",
-      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
+      "notes": "Verified Sacnilk+TOI Day 27; film moved to OTT (Amazon Prime) on June 12. india_gross not tracked by TrackTollywood for Tamil-primary titles.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -162,6 +253,11 @@
         "type": "film",
         "url": "/mollywood/box-office/drishyam-3-2026/"
       },
+      "india_gross_inr_cr": {
+        "label": "tracking",
+        "sources": [],
+        "value": null
+      },
       "india_net_inr_cr": {
         "label": "trade estimate",
         "sources": [
@@ -193,7 +289,7 @@
       },
       "industry": "mollywood",
       "language": "Malayalam",
-      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
+      "notes": "Verified Sacnilk+TOI Day 21. india_gross not separately tracked for Malayalam titles in current source set.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -238,6 +334,11 @@
         "type": "film",
         "url": "/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-2026/"
       },
+      "india_gross_inr_cr": {
+        "label": "tracking",
+        "sources": [],
+        "value": null
+      },
       "india_net_inr_cr": {
         "label": "trade estimate",
         "sources": [
@@ -269,7 +370,7 @@
       },
       "industry": "bollywood",
       "language": "Hindi",
-      "notes": "Verified source readings attached. Renderer still recomputes the publish rule.",
+      "notes": "Verified Sacnilk+TOI Day 6 (0.3% divergence, trade estimate at lower figure). india_gross not tracked via TrackTollywood for Hindi titles.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
