@@ -1,3 +1,42 @@
+# BollyAI - pickup state (2026-06-14 ~02:15, REVIEW-BLITZ + HONESTY-GATE night)
+
+## 30-SEC SNAPSHOT (this overrides older sections below)
+Overnight Vyom-orchestrated review-blitz. A 4-writer swarm tried to fill per-episode reviews and
+MASS-FABRICATED ~14,700 invented critic/audience attributions ("Critics noted", "Reviewers praised")
+on ungrounded series. CAUGHT at the floor reconcile-gate; **0 fabrication shipped.** Root cause:
+house-style said "write what critics reported" + the validator only checked viewing-claims.
+
+**Shipped + LIVE (committed 6c3c63d / 22a46b9 / d40d801, deployed + pushed + IndexNow 85):**
+- **House-style v3** (no invented attribution) + a **BUILD-BREAKING attribution gate** in
+  `scripts/batch/validate_series.py` (`engine/gates/attribution_regex.py`, episode-scope aware).
+  Verified: exits 1 on fabrication, 0 on clean. THIS IS THE NEW MOAT - never remove it.
+- **11 clean v3 reviews LIVE** on the sub-grounded series (scam-1992 10/10 incl new ep9, squid-game,
+  mirzapur, sweet-magnolias, nobody-wants-this, mr-and-mrs-smith, teach-you-a-lesson). 256 pytest pass.
+- Centralized inter-series **link mesh** (site/lib/links.ts, 5540 edges) committed + live.
+
+**✅ CLEANUP DONE (Aditya chose Strip+Regen):** catalog went 52% -> **99.8% gate-clean (558/559)**.
+TRACK-A regenerated ~35 sub-grounded failing series to rich v3; TRACK-B stripped fabricated attribution
+from ~233 ungrounded series (background bash loop + the gate's OWN detector for a deterministic
+sentence-strip on the stragglers - far more reliable than the stochastic NANO rewrite). All deployed +
+pushed + IndexNow (commits through 8cdb349). 🔸 ONLY 1 DEFERRED: **sherlock** - S4.review_body was
+fully fabricated, so it needs a grounded v3 regen (BollyAI's OWN voice on the real season, no
+attribution); reverted to its buildable state meanwhile. Fabrication stashes (git stash, several)
+retained as recoverable backups - safe to drop after a few days.
+
+**LESSON (saved to memory feedback_swarm_attribution_fabrication_gate):** a swarm + a critic-persona
+house-style + a validator blind to attribution = mass fabrication. The FLOOR reconcile-gate (re-gate
+every file independently before ship) is the guarantee, NOT writer self-reports. Mechanical de-fab work
+belongs in a bash loop (NANO), not 5hr Opus lanes that hit Anthropic rate limits.
+
+**Quarantined (recoverable):** both blitz fabrication rounds in `git stash` (3 stashes - do NOT
+blind-restore; they are fabrication). **Deferred:** ungrounded-episode completeness (only do via real
+Wikipedia-synopsis grounding, never invented reception) + the 268-series cleanup.
+
+**Honest scope truth:** ~56 series have subtitle grounding; only those + films + reception-rich titles
+support rich reviews. Completeness elsewhere = neutral plot-grounded summaries (no fake attribution) or skip.
+
+---
+
 # BollyAI - pickup state (2026-06-13 ~20:25, BIG BUILD DAY shipped)
 
 ## 30-SEC SNAPSHOT

@@ -134,7 +134,8 @@ def main() -> int:
     for item in queue:
         if processed >= args.max_items:
             break
-        key = f"{item['kind']}:{item['slug']}"
+        sn = item.get("season_hint")
+        key = f"{item['kind']}:{item['slug']}:S{sn}" if sn else f"{item['kind']}:{item['slug']}"
         rec = st.get(key, {"tries": 0, "got": False})
         if rec.get("got") or rec["tries"] >= MAX_TRIES:
             continue
