@@ -167,7 +167,7 @@ export default function EpisodePage({ params }: { params: Params }) {
                 <span className="the-moment__k">THE MOMENT</span> {the_moment}
               </p>
             )}
-            <AnswerBlock>{richEp.spoiler_free}</AnswerBlock>
+            {richEp.spoiler_free && <AnswerBlock>{richEp.spoiler_free}</AnswerBlock>}
             <p className="spoiler-warning">Full episode analysis below. Spoiler-light verdict above.</p>
             <DateModified value={series.date_modified} />
           </div>
