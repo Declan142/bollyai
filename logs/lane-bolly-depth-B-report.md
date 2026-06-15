@@ -4,7 +4,7 @@
 **Worker:** 1 of 1
 **Slug set:** black-mirror, hellbound, sweet-home, fauda, emily-in-paris, peaky-blinders, sacred-games, better-call-saul
 
-All 8 subtitle-grounded series deepened with full Mode B craft reviews (BollyAI's own disclosed analysis, no fabricated reception attribution). Pipeline used: `nano_draft.py --force` (gpt-5.4-nano, 250 RPM, azure-cog) for all series; Azure gpt-5-4 was 429-throttled throughout. Sacred-games additionally receiving dossier-grounded upgrade pass (build_review.py via NANO, 2-pass draft + edit) which was running at report time.
+All 8 subtitle-grounded series deepened with full Mode B craft reviews (BollyAI's own disclosed analysis, no fabricated reception attribution). Pipeline used: `nano_draft.py --force` (gpt-5.4-nano, 250 RPM, azure-cog) for all series; Azure gpt-5-4 was 429-throttled throughout. Sacred-games received dossier-grounded upgrade: S01 fully upgraded + S2E1/E3/E7/E8 (12/16 total); S2E2/E4/E5/E6 kept nano_draft reviews (content filter on those dossiers).
 
 ---
 
@@ -18,7 +18,7 @@ All 8 subtitle-grounded series deepened with full Mode B craft reviews (BollyAI'
 | fauda | 55/55 | 55 | PASS | 997-1713 words, em=0; S03E05 failed first pass (timeout), recovered on retry; S02E07 recovered from 179w to 1128w |
 | emily-in-paris | 40/40 | 40 | PASS | 1022-1731 words, em=0 |
 | peaky-blinders | 36/36 | 36 | PASS | 964-1695 words, em=0 |
-| sacred-games | 16/16 | 16 | PASS | 1199-1680 words (nano_draft); 2/16 dossier-grounded upgrade in progress |
+| sacred-games | 16/16 | 16 | PASS | 939-1296 words; S01 fully dossier-grounded + S2E1/E3/E7/E8; S2E2/E4/E5/E6 nano_draft (content filter on dossiers) |
 | better-call-saul | 63/63 | 63 | PASS | 1156-1591 words, em=0 |
 | **Total** | **281/281** | **281** | **8/8 PASS** | |
 
@@ -39,6 +39,8 @@ PASS peaky-blinders
 PASS sacred-games
 PASS better-call-saul
 ```
+
+Post-process fix applied: 69 episodes across 7 series had `## ##` double-heading artifacts from nano_draft generation - stripped to `## ` (no semantic change, render-only fix). Validate re-run: all 8 still PASS.
 
 ---
 
