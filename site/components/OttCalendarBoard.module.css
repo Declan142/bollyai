@@ -1,0 +1,100 @@
+/* OttCalendarBoard - component-scoped (CSS Module). Turns the flat OTT release list into a
+   month-grouped editorial board: a sticky month spine on the left, date-chipped rows with
+   verdict line, platform/desk tags and the mandatory source attribution. Graceful empty
+   state when the window is quiet. Scoped CSS only; tokens from globals :root. */
+
+.board { display: grid; gap: 30px; }
+
+.month { display: grid; gap: 12px; }
+.monthHead {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-hair);
+}
+.monthHead h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 420;
+  color: var(--text);
+}
+.monthHead span {
+  font-family: var(--font-number);
+  font-size: .72rem;
+  letter-spacing: .06em;
+  color: var(--text-faint);
+}
+
+.rows { display: grid; gap: 2px; }
+
+.row {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: start;
+  padding: 16px 8px;
+  border-bottom: 1px solid var(--border-hair);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background var(--dur-hover) var(--ease-out);
+}
+.row:hover { background: oklch(100% 0 0 / .03); }
+.rowStatic { cursor: default; }
+
+.date {
+  display: grid;
+  justify-items: center;
+  gap: 1px;
+  padding: 8px 6px;
+  border: 1px solid var(--border-hair);
+  border-radius: 7px;
+  background: color-mix(in oklch, var(--surface) 70%, black);
+}
+.date b { font-family: var(--font-number); font-size: 1.35rem; font-weight: 700; line-height: 1; color: var(--text); }
+.date span { font-family: var(--font-number); font-size: .56rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-2); }
+
+.main { display: grid; gap: 6px; min-width: 0; }
+.title {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  line-height: 1.12;
+  color: var(--text);
+}
+.row:hover .title { color: var(--accent); }
+.verdict { margin: 0; color: var(--text-dim); font-size: .92rem; line-height: 1.5; }
+.source { font-family: var(--font-number); font-size: .68rem; color: var(--text-faint); }
+.source a { color: var(--text-faint); text-decoration: underline; text-underline-offset: 2px; }
+.source a:hover { color: var(--text-dim); }
+
+.tags { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+.tag {
+  font-family: var(--font-number);
+  font-size: .64rem;
+  letter-spacing: .04em;
+  padding: 4px 9px;
+  border: 1px solid var(--border-hair);
+  border-radius: 999px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.tag.platform { color: var(--accent-2); border-color: color-mix(in oklch, var(--accent-2) 35%, var(--border)); }
+
+.empty {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: 56px 20px;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  color: var(--text-dim);
+}
+.empty strong { font-family: var(--font-display); font-size: 1.3rem; color: var(--text); }
+.empty p { margin: 0; max-width: 46ch; font-size: .92rem; line-height: 1.55; }
+
+@media (max-width: 600px) {
+  .row { grid-template-columns: 52px minmax(0, 1fr); }
+  .tags { grid-column: 2; flex-direction: row; flex-wrap: wrap; align-items: flex-start; }
+}

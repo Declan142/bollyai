@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { AnswerBlock } from "../../components/AnswerBlock";
 import { BoxOfficeBoardTable } from "../../components/BoxOfficeBoardTable";
 import { DateModified } from "../../components/DateModified";
 import { JsonLd } from "../../components/JsonLd";
+import { SectionHero } from "../../components/SectionHero";
 import {
   boxOfficeDatasetJsonLd,
   boxOfficeItemListJsonLd,
@@ -35,15 +35,23 @@ export default function BoxOfficeHubPage() {
         })}
       />
       <JsonLd data={boxOfficeItemListJsonLd(board)} />
-      <section className="section-head box-office-head">
-        <p className="eyebrow">Box office desk</p>
-        <h1>India Box Office</h1>
-        <AnswerBlock>
-          Current-week theatrical tracking for India. A rupee figure appears only after independent trade sources clear
-          BollyAI&apos;s publish rule, so unverified rows stay in tracking.
-        </AnswerBlock>
+      <SectionHero
+        eyebrow="Box office desk"
+        title="India box office, the conservative read"
+        lede={
+          <>
+            Current-week theatrical tracking for India. A rupee figure appears <b>only after independent trade
+            sources clear the publish rule,</b> so unverified rows stay in tracking rather than guessing.
+          </>
+        }
+        stats={[
+          { value: String(board.records.length), label: "Films tracked" },
+          { value: board.week.label, label: "Trade week" },
+          { value: board.territory, label: "Territory" }
+        ]}
+      >
         <DateModified value={board.generated_at} />
-      </section>
+      </SectionHero>
 
       {board.DATA_PENDING && (
         <section className="panel bo-alert" aria-label="Data status">

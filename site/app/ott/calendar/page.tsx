@@ -1,7 +1,7 @@
-import { AnswerBlock } from "../../../components/AnswerBlock";
 import { DateModified } from "../../../components/DateModified";
 import { JsonLd } from "../../../components/JsonLd";
-import { DESKS } from "../../../lib/desks";
+import { SectionHero } from "../../../components/SectionHero";
+import { OttCalendarBoard } from "../../../components/OttCalendarBoard";
 import { formatDate, getOttCalendar } from "../../../lib/data";
 import { pageSeo } from "../../../lib/seo";
 
@@ -15,9 +15,6 @@ export const metadata = {
 export default function OttCalendarPage() {
   const calendar = getOttCalendar();
   const platforms = Array.from(new Set(calendar.entries.map((entry) => entry.platform))).sort();
-  const answer = `BollyAI is tracking ${calendar.entries.length} verified OTT releases from ${formatDate(
-    calendar.window.start
-  )} to ${formatDate(calendar.window.end)} across ${platforms.length} platforms.`;
 
   return (
     <main className="page-shell" data-desk="streaming">
@@ -37,33 +34,26 @@ export default function OttCalendarPage() {
           }))
         }}
       />
-      <section className="section-head">
-        <p className="eyebrow">Streaming desk</p>
-        <h1>OTT Calendar</h1>
-        <AnswerBlock>{answer}</AnswerBlock>
-        <DateModified value={calendar.generated_at} />
-      </section>
 
-      <section className="calendar-list">
-        {calendar.entries.map((entry) => {
-          const desk = DESKS.find((item) => item.slug === entry.industry);
-          const title = entry.url ? <a href={entry.url}>{entry.title}</a> : entry.title;
-          return (
-            <article className="calendar-row" data-desk={entry.industry} key={`${entry.title}-${entry.platform}-${entry.release_date}`}>
-              <time dateTime={entry.release_date}>{formatDate(entry.release_date)}</time>
-              <div className="calendar-row__main">
-                <strong>{title}</strong>
-                <p className="calendar-row__verdict">{entry.verdict_line}</p>
-              </div>
-              <span className="pill">{entry.platform}</span>
-              <span className="pill">{desk?.label ?? entry.industry}</span>
-              <span className="source-line">
-                Source: <a href={entry.source_url}>{entry.source_url}</a> ({entry.source_type})
-              </span>
-            </article>
-          );
-        })}
-      </section>
+      <SectionHero
+        eyebrow="Streaming desk · OTT Calendar"
+        title="What lands on OTT, and when"
+        lede={
+          <>
+            Verified release dates across every platform, each row carrying its source. No platform view counts,
+            no guesses, just <b>dates BollyAI can stand behind.</b>
+          </>
+        }
+        stats={[
+          { value: String(calendar.entries.length), label: "Verified releases" },
+          { value: String(platforms.length), label: "Platforms" },
+          { value: `${formatDate(calendar.window.start)} - ${formatDate(calendar.window.end)}`, label: "Tracking window" }
+        ]}
+      >
+        <DateModified value={calendar.generated_at} />
+      </SectionHero>
+
+      <OttCalendarBoard entries={calendar.entries} />
     </main>
   );
 }
