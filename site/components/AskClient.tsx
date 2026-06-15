@@ -85,7 +85,7 @@ const RUNG_BLURB: Record<string, string> = {
 };
 
 type Answer =
-  | { kind: "verdict"; rec: Rec }
+  | { kind: "verdict"; rec: Rec; where?: boolean }
   | { kind: "spoiler"; rec: Rec }
   | { kind: "rank"; label: string; list: Rec[] }
   | { kind: "none"; q: string };
@@ -173,14 +173,15 @@ function answerFor(raw: string, index: Rec[]): Answer {
     if (wantsNow) pool = [...pool].sort((a, b) => ((b.y ?? 0) - (a.y ?? 0)) || (b.sc! - a.sc!));
     const list = pool.slice(0, 5);
     if (list.length === 0) return { kind: "none", q };
-    const bits = [genres.map((g) => g.replace("-", " ")).join(" "), region?.label].filter(Boolean);
+    const bits = [region?.label, genres.map((g) => g.replace("-", " ")).join(" ")].filter(Boolean);
     const label = `Best ${bits.join(" ") || "grounded"} ${list.length > 1 ? "titles" : "title"}${wantsNow ? ", newest first" : ""}`.replace(/\s+/g, " ");
     return { kind: "rank", label, list };
   }
 
-  // Where-to-watch + worth-watching both resolve to a single grounded title card.
+  // Where-to-watch + worth-watching both resolve to a single grounded title card;
+  // the where flag promotes the platform into the headline.
   const rec = matchEntity(qNorm, index);
-  if (rec) return { kind: "verdict", rec };
+  if (rec) return { kind: "verdict", rec, where: isWhere };
 
   // No entity, but a genre/region was named -> treat as an implicit "best" query.
   const region = detectRegion(qNorm);
@@ -196,7 +197,9 @@ const EXAMPLES = [
   "Is The Glory worth watching?",
   "Best Indian crime thriller right now",
   "Where to watch Squid Game",
-  "Best Korean thriller"
+  "Best Korean thriller",
+  "Best comedy series",
+  "Is Squid Game spoiler-heavy?"
 ];
 
 function Stars({ score }: { score: number }) {
@@ -208,8 +211,8 @@ function Stars({ score }: { score: number }) {
   );
 }
 
-function VerdictCard({ rec }: { rec: Rec }) {
-  const meta = [rec.o, rec.p, rec.g.slice(0, 2).join(" · ")].filter(Boolean).join("  ·  ");
+function VerdictCard({ rec, where }: { rec: Rec; where?: boolean }) {
+  const meta = [rec.o, rec.g.slice(0, 2).join(" · ")].filter(Boolean).join("  ·  ");
   return (
     <article className="ask-answer" data-desk={rec.k === "Series" ? "streaming" : "bollywood"}>
       <header className="ask-answer__head">
@@ -218,6 +221,7 @@ function VerdictCard({ rec }: { rec: Rec }) {
           <h2 className="ask-answer__title">
             <a href={rec.u}>{rec.t}</a>
           </h2>
+          {rec.p && <span className="ask-answer__platform" data-where={where ? "" : undefined}>{where ? "Streams on " : ""}{rec.p}</span>}
           {meta && <p className="ask-answer__meta">{meta}</p>}
         </div>
         {rec.v && (
@@ -229,9 +233,11 @@ function VerdictCard({ rec }: { rec: Rec }) {
       </header>
 
       <p className="ask-answer__lead">
-        {rec.v
-          ? <>BollyAI calls {rec.t} <strong>{RUNG_BLURB[rec.v] ?? rec.v.toLowerCase()}</strong>{rec.sc !== null ? <>, BollyMeter <strong>{rec.sc.toFixed(1)}</strong>.</> : "."}</>
-          : <>Here is what BollyAI has on {rec.t}.</>}
+        {where && rec.p
+          ? <>{rec.t} streams on <strong>{rec.p}</strong>{rec.o ? ` (${rec.o})` : ""}{rec.v ? <>. BollyAI calls it <strong>{RUNG_BLURB[rec.v] ?? rec.v.toLowerCase()}</strong>{rec.sc !== null ? <>, BollyMeter <strong>{rec.sc.toFixed(1)}</strong>.</> : "."}</> : "."}</>
+          : rec.v
+            ? <>BollyAI calls {rec.t} <strong>{RUNG_BLURB[rec.v] ?? rec.v.toLowerCase()}</strong>{rec.sc !== null ? <>, BollyMeter <strong>{rec.sc.toFixed(1)}</strong>.</> : "."}</>
+            : <>Here is what BollyAI has on {rec.t}.</>}
       </p>
 
       {rec.b && (
@@ -300,7 +306,7 @@ function RankCard({ label, list }: { label: string; list: Rec[] }) {
   );
 }
 
-function NoAnswer({ q }: { q: string }) {
+function NoAnswer({ q, onPick }: { q: string; onPick: (s: string) => void }) {
   return (
     <article className="ask-answer ask-answer--none">
       <h2 className="ask-answer__title">No grounded verdict for that yet</h2>
@@ -309,6 +315,14 @@ function NoAnswer({ q }: { q: string }) {
         the subtitles. {q ? <>Nothing in the catalogue matches &ldquo;{q.slice(0, 80)}&rdquo;.</> : null} It will not
         invent a verdict or a number to fill the gap.
       </p>
+      <div className="ask-answer__try">
+        <span className="ask-answer__try-label">Try one of these</span>
+        <div className="ask__examples">
+          {EXAMPLES.slice(0, 4).map((ex) => (
+            <button type="button" className="ask__chip" key={ex} onClick={() => onPick(ex)}>{ex}</button>
+          ))}
+        </div>
+      </div>
       <nav className="ask-answer__links">
         <a className="ask-answer__cta" href={`/search/?q=${encodeURIComponent(q)}`}>Search the catalogue &rarr;</a>
         <a className="ask-answer__link" href="/series/">Browse every series</a>
@@ -377,10 +391,10 @@ export function AskClient() {
 
       {answer && (
         <div className="ask__result">
-          {answer.kind === "verdict" && <VerdictCard rec={answer.rec} />}
+          {answer.kind === "verdict" && <VerdictCard rec={answer.rec} where={answer.where} />}
           {answer.kind === "spoiler" && <SpoilerCard rec={answer.rec} />}
           {answer.kind === "rank" && <RankCard label={answer.label} list={answer.list} />}
-          {answer.kind === "none" && <NoAnswer q={answer.q} />}
+          {answer.kind === "none" && <NoAnswer q={answer.q} onPick={(s) => { setQ(s); setAsked(s); }} />}
           <p className="ask__fence">
             BollyAI has not watched anything. It has read everyone who has. Every verdict, score
             and line above is assembled from grounded critic, audience and subtitle data - never invented.

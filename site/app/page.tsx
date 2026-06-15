@@ -66,6 +66,38 @@ export default function HomePage() {
     <main className="page-shell home-hub" data-desk="bollywood">
       {ottItems.length > 0 && <OttCalendarHero items={ottItems} />}
 
+      <section className="home-ask full-bleed" aria-label="Ask BollyAI">
+        <div className="home-ask__inner">
+          <div className="home-ask__copy">
+            <p className="home-ask__eyebrow">The answer engine</p>
+            <h2 className="home-ask__title">Ask BollyAI anything</h2>
+            <p className="home-ask__sub">
+              Is it worth watching? The best in a genre? Where it streams? One question, a grounded verdict - never an invented score.
+            </p>
+          </div>
+          <div className="home-ask__field">
+            <form className="home-ask__bar" action="/ask/" method="get" role="search">
+              <span className="home-ask__spark" aria-hidden="true">◆</span>
+              <input
+                className="home-ask__input"
+                type="search"
+                name="q"
+                placeholder="Is The Glory worth watching?"
+                aria-label="Ask BollyAI a question"
+              />
+              <button className="home-ask__go" type="submit">Ask</button>
+            </form>
+            <div className="home-ask__examples">
+              {["Best Indian crime thriller right now", "Where to watch Squid Game", "Is Squid Game spoiler-heavy?"].map((q) => (
+                <a className="home-ask__chip" href={`/ask/?q=${encodeURIComponent(q)}`} key={q}>
+                  {q}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="ticker full-bleed" aria-label="Trade ticker">
         <div className="ticker__track">
           {[0, 1].map((copy) => (
