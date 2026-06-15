@@ -28,10 +28,10 @@ export function VerdictDiary() {
   // Pre-mount placeholder so the static HTML never flashes an empty diary as the final state.
   if (!mounted) {
     return (
-      <main className={styles.shell} data-desk="streaming">
+      <main className={`page-shell ${styles.shell}`} data-desk="streaming">
         <header className={styles.head}>
           <span className={styles.eyebrow}>BollyAI · Your Diary</span>
-          <h1 className={styles.title}>Verdict Diary</h1>
+          <h1>Verdict Diary</h1>
           <p className={styles.lede}>Loading your diary from this device...</p>
         </header>
       </main>
@@ -51,7 +51,7 @@ export function VerdictDiary() {
     : null;
 
   return (
-    <main className={styles.shell} data-desk="streaming">
+    <main className={`page-shell ${styles.shell}`} data-desk="streaming">
       <header className={styles.head}>
         <span className={styles.eyebrow}>BollyAI · Your Diary</span>
         <h1 className={styles.title}>Verdict Diary</h1>
