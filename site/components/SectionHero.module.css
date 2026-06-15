@@ -55,6 +55,7 @@
   letter-spacing: -.02em;
   color: var(--text);
   text-wrap: balance;
+  overflow-wrap: break-word;
 }
 
 .lede {

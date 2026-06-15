@@ -1,0 +1,144 @@
+/* UtilityPage - component-scoped (CSS Module). Shared presentation for the utility and
+   legal surfaces (how-bollyai-works, tools, contact, privacy, disclaimer, takedown) so no
+   corner of the site reads like an unstyled stub. Extends the LIVE language; tokens from
+   globals :root only; amber stays scarce (ignite-on-hover, never decorative tiling). */
+
+.lead {
+  margin: 0;
+  max-width: 64ch;
+  color: var(--text-dim);
+  font-size: clamp(1.02rem, 1.6vw, 1.18rem);
+  line-height: 1.62;
+}
+.lead b { color: var(--text); font-weight: 600; }
+
+.sections { display: grid; gap: clamp(30px, 5vw, 48px); margin-top: clamp(28px, 5vw, 44px); }
+.section { display: grid; gap: 14px; }
+.kicker {
+  font-family: var(--font-number);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+.h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3.2vw, 2.2rem);
+  font-weight: 420;
+  line-height: 1.08;
+  color: var(--text);
+}
+
+/* numbered method steps */
+.steps { display: grid; gap: 2px; counter-reset: step; }
+.step {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 18px 6px;
+  border-bottom: 1px solid var(--border-hair);
+}
+.stepNum {
+  font-family: var(--font-number);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+}
+.stepBody { display: grid; gap: 5px; }
+.stepBody strong { font-family: var(--font-display); font-size: 1.16rem; font-weight: 600; color: var(--text); }
+.stepBody p { margin: 0; color: var(--text-dim); font-size: .97rem; line-height: 1.58; }
+
+/* card grid (tools, contact channels, fence detail) */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(248px, 1fr)); gap: 16px; }
+.card {
+  display: grid;
+  gap: 9px;
+  align-content: start;
+  padding: 22px;
+  border: 1px solid var(--border-hair);
+  border-radius: 10px;
+  background: color-mix(in oklch, var(--surface) 86%, black);
+  text-decoration: none;
+  transition: transform var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out);
+}
+.card[href]:hover { transform: translateY(-4px); border-color: color-mix(in oklch, var(--accent) 55%, transparent); }
+.cardKicker {
+  font-family: var(--font-number);
+  font-size: .6rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+.card h3 { margin: 0; font-family: var(--font-display); font-size: 1.28rem; font-weight: 600; line-height: 1.1; color: var(--text); }
+.card p { margin: 0; color: var(--text-dim); font-size: .94rem; line-height: 1.56; }
+.card a { color: var(--accent); text-decoration: none; font-family: var(--font-number); font-size: .82rem; }
+.card a:hover { color: var(--accent-hot); }
+.cardArrow {
+  margin-top: 4px;
+  font-family: var(--font-number);
+  font-size: .8rem;
+  color: var(--accent);
+  transition: transform var(--dur-hover) var(--ease-out);
+}
+.card[href]:hover .cardArrow { transform: translateX(4px); }
+
+/* honesty-fence detail (rest neutral, ignite on hover - scarce accent) */
+.fences { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.fence {
+  display: grid;
+  gap: 7px;
+  padding: 18px;
+  border: 1px solid var(--border-hair);
+  border-top: 1.5px solid var(--border-hair);
+  border-radius: 8px;
+  background: oklch(100% 0 0 / .015);
+  transition: border-top-color var(--dur-hover) var(--ease-out);
+}
+.fence:hover { border-top-color: var(--accent-2); }
+.fence strong { font-family: var(--font-display); font-size: 1.06rem; color: var(--text); }
+.fence p { margin: 0; color: var(--text-dim); font-size: .9rem; line-height: 1.52; }
+
+/* ---- legal layout (no hero, just clean branded type) ---------------------- */
+.legal { width: min(760px, 100%); display: grid; gap: 22px; }
+.legalHead { display: grid; gap: 12px; padding-bottom: 22px; border-bottom: 1px solid var(--border-hair); }
+.eyebrow {
+  font-family: var(--font-number);
+  font-size: .72rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -.015em;
+  color: var(--text);
+}
+.legalLead {
+  margin: 0;
+  padding: 14px 18px;
+  border-left: 3px solid var(--accent);
+  background: linear-gradient(90deg, color-mix(in oklch, var(--accent) 10%, transparent), transparent 80%);
+  color: var(--text);
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  line-height: 1.55;
+}
+.prose { display: grid; gap: 18px; }
+.prose h2 {
+  margin: 8px 0 0;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.prose p { margin: 0; color: var(--text-dim); font-size: 1rem; line-height: 1.65; }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.prose a:hover { color: var(--accent-hot); }
+.prose ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; color: var(--text-dim); font-size: 1rem; line-height: 1.6; }
