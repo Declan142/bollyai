@@ -41,13 +41,18 @@ export type Ending = {
 
 const endingsDir = path.resolve(process.cwd(), "..", "data", "endings");
 
+// Memoized once per build process (was re-reading all ending files per call).
+let _allEndings: Ending[] | null = null;
+
 export function getAllEndings(): Ending[] {
+  if (_allEndings) return _allEndings;
   if (!fs.existsSync(endingsDir)) return [];
-  return fs
+  _allEndings = fs
     .readdirSync(endingsDir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => JSON.parse(fs.readFileSync(path.join(endingsDir, f), "utf8")) as Ending)
     .sort((a, b) => b.date_modified.localeCompare(a.date_modified));
+  return _allEndings;
 }
 
 export function getEnding(slug: string): Ending | undefined {

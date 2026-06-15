@@ -1,6 +1,6 @@
 {
   "DATA_PENDING": false,
-  "generated_at": "2026-06-15T12:00:00+05:30",
+  "generated_at": "2026-06-15T18:00:00+05:30",
   "records": [
     {
       "film": {
@@ -34,6 +34,7 @@
             "value": 228.62
           }
         ],
+        "trade_estimate_confidence": "2 sources within 11.4%",
         "value": {
           "high": 228.62,
           "low": 228.62
@@ -63,6 +64,7 @@
             "value": 187.25
           }
         ],
+        "trade_estimate_confidence": "2 sources within 0.0%",
         "value": {
           "high": 187.25,
           "low": 187.25
@@ -70,7 +72,7 @@
       },
       "industry": "tollywood",
       "language": "Telugu",
-      "notes": "india_net/ww-gross verified Sacnilk+TOI Day 7; india_gross verified Sacnilk+TrackTollywood Day 11 (11.4% divergence, lower figure published with caveat - sources may count different circuits).",
+      "notes": "india_net/ww-gross: Sacnilk+TOI Day 7. india_gross: Sacnilk+TrackTollywood Day 11 (11.4% divergence, lower published - TrackTollywood counts AP/TS+KA circuits vs Sacnilk all-India).",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -101,6 +103,7 @@
             "value": 271.33
           }
         ],
+        "trade_estimate_confidence": "2 sources within 0.0%",
         "value": {
           "high": 271.33,
           "low": 271.33
@@ -139,6 +142,7 @@
             "value": 49.61
           }
         ],
+        "trade_estimate_confidence": "2 sources within 7.8%",
         "value": {
           "high": 49.61,
           "low": 49.61
@@ -146,12 +150,23 @@
       },
       "india_net_inr_cr": {
         "label": "tracking",
-        "sources": [],
+        "sources": [
+          {
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "sacnilk",
+            "metric": "india_net",
+            "name": "Sacnilk",
+            "territory": "India",
+            "url": "https://www.sacnilk.com/quicknews/Blast_2026_Box_Office_Collection_Day_18",
+            "value": 46.65
+          }
+        ],
         "value": null
       },
       "industry": "kollywood",
       "language": "Tamil",
-      "notes": "Tamil/Telugu bilingual (released May 28 2026). india_gross verified Sacnilk+TrackTollywood Day 18 within 7.8%; india_net and ww_gross awaiting second-source verification.",
+      "notes": "Tamil/Telugu bilingual (released May 28 2026). india_gross verified Sacnilk+TrackTollywood Day 18 within 7.8%. india_net tracking: Sacnilk single-source 46.65 Cr (Bollywood Hungama does not track Tamil mid-tier; second source needed to publish).",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -160,7 +175,18 @@
       },
       "worldwide_gross_inr_cr": {
         "label": "tracking",
-        "sources": [],
+        "sources": [
+          {
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "sacnilk",
+            "metric": "worldwide_gross",
+            "name": "Sacnilk",
+            "territory": "Worldwide",
+            "url": "https://www.sacnilk.com/quicknews/Blast_2026_Box_Office_Collection_Day_18",
+            "value": 67.69
+          }
+        ],
         "value": null
       }
     },
@@ -201,6 +227,7 @@
             "value": 194.81
           }
         ],
+        "trade_estimate_confidence": "2 sources within 0.0%",
         "value": {
           "high": 194.81,
           "low": 194.81
@@ -208,7 +235,7 @@
       },
       "industry": "kollywood",
       "language": "Tamil",
-      "notes": "Verified Sacnilk+TOI Day 27; film moved to OTT (Amazon Prime) on June 12. india_gross not tracked by TrackTollywood for Tamil-primary titles.",
+      "notes": "Verified Sacnilk+TOI Day 27; film moved to OTT (Amazon Prime) June 12. india_gross tracking: TrackTollywood does not reliably separate Hindi-territory gross from Tamil totals for this title.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -239,6 +266,7 @@
             "value": 306.05
           }
         ],
+        "trade_estimate_confidence": "2 sources within 0.0%",
         "value": {
           "high": 306.05,
           "low": 306.05
@@ -282,6 +310,7 @@
             "value": 107.7
           }
         ],
+        "trade_estimate_confidence": "2 sources within 0.0%",
         "value": {
           "high": 107.7,
           "low": 107.7
@@ -289,7 +318,7 @@
       },
       "industry": "mollywood",
       "language": "Malayalam",
-      "notes": "Verified Sacnilk+TOI Day 21. india_gross not separately tracked for Malayalam titles in current source set.",
+      "notes": "Verified Sacnilk+TOI Day 21. india_gross not tracked separately for Malayalam titles in current source set.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -320,6 +349,7 @@
             "value": 236.59
           }
         ],
+        "trade_estimate_confidence": "2 sources within 0.0%",
         "value": {
           "high": 236.59,
           "low": 236.59
@@ -343,34 +373,35 @@
         "label": "trade estimate",
         "sources": [
           {
-            "as_of": "2026-06-12",
-            "fetched_at": "2026-06-12T05:51:48Z",
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
             "group": "sacnilk",
             "metric": "india_net",
             "name": "Sacnilk",
             "territory": "India",
-            "url": "https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_6",
-            "value": 34.25
+            "url": "https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_10",
+            "value": 43.7
           },
           {
-            "as_of": "2026-06-12",
-            "fetched_at": "2026-06-12T05:51:49Z",
-            "group": "times_of_india",
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "bollywood_hungama",
             "metric": "india_net",
-            "name": "Times of India",
+            "name": "Bollywood Hungama",
             "territory": "India",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms",
-            "value": 34.15
+            "url": "https://www.bollywoodhungama.com/movie/hai-jawani-toh-ishq-hona-hai/box-office/",
+            "value": 44.31
           }
         ],
+        "trade_estimate_confidence": "2 sources within 1.4%",
         "value": {
-          "high": 34.15,
-          "low": 34.15
+          "high": 43.7,
+          "low": 43.7
         }
       },
       "industry": "bollywood",
       "language": "Hindi",
-      "notes": "Verified Sacnilk+TOI Day 6 (0.3% divergence, trade estimate at lower figure). india_gross not tracked via TrackTollywood for Hindi titles.",
+      "notes": "Updated to Day 10 (June 14): Sacnilk 43.70 + Bollywood Hungama 44.31 = 1.4% divergence, trade estimate. WW gross: Sacnilk 65.51 + BH 63.70 = 2.8%, trade estimate. First BH-sourced figure in this board.",
       "territory": "India",
       "week": {
         "end": "2026-06-14",
@@ -381,29 +412,30 @@
         "label": "trade estimate",
         "sources": [
           {
-            "as_of": "2026-06-12",
-            "fetched_at": "2026-06-12T05:51:48Z",
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
             "group": "sacnilk",
             "metric": "worldwide_gross",
             "name": "Sacnilk",
             "territory": "Worldwide",
-            "url": "https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_6",
-            "value": 51.96
+            "url": "https://www.sacnilk.com/quicknews/hai_jawani_toh_ishq_hona_hai_2025_Box_Office_Collection_Day_10",
+            "value": 65.51
           },
           {
-            "as_of": "2026-06-12",
-            "fetched_at": "2026-06-12T05:51:49Z",
-            "group": "times_of_india",
+            "as_of": "2026-06-14",
+            "fetched_at": "2026-06-15T00:00:00Z",
+            "group": "bollywood_hungama",
             "metric": "worldwide_gross",
-            "name": "Times of India",
+            "name": "Bollywood Hungama",
             "territory": "Worldwide",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/hai-jawani-toh-ishq-hona-hai-box-office-collection-day-6-varun-dhawan-starrer-sails-past-rs-50-crore-worldwide-amid-peddi-fever/articleshow/131646583.cms",
-            "value": 51.85
+            "url": "https://www.bollywoodhungama.com/movie/hai-jawani-toh-ishq-hona-hai/box-office/",
+            "value": 63.7
           }
         ],
+        "trade_estimate_confidence": "2 sources within 2.8%",
         "value": {
-          "high": 51.85,
-          "low": 51.85
+          "high": 63.7,
+          "low": 63.7
         }
       }
     }

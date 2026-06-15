@@ -74,6 +74,16 @@ TRACKTOLLYWOOD_GROSS_PATTERNS = [
     rf"cumulative\s+india\s+gross\s*:?\s*{MONEY_CAPTURE}",
     rf"india\s+gross\s+\(day\s*\d+\)\s*:?\s*{MONEY_CAPTURE}",
 ]
+BOLLYWOOD_HUNGAMA_NET_PATTERNS = [
+    rf"india\s+box\s+office\s+nett?\s*:?\s*{MONEY_CAPTURE}",
+    rf"india\s+nett?\s+collection\s*:?\s*{MONEY_CAPTURE}",
+    rf"nett?\s+collection\s+(?:india\s+)?:?\s*{MONEY_CAPTURE}",
+    rf"total\s+india\s+(?:box\s+office\s+)?nett?\s*:?\s*{MONEY_CAPTURE}",
+]
+BOLLYWOOD_HUNGAMA_WW_PATTERNS = [
+    rf"worldwide\s+gross\s*:?\s*{MONEY_CAPTURE}",
+    rf"total\s+worldwide\s+gross\s*:?\s*{MONEY_CAPTURE}",
+]
 
 SOURCE_GROUPS = {
     "sacnilk": "sacnilk",
@@ -82,11 +92,14 @@ SOURCE_GROUPS = {
     "boxofficeindia": "boxofficeindia",
     "mojo_india": "mojo_india",
     "box_office_mojo": "mojo_india",
-    "bollywood_hungama": "studio_pr",
-    "bh": "studio_pr",
+    "bollywood_hungama": "bollywood_hungama",
+    "bh": "bollywood_hungama",
     "taran_adarsh": "studio_pr",
     "taran": "studio_pr",
     "toi": "times_of_india",
+    "ormax": "ormax",
+    "ormax_media": "ormax",
+    "times_of_india": "times_of_india",
 }
 PR_LEANING = {"bollywood_hungama", "bh", "taran_adarsh", "taran"}
 PUBLISH_COPY = {
@@ -214,6 +227,7 @@ def publish_rule(readings: list[SourceReading]) -> dict[str, Any]:
             "agreement_pct": round(best_pct, 2),
             "basis_sources": [left.source, right.source],
             "caveat": False,
+            "trade_estimate_confidence": f"2 sources within {round(best_pct, 1)}%",
         }
 
     if best_pct <= 25:
@@ -227,6 +241,7 @@ def publish_rule(readings: list[SourceReading]) -> dict[str, Any]:
             "basis_sources": [left.source, right.source],
             "caveat": True,
             "caveat_text": "Sources vary by more than 10 percent, so the lower figure is shown.",
+            "trade_estimate_confidence": f"2 sources within {round(best_pct, 1)}%",
         }
 
     return {
@@ -673,6 +688,86 @@ class TrackTollywoodAdapter:
         ]
 
 
+class BollywoodHungamaAdapter:
+    """Fetches India Net + Worldwide Gross from bollywoodhungama.com.
+
+    BH publishes day-wise tables and lifetime totals under /movie/{slug}/box-office/.
+    It covers Hindi (Bollywood) films comprehensively; South Indian films are tracked
+    with a lag and in aggregate, so this adapter fires only for bollywood industry records
+    where BH data is reliable.
+
+    When BH's India Net agrees with Sacnilk's India Net within 10%, the pair forms a
+    trade_estimate envelope for Hindi films. BH is classified as bollywood_hungama group
+    (not studio_pr) so it can form valid pairs with Sacnilk, but remains PR_LEANING
+    so it cannot pair with Taran Adarsh or other PR-only sources.
+
+    Ormax Media (ormaxmedia.com) is registered as a source for PERIOD-LEVEL totals
+    (H1, annual) and credentialed methodology reports. It does not produce Day N per-film
+    figures so there is no live Ormax adapter in this module; cite Ormax via static
+    source entries in period-summary data files.
+    """
+
+    name = "bollywood_hungama"
+    BASE_URL = "https://www.bollywoodhungama.com/movie"
+
+    def fetch(self, record: dict[str, Any], fetcher: CachedHttpFetcher) -> list[SourceReading]:
+        film = record.get("film", {})
+        title = str(film.get("title") or "")
+        industry = str(record.get("industry") or "")
+        if industry != "bollywood" or not title:
+            return []
+
+        slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+        url = f"{self.BASE_URL}/{slug}/box-office/"
+        page = fetcher.get(url)
+        if page is None:
+            return []
+
+        page_text = f"{extract_title(page.text)}. {html_to_text(page.text)}"
+        if not title_matches_film(extract_title(page.text), title):
+            return []
+
+        qid = str(film.get("qid") or "unknown")
+        as_of = page.fetched_at[:10]
+        readings: list[SourceReading] = []
+
+        net = find_first_money(BOLLYWOOD_HUNGAMA_NET_PATTERNS, page_text)
+        if net is not None:
+            readings.append(
+                SourceReading(
+                    qid=qid,
+                    date=as_of,
+                    metric="india_net",
+                    value=net,
+                    source="Bollywood Hungama",
+                    url=url,
+                    fetched_at=page.fetched_at,
+                    territory="India",
+                    week_start=str(record.get("week", {}).get("start") or ""),
+                    week_end=str(record.get("week", {}).get("end") or ""),
+                )
+            )
+
+        ww = find_first_money(BOLLYWOOD_HUNGAMA_WW_PATTERNS, page_text)
+        if ww is not None:
+            readings.append(
+                SourceReading(
+                    qid=qid,
+                    date=as_of,
+                    metric="worldwide_gross",
+                    value=ww,
+                    source="Bollywood Hungama",
+                    url=url,
+                    fetched_at=page.fetched_at,
+                    territory="Worldwide",
+                    week_start=str(record.get("week", {}).get("start") or ""),
+                    week_end=str(record.get("week", {}).get("end") or ""),
+                )
+            )
+
+        return readings
+
+
 def readings_from_metrics(
     record: dict[str, Any],
     source: dict[str, Any],
@@ -806,11 +901,14 @@ def dedupe_readings(readings: list[SourceReading]) -> list[SourceReading]:
 def build_weekly_figure(metric: str, readings: list[SourceReading]) -> dict[str, Any]:
     metric_readings = dedupe_readings([reading for reading in readings if reading.metric == metric])
     decision = publish_rule(metric_readings)
-    return {
+    figure: dict[str, Any] = {
         "label": decision["label"],
         "sources": [source_payload_from_reading(reading) for reading in metric_readings],
         "value": decision["net_inr_cr"] if decision["published"] else None,
     }
+    if decision.get("trade_estimate_confidence"):
+        figure["trade_estimate_confidence"] = decision["trade_estimate_confidence"]
+    return figure
 
 
 def count_tracking_figures(board: dict[str, Any]) -> int:
@@ -829,7 +927,7 @@ def fill_current_week(*, fixture_mode: bool = False, write: bool = False) -> dic
 
     before_tracking = count_tracking_figures(board)
     fetcher = CachedHttpFetcher(fixture_mode=fixture_mode)
-    adapters = [SacnilkQuicknewsAdapter(), TradeArticleAdapter(), TrackTollywoodAdapter()]
+    adapters = [SacnilkQuicknewsAdapter(), TradeArticleAdapter(), TrackTollywoodAdapter(), BollywoodHungamaAdapter()]
     adapter_hits: dict[str, int] = {adapter.name: 0 for adapter in adapters}
 
     for record in board.get("records", []):

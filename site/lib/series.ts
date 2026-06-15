@@ -141,18 +141,29 @@ function resolvePoster(series: Series): Series {
   return { ...series, poster: { ...series.poster, src: SERIES_POSTER_FALLBACK } };
 }
 
+// Module-level memo: in a static export this is read once per build process
+// instead of re-reading + parsing all ~559 series files on every page render
+// (getSeries -> getAllSeries was the ~14s/page hot path that made builds crawl).
+let _allSeries: Series[] | null = null;
+let _seriesBySlug: Map<string, Series> | null = null;
+
 export function getAllSeries(): Series[] {
+  if (_allSeries) return _allSeries;
   if (!fs.existsSync(seriesDir)) return [];
-  return fs
+  _allSeries = fs
     .readdirSync(seriesDir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => JSON.parse(fs.readFileSync(path.join(seriesDir, f), "utf8")) as Series)
     .map(resolvePoster)
     .sort((a, b) => b.date_modified.localeCompare(a.date_modified));
+  return _allSeries;
 }
 
 export function getSeries(slug: string): Series | undefined {
-  return getAllSeries().find((s) => s.slug === slug);
+  if (!_seriesBySlug) {
+    _seriesBySlug = new Map(getAllSeries().map((s) => [s.slug, s]));
+  }
+  return _seriesBySlug.get(slug);
 }
 
 export function latestSeason(series: Series): SeriesSeason | undefined {

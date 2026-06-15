@@ -133,12 +133,15 @@ function resolveFilmPoster(film: Film): Film {
   return { ...film, poster: { src: FILM_POSTER_FALLBACK, alt: `${title} poster`, attribution: "" } };
 }
 
+let _allFilms: Film[] | null = null;
+
 export function getAllFilms(): Film[] {
+  if (_allFilms) return _allFilms;
   if (!fs.existsSync(filmsDir)) {
     return [];
   }
 
-  return fs
+  _allFilms = fs
     .readdirSync(filmsDir)
     .filter((file) => file.endsWith(".json"))
     .sort()
@@ -147,6 +150,7 @@ export function getAllFilms(): Film[] {
       return resolveFilmPoster(JSON.parse(fs.readFileSync(full, "utf8")) as Film);
     })
     .sort((a, b) => filmRank(b) - filmRank(a) || b.date_modified.localeCompare(a.date_modified));
+  return _allFilms;
 }
 
 // Live runs outrank ended ones; within a tier, the bigger verified worldwide number leads.

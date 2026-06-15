@@ -12,3 +12,9 @@ __pycache__/
 
 # Private subtitle corpus - NEVER public (Undertexter.se conviction shape, CLAUDE.md fence #8)
 data/subtitles/
+
+# orchestration scratch (floor/fleet)
+.conductor-*.md
+.conductor-task*.md
+.film-authoring-brief.md
+BLITZ-PLAN.md
