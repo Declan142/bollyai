@@ -27,6 +27,7 @@ type Rec = {
   e: boolean;
   pp: boolean;
   wtw: string | null;
+  kw?: string;
 };
 
 const FILLER = new Set([
@@ -35,7 +36,9 @@ const FILLER = new Set([
   "any", "now", "right", "currently", "this", "that", "for", "on", "in", "at",
   "and", "or", "with", "best", "top", "great", "recommend", "recommendation",
   "suggest", "what", "which", "are", "some", "show", "shows", "series", "movie",
-  "movies", "film", "films", "ott", "streaming", "stream", "really", "very", "so"
+  "movies", "film", "films", "ott", "streaming", "stream", "really", "very", "so",
+  "like", "something", "anything", "one", "where", "can", "there", "new", "please",
+  "gimme", "give", "find", "looking", "thats", "whats", "set", "based", "story"
 ]);
 
 // region word -> { country match, language codes }
@@ -73,8 +76,31 @@ const GENRE_SYN: Record<string, string[]> = {
   family: ["family"]
 };
 
+// mood / vibe word -> facet token tested against the record keyword blob (record.kw).
+// These are vocabulary users type that are not literal genres ("mind bending", "feel good").
+const MOOD_SYN: Record<string, string[]> = {
+  mindbending: ["mind bending", "mind-bending", "mindbending", "twisty", "cerebral", "trippy"],
+  feelgood: ["feel good", "feel-good", "feelgood", "wholesome", "comfort", "cosy", "cozy", "heartwarming"],
+  funny: ["funny", "hilarious", "laugh", "lighthearted"],
+  dark: ["dark", "gritty", "bleak", "disturbing", "grim"],
+  revenge: ["revenge", "vengeance", "vengeful"],
+  scary: ["scary", "creepy", "terrifying", "horror"],
+  heist: ["heist"],
+  intense: ["intense", "gripping", "edge of", "tense"]
+};
+
 const norm = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+
+// light suffix stemmer so bullied/bullying, revenge/avenging, killer/killing align
+const stem = (w: string): string => {
+  if (w.length > 5) {
+    if (w.endsWith("ing")) return w.slice(0, -3);
+    if (w.endsWith("ied")) return w.slice(0, -3) + "y";
+    if (w.endsWith("ed")) return w.slice(0, -2);
+  }
+  return w.length > 4 && w.endsWith("s") ? w.slice(0, -1) : w;
+};
 
 const RUNG_BLURB: Record<string, string> = {
   "MUST-WATCH": "a front-of-queue watch",
@@ -129,66 +155,146 @@ function detectRegion(qNorm: string) {
   return null;
 }
 
-function detectGenres(qNorm: string): string[] {
-  const out: string[] = [];
+// genres are canonical tokens that appear in record.g; moods are tokens that live in record.kw
+function detectFacets(qNorm: string): { genres: string[]; moods: string[] } {
+  const genres: string[] = [];
+  const moods: string[] = [];
   for (const [canon, syns] of Object.entries(GENRE_SYN)) {
-    if (syns.some((s) => qNorm.includes(s))) out.push(canon);
+    if (syns.some((s) => qNorm.includes(s))) genres.push(canon);
   }
+  for (const [canon, syns] of Object.entries(MOOD_SYN)) {
+    if (syns.some((s) => qNorm.includes(s))) moods.push(canon);
+  }
+  return { genres, moods };
+}
+
+const regionMatch = (rec: Rec, reg: { country?: string; langs?: string[] }) =>
+  Boolean((reg.country && rec.o === reg.country) || (reg.langs && rec.l && reg.langs.includes(rec.l)));
+
+// Pre-tokenised record for recall: title tokens (tt), genre tokens (gt), keyword-blob tokens (kt).
+type Aug = { r: Rec; tt: Set<string>; gt: Set<string>; kt: Set<string> };
+function buildAug(index: Rec[]): Aug[] {
+  return index.map((r) => ({
+    r,
+    tt: new Set(norm(r.t).split(" ").filter((w) => w.length > 1).map(stem)),
+    gt: new Set((r.g || []).flatMap((g) => norm(g).split(" ")).map(stem)),
+    kt: new Set(norm(r.kw || "").split(" ").filter((w) => w.length > 2).map(stem))
+  }));
+}
+
+const FACET_STOP = new Set<string>([
+  ...REGIONS.flatMap((r) => r.keys),
+  ...Object.values(GENRE_SYN).flat().flatMap((s) => s.split(" ")),
+  ...Object.values(MOOD_SYN).flat().flatMap((s) => s.split(" "))
+]);
+
+// The recall engine: region as a hard filter + boost, genre/mood facets, then keyword overlap.
+// Pure ranking over the grounded index - it can only return titles that exist, never a new fact.
+function recall(aug: Aug[], qNorm: string): { r: Rec; s: number }[] {
+  const region = detectRegion(qNorm);
+  const { genres, moods } = detectFacets(qNorm);
+  const facets = [...genres, ...moods];
+  const qtok = [...new Set(qNorm.split(" "))]
+    .filter((w) => w.length > 2 && !FILLER.has(w) && !FACET_STOP.has(w))
+    .map(stem);
+  const out: { r: Rec; s: number }[] = [];
+  for (const a of aug) {
+    if (region && !regionMatch(a.r, region)) continue;
+    let s = 0;
+    if (region) s += 3;
+    for (const f of facets) {
+      if (a.gt.has(f)) s += 3;
+      else if (a.kt.has(f)) s += 1.5;
+    }
+    for (const w of qtok) {
+      if (a.tt.has(w)) s += 4;
+      else if (a.kt.has(w)) s += 1.5;
+    }
+    if (s > 0) {
+      if (a.r.sc != null) s += a.r.sc * 0.02; // tiny quality tiebreak, never decisive alone
+      out.push({ r: a.r, s });
+    }
+  }
+  out.sort((x, y) => y.s - x.s);
   return out;
 }
 
-function answerFor(raw: string, index: Rec[]): Answer {
+// A title is only accepted as a direct hit when the query actually contains it (not just a
+// loose token overlap) - keeps "is the glory worth watching" exact while letting oblique
+// phrasings fall through to recall.
+function strongTitle(qNorm: string, index: Rec[]): Rec | null {
+  const rec = matchEntity(qNorm, index);
+  if (rec && qNorm.includes(norm(rec.t)) && norm(rec.t).length >= 3) return rec;
+  return null;
+}
+
+function answerFor(raw: string, aug: Aug[]): Answer {
   const q = raw.trim();
   const qNorm = norm(q);
   if (!qNorm) return { kind: "none", q };
+  const index = aug.map((a) => a.r);
 
-  const isBest = /\b(best|top|greatest|recommend|suggest|good)\b/.test(qNorm) || /^what.*watch/.test(qNorm);
+  const isBest = /\b(best|top|greatest|recommend|suggest|good|favourite|favorite)\b/.test(qNorm) || /^what.*watch/.test(qNorm);
   const isSpoiler = /\bspoiler/.test(qNorm);
-  const isWhere = /\bwhere\b/.test(qNorm) || /\b(stream|streaming|available)\b.*\?|\bon (netflix|prime|jiohotstar|sonyliv|zee5|hotstar)\b/.test(qNorm);
+  const isWhere = /\bwhere\b/.test(qNorm) || /\b(stream|streaming|available)\b/.test(qNorm) || /\bon (netflix|prime|jiohotstar|sonyliv|zee5|hotstar)\b/.test(qNorm);
 
-  // Spoiler intent first - this is a graceful, no-fabrication branch.
+  // Spoiler intent first - graceful, no-fabrication branch.
   if (isSpoiler) {
-    const rec = matchEntity(qNorm, index);
+    const rec = strongTitle(qNorm, index) || recall(aug, qNorm)[0]?.r || null;
     if (rec) return { kind: "spoiler", rec };
     return { kind: "none", q };
   }
 
-  // Best / recommendation intent -> ranking from grounded scores.
+  // A named title beats a "best/good" reading - "is squid game good" wants the Squid Game
+  // verdict, not a generic chart. Checked before the ranking branch.
+  const titleRec = strongTitle(qNorm, index);
+  if (titleRec) return { kind: "verdict", rec: titleRec, where: isWhere };
+
+  // Best / recommendation intent -> ranking from grounded scores, filtered by region + facets.
   if (isBest) {
     const region = detectRegion(qNorm);
-    const genres = detectGenres(qNorm);
-    let pool = index.filter((r) => r.sc !== null);
-    if (region) {
-      pool = pool.filter(
-        (r) =>
-          (region.country && r.o === region.country) ||
-          (region.langs && r.l && region.langs.includes(r.l))
-      );
+    const { genres, moods } = detectFacets(qNorm);
+    const hasFacet = genres.length > 0 || moods.length > 0;
+    const contentTok = qNorm.split(" ").filter((w) => w.length > 2 && !FILLER.has(w) && !FACET_STOP.has(w));
+    // Rank when the ask is generic ("best shows") or scoped by region/facet. A best-query that
+    // names unresolved specifics ("is xyzzy good") instead falls to recall, then graceful none.
+    if (region || hasFacet || contentTok.length === 0) {
+      const wantsNow = /\b(now|currently|latest|2026|2025|recent|these days)\b/.test(qNorm);
+      let pool = aug.filter((a) => a.r.sc !== null);
+      if (region) pool = pool.filter((a) => regionMatch(a.r, region));
+      if (hasFacet) {
+        pool = pool.filter((a) => genres.some((g) => a.gt.has(g)) || moods.some((m) => a.gt.has(m) || a.kt.has(m)));
+      }
+      let list = pool.map((a) => a.r).sort((x, y) => (y.sc! - x.sc!) || ((y.y ?? 0) - (x.y ?? 0)));
+      if (wantsNow) list = [...list].sort((x, y) => ((y.y ?? 0) - (x.y ?? 0)) || (y.sc! - x.sc!));
+      list = list.slice(0, 5);
+      if (list.length > 0) {
+        const facetLabel = [...genres, ...moods].map((g) => g.replace("mindbending", "mind-bending").replace("feelgood", "feel-good")).join(" ");
+        const bits = [region?.label, facetLabel].filter(Boolean);
+        const label = `Best ${bits.join(" ") || "grounded"} ${list.length > 1 ? "titles" : "title"}${wantsNow ? ", newest first" : ""}`.replace(/\s+/g, " ");
+        return { kind: "rank", label, list };
+      }
     }
-    if (genres.length) {
-      pool = pool.filter((r) => r.g.some((g) => genres.includes(g.toLowerCase())));
-    }
-    const wantsNow = /\b(now|right now|currently|latest|2026|2025|new|recent)\b/.test(qNorm);
-    pool = pool.sort((a, b) => (b.sc! - a.sc!) || ((b.y ?? 0) - (a.y ?? 0)));
-    if (wantsNow) pool = [...pool].sort((a, b) => ((b.y ?? 0) - (a.y ?? 0)) || (b.sc! - a.sc!));
-    const list = pool.slice(0, 5);
-    if (list.length === 0) return { kind: "none", q };
-    const bits = [region?.label, genres.map((g) => g.replace("-", " ")).join(" ")].filter(Boolean);
-    const label = `Best ${bits.join(" ") || "grounded"} ${list.length > 1 ? "titles" : "title"}${wantsNow ? ", newest first" : ""}`.replace(/\s+/g, " ");
-    return { kind: "rank", label, list };
+    // nothing fit - fall through to keyword recall rather than dead-ending
   }
 
-  // Where-to-watch + worth-watching both resolve to a single grounded title card;
-  // the where flag promotes the platform into the headline.
-  const rec = matchEntity(qNorm, index);
-  if (rec) return { kind: "verdict", rec, where: isWhere };
-
-  // No entity, but a genre/region was named -> treat as an implicit "best" query.
-  const region = detectRegion(qNorm);
-  const genres = detectGenres(qNorm);
-  if (region || genres.length) {
-    return answerFor(`best ${q}`, index);
+  // Oblique question -> keyword recall over names / plot / mood facets in the grounded blob.
+  const scored = recall(aug, qNorm);
+  if (scored.length > 0) {
+    const top = scored[0];
+    const second = scored[1]?.s ?? 0;
+    // a clearly dominant single match becomes a direct verdict
+    if (top.s >= 4.5 && (scored.length < 2 || top.s >= second + 2)) {
+      return { kind: "verdict", rec: top.r, where: isWhere };
+    }
+    if (top.s >= 3) {
+      return { kind: "rank", label: "Closest grounded matches", list: scored.slice(0, 5).map((x) => x.r) };
+    }
   }
+
+  // Loose title overlap as a last resort before declining.
+  const loose = matchEntity(qNorm, index);
+  if (loose) return { kind: "verdict", rec: loose, where: isWhere };
 
   return { kind: "none", q };
 }
@@ -347,10 +453,12 @@ export function AskClient() {
       .catch(() => setIndex([]));
   }, []);
 
+  const aug = useMemo(() => (index ? buildAug(index) : null), [index]);
+
   const answer = useMemo(() => {
-    if (!index || !asked.trim()) return null;
-    return answerFor(asked, index);
-  }, [index, asked]);
+    if (!aug || !asked.trim()) return null;
+    return answerFor(asked, aug);
+  }, [aug, asked]);
 
   const submit = (e?: React.FormEvent) => {
     e?.preventDefault();
