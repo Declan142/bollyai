@@ -1,1 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342 513"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1430"/><stop offset="1" stop-color="#0a0a1e"/></linearGradient></defs><rect width="342" height="513" fill="url(#g)"/><rect x="1" y="1" width="340" height="511" fill="none" stroke="#e8a33d" stroke-opacity="0.4"/><text x="171" y="250" font-family="Georgia,serif" font-size="22" fill="#e8a33d" text-anchor="middle" opacity="0.7">BollyAI</text><text x="171" y="280" font-family="monospace" font-size="11" fill="#9a8fb0" text-anchor="middle" letter-spacing="3">FILM</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342 513" role="img" aria-label="BollyAI edition placeholder">
+  <!-- Posterless one-sheet. Colours mirror the CSS tokens (inline SVG cannot read CSS vars):
+       #e9a23c == --accent oklch(80% .19 64); #17161c/#0c0b10 == graphite bg hue 285.
+       Fonts are Georgia/monospace lookalikes for Fraunces/JetBrains (no webfont in SVG).
+       If --accent or the bg tokens are retuned, update these hex values to match. -->
+  <defs>
+    <linearGradient id="bed" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#17161c"/>
+      <stop offset="1" stop-color="#0c0b10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.62" cy="0.32" r="0.7">
+      <stop offset="0" stop-color="#e9a23c" stop-opacity="0.10"/>
+      <stop offset="0.7" stop-color="#e9a23c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="342" height="513" fill="url(#bed)"/>
+  <rect width="342" height="513" fill="url(#glow)"/>
+  <rect width="342" height="3" fill="#e9a23c"/>
+  <g fill="#ffffff" fill-opacity="0.06">
+    <rect x="9" y="20" width="5" height="9"/><rect x="9" y="40" width="5" height="9"/>
+    <rect x="9" y="60" width="5" height="9"/><rect x="9" y="80" width="5" height="9"/>
+    <rect x="9" y="100" width="5" height="9"/><rect x="9" y="120" width="5" height="9"/>
+    <rect x="9" y="140" width="5" height="9"/><rect x="9" y="160" width="5" height="9"/>
+    <rect x="9" y="180" width="5" height="9"/><rect x="9" y="200" width="5" height="9"/>
+    <rect x="9" y="220" width="5" height="9"/><rect x="9" y="240" width="5" height="9"/>
+    <rect x="9" y="260" width="5" height="9"/><rect x="9" y="280" width="5" height="9"/>
+    <rect x="9" y="300" width="5" height="9"/><rect x="9" y="320" width="5" height="9"/>
+    <rect x="9" y="340" width="5" height="9"/><rect x="9" y="360" width="5" height="9"/>
+    <rect x="9" y="380" width="5" height="9"/><rect x="9" y="400" width="5" height="9"/>
+    <rect x="9" y="420" width="5" height="9"/><rect x="9" y="440" width="5" height="9"/>
+    <rect x="9" y="460" width="5" height="9"/><rect x="9" y="480" width="5" height="9"/>
+  </g>
+  <text x="305" y="360" font-family="Georgia,serif" font-size="190" fill="#ffffff" fill-opacity="0.035" text-anchor="middle">&#9673;</text>
+  <text x="30" y="40" font-family="monospace" font-size="11" fill="#e9a23c" letter-spacing="3">BOLLYAI</text>
+  <text x="312" y="40" font-family="monospace" font-size="10" fill="#8c8378" letter-spacing="2" text-anchor="end">EDITION</text>
+  <text x="30" y="262" font-family="Georgia,serif" font-size="34" fill="#c9c2b6">Key art</text>
+  <text x="30" y="298" font-family="Georgia,serif" font-size="34" fill="#c9c2b6" font-style="italic">pending</text>
+  <text x="30" y="486" font-family="monospace" font-size="10" fill="#e9a23c" letter-spacing="4">FEATURE &#183; VERDICT ON FILE</text>
+</svg>

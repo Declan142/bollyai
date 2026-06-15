@@ -700,3 +700,93 @@
     }
   }
 }
+
+/* ============================================================================
+   SECONDARY-SURFACE ELEVATION (cohesion pass, 2026-06-16)
+   Bring the search / watch / where-to-watch surfaces up to the hero bar using the
+   shared primitives. No sibling lane files touched - title (/series/ page code) and
+   browse (catalogue + Nav) are untouched; only the shared sheet they all inherit.
+   ============================================================================ */
+
+/* ---- 17. Search: a designed answer-bar, never an empty box ----------------- */
+.search-head { gap: 8px; }
+.search-head h1 {
+  font-variation-settings: "opsz" 120, "wght" 420;
+  font-size: clamp(2.4rem, 6vw, 3.6rem); line-height: .98; margin: 0;
+}
+.search-head__sub { color: var(--text-dim); font-size: 1rem; max-width: 56ch; margin: 2px 0 0; }
+
+.search-page__input {
+  font-size: 1.15rem; padding: 16px 18px;
+  transition: border-color var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out);
+}
+.search-page__input:focus {
+  box-shadow: 0 0 0 4px color-mix(in oklch, var(--accent) 16%, transparent);
+}
+
+.search-intro { margin-top: 22px; display: grid; gap: 16px; }
+.search-intro__lead { color: var(--text-dim); font-size: .98rem; line-height: 1.55; max-width: 60ch; margin: 0; }
+.search-intro__group { display: flex; flex-wrap: wrap; gap: 9px; }
+.search-intro__chip {
+  display: inline-flex; align-items: center; padding: 9px 16px; border-radius: 999px;
+  font-family: var(--font-number); font-size: .82rem; letter-spacing: .02em; text-decoration: none;
+  color: var(--text); background: var(--surface); border: 1px solid var(--border);
+  transition: border-color var(--dur-hover) var(--ease-out), background var(--dur-hover) var(--ease-out),
+    transform var(--dur-hover) var(--ease-out);
+}
+.search-intro__chip:hover {
+  border-color: color-mix(in oklch, var(--accent) 60%, transparent);
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .search-intro__chip:hover { transform: translateY(-2px); }
+}
+.search-intro__chip--ghost {
+  background: transparent; border-color: var(--border-hair); color: var(--text-dim);
+  font-size: .76rem; letter-spacing: .08em; text-transform: uppercase;
+}
+.search-intro__chip--ghost:hover { color: var(--accent); background: transparent; }
+.search-intro__group--quiet { gap: 7px; }
+
+/* ---- 18. Search results: lift on hover to match the card grammar ----------- */
+.search-result {
+  transition: border-color var(--dur-hover) var(--ease-out), background var(--dur-hover) var(--ease-out),
+    transform var(--dur-hover) var(--ease-out);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .search-result:hover { transform: translateX(3px); }
+}
+.search-result:hover { background: color-mix(in oklch, var(--accent) 7%, var(--surface)); }
+
+/* ---- 19. Watch-list index + box-office link cards: depth + one hover language
+   The /watch index .watch-card and the home/box-office .bo-link-card were flat
+   transparent tiles; give them a graphite bed and the shared lift + accent glow so
+   the secondary grids carry the same weight as the home rails. */
+.watch-card {
+  background: linear-gradient(180deg, oklch(14% .007 285), oklch(11% .005 285));
+  border-radius: 8px;
+  transition: background var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out),
+    transform var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out);
+}
+.watch-card:hover {
+  background: linear-gradient(180deg, oklch(16% .009 285), oklch(12% .006 285));
+  border-color: color-mix(in oklch, var(--accent) 45%, var(--border-hair));
+  box-shadow: 0 20px 44px oklch(0% 0 0 / .5), 0 0 26px color-mix(in oklch, var(--accent) 14%, transparent);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .watch-card:hover { transform: translateY(-4px); }
+}
+.watch-card__count { transition: transform var(--dur-hover) var(--ease-out); }
+.watch-card:hover .watch-card__count { transform: translateX(4px); }
+
+.bo-link-card {
+  transition: background var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out),
+    transform var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out);
+}
+.bo-link-card:hover {
+  box-shadow: 0 18px 40px oklch(0% 0 0 / .4), 0 0 24px color-mix(in oklch, var(--accent) 12%, transparent);
+}
+
+@media (max-width: 640px) {
+  .search-head h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
+}

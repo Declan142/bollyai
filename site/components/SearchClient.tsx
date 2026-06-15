@@ -6,6 +6,23 @@ type Entry = { t: string; u: string; k: string; d?: string };
 
 const KIND_ORDER = ["Film", "Series", "Ending", "List", "Desk"];
 
+// Stable site sections - the designed starting points shown before a query is typed,
+// so the search surface never reads as an empty box.
+const DESK_JUMPS: { label: string; href: string }[] = [
+  { label: "Bollywood", href: "/bollywood/" },
+  { label: "Kollywood", href: "/kollywood/" },
+  { label: "Tollywood", href: "/tollywood/" },
+  { label: "Mollywood", href: "/mollywood/" },
+  { label: "Sandalwood", href: "/sandalwood/" },
+  { label: "Hollywood", href: "/hollywood/" },
+  { label: "Streaming", href: "/streaming/" }
+];
+const QUICK_JUMPS: { label: string; href: string }[] = [
+  { label: "OTT Calendar", href: "/ott/calendar/" },
+  { label: "What to Watch", href: "/watch/" },
+  { label: "Box Office", href: "/box-office/" }
+];
+
 export function SearchClient() {
   const [index, setIndex] = useState<Entry[] | null>(null);
   const [q, setQ] = useState("");
@@ -68,7 +85,21 @@ export function SearchClient() {
       {index === null && <p className="search-page__hint">Loading the catalogue…</p>}
 
       {index !== null && q.trim().length < 2 && (
-        <p className="search-page__hint">Type at least two letters to search the catalogue.</p>
+        <div className="search-intro">
+          <p className="search-intro__lead">
+            Type at least two letters to search every film, series, ending explainer and watch list. Or start from a desk.
+          </p>
+          <nav className="search-intro__group" aria-label="Browse by desk">
+            {DESK_JUMPS.map((d) => (
+              <a className="search-intro__chip" href={d.href} key={d.href}>{d.label}</a>
+            ))}
+          </nav>
+          <nav className="search-intro__group search-intro__group--quiet" aria-label="Popular destinations">
+            {QUICK_JUMPS.map((d) => (
+              <a className="search-intro__chip search-intro__chip--ghost" href={d.href} key={d.href}>{d.label} &rarr;</a>
+            ))}
+          </nav>
+        </div>
       )}
 
       {index !== null && q.trim().length >= 2 && results.length === 0 && (

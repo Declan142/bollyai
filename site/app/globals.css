@@ -402,7 +402,7 @@ p {
   position: absolute;
   inset: 0;
   content: "";
-  background: linear-gradient(180deg, transparent 55%, oklch(8% .03 280 / .75));
+  background: linear-gradient(180deg, transparent 55%, oklch(8% .006 285 / .75));
 }
 
 .film-hero__copy {

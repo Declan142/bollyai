@@ -12,9 +12,10 @@ export const metadata = {
 export default function SearchPage() {
   return (
     <main className="page-shell" data-desk="bollywood">
-      <section className="section-head">
-        <p className="eyebrow">Search</p>
+      <section className="section-head search-head">
+        <p className="eyebrow">Answer engine</p>
         <h1>Search BollyAI</h1>
+        <p className="search-head__sub">One field over every desk - films, series, ending explainers and watch lists, each with the verdict attached.</p>
       </section>
       <SearchClient />
     </main>
