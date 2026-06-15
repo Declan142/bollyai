@@ -1,0 +1,98 @@
+/* BoxOfficeLeaderboard - component-scoped (CSS Module). An honest horizontal-bar read of
+   the week's India-net collections. ONLY figures that cleared the publish rule get a bar
+   and a number; films still in tracking are listed below the chart with no bar and no
+   invented figure (the honesty fence, rendered). Tokens from globals :root only. */
+
+.wrap {
+  display: grid;
+  gap: 18px;
+  padding: clamp(20px, 3vw, 28px);
+  border: 1px solid var(--border-hair);
+  border-radius: 11px;
+  background:
+    radial-gradient(120% 130% at 100% 0%, color-mix(in oklch, var(--accent) 7%, transparent), transparent 52%),
+    color-mix(in oklch, var(--surface) 86%, black);
+}
+
+.head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.95rem);
+  font-weight: 420;
+  color: var(--text);
+}
+.head span {
+  font-family: var(--font-number);
+  font-size: .68rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.chart { display: grid; gap: 14px; }
+
+.bar {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  text-decoration: none;
+}
+.rank {
+  font-family: var(--font-number);
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--text-faint);
+  text-align: right;
+}
+.bar:first-child .rank { color: var(--accent); }
+
+.track { display: grid; gap: 5px; min-width: 0; }
+.label { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.film { font-family: var(--font-display); font-size: 1.06rem; color: var(--text); }
+.bar:hover .film { color: var(--accent); }
+.lang { font-family: var(--font-number); font-size: .64rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-2); }
+.figure { font-family: var(--font-number); font-size: 1rem; font-weight: 700; color: var(--text); white-space: nowrap; }
+.figure small { font-size: .58rem; font-weight: 400; color: var(--text-faint); letter-spacing: .06em; margin-left: 4px; text-transform: uppercase; }
+
+.meter {
+  position: relative;
+  height: 15px;
+  border-radius: 8px;
+  background: oklch(100% 0 0 / .04);
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  border-radius: 7px;
+  background: linear-gradient(90deg, color-mix(in oklch, var(--accent-2) 45%, var(--surface-2)), var(--accent-2));
+  transform-origin: left;
+}
+/* the leader carries the one scarce hot-accent tip - highest-signal element in the view */
+.bar:first-child .fill { background: linear-gradient(90deg, color-mix(in oklch, var(--accent) 45%, var(--surface-2)), var(--accent-hot)); }
+
+.tracking { display: grid; gap: 8px; padding-top: 16px; border-top: 1px solid var(--border-hair); }
+.trackingHead { font-family: var(--font-number); font-size: .64rem; letter-spacing: .14em; text-transform: uppercase; color: var(--text-faint); }
+.trackingRow {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: .92rem;
+  color: var(--text-dim);
+}
+.trackingRow b { font-family: var(--font-display); font-weight: 600; color: var(--text); }
+.trackingRow .lang { color: var(--text-faint); }
+.trackingTag {
+  margin-left: auto;
+  font-family: var(--font-number);
+  font-size: .64rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  border: 1px solid var(--border-hair);
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+
+.note { margin: 0; font-size: .82rem; line-height: 1.5; color: var(--text-faint); }

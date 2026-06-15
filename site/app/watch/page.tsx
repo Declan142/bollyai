@@ -1,5 +1,6 @@
 import { DateModified } from "../../components/DateModified";
 import { JsonLd } from "../../components/JsonLd";
+import { SectionHero } from "../../components/SectionHero";
 import { breadcrumbJsonLd } from "../../lib/jsonld";
 import { getAllWatchLists } from "../../lib/recommendations";
 import { pageSeo } from "../../lib/seo";
@@ -13,6 +14,7 @@ export const metadata = {
 
 export default function WatchIndex() {
   const lists = getAllWatchLists();
+  const totalPicks = lists.reduce((sum, list) => sum + list.picks.length, 0);
   return (
     <main className="page-shell" data-desk="streaming">
       <JsonLd
@@ -21,16 +23,23 @@ export default function WatchIndex() {
           { name: "What to Watch", url: "/watch/" }
         ])}
       />
-      <section className="section-head">
-        <p className="eyebrow">Recommendations · theatres · OTT · K-drama</p>
-        <h1>What to Watch</h1>
-        <p className="answer-block">
-          Not a star rating dump - curated lists for a specific mood, platform, or weekend. Every pick names where it
-          streams and earns its slot on craft and word of mouth. BollyAI hasn&apos;t watched these. BollyAI has read
-          everyone who has.
-        </p>
+      <SectionHero
+        eyebrow="Recommendations · theatres · OTT · K-drama"
+        title="What to Watch"
+        lede={
+          <>
+            Not a star-rating dump. <b>Curated lists for a specific mood, platform, or weekend,</b> each pick naming
+            where it streams and earning its slot on craft and word of mouth. BollyAI has not watched these. BollyAI
+            has read everyone who has.
+          </>
+        }
+        stats={[
+          { value: String(lists.length), label: "Curated lists" },
+          { value: String(totalPicks), label: "Picks" }
+        ]}
+      >
         <DateModified value={lists[0]?.updated ?? "2026-06-08T00:00:00+05:30"} />
-      </section>
+      </SectionHero>
 
       <section className="watch-grid">
         {lists.map((list) => (

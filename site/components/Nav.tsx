@@ -34,6 +34,12 @@ export function Nav() {
 
       <div className={styles.drawer}>
         <nav className={styles.primary} aria-label="Primary navigation">
+          {/* the flagship: a grounded answer engine. Given the one high-signal CTA slot in
+              the bar so it leads the IA without diluting the five plain links to six. */}
+          <a className={styles.ask} href="/ask/" aria-label="Ask BollyAI, the grounded answer engine">
+            <span className={styles.askSpark} aria-hidden="true">✦</span>
+            Ask BollyAI
+          </a>
           {PRIMARY.map((item) => (
             <a className={styles.link} href={item.href} key={item.href}>
               {item.label}

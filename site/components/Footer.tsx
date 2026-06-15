@@ -18,6 +18,7 @@ export function Footer() {
           <div className={styles.col}>
             <h4>Browse</h4>
             <ul>
+              <li><a href="/ask/">Ask BollyAI</a></li>
               <li><a href="/browse/">All series</a></li>
               <li><a href="/watch/">What to watch</a></li>
               <li><a href="/search/">Search</a></li>

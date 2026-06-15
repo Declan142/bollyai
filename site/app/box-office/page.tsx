@@ -3,6 +3,7 @@ import { BoxOfficeBoardTable } from "../../components/BoxOfficeBoardTable";
 import { DateModified } from "../../components/DateModified";
 import { JsonLd } from "../../components/JsonLd";
 import { SectionHero } from "../../components/SectionHero";
+import { BoxOfficeLeaderboard } from "../../components/BoxOfficeLeaderboard";
 import {
   boxOfficeDatasetJsonLd,
   boxOfficeItemListJsonLd,
@@ -62,6 +63,10 @@ export default function BoxOfficeHubPage() {
             readings agree closely enough. Missing numbers are the honest state.
           </p>
         </section>
+      )}
+
+      {!board.DATA_PENDING && board.records.length > 0 && (
+        <BoxOfficeLeaderboard records={board.records} />
       )}
 
       <section className="panel bo-board-panel">
