@@ -1,3 +1,40 @@
+# BollyAI - pickup state (2026-06-15 ~13:00, DEPTH WAVE 2 SHIPPED)
+
+## 30-SEC SNAPSHOT (overrides everything below)
+"agla wave" -> second depth wave shipped + LIVE on bollyai.in (commit `0afad48`, dep `572cbca0`).
+3 Sonnet lanes, floor re-gated every file independently before ship:
+- **9 series deepened**: money-heist, breaking-bad (depth-A) + black-mirror, hellbound, sweet-home,
+  fauda, emily-in-paris, peaky-blinders, better-call-saul (depth-B, ~281 episode reviews).
+- **sherlock S4 honesty fix**: review_body rewritten own-voice Mode B, 2 attribution violations
+  removed (was reverted-to-buildable last wave; now grounded + gate-clean).
+- Honest skips (no new subtitle dossiers, left as-is): stranger-things, physical-100, mad-men.
+  sacred-games was already rich+committed from a prior wave (no change).
+
+Gates: 262 pytest pass, validate_series.py clean on all 10 changed slugs, npm build +
+assert-no-aggregate-rating exit 0, em-dash-free. IndexNow hash-gated skip (content-update on
+existing URLs, sitemaps unchanged - by design). Live-verified bollyai.in + black-mirror +
+peaky-blinders + sherlock all 200. Fleet drained graceful.
+
+**2 OPS LESSONS this wave (both saved to memory):**
+1. `conductor add --value high` -> governor picks **Opus**; both depth lanes came up Opus 4.8 on
+   bulk grunt. Relaunched `--value normal --model sonnet`. VERIFY MODEL VIA PEEK AFTER DISPATCH.
+   ([[feedback_conductor_value_high_maps_to_opus]])
+2. A lane ran `npm run build` despite the fence and it HUNG - orphan jest-workers pegged ~800% CPU
+   for 2h11m before I caught it (Aditya flagged heat). Killed the tree by PID. The NANO `--force`
+   polish loop also hammers CPU (local model x many shells). Fence-violation builds can zombie;
+   watch box load, not just lane ctx.
+
+## NEXT WAVE (say "agla wave")
+- Depth moat continues: top blitz-queue still has stranger-things, physical-100, the-crown,
+  money-heist(done), black-mirror(done) ... feed the lanes ONLY subtitle-grounded incompletes;
+  for ungrounded titles write neutral plot summaries, never invented reception.
+- **Box-office is the biggest unbuilt wedge**: pipeline + sources registered (sacnilk/boxofficeindia/
+  BH/ormax), publishes only on >=2-source agreement. Needs ONE focused lane to wire LIVE 2-source
+  fetch so it starts publishing the South mid-tier figures it's currently tracking (do NOT swarm
+  this - it's live-HTTP verification, single careful Sonnet lane).
+
+---
+
 # BollyAI - pickup state (2026-06-15 ~11:40, 3-LANE WAVE SHIPPED)
 
 ## 30-SEC SNAPSHOT (overrides everything below)
