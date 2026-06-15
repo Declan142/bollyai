@@ -1,3 +1,53 @@
+# BollyAI - pickup state (2026-06-16 ~02:45, NIGHT DONE -> NEXT: MAKE IT SPECTACULAR)
+
+## 🎯 NEXT SESSION (Aditya's directive): MAKE bollyai.in SPECTACULAR - pure DESIGN/CRAFT push
+Tonight was content-grinding (done, see below). Next session is VISUAL. The quality bar is already set HIGH - build ON it, do NOT restart:
+- **LIVE design language to extend**: Verdict Stage full-bleed hero (design-reviewer **8.9**) + OTT Calendar Hero (**9.4**). Full art direction, OKLCH tokens, fonts (Fraunces Variable display + Hanken Grotesk body + JetBrains Mono numerics), warm-graphite bg + scarce amber accent, and the **Phase-2 design backlog** (localStorage diary / ask-bar answer engine / "Verdict Receipt" tap-to-show-sources / title-page score-stack + day-wise BO table / nav 11->5 + full 6-section IA / tentpole poster harvest) are ALL detailed in the **"DESIGN REVAMP PHASE 1 LIVE" section below - READ THAT FIRST**. Design files: `site/app/{globals,revamp}.css`, `site/components/{VerdictStage,BollyMeterDial,OttCalendarHero}.tsx`, `site/lib/home.ts`.
+- **Gate**: empire `frontend-design` skill + `design-reviewer` agent (ship >=7.5; the hero hit 9.4 - that's the bar). Banned slop: Inter/system-font brand face, purple-on-white, cookie-cutter grids. Distinctive, dark-cinema editorial, "sex sells".
+- ⚡ **RECOMMENDED start**: screenshot the WHOLE live site desktop+mobile (home + a `/series/<slug>/` title page + the browse/catalogue grid), run `design-reviewer` to RANK the weakest surfaces. The hero is already ~9; the **series/title pages + the browse grid** are almost certainly the weak links - elevate THOSE to hero-level first, then below-the-fold home, then a cohesive micro-interaction/empty-state language. Let Aditya steer priority.
+- **Work it**: `cd site && npm run dev` (or build + serve `site/out` on :8799); chrome --headless screenshots; design-reviewer gate; ship via the worktree pattern below (box is quiet now, so a frontend-only deploy can also just build the main tree - BUT first handle the 2 partial content files, see caveat).
+
+## TONIGHT'S STATE (content night, 2026-06-16) - live / committed / pending
+- **LIVE on bollyai.in** (deployed commit `2819c88`, CF dep `31fd8e28`): OTT Calendar Hero + 12 series (waves 1+2). 8 are NET-NEW subtitle-grounded (call-me-bae, indian-police-force, mismatched, kerala-crime-files, save-the-tigers, rana-naidu, aranyak, four-more-shots-please) + bridgerton, sons-of-anarchy, severance, made-in-heaven.
+- **COMMITTED, NOT yet DEPLOYED** (commit `df2a964`): the-glory (16/16) + inspector-rishi (10/10) + sons-of-anarchy (re-grounded DSV4). ⏰ The design session's first deploy carries these live automatically (worktree -> checkout HEAD -> build -> deploy).
+- **PARTIAL, uncommitted** (working tree dirty; both VALID JSON): breathe-into-the-shadows (11/12 eps) + yellowstone (30/53; S4-S5 lack subs, need neutral plot summaries). 🚨 CAVEAT for the design deploy: deploy via the WORKTREE (it's at the clean committed HEAD, excludes these) OR `git checkout -- data/series/{breathe-into-the-shadows,yellowstone}.json` first - do NOT build the MAIN tree with these un-finished. Dossiers persist in `data/subtitles/`, so `regen_batch <slug>` finishes them fast later (low priority vs design).
+- Fleet STOPPED: `bollynite` drained gracefully, orphan regen killed, box quiet. vyom2 runs PA/MW/BB on session `wc` - SEPARATE floor, NOT mine.
+
+## SHIP PATTERN (proven 3x tonight) + DIGEST NOTES for Aditya
+- 🚨 build_review writes `data/series` NON-atomically -> never build the live tree mid-regen. Standing git worktree `/tmp/bolly-ship1` (node_modules symlinked): commit to main -> `git -C /tmp/bolly-ship1 checkout <HEAD-sha>` (reset `data/_state/series-links.json` if it shows M) -> `cd /tmp/bolly-ship1/site && npm run build` -> `npx wrangler pages deploy out --project-name=bollyai-in --branch=main` (CF creds inline from `vault/cloudflare.md` via grep+sed, NEVER echo) -> verify `/series/<slug>/` 200 -> IndexNow (`scripts/lib/indexnow_ping.py --delta <urls> --key 51f2725a841760148d45a3b07a08c53c --host bollyai.in`, <=85). 🚨 `rm -rf` + `git worktree remove --force` are DENY-LISTED - REUSE the worktree, never delete it.
+- Standing deploy/push grant (CLAUDE.md) = gates-green IS the approval (validate_series + em-dash + design-reviewer>=7.5 + pytest + npm build).
+- DIGEST: (1) babysit's 25m ttl over-flagged the long content lanes as STALLED (~6 false-positive pokes) - they were productive; worth a productivity-aware or per-lane ttl so 2hr content grinds don't spam the floor. (2) VIVEKA: `conductor add` logs an EMPTY task_id to `shadow.jsonl` (v0 gap) so `viveka verdict <task_id>` can't link to its shadow prediction - I recorded kept-verdicts by lane-name (is_win=false: VIVEKA had predicted nested vs my flat lanes). Fix the add->shadow task_id propagation to make the flywheel real.
+
+---
+
+# BollyAI - pickup state (2026-06-16 ~02:10, WAVE-1 SHIPPED)
+
+- **WAVE-1 LIVE** (commit `7d8290d`, CF dep `6b2a1f69`): 8 series - call-me-bae, indian-police-force, mismatched, kerala-crime-files, save-the-tigers (Indian, NEW subtitle-grounding), bridgerton, sons-of-anarchy (prestige, NEW grounding), made-in-heaven S2. ALL 100% rich review_body, validate_series PASS, em-dash clean, `/series/<slug>/` 200. IndexNow 8 pinged.
+- 🆕 **SHIP PATTERN for continuous lanes** (build_review.py:533 writes data/series NON-atomically, so NEVER `npm build` the live tree while regen runs): ship from a STANDING git worktree snapshot at `/tmp/bolly-ship1` (node_modules symlinked). Per wave: commit gated slugs to main -> `git -C /tmp/bolly-ship1 checkout <new-HEAD-sha>` -> `cd /tmp/bolly-ship1/site && npm run build` -> `npx wrangler pages deploy out --project-name=bollyai-in --branch=main` (CF creds inline, never echo) -> IndexNow. **Lanes NEVER pause.** 🚨 Do NOT `rm -rf` or `git worktree remove --force` (both deny-listed) - REUSE the worktree across waves.
+- **Reconcile-gate EVERY shipped slug** independently (validate_series exit 0 + em-dash sweep + schema-agnostic rich-review count) before commit - never trust lane self-reports (fabrication lesson).
+- VIVEKA: `conductor add` logs EMPTY task_id in shadow.jsonl (v0 gap) -> `viveka verdict <id>` can't link cleanly. Judgment: all 3 lanes = **KEPT** (wave-1 shipped as-is, validated). Apply when task_id linkage fixed.
+- **LANES still running**: Lane1 (india) DONE/holding. Lane2 (prestige) finishing yellowstone (--force, long); the-glory + severance already done -> SHIP WAVE-2. Lane0 (harvest-new: four-more-shots-please/rana-naidu/breathe-into-the-shadows/inspector-rishi/aranyak) harvesting->regen.
+- **WAVE-2 SHIPPED** (commit `2819c88`, CF dep `31fd8e28`): severance + rana-naidu + aranyak + four-more-shots-please (3 NEW India series grounded + 1 prestige), all `/series/<slug>/` 200 + IndexNow. **Tonight total: hero + 12 series** (8 net-new grounded).
+- **WAVE-3 pending** (lanes finishing): the-glory + yellowstone (Lane2, were incomplete - empty spoiler_free on un-regenned eps, told to finish) + breathe-into-the-shadows + inspector-rishi (Lane0). Lane1 idle/done (repurpose candidate). Ship via standing worktree `/tmp/bolly-ship1` (`git -C ... checkout <HEAD>` -> build -> deploy).
+- NOTE for digest: babysit 25m ttl over-flags long content lanes as STALLED (false-positive) - they were productive; worth a productivity-aware / per-lane-ttl check.
+
+---
+
+# BollyAI - pickup state (2026-06-16 ~00:20, NIGHT GROUNDING CAMPAIGN)
+
+## 30-SEC SNAPSHOT (overrides everything below)
+Vyom floor (orchestrator) on BollyAI ONLY; Aditya: "full autonomy, go crazy, whole night" (vyom2 owns PA/MW/BB - do not touch `work` session).
+- **SHIPPED + LIVE**: OTT Calendar Hero (commit `e0d207d`, CF dep `7779439d`). design-reviewer **9.4 ACCEPT**; fixed deck poster-bias (home.ts `ottCalendarDeck` was leading posterless one-sheets, pushing all real posters off-screen). 262 pytest green (made `test_ott_calendar` window-assert date-robust - it froze a weekly-rolling date). bollyai.in 200.
+- **Catalog reality (fresh blitz-queue: 559 series, 4013/15527 eps = 26%)**: the subtitle-grounded EPISODE backlog is ~exhausted (only ~30 eps across 9 grounded series left). Rich reviews only exist for the ~56 grounded series, so the moat-growth lever now = GROUND NEW series (the depth-regen-swarm would no-op).
+- **3 Sonnet lanes RUNNING (tmux session `bollynite`; ALL gen on Azure gpt-5.4 + DeepSeek-V4-Pro, NEVER gpt-5.5)**:
+  - `bolly-finish` (bollynite:0): close 30 grounded ep-gaps - stranger-things/mad-men/you/wednesday/the-family-man/paatal-lok (1 ep each) + the-studio (9) + made-in-heaven (7) + house-of-the-dragon (8).
+  - `bolly-ground-india` (bollynite:1): fast-ground (subs ALREADY harvested in ~/bollyai-subs) call-me-bae, indian-police-force, mismatched, kerala-crime-files, save-the-tigers -> run_batch dossier + regen.
+  - `bolly-ground-prestige` (bollynite:2): fast-ground sons-of-anarchy, bridgerton, the-glory, severance, yellowstone -> dossier + regen (DSV4 for violent).
+- ENDPOINT: draft NANO, finals round-robin FULL/MINI/KIMI/DSV4 (4 independent streams, no shared 429); DSV4 (OpenRouter, off-Azure) = the content-filter escape. Lanes NEVER build/deploy/push/commit; FLOOR central-ships.
+- **NEXT (floor)**: when lanes hold gated-green -> reconcile-gate every file -> pytest + validate_series + npm build + em-dash sweep -> race-safe deploy (pgrep regen_batch=0) -> IndexNow <=85/wave -> commit+push. `conductor viveka verdict <task_id> kept|edited|rejected` on EACH lane (flywheel). Then refresh queue + harvest-NEW tier (outer-banks/four-more-shots-please/rana-naidu/aranyak) if time remains.
+
+---
+
 # BollyAI - pickup state (2026-06-15 ~22:35, DESIGN REVAMP PHASE 1 LIVE)
 
 ## 30-SEC SNAPSHOT (overrides everything below)
