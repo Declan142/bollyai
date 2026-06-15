@@ -7,7 +7,8 @@ import "@fontsource/jetbrains-mono/700.css";
 import type { Metadata } from "next";
 import "./globals.css";
 import "./revamp.css";
-import { SiteFooter, SiteHeader } from "../components/PageChrome";
+import { Nav } from "../components/Nav";
+import { Footer } from "../components/Footer";
 import { JsonLd } from "../components/JsonLd";
 import { organizationJsonLd, webSiteJsonLd } from "../lib/jsonld";
 
@@ -36,9 +37,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <JsonLd data={organizationJsonLd()} />
         <JsonLd data={webSiteJsonLd()} />
-        <SiteHeader />
+        <Nav />
         {children}
-        <SiteFooter />
+        <Footer />
       </body>
     </html>
   );
