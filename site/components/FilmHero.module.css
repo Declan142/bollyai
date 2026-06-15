@@ -1,6 +1,8 @@
-/* TitleHero - full-bleed title-page stage (title lane, 2026-06-16). Extends the live
-   VerdictStage/OttCalendarHero language: ambient blurred key-art, warm-graphite scrim,
-   lower-left editorial column, Fraunces display title, scarce amber accent. Scoped CSS only. */
+/* FilmHero - elevated film/movie title hero (title lane capstone, 2026-06-16). Mirrors the
+   TitleHero / VerdictStage dark-cinema language so a film review page matches the series bar:
+   ambient blurred key-art, warm-graphite scrim + glow floor, lower-left editorial column,
+   Fraunces display title, JetBrains Mono numerics, scarce amber. Component-scoped CSS only -
+   replaces the old global .film-hero block without touching globals.css. */
 
 .hero {
   position: relative;
@@ -26,8 +28,6 @@
   opacity: 0.55;
 }
 
-/* Warm-glow floor: hero depth no longer depends on the poster carrying colour - a flat or
-   black-flattened key-art still sits on a lit stage (P2, design-review 2026-06-16). */
 .ambient::after {
   content: "";
   position: absolute;
@@ -120,57 +120,84 @@
   margin: 0 0 1.5rem;
 }
 
-.scoreRow {
-  margin: 0 0 1.6rem;
+/* score + box-office figure cluster */
+.cluster {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3.5vw, 2.4rem);
+  flex-wrap: wrap;
+  margin: 0 0 1.5rem;
+}
+
+.dialWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.dialCaption {
+  font-family: var(--font-number);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.1rem 0 0.1rem 0.95rem;
+  border-left: 1px solid var(--border-hair);
+}
+
+.figureValue {
+  font-family: var(--font-number);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 4.2vw, 2.1rem);
+  line-height: 0.98;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.figureLabel {
+  font-family: var(--font-number);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.figureMeta {
+  font-size: 0.66rem;
+  color: var(--text-faint);
 }
 
 .meterRow {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.4rem;
   max-width: 30rem;
 }
 
-.renewal {
-  font-size: 0.85rem;
-  color: var(--text-dim);
-  margin: 0 0 1.3rem;
-  line-height: 1.45;
-}
-
-.renewal strong {
-  color: var(--text);
-  font-weight: 700;
-}
-
-.renewal a {
-  color: var(--text-dim);
-  text-decoration-color: color-mix(in oklch, var(--accent) 45%, transparent);
-}
-
-.ctaRow {
+.facts {
   display: flex;
-  align-items: center;
-  gap: 1rem;
   flex-wrap: wrap;
-  margin-bottom: 1.3rem;
+  gap: 0.5rem 1.2rem;
+  margin: 0 0 1.3rem;
+  font-family: var(--font-number);
+  font-size: 0.74rem;
+  color: var(--text-dim);
 }
 
-.cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1.3rem;
-  border-radius: 999px;
-  background: var(--accent-hot);
-  color: var(--accent-ink);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-decoration: none;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-  box-shadow: 0 10px 30px -12px color-mix(in oklch, var(--accent) 70%, transparent);
+.facts span {
+  position: relative;
 }
 
-.cta:hover {
-  transform: translateY(-2px);
+.facts span + span::before {
+  content: "·";
+  position: absolute;
+  left: -0.7rem;
+  color: var(--text-faint);
 }
 
 .honesty {
@@ -197,8 +224,6 @@
 .art {
   position: relative;
   justify-self: end;
-  display: block;
-  text-decoration: none;
 }
 
 .frame {
@@ -209,7 +234,6 @@
   overflow: hidden;
   box-shadow: var(--shadow-poster);
   border: 1px solid var(--border-hair);
-  /* Tinted plate so a flat / black-flattened poster never reads as a dead void (P1). */
   background:
     linear-gradient(160deg, var(--surface-2), var(--bg-deep) 70%),
     radial-gradient(120% 80% at 50% 0%, color-mix(in oklch, var(--accent) 14%, transparent), transparent 60%);
@@ -221,7 +245,6 @@
   height: auto;
 }
 
-/* Inner-edge sheen + vignette: gives the key-art object dimension regardless of pixel content. */
 .frame::after {
   content: "";
   position: absolute;
@@ -231,21 +254,6 @@
   box-shadow:
     inset 0 1px 0 color-mix(in oklch, var(--text) 14%, transparent),
     inset 0 -40px 60px -30px var(--bg-deep);
-}
-
-.fresh {
-  position: absolute;
-  top: 0.7rem;
-  left: 0.7rem;
-  font-family: var(--font-number);
-  font-size: 0.6rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: var(--accent-ink);
-  background: var(--accent);
-  padding: 0.28rem 0.55rem;
-  border-radius: 4px;
 }
 
 .stamp {
