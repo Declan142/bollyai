@@ -7,8 +7,7 @@ export const metadata: Metadata = {
   description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
   ...pageSeo({ path: "/" })
 };
-import { VerdictMarquee } from "../components/VerdictMarquee";
-import { VerdictStage } from "../components/VerdictStage";
+import { OttCalendarHero } from "../components/OttCalendarHero";
 import { JsonLd } from "../components/JsonLd";
 import { MediaCard } from "../components/MediaCard";
 import { PosterImage } from "../components/PosterImage";
@@ -17,7 +16,7 @@ import { DESKS, getDesk } from "../lib/desks";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
 import { getNewestEpisodeReviews } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
-import { bigThisWeek, catalogueStats, deskCounts, heroDeck, justDropped } from "../lib/home";
+import { bigThisWeek, catalogueStats, deskCounts, justDropped, ottCalendarDeck } from "../lib/home";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
   const net = film.box_office.totals.india_net_inr_cr?.value;
@@ -29,7 +28,7 @@ function bestFigure(film: Film): { label: string; text: string } | null {
 
 export default function HomePage() {
   const films = getAllFilms();
-  const heroSlides = heroDeck(6);
+  const ottItems = ottCalendarDeck(12);
   const latestModified = getLatestModified();
   const stats = catalogueStats();
 
@@ -65,13 +64,7 @@ export default function HomePage() {
 
   return (
     <main className="page-shell home-hub" data-desk="bollywood">
-      {heroSlides.length > 0 && (
-        <VerdictMarquee subjects={heroSlides}>
-          {heroSlides.map((s, i) => (
-            <VerdictStage key={`${s.kind}-${s.slug}`} subject={s} updated={latestModified} eager={i === 0} />
-          ))}
-        </VerdictMarquee>
-      )}
+      {ottItems.length > 0 && <OttCalendarHero items={ottItems} />}
 
       <section className="ticker full-bleed" aria-label="Trade ticker">
         <div className="ticker__track">

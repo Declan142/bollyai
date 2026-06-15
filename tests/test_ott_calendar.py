@@ -97,8 +97,14 @@ def test_calendar_verdict_line_uses_catalogue_season_basis():
 def test_generated_calendar_has_source_envelopes():
     calendar = json.loads((REPO_ROOT / "data" / "ott" / "calendar.json").read_text(encoding="utf-8"))
 
-    assert calendar["window"]["start"] == "2026-06-08"
-    assert calendar["window"]["end"] == "2026-06-21"
+    # The window rolls forward weekly (a cron regenerates it every Monday), so assert its
+    # STRUCTURE - a two-week span from Monday to Sunday - instead of frozen literal dates
+    # that go stale every week. This still catches a malformed or wrongly-sized window.
+    win_start = date.fromisoformat(calendar["window"]["start"])
+    win_end = date.fromisoformat(calendar["window"]["end"])
+    assert win_start.weekday() == 0, "OTT calendar window must start on a Monday"
+    assert win_end.weekday() == 6, "OTT calendar window must end on a Sunday"
+    assert (win_end - win_start).days == 13, "OTT calendar window must span two weeks"
     assert len(calendar["weeks"]) == 2
     assert calendar["entries"], "weekly OTT calendar should not be empty"
 

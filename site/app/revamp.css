@@ -468,3 +468,94 @@
   background: var(--surface-2); color: var(--text-dim);
 }
 .header-search__empty { margin: 0; padding: 14px 12px; color: var(--text-faint); font-size: .85rem; }
+
+/* ---- 10. OTT Calendar Hero -------------------------------------------------- */
+.ott-hero {
+  position: relative; width: 100vw; margin-inline: calc(50% - 50vw);
+  min-height: clamp(560px, 72vh, 780px);
+  display: flex; align-items: center; overflow: hidden; isolation: isolate;
+}
+.ott-hero__ambient { position: absolute; inset: 0; z-index: -2; }
+.ott-hero__ambient img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center 22%;
+  filter: blur(64px) saturate(1.15) brightness(.6); transform: scale(1.25);
+}
+.ott-hero__scrim {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(to top, oklch(8.5% .005 285 / .96) 0%, oklch(8.5% .005 285 / .7) 40%, oklch(8.5% .005 285 / .35) 100%),
+    radial-gradient(50% 60% at 78% 28%, color-mix(in oklch, var(--accent) 16%, transparent), transparent 70%);
+}
+.ott-hero__inner {
+  width: min(94vw, 1340px); margin-inline: auto; padding: clamp(2rem, 5vw, 3.5rem) 0;
+  display: flex; flex-direction: column; gap: clamp(1.4rem, 3vw, 2.4rem);
+}
+.ott-hero__head { padding-inline: clamp(1.1rem, 4vw, 2rem); max-width: 640px; }
+.ott-hero__eyebrow { display: inline-block; font-family: var(--font-number); font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: .7rem; }
+.ott-hero__title { font-family: var(--font-display); font-size: clamp(2.4rem, 6vw, 4.6rem); font-weight: 380; font-variation-settings: "opsz" 144, "wght" 380; line-height: .95; letter-spacing: -.02em; color: var(--text); margin: 0 0 .7rem; text-wrap: balance; overflow-wrap: break-word; }
+.ott-hero__sub { font-size: clamp(.95rem, 1.4vw, 1.1rem); color: var(--text-dim); max-width: 52ch; margin: 0 0 1rem; line-height: 1.5; }
+.ott-hero__all { display: inline-flex; align-items: center; gap: .4rem; font-family: var(--font-number); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); text-decoration: none; }
+.ott-hero__all:hover { color: var(--accent-hot); }
+
+.ott-hero__railwrap { position: relative; }
+.ott-hero__rail {
+  display: flex; gap: clamp(12px, 1.4vw, 18px); padding: 4px clamp(1.1rem, 4vw, 2rem) 8px;
+  overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none;
+}
+.ott-hero__rail::-webkit-scrollbar { display: none; }
+
+.ottc-card {
+  scroll-snap-align: start; flex: 0 0 auto; width: clamp(150px, 17vw, 196px);
+  display: flex; flex-direction: column; text-decoration: none; color: inherit;
+  background: oklch(13% .006 285); border: 1px solid oklch(100% 0 0 / .08);
+  border-radius: 10px; overflow: hidden; box-shadow: 0 14px 34px oklch(0% 0 0 / .45);
+  transition: transform var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out);
+}
+.ottc-card:hover {
+  transform: translateY(-6px); border-color: color-mix(in oklch, var(--accent) 55%, transparent);
+  box-shadow: 0 24px 52px oklch(0% 0 0 / .6), 0 0 30px color-mix(in oklch, var(--accent) 18%, transparent);
+}
+.ottc-card--announce { cursor: default; }
+.ottc-card__date {
+  display: flex; align-items: baseline; gap: .35rem; justify-content: center; padding: .5rem;
+  background: oklch(10% .005 285); border-bottom: 1px solid var(--border);
+  font-family: var(--font-number); color: var(--text-dim);
+}
+.ottc-card__date.is-upcoming { color: var(--accent); background: color-mix(in oklch, var(--accent) 12%, oklch(10% .005 285)); }
+.ottc-card__date strong { font-size: 1.15rem; color: var(--text); }
+.ottc-card__date.is-upcoming strong { color: var(--accent); }
+.ottc-card__dow { font-size: .58rem; letter-spacing: .12em; }
+.ottc-card__mon { font-size: .62rem; letter-spacing: .08em; }
+.ottc-card__art { position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: linear-gradient(150deg, oklch(18% .012 285), oklch(10% .006 285)); }
+.ottc-card__art img { width: 100%; height: 100%; object-fit: cover; transition: transform .42s var(--ease-out); }
+.ottc-card:hover .ottc-card__art img { transform: scale(1.06); }
+.ottc-card__art .one-sheet { border-top: none; }
+.ottc-card__score {
+  position: absolute; top: 6px; right: 6px; font-family: var(--font-number); font-weight: 700; font-size: .72rem;
+  background: oklch(10% .005 285 / .85); color: var(--text); padding: 2px 6px; border-radius: 999px; border: 1px solid var(--border);
+}
+.ottc-card__soon {
+  position: absolute; top: 6px; left: 6px; font-family: var(--font-number); font-size: .54rem; letter-spacing: .1em;
+  text-transform: uppercase; font-weight: 700; background: var(--accent); color: var(--accent-ink); padding: 2px 6px; border-radius: 4px;
+}
+.ottc-card__plate { padding: .55rem .65rem .7rem; display: flex; flex-direction: column; gap: .2rem; }
+.ottc-card__platform { font-family: var(--font-number); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-2); }
+.ottc-card__title { font-family: var(--font-display); font-size: .98rem; font-weight: 600; line-height: 1.1; color: var(--text); }
+
+.ott-hero__arrow {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 6; width: 42px; height: 42px; border-radius: 999px;
+  display: grid; place-items: center; background: oklch(12% .006 285 / .7); color: var(--text); border: 1px solid var(--border);
+  backdrop-filter: blur(8px); font-size: 1.6rem; cursor: pointer;
+  transition: background var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out);
+}
+.ott-hero__arrow:hover { background: oklch(16% .01 285 / .9); border-color: color-mix(in oklch, var(--accent) 55%, transparent); }
+.ott-hero__arrow--prev { left: clamp(2px, 1vw, 12px); }
+.ott-hero__arrow--next { right: clamp(2px, 1vw, 12px); }
+.ott-hero__arrow span { margin-top: -3px; }
+
+@media (max-width: 760px) {
+  .ott-hero { min-height: auto; padding-block: 1.5rem; }
+  .ott-hero__arrow { display: none; }
+  .ott-hero__title { font-size: clamp(1.9rem, 8vw, 3rem); }
+  .ottc-card { width: clamp(132px, 42vw, 156px); }
+}

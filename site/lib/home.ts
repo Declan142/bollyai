@@ -1,5 +1,5 @@
 import { getDesk, type DeskSlug } from "./desks";
-import { formatCrore, getAllFilms, type Film, type VerdictRung } from "./data";
+import { formatCrore, getAllFilms, getOttCalendar, type Film, type VerdictRung } from "./data";
 import {
   getAllSeries,
   isFreshSeries,
@@ -285,6 +285,89 @@ function rankedSubjects(now: number): HeroSubject[] {
 // The single best title for a standalone stage.
 export function heroPick(now: number = Date.now()): HeroSubject | null {
   return rankedSubjects(now)[0] ?? null;
+}
+
+function seriesPosterBySlug(slug: string): PosterAsset | null {
+  const s = getAllSeries().find((x) => x.slug === slug);
+  return s && hasRealArt(s.poster) ? s.poster : null;
+}
+
+// ONE OTT CALENDAR ROW for the calendar hero. Composed from the real upcoming OTT announcements
+// (forward-looking) PLUS the recently-dropped catalogue titles (which carry posters + pages +
+// scores) so the calendar is poster-rich and clickable, not 4 thin unlinkable rows.
+export type OttCalItem = {
+  date: string; // ISO yyyy-mm-dd
+  title: string;
+  platform: string;
+  kind: "film" | "series";
+  href: string | null; // null = announced but no page yet
+  poster: PosterAsset | null;
+  score: number | null; // BollyMeter for already-dropped titles
+  upcoming: boolean; // true = future drop, false = now streaming
+};
+
+export function ottCalendarDeck(count = 12, now: number = Date.now()): OttCalItem[] {
+  const todayIso = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date(now));
+  const seen = new Set<string>();
+  const coming: OttCalItem[] = [];
+  const dropped: OttCalItem[] = [];
+
+  // 1) genuine upcoming announcements from the OTT calendar (calendar slugs are series slugs)
+  for (const e of getOttCalendar().entries) {
+    if (e.release_date < todayIso) continue;
+    const key = e.slug ? `series:${e.slug}` : `ann:${e.title}-${e.release_date}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    coming.push({
+      date: e.release_date,
+      title: e.title,
+      platform: e.platform,
+      kind: e.type,
+      href: e.slug ? `/series/${e.slug}/` : null,
+      poster: e.slug ? seriesPosterBySlug(e.slug) : null,
+      score: null,
+      upcoming: true
+    });
+  }
+
+  // 2) recently dropped on OTT from the catalogue (rich + clickable)
+  const recent = [
+    ...getAllSeries().map((s) => seriesToItem(s, now)),
+    ...getAllFilms()
+      .filter((f) => f.status === "ott")
+      .map((f) => filmToItem(f, now))
+  ]
+    .filter((i) => Boolean(i.poster.src) && !i.poster.src.includes("_fallback"))
+    .sort((a, b) => b.recency.localeCompare(a.recency));
+
+  for (const i of recent) {
+    if (coming.length + dropped.length >= count) break;
+    const key = `${i.kind}:${i.slug}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    dropped.push({
+      date: i.recency,
+      title: i.title,
+      platform: i.meta,
+      kind: i.kind,
+      href: i.href,
+      poster: i.poster,
+      score: i.score,
+      upcoming: false
+    });
+  }
+
+  coming.sort((a, b) => a.date.localeCompare(b.date)); // soonest drop first
+  // Artwork-first (mirrors mosaicSecondary): a poster-bearing card pops far harder than a
+  // placeholder one-sheet and feeds the ambient hero backdrop, so surface poster-having
+  // titles first. Date order is preserved within each group, and per-card upcoming/dropped
+  // state is intact (it lives on the card, not the position).
+  const all = [...coming, ...dropped];
+  const hasPoster = (c: (typeof all)[number]) => {
+    const src = c.poster?.src;
+    return !!src && !src.includes("_fallback");
+  };
+  return [...all.filter(hasPoster), ...all.filter((c) => !hasPoster(c))].slice(0, count);
 }
 
 // The featured DECK for the rotating hero marquee - the top N furnished, art-bearing titles
