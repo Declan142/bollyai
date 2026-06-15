@@ -25,10 +25,15 @@
 /* typed custom property so the BollyMeter arc can be tweened in a keyframe */
 @property --dial-fill { syntax: "<percentage>"; inherits: false; initial-value: 0%; }
 
-/* Scroll-driven reveal - replaces JS stagger. Settles before the eye arrives (entry 0->~52%).
-   view() auto-staggers rail cards (each enters at its own scroll position) - free stagger. */
+/* CANONICAL REVEAL UTILITY - the single JS-free, reduced-motion-gated scroll entrance the
+   whole system uses. Two reveal idioms had been drifting apart (a hand-named `.reveal` and a
+   separate `review-fadein` keyframe in globals.css); `.reveal-rise` is now the one source of
+   truth, and `.reveal` is kept as a backward-compatible alias so existing markup keeps working.
+   view() auto-staggers rail cards (each enters at its own scroll position) - free stagger.
+   The `rise-in` keyframe is shared by the rail/board/ask entrances so the motion never forks. */
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
+    .reveal-rise,
     .reveal {
       animation: rise-in linear both;
       animation-timeline: view();
@@ -784,6 +789,15 @@
 
 /* ---- 17. Search: a designed answer-bar, never an empty box ----------------- */
 .search-head { gap: 8px; }
+/* Above-the-fold first block: view() cannot fire on a block already in the viewport, so this
+   uses a one-shot load entrance with the shared `rise-in` keyframe (same grammar as the hero
+   `.reveal` / `.ask-answer` mounts), reduced-motion gated, so /search opens like the heroes.
+   Wrapped in the same @supports as the keyframe definition so `rise-in` is guaranteed present. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .search-head { animation: rise-in .5s var(--ease-out) both; }
+  }
+}
 .search-head h1 {
   font-variation-settings: "opsz" 120, "wght" 420;
   font-size: clamp(2.4rem, 6vw, 3.6rem); line-height: .98; margin: 0;
