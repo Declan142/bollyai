@@ -1,0 +1,146 @@
+/* VerdictReceipt - tap-to-reveal "receipt" exposing what the verdict is grounded on (title lane,
+   2026-06-16). The honesty fences as a feature: every score traces to a real, cited source.
+   Monospace receipt aesthetic, perforated edge, scarce amber. Component-scoped CSS only. */
+
+.receipt {
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  background: color-mix(in oklch, var(--surface) 80%, transparent);
+  overflow: hidden;
+}
+
+.toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  color: var(--text);
+  font: inherit;
+}
+
+.toggle:hover .open {
+  color: var(--accent);
+}
+
+.tag {
+  font-family: var(--font-number);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent-ink);
+  background: var(--accent);
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.sub {
+  display: block;
+  font-family: var(--font-number);
+  font-size: 0.64rem;
+  color: var(--text-faint);
+  letter-spacing: 0.04em;
+  margin-top: 0.15rem;
+}
+
+.open {
+  margin-left: auto;
+  font-family: var(--font-number);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  transition: color 0.18s ease;
+}
+
+.panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.32s ease;
+}
+
+.panel.shown {
+  grid-template-rows: 1fr;
+}
+
+.panelInner {
+  overflow: hidden;
+}
+
+.tape {
+  padding: 0.2rem 1.2rem 1.3rem;
+  border-top: 1px dashed var(--border);
+  font-family: var(--font-number);
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.line {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0.8rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px dotted var(--border-hair);
+}
+
+.line:last-child {
+  border-bottom: 0;
+}
+
+.k {
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  padding-top: 0.15rem;
+}
+
+.v {
+  color: var(--text);
+}
+
+.v a {
+  color: var(--accent-2);
+  text-decoration-color: color-mix(in oklch, var(--accent) 50%, transparent);
+}
+
+.quote {
+  display: block;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.cite {
+  font-size: 0.66rem;
+  color: var(--text-faint);
+}
+
+.foot {
+  margin-top: 0.9rem;
+  font-size: 0.66rem;
+  color: var(--text-faint);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 560px) {
+  .line {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}

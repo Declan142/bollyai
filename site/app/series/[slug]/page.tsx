@@ -2,9 +2,11 @@ import { notFound } from "next/navigation";
 import { DateModified } from "../../../components/DateModified";
 import { DeskTint } from "../../../components/DeskTint";
 import { JsonLd } from "../../../components/JsonLd";
-import { SeasonVerdict } from "../../../components/SeasonVerdict";
 import { RelatedSeries } from "../../../components/RelatedSeries";
-import { AnswerBlock } from "../../../components/AnswerBlock";
+import { TitleHero } from "../../../components/TitleHero";
+import { BoxOfficeTable } from "../../../components/BoxOfficeTable";
+import { VerdictReceipt } from "../../../components/VerdictReceipt";
+import { EpisodeList } from "../../../components/EpisodeList";
 import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
@@ -37,8 +39,14 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!series) notFound();
   const latest = latestSeason(series);
-  const faq = seriesFaq(series, peakSeason(series));
+  const peak = peakSeason(series);
+  const faq = seriesFaq(series, peak);
   const faqLd = seriesFaqJsonLd(faq);
+
+  // Standout-episode breakdowns surface for whichever season carries the richest set.
+  const episodeSeason = [...series.seasons]
+    .sort((a, b) => (b.episode_reviews?.length ?? 0) - (a.episode_reviews?.length ?? 0))[0];
+  const standoutEpisodes = episodeSeason?.episode_reviews ?? [];
 
   return (
     <DeskTint desk={series.canonical_industry} className="film-page">
@@ -52,33 +60,17 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
         ])}
       />
 
-      <section className="film-hero" data-desk={series.canonical_industry}>
-        {series.backdrop && (
-          <div className="film-hero__backdrop" aria-hidden="true">
-            <img src={series.backdrop.src} alt="" loading="eager" fetchPriority="low" />
-          </div>
-        )}
-        <div className="poster-frame">
-          <img src={series.poster.src} alt={series.poster.alt} width="342" height="513" fetchPriority="high" loading="eager" />
-        </div>
-        <div className="film-hero__copy">
-          <p className="eyebrow">{series.origin} · {series.platform.value}</p>
-          <h1>{series.title.value}</h1>
-          <AnswerBlock>
-            {latest
-              ? `${series.title.value} ${latest.verdict ? `is a ${latest.verdict}` : "is still dropping"} on ${series.platform.value}${latest.bollymeter ? `, BollyMeter ${latest.bollymeter.score.toFixed(1)}/10` : ""}. ${series.logline}`
-              : series.logline}
-          </AnswerBlock>
-          {latest && <SeasonVerdict rung={latest.verdict} />}
-          <p className="renewal-line">
-            <strong>Renewal:</strong> {series.renewal.note}{" "}
-            <a href={series.renewal.source_url}>({series.renewal.source})</a>
-          </p>
-          <DateModified value={series.date_modified} />
-        </div>
-      </section>
+      <TitleHero series={series} peak={peak} latest={latest} />
 
       <section className="content-sections">
+        <BoxOfficeTable series={series} />
+
+        <VerdictReceipt series={series} season={peak} />
+
+        {standoutEpisodes.length > 0 && (
+          <EpisodeList slug={series.slug} seasonNumber={episodeSeason.number} episodes={standoutEpisodes} />
+        )}
+
         <section className="panel">
           <h2>Seasons</h2>
           <ol className="season-list">
@@ -123,6 +115,8 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
             ))}
           </dl>
         </section>
+
+        <DateModified value={series.date_modified} />
 
         <RelatedSeries slug={series.slug} />
       </section>

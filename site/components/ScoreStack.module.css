@@ -1,0 +1,90 @@
+/* ScoreStack - the layered score cluster (title-page revamp 2026-06-16, title lane).
+   Critic % and Audience /10 flank the BollyMeter composite dial; JetBrains Mono numerics,
+   the two source signals recessed so the composite reads as the answer. Component-scoped. */
+
+.stack {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(1rem, 3.5vw, 2.4rem);
+  flex-wrap: wrap;
+}
+
+.dialWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  order: 2;
+}
+
+.composite {
+  font-family: var(--font-number);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 4.5rem;
+  padding: 0.1rem 0 0.1rem 0.95rem;
+  border-left: 1px solid var(--border-hair);
+}
+
+.cell:first-child {
+  order: 1;
+}
+
+.cell:last-child {
+  order: 3;
+}
+
+.value {
+  font-family: var(--font-number);
+  font-weight: 700;
+  font-size: clamp(1.9rem, 5.2vw, 2.7rem);
+  line-height: 0.95;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.unit {
+  font-size: 0.5em;
+  color: var(--text-faint);
+  font-weight: 400;
+  margin-left: 0.12em;
+}
+
+.label {
+  font-family: var(--font-number);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.meta {
+  font-size: 0.66rem;
+  color: var(--text-faint);
+  line-height: 1.2;
+}
+
+.meta a {
+  color: inherit;
+  text-decoration-color: color-mix(in oklch, var(--accent) 45%, transparent);
+}
+
+@media (max-width: 560px) {
+  .value {
+    font-size: 2.1rem;
+  }
+  .cell {
+    min-width: 3.8rem;
+    padding-left: 0.7rem;
+  }
+}

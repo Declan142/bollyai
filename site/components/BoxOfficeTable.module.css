@@ -1,0 +1,201 @@
+/* BoxOfficeTable - the season-by-season reception ledger (title lane, 2026-06-16). Indian OTT
+   platforms publish NO per-title viewership (honesty fence #3), so for a streaming title the
+   honest performance ledger tracks RECEPTION across seasons: BollyMeter, critic %, audience,
+   verdict rung - with per-episode BollyMeter rhythm. Editorial Mono numerics. Scoped CSS only. */
+
+.wrap {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: color-mix(in oklch, var(--surface) 70%, transparent);
+}
+
+/* Scroll-driven reveal so the below-fold ledger arrives with motion (P3, CSS-only view-timeline,
+   no JS; degrades to fully visible where unsupported or reduced-motion). */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .wrap {
+      animation: ledgerRise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 38%;
+    }
+    @keyframes ledgerRise {
+      from {
+        opacity: 0;
+        transform: translateY(26px);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.3rem 0.7rem;
+  flex-wrap: wrap;
+}
+
+.kicker {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+}
+
+.note {
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  max-width: 34ch;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th {
+  font-family: var(--font-number);
+  font-size: 0.6rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  text-align: left;
+  font-weight: 400;
+  padding: 0.6rem 0.9rem;
+  border-top: 1px solid var(--border-hair);
+}
+
+.table th.num,
+.table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.table td {
+  padding: 0.85rem 0.9rem;
+  border-top: 1px solid var(--border-hair);
+  color: var(--text-dim);
+  vertical-align: middle;
+}
+
+.season {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.seasonMeta {
+  display: block;
+  font-family: var(--font-number);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  margin-top: 0.15rem;
+}
+
+.metric {
+  font-family: var(--font-number);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.dim {
+  color: var(--text-faint);
+}
+
+.rung {
+  display: inline-block;
+  font-family: var(--font-number);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.3rem 0.55rem;
+  border-radius: 5px;
+  white-space: nowrap;
+  color: var(--accent-ink);
+}
+
+/* per-episode rhythm strip */
+.rhythm {
+  padding: 1.05rem 1.3rem 1.3rem;
+  border-top: 1px solid var(--border-hair);
+}
+
+.rhythmHead {
+  font-family: var(--font-number);
+  font-size: 0.6rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin: 0 0 0.7rem;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4rem;
+  height: 5.5rem;
+}
+
+.bar {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.barTrack {
+  width: 100%;
+  max-width: 2.2rem;
+  height: 4rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 3px 3px 0 0;
+  background: color-mix(in oklch, var(--surface-2) 80%, transparent);
+  overflow: hidden;
+}
+
+.barFill {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.barNum {
+  font-family: var(--font-number);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.barEp {
+  font-family: var(--font-number);
+  font-size: 0.55rem;
+  color: var(--text-faint);
+}
+
+@media (max-width: 620px) {
+  .note {
+    text-align: left;
+  }
+  .hideSm {
+    display: none;
+  }
+  .table {
+    font-size: 0.82rem;
+  }
+}
