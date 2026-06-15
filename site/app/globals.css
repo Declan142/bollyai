@@ -1553,7 +1553,7 @@ p {
   overflow: hidden;
   border-block: 1px solid color-mix(in oklch, var(--accent) 30%, transparent);
   background:
-    linear-gradient(180deg, oklch(12% .03 280), oklch(9% .028 280)),
+    linear-gradient(180deg, oklch(12% .008 285), oklch(9% .006 285)),
     repeating-linear-gradient(90deg, oklch(100% 0 0 / .02) 0 1px, transparent 1px 7px);
   padding: 11px 0;
   position: relative;
@@ -1668,7 +1668,7 @@ p {
   border: 1px solid oklch(100% 0 0 / .14);
   border-radius: 3px;
   overflow: hidden;
-  background: oklch(14% .03 280);
+  background: oklch(14% .008 285);
   box-shadow: 0 18px 40px oklch(0% 0 0 / .5);
   transform: rotate(-1.1deg);
   transition: transform .22s ease, box-shadow .22s ease, z-index 0s;
@@ -1706,7 +1706,7 @@ p {
   display: grid;
   gap: 7px;
   padding: 12px 12px 14px;
-  background: linear-gradient(180deg, oklch(13% .03 280), oklch(10% .028 280));
+  background: linear-gradient(180deg, oklch(13% .008 285), oklch(10% .006 285));
   border-top: 2px solid var(--accent);
 }
 
@@ -2278,7 +2278,7 @@ p {
   border: 1px solid oklch(100% 0 0 / .14);
   border-radius: 3px;
   overflow: hidden;
-  background: oklch(14% .03 280);
+  background: oklch(14% .008 285);
   box-shadow: 0 18px 40px oklch(0% 0 0 / .5);
   transform: rotate(-0.7deg);
   transition: transform .22s ease, box-shadow .22s ease, z-index 0s;
@@ -2319,7 +2319,7 @@ p {
   display: grid;
   gap: 7px;
   padding: 12px 12px 14px;
-  background: linear-gradient(180deg, oklch(13% .03 280), oklch(10% .028 280));
+  background: linear-gradient(180deg, oklch(13% .008 285), oklch(10% .006 285));
   border-top: 2px solid var(--accent);
 }
 
@@ -2694,7 +2694,7 @@ p {
   border: 1px solid oklch(100% 0 0 / .1);
   border-radius: 5px;
   overflow: hidden;
-  background: oklch(13% .03 280);
+  background: oklch(13% .006 285);
   box-shadow: 0 14px 34px oklch(0% 0 0 / .45);
   transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
 }
@@ -2710,7 +2710,7 @@ p {
   display: block;
   aspect-ratio: 2 / 3;
   overflow: hidden;
-  background: linear-gradient(150deg, oklch(18% .04 280), oklch(10% .03 280));
+  background: linear-gradient(150deg, oklch(18% .012 285), oklch(10% .006 285));
 }
 
 .media-card__poster,
@@ -2740,7 +2740,7 @@ p {
   text-align: center;
   background:
     radial-gradient(120% 80% at 50% 18%, color-mix(in oklch, var(--accent) 20%, transparent), transparent 70%),
-    linear-gradient(155deg, color-mix(in oklch, var(--accent) 16%, oklch(13% .03 280)), oklch(9% .025 280));
+    linear-gradient(155deg, color-mix(in oklch, var(--accent) 16%, oklch(13% .008 285)), oklch(9% .006 285));
 }
 
 .media-card__placeholder::after {
@@ -2789,7 +2789,7 @@ p {
 }
 
 .media-card__type--series {
-  background: oklch(8% .02 280 / .72);
+  background: oklch(8% .006 285 / .72);
   color: var(--accent-2);
   border: 1px solid color-mix(in oklch, var(--accent-2) 55%, transparent);
 }
@@ -2825,7 +2825,7 @@ p {
   color: var(--accent-2);
   padding: 3px 7px;
   border-radius: 3px;
-  background: oklch(8% .02 280 / .82);
+  background: oklch(8% .006 285 / .82);
   border: 1px solid var(--border-hair);
 }
 
@@ -2840,7 +2840,7 @@ p {
   gap: 6px;
   align-content: start;
   padding: 12px 12px 14px;
-  background: linear-gradient(180deg, oklch(13% .03 280), oklch(10% .028 280));
+  background: linear-gradient(180deg, oklch(13% .008 285), oklch(10% .006 285));
   border-top: 2px solid var(--accent);
 }
 
@@ -2976,5 +2976,10 @@ p {
   }
   .watch-next .poster-card {
     transition: box-shadow .22s ease;
+  }
+  /* the trade ticker is the one perpetual scroll on the page - honour the OS setting
+     so it never becomes a vestibular trigger (the rest of the motion layer already does) */
+  .ticker__track {
+    animation: none;
   }
 }

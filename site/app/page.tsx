@@ -156,17 +156,24 @@ export default function HomePage() {
             <h2>OTT This Week</h2>
             <p>Confirmed drops, attributed announcements.</p>
           </header>
-          <ul>
-            {ott.map((entry) => (
-              <li key={`${entry.title}-${entry.platform}`} data-desk={entry.industry}>
-                <time dateTime={entry.release_date}>{formatDate(entry.release_date)}</time>
-                <span className="ott-rail__title">
-                  {entry.slug ? <a href={`/${entry.industry}/box-office/${entry.slug}/`}>{entry.title}</a> : entry.title}
-                </span>
-                <span className="pill">{entry.platform}</span>
-              </li>
-            ))}
-          </ul>
+          {ott.length > 0 ? (
+            <ul>
+              {ott.map((entry) => (
+                <li key={`${entry.title}-${entry.platform}`} data-desk={entry.industry}>
+                  <time dateTime={entry.release_date}>{formatDate(entry.release_date)}</time>
+                  <span className="ott-rail__title">
+                    {entry.slug ? <a href={`/${entry.industry}/box-office/${entry.slug}/`}>{entry.title}</a> : entry.title}
+                  </span>
+                  <span className="pill">{entry.platform}</span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div className="empty-state">
+              <span className="empty-state__title">Calendar between drops</span>
+              <p className="empty-state__note">No confirmed OTT releases in this window yet. The full calendar tracks every announced date.</p>
+            </div>
+          )}
           <a className="ott-rail__more" href="/ott/calendar/">
             Full OTT calendar →
           </a>

@@ -559,3 +559,144 @@
   .ott-hero__title { font-size: clamp(1.9rem, 8vw, 3rem); }
   .ottc-card { width: clamp(132px, 42vw, 156px); }
 }
+
+/* ============================================================================
+   BELOW-THE-FOLD ELEVATION + SHARED MICRO-INTERACTION LANGUAGE
+   2026-06-16 - sustains the Verdict Stage / OTT Hero quality the whole way down,
+   and ships the cohesive motion / empty-state / loading vocabulary the rest of the
+   site inherits. Every motion feature is @supports + prefers-reduced-motion gated;
+   tokens are referenced (never redefined) so sibling component CSS stays valid.
+   ============================================================================ */
+
+/* ---- 11. Section-head signature -------------------------------------------
+   One editorial mark opens every below-fold section so the eye reads a single
+   rhythm from hero to footer: a short accent rule + the title nudged off the
+   margin. Scoped to .home-hub so desk / series section heads elsewhere are
+   untouched (those lanes own their own surfaces). */
+.home-hub .home-section-head { position: relative; padding-top: 1.4rem; }
+.home-hub .home-section-head::before {
+  content: ""; position: absolute; top: 0; left: 0;
+  width: 38px; height: 3px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent), color-mix(in oklch, var(--accent) 10%, transparent));
+}
+.home-hub .home-section-head h2 {
+  font-variation-settings: "opsz" 96, "wght" 460;
+  text-wrap: balance;
+}
+/* the rail heads keep the rule but let the "browse all" link breathe on its baseline */
+.home-hub .home-section-head--rail { padding-top: 1.4rem; }
+
+/* a hairline closes each rail section so the stacked rails do not blur together */
+.home-hub .hub-block + .hub-block { margin-top: clamp(3.4rem, 6vw, 4.6rem); }
+
+/* ---- 12. Desk strip + quick-nav: shared hover grammar ---------------------
+   Match the card lift language so the navigational tiles feel part of the same
+   system, not flat afterthoughts. Scoped to home. */
+.home-hub .desk-tile {
+  position: relative; isolation: isolate;
+  transition: background var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
+}
+.home-hub .desk-tile::after {
+  content: ""; position: absolute; inset: 0; z-index: -1; opacity: 0;
+  background: radial-gradient(120% 90% at 18% 0%, color-mix(in oklch, var(--accent) 12%, transparent), transparent 64%);
+  transition: opacity var(--dur-hover) var(--ease-out);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-hub .desk-tile:hover { transform: translateY(-3px); }
+}
+.home-hub .desk-tile:hover { background: oklch(100% 0 0 / .03); }
+.home-hub .desk-tile:hover::after { opacity: 1; }
+.home-hub .desk-tile:hover::before { width: 56px; transition: width var(--dur-hover) var(--ease-out); }
+
+/* lead board number ghost lifts on row hover (the big-board is a marquee object) */
+.big-board li a { transition: background var(--dur-hover) var(--ease-out); }
+@media (prefers-reduced-motion: no-preference) {
+  .big-board__rank { transition: text-shadow var(--dur-hover) var(--ease-out), color var(--dur-hover) var(--ease-out); }
+  .big-board li a:hover .big-board__rank {
+    color: var(--accent); -webkit-text-stroke: 0;
+    text-shadow: 0 0 22px color-mix(in oklch, var(--accent) 45%, transparent);
+  }
+}
+
+/* ---- 13. Empty-state language (shared primitive) --------------------------
+   A designed "nothing here yet" slot - the same Criterion text-edition grammar as
+   the posterless one-sheet, so an empty rail reads intentional, never broken.
+   Any surface drops <div class="empty-state"> ... </div> and inherits it. */
+.empty-state {
+  display: grid; place-items: center; gap: .55rem; text-align: center;
+  min-height: 180px; padding: clamp(1.6rem, 4vw, 2.6rem);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background:
+    radial-gradient(120% 90% at 50% 0%, color-mix(in oklch, var(--accent) 7%, transparent), transparent 62%),
+    oklch(11% .005 285);
+  color: var(--text-dim);
+}
+.empty-state::before {
+  content: "\25C9"; font-size: 2rem; line-height: 1;
+  color: color-mix(in oklch, var(--accent) 55%, var(--text-faint));
+}
+.empty-state__title {
+  font-family: var(--font-display); font-size: 1.15rem; font-weight: 500; color: var(--text);
+}
+.empty-state__note {
+  font-family: var(--font-number); font-size: .72rem; letter-spacing: .04em;
+  color: var(--text-faint); max-width: 40ch; margin: 0;
+}
+
+/* ---- 14. Loading-state language (scarce, tasteful shimmer) -----------------
+   For any async / deferred slot. Default is a calm pulse; on capable engines a
+   single light sweep crosses the surface. Reduced-motion collapses to a static
+   tint so it never strobes. Aspect kept 2/3 to reserve poster space (no CLS). */
+.skel {
+  position: relative; overflow: hidden; border-radius: 6px;
+  background: oklch(15% .006 285);
+}
+.skel--poster { aspect-ratio: 2 / 3; }
+.skel--line { height: .8em; border-radius: 3px; }
+.skel--line + .skel--line { margin-top: .5em; }
+@media (prefers-reduced-motion: no-preference) {
+  .skel { animation: skel-pulse 1.8s var(--ease-out) infinite; }
+  @supports (background: linear-gradient(in oklch, red, blue)) {
+    .skel::after {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(100deg, transparent 20%,
+        color-mix(in oklch, var(--accent) 9%, transparent) 50%, transparent 80%);
+      transform: translateX(-100%);
+      animation: skel-sweep 1.8s var(--ease-out) infinite;
+    }
+  }
+  @keyframes skel-pulse { 0%, 100% { opacity: .7; } 50% { opacity: 1; } }
+  @keyframes skel-sweep { to { transform: translateX(100%); } }
+}
+
+/* ---- 15. Focus-visible ring (whole-site keyboard polish) -------------------
+   One scarce accent ring for every interactive surface - keyboard users get a
+   clear, on-brand focus state; mouse users never see it (:focus-visible only).
+   This is the a11y layer the whole site inherits from the shared sheet. */
+:where(a, button, input, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+/* cards already carry their own radius - keep the ring hugging the corner */
+.media-card:focus-visible,
+.ottc-card:focus-visible,
+.ep-review-card:focus-visible,
+.watch-rail__card:focus-visible,
+.bo-link-card:focus-visible { outline-offset: 2px; }
+
+/* ---- 16. Below-fold reveal completeness -----------------------------------
+   Extend the scroll-driven rise to the remaining below-fold lists so no section
+   pops in unanimated. Same range / easing as the card rails (section 1). */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .home-hub .board-split > *,
+    .home-hub .desk-strip .desk-tile,
+    .home-hub .desk-nav__tile {
+      animation: rise-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 22%;
+    }
+  }
+}
