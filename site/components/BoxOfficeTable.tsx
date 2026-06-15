@@ -24,6 +24,25 @@ export function BoxOfficeTable({ series }: { series: Series }) {
   const seasons = [...series.seasons].sort((a, b) => a.number - b.number);
   if (seasons.length === 0) return null;
 
+  // If not a single season carries any reception signal (no BollyMeter, no critic %, no audience,
+  // no verdict rung), a table of dashes is a dead void - render a grounded empty-state instead.
+  const anySignal = seasons.some(
+    (s) => s.bollymeter != null || s.critic?.positive_pct != null || s.audience?.rating != null || s.verdict != null
+  );
+  if (!anySignal) {
+    return (
+      <div className={styles.wrap}>
+        <div className={styles.head}>
+          <h2 className={styles.kicker}>Reception ledger</h2>
+        </div>
+        <p className={styles.empty}>
+          Reception is still landing. BollyAI does not score a title until enough real critic and
+          audience reaction exists to ground a verdict - no number gets invented to fill the gap.
+        </p>
+      </div>
+    );
+  }
+
   // Pick the season with the richest scored-episode set for the rhythm strip.
   const scoredEps = (s: SeriesSeason) => (s.episode_reviews ?? []).filter((e) => e.bollymeter != null);
   const rhythmSeason = [...seasons].sort((a, b) => scoredEps(b).length - scoredEps(a).length)[0];
@@ -67,14 +86,14 @@ export function BoxOfficeTable({ series }: { series: Series }) {
                       {s.bollymeter.score.toFixed(1)}
                     </span>
                   ) : (
-                    <span className={styles.dim}>-</span>
+                    <span className={styles.dim}>n/a</span>
                   )}
                 </td>
                 <td className="num">
                   {s.critic?.positive_pct != null ? (
                     <span className={styles.metric}>{s.critic.positive_pct}%</span>
                   ) : (
-                    <span className={styles.dim}>-</span>
+                    <span className={styles.dim}>n/a</span>
                   )}
                 </td>
                 <td className="num">
@@ -86,7 +105,7 @@ export function BoxOfficeTable({ series }: { series: Series }) {
                       </span>
                     </span>
                   ) : (
-                    <span className={styles.dim}>-</span>
+                    <span className={styles.dim}>n/a</span>
                   )}
                 </td>
                 <td>

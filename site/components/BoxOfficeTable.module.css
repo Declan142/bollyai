@@ -57,6 +57,15 @@
   text-align: right;
 }
 
+.empty {
+  margin: 0;
+  padding: 0.2rem 1.3rem 1.4rem;
+  font-size: 0.92rem;
+  color: var(--text-dim);
+  line-height: 1.55;
+  max-width: 60ch;
+}
+
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -113,6 +122,9 @@
 
 .dim {
   color: var(--text-faint);
+  opacity: 0.55;
+  font-family: var(--font-number);
+  font-size: 0.8rem;
 }
 
 .rung {

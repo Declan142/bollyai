@@ -1,5 +1,6 @@
 import { PosterImage } from "./PosterImage";
 import { ScoreStack } from "./ScoreStack";
+import { SaveToDiary } from "./SaveToDiary";
 import { SeasonVerdict } from "./SeasonVerdict";
 import { formatDate } from "../lib/data";
 import { isFreshSeries, type Series, type SeriesSeason } from "../lib/series";
@@ -26,6 +27,11 @@ export function TitleHero({
   const fresh = isFreshSeries(series);
   const ctaSeason = latest ?? peak;
   const genreLine = series.genres?.slice(0, 2).join(" · ");
+  // Only mount the score row when ScoreStack will actually render something - otherwise a show
+  // with no grounded reception (e.g. a just-dropped title) leaves a hollow margin gap.
+  const hasScores =
+    peak != null &&
+    (peak.bollymeter != null || peak.critic?.positive_pct != null || peak.audience?.rating != null);
 
   return (
     <section className={styles.hero} data-desk={series.canonical_industry} aria-label={`${series.title.value} verdict`}>
@@ -54,7 +60,7 @@ export function TitleHero({
 
           <p className={styles.answer}>{deriveAnswer(series, peak)}</p>
 
-          {peak && (
+          {hasScores && peak && (
             <div className={styles.scoreRow}>
               <ScoreStack season={peak} />
             </div>
@@ -66,13 +72,21 @@ export function TitleHero({
             </div>
           )}
 
-          {ctaSeason && (
-            <div className={styles.ctaRow}>
+          <div className={styles.ctaRow}>
+            {ctaSeason && (
               <a className={styles.cta} href={`/series/${series.slug}/s${ctaSeason.number}/`}>
                 Read the full verdict <span aria-hidden="true">→</span>
               </a>
-            </div>
-          )}
+            )}
+            <SaveToDiary
+              slug={series.slug}
+              title={series.title.value}
+              poster={series.poster.src}
+              desk={series.canonical_industry}
+              platform={series.platform.value}
+              bollyScore={peak?.bollymeter?.score ?? null}
+            />
+          </div>
 
           <p className={styles.renewal}>
             <strong>Renewal:</strong> {series.renewal.note}{" "}

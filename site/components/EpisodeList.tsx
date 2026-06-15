@@ -24,10 +24,15 @@ export function EpisodeList({
   const [full, setFull] = useState(false);
   if (!episodes || episodes.length === 0) return null;
 
+  // Only offer the toggle when Full mode actually reveals more - otherwise it is a dead control.
+  const hasSpoilerContent = episodes.some((ep) => ep.the_moment || ep.verdict?.one_liner);
+  const showFull = full && hasSpoilerContent;
+
   return (
     <div className={styles.wrap}>
       <div className={styles.head}>
         <h2 className={styles.kicker}>Standout episodes</h2>
+        {hasSpoilerContent && (
         <div className={styles.switch} role="group" aria-label="Spoiler mode">
           <button
             type="button"
@@ -46,6 +51,7 @@ export function EpisodeList({
             Full
           </button>
         </div>
+        )}
       </div>
 
       {episodes.map((ep) => {
@@ -61,13 +67,13 @@ export function EpisodeList({
               </h3>
               <p className={styles.body}>{ep.spoiler_free}</p>
 
-              {full && ep.the_moment && (
+              {showFull && ep.the_moment && (
                 <p className={styles.moment}>
                   <span className={styles.momentK}>The moment</span>
                   {ep.the_moment}
                 </p>
               )}
-              {full && ep.verdict?.one_liner && <p className={styles.oneLiner}>&ldquo;{ep.verdict.one_liner}&rdquo;</p>}
+              {showFull && ep.verdict?.one_liner && <p className={styles.oneLiner}>&ldquo;{ep.verdict.one_liner}&rdquo;</p>}
 
               {hasRich && (
                 <a className={styles.readmore} href={href}>

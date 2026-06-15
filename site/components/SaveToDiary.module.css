@@ -1,0 +1,99 @@
+/* SaveToDiary - the diary entry-point on a title page (title lane, 2026-06-16). Client-side,
+   localStorage. Matches the hero CTA weight but reads as the secondary action (ghost, not amber
+   fill - the "Read the full verdict" CTA keeps the single hot accent). Component-scoped CSS. */
+
+.wrap {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.save {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in oklch, var(--surface-2) 70%, transparent);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.16s ease, transform 0.16s ease, background 0.16s ease;
+}
+
+.save:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in oklch, var(--accent) 55%, var(--border));
+}
+
+.save.saved {
+  border-color: color-mix(in oklch, var(--accent) 60%, transparent);
+  background: color-mix(in oklch, var(--accent) 14%, transparent);
+}
+
+.tick {
+  color: var(--accent);
+  font-family: var(--font-number);
+}
+
+.plus {
+  color: var(--accent);
+  font-family: var(--font-number);
+  font-size: 1.05em;
+  line-height: 1;
+}
+
+/* status chooser - revealed once saved */
+.statusRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.statusRow button {
+  font-family: var(--font-number);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid var(--border-hair);
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease, border-color 0.14s ease;
+}
+
+.statusRow button:hover {
+  border-color: color-mix(in oklch, var(--accent) 50%, var(--border));
+}
+
+.statusRow button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.open {
+  font-family: var(--font-number);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  text-decoration: none;
+}
+
+.open:hover {
+  color: var(--accent);
+}
+
+.priv {
+  font-family: var(--font-number);
+  font-size: 0.58rem;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+}
