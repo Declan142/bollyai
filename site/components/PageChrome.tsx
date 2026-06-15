@@ -1,4 +1,5 @@
 import { DESKS } from "../lib/desks";
+import { HeaderSearch } from "./HeaderSearch";
 
 export function SiteHeader() {
   return (
@@ -56,17 +57,8 @@ export function SiteHeader() {
         </form>
       </div>
 
-      {/* desktop search - hidden on mobile (drawer has its own) */}
-      <form className="site-search site-search--desktop" action="/search/" method="get" role="search">
-        <input
-          type="search"
-          name="q"
-          placeholder="Search films, series, endings…"
-          aria-label="Search BollyAI"
-          autoComplete="off"
-        />
-        <button type="submit" aria-label="Search">↵</button>
-      </form>
+      {/* desktop search - live typeahead (hidden on mobile; the drawer keeps its own simple form) */}
+      <HeaderSearch />
     </header>
   );
 }

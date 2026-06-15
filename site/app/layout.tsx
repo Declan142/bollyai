@@ -6,6 +6,7 @@ import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/700.css";
 import type { Metadata } from "next";
 import "./globals.css";
+import "./revamp.css";
 import { SiteFooter, SiteHeader } from "../components/PageChrome";
 import { JsonLd } from "../components/JsonLd";
 import { organizationJsonLd, webSiteJsonLd } from "../lib/jsonld";

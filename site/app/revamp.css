@@ -1,0 +1,470 @@
+/* ============================================================================
+   BollyAI REVAMP - 2026-06-15 - "THE FRIDAY VERDICT"
+   Synthesis of the 10-Opus design team. Loaded AFTER globals.css so equal-specificity
+   rules win by cascade order. 100% pure CSS - no JS library, no framework bump.
+   Every motion/interaction feature is @supports + prefers-reduced-motion gated, so it
+   degrades to a clean static page on older browsers (static-export + CF Pages safe).
+   ============================================================================ */
+
+/* ---- 1. Motion primitives -------------------------------------------------- */
+
+/* Cross-document View Transitions: BollyAI uses plain <a> navigations (MPA), so this gives a
+   filmic cross-dissolve between every page for ~6 lines of CSS, zero JS. (Shared-element
+   poster->hero morph is phase 2 - needs per-page-unique names to avoid duplicate-abort.) */
+@view-transition { navigation: auto; }
+
+@supports (view-transition-name: x) {
+  @media (prefers-reduced-motion: no-preference) {
+    ::view-transition-old(root) { animation: vt-out 160ms var(--ease-out) both; }
+    ::view-transition-new(root) { animation: vt-in 300ms var(--ease-out) both; }
+    @keyframes vt-out { to { opacity: 0; } }
+    @keyframes vt-in { from { opacity: 0; } }
+  }
+}
+
+/* typed custom property so the BollyMeter arc can be tweened in a keyframe */
+@property --dial-fill { syntax: "<percentage>"; inherits: false; initial-value: 0%; }
+
+/* Scroll-driven reveal - replaces JS stagger. Settles before the eye arrives (entry 0->~52%).
+   view() auto-staggers rail cards (each enters at its own scroll position) - free stagger. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: rise-in linear both;
+      animation-timeline: view();
+      animation-range: entry 2% entry 52%;
+    }
+    .media-rail .media-card,
+    .ep-review-rail .ep-review-card,
+    .watch-rail .watch-rail__card,
+    .bo-link-grid .bo-link-card {
+      animation: rise-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 24%;
+    }
+    @keyframes rise-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: none; }
+    }
+  }
+}
+
+/* ---- 2. THE VERDICT STAGE (above-the-fold hero) ---------------------------- */
+
+.verdict-stage {
+  position: relative;
+  width: 100%;                 /* the marquee provides the full-bleed; each stage fills its slide */
+  min-height: clamp(500px, 74vh, 800px);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+/* soft desk-accent glow behind the poster so wide-screen negative space reads atmospheric, not
+   dead - fills the gap a single portrait poster leaves on a large viewport. */
+.verdict-stage::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(44% 58% at 70% 46%, color-mix(in oklch, var(--accent) 20%, transparent), transparent 72%);
+}
+
+/* ambient "backdrop from poster": the same still, blurred + scaled, since real backdrops do not
+   exist on the catalogue (only 1). This is what makes a portrait poster fill a cinematic bleed. */
+.verdict-stage__ambient { position: absolute; inset: 0; z-index: -2; }
+.verdict-stage__ambient img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center 26%;
+  filter: blur(58px) saturate(1.2) brightness(.74);
+  transform: scale(1.2);
+}
+.verdict-stage__scrim {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(to top, oklch(8.5% .005 285 / .98) 0%, oklch(8.5% .005 285 / .74) 30%, oklch(8.5% .005 285 / .14) 66%, transparent 100%),
+    linear-gradient(to right, oklch(8.5% .005 285 / .92) 0%, oklch(8.5% .005 285 / .34) 48%, transparent 74%);
+}
+
+.verdict-stage__inner {
+  width: min(92vw, 1280px);
+  margin-inline: auto;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.1rem, 4vw, 2.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(1.75rem, 5vw, 5rem);
+}
+.verdict-stage__body { flex: 0 1 600px; }
+
+.verdict-stage__masthead {
+  display: flex; align-items: baseline; gap: .55rem;
+  font-family: var(--font-number);
+  font-size: .72rem; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: .7rem;
+}
+.verdict-stage__brand { color: var(--accent); font-weight: 700; }
+.verdict-stage__sep { color: var(--text-faint); }
+.verdict-stage__kicker { color: var(--text); }
+.verdict-stage__date { margin-left: auto; color: var(--text-faint); }
+
+.verdict-stage__eyebrow {
+  display: inline-block;
+  font-size: clamp(.74rem, 1.1vw, .84rem); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent); font-weight: 600;
+  margin-bottom: .9rem;
+}
+
+.verdict-stage__title {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 380;
+  font-variation-settings: "opsz" 144, "wght" 380;
+  line-height: .9; letter-spacing: -.02em;
+  color: var(--text);
+  margin: 0 0 1rem; text-wrap: balance; overflow-wrap: break-word;
+}
+
+.verdict-stage__answer {
+  font-family: var(--font-display); font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.6rem); line-height: 1.3;
+  color: var(--text-dim); max-width: 32ch;
+  margin: 0 0 1.2rem; text-wrap: pretty;
+}
+
+.verdict-stage__figure { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.verdict-stage__figure strong { font-family: var(--font-number); font-size: clamp(1rem, 1.5vw, 1.25rem); color: var(--text); letter-spacing: -.01em; }
+.verdict-stage__figure-meta { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint); }
+
+.verdict-stage__cta-row { display: flex; gap: 1rem; align-items: center; margin-bottom: 1.4rem; }
+.verdict-stage__cta {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--accent-hot); color: var(--accent-ink);
+  font-weight: 650; font-size: clamp(.95rem, 1.3vw, 1.05rem);
+  padding: .85rem 1.6rem; border-radius: 999px; text-decoration: none;
+  transition: transform var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out);
+  box-shadow: 0 12px 36px -8px color-mix(in oklch, var(--accent-hot) 55%, transparent);
+}
+.verdict-stage__cta:hover { transform: translateY(-2px); box-shadow: 0 18px 48px -8px color-mix(in oklch, var(--accent-hot) 68%, transparent); }
+.verdict-stage__cta span { transition: transform var(--dur-hover) var(--ease-out); }
+.verdict-stage__cta:hover span { transform: translateX(4px); }
+
+.verdict-stage__honesty { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: 0; }
+.verdict-stage__honesty li {
+  display: inline-flex; align-items: center; gap: .4rem;
+  font-size: .72rem; letter-spacing: .03em; color: var(--text-dim);
+  background: oklch(20% .012 285 / .55); border: 1px solid var(--border);
+  border-radius: 999px; padding: .35rem .75rem;
+  backdrop-filter: blur(8px);
+}
+.verdict-stage__honesty li::before { content: "◆"; color: var(--accent); font-size: .58em; }
+
+/* the key-art object (right column) + the dial that orbits its corner */
+.verdict-stage__art { position: relative; flex: 0 0 auto; display: block; text-decoration: none; }
+.verdict-stage__frame {
+  display: block; position: relative;
+  height: clamp(320px, 56vh, 560px); width: auto; aspect-ratio: 2 / 3;
+  border-radius: 12px; overflow: hidden;
+  box-shadow: var(--shadow-poster);
+  border: 1px solid oklch(100% 0 0 / .09);
+  transition: transform .45s var(--ease-out);
+}
+.verdict-stage__art:hover .verdict-stage__frame { transform: translateY(-6px) rotate(-.5deg); }
+.verdict-stage__poster { width: 100%; height: 100%; object-fit: cover; }
+.verdict-stage__fresh {
+  position: absolute; top: .55rem; left: .55rem;
+  font-family: var(--font-number); font-size: .58rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--accent-ink); background: var(--accent);
+  padding: .25rem .5rem; border-radius: 4px; font-weight: 700;
+}
+.verdict-stage__dial { position: absolute; right: -32px; bottom: -26px; filter: drop-shadow(0 12px 28px oklch(0% 0 0 / .6)); }
+.verdict-stage__dial .bm-dial--hero .bm-dial__ring { width: 146px; height: 146px; }
+.verdict-stage__dial .bm-dial--hero .bm-dial__hole { width: 114px; height: 114px; }
+.verdict-stage__dial .bm-dial--hero .bm-dial__score { font-size: 2.35rem; }
+.verdict-stage__stamp {
+  position: absolute; right: -12px; bottom: 22px;
+  font-family: var(--font-number); font-weight: 700; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase;
+  color: var(--accent); background: oklch(12% .006 285 / .94);
+  border: 2px solid var(--accent); border-radius: 6px; padding: .4rem .7rem;
+  transform: rotate(-3deg);
+}
+
+@media (max-width: 760px) {
+  .verdict-stage { min-height: 72vh; align-items: flex-end; }
+  .verdict-stage__scrim { background:
+      linear-gradient(to top, oklch(8.5% .005 285 / .99) 0%, oklch(8.5% .005 285 / .82) 38%, oklch(8.5% .005 285 / .3) 72%, transparent 100%); }
+  .verdict-stage__inner { flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 1.5rem; }
+  .verdict-stage__body { flex: 1 1 auto; }
+  .verdict-stage__art { order: -1; }
+  .verdict-stage__frame { height: auto; width: clamp(140px, 40vw, 200px); }
+  .verdict-stage__dial { right: -18px; bottom: -16px; }
+  .verdict-stage__dial .bm-dial--hero .bm-dial__ring { width: 112px; height: 112px; }
+  .verdict-stage__dial .bm-dial--hero .bm-dial__hole { width: 86px; height: 86px; }
+  .verdict-stage__dial .bm-dial--hero .bm-dial__score { font-size: 1.8rem; }
+  .verdict-stage__title { font-size: clamp(2rem, 9vw, 3.1rem); }
+  .verdict-stage__answer { font-size: 1.05rem; }
+}
+
+/* ---- 3. BollyMeter dial (the signature verdict object) --------------------- */
+
+.bm-dial { position: relative; display: inline-grid; place-items: center; }
+.bm-dial__ring {
+  border-radius: 50%; display: grid; place-items: center;
+  background: conic-gradient(from -90deg, var(--dial-color) var(--dial-target), oklch(32% .012 285) 0);
+}
+.bm-dial--hero .bm-dial__ring { width: 118px; height: 118px; }
+.bm-dial--card .bm-dial__ring { width: 64px; height: 64px; }
+.bm-dial__hole {
+  border-radius: 50%; display: grid; place-items: center; text-align: center;
+  background: radial-gradient(oklch(14% .006 285), oklch(10% .005 285));
+  box-shadow: inset 0 1px 4px oklch(0% 0 0 / .6);
+}
+.bm-dial--hero .bm-dial__hole { width: 92px; height: 92px; }
+.bm-dial--card .bm-dial__hole { width: 50px; height: 50px; }
+.bm-dial__score { font-family: var(--font-number); font-weight: 700; color: var(--text); line-height: 1; }
+.bm-dial--hero .bm-dial__score { font-size: 1.95rem; }
+.bm-dial--card .bm-dial__score { font-size: 1.05rem; }
+.bm-dial__scale { font-family: var(--font-number); color: var(--text-faint); line-height: 1; }
+.bm-dial--hero .bm-dial__scale { font-size: .68rem; }
+.bm-dial--card .bm-dial__scale { font-size: .52rem; }
+.bm-dial__label {
+  position: absolute; bottom: -1.15rem; left: 50%; transform: translateX(-50%);
+  font-family: var(--font-number); font-size: .56rem; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--text-faint); white-space: nowrap;
+}
+.bm-dial--card .bm-dial__label { display: none; }
+
+/* arc sweeps up on reveal; default (no support / reduced-motion) = static fill at target */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .bm-dial__ring {
+      background: conic-gradient(from -90deg, var(--dial-color) var(--dial-fill), oklch(32% .012 285) 0);
+      animation: dial-sweep linear both;
+      animation-timeline: view();
+      animation-range: entry 5% entry 62%;
+    }
+    @keyframes dial-sweep { from { --dial-fill: 0%; } to { --dial-fill: var(--dial-target); } }
+  }
+}
+
+/* ---- 4. "BollyAI Edition" typographic one-sheet (posterless titles) -------- */
+/* Turns poster-absence (a permanent constraint - TMDB-image fence + a harvest gap that the
+   harvester cannot close) into the signature look: a deliberate Criterion-style text edition,
+   instead of a monogram that reads like a broken image on a cinema grid. */
+
+.one-sheet {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; justify-content: space-between;
+  padding: clamp(.65rem, 1.5vw, 1.05rem);
+  background: oklch(10% .004 285);
+  border-top: 3px solid var(--accent);
+  overflow: hidden;
+}
+.one-sheet::before { /* 35mm film-strip sprocket motif down the left edge, near-invisible */
+  content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 9px;
+  background: repeating-linear-gradient(to bottom, oklch(100% 0 0 / .07) 0 5px, transparent 5px 11px);
+  opacity: .6;
+}
+.one-sheet::after { /* faint oversized reel glyph bleeding off the corner = texture, not accent */
+  content: "\25C9"; position: absolute; right: -.35em; bottom: -.5em;
+  font-size: clamp(3.4rem, 9vw, 5.2rem); line-height: 1;
+  color: oklch(100% 0 0 / .035); pointer-events: none;
+}
+.one-sheet__top {
+  display: flex; justify-content: space-between; gap: .4rem; z-index: 1;
+  font-family: var(--font-number); font-size: .58rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--text-faint);
+}
+.one-sheet__title {
+  z-index: 1; margin: auto 0;
+  font-family: var(--font-display); font-weight: 430; font-variation-settings: "opsz" 80;
+  font-size: clamp(1.05rem, 2.5vw, 1.5rem); line-height: 1.02; letter-spacing: -.01em;
+  color: var(--text); text-wrap: balance;
+}
+.one-sheet__foot {
+  z-index: 1; font-family: var(--font-number); font-size: .54rem; letter-spacing: .2em; text-transform: uppercase;
+  color: color-mix(in oklch, var(--accent) 78%, var(--text-faint));
+}
+
+/* ---- 5. Card hover = a 3-channel depth event (lift + zoom-within-frame + glow) */
+
+.media-card {
+  background: oklch(13% .006 285); /* neutralize the old hardcoded indigo card bed */
+  transition: transform var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out);
+}
+.media-card:hover, .media-card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 52px oklch(0% 0 0 / .55), 0 0 34px color-mix(in oklch, var(--accent) 20%, transparent);
+}
+.media-card__frame {
+  overflow: hidden;
+  background: linear-gradient(150deg, oklch(18% .012 285), oklch(10% .006 285)); /* neutral load bed */
+}
+.media-card__poster { transition: transform .42s var(--ease-out); transform-origin: center 35%; }
+.media-card:hover .media-card__poster,
+.media-card:focus-within .media-card__poster { transform: scale(1.06); }
+.media-card__plate { transition: transform var(--dur-hover) var(--ease-out); }
+.media-card:hover .media-card__plate { transform: translateY(-2px); }
+
+/* mirror the designed easing onto the mosaic tiles (replacing their bare `ease`) */
+.mosaic-lead, .mosaic-tile { transition: transform var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out); }
+
+/* ---- 6. Box-office bars grow on reveal; verdict stamp lands with one overshoot */
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .big-board__bar {
+      transform-origin: left;
+      animation: bar-grow linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+    @keyframes bar-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+    .verdict-stamp {
+      animation: stamp both;
+      animation-timeline: view();
+      animation-range: entry 12% entry 42%;
+    }
+    @keyframes stamp {
+      0%   { opacity: 0; transform: scale(1.18) rotate(-3deg); }
+      70%  { opacity: 1; transform: scale(.97) rotate(-3deg); }
+      100% { opacity: 1; transform: scale(1) rotate(-3deg); }
+    }
+  }
+}
+
+/* ---- 7. Premium header / nav -------------------------------------------------
+   Was a muddy-indigo bar cramming 11 links + search into a 1180px cap -> ugly 2-row wrap on
+   wide screens. Fix: neutral glass bar, wider track (one clean row), the 7 desks grouped off the
+   4 utility links by a hairline, accent hover-underline, and search as an answer-bar pill. */
+.site-header {
+  background: oklch(9% .005 285 / .82);
+  border-bottom: 1px solid var(--border);
+  padding-block: 14px;
+  padding-inline: max(24px, calc(50% - 760px)); /* ~1520px track so the nav fits one row */
+  gap: clamp(14px, 2.4vw, 36px);
+}
+.brand-lockup span { color: var(--accent); letter-spacing: -.01em; }
+
+.site-header nav { gap: clamp(9px, 1vw, 18px) clamp(10px, 1.1vw, 20px); }
+.site-header nav a {
+  position: relative; font-size: .9rem; color: var(--text-dim); white-space: nowrap;
+  padding-block: 4px; transition: color var(--dur-hover) var(--ease-out);
+}
+.site-header nav a::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 2px;
+  background: var(--accent); transform: scaleX(0); transform-origin: left;
+  transition: transform var(--dur-hover) var(--ease-out);
+}
+.site-header nav a:hover { color: var(--text); }
+.site-header nav a:hover::after { transform: scaleX(1); }
+/* hairline divider: the 4 utility links (8th onward) sit apart from the 7 cinema desks */
+.site-header nav a:nth-child(8) {
+  margin-left: clamp(4px, .6vw, 12px);
+  padding-left: clamp(10px, 1vw, 18px);
+  border-left: 1px solid var(--border);
+}
+
+.site-search--desktop {
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px;
+  padding: 3px 3px 3px 14px; gap: 6px;
+  transition: border-color var(--dur-hover) var(--ease-out);
+}
+.site-search--desktop:focus-within { border-color: color-mix(in oklch, var(--accent) 60%, transparent); }
+.site-search--desktop input {
+  background: transparent; border: none; outline: none; color: var(--text);
+  min-width: 190px; font-size: .88rem; padding: 6px 2px;
+}
+.site-search--desktop input::placeholder { color: var(--text-faint); }
+.site-search--desktop button {
+  background: var(--accent); color: var(--accent-ink); border: none; border-radius: 999px;
+  width: 30px; height: 30px; cursor: pointer; display: grid; place-items: center; flex: 0 0 auto;
+}
+
+/* ---- 8. Verdict Marquee (rotating multi-title hero) ------------------------- */
+.verdict-marquee {
+  position: relative;
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  overflow: hidden;
+  isolation: isolate;
+}
+.verdict-marquee__track { display: flex; transition: transform .7s var(--ease-out); }
+@media (prefers-reduced-motion: reduce) { .verdict-marquee__track { transition: none; } }
+.verdict-marquee__slide { flex: 0 0 100%; min-width: 0; }
+
+.verdict-marquee__arrow {
+  position: absolute; top: 44%; transform: translateY(-50%); z-index: 6;
+  width: 46px; height: 46px; border-radius: 999px; display: grid; place-items: center;
+  background: oklch(12% .006 285 / .5); color: var(--text); border: 1px solid var(--border);
+  backdrop-filter: blur(8px); font-size: 1.7rem; line-height: 1; cursor: pointer;
+  opacity: 0; transition: opacity var(--dur-hover) var(--ease-out), background var(--dur-hover) var(--ease-out),
+    border-color var(--dur-hover) var(--ease-out);
+}
+.verdict-marquee:hover .verdict-marquee__arrow, .verdict-marquee:focus-within .verdict-marquee__arrow { opacity: 1; }
+.verdict-marquee__arrow:hover { background: oklch(16% .01 285 / .82); border-color: color-mix(in oklch, var(--accent) 55%, transparent); }
+.verdict-marquee__arrow--prev { left: clamp(8px, 1.8vw, 26px); }
+.verdict-marquee__arrow--next { right: clamp(8px, 1.8vw, 26px); }
+.verdict-marquee__arrow span { margin-top: -4px; }
+
+.verdict-marquee__strip {
+  position: absolute; z-index: 6; left: 50%; transform: translateX(-50%);
+  bottom: clamp(44px, 6vh, 68px);
+  display: flex; gap: 10px; padding: 8px 10px; max-width: min(92vw, 540px); overflow-x: auto;
+  background: oklch(9% .005 285 / .42); border: 1px solid var(--border-hair);
+  border-radius: 12px; backdrop-filter: blur(10px); scrollbar-width: none;
+}
+.verdict-marquee__strip::-webkit-scrollbar { display: none; }
+.verdict-marquee__thumb {
+  position: relative; flex: 0 0 auto; width: 44px; height: 64px; border-radius: 6px; overflow: hidden;
+  border: 2px solid transparent; padding: 0; cursor: pointer; background: var(--surface); opacity: .56;
+  transition: opacity var(--dur-hover) var(--ease-out), border-color var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
+}
+.verdict-marquee__thumb img { width: 100%; height: 100%; object-fit: cover; }
+.verdict-marquee__thumb:hover { opacity: .9; transform: translateY(-2px); }
+.verdict-marquee__thumb.is-active { opacity: 1; border-color: var(--accent); }
+.verdict-marquee__thumb-score {
+  position: absolute; bottom: 0; right: 0; font-family: var(--font-number); font-size: .5rem; font-weight: 700;
+  background: oklch(10% .005 285 / .82); color: var(--text); padding: 1px 3px; border-top-left-radius: 4px;
+}
+
+.verdict-marquee__dots {
+  position: absolute; z-index: 6; left: 50%; transform: translateX(-50%);
+  bottom: clamp(20px, 3vh, 30px); display: flex; gap: 7px;
+}
+.verdict-marquee__dots span {
+  width: 7px; height: 7px; border-radius: 999px; background: oklch(62% .02 285 / .5);
+  transition: background var(--dur-hover) var(--ease-out), width var(--dur-hover) var(--ease-out);
+}
+.verdict-marquee__dots span.is-active { background: var(--accent); width: 20px; }
+
+@media (max-width: 760px) {
+  .verdict-marquee__arrow { display: none; }
+  .verdict-marquee__strip { bottom: 36px; max-width: 92vw; }
+  .verdict-marquee__dots { display: none; }
+}
+
+/* ---- 9. Header live-search dropdown ----------------------------------------- */
+.header-search { position: relative; }
+.header-search__menu {
+  position: absolute; top: calc(100% + 10px); right: 0; width: min(380px, 86vw);
+  background: oklch(11% .006 285 / .98); border: 1px solid var(--border); border-radius: 14px;
+  box-shadow: 0 24px 60px -12px oklch(0% 0 0 / .7); backdrop-filter: blur(16px);
+  padding: 6px; z-index: 250; max-height: 62vh; overflow-y: auto;
+}
+.header-search__item {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 9px 12px; border-radius: 9px; text-decoration: none; color: var(--text);
+}
+.header-search__item.is-active, .header-search__item:hover { background: var(--surface-2); }
+.header-search__t { font-size: .92rem; font-weight: 500; }
+.header-search__k {
+  font-family: var(--font-number); font-size: .56rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--accent-ink); background: var(--accent); padding: 2px 7px; border-radius: 999px; flex: 0 0 auto;
+}
+.header-search__k[data-kind="Series"] { background: var(--accent-2); }
+.header-search__k[data-kind="Ending"], .header-search__k[data-kind="List"], .header-search__k[data-kind="Desk"] {
+  background: var(--surface-2); color: var(--text-dim);
+}
+.header-search__empty { margin: 0; padding: 14px 12px; color: var(--text-faint); font-size: .85rem; }

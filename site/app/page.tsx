@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
   ...pageSeo({ path: "/" })
 };
-import { FeaturedMosaic } from "../components/FeaturedMosaic";
+import { VerdictMarquee } from "../components/VerdictMarquee";
+import { VerdictStage } from "../components/VerdictStage";
 import { JsonLd } from "../components/JsonLd";
 import { MediaCard } from "../components/MediaCard";
 import { PosterImage } from "../components/PosterImage";
@@ -16,7 +17,7 @@ import { DESKS, getDesk } from "../lib/desks";
 import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
 import { getNewestEpisodeReviews } from "../lib/series";
 import { getAllWatchLists } from "../lib/recommendations";
-import { bigThisWeek, catalogueStats, deskCounts, justDropped, mosaicSecondary } from "../lib/home";
+import { bigThisWeek, catalogueStats, deskCounts, heroDeck, justDropped } from "../lib/home";
 
 function bestFigure(film: Film): { label: string; text: string } | null {
   const net = film.box_office.totals.india_net_inr_cr?.value;
@@ -26,20 +27,11 @@ function bestFigure(film: Film): { label: string; text: string } | null {
   return null;
 }
 
-// Friendly freshness label for the liveness ribbon. "Updated today" only when the newest
-// merge is actually today's date in IST - never a fabricated freshness.
-function freshnessLabel(iso: string): string {
-  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
-  const modified = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date(iso));
-  return modified === today ? "Updated today" : `Updated ${formatDate(iso)}`;
-}
-
 export default function HomePage() {
   const films = getAllFilms();
-  const lead = films[0];
+  const heroSlides = heroDeck(6);
   const latestModified = getLatestModified();
   const stats = catalogueStats();
-  const updated = freshnessLabel(latestModified);
 
   const drops = justDropped(16);
   const trending = bigThisWeek(14);
@@ -68,28 +60,17 @@ export default function HomePage() {
   const watchLists = getAllWatchLists().slice(0, 6);
   const yearScoreboards = getYearScoreboardParams();
 
-  const leadFig = lead ? bestFigure(lead) : null;
-  // Lead routes by lifecycle so the door is always a live page (theatrical -> box-office,
-  // already-on-OTT -> reviews, not-yet-out -> upcoming).
-  const leadSurface = lead?.status === "upcoming" ? "upcoming" : lead?.status === "ott" ? "reviews" : "box-office";
-  const leadHref = lead ? `/${lead.canonical_industry}/${leadSurface}/${lead.slug}/` : "/";
-  const mosaicTiles = lead ? mosaicSecondary(lead.slug, 8) : [];
-
   // Desk quick-nav: collapse the five cinema desks + Streaming into a scannable strip.
   const deskNav = DESKS.map((desk) => ({ ...desk, count: counts[desk.slug] ?? 0 }));
 
   return (
     <main className="page-shell home-hub" data-desk="bollywood">
-      {lead && (
-        <FeaturedMosaic
-          lead={lead}
-          leadHref={leadHref}
-          leadFig={leadFig}
-          tiles={mosaicTiles}
-          stats={stats}
-          desksLive={DESKS.length}
-          updated={updated}
-        />
+      {heroSlides.length > 0 && (
+        <VerdictMarquee subjects={heroSlides}>
+          {heroSlides.map((s, i) => (
+            <VerdictStage key={`${s.kind}-${s.slug}`} subject={s} updated={latestModified} eager={i === 0} />
+          ))}
+        </VerdictMarquee>
       )}
 
       <section className="ticker full-bleed" aria-label="Trade ticker">

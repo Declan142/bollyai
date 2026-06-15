@@ -178,3 +178,126 @@ export function catalogueStats(): { films: number; series: number; total: number
   const series = getAllSeries().length;
   return { films, series, total: films + series };
 }
+
+// THE VERDICT STAGE subject (revamp 2026-06-15). Replaces the bento hero with one commanding
+// title. Hard rule from the 10-Opus design team: the hero may ONLY feature a title that carries
+// REAL key-art (never a monogram in the stage). Among art-bearing titles the best-FURNISHED
+// verdict wins - a real BollyMeter score > a verdict word > a box-office figure - recency breaks
+// ties. Every signal the stage renders is one the data actually carries (no fabrication).
+export type HeroSubject = {
+  kind: "film" | "series";
+  slug: string;
+  title: string;
+  href: string;
+  desk: DeskSlug;
+  deskLabel: string;
+  poster: PosterAsset;
+  score: number | null; // BollyMeter 0-10 when grounded
+  basis: string | null; // one-line grounded basis for the verdict
+  verdictWord: string | null; // ladder rung (film) or OTT rung (series)
+  boFigure: string | null; // pair-verified box-office figure (films only)
+  statusLine: string; // plain-language status fallback
+  fresh: boolean;
+  recency: string;
+};
+
+const hasRealArt = (poster: PosterAsset): boolean =>
+  Boolean(poster?.src) && !poster.src.includes("_fallback") && !poster.src.endsWith(".svg");
+
+// On-brand tilt: BollyAI is pan-INDIA cinema first. When an Indian title is as well-furnished as a
+// global one, the Indian title should lead the stage. A boost (not a hard gate) - a clearly richer
+// global verdict can still win, but a desi faisla is preferred for the flagship first impression.
+const INDIAN_LANGS = new Set(["hi", "ta", "te", "ml", "kn", "bn", "mr", "pa"]);
+
+function filmBoFigure(film: Film): string | null {
+  const ww = film.box_office.totals.worldwide_gross_inr_cr?.value;
+  const net = film.box_office.totals.india_net_inr_cr?.value;
+  if (ww) return `${formatCrore(ww)} WW`;
+  if (net) return `${formatCrore(net)} India`;
+  return null;
+}
+
+function rankedSubjects(now: number): HeroSubject[] {
+  const recencyBoost = (iso: string): number => {
+    const t = new Date(iso).getTime();
+    if (!Number.isFinite(t)) return 0;
+    const days = (now - t) / 86400000;
+    return Math.max(0, 40 - Math.max(0, days) * 0.25); // ~40 when fresh, decays to 0 by ~160 days
+  };
+
+  const scored: Array<{ subj: HeroSubject; weight: number }> = [];
+
+  for (const f of getAllFilms()) {
+    if (!hasRealArt(f.poster)) continue;
+    const item = filmToItem(f, now);
+    const bo = filmBoFigure(f);
+    const subj: HeroSubject = {
+      kind: "film",
+      slug: f.slug,
+      title: item.title,
+      href: item.href,
+      desk: item.desk,
+      deskLabel: item.deskLabel,
+      poster: f.poster,
+      score: f.bollymeter?.score ?? null,
+      basis: f.bollymeter?.basis ?? null,
+      verdictWord: f.verdict.ladder_rung,
+      boFigure: bo,
+      statusLine: item.meta,
+      fresh: item.fresh,
+      recency: item.recency
+    };
+    const indian = f.canonical_industry !== "hollywood";
+    const weight =
+      (subj.score != null ? 100 : 0) + (subj.verdictWord ? 55 : 0) + (bo ? 40 : 0) + (indian ? 45 : 0) + recencyBoost(item.recency);
+    scored.push({ subj, weight });
+  }
+
+  for (const s of getAllSeries()) {
+    if (!hasRealArt(s.poster)) continue;
+    const item = seriesToItem(s, now);
+    const bm = peakSeason(s)?.bollymeter ?? latestSeason(s)?.bollymeter ?? null;
+    const subj: HeroSubject = {
+      kind: "series",
+      slug: s.slug,
+      title: item.title,
+      href: item.href,
+      desk: item.desk,
+      deskLabel: item.deskLabel,
+      poster: s.poster,
+      score: bm?.score ?? null,
+      basis: bm?.basis ?? null,
+      verdictWord: item.seriesRung ?? null,
+      boFigure: null,
+      statusLine: item.meta,
+      fresh: item.fresh,
+      recency: item.recency
+    };
+    const indian = INDIAN_LANGS.has((s.original_language?.value ?? "").toLowerCase());
+    const weight = (subj.score != null ? 100 : 0) + (subj.verdictWord ? 55 : 0) + (indian ? 45 : 0) + recencyBoost(item.recency);
+    scored.push({ subj, weight });
+  }
+
+  scored.sort((a, b) => b.weight - a.weight || b.subj.recency.localeCompare(a.subj.recency));
+  return scored.map((x) => x.subj);
+}
+
+// The single best title for a standalone stage.
+export function heroPick(now: number = Date.now()): HeroSubject | null {
+  return rankedSubjects(now)[0] ?? null;
+}
+
+// The featured DECK for the rotating hero marquee - the top N furnished, art-bearing titles
+// (deduped by slug). Multiple posters, each its own clickable verdict; click goes to the title.
+export function heroDeck(count = 6, now: number = Date.now()): HeroSubject[] {
+  const seen = new Set<string>();
+  const deck: HeroSubject[] = [];
+  for (const subj of rankedSubjects(now)) {
+    const key = `${subj.kind}:${subj.slug}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deck.push(subj);
+    if (deck.length >= count) break;
+  }
+  return deck;
+}

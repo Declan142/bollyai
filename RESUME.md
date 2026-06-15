@@ -1,3 +1,31 @@
+# BollyAI - pickup state (2026-06-15 ~20:00, DESIGN REVAMP PHASE 1 BUILT)
+
+## 30-SEC SNAPSHOT (overrides everything below)
+Aditya: "site not as nice-looking as bigger sites, structure doesn't look good" -> ran a **10-Opus
+design team** (competitors / latest tech / latest UI / retention psychology). Near-unanimous mandate:
+KILL the equal-weight bento hero -> a full-bleed **Verdict Stage**. Phase 1 IMPLEMENTED + build green
+(BUILD_EXIT=0, no-AggregateRating gate pass) + screenshotted desktop+mobile. NOT deployed yet (awaiting
+Aditya's eyeball on a major visual change).
+- **New:** `components/VerdictStage.tsx` + `components/BollyMeterDial.tsx`; `lib/home.ts` `heroPick()`
+  (curates a poster-bearing, best-furnished lead, Indian-biased for the pan-India flagship - currently
+  leads "Brown" / Karisma Kapoor, BollyMeter 6.2, real critic basis).
+- **Art direction** (`app/globals.css` :root): muddy indigo-violet bg -> warm near-black graphite (posters
+  supply colour); accent .16->.19 scarce; removed 8px banding + reduced grain.
+- **`app/revamp.css`** (NEW, loaded after globals.css, all gated @supports + prefers-reduced-motion):
+  the Verdict Stage, the BollyMeter conic dial (arc-sweep), the **"BollyAI Edition" typographic one-sheet**
+  that replaces the monogram for the 41 posterless films / 95 posterless series, 3-channel card hover,
+  cross-document View Transitions cross-fade, scroll-driven `view()` reveals, box-office bar-grow.
+- Hero solves the **backdrop gap** (only 1 real backdrop on the catalogue): ambient = the poster itself,
+  blurred + scaled, filling the bleed. Zero new assets.
+- Old `FeaturedMosaic.tsx` kept (now unused) for easy revert. Team output + SYNTHESIS + before/after
+  shots: `~/bollyai/design-revamp-2026-06-15/`.
+- design-reviewer >= 7.5 gate was running at handoff. **Phase 2 backlog** (in SYNTHESIS.md): localStorage
+  diary / "Your Friday Court", client ask-bar answer engine, "Verdict Receipt" tap-to-show-sources,
+  title-page score-stack + day-wise BO table, nav 11->5 + full 6-section IA, tentpole poster harvest.
+- To re-screenshot: server at `127.0.0.1:8799` (serves `site/out`); chrome --headless=new --screenshot.
+
+---
+
 # BollyAI - pickup state (2026-06-15 ~13:00, DEPTH WAVE 2 SHIPPED)
 
 ## 30-SEC SNAPSHOT (overrides everything below)

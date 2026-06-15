@@ -2,20 +2,29 @@
   --font-display: "Fraunces Variable", "Fraunces", Georgia, serif;
   --font-body: "Hanken Grotesk", "Aptos", sans-serif;
   --font-number: "JetBrains Mono", "Courier New", monospace;
-  --bg: oklch(11% .03 280);
-  --bg-deep: oklch(8% .025 280);
-  --surface: oklch(16% .045 280);
-  --surface-2: oklch(20% .04 280);
-  --text: oklch(93% .03 82);
-  --text-dim: oklch(72% .035 82);
-  --text-faint: oklch(58% .035 82);
-  --border: oklch(34% .04 280);
-  --border-hair: oklch(82% .03 82 / .16);
-  --accent: oklch(78% .16 65);
-  --accent-2: oklch(82% .16 85);
-  --accent-ink: oklch(8% .025 280);
-  --shadow-poster: 0 24px 80px -12px oklch(0% 0 0 / .72);
-  --scrim: linear-gradient(180deg, oklch(8% .025 280 / 0) 0%, oklch(8% .025 280 / .62) 54%, oklch(8% .025 280 / .96) 100%);
+  /* REVAMP 2026-06-15 (10-Opus team, lens-05 art direction): the indigo-violet bg was muddy and
+     fought every poster. Neutralized toward warm-graphite near-black so the artwork supplies the
+     colour (Criterion / A24 / Letterboxd grammar). Accent chroma raised .16 -> .19 + held SCARCE. */
+  --bg: oklch(13% .006 285);
+  --bg-deep: oklch(8.5% .005 285);
+  --surface: oklch(16.5% .010 285);
+  --surface-2: oklch(21% .013 285);
+  --text: oklch(94% .022 82);
+  --text-dim: oklch(73% .026 82);
+  --text-faint: oklch(58% .028 82);
+  --border: oklch(31% .009 285);
+  --border-hair: oklch(82% .02 82 / .14);
+  --accent: oklch(80% .19 64);
+  --accent-2: oklch(82% .175 85);
+  --accent-hot: oklch(82% .225 60); /* the ONE highest-signal element per view (verdict ring / hero CTA) */
+  --accent-ink: oklch(13% .01 285);
+  --shadow-poster: 0 28px 90px -18px oklch(0% 0 0 / .78);
+  /* motion language (lens-07): one ease for everything, one spring reserved for the verdict stamp */
+  --ease-out: cubic-bezier(.22, .61, .36, 1);
+  --ease-spring: cubic-bezier(.34, 1.4, .64, 1);
+  --dur-hover: 220ms;
+  --space-section: clamp(4rem, 9vw, 8rem);
+  --scrim: linear-gradient(180deg, oklch(8.5% .005 285 / 0) 0%, oklch(8.5% .005 285 / .62) 54%, oklch(8.5% .005 285 / .96) 100%);
   --header-h: 60px;
 }
 
@@ -25,8 +34,8 @@
 }
 
 [data-desk="bollywood"] {
-  --accent: oklch(78% .16 65);
-  --accent-2: oklch(82% .16 85);
+  --accent: oklch(80% .19 64);
+  --accent-2: oklch(82% .175 85);
 }
 
 [data-desk="kollywood"] {
@@ -70,9 +79,9 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    linear-gradient(180deg, oklch(13% .035 280), var(--bg-deep) 42rem),
-    repeating-linear-gradient(90deg, oklch(100% 0 0 / .018) 0 1px, transparent 1px 8px);
+  /* REVAMP: removed the 8px repeating-linear stripe (banding noise on weak posters); single
+     near-black wash so posters read like a gallery wall, not a themed app. */
+  background: linear-gradient(180deg, oklch(15% .008 285), var(--bg-deep) 46rem);
   color: var(--text);
   font-family: var(--font-body);
   font-size: 16px;
@@ -85,7 +94,7 @@ body::after {
   z-index: 100;
   pointer-events: none;
   content: "";
-  opacity: .08;
+  opacity: .045;
   background-image:
     repeating-radial-gradient(circle at 14% 32%, oklch(100% 0 0 / .4) 0 1px, transparent 1px 6px),
     repeating-radial-gradient(circle at 72% 61%, oklch(0% 0 0 / .5) 0 1px, transparent 1px 7px);
