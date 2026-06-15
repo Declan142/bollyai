@@ -1,3 +1,39 @@
+# BollyAI - pickup state (2026-06-15 ~11:40, 3-LANE WAVE SHIPPED)
+
+## 30-SEC SNAPSHOT (overrides everything below)
+"bollyai resume" -> floor central-shipped the held 3-lane fleet wave. All three lanes had
+FINISHED + were holding for the floor to ship (briefs fence lanes from deploy/build). Floor
+reconciled, ran every gate, committed `35429dd`, deployed, pushed, IndexNow. **LIVE on bollyai.in.**
+
+Shipped this wave:
+- **depth lane**: 38 series deepened with v3 rich reviews (aarya, beef, dexter, ted-lasso,
+  slow-horses, the-glory, fleabag, kota-factory, mumbai-diaries, poacher, kohrra, kaala-paani,
+  my-mister, moving, my-name, the-marvelous-mrs-maisel ...).
+- **boxoffice lane**: honest cited box-office pipeline (`engine/fetchers/boxoffice.py` + BH adapter,
+  Ormax registered, `trade_estimate_confidence` field, fence #7 >=2-source publish rule IN CODE;
+  single-source figures correctly held DATA_PENDING - 5 records, no fabricated number shipped).
+- **endings/recaps lane**: 6 ending-explained (delhi-crime, farzi, mirzapur, paatal-lok, panchayat,
+  scam-1992) + 3 before-season recaps - pure Indian-OTT white-space.
+
+Gates ALL green before ship (per CLAUDE.md standing deploy grant): 262 pytest pass, attribution moat
+clean on all 38 series, `npm build` + `assert-no-aggregate-rating` lint exit 0, published surfaces
+em-dash-free. No frontend/component change this wave (data + engine + link-mesh only) so design-reviewer
+N/A. Deploy: CF Pages Direct Upload (12093 files, dep `26de7b5e`) + IndexNow 3014 URLs. Live-verified
+bollyai.in 200, ted-lasso + scam-1992/ending-explained both 200. Fleet drained clean (graceful /exit).
+
+Housekeeping: added `.conductor-*.md` / `.film-authoring-brief.md` / `BLITZ-PLAN.md` to `.gitignore`
+(were polluting `git status`). `logs/` lane reports left untracked (diagnostic).
+
+## NEXT WAVE (say "agla wave")
+- Catalog depth still the moat: ~25/554 series 'perfect', most episodes still neutral summaries. Top of
+  `data/_state/blitz-queue.json`: stranger-things, physical-100, the-crown, money-heist, black-mirror
+  onward (subtitle-grounded only; never invented reception).
+- Box-office: pipeline wired but publishes only on >=2-source agreement. Wire a SECOND citable source
+  (Sacnilk + BH pair proven) to start publishing the South mid-tier figures it's currently tracking.
+- 1 DEFERRED from prior night: **sherlock** S4 needs grounded v3 regen (was reverted to buildable).
+
+---
+
 # BollyAI - pickup state (2026-06-14 ~02:15, REVIEW-BLITZ + HONESTY-GATE night)
 
 ## 30-SEC SNAPSHOT (this overrides older sections below)
