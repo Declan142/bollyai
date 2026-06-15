@@ -225,7 +225,8 @@ export function BrowseGrid({ items }: { items: BrowseItem[] }) {
       ) : (
         <div className={styles.grid}>
           {results.map((s) => (
-            <a className={styles.card} data-desk="streaming" data-rung={s.v ?? undefined} href={`/series/${s.slug}/`} key={s.slug}>
+            <div className={styles.cell} key={s.slug}>
+            <a className={styles.card} data-desk="streaming" data-rung={s.v ?? undefined} href={`/series/${s.slug}/`}>
               <span className={styles.media}>
                 <PosterImage
                   src={s.p}
@@ -249,6 +250,7 @@ export function BrowseGrid({ items }: { items: BrowseItem[] }) {
                 <span className={styles.plat}>{s.pl}</span>
               </span>
             </a>
+            </div>
           ))}
         </div>
       )}

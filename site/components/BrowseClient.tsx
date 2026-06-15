@@ -24,7 +24,7 @@ type SortKey = "recent" | "rated" | "az" | "oldest";
 const SORTS: { k: SortKey; label: string }[] = [
   { k: "recent", label: "Just dropped" },
   { k: "rated", label: "Top rated" },
-  { k: "az", label: "A–Z" },
+  { k: "az", label: "A-Z" },
   { k: "oldest", label: "Oldest" }
 ];
 
@@ -182,7 +182,7 @@ export function BrowseClient({ items }: { items: BrowseItem[] }) {
 
       <div className="series-grid">
         {results.map((s) => (
-          <a className="series-card" data-desk="streaming" href={`/series/${s.slug}/`} key={s.slug}>
+          <a className="series-card reveal" data-desk="streaming" href={`/series/${s.slug}/`} key={s.slug}>
             <span className="series-card__media">
               <PosterImage
                 src={s.p}
