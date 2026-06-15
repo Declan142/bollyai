@@ -78,7 +78,7 @@
         ],
         "value": "2026-06-17"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://press.amazonmgmstudios.com/us/en/original-movies/your-fault-london",
@@ -196,7 +196,7 @@
         ],
         "value": "2026-06-18"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://www.netflix.com/tudum/articles/harlan-coben-i-will-find-you",
@@ -314,7 +314,7 @@
         ],
         "value": "2026-06-19"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://www.sonyliv.com/movies/athiradi-1590016248",
@@ -432,7 +432,7 @@
         ],
         "value": "2026-06-19"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": "thukra-ke-mera-pyaar",
       "source_type": "official_social",
       "source_url": "https://www.youtube.com/watch?v=RTxWlfBydKw",
@@ -477,16 +477,16 @@
       "week": "2026-W25"
     }
   ],
-  "generated_at": "2026-06-14T08:31:59Z",
+  "generated_at": "2026-06-15T09:25:19Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-25/",
     "end": "2026-06-21",
     "entry_count": 4,
     "iso_week": "2026-W25",
-    "label": "Coming next week",
+    "label": "This week",
     "start": "2026-06-15",
-    "status": "coming",
+    "status": "current",
     "week": 25,
     "year": 2026
   }
