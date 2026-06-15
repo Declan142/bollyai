@@ -1,11 +1,12 @@
-# BollyAI - pickup state (2026-06-15 ~20:00, DESIGN REVAMP PHASE 1 BUILT)
+# BollyAI - pickup state (2026-06-15 ~22:35, DESIGN REVAMP PHASE 1 LIVE)
 
 ## 30-SEC SNAPSHOT (overrides everything below)
 Aditya: "site not as nice-looking as bigger sites, structure doesn't look good" -> ran a **10-Opus
 design team** (competitors / latest tech / latest UI / retention psychology). Near-unanimous mandate:
-KILL the equal-weight bento hero -> a full-bleed **Verdict Stage**. Phase 1 IMPLEMENTED + build green
-(BUILD_EXIT=0, no-AggregateRating gate pass) + screenshotted desktop+mobile. NOT deployed yet (awaiting
-Aditya's eyeball on a major visual change).
+KILL the equal-weight bento hero -> a full-bleed **Verdict Stage**. Phase 1 SHIPPED + LIVE on
+bollyai.in (commit `78ebc8a`, CF deploy `3e70a159`). Gates: 262 pytest pass · npm build exit 0
+(no-AggregateRating clean) · design-reviewer **8.9/10 SHIP** (ACCEPT, no hard-caps). Live-verified:
+home + series pages 200, `verdict-stage`/`BollyMeter` present, old FeaturedMosaic gone.
 - **New:** `components/VerdictStage.tsx` + `components/BollyMeterDial.tsx`; `lib/home.ts` `heroPick()`
   (curates a poster-bearing, best-furnished lead, Indian-biased for the pan-India flagship - currently
   leads "Brown" / Karisma Kapoor, BollyMeter 6.2, real critic basis).
