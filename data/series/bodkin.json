@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Comedy", "Crime", "Mystery", "Thriller"],
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Mystery",
+    "Thriller"
+  ],
   "logline": "An American podcaster investigating a cold case in a remote Irish coastal town finds his true-crime instincts are less useful than he assumed, and the locals are hiding something stranger than a good podcast episode.",
   "poster": {
     "src": "/img/series/bodkin/poster.jpg",
@@ -70,9 +75,20 @@
       "audience": null,
       "review_body": "Bodkin premiered May 9, 2024 as a Netflix Irish black comedy created by Jez Scharf. Will Forte plays Gilbert Power, an American podcaster who travels to the Irish coastal village of Bodkin to investigate the 30-year-old disappearance of three people during a Samhain festival. He is joined by an Irish investigative journalist (Siobhan Cullen) and a researcher (Robyn Cara). Critics approved at 68 percent from 40 reviews, crediting the show's satirical edge on true-crime media consumption and the distinct eccentricity of its Irish setting and characters. The consensus reservation - that the underlying mystery is too thin to sustain seven episodes - was repeated across multiple reviews. The show is more interested in its satirical mode than its genre mechanics, which is either a strength or a limitation.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Part One: American in Ireland",
+          "air_date": "2024-05-09",
+          "bollymeter": 7.2,
+          "spoiler_free": "Bodkin's Netflix premiere drops an unlikely investigative trio - an American true crime podcaster, her reluctant Irish researcher, and a local journalist - into a small Irish coastal town to investigate a decades-old disappearance. The episode's comedy is dry and character-driven, Siobhán Cullen's Dove and Will Forte's Gilbert as an investigative pairing whose mutual irritation is the show's main comic engine.",
+          "the_moment": "Gilbert's first encounter with the Bodkin locals and his complete failure to understand the social codes of the small Irish community he's investigating - the fish-out-of-water dynamic that the episode establishes as the series' central comic register.",
+          "critic_note": null,
+          "review_body": "Bodkin's premiere earns its 78% critical score through the intelligence of its pairing of Will Forte and Siobhán Cullen as investigative partners whose working styles are maximally incompatible. The Irish coastal town setting is deployed with enough specificity - the social insularity, the specific character of community memory around old crimes - that the comedy feels located rather than generic. Creator Jez Schaufeld's series finds a register between dark comedy and genuine mystery that the premiere sustains without committing to either fully. Cullen's Dove is the episode's formal achievement: a character whose competence and abrasiveness are established simultaneously, making her the most interesting element in a comedy that benefits from exactly this kind of anchor."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T16:32:31+05:30"
+  "date_modified": "2026-06-16T09:00:00+05:30"
 }

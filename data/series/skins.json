@@ -72,7 +72,19 @@
         "source_url": "https://www.imdb.com/title/tt0840196/"
       },
       "review_body": "Generation 1 (Series 1-2, 2007-2008) introduced Bristol sixth-formers Tony, Sid, Cassie, Michelle, Maxxie, and Sketch. Bryan Elsley and Jamie Brittain shaped the show around an unusual model: an amateur and relatively unknown cast, subject matter (eating disorders, sexuality, drug abuse, grief) that CBBC and ITV1 routinely avoided, and a formal device that dedicates each episode to a single character. Early broadcast brought limited professional coverage, but the Metacritic Series 1 score of 66 (7 critics) and user score of 8.6 point to broadly positive impressions from those who watched. The show’s most lasting impact came through engagement. Series 1 broke E4 records and established the generation cycle as a structural signature. The Cassie episode (S1E3) and the Tony-Sid dynamic remain defining television moments of the 2000s.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Tony",
+          "air_date": "2007-01-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "Skins' 2007 E4 premiere introduces the Roundview College sixth form through Tony Stonem's first morning - a character established in the first five minutes as someone whose charisma and manipulation are so fused that distinguishing them is the show's ongoing project. The premiere is formally confident in its commitment to the specific texture of Bristol teenage life: the sex, the substances, the boredom, and the genuine emotional intensity that the series refuses to condescend to.",
+          "the_moment": "Tony's orchestration of a multi-person cover story in real time - the scene that establishes his social intelligence and its cost, which is the character's whole arc compressed into a single sequence.",
+          "critic_note": null,
+          "review_body": "Skins' premiere is one of the most formally accomplished debuts in British teen drama: it arrives knowing exactly what register it is working in and executing it with the confidence of writers who are close to the experience they're depicting. Tony Stonem as a first episode protagonist is a gamble - a character whose magnetism and manipulation are inseparable is a harder sympathy establishment than most shows attempt. The Bristol setting is rendered with enough specificity that it feels local rather than generic, and the ensemble (Cassie's vulnerability, Sid's haplessness, Michelle's accommodation of Tony) is established in the pilot with sufficient character depth to sustain the series' subsequent season-by-season reinvention. At 95% RT for the series as a whole, the premiere established a show that generated multiple American adaptations and remains the benchmark for British teen ensemble drama."
+        }
+      ]
     },
     {
       "number": 2,
@@ -250,5 +262,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T00:00:00+05:30"
+  "date_modified": "2026-06-16T09:00:00+05:30"
 }

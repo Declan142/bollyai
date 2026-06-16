@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Crime", "Drama", "Thriller", "Anthology"],
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller",
+    "Anthology"
+  ],
   "logline": "Four standalone Tamil crime dramas - each directed by a major filmmaker - confront the reality of victimhood in contemporary India, asking who is at risk and whether the system protects them.",
   "poster": {
     "src": "/img/series/victim-who-is-next/poster.jpg",
@@ -61,9 +66,20 @@
       "audience": null,
       "review_body": "Victim: Who Is Next? premiered on SonyLIV on August 5, 2022, an anthology of four standalone Tamil crime dramas jointly produced by Venkat Prabhu and G. Dillibabu under Black Ticket Company and Axess Film Factory. Each episode is directed by a different filmmaker from the Tamil New Wave - Chimbu Devan, M. Rajesh, Pa. Ranjith, and Venkat Prabhu - and stars a different cast including Nassar, Amala Paul, Priya Bavani Shankar, Kalaiarasan, Guru Somasundaram, and Prasanna. The shared theme is victimhood: who gets targeted, who is believed, who is left unprotected. The involvement of Pa. Ranjith brought particular critical attention given his track record with caste and social realist narratives. An uneven anthology, as the form demands, but the best episodes are genuinely urgent.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Chapter 1",
+          "air_date": "2022-08-05",
+          "bollymeter": 7.2,
+          "spoiler_free": "Victim: Who Is Next? is a Tamil anthology of four crime dramas, each directed by a different filmmaker. The first chapter establishes the anthology's formal commitment: a crime case anchored in a specific social texture of Tamil Nadu, told with enough procedural detail to feel locally grounded rather than generic. The anthology format allows each director to bring their specific sensibility to the same thematic territory.",
+          "the_moment": "The case's crucial witness - the moment that establishes the chapter's central moral question about who gets to speak, and who is believed when they do.",
+          "critic_note": null,
+          "review_body": "Victim: Who Is Next's premiere chapter earns the anthology's standing as SonyLIV's most formally ambitious Tamil crime release through its commitment to social specificity rather than thriller mechanics. The four-director anthology structure gives the series a variety of filmmaking perspectives that the single-season runtime can sustain. The first chapter establishes the anthology's tonal range - more interested in the conditions that produce crime than in the investigation of it - which distinguishes it from conventional procedural anthologies. The Tamil-language production serves an underrepresented regional audience with material that respects its intelligence."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T16:32:31+05:30"
+  "date_modified": "2026-06-16T09:00:00+05:30"
 }

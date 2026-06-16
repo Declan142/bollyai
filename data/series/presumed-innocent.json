@@ -27,7 +27,13 @@
     "confidence": "verified"
   },
   "status": "returning",
-  "genres": ["Crime", "Mystery", "Thriller", "Legal", "Drama"],
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Thriller",
+    "Legal",
+    "Drama"
+  ],
   "logline": "A prominent prosecutor is accused of murdering his colleague and mistress, and the courtroom drama that follows asks whether the justice system can try one of its own fairly.",
   "poster": {
     "src": "/img/series/presumed-innocent/poster.jpg",
@@ -70,9 +76,20 @@
       "audience": null,
       "review_body": "Presumed Innocent premiered June 12, 2024 on Apple TV+, based on Scott Turow's 1987 novel (previously adapted as the Harrison Ford film). Jake Gyllenhaal plays Rusty Sabich, an assistant DA accused of murdering the colleague he was having an affair with. The show benefits from an eight-episode structure that allows the courtroom procedural more room than the original film. Critics approved at 76 percent from 68 reviews, crediting the ensemble - Ruth Negga as Barbara, Bill Camp as the DA, Peter Sarsgaard as opposing counsel - alongside Gyllenhaal's performance. The consensus noted the show does not surpass its source while still functioning as solid prestige courtroom drama with reliable Apple TV+ production values.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Burden of Proof",
+          "air_date": "2024-06-12",
+          "bollymeter": 7.5,
+          "spoiler_free": "Presumed Innocent's Apple TV+ premiere updates Scott Turow's 1987 novel for the streaming era with Jake Gyllenhaal as Rusty Sabich, a prominent Chicago prosecutor accused of murdering his colleague Carolyn Polhemus with whom he has had an affair. The episode establishes the show's register - prestige procedural with genuine character complexity - and Gyllenhaal's performance as a man whose guilt or innocence the show is genuinely interested in not resolving prematurely.",
+          "the_moment": "Rusty's first courtroom moment after the arrest - the specific humiliation of a prosecutor's professional identity colliding with the system he has spent his career inside, now turned against him.",
+          "critic_note": null,
+          "review_body": "Presumed Innocent's premiere earns its 78% Rotten Tomatoes score through the intelligence of its central casting. Jake Gyllenhaal's Rusty Sabich is the kind of role that requires the actor to hold guilty and innocent simultaneously in every scene - guilty of the affair, possibly guilty of more, certainly not innocent in the moral sense even if innocent legally. Apple TV+'s eight-episode adaptation gives Turow's novel the space the miniseries format allows, and the premiere deploys that space to establish Rusty's professional world and his marriage (Ruth Negga's Barbara) with enough specificity that the investigation feels personal rather than procedural. A confident legal thriller premiere that earns its update of classic material."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T09:00:00+05:30"
 }
