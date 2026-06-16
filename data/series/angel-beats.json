@@ -1,0 +1,106 @@
+{
+  "slug": "angel-beats",
+  "qid": {
+    "value": "Q531552",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Angel Beats!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia (Crunchyroll added 2019)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Action", "Supernatural", "Comedy"],
+  "logline": "Dead teenagers in a purgatory high school declare war on God for the lives they never got to live - a 13-episode original from Key and P.A. Works that swings between battle comedy and devastating emotional sucker-punches.",
+  "poster": {
+    "src": "/img/series/angel-beats/poster.jpg",
+    "alt": "Angel Beats! poster",
+    "attribution": "Poster © P.A. Works / Key. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A complete 13-episode original series that concluded in June 2010. A visual novel adaptation exists but no further anime seasons were produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Angel_Beats!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 13,
+      "release_date": {
+        "value": "2010-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "MAL score of 8.05 from 1.35 million users reflects wide affection; IMDb's 7.6 and the critical consensus around 'too short for its ambitions' are both accurate - the final three episodes are consistently described as among the most affecting in anime, even as the middle arc's tonal instability draws fair criticism."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Character development feels rushed; a few extra episodes would have done them well.",
+            "source": "Umai Yomu Anime Blog",
+            "url": "https://umaiyomu.wordpress.com/2021/08/02/angel-beats-review-spoiler-free/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1639109/"
+      },
+      "review_body": "Angel Beats! is a textbook case of a great idea partially defeated by its own running time. Jun Maeda's original script for P.A. Works (spring 2010) crammed a purgatory ensemble comedy-tragedy into 13 episodes, resulting in a show where the middle third lacks the character time to earn its emotional payoffs - then somehow delivers them anyway. The 14th Japan Media Arts Festival jury selected it as a recommended work in 2010, and MAL's 8.05 from 1.35 million users reflects the show's enduring ability to create genuine attachment before pulling the rug. IMDb's 7.6 is the more critical reading. Star Crossed Anime scored it 82.5/100, praising the show's 'duality between comedy and melodrama' while noting the tonal transitions can feel 'fragmented.' Critics and fans agree the finale is the real product; everything building to it is uneven but still emotionally loaded.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Departure",
+          "air_date": "2010-04-03",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere drops its premise with minimum preamble: dead teenagers in a purgatory school armed with weapons, fighting an enigmatic 'Angel' for reasons they're still working out. The comedy-action surface is immediately engaging; the grief underneath surfaces just enough to promise something more.",
+          "the_moment": "Otonashi's first attempt to understand why they're fighting - the question the whole series is built around.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Graduation",
+          "air_date": "2010-06-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale is what the series was always heading toward - and it delivers with a sustained emotional honesty that the earlier episodes gestured toward but couldn't quite achieve. Fan communities cite this episode as a genuine cry-trigger; the closing scene is one of anime's most-screenshotted.",
+          "the_moment": "The final graduation sequence - the moment Angel Beats delivers the emotional payoff it spent 12 episodes promising.",
+          "critic_note": {
+            "text": "The last few episodes of Angel Beats, and the last ten minutes specifically, are the most touching I've ever seen.",
+            "source": "Umai Yomu Anime Blog",
+            "url": "https://umaiyomu.wordpress.com/2021/08/02/angel-beats-review-spoiler-free/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

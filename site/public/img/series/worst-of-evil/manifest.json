@@ -1,0 +1,38 @@
+{
+  "attribution": {
+    "line": "Poster \u00a9 Disney+ / Studio Santa Claus Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Worst_of_Evil.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-16T10:39:12Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/worst-of-evil/poster.jpg",
+    "source_height": 375,
+    "source_width": 265,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "worst-of-evil",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/The_Worst_of_Evil",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Worst_of_Evil.jpg"
+  },
+  "variants": []
+}

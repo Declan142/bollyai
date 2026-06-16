@@ -1,0 +1,127 @@
+{
+  "slug": "time-bbc",
+  "qid": {
+    "value": "Q107324744",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Time",
+    "source": "BBC One / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "BBC One / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Drama", "Crime", "Psychological"],
+  "logline": "Jimmy McGovern's anthology prison drama puts two extraordinary actors in opposite cells: in Season 1, Sean Bean as a guilt-consumed prisoner and Stephen Graham as the officer trapped between duty and mercy.",
+  "poster": {
+    "src": "/img/series/time-bbc/poster.jpg",
+    "alt": "Time poster",
+    "attribution": "Poster © BBC One / ITV Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Series 3 confirmed in November 2025 with Siobhan Finneran returning as prison chaplain; new lead cast to be announced.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/mediacentre/2025/time-series-3"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 3,
+      "release_date": {
+        "value": "2021-06-06",
+        "source": "BBC One / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Season 1 earned 100% on Rotten Tomatoes and a Metacritic score of 81 from 16 critics; The Guardian called Bean and Graham's performances 'astonishing' and The Times called the writing 'like a punch to the face.'"
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 16,
+        "pull_quotes": [
+          {
+            "text": "The performances of Bean and Graham are astonishing. Time well spent.",
+            "source": "The Guardian",
+            "url": "https://www.metacritic.com/tv/time/"
+          },
+          {
+            "text": "Compelling television, with a premium cast and written like a punch to the face.",
+            "source": "The Times",
+            "url": "https://www.metacritic.com/tv/time/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Jimmy McGovern's three-part prison drama landed on BBC One in June 2021 and immediately established itself as one of the year's essential pieces of television. Sean Bean played Mark Cobden, a former teacher serving time for a drink-driving death he caused, consumed by guilt and unwilling to defend himself. Stephen Graham played Eric McNally, a prison officer whose decency is weaponised against him by a fellow inmate. The premise sounds schematic; the execution was anything but. McGovern's writing operated at the level of character psychology rather than procedural plot, and the result was a 100% Rotten Tomatoes score from 16 critics - a unanimous response that reflected not just technical praise but genuine emotional impact. The Metacritic score of 81 from the same sample confirmed critical consensus. The Guardian's characterisation of Bean and Graham as 'astonishing' was representative: both actors gave career-defining work in a format that gave them space to breathe.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-06-06",
+          "bollymeter": 9.2,
+          "spoiler_free": "The premiere establishes two moral worlds in collision: a prisoner who refuses to protect himself and an officer who cannot stop trying to do the right thing. Sean Bean strips away any star-persona residue within ten minutes.",
+          "the_moment": "Eric McNally's impossible choice when a fellow officer asks him to look the other way - the scene that makes the whole series inevitable.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2021-06-20",
+          "bollymeter": 8.9,
+          "spoiler_free": "The finale earns every emotional note it plays. McGovern's resolution is neither sentimental nor cruel - it is honest, which is harder and rarer. The final scene belongs to Graham and lands with the weight of the entire series behind it.",
+          "the_moment": "The moment Mark Cobden stops negotiating with his own guilt - a quiet scene that carries the force of three episodes' accumulation.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 3,
+      "release_date": {
+        "value": "2023-10-29",
+        "source": "BBC One / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Season 2 earned 93% on Rotten Tomatoes; Jodie Whittaker and Bella Ramsey led a women's prison story that critics found nearly as compelling as the Bean-Graham original."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 switched the setting to a women's prison and the cast to Jodie Whittaker, Tamara Lawrance, and Bella Ramsey, retaining Jimmy McGovern as writer and Siobhan Finneran's prison chaplain as the series' moral anchor. A 93% Rotten Tomatoes score confirmed the anthology format held - the women's prison estate gave McGovern a distinct political dimension that the first series had not explored. Whittaker's Orla O'Riordan and Ramsey's Kelsey Morgan brought their own emotional gravity. The shadow of Bean and Graham's specific chemistry from Series 1 was hard to escape in the comparison, but as a standalone piece it was high-quality British drama that earned its place in the same run.",
+      "season_over_season": "Whittaker and Ramsey carry a strong second chapter, but the Bean-Graham chemistry of Series 1 remains the harder act to follow.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

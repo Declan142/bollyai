@@ -1,0 +1,101 @@
+{
+  "slug": "breathe",
+  "qid": null,
+  "title": {
+    "value": "Breathe",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Crime",
+    "Drama"
+  ],
+  "logline": "A football coach begins killing organ donors to save his dying son, while a sharp-eyed detective slowly pieces together the impossible truth about India's most unlikely murderer.",
+  "poster": {
+    "src": "/img/series/breathe/poster.jpg",
+    "alt": "Breathe poster",
+    "attribution": "Poster © Abundantia Entertainment / Amazon Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 1 ran for 8 episodes on Amazon Prime Video in January 2018. A separate sequel series, Breathe: Into the Shadows (2020), stars Abhishek Bachchan and is catalogued separately.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Breathe_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 8,
+      "release_date": {
+        "value": "2018-01-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb audience rating of 8.2/10 across 22,800+ votes; Rotten Tomatoes sits at 87% from a small critical sample of 3 reviews. Film Companion praised its refusal to become a standard revenge drama."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "Danny and Kabir are flawed and traumatized enough to not become know-it-all, one-man armies.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/breathe-review-madhavan-amazon-prime"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6466208/"
+      },
+      "review_body": "When Breathe arrived on Amazon Prime Video in January 2018, it marked an early landmark for Indian OTT drama - a genre thriller that treated its premise with more moral seriousness than most. R. Madhavan's Danny is not a villain in the conventional sense: he is a father who has run out of options, and the show is honest about the horror of what he does. Amit Sadh's investigator Kabir provides the procedural counter-weight, and the pairing works precisely because neither character is allowed to be entirely right. Film Companion noted the show's refusal to slide into standard masala revenge territory. Audience response was strong, with an IMDb rating of 8.2 across more than 22,800 votes. The 8-episode length is well-suited to the material - tight enough to avoid padding, long enough to earn the moral ambiguity in its finale.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-01-26",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes both timelines efficiently: a father's desperation and a detective's instinct. The tonal control is the first surprise - Breathe refuses to be loud about its horror.",
+          "the_moment": "The moment Danny makes his first terrible decision, and the camera refuses to look away.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2018-02-23",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale lands the moral ambiguity the series has been building toward - the resolution refuses easy catharsis, which is either the show's greatest virtue or its most frustrating quality depending on what the viewer wanted from Danny.",
+          "the_moment": "Kabir's final choice, which makes the cat-and-mouse frame collapse into something murkier.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

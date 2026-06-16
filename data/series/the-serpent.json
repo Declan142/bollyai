@@ -1,0 +1,102 @@
+{
+  "slug": "the-serpent",
+  "qid": {
+    "value": "Q103610353",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Serpent",
+    "source": "BBC One / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Netflix",
+    "source": "BBC One / Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Crime", "Thriller", "Biographical", "Drama"],
+  "logline": "Based on the true story of Charles Sobhraj, the French serial killer who drugged and murdered backpackers on Southeast Asia's 1970s hippie trail while a tenacious Dutch diplomat pieced together the crimes from a Bangkok embassy.",
+  "poster": {
+    "src": "/img/series/the-serpent/poster.jpg",
+    "alt": "The Serpent poster",
+    "attribution": "Poster © Mammoth Screen / BBC One / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series. No sequel planned; the story concludes with the historical record of Sobhraj's capture and imprisonment.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/programmes/m000ry0b"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-01-01",
+        "source": "BBC One / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The Serpent earned 69% on Rotten Tomatoes from 35 critics and a Metacritic score of 59 from 18 reviews - a mixed reception that praised Tahar Rahim's performance while finding the non-linear storytelling structure frustrating."
+      },
+      "critic": {
+        "positive_pct": 69,
+        "sample": 35,
+        "pull_quotes": [
+          {
+            "text": "An effectively unsettling, fictionalized telling of the incredible and horrific series of kidnappings and murders perpetrated by Charles Sobhraj.",
+            "source": "Chicago Sun-Times",
+            "url": "https://www.metacritic.com/tv/the-serpent/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12183186/"
+      },
+      "review_body": "The Serpent aired on BBC One from New Year's Day 2021 and reached Netflix internationally shortly after. The series reconstructed Charles Sobhraj's murderous trail through 1970s Thailand and Nepal using a fractured, non-linear timeline that became the subject of significant critical debate. Tahar Rahim's performance as Sobhraj drew near-universal praise - a cool, charming sociopath rendered without explanation or redemption. Jenna Coleman's Marie-Andrée Leclerc was more divisive, with some critics finding her complicity underwritten. The 69% Rotten Tomatoes score from 35 reviews reflected a real split: IndieWire praised the psychological toll the show accumulated across its runtime, while The Hollywood Reporter found the storytelling choices actively counterproductive. Audiences tracked somewhat higher, with IMDb ratings reflecting sustained interest in a story that remained genuinely alarming in its historical particulars.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-01-01",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the show's fragmented timeline and drops the audience into Bangkok 1975 with confidence. Tahar Rahim is immediately unsettling without a single moment of conventional villainy.",
+          "the_moment": "Sobhraj welcoming a new pair of backpackers with studied hospitality - the scene that defines the show's particular dread.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2021-02-14",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale brings the Knippenberg investigation to its conclusion and delivers historical justice in a form that feels both inevitable and inadequate - which is perhaps the most honest thing the show could have done.",
+          "the_moment": "The confrontation between the diplomat and the killer that the series had been building toward across eight episodes.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

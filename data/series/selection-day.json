@@ -1,0 +1,113 @@
+{
+  "slug": "selection-day",
+  "qid": {
+    "value": "Q60243149",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Selection Day",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "netflix",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Sports", "Coming of Age"],
+  "logline": "Two brothers are groomed from childhood to become India's next great cricket batsmen by an obsessive father, but when they reach Mumbai's competitive selection trials, the elder discovers a desire that has nothing to do with cricket.",
+  "poster": {
+    "src": "/img/series/selection-day/poster.jpg",
+    "alt": "Selection Day poster",
+    "attribution": "Poster © Netflix / Anil Kapoor Film Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Selection Day concluded after two parts in April 2019. Netflix India did not renew for a third season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Selection_Day_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 6,
+      "release_date": {
+        "value": "2018-12-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "44% on Rotten Tomatoes from 9 critics reflects a show whose performances and Aravind Adiga source material earned respect while reviewers found the adaptation underserved its literary ambitions."
+      },
+      "critic": {
+        "positive_pct": 44,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "Selection Day is Netflix's best Indian series to date - a nuanced character study of ambition, identity and family pressure.",
+            "source": "Business Standard / IANS",
+            "url": "https://www.business-standard.com/article/news-ians/selection-day-is-netflix-s-best-indian-series-to-date-review-118123000241_1.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8004628/"
+      },
+      "review_body": "Part 1 of Selection Day arrived on Netflix India in December 2018 as the platform's adaptation of Aravind Adiga's 2016 novel, produced by Anil Kapoor. The six-episode first chapter follows the Kumar brothers - played by Mohammad Samad and Yash Dholye - arriving in Mumbai under their domineering father's cricket-obsession, where the older Manju's dawning identity begins to complicate the plan. Business Standard celebrated it as Netflix India's best series to date. The Quint found 'writing, production values and performances a notch behind recent Indian series.' The 44% Rotten Tomatoes score reflects an honest split: the source material's moral complexity is present in the performances but the adaptation's pacing is cautious. Ratna Pathak Shah and Rajesh Tailang in supporting roles provide the series' most consistent critical praise.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-04-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "Part 2 resolved the season's narrative threads but critical and audience response was limited, with Netflix not renewing for a third season - signalling the series did not find the traction the source material deserved."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8004628/"
+      },
+      "review_body": "Part 2, released in April 2019, completed the 12-episode adaptation by resolving Manju's identity arc and the family's fractured relationship with cricket as a vehicle for paternal ambition. The conclusion drew limited critical coverage compared to the December 2018 launch. The show's cancellation after two parts suggests Netflix India found viewership insufficient to justify continuation - a fate that echoed early Indian OTT originals that prioritised literary prestige over populist genre energy. Adiga's novel's central argument - that the cricket-obsession industrial complex extracts a human cost from the boys it creates - is present in the adaptation's best moments, even when the execution does not fully match the source's sharpness.",
+      "season_over_season": "Part 2 completes Manju's character arc but arrives with diminished critical attention, closing a two-part adaptation that never fully realised the potential of its Booker Prize-winning source material.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "norsemen",
+  "qid": {
+    "value": "Q27312160",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Norsemen",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Norway",
+  "original_language": {
+    "value": "no",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "NRK / Netflix",
+    "source": "NRK / Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Historical",
+    "Adventure"
+  ],
+  "logline": "The everyday lives of a 790s Viking village - power struggles, Roman slaves with better ideas, a chieftain who keeps losing arguments - filmed simultaneously in Norwegian and English with the same cast and sets.",
+  "poster": {
+    "src": "/img/series/norsemen/poster.jpg",
+    "alt": "Norsemen poster",
+    "attribution": "Poster © Viafilm / NRK. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons completed (2016-2020). Season 3 served as a prequel and concluded the series. Won the Gullruten award for Best Comedy Show in both 2017 and 2020.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Norsemen_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-10-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "90% average Rotten Tomatoes across the series; 90% audience score with 250+ ratings. New York Times named it among the 10 best international TV series of 2017. The Guardian described it as 'Monty Python meets Game of Thrones.' Gullruten Best Comedy 2017."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Monty Python meets Game of Thrones.",
+            "source": "The Guardian",
+            "url": "https://en.wikipedia.org/wiki/Norsemen_(TV_series)#Reception"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5575284/"
+      },
+      "review_body": "Jon Iver Helgaker and Jonas Torgersen's Norwegian mockumentary premiered on NRK1 in October 2016 and reached international audiences through Netflix, where it became one of the platform's most unexpected comedy discoveries. The production gimmick is genuinely clever: the entire series was filmed twice, in Norwegian for NRK and in English for Netflix, with the same cast performing both versions back-to-back on the same sets. The New York Times placed it among the 10 best international TV series of 2017, and the 90% Rotten Tomatoes aggregate reflects critics who found the Monty Python comparisons apt without being dismissive - this is a show with its own comedic intelligence, applying contemporary workplace and social anxieties to an 8th-century Viking village where those anxieties are just as valid. Season 1 averaged over one million viewers in Norway - remarkable for a country of five million - and won the Gullruten for Best Comedy Show.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-10-21",
+          "bollymeter": 7.9,
+          "spoiler_free": "The opener establishes the village of Norheim and its residents: Chieftain Olav, his less-useful brother Orm, warrior Arvid, and the recently acquired Roman slave Rufus, whose suggestions about administration consistently outclass the Norse approach. The comedy is deadpan and specific - the humour comes from taking Viking culture at face value and finding it full of the same bureaucratic frustrations as modern life.",
+          "the_moment": "Rufus attempting to explain the concept of structured settlement to warriors who are not sure they want to understand it.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 6,
+      "release_date": {
+        "value": "2017-11-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "90% Rotten Tomatoes aggregate maintained; New York Times named the show one of the best international series of the decade. The season introduced the rival Jarl Varg as an antagonist whose approach to leadership made Chieftain Olav look visionary."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5575284/"
+      },
+      "review_body": "Season 2, released November 2017, deepened the ensemble by introducing Jarl Varg and the rival-village conflict that gave the comedy a more sustained plot engine. The show's satirical project - using Viking life as a mirror for contemporary organisational dysfunction - found new angles in the external threat: how does a badly-run village respond to an even more badly-run threat from outside? The deadpan register remained consistent with season 1, and the dual-language filming continued to produce a slightly uncanny effect for viewers who watched both versions. The New York Times would later include the series among the best international shows of the decade - a judgement that reflects the sustained quality across both seasons.",
+      "season_over_season": "Season 2 introduces external threat to make Norheim's internal dysfunction look almost functional by comparison - the comedy scales up without losing its specificity.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-02-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "90% Rotten Tomatoes aggregate sustained across the run; season served as a prequel and won the Gullruten Best Comedy Show award for 2020, validating the structural gamble of ending the story before it began."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5575284/"
+      },
+      "review_body": "Season 3, released on Netflix in February 2020, made the structural decision to function as a prequel - setting its events before Season 1 to explore the origins of the Norheim village hierarchy and the relationships the first two series had treated as established. Helgaker and Torgersen used the prequel format to answer questions the earlier seasons had left open, and the Gullruten judges agreed: the third season won Norway's Best Comedy Show award for 2020. The deadpan Viking comedy had, by this point, developed its own genre conventions, and the prequel format demonstrated a show confident enough in its world to run the timeline backwards. Norwegian writer Marie Kleve noted the show's skill in reflecting contemporary social dynamics through the Viking setting - the parody was always as much about the present as the past.",
+      "season_over_season": "Season 3's prequel structure is a bold structural choice that rewards viewers who already know the outcomes - the comedy of inevitability proving as effective as the comedy of surprise.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "the-deuce",
+  "qid": {
+    "value": "Q21152164",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Deuce",
+    "source": "Wikipedia / HBO",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia / HBO",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Crime", "Historical"],
+  "logline": "Twin brothers and a determined sex worker navigate the legalisation of pornography in 1970s and 1980s New York, as David Simon and George Pelecanos map the economics, exploitation, and unexpected humanity of Times Square's underworld.",
+  "poster": {
+    "src": "/img/series/the-deuce/poster.jpg",
+    "alt": "The Deuce poster",
+    "attribution": "Poster © HBO / The Wilson/Conde Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The Deuce concluded its planned three-season run with the finale on October 28, 2019. Creators David Simon and George Pelecanos designed the arc to span decades, ending in the 1980s with the transformation of Times Square.",
+    "source": "Metacritic",
+    "source_url": "https://www.metacritic.com/tv/the-deuce/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 8,
+      "release_date": {
+        "value": "2017-09-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "93% on Rotten Tomatoes and an 85 Metascore from 54 critics, with reviewers praising the show's granular social realism and Maggie Gyllenhaal's career-redefining performance as a sex worker turned adult-film director."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 54,
+        "pull_quotes": [
+          {
+            "text": "Superb acting, punchy writing, expert production design, great music, and storytelling flair.",
+            "source": "Kristi Turnquist, The Oregonian",
+            "url": "http://www.oregonlive.com/tv/2017/09/the_deuce_1970s-set_drama_abou.html"
+          },
+          {
+            "text": "After a slow start, this engrossing, characteristically nuanced HBO drama mostly serves up aces.",
+            "source": "Brian Lowry, CNN",
+            "url": "http://www.cnn.com/2017/09/07/entertainment/the-deuce-review/index.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/the-deuce/"
+      },
+      "review_body": "Season 1 of The Deuce arrived in September 2017 to near-unanimous critical acclaim, scoring 93% on Rotten Tomatoes and an 85 Metascore from 54 critics. David Simon and George Pelecanos returned to the sociological realism of The Wire, setting their lens on early 1970s Times Square - the era of legal street prostitution and nascent pornographic film-making. James Franco plays twin brothers Frankie and Vincent Martino in a dual performance that divided critics less than the show's frank handling of the sex industry. The unanimous consensus settled on Maggie Gyllenhaal, whose Eileen 'Candy' Merrell was called 'vividly teeming with tragicomic life' by TV Guide. Dorothy Rabinowitz at the Wall Street Journal praised the season as 'the kind of storytelling - ebullient, moving, brutal and informed with human mystery.'",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2017-09-10",
+          "bollymeter": 8.3,
+          "spoiler_free": "The pilot drops viewers into 1971 Times Square with the confidence of a show that knows exactly what it is - a social ecosystem study in the Simon mould. The twin-brothers conceit allows two economic strata of street survival to be mapped simultaneously, and Gyllenhaal's Candy commands every frame she enters.",
+          "the_moment": "Candy refusing to be managed by a pimp on her own terms - the series' central argument about agency delivered without a speech.",
+          "critic_note": {
+            "text": "It's the kind of storytelling - ebullient, moving, brutal and informed with human mystery.",
+            "source": "Dorothy Rabinowitz, Wall Street Journal",
+            "url": "https://www.wsj.com/articles/the-deuce-review-finding-the-sun-in-dark-times-1504822711"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2018,
+      "episodes": 9,
+      "release_date": {
+        "value": "2018-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "99% on Rotten Tomatoes - the show's creative apex. Salon called it 'definitively one of the best shows on TV' as the story jumps into the late 1970s and the porn industry moves from peep shows into mainstream film production."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The second season pays dividends to the viewer in the form of taut and lively performances - definitively one of the best shows on TV.",
+            "source": "Salon",
+            "url": "https://www.metacritic.com/tv/the-deuce/season-2/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/the-deuce/"
+      },
+      "review_body": "Season 2 is widely considered the series at its best, earning a 99% Rotten Tomatoes score and Salon's declaration that it was 'definitively one of the best shows on TV.' A time-jump into the late 1970s moves the story into the boom years of commercial pornography, and the showrunners use that shift to examine how exploitation becomes industry. Candy's arc as a director navigating a world built to objectify her is the season's moral centre. IndieWire called the experience 'a stunning, transportive experience each and every episode.' The show's approach - mapping structural forces through richly observed human detail - reached its fullest expression here.",
+      "season_over_season": "Season 2 outpaces the already-strong debut with a time-jump that allows the social architecture to evolve and deepens the tragedy of characters now trapped inside the machine they helped build.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "88% on Rotten Tomatoes for the final season. Critics found the AIDS crisis storyline and Times Square gentrification arc a fitting and sobering conclusion, even if the season felt rushed to close out a decade-spanning story."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/the-deuce/"
+      },
+      "review_body": "The final season moves into the mid-1980s, bringing the AIDS crisis, the crack epidemic, and the corporate clean-up of Times Square into a finale the 88% Rotten Tomatoes figure marked as a slight dip from Season 2's near-perfect run but still emphatic approval. The show's willingness to portray the real-estate forces that would ultimately sanitise the Deuce as their own form of violence gave the ending moral complexity. Candy's journey from street worker to aspiring filmmaker reaches a conclusion that refuses cheap resolution. A worthy, if occasionally hurried, close to one of the decade's most ambitious HBO dramas.",
+      "season_over_season": "Season 3 is necessarily more mournful than its predecessors - the AIDS epidemic enters the story and the gentrification of Times Square announces the end of the world the show has been building for three seasons.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

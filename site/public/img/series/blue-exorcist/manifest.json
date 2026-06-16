@@ -1,0 +1,38 @@
+{
+  "attribution": {
+    "line": "Poster \u00a9 A-1 Pictures / Studio VOLN / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/6/62/Blue_Exorcist_vol_1.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-16T11:23:41Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/blue-exorcist/poster.jpg",
+    "source_height": 370,
+    "source_width": 235,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "blue-exorcist",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Blue_Exorcist",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/62/Blue_Exorcist_vol_1.png"
+  },
+  "variants": []
+}

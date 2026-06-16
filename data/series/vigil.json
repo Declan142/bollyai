@@ -1,0 +1,122 @@
+{
+  "slug": "vigil",
+  "qid": {
+    "value": "Q106771241",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Vigil",
+    "source": "BBC One / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "BBC One / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Thriller", "Mystery", "Crime", "Drama"],
+  "logline": "A Scottish detective boards a nuclear submarine to investigate a crew member's suspicious death - and finds herself sealed inside a floating crime scene with a live threat and a government desperate to contain it.",
+  "poster": {
+    "src": "/img/series/vigil/poster.jpg",
+    "alt": "Vigil poster",
+    "attribution": "Poster © World Productions / BBC One. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Series 3 was confirmed in February 2025 and filming began in September 2025, set at an Arctic research station with Suranne Jones returning.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/mediacentre/2025/vigil-series-3-confirmed"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-08-29",
+        "source": "BBC One / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Season 1 earned an 85% Rotten Tomatoes score and a Metacritic score of 73 from 12 critics; The Guardian called it 'a dense, sharply written absolute treat of a show about a murky, unseen world.'"
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 12,
+        "pull_quotes": [
+          {
+            "text": "A dense, sharply written absolute treat of a show about a murky, unseen world that doesn't want to break the surface.",
+            "source": "The Guardian",
+            "url": "https://www.metacritic.com/tv/vigil/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Vigil's first series landed on BBC One in August 2021 and became a ratings hit, with critics responding to the controlled claustrophobia of its submarine setting and Suranne Jones's tightly wound performance as DCI Amy Silva. The 85% Rotten Tomatoes score reflected near-consensus that creator Tom Edge had engineered an unusually effective procedural: the locked-room logic of the HMS Vigil created genuine tension without requiring the show to explain nuclear strategy. The Guardian placed it among the year's best British drama; the Wall Street Journal called it 'one of the better thriller series of the year.' Rose Leslie's mainland investigation provided narrative breathing room while the submarine thread tightened. Critics occasionally noted the conspiracy architecture stretched credulity, but the pacing and performances overrode those objections.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-08-29",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes the premise with economy and menace: a detective boards a nuclear submarine under duress, and within minutes the walls are closing in. Suranne Jones commands every scene.",
+          "the_moment": "Silva descends into the submarine and the hatch seals above her - the moment the genre rules become clear.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2021-09-26",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season finale threads together its conspiracy threads with more coherence than expected, and the Silva-Longacre dynamic pays off emotionally. Not all the plot architecture survives scrutiny, but the tension holds.",
+          "the_moment": "The final confrontation beneath the surface that reframes why the submarine was the only possible setting.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-12-10",
+        "source": "BBC One / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "Season 2 dropped to 57% on Rotten Tomatoes; critics found the drone-technology conspiracy less gripping than the submarine claustrophobia, and the new setting diluted what made the first series distinctive."
+      },
+      "critic": {
+        "positive_pct": 57,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The second series relocated Vigil from a submarine to the world of military drones and Scottish airbase politics. The shift cost the show its most potent asset - the sealed, airless menace of the HMS Vigil - and the 57% Rotten Tomatoes score marked a significant slide from Series 1's 85%. The drone conspiracy read as less inherently cinematic and the plotting more conventional than the submarine original. Suranne Jones remained effective and Dougray Scott added weight as a new antagonist, but the series struggled to replace the physical claustrophobia with equivalent psychological pressure. For the subset of the audience that had arrived for the submarine's locked-room logic, Series 2 delivered a competent procedural without the distinctive edge of its predecessor.",
+      "season_over_season": "A significant step down from Series 1 - loses the submarine's locked-room brilliance without finding a comparable alternative.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

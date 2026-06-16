@@ -1,0 +1,106 @@
+{
+  "slug": "zerozerozero",
+  "qid": {
+    "value": "Q56277872",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "ZeroZeroZero",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Italy",
+  "original_language": {
+    "value": "it",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A single cocaine shipment traces a deadly arc from a Mexican cartel through an American shipping family to the Italian 'Ndrangheta - Roberto Saviano's global drug-trade epic rendered as brutal, multilingual TV.",
+  "poster": {
+    "src": "/img/series/zerozerozero/poster.jpg",
+    "alt": "ZeroZeroZero poster",
+    "attribution": "Poster © Cattleya / Sky Studios / Amazon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "ZeroZeroZero ran for one limited season of 8 episodes. No sequel has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/ZeroZeroZero_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-03-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "94% Tomatometer across 34 critic reviews on Rotten Tomatoes; critics singled out Stefano Sollima's direction, the multilingual cast, and cinematography described as 'really quite stunning' across multiple outlets."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 34,
+        "pull_quotes": [
+          {
+            "text": "This gritty international tale is clearly Amazon's answer to Netflix's Narcos, albeit a temporary one.",
+            "source": "Collider",
+            "url": "https://collider.com/zerozerozero-review-amazon-andrea-riseborough-dane-dehaan/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8332438/"
+      },
+      "review_body": "ZeroZeroZero arrived on Amazon Prime Video in March 2020 as one of the most ambitious European crime exports in years - adapted by Roberto Saviano from his own non-fiction book, directed by Stefano Sollima (Sicario: Day of the Soldado), Janus Metz, and Pablo Trapero. The 94 percent Rotten Tomatoes score across 34 reviews reflected critical enthusiasm for the scale of the undertaking: six languages, three continents, three narrative lines that converge on a single cocaine shipment. Critics flagged the show's occasional tendency toward over-withholding as its chief weakness - the critics consensus noted it is 'at times too withholding.' Andrea Riseborough and Dane DeHaan anchor the American strand, while the 'Ndrangheta sequences deliver the series' most visceral tension. Collider placed it squarely in the Narcos lineage. It earns that comparison without merely imitating it.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-03-06",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere intercuts three geographies and three languages without an establishing-shot hand-hold, and it trusts the viewer to keep up. The deliberate coldness is a strategy, not a flaw.",
+          "the_moment": "The opening sequence that establishes the cocaine supply chain as a machine no individual can stop or escape.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2020-03-06",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale pays off the three-strand structure with a convergence that feels earned rather than contrived. Characters who seemed peripheral turn out to have been load-bearing all along.",
+          "the_moment": "The moment the Lynwood family's moral compromise becomes irreversible - the show's bleakest and most honest beat.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

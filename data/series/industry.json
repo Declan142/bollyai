@@ -1,0 +1,149 @@
+{
+  "slug": "industry",
+  "qid": {
+    "value": "Q65047096",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Industry",
+    "source": "Wikipedia / HBO official",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC Two / HBO",
+    "source": "Wikipedia / official platform pages",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Drama", "Thriller", "Psychological"],
+  "logline": "A cohort of ambitious graduates enters the gladiatorial arena of a London investment bank, where the line between professional hunger and self-destruction erodes with every deal, betrayal, and morning-after.",
+  "poster": {
+    "src": "/img/series/industry/poster.jpg",
+    "alt": "Industry poster",
+    "attribution": "Poster © BBC / HBO / Bad Wolf. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for a fifth and final season following Season 4 (January-March 2026). The show has run four seasons and expanded its cast significantly with each cycle.",
+    "source": "Wikipedia / HBO",
+    "source_url": "https://en.wikipedia.org/wiki/Industry_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-11-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "A bold debut from co-creators Mickey Down and Konrad Kay that earned 76% on Rotten Tomatoes - critics praised its uncompromising portrait of cutthroat finance but some found the characters deliberately difficult to root for."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 1 landed in November 2020 on BBC Two and HBO, earning 76% on Rotten Tomatoes. Co-creators Mickey Down and Konrad Kay, both former finance workers, brought an insider's ear to the unflinching depiction of graduate intake culture at fictional Pierpoint and Co. The Metacritic overall score across all seasons sits at 80. The debut's sharp edges were partly by design - the series refused to offer sympathetic entry points, trusting its audience to find fascination in characters as complicit in their own degradation as their employers. Myha'la's Harper Stern emerged as the central tension engine, and the season's shock mid-run death set the tone for the show's willingness to discard comfort.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Minimise",
+          "air_date": "2020-11-09",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere throws graduates into Pierpoint's intake week without orientation or sentiment - the closest thing to a welcome is a desk and a looming target. The show establishes its aesthetic of financial cruelty immediately.",
+          "the_moment": "The opening trading floor sequence - the sound design and kinetic editing announce that this is not a prestige-drama about banking; it is a survival thriller set inside one.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-08-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A near-consensus critical breakthrough at 96% on Rotten Tomatoes - reviewers at The Telegraph and Collider declared it among the best dramas on television, with Kit Harington's addition as a destabilising aristocrat landing particularly well."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Across eight hours there is some absolute bravura television here.",
+            "source": "The Telegraph",
+            "url": "https://www.metacritic.com/tv/industry/"
+          },
+          {
+            "text": "The plot-twists, back-stabbing character drama and endlessly high stakes keep Industry gripping.",
+            "source": "Empire",
+            "url": "https://www.metacritic.com/tv/industry/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in August 2022 and represented the show's critical coming-of-age, rocketing to 96% on Rotten Tomatoes. The Telegraph's Benji Wilson called it 'absolute bravura television'; Collider declared that Industry had 'evolved into a definitive show.' Kit Harington joined as Sir Henry Muck, a dissolute aristocrat whose presence reshuffled the power dynamics among the younger cast in ways critics found both destabilising and dramatically productive. The Harper-Yasmin dynamic deepened into the show's most complex and contested relationship. Empire praised the relentless high stakes and character back-stabbing. The season's willingness to push its characters into genuinely reckless territory - professionally, sexually, pharmacologically - became the defining conversation, with Marisa Abela's Yasmin emerging as the breakout of the cycle.",
+      "season_over_season": "A dramatic leap from the divisive debut - Season 2 converts the provocations of Season 1 into fully controlled dramatic power.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-08-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Season 3 peaked at 98% on Rotten Tomatoes - the show's critical apex - as the series expanded its ambitions into hedge fund territory and delivered its most politically charged storylines."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Industry may share similarities with previous HBO dramas, but it's evolved into a definitive show.",
+            "source": "Collider",
+            "url": "https://www.metacritic.com/tv/industry/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 3, airing August-September 2024, achieved 98% on Rotten Tomatoes - essentially a critical consensus at the show's peak. The move into hedge fund territory and the introduction of shareholder-activist storylines gave the series fresh economic terrain. Critics who had praised Industry from Season 2 onward found Season 3 the fullest expression of what Down and Kay were building: a show that uses finance as a lens for examining class, ambition, and identity with near-Succession-level precision. Collider noted the show had become 'a definitive' drama in its own right. The Harper-Pierpoint relationship reached its most complex and corrosive state, and the ensemble - now expanded with multiple seasons of relationship history - delivered the show's richest ensemble work.",
+      "season_over_season": "Matches or exceeds Season 2's ambition - the move to hedge fund territory brings fresh political oxygen to a show that could have stalled.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

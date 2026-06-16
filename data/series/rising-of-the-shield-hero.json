@@ -1,0 +1,185 @@
+{
+  "slug": "rising-of-the-shield-hero",
+  "qid": {
+    "value": "Q19840638",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Rising of the Shield Hero",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia / Crunchyroll official",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Anime", "Fantasy", "Action", "Drama"],
+  "logline": "A gamer betrayed and enslaved in a fantasy world claws his way back through the ranks armed only with a shield - a darker-than-average isekai built on survival, mistrust, and earned redemption.",
+  "poster": {
+    "src": "/img/series/rising-of-the-shield-hero/poster.jpg",
+    "alt": "The Rising of the Shield Hero poster",
+    "attribution": "Poster © Kinema Citrus / DR Movie. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 5 is in production following Season 4's conclusion in September 2025. No premiere date confirmed as of June 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Rising_of_the_Shield_Hero"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 25,
+      "release_date": {
+        "value": "2019-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "MAL audience of over 1 million scored it 7.90; Rotten Tomatoes' 86% from 2 critics reflects genuine enthusiasm from specialist anime reviewers who noted its subversion of isekai heroism; light novel sales hit 6.2 million copies on the season's momentum."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "The Rising of the Shield Hero flips the traditional isekai narrative on its head by turning the heroic fantasy into a nightmare.",
+            "source": "Common Sense Media",
+            "url": "https://www.commonsensemedia.org/tv-reviews/the-rising-of-the-shield-hero"
+          },
+          {
+            "text": "Emerges as an excellent title that manages to differ from the plethora of similar anime, due to its overall context.",
+            "source": "Asian Movie Pulse",
+            "url": "https://asianmoviepulse.com/2019/07/anime-review-the-rising-of-the-shield-hero-2019/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.90,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/35790/Tate_no_Yuusha_no_Nariagari"
+      },
+      "review_body": "Season 1 (Kinema Citrus, 2019) distinguished itself immediately by refusing the standard isekai power fantasy setup. Naofumi Iwatani arrives in a parallel world as the Shield Hero - the weakest and most derided of four summoned heroes - then faces a false accusation that strips him of every ally. The season spent its 25 episodes rebuilding from that pit, with Rotten Tomatoes critics at Asian Movie Pulse and Common Sense Media both noting the deliberate inversion of genre expectations. MAL's 7.90 from over one million users indicates strong broad appeal, while MAL reviewer Stark700's critique - 'the first half showed potential but repetitive storytelling themes weaken it' - captures the division the season's middle arc created. Light novel sales hitting 6.2 million copies on the anime's launch confirmed commercial success.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Shield Hero",
+          "air_date": "2019-01-09",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere's setup - a protagonist immediately scapegoated and stripped of allies - is one of isekai's darkest opening gambits. Naofumi's forced competence-via-necessity gives the show a genuinely different energy from the genre norm.",
+          "the_moment": "The false accusation scene that reframes every subsequent episode's stakes.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "The Rising of the Shield Hero",
+          "air_date": "2019-06-26",
+          "bollymeter": 8.3,
+          "spoiler_free": "The season finale delivers on the long rebuild - Naofumi's arc from betrayed outsider to acknowledged hero lands emotionally because the season earned it slowly. The episode is the clearest proof the darker premise was worth the 25-episode investment.",
+          "the_moment": "Naofumi's public acknowledgement - the moment viewers had been waiting 25 episodes to reach.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 13,
+      "release_date": {
+        "value": "2022-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Rotten Tomatoes' sole critic review gave 53%, with reviewer Panos Kotzathanasis calling it 'disappointing and definitely unworthy of the excellent first one'; MAL audience ratings confirmed the broad decline in reception."
+      },
+      "critic": {
+        "positive_pct": 53,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "The second season of The Rising of the Shield Hero is disappointing, and definitely unworthy of the excellent first one.",
+            "source": "Asian Movie Pulse",
+            "url": "https://www.rottentomatoes.com/tv/the_rising_of_the_shield_hero/s02/reviews"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2 (2022) was a significant step down. The condensed 13-episode run tried to cover a Spirit Tortoise arc that manga readers noted felt rushed, and Rotten Tomatoes' sole critical review - a 53% from Panos Kotzathanasis at Asian Movie Pulse - captured the prevailing sense of a season that had lost the careful world-building that made Season 1 compelling. MAL reviewer Veronin's pre-existing critique of the franchise as 'popular mostly for its gimmicky nature, masquerading itself as mature' found broader agreement with Season 2 as evidence. Fan communities largely attributed the decline to a compressed production schedule and pacing decisions in the adaptation.",
+      "season_over_season": "Season 2 is a notable decline - the 25-episode pacing of Season 1 was replaced with a compressed 13-episode run that stripped the character development and world-building that the first season earned slowly.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-10-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "No professional critic scores available on Rotten Tomatoes for Season 3; MAL audience reception reflected a partial recovery from Season 2's lows, with fans citing improved pacing and the Heavenly Emperor arc as a step toward Season 1 quality."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 (October-December 2023, 12 episodes) served as a course correction. Rotten Tomatoes listed no professional reviews. MAL aggregate reception reflected a partial return to the franchise's Season 1 form - the Heavenly Emperor arc gave Naofumi's party more substantive conflict and the pacing recovered from Season 2's rushed 13-episode compression. The series' commercial ecosystem - including manga exceeding 6.2 million copies per Wikipedia - sustained investment in a Season 4 that arrived in July 2025. Season 3 is best understood as the transition bridge between Season 2's low point and a hypothetical return to the show's opening quality.",
+      "season_over_season": "Season 3 is a recovery - not at Season 1's level, but meaningfully better than Season 2's compressed stumble. The Heavenly Emperor arc gave the ensemble room to breathe.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2025,
+      "episodes": 12,
+      "release_date": {
+        "value": "2025-07-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 ran July-September 2025. As of June 2026, no professional critic reviews are indexed on Rotten Tomatoes, and detailed MAL aggregate data was not yet available for a reliable score. Rotten Tomatoes confirmed no 'All Critics' reviews for Season 4 as of the date of authoring. Season 5 has been announced, indicating continued production confidence from the franchise. Verdicts here remain open pending further critical aggregation.",
+      "season_over_season": "Season 4 verdict is open - insufficient grounded critical data available as of June 2026 to score or call it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

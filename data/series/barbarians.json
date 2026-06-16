@@ -1,0 +1,104 @@
+{
+  "slug": "barbarians",
+  "qid": {
+    "value": "Q99591764",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Barbarians",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Drama", "War", "Action"],
+  "logline": "A German historical drama fictionalizing the Battle of the Teutoburg Forest in 9 AD - following Arminius, a Germanic warrior raised as a Roman soldier, who must choose between two worlds as his people rise against imperial occupation.",
+  "poster": {
+    "src": "/img/series/barbarians/poster.jpg",
+    "alt": "Barbarians poster",
+    "attribution": "Poster © Netflix / Gaumont. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded with Season 2 in October 2022; Netflix has not announced a third season and the story reached a natural narrative end point.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Barbarians_(2020_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-10-23",
+        "source": "Netflix / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Season 1 earned 86% on Rotten Tomatoes from 7 critics and an 83% audience score, with reviewers praising the production design and the divided-loyalties premise rooted in a genuinely significant historical battle."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Barbarians arrived on Netflix in October 2020 as one of the streamer's most ambitious German-language productions - a six-episode historical drama built around the Battle of the Teutoburg Forest, where Germanic tribes routed three Roman legions in 9 AD. The series built its drama around Arminius (Laurence Rupp), a Germanic warrior who grew up in Rome and served as a Roman officer, and his triangulated loyalties between empire, tribe, and a childhood love. The 86% Rotten Tomatoes score from 7 reviews and an 83% audience score on the platform reflected a positive reception - the production's visual confidence, the forest landscapes, Roman military staging, and period detail stood out for a streaming drama of this scale. The sample was small by comparison with English-language productions but the signal was consistent, and the show positioned itself effectively in the post-Vikings historical drama space.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Alliance",
+          "air_date": "2020-10-23",
+          "bollymeter": 7.4,
+          "spoiler_free": "The premiere establishes Arminius's divided identity with clarity and pace - born Germanic, raised Roman, returning home as an officer of the occupying force. The dual-language filming (German and Latin) is immediately striking.",
+          "the_moment": "Arminius riding into the Germanic forest in Roman armour - the visual contradiction that drives the whole series.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-10-21",
+        "source": "Netflix / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned in October 2022 and expanded the post-Teutoburg political fallout, following the fractured Germanic alliance as Rome reorganised its response. Critical coverage was thinner than for Season 1. The season deepened the romantic and political entanglements without dramatically expanding the show's scale. As a narrative continuation for the first season's audience, it delivered on the setup; as a standalone entry it was a competent historical drama that depended heavily on prior investment in the characters.",
+      "season_over_season": "Season 2 consolidates rather than expands - a respectable continuation for fans of Season 1 without the novelty advantage that made the premiere compelling.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

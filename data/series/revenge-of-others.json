@@ -1,0 +1,102 @@
+{
+  "slug": "revenge-of-others",
+  "qid": {
+    "value": "Q113877789",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Revenge of Others",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Mystery",
+    "Thriller",
+    "Drama",
+    "Teen",
+    "Crime"
+  ],
+  "logline": "A national shooting champion transfers to her dead twin brother's school refusing to accept the suicide verdict, and teams up with a scarred loner who secretly punishes bullies - uncovering a conspiracy of cruelty that runs deeper than either anticipated.",
+  "poster": {
+    "src": "/img/series/revenge-of-others/poster.jpg",
+    "alt": "Revenge of Others poster",
+    "attribution": "Poster © Disney+ / Studio S. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Twelve-episode series concluded on Disney+ in December 2022. No renewal announced; series tells a self-contained story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Revenge_of_Others"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-11-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Critics and audiences agreed this was among Disney+ Korea's strongest originals - praised for young lead performances by Shin Ye-eun and Lomon, a socially engaged script about school bullying and institutional failure, and propulsive mystery plotting that sustained tension across twelve episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt23032890/"
+      },
+      "review_body": "Revenge of Others arrived on Disney+ in November 2022 as one of the platform's strongest early Korean originals. Directed by Kim Yoo-jin and written by Lee Hee-myung, the show centred on a topical social issue - school bullying and the systemic silencing of its victims - framed as a mystery thriller rather than a didactic drama. Shin Ye-eun and Lomon anchored the show: a driven shooting champion investigating her twin brother's death, and a financially struggling student who doles out vigilante justice to protect the vulnerable. Audience reception was warm, with an IMDb score of 7.6. Korean drama communities cited it as a tightly plotted, emotionally engaged entry in the school-mystery genre. No Rotten Tomatoes aggregate was available at the time of writing; the IMDb score and sustained viewer engagement are the clearest available indicators of the show's quality.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-11-09",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere sets up Chan-mi's grief and scepticism with precision - the twin bond is established economically before the mystery hook arrives. The school environment is rendered with the particular cruelty of Korean elite-high social dynamics, and the show immediately signals it intends to take its subject seriously.",
+          "the_moment": "The moment Chan-mi learns the details of her brother's death and decides the official account cannot be trusted - a quiet, devastating pivot.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2022-12-14",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale resolves the conspiracy with satisfying clarity, paying off twelve episodes of slow-burn investigation. The emotional cost lands because the show built its characters carefully - the resolution feels earned rather than mechanical.",
+          "the_moment": "The truth about the events that killed Chan-mi's brother is laid bare - the institutional complicity that made it possible is the show's sharpest moral argument.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

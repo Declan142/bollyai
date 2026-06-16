@@ -1,0 +1,111 @@
+{
+  "slug": "worst-of-evil",
+  "qid": {
+    "value": "Q114398395",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Worst of Evil",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "Disney+ exclusive streaming confirmed",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Action",
+    "Drama"
+  ],
+  "logline": "A homicide detective goes deep undercover inside a 1990s Korean drug syndicate, and the longer he stays the less certain he is which side he is actually on.",
+  "poster": {
+    "src": "/img/series/worst-of-evil/poster.jpg",
+    "alt": "The Worst of Evil poster",
+    "attribution": "Poster © Disney+ / Studio Santa Claus Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 12 episodes, concluded October 25, 2023. Director Han Dong-wook won the 2024 Baeksang Arts Award for Best Director - Television.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Worst_of_Evil"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-09-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "IMDb rating of 8.3 and the 2024 Baeksang Arts Award for Best Director - Television mark this as the year's most technically accomplished K-crime series, with Ji Chang-wook's physical performance and Han Dong-wook's 1990s period direction as its twin anchors."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Well produced and the opening few episodes are terrific, even if we've seen this kind of story many times before.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3236157/disney-k-drama-worst-evil-ji-chang-wook-wi-ha-joon-rule-their-fists-brutal-and-immersive-gangster"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14882388/"
+      },
+      "review_body": "The Worst of Evil debuted on Disney+ in September 2023 and ran 12 episodes through October, setting its undercover-cop thriller squarely in the brutal drug trade connecting South Korea, China, and Japan in the 1990s. Ji Chang-wook as Detective Park Jun-mo and Wi Ha-joon as mob kingpin Jung Gi-cheul are the show's twin engines - one bleeding identity, the other radiating cold control - and the friction between them is what lifts the series above competent genre execution into something genuinely unsettling. Director Han Dong-wook won the 2024 Baeksang Arts Award for Best Director - Television, a confirmation that the period production design and propulsive action staging landed with Korean industry peers as well as audiences. South China Morning Post's Pierce Conran called the opening episodes \"terrific\" while noting familiar genre territory; the 8.3 IMDb score reflects a consensus that the show's execution overpowers any déja vu. The love triangle between Jun-mo, his detective wife, and Gi-cheul's lingering attachment to her adds emotional instability to an already morally compromised undercover arc.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-09-27",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere drops Park Jun-mo into the Gangnam Union with a confidence that matches its 1990s period texture - Ji Chang-wook calibrates the undercover persona as a separate skin rather than a costume.",
+          "the_moment": "Jun-mo's first handshake with Gi-cheul: two men reading each other, neither showing his hand.",
+          "critic_note": {
+            "text": "Well produced and the opening few episodes are terrific, even if we've seen this kind of story many times before.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3236157/disney-k-drama-worst-evil-ji-chang-wook-wi-ha-joon-rule-their-fists-brutal-and-immersive-gangster"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2023-10-25",
+          "bollymeter": 8.1,
+          "spoiler_free": "The finale resolves the undercover arc without sanitising the psychological damage it cost - moral clarity is withheld even in the final frames, which is exactly the right call for this kind of story.",
+          "the_moment": "Jun-mo's last scene with Gi-cheul: the cost of the mission made concrete and irreversible.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

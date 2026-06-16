@@ -1,0 +1,112 @@
+{
+  "slug": "behind-your-touch",
+  "qid": {
+    "value": "Q117280410",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Behind Your Touch",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Mystery",
+    "Romance",
+    "Supernatural",
+    "Crime"
+  ],
+  "logline": "A small-town vet who can read memories by touching animals - and eventually people - reluctantly teams with a big-city detective demoted to her quiet village, and together they stumble into a serial killer case that turns their sleepy backdrop into a hunting ground.",
+  "poster": {
+    "src": "/img/series/behind-your-touch/poster.jpg",
+    "alt": "Behind Your Touch poster",
+    "attribution": "Poster © JTBC / SLL / Studio Phoenix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Sixteen-episode series concluded on JTBC in October 2023. No renewal announced; self-contained story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Behind_Your_Touch"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-08-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Decider's lone Rotten Tomatoes review (90% from 1 critic) praised its commitment to comedy-first storytelling over supernatural gimmickry; IMDb audience score of 7.4 reflects strong viewer enjoyment of the Han Ji-min and Lee Min-ki dynamic in a genre-blending format that kept the rural mystery propulsive."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "The show wants to be funny first, which makes for much more sophisticated humor than we usually see.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/behind_your_touch/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26314390/"
+      },
+      "review_body": "Behind Your Touch aired on JTBC from August to October 2023, starring Han Ji-min, Lee Min-ki, and EXO's Suho. Written by Son Eun-hye and produced by SLL and Studio Phoenix, the show earned its reputation as one of the more distinctive genre mixes of the year: psychometry-powered animal clinic meets demoted detective meets rural serial killer. Decider's Joel Keller, the show's sole Rotten Tomatoes critic at 90%, identified the core strength correctly - the show treats comedy as primary, which gives the supernatural conceit texture rather than gimmick status. The audience engaged accordingly, delivering an IMDb score of 7.4. The Han Ji-min and Lee Min-ki pairing sustained the show's tonal tightrope across sixteen episodes, shifting credibly between comic set-pieces in the veterinary clinic and genuinely menacing thriller mechanics once the serial killer plot sharpened. A confident genre hybrid that delivers on the unexpected combination of paranormal mystery and sustained wit.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-08-12",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes Bong Ye-bun's psychometric ability through animal-touch scenes that are played for comedy before the dramatic implications land. The detective's reluctant arrival in the village is handled with a light touch, and the episode earns the genre mashup by demonstrating it can handle each mode separately before combining them.",
+          "the_moment": "The first accidental memory-read from a human contact - the moment the show expands its premise from quirky vet comedy to something with genuine stakes.",
+          "critic_note": {
+            "text": "The show wants to be funny first, which makes for much more sophisticated humor than we usually see.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/behind_your_touch/s01"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2023-10-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale resolves the serial killer mystery and the central romantic tension with satisfying economy. The show maintains its comic voice even through the dramatic conclusion, which is its defining achievement - the tonal consistency across sixteen episodes is what makes the ending feel like a payoff rather than a pivot.",
+          "the_moment": "The reveal of the killer's identity and the final reckoning - effective because the show built genuine dread into the mystery without sacrificing the comedy that made it distinctive.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

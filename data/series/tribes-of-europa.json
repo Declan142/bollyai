@@ -1,0 +1,91 @@
+{
+  "slug": "tribes-of-europa",
+  "qid": {
+    "value": "Q104213753",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tribes of Europa",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Drama", "Action", "Adventure"],
+  "logline": "In a fractured 2074 Europe where a mysterious catastrophe has dissolved nations into warring micro-tribes, three siblings from a peaceful forest community are separated when a crash-landed pilot delivers a strange artifact that every faction is willing to kill for.",
+  "poster": {
+    "src": "/img/series/tribes-of-europa/poster.jpg",
+    "alt": "Tribes of Europa poster",
+    "attribution": "Poster © Netflix / Wiedemann and Berg Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by Netflix in January 2024 after one season; Philip Koch's projected multi-season arc was not completed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tribes_of_Europa"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-02-19",
+        "source": "Netflix / Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.6,
+        "basis": "Season 1 earned an unusually high 92% Rotten Tomatoes score from a small sample of 13 critics, though audience reception was more divided at 69%; the show delivered solid world-building but ended on a cliffhanger that the cancellation rendered permanently unresolved."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 13,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Tribes of Europa debuted on Netflix in February 2021 - a German-language sci-fi drama from Philip Koch set in a 2074 Europe shattered into hundreds of warring micro-tribes after a never-explained global blackout called 'Black December.' The premise borrowed from Game of Thrones-style faction drama and Young Adult dystopian fiction while investing in its own distinct visual language: the Crows (brutal militarist), the Atlantians (technological remnant), and the Origines (forest-dwelling pacifists). A 92% Rotten Tomatoes score from 13 reviews sat alongside a more cautious 69% audience score on the platform - the gap reflected ambition and production values that landed clearly with specialist press while the mythology density proved a steeper climb for general streaming audiences. The six-episode season built toward a finale explicitly designed as a launchpad for future seasons. Netflix's January 2024 cancellation left that launchpad unused.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Tribe of Origines",
+          "air_date": "2021-02-19",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere drops its three siblings into chaos with efficiency: a crashed Atlantian pilot, a mysterious cube, and a Crow attack that scatters the family across the new Europe. The world-building is confident without being explanatory.",
+          "the_moment": "The Crow attack on the Origines village - the show's first true demonstration of what this fractured Europe is capable of.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "The Price of Paradise",
+          "air_date": "2021-02-19",
+          "bollymeter": 6.5,
+          "spoiler_free": "The season finale converges its three sibling arcs and lands on a cliffhanger designed for continuation. Strong momentum, but the knowledge that no second season followed makes the ending feel abrupt rather than tantalising.",
+          "the_moment": "The revelation of the cube's true nature - an answer that immediately raises a larger question the series will never answer.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

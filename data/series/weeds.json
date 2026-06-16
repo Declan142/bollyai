@@ -1,0 +1,303 @@
+{
+  "slug": "weeds",
+  "qid": {
+    "value": "Q23609",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Weeds",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Crime", "Drama"],
+  "logline": "A recently widowed suburban mother in a pristine California planned community starts selling marijuana to maintain her family's upper-middle-class lifestyle - and keeps escalating until there is no going back.",
+  "poster": {
+    "src": "/img/series/weeds/poster.jpg",
+    "alt": "Weeds poster",
+    "attribution": "Poster © Tilted Productions / Lionsgate Television / Showtime. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Ran for 8 seasons on Showtime from August 2005 to September 2012, concluding Nancy Botwin's criminal odyssey across the United States and Mexico.",
+    "source": "Showtime",
+    "source_url": "https://www.sho.com/weeds"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 10,
+      "release_date": {
+        "value": "2005-08-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "79% on Rotten Tomatoes from 28 critics; praised as the best comic suburban soap on TV and positioned as a sharp class satire anchored by Mary-Louise Parker's revelatory lead performance."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 28,
+        "pull_quotes": [
+          {
+            "text": "The best comic suburban soap on TV, ounce for ounce.",
+            "source": "TIME Magazine",
+            "url": "https://www.rottentomatoes.com/tv/weeds/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Weeds arrived in August 2005 as the most audacious thing on Showtime: a comedy about a suburban widow selling cannabis to keep her mortgage paid, set in the perfectly manicured California community of Agrestic. Mary-Louise Parker's Nancy Botwin was an immediate critical sensation - charming, morally elastic, and impossible to look away from. Critics gave Season 1 a 79% Rotten Tomatoes score from 28 reviews, with TIME Magazine calling it the best comic suburban soap on television. The show's target was the American Dream's hollow promise - all that manicured grass concealing desperation. Creator Jenji Kohan's writing was sharp and specific, the supporting cast immediately vivid, and the Showtime platform gave the show the room to follow its premise into genuinely dark territory.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "You Can't Miss the Bear",
+          "air_date": "2005-08-08",
+          "bollymeter": 8.5,
+          "spoiler_free": "Nancy Botwin begins her second career while keeping up appearances in Agrestic. The show establishes its tonal register immediately: the comedy is earned from genuine social satire, not condescension toward its suburban setting.",
+          "the_moment": "Nancy completing her first deal while still in full PTA-mom mode - the defining image of the show's central premise.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 12,
+      "release_date": {
+        "value": "2006-08-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes - a perfect score reflecting critics' consensus that Season 2 delivered the show's premise with complete confidence and sharpened its satirical edge."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Season 2 achieved a perfect 100% Rotten Tomatoes score - the show at its absolute peak. Nancy's operation expanded into proper cartel territory while the suburban satire sharpened to a point. The supporting ensemble - Kevin Nealon's Doug, Elizabeth Perkins' Celia, Romany Malco's Conrad - hit their full comedic stride. Mary-Louise Parker's performance deepened from promising pilot work into something genuinely extraordinary: a portrait of a woman who has convinced herself that each escalating criminal step is still temporary. The show never lost its satirical edge about what American comfort costs and who provides it. Season 2 is the Weeds to watch if only watching one.",
+      "season_over_season": "A perfect critical leap from Season 1; every element of the premise firing simultaneously.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 15,
+      "release_date": {
+        "value": "2007-08-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "88% on Rotten Tomatoes; the fire that destroys Agrestic and Nancy's escalating cartel involvement raised stakes but also moved the show toward thriller territory."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Season 3 expanded Weeds' scope considerably, deepening Nancy's involvement with the Agrestic cartel and building toward the community-destroying season finale. Critics scored it 88% on Rotten Tomatoes - still strong, but with notes about the show's tonal shift from suburban satire toward more conventional crime thriller territory. The fire that concludes the season was a bold creative choice that acknowledged the impossibility of simply continuing the same premise indefinitely. The Agrestic setting had defined the show's identity; destroying it was both narratively necessary and a significant creative risk. Season 3 was Weeds transitioning from what it had been into what it would need to become.",
+      "season_over_season": "The show escalates toward crime thriller as the suburban satire reaches its logical limit; still strong.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 13,
+      "release_date": {
+        "value": "2008-06-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "60% on Rotten Tomatoes; the border-town relocation to Ren Mar polarised critics who missed the Agrestic suburban setting that had defined the show's satirical core."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Season 4 relocated the Botwins to a California border town called Ren Mar following the Agrestic fire - a geographical shift that exposed the difficulty of the creative transition the show had made. With the suburban satire setting gone, Weeds needed a new identity. Critics were divided: the 60% Rotten Tomatoes score reflected genuine split opinion between those who found the new setting fresh and those who felt the show had lost its reason for being. Nancy's involvement with a Mexican drug tunnel operator pushed the show firmly into crime drama territory. Mary-Louise Parker remained the show's greatest asset, but the writers were visibly still working out what Weeds without Agrestic actually was.",
+      "season_over_season": "The post-Agrestic identity crisis - a transitional season that divided critics on the new direction.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2009,
+      "episodes": 13,
+      "release_date": {
+        "value": "2009-06-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.3,
+        "basis": "62% on Rotten Tomatoes; Nancy's deeper cartel entanglement and pregnancy storyline drew mixed responses from critics who wanted the show to find direction post-Agrestic."
+      },
+      "critic": {
+        "positive_pct": 62,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Season 5 continued Weeds' struggle to rediscover itself. The 62% Rotten Tomatoes score reflected a press corps that retained affection for the show while registering that it had not solved the creative problem posed by leaving Agrestic. Nancy's deepening relationship with cartel leader Esteban Reyes and her pregnancy by him gave the season some dramatic propulsion. The border-area setting became more familiar, and the show found a rhythm of sorts. By this point Weeds had evolved from a sharp class satire into a comparatively conventional fugitive crime drama - entertaining but no longer particularly distinctive. Its audience remained loyal while the ratings conversation shifted toward what the show had been in its early seasons.",
+      "season_over_season": "The new cartel storyline finds momentum but does not restore the show's satirical identity.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2010,
+      "episodes": 13,
+      "release_date": {
+        "value": "2010-08-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "64% on Rotten Tomatoes; the family on the run across the US generated episodic entertainment without solving the show's structural identity issues."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Season 6 launched the Botwin family on the run across the United States following the shooting of Esteban, providing the show with a road-trip structure that generated episodic variety if not narrative depth. A 64% Rotten Tomatoes score was the best of the post-Agrestic mid-run seasons without breaking through to anything genuinely fresh. The constant relocation gave each episode its own setting-specific colour while preventing the character development that had made the Agrestic years so sharp. Mary-Louise Parker remained committed to the performance regardless of the script's ambitions. The show was running on the momentum of an established franchise and Parker's considerable personal magnetism.",
+      "season_over_season": "Road-trip structure adds variety but cannot compensate for the ongoing identity drift.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2011,
+      "episodes": 13,
+      "release_date": {
+        "value": "2011-06-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "73% on Rotten Tomatoes; the time jump and Connecticut setting represented a partial creative recovery that critics cautiously welcomed."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "Season 7 introduced a significant time jump - three years forward, with Nancy emerging from federal prison into a new Connecticut setting - that critics greeted with cautious optimism. The 73% Rotten Tomatoes score was the show's best since Season 3. The reset allowed some character relationships to start fresh without pretending the criminal history had not happened. The children were now older, with Silas and Shane established in their own lives. The show found intermittent flashes of its early satirical energy in the contrast between Nancy's criminal record and her attempts at suburban reintegration. It was the late-period Weeds highlight even if it could not restore the show's early authority.",
+      "season_over_season": "Time jump and prison reset gives the show its strongest outing since Season 3.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2012,
+      "episodes": 13,
+      "release_date": {
+        "value": "2012-07-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 5.0,
+        "basis": "40% on Rotten Tomatoes - the series low; critics found the final season unable to provide satisfying closure after years of creative drift, with the series finale drawing particularly divided reactions."
+      },
+      "critic": {
+        "positive_pct": 40,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0439100/"
+      },
+      "review_body": "The final season of Weeds arrived in 2012 to a 40% Rotten Tomatoes score - the series' critical nadir - as critics registered that the show was ending without having found a satisfying answer to the creative questions the Agrestic fire had raised. The series finale, set years in the future, provided closure of a kind but struck critics as more peculiar than earned. The Nancy Botwin who began the show as a status-anxious suburban widow had become something harder to categorise, and the finale's flash-forward structure acknowledged that without quite resolving it. For dedicated viewers who had stayed through the mid-run struggles, the ending offered some sentimental payoff. As television conclusions go, it was a qualified goodbye from a show that had spent years qualifying what it was.",
+      "season_over_season": "The weakest season concludes a show that peaked early and drifted far; completionists only.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

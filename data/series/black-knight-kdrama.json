@@ -1,0 +1,112 @@
+{
+  "slug": "black-knight-kdrama",
+  "qid": {
+    "value": "Q110638048",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Black Knight",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Action",
+    "Sci-Fi",
+    "Drama",
+    "Thriller"
+  ],
+  "logline": "In a 2071 South Korea reduced to wasteland by a comet's aftermath, elite delivery drivers called Black Knights are the last lifeline of a suffocating population - and one legendary courier may be the only person capable of dismantling the corporate empire profiting from humanity's desperation.",
+  "poster": {
+    "src": "/img/series/black-knight-kdrama/poster.jpg",
+    "alt": "Black Knight poster",
+    "attribution": "Poster © Netflix / Project 318. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Six-episode limited series completed on Netflix in May 2023. No renewal announced; created as a self-contained story based on the webtoon by Lee Yun-kyun.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Black_Knight_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-05-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "A 69% Tomatometer from 16 critics reflects a show that delivers efficient dystopian action with Kim Woo-bin commanding the screen, while critics noted the world-building outpaces the character depth."
+      },
+      "critic": {
+        "positive_pct": 69,
+        "sample": 16,
+        "pull_quotes": [
+          {
+            "text": "As dystopian escapism goes, the series delivers thrill, spills and chills with dead-eyed efficiency.",
+            "source": "Daily Telegraph",
+            "url": "https://www.rottentomatoes.com/tv/black_knight/s01"
+          },
+          {
+            "text": "Imagine that your Ocado driver is Tom Hardy in Mad Max: Fury Road, and you won't be far off.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/black_knight/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt17013106/"
+      },
+      "review_body": "Black Knight arrived on Netflix in May 2023 adapting Lee Yun-kyun's webtoon into a six-episode dystopian sprint. The premise is audacious: set forty years after a comet has rendered most of South Korea uninhabitable, survivors depend on oxygen delivered by armoured couriers called Black Knights. Kim Woo-bin commands the action as the near-mythical 5-8, and the stunt choreography drew consistent admiration. Critics at 69% Tomatometer on 16 reviews found the show accomplished in its genre pleasures while thin on emotional depth - the Guardian compared it to Tom Hardy in Mad Max, and the Daily Telegraph praised its efficient thrills. The IMDb audience score of 6.4 and RT audience score of 76% suggest viewers found more to enjoy than critics did, particularly those who came for the action spectacle and class-allegory overtones. At six tight episodes it never overstays its welcome.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-05-12",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere introduces the oxygen-scarcity dystopia with confident world-building: the visual design is striking, the class stratification between citizens and refugees is immediate, and Kim Woo-bin's 5-8 establishes himself as an action archetype worth following across six tight episodes.",
+          "the_moment": "5-8's first delivery run through the wasteland - the show announces its action grammar and its bleak beauty in a single sequence.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2023-05-12",
+          "bollymeter": 6.5,
+          "spoiler_free": "The finale consolidates the dystopian allegory with a showdown between 5-8 and the corporate villains controlling the oxygen supply. The action delivers; the resolution leans on spectacle over emotional weight, which mirrors the season's strengths and limitations in miniature.",
+          "the_moment": "The climactic confrontation that frames delivery drivers as the last line of resistance against a privatised survival economy.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

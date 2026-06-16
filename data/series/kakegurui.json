@@ -1,0 +1,128 @@
+{
+  "slug": "kakegurui",
+  "qid": {
+    "value": "Q18700981",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kakegurui",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Psychological",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A transfer student with a compulsive gambling addiction arrives at Hyakkaou Private Academy, where social rank is determined entirely by high-stakes wagering, and proceeds to upend the school's predatory hierarchy with unsettling ecstasy.",
+  "poster": {
+    "src": "/img/series/kakegurui/poster.jpg",
+    "alt": "Kakegurui poster",
+    "attribution": "Poster © MAPPA / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season anime run concluded in March 2019. Spin-off Kakegurui Twin (2022) and a Netflix live-action US adaptation titled Bet (2025) have since followed the franchise.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kakegurui_(2017_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-07-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "MAL score of 7.22 from over 957,000 users and a 73% Rotten Tomatoes Tomatometer reflect an audience that finds the gambling-as-psychodrama hook genuinely thrilling, offset by critics noting the thin characterisation beyond Yumeko."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The sexiness factor goes to 11 on the creepy scale real quick without any romantic anchors.",
+            "source": "Collider",
+            "url": "https://collider.com/kakegurui-review-netflix/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/34933/Kakegurui"
+      },
+      "review_body": "Season 1 of Kakegurui landed on Netflix internationally in 2017 and immediately generated buzz for its premise: at Hyakkaou Academy, wealth and dominance are gambled into existence each day. MAPPA's animation leans into the grotesque expressionism of its source manga, giving Yumeko Jabami's ecstatic gambling face its own subgenre of fan reaction. Critics at Collider and Rotten Tomatoes (73% Tomatometer) found the psychological hook compelling if repetitive. MAL's 7.22 score from nearly a million users reflects wide audience appeal undercut by the show's limited character depth beyond its lead. The season works best as a stylised mood piece - the stakes are theatrical rather than emotional, and the mechanics of each gamble drive the tension more than any investment in the characters.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Woman Called Yumeko Jabami",
+          "air_date": "2017-07-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series opens by establishing Hyakkaou Academy's brutal gambling hierarchy, then detonates it when Yumeko Jabami plays her first hand. MAPPA's expressionist animation makes the psychological stakes feel viscerally physical from the first episode.",
+          "the_moment": "Yumeko's face during the Life or Death card game - the moment the show reveals its tonal register.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-01-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "MAL score of 7.18 from 492,000 users shows the second season holding steady with the audience that enjoyed the first, though the formula shows diminishing returns as the council arc broadens the cast without deepening it."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/37086/Kakegurui__"
+      },
+      "review_body": "Kakegurui Season 2 (subtitled XX) expands the student council arc and introduces the Full-Bloom clan, raising the political stakes of the gambling hierarchy. MAPPA maintains the baroque visual language - distorted faces, high-contrast lighting - that defined the first season. The formula of elaborate game, psychological breakdown, and Yumeko's unnerving delight repeats across 12 episodes without significant evolution. MAL's 7.18 rating from 492,000 users suggests the audience accepted the continuation on familiar terms. The season functions as more Kakegurui for those who wanted more, rather than a deepening of what the first season established.",
+      "season_over_season": "Season 2 widens the political canvas but delivers diminishing psychological returns as the gamble-of-the-week structure grows predictable.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

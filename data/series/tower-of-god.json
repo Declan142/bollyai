@@ -1,0 +1,128 @@
+{
+  "slug": "tower-of-god",
+  "qid": {
+    "value": "Q487202",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tower of God",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Action",
+    "Adventure"
+  ],
+  "logline": "A boy who has lived his entire life in the dark beneath a mysterious Tower chases his only friend Rachel inside it, only to find himself pulled into a violent climb through floors governed by strange rules and factions vying for the power at the top.",
+  "poster": {
+    "src": "/img/series/tower-of-god/poster.jpg",
+    "alt": "Tower of God poster",
+    "attribution": "Poster © Telecom Animation Film / Crunchyroll. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 (Return of the Prince / Workshop Battle) completed its 26-episode run in December 2024 on Crunchyroll. The webtoon source by SIU is ongoing.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tower_of_God"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 13,
+      "release_date": {
+        "value": "2020-04-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "AniList mean score of 74% and MAL score of 7.56 reflect strong audience enthusiasm for the premise and Kevin Penkin's score, with critics noting uneven pacing in condensing SIU's dense webtoon into 13 episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.56,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/40515/Kami_no_Tou__Tower_of_God"
+      },
+      "review_body": "Tower of God Season 1 premiered on Crunchyroll in April 2020, an early product of the platform's webtoon-to-anime push, and drew immediate attention for two reasons: its distinct South Korean manhwa origins and Kevin Penkin's atmospheric score. Telecom Animation Film compressed a substantial amount of source material into 13 episodes, and the truncation showed in uneven pacing - the rules of each floor and the rotating cast of challengers introduced quickly without enough room to breathe. The MAL score of 7.56 and AniList mean of 74% reflect strong interest in the world-building despite the compressed introductions. ANN's preview coverage highlighted slick direction and the Penkin score as the season's clearest strengths.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Bam",
+          "air_date": "2020-04-01",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes Twenty-Fifth Bam's isolated existence beneath the Tower and the inciting event that sends him climbing. Telecom Animation Film's distinctive art style and the first glimpse of the Tower's interior rules signal an anime with genuine world-building ambition.",
+          "the_moment": "Bam steps into the Tower - the visual reveal of the first floor makes clear this is a different kind of fantasy geography.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 26,
+      "release_date": {
+        "value": "2024-07-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "ANN reviewer Richard Eisenbeis graded the Workshop Battle arc a C-, citing animation that 'remains the show's biggest detriment' with choreography that 'doesn't flow well', though the story and excellent music earn partial credit."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The animation remains the show's biggest detriment; the choreography is confusing and doesn't flow well.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/tower-of-god/workshop-battle/anime-series/.219744"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/55750/Kami_no_Tou__Tower_of_God_2nd_Season"
+      },
+      "review_body": "Season 2 of Tower of God aired on Crunchyroll across two cours from July to December 2024, adapting the Return of the Prince and Workshop Battle arcs with a production change to The Answer Studio. ANN's Richard Eisenbeis called the Workshop Battle portion 'a major step up from Return of the Prince' in story terms, grading it C- overall with the music an A- and animation a D - choreography that 'doesn't flow well' in a show that depends on elaborate combat staging. The 26-episode run expands the cast and political complexity of the Tower substantially, which fans of the webtoon found rewarding even as animation quality remained a consistent criticism.",
+      "season_over_season": "Season 2 deepens the Tower's political map and is more coherent in story than Season 1's rushed setup, but animation quality problems undercut the ambition.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

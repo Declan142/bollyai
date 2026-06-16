@@ -1,0 +1,418 @@
+{
+  "slug": "shameless-us",
+  "qid": {
+    "value": "Q23599",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shameless",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Comedy", "Crime", "Slice of Life"],
+  "logline": "The chaotic, hilarious, and heartbreaking survival of the Gallagher family - seven kids navigating poverty, addiction, and South Side Chicago without a functioning parent.",
+  "poster": {
+    "src": "/img/series/shameless-us/poster.jpg",
+    "alt": "Shameless poster",
+    "attribution": "Poster © John Wells Productions / Warner Bros. Television / Showtime. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Ran for 11 seasons on Showtime from January 2011 to April 2021, concluding its US adaptation of the British original.",
+    "source": "Showtime",
+    "source_url": "https://www.sho.com/shameless"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 12,
+      "release_date": {
+        "value": "2011-01-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "72% on Rotten Tomatoes from 39 critics, with 94% audience approval. Critics praised the fearless ensemble and William H. Macy's magnetic performance."
+      },
+      "critic": {
+        "positive_pct": 72,
+        "sample": 39,
+        "pull_quotes": [
+          {
+            "text": "Shameless is a dark, urban dramedy that overcomes its leaps of logic thanks to fantastic casting and intriguing ambiance.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/shameless/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Shameless landed on Showtime in January 2011 as a US remake of Paul Abbott's beloved British series, and critics immediately registered the balancing act: pitch-black comedy rooted in genuine working-class hardship. William H. Macy as the boozy, conniving Frank Gallagher earned immediate comparisons to David Threlfall in the original, but the American version quickly established its own velocity. The 72-percent Rotten Tomatoes score from 39 critics reflected a press corps divided between those who found the material too soapy and those who saw the ensemble chemistry as something rare on cable. Emmy Rossum as eldest daughter Fiona - the de facto parent holding together six siblings - was the emotional fulcrum that kept the transgression grounded.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2011-01-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "The Gallagher family arrives fully formed: drunk Frank, heroic Fiona, and five kids surviving South Side Chicago through ingenuity and chaos. The pilot dumps viewers into the dysfunction without apology.",
+          "the_moment": "Frank's opening monologue establishing the Gallagher family code - shameless survival as a way of life.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Father Frank, Full of Grace",
+          "air_date": "2011-03-27",
+          "bollymeter": 8.2,
+          "spoiler_free": "The season finale tests every family bond the show has built, forcing the Gallagher kids to confront what holds them together when Frank finally goes too far.",
+          "the_moment": "The family standing together against Frank - the moment the show declares its real protagonist is the collective.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 12,
+      "release_date": {
+        "value": "2012-01-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "100% on Rotten Tomatoes from 11 critics; consensus praised the show upping the ante with outrageous gags while deepening its emotional core."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "The good times continue to roll as Shameless ups the ante with outrageous gags and unabashed joy for family ties.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/shameless/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 2 achieved a perfect 100% on Rotten Tomatoes from 11 critics - a signal that the show had shaken off adaptation comparisons and earned its own identity. The Gallagher chaos deepened without losing its comedic precision. Fiona's romantic entanglements grew more consequential, and the supporting ensemble - particularly Joan Cusack's Sheila - hit their stride. Critics clustered around the show's unusual quality: genuine affection for characters doing genuinely terrible things. The balance between comedy and pathos tightened considerably, with episodes routinely swinging between laugh-out-loud absurdity and devastating emotional honesty.",
+      "season_over_season": "A leap in tonal confidence over Season 1, achieving the perfect critical score that eluded the debut.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 12,
+      "release_date": {
+        "value": "2013-01-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Strong critical consensus around the show's peak run, with the ensemble fully firing and the Gallagher mythology well established."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 3 settled into what critics and audiences had come to expect from Shameless at its best: tight episodic storytelling with strong character arcs running beneath the surface chaos. Lip Gallagher's trajectory toward academic potential became one of the series' most carefully observed threads. The romantic complications that had energised Season 2 continued, while Frank remained both comic relief and moral cautionary tale. The show demonstrated an ability to take working-class material seriously without turning it into misery tourism - a tonal trick that kept critics onside even as the storylines grew more extreme.",
+      "season_over_season": "Sustains the high of Season 2 with stronger individual character arcs and a maturing ensemble.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-01-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Critics pointed to Emmy Rossum's performance as a season highlight and the show's continued willingness to let consequences accumulate."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 4 delivered the darkest stretch of the series to date, allowing the consequences of the Gallaghers' choices to land with real weight rather than comic deflection. Emmy Rossum's Fiona reached a crisis point that the show handled with unusual restraint and emotional precision. William H. Macy's Frank faced his own physical reckoning. The season demonstrated that Shameless at its best could sustain genuine tragedy inside its comedic infrastructure - something the British original had established as the template. The willingness to let characters suffer real consequences without immediately undoing them separated this season from conventional cable dramedy.",
+      "season_over_season": "Darker and more consequential than prior seasons; the show earns its dramatic weight here.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-01-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Critics noted the show maintaining quality while familiar patterns began to settle; Macy won a Screen Actors Guild Award in 2015."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "By Season 5, Shameless had found its cruising altitude - a reliable mix of Gallagher chaos, dark comedy, and emotional sucker punches that its loyal audience knew how to navigate. The formula was well-established: Frank plots something terrible, Fiona tries to hold everything together, the younger siblings each carry their own subplot of survival or aspiration. New characters refreshed some storylines while core dynamics deepened. William H. Macy's Screen Actors Guild win that year acknowledged sustained excellence rather than a standout season. The show remained among the better dramas on cable without reaching the heights of its early seasons.",
+      "season_over_season": "Reliable but pattern-settling; the show's template is now fully set.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-01-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Critics registered the show as still compelling but cycling through familiar territory; ensemble chemistry remained the key asset."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 6 maintained Shameless as reliable premium cable entertainment while consolidating the transition begun after Emmy Rossum's character arc peaked. The Gallagher siblings were maturing in different directions, and the show handled their diverging trajectories with the naturalism that had always been its best quality. Frank's antics remained a comedic engine, though his storylines had grown less connected to the family's emotional core than in the peak years. The South Side setting continued to carry sociological weight that elevated material which might have seemed merely outrageous in another context.",
+      "season_over_season": "Steady rather than spectacular; continues to deliver but new narrative ground is harder to find.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-10-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "The show moved to a fall premiere slot; critics appreciated the change in rhythm and some strong individual episodes amid middling overall season quality."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 7 arrived in the fall for the first time, a scheduling change that gave it a different energy. The Gallagher children were becoming adults in earnest, and the show grappled with what that meant for its family-survival premise. Lip's addiction arc gained critical attention as one of the more honest portrayals of substance dependency on television. Cameron Monaghan's Ian continued to carry significant dramatic weight. The season demonstrated that Shameless could evolve its core premise rather than simply replicate it - though the evolution came at the cost of some narrative momentum.",
+      "season_over_season": "Fall scheduling shift; the adult-Gallagher transition makes this a pivot season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-11-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Macy won his second SAG Award in 2018; critics noted the show sustaining quality with reduced overall freshness."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 8 delivered what the show had become: dependably entertaining without reaching for new territory. The Gallagher sibling dynamics remained the strongest element, with Lip's recovery arc and Ian's relationship story providing genuine emotional stakes. Frank's schemes grew more elaborate as if to compensate for the fact that his role in the family drama had diminished. William H. Macy's second SAG Award win reflected the accumulated weight of performance rather than a particular season peak. The show continued to attract loyal viewership while critics registered diminishing surprise alongside sustained craft.",
+      "season_over_season": "Reliable mid-run quality; the ensemble keeps it watchable when the writing cycles.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2018,
+      "episodes": 14,
+      "release_date": {
+        "value": "2018-09-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Emmy Rossum's departure after this season represented a major structural loss that critics and audiences acknowledged immediately."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 9 was defined by the knowledge of what was coming: Emmy Rossum's final season as Fiona Gallagher. The show handled her exit with care, building a farewell arc that acknowledged how central she had been to the series' emotional logic. Critics and audiences registered that losing the character who functioned as the show's moral compass was a structural challenge the series might not survive intact. The season itself was competent and at times moving, but the extended farewell created a gravitational pull that overshadowed other storylines. Fiona's departure in the final episode closed what was effectively the show's first era.",
+      "season_over_season": "Emmy Rossum's farewell season - the emotional weight is real, but the show beneath her is thinner.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-11-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Post-Emmy Rossum era confirmed critical concerns; the show struggled to redistribute its emotional centre across the remaining ensemble."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "Season 10 confirmed what critics had suspected: Shameless without Fiona Gallagher was a different show. The remaining siblings - Lip, Ian, Debbie, Carl, and Liam - each carried their own stories, but the absence of a unifying emotional anchor made the season feel structurally scattered. Frank remained in place as wild card and comedic engine, but his role without Emmy Rossum's counterweight was harder to calibrate. The show's fan base remained loyal, but the critical consensus shifted toward respectful acknowledgment of a series in evident decline rather than the enthusiasm that had greeted its peak years.",
+      "season_over_season": "First full season post-Emmy Rossum; the structural gap is not filled.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-12-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "70% Rotten Tomatoes from 10 critics; consensus acknowledged a stumbling but mostly worthy conclusion to the 11-season run."
+      },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1586680/"
+      },
+      "review_body": "The final season arrived after COVID-related production delays and carried the burden of providing closure to a decade-plus of Gallagher chaos. Critics scored it at 70% on Rotten Tomatoes from 10 reviews - a mixed reception that acknowledged the series had stumbled in its post-Emmy Rossum years while recognising the difficulty of closing out eleven seasons of sprawling ensemble drama. Some characters received satisfying arcs; others felt shortchanged by the limited final episode count. Frank's conclusion drew strong reactions. For viewers who had been with the show since 2011, the finale offered enough closure to qualify as a worthy if imperfect goodbye.",
+      "season_over_season": "The final goodbye - uneven across characters but sufficient closure for a decade-long audience.",
+      "episode_reviews": [
+        {
+          "number": 12,
+          "title": "Father Frank, Full of Grace",
+          "air_date": "2021-04-11",
+          "bollymeter": 7.0,
+          "spoiler_free": "The series finale closes out eleven seasons of South Side survival with a mix of earned sentiment and imperfect resolution. Some Gallaghers get the exits they deserve; others feel rushed.",
+          "the_moment": "The final fate of Frank Gallagher - a conclusion as chaotic and unsentimental as the man himself.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

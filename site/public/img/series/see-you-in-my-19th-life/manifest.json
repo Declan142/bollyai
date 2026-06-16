@@ -1,0 +1,38 @@
+{
+  "attribution": {
+    "line": "Poster \u00a9 tvN / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/5/57/See_You_in_My_19th_Life.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-16T10:38:53Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/see-you-in-my-19th-life/poster.jpg",
+    "source_height": 375,
+    "source_width": 265,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "see-you-in-my-19th-life",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/See_You_in_My_19th_Life",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/5/57/See_You_in_My_19th_Life.png"
+  },
+  "variants": []
+}

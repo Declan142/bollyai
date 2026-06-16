@@ -1,0 +1,97 @@
+{
+  "slug": "doona",
+  "qid": {
+    "value": "Q114878691",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Doona!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix original streaming confirmed",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "A college student shares a dormitory with a K-pop idol who has abandoned stardom, and what begins as disruption slowly reshapes into something neither of them expected.",
+  "poster": {
+    "src": "/img/series/doona/poster.jpg",
+    "alt": "Doona! poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season Netflix original, 9 episodes, released October 20, 2023. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Doona!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 9,
+      "release_date": {
+        "value": "2023-10-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "83% Rotten Tomatoes score from 6 critics (average 6.2/10) and a 7.0 IMDb rating point to a show that coasts on Bae Suzy's performance and genuine lead chemistry, while reviewers consistently noted the familiar narrative scaffolding."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Doona! is a somewhat slow and quiet drama, topped off with suspenseful moments, beautiful cinematography and swoon-worthy romance.",
+            "source": "The Pop Break",
+            "url": "https://thepopbreak.com/2023/11/02/doona-review-netflixs-bite-sized-k-drama/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt24245988/"
+      },
+      "review_body": "Doona! dropped on Netflix in October 2023 as a nine-episode adaptation of the webtoon of the same name, pairing retired K-pop idol Lee Doo-na (Bae Suzy) with unassuming college student Lee Won-jun (Yang Se-jong) in a shared dormitory. Suzy's casting is the show's shrewdest move: she is playing a version of celebrity-as-damage that her own career history makes credibly three-dimensional. Critics gave the series an 83% Rotten Tomatoes score from 6 reviews, but with an average of only 6.2/10 - a split that captures the show's dynamic precisely. The formal execution is handsome and the lead chemistry is real; the plot around those elements is standard-issue K-drama scaffolding. The series hit number one on Netflix's Top 10 in Singapore and performed solidly across Southeast Asia, suggesting its appeal to the existing K-drama audience is more durable than the muted critical average implies. At nine episodes it is tightly proportioned - long enough to earn its emotional beats, short enough to avoid the padding that softens longer Korean romances.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-10-20",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere uses the idol-next-door premise as a controlled pressure test for both leads - Suzy's Doo-na is immediately a specific kind of difficult, not a generic one, and the tone calibrates rom-com and melancholy without defaulting to either.",
+          "the_moment": "Doo-na sitting alone in the communal laundry room at 3am - the series' first honest image of what fame leaves behind.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

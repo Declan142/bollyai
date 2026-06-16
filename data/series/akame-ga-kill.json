@@ -1,0 +1,96 @@
+{
+  "slug": "akame-ga-kill",
+  "qid": {
+    "value": "Q1525793",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Akame ga Kill!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia (Adult Swim / Crunchyroll original simulcast)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Fantasy", "Drama"],
+  "logline": "A naive young assassin joins a rebel group targeting a corrupt empire - a 2014 dark fantasy that earned its audience on escalating battle animation and a willingness to kill off anyone, but divided critics on its moral simplicity.",
+  "poster": {
+    "src": "/img/series/akame-ga-kill/poster.jpg",
+    "alt": "Akame ga Kill! poster",
+    "attribution": "Poster © White Fox / Square Enix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A complete 24-episode anime adaptation from White Fox that concluded December 2014. The anime diverged from the manga's ending; the manga concluded separately in 2017. No further anime seasons were produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Akame_ga_Kill!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 24,
+      "release_date": {
+        "value": "2014-07-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "MAL score of 7.48 from 1.4 million users and IMDb's 7.7 place it in competent but flawed territory; Toonami viewership of over 1.8 million at US premiere confirms strong mainstream pull, while critical assessments consistently flag the shallow moral messaging and abrupt character deaths as narrative shortcuts."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3742982/"
+      },
+      "review_body": "Akame ga Kill! (White Fox, 2014) built its reputation on two things: animation quality that escalated impressively as the season progressed and a willingness to kill major characters with minimal setup. The Adult Swim Toonami premiere drew over 1.8 million viewers in the US, making it one of the block's most-watched debuts per Wikipedia. MAL's 7.48 from 1.4 million users and IMDb's 7.7 reflect the broad appeal of its action spectacle and character ensemble. IMDb user reviews capture the split: praise for 'harsh, brutal commentary on corruption' sits alongside criticism of characterisation as 'stupid and childish.' The anime-original ending - which departed from Takahiro's manga conclusion - is a documented point of division among the franchise's audience. As an action delivery vehicle with memorable character designs and kinetic battle animation, the series works; as political allegory, the themes are worn too simply for the ambitions the premise suggests.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Kill the Darkness",
+          "air_date": "2014-07-07",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes Tatsumi's naive village-hero setup efficiently, then delivers the series' tonal declaration in its closing minutes. The show announces its willingness to bypass expected safety - and follows through on that promise almost immediately.",
+          "the_moment": "The closing scene that resets Tatsumi's (and the viewer's) assumptions about who is safe in this story.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "Akame ga Kill!",
+          "air_date": "2014-12-15",
+          "bollymeter": 7.0,
+          "spoiler_free": "The anime-original finale resolves the rebellion with a climax that satisfied viewers who had followed the adaptation's arc - though manga readers noted the departure from source material created a distinctly different emotional landing. The battle animation in the final act represents the series at its technical peak.",
+          "the_moment": "The final duel that gives the series its title - technically impressive, emotionally contingent on how invested the viewer became in the anime's original direction.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

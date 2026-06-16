@@ -1,0 +1,101 @@
+{
+  "slug": "record-of-youth",
+  "qid": {
+    "value": "Q97202879",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Record of Youth",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Romance",
+    "Coming of Age",
+    "Slice of Life"
+  ],
+  "logline": "A working-class model determined to make it as an actor, a makeup artist with a clear-eyed heart, and a privileged rival navigate fame, class, and ambition in Seoul's fashion and entertainment world.",
+  "poster": {
+    "src": "/img/series/record-of-youth/poster.jpg",
+    "alt": "Record of Youth poster",
+    "attribution": "Poster © Studio Dragon / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes on tvN, concluded October 27, 2020. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Record_of_Youth"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-09-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "A 7.2 on IMDb and mixed critical notices reflect a drama where Park Bo-gum's star power and genuine lead chemistry outperform a script that trades ambition for a safe industry-romance formula in its back half."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12850322/"
+      },
+      "review_body": "Record of Youth debuted on tvN in September 2020, days before Park Bo-gum entered mandatory military service, giving the show an unusual valedictory energy. The drama follows a working-class model chasing acting roles, a makeup artist with grounded ambition, and a wealthy industry rival, using the fashion and entertainment world as a lens for class and generational anxiety. The series recorded the highest premiere viewership for a tvN Monday-Tuesday drama at the time and became a Netflix Top 10 title across multiple Asian markets. Forbes named it one of the 13 Best Korean Dramas of 2020. However, critical opinion was divided: the show earned a nomination for Best Screenplay at the 57th Baeksang Arts Awards, but reviews consistently noted the narrative lost focus in the second half, where the romantic arc softened into genre formula. Park Bo-gum and Park So-dam were praised for chemistry that exceeded the material provided to them.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-09-07",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the class friction and industry ambition cleanly, with Park Bo-gum making an immediate case for why his character's persistence reads as conviction rather than naivety.",
+          "the_moment": "Sa Hye-jun's first real audition - the scene that sets the show's honest-industry tone before romance enters the picture.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2020-10-27",
+          "bollymeter": 6.8,
+          "spoiler_free": "A finale that provides closure for the central couple while confirming the criticism that the show prioritised romantic warmth over the sharper class-commentary it promised at launch.",
+          "the_moment": "Hye-jun's final public moment before his enlistment - mirroring Park Bo-gum's own real-life departure and earning genuine audience emotion.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

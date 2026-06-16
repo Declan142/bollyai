@@ -1,0 +1,442 @@
+{
+  "slug": "the-walking-dead",
+  "qid": {
+    "value": "Q232737",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Walking Dead",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "AMC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Horror", "Action", "Thriller", "Supernatural"],
+  "logline": "A sheriff's deputy wakes from a coma into a zombie apocalypse and leads a ragged band of survivors through the Georgia countryside, discovering that the living are often more dangerous than the dead.",
+  "poster": {
+    "src": "/img/series/the-walking-dead/poster.jpg",
+    "alt": "The Walking Dead poster",
+    "attribution": "Poster © AMC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 11 seasons and 177 episodes in November 2022, spawning multiple spinoffs including The Ones Who Live, Dead City, and Daryl Dixon.",
+    "source": "AMC",
+    "source_url": "https://www.amc.com/shows/the-walking-dead"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 6,
+      "release_date": {
+        "value": "2010-10-31",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "87% on Rotten Tomatoes from 101 critics; consensus called it blood-spattered, emotionally resonant, and white-knuckle intense - an intelligent spin on the zombie genre."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 101,
+        "pull_quotes": [
+          {
+            "text": "Blood-spattered, emotionally resonant, and white-knuckle intense, The Walking Dead puts an intelligent spin on the zombie subgenre.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_walking_dead/s01"
+          },
+          {
+            "text": "This adaptation of Robert Kirkman's comics scored monster ratings. It's easy to see why.",
+            "source": "Empire Magazine",
+            "url": "https://www.rottentomatoes.com/tv/the_walking_dead/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "The Walking Dead's six-episode debut in October 2010 hit AMC like a monster-truck through a chain-link fence. Based on Robert Kirkman's comic series, it arrived as prestige television had trained audiences to expect moral complexity from cable drama - and delivered it through the zombie apocalypse. Critics clustered around two virtues: the cinematographic elegance of Frank Darabont's direction (the deserted Atlanta streets in the premiere remained genuinely iconic) and the character-first approach that refused to treat the undead as mere set dressing. The 87% Rotten Tomatoes score from 101 critics certified a critical consensus. Rick Grimes waking alone into the end of the world was one of television's great pilot images.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Days Gone Bye",
+          "air_date": "2010-10-31",
+          "bollymeter": 9.5,
+          "spoiler_free": "Rick Grimes wakes from a coma to find civilisation gone. Darabont's direction turns empty Atlanta streets into one of television's most striking opening images. The zombie genre gets its prestige TV moment.",
+          "the_moment": "Rick on horseback entering deserted Atlanta - the scale of the world's end rendered in a single breathtaking shot.",
+          "critic_note": {
+            "text": "The show is so much better than recent non-Romero zombie movies it's among the leading exhibits in the case against the cineplex.",
+            "source": "The Baffler",
+            "url": "https://www.rottentomatoes.com/tv/the_walking_dead/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2011,
+      "episodes": 13,
+      "release_date": {
+        "value": "2011-10-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "80% on Rotten Tomatoes; critics praised the Hershel's farm episodes for character depth but noted the pacing tested viewer patience across 13 episodes."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 2 expanded to 13 episodes and settled the survivors at Hershel's farm - a choice that divided critics between those who saw the stationary setting as an opportunity for character excavation and those who found the pacing frustratingly slow. The 80% Rotten Tomatoes score papered over a genuine split in critical opinion. The season's strongest asset was the introduction of recurring moral debates about survival ethics that would define the series. The barn revelation and its consequences delivered the emotional brutality that justified the slower build. Audiences showed no signs of fatigue - the show was becoming a cultural phenomenon regardless of critical hedging.",
+      "season_over_season": "Slower pacing on the farm divides opinion, but the character work earns its time.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2012,
+      "episodes": 16,
+      "release_date": {
+        "value": "2012-10-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "88% on Rotten Tomatoes; the introduction of the Governor and Woodbury gave the show its first fully realised villain and a genuine dramatic rival for the prison community."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 3 represented the series at its structural best. The prison versus Woodbury conflict gave the show a clear dramatic architecture: Rick's community against David Morrissey's magnificently terrifying Governor. An 88% Rotten Tomatoes score reflected genuine enthusiasm rather than qualified approval. The midseason finale delivered consequence-heavy television that stood as one of the show's most operatic hours. Daryl Dixon's role expanded significantly, cementing Norman Reedus as a breakout. The season demonstrated that The Walking Dead could sustain long-form storytelling when its writers gave the character conflicts room to breathe and land.",
+      "season_over_season": "The Governor arrival lifts Season 3 back to Season 1 heights - the series' dramatic peak.",
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "Killer Within",
+          "air_date": "2012-11-04",
+          "bollymeter": 9.2,
+          "spoiler_free": "One of the series' most devastating hours - the episode delivers an irreversible consequence that permanently reshapes the show's emotional landscape and remains one of the most discussed moments in TWD history.",
+          "the_moment": "A death that cost the show its most important relationship and proved nothing was safe.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2013,
+      "episodes": 16,
+      "release_date": {
+        "value": "2013-10-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "81% on Rotten Tomatoes; praised for its anthology-style second half where characters were split across storylines, allowing deeper individual exploration."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 4 made a structurally ambitious choice after its midseason break: splitting the survivors and dedicating individual episodes to specific character pairs. The anthology approach stood as one of the show's most formally inventive stretches - the Hershel-centric episode in particular landed as a contained character study that used the zombie backdrop for something close to chamber drama. The season also introduced new group dynamics and the Terminus threat that would fuel Season 5. At 81% on Rotten Tomatoes, it marked the last consistently excellent season before the show's gradual critical decline.",
+      "season_over_season": "The post-prison split structure is a formal highlight; individual character focus rewards patience.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2014,
+      "episodes": 16,
+      "release_date": {
+        "value": "2014-10-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "90% on Rotten Tomatoes - the series' joint-highest seasonal score; critics praised the breakneck opening and Beth's arc, with the midseason episode becoming a major cultural talking point."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 5 hit 90% on Rotten Tomatoes - the show's critical high-water mark outside its debut. The Terminus resolution in the premiere was one of the series' most propulsive opening sequences. The Alexandria safe zone introduced in the second half gave the season a fresh structural premise: survivors confronting the difficulty of reintegrating into something resembling society. A key midseason episode generated enormous online reaction that translated into mainstream cultural conversation. The show was at its most confident combining action, moral complexity, and character consequence. Rick Grimes was at the apex of Andrew Lincoln's performance range.",
+      "season_over_season": "The critical peak of the middle run; Terminus resolution and Alexandria arrival keep the season urgent.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "No Sanctuary",
+          "air_date": "2014-10-12",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Terminus resolution delivers everything the finale promised and more - propulsive, brutal, and emotionally precise. The group reunion that follows earns every beat.",
+          "the_moment": "Rick's group breaking free from Terminus in a sequence of controlled chaos that set a new action bar for the series.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "year": 2015,
+      "episodes": 16,
+      "release_date": {
+        "value": "2015-10-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "76% on Rotten Tomatoes; critics noted a dip in consistency with some controversial narrative choices dividing audiences significantly."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 6 demonstrated the risks of operating at the scale The Walking Dead had reached. The 76% Rotten Tomatoes score reflected genuine critical division between the escalating Negan build and what felt like deliberate audience manipulation over a key character's fate. The cliffhanger finale generated enormous online reaction and backlash that overshadowed the season's actual strengths - the Morgan arc in particular and the expanded world-building around the Saviors. The show remained a ratings force while the conversation began focusing on what it had been rather than what it was becoming.",
+      "season_over_season": "The Negan build-up creates tension but the finale manipulation damages goodwill.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2016,
+      "episodes": 16,
+      "release_date": {
+        "value": "2016-10-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "66% on Rotten Tomatoes; the much-hyped Negan premiere generated enormous viewership but divided critics over its execution. The season's deliberate pacing was widely criticised."
+      },
+      "critic": {
+        "positive_pct": 66,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 7 opened with the resolution of Season 6's cliffhanger - a premiere that drew massive viewership but split opinion. Jeffrey Dean Morgan's Negan was a genuinely compelling villain, but the season spread its attention across multiple communities (Kingdom, Hilltop, Oceanside) in a way that drained narrative energy. The 66% Rotten Tomatoes score represented a significant drop from earlier seasons. The show's model of trauma and recovery had become formulaic, and the extended runtime per episode tested patience when storylines failed to justify the length. The season nonetheless built to a community-alliance climax that energised its finale.",
+      "season_over_season": "Negan arrives but the season's diffusion across multiple communities drains narrative energy.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Day Will Come When You Won't Be",
+          "air_date": "2016-10-23",
+          "bollymeter": 7.5,
+          "spoiler_free": "The Negan premiere resolves Season 6's cliffhanger with a scene of intense brutality that split the audience - the argument being whether it crossed from consequence into spectacle. Jeffrey Dean Morgan's debut villain performance is genuinely menacing.",
+          "the_moment": "The bat comes down - and the show's relationship with its audience shifted permanently.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-10-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.3,
+        "basis": "65% on Rotten Tomatoes; All Out War storyline polarised critics who found the combat sequences repetitive and the pacing uneven across a long 16-episode run."
+      },
+      "critic": {
+        "positive_pct": 65,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 8's All Out War arc against Negan's Saviors was the culmination of a storyline that had been building for two seasons. Critics gave it 65% on Rotten Tomatoes - the series' low point to that date. The battle sequences were technically accomplished but narratively repetitive, and the war's resolution disappointed audiences who had invested heavily in the Negan conflict. Carl Grimes' exit midseason was one of the most debated creative decisions in the show's history, with many fans and critics arguing it fundamentally compromised Rick's character motivation. The season confirmed that The Walking Dead's prestige television era was over, though it remained a significant cable property.",
+      "season_over_season": "All Out War delivers action but the resolution disappoints; Carl's departure is a long shadow.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-10-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "89% on Rotten Tomatoes - the show's critical revival; Andrew Lincoln's departure and the Whisperers' introduction energised a flagging series and surprised critics who had written it off."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/txt1327798/"
+      },
+      "review_body": "Season 9 pulled off the most unexpected critical comeback of The Walking Dead's run. A 89% Rotten Tomatoes score - the highest since Season 5 - reflected genuine critical surprise at a reinvigorated series. Andrew Lincoln's departure as Rick Grimes generated enormous anticipation and genuine emotional power; the episode handling his exit was among the show's most watched. The six-year time jump that followed reset character dynamics and introduced the Whisperers - antagonists whose skin-wearing horror concept gave the series its most genuinely frightening new threat since the original zombie premise. Melissa McBride's Carol became a more central figure, and her performance received renewed critical attention.",
+      "season_over_season": "The biggest critical turnaround in the series: Rick's exit and Whisperers lift Season 9 back to relevance.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2019,
+      "episodes": 22,
+      "release_date": {
+        "value": "2019-10-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "77% on Rotten Tomatoes; the Whisperer War delivered strong midseason work, though the pandemic-extended episode count made the back half uneven."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "Season 10 expanded to 22 episodes due to COVID-19 production disruptions that delayed the original finale and required additional standalone episodes. A 77% Rotten Tomatoes score marked a step back from Season 9's critical high. The Whisperer War arc concluded in the core run with a satisfying finale, and the additional bonus episodes provided character-focused material that ran as a pleasantly experimental sidebar. Samantha Morton's Alpha and Ryan Hurst's Beta remained compelling antagonists. The season benefited from the character groundwork Season 9 had laid, though the extended episode count occasionally exposed padding.",
+      "season_over_season": "Sustains Season 9's revival energy; pandemic extensions add both bonus material and uneven pacing.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2021,
+      "episodes": 24,
+      "release_date": {
+        "value": "2021-08-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "80% on Rotten Tomatoes; the final 24-episode season split into three parts, introducing the Commonwealth community and building toward a series-closing confrontation."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1327798/"
+      },
+      "review_body": "The final season stretched across 24 episodes in three installment blocks, with the Commonwealth - a large organized community under Pamela Milton's leadership - providing the central conflict. Critics registered an 80% Rotten Tomatoes score, reflecting the sense that the show was finishing more gracefully than many had expected after the dark years of Seasons 7 and 8. The Commonwealth's political machinations gave the series a late-period focus on societal organisation that felt thematically richer than pure survival. The finale provided closure for most major characters. For franchise fans, the ending opened rather than closed the Walking Dead universe, with multiple spinoffs carrying the mythology forward.",
+      "season_over_season": "The Commonwealth gives the final season thematic coherence; a more dignified conclusion than the mid-run suggested.",
+      "episode_reviews": [
+        {
+          "number": 24,
+          "title": "Rest in Peace",
+          "air_date": "2022-11-20",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series finale gives most major surviving characters clear endings while leaving the door open for the spinoff universe. The landing is more satisfying than the mid-run years suggested it might be.",
+          "the_moment": "The final group walking forward - a 12-year story's last image, earned for those who stayed the distance.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

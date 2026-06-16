@@ -1,0 +1,173 @@
+{
+  "slug": "his-dark-materials",
+  "qid": {
+    "value": "Q56195117",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "His Dark Materials",
+    "source": "Wikipedia / BBC official",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / HBO",
+    "source": "Wikipedia / official platform pages",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Adventure", "Drama", "Coming of Age"],
+  "logline": "Orphan Lyra Belacqua escapes her sheltered Oxford to uncover a shadowy conspiracy tied to a mysterious cosmic substance called Dust - a quest that stretches across parallel worlds and challenges the foundations of religion and free will.",
+  "poster": {
+    "src": "/img/series/his-dark-materials/poster.jpg",
+    "alt": "His Dark Materials poster",
+    "attribution": "Poster © BBC / HBO / Bad Wolf. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded December 2022, adapting all three Philip Pullman novels. No continuation announced.",
+    "source": "BBC / Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/His_Dark_Materials_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-11-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "A visually ambitious adaptation that earns genuine praise for Dafne Keen and Ruth Wilson's performances, landing a 77% Tomatometer and 69 Metacritic score - solid but uneven in pacing."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A beautiful, brooding vision of Pullman's universe, retaining the mix of childish wonder and darkness.",
+            "source": "The Independent",
+            "url": "https://www.metacritic.com/tv/his-dark-materials/season-1/"
+          },
+          {
+            "text": "Wilson is riveting as the mysterious Mrs. Coulter...Keen easily conveys Lyra's cocksure spirit and fragile innocence.",
+            "source": "Entertainment Weekly",
+            "url": "https://www.metacritic.com/tv/his-dark-materials/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 1 premiered on BBC One in November 2019 to a broadly positive critical response, earning 77% on Rotten Tomatoes and a 69 Metacritic score. Reviewers at The Independent called it a 'beautiful, brooding vision' of Pullman's universe, while Entertainment Weekly singled out Ruth Wilson's performance as Mrs. Coulter as riveting. The dominant critical conversation centred on the show's visual ambition - stunning production design for Lyra's alternate Oxford and the armoured bears - balanced against concerns from outlets like Rolling Stone that the series prioritised secrets over character clarity. Dafne Keen's Lyra anchored the season; critics broadly agreed she captured both the cocksure spirit and fragile innocence the role demanded. The eight-episode run felt uneven in the middle stretch but recovered strongly in its finale.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Lyra's Jordan",
+          "air_date": "2019-11-03",
+          "bollymeter": 7.6,
+          "spoiler_free": "The premiere establishes the alternate-Oxford world with impressive visual confidence, introducing Lyra, her daemon Pan, and the ominous figures who will upend her life. Ruth Wilson's entrance as Mrs. Coulter is the immediate standout.",
+          "the_moment": "Mrs. Coulter's first appearance at Jordan College - the scene that immediately signals the show's tonal ambitions.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Betrayal",
+          "air_date": "2019-12-22",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season finale delivers the emotional gut-punch the preceding seven episodes have been building toward, landing Lyra's defining betrayal with real weight and setting the stage for the multiverse-spanning scope to come.",
+          "the_moment": "The revelation of the figure Lyra trusted most - the moment that reframes the entire first season.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 7,
+      "release_date": {
+        "value": "2020-11-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "Critics upgraded their assessment to 84% on Rotten Tomatoes as the addition of Will Parry and the Cittgazze world expanded the scope and emotional range considerably."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 earned a Rotten Tomatoes score of 84%, reflecting a clear step up in critical standing. The introduction of Amir Wilson as Will Parry and the haunted city of Cittgazze gave the story a richer emotional anchor - the Lyra-Will dynamic provided the human centre the show occasionally strained for in its debut season. Metacritic scored the series at 71 overall. The shorter seven-episode run felt tighter and more purposeful than the debut. Andrew Scott's Colonel John Parry was the season's most compelling supporting turn. The adaptation's faithfulness to Pullman's denser source material made the mid-season episodes demanding, but the finale delivered a genuinely devastating cliffhanger that set up the trilogy's conclusion with real urgency.",
+      "season_over_season": "A measurable improvement on Season 1 - tighter in construction and emotionally richer thanks to the Will Parry arc.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-12-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "The series finale season peaked at 90% on Rotten Tomatoes and a 77 Metacritic score, with Radio Times awarding a perfect score for delivering the books' 'hard-hitting emotional heft'."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "It remains a thrilling, immersive TV treat that looks stunning and still has the hard-hitting emotional heft of the book.",
+            "source": "Radio Times",
+            "url": "https://www.metacritic.com/tv/his-dark-materials/"
+          },
+          {
+            "text": "Bringing the series to an emotional conclusion, this is a complex, ambitious take on books that always required considerable commitment.",
+            "source": "Empire",
+            "url": "https://www.metacritic.com/tv/his-dark-materials/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 3 arrived in December 2022 as the series' critical highpoint, scoring 90% on Rotten Tomatoes and a 77 on Metacritic. Radio Times gave a perfect 100, describing it as 'a thrilling, immersive TV treat' with the books' 'hard-hitting emotional heft.' Empire praised it as a 'complex, ambitious' conclusion demanding genuine commitment from its audience. The adaptation of The Amber Spyglass - Philip Pullman's most philosophically dense novel - was widely considered the toughest challenge for any screen version, and critics broadly agreed the show acquitted itself with more grace than pessimists had expected. Ruth Wilson's Mrs. Coulter arc reached its culmination in scenes that generated the most sustained critical admiration of the entire run.",
+      "season_over_season": "The series' best-reviewed season - the philosophical stakes of The Amber Spyglass pay off most fully here.",
+      "episode_reviews": [
+        {
+          "number": 8,
+          "title": "The Botanic Garden",
+          "air_date": "2022-12-26",
+          "bollymeter": 8.2,
+          "spoiler_free": "The series finale handles one of the most discussed endings in modern fantasy fiction with restraint and genuine emotional honesty. Critics and Pullman readers broadly agreed the production honoured the source material's devastating final note.",
+          "the_moment": "The final farewell - the scene Pullman readers feared would be fumbled, handled with care.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

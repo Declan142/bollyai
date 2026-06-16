@@ -1,0 +1,116 @@
+{
+  "slug": "shadow-and-bone",
+  "qid": {
+    "value": "Q85800564",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shadow and Bone",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Adventure", "Drama", "Action"],
+  "logline": "An orphan cartographer discovers she can summon light and becomes the key to saving her war-torn world - but every faction in Leigh Bardugo's Grishaverse wants to own or eliminate her.",
+  "poster": {
+    "src": "/img/series/shadow-and-bone/poster.jpg",
+    "alt": "Shadow and Bone poster",
+    "attribution": "Poster © Netflix / Eric Heisserer Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by Netflix after two seasons in March 2023 despite fan campaigns; Leigh Bardugo's novels continue as the sole canonical continuation.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2023/tv/news/shadow-and-bone-cancelled-netflix-1235579444/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-04-23",
+        "source": "Netflix",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Season 1 earned an 89% Rotten Tomatoes score across 113 combined reviews, with critics praising its faithful world-building and the chemistry of its ensemble cast while noting some tonal unevenness."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Shadow and Bone arrived on Netflix in April 2021 as one of the platform's most ambitious fantasy bets - an adaptation of Leigh Bardugo's beloved Grishaverse novels that ran two storylines in parallel. Season 1 earned an 89% Rotten Tomatoes score primarily on the strength of its world-building confidence: the Fold, the Grisha powers, and the Imperial Russian-inflected aesthetics translated effectively from page to screen. Jessie Mei Li grounded Alina with warmth and vulnerability, while Ben Barnes leaned into the moral ambiguity of the Darkling with evident relish. The score reflected a consensus that the show delivered as a fan-service adaptation while remaining accessible to newcomers. The Crows subplot - running the Kaz, Inej, and Jesper storyline alongside Alina's arc - divided the critical sample, with some finding it energising and others arguing it fragmented the narrative momentum.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Searing Burst of Light",
+          "air_date": "2021-04-23",
+          "bollymeter": 7.6,
+          "spoiler_free": "The premiere establishes two interweaving storylines and introduces a richly textured fantasy world without drowning in exposition. Jessie Mei Li anchors the whole enterprise with a performance that is both resilient and quietly heartbreaking.",
+          "the_moment": "Alina's uncontrolled power ignites inside the Fold - the moment that resets every character's trajectory.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "No Mourners",
+          "air_date": "2021-04-23",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season finale converges its dual plots with enough spectacle to satisfy, and lands an emotional sucker punch that recontextualises the Darkling's arc throughout. Sets up Season 2 with real momentum.",
+          "the_moment": "The Fold sequence that turns the season's central question from power into choice.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-03-16",
+        "source": "Netflix",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Season 2 scored 78% on Rotten Tomatoes and a Metacritic score of 73; critics found the ambition admirable but the pacing crowded as the show absorbed additional book storylines."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 9,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in March 2023 with a heavier narrative load - absorbing the Siege and Storm and Ruin and Rising storylines while expanding the Crows' subplot. The Metacritic score of 73 from 9 reviewers and a 78% Rotten Tomatoes mark suggested positive reception with reservations. The Daily Beast called it 'a high fantasy adventure for the ages' for committed fans. The tonal shift toward darker stakes read as an ambition upgrade, but the compression of multiple book arcs into eight episodes left several threads underdeveloped. The cancellation news - arriving within days of the season's release - cast a retrospective shadow over a finale that had clearly been intended as a setup, not a conclusion.",
+      "season_over_season": "Season 2 broadens the stakes but pays for that ambition in narrative coherence - more crowded than its predecessor, though the performances sustain it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

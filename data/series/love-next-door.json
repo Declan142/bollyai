@@ -1,0 +1,103 @@
+{
+  "slug": "love-next-door",
+  "qid": {
+    "value": "Q124326709",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Love Next Door",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Comedy",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "A high-achieving woman who gave up everything for a prestigious career returns home after it falls apart and is forced to reckon with the childhood friend - now an architect - she left behind, and the complicated history between them that neither has fully processed.",
+  "poster": {
+    "src": "/img/series/love-next-door/poster.jpg",
+    "alt": "Love Next Door poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Sixteen-episode series concluded on tvN in October 2024. Written by Shin Ha-eun and directed by Yoo Je-won; no renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Love_Next_Door"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 16,
+      "release_date": {
+        "value": "2024-08-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "An 83% Tomatometer across 6 critic reviews praised the central chemistry between Jung Hae-in and Jung So-min and a script that takes its characters' emotional histories seriously; criticism centred on an overstuffed 16-episode runtime where subplots were raised then abandoned."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Love Next Door will resonate on a deeper level than expected for many viewers.",
+            "source": "Ready Steady Cut",
+            "url": "https://www.rottentomatoes.com/tv/love_next_door/s01"
+          },
+          {
+            "text": "A lighthearted Korean drama with on-the-sleeve sentimentality and sitcom-style mishaps.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/love_next_door/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt30446769/"
+      },
+      "review_body": "Love Next Door aired on tvN from August to October 2024 and became available on Netflix internationally. Directed by Yoo Je-won (Hospital Playlist) and written by Shin Ha-eun, the show paired Jung Hae-in and Jung So-min as childhood friends whose reunion in adulthood forces them to excavate old wounds. Critics at 83% on Rotten Tomatoes from six reviews found the romantic chemistry authentic and the show's emotional register smarter than its breezy premise suggested - Ready Steady Cut noted it resonates on a deeper level than expected. The 16-episode runtime drew the sharpest criticism: the South China Morning Post's Pierce Conran observed that many thematic ingredients were haphazardly introduced and abandoned. IMDb audience score of 7.6 and RT audience score of 79% reflect a viewer base that found the central pairing enough to sustain the long run, even through its structural wobbles. A satisfying romcom from a reliable creative team, best enjoyed without expecting the script to honour every thread it opens.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-08-17",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere efficiently establishes both protagonists' adult lives and failures before engineering their reunion - the childhood friend dynamic is set up with enough specificity that the 'dark history' between them registers as a genuine emotional obstacle rather than a genre formality.",
+          "the_moment": "The first real confrontation between the two leads - the accumulated weight of years and unspoken things behind a deceptively casual exchange.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

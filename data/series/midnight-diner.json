@@ -1,0 +1,132 @@
+{
+  "slug": "midnight-diner",
+  "qid": {
+    "value": "Q16163507",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Midnight Diner: Tokyo Stories",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Slice of Life",
+    "Anthology"
+  ],
+  "logline": "A mysterious Tokyo chef keeps his diner open midnight to dawn, drawing in salarymen, yakuza, and heartbroken strangers - each episode built around a single dish and the quiet story it unlocks.",
+  "poster": {
+    "src": "/img/series/midnight-diner/poster.jpg",
+    "alt": "Midnight Diner: Tokyo Stories poster",
+    "attribution": "Poster © Netflix / TBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Five seasons aired across MBS (2009-2014) and Netflix (2016, 2019). A sixth season was greenlit in 2026 after a seven-year hiatus.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Midnight_Diner:_Tokyo_Stories"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-10-21",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "IMDb rates the Netflix run at 8.4/10; Rotten Tomatoes gives Season 1 a 100% Tomatometer across 11 critic reviews, with the Guardian calling it 'woozy and narcoleptic' in the most complimentary possible terms."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "Like Japanese food itself it's easy to digest, but contains substantive depth.",
+            "source": "Independent (UK)",
+            "url": "https://www.rottentomatoes.com/tv/midnight_diner/s01/reviews"
+          },
+          {
+            "text": "Midnight Diner puts the guts and meaning of friendship among bar-mates up on screen with authenticity and empathy.",
+            "source": "The Post NZ",
+            "url": "https://www.rottentomatoes.com/tv/midnight_diner/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6150576/"
+      },
+      "review_body": "The first Netflix season of Midnight Diner arrived in 2016 as a quiet counterpoint to prestige-TV noise, and critics noticed immediately. With a 100 percent Tomatometer across 11 reviews, the consensus was that the anthology format - each episode centered on one dish and one stranger at the counter - achieves something rare: melancholy that does not sentimentalize. The Guardian praised its dreamlike languor; the Independent called it easy to digest but substantively deep. Audiences on IMDb converged around 8.4 out of 10. The master chef played by Kaoru Kobayashi barely speaks, yet his silence is the most expressive thing on screen. Ten episodes, ten lives, zero melodrama - this is the rare show that earns the word 'meditative.'",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Tonjiru",
+          "air_date": "2016-10-21",
+          "bollymeter": 8.4,
+          "spoiler_free": "The series establishes its grammar in the first episode: a late-night diner, a miso pork soup, and the story of a regular who cannot let go of a memory. The show's patience is its argument - it refuses to rush toward resolution.",
+          "the_moment": "The Master slides the tonjiru across the counter without comment - the gesture that defines the whole series.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-10-31",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "The second Netflix season maintains the anthology formula without diminishing returns; critics and audiences reported consistent warmth and the same unhurried craft that distinguished the first run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6150576/"
+      },
+      "review_body": "The second Netflix outing (Season 5 in the franchise's full run) arrived in October 2019 with the same unhurried grammar: a dish, a stranger, a story that does not overstay its welcome. What is remarkable about the format is how resistant it is to fatigue - each episode is effectively its own short film, with no continuity debt from the one before it. Film Companion noted the show should be 'savoured one bite at a time,' and the second Netflix season rewards exactly that approach. There is no escalation in scale, no season-ending cliffhanger. The Master keeps serving; the city keeps arriving after midnight. That refusal to change is the point.",
+      "season_over_season": "Holds the same quiet level as Season 1 with no creative decline - the anthology insulates it from the sophomore dip.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "andhaghaaram",
+  "qid": {
+    "value": "Q96372060",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Andhaghaaram",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "ta",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "netflix",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Horror", "Mystery", "Thriller", "Psychological", "Supernatural"],
+  "logline": "Three men in Chennai - a psychiatrist, a blind librarian and a cricket coach - are drawn together across separate timelines by a supernatural phone and a vengeful force that blurs the boundary between grief and possession.",
+  "poster": {
+    "src": "/img/series/andhaghaaram/poster.jpg",
+    "alt": "Andhaghaaram poster",
+    "attribution": "Poster © Netflix / V. Vignarajan / A for Apple Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Andhaghaaram is a standalone Tamil-language Netflix film. No sequel or continuation has been announced.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81318026"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 1,
+      "release_date": {
+        "value": "2020-11-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "On Rotten Tomatoes the film holds 67% from 6 critics and 7.5 on IMDb, reflecting a split between audiences captivated by its atmosphere and craft and critics who found the multi-timeline structure overwrought and the mystery unsatisfying."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Taken as a whole, the film is underwhelming, and yet, scene for scene, it's some kind of spectacular.",
+            "source": "Film Companion (Baradwaj Rangan)",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/andhaghaaram-tamil-movie-review-netflix-an-underwhelming-thriller-but-a-top-notch-show-reel-arjun-das-vinoth-kishan-atlee-baradwaj-rangan"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9110340/"
+      },
+      "review_body": "V. Vignarajan's debut feature arrived on Netflix in November 2020 after a six-year development, presenting three interwoven timelines that never announce their connection until the final act. Arjun Das, Vinoth Kishan and Kumar Natarajan anchor each strand - a grieving psychiatrist, a blind librarian performing occult rituals, and a cricket coach receiving calls from the dead. Baradwaj Rangan at Film Companion called it 'some kind of spectacular' scene for scene while finding the whole underwhelming. The Hindustan Times praised 'a moody, spectacular supernatural thriller.' Critics and audiences converged on the film's craft virtues - cinematography by Sathyan Sooryan, the Chennai-dark atmosphere, Arjun Das's physical commitment - while diverging sharply on whether the mystery's resolution earns the film's structural ambition. For Tamil horror cinema, it remains a significant formal experiment by a genuinely distinct new voice.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

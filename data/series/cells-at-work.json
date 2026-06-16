@@ -1,0 +1,132 @@
+{
+  "slug": "cells-at-work",
+  "qid": {
+    "value": "Q22123892",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Cells at Work!",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Comedy",
+    "Action",
+    "Medical"
+  ],
+  "logline": "Inside the human body, anthropomorphised cells go about their daily work - a rookie Red Blood Cell perpetually lost on delivery runs, a ruthless White Blood Cell hunting pathogens - turning basic immunology into surprisingly gripping ensemble drama.",
+  "poster": {
+    "src": "/img/series/cells-at-work/poster.jpg",
+    "alt": "Cells at Work! poster",
+    "attribution": "Poster © David Production / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The main series concluded with Season 2 in February 2021. A live-action Netflix film adaptation released in 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Cells_at_Work!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-07-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "An IMDb score of 7.5 and MAL score of 7.55 from 340,000 users reflect genuine audience warmth for David Production's inventive biology-meets-action-comedy format, which critics at ANN called charming and undeniably educational."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "There's something undeniably charming about its exuberant presentation; cramming a little educational content isn't a bad thing.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/preview-guide/2018/summer/cells-at-work/.133973"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8673610/"
+      },
+      "review_body": "Season 1 of Cells at Work! arrived in Summer 2018 and became one of that season's most discussed anime for a simple reason: it made haematology entertaining. David Production cast Red Blood Cell as a clumsy courier and White Blood Cell as a stoic pathogen-killer, then applied those character archetypes to textbook immune-response scenarios. ANN preview reviewers found it 'undeniably charming' even if the educational scaffolding occasionally overwhelmed the narrative momentum. The 7.5 IMDb score and 7.55 MAL rating from 340,000 users indicate solid broad appeal that crosses into family-friendly territory - rare for anime. Paul Jensen at ANN called the premiere 'this season's something completely different show', and the description holds for the full run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pneumococcus",
+          "air_date": "2018-07-08",
+          "bollymeter": 7.8,
+          "spoiler_free": "The series premiere drops viewers into a fever-pitched pneumococcal infection, establishing the show's core conceit with a confident mix of action choreography and biology lecture. Red Blood Cell's hapless navigation and White Blood Cell's clinical brutality are fully formed from frame one.",
+          "the_moment": "White Blood Cell's first encounter with a pathogen - the show's tonal contract with the audience, signed in gloriously cartoonish blood.",
+          "critic_note": {
+            "text": "A fantastic reimagining of the inner workings of the human body with tremendous promise.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/preview-guide/2018/summer/cells-at-work/.133973"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-01-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "The eight-episode second season aired alongside Code Black and maintained audience goodwill from Season 1, though the shorter run limited the variety of cellular scenarios that made the first season memorable."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8673610/"
+      },
+      "review_body": "Season 2 of Cells at Work! ran for eight episodes in early 2021, airing simultaneously with the darker spin-off Code Black. The shorter run kept the core cast and formula intact but offered fewer novel cellular scenarios than Season 1. The educational hook remained reliable and the animation quality consistent, but the season felt compressed. Audiences who had bonded with Red Blood Cell and White Blood Cell through thirteen episodes found this a satisfying if brief return.",
+      "season_over_season": "Season 2 trims to eight episodes and loses some of the first season's variety, though the core charm stays intact.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

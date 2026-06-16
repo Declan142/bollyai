@@ -1,0 +1,125 @@
+{
+  "slug": "mrs-america",
+  "qid": {
+    "value": "Q59833414",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mrs. America",
+    "source": "Wikipedia / FX",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX on Hulu",
+    "source": "Wikipedia / FX",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Historical", "Drama", "Biographical"],
+  "logline": "The 1970s battle over the Equal Rights Amendment, dramatised through the competing ambitions of conservative activist Phyllis Schlafly and the feminist leaders she outmanoeuvred - Cate Blanchett anchoring a nine-episode FX limited series that refuses to make its villain a cartoon.",
+  "poster": {
+    "src": "/img/series/mrs-america/poster.jpg",
+    "alt": "Mrs. America poster",
+    "attribution": "Poster © FX Productions / Blumhouse Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Mrs. America was conceived and produced as a self-contained nine-episode limited series. No sequel or continuation has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mrs._America_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-04-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "96% on Rotten Tomatoes from 114 critics and an 87 Metascore from 42 reviewers - near-universal acclaim. The New Yorker praised Blanchett's 'frightening, actressy charisma'; Slate called the series 'zip to spare.'"
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 114,
+        "pull_quotes": [
+          {
+            "text": "An intensely psychological portrait of Phyllis Schlafly, played with frightening, actressy charisma by Cate Blanchett.",
+            "source": "Doreen St. Felix, The New Yorker",
+            "url": "https://www.metacritic.com/tv/mrs-america/season-1/"
+          },
+          {
+            "text": "Mrs. America has zip to spare - Blanchett brings all of her tremendous skill to bear on Schlafly.",
+            "source": "Willa Paskin, Slate",
+            "url": "https://www.metacritic.com/tv/mrs-america/season-1/"
+          },
+          {
+            "text": "The cast offers an embarrassment of riches - scripts deliver wit, levity and propulsion.",
+            "source": "Kelly Lawler, USA Today",
+            "url": "https://www.metacritic.com/tv/mrs-america/season-1/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/mrs-america/"
+      },
+      "review_body": "Mrs. America premiered in April 2020 and achieved near-unanimous critical acclaim, scoring 96% on Rotten Tomatoes from 114 critics and an 87 Metascore from 42 reviewers. Creator Dahvi Waller structured the nine episodes around individual women on both sides of the ERA debate - each episode centred on a different figure, from Schlafly to Gloria Steinem (Rose Byrne), Shirley Chisholm (Uzo Aduba), and Betty Friedan (Tracey Ullman). Critics praised the format for refusing to reduce the period's ideological conflicts to a simple heroism-versus-villainy frame. Blanchett's Schlafly was the central subject of critical attention: The New Yorker noted her 'frightening, actressy charisma,' while The Independent wrote that 'she never feels like the villain' despite being firmly positioned as the show's anti-hero. Uzo Aduba's Shirley Chisholm earned particular praise and won her an Emmy for Outstanding Supporting Actress.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Phyllis",
+          "air_date": "2020-04-15",
+          "bollymeter": 9.0,
+          "spoiler_free": "The series opener is structured as an origin story for Schlafly's conservative mobilisation - and Blanchett seizes it entirely. The episode establishes the show's central formal tension: making Schlafly comprehensible as a political actor without endorsing her project. The 1970s period detail is meticulous.",
+          "the_moment": "Schlafly realising that the ERA campaign has handed her an issue capable of mobilising a nationwide constituency - ambition and calculation made visible in a single scene.",
+          "critic_note": {
+            "text": "It's testament to Blanchett's performance that she never feels like the villain.",
+            "source": "The Independent",
+            "url": "https://www.metacritic.com/tv/mrs-america/season-1/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Betty",
+          "air_date": "2020-04-29",
+          "bollymeter": 8.5,
+          "spoiler_free": "The episode centred on Betty Friedan, with Tracey Ullman delivering a portrait of a feminist leader whose personal prickliness and political instincts are simultaneously respected and questioned. It stands among the finest of the season for its willingness to complicate the women it nominally celebrates.",
+          "the_moment": "Friedan and Steinem's disagreement playing out in a way that refuses to declare a winner - the show at its most historically honest.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Jill",
+          "air_date": "2020-05-13",
+          "bollymeter": 8.3,
+          "spoiler_free": "An episode centred on Jill Ruckelshaus, a Republican moderate caught between her party's drift rightward and her own ERA sympathies. The instalment complicates the show's political map - demonstrating that the ERA's defeat was shaped partly by the fracturing of Republican centrism.",
+          "the_moment": "Ruckelshaus's confrontation with the political forces reshaping her party - a foreshadowing of decades to come delivered without editorialising.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

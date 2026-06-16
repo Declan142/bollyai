@@ -1,0 +1,38 @@
+{
+  "attribution": {
+    "line": "Poster \u00a9 Studio Dragon / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/My_Roommate_Is_a_Gumiho.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-16T11:02:38Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/my-roommate-is-a-gumiho/poster.jpg",
+    "source_height": 376,
+    "source_width": 264,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "my-roommate-is-a-gumiho",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/My_Roommate_Is_a_Gumiho",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/My_Roommate_Is_a_Gumiho.jpg"
+  },
+  "variants": []
+}

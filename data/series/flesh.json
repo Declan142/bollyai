@@ -1,0 +1,87 @@
+{
+  "slug": "flesh",
+  "qid": {
+    "value": "Q104849231",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Flesh",
+    "source": "Eros Now / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Eros Now",
+    "source": "Eros Now / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Drama"],
+  "logline": "ACP Radha Nautiyal traces a missing teenager from Mumbai's fringes into the machinery of a cross-city sex trafficking network, led by a kingpin with institutional protection and a talent for staying invisible.",
+  "poster": {
+    "src": "/img/series/flesh/poster.jpg",
+    "alt": "Flesh poster",
+    "attribution": "Poster © Eros Now. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One season of eight episodes released in August 2020. No second season was announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Flesh_(web_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-08-21",
+        "source": "Eros Now",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "Mixed critical reception acknowledged Swara Bhaskar's committed lead performance as the show's primary asset, while reviewers at Scroll.in and IWMBuzz questioned whether the graphic depiction of trafficking served the story or tipped into exploitation."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 5.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9875006/"
+      },
+      "review_body": "Danish Aslam's eight-episode crime thriller premiered on Eros Now in August 2020, placing Swara Bhaskar at the centre of an anti-human trafficking investigation that runs Mumbai to Kolkata. The show's ambitions are serious: the trafficking network is depicted as systemic, not episodic, and Akshay Oberoi's kingpin Taj is given enough institutional backing to make the protagonist's procedural obstacles feel real. Bhaskar carries the weight of the series with conviction, and the IMDb audience score of 5.2/10 signals that the tonal unevenness of the back half, where melodrama dilutes the gritty procedural, cost the show goodwill it had earned early. Scroll.in noted the show risks 'atrocity porn' in its more graphic depictions of trafficked women's suffering, a fair challenge that the direction does not always resolve. The Indian Express observed that the show 'smartly manages to maintain that very tough balance' in its stronger episodes, suggesting the gap between the show at its best and its worst is significant.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-08-21",
+          "bollymeter": 6.8,
+          "spoiler_free": "The premiere establishes ACP Radha Nautiyal as a cop who works the margins of the system, and introduces the missing teenager case with a procedural rigour that the later episodes struggle to maintain. Swara Bhaskar's screen authority is immediate.",
+          "the_moment": "Radha's first confrontation with a trafficker - the way she balances legal constraint against personal fury is the show's central tension announced cleanly.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

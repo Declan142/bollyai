@@ -1,0 +1,222 @@
+{
+  "slug": "the-affair",
+  "qid": {
+    "value": "Q17985420",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Affair",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Psychological", "Mystery"],
+  "logline": "A summer affair between a married New York teacher and a Montauk waitress is recounted from both perspectives - revealing how memory, desire, and self-deception reshape the same events into two incompatible truths.",
+  "poster": {
+    "src": "/img/series/the-affair/poster.jpg",
+    "alt": "The Affair poster",
+    "attribution": "Poster © Sheleg / Showtime Networks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Ran for 5 seasons on Showtime from October 2014 to November 2019, concluding its dual-perspective narrative of infidelity and its consequences.",
+    "source": "Showtime",
+    "source_url": "https://www.sho.com/the-affair"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 10,
+      "release_date": {
+        "value": "2014-10-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "90% on Rotten Tomatoes from 130 critics; Golden Globe for Best Drama Series. Critics praised the unreliable narrator structure as genuinely fresh formal invention."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 130,
+        "pull_quotes": [
+          {
+            "text": "Thanks to smart, creative storytelling and spectacular performances, The Affair is a somber, bewitching exploration of truth and desire.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_affair/s01"
+          },
+          {
+            "text": "West and Wilson are astonishing, depicting not one but two three-dimensional characters as viewed through their own biases.",
+            "source": "Daily Telegraph",
+            "url": "https://www.rottentomatoes.com/tv/the_affair/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3464902/"
+      },
+      "review_body": "The Affair launched on Showtime in October 2014 with one of the most formally inventive premises in cable drama: the same events retold first from Noah's perspective, then from Alison's - with the two accounts diverging in telling ways that exposed each narrator's self-deception. Critics immediately recognised the structural sophistication. A 90% Rotten Tomatoes score from 130 reviews reflected near-unanimous enthusiasm. Dominic West and Ruth Wilson delivered performances that critics described as among the best on television that year; Wilson's Golden Globe win for Best Actress underscored the critical verdict. The Montauk setting gave the series a sensory specificity - salt air and off-season melancholy - that elevated it well above conventional infidelity drama.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2014-10-12",
+          "bollymeter": 9.2,
+          "spoiler_free": "The pilot introduces Noah and Alison's accounts of their first meeting in Montauk - already diverging in small, revealing ways. The formal device lands immediately as something more than gimmick: it reframes what drama can do with subjectivity.",
+          "the_moment": "The moment both accounts reach the same event from different angles - and the gap between them tells you everything about desire and memory.",
+          "critic_note": {
+            "text": "The Affair becomes less and less obvious and more and more interesting as it goes along.",
+            "source": "The Guardian",
+            "url": "https://www.rottentomatoes.com/tv/the_affair/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-10-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "90% on Rotten Tomatoes; the addition of Helen and Cole as POV characters expanded the unreliable narrator device and Maura Tierney won a Golden Globe for her performance."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3464902/"
+      },
+      "review_body": "Season 2 made the bold structural choice to add Helen (Noah's wife, played by Maura Tierney) and Cole (Alison's husband, played by Joshua Jackson) as additional POV narrators alongside the original two. Another 90% Rotten Tomatoes score validated the formal expansion. The four-perspective approach opened the affair's consequences into a genuine ensemble drama about marriage, betrayal, and the stories people tell themselves about their own choices. Tierney's Golden Globe win for Best Supporting Actress was one of the season's defining recognitions. The murder mystery thread introduced in Season 1 continued as structural backdrop, adding thriller energy to the relationship drama.",
+      "season_over_season": "Two new POV narrators expand the formal device and deepen the ensemble; the show at its structural peak.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-11-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "71% on Rotten Tomatoes; critics noted the show struggling to sustain its formal premise over a third season, with new character additions unable to replicate early impact."
+      },
+      "critic": {
+        "positive_pct": 71,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3464902/"
+      },
+      "review_body": "Season 3 marked The Affair's first significant critical dip - a 71% Rotten Tomatoes score that reflected critics sensing the show's formal premise straining across a third year. New characters were introduced to provide fresh perspectives, but the additions felt less organically motivated than the original quartet's expansion in Season 2. The murder mystery thread reached partial resolution. Noah's post-prison life and Alison's new circumstances provided material, but critics registered diminishing returns on the unreliable narrator device without the emotional novelty that had made it so striking initially. The season remained watchable for the core cast's quality while struggling to justify the formal premise at this stage.",
+      "season_over_season": "A clear creative dip; the formal device loses novelty and new additions fail to energise.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-06-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% on Rotten Tomatoes - a surprise critical recovery; the Los Angeles relocation and a more focused narrative arc reinvigorated critical reception."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3464902/"
+      },
+      "review_body": "Season 4 surprised critics with a 91% Rotten Tomatoes score - a recovery that matched the show's original Season 1 tally. The Pfeffermans relocated to Los Angeles, refreshing the visual landscape and introducing new thematic material around the entertainment industry and contemporary California life. A leaner narrative focus and some of the cast's best individual performances helped critics overlook the continuing structural questions about the unreliable narrator device's sustainability. The season also introduced a time-jump element that provided fresh perspective on the long-term consequences of the central affair. Critical reception acknowledged that The Affair had found a second gear.",
+      "season_over_season": "Surprise critical comeback via relocation and narrative focus; the show's second strong season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 11,
+      "release_date": {
+        "value": "2019-08-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "87% on Rotten Tomatoes; the climate change-set final season divided critics who found the ambition admirable even when the execution was uneven."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3464902/"
+      },
+      "review_body": "The Affair concluded its run with an 87% Rotten Tomatoes score for a final season that made the daring choice to set much of its action in a near-future defined by climate catastrophe. Critics were divided on this gambit: some found the environmental framework a meaningful extension of the show's interest in how people distort reality to serve their emotional needs; others felt it strained the human-scale drama the show had built. The season also incorporated significant jumps in time that reframed the long-term consequences of the original affair in more dramatic terms. As conclusions go, it closed out five seasons of formal experimentation with appropriate ambition, even if the execution remained debatable.",
+      "season_over_season": "Climate-set finale is ambitious and split opinion in equal measure; a fitting closing act for a formally inventive series.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

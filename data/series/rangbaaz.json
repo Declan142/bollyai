@@ -1,0 +1,159 @@
+{
+  "slug": "rangbaaz",
+  "qid": {
+    "value": "Q60763825",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "title": {
+    "value": "Rangbaaz",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ZEE5",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Biographical", "Thriller"],
+  "logline": "Each season dramatises the rise and fall of a real Indian gangster - from Gorakhpur's most wanted criminal in the 1990s to a Rajasthan outlaw to a Bihar gangster-turned-politician - tracing how ordinary men became legends of violence.",
+  "poster": {
+    "src": "/img/series/rangbaaz/poster.jpg",
+    "alt": "Rangbaaz poster",
+    "attribution": "Poster © ZEE5 / Opticus Inc. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season anthology run concluded with Rangbaaz: Darr Ki Rajneeti in July 2022. No further seasons announced.",
+    "source": "ZEE5",
+    "source_url": "https://www.zee5.com/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 9,
+      "release_date": {
+        "value": "2018-12-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Grounded in the real story of gangster Shri Prakash Shukla, Season 1 earned strong audience response on ZEE5 and critic praise for its Gorakhpur authenticity, period craft, and Saqib Saleem's committed lead performance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A binge-watching worthy gangster drama with a heart - one of ZEE5's few offerings with real substance in writing and treatment.",
+            "source": "The Contemplation of a Joker",
+            "url": "https://manasmukul.com/rangbaaz-zee5-series-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9420618/"
+      },
+      "review_body": "The first season of Rangbaaz zeroes in on the real-life criminal career of Shri Prakash Shukla, who terrorised Gorakhpur and eastern UP through the 1990s before being killed in a 1998 police encounter. Director Bhav Dhulia grounds the storytelling in period texture - the crumbling towns, the political patronage networks, the police-criminal nexus - while Saqib Saleem invests the role with a menace that avoids easy glorification. Indian critics and ZEE5 subscribers received it warmly as one of the platform's first quality originals. IWMBuzz called it 'an intense, hard-hitting tale.' The show's eight-episode arc keeps pace taut, and the real-events framing gives the violence moral weight rather than pulp spectacle. Viewer reception on IMDb settled around 7.8, signalling durable appreciation among crime-drama fans.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Apaharan",
+          "air_date": "2018-12-22",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series premiere establishes young Shiv Prakash Shukla's Gorakhpur as a world where caste, political muscle and criminal opportunity are inseparable. Direction keeps the period texture grounded rather than stylised.",
+          "the_moment": "The opening kidnapping that gives the episode its title - the act that sets Shukla on his irreversible path.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 9,
+      "release_date": {
+        "value": "2019-12-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Rangbaaz Phirse shifts geography to Rajasthan and swaps Saqib Saleem for Jimmy Shergill, retaining the anthology's real-criminal template while drawing mixed but largely positive viewer response."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9420618/"
+      },
+      "review_body": "Season 2 - subtitled Rangbaaz Phirse - relocates to Rajasthan and dramatises the story of gangster Anandpal Singh through a new lead cast including Jimmy Shergill and Gul Panag. The anthology format works in the show's favour: a fresh geography and lead actor reset expectations, and the desert-country milieu adds visual variety absent from Season 1. Trade coverage noted the season sustained the franchise's brand of grounded, real-events crime storytelling. Viewer reception on IMDb held near the first season's mark, suggesting the format transfer succeeded without the original's breakthrough energy.",
+      "season_over_season": "Season 2 swaps Gorakhpur for Rajasthan and introduces a new gangster mythology, trading Saqib Saleem's raw intensity for Jimmy Shergill's more seasoned menace.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-07-29",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Rangbaaz: Darr Ki Rajneeti adds a political layer to the gangster template with Vineet Kumar Singh anchoring a Bihar-set story, earning reviewer praise for performance while drawing mild criticism for timeline juggling."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "If you enjoyed the first two seasons, you'll definitely like Rangbaaz Season 3 - it's easily the best of the lot.",
+            "source": "Binged.com",
+            "url": "https://www.binged.com/reviews/rangbaaz-season-3-series-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9420618/"
+      },
+      "review_body": "The third and final season, Rangbaaz: Darr Ki Rajneeti, narrows to six tighter episodes and shifts to Bihar, following Haroon Shah Ali Baig - a gangster-turned-politician whose rise and fall mirrors the corrupting logic of electoral power. Vineet Kumar Singh, already familiar to crime-drama audiences from Mirzapur, brings nuance to a character the show refuses to lionise. Binged praised it as the strongest season creatively, though the back-and-forth timeline structure drew some criticism for taxing viewer memory. At six episodes, it is the leanest instalment and the most politically pointed, closing the franchise on a note that extends the ZEE5 crime-drama tradition into the world of democratic muscle.",
+      "season_over_season": "Season 3 condenses to six episodes and escalates from gangster biography to political thriller, marking the franchise's most structurally ambitious - if occasionally convoluted - chapter.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

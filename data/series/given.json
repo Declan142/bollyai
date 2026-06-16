@@ -1,0 +1,108 @@
+{
+  "slug": "given",
+  "qid": {
+    "value": "Q62065509",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Given",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "LGBTQ",
+    "Romance",
+    "Musical",
+    "Drama"
+  ],
+  "logline": "A high school guitarist reluctantly takes on an emotionally closed vocalist for his indie rock band, and the music they make together becomes the only language capable of reaching the grief both of them have been unable to speak.",
+  "poster": {
+    "src": "/img/series/given/poster.jpg",
+    "alt": "Given poster",
+    "attribution": "Poster © Lerche / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 11-episode TV series concluded in September 2019. A theatrical film followed in 2020, with additional OVA and film sequels through 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Given_(manga)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 11,
+      "release_date": {
+        "value": "2019-07-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "A MAL score of 8.29 from 632,000 users - exceptionally high for an 11-episode BL title - and ANN's Steve Jones calling it 'one of the season's most emotionally resonant offerings' reflect consensus that Lerche and composer Michiru produced something that transcends its genre category."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "One of the season's most emotionally resonant offerings, with a soundtrack and direction that elevates the genre.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.29,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/38865/Given"
+      },
+      "review_body": "Given aired on Fuji TV's Noitamina programming block in Summer 2019, becoming the first boys-love anime featured in that prestigious late-night slot - itself a measure of critical confidence in the material. Lerche's production under director Hikaru Yamaguchi kept the visual style spare and emotionally precise, letting composer Michiru's original score do the heavy lifting in the scenes that mattered most. The central performance of 'Fuyu no Hanashi' in Episode 7 generated the kind of audience response that circulates online for years. ANN's Steve Jones identified the series as one of Summer 2019's most emotionally resonant titles. The MAL score of 8.29 from over 632,000 users - remarkable for an 11-episode niche title - reflects how thoroughly the show's emotional specificity crossed genre boundaries and reached viewers who would not typically seek out BL anime.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 7,
+          "title": "Given",
+          "air_date": "2019-08-22",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode built to Mafuyu's first live performance of the song that carries the series' title, and the result became one of 2019's most discussed anime moments. Lerche timed the animation, the silence, and the vocal delivery with the kind of precision that earns a series its reputation.",
+          "the_moment": "Mafuyu's performance of 'Fuyu no Hanashi' - the emotional centre of the entire series delivered in real time.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "Given",
+          "air_date": "2019-09-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series finale allows the emotional threads of grief, music, and unspoken feeling to resolve without forcing a tidy conclusion. Given earns its Noitamina placement by treating its characters' interior lives with the same seriousness as the music they make.",
+          "the_moment": "The quiet exchange between Ritsuka and Mafuyu after the performance - the moment the show says what it has been building toward.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

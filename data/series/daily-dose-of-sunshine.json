@@ -1,0 +1,102 @@
+{
+  "slug": "daily-dose-of-sunshine",
+  "qid": {
+    "value": "Q116033324",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Daily Dose of Sunshine",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Medical",
+    "Slice of Life",
+    "Psychological"
+  ],
+  "logline": "A warm-hearted nurse navigates the psychiatric ward of a Seoul hospital, building unlikely connections with patients whose struggles force her to examine her own inner life.",
+  "poster": {
+    "src": "/img/series/daily-dose-of-sunshine/poster.jpg",
+    "alt": "Daily Dose of Sunshine poster",
+    "attribution": "Poster © Netflix / JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series of 12 episodes, all dropped on Netflix on November 3, 2023. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Daily_Dose_of_Sunshine"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-11-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "A perfect 100% on Rotten Tomatoes (6 critics, average 7.9/10) and an 8.1 on IMDb reflect the near-universal acclaim for a psychiatric drama that humanises mental illness with rigour and empathy in equal measure."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Daily Dose of Sunshine is a beautiful testament to this heartfelt message about mental health acceptance.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/daily-dose-of-sunshine-review-3533868"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26258202/"
+      },
+      "review_body": "Adapted from a webtoon by former nurse Lee Ra-ha, Daily Dose of Sunshine hit Netflix in November 2023 as one of the most unusually grounded Korean dramas of the year. Park Bo-young plays Jung Da-eun, a nurse transferred to the psychiatric department, and the show uses her newcomer perspective to walk the audience through conditions ranging from schizophrenia and depression to panic disorder without sensationalism. NME called it deeply empathetic and informative. The 100-percent Rotten Tomatoes score from six critics and an 8.1 on IMDb reflect near-total consensus that the show earns its emotional moments through specificity rather than sentiment. The series also won Best Drama at the Blue Dragon Series Awards and received an International Emmy nomination, placing it among the year's most decorated streaming originals. A rare Korean drama where the hospital ward is not a backdrop for romance but a fully realised world of its own.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-11-03",
+          "bollymeter": 8.2,
+          "spoiler_free": "The opening episode establishes the psychiatric ward with documentary-level detail while anchoring the viewer to Da-eun's cautious optimism. Critics noted the debut avoids the melodrama trap that sinks most Korean medical shows.",
+          "the_moment": "Da-eun's first admission intake with a patient who has been misunderstood for years - the scene that announces the show's humane intentions.",
+          "critic_note": {
+            "text": "Daily Dose of Sunshine is a beautiful testament to this heartfelt message about mental health acceptance.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/daily-dose-of-sunshine-review-3533868"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

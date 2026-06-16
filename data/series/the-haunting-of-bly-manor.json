@@ -1,0 +1,111 @@
+{
+  "slug": "the-haunting-of-bly-manor",
+  "qid": {
+    "value": "Q85807418",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Haunting of Bly Manor",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "netflix",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Horror", "Drama", "Mystery", "Supernatural", "Romance"],
+  "logline": "A young American au pair arrives at an English countryside estate to care for two orphaned children, and discovers Bly Manor is haunted by more than ghosts - it is a house shaped by love, loss and the terrible things people cannot let go.",
+  "poster": {
+    "src": "/img/series/the-haunting-of-bly-manor/poster.jpg",
+    "alt": "The Haunting of Bly Manor poster",
+    "attribution": "Poster © Netflix / Amblin Television / Intrepid Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Bly Manor is a standalone limited series within Mike Flanagan's The Haunting anthology. A third instalment in the anthology was in development but Flanagan moved to Amazon MGM in 2023.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2020/tv/news/haunting-of-bly-manor-review-1234788083/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-10-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "88% on Rotten Tomatoes from 104 critics and 7.4 on IMDb reflect a consensus that Bly Manor works better as a gothic romance than as horror, with strong performances from Victoria Pedretti and T'Nia Miller compensating for scares milder than its predecessor."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 104,
+        "pull_quotes": [
+          {
+            "text": "Not as scary as its predecessor, but with spooky tricks and strong heart, Bly Manor is a solid entry into Flanagan's horrorography.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_haunting_of_bly_manor"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10970552/"
+      },
+      "review_body": "Mike Flanagan's follow-up to The Haunting of Hill House arrived in October 2020 as a loose adaptation of Henry James's ghost stories, centred on The Turn of the Screw. Where Hill House weaponised grief as horror, Bly Manor uses the same emotional architecture for a love story - a creative gambit that split critics cleanly. The 88% Rotten Tomatoes score from 104 critics marks the show as a strong success, but qualitative reviews repeatedly noted that the scares are atmospheric rather than visceral. Variety found it 'too rarely really scary.' Victoria Pedretti as au pair Dani Clayton and T'Nia Miller as housekeeper Hannah Grose drew universal praise. The ninth episode, widely described as the year's most emotionally devastating hour of TV, anchors a season that functions best as melancholy gothic romance rather than conventional horror.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Great Good Place",
+          "air_date": "2020-10-09",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere establishes Bly Manor's framing device - a wedding story told by a narrator years later - and introduces Dani Clayton arriving at the estate. Flanagan prioritises dread-of-place over jump scares, letting the manor's architecture do the unsettling work.",
+          "the_moment": "Dani's first glimpse of a figure in the glass - a recurring image that slowly reveals its terrible meaning across the season.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "The Altar of the Dead",
+          "air_date": "2020-10-09",
+          "bollymeter": 8.2,
+          "spoiler_free": "The season's formal experiment: the entire episode follows housekeeper Hannah Grose through a fractured timeline that gradually reveals what has happened to her. T'Nia Miller carries a near-solo hour that stands as one of the strongest pieces of television in Flanagan's run.",
+          "the_moment": "The moment Hannah understands her own situation - an image-led revelation that avoids dialogue almost entirely.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "The Beast in the Jungle",
+          "air_date": "2020-10-09",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series finale resolves every ghost story in Bly Manor as a love story. The episode is structured as a direct adaptation of a Henry James novella and operates independently of horror convention - the emotional climax of a season built on grief more than fear.",
+          "the_moment": "The closing narration and what it reveals about the storyteller - a final turn that recontextualises the entire nine-episode arc.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

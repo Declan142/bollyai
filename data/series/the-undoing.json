@@ -1,0 +1,111 @@
+{
+  "slug": "the-undoing",
+  "qid": {
+    "value": "Q55012515",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Undoing",
+    "source": "Wikipedia / HBO",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia / HBO",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Thriller", "Mystery", "Drama", "Psychological"],
+  "logline": "A Manhattan psychologist's meticulously constructed life collapses when a murder exposes her husband's hidden life - David E. Kelley's six-episode HBO limited series built on Nicole Kidman's fractured poise and Hugh Grant's career-redefining turn.",
+  "poster": {
+    "src": "/img/series/the-undoing/poster.jpg",
+    "alt": "The Undoing poster",
+    "attribution": "Poster © HBO / Blossom Films / Made Up Stories. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "The Undoing was conceived and produced as a self-contained six-episode limited series. No sequel or continuation has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Undoing"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-10-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "75% on Rotten Tomatoes from 99 critics, 62 Metascore from 32 reviewers. HBO's most-watched series of 2020 by domestic audience - a genuine event watch even as critics split on whether its whodunit mechanics justified the prestige trappings."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 99,
+        "pull_quotes": [
+          {
+            "text": "A murder story so full of plot twists and turns...it's about trust and relationships, authenticity and appearances.",
+            "source": "Glenn Garvin, Reason.com",
+            "url": "https://www.metacritic.com/tv/the-undoing/season-1/"
+          },
+          {
+            "text": "Despite Kidman's and Grant's performances, we couldn't muster up enough energy to care about anyone.",
+            "source": "Decider",
+            "url": "https://www.metacritic.com/tv/the-undoing/season-1/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/the-undoing/"
+      },
+      "review_body": "The Undoing became HBO's most-watched American series of 2020 and also broke UK viewership records on Sky - evidence that a well-cast limited series with a propulsive mystery hook can outperform its critical reception. Critics registered a 75% Rotten Tomatoes score from 99 reviewers and a 62 Metascore from 32 - respectable but underwhelming for a prestige HBO production. The central debate: were Nicole Kidman and Hugh Grant sufficient to carry six episodes of increasingly implausible plotting? IndieWire's Ben Travers answered harshly ('very little entertainment to be had'), while audiences voted with their stream counts for the other side. Director Susanne Bier gave the show a saturated visual confidence that many found easier to forgive than the screenplay's contrivances.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Running Man",
+          "air_date": "2020-10-25",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes Grace Fraser's gilded Upper East Side life with enough self-aware menace to signal the collapse coming. Kidman's performance is calibrated at a precise register of suppressed anxiety, and the show's visual palette - shot in rich, autumnal New York - does substantial atmospheric work.",
+          "the_moment": "The knock at the door that begins the unravelling - direction and score aligned to make a routine moment feel like a seismic event.",
+          "critic_note": {
+            "text": "Ably acted and handsomely made - it's just a shame it couldn't resist those clichés.",
+            "source": "Caroline Framke, Variety",
+            "url": "https://www.metacritic.com/tv/the-undoing/season-1/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Bloody Truth",
+          "air_date": "2020-11-29",
+          "bollymeter": 6.5,
+          "spoiler_free": "The finale delivers the whodunit resolution that the series had been withholding for five episodes. The reveal divided viewers sharply - those satisfied by the mechanics and those who felt the character logic had been outpaced. Hugh Grant's performance in the closing scenes generated the most discussion of any moment in the series.",
+          "the_moment": "Hugh Grant's final confrontation - the moment the series' long-sustained ambiguity resolves into something unexpectedly raw.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

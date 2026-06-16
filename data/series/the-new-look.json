@@ -1,0 +1,112 @@
+{
+  "slug": "the-new-look",
+  "qid": {
+    "value": "Q112124715",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The New Look",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Apple TV+ / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Historical",
+    "Drama",
+    "Biographical",
+    "War"
+  ],
+  "logline": "Christian Dior and Coco Chanel navigated Nazi-occupied Paris in opposite directions - one hiding, one collaborating - and the distance between them would define fashion's moral geography for decades.",
+  "poster": {
+    "src": "/img/series/the-new-look/poster.jpg",
+    "alt": "The New Look poster",
+    "attribution": "Poster © DB-AK Pictures / Apple Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 1 (10 episodes) completed February-April 2024. A second season was in development as of mid-2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_New_Look_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-02-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "58% on Rotten Tomatoes from 55 reviews; Metacritic 61/100 from 24 critics. Divided reception: Paste Magazine praised the show's capture of wartime horror alongside creative beauty; Time and The Guardian found the pacing sluggish and the Holocaust peripheral."
+      },
+      "critic": {
+        "positive_pct": 58,
+        "sample": 55,
+        "pull_quotes": [
+          {
+            "text": "The series successfully captures the utter horrors of war alongside the beauty of creation.",
+            "source": "Paste Magazine",
+            "url": "https://www.metacritic.com/tv/the-new-look/"
+          },
+          {
+            "text": "Mendelsohn makes Dior a character lovable in his anguish, while Binoche succeeds in making Coco eminently watchable.",
+            "source": "Wall Street Journal",
+            "url": "https://www.metacritic.com/tv/the-new-look/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13623148/"
+      },
+      "review_body": "Todd Kessler's ten-episode Apple TV+ drama arrived in February 2024 with a premise that should have been irresistible: Ben Mendelsohn as Christian Dior and Juliette Binoche as Coco Chanel, separated by their wartime choices, with the liberation of Paris and the birth of the New Look as the arc. The 58% Rotten Tomatoes score from 55 reviews captures a genuine critical split. Paste Magazine found the show genuinely achieved its ambition - placing creative labour inside historical catastrophe - while Time described it as 'a dull, morose, bafflingly executed trudge through Nazi-occupied France.' The Wall Street Journal spoke for the middle ground, praising the two leads while noting the narrative structure around them struggled to cohere. The Guardian's 40/100 noted the more troubling problem: the Holocaust was 'essentially written out of the story.' The Primetime Emmy nomination for Outstanding Period Costumes was merited; the storytelling around those costumes was less assured.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-02-14",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere establishes the contrasting situations of Dior and Chanel under the Occupation - one working cautiously in obscurity, the other dining with German officers - and the production design is immediately striking. The problem that would divide critics is visible from the start: the period aesthetic is immaculate and the moral geometry of the two protagonists is underexplored.",
+          "the_moment": "Binoche's Chanel at a German-hosted dinner, fully at ease - the series' most uncomfortable image.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2024-04-03",
+          "bollymeter": 6.8,
+          "spoiler_free": "The finale covers the immediate post-Liberation period and Dior's preparation of the New Look collection. Mendelsohn's work across the series reached its most focused expression here, and the reconstruction of the 1947 collection had the visual authority that the storytelling sometimes lacked. Emmy-nominated costume work from Karen Muller Serreau and team.",
+          "the_moment": "The first showing of the New Look collection - the historical payoff the series had been building toward.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

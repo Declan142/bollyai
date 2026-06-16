@@ -1,0 +1,96 @@
+{
+  "slug": "black-clover",
+  "qid": {
+    "value": "Q20638503",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Black Clover",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll official / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Anime", "Action", "Fantasy", "Adventure", "Supernatural"],
+  "logline": "A loud, magicless orphan refuses to accept his place at the bottom of a magic-obsessed kingdom's hierarchy - a shounen marathon that runs 170 episodes on pure momentum and escalating battles.",
+  "poster": {
+    "src": "/img/series/black-clover/poster.jpg",
+    "alt": "Black Clover poster",
+    "attribution": "Poster © Pierrot / TV Tokyo. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "A second anime season was announced and scheduled for October 2026 on Crunchyroll, following the manga's conclusion in May 2026 after an 11-year run. The 2023 Netflix film 'Black Clover: Sword of the Wizard King' bridged the gap.",
+    "source": "Wikipedia / Sportskeeda",
+    "source_url": "https://www.sportskeeda.com/anime/news-black-clover-anime-return-date-gets-new-update-crunchyroll"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 170,
+      "release_date": {
+        "value": "2017-10-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "MAL score of 8.14 from 955,296 users and IMDb's 8.2 represent strong sustained audience engagement across 170 episodes; the split between enthusiastic long-run viewers and critics who found the early arc exhaustingly derivative is well-documented."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7441658/"
+      },
+      "review_body": "Black Clover's 170-episode run (October 2017 to March 2021, studio Pierrot) is a slow-burn that splits opinion sharply along patience lines. The early arcs drew immediate comparison to Naruto and Fairy Tail - same beats, same underdog, similarly grating protagonist energy - but the series found a defending fanbase by the time the Spade Kingdom arc delivered some of the decade's most kinetically animated shounen battles. MAL's 8.14 from nearly a million users and IMDb's 8.2 both reflect the payoff of endurance; a Quora thread on MAL's early score confirmed that viewers who pushed past the first 10 episodes rated it 8 or higher at a rate of 73 percent. The 2023 Netflix film 'Sword of the Wizard King' and a confirmed second anime season for October 2026 confirm the franchise's commercial durability, supported by a manga that ran 11 years and exceeded 24 million copies.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Asta and Yuno",
+          "air_date": "2017-10-03",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere establishes the central rivalry between Asta (magicless, loud, determined) and Yuno (gifted, composed, quietly driven) with economy. Genre-literate viewers will recognise the template; the show earns departure from it much later.",
+          "the_moment": "Yuno's grimoire reveal - the series' first declaration that it intends to play its genre conventions straight before subverting them.",
+          "critic_note": null
+        },
+        {
+          "number": 63,
+          "title": "Not For Ourselves",
+          "air_date": "2018-12-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "The Elf Reincarnation arc's midpoint is cited by the MAL community as the episode where Black Clover stopped being a Naruto comparison and became its own thing - the animation quality jump and emotional stakes shift are both stark.",
+          "the_moment": "The Black Bulls' all-in defense sequence - the moment the series' long setup started paying interest.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

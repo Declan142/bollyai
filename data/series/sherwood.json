@@ -1,0 +1,157 @@
+{
+  "slug": "sherwood",
+  "qid": {
+    "value": "Q113040143",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sherwood",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC iPlayer",
+    "source": "BBC / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery",
+    "Thriller"
+  ],
+  "logline": "Two murders in a fractured Nottinghamshire mining community tear open wounds from the 1984 miners' strike - and the undercover police operations that never quite ended.",
+  "poster": {
+    "src": "/img/series/sherwood/poster.jpg",
+    "alt": "Sherwood poster",
+    "attribution": "Poster © BBC / House Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "A third series was announced by the BBC in September 2024 following strong iPlayer performance. Series 1 and 2 both completed with 6 episodes each.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sherwood_(2022_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-06-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes from 16 reviews (avg 8.9/10); Metacritic score of 87. Critics singled out the specificity of place and James Graham's ability to turn a miners'-strike community into a living moral landscape."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 16,
+        "pull_quotes": [
+          {
+            "text": "In the clarity of its storytelling and the authenticity of its atmosphere, Sherwood split the bullseye.",
+            "source": "The Telegraph",
+            "url": "https://www.metacritic.com/tv/sherwood/"
+          },
+          {
+            "text": "A gripping mystery that draws immense power from its sterling cast and the specificity of its location.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/sherwood_2022/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14869780/"
+      },
+      "review_body": "James Graham's six-part debut arrived on BBC One in June 2022 and met an immediate critical consensus: 100% on Rotten Tomatoes from 16 reviews, a Metacritic score of 87. The premise draws from real 2004 killings in Nottinghamshire, but Graham's achievement is the way he layers those murders over the unhealed fractures of the 1984-85 miners' strike - community members who crossed picket lines, undercover officers who never left, loyalties that curdled across four decades. Critics across the board - The Telegraph awarding five stars, The Guardian's Lucy Mangan matching them - pointed to the ensemble as the engine: David Morrissey, Lesley Manville, Claire Rushbrook and Adeel Akhtar (who won BAFTA Supporting Actor for his performance) delivering exactly the kind of specificity that separates British crime drama from its more procedural cousins. The season works as a self-contained tragedy and as a provocation about what happens when a state spies on its own people.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-06-13",
+          "bollymeter": 8.8,
+          "spoiler_free": "The opening hour establishes the Nottinghamshire community with documentary exactness before the first murder detonates it. Graham's writing plants the strike-era trauma in domestic detail - the language neighbours use with each other, the silences at family dinners - so that when violence arrives it feels historically inevitable rather than sensational.",
+          "the_moment": "The reveal that the community is already divided along strike-era fault lines before the investigation even begins.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2022-06-28",
+          "bollymeter": 9.1,
+          "spoiler_free": "The finale delivers on every thread without tidying them - the crimes are resolved but the community is not, and the closing images make clear that forty years of grievance cannot be prosecuted away. The Guardian awarded five stars and noted the series never faltered in its intricate plotting.",
+          "the_moment": "The final confrontation that forces characters to choose which version of loyalty they can live with.",
+          "critic_note": {
+            "text": "Didn't falter in its intricate plotting, attention to detail or its perfect evocation of place.",
+            "source": "The Guardian",
+            "url": "https://en.wikipedia.org/wiki/Sherwood_(2022_TV_series)#Reception"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-08-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Metacritic season score of 87 sustained from Series 1; The Times and The Guardian both awarded 100/100, with critics noting Graham's feel for community grief remained undimmed."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Graham's talent for understanding the human condition is every bit as potent as last time.",
+            "source": "The Times",
+            "url": "https://www.metacritic.com/tv/sherwood/"
+          },
+          {
+            "text": "Like the original, it's stuffed to the gills with brilliant performances. The old guard remain immaculate.",
+            "source": "The Guardian",
+            "url": "https://www.metacritic.com/tv/sherwood/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14869780/"
+      },
+      "review_body": "The second series returned in August 2024 with the same six-episode format, the same Nottinghamshire geography, and a new crime that reopens questions the first series deliberately left unsettled. Critics who had praised the debut found their confidence rewarded: The Times and The Guardian both scored it 100/100, noting Graham's command of community-as-character had not softened. The ensemble expanded with Lindsay Duncan and Robert Lindsay joining the returning core, and the writing continued to treat the miners'-strike history not as background texture but as the actual subject of the drama. Where series 1 introduced the fault lines, series 2 shows what it costs to live along them for another forty years - the compromises made, the silences maintained, the loyalties that can no longer be distinguished from habit.",
+      "season_over_season": "Series 2 deepens rather than escalates, trusting the audience's investment in the community enough to move from revelation to consequence.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

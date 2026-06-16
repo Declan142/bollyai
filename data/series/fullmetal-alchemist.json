@@ -1,0 +1,102 @@
+{
+  "slug": "fullmetal-alchemist",
+  "qid": {
+    "value": "Q711257",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Fullmetal Alchemist",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Funimation",
+    "source": "Wikipedia / trade press",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Fantasy", "Drama", "Psychological"],
+  "logline": "Brothers Edward and Alphonse Elric pay a terrible price trying to resurrect their mother through alchemy, and spend 51 episodes navigating a darker, more morally complicated world than the source manga - this is the 2003 original series, not Brotherhood.",
+  "poster": {
+    "src": "/img/series/fullmetal-alchemist/poster.jpg",
+    "alt": "Fullmetal Alchemist poster",
+    "attribution": "Poster © Bones / MBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "This is the 2003 original 51-episode series directed by Seiji Mizushima, with an anime-original storyline distinct from the manga. It is not Fullmetal Alchemist: Brotherhood (2009), which is catalogued separately. A sequel film, Conqueror of Shamballa (2005), continues Edward's story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2003,
+      "episodes": 51,
+      "release_date": {
+        "value": "2003-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "MyAnimeList scores the 2003 series at 8.111 from over 923,000 ratings; critics describe it as an emotional and intelligent adaptation that diverges deliberately from the manga to create its own darker, more melancholic argument about loss and ambition."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "An emotional and intelligent adaptation of, what was at the time, an incomplete story.",
+            "source": "Medium / AniTAY (DoctorKev)",
+            "url": "https://medium.com/anitay-official/the-fullmetal-alchemist-2003-anime-is-a-masterpiece-of-adaptation-7f017377b7b"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0421357/ratings/"
+      },
+      "review_body": "The 2003 Fullmetal Alchemist is a distinct work from the 2009 Brotherhood adaptation already in the BollyAI catalogue. Because Bones began production while Hiromu Arakawa's manga was still running, director Seiji Mizushima and screenwriter Sho Aikawa built an anime-original second half that takes the Elric brothers into different thematic and narrative territory. The result is darker, more melancholic, and more willing to leave its protagonists in ambiguous moral positions. Critics note that this is the series' defining characteristic rather than a shortcoming - the villain Dante and the homunculi's origin diverge entirely from the manga, producing a horror-inflected climax that divides viewers on its merit but never on its ambition. MyAnimeList's 923,000-plus raters give it an 8.111; IMDb audiences place it at 8.0. The series is widely recommended as a complement to Brotherhood rather than a lesser substitute.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "To Challenge the Sun",
+          "air_date": "2003-10-04",
+          "bollymeter": 8.1,
+          "spoiler_free": "The 2003 premiere establishes the stakes of human transmutation in a way that prioritizes dread over spectacle. Edward and Alphonse's backstory is introduced without sentimentality - the series signals from its first episode that it will not be a comfortable adventure.",
+          "the_moment": "The first glimpse of Alphonse as a hollow suit of armour, and the quiet horror of what it cost.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "Words of Farewell",
+          "air_date": "2004-03-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode that marks the 2003 series' sharpest departure from the manga trajectory - the turning point where the anime-original storyline commits fully to its own darker logic. Fan and audience discourse consistently identifies this as the series' most debated hour.",
+          "the_moment": "The scene that separates the 2003 series permanently from Arakawa's manga, and makes the argument for watching both.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

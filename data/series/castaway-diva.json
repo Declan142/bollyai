@@ -1,0 +1,116 @@
+{
+  "slug": "castaway-diva",
+  "qid": {
+    "value": "Q117815050",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Castaway Diva",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Musical",
+    "Romance",
+    "Coming of Age"
+  ],
+  "logline": "An aspiring K-pop idol stranded on an uninhabited island for fifteen years returns to the world and discovers the music industry - and herself - have both changed beyond recognition.",
+  "poster": {
+    "src": "/img/series/castaway-diva/poster.jpg",
+    "alt": "Castaway Diva poster",
+    "attribution": "Poster © Studio Dragon / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run of 12 episodes, concluded December 3, 2023. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Castaway_Diva"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-10-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "100% on Rotten Tomatoes from 5 critics and a 7.8 on IMDb signal a warm critical and audience welcome, anchored by Park Eun-bin's committed performance even when a tangled subplot tests the drama's otherwise breezy momentum."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Castaway Diva sets up its story in an intriguing and dramatic way.",
+            "source": "Decider",
+            "url": "https://decider.com/2023/10/31/castaway-diva-review/"
+          },
+          {
+            "text": "The show chronicles Seo's almost unbridled ascent into stardom, only slightly bogged down by a complicated subplot.",
+            "source": "TIME",
+            "url": "https://www.rottentomatoes.com/tv/castaway_diva/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28348835/"
+      },
+      "review_body": "Castaway Diva arrived on tvN in October 2023 as one of the season's more inventive premises: a teenage girl's fifteen-year exile on an uninhabited island becomes the origin story for a belated pop-music career. Park Eun-bin, fresh off Extraordinary Attorney Woo, anchors the show with the same physicality and warmth that made her a crossover star, and the writing rewards her with scenes that mix fable-logic with genuine emotional weight. Critics on Rotten Tomatoes gave the season a 100-percent score across five reviews, with TIME noting an almost unbridled ascent to stardom and Decider praising the intriguing dramatic setup. The series won the Tear of Year award at the 2023 TVING Awards and the tvN of the Year prize at MAMA, reflecting a Korean audience that embraced its sincerity. A late-season domestic-violence subplot is where the show loses some of its airiness, but the musical sequences and Park Eun-bin's screen presence carry the drama home.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-10-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere drops viewers into a vibrant K-pop contest flashback before pivoting to the island isolation that defines the whole series. Critics noted the premise arrives fully formed and emotionally engaging from the opening frames.",
+          "the_moment": "Seo Mok-ha hears a ship's horn after fifteen years alone - the scene that sets the tone for every reunion to come.",
+          "critic_note": {
+            "text": "Castaway Diva sets up its story in an intriguing and dramatic way.",
+            "source": "Decider",
+            "url": "https://decider.com/2023/10/31/castaway-diva-review/"
+          }
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2023-12-03",
+          "bollymeter": 7.6,
+          "spoiler_free": "The finale wraps the central relationships with the show's characteristic warmth, giving Mok-ha's journey a landing that rewards the audience's patience through the mid-season tangles.",
+          "the_moment": "Mok-ha's first real concert performance - the payoff the entire season was building toward.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

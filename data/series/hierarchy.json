@@ -1,0 +1,113 @@
+{
+  "slug": "hierarchy",
+  "qid": {
+    "value": "Q124480568",
+    "source": "Wikipedia/Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hierarchy",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Thriller",
+    "Romance",
+    "Teen",
+    "Coming of Age"
+  ],
+  "logline": "A mysterious transfer student disrupts the rigid social order of South Korea's most elite high school, where the children of the ultra-wealthy have built a world of secrets, hierarchies, and quiet cruelty.",
+  "poster": {
+    "src": "/img/series/hierarchy/poster.jpg",
+    "alt": "Hierarchy poster",
+    "attribution": "Poster © Netflix / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode limited series concluded on Netflix in June 2024. No renewal announced; created as a self-contained story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hierarchy_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-06-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "Critics at a 59% Tomatometer (4 reviews) found the show visually slick but hollow - praised for glossy production while faulted for rushed writing and characters that fail to distinguish themselves in a crowded elite-school genre."
+      },
+      "critic": {
+        "positive_pct": 59,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "Hierarchy may be catnip for people who love elite school dramas, it really doesn't bring anything new to the genre.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/hierarchy/s01"
+          },
+          {
+            "text": "Rushed writing and hollow characters bring down the show.",
+            "source": "The Hindu",
+            "url": "https://www.rottentomatoes.com/tv/hierarchy/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27763561/"
+      },
+      "review_body": "Hierarchy landed on Netflix in June 2024 riding the global appetite for elite-school drama - think Korean Elite or The Glory lite. Critics acknowledged the show's confident production from Studio Dragon: polished cinematography, a well-dressed cast, and a premise steeped in South Korean conglomerate culture. The problem, as four Rotten Tomatoes critics noted (59% Tomatometer), was execution. Writing was called rushed and characters hollow, unable to generate the moral weight or magnetic performances that separate peers like The Glory from the pack. The Hindu's verdict - rushed writing and hollow characters - captured the critical consensus. The IMDb audience score settled at 6.1, reflecting viewers who found bingeable entertainment in the glossy trappings even as they acknowledged the show offered little beyond genre tropes. At seven episodes it moves fast enough to reward the genre-faithful without demanding much in return.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Newbie Party: Truth or Dare",
+          "air_date": "2024-06-07",
+          "bollymeter": 6.0,
+          "spoiler_free": "The premiere establishes Jooshin High's brutal caste system and drops a transfer student into the middle of it. The staging is stylish and the tension is real, even if the archetypes feel familiar from a dozen prior elite-school dramas.",
+          "the_moment": "The orientation dare that reveals how nakedly the social hierarchy operates - and who enforces it with a smile.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Hierarchy: A League of Their Own",
+          "air_date": "2024-06-07",
+          "bollymeter": 5.5,
+          "spoiler_free": "The finale attempts to resolve its revenge and romance threads but struggles to pay off character arcs that were never fully established. Stylistically coherent with the rest of the season; emotionally it lands lighter than the premise promised.",
+          "the_moment": "The confrontation that reorders the school's power structure - effective in the moment, undercut by how quickly everything arrived there.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

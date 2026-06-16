@@ -1,0 +1,227 @@
+{
+  "slug": "transparent",
+  "qid": {
+    "value": "Q17014382",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Transparent",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Comedy", "LGBTQ", "Family"],
+  "logline": "A retired Los Angeles professor comes out as a trans woman in her seventies, upending the self-absorbed lives of her three adult children and forcing a reckoning with decades of family secrets.",
+  "poster": {
+    "src": "/img/series/transparent/poster.jpg",
+    "alt": "Transparent poster",
+    "attribution": "Poster © Amazon Studios / Topple / Picrow. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded with the Musicale Finale in September 2019 after Jeffrey Tambor was dropped following harassment allegations; creator Joey Soloway resolved the series through a musical special.",
+    "source": "Amazon Studios",
+    "source_url": "https://www.amazon.com/Transparent/dp/B00IQJYIJ8"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 10,
+      "release_date": {
+        "value": "2014-09-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "98% on Rotten Tomatoes from 59 critics; called magnificent, daring, and profoundly poignant by the Globe and Mail. Won the Golden Globe for Best TV Comedy/Musical Series."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 59,
+        "pull_quotes": [
+          {
+            "text": "Transparent is magnificent. Daring, quietly searing, funny and profoundly poignant.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/transparent/s01"
+          },
+          {
+            "text": "Represents the sort of breakthrough destined to firmly put Amazon's nascent original programming push on the map.",
+            "source": "Variety",
+            "url": "https://variety.com/2014/tv/reviews/tv-review-amazons-transparent-1201313977/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3502262/"
+      },
+      "review_body": "Transparent arrived in September 2014 and immediately established itself as one of the most important television series of the decade. Creator Joey Soloway's semi-autobiographical drama about Maura Pfefferman - a 70-year-old Los Angeles professor coming out as a trans woman - was unlike anything streaming had produced. Critics gave Season 1 a 98% Rotten Tomatoes score from 59 reviews; the consensus positioned it as a breakthrough not just for LGBTQ representation but for the medium itself. Jeffrey Tambor's performance received unanimous praise for its emotional precision. The three adult Pfefferman children's self-absorption provided dark comedy that cut against any risk of sentimentality. The Golden Globe for Best Comedy/Musical Series confirmed its industry position.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2014-02-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Pfefferman family gathers for a secret their father has been struggling to share. Soloway's direction is intimate and exact; Tambor's performance communicates decades of suppressed selfhood without a single false note.",
+          "the_moment": "Maura in her apartment alone after the family dinner - a character coming into herself in complete privacy.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Why Do We Cover the Mirrors?",
+          "air_date": "2014-09-26",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Season 1 finale gathers the Pfeffermans for a shiva that becomes a reckoning. The emotional accumulation of the season lands with precision and the final image is one of streaming television's most arresting.",
+          "the_moment": "Maura present as herself in a room full of family history - the arrival the whole season has been building toward.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-12-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "98% on Rotten Tomatoes; critics praised the expanded historical flashback structure revealing the Pfefferman family's Weimar-era roots and the trans community world-building."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3502262/"
+      },
+      "review_body": "Season 2 expanded Transparent's formal ambitions with extended flashbacks to Weimar-era Berlin that revealed the Pfefferman family's hidden history. Season 1's 98% score on Rotten Tomatoes held through this second run, with the Soloway writing team weaving historical trans identity into a contemporary family saga with remarkable precision. Jeffrey Tambor won the Primetime Emmy for Outstanding Lead Actor in a Comedy Series - a recognition that built on his debut year's performance. The season deepened the three siblings' own sexual and gender explorations without reducing any of them to mere foils for Maura's journey. The intertwined past-and-present structure gave the show a literary quality that distinguished it from conventional family drama.",
+      "season_over_season": "Historical flashbacks add a new formal layer; the show deepens without retreating from its ambitions.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-09-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes - a perfect score; critics were unanimous that the show continued to operate at the peak of prestige television craft."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3502262/"
+      },
+      "review_body": "Season 3 achieved the rare perfect 100% Rotten Tomatoes score, with critics unified in praising Transparent's continued willingness to explore identity, family, and desire without resolution or sentimentality. Ali Pfefferman's arc into gender nonconformity and academic feminist theory became one of the season's central threads alongside Maura's growing confidence as herself. The show's treatment of the trans community continued to engage genuinely with communities and perspectives rather than using them as background. BAFTA recognised the series with its International Programme award that year. Transparent at Season 3 was operating at the level of the medium's best work.",
+      "season_over_season": "A perfect-scoring season; the formal and thematic ambitions all land simultaneously.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-09-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "91% on Rotten Tomatoes; some critics noted the Israel-set episodes as divisive, but the core ensemble work remained at a high level."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3502262/"
+      },
+      "review_body": "Season 4 took the Pfeffermans to Israel for a family heritage journey that was both ambitious and occasionally over-extended. The 91% Rotten Tomatoes score reflected genuine appreciation for the creative attempt while acknowledging that the Israel episodes strained the established tonal balance. The domestic ensemble work remained as sharp as ever. This proved to be the last full season: Jeffrey Tambor was dropped from the production in 2017 following harassment allegations from cast and crew members, fundamentally altering the show's future. Season 4 was therefore both a creative high-water mark in its ambitions and the beginning of the end of the show as originally conceived.",
+      "season_over_season": "Ambitious Israel arc divides; the last full traditional season before the series' production crisis.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 1,
+      "release_date": {
+        "value": "2019-09-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "68% on Rotten Tomatoes for the Musicale Finale; critics acknowledged the impossible creative situation Soloway faced in concluding the series without its lead actor."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3502262/"
+      },
+      "review_body": "The Musicale Finale was Transparent's unconventional conclusion - a 102-minute musical special that resolved Maura's story through song and the Pfefferman siblings' grief. Creator Joey Soloway chose the format in response to the impossible creative challenge: concluding a series defined by Jeffrey Tambor's central performance after his removal. Critics registered a 68% Rotten Tomatoes score - the series' lowest - while largely acknowledging the genuinely difficult circumstances. The musical format divided audiences sharply. For devoted viewers, it provided necessary closure; for others, the format felt like a substitution for conventional narrative resolution. As an ending to a landmark series, it was as strange as the situation that produced it.",
+      "season_over_season": "A musical finale responding to extraordinary off-screen circumstances; closure over craft.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

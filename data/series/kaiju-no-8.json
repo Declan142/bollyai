@@ -1,0 +1,123 @@
+{
+  "slug": "kaiju-no-8",
+  "qid": {
+    "value": "Q103888159",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kaiju No. 8",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Anime",
+    "Action",
+    "Superhero",
+    "Adventure"
+  ],
+  "logline": "A 32-year-old kaiju cleanup worker accidentally ingests a parasitic creature and gains the ability to transform into a kaiju himself, forcing him to hide his monstrous alter ego while secretly fighting to join the elite Defence Force he has dreamed of entering since childhood.",
+  "poster": {
+    "src": "/img/series/kaiju-no-8/poster.jpg",
+    "alt": "Kaiju No. 8 poster",
+    "attribution": "Poster © Production I.G / Crunchyroll. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "final-season",
+    "note": "Season 2 (11 episodes, July-September 2025) aired on Crunchyroll. A conclusion arc was announced for December 2025, adapting the final chapters of the manga, which ended in July 2025.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kaiju_No._8"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 12,
+      "release_date": {
+        "value": "2024-04-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "A 100% Rotten Tomatoes Tomatometer from 10 critics, 87% Popcornmeter audience score, and MAL score of approximately 8.24 from nearly 400,000 users make Season 1 one of 2024's most broadly acclaimed anime debuts on Crunchyroll."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21975436/"
+      },
+      "review_body": "Kaiju No. 8 Season 1 premiered on Crunchyroll in April 2024 and emerged as the platform's breakout anime of that season. Production I.G delivered kinetic kaiju combat with Studio Khara supervising the monster designs, giving the battles a visual weight rare in the genre. The premise's hook - a middle-aged everyman with a secret kaiju transformation concealed within an elite military force - generated immediate audience investment. The 100% Rotten Tomatoes Tomatometer from 10 critics and 87% audience score reflect a consistent critical consensus that the show executed its premise with confidence. Game Rant noted the 'dynamic friendships between characters that don't need romance' as strong writing. The season ran 12 episodes from April to June 2024, ending on a cliffhanger that set up the larger conflict of Season 2.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I'm Kafka Hibino",
+          "air_date": "2024-04-13",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes Kafka Hibino's unglamorous daily reality as a kaiju cleanup worker before the inciting parasitic encounter transforms the show's register entirely. Production I.G's action choreography announces its intentions immediately.",
+          "the_moment": "Kafka's first transformation - the visual spectacle that sets the season's ambition and explains why the premiere drove Crunchyroll's first-week viewing numbers.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Monster with a Dagger",
+          "air_date": "2024-06-29",
+          "bollymeter": 8.5,
+          "spoiler_free": "The season finale escalates the central dramatic tension between Kafka's secret and his Defence Force relationships to a satisfying peak while opening the larger conflict that Season 2 will address.",
+          "the_moment": "The final confrontation sequence - the production I.G action animation at its most accomplished in Season 1.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 11,
+      "release_date": {
+        "value": "2025-07-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 aired on Crunchyroll from July to September 2025, continuing the Defence Force's campaign against the escalating kaiju threat while Kafka's double identity moved closer to exposure. The 11-episode run adapted the manga's penultimate arc ahead of the announced conclusion arc in December 2025. Reception data for this season is not yet available for grounded assessment.",
+      "season_over_season": "Season 2 raises the stakes of Kafka's secret and the Defence Force's internal conflicts, serving as direct setup for the announced conclusion arc.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

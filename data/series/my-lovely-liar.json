@@ -1,0 +1,92 @@
+{
+  "slug": "my-lovely-liar",
+  "qid": {
+    "value": "Q115531995",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Lovely Liar",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "Wikipedia - original tvN broadcast, with Viki international streaming",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Fantasy",
+    "Mystery",
+    "Comedy"
+  ],
+  "logline": "A woman who physically hears lies moves in next to a famous composer suspected of murder - and neither can afford the truth.",
+  "poster": {
+    "src": "/img/series/my-lovely-liar/poster.jpg",
+    "alt": "My Lovely Liar poster",
+    "attribution": "Poster © tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes on tvN, concluded September 19, 2023. Became Viki's most-watched program worldwide during its broadcast window.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_Lovely_Liar"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-07-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "IMDb series rating of 7.3 and status as Viki's most-watched worldwide during broadcast reflect the show's fanbase strength; the lie-detection fantasy hook and Kim So-hyun and Hwang Min-hyun's chemistry are the consensus draw."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27203727/"
+      },
+      "review_body": "My Lovely Liar aired on tvN from July to September 2023 and quickly became the most-watched program on Viki worldwide during its run - a metric that reflects its fanbase's devotion rather than formal critical validation. The premise deploys a clean fantasy mechanic: Mok Sol-hee (Kim So-hyun) hears a physical sound when anyone in her presence tells a lie, which makes her a useful, unusual protagonist for a murder-adjacent mystery that wraps itself in rom-com packaging. Hwang Min-hyun as composer-suspect Kim Do-ha is the structural mystery and the romantic lead simultaneously, a dual role the show navigates with enough tonal control to keep the two registers from cancelling each other out. At 16 episodes it runs longer than its premise strictly requires; the midpoint stretch thins the mystery while thickening the romance, a trade-off the audience appeared willing to accept. The tvN premiere drew 2.589% nationwide ratings - modest for the slot - but word-of-mouth built the show into an international Viki hit, a common trajectory for mid-tier cable K-dramas with standout lead chemistry.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-07-31",
+          "bollymeter": 7.4,
+          "spoiler_free": "The premiere establishes Sol-hee's ability with playful efficiency and positions Do-ha as a puzzle rather than a threat, setting up a mystery-romance where the heroine's superpower is both asset and vulnerability.",
+          "the_moment": "Sol-hee's first lie-detection encounter with Do-ha - the comedy and unease arriving in the same beat.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

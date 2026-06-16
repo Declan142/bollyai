@@ -1,0 +1,111 @@
+{
+  "slug": "doctor-john",
+  "qid": {
+    "value": "Q62030503",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Doctor John",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Medical",
+    "Mystery",
+    "Drama",
+    "Romance"
+  ],
+  "logline": "A genius anesthesiologist who served prison time for mercy killing and cannot feel physical pain joins a hospital pain clinic, forcing ethical questions about life, death, and suffering to the surface of every case.",
+  "poster": {
+    "src": "/img/series/doctor-john/poster.jpg",
+    "alt": "Doctor John poster",
+    "attribution": "Poster © Studio Dragon / SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 32 broadcast segments (16 full episodes) on SBS, concluded September 7, 2019. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Doctor_John_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-07-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "An 8.0 on IMDb and peak episode ratings of 12.3 percent reflect genuine audience engagement with Ji Sung's commanding performance as a doctor whose medical genius is inseparable from his moral complexity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Doctor John is an underrated gem in the K-Drama community that requires a lot of attention and acknowledgment.",
+            "source": "Namaste Hallyu",
+            "url": "https://namastehallyu.com/k-drama-review-doctor-john/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10544464/"
+      },
+      "review_body": "Doctor John aired on SBS in the summer of 2019, led by Ji Sung in one of his most demanding roles - Cha Yo-han, an anesthesiologist who cannot feel pain (CIPA) and has served three years in prison for performing euthanasia. The show uses its pain-management clinic setting to stage genuine ethical debates about end-of-life care, a topic Korean television rarely addresses with this degree of seriousness. Ji Sung's performance drew consistent praise for its restraint and precision; Lee Se-young won the Excellence Award for Miniseries Actress at the 2019 SBS Drama Awards for her supporting turn as a junior resident. Ratings peaked at 12.3 percent in episode 6, solid for prime-time SBS, and audience reviews on IMDb settled around 8.0. The romance subplot between the leads was seen by some critics as underwritten relative to the medical ethics material, but the procedural core and Ji Sung's magnetic presence compensated. Namaste Hallyu called it an underrated gem in the K-drama community.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-07-19",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premiere establishes Cha Yo-han's paradox with efficiency: a man who cannot feel pain runs a ward dedicated to its relief, and the moral friction of his euthanasia conviction hangs over every diagnosis.",
+          "the_moment": "Cha Yo-han's first pain diagnosis scene in the clinic - a demonstration of the 'Ten Seconds' reputation that sets the show's intellectual register from the outset.",
+          "critic_note": {
+            "text": "Doctor John is an underrated gem in the K-Drama community that requires a lot of attention and acknowledgment.",
+            "source": "Namaste Hallyu",
+            "url": "https://namastehallyu.com/k-drama-review-doctor-john/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2019-08-09",
+          "bollymeter": 8.2,
+          "spoiler_free": "The episode that peaked at 12.3-percent national viewership for good reason: the central euthanasia ethical question moves from backstory into active dramatic confrontation, and Ji Sung navigates it without a single false note.",
+          "the_moment": "The courtroom-style confrontation between Yo-han and the prosecutor that forced the show's euthanasia debate out of subtext and into the open.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

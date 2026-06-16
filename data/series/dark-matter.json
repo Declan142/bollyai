@@ -1,0 +1,102 @@
+{
+  "slug": "dark-matter",
+  "qid": {
+    "value": "Q114554430",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dark Matter",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "apple tv+",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Sci-Fi", "Thriller", "Mystery", "Drama"],
+  "logline": "A Chicago physics professor is kidnapped, wakes up in a parallel universe where he chose career over family, and must fight through infinite alternate realities to reclaim the life - and the wife - he lost.",
+  "poster": {
+    "src": "/img/series/dark-matter/poster.jpg",
+    "alt": "Dark Matter poster",
+    "attribution": "Poster © Apple TV+ / Sony Pictures Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 confirmed by Apple TV+, premiering August 28, 2026. Blake Crouch returns as showrunner.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dark_Matter_(2024_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 9,
+      "release_date": {
+        "value": "2024-05-08",
+        "source": "apple tv+",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "82% on Rotten Tomatoes (57 critics) and a Metacritic score of 64 from 22 critics reflect a show that delivers propulsive multiverse mechanics and strong lead performances while critics found the ideas spread thin across nine episodes."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 57,
+        "pull_quotes": [
+          {
+            "text": "A massive and intricate puzzle, the series is shocking and unsettling, but doesn't quite satisfy in the end.",
+            "source": "Variety (Aramide Tinubu)",
+            "url": "https://variety.com/2024/tv/reviews/dark-matter-review-joel-edgerton-1235995052/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt19231492/"
+      },
+      "review_body": "Blake Crouch adapts his own 2016 bestseller as showrunner, casting Joel Edgerton as Jason Dessen - a physicist abducted and dropped into a version of his life where he became a celebrated scientist at the cost of his marriage and son. Edgerton anchors the season's dual-performance demands with precision, and Jennifer Connelly as his wife Daniela provides the emotional anchor the multiverse mechanics need. The nine-episode run premiered May 8, 2024 on Apple TV+ to broadly positive notices. The 82% Rotten Tomatoes score and 64 Metacritic reflect a show that excels at concept and momentum but distributes its ideas unevenly across the runtime. CNN noted 'a bad case of multiverse madness'; Screen Rant praised Edgerton as 'the best decision Apple TV+ could have made.' The season closes with enough propulsive momentum to justify the Season 2 renewal confirmed for August 2026.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Are You Happy in Your Life?",
+          "air_date": "2024-05-08",
+          "bollymeter": 7.4,
+          "spoiler_free": "The premiere takes its time establishing Jason Dessen's comfortable family life before the abduction that shatters it. Crouch's script for his own novel demonstrates an understanding of the source material's core question: whether the life a person has is the life they truly wanted.",
+          "the_moment": "Jason wakes up in a lab and realises the world around him is wrong in ways he cannot immediately articulate.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Entanglement",
+          "air_date": "2024-06-26",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale delivers on the season's central multiverse logic with ambition that the runtime has not always sustained. The episode resolves Jason's journey while setting up a second season with material that was not in the original novel.",
+          "the_moment": "The resolution of the corridor problem - the sequence that best realises Crouch's core sci-fi idea in visual terms.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

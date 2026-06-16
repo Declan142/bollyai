@@ -1,0 +1,111 @@
+{
+  "slug": "eighteen-again",
+  "qid": {
+    "value": "Q97421688",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "18 Again",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Family"
+  ],
+  "logline": "A 37-year-old man facing divorce and unemployment wakes up in his 18-year-old body, forcing him to re-examine the choices that unravelled his marriage and his sense of self.",
+  "poster": {
+    "src": "/img/series/eighteen-again/poster.jpg",
+    "alt": "18 Again poster",
+    "attribution": "Poster © JTBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes on JTBC, concluded November 10, 2020. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/18_Again"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "An 8.1 on IMDb and widespread audience praise driven by Lee Do-hyun's breakout performance - he won Best New Actor at the 57th Baeksang Arts Awards - indicate a drama that overcomes its body-swap premise to deliver genuine emotional weight."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Lee Do Hyun carries the emotional weight with irresistible charm and sincerity that gets you to care immediately.",
+            "source": "A Koala's Playground",
+            "url": "https://koalasplayground.com/2020/11/15/18-again-is-the-feel-good-k-drama-of-2020-with-breakout-star-lee-do-hyun-and-heartfelt-performances-by-leads-kim-ha-neul-and-yoon-sang-hyun/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12846096/"
+      },
+      "review_body": "18 Again aired on JTBC in autumn 2020 as a remake of the 2009 Hollywood film 17 Again, but the Korean adaptation reworks the premise into something quieter and more emotionally complex. Kim Ha-neul plays the wife on the verge of divorce, Yoon Sang-hyun the husband who regresses physically to 18 while his adult mind stays intact, and Lee Do-hyun the younger body into which he suddenly inhabits. It is Lee Do-hyun who generated the most critical heat: his ability to play a middle-aged father trapped in a teenage frame won him Best New Actor at the 57th Baeksang Arts Awards. The show averaged 8.1 on IMDb and sustained strong audience engagement across its 16 episodes, with critics and viewers praising its willingness to treat marriage breakdown as the real subject rather than the body-swap gimmick. The drama peaked at 3.2-percent nationwide ratings on cable - solid for JTBC at the time.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-09-21",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the marriage in quiet crisis before the body-swap lands, giving the fantasy mechanic emotional stakes that most similar shows skip entirely.",
+          "the_moment": "Hong Dae-young looks in the mirror and sees a stranger - the moment the show signals it will take its premise seriously.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2020-11-10",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale resolves the family dynamic with a sincerity that rewards the show's investment in making the body-swap a vehicle for adult reckoning rather than comedy.",
+          "the_moment": "The family reunion scene that audiences cited most often as the emotional payoff of the entire run.",
+          "critic_note": {
+            "text": "Lee Do Hyun carries the emotional weight with irresistible charm and sincerity that gets you to care immediately.",
+            "source": "A Koala's Playground",
+            "url": "https://koalasplayground.com/2020/11/15/18-again-is-the-feel-good-k-drama-of-2020-with-breakout-star-lee-do-hyun-and-heartfelt-performances-by-leads-kim-ha-neul-and-yoon-sang-hyun/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "kids-on-the-slope",
+  "qid": {
+    "value": "Q1670019",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kids on the Slope",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia / trade press",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Coming of Age", "Musical", "Romance"],
+  "logline": "An introverted transfer student discovers jazz in 1960s Kyushu and finds his first real friendship and first love through the music - directed by Shinichiro Watanabe with a score by Yoko Kanno.",
+  "poster": {
+    "src": "/img/series/kids-on-the-slope/poster.jpg",
+    "alt": "Kids on the Slope poster",
+    "attribution": "Poster © MAPPA / Tezuka Productions / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Self-contained 12-episode adaptation of Yuki Kodama's manga, aired on Fuji TV's Noitamina block in 2012. No sequel series produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Kids_on_the_Slope"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 12,
+      "release_date": {
+        "value": "2012-04-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "ANN's Carlo Santos called it a coming-of-age drama where intertwined storylines, well-rounded characters, and vibrant music come together perfectly; ANN users gave it a median Excellent rating and IMDb holds an 8.1 from viewers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Intertwined storylines, well-rounded characters, and vibrant music come together to form the perfect coming-of-age drama.",
+            "source": "Anime News Network (Carlo Santos)",
+            "url": "https://www.animenewsnetwork.com/review/kids-on-the-slope/episodes-1"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2341375/ratings/"
+      },
+      "review_body": "Kids on the Slope landed in April 2012 as a Noitamina co-production between MAPPA and Tezuka Productions, directed by Shinichiro Watanabe - best known for Cowboy Bebop - with music by Yoko Kanno. That pairing of director and composer, having collaborated on the most celebrated jazz-inflected anime in the medium's history, raised expectations that the show almost entirely met. Set in 1966 Kyushu, the series follows Kaoru's awkward first friendships through shared love of jazz performance. Critics clustered around the same virtues: Watanabe's treatment of musical performance as emotional revelation rather than spectacle, the authenticity of the period detail, and the emotional credibility of the coming-of-age arc. The ending was noted as slightly rushed given the source material's scope. ANN's median community rating was Excellent, and IMDb audiences score it at 8.1. Yoko Kanno won the 2013 Tokyo Anime Award for Best Music.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Moanin'",
+          "air_date": "2012-04-12",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere drops Kaoru into Sasebo with his characteristic introversion intact, then ambushes him with jazz in a school basement. The Watanabe signature is present immediately - the music is not background texture, it is the emotional event.",
+          "the_moment": "Kaoru's first improvised session with Sentaro, when two incompatible personalities discover a shared language.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

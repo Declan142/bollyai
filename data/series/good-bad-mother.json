@@ -1,0 +1,106 @@
+{
+  "slug": "good-bad-mother",
+  "qid": {
+    "value": "Q116230044",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Good Bad Mother",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix international availability confirmed",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Family",
+    "Romance"
+  ],
+  "logline": "A ruthless prosecutor reduced to the mind of a child by a near-fatal accident must rebuild his relationship with the fiercely demanding mother whose love he never understood.",
+  "poster": {
+    "src": "/img/series/good-bad-mother/poster.jpg",
+    "alt": "The Good Bad Mother poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run of 14 episodes, concluded June 8, 2023. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Good_Bad_Mother"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 14,
+      "release_date": {
+        "value": "2023-04-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "IMDb rating of 8.4 and inclusion in Time magazine's 10 Best Korean Dramas of 2023 reflect a near-consensus around Ra Mi-ran and Lee Do-hyun's devastating central performances."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The Good Bad Mother is unapologetically raw and heartfelt, unafraid to unpack parental love and dynamics.",
+            "source": "NME",
+            "url": "https://www.nme.com/reviews/tv-reviews/the-good-bad-mother-kdrama-netflix-review-lee-do-hyun-ra-mi-ran-3439849"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt27042206/"
+      },
+      "review_body": "The Good Bad Mother aired on JTBC in April 2023 and quietly became one of the most-talked-about Korean dramas of the year, earning a spot on Time magazine's 10 Best Korean Dramas of 2023 on Netflix. The premise - a ruthless prosecutor, felled by a near-fatal accident, regresses to the mind of a child and must relearn the world alongside the mother he resented - sounds melodrama-adjacent, but the execution is rawer than the logline suggests. NME's Carmen Chin called it \"unapologetically raw and heartfelt,\" noting the rapport between Ra Mi-ran and Lee Do-hyun feels \"terrifyingly authentic.\" The series set records for JTBC's Wednesday-Thursday slot and collected multiple Baeksang Arts Award nominations. Its 8.4 IMDb score and 90% audience approval on Rotten Tomatoes reflect an unusually broad emotional consensus: viewers who came for the family drama stayed for its unsentimental reckoning with ambition, sacrifice, and the gap between the parent a child needs and the parent survival produces.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-04-26",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Young-soon's unyielding parenting philosophy and Kang-ho's hollow, transactional adulthood with an efficiency that makes the coming rupture feel inevitable. Ra Mi-ran commands every frame.",
+          "the_moment": "Young-soon's quiet collapse behind the barn after her son dismisses her - the show's emotional key set in the first hour.",
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "Episode 14",
+          "air_date": "2023-06-08",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale delivers what Korean family dramas rarely manage: earned resolution that does not sand off the show's harder edges. The mother-son arc closes with a specificity that bypasses sentimentality.",
+          "the_moment": "Young-soon and an adult Kang-ho sharing a meal on the farm - the show's thesis landing without a single line of dialogue.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

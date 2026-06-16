@@ -1,0 +1,101 @@
+{
+  "slug": "a-time-called-you",
+  "qid": {
+    "value": "Q111534327",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Time Called You",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix original streaming confirmed",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Mystery",
+    "Drama",
+    "Fantasy"
+  ],
+  "logline": "A grieving woman slips through time from 2023 into 1998 and inhabits a classmate's body - only to find herself falling for a boy who is the exact image of the boyfriend she lost.",
+  "poster": {
+    "src": "/img/series/a-time-called-you/poster.jpg",
+    "alt": "A Time Called You poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season Netflix original, 12 episodes, all released September 8, 2023. No renewal; adapted from the Taiwanese series Someday or One Day.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/A_Time_Called_You"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-09-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "57% Rotten Tomatoes score from 7 critics (average 7.2/10) and an 8.0 IMDb rating reflect a split reception: audiences invested in the time-loop romance while critics found the adaptation uneven compared to its Taiwanese source material."
+      },
+      "critic": {
+        "positive_pct": 57,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21627438/"
+      },
+      "review_body": "A Time Called You landed on Netflix in September 2023 as a full-season drop, a Korean remake of the acclaimed Taiwanese series Someday or One Day. The central hook - Jun-hee (Jeon Yeo-been) grief-stricken in 2023 suddenly inhabits 1998 classmate Min-ju's body and encounters Si-heon (Ahn Hyo-seop), a dead ringer for her lost boyfriend - is a well-engineered emotional trap, and Ahn Hyo-seop carries the dual-role weight with visible craft. Critical response was divided: Rotten Tomatoes registered 57% from 7 critics with a 7.2 average, with dissenters pointing to plot mechanics that buckle under scrutiny. The IMDb score sits at 8.0, reflecting viewer investment in the time-travel romance core even when the logic does not hold. For viewers unfamiliar with the Taiwanese original, the show functions as a polished, emotionally generous mystery-romance; for those who know Someday or One Day, the comparison invites debate.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-09-08",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes Jun-hee's grief with economy and then executes the time-slip with minimal hand-holding - a confident opening that trusts viewers to keep up with the dual-timeline construction.",
+          "the_moment": "Jun-hee's first glimpse of Si-heon in 1998 - the show's central emotional engine turned on in a single frame.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2023-09-08",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale resolves the time-loop with a structural neatness that rewards attentive watching, though the emotional payoff depends heavily on how invested viewers became in the 1998 timeline.",
+          "the_moment": "The reveal that reframes both timelines - the beat the series was constructed to deliver.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "i-will-find-you",
+  "qid": {
+    "value": "Q134412018",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T16:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "I Will Find You",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T16:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T16:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T16:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "logline": "A father imprisoned for the murder of his young son escapes when evidence emerges that his boy may still be alive - and goes on the run to find the truth.",
+  "poster": {
+    "src": "/img/series/i-will-find-you/poster.jpg",
+    "alt": "I Will Find You series poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series adapted from Harlan Coben's 2023 novel - the first of his books set in an American context for Netflix.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/I_Will_Find_You_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-06-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-16T16:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "I Will Find You premieres on Netflix on June 18, 2026 - two days from the time of this entry. BollyAI will update this with grounded critical reception once the series is live and reviews are published. The limited series stars Sam Worthington as a father jailed for his son's apparent murder who receives evidence the boy may be alive, and escapes to follow that thread. Based on Harlan Coben's 2023 novel, it is the first of Coben's works adapted into an American setting for Netflix. No Rotten Tomatoes scores, Metacritic ratings, or attributed critical quotes are available at time of writing.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T16:00:00+05:30"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "the-english",
+  "qid": {
+    "value": "Q107104445",
+    "source": "Wikipedia sidebar (Wikidata item link)",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The English",
+    "source": "Wikipedia / BBC Two official",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC Two / Prime Video",
+    "source": "Wikipedia / official platform pages",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Thriller",
+    "Action"
+  ],
+  "logline": "An aristocratic Englishwoman crosses the 1890s American frontier seeking revenge - and finds, in a Pawnee ex-cavalry scout, a fellow traveller whose past and hers are more entangled than either expects.",
+  "poster": {
+    "src": "/img/series/the-english/poster.jpg",
+    "alt": "The English poster",
+    "attribution": "Poster © BBC / Amazon Prime Video / Drama Republic. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series, concluded December 2022. No second season has been announced.",
+    "source": "Wikipedia / BBC",
+    "source_url": "https://en.wikipedia.org/wiki/The_English_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-11-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "A visually distinctive BBC-Prime Video western earning 84% on Rotten Tomatoes (62 reviews) and a 74 Metacritic score - critics praised Hugo Blick's spare, gorgeous writing and Blunt's performance, with the primary reservation being pacing in the mid-series episodes."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 62,
+        "pull_quotes": [
+          {
+            "text": "Blick's script is as spare and gorgeous as the landscape - it remains a sweepingly wonderful thing.",
+            "source": "The Guardian",
+            "url": "https://www.metacritic.com/tv/the-english/"
+          },
+          {
+            "text": "The English is impossible to look away from - a bold, epic take on the Western drawing from multiple cinematic modes.",
+            "source": "Consequence",
+            "url": "https://www.metacritic.com/tv/the-english/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The English aired on BBC Two and Prime Video in November-December 2022, earning 84% on Rotten Tomatoes from 62 critics and a 74 Metacritic score. Writer-director Hugo Blick crafted a six-episode western that critics described as cinematic in scale and uncommonly literary in its ambitions. The Guardian praised the script as 'spare and gorgeous', matching the show's landscape cinematography. Consequence called it 'impossible to look away from'. Emily Blunt's Lady Cornelia Locke drew near-universal admiration - critics found her vengeance-driven Englishwoman a genuinely unusual Western protagonist. Chaske Spencer's Pawnee ex-soldier Eli Whipp gave the show its moral counterweight and generated praise for a performance grounding the show's more operatic elements. The primary reservation - shared by Paste Magazine and The LA Times - was that the show's stylistic ambition occasionally ran ahead of its dramatic coherence.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "What You Want and What You Need",
+          "air_date": "2022-11-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes The English's visual grammar immediately - sweeping prairie vistas against intimate human cruelty - and the Cornelia-Eli meeting is handled with an unhurried confidence that signals the show's willingness to take its time.",
+          "the_moment": "The first scene between Blunt and Spencer - two strangers who recognise something in each other before either has said a word.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Cherished",
+          "air_date": "2022-12-15",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale brings the series' threads - the conspiracy, the shared history, the question of what revenge actually costs - to a conclusion that earns its emotional weight even where the plotting had frayed in earlier episodes.",
+          "the_moment": "The final revelation of what connects Cornelia and Eli across decades - the pivot that reframes the entire six-episode journey.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

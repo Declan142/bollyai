@@ -1,0 +1,102 @@
+{
+  "slug": "typewriter",
+  "qid": {
+    "value": "Q65053346",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Typewriter",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Horror", "Mystery", "Thriller"],
+  "logline": "A gang of ghost-hunting children in Goa investigate a haunted colonial villa, but a new family's arrival and a cursed typewriter with a body count force their amateur obsession into something far more dangerous.",
+  "poster": {
+    "src": "/img/series/typewriter/poster.jpg",
+    "alt": "Typewriter poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Limited to one season of five episodes. Netflix has not announced a renewal; the story resolved within the single run.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/in/title/80202098"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 5,
+      "release_date": {
+        "value": "2019-07-19",
+        "source": "Netflix",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "A 67% Rotten Tomatoes score from 6 critics and mixed audience response on IMDb (6.7/10) reflects a show strong on Goa atmosphere and child performances but thin on genuine scares."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "The series maintains the suspense for the most part, but fails to leave you with scares that you haven't experienced before.",
+            "source": "The News Minute",
+            "url": "https://www.thenewsminute.com/flix/netflix-typewriter-review-few-scares-sujoy-ghosh-s-horror-series-still-charms-105890"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9310372/"
+      },
+      "review_body": "Sujoy Ghosh's five-episode horror outing arrived on Netflix in July 2019 as India's first serious attempt at a children-led supernatural thriller. Set in Bardez, Goa, the series leans hard on colonial architecture, Catholic ghost lore, and a quartet of plucky kids whose amateur ghost club brushes against real evil. Critics at Rotten Tomatoes split 67% positive across six reviews - praise concentrated on the Goa atmosphere and the young cast's naturalism, scepticism aimed at the thin scares and a premise that echoes Stranger Things without its emotional depth. The five-episode format keeps things compact but also leaves the mythology underdeveloped. Sujoy Ghosh's craft instincts - visible in his control of dread-pacing - rescue the show from being a generic haunted-house product, even if the horror rarely crosses into genuinely unsettling territory.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Four Kids and a Dog",
+          "air_date": "2019-07-19",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere establishes Goa's Hanover Villa as a credible haunted locale while introducing the four-kid ghost club. Ghosh's eye for atmosphere is evident from the first frame - the colonial rot feels lived-in - but the horror beats are telegraphed and the pacing is leisurely even at 40 minutes.",
+          "the_moment": "The children discover the old typewriter in the villa's locked room - the show's central object arriving with the right amount of dread.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "The Reckoning",
+          "air_date": "2019-07-19",
+          "bollymeter": 6.8,
+          "spoiler_free": "The finale tightens the mythology and delivers the season's most effective set piece, though the supernatural rules remain fuzzy. Strong work from Jisshu Sengupta elevates what could have been a generic resolution.",
+          "the_moment": "The typewriter's final act - the scene the series was building toward and the only one that earns its horror credentials.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}
