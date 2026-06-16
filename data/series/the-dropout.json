@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Biographical", "Drama", "Crime"],
+  "genres": [
+    "Biographical",
+    "Drama",
+    "Crime"
+  ],
   "logline": "The rise and fall of Elizabeth Holmes: how a charismatic Stanford dropout built Theranos into a billion-dollar health-tech fraud by telling investors and patients what they wanted to believe.",
   "poster": {
     "src": "/img/series/the-dropout/poster.jpg",
@@ -70,9 +74,20 @@
       "audience": null,
       "review_body": "The Dropout premiered March 3, 2022 as Hulu's account of the Theranos scandal, covering Elizabeth Holmes's path from Stanford idealist to convicted fraudster. Eight episodes gives the show room to chart the arc properly - the early idealism, the first lies to protect the bigger vision, the point at which the vision became subordinate to the lie. Amanda Seyfried's performance was the critical consensus: she makes Holmes both a believer and a manipulator simultaneously, refusing the easier reading of pure cynicism. Critics scored it 90 percent from 98 reviews, noting it succeeds more as grounded docudrama than dark comedy. Naveen Andrews as Sunny Balwani anchors the show's most uncomfortable dynamics.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I'm in a Hurry",
+          "air_date": "2022-03-03",
+          "bollymeter": 8.0,
+          "spoiler_free": "The Dropout's premiere arrives with an unapologetically ironic formal choice: it opens with Elizabeth Holmes (Amanda Seyfried) as a child at Halloween, dressed as the businesswoman she has not yet become, foreshadowing the costume-as-identity thesis the series will pursue across eight episodes. Seyfried's Elizabeth is immediately unsettling - not villainous but genuinely strange, her social mimicry and ambition colliding in ways that make her rise feel inevitable and her fall equally so.",
+          "the_moment": "Elizabeth's first boardroom performance - the specific, studied quality of her voice modulation, which the episode frames as practice rather than pretension.",
+          "critic_note": null,
+          "review_body": "The Dropout premiere earns its 93% Rotten Tomatoes score through the specific intelligence of Amanda Seyfried's performance. Elizabeth Holmes is not written as a monster or a genius but as someone whose social intelligence exceeded her technical knowledge, and whose ambition was not separable from genuine belief in the mission she was faking. The Hulu limited series arrives in the post-WeWork moment when Silicon Valley myths of \"fake it till you make it\" had already been interrogated in public, and the premiere uses that context to frame Holmes not as aberration but as the extreme end of a spectrum. The formal choice to open with childhood costume foreshadowing is too on-the-nose; the performance beneath it is not."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:45:00+05:30"
 }

@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Drama", "Mystery", "Psychological"],
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological"
+  ],
   "logline": "A wealthy white family and a Black artist-mother collide in a meticulously planned Cleveland suburb, and the fire that burns down the Richardson house turns out to be the least of what they have done to each other.",
   "poster": {
     "src": "/img/series/little-fires-everywhere/poster.jpg",
@@ -70,9 +74,20 @@
       "audience": null,
       "review_body": "Little Fires Everywhere premiered March 18, 2020 on Hulu, adapted from Celeste Ng's bestselling novel. Reese Witherspoon and Kerry Washington play Elena Richardson and Mia Warren: the wealthy, rule-following homeowner and the free-spirited artist who rents her property. The collision of their worldviews - and the racial, class, and parenting philosophies each embodies - is the show's material. Critics scored it 78 percent from 78 reviews, praising the leads' chemistry while noting the adaptation occasionally softens the novel's harder edges around race and privilege. Washington's performance was singled out as the more fully inhabited of the two. The show is comfortable rather than confrontational, which is either its limitation or its accessibility depending on your expectations.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Richardsons v. The Warrens",
+          "air_date": "2020-03-18",
+          "bollymeter": 7.5,
+          "spoiler_free": "Little Fires Everywhere's premiere drops Reese Witherspoon and Kerry Washington into the class-and-race collision of Celeste Ng's novel with immediate efficiency. Elena Richardson's perfect Shaker Heights domesticity and Mia Warren's rootless artist life are established as mutual provocations within the first episode. The pilot earns its premise without yet committing to the difficult material the novel makes central.",
+          "the_moment": "Mia and Pearl's first view of the rental property - and Elena's practiced warmth in showing it to them, which the episode frames as both genuine and performative simultaneously.",
+          "critic_note": null,
+          "review_body": "Little Fires Everywhere's premiere earns its 78% Rotten Tomatoes score through the central pairing of Witherspoon and Washington, whose respective characters are established as effective mirrors within thirty minutes. Elena Richardson's well-organized life and Mia Warren's deliberate rootlessness are deployed as a class-and-race collision mechanism with enough confidence that the series' subsequent safety on its most difficult material is the main disappointment rather than a fundamental failure. The Shaker Heights setting is rendered with sufficient specificity to avoid generic suburb iconography. A promising premiere for a limited series that executes its Ng adaptation at a professional level without yet reaching the novel's sharper register."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:45:00+05:30"
 }

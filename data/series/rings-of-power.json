@@ -69,7 +69,18 @@
       "audience": null,
       "review_body": "Season 1 landed September 1, 2022, and it was the most expensive television season ever produced. The presentation is richly opulent, from costume and landscape to music, with Tolkien's Second Age delivered in full scale. The narrative is a constant focus: eight episodes spread across five interweaving storylines, trading some character depth for sweeping world-building. Morfydd Clark as a young Galadriel and Robert Aramayo as Elrond stand out as clear focal points. The season ends on a mystery that splits opinion, with some viewers drawn to the slow burn and others preferring a tighter alignment to Tolkien's canon.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Shadow of the Past",
+          "air_date": "2022-09-01",
+          "bollymeter": 7.8,
+          "spoiler_free": "The Rings of Power premiere deploys its $58 million episode budget across a prologue sequence tracing Galadriel from the earliest days of Arda through the War of Wrath, establishing the Second Age mythology that the series will inhabit. The spectacle is genuine and the design of Valinor and Numenor is extraordinary - but the premiere's ambition exceeds its ability to make the characters as compelling as the world they inhabit.",
+          "the_moment": "The prologue sequence following young Galadriel and her brother Finrod into the siege of Valinor - one of the most expensive and visually sustained opening sequences in television history.",
+          "critic_note": null,
+          "review_body": "The Rings of Power premiere earns its 84% Rotten Tomatoes score through pure spectacle confidence: the prologue tracing Galadriel's history from Valinor through the War of Wrath is visually extraordinary, and the production design of Numenor and the Southlands is Amazon's argument that the LOTR adaptation can be done justice at TV scale. The character dynamics are thinner than the world design, which is the premise's first-season limitation: the story requires so much mythology establishment that characterisation becomes secondary. Morfydd Clark's young Galadriel is the episode's most complete portrait, but even she is better as design document than as person in this opening hour. The series earns its scale commitment - whether it earns the human-scale story is a later-season question."
+        }
+      ]
     },
     {
       "number": 2,
@@ -98,5 +109,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:45:00+05:30"
 }

@@ -27,7 +27,13 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Mystery", "Thriller", "Sci-Fi", "Crime", "Drama"],
+  "genres": [
+    "Mystery",
+    "Thriller",
+    "Sci-Fi",
+    "Crime",
+    "Drama"
+  ],
   "logline": "A young amateur detective is invited to an isolated Arctic retreat hosted by a tech billionaire, and when one of the guests is found dead she has to solve the murder using her hacking skills before the isolation kills the investigation.",
   "poster": {
     "src": "/img/series/a-murder-at-the-end-of-the-world/poster.jpg",
@@ -70,9 +76,20 @@
       "audience": null,
       "review_body": "A Murder at the End of the World premiered November 14, 2023 as a seven-episode FX/Hulu limited series written and directed by Brit Marling and Zal Batmanglij. Emma Corrin plays Darby Hart, an amateur detective and hacker invited to a remote Arctic retreat hosted by tech billionaire Andy Ronson (Clive Owen). When a fellow guest dies in circumstances that look like an accident, Darby suspects murder. Marling, who also plays a central character, brings her signature style: philosophical dialogue, genre-bending structure, and a refusal to resolve its ideas cleanly. Critics approved at 88 percent, with the consensus acknowledging the show would divide viewers who want clean genre mechanics from those who appreciate its ambient strangeness. The Arctic setting and production design are striking throughout.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The End of the World As We Know It",
+          "air_date": "2023-11-14",
+          "bollymeter": 7.8,
+          "spoiler_free": "Brit Marling and Zal Batmanglij's Hulu limited series arrives with the formal confidence of their prior OA collaboration: a tech billionaire assembles a group of singular individuals at a remote Icelandic retreat, and one of them turns up dead. Emma Corrin's Darby is the series' formal bet - a Gen-Z detective-by-circumstance whose specific relationship to the case is the premiere's most effective strand.",
+          "the_moment": "The discovery of the body - staged not as conventional murder-mystery shock but as the specific, quiet panic of a person who knows something others don't.",
+          "critic_note": null,
+          "review_body": "A Murder at the End of the World's premiere earns its 79% Rotten Tomatoes score through the combination of the Marling-Batmanglij formal sensibility and Emma Corrin's performance as Darby. The Icelandic setting and tech-retreat premise are handled with more critical intelligence than the genre typically allows - the episode frames the billionaire's mythology-making as both seductive and suspect from the first minutes. The whodunit mechanism is functional but secondary to the character work, which privileges Darby's emotional archaeology over plot mechanics. A distinctive premiere that positions the limited series as prestige mystery rather than entertainment procedural."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:45:00+05:30"
 }

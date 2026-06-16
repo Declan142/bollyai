@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Historical", "Mystery", "Drama", "Psychological"],
+  "genres": [
+    "Historical",
+    "Mystery",
+    "Drama",
+    "Psychological"
+  ],
   "logline": "Based on the true case of Grace Marks, convicted of double murder in 1840s Canada - the series follows her account of events as told to a psychiatrist, and refuses to decide whether she is innocent, guilty, or something stranger.",
   "poster": {
     "src": "/img/series/alias-grace/poster.jpg",
@@ -70,9 +75,20 @@
       "audience": null,
       "review_body": "Alias Grace arrived September 2017, adapted by Sarah Polley from Margaret Atwood's 1996 novel about Grace Marks (Sarah Gadon), an Irish immigrant convicted of murdering her employer and his housekeeper in 1840s Upper Canada. Dr. Simon Jordan (Edward Holcroft) is commissioned to interview her and assess her sanity; what he encounters is a narrative that refuses resolution: Grace is simultaneously convincing and opaque. Critics gave 99 percent approval, with reviewers praising Gadon's 'hypnotic' performance and the adaptation's fidelity to Atwood's formal ambiguity - the novel never tells us definitively what Grace did or knew, and the series respects that refusal. David Cronenberg as a reverend and Zachary Levi against type are notable supporting performances.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Part 1",
+          "air_date": "2017-09-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "Sarah Polley's adaptation of Margaret Atwood's novel opens as a formal puzzle: Grace Marks (Sarah Gadon), convicted of murder in 1840s Canada, narrates her story to a young psychiatrist with a confidence and control that immediately makes the testimony suspect. The premiere establishes Grace's unreliability not as a trick but as the series' central subject: who gets to tell their own story, and what does telling it cost.",
+          "the_moment": "Grace's first session with Dr. Jordan - the specific way Gadon modulates between performance and candour, which makes the question of what is real the episode's animating tension from the first minutes.",
+          "critic_note": null,
+          "review_body": "The Alias Grace premiere earns its 97% Rotten Tomatoes score through Sarah Gadon's performance and the formal intelligence of Polley's adaptation. Grace Marks's narration is not simply unreliable - it is ostentatiously controlled, which is the Atwood novel's most provocative formal choice. The episode establishes the power dynamic between Grace and Dr. Jordan with subtle precision: he is ostensibly the diagnostician but she is the one with narrative authority, and the premiere's last scene makes clear that authority has specific stakes. The limited series (6 episodes) deploys its Netflix platform with the restrained confidence of prestige literary adaptation at its best."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:45:00+05:30"
 }
