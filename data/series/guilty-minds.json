@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Legal", "Drama", "Crime"],
+  "genres": [
+    "Legal",
+    "Drama",
+    "Crime"
+  ],
   "logline": "Two law school friends end up on opposing sides of Indian courtrooms - one fighting humanitarian cases from a legal aid centre, the other defending powerful clients at an elite firm - with every case testing their friendship, ethics, and competing visions of justice.",
   "poster": {
     "src": "/img/series/guilty-minds/poster.jpg",
@@ -64,9 +68,20 @@
       "audience": null,
       "review_body": "Released across April 20-22, 2022 on Prime Video, Guilty Minds arrived as a rare attempt to ground an Indian legal drama in procedural authenticity rather than courtroom melodrama. Creators Shefali Bhushan and Jayant Digambar Somalkar structured each of the ten episodes around a self-contained case - touching on rape adjudication, artificial intelligence liability, and water rights - while the central rivalry between Shriya Pilgaonkar's idealist Kashaf and Varun Mitra's corporate lawyer Deepak carried the emotional throughline. The Indian Express found it 'well-done, well-acted' and Hindustan Times praised the 'refreshing realism' of its courtroom depiction. Six Filmfare OTT Award nominations including Best Drama Series confirmed the show's standing among peers even without a widely aggregated critic score.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2022-04-20",
+          "bollymeter": 7.2,
+          "spoiler_free": "Guilty Minds' premiere positions itself as Amazon Prime's most serious attempt at a legal drama in the Indian context: a public interest law firm taking on cases that larger firms won't touch. The pilot establishes the ideological divide between Kashaf Quaze's principled practice and Aditya Sharma's corporate trajectory as the series' central tension. The first case - a domestic violence matter complicated by class dynamics - sets the show's ethical register.",
+          "the_moment": "The courtroom sequence where Kashaf's argument fails on procedural grounds she should have anticipated - the episode's most honest moment, refusing to make the idealistic lawyer infallible.",
+          "critic_note": null,
+          "review_body": "Guilty Minds' pilot earns its 7.0 score through its willingness to complicate its protagonist's idealism from the first episode. Kashaf Quaze (Shriya Pilgaonkar) is not positioned as a flawless hero but as a capable lawyer who is learning the difference between principled instinct and effective strategy. The Amazon Prime series benefits from a writing room that understands the Indian legal system's specific procedural texture - the pilot's courtroom sequences are the most formally credible in Indian streaming at their time of release. Varun Mitra's Aditya functions as a foil whose corporate pragmatism the series refuses to simply dismiss. A legal drama debut that earns its ambitions."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:30:00+05:30"
 }

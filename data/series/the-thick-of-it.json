@@ -72,7 +72,19 @@
         "source_url": "https://www.imdb.com/title/tt0459159/"
       },
       "review_body": "The Thick of It launched on BBC Four in May 2005 with three episodes and a cast-and-crew approach that was immediately identifiable: handheld cameras, partially improvised dialogue, and Peter Capaldi as Malcolm Tucker operating as a pure force of political intimidation. Creator Armando Iannucci drew on the access journalism of shows like Yes Minister but collapsed the distance between satire and documentary realism, producing something that felt uncomfortably close to actual governmental dysfunction under New Labour. Metacritic registered 92 out of 100 from the five critics who reviewed it on debut, an extraordinary score for a three-episode run on a minority channel. The show was immediately identified as essential British comedy.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2005-05-19",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Thick of It's BBC Four premiere is the origin point of modern British political satire. Armando Iannucci's half-hour mockumentary drops viewers into a government department in perpetual crisis, where hapless minister Hugh Abbot and his team respond to media and party leadership pressure with the specific incompetence that the series transforms into a comedy of institutional entropy. The first episode establishes Malcolm Tucker as the most intimidating figure in British television comedy.",
+          "the_moment": "Malcolm Tucker's first appearance - Peter Capaldi's performance establishing the character in the opening scene as a force of nature whose mere presence restructures every conversation he enters.",
+          "critic_note": null,
+          "review_body": "The Thick of It's premiere is the founding document of the modern British political comedy. Armando Iannucci's observation that government dysfunction generates comedy not through individual villainy but through systemic incompetence and communication panic is established in the first episode's central crisis - a policy announcement that immediately unravels. Peter Capaldi's Malcolm Tucker arrives fully formed as the series' most iconic creation: a communications enforcer whose verbal violence is calibrated to maximum psychological impact. At 97% RT for the series and named one of the greatest British comedies ever made, the premiere represents a standard that the show sustained across its entire run. The vocabulary of political satire changed after this episode aired."
+        }
+      ]
     },
     {
       "number": 2,
@@ -174,5 +186,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T00:00:00+05:30"
+  "date_modified": "2026-06-16T08:45:00+05:30"
 }

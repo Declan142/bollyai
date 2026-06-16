@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Thriller", "Mystery", "Crime", "Comedy"],
+  "genres": [
+    "Thriller",
+    "Mystery",
+    "Crime",
+    "Comedy"
+  ],
   "logline": "A man wakes in the Australian outback with no memory of who he is, pursued by people who want him dead for reasons he cannot recall - a darkly comic cat-and-mouse thriller that never quite plays the scene you expect.",
   "poster": {
     "src": "/img/series/the-tourist/poster.jpg",
@@ -70,7 +75,18 @@
       "audience": null,
       "review_body": "Season 1 aired January 1, 2022 on BBC One and became one of the year's most-discussed British thrillers. Written by Harry and Jack Williams (The Missing), the show drops Jamie Dornan's unnamed man into the Australian outback with no memory and an immediate set of people trying to kill him. The tonal balance is the series' achievement: genuinely threatening and genuinely funny in alternation, with the comedy landing without deflating the danger. Critics awarded 97 percent from 36 reviewers, with Dornan's performance as a blank who slowly becomes a person praised uniformly. Danielle Macdonald as local constable Helen Chambers provides the warm counterweight. The show works as both a thriller and a black comedy.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-01-01",
+          "bollymeter": 7.8,
+          "spoiler_free": "The Tourist's premiere is a formal puzzle built on a single premise: a man wakes up in the Australian Outback with no memory and someone trying to kill him. Jamie Dornan's 'The Man' is introduced through the violence against him rather than through character, which the episode turns into a formal statement - identity as what survives when everything else is stripped away.",
+          "the_moment": "The Man in his hospital bed piecing together the fragments of who he might be - the amnesia premise deployed not as genre hook but as the episode's actual philosophical question.",
+          "critic_note": null,
+          "review_body": "The Tourist's premiere earns its 87% Rotten Tomatoes score through the intelligence of its amnesia premise deployment. Rather than using the memory loss as a gimmick, the episode establishes it as the series' formal question: what constitutes identity when biographical continuity is absent? Jamie Dornan carries the role with the physical specificity that the character's disorientation demands. The Australian Outback setting - vast, hot, indifferent - amplifies the protagonist's vulnerability without making it schematic. BBC One and Netflix's co-production delivers a premiere that establishes genuine mystery alongside genuine character investment, which is the harder achievement."
+        }
+      ]
     },
     {
       "number": 2,
@@ -99,5 +115,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:45:00+05:30"
 }
