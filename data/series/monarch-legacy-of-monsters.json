@@ -27,7 +27,13 @@
     "confidence": "verified"
   },
   "status": "returning",
-  "genres": ["Sci-Fi", "Action", "Adventure", "Drama", "Mystery"],
+  "genres": [
+    "Sci-Fi",
+    "Action",
+    "Adventure",
+    "Drama",
+    "Mystery"
+  ],
   "logline": "Two siblings discover their father had a secret life connected to Monarch, the shadowy organisation that studies Kaiju - and two timelines (1950s and present day) converge on what Godzilla means for the human species.",
   "poster": {
     "src": "/img/series/monarch-legacy-of-monsters/poster.jpg",
@@ -70,7 +76,18 @@
       "audience": null,
       "review_body": "Season 1 premiered November 17, 2023 and ran until January 12, 2024, expanding the MonsterVerse into long-form television for the first time. The dual-timeline structure - Anna Sawai and Kiersey Clemons in the present; Kurt Russell and Wyatt Russell playing the same character in different eras - gave critics a structural hook to engage with beyond Kaiju spectacle. The 87 percent Rotten Tomatoes score from 87 critics reflected genuine approval: the show successfully scaled the franchise to human drama without abandoning the monster mythology. The casting of real-life father and son Kurt and Wyatt Russell as the same character across timelines was universally cited as the season's most inspired decision.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Aftermath",
+          "air_date": "2023-11-17",
+          "bollymeter": 7.5,
+          "spoiler_free": "Monarch: Legacy of Monsters arrives as Apple TV+'s entry into the MonsterVerse, set in the aftermath of the 2014 Godzilla film. The premiere's dual-timeline structure - the 1950s origins of the Monarch organization and the present-day fallout of Godzilla's San Francisco battle - allows the series to establish its family drama core without sacrificing the franchise mythology. Kurt and Wyatt Russell's father-son casting is the episode's formal bet.",
+          "the_moment": "The reveal of the 1950s Monarch operation - the moment that connects the present-day family mystery to a deeper institutional secret, making the series' dual timeline feel essential rather than ornamental.",
+          "critic_note": null,
+          "review_body": "Monarch: Legacy of Monsters' premiere earns its 86% Rotten Tomatoes score through the intelligence of its dual-timeline structure. The 1950s origin story for the Monarch organization and the present-day family drama - strangers connected by the Godzilla event - are established with enough specificity in the pilot to make both threads worth following. The casting of Kurt and Wyatt Russell as father and son across the time periods is both a formal solution (they're playing versions of the same character) and the episode's most effective acting hook. Apple TV+'s production values give the pilot the scale the MonsterVerse requires while keeping the character drama foregrounded. A more thoughtful entry point than typical franchise television."
+        }
+      ]
     },
     {
       "number": 2,
@@ -99,5 +116,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:15:00+05:30"
 }

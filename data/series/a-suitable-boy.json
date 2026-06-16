@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Drama", "Romance", "Historical"],
+  "genres": [
+    "Drama",
+    "Romance",
+    "Historical"
+  ],
   "logline": "In 1951 post-independence India, a determined mother searches for the right husband for her youngest daughter Lata - a university student torn between family duty and her own desires - as the country negotiates its new democratic identity.",
   "poster": {
     "src": "/img/series/a-suitable-boy/poster.jpg",
@@ -80,9 +84,20 @@
       },
       "review_body": "Mira Nair's six-episode adaptation of Vikram Seth's 1993 novel aired on BBC One from July 26 to August 24, 2020 - the first BBC period drama with an entirely non-white principal cast, produced at a budget of approximately 16 million pounds. Critics appreciated the visual opulence and Tabu's performance as Mrs. Mehra, and Metacritic settled at 73 from 9 reviewers with RogerEbert.com awarding 90 and praising its 'fascinating' fusion of romance and political drama. The Rotten Tomatoes score of 68 percent (31 reviews) reflected a more divided field: supporters called it 'luscious and cinematic' while detractors, including a Guardian critic, felt Andrew Davies's adaptation of an 1,349-page novel prioritised surface beauty over the novel's political and social depth. Audience response at 56 percent mirrored that ambivalence.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-07-26",
+          "bollymeter": 8.2,
+          "spoiler_free": "Mira Nair's opening episode of A Suitable Boy drops viewers into the wedding that will redefine Lata Mehra's life. The BBC production establishes its dual concerns in the first hour: Lata's resistance to arranged marriage and Maan Kapoor's dangerous passion for the courtesan Saeeda Bai. Nair renders Vikram Seth's vast canvas with remarkable colour and specificity, making the series' post-Partition 1951 India feel simultaneously epic and intimate.",
+          "the_moment": "The wedding scene's riot of costume and ceremony - Nair's direction making the occasion simultaneously joyful and anxiety-producing as Rupa begins her search.",
+          "critic_note": null,
+          "review_body": "A Suitable Boy's premiere establishes Mira Nair's approach to Vikram Seth's 1,300-page novel immediately: condensation in service of emotional clarity rather than plot efficiency. The six-episode BBC adaptation compresses decades of story to find the emotional core - Lata's resistance to maternal marriage pressure and Maan's self-destructive passion for Saeeda Bai - and the premiere establishes both threads with sufficient confidence that the tonal shifts between comic and tragic feel sustainable. The production's visual commitment to the specificity of 1951 Lucknow is the episode's largest formal achievement. At 83% on Rotten Tomatoes, the series earned its critical standing from this opening hour's fidelity to Seth's world-building without losing the human-scale intimacy that the novel prizes."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:00:00+05:30"
 }

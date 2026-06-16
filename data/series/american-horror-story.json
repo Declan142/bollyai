@@ -81,7 +81,18 @@
       },
       "review_body": "American Horror Story: Murder House launched on FX on October 5, 2011 with a concept that seemed too unstable to work: a haunted house drama where every victim becomes a permanent ghost, populating the building with decades of violent history. Critics gave it 72% on Rotten Tomatoes from 148 reviews and 62 on Metacritic - numbers that captured the show's genuine division between admirers and detractors. Admirers cited Ryan Murphy's maximalist energy and the sustained Jessica Lange performance as the ghost of a washed-up actress, which was immediately recognised as Emmy-level work. Detractors argued the plotting was deliberately incoherent. Both were correct, and that tension defined the anthology format Murphy would extend for over a decade.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2011-10-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "American Horror Story's series premiere establishes the anthology format's first incarnation - Murder House - as a maximalist haunted house series with Ryan Murphy's characteristic refusal of restraint. The Harmon family arrives at the LA Victorian with enough dysfunction to generate horror independent of the house's secrets. The pilot's formal register (jump cuts, vintage flashbacks, practical effects) is fully formed in the opening hour.",
+          "the_moment": "The rubber man's first appearance - staged as a horror image that the series will later complicate beyond its initial shock effect, making it one of the pilot's most loaded visual decisions.",
+          "critic_note": null,
+          "review_body": "American Horror Story's pilot arrives with the confidence of a series that knows exactly what genre excess it is committing to. The haunted house premise is so over-furnished with dysfunction - the Harmon marriage in crisis, the teenage daughter's trauma, the neighbour Constance's territorial Gothic menace - that the supernatural elements arrive almost as relief from the domestic horror. Jessica Lange's Constance is the pilot's scene-stealing achievement: a villain whose camp register Murphy has calibrated to the precise frequency where threat and comedy collapse into each other. At 87% RT for the inaugural season, the pilot established an anthology formula that would sustain a 12-season franchise. Murder House remains the most formally complete of the season installments."
+        }
+      ]
     },
     {
       "number": 2,
@@ -211,5 +222,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T10:00:00+05:30"
+  "date_modified": "2026-06-16T08:15:00+05:30"
 }

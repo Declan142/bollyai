@@ -76,7 +76,18 @@
       "audience": null,
       "review_body": "Season 1 premiered October 5, 2000 on The WB and introduced Lorelai Gilmore (Lauren Graham) and her sixteen-year-old daughter Rory (Alexis Bledel) to a television landscape that had not seen this particular combination before: relentlessly witty, pop-culture-saturated dialogue between women, in a heightened small-town setting that existed somewhere between realism and fairy tale. Metacritic assigned 81/100, indicating universal praise. The New York Times called it 'a witty, charming show.' Creator Amy Sherman-Palladino's signature fast-dialogue style, the mother-daughter dynamic, and the Stars Hollow world-building all arrived fully formed. The show's influence on a generation of streaming dramas - everything from Fleabag to Parenthood to Emily in Paris - is traceable to this first season.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2000-10-05",
+          "bollymeter": 8.5,
+          "spoiler_free": "The Gilmore Girls pilot establishes Lorelai and Rory's relationship through the coffee shop dialogue that gives the series its rhythmic signature. Amy Sherman-Palladino's rapid-fire, reference-dense exchanges between mother and daughter are the series' whole formal argument announced in the first scene: this is a show about the specific language a particular mother-daughter pair has evolved. Stars Hollow arrives as a deliberately heightened community - a small-town utopia with enough specific eccentricity to anchor the show's tonal commitment to warmth without sentimentality.",
+          "the_moment": "Lorelai and Rory's first coffee shop exchange - the pace and density of the dialogue establishing the series' voice before the first scene ends.",
+          "critic_note": null,
+          "review_body": "The Gilmore Girls pilot is the platonic case of a series premiere that knows exactly what it is. Amy Sherman-Palladino's dialogue density - the cultural references, the rhythm, the specific texture of Lorelai and Rory's mother-daughter vernacular - is established in the first coffee shop scene as this show's irreducible asset. The WB series launched with a 76% Rotten Tomatoes score from a small critic sample, but its cultural staying power (the Netflix revival in 2016, the permanent fandom) reflects something the pilot made clear: the relationship at its centre was specific enough to be genuinely original. Stars Hollow is introduced as the kind of place that only exists in television, which the episode acknowledges while making it feel real regardless. The pilot works because it commits to its register completely."
+        }
+      ]
     },
     {
       "number": 2,
@@ -255,5 +266,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:00:00+05:30"
 }

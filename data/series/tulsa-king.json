@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "returning",
-  "genres": ["Crime", "Comedy", "Drama", "Action"],
+  "genres": [
+    "Crime",
+    "Comedy",
+    "Drama",
+    "Action"
+  ],
   "logline": "A New York mob capo exiled to Tulsa, Oklahoma by his own boss builds a new criminal enterprise in unfamiliar territory - a comedic crime drama that works entirely on the star charisma of Sylvester Stallone.",
   "poster": {
     "src": "/img/series/tulsa-king/poster.jpg",
@@ -64,7 +69,18 @@
       "audience": null,
       "review_body": "Season 1 premiered November 13, 2022 as a Taylor Sheridan-created fish-out-of-water crime comedy built entirely around Sylvester Stallone. Dwight Manfredi (Stallone), exiled by the New York Mafia for refusing to testify against his boss, arrives in Tulsa to build a criminal enterprise from nothing. Critics split: Rotten Tomatoes recorded 79 percent but Metacritic assigned 65 indicating mixed reactions. The Rotten Tomatoes consensus noted the show 'sometimes feels like egg noodles and ketchup' compared to Sheridan's stronger work, while uniformly crediting Stallone's screen presence as the premise's core justification. The comedy of culture clash - a New York mobster encountering Oklahoma's norms - generates the show's most consistent entertainment.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2022-11-13",
+          "bollymeter": 7.5,
+          "spoiler_free": "Tulsa King's premiere drops Sylvester Stallone's Dwight 'The General' Manfredi into Tulsa, Oklahoma after 25 years in prison, assigned to establish a mob outpost for the New York family that abandoned him. The pilot is a fish-out-of-water premise executed with the competence Stallone's late-career television turn brings: Dwight's specific combination of violence and outdated chivalry is established in the first fifteen minutes as the series' whole engine.",
+          "the_moment": "Dwight's first Tulsa bar fight - staged not as action spectacle but as the specific quality of a man who learned his violence 25 years ago, applied to a situation he doesn't fully understand.",
+          "critic_note": null,
+          "review_body": "Tulsa King's pilot is precisely what it promises: a Stallone vehicle that finds a late-career register for its star in the streaming era. Dwight Manfredi's arrival in Tulsa after 25 years in prison is played as a comedy of displacement - a made man in a city that has no context for him - that escalates naturally into the pilot's violent conclusion. At 80% RT for Season 1, the series earned its critical response from the pilot's clarity of purpose: this is not ambitious television but it is very good at its specific ambitions. Taylor Sheridan's creation gives Stallone the kind of character that works with rather than against his screen presence. The Paramount+ series found a larger-than-expected audience because the pilot delivered on its premise without overcomplication."
+        }
+      ]
     },
     {
       "number": 2,
@@ -112,5 +128,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:15:00+05:30"
 }

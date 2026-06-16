@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "returning",
-  "genres": ["Thriller", "Mystery", "Horror", "Drama"],
+  "genres": [
+    "Thriller",
+    "Mystery",
+    "Horror",
+    "Drama"
+  ],
   "logline": "A family buys their dream house in a wealthy New Jersey suburb and immediately receives anonymous letters from someone who calls himself The Watcher - claiming to observe the house as his predecessors have observed it for decades.",
   "poster": {
     "src": "/img/series/the-watcher/poster.jpg",
@@ -70,9 +75,20 @@
       "audience": null,
       "review_body": "The Watcher premiered October 13, 2022, Ryan Murphy's dramatisation of the true story of the Broaddus family and the threatening letters they received after buying a house in Westfield, New Jersey. The Brannock family (Naomi Watts, Bobby Cannavale) receive the letters and their suburban dream turns into a paranoia spiral. Critics gave 56 percent - below Murphy's critical average - noting the show achieves its best effects in individual scenes of campy suburban menace but loses narrative coherence across its seven-episode run. Jennifer Coolidge and Margo Martindale as sinister neighbours generated the show's most entertaining moments. The underlying true story's unresolved nature means the show must invent an ending, and the invention did not satisfy critics. Audience engagement on Netflix was strong enough to earn a second season renewal.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Welcome, Friends",
+          "air_date": "2022-10-13",
+          "bollymeter": 6.5,
+          "spoiler_free": "Ryan Murphy's The Watcher adapts the real-estate horror story of John and Jennifer Reeves Carroll - a New Jersey couple who received threatening letters from someone called 'The Watcher' after buying their dream house - as a maximalist limited series. The premiere establishes the escalating paranoia with Murphy's characteristic sensory overload and Naomi Watts and Bobby Cannavale as the couple whose rational lives are progressively dismantled.",
+          "the_moment": "The arrival of the first letter from 'The Watcher' - the moment that transforms the house purchase from aspiration to trap, staged with Murphy's precise understanding of domestic horror.",
+          "critic_note": null,
+          "review_body": "The Watcher's premiere deploys Ryan Murphy's maximalist approach to true crime with more tonal coherence than many of his series manage in the opening hour. The suburban horror premise - a dream house that arrives with a stalker - is established with genuine dread in the pilot, before the series' later episodes trade coherence for escalation. Naomi Watts and Bobby Cannavale are well-matched as a couple whose different responses to the threat (his paralysis, her determination) generate domestic tension alongside the external one. At 62% RT for the season, the pilot is stronger than the critical consensus: Murphy's direction in the first episode locates the specific horror of a violated domestic space before the series' later episodes overextend the premise."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:15:00+05:30"
 }

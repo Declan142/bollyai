@@ -76,7 +76,19 @@
         "source_url": "https://www.imdb.com/title/tt7203552/"
       },
       "review_body": "The Morning Show launched as one of Apple TV+'s flagship originals in November 2019, starring Jennifer Aniston, Reese Witherspoon, and Steve Carell. Critics gave it 62% from 107 reviews - a divided response that praised the lead performances while questioning whether the show's #MeToo framing was substantive or merely fashionable. The Hollywood Reporter noted the visual polish was undeniable but the drama kept undercutting its own harder edges for star-vehicle sentimentality. The 64% audience score on Rotten Tomatoes was more generous than later seasons would find. Jennifer Aniston received a Screen Actors Guild Award for her performance.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "In the Dark Night of the Soul It's Always 3:30 in the Morning",
+          "air_date": "2019-11-01",
+          "bollymeter": 7.8,
+          "spoiler_free": "The Morning Show's premiere drops Jennifer Aniston's Alex Levy and Reese Witherspoon's Bradley Jackson into the post-Weinstein media environment with a specificity that the series' Apple TV+ platform made possible in 2019. The pilot establishes the two-lead structure - Alex facing the fallout from her co-anchor Mitch Kessler's (Steve Carell) removal for sexual misconduct, Bradley arriving as an unlikely replacement - with a newsroom confidence that benefits from a $15 million per episode budget.",
+          "the_moment": "Alex learning about Mitch's removal on air - Aniston's specific reaction, which the episode stages as a performance-within-a-performance, making the professional mask and the personal shock simultaneous.",
+          "critic_note": null,
+          "review_body": "The Morning Show's premiere earns its Apple TV+ flagship status through the specific confidence of its star pairing. Jennifer Aniston and Reese Witherspoon as women whose professional trajectories will collide over a male colleague's misconduct is both the series' immediate hook and its structural thesis. At 64% RT for Season 1, the premiere represents a series that divided critics between admiring its ambition and finding its execution tonally uneven - the #MeToo content handled with more earnestness than formal intelligence. The newsroom setting is rendered with enough production specificity to feel authentic, and Carell's Steve Carell (pre-credited as a protagonist) establishes enough moral ambiguity in the premiere to justify the series' complexity."
+        }
+      ]
     },
     {
       "number": 2,
@@ -150,5 +162,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T12:00:00+05:30"
+  "date_modified": "2026-06-16T08:15:00+05:30"
 }
