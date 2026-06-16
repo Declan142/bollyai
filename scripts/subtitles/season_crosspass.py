@@ -161,6 +161,12 @@ def main() -> int:
     if args.rematch:
         return rematch_existing(args.slug)
 
+    import os
+    if os.path.exists(os.path.expanduser("~/bollyai/data/subtitles/_engine/.azure-only")):
+        print(f"{args.slug}: crosspass SKIPPED (azure-only mode; the mega lanes need 1M-ctx "
+              f"OpenRouter, disabled per Aditya no-OpenRouter 2026-06-16). Core dossiers/reviews unaffected.")
+        return 0
+
     corpus, neps, recurring = build_corpus(args.slug)
     est_tokens = int(len(corpus.split()) * 1.4)
     print(f"{args.slug}: {neps} eps, ~{est_tokens//1000}K tokens corpus")

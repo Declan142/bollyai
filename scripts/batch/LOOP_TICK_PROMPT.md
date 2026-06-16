@@ -6,8 +6,11 @@ READ FIRST, in order:
 2. /home/aditya/bollyai/scripts/batch/AUTHORING_BRIEF.md   (authoring spec + every honesty fence)
 3. /home/aditya/bollyai/RESUME.md                          (project state)
 
-TARGET CHECK: run `ls /home/aditya/bollyai/data/series/*.json | wc -l`. If it is >= 500,
+TARGET CHECK: run `ls /home/aditya/bollyai/data/series/*.json | wc -l`. If it is >= 1000,
 print "target reached" and EXIT immediately (do nothing else). The launcher also guards this.
+
+EXCLUSION: the slugs i-will-find-you, beef, physical-100, you are RESERVED by the deep
+subtitle-grounded lane - never author them here (treat as already-existing; skip).
 
 Then DO EXACTLY ONE BATCH:
 
@@ -29,13 +32,18 @@ Then DO EXACTLY ONE BATCH:
    it if a subagent missed it.
 
 4. Run: `bash /home/aditya/bollyai/scripts/batch/ingest_batch.sh <all new slugs>`
-   (fix -> validate -> posters -> build). If it fails, fix the reported issues and re-run ONCE.
-   If it still fails, append the problem to /home/aditya/bollyai/data/_state/buildout-loop.log
-   and EXIT WITHOUT committing. Never commit red.
+   (fix -> validate -> posters -> build). RUN IT IN THE FOREGROUND and WAIT for it to finish in
+   THIS SAME TURN (use a long Bash timeout, e.g. 1800000 ms). DO NOT background ingest and end the
+   turn - if you background it then exit, step 5's commit never runs and the whole batch is LOST
+   (this regression hit ticks 1-2 on 2026-06-16). If it fails, fix the reported issues and re-run
+   ONCE. If it still fails, append the problem to data/_state/buildout-loop.log and EXIT WITHOUT
+   committing. Never commit red.
 
 5. If green: `cd /home/aditya/bollyai && git add data/series/ site/public/img/series/ data/_state/library-buildout.md`
    then commit with a descriptive message ending with the trailer
-   `Co-Authored-By: Claude <noreply@anthropic.com>`, then `git push origin main`.
+   `Co-Authored-By: Claude <noreply@anthropic.com>`. Do NOT push and do NOT deploy - the
+   Vyom floor (orchestrator) runs the full pytest suite, then pushes + deploys in throttled
+   waves. Your job ends at a green local commit.
 
 6. Update the ledger (data/_state/library-buildout.md): bump the "Progress" count and add a
    one-line batch entry with the commit hash and the slugs added.

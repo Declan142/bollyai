@@ -1,3 +1,52 @@
+# BollyAI - pickup state (2026-06-16 ~17:08, 6H PUSH RUNNING - WAVE-1 DEPLOYED)
+
+## WAVE-1 STATUS (17:08)
+- Loop: 566 -> 687 series (+121 in ~75min, 4 ticks). FIXED a commit bug: ticks 1-2 backgrounded
+  ingest then exited before committing -> floor committed the 93. LOOP_TICK_PROMPT step 4 now
+  mandates FOREGROUND ingest (so future ticks self-commit).
+- Deep lane DONE its 4 reserved: beef 18 + physical-100 18 + you 49 = 85 deep eps validated;
+  i-will-find-you HONEST-SKIPPED (subs contaminated/mixed from 4 shows + unreleased). Now an
+  Azure harvest-pump (tvf-pitchers, black-warrant ...).
+- DEPLOYED 93 new series LIVE: commit `ab6b147`, gates GREEN (pytest 262 + npm build 658pp +
+  AggregateRating clean), verified `/series/{zerozerozero,acapulco}/` 200, IndexNow 85 pinged.
+- PUSH DEFERRED: origin +1 trivial commit ("data: daily refresh", a cron); local +47 ahead.
+  Do `git stash push -- data/series/tvf-pitchers.json && git pull --rebase origin main && git push
+  && git stash pop` at the FINAL tick (when loop stopped) to avoid mid-run rebase conflicts.
+- AZURE-ONLY COMPLETE (Aditya: no OpenRouter): extract_dossier->gpt-5.4-nano (.azure-only flag),
+  season_crosspass SKIPPED (flag; needs 1M-ctx OpenRouter), regen finals=gpt-5-4 default. Last
+  OpenRouter leak was crosspass:black-warrant 17:07, ~1min before the gate. FULL/gpt-5-4 is cap-3.
+- Build worktree: `/tmp/bolly-ship1` at ab6b147 (REUSE next wave: `git -C /tmp/bolly-ship1 checkout
+  <new-sha>`; never rm/worktree-remove - deny-listed).
+
+# BollyAI - pickup state (2026-06-16 ~15:52, 6H CONTENT PUSH RUNNING - resource-saving)
+
+## 30-SEC SNAPSHOT (overrides everything below)
+Aditya: "resource saving mode + 6 ghante back-to-back content hi content bhar de, especially
+new series like widows bay." Vyom floor = vyom3 (owns bollyai). TWO content streams LIVE:
+- **Stream 1 - buildout loop** (tmux session `bollyloop`, driver `scripts/batch/loop_6h.sh 6`):
+  fires `loop_tick.sh` back-to-back. Each tick = a FRESH Sonnet headless session authoring ~30
+  NEW web-grounded series (5 Sonnet subagents per AUTHORING_BRIEF), validate+ingest, COMMIT-ONLY.
+  Target bumped 500->1000 (ledger + LOOP_TICK_PROMPT). Log: `data/_state/buildout-6h.log`.
+  Started 15:52, baseline 566 series. Stops at 6h wall-clock / BUILDOUT_STOP / target 1000.
+- **Stream 2 - deep lane** (`conductor` session `bolly6h`, lane `bolly-deep`, Sonnet): subtitle-
+  grounded DEEP reviews (the widows-bay-flavor moat) for i-will-find-you (14 dossiers ready) +
+  beef + physical-100 + you. Brief: `.brief-bolly-deep.md`. These 4 slugs are RESERVED (loop
+  excludes them). Gen = **Azure gpt-5.4 ONLY** (Aditya 2026-06-16: NO OpenRouter/DeepSeek).
+  Enforced by: `data/subtitles/_engine/.azure-only` flag + new Azure backend in
+  `extract_dossier.py` (`_dossier_call`, gpt-5.4-nano dossiers, PROVEN ~14s/ep) + env file
+  `scripts/subtitles/.azure-env.sh` (nano drafts, gpt-5-4 finals; FULL is cap-3, keep low concurrency).
+  Do NOT revert to DSV4/orfree. The Sonnet web-loop (Stream 1) is unaffected (it web-authors,
+  never calls extract_dossier).
+- **FLOOR (me) owns deploy**: loop+lane NEVER push/deploy. Every ~75-90min reconcile-gate ->
+  full pytest -> push -> deploy wave from a clean worktree (`/tmp/bolly-ship1`, currently pruned/
+  needs re-add) -> IndexNow <=85/wave. Deploy/push authority granted (CLAUDE.md 2026-06-13);
+  gates-green = approval. SERIALIZE floor npm-build vs a loop tick's build (single-flight lock
+  /tmp/bollyai-buildout.lock or briefly pause loop). widows-bay is ALREADY LIVE (200).
+- To HALT everything: `touch data/_state/BUILDOUT_STOP` (stops loop next tick) +
+  `conductor kill --session bolly6h` (drains deep lane gracefully).
+
+---
+
 # BollyAI - pickup state (2026-06-16 ~02:45, NIGHT DONE -> NEXT: MAKE IT SPECTACULAR)
 
 ## 🎯 NEXT SESSION (Aditya's directive): MAKE bollyai.in SPECTACULAR - pure DESIGN/CRAFT push

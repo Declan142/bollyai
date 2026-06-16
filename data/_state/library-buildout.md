@@ -1,7 +1,9 @@
 # BollyAI Library Buildout — loop ledger
 
 **Started:** 2026-06-09 · **Baseline:** 183 series
-**Target:** provisional 500 (confirm with Aditya) · **Stop:** target reached OR Aditya halts
+**Target:** 1000 (Aditya 2026-06-16: 6h back-to-back content push, resource-saving Sonnet) · **Stop:** target reached OR Aditya halts OR BUILDOUT_STOP OR 6h wall-clock
+**Deep-lane reserved (do NOT author in loop):** i-will-find-you, beef, physical-100, you (subtitle-grounded deep cohort, owned by bolly-deep lane)
+**This run:** ticks COMMIT-ONLY (no push/deploy); the Vyom floor runs full pytest then pushes + deploys in throttled waves (IndexNow <=85/wave).
 **Velocity policy:** author+gate+commit AGGRESSIVE (reversible/internal); deploy+IndexNow
 THROTTLED — site is 1 day old, avoid spam-velocity signal. (confirm cadence with Aditya)
 
