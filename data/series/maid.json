@@ -27,7 +27,10 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Drama", "Biographical"],
+  "genres": [
+    "Drama",
+    "Biographical"
+  ],
   "logline": "A young mother flees an abusive relationship with her toddler and almost nothing else, navigating the welfare system, poverty, and institutional indifference while cleaning houses for wages that barely cover bus fare.",
   "poster": {
     "src": "/img/series/maid/poster.jpg",
@@ -70,9 +73,30 @@
       "audience": null,
       "review_body": "Maid arrived October 1, 2021, adapted from Stephanie Land's memoir by showrunner Molly Smith Metzler. Margaret Qualley plays Alex, a young mother who escapes an emotionally abusive relationship with her toddler and is immediately consumed by the bureaucratic nightmare of poverty: housing programs with months-long waitlists, welfare systems designed to humiliate, jobs that barely cover childcare. Critics awarded 94 percent on Rotten Tomatoes, with the consensus praising both the unflinching systemic critique and Qualley's outstanding lead performance. Andie MacDowell - Qualley's real mother - plays Alex's erratic, unwell mother with uncomfortable authenticity. The show is deliberately exhausting in the way poverty itself is: each solved problem reveals three more. One of Netflix's most purposeful limited series.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Dollar Store",
+          "air_date": "2021-10-01",
+          "bollymeter": 9.0,
+          "spoiler_free": "Maid opens at 4am with Alex packing her daughter Maddy into a car and leaving. What follows is the first episode's actual subject: a system designed to help people like Alex that is so fragmented, so means-tested, and so exhausting to navigate that the help becomes another form of harm. Margaret Qualley anchors every frame without making the struggle legible - the point is that it isn't legible from inside it.",
+          "the_moment": "Alex calling a domestic abuse hotline and being told her situation does not qualify - the specific bureaucratic logic of what counts as abuse and what the system will act on.",
+          "critic_note": null,
+          "review_body": "Maid's premiere earns its title in the structural sense: it watches a woman clean for a living while everything else is dirty. Alex's exit from her relationship with Sean is staged not as a dramatic break but as a logistical problem with no clean solution - nowhere to go, no money, a daughter who needs a school record. The premiere is at its best when it finds the specific absurdity of the support system Alex encounters: the shelter intake form, the eligibility matrix, the hotline definition of abuse. At 94% on Rotten Tomatoes, the series' standing rests on how the premiere established the gap between what help is supposed to look like and what Alex actually encounters."
+        },
+        {
+          "number": 10,
+          "title": "Sky",
+          "air_date": "2021-10-01",
+          "bollymeter": 9.1,
+          "spoiler_free": "Maid's finale resolves Alex's arc with the specificity and lack of false triumph that the series had been building toward. The ending is earned rather than hopeful in the conventional sense - progress measured in bus tickets and accepted uncertainty rather than solved problems.",
+          "the_moment": "Alex on the bus with Maddy - the final frame of the series, which refuses the conventions of the uplift narrative while delivering something more honest.",
+          "critic_note": null,
+          "review_body": "The Maid finale lands where the series pointed: not at rescue but at agency. Alex's arc from the 4am departure of episode 1 to the finale's ending is not a story of the system being fixed but of a person learning to move through it without being destroyed by it. The 94% RT consensus for the series reflects how the finale's refusal of triumphalism felt earned rather than pessimistic. Margaret Qualley and Andie MacDowell (her real-life mother playing her fictional one) share the finale's most difficult scenes, and the family dynamics add a layer of complication that resists the single-villain narrative. The final image is the series' most honest statement."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:00:00+05:30"
 }

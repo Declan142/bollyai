@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Crime", "Drama", "Biographical"],
+  "genres": [
+    "Crime",
+    "Drama",
+    "Biographical"
+  ],
   "logline": "A journalist investigates Anna Delvey - the fake German heiress who defrauded New York's elite for years - and can't decide whether her subject is a con artist, a performance artist, or both.",
   "poster": {
     "src": "/img/series/inventing-anna/poster.jpg",
@@ -70,9 +74,30 @@
       "audience": null,
       "review_body": "Inventing Anna premiered February 11, 2022, created by Shonda Rhimes and adapted from Jessica Pressler's New York Magazine article on Anna Sorokin's scam of New York's wealthy social elite. Julia Garner plays Sorokin with a deliberately arch accent and a performance that commits to the role's contradictions: is Anna a criminal, a performance, or someone who took social climbing to its logical extreme? Critics scored the show at 64 percent from 87 reviews, noting the tonal inconsistency between the true-crime framework and the gleeful pro-con energy Rhimes brings to her work. Anna Chlumsky's journalist narrator occasionally drags the pacing. The show is more enjoyable than it is good - and enjoyable enough to justify nine episodes.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "pilot",
+          "air_date": "2022-02-11",
+          "bollymeter": 6.5,
+          "spoiler_free": "The premiere of Inventing Anna drops viewers into the New York Magazine journalist Vivian Kent's investigation of Anna Sorokin immediately, framing the story as a puzzle of competing accounts. Julia Garner's Anna arrives in fragments - each witness remembers a different performance. The episode's confidence is its tonal commitment to telling a con story in the register of a con: slick, entertaining, and aware of its own artifice.",
+          "the_moment": "Anna's first hotel arrival - the specific physicality Garner brings to the character, accent and posture fused into something that makes the fraud immediately legible.",
+          "critic_note": null,
+          "review_body": "Inventing Anna's premiere establishes its Shondaland register immediately: propulsive, stylized, structurally complex in a way that privileges entertainment over moral accounting. The split-timeline approach - journalist Vivian Kent investigating in retrospect, Anna's story unfolding in fragments through competing witness accounts - suits the subject's essential ambiguity. Julia Garner's performance is the episode's whole argument: an Anna who is never quite the same person twice, which is both the character's engine and the show's formal thesis. At 64% on Rotten Tomatoes, the premiere earned the series' mixed critical response through this tonal choice - too knowing for some, appropriately seductive for others."
+        },
+        {
+          "number": 6,
+          "title": "Friends in High Places",
+          "air_date": "2022-02-11",
+          "bollymeter": 6.8,
+          "spoiler_free": "Episode 6 is Inventing Anna at its most purely entertaining - the Moroccan trip sequence, in which Anna orchestrates a vacation on stolen credit and sheer audacity, plays like a caper film. The episode clarifies the show's implicit argument: Anna's success depended entirely on other people's desire to believe in the version of wealth she was performing.",
+          "the_moment": "The Moroccan hotel checkout - the specific mechanics of how Anna engineers the escape from the bill, which the episode stages as simultaneously appalling and impressive.",
+          "critic_note": null,
+          "review_body": "Episode 6 is where Inventing Anna fully commits to the caper-film register its subject invites. The Moroccan trip - Anna assembling a group of friends, running up a bill that exceeds anyone's reasonable expectation, then engineering an exit through social pressure and theatrical confidence - is the series at its most kinetic. The episode illuminates the central mechanism of Anna's fraud: she was not exploiting the greedy but the aspirational, people whose desire to be proximate to wealth made them complicit in the performance. Julia Garner is the episode's engine throughout, modulating between Anna's warmth and her calculation in a way that makes the viewer's own complicity in enjoying the story visible."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:00:00+05:30"
 }
