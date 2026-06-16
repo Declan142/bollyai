@@ -1,0 +1,118 @@
+{
+  "slug": "beforeigners",
+  "qid": {
+    "value": "Q66438471",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Beforeigners",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Norway",
+  "original_language": {
+    "value": "nb",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO Max",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Crime", "Drama"],
+  "logline": "People from the Stone Age, the Viking era, and the 19th century are mysteriously appearing in present-day Oslo - and an Oslo detective must solve a murder with a victim from prehistory.",
+  "poster": {
+    "src": "/img/series/beforeigners/poster.jpg",
+    "alt": "Beforeigners poster",
+    "attribution": "Poster © HBO Nordic / Viafilm. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded with Season 2 in January 2022. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Beforeigners"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-08-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "100% on Rotten Tomatoes from 5 critics (small sample). Pajiba called it 'an addictive binge' with 'fantastic performances'; critics praised the high-concept premise and its commentary on immigration and integration as a genuine sci-fi allegory."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "It's a solid crime drama with a neat, high-concept premise, and some fantastic performances - Beforeigners is an addictive binge.",
+            "source": "Pajiba",
+            "url": "https://www.rottentomatoes.com/tv/beforeigners/s01"
+          },
+          {
+            "text": "This high-concept Norwegian TV series that blends time-travel science-fiction with buddy cop and murder mystery actually works.",
+            "source": "Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/beforeigners/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Beforeigners (Fremvandrerne) launched on HBO Nordic in August 2019 with a premise that immediately marked it out as one of the more original crime dramas in recent European television: people from different historical periods are mysteriously emerging in contemporary Oslo and must integrate into modern society. The central murder investigation - a Stone Age woman found dead, a case assigned to detective Lars Haaland and his partner Alfhildr, a Viking-era arrival herself - functions simultaneously as procedural and immigration allegory. All five English-language critics at Rotten Tomatoes gave it a positive review. Pajiba called it an addictive binge with fantastic performances. The Chicago Tribune noted its procedural fidelity while flagging that the high-concept premise was sometimes more interesting than the character development. The show's underlying commentary on how societies treat new arrivals - refugee camps, integration programs, discrimination - gave it a cultural seriousness that critics appreciated.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-08-21",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes its world with admirable economy - Oslo has built refugee-style processing centres for time-displaced arrivals, and the show treats the bureaucratic normalisation of the impossible as both comic and pointed. The murder investigation begins with a victim whose origin defies standard forensics.",
+          "the_moment": "The first glimpse of an integration camp for historical arrivals - the show's central metaphor made literal in a single image.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-12-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "60% on Rotten Tomatoes from 5 critics. Reviewers found Season 2 less intimate and more procedurally conventional; the high-concept energy of Season 1 diluted into a less focused narrative."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 5,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in December 2021 to a noticeably cooler critical reception - 60% on Rotten Tomatoes from 5 reviewers versus the debut's perfect score. The show scaled up its production ambitions in ways that reduced the intimate texture of Season 1, and the narrative feels less focused, spreading across more storylines without deepening any of them significantly. The high-concept premise remains intact but Season 2 deploys it more mechanically than the first season managed. For those already invested in the characters - particularly the partnership between Lars and Alfhildr - it is a watchable if diminished continuation. The series ended after this season with the central mysteries partially resolved.",
+      "season_over_season": "Season 2 scales up and loses the close-focus intimacy that made Season 1's premise feel genuinely fresh.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

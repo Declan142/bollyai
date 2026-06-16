@@ -1,0 +1,107 @@
+{
+  "slug": "extraordinary-you",
+  "qid": {
+    "value": "Q65272295",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T14:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Extraordinary You",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Romance",
+    "Comedy",
+    "Coming of Age"
+  ],
+  "logline": "A high school student discovers she is a nameless extra inside a manhwa comic, and bends the story from within to rewrite her fate alongside a boy who has no name at all.",
+  "poster": {
+    "src": "/img/series/extraordinary-you/poster.jpg",
+    "alt": "Extraordinary You poster",
+    "attribution": "Poster © MBC / Monster Union. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 32 episodes concluded November 21, 2019. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Extraordinary_You"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 32,
+      "release_date": {
+        "value": "2019-10-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "IMDb audience rates it 7.7/10; critics at The Review Geek praised its cleverly self-aware manhwa premise and strong comedy-mystery blend, though the finale drew mild criticism for playing it safe."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Extraordinary You is a cleverly written series combining comedy and mystery elements to great effect within the self-aware confines of a comic book.",
+            "source": "The Review Geek",
+            "url": "https://www.thereviewgeek.com/extraordinaryyou-s1review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10826102/"
+      },
+      "review_body": "Extraordinary You arrived on MBC in October 2019 with a meta-romantic conceit that Korean drama had rarely attempted: its heroine, Dan-oh, is not the lead of her story but a nameless extra in a manhwa, fully conscious that her fate is scripted. Critics at The Review Geek praised the series for combining comedy and mystery within a self-aware comic-book frame, calling it one of the better K-dramas of that year. Audience reception was strong on streaming, where younger viewers rewarded it with the MBC Drama Awards prize for Drama of the Year via fan vote. The 32-episode run keeps the meta-premise fresh through most of its length, with the central romance gaining weight as Dan-oh and Haru chip away at their predetermined storyline. The finale was noted as slightly safe, leaving an opening for continuation that never came - but the main arc lands with enough warmth to satisfy.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Dan Oh, an Extra Character",
+          "air_date": "2019-10-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the show's central conceit with rare confidence: a high-school girl wakes inside a manhwa world, aware she is a background character in someone else's love story. The tonal balance between comedy and existential unease is established immediately.",
+          "the_moment": "Dan-oh freezes mid-scene, realising she can observe the comic's panels from outside the story - a visual trick that defines the series' language.",
+          "critic_note": null
+        },
+        {
+          "number": 31,
+          "title": "Let's Break Up",
+          "air_date": "2019-11-20",
+          "bollymeter": 8.2,
+          "spoiler_free": "The penultimate episode raises the stakes on every relationship thread and delivers the emotional collision the season has been building toward. Pacing here is sharper than the mid-season stretch.",
+          "the_moment": "Haru's confrontation with the limits of what rewriting a story can actually fix.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T14:00:00+05:30"
+}

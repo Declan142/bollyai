@@ -1,0 +1,105 @@
+{
+  "slug": "tatami-galaxy",
+  "qid": {
+    "value": "Q1134458",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Tatami Galaxy",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Funimation",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Comedy", "Psychological", "Romance", "Slice of Life"],
+  "logline": "A Kyoto University student relives his college years across parallel timelines, joining different clubs each time, only to discover that regret and the wrong friend follow him through every branch of possibility.",
+  "poster": {
+    "src": "/img/series/tatami-galaxy/poster.jpg",
+    "alt": "The Tatami Galaxy poster",
+    "attribution": "Poster © Madhouse / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "An 11-episode limited series that aired April to July 2010 on Fuji TV's Noitamina block. No continuation has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Tatami_Galaxy"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 11,
+      "release_date": {
+        "value": "2010-04-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Won the Grand Prize at the 2010 Japan Media Arts Festival in Animation and the 2011 Tokyo Anime Award; MAL score of 8.55 from over 157,000 raters; critics called it 'a richly expressive work that turns the limitations of TV on its head.'"
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.55,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/7785/Yojouhan_Shinwa_Taikei"
+      },
+      "review_body": "The Tatami Galaxy (Yojouhan Shinwa Taikei) aired on Fuji TV's Noitamina programming block in 2010, adapted by Madhouse from Tomihiko Morimi's novel. Director Masaaki Yuasa's visual approach - rapid-fire narration, dense text overlays, flat geometric backgrounds - was the most discussed aspect at broadcast. The series won the Grand Prize at the 2010 Japan Media Arts Festival in Animation, with judges citing it as 'a richly expressive work that turns the limitations of TV on its head.' The 2011 Tokyo Anime Award followed. The narrative's conceit - the unnamed protagonist reliving university through parallel club choices, encountering the same people in different configurations - led critics to compare it to European absurdist fiction rather than conventional anime. MAL ranked it #139 overall with a score of 8.55 from 157,000 raters, placing it among the medium's most admired cult titles.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Ablutions",
+          "air_date": "2010-04-22",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere delivers the series' premise and its formal method simultaneously: rapid narration, dense visual texture, the unnamed protagonist's self-defeating logic laid out in compressed monologue. The episode is essentially the series in miniature - the structure that will repeat and mutate across ten more episodes is announced in full here.",
+          "the_moment": "The narrator's self-description - the pace and density of the monologue signalling immediately that this is not conventional anime storytelling.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Four-and-a-Half-Mat Room Welfare Committee",
+          "air_date": "2010-06-24",
+          "bollymeter": 8.8,
+          "spoiler_free": "The penultimate episode is where the show's structural logic converges into something existential. The protagonist finds himself trapped inside an endless maze of identical tatami rooms - the series' central metaphor made literal. The episode stands as one of the most formally inventive in anime television, a sequence that turns formal repetition into genuine dread.",
+          "the_moment": "The infinite corridor of tatami rooms - a visual sequence reviewers have compared to Borges in its treatment of repetition and despair.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "Tatami Galaxy",
+          "air_date": "2010-07-01",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the series' philosophical argument with an earned optimism that arrives as a genuine surprise after ten episodes of rigorous self-punishment. The conclusion delivers catharsis without dishonesty - a rarity in narratives built on this much formal self-awareness.",
+          "the_moment": "The protagonist's realisation at the series' close - the moment where the formal experiment pays its emotional dividend.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

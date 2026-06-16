@@ -1,0 +1,112 @@
+{
+  "slug": "yumis-cells",
+  "qid": {
+    "value": "Q107358404",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Yumi's Cells",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TVING / tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Romance", "Comedy", "Drama", "Slice of Life"],
+  "logline": "An ordinary office worker's romantic life, career anxieties, and inner contradictions are narrated through the animated brain cells who govern her every decision - from Love Cell to Reason Cell to Hunger Cell.",
+  "poster": {
+    "src": "/img/series/yumis-cells/poster.jpg",
+    "alt": "Yumi's Cells poster",
+    "attribution": "Poster © TVING / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 3 premiered May 2026 on TVING, confirmed as an ongoing continuation of the webtoon adaptation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Yumi%27s_Cells"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 14,
+      "release_date": {
+        "value": "2021-09-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Critics praised its refreshing hybrid of 3D-animated cell sequences and live-action romance, with an 8.1 IMDb audience score and a 8.4 on MyDramaList across 27,000+ ratings."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14596630/ratings/"
+      },
+      "review_body": "Yumi's Cells debuted on TVING in September 2021 as the most formally inventive Korean romance of the year: a live-action drama interspersed with animated sequences inside the protagonist's head, where anthropomorphised brain cells argue over her love life, career choices, and lunch. Kim Go-eun's performance as Yumi grounds a show that could easily have become gimmicky - her Love Cell's dormancy and revival across the season mirrors the emotional truth of reconnecting with feeling after long numbness. The series earned an 8.1 on IMDb and an 8.4 on MyDramaList from 27,000 users. Season 2 quadrupled TVING subscriber numbers and Cine21 ranked it among the best dramas of 2022. The animation integration was the show's formal signature; the webtoon origins give the premise a built-in shorthand that rewards viewers familiar with the source.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-09-17",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere introduces the cell world with wit and visual invention, establishing how Yumi's inner parliament - Love Cell, Reason Cell, Hunger Cell and dozens more - produce her external behaviour. The framing device is immediately charming and surprising in equal measure.",
+          "the_moment": "Love Cell's dramatic awakening after years of dormancy - signalled by a small, almost accidental moment with game developer Goo Woong.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 14,
+      "release_date": {
+        "value": "2022-06-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 2 quadrupled TVING subscriber numbers per reported metrics and earned a Cine21 top-10 of 2022 ranking; the shift to a new love interest divided some fans of the Season 1 romance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 of Yumi's Cells aired in 2022 and continued the TVING subscriber surge the show had ignited, earning a place in Cine21's best series of the year list. The season introduces Park Jin-young as Babi, Yumi's new love interest, and refocuses her arc on writing ambitions alongside the romance - a structural gamble that allowed the show to mature its central character while testing the audience's attachment to the prior relationship. The transition from Woong to Babi was the season's most contested element: the shift tested whether the audience's investment was in the couple or in Yumi herself. The animated cell sequences remained the show's signature visual pleasure, and the production maintained its inventive hybrid format throughout.",
+      "season_over_season": "Season 2 replaces the Season 1 love interest and shifts thematic weight toward Yumi's creative ambitions, broadening the show's scope at the cost of continuity for viewers attached to the original pairing.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

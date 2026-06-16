@@ -1,0 +1,97 @@
+{
+  "slug": "love-to-hate-you",
+  "qid": {
+    "value": "Q110646204",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T14:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Love to Hate You",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Comedy",
+    "Drama"
+  ],
+  "logline": "A fiercely feminist entertainment lawyer and Korea's most guarded rom-com star collide at work and in life, trading mutual suspicion for something neither planned.",
+  "poster": {
+    "src": "/img/series/love-to-hate-you/poster.jpg",
+    "alt": "Love to Hate You poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season Netflix original, 10 episodes, premiered February 10, 2023. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Love_to_Hate_You_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-02-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "80% on Rotten Tomatoes from 5 critics and a 95% audience score. Critics found the plot contrived but Kim Ok-vin's performance noted as a standout. Lightweight, watchable romantic comedy elevated by its lead."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "The plot is definitely contrived, but the story and the performance of Kim Ok-vin makes the series very watchable.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/love_to_hate_you"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes",
+        "source_url": "https://www.rottentomatoes.com/tv/love_to_hate_you"
+      },
+      "review_body": "Love to Hate You dropped on Netflix in February 2023 as a breezy 10-episode romantic comedy built around an enemies-to-lovers pairing between a feminist entertainment lawyer and a movie star who distrusts women. The premise is deliberately familiar - the show wears its genre codes cheerfully rather than subverting them - and most of the five critics who reviewed it at Rotten Tomatoes acknowledged as much, landing on 80% fresh. The 95% audience score reflects warm reception from viewers seeking undemanding comfort romance. Kim Ok-vin as the attorney So-yeon drew specific praise for injecting wit and physicality into a role that could easily have been stock. Her co-lead Yoo In-su is more variable. The series runs a tight 10 episodes, which prevents it from overstaying its welcome; the finale delivers expected genre satisfactions without pretending to be anything else.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-02-10",
+          "bollymeter": 6.9,
+          "spoiler_free": "The premiere efficiently deploys its premise: lawyer and movie star antagonism is established quickly, the tone is light and assured, and Kim Ok-vin's charisma communicates everything the script needs to set up.",
+          "the_moment": "So-yeon's blunt courtroom-style takedown of her new celebrity client signals the dynamic the whole show will run on.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T14:20:00+05:30"
+}

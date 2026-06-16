@@ -1,0 +1,123 @@
+{
+  "slug": "out-of-love",
+  "qid": {
+    "value": "Q85791440",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Out of Love",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Thriller", "Psychological", "Romance"],
+  "logline": "A physician wife discovers her husband's infidelity and methodically dismantles his life across two seasons - an Indian adaptation of the BBC's Doctor Foster that trades revenge melodrama for psychological precision.",
+  "poster": {
+    "src": "/img/series/out-of-love/poster.jpg",
+    "alt": "Out of Love poster",
+    "attribution": "Poster © BBC Studios India / Disney+ Hotstar. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed the adaptation arc of the BBC Doctor Foster source material. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Out_of_Love_(Indian_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 5,
+      "release_date": {
+        "value": "2019-11-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Cited as one of India's most successful new scripted series of 2019; Times of India awarded 3/5 stars, with Rasika Dugal's lead performance described as 'terrific' and the show praised for psychological realism over melodrama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Rasika Dugal's terrific performance anchors an engaging drama offering a modern view of marriage and infidelity.",
+            "source": "Times of India",
+            "url": "https://www.imdb.com/title/tt11322616/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11322616/"
+      },
+      "review_body": "Out of Love Season 1 premiered on Disney+ Hotstar in November 2019 and immediately established itself as one of the platform's flagship originals. Produced by BBC Studios India, the five-episode adaptation of Doctor Foster transplanted the British marital thriller into an upper-middle-class Indian context with enough cultural specificity to avoid feeling like a mere copy. Critics gravitated toward Rasika Dugal's restrained, methodical performance as Dr. Meera Kapoor, with Times of India awarding three stars and calling it 'an engaging drama that offers a modern view of marriage and infidelity.' The season was rated one of the most successful new scripted series in India in 2019. Its distinctiveness lay in choosing precision over outrage - Meera dismantles her husband's deceptions with clinical purpose, not melodramatic fury.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-11-22",
+          "bollymeter": 7.6,
+          "spoiler_free": "The first episode establishes Meera's domestic life with precise, observational pacing before the crack appears. Rasika Dugal's physicality - the careful intelligence in small gestures - signals immediately that this is a performance-driven show.",
+          "the_moment": "The moment Meera first suspects and chooses not to confront but to investigate - the methodical intelligence the season will build on.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": {
+        "value": "2021-04-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 2 completed the Doctor Foster adaptation arc; critics and audience reception remained positive though slightly cooler than the breakout first season."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11322616/"
+      },
+      "review_body": "Season 2 of Out of Love, released in April-May 2021, completed the show's two-part adaptation of Doctor Foster's source arc. The season continues Meera's reckoning with the aftermath of her husband's affair and the marital wreckage it produced, but with the element of surprise removed the second run inevitably ran at a lower temperature than the groundbreaking first season. Rasika Dugal remained the show's gravitational center, and the BBC Studios India production maintained craft standards. Reception tracked the pattern common to Indian adaptations of tight UK originals: strong Season 1 discovery, Season 2 serving completionists more than newcomers.",
+      "season_over_season": "Season 2 delivers a functional conclusion to the Doctor Foster arc but lacks the shock of discovery that made Season 1 a word-of-mouth success; Dugal remains the reason to continue.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

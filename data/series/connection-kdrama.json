@@ -1,0 +1,112 @@
+{
+  "slug": "connection-kdrama",
+  "qid": {
+    "value": "Q124043194",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T14:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Connection",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS / Disney+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Mystery",
+    "Psychological",
+    "Drama"
+  ],
+  "logline": "An elite narcotics detective is forcibly addicted to a new drug by an unknown enemy, then must operate undercover among his own suspects while a 20-year-old friendship murder and a hidden conspiracy converge on him.",
+  "poster": {
+    "src": "/img/series/connection-kdrama/poster.jpg",
+    "alt": "Connection poster",
+    "attribution": "Poster © SBS / Studio S / Soul Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 14 episodes concluded July 6, 2024 on SBS. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Connection_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 14,
+      "release_date": {
+        "value": "2024-05-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "Averaged 9.2% nationwide ratings on SBS with the finale reaching 14.2%. Drama critic Park Jin-kyu (Korea Times) singled out Ji Sung's dual-state performance as the show's defining asset. Strong word-of-mouth among crime thriller audiences."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Ji Sung showcases a contrast between the lifeless eyes of an addict and the sharp gaze of a detective on a mission.",
+            "source": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/www/art/2024/07/398_377054.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt30422566/"
+      },
+      "review_body": "Connection aired on SBS from May to July 2024 and delivered Ji Sung's most critically discussed performance in years. The series frames its detective procedural around an unusual structural premise: the protagonist Jang Jae-kyung is both investigator and victim, forcibly addicted to the drug cartel he is hunting. This double exposure - cop and addict, pursuer and prey - gave Ji Sung a textured performance space that drama critic Park Jin-kyu (Korea Times) praised explicitly, noting his 'contrast between the lifeless eyes of an addict and the sharp gaze of a detective.' The show averaged 9.2% nationwide ratings on SBS, climbing to 14.2% for its finale - a strong domestic result. The narrative interweaves a 20-year-old friendship-turned-murder conspiracy with the drug investigation, maintaining suspense across 14 episodes without overextending. Jeon Mi-do as the journalist old-friend co-lead grounds the emotional stakes. Minor criticism was directed at mid-season pacing dips, but the final run delivers.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-05-24",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere drops its inciting incident with unusual efficiency: Ji Sung's detective is compromised by the end of the first hour, and the show's structural irony - a narcotics cop addicted by his own targets - is established without delay.",
+          "the_moment": "Jang Jae-kyung wakes up with no memory of the past hours and a toxicology result that changes the entire story.",
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "Episode 14",
+          "air_date": "2024-07-06",
+          "bollymeter": 8.1,
+          "spoiler_free": "The finale pulls together the dual threads of the drug conspiracy and the two-decade friendship betrayal, rewarding patient viewers with confrontations that carry genuine emotional weight. The 14.2% rating reflects a domestic audience that followed the full run.",
+          "the_moment": "The face-off between Jang Jae-kyung and the figure behind his addiction - twenty years of misdirection resolved in a single scene.",
+          "critic_note": {
+            "text": "Ji Sung showcases a contrast between the lifeless eyes of an addict and the sharp gaze of a detective on a mission.",
+            "source": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/www/art/2024/07/398_377054.html"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T14:25:00+05:30"
+}

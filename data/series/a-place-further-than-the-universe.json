@@ -1,0 +1,106 @@
+{
+  "slug": "a-place-further-than-the-universe",
+  "qid": {
+    "value": "Q42895115",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Place Further Than the Universe",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Adventure", "Coming of Age", "Drama"],
+  "logline": "Four high school girls embark on an Antarctic expedition together - one driven by grief over a missing mother, the others by restlessness, loneliness, and a hunger for something that actually matters.",
+  "poster": {
+    "src": "/img/series/a-place-further-than-the-universe/poster.jpg",
+    "alt": "A Place Further Than the Universe poster",
+    "attribution": "Poster © Madhouse / Yorimoi Production Committee. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 13-episode original anime by Madhouse aired from January to March 2018 and concluded as a complete standalone story. No sequel has been produced or announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/A_Place_Further_than_the_Universe"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-01-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "MAL score of 8.50 from a large voting base; Anime News Network episode reviewers consistently praised the series for its emotional architecture, with ANN user weighted mean at 8.40 (Very Good+) and 86 votes of Masterpiece."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "It's been able to achieve its modest narrative ambitions without any trouble, and that foundation should give it plenty to build on.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/a-place-further-than-the-universe/episodes-1-3/.126516"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/35839/Sora_yori_mo_Tooi_Basho"
+      },
+      "review_body": "Madhouse's original 2018 anime - broadcast on AT-X and Tokyo MX - is widely considered one of the finest anime of that decade. Directed by Atsuko Ishizuka and written by Jukki Hanada, the series uses the Antarctic expedition as both a literal and emotional destination. The four leads are distinct and credibly teenage; their reasons for attempting something this extreme are grounded in recognisable adolescent longing rather than fantasy. Anime News Network's episodic reviewers tracked the series' slow emotional build across 13 weeks, consistently noting how the show layers meaning into its visual design and character dynamics before delivering its most emotionally powerful episodes. The finale is among the most discussed in recent anime history. The series earned simulcast status on Crunchyroll and won the Anime of the Year award at the Crunchyroll Anime Awards in 2019.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "One Million Yen Worth of Youth",
+          "air_date": "2018-01-02",
+          "bollymeter": 8.3,
+          "spoiler_free": "Mari Tamaki has lived a life of almost-adventures and abandoned dreams. When she meets Shirase Kobuchizawa, who has spent years saving a million yen to reach Antarctica, the premise snaps into focus immediately. The premiere is warm, propulsive, and confidently specific.",
+          "the_moment": "A million yen spilling from a bag - the most concrete expression of years of single-minded resolve any anime premiere has offered.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "A Place Further Than the Universe",
+          "air_date": "2018-03-27",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale delivers the emotional payoff the series has been building across 12 episodes. The Antarctic setting, the search for what was lost, and the bonds formed during the journey all converge in a sequence that critics and audiences consistently identify as one of the most affecting in contemporary anime.",
+          "the_moment": "The email inbox - a scene described by the ANN reviewer as finally delivering the dramatic bite the series had been building toward.",
+          "critic_note": {
+            "text": "This episode finally gave me what I wanted most out of this show: a storyline with some genuine dramatic bite.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/a-place-further-than-the-universe/episode-11/.128953"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:15:00+05:30"
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "doctor-cha",
+  "qid": {
+    "value": "Q117035204",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T14:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Doctor Cha",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Medical",
+    "Comedy",
+    "Romance"
+  ],
+  "logline": "A woman who spent two decades as a devoted housewife re-enters the hospital as a first-year resident at 46, only to discover her husband's long-hidden secret on the same ward.",
+  "poster": {
+    "src": "/img/series/doctor-cha/poster.jpg",
+    "alt": "Doctor Cha poster",
+    "attribution": "Poster © JTBC Studios / Universal Story. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season, 16-episode run concluded June 4, 2023 on JTBC. No continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Doctor_Cha"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-04-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "88% on Rotten Tomatoes from 8 critics; TIME Magazine named it one of the 10 Best Korean Dramas of 2023 on Netflix. The finale drew 18.5% nationwide ratings on JTBC, among the highest in Korean cable history."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "An entertaining series on finding newfound independence and meaning in life as one ages.",
+            "source": "TIME Magazine",
+            "url": "https://time.com/6287055/best-korean-dramas-2023/"
+          },
+          {
+            "text": "Uhm Jung-hwa aces this journey towards empowerment and independence.",
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/entertainment/movies/doctor-cha-review/article66853621.ece"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/718109-doctor-cha-jung-sook"
+      },
+      "review_body": "Doctor Cha premiered on JTBC in April 2023 and became one of the year's standout domestic hits, peaking at 18.5% nationwide ratings for its finale - among the highest ever for a Korean cable drama. Uhm Jung-hwa's lead performance as the titular Cha Jung-suk anchored near-unanimous critical approval: TIME Magazine included it in their Best Korean Dramas of 2023 list, and The Hindu's S. Poorvaja praised her portrayal of earned empowerment. The 88% Rotten Tomatoes score from 8 critics reflects consensus around the show's emotional blend of medical procedural, marital betrayal, and late-in-life self-discovery. The first half is tighter and more propulsive; critic Pierce Conran of the South China Morning Post noted the back half becomes 'painfully repetitive' after its central revelation. That structural imbalance keeps it from greatness, but Uhm Jung-hwa's magnetic work and the show's warm feminist thesis sustain it across 16 episodes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-04-15",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premiere sets up Cha Jung-suk's twenty-year domestic paralysis and her return to medical training with brisk economy. Uhm Jung-hwa makes her character's mix of competence and suppressed regret immediately legible.",
+          "the_moment": "Cha Jung-suk dons a white coat for the first time in two decades - the visual payoff the whole setup earns.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2023-05-21",
+          "bollymeter": 8.3,
+          "spoiler_free": "The midpoint episode delivers the season's most discussed revelation and marks the narrative hinge between marital drama and a sharper story of self-reclamation. Audience viewership climbed sharply after this broadcast.",
+          "the_moment": "The hospital hallway encounter that reframes everything that came before it.",
+          "critic_note": {
+            "text": "Doctor Cha is an amazing show that manages to marry medical drama, humor, and emotional turmoil within a core narrative about a woman doing what she wants.",
+            "source": "But Why Tho?",
+            "url": "https://butwhytho.net/2023/06/doctor-cha-review/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T14:05:00+05:30"
+}

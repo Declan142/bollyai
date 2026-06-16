@@ -1,0 +1,128 @@
+{
+  "slug": "trigger-point",
+  "qid": {
+    "value": "Q111165361",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Trigger Point",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV / ITVX",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Thriller", "Crime", "Drama", "Action"],
+  "logline": "Ex-military bomb disposal officer Lana Washington navigates London's Metropolitan Police bomb squad through a terrorist campaign - a raw procedural that runs on Vicky McClure's magnetic screen presence and genuine tension.",
+  "poster": {
+    "src": "/img/series/trigger-point/poster.jpg",
+    "alt": "Trigger Point poster",
+    "attribution": "Poster © HTM Television / ITV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Series 3 aired October 2025 on ITV. Series 4 has been greenlit as of 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Trigger_Point_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-01-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "83% on Rotten Tomatoes from 12 critics; consensus praised Vicky McClure's performance and the show's tense bomb-disposal set-pieces, though plot scrutiny revealed structural weaknesses."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 12,
+        "pull_quotes": [
+          {
+            "text": "A new and bonkers British police drama - all wailing sirens, explosions and terse dialogue.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/trigger_point/s01/reviews"
+          },
+          {
+            "text": "What saves the series are the strong performances.",
+            "source": "Tellyvisions",
+            "url": "https://www.rottentomatoes.com/tv/trigger_point/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11958610/"
+      },
+      "review_body": "Daniel Brierley's bomb disposal thriller launched in January 2022 as ITV's flagship Sunday drama, earning 83% on Rotten Tomatoes from 12 critics on the strength of Vicky McClure's performance as EXPO Lana Washington. The split between critical and audience reception - 83% critic approval versus a 6.3 IMDb score - reflects the show's central tension: McClure elevates material that critics found 'bonkers' and audience members found implausible under close inspection. The six-episode format keeps the pace punishing and the set-pieces visceral, giving the bomb disposal sequences a procedural authenticity that distinguishes it from generic UK crime drama. Season 1 became ITV's most-watched new drama of 2022, demonstrating the show's mainstream grip even if critical consensus was measured.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-01-23",
+          "bollymeter": 7.4,
+          "spoiler_free": "The series opener drops Lana Washington into a London bomb threat scenario with immediate tension - McClure's physicality and focus make the technical procedural feel personal.",
+          "the_moment": "The first bomb disposal sequence establishes the show's unflinching commitment to practical tension over dramatic shortcuts.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-01-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "82% on Rotten Tomatoes from 11 critics; Season 2 sustained the show's formula with a new case and supporting cast while maintaining McClure at the centre."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 11,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11958610/"
+      },
+      "review_body": "Season 2 returned in January 2024 with a new case, a refreshed supporting cast, and Vicky McClure once again doing the heavy lifting that holds the show together. Critics maintained an 82% approval rating on Rotten Tomatoes from 11 reviewers - a steady score that reflects the show's consistency rather than any dramatic evolution. The season formula mirrors the first: six tightly packed episodes, bomb disposal set-pieces that generate genuine suspense, and a plot architecture that rewards pace over scrutiny. Audience IMDb ratings held at 6.3, suggesting the gap between critical appreciation for McClure's craft and audience frustration with narrative convenience remained consistent.",
+      "season_over_season": "Season 2 replicates the formula without transforming it - steady quality, same ceiling, same floor.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:15:00+05:30"
+}

@@ -1,0 +1,277 @@
+{
+  "slug": "30-rock",
+  "qid": {
+    "value": "Q189350",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "30 Rock",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "NBC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Slice of Life", "Musical"],
+  "logline": "Head writer Liz Lemon navigates the chaos of a live sketch comedy show at 30 Rockefeller Plaza, managing a volatile star, an ambitious actress, and a network executive whose corporate instincts collide with her creative ones.",
+  "poster": {
+    "src": "/img/series/30-rock/poster.jpg",
+    "alt": "30 Rock poster",
+    "attribution": "Poster © Broadway Video / NBC Universal. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Creator Tina Fey concluded 30 Rock after seven seasons on January 31, 2013. A special reunion episode aired in 2020.",
+    "source": "NBC",
+    "source_url": "https://www.nbc.com/30-rock"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2006,
+      "episodes": 21,
+      "release_date": {
+        "value": "2006-10-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Season 1 introduced 30 Rock's anarchic joke density and its two lead performances - Tina Fey and Alec Baldwin establishing an immediate rapport - winning the first of three consecutive Emmy wins for Outstanding Comedy Series."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "Season 1 of 30 Rock established the template for what would become one of the decade's most Emmy-decorated comedies. Tina Fey's Liz Lemon - smart, harried, food-obsessed - became a template for a certain kind of modern comedy protagonist: competent at work, chaotic in life. Alec Baldwin's Jack Donaghy arrived fully formed as her corporate foil, their dynamic generating sharp observations about media, politics, and class in the space between punchlines. The show's joke density - throwaway gags delivered at a pace that rewarded repeat viewing - was its formal signature from day one. NPR described its satirical instincts as those of 'a weirdly appropriate and hilarious symbol of our times.' The series won the Emmy for Outstanding Comedy Series in its first year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2006-10-11",
+          "bollymeter": 8.1,
+          "spoiler_free": "The pilot introduces Liz Lemon's world at lightning speed - the sketch show, the network executive, the incoming star - and establishes 30 Rock's operating principle: jokes at the expense of every character equally, including the protagonist.",
+          "the_moment": "Liz Lemon buying all the hot dogs from a street vendor to stop a fight - an instant image of her chaotic good character.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2007,
+      "episodes": 15,
+      "release_date": {
+        "value": "2007-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 2 won the show's second consecutive Emmy for Outstanding Comedy Series and represented 30 Rock at peak formal control - shorter run, tighter jokes, Baldwin and Fey at their most precise."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "A shortened season by the writers' strike, Season 2 is 30 Rock at its most purely funny. The 15-episode run eliminated filler and forced the writing room into concentrated brilliance. The Jack-Liz dynamic deepened - their cross-ideological friendship becoming the show's emotional axis - while Tracy Jordan's comic anarchy and Jenna Maroney's narcissism found sharper satirical targets. The Emmy sweep continued: 30 Rock won Outstanding Comedy Series for the second year running, establishing its dominance even as audiences remained modest. The joke-per-minute ratio peaked here, and so did the show's satirical ambition about corporate media.",
+      "season_over_season": "Season 2 distills Season 1's energy into a tighter, sharper package - less volume, more precision.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2008,
+      "episodes": 22,
+      "release_date": {
+        "value": "2008-10-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Season 3 completed the show's three-peat Emmy run for Outstanding Comedy Series and introduced the beloved live episode format, pushing formal ambition alongside the show's satirical peak."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "Season 3 completed 30 Rock's historic three consecutive Emmy wins for Outstanding Comedy Series - a run that validated the show's critical reputation even as it never conquered the ratings charts. The season is remembered for the NBC broadcast live episode, a formal experiment that leveraged the cast's sketch comedy backgrounds brilliantly. Political satire sharpened as the 2008 election cycled through the writers' consciousness. Fey's season 3 work as Liz Lemon found new emotional registers alongside the comedy; Alec Baldwin's supporting Emmy wins accumulated. The show had by this point invented its own genre: network comedy as dense media satire.",
+      "season_over_season": "Season 3 extends the Emmy peak with formal experimentation - the live episode format arriving as proof of the cast's comedic roots.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2009,
+      "episodes": 22,
+      "release_date": {
+        "value": "2009-10-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Season 4 showed the first signs of creative fatigue after the three-peat peak, though individual episodes still hit hard and the ensemble remained among the sharpest on television."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "Season 4 broke the Emmy streak - Modern Family took over as the industry's comedy favourite - but 30 Rock remained one of television's sharper comedic exercises. The show's satirical targets occasionally repeated, and the Jenna Maroney and Tracy Jordan subplots felt more reliable than inventive by this point. The Jack and Liz arcs retained their appeal, however, and individual episodes still demonstrated the writing room's ability to construct elaborate joke architecture. Season 4 is best understood as the show's post-peak consolidation: not a decline so much as a levelling off from an extraordinary high.",
+      "season_over_season": "Season 4 steadies after the three-peat peak - the jokes land but the satirical ambition scales back slightly.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2010,
+      "episodes": 23,
+      "release_date": {
+        "value": "2010-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Season 5 maintained the show's quality floor without returning to its early heights - reliable comedy with a cast so rehearsed they could deliver Fey's dense scripts on instinct."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "Season 5 continued 30 Rock's reliable run with a cast now so attuned to the show's rhythms that even its lesser episodes had stronger floor quality than most comedies' best weeks. A second live episode gave the show another formal highlight. Critics by this point treated the series with the affectionate respect reserved for a known quantity - still very good, no longer surprising. Liz Lemon's romantic arc progressed in ways that gave Fey more emotional material than the earlier seasons allowed.",
+      "season_over_season": "Season 5 sustains Season 4's quality plateau with a second live episode as its formal centrepiece.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2012,
+      "episodes": 22,
+      "release_date": {
+        "value": "2012-01-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 6 showed the show's late-run unevenness more clearly, though Baldwin and Fey retained their chemistry and the satirical instincts remained sharp even when the plotting drifted."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "Season 6 is 30 Rock's weakest full run, critics generally agreed. The show's formula - dense satirical jokes, ensemble chaos, Jack-Liz dynamic - remained functional but occasionally felt mechanical. Some of the recurring structural moves (Tracy's absurdism, Jenna's vanity) were less surprising in their seventh or eighth iteration. The Jack Donaghy character remained the show's most consistently inventive creation, and Baldwin's performance never flagged. Season 6 is best understood as a show that had run its formula through enough cycles that its gears were occasionally audible.",
+      "season_over_season": "Season 6 is the run where the formula shows its age most clearly, though the lead performances remain crisp.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2012,
+      "episodes": 13,
+      "release_date": {
+        "value": "2012-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "The abbreviated final season recaptured some of the show's early energy, giving its characters fitting sendoffs and landing a finale that critics found emotionally satisfying without being sentimental."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 230,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0496424/ratings/"
+      },
+      "review_body": "The final 13-episode season of 30 Rock arrived with the show in a distinctly valedictory mode - and it served the series well. Knowing it was the end, the writers gave each character a coherent final arc rather than spinning the usual plates. The Liz Lemon conclusion - motherhood, career, the unresolved tensions between them - landed as an honest statement about the character Fey had built over seven years. Alec Baldwin's Jack Donaghy got a final-act reversal that felt both funny and thematically complete. The series finale aired January 31, 2013, and managed the rare feat of being satisfying without being saccharine.",
+      "season_over_season": "Season 7's shortened run refocuses the show - less sprawl, more purpose, and a finale that honours the ensemble's seven-year run.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "Last Lunch",
+          "air_date": "2013-01-31",
+          "bollymeter": 8.4,
+          "spoiler_free": "The series finale delivers on seven years of character work - the last lunch gathering of the TGS team functions as both a joke about network television nostalgia and a genuine farewell to characters the show earned the right to send off.",
+          "the_moment": "Liz Lemon's final scene - the show's most emotionally direct moment in seven seasons.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:10:00+05:30"
+}

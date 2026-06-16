@@ -1,0 +1,272 @@
+{
+  "slug": "schitts-creek",
+  "qid": {
+    "value": "Q17111973",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Schitt's Creek",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Canada",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "CBC / Pop TV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Family", "LGBTQ", "Slice of Life"],
+  "logline": "A formerly wealthy family is forced to rebuild their lives in a small, quirky town they once bought as a joke - and discover, across six seasons, that community and love were what they were missing all along.",
+  "poster": {
+    "src": "/img/series/schitts-creek/poster.jpg",
+    "alt": "Schitt's Creek poster",
+    "attribution": "Poster © CBC / Not A Real Company Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Creators Dan and Eugene Levy chose to end the series on their own terms after six seasons; the finale aired April 7, 2020 on CBC and Pop TV.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2020/tv/news/schitts-creek-wins-emmy-comedy-series-1234765334"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 13,
+      "release_date": {
+        "value": "2015-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Critics found the premiere season uneven - the Rose family's fish-out-of-water snobbery took time to warm, but the ensemble's chemistry and Dan Levy's writing showed early promise."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 110,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3526078/ratings/"
+      },
+      "review_body": "Season 1 of Schitt's Creek introduced the Rose family - formerly loaded, suddenly broke - and deposited them in the titular backwater they once purchased for laughs. Critical consensus was cautiously warm: the 93% Rotten Tomatoes series score reflects a trajectory, not an immediate triumph. Early reviews noted the show leaned on familiar fish-out-of-water beats and that the Roses could tip from eccentric into insufferable. But the bones were good. Eugene Levy's deadpan patriarch and Catherine O'Hara's theatrical Moira generated absurdist comedy with genuine craft, while Dan Levy as David Rose offered a perspective on identity and discomfort that grew more resonant with each episode. The town's ensemble - Twyla, Ronnie, Roland and Jocelyn - arrived as caricatures and began quietly becoming characters.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Our Cup Runneth Over",
+          "air_date": "2015-01-13",
+          "bollymeter": 7.0,
+          "spoiler_free": "The pilot drops the Roses into Schitt's Creek with brisk efficiency - wealthy family meets small-town reality in a motel that smells of mildew and moral reckoning. The jokes land on O'Hara's physicality and Levy's bewilderment; the heart is still loading.",
+          "the_moment": "Moira Rose's first entrance at the motel front desk - Catherine O'Hara's bewildered horror sets the show's comic register in a single expression.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-01-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 2 deepened character dynamics and began the show's signature warmth - the Roses started genuinely caring about the town, and the writing sharpened its emotional precision."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 110,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3526078/ratings/"
+      },
+      "review_body": "Season 2 is where Schitt's Creek began earning its reputation. The Roses shed their worst instincts and the writing found a groove - absurdist gags undercut by genuine feeling. David's tentative social emergence and Alexis's ambition drove arcs that felt earned rather than plotted. The town ensemble graduated from comic relief to full-throated ensemble players. The show had identified its emotional core by season's end: a comedy about how place and people can change you, even when you arrived too proud to notice.",
+      "season_over_season": "Season 2 sheds Season 1's sharper edges, exchanging fish-out-of-water mockery for something warmer and more character-driven.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 13,
+      "release_date": {
+        "value": "2017-01-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Season 3 consolidated the show's identity - character work and inclusive storytelling locked in, with David and Patrick's budding relationship emerging as its emotional anchor."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 110,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3526078/ratings/"
+      },
+      "review_body": "Season 3 delivered on the show's early promise. The David and Patrick relationship - which would become one of TV's most warmly received gay romances - took root, and the writing began weaving personal growth into comedy without sacrificing jokes for sentiment. The Rose family's collective arc became the season's real subject: four people who once used wealth to avoid the world, learning to be present in it. Critics began talking about the show as something quietly exceptional rather than merely likeable.",
+      "season_over_season": "Season 3 elevates Season 2's warmth into something more purposeful, with the David-Patrick dynamic emerging as the series' emotional spine.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 4 peaked the show's craft with standout set pieces and the David-Patrick relationship hitting full stride, earning the series its first major award attention."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 110,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3526078/ratings/"
+      },
+      "review_body": "Season 4 marked the show's mainstream crossover - word of mouth turned into institutional recognition as critics elevated it beyond cult status. The David and Patrick storyline culminated in the season's standout episode 'Open Mic,' featuring a cover of Tina Turner's 'Simply the Best' that became an internet moment, not because it was showy but because it was sincere. The Rose family's collective transformation reached a point where their old selves felt like strangers. The writing balanced comedy and tenderness without ever condescending to either.",
+      "season_over_season": "Season 4 delivers on every arc Season 3 set up, turning earned warmth into unmistakable heart.",
+      "episode_reviews": [
+        {
+          "number": 6,
+          "title": "Open Mic",
+          "air_date": "2018-02-20",
+          "bollymeter": 9.0,
+          "spoiler_free": "Patrick Brewer performs a song for David Rose at an open mic night and the scene became one of the most-discussed romantic moments in contemporary comedy television - quiet, specific, completely earned.",
+          "the_moment": "Patrick's Tina Turner cover - a gesture of sincere vulnerability that redefined what the show could do emotionally.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 14,
+      "release_date": {
+        "value": "2019-01-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Season 5 cemented the show as a modern classic - the Rose family's arcs hit their most satisfying strides and the writing found both its sharpest comedy and deepest empathy simultaneously."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 110,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3526078/ratings/"
+      },
+      "review_body": "Season 5 is where Schitt's Creek crossed from beloved to essential. Each Rose family thread found its most resonant expression: David and Patrick's engagement, Alexis's professional identity, Johnny's business acumen finally channelled toward something real, and Moira's theatrical gifts deployed in absurdly perfect contexts. The show's LGBTQ representation - which had always been matter-of-fact rather than issue-driven - crystallised into something critics recognised as genuinely radical in its normalcy. The 14-episode run felt simultaneously too long and never enough.",
+      "season_over_season": "Season 5 brings every character arc to its sharpest peak, delivering on six years of patient setup with comedic and emotional precision.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2020,
+      "episodes": 14,
+      "release_date": {
+        "value": "2020-01-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "A 100% Rotten Tomatoes score from 43 critics and a historic sweep of all seven major Emmy comedy categories confirmed Season 6 as one of the finest final seasons in sitcom history."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 43,
+        "pull_quotes": [
+          {
+            "text": "Schitt's Creek ends with an episode that highlights one of its greatest strengths: making characters grow without fundamentally changing them.",
+            "source": "IndieWire",
+            "url": "https://www.rottentomatoes.com/tv/schitts_creek/s06/reviews"
+          },
+          {
+            "text": "Schitt's Creek turned into a smash sleeper success over the course of its six hilarious seasons.",
+            "source": "TIME",
+            "url": "https://www.rottentomatoes.com/tv/schitts_creek/s06/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3526078/ratings/"
+      },
+      "review_body": "Season 6 arrived and did what few final seasons manage: it honoured the show's emotional logic rather than escalating beyond it. A 100% Rotten Tomatoes score from 43 critics reflected near-universal consensus that the Roses' farewell was exactly as it should be - funny, tender, and complete. At the 72nd Primetime Emmy Awards, Schitt's Creek made television history by sweeping all seven major comedy categories, becoming the first series ever to achieve that clean sweep. IndieWire's LaToya Ferguson observed that the finale's greatest strength was making its characters grow without fundamentally changing them - the show's core thesis delivered in 14 episodes.",
+      "season_over_season": "Season 6 resolves every thread Season 5 set in motion, and does so with the confidence of a series that always knew exactly where it was going.",
+      "episode_reviews": [
+        {
+          "number": 14,
+          "title": "Happy Ending",
+          "air_date": "2020-04-07",
+          "bollymeter": 9.2,
+          "spoiler_free": "The series finale gathers the Roses for a wedding and a departure, landing the emotional payoff of six seasons of character work without a false note. Critics called it one of the best comedy finales in years.",
+          "the_moment": "The Rose family's last moments together in Schitt's Creek - a goodbye that earns every tear it prompts.",
+          "critic_note": {
+            "text": "Schitt's Creek ends with an episode that highlights one of its greatest strengths: making characters grow without fundamentally changing them.",
+            "source": "IndieWire",
+            "url": "https://www.rottentomatoes.com/tv/schitts_creek/s06/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:00:00+05:30"
+}

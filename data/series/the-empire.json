@@ -1,0 +1,102 @@
+{
+  "slug": "the-empire",
+  "qid": {
+    "value": "Q85786024",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Empire",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Drama", "Action", "War"],
+  "logline": "Young Babur, orphaned and outmaneuvered in Farghana, fights through betrayal and exile across Central Asia to found the Mughal Dynasty with a decisive victory at Panipat.",
+  "poster": {
+    "src": "/img/series/the-empire/poster.jpg",
+    "alt": "The Empire poster",
+    "attribution": "Poster © Emmay Entertainment / Disney+ Hotstar. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. No renewal announced as of 2026; the story arc concludes with the founding of the Mughal Empire.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Empire_(Indian_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-08-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "IMDb audiences rated it 4.7/10, reflecting disappointment with weak VFX and a script critics called a 'weak cocktail of fact and fiction,' despite strong production design and Shabana Azmi's acclaimed performance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A weak cocktail of fact and fiction that feels a little too long despite its breathtaking visuals.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/the-empire-review-hotstar-weak-cocktail-of-fact-and-fiction-kunal-kapoor-drashti-dhami-shabana-azmi-dino-morea"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 4.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15012366/"
+      },
+      "review_body": "The Empire arrived on Disney+ Hotstar in August 2021 with serious production ambitions - Emmay Entertainment mounted a period saga tracing Babur's journey from dispossessed Timurid prince to Mughal founder. Critics split on roughly the same lines as the audience. Shabana Azmi's Aisan Daulat Begum drew near-universal praise as the season's dramatic spine, and the production design landed admirably for an Indian streaming series. But the script, adapted from Alex Rutherford's Empire of the Moghul novels, was widely faulted for compressing history into melodrama. Film Companion called it 'a weak cocktail of fact and fiction,' and IMDb audiences settled at 4.7 out of 10 across 17,000+ ratings. The visuals carry the season; the storytelling seldom matches them.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-08-27",
+          "bollymeter": 6.2,
+          "spoiler_free": "The premiere establishes young Babur's precarious throne in Farghana and the court intrigue engineered by rivals. Shabana Azmi commands every scene as the calculating grandmother; the production design signals the scale ambitions early.",
+          "the_moment": "Aisan Daulat Begum counsels Babur on the true cost of a throne - the show's clearest statement of its thematic stakes.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2021-08-27",
+          "bollymeter": 6.0,
+          "spoiler_free": "The finale builds toward the Battle of Panipat and the proclamation of Mughal sovereignty. The battle sequences are the season's most visually ambitious set pieces, though VFX limitations remain apparent.",
+          "the_moment": "Babur surveying the field at Panipat - the culmination of eight episodes of exile, alliance, and war.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

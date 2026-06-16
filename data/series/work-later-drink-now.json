@@ -1,0 +1,122 @@
+{
+  "slug": "work-later-drink-now",
+  "qid": {
+    "value": "Q108541415",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T14:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Work Later, Drink Now",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "TVING / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Drama",
+    "Romance"
+  ],
+  "logline": "Three women in their thirties - a broadcast writer, a yoga instructor, and a YouTuber - navigate career frustrations and romantic entanglements anchored by a single shared philosophy: one drink at the end of every day.",
+  "poster": {
+    "src": "/img/series/work-later-drink-now/poster.jpg",
+    "alt": "Work Later, Drink Now poster",
+    "attribution": "Poster © TVING / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded January 13, 2023 on TVING. No further seasons announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Work_Later,_Drink_Now"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-10-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb audience rates the series 7.8/10; MyDramaList scores Season 1 at 8.3/10 from over 7,600 users. Critics noted its warm Bechdel-passing female friendship dynamic as a refreshing template for Korean workplace comedy."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15548198/"
+      },
+      "review_body": "Work Later, Drink Now launched on TVING in October 2021 and became a surprise word-of-mouth hit among thirty-something viewers for its low-stakes, high-warmth depiction of female friendship. The premise - three women whose shared credo is one drink at day's end - is deceptively simple but gives the show room for unexpectedly candid conversations about career anxiety, romantic disappointment, and chosen family. MyDramaList users rated Season 1 at 8.3/10 across more than 7,600 ratings, reflecting genuine fan affection. The series won the Bechdel Day Choice award, and the 2022 APAN Star Awards recognised the ensemble cast. Tonally breezy rather than dramatically weighty, Season 1 delivers comfort viewing with enough emotional specificity to avoid generic slice-of-life territory. The three leads - Lee Sun-bin, Han Sun-hwa, and Jung Eun-ji - have easy chemistry that keeps even low-tension episodes engaging.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-10-22",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the trio's dynamic efficiently, using after-work drinking sessions as a framing device that immediately makes the show feel lived-in rather than constructed. The tone - warm, fizzy, unpretentious - is locked in by the first episode's end.",
+          "the_moment": "The three women's first shared drink scene after terrible days at their respective jobs - the show's thesis in a single scene.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-12-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "MyDramaList scores Season 2 at 8.1/10. The season deepened romantic arcs and added Yoon Shi-yoon to the cast, maintaining the franchise's cozy register while slightly dimming the novelty that made Season 1 feel fresh."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/profile/7645601/review/522736"
+      },
+      "review_body": "Season 2 returned on TVING in December 2022 with the same creative team and added Yoon Shi-yoon to the ensemble. The romantic threads from Season 1 are developed further, and the season leans slightly more into melodrama without abandoning the show's fundamentally cozy register. MyDramaList users scored it 8.1/10 - fractionally below Season 1's 8.3 - suggesting fan satisfaction without quite the excitement of discovering the show for the first time. The twelve-episode structure again favours incremental character development over plot urgency, which suits the format but makes the season easier to enjoy in small doses than to binge. The finale wraps relationships cleanly without overselling the emotional stakes.",
+      "season_over_season": "Season 2 deepens its romantic subplots and adds a new lead to the ensemble but trades some of the first season's novelty for a more comfortable, slightly less surprising rhythm.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T14:10:00+05:30"
+}

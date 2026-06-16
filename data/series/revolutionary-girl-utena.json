@@ -1,0 +1,102 @@
+{
+  "slug": "revolutionary-girl-utena",
+  "qid": {
+    "value": "Q696377",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Revolutionary Girl Utena",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Anime News Network",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Drama", "Fantasy", "Psychological", "LGBTQ"],
+  "logline": "A teenage girl who wants to become a prince enters a secret duelling tournament at her elite school, fighting to protect a mysterious girl called the Rose Bride - and gradually uncovering the corrupt power structure the duels serve.",
+  "poster": {
+    "src": "/img/series/revolutionary-girl-utena/poster.jpg",
+    "alt": "Revolutionary Girl Utena poster",
+    "attribution": "Poster © J.C.Staff / Be-Papas. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 39-episode TV anime by J.C.Staff aired from April to December 1997, followed by the theatrical film Adolescence of Utena (1999), also directed by Kunihiko Ikuhara. The TV series received a Blu-ray release from Nozomi Entertainment in North America.",
+    "source": "Anime News Network",
+    "source_url": "https://www.animenewsnetwork.com/review/revolutionary-girl-utena/blu-ray-part-one/.123259"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1997,
+      "episodes": 39,
+      "release_date": {
+        "value": "1997-04-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "MAL score of 8.24 (ranked #396); Anime News Network's Blu-ray review awarded an A overall (sub) and described the show as one of the greatest shoujo classics, with the stylised art and rapidly changing music holding up remarkably well across the decades."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The stylized art and rapidly changing music hold up remarkably well; Utena still has the power to hold our attention.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/revolutionary-girl-utena/blu-ray-part-one/.123259"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.24,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/440/Shoujo_Kakumei_Utena"
+      },
+      "review_body": "Directed by Kunihiko Ikuhara and produced by J.C.Staff, Revolutionary Girl Utena aired on TV Tokyo from April to December 1997 and remains one of the most formally ambitious anime series ever made. Ikuhara used the structure of a magical girl show as a container for dense symbolic analysis of gender, power, and institutional corruption - a strategy that influenced a generation of anime auteurs. ANN's Blu-ray review awarded the series an A overall and identified it as one of the greatest shoujo classics, noting that the work's themes around gender roles, childhood idealism, sexuality, and abuse remain compelling even as the 1997 dub has aged poorly. The 39 episodes are structured in arcs that rotate through the duelling cast, each revealing a new facet of Ohtori Academy's hidden order. The final arc is among the most discussed and debated conclusions in anime history. MAL community rating of 8.24 across 249,000 voters confirms sustained critical standing.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Rose Bride",
+          "air_date": "1997-04-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere drops viewers into Ohtori Academy's surreal geometry without explanation. Utena's backstory - a prince, a ring, a vow - is established economically, and the duelling system is introduced with just enough logic to feel coherent and just enough mystery to feel threatening. Ikuhara's visual language is operating from frame one.",
+          "the_moment": "Utena draws her sword from Anthy's chest for the first time - a recurring visual motif that the show will spend 39 episodes complicating.",
+          "critic_note": null
+        },
+        {
+          "number": 33,
+          "title": "The Realm of Absolute Destiny",
+          "air_date": "1997-11-12",
+          "bollymeter": 9.0,
+          "spoiler_free": "The final arc begins and the repetitive duelling structure the series has used as scaffolding starts to fracture. The abstract sequences intensify, and Ikuhara begins withdrawing the show's realism systematically. Critics identify this section as where Utena crosses from memorable into genuinely singular.",
+          "the_moment": "The Black Rose duellist arc gives way to the Akio car scenes - the visual and tonal shift that signals the series is no longer playing by its own established rules.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:20:00+05:30"
+}

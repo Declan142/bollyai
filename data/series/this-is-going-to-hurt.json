@@ -1,0 +1,106 @@
+{
+  "slug": "this-is-going-to-hurt",
+  "qid": {
+    "value": "Q107210698",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "This Is Going to Hurt",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Comedy", "Medical"],
+  "logline": "A junior doctor's caustic 2006 NHS diary - nights without sleep, impossible choices, dark gallows humour - adapted from Adam Kay's bestselling memoir into seven hours of brilliant, bruising television.",
+  "poster": {
+    "src": "/img/series/this-is-going-to-hurt/poster.jpg",
+    "alt": "This Is Going to Hurt poster",
+    "attribution": "Poster © BBC / Sister Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Conceived as a limited series adapting Adam Kay's memoir. No further seasons planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/This_Is_Going_to_Hurt_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-02-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "96% on Rotten Tomatoes from 45 critics and a 91 Metascore - universal acclaim. Ben Whishaw won the BAFTA for Best Actor; Ambika Mod won multiple awards for her debut screen performance."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 45,
+        "pull_quotes": [
+          {
+            "text": "This drama is likely more accurate and more wrenching than most medical shows that have aired on TV.",
+            "source": "The Atlantic",
+            "url": "https://www.rottentomatoes.com/tv/this_is_going_to_hurt/s01"
+          },
+          {
+            "text": "Hilarious, heart-breaking and, above all, important. We see the healthcare system as it really is.",
+            "source": "Loud and Clear Reviews",
+            "url": "https://www.rottentomatoes.com/tv/this_is_going_to_hurt/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "This Is Going to Hurt arrived in February 2022 with 96% on Rotten Tomatoes from 45 critics and a 91 Metascore - the rare adaptation that surpasses the source material in the opinion of most reviewers. Adam Kay's bestselling memoir becomes seven episodes of controlled fury: junior doctor Adam (Ben Whishaw) navigates obstetrics and gynaecology night shifts in 2006 while his personal life disintegrates under the pressure. The Atlantic called it more accurate and wrenching than any medical drama on television. Vanity Fair praised its \"chilling glimpse of the real stakes in the reproductive rights conversation.\" BAFTA agreed emphatically - Whishaw won Best Actor, the show won Best Writer, Best Casting, and Best Editing. Ambika Mod's debut as registrar Shruti was singled out as a revelation. The finale generated significant conversation for its willingness to go to genuinely dark places.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-02-08",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes the show's mode in minutes: Adam Kay's voiceover is arch and self-aware, the obstetrics ward is chaos controlled by people running on insufficient sleep, and the dark comedy has a hard floor of genuine anguish underneath it. Critics praised the tone management as instantly confident.",
+          "the_moment": "Adam's first night shift establishes the fundamental contract - the jokes are real, and so is the devastation behind them.",
+          "critic_note": {
+            "text": "Like the book, this finds a winning balance of comedy and anger, told with a convincing realism.",
+            "source": "The Times",
+            "url": "https://www.rottentomatoes.com/tv/this_is_going_to_hurt/s01"
+          }
+        },
+        {
+          "number": 7,
+          "title": "Episode 7",
+          "air_date": "2022-03-22",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale generated the most critical discussion of any single episode in 2022 British television. It pays off every tonal promise made in the first episode - the comedy drops entirely, and what remains is one of the most serious statements British TV has made about the human cost of an underfunded health system.",
+          "the_moment": "The final sequence recontextualises the entire series in a way that demands a second viewing of every prior episode.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

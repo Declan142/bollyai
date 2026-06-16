@@ -1,0 +1,132 @@
+{
+  "slug": "the-serpent-queen",
+  "qid": {
+    "value": "Q107016725",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Serpent Queen",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Starz",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Drama", "Biographical"],
+  "logline": "A fourteen-year-old Florentine orphan arrives at the French Valois court with nothing but her wits, and through three decades of intrigue, grief, and ruthless calculation becomes the most powerful woman in Europe.",
+  "poster": {
+    "src": "/img/series/the-serpent-queen/poster.jpg",
+    "alt": "The Serpent Queen poster",
+    "attribution": "Poster © Starz / eOne. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by Starz in October 2024 after two seasons. Creator Justin Haythe's planned third season would not be produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Serpent_Queen"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-09-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A 100 percent Rotten Tomatoes score from 33 critics and a Metacritic score of 76 reflected enthusiastic critical reception; Samantha Morton's performance as Catherine de' Medici was singled out across reviews as a career highlight."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 33,
+        "pull_quotes": [
+          {
+            "text": "Morton mesmerizes. The Serpent Queen offers juicier period drama than either of the ballyhooed fantasy epics.",
+            "source": "Pittsburgh Tribune-Review",
+            "url": "https://www.metacritic.com/tv/the-serpent-queen/"
+          },
+          {
+            "text": "The series distinguishes itself by rinsing away the cosmetics of royal etiquette with bracing wit.",
+            "source": "Salon",
+            "url": "https://www.metacritic.com/tv/the-serpent-queen/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/the-serpent-queen/"
+      },
+      "review_body": "The Serpent Queen launched on Starz in September 2022 with a clean 100-percent Rotten Tomatoes score from 33 critics - a near-consensus that Justin Haythe's historical drama had done something genuinely fresh with its subject. Samantha Morton's Catherine de' Medici is introduced as a teenage Florentine orphan navigating a French court that views her as leverage rather than a person, and the show's wit lies in chronicling exactly how she converts that position of nothing into absolute power. Critics praised the modern-feeling dialogue and Morton's chameleonic performance, describing the series as sharper and more irreverent than its royal costume implied. The Pittsburgh Tribune-Review named it the juiciest period drama of its season, and Salon called its bracing wit a genuine differentiator.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Serpent Queen",
+          "air_date": "2022-09-11",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere establishes Catherine's impossible starting position with dark wit - a fourteen-year-old political pawn who frames her own story from the start. Critics praised the show's refusal to romanticise royal life, and Morton's instant ownership of the role.",
+          "the_moment": "Catherine addresses the camera directly, making clear she knows exactly how her story ends and intends to tell it on her own terms.",
+          "critic_note": {
+            "text": "A hip show about a woman who understands her power and is not afraid to use it.",
+            "source": "TV Guide",
+            "url": "https://www.metacritic.com/tv/the-serpent-queen/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-07-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Season 2 maintained a 100 percent Rotten Tomatoes score; critics noted Haythe extended the timeline and expanded the court intrigue while Morton continued to anchor the show's tonal balance between tragedy and dark comedy."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/the-serpent-queen/"
+      },
+      "review_body": "Season 2 arrived in July 2024 with an expanded timeline, covering Catherine's years of consolidating power after the tragedies that marked her early reign. The eight-episode run maintained the critical standing established by Season 1, with reviewers noting the show's continued confidence in its tone - dark, witty, and willing to let historical horror sit alongside black comedy without resolving the tension. The cancellation announced in October 2024 left the narrative without a planned conclusion, meaning Season 2 ends as an open chapter rather than a satisfying close. For viewers who followed both seasons, Morton's performance across sixteen episodes stands as one of the decade's most distinctive portrayals of a historical figure on television.",
+      "season_over_season": "Season 2 extends Catherine's reign with the same tonal confidence, though the October 2024 cancellation left the arc incomplete.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

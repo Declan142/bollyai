@@ -1,0 +1,155 @@
+{
+  "slug": "the-rain",
+  "qid": {
+    "value": "Q48855569",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Rain",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Denmark",
+  "original_language": {
+    "value": "da",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Thriller", "Drama", "Adventure"],
+  "logline": "After a virus carried by rainfall wipes out most of Scandinavia's population, Danish siblings Simone and Rasmus emerge from six years in a bunker to search for their missing scientist father - and the cure he may have left behind.",
+  "poster": {
+    "src": "/img/series/the-rain/poster.jpg",
+    "alt": "The Rain poster",
+    "attribution": "Poster © Miso Film / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons ran from 2018 to 2020. Netflix did not renew for a fourth season after Season 3's August 2020 premiere.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Rain_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 8,
+      "release_date": {
+        "value": "2018-05-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "82% on Rotten Tomatoes from 33 critics; Collider called it 'some of the best survivalist drama to hit screens in years' and praised its 'unpredictable, genuinely likable characters'; Netflix's first Danish original series."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 33,
+        "pull_quotes": [
+          {
+            "text": "The Rain is some of the best survivalist drama to hit screens in years, with exciting, unpredictable and genuinely likable characters.",
+            "source": "Collider",
+            "url": "https://www.rottentomatoes.com/tv/the_rain/s01"
+          },
+          {
+            "text": "The emotional journeys of the young people eking out a tense post-apocalyptic existence pulled me in much more than I was expecting.",
+            "source": "io9",
+            "url": "https://www.rottentomatoes.com/tv/the_rain/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6656238/"
+      },
+      "review_body": "The Rain Season 1 launched on Netflix in May 2018 as the platform's first Danish original series, arriving with a post-apocalyptic premise that grounded its science-fiction virus mythology in intimate character work. Produced by Miso Film, the eight-episode season follows siblings Simone and Rasmus - played by Alba August and Lucas Lynggaard Tonnesen - as they emerge from bunker isolation into a Scandinavia scoured by the lethal Apollon rain. Critics responded well: Rotten Tomatoes registered 82% positive from 33 reviews, with the critic consensus noting that the show 'starts out slow, but develops into a thrilling addition to the dystopia television genre.' Collider called it 'some of the best survivalist drama to hit screens in years.' IMDb audiences were cooler at 6.3 out of 10, a gap common to European genre series where critic enthusiasm outpaces casual viewer patience for character-first pacing.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Stay Inside",
+          "air_date": "2018-05-04",
+          "bollymeter": 7.6,
+          "spoiler_free": "The premiere establishes the catastrophe with compact, unsentimental efficiency - the rain begins, the bunker seals, and the audience is inside with the siblings before the full horror is explained. The Scandinavian landscape carries its own menace before the virus mythology arrives.",
+          "the_moment": "The rain falls and the warning broadcast cuts out - the apocalypse rendered as a small, terrifyingly domestic moment.",
+          "critic_note": {
+            "text": "The Rain offers a potent mixture of enticing mystery, propulsive action, and fascinating characters that aren't easy to pin down.",
+            "source": "Collider",
+            "url": "https://www.rottentomatoes.com/tv/the_rain/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Trust Your Instincts",
+          "air_date": "2018-05-04",
+          "bollymeter": 7.4,
+          "spoiler_free": "The season finale converges the siblings' search for their father with the Apollon corporation mystery. The show earns its cliffhanger by grounding it in character stakes rather than pure spectacle - what happens to Rasmus matters because eight episodes built toward it.",
+          "the_moment": "The revelation about Rasmus and the rain's real relationship to him - the season's central mystery snapping into place.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-05-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned in May 2019 with a tighter six-episode run that pushed deeper into the Apollon conspiracy and what Rasmus represents. The compressed episode order suited the mid-series revelations, though audience RT scores dropped from Season 1 levels. The season's character work - particularly Simone's evolving role as protector versus the group's view of her brother - gave the show continued emotional grounding.",
+      "season_over_season": "The reduced six-episode count gives Season 2 a purposeful momentum Season 1's eight episodes occasionally lacked; the mythology deepens but audience scores reflected declining patience with the premise's unresolved center.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-08-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 concluded the series in August 2020 with another six-episode run. The RT audience score dropped to 36% for the final season, reflecting a common drop pattern for post-apocalyptic series that struggle to sustain mythology payoffs over three seasons. Netflix did not renew. The critical case for the show rests firmly on the first season.",
+      "season_over_season": "Season 3 closes the story but the 36% RT audience score signals the mythology payoffs did not satisfy viewers who followed three seasons expecting answers - a common late-run penalty for mystery-box survivalist drama.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

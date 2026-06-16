@@ -1,0 +1,97 @@
+{
+  "slug": "slam-dunk",
+  "qid": null,
+  "title": {
+    "value": "Slam Dunk",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Anime News Network",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Sports", "Coming of Age", "Comedy", "Drama"],
+  "logline": "A delinquent teenager with 50 consecutive rejections joins his high school basketball team to impress a girl, and discovers a genuine gift for the sport as his team chases a national championship.",
+  "poster": {
+    "src": "/img/series/slam-dunk/poster.jpg",
+    "alt": "Slam Dunk poster",
+    "attribution": "Poster © Toei Animation. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 101-episode TV anime ran from October 1993 to March 1996. A theatrical film continuation, The First Slam Dunk (2022), directed by manga creator Takehiko Inoue, grossed over $281 million worldwide and is considered the canonical sequel.",
+    "source": "Anime News Network",
+    "source_url": "https://www.animenewsnetwork.com/feature/2024-07-22/playing-the-long-game-the-story-of-slam-dunk-in-north-america/.212632"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1993,
+      "episodes": 101,
+      "release_date": {
+        "value": "1993-10-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "MAL score of 8.56 from a large voter base reflects enduring cult status; Anime News Network awarded episodes 25-60 an A- overall, praising its ability to tie coming-of-age storytelling with basketball beautifully."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Ties together coming-of-age stories with basketball games beautifully.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/slam-dunk/episodes-25-60/.205359"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.56,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/170/Slam_Dunk"
+      },
+      "review_body": "Produced by Toei Animation and broadcast on TV Asahi from October 1993 to March 1996, Slam Dunk's 101-episode run is considered one of the foundational sports anime of its era. Critics who revisited the series on its Crunchyroll streaming release noted its ability to tie coming-of-age storytelling with basketball pacing in ways that hold up decades later. The series is credited with fuelling a genuine basketball boom among Japanese youth in the 1990s. Pacing issues and filler arcs are real - a consequence of the anime outrunning the manga - but the central emotional arc of Hanamichi Sakuragi's transformation from hot-headed delinquent to devoted athlete is consistently praised as earnest and effective. The MAL community score of 8.56 across a large voting base confirms sustained cross-generational appeal.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Sakuragi Hanamichi, the Basketball Beginner",
+          "air_date": "1993-10-16",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere sets the hook fast: a towering, red-haired delinquent falls for a girl who loves basketball, and suddenly the sport means everything to him. The comedic energy and stubborn charm of Sakuragi are established in a single episode.",
+          "the_moment": "Sakuragi declares he is a basketball genius - a claim the show will spend 101 episodes making true through sheer stubbornness.",
+          "critic_note": null
+        },
+        {
+          "number": 61,
+          "title": "The Tip-Off of the Interhigh",
+          "air_date": "1995-01-21",
+          "bollymeter": 8.6,
+          "spoiler_free": "The national tournament arc begins in earnest. Years of character-building snap into focus as Shohoku face elite opposition for the first time. The stakes feel real because the show has taken its time earning them.",
+          "the_moment": "The Shohoku team walks onto the Interhigh floor for the first time - the moment the show transitions from underdog comedy to genuine sports drama.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:00:00+05:30"
+}

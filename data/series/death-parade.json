@@ -1,0 +1,105 @@
+{
+  "slug": "death-parade",
+  "qid": {
+    "value": "Q11320614",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Death Parade",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Funimation",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Psychological", "Mystery", "Drama", "Supernatural"],
+  "logline": "Pairs of the recently deceased are sent to a bar in the afterlife where an expressionless arbiter pits them against each other in games designed to expose their truest selves - and decide whether their souls are reincarnated or sent to the void.",
+  "poster": {
+    "src": "/img/series/death-parade/poster.jpg",
+    "alt": "Death Parade poster",
+    "attribution": "Poster © Madhouse / Nippon TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A single 12-episode limited series that aired January to March 2015. Madhouse has announced no sequel or continuation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Death_Parade"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Won the 2016 Anime Trending Award for Best Original Anime; IGN included it in 'best anime of the 2010s' and critics praised Madhouse's tonal control - playing bar-game absurdism against moral philosophy without blinking."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/23235/Death_Parade"
+      },
+      "review_body": "Death Parade (Madhouse, 2015) arrived as an expanded version of the 2013 short Death Billiards and ran for 12 episodes on Nippon TV. Madhouse's tonal precision is the series' defining virtue: each episode drops a pair of strangers into a bar game (billiards, bowling, darts, video games) and uses the competitive pressure to excavate their past lives and moral failures. The series won the 2016 Anime Trending Award for Best Original Anime and earned a spot on IGN's 'best anime of the 2010s' list. A Niconico poll placed it 9th among Winter 2015 anime at broadcast. The final two episodes divided opinion - the philosophical payoff felt earned to some and rushed to others - but the anthology structure of the first ten episodes landed with near-universal admiration for its density and moral rigour.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Death Seven Darts",
+          "air_date": "2015-01-09",
+          "bollymeter": 8.3,
+          "spoiler_free": "Two strangers awaken in a bar with no memory of how they arrived. The bartender Decim offers them a game of darts. The episode functions as a controlled reveal - by the end the situation is both clarified and deepened, with the show's central moral machinery fully visible.",
+          "the_moment": "The moment when the rules of Quindecim and the nature of its guests become clear - and the stakes of the game shift entirely.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Death March",
+          "air_date": "2015-02-06",
+          "bollymeter": 8.5,
+          "spoiler_free": "A game of twister between two strangers gradually unsettles the anthology format, with the episode operating as the series' first genuine experiment in sympathy. The hour is evidence the show is capable of more than clever structural design.",
+          "the_moment": "The disclosure that reframes every interaction in the episode - the show's first moment of real emotional ambush.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Suicide Tour",
+          "air_date": "2015-03-27",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale resolves the mystery of the amnesiac assistant Chiyuki and forces Decim to confront the limits of purely mechanical judgment. Reviewers were split on whether the emotional turn felt earned; the consensus leaned toward the series having done the work necessary to land it.",
+          "the_moment": "Decim's expression changing - the single most discussed image in the series among viewers.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

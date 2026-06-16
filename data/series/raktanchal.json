@@ -1,0 +1,117 @@
+{
+  "slug": "raktanchal",
+  "qid": {
+    "value": "Q105563987",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Raktanchal",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MX Player",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Thriller"],
+  "logline": "In 1980s eastern Uttar Pradesh, two rival mafia leaders - Waseem Khan and Vijay Singh - wage a bloody war over the tender mafia and sand smuggling trade, inspired by real events.",
+  "poster": {
+    "src": "/img/series/raktanchal/poster.jpg",
+    "alt": "Raktanchal poster",
+    "attribution": "Poster © Pinaka Studios / MX Player. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons aired on MX Player in 2020 and 2022. No Season 3 has been announced; the show appears concluded.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Raktanchal"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-05-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.9,
+        "basis": "IMDb audiences rated Season 1 at 6.9/10, with viewers praising the period authenticity and the central rivalry between Nikitin Dheer and Kranti Prakash Jha, though comparisons to Mirzapur dogged critical reception."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12347286/"
+      },
+      "review_body": "Raktanchal Season 1 launched on MX Player in May 2020, arriving in the same gangland-UP territory staked out by Mirzapur. The comparison proved double-edged: the 1980s period framing and real-event scaffolding gave the show a distinct identity, but comparisons to Mirzapur dogged reception across platforms. IMDb settled on 6.9 out of 10. What distinguished the season was its milieu - the eastern UP tender mafia operates as a civic institution here, not just a criminal one, and the power struggle between Waseem Khan and Vijay Singh carries genuine menace. Nikitin Dheer's physicality as Waseem and the period production design are the season's clearest assets.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-05-28",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere sets the geography and the stakes of the 1980s UP tender mafia with minimal preamble. Nikitin Dheer's Waseem Khan arrives fully formed - menacing and politically connected - while Vijay Singh's introduction plants the rival power axis the season will exploit.",
+          "the_moment": "The opening sequence establishing the 1980s Purvanchal milieu - a period setting rare in Indian streaming crime drama.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 9,
+      "release_date": {
+        "value": "2022-02-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "IMDb audiences gave Season 2 a 6.8/10, a marginal dip from Season 1, with audience sentiment suggesting the rivalry's second chapter maintained quality without significantly raising the stakes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12347286/"
+      },
+      "review_body": "Season 2 of Raktanchal, produced by GSEAMS and released in February 2022, continued the Waseem-Vijay conflict into its second chapter with a marginally cooler reception. IMDb audiences landed at 6.8 out of 10. The season maintained the period texture and the show's core proposition - that the tender mafia is a parallel state, not mere criminality. The marginal IMDb dip from 6.9 to 6.8 tracks the diminishing returns typical of gangland dramas extended across multiple seasons. Ashish Vidyarthi's Ramanand Rai remains the political dimension that lifts the show above pure action.",
+      "season_over_season": "A marginal IMDb dip from 6.9 to 6.8 suggests Season 2 held its core audience without expanding it; the rivalry's second chapter runs competently but does not meaningfully deepen the world.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "gentleman-jack",
+  "qid": {
+    "value": "Q39073393",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Gentleman Jack",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "Biographical", "Romance", "LGBTQ"],
+  "logline": "In 1830s Yorkshire, landowner and coded diarist Anne Lister openly pursues love with another woman while managing her estate - a true story of audacity before the concept of lesbianism had a name.",
+  "poster": {
+    "src": "/img/series/gentleman-jack/poster.jpg",
+    "alt": "Gentleman Jack poster",
+    "attribution": "Poster © BBC / HBO. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "HBO cancelled the series in July 2022 after two seasons. BBC expressed interest in continuing with a new partner but no deal materialised.",
+    "source": "Tom's Guide",
+    "source_url": "https://www.tomsguide.com/news/hbo-cancels-this-show-with-92-on-rotten-tomatoes-after-only-two-seasons"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-04-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "90% on Rotten Tomatoes from 52 critics, with Suranne Jones acclaimed for a performance of 'total confidence' - critics clustered on the show's rare blend of wit, period authenticity, and unapologetic queer romance."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 52,
+        "pull_quotes": [
+          {
+            "text": "Gentleman Jack has been a triumph of wiry wit, unsentimental empathy and, above all, sheer force of personality.",
+            "source": "Daily Telegraph",
+            "url": "https://www.rottentomatoes.com/tv/gentleman_jack/s01/reviews"
+          },
+          {
+            "text": "Gentleman Jack brightly but also quietly investigates Anne's unusual life with a winning mixture of humor and charm.",
+            "source": "Collider",
+            "url": "https://www.rottentomatoes.com/tv/gentleman_jack/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7211618/"
+      },
+      "review_body": "Sally Wainwright's period drama arrived in 2019 as something genuinely rare: a lavish BBC/HBO co-production centred on an openly lesbian protagonist in 1830s Yorkshire, played with volcanic charisma by Suranne Jones. Critics rewarded it with a 90% Rotten Tomatoes score from 52 reviewers. The consensus clustered on two qualities - the dry comic energy Wainwright writes into every scene, and the formal device of Anne Lister addressing the camera directly, breaking the fourth wall to share her coded diary entries. The romance with Ann Walker (Sophie Rundle) unfolds with surprising tenderness inside a story that also tracks Lister managing coal mines and challenging inheritance laws. Anchored by one of British television's great central performances, Season 1 established Gentleman Jack as prestige drama with a genuinely subversive pulse.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I Was Just Passing",
+          "air_date": "2019-04-22",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere establishes Anne Lister's Yorkshire world and her determination to reclaim Shibden Hall's fortunes - and her heart - on her own terms. Jones commands every frame.",
+          "the_moment": "Lister turns to address the camera directly for the first time, letting the audience into her coded world.",
+          "critic_note": {
+            "text": "Capitalizing on the extraordinary story of Lister, Season 1 unpacks gender performance, sexuality, and female desire.",
+            "source": "Thrillist",
+            "url": "https://www.rottentomatoes.com/tv/gentleman_jack/s01/reviews"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Are You Still Talking?",
+          "air_date": "2019-06-03",
+          "bollymeter": 8.8,
+          "spoiler_free": "The season finale brings Lister's romantic and financial ambitions to a head - a confident close to a debut run that earned 90% on Rotten Tomatoes.",
+          "the_moment": "Anne and Ann's private commitment scene - a union conducted entirely outside any legal framework of the time.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-04-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "95% on Rotten Tomatoes from 21 critics - Season 2 was praised as an 'unexpectedly intimate comfort watch' that deepened the relationship between Lister and Walker while expanding the social stakes."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 21,
+        "pull_quotes": [
+          {
+            "text": "Jones gives a big, charismatic performance, to match Anne's big, charismatic personality, but she isn't chewing up scenery.",
+            "source": "Boston Globe",
+            "url": "https://www.rottentomatoes.com/tv/gentleman_jack/s02/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7211618/"
+      },
+      "review_body": "The second and final season, arriving in 2022 after a pandemic gap, earned an even higher 95% critical approval on Rotten Tomatoes from 21 reviewers. Where Season 1 built the romance, Season 2 complicates it - Ann Walker's mental health struggles, the social pressure on their unconventional arrangement, and Lister's restless ambition all pull in different directions. Critics found it unexpectedly intimate, with Matthew Gilbert of the Boston Globe singling out Jones for 'a big, charismatic performance' that never tips into self-parody. HBO's subsequent cancellation was widely mourned; the show had built a devoted transatlantic audience and found a cultural moment that made its historical subject feel urgently contemporary.",
+      "season_over_season": "Season 2 trades the freshness of discovery for a deeper, more emotionally complex portrait of the couple's relationship under social strain - and critics responded with an even higher score.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:00:00+05:30"
+}

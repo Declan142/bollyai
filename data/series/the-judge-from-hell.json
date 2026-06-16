@@ -1,0 +1,101 @@
+{
+  "slug": "the-judge-from-hell",
+  "qid": {
+    "value": "Q127162951",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T14:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Judge from Hell",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS / Disney+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T14:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Fantasy",
+    "Thriller",
+    "Crime",
+    "Supernatural"
+  ],
+  "logline": "A demon named Justitia is banished from hell and inhabits the body of a human judge, tasked with condemning ten remorseless killers on Earth - until a sharp-eyed detective starts noticing the pattern.",
+  "poster": {
+    "src": "/img/series/the-judge-from-hell/poster.jpg",
+    "alt": "The Judge from Hell poster",
+    "attribution": "Poster © SBS / The Convict. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Season 2 announced and scheduled for June 1, 2026 on SBS.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Judge_from_Hell"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 14,
+      "release_date": {
+        "value": "2024-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T14:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb audience rates it 7.8/10; it averaged 10.8% nationwide ratings on SBS and placed sixth on TIME Magazine's 10 Best K-Dramas of 2024 list. The open-ended finale and early pacing issues temper an otherwise entertaining supernatural procedural."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt33255143/"
+      },
+      "review_body": "The Judge from Hell premiered on SBS in September 2024 and landed as one of the year's most-discussed fantasy-crime hybrids. Park Shin-hye plays double duty as the human Judge Kang Bit-na and the demon Justitia inhabiting her body, a tonal performance challenge the show builds its identity around. The SBS Drama Awards recognised multiple cast members including Kim Jae-young in supporting honours. The drama averaged 10.8% nationwide ratings - a strong domestic result - and TIME Magazine ranked it sixth on their Best K-Dramas of 2024 list. An 83% Rotten Tomatoes score indicates broadly positive critical reception. Early episodes were noted to accelerate slowly, and the Season 1 finale closes on an open-ended note that set up the already-confirmed Season 2 scheduled for June 2026.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-09-21",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the supernatural premise with committed genre energy: a demon takes human form in a courthouse and immediately begins operating outside the boundaries of Korean law. Park Shin-hye's tonal precision makes the tonal oddity work.",
+          "the_moment": "Justitia's first act of demonic judgment inside the human legal system - the show announces exactly what it intends to be.",
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "Episode 14",
+          "air_date": "2024-11-02",
+          "bollymeter": 7.2,
+          "spoiler_free": "The season finale resolves most of the episodic villain threads but leaves the central supernatural mission deliberately open - a structural choice that set up the confirmed Season 2.",
+          "the_moment": "The final confrontation between Justitia and the detective who has pieced together her true identity.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T14:15:00+05:30"
+}

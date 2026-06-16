@@ -1,0 +1,96 @@
+{
+  "slug": "legend-of-the-blue-sea",
+  "qid": {
+    "value": "Q24698311",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Legend of the Blue Sea",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Romance", "Drama", "Comedy"],
+  "logline": "A mermaid from Joseon-era legend is reincarnated in modern Seoul, where she finds her way to a charming con artist whose fate is bound to hers across two lifetimes.",
+  "poster": {
+    "src": "/img/series/legend-of-the-blue-sea/poster.jpg",
+    "alt": "The Legend of the Blue Sea poster",
+    "attribution": "Poster © SBS / HB Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run concluded January 2017 on SBS. Series is complete at 20 episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Legend_of_the_Blue_Sea"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 20,
+      "release_date": {
+        "value": "2016-11-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Consistently held first place in its SBS timeslot and exceeded 20% viewership at peak; MyDramaList audience score of 8.3 across 89,000 ratings, though critics noted the plot's unevenness against the lead performances."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/18816-the-legend-of-the-blue-sea"
+      },
+      "review_body": "The Legend of the Blue Sea aired on SBS from November 2016, marking Lee Min-ho's return to television after nearly three years. The show held first place in its timeslot throughout its run and crossed 20 percent viewership at peak. Jun Ji-hyun's Shim Cheong was the clear standout: her mermaid is physically formidable, comedically gifted, and emotionally unpredictable without being written as a burden - a rare female K-drama lead with genuine physical agency. The dual-timeline structure, cross-cutting between a Joseon-era tragic love story and the modern reincarnation romance, gave the show an epic sweep that elevated the premise beyond typical fantasy romance. The second act's pacing issues and logic gaps were the most consistent editorial complaint in contemporary reception. The MyDramaList audience score of 8.3 from over 89,000 users reflects the show's enduring popularity across Asian drama fanbases.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-11-16",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere opens in Joseon-era coastal Korea before pivoting to a Spain-set meet-cute between a mermaid and a con artist. The dual timeline is established with confidence, and Jun Ji-hyun's physical comedy as an otherworldly creature adapting to land life is immediately captivating.",
+          "the_moment": "Shim Cheong's first encounter with the modern world's sensory chaos - played as physical comedy but grounded in genuine displacement.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2017-01-25",
+          "bollymeter": 7.6,
+          "spoiler_free": "The finale resolves the fate-across-lifetimes premise with the emotional weight the Joseon prologue had promised. Whether the climax earns its scale depends entirely on how invested one is in the dual-timeline mythology the show spent 20 episodes constructing.",
+          "the_moment": "The resolution of the Joseon-era tragedy - the closing of the loop the show opened in its first scene.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

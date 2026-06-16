@@ -1,0 +1,87 @@
+{
+  "slug": "run-on",
+  "qid": {
+    "value": "Q101219144",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Run On",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / JTBC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Sports"],
+  "logline": "A former national sprinter pivoting into sports agency and a subtitle translator who loves foreign films find their worlds colliding in a slow, philosophically-inclined romance across class lines.",
+  "poster": {
+    "src": "/img/series/run-on/poster.jpg",
+    "alt": "Run On poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run concluded February 2021 on JTBC. Series is complete at 16 episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Run_On_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-12-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "An 88% Rotten Tomatoes score from 3 critics and steady audience appreciation for its unhurried, conversation-driven rhythm; broader viewership remained modest at a 3% cable average."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 3,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13271834/"
+      },
+      "review_body": "Run On launched on JTBC in December 2020 during pandemic production disruptions and earned 88 percent on Rotten Tomatoes from the small but positive critical sample that engaged with it. The series occupies a distinctive lane: it is interested in language, translation, and the gap between what people say and what they mean, more than in the genre beats of a standard K-drama romance. Yim Si-wan and Shin Se-kyung anchor two leads whose privilege and independence are genuinely different from the usual K-drama template. The show's conversational texture struck its engaged viewership as 'refreshing,' while the slow-paced approach divided audiences who favoured propulsive plotting. Cable ratings stayed modest throughout the run, finishing 7th in its timeslot with a 3.6% finale. The secondary romance between Choi Soo-young and Kang Tae-oh earned comparable fan enthusiasm to the leads. A small, specific pleasure for viewers who want a K-drama that thinks about language.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-12-16",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere introduces its four leads through their languages - the athlete who says too little, the translator who says too much, the heiress who says exactly what she means, and the art student who says what he feels.",
+          "the_moment": "Seon-gyeom and Mi-joo's first extended conversation - unusual for K-drama in that neither party is performing attraction; they are just curious.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

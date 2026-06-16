@@ -1,0 +1,152 @@
+{
+  "slug": "rurouni-kenshin",
+  "qid": null,
+  "title": {
+    "value": "Rurouni Kenshin: Meiji Swordsman Romantic Story",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Historical", "Adventure", "Romance"],
+  "logline": "In Meiji-era Japan, a legendary assassin who vowed never to kill again wanders Tokyo with a reverse-blade sword, drawn into battles that test whether redemption is possible for a man whose hands built a new era in blood.",
+  "poster": {
+    "src": "/img/series/rurouni-kenshin/poster.jpg",
+    "alt": "Rurouni Kenshin poster",
+    "attribution": "Poster © Studio Deen / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 95-episode series concluded in September 1998. A 2023 remake by Liden Films and a separate live-action film series are separate productions from the 1996 original.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rurouni_Kenshin_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1996,
+      "episodes": 28,
+      "release_date": {
+        "value": "1996-01-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "MAL score of 8.27 for the complete series; critics noted the Tokyo arc's early episodes as productive scene-setting but acknowledged the strongest material arrives in the Kyoto arc."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.27,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/45/Rurouni_Kenshin"
+      },
+      "review_body": "The Tokyo arc (January to November 1996) introduces Himura Kenshin, his dojo companions Kaoru, Yahiko, and Sanosuke, and establishes the series' central tension between pacifism and exceptional violence. Studio Gallop produced the early episodes, delivering serviceable action choreography and a reliable episodic structure - villain-of-the-week scenarios that build character relationships. This arc functions as necessary foundation rather than peak entertainment: Kenshin's vow and the reverse-blade sword define his character, and the antagonists introduce the political context of post-Bakumatsu Japan. The series appeared on Cartoon Network's Toonami in 2003, cementing its place as a gateway title for Western anime audiences.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Handsome Swordsman of Legend: A Man Who Fights for Love",
+          "air_date": "1996-01-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes Kenshin as a paradox - physically capable of extraordinary violence, temperamentally committed to protecting life. The reverse-blade sword is introduced as a moral statement rather than a handicap, and the tone of gentle melancholy underpinning an action series is set from the first scene.",
+          "the_moment": "Kenshin drawing the reverse-blade sword and the revelation of the cross-shaped scar - the franchise's signature image introduced with the economy of confidence.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1996,
+      "episodes": 35,
+      "release_date": {
+        "value": "1996-11-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "The Kyoto arc is universally regarded as the series' creative peak; critics cited 'amazing fights and a great soundtrack' and the Shishio antagonist as among the strongest in 1990s anime."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.27,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/45/Rurouni_Kenshin"
+      },
+      "review_body": "The Kyoto arc (November 1996 to September 1997) is where Rurouni Kenshin became a defining title of its era. Kenshin travels to Kyoto to stop the burnt-alive former government assassin Makoto Shishio from overthrowing the Meiji government. The arc's strengths are the antagonist's ideological coherence, the escalating fight choreography, and the emotional weight placed on Kenshin's vow never to kill again. The series ranked among the 100 most-watched in Japan during its broadcast run. Shishio Makoto is an antagonist with genuine philosophical menace - his argument that the strong devour the weak is a direct inversion of Kenshin's worldview rather than mere villainy.",
+      "season_over_season": "A dramatic escalation from the Tokyo arc's episodic structure - the Kyoto arc introduces a single sustained antagonist whose ideology directly challenges Kenshin's, producing the series' most compelling extended narrative.",
+      "episode_reviews": [
+        {
+          "number": 29,
+          "title": "Two Men at the Summit: God's Will",
+          "air_date": "1997-07-28",
+          "bollymeter": 8.8,
+          "spoiler_free": "The climactic confrontation between Kenshin and Shishio that the Kyoto arc has been building toward. The fight choreography, the thematic stakes, and the emotional cost all arrive simultaneously - the series at its most formally accomplished.",
+          "the_moment": "The sequence where Kenshin must confront whether his vow can survive a fight against an opponent who will not stop until one of them is dead.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 1997,
+      "episodes": 32,
+      "release_date": {
+        "value": "1997-11-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "The Jinchu/filler arc is widely regarded as the weakest period in the series; much of it consists of anime-original material produced while the manga was still running, and fan reception has been consistently critical."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.27,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/45/Rurouni_Kenshin"
+      },
+      "review_body": "The final arc (November 1997 to September 1998) is the most problematic stretch of the 1996 series. The Jinchu arc from Nobuhiro Watsuki's manga - the story's most anticipated arc among manga readers at the time - was never adapted: the anime ran ahead of the source and pivoted to anime-original filler before the series concluded. This remains the series' most significant missed opportunity. The Enishi arc, which would have provided thematic closure to Kenshin's role in the Bakumatsu, did not receive animated form until a separate OVA production. The standard viewing recommendation is to treat the original series as ending with the Kyoto arc for narrative satisfaction.",
+      "season_over_season": "A sharp decline from the Kyoto arc's quality - anime-original content produced to fill time before the manga concluded, lacking the antagonist quality and emotional stakes of the prior two arcs.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "something-in-the-rain",
+  "qid": {
+    "value": "Q47300881",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Something in the Rain",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / JTBC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Slice of Life"],
+  "logline": "A 35-year-old coffee franchise manager falls for her best friend's younger brother in a slow-burn romance that interrogates age-gap taboos and workplace sexism in contemporary Seoul.",
+  "poster": {
+    "src": "/img/series/something-in-the-rain/poster.jpg",
+    "alt": "Something in the Rain poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run concluded May 2018 on JTBC. Series is complete at 16 episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Something_in_the_Rain"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-03-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Earned its reputation as the most talked-about Korean drama of 2018 on the strength of Son Ye-jin and Jung Hae-in's chemistry; the second half's tonal shift toward melodrama divided audiences."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 1,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8078816/ratings/"
+      },
+      "review_body": "Something in the Rain arrived in spring 2018 and became the breakout K-drama of the year, driven almost entirely by the undeniable on-screen rapport between Son Ye-jin and Jung Hae-in. Critics and audiences clustered around the show's patient, naturalistic courtship - the small gestures, shared meals, and glances that accumulate into something genuinely felt. The series also embedded a secondary thread about workplace sexual harassment that sharpened its social commentary beyond the romance lane. The consensus softened in the second half when the drama pivoted from delicate slice-of-life warmth into heavier family-opposition melodrama - a tonal gear-shift that struck some viewers as repetitive. The leads were nicknamed the 'next Song-Song couple' mid-broadcast, and the show took the Seoul International Drama Awards and Asian Television Awards for Best Drama Series. Weak plotting in the final stretch keeps it a notch below the genre's best, but the chemistry remains the year's standard.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-03-30",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes Jin-ah and Jun-hui's dynamic through charged awkwardness and shared meals rather than grand declarations. The age-gap tension is introduced with social specificity - disapproval coded into glances before a word is spoken.",
+          "the_moment": "The first shared umbrella scene - an ordinary gesture that crystallises the show's approach to desire as something accumulated rather than declared.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2018-05-19",
+          "bollymeter": 6.9,
+          "spoiler_free": "The finale resolves the family pressure arc but cannot fully recover from the melodrama sag of the back half. The ending lands quieter than the emotional investment the show had built might lead viewers to expect.",
+          "the_moment": "The final reconciliation - simpler and quieter than the show's operatic midsection, which is both its weakness and its grace.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "pride-and-prejudice-1995",
+  "qid": {
+    "value": "Q855673",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Pride and Prejudice",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Romance", "Historical"],
+  "logline": "Andrew Davies' six-part adaptation of Jane Austen's novel follows the sharp-witted Elizabeth Bennet and the proudly reticent Mr. Darcy toward an unlikely romance - the definitive screen version of a story about first impressions and what hides beneath them.",
+  "poster": {
+    "src": "/img/series/pride-and-prejudice-1995/poster.jpg",
+    "alt": "Pride and Prejudice poster",
+    "attribution": "Poster © BBC / A&E Network. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A self-contained six-episode BBC miniseries, broadcast in 1995. No continuation was planned or produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice_(1995_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1995,
+      "episodes": 6,
+      "release_date": {
+        "value": "1995-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "88% on Rotten Tomatoes from 17 critics - the consensus called it 'probably as good as it gets' for literary TV adaptation; Colin Firth's Darcy became a cultural touchstone that outlasted the broadcast by decades."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 17,
+        "pull_quotes": [
+          {
+            "text": "As far as TV adaptations of literary classics go, this is probably as good as it gets.",
+            "source": "Independent",
+            "url": "https://www.rottentomatoes.com/tv/pride_and_prejudice/s01/reviews"
+          },
+          {
+            "text": "Colin Firth is Mr Darcy - cool, arrogant, cruel and a bit sexy.",
+            "source": "Radio Times",
+            "url": "https://www.rottentomatoes.com/tv/pride_and_prejudice/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0112130/"
+      },
+      "review_body": "Adapted by Andrew Davies and directed by Simon Langton, the 1995 BBC Pride and Prejudice became one of the defining television events of its decade - a six-episode miniseries that drew ten million viewers per episode in the UK and created a cultural phenomenon around Colin Firth's Mr. Darcy. The 88% Rotten Tomatoes score from 17 critics and 8.8 IMDb rating reflect sustained admiration across three decades. Jennifer Ehle won the BAFTA for Best Actress, and the critics' consensus called it 'probably as good as it gets' for literary adaptation. Davies' screenplay is credited with modernising Austen for television - retaining the wit and social satire while adding dramatised sequences the novel only implies. The famous lake scene became one of British television's most discussed images. For critics, audiences, and literary scholars alike, this remains the benchmark against which all subsequent Austen adaptations are measured.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "1995-09-24",
+          "bollymeter": 8.8,
+          "spoiler_free": "The opening establishes the Bennet family, the social machinery of the Regency marriage market, and the first charged meeting between Elizabeth and Darcy - all with the wit and economy that defines the best of Davies' adaptation.",
+          "the_moment": "Elizabeth and Darcy's first encounter at Netherfield - the mutual misreading that launches the entire story.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "1995-10-15",
+          "bollymeter": 9.2,
+          "spoiler_free": "Darcy's letter to Elizabeth after his first failed proposal is one of the most precisely adapted scenes in the miniseries - Davies trusts Austen's prose and the result is devastating.",
+          "the_moment": "Elizabeth reads Darcy's letter and her certainties about him - and herself - begin to collapse.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "1995-10-29",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale delivers the emotional resolution the series has earned - Darcy and Elizabeth's second proposal scene remains one of British television drama's great romantic payoffs.",
+          "the_moment": "Darcy's second proposal on the misty morning road - economy, restraint, and thirty years of cultural memory.",
+          "critic_note": {
+            "text": "Colin Firth is Mr Darcy - cool, arrogant, cruel and a bit sexy.",
+            "source": "Radio Times",
+            "url": "https://www.rottentomatoes.com/tv/pride_and_prejudice/s01/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:20:00+05:30"
+}

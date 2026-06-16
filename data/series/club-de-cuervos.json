@@ -1,0 +1,168 @@
+{
+  "slug": "club-de-cuervos",
+  "qid": {
+    "value": "Q20774965",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Club de Cuervos",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Mexico",
+  "original_language": {
+    "value": "es",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Sports"],
+  "logline": "When the patriarch of the Iglesias football dynasty dies, his two wildly incompatible heirs - charming wastrel Chava and driven Isabel - fight for control of the fictional Club Cuervos de Nuevo Toledo in a comedy about family, money, and Mexican football culture.",
+  "poster": {
+    "src": "/img/series/club-de-cuervos/poster.jpg",
+    "alt": "Club de Cuervos poster",
+    "attribution": "Poster © Netflix / Club de Cuervos Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Four seasons concluded in January 2019. Netflix did not renew for a fifth season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Club_de_Cuervos"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 13,
+      "release_date": {
+        "value": "2015-08-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "80% on Rotten Tomatoes from 5 critics and an 84% audience score; historically notable as the first major Spanish-language Netflix original, with critics citing its entertaining sibling rivalry premise despite uneven execution."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Even if you don't speak Spanish or you're not a soccer fan, it's still a series worth watching.",
+            "source": "Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/club_de_cuervos/s01"
+          },
+          {
+            "text": "Club de Cuervos could be the beginning of modern day television in Mexico.",
+            "source": "Letras Libres",
+            "url": "https://www.rottentomatoes.com/tv/club_de_cuervos/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4680240/"
+      },
+      "review_body": "Club de Cuervos Season 1 debuted on Netflix in August 2015 as the platform's first significant Spanish-language original series, a distinction that loaded the show with historical weight it was perhaps not fully equipped to carry. Creators Gary Alazraki and Michael Lam built a sibling-rivalry comedy around the fictional Cuervos de Nuevo Toledo football club, with Luis Gerardo Mendez's Chava and Mariana Trevino's Isabel as the warring heirs. Rotten Tomatoes registered 80% positive from a small critic sample of five; IMDb audiences landed substantially higher at 8.2 out of 10. Critical consensus held that the show was entertaining without being as sharp as its premise promised - TheWrap noted it 'ought to be more fun than it is' - but the cultural specificity of Mexican football and its class politics gave the show an identity beyond the comedy framework.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2015-08-07",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere kills the Iglesias patriarch with efficient economy and immediately drops Chava and Isabel into the power vacuum. The sibling dynamic is established with comedy that skews toward character absurdity over joke-writing, which is the show's sustainable mode.",
+          "the_moment": "Isabel's instant competence vs. Chava's instant incompetence - the show's central comic engine firing on its first lap.",
+          "critic_note": {
+            "text": "Even if you don't speak Spanish or you're not a soccer fan, it's still a series worth watching.",
+            "source": "Common Sense Media",
+            "url": "https://www.rottentomatoes.com/tv/club_de_cuervos/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-12-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 deepened the Iglesias family saga with ten episodes that tightened the sibling conflict and expanded the club's on-field storyline. Audience reception on IMDb held steady with the overall series score. The shorter episode count versus Season 1 produced a more focused run.",
+      "season_over_season": "The trimmed episode order versus Season 1 produces a tighter, more focused season; the comedy remains uneven but the character work around Isabel has grown into something genuinely compelling.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-09-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 continued the Cuervos saga in September 2017 with another ten episodes. By this point the show had a settled audience that appreciated its blend of football satire and soap-opera family mechanics. No major critical reassessment emerged.",
+      "season_over_season": "Season 3 maintains the show's established rhythm without attempting a tonal pivot; a reliable run for existing fans, minimal entry point for new ones.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-01-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The fourth and final season of Club de Cuervos landed in January 2019, expanding to twelve episodes to close the Iglesias family arc. Netflix did not renew for a fifth season. The extended episode count for the finale season drew mixed responses from the audience, with some feeling the conclusion overstayed its welcome.",
+      "season_over_season": "The final season's twelve-episode count works against it - the show's screwball energy fits the tighter formats of Seasons 2-3 better than an expanded farewell.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

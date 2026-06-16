@@ -1,0 +1,97 @@
+{
+  "slug": "nichijou",
+  "qid": null,
+  "title": {
+    "value": "Nichijou - My Ordinary Life",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Comedy", "Slice of Life"],
+  "logline": "In the town of Tokisadame, three high school girls and a pint-sized genius with a robot companion navigate daily life where the mundane and the utterly absurd collide at full speed.",
+  "poster": {
+    "src": "/img/series/nichijou/poster.jpg",
+    "alt": "Nichijou - My Ordinary Life poster",
+    "attribution": "Poster © Kyoto Animation. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 26-episode anime adaptation by Kyoto Animation aired in 2011 and concluded as a standalone series. No sequel season has been produced. The series received a complete Blu-ray and DVD release from Funimation in North America.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Nichijou"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 26,
+      "release_date": {
+        "value": "2011-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "MAL score of 8.47 reflects deep cult affection; Anime News Network's Blu-ray review called it a fan favourite comedy and praised its ability to make something special out of sketch absurdism, noting a weighted user mean of 8.17 (Very Good+)."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The series combines comedy with slice-of-life to good effect, showing just why so many companies have been willing to take a chance on it.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/nichijou/sub.blu-ray-dvd-the-complete-series/.114052"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.47,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/10165/Nichijou"
+      },
+      "review_body": "Kyoto Animation's 2011 adaptation of Keiichi Arawi's gag manga is one of the most technically ambitious comedy anime ever produced. KyoAni applied full sakuga-budget animation to absurdist sketch comedy - a deer headbutting a principal, a robot girl sneezing catastrophically, mundane school moments escalating into silent-film slapstick at breakneck velocity. Critics and the MAL community have consistently rated the show a high 8s, recognising it as a comedy that requires real craft to land. The show's initial commercial performance in Japan was modest, but its global streaming availability on Crunchyroll transformed it into a beloved cult property over the following decade. The sheer visual expressiveness of KyoAni's work here - reserved normally for drama - applied to pure comedy remains a benchmark the anime industry has not repeated at the same scale.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "My Ordinary Life",
+          "air_date": "2011-04-03",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Nichijou's two tonal registers simultaneously: the gentle, slow rhythms of Mio, Yuuko, and Mai's school life alongside the chaotic domestic world of young scientist Hakase and her android Nano. Even in episode one, KyoAni's animation ambition is evident.",
+          "the_moment": "The first escalating gag that blows past any reasonable proportion - a signal that this show plays by its own physics.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "My Ordinary Life 10",
+          "air_date": "2011-06-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "Contains what many consider the single greatest gag in the series - a sketch involving a paper airplane that escalates into full orchestral chaos. KyoAni's commitment to the bit, spending what feels like theatrical animation budget on a throwaway comedy payoff, is the show at its peak.",
+          "the_moment": "The paper airplane sequence - absurdism elevated to art through sheer production excess.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:05:00+05:30"
+}

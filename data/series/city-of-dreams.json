@@ -1,0 +1,122 @@
+{
+  "slug": "city-of-dreams",
+  "qid": {
+    "value": "Q65064089",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "City of Dreams",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JioHotstar",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Thriller", "Crime", "Psychological"],
+  "logline": "An assassination attempt on a Mumbai political patriarch ignites a ruthless succession war within the Gaikwad family, where ambition and moral compromise are the only currencies that matter.",
+  "poster": {
+    "src": "/img/series/city-of-dreams/poster.jpg",
+    "alt": "City of Dreams poster",
+    "attribution": "Poster © Applause Entertainment / JioHotstar. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons aired between 2019 and 2023. No renewal announced as of 2026; the series concluded its narrative arc with Season 3.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/City_of_Dreams_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-05-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Nagesh Kukunoor's political thriller drew comparisons to prestige drama for its layered writing and committed performances from Atul Kulkarni and Priya Bapat, with critics noting its sharp depiction of Mumbai's political underworld."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "City of Dreams arrived in May 2019 as one of Hotstar Specials' most ambitious original productions - a Hindi-language political thriller rooted in the corrupt machinery of Maharashtra politics. Director Nagesh Kukunoor, known for restrained character-driven cinema, brought that sensibility to an assassination attempt on a political patriarch, letting the family fissures that follow drive the narrative. Atul Kulkarni and Priya Bapat carried the weight of a show whose grounded portrayal of the compromises required to survive in the political arena set it apart from the typical streaming drama. The ten-episode run allowed the show room to develop its ensemble without rushing toward resolution.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-07-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 deepened the Gaikwad family conflict while expanding the political canvas, maintaining the series' reputation for competent ensemble work even as some critics found the plotting more convoluted."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned in July 2021 with the Gaikwad family succession battle now fully in motion. Where the first season used the assassination attempt as a catalyst, the second spread its energy across factional infighting, coalition-building, and the personal costs of political ambition. The ten-episode format again served the story well, allowing Kukunoor to sketch supporting players with enough detail to make their betrayals register. Strong performances from the returning cast and a credible sense of the backroom deals that govern Indian political life remained the show's anchors, with Priya Bapat's female protagonist driving the central conflict without the narrative framing it as exceptional.",
+      "season_over_season": "Season 2 widens the political map but adds complexity at the cost of some of the first season's tighter focus.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 9,
+      "release_date": {
+        "value": "2023-05-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 3 closed the series with its nine-episode finale run, delivering a resolution to the Gaikwad arc that rewarded viewers who had followed the family's trajectory across four years."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 concluded City of Dreams in May 2023 with a tighter nine-episode run that signalled the showrunners knew where the story needed to land. The political stakes from the earlier seasons converged as the Gaikwad family's internal war reached its endgame. Sachin Pilgaonkar's performance remained one of the series' consistent anchors, and the finale delivered enough resolution to justify the multi-season investment. The show never quite broke out of its niche audience, but over three seasons it established itself as one of the more seriously crafted Hindi-language political dramas available on Indian streaming platforms.",
+      "season_over_season": "Season 3 contracts to nine episodes and sharpens the finale arc, delivering a more focused close than Season 2's wider sprawl.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

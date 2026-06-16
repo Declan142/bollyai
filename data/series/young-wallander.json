@@ -1,0 +1,128 @@
+{
+  "slug": "young-wallander",
+  "qid": {
+    "value": "Q98928738",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Young Wallander",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Drama", "Thriller"],
+  "logline": "A modern-day prequel follows 20-something Kurt Wallander as a newly graduated officer in Malmö - a reboot that trades the original's brooding Swedish atmosphere for English-language crime procedural with a younger, angrier protagonist.",
+  "poster": {
+    "src": "/img/series/young-wallander/poster.jpg",
+    "alt": "Young Wallander poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled the series after two seasons in 2022. No further seasons were produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Young_Wallander"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-09-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "64% on Rotten Tomatoes from 14 critics; the consensus found it 'dispiritingly unenlightening as a prequel and merely functional as a drama in its own right,' though some critics noted its efficient genre craft."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "All of this could be forgiven if Young Wallander worked as a drama in its own right, but it's so inept...",
+            "source": "Daily Telegraph",
+            "url": "https://www.rottentomatoes.com/tv/young_wallander_killers_shadow/s01/reviews"
+          },
+          {
+            "text": "With a meaty budget and solid Scandi-noir foundation to build upon, Young Wallander proves a slickly-executed thriller.",
+            "source": "NME",
+            "url": "https://www.rottentomatoes.com/tv/young_wallander_killers_shadow/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9359220/"
+      },
+      "review_body": "Ben Harris's Netflix prequel arrived in September 2020 with the significant creative gamble of stripping the Wallander universe of its Swedish language, Scandinavian cast, and period setting - shooting in Lithuania standing in for Malmö, with an English-speaking cast led by Swedish actor Adam Pålsson. The result earned a divided 64% on Rotten Tomatoes from 14 critics. The consensus was pointed: the show 'bears little resemblance to the beloved procedural it presumes to reboot.' The Daily Telegraph called it 'inept as a drama in its own right'; NME found it 'slickly-executed.' Audience reception was steadier at 6.8 IMDb, suggesting a viewer base that came to the show without attachment to the Kenneth Branagh original. As a straight crime procedural about a young detective in a contemporary city, it functions adequately; as a Wallander continuation, it lacks the melancholy depth and cultural specificity that defined Henning Mankell's creation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-09-03",
+          "bollymeter": 6.0,
+          "spoiler_free": "The season opener drops young Wallander into a racially motivated murder investigation in modern Malmö - efficiently constructed but unable to replicate the bleak atmosphere of the original.",
+          "the_moment": "Wallander's first case encounter establishes Adam Pålsson as a credible lead, even if the surrounding world feels generic.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-02-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "No Tomatometer score available from critic reviews; audience IMDb rating of 6.8 covers the full series. The second season subtitled 'Killer's Shadow' received no formal critical aggregation."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9359220/"
+      },
+      "review_body": "Season 2, subtitled 'Killer's Shadow,' arrived in February 2022 and attracted insufficient critical coverage to generate a Rotten Tomatoes Tomatometer score. Netflix cancelled the series shortly after. The season continued the show's formula - Pålsson as a young Wallander navigating morally complex criminal cases in a modernised Malmö - without the critical attention that might have amplified its reach or spurred a third run. Audience response remained steady if unenthusiastic. Young Wallander ends as a competent mid-tier Netflix crime drama that never found the creative identity that might have made it essential viewing for Scandi-noir fans or a new audience discovering the Wallander universe.",
+      "season_over_season": "Season 2 maintains the procedural competence of the debut without finding a new angle or deepening its characters - the cancellation that followed was unsurprising.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:25:00+05:30"
+}

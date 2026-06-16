@@ -1,0 +1,106 @@
+{
+  "slug": "serial-experiments-lain",
+  "qid": {
+    "value": "Q858387",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Serial Experiments Lain",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Funimation",
+    "source": "Anime News Network",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Sci-Fi", "Psychological", "Mystery", "Supernatural"],
+  "logline": "A shy teenage girl receives an email from a dead classmate and is drawn into the Wired - a virtual network where identity dissolves, reality and cyberspace converge, and something ancient is rewriting its own origin.",
+  "poster": {
+    "src": "/img/series/serial-experiments-lain/poster.jpg",
+    "alt": "Serial Experiments Lain poster",
+    "attribution": "Poster © Triangle Staff / Pioneer LDC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 13-episode anime series aired on TV Tokyo from July to September 1998 and is a standalone work with no sequel. Triangle Staff disbanded after the production. A Blu-ray release was issued by Funimation with both subtitled and dubbed audio.",
+    "source": "Anime News Network",
+    "source_url": "https://www.animenewsnetwork.com/review/serial-experiments-lain/bd+dvd-complete-series"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1998,
+      "episodes": 13,
+      "release_date": {
+        "value": "1998-07-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "MAL score of 8.10 from 359,000 voters; Anime News Network's Blu-ray review awarded an A+ (sub) and described it as one of the greatest mind-games in all of anime - a perfect union of style and substance, and a rare series to legitimately claim the label of classic."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "One of the greatest mind-games in all of anime; a perfect union of style and substance.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/serial-experiments-lain/bd+dvd-complete-series"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/339/Serial_Experiments_Lain"
+      },
+      "review_body": "Produced by Triangle Staff and aired on TV Tokyo in the summer of 1998, Serial Experiments Lain is a 13-episode psychological science fiction work that remains one of the most discussed and contested anime ever made. Directed by Ryutaro Nakamura with character design by Yoshitoshi ABe and scripts by Chiaki J. Konaka, the show anticipated anxieties about networked identity, surveillance, and the dissolution of the self in digital space that would not enter mainstream discourse for another decade. ANN's Blu-ray review - awarding an A+ for the subtitled version - described it as one of the few anime to legitimately claim the label of classic, noting its status as a rare pinnacle of the anime art, ambitious and fearlessly experimental to its last frame. The show is deliberately opaque; its 13 layers (the word choice is significant) reward close viewing and multiple revisitations. The MAL community score of 8.10 across 359,000 voters and cult following on platforms like Reddit's r/anime confirm its ongoing influence on anime discourse.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Layer 01 - Weird",
+          "air_date": "1998-07-06",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes its atmosphere before it establishes anything else. Lain is introduced as absence - pale, silent, barely present - before an email from a dead girl begins pulling her toward the Wired. The visual language of electric pylons, power lines, and ambient industrial sound communicates unease without explanation.",
+          "the_moment": "The email from Chisa arrives - an invitation from death that the show treats with complete seriousness.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Layer 13 - Ego",
+          "air_date": "1998-09-28",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the show's questions about identity and divinity in a way that is simultaneously clarifying and deliberately incomplete. Critics note that the final layer functions both as conclusion and reset - a structural choice that mirrors the show's themes about memory, existence, and the nature of self.",
+          "the_moment": "Lain's final act in the Wired - and what she chooses to erase.",
+          "critic_note": {
+            "text": "Ambitious, ambiguous, and fearlessly experimental to its last frame.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/serial-experiments-lain/bd+dvd-complete-series"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:25:00+05:30"
+}

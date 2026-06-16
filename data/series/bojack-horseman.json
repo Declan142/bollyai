@@ -1,0 +1,261 @@
+{
+  "slug": "bojack-horseman",
+  "qid": {
+    "value": "Q17733404",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "BoJack Horseman",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Psychological", "Slice of Life"],
+  "logline": "A washed-up 1990s sitcom horse attempts a Hollywood comeback while fighting addiction, fractured relationships, and a depression that no amount of fame or money has ever touched.",
+  "poster": {
+    "src": "/img/series/bojack-horseman/poster.jpg",
+    "alt": "BoJack Horseman poster",
+    "attribution": "Poster © Netflix / Tornante Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled the series after six seasons; the final eight episodes of Season 6 dropped January 31, 2020, closing out BoJack's arc with deliberate finality.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2019/tv/news/bojack-horseman-cancelled-netflix-season-6-1203432660/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-08-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "Season 1 scored 71% on Rotten Tomatoes - a solid debut with a promising voice, before the show reached the perfection of later seasons."
+      },
+      "critic": {
+        "positive_pct": 71,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 1 arrived in August 2014 to a 71% Rotten Tomatoes score - promising but uneven, with the show's anthropomorphic world-building outpacing its emotional depth in places. Will Arnett's voice performance grounds a surrealist premise in genuine pathos. The show already poses harder questions about self-destruction and fame than most live-action prestige dramas dare attempt. Metacritic scored the debut season at 82 across 57 reviews total for the series run - a figure that understates how passionately the consensus aligned by the end. Season 1 is the rough draft of a masterpiece - sprawling, occasionally slack, but unmistakably singular in ambition.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "BoJack Horseman: The BoJack Horseman Story, Chapter One",
+          "air_date": "2014-08-22",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere introduces the washed-up star of Horsin' Around, his ghostwriter Diane, and the parasitic agent Princess Carolyn. The show establishes its Hollywoo absurdism quickly but reserves its emotional gut-punch for episodes ahead.",
+          "the_moment": "BoJack's self-pity monologue that tips from comedy into something disturbingly sincere.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "Downer Ending",
+          "air_date": "2014-08-22",
+          "bollymeter": 8.2,
+          "spoiler_free": "The show shifts register dramatically - a drug-fuelled sequence builds toward a confrontation with BoJack's own narrative that signals the show's real ambitions. The series found its true voice in this hour.",
+          "the_moment": "A long, sad drive that makes the show's comedy feel like armour worn over genuine despair.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-07-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A perfect 100% on Rotten Tomatoes. Season 2 is where the show turned its anthropomorphic comedy into one of television's most precise portraits of depression and self-sabotage."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 achieved a perfect 100% on Rotten Tomatoes and represented the show's creative breakthrough. The Hollywood Reporter wrote that Netflix's BoJack 'evolved into one of TV's best shows, galloping into its third season with profound confidence' - a verdict that applied from Season 2 onward. The season deepened every character while refusing easy arcs. BoJack's attempts at change keep colliding with his own worst impulses, and the show treats that pattern not as comedy but as tragedy. Season 2 is where the elevation became undeniable.",
+      "season_over_season": "A quantum leap over Season 1 - the rough edges stripped away, the emotional ambition fully realised.",
+      "episode_reviews": [
+        {
+          "number": 11,
+          "title": "Escape from L.A.",
+          "air_date": "2015-07-17",
+          "bollymeter": 9.1,
+          "spoiler_free": "A near-real-time episode that follows BoJack on a disastrous escape from Los Angeles. The show's thesis - that running from yourself is still running toward yourself - is distilled into a single bravura hour.",
+          "the_moment": "The final minutes that snap from apparent contentment to the season's darkest moral failure.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-07-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "Another 100% on Rotten Tomatoes. Season 3 contains the near-silent underwater episode 'Fish Out of Water' - one of the most formally audacious half-hours in animation history - and a gut-wrenching finale."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 3 builds to one of the funniest, weirdest, and most profound moments in television.",
+            "source": "Entertainment Weekly",
+            "url": "http://www.ew.com/article/2016/07/13/bojack-horseman-season-3-review"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 3 is where BoJack Horseman's reputation as an all-time animated series solidified. The 100% Rotten Tomatoes score came with commentary that moved beyond genre: Entertainment Weekly stated Season 3 builds to 'one of the funniest, weirdest, and most profound moments in television.' The New Yorker wrote it 'lands powerfully, with an earned tragedy that's as potent as anything on TV this year.' The formal ambition peaked here: Episode 4, 'Fish Out of Water,' is almost entirely silent and set underwater - a structural gamble that paid off as one of the bravest half-hours in animation. The season finale's aftermath is the kind of television remembered as a feeling rather than a plot point.",
+      "season_over_season": "Reaches the creative peak - more formally daring than Season 2 and emotionally more devastating.",
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "Fish Out of Water",
+          "air_date": "2016-07-22",
+          "bollymeter": 9.8,
+          "spoiler_free": "Almost entirely dialogue-free, this underwater conference episode is an astonishing formal experiment. BoJack tries to fix a relationship through a series of wordless misadventures - and the silence communicates more than pages of script.",
+          "the_moment": "The final revelation of what BoJack actually said - a cruel joke on the audience's emotional investment.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "That's Too Much, Man!",
+          "air_date": "2016-07-22",
+          "bollymeter": 9.2,
+          "spoiler_free": "A frenetic, devastating bottle episode covering a single sleepless night of drug-fuelled chaos. Plays as dark comedy and genuine crisis simultaneously - the show at its most reckless and most honest.",
+          "the_moment": "A phone call that begins as reconnection and ends as the season's defining moral catastrophe.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-09-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% on Rotten Tomatoes. Season 4 broadens the show's generational scope with Hollyhock's arrival and a devastating portrait of dementia - quieter than Season 3 but no less precise."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 earned 97% on Rotten Tomatoes and is notable for expanding the show's emotional canvas outward - introducing Hollyhock as a character who forces BoJack into an unfamiliar caregiving role, and pursuing a portrait of Beatrice Horseman's dementia with uncommon delicacy. The quieter register compared to the cathartic extremity of Season 3 reads as a sign of the show's confidence rather than a retreat. The emotional complexity of the Beatrice storyline found angles on pain and generational inheritance that other TV dramas had not located.",
+      "season_over_season": "A pivot from external crisis toward generational inheritance - quieter, more empathetic, equally precise.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2018,
+      "episodes": 12,
+      "release_date": {
+        "value": "2018-09-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "98% on Rotten Tomatoes. Season 5 uses BoJack's new TV show-within-a-show to interrogate the entertainment industry's complicity in protecting abusive men - directly engaging the post-MeToo moment."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 landed in September 2018 with a 98% Rotten Tomatoes score and an ambitious structural conceit: BoJack is now starring in a gritty detective drama, and the show uses that layer to interrogate Hollywood's reckoning with abuse and accountability. The meta-commentary is pointed rather than self-congratulatory - the show was working through the logic of complicity in real time. The season's emotional anchor is 'The Stopped Show,' a long, unflinching confrontation that stands as another landmark half-hour. Season 5 demonstrated that the show's formal inventiveness and ethical seriousness had not diminished six years in.",
+      "season_over_season": "Takes the show's Hollywood critique from personal to systemic - more politically engaged without sacrificing character depth.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-10-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "96% on Rotten Tomatoes across 16 episodes split into two parts. The finale is one of the most discussed series endings in prestige animation - haunting, earned, and deliberately unresolved."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 aired in two parts - October 2019 and January 2020 - and earned 96% on Rotten Tomatoes as a fitting close to a six-season run. The final stretch is emotionally generous and structurally precise, giving secondary characters the resolutions they deserved while refusing BoJack himself a clean arc. The penultimate episode, 'The View from Halfway Down,' became an immediate reference point - a surrealist vision of the afterlife that operates as the show's definitive statement on regret and the persistence of damage. The overall Metacritic series score of 82 across 57 reviews understates the final consensus: by its close, BoJack Horseman stood as one of the defining American shows of its decade.",
+      "season_over_season": "The most emotionally complete season - resolves supporting arcs with care while staying honest about what BoJack cannot fix.",
+      "episode_reviews": [
+        {
+          "number": 15,
+          "title": "The View from Halfway Down",
+          "air_date": "2020-01-31",
+          "bollymeter": 9.9,
+          "spoiler_free": "A surrealist bottle episode set in an ambiguous afterlife space. Guests include figures from BoJack's past in a dinner-party-turned-elegy. The finest episode of the series and one of the best single hours in animated television.",
+          "the_moment": "The void sequence at the end - a visual and sonic gut-punch that makes explicit everything the show had been building toward for six years.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

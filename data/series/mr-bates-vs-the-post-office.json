@@ -1,0 +1,106 @@
+{
+  "slug": "mr-bates-vs-the-post-office",
+  "qid": {
+    "value": "Q123690397",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mr Bates vs The Post Office",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Biographical", "Legal"],
+  "logline": "Hundreds of subpostmasters were wrongly convicted using a faulty IT system called Horizon - this is the story of the man who refused to let the Post Office bury it.",
+  "poster": {
+    "src": "/img/series/mr-bates-vs-the-post-office/poster.jpg",
+    "alt": "Mr Bates vs The Post Office poster",
+    "attribution": "Poster © ITV / Masterpiece. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Four-part limited series. Aired across four consecutive nights in January 2024. No further series planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mr_Bates_vs_the_Post_Office"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 4,
+      "release_date": {
+        "value": "2024-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "95% on Rotten Tomatoes from 20 critics and an 80 Metascore. Won the BAFTA for Best Limited Drama and a Peabody Award; the broadcast directly triggered Parliamentary action and a change in law."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": 20,
+        "pull_quotes": [
+          {
+            "text": "Anchored by Toby Jones' heartbreakingly stoic performance, this drama recreates the staggering injustice that began in the early 2000s.",
+            "source": "The Age",
+            "url": "https://www.rottentomatoes.com/tv/mr_bates_vs_the_post_office/s01"
+          },
+          {
+            "text": "Jones delivers a performance that is simply perfect as the little man who proves undefeatable.",
+            "source": "The Telegraph",
+            "url": "https://www.rottentomatoes.com/tv/mr_bates_vs_the_post_office/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Mr Bates vs The Post Office aired across four consecutive nights from January 1-4, 2024 and became one of the most consequential pieces of British television in recent memory - not just critically but politically. The series dramatises the Post Office Horizon scandal in which hundreds of subpostmasters were wrongly prosecuted for theft and fraud due to a faulty IT system, with the Post Office actively concealing the truth for years. Rotten Tomatoes gave it 95% from 20 critics; the Wall Street Journal called it hard to fathom in its depiction of institutional deceit. Critics praised writer Gwyneth Hughes' clarity in translating a technically complex case into human drama, and Toby Jones' performance as Alan Bates as career-defining. The Los Angeles Times framed it as an indictment of bureaucratic arrogance. The broadcast directly prompted Paula Vennells to have her CBE revoked and Parliament to pass the Post Office (Horizon System) Compensation Act 2024.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-01",
+          "bollymeter": 8.7,
+          "spoiler_free": "The opening episode establishes the scandal's human scale through Alan Bates and multiple subpostmasters whose lives are dismantled by prosecutions they cannot explain. Critics noted the show's discipline in making a complex legal case feel personally urgent from the first scene.",
+          "the_moment": "The moment Alan Bates realises he is not alone - that the fault is systemic, not his - is where the drama's central drive ignites.",
+          "critic_note": {
+            "text": "Stirring stuff, and seemingly like so much of our post these days, long overdue.",
+            "source": "i newspaper",
+            "url": "https://www.rottentomatoes.com/tv/mr_bates_vs_the_post_office/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2024-01-04",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale marshals years of legal struggle toward a courtroom reckoning, and earns every moment of catharsis it has built across four episodes. The real-world aftermath - legislative change, criminal charges reversed - made the broadcast feel like an extension of the drama itself.",
+          "the_moment": "The confrontation between Alan Bates and the institutional machinery that destroyed ordinary lives is where the show's controlled fury finally breaks the surface.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "prison-playbook",
+  "qid": {
+    "value": "Q39059594",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Prison Playbook",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Comedy", "Slice of Life"],
+  "logline": "A star baseball pitcher sentenced to one year in prison after defending his sister from assault navigates the absurdities and human bonds of South Korean incarceration.",
+  "poster": {
+    "src": "/img/series/prison-playbook/poster.jpg",
+    "alt": "Prison Playbook poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run concluded January 2018 on tvN. Series is complete at 16 episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Prison_Playbook"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-11-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Ranked among the highest-rated Korean cable dramas in history with an 8.3 IMDb score; HanCinema called it 'one of the most well-written K-dramas of all time' for its ensemble character work and social commentary."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "An absolutely great drama with great characters, great stories and some very well-placed social commentary.",
+            "source": "HanCinema",
+            "url": "https://www.hancinema.net/hancinema-s-drama-review-prison-playbook-118114.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7622902/"
+      },
+      "review_body": "Prison Playbook arrived on tvN in November 2017 and became one of the highest-rated dramas in Korean cable television history, with the finale pulling approximately 11.2 percent viewership. Critics at HanCinema placed it among the most well-written K-dramas ever produced, praising the ensemble character work and the show's balance of deadpan comedy with genuinely moving drama. The series, created by the team behind Reply 1988, applies the same long-form humanist approach to a prison setting - the gags and the grief coexist without cancelling each other out. Park Hae-soo's baseball pitcher, Ji-hyuk, arrives a celebrity and exits having been remade by the institution and its inmates. The IMDb audience score of 8.3 across a substantial voter base reflects a consensus that the show rewards patience. Its reputation has only grown in the years since Park Hae-soo's profile rose via Squid Game.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The 140km Pitch",
+          "air_date": "2017-11-22",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes Ji-hyuk's fall from superstar to inmate with economy and dark wit. The prison world is introduced through its bureaucratic texture rather than cheap shock - admissions paperwork as comedy, then as horror.",
+          "the_moment": "Ji-hyuk's first lineup with other inmates - the moment a national athlete becomes a number, played without melodrama.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2018-01-18",
+          "bollymeter": 8.7,
+          "spoiler_free": "The finale rewards the ensemble with a conclusion that chooses warmth over catharsis. The prison bonds, formed in an institution designed to degrade, are the show's argument that connection survives the most dehumanising conditions.",
+          "the_moment": "The final farewell between Ji-hyuk and the prison guard Joon-ho - the season's emotional debt paid without sentimentality.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T12:00:00+05:30"
+}
