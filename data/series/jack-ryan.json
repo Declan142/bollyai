@@ -69,7 +69,18 @@
       "audience": null,
       "review_body": "Season 1 premiered August 31, 2018 as Amazon’s flagship action drama, with John Krasinski, best known at that point as Jim from The Office, repositioned as a credible action lead. The 75 percent Rotten Tomatoes score signals a positive reception without tipping into total ecstasy: the geopolitical thriller framework holds up, production values stay strong, and the central performance feels convincing, even as the series works within well-established genre parameters. Wendell Pierce as Ryan’s supervisor James Greer provides the series’ most steady dramatic anchor. The Yemen-based terror plot leans into more political nuance than the premise initially promises, delivering a smarter approach than many would expect from the setup.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2018-08-31",
+          "bollymeter": 7.5,
+          "spoiler_free": "Amazon's Jack Ryan premiere drops John Krasinski into the role as an analyst-turned-field-operative tracking a Syrian terrorist with a credibly complex biography. The episode's significant gamble is spending nearly equal time with the antagonist, giving the threat a political and personal rationale that the series sustains more successfully than most entry-level action thrillers.",
+          "the_moment": "The terrorist Suleiman's backstory sequence in France - the scene that separates this pilot from generic action television by making the threat legible rather than monolithic.",
+          "critic_note": null,
+          "review_body": "The Jack Ryan premiere earns its 75% Rotten Tomatoes score by doing the one thing Clancy adaptations most consistently fail at: making the antagonist as interesting as the protagonist. Ali Suliman's Mousa bin Suleiman arrives with a French upbringing, a family history, and a radicalization trajectory that the episode refuses to reduce to ideology. John Krasinski's shift from The Office to credible action lead was the consensus talking point, and the pilot validates the casting - his Ryan is physically capable without being cartoonishly so. The Amazon production scale is evident in the episode's location work and the specific texture of the intelligence-world setting."
+        }
+      ]
     },
     {
       "number": 2,
@@ -148,5 +159,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:30:00+05:30"
 }

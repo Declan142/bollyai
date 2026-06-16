@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Psychological", "Thriller", "Mystery", "Drama"],
+  "genres": [
+    "Psychological",
+    "Thriller",
+    "Mystery",
+    "Drama"
+  ],
   "logline": "A successful documentary filmmaker finds a novel left in her home - and realises she is the villain of its story - triggering a thriller about memory, complicity, and how much of what we remember is construction.",
   "poster": {
     "src": "/img/series/disclaimer/poster.jpg",
@@ -70,9 +75,20 @@
       "audience": null,
       "review_body": "Disclaimer premiered October 11, 2024, written and directed entirely by Alfonso Cuaron and based on Renee Knight's novel. Cate Blanchett plays Catherine Ravenscroft, a BAFTA-winning documentary filmmaker who discovers a self-published novel that recounts an incident from her past - and casts her as its monster. Kevin Kline narrates as the dead author's husband seeking posthumous justice. Cuaron deploys split timelines, unreliable narration, and formal devices that earned 76 percent critical approval while dividing audiences who found the construction intellectually rigorous or self-indulgent depending on their appetite for ambiguity. Sacha Baron Cohen against type as Catherine's husband is a notable performance. The show asks how we construct the stories of our own guilt.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Nothing Really Happened",
+          "air_date": "2024-10-11",
+          "bollymeter": 7.8,
+          "spoiler_free": "Alfonso Cuaron's Disclaimer arrives as one of the most formally ambitious limited series in Netflix's catalogue: a psychological thriller structured around unreliable narration, split-screen, and a deliberate fragmentation of chronology. The premiere establishes Cate Blanchett's Catherine Ravenscroft as a woman in possession of a terrible secret - and Kevin Kline's retired teacher Albert Gale as the man who has found it. The episode's formal confidence is extraordinary even when the narrative density tips into inaccessibility.",
+          "the_moment": "Albert reading the book - the specific framing of his face as the story in the novel begins to implicate the woman he does not yet know, which sets the series' entire central machinery in motion.",
+          "critic_note": null,
+          "review_body": "Disclaimer's premiere is formally extraordinary and narratively demanding - a combination that reflects Cuaron's authorial preoccupation with unreliable perception and memory. The split-screen sequences (past and present running simultaneously) are technically arresting and thematically precise, forcing viewers to hold two versions of the same story in tension from the first episode. Cate Blanchett and Kevin Kline are perfectly calibrated as antagonists who have not yet met: Catherine Ravenscroft as composed exterior over defended interior, Albert Gale as grief given dangerous purpose. At 76% RT, the premiere earned the series its divided response - formally accomplished but uncompromising in its refusal to make the mystery easy to inhabit."
+        }
+      ]
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:30:00+05:30"
 }

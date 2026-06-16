@@ -73,7 +73,18 @@
       },
       "review_body": "Suits premiered June 23, 2011 on USA Network, landing 78 percent on Rotten Tomatoes from 23 reviews. The legal procedural combines slicker-than-average production values with an unusually strong central dynamic: Gabriel Macht's Harvey Specter as the imperious, morally flexible senior partner and Patrick J. Adams's Mike Ross as the brilliant fraud who must survive by wit alone. The show can feel bland and bloated at times, but flashes of sharp dialogue bring it to life, shaping how the series registers overall. Season 1 established the franchise's tone: legal drama procedural mechanics wearing a character-comedy suit.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2011-06-23",
+          "bollymeter": 7.5,
+          "spoiler_free": "The Suits pilot is the definition of efficient character establishment: Harvey Specter (Gabriel Macht) and Mike Ross (Patrick J. Adams) are in their dynamic within the first fifteen minutes, and the show's core tension - a fraudulent associate in a prestigious firm - is fully operational before the first act break. The pilot earned the series its run by demonstrating that legal procedurals could still find an undiscovered register.",
+          "the_moment": "Harvey's decision to hire Mike despite knowing the fraud - a hire that defines both characters immediately and gives the entire series its moral foundation and its central tension.",
+          "critic_note": null,
+          "review_body": "The Suits pilot demonstrates the craft of functional network drama at its best: it sets up the Harvey-Mike dynamic with genuine efficiency, makes both characters legible and compelling within 20 minutes, and establishes the show's central structural irony (the best closer at a prestigious firm whose best associate is a fraud) without underlining it. Gabriel Macht's Harvey Specter arrived fully formed - the kind of pilot character establishment that studios can't teach. At 78% RT for Season 1, the series earned its response from exactly this opening hour. The 2023 Netflix resurgence, which made Suits one of the platform's most-streamed series in its history, validated what the pilot promised: a genuinely watchable legal drama with enduring character appeal."
+        }
+      ]
     },
     {
       "number": 2,
@@ -285,5 +296,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:30:00+05:30"
 }

@@ -85,7 +85,19 @@
         "source_url": "https://www.imdb.com/title/tt13833978/"
       },
       "review_body": "Season 1 premiered May 13, 2022, adapting Michael Connelly's second Haller novel, The Brass Verdict. Manuel Garcia-Rulfo stepped into the role McConaughey had played in the 2011 film, which many critics used as an unavoidable reference point. The 79-percent Rotten Tomatoes score from 34 reviews reflected qualified approval: the Chicago Tribune called it frequently satisfying, the Chicago Sun-Times positioned it as a well-executed throwback. Critics found Garcia-Rulfo's relaxed authority in the lead an underrated asset. The criticisms clustered around pacing in the middle episodes and a narrative that rarely surprised in its procedural beats. Audiences responded well - an IMDb average above 7.8 reflected viewer enjoyment of the format's reliability.",
-      "season_over_season": null
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Brass Verdict",
+          "air_date": "2022-05-13",
+          "bollymeter": 7.2,
+          "spoiler_free": "The Lincoln Lawyer premiere adapts the second Mickey Haller novel with procedural confidence. Manuel Garcia-Rulfo arrives as Haller already in motion - no origin story, just the case that will define the season. A lean, effective opening for a courtroom series that trusts its source material.",
+          "the_moment": "Haller in the courtroom for the first time - Garcia-Rulfo inhabiting the work-as-performance quality that defines Mickey Haller as a character distinct from McConaughey.",
+          "critic_note": null,
+          "review_body": "The Lincoln Lawyer premiere earns its 79% Rotten Tomatoes score by delivering a very good version of exactly what it promises: a Michael Connelly adaptation with strong procedural bones and a charismatic lead. Manuel Garcia-Rulfo drew consistent positive response for finding his own interpretation of Mickey Haller, more methodical and less flashy than the 2011 McConaughey film. The Brass Verdict as a first-season case works well, dropping viewers into a Haller already in motion rather than spending an episode on setup. Competent, watchable, and the foundation of a series that grows stronger in subsequent seasons."
+        }
+      ]
     },
     {
       "number": 2,
@@ -185,5 +197,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-09T10:00:00+05:30"
+  "date_modified": "2026-06-16T07:00:00+05:30"
 }

@@ -69,7 +69,18 @@
       "audience": null,
       "review_body": "Season 1 premiered December 18, 2022 as Taylor Sheridan's second Yellowstone prequel, set in 1923 during Prohibition, the Great Depression, and a cattle industry under stress from federal oversight and ecological collapse. Harrison Ford and Helen Mirren play Jacob and Cara Dutton, the patriarch and matriarch holding the ranch together against multiple converging threats. Critics approved at 88 percent, with the consensus noting the series was 'distinguished by the ineffable star power of Harrison Ford and Helen Mirren' and that it represented 'another solid if unrelentingly grim addition' to the Yellowstone universe. The darkness of tone and the slow pace of the frontier-epic structure divided casual viewers from committed fans of the franchise.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Stream of Grasshoppers",
+          "air_date": "2022-12-18",
+          "bollymeter": 7.8,
+          "spoiler_free": "1923's premiere sets its terms within the first scenes: Harrison Ford and Helen Mirren as Jacob and Cara Dutton, running a cattle ranch through Prohibition-era Montana with the specific grimness that Taylor Sheridan brings to American frontier mythology. The episode establishes both the external threat (drought, cattle decline, land speculators) and the internal one (a family whose size makes it both its own protection and its own vulnerability).",
+          "the_moment": "Jacob and Cara's first scene together - the specific quality of their long-married dynamic, which Ford and Mirren establish in a way that requires no backstory.",
+          "critic_note": null,
+          "review_body": "1923's premiere earns its 88% Rotten Tomatoes score primarily through the casting of Harrison Ford and Helen Mirren, who arrive with the specific gravity of late-career performers given material worthy of their combined weight. Taylor Sheridan's Dutton family mythology - established in 1883 and Yellowstone - gains a new historical register in the Prohibition era, and the premiere establishes the period with the unromanticized brutality that distinguishes Sheridan's Westerns from nostalgia. The episode is less interested in plot mechanics than in the texture of a specific time and place - the drought, the financial precarity, the specific weight of Montana in 1923 - which requires patience but rewards it."
+        }
+      ]
     },
     {
       "number": 2,
@@ -98,5 +109,5 @@
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-12T12:00:00+05:30"
+  "date_modified": "2026-06-16T07:30:00+05:30"
 }
