@@ -1,0 +1,71 @@
+{
+  "slug": "duranga",
+  "qid": null,
+  "title": {
+    "value": "Duranga",
+    "source": "ZEE5",
+    "fetched_at": "2026-06-16T05:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "Hindi",
+    "source": "Zee5 listing",
+    "fetched_at": "2026-06-16T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ZEE5",
+    "source": "Zee5 listing",
+    "fetched_at": "2026-06-16T05:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "logline": "A woman discovers that her husband of several years may not be who he claims to be, as a murder investigation forces long-buried secrets into the open in this psychological thriller.",
+  "poster": {
+    "src": "/img/series/duranga/poster.jpg",
+    "alt": "Duranga poster",
+    "attribution": "Press image used for criticism and review under fair dealing (Sec 52(1)(a) Indian Copyright Act). Takedown requests: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "A standalone limited series; no second season announced.",
+    "source": "ZEE5"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "title": "Season 1",
+      "release_date": {
+        "value": "2022-12-02",
+        "source": "Zee5 listing",
+        "fetched_at": "2026-06-16T05:00:00+05:30",
+        "confidence": "verified"
+      },
+      "episode_count": 9,
+      "logline": "Iqra discovers her husband Sammit is living a double life as a serial killer, forcing her into an impossible position between love and justice.",
+      "episode_reviews": [],
+      "year": 2022,
+      "episodes": 9,
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Good audience reception on ZEE5 for the Korean-adaptation thriller with Gulshan Devaiah."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "review_body": "Duranga premiered on ZEE5 on 2 December 2022. An official Hindi adaptation of the acclaimed Korean drama Flower of Evil, the 9-episode series follows a police investigator who begins to suspect her seemingly perfect husband may be a serial killer. Stars Gulshan Devaiah and Drashti Dhami."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T05:20:00+05:30"
+}
