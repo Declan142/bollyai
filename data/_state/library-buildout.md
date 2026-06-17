@@ -23,7 +23,16 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 805 / 1000   (baseline 183)
+## Progress: 835 / 1000   (baseline 183)
+
+### Batch 15 — 2026-06-18 — 30 series — STATUS: DONE (805->835)
+- **A K-Drama:** bulgasal-immortal-souls · sungkyunkwan-scandal · designated-survivor-60-days · encounter · one-the-woman · on-the-verge-of-insanity
+- **B Anime:** fate-zero · ghost-in-the-shell-stand-alone-complex · durarara · kimi-ni-todoke · black-lagoon · baccano
+- **C US Prestige:** masters-of-none · insecure · the-good-fight · the-sinner · homecoming · the-wheel-of-time
+- **D UK/Euro:** endeavour · jonathan-strange-and-mr-norrell · kleo · des · quiz · ripper-street
+- **E Indian+World:** narcos-mexico · the-house-of-flowers · choona · merli · queen-of-the-south · the-journalist
+- 30/30 validate clean · build green (7892pp) · AggregateRating gate clean · 14/30 posters (16 SVG fallback)
+- Commit: 5c464be
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
