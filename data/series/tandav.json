@@ -1,0 +1,96 @@
+{
+  "slug": "tandav",
+  "qid": {
+    "value": "Q104839277",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tandav",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Wikipedia / Amazon",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Drama",
+    "Political"
+  ],
+  "logline": "A prime minister's son manoeuvres to seize power in UP politics while a student activist's surprise rise upends the calculations of every faction - a political thriller that generated more controversy off-screen than on.",
+  "poster": {
+    "src": "/img/series/tandav/poster.jpg",
+    "alt": "Tandav poster",
+    "attribution": "Poster © Amazon Prime Video / Jar Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season of nine episodes. No Season 2 announced. Director Ali Abbas Zafar issued an unconditional apology after release following religious-sentiment complaints and multiple FIRs filed across Indian states.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tandav_(web_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 9,
+      "release_date": {
+        "value": "2021-01-15",
+        "source": "Wikipedia / Amazon",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.0,
+        "basis": "0% on Rotten Tomatoes from 8 critics. Critics described it as poorly researched and campy, lacking the intellectual substance its political premise required. The controversy over religious depictions overshadowed whatever craft the show offered."
+      },
+      "critic": {
+        "positive_pct": 0,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "A poorly researched, campy series that falls, like that proverbial house of cards.",
+            "source": "Critics consensus via Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/tandav"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Tandav launched on Amazon Prime Video on January 15, 2021 with considerable star power - Saif Ali Khan, Dimple Kapadia, Sunil Grover, and Mohammed Zeeshan Ayyub - and a subject matter (UP political intrigue) that should have been well-timed. The result disappointed on almost every front. Critics gave it 0 percent on Rotten Tomatoes across 8 reviews, with the dominant complaint being that the show substituted visual gloss for the intellectual weight its premise demanded. The political manoeuvring felt generic rather than specific to Indian power dynamics, and the characterisation did not rise to compensate. The series then became most discussed for what happened around it: political organisations filed FIRs across multiple states alleging that certain scenes hurt Hindu religious sentiments by depicting the deity Shiva in a fictional university setting. Director Ali Abbas Zafar issued an unconditional apology and agreed to implement changes. The controversy consumed the show's public life, making it difficult to assess on craft alone. What critical record exists points to a misfire.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-01-15",
+          "bollymeter": 4.5,
+          "spoiler_free": "The premiere sets up the power struggle between Samar Pratap Singh and the incumbent political establishment with reasonable efficiency, but the writing reaches for gravitas it has not earned.",
+          "the_moment": "A student protest sequence that frames the show's populist subplot - the most coherent element of the premiere.",
+          "critic_note": {
+            "text": "A poorly researched, campy series that falls, like that proverbial house of cards.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/tandav"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

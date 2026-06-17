@@ -1,0 +1,225 @@
+{
+  "slug": "dragon-ball-z",
+  "qid": {
+    "value": "Q1132656",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dragon Ball Z",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll / Funimation",
+    "source": "platform listings",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "logline": "Earth's greatest warrior Goku and his allies defend the planet across intergalactic invasions, demonic revivals, and android apocalypses - a 291-episode run that shaped global popular culture and invented the vocabulary of modern shonen power escalation.",
+  "poster": {
+    "src": "/img/series/dragon-ball-z/poster.jpg",
+    "alt": "Dragon Ball Z poster",
+    "attribution": "Poster © Toei Animation / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Dragon Ball Z ran on Fuji TV 1989-1996. The Dragon Ball franchise continued with Dragon Ball GT (1996), Dragon Ball Super (2015-2018), and Dragon Ball Daima (2024). DBZ as a standalone series is ended.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dragon_Ball_Z"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1989,
+      "episodes": 39,
+      "release_date": {
+        "value": "1989-04-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "The Saiyan Saga is Dragon Ball Z at its most concentrated: Goku's sacrifice, Gohan's suppressed rage, and Vegeta's introduction as one of the most compelling antihero arcs in animation. Critics note it as the narrative engine that made the series a global institution."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The Saiyan Saga remains the franchise at its dramatic peak - compact, consequential, and emotionally ruthless by shonen standards.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/feature/2019-12-05/the-legacy-of-dragon-ball-z/.152986"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0214341/ratings/"
+      },
+      "review_body": "Dragon Ball Z premiered on Fuji TV in April 1989, adapting Akira Toriyama's manga with direction by Daisuke Nishio for Toei Animation. The Saiyan Saga (eps 1-39) operates with a narrative ruthlessness the subsequent arcs occasionally abandon: Goku's death is presented without qualification, Gohan's trauma is real and sustained, and Vegeta arrives as a villain whose defeat produces no redemption - yet. The saga established DBZ's central formal innovation: power as exponential variable, each conflict requiring a new ceiling. Critics and cultural historians writing retrospectively on the series' global impact consistently cite the Saiyan Saga as the structural model that defined shonen combat anime through the 1990s and into the 2000s. The power level as numerical concept - absurd in theory - proved extraordinarily communicative as a dramatic device.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 29,
+          "title": "Goku's Unusual Journey",
+          "air_date": "1989-10-25",
+          "bollymeter": 9.2,
+          "spoiler_free": "Goku's death and the aftermath. The episode is remarkable for how efficiently it refuses to reverse course: a protagonist who has won every fight dies, and the series does not pretend the survivors are adequate replacements. The episode's tonal gravity is the moment DBZ distinguishes itself from its predecessor's lighter register.",
+          "the_moment": "Goku voluntarily allows Raditz to kill them both - a sacrifice that the series takes seriously enough to spend the next thirty episodes earning.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1990,
+      "episodes": 87,
+      "release_date": {
+        "value": "1990-03-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.3,
+        "basis": "The Namek and Frieza Saga is the franchise's most celebrated arc - Gohan's growth, Vegeta's ambiguous allegiance, and Frieza as the defining DBZ villain. The Super Saiyan transformation is arguably the most iconic power-up in anime history."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Frieza remains anime's definitive imperialist villain - the arc's best episodes weaponise his cruelty against your investment in every character around him.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/feature/2019-12-05/the-legacy-of-dragon-ball-z/.152986"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0214341/ratings/"
+      },
+      "review_body": "The Namek and Frieza arcs (eps 40-107) represent Dragon Ball Z at its most culturally significant. Frieza - a galactic emperor who commits genocide as administrative procedure - is designed as a critique of imperialism that functions equally as a pure power-fantasy antagonist. The arc sustains tension across a considerable episode count despite the filler problem that afflicts the original broadcast version; the Kai re-edit demonstrates that the core material is genuinely excellent when the pacing is respected. The Super Saiyan transformation in episode 95 - Goku achieving a legendary power in response to Krillin's death - is the franchise's most cited moment across retrospective criticism and pop culture documentation. Cultural historians note that this transformation sequence reached international audiences in the early 1990s before streaming infrastructure existed, via pirated VHS tapes, establishing DBZ's global footprint.",
+      "season_over_season": "The Frieza arc expands the series' scale from a planetary to a galactic stakes frame - the transformation that made Dragon Ball Z a cultural export rather than a domestic hit.",
+      "episode_reviews": [
+        {
+          "number": 95,
+          "title": "Transformed at Last",
+          "air_date": "1991-06-19",
+          "bollymeter": 9.7,
+          "spoiler_free": "The Super Saiyan transformation. Critics and cultural historians treat this episode as a document of how anime created its first genuinely global shared moment before the internet. The build across ninety-four episodes makes the transformation feel earned rather than arbitrary - which is why it remains culturally legible to viewers who have never seen another DBZ episode.",
+          "the_moment": "Goku's golden aura igniting - a design decision by Akira Toriyama that became the visual shorthand for power escalation across every shonen series that followed.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 1992,
+      "episodes": 86,
+      "release_date": {
+        "value": "1992-01-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "The Cell Saga is narratively Dragon Ball Z's most technically ambitious arc - a time travel storyline, multiple versions of a villain across timelines, and Gohan's ultimate transformation. Critics acknowledge it as the arc where Toriyama's intentions for Gohan as the series' new protagonist became clear."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0214341/ratings/"
+      },
+      "review_body": "The Android and Cell arcs (eps 108-194) introduce Future Trunks - whose arrival from an apocalyptic timeline restructures the series' relationship with consequence - and Cell, a bio-engineered villain who can evolve by absorbing other fighters. The arc's structural ambition exceeds the Frieza saga: time travel creates genuine narrative stakes because the audience understands an alternate timeline exists where everyone fails. The Cell Games climax built around Gohan's Super Saiyan 2 transformation was Toriyama's intended pivot to the next generation of protagonist - a plan subsequent Dragon Ball Super ultimately reversed. Critics recognise the Cell arc as the series' most sophisticated storyline, even if the subsequent Buu arc's commercial success meant Gohan's promotion was quietly abandoned.",
+      "season_over_season": "The Cell arc is DBZ becoming structurally more ambitious - time travel and a villain who forces the heroes to reckon with failure at civilisational scale.",
+      "episode_reviews": [
+        {
+          "number": 184,
+          "title": "The Unstoppable Gohan",
+          "air_date": "1993-11-17",
+          "bollymeter": 9.5,
+          "spoiler_free": "Gohan's Super Saiyan 2 transformation against Cell. The sequence works because the series spent three arcs establishing Gohan's suppressed potential as a source of anxiety rather than promise - the emotional logic is sound, and the transformation arrives as release rather than wish fulfilment.",
+          "the_moment": "Gohan's power finally unleashed - the moment Toriyama intended as the series' permanent changing of the guard, and still one of anime's most arresting transformation sequences.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 1993,
+      "episodes": 97,
+      "release_date": {
+        "value": "1993-11-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The Buu Saga is DBZ's most tonally variable arc - it opens as dark comedy and ends as cosmic fantasy, with Vegeta's sacrifice and Goku's Super Saiyan 3 as its critical peaks. Critics acknowledge the arc's unevenness but note the Vegeta-Goku dynamic reaches its richest expression here."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0214341/ratings/"
+      },
+      "review_body": "The Buu Saga (eps 195-291) is the series' longest and most contested arc. Majin Buu's design - a childlike creature who absorbs and transforms others - proved effective as a threat vector but less compelling as a character compared to Frieza or Cell. The arc's genuine achievement is in its Vegeta material: his sacrifice against Buu, acknowledging Goku as his superior, stands as one of the franchise's finest character moments. Goku's Super Saiyan 3 transformation was a major event for the fanbase. The Spirit Bomb finale and the series' conclusion on a note of peaceful domesticity before a tournament teaser generated divided responses - the decompression read as earned to some and anticlimactic to others. The Buu Saga's filler problem is more pronounced than earlier arcs. The series concluded in January 1996 after 291 episodes.",
+      "season_over_season": "The Buu arc is the series at its most structurally loose but also its most emotionally generous - the Vegeta moments across this arc are the character's definitive statement.",
+      "episode_reviews": [
+        {
+          "number": 237,
+          "title": "Final Atonement",
+          "air_date": "1994-11-16",
+          "bollymeter": 9.6,
+          "spoiler_free": "Vegeta's sacrifice against Buu. This episode is the Buu arc's peak and the moment that cemented Vegeta as the franchise's most complex character. The scene where he embraces his son before the attack is the series' most emotionally unguarded moment.",
+          "the_moment": "Vegeta's final acknowledgment of Goku and his goodbye to Trunks - the proud antagonist of the Saiyan Saga choosing to die in a way that would have been inconceivable in his first appearance.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:00:00+05:30"
+}

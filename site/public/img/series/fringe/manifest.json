@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Bad Robot Productions / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/L._Ron_Hubbard_in_1950_%28cropped_3x4%29.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T23:24:01Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/fringe/poster.jpg",
+    "source_height": 3311,
+    "source_width": 2483,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "fringe",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/L._Ron_Hubbard",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/L._Ron_Hubbard_in_1950_%28cropped_3x4%29.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/fringe/w185.avif",
+      "bytes": 5771
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/fringe/w185.webp",
+      "bytes": 6362
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/fringe/w342.avif",
+      "bytes": 13071
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/fringe/w342.webp",
+      "bytes": 16804
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/fringe/w500.avif",
+      "bytes": 25563
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/fringe/w500.webp",
+      "bytes": 31340
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T23:26:40.195Z"
+}

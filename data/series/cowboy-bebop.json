@@ -1,0 +1,130 @@
+{
+  "slug": "cowboy-bebop",
+  "qid": {
+    "value": "Q55775",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Cowboy Bebop",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / Crunchyroll",
+    "source": "platform listings",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Action",
+    "Mystery",
+    "Psychological"
+  ],
+  "logline": "A crew of bounty hunters drift through a jazz-scored solar system in 2071, each haunted by a past they cannot outrun - a 26-episode masterwork that collapsed genre walls and defined anime's global credibility.",
+  "poster": {
+    "src": "/img/series/cowboy-bebop/poster.jpg",
+    "alt": "Cowboy Bebop poster",
+    "attribution": "Poster © Sunrise / Bandai Visual. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original series concluded in 1999 with 26 episodes. The 2001 theatrical film Cowboy Bebop: The Movie is canon. A 2021 Netflix live-action adaptation starred John Cho but was cancelled after one season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Cowboy_Bebop"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1998,
+      "episodes": 26,
+      "release_date": {
+        "value": "1998-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.8,
+        "basis": "Cowboy Bebop holds a 100 percent rating on Rotten Tomatoes and a 8.9 rating on IMDb with over 200,000 votes - a consensus that has strengthened across 25 years. Critics across animation, film, and literary criticism cite it as the anime series that proved the medium could achieve genuine artistic seriousness."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Cowboy Bebop is a genre-defying classic that blends jazz, noir, and existential dread into something timeless.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/cowboy_bebop"
+          },
+          {
+            "text": "One of the most influential anime ever made, Cowboy Bebop remains essential and remarkably fresh.",
+            "source": "IGN",
+            "url": "https://www.ign.com/articles/cowboy-bebop-anime-review"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0213338/ratings/"
+      },
+      "review_body": "Cowboy Bebop aired in 1998-1999 on TV Tokyo, initially in a truncated run due to content concerns before airing complete on WOWOW. Director Shinichiro Watanabe and composer Yoko Kanno produced a 26-episode series that operates simultaneously as jazz album, noir film, western, and science fiction. The episodic structure - most episodes function as standalone short films - is a deliberate formal choice that allows the series to sustain tonal variety (comedy in 'Mushroom Samba', horror in 'Pierrot le Fou', tragedy in the finale) without sacrificing emotional coherence. Critics consistently place Cowboy Bebop alongside the medium's handful of universally acknowledged masterworks. The 100-percent RT score reflects not hype but sustained critical consensus across multiple generations of reviewers. The ending remains the most discussed finale in anime history.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Asteroid Blues",
+          "air_date": "1998-04-03",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere establishes the series' register with absolute confidence: Spike and Jet pursuing a bounty on Tijuana asteroid, the jazz score already doing as much narrative work as the dialogue. The episode treats its audience as adults who do not need the world explained to them - a rarity in 1998 anime.",
+          "the_moment": "The closing gunfight on the asteroid - Spike's loose, almost bored physicality against a panicked criminal - introduces the series' action language: stylish but never consequence-free.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Ballad of Fallen Angels",
+          "air_date": "1998-11-21",
+          "bollymeter": 9.8,
+          "spoiler_free": "The first major Spike backstory episode - the Red Dragon Syndicate, Vicious, and Julia introduced in crystalline fragments. Critics describe it as the episode where the series reveals it is not a genre exercise but an elegy. The cathedral sequence is among the most beautiful in anime.",
+          "the_moment": "Spike falling through the stained glass window in slow motion - a visual that became one of anime's defining images - arriving to 'Rain' by Yoko Kanno.",
+          "critic_note": {
+            "text": "Ballad of Fallen Angels is the episode that proves Cowboy Bebop is operating in a different register entirely.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/cowboy-bebop/episode-5/.62788"
+          }
+        },
+        {
+          "number": 26,
+          "title": "The Real Folk Blues (Part 2)",
+          "air_date": "1999-04-24",
+          "bollymeter": 10.0,
+          "spoiler_free": "The series finale is among the most debated endings in animation. Critics across decades have read it as tragic, transcendent, or deliberately ambiguous. What is agreed upon: the final staircase sequence is directed with a formal mastery that makes every preceding episode feel like preparation for it. No viewing claim is possible - the episode speaks for itself through the volumes written about it.",
+          "the_moment": "Bang. The word and gesture that closes the series - whose meaning has sustained 25 years of critical argument.",
+          "critic_note": {
+            "text": "The Real Folk Blues is one of television's great finales - an ending that asks you to decide what you believe about fate and choice.",
+            "source": "IGN",
+            "url": "https://www.ign.com/articles/cowboy-bebop-the-real-folk-blues-review"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:00:00+05:30"
+}

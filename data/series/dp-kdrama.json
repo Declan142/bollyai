@@ -1,0 +1,147 @@
+{
+  "slug": "dp-kdrama",
+  "qid": {
+    "value": "Q105226735",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "D.P.",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Crime",
+    "Thriller",
+    "War"
+  ],
+  "logline": "A young private assigned to catch military deserters uncovers the systemic bullying and hazing that drives men to flee South Korea's mandatory military service.",
+  "poster": {
+    "src": "/img/series/dp-kdrama/poster.jpg",
+    "alt": "D.P. poster",
+    "attribution": "Poster © Netflix / Filmmaker R&K. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 1 (6 episodes) premiered August 2021; Season 2 (6 episodes) premiered July 2023. Both seasons scored 100% on Rotten Tomatoes. The second season was confirmed as the series finale.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/D.P._(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-08-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes from 5 reviews with 93% audience approval, and widely cited as one of Netflix Korea's most socially urgent productions - a compact 6-episode gut-punch about institutional violence."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 5,
+        "pull_quotes": [
+          {
+            "text": "Complex and cathartic, the show succeeds precisely because it is the voice of a new generation.",
+            "source": "Pierce Conran, South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/dp/s01"
+          },
+          {
+            "text": "This series beautifully balances the gruesome nature of what these men go through with the occasional lighthearted moment.",
+            "source": "Austin Burke, Flick Fan Nation",
+            "url": "https://www.rottentomatoes.com/tv/dp/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14576188/"
+      },
+      "review_body": "D.P. Season 1 dropped in August 2021 and landed with rare critical unanimity: 100% on Rotten Tomatoes from five reviews, 93% audience approval. Adapted from Kim Bo-tong's webtoon by director Han Jun-hee, the six episodes follow Private Ahn Jun-ho (Jung Hae-in) as he joins the Deserter Pursuit unit and chases men who have fled the barracks. What the show actually does is indict the institution that drove them out. The hazing, the silence of officers, the hierarchy of cruelty - D.P. renders all of it without melodrama, in the flat register of systems that have normalized what they do. Critics clustered on its social urgency: Pierce Conran called it \"the voice of a new generation.\" Jung Hae-in's restraint is the show's moral compass; his character absorbs rather than judges, and that passivity becomes its own form of complicity the show eventually confronts. Six episodes land with the precision and economy of a novella.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-08-27",
+          "bollymeter": 8.8,
+          "spoiler_free": "The first episode establishes Jun-ho's induction into both the military and the D.P. unit, drawing the initial contrast between the institution's official face and its internal brutality. The pacing is deliberate, the world-building unsentimental.",
+          "the_moment": "The first close-up of the barracks hierarchy, where rank is exercised not in commands but in small, habitual humiliations.",
+          "critic_note": {
+            "text": "Complex and cathartic, the show succeeds precisely because it is the voice of a new generation.",
+            "source": "Pierce Conran, South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/dp/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-07-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "100% on Rotten Tomatoes from 6 reviews and 86% audience score; TIME Magazine called it 'just as unapologetic, as visceral, and as thought-provoking as its first, if not more so.'"
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "D.P.'s second season is just as unapologetic, as visceral, and as thought-provoking as its first, if not more so.",
+            "source": "Chad de Guzman, TIME Magazine",
+            "url": "https://www.rottentomatoes.com/tv/dp/s02"
+          },
+          {
+            "text": "D.P. Season 2 excels in all areas, effortlessly elevating above its predecessor.",
+            "source": "Daniel Hart, Ready Steady Cut",
+            "url": "https://www.rottentomatoes.com/tv/dp/s02"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14576188/"
+      },
+      "review_body": "Season 2 arrived in July 2023, two years after the first, with a heavier burden of expectation and a wider institutional frame. The case structure expands: the deserters' stories grow more complex, the system's culpability more explicit, and Jun-ho's moral discomfort hardens into something approaching confrontation. New cast members replace the actor who departed amid a personal controversy after Season 1; the transition is handled cleanly, with Koo Kyo-hwan's Ho-yeol given more weight to compensate. Critics were unambiguous: TIME's Chad de Guzman called it more visceral and thought-provoking than the first season; Ready Steady Cut's Daniel Hart went further, naming it a flat elevation. The 100% Rotten Tomatoes score held on a larger sample of six reviews. At six episodes, the series maintained its brevity as a virtue - no filler, only consequence.",
+      "season_over_season": "Season 2 deepens the systemic critique of Season 1 and gives the supporting cast more room, resulting in a finale that is angrier and more explicit in its institutional indictment."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

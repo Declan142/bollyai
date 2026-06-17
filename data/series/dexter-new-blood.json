@@ -1,0 +1,120 @@
+{
+  "slug": "dexter-new-blood",
+  "qid": {
+    "value": "Q107132222",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dexter: New Blood",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime / Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Thriller",
+    "Crime",
+    "Drama",
+    "Psychological"
+  ],
+  "logline": "A decade after faking his death, Dexter Morgan surfaces in a small upstate New York town as Jim Lindsay - until his estranged son Harrison arrives and the town's own monster forces the dark passenger back out.",
+  "poster": {
+    "src": "/img/series/dexter-new-blood/poster.jpg",
+    "alt": "Dexter: New Blood poster",
+    "attribution": "Poster © Showtime Networks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Announced as a 10-episode limited series, not a full revival. No further continuation as of 2024 despite the ending generating debate.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dexter:_New_Blood"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-11-07",
+        "source": "Wikipedia / Showtime",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "77% from 56 critics on Rotten Tomatoes, with a 7.20/10 average. Metacritic scored it 61/100. Critics consistently cited Michael C. Hall's performance as the reason the show recovered from the original finale's damage."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 56,
+        "pull_quotes": [
+          {
+            "text": "Michael C. Hall's return helps restore some of the luster lost by the show's contentious finale.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/dexter_new_blood"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.1,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/dexter-new-blood/"
+      },
+      "review_body": "Dexter: New Blood arrived on Showtime in November 2021 as the franchise's attempt to correct the record after the 2013 series finale - widely considered one of the worst endings in prestige television. The ten-episode limited run placed Dexter Morgan (Michael C. Hall) in Iron Lake, a fictional upstate New York town, living under an assumed identity and a fragile sobriety from killing. When his estranged son Harrison (Jack Alcott) reappears, the show has its engine: what does a father who is also a serial killer pass on? Critics gave it 77 percent from 56 reviews on Rotten Tomatoes, with a 7.20 average and a Metacritic score of 61. The consensus acknowledged improvement over the original finale's damage while noting the show's own ending generated fresh controversy. Hall was the universal praise point - the performance grounds what would otherwise be a premise operating on nostalgia. Clancy Brown as Kurt Caldwell, Iron Lake's local antagonist, proved a worthy foil. The series is most satisfying for those who followed the original run; newcomers will find the emotional resonance thinner.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Cold Snap",
+          "air_date": "2021-11-07",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere reintroduces Dexter as Jim Lindsay with admirable restraint - the show earns the reveal rather than opening on it. Iron Lake is established as a setting with real texture, and Hall slots back into the character as if a decade meant nothing.",
+          "the_moment": "The moment Dexter's code reasserts itself in the frozen forest, confirming that Jim Lindsay was always a temporary alias.",
+          "critic_note": {
+            "text": "Michael C. Hall's return helps restore some of the luster lost by the show's contentious finale.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/dexter_new_blood"
+          }
+        },
+        {
+          "number": 5,
+          "title": "BIMBOX",
+          "air_date": "2021-12-05",
+          "bollymeter": 7.8,
+          "spoiler_free": "The mid-season turn that establishes what the show is really about - not Dexter's survival instincts, but the question of whether Harrison inherited what made his father dangerous.",
+          "the_moment": "Harrison's confrontation with his father that rewrites the season's stakes.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Sins of the Father",
+          "air_date": "2022-01-09",
+          "bollymeter": 6.5,
+          "spoiler_free": "The finale chose a bold direction that divided audiences. Whether the ending lands depends entirely on whether you read it as a thematic argument or a narrative self-destruct. Critics were split and so was the fanbase.",
+          "the_moment": "The final confrontation between father and son - a scene the whole season built toward, landing as either a bold thematic argument or a narrative misstep depending on the viewer.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

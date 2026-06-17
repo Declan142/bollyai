@@ -1,0 +1,230 @@
+{
+  "slug": "hunter-x-hunter",
+  "qid": {
+    "value": "Q858931",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hunter x Hunter",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / Crunchyroll",
+    "source": "platform listings",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "logline": "A boy who discovers his missing father is a legendary Hunter sets out on a journey that progressively dismantles every shonen convention it appeared to embrace.",
+  "poster": {
+    "src": "/img/series/hunter-x-hunter/poster.jpg",
+    "alt": "Hunter x Hunter poster",
+    "attribution": "Poster © Madhouse / Nippon TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 2011 Madhouse adaptation concluded in 2014 after 148 episodes. Source manga by Yoshihiro Togashi remains on indefinite hiatus; no sequel series announced.",
+    "source": "Anime News Network",
+    "source_url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=14347"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 26,
+      "release_date": {
+        "value": "2011-10-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "The Hunter Exam arc establishes a deceptively light-hearted premise before methodically subverting it. Critics and fans praised Madhouse's fluid animation and the show's refusal to let protagonist Gon coast on genre clichés."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2098220/ratings/"
+      },
+      "review_body": "The first arc (Hunter Exam, eps 1-26) operates as an extended entrance exam for the audience as much as for protagonist Gon Freecss. Madhouse's adaptation - directed by Hiroshi Koujina - immediately signals its intent to complicate the shonen formula: the cheerful boy searching for his father shares screentime with a volatile prodigy (Killua) whose backstory is genuinely dark. Audience scores across IMDb and MyAnimeList cluster around 9.0, reflecting a consensus that the opening arc plants seeds that will only bloom much later. The Hunter Exam is ostensibly a tournament arc; it functions as a character crucible. The pacing trusts that viewers will wait.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Departure x And x Friends",
+          "air_date": "2011-10-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Gon as a protagonist defined not by power but by perceptiveness. The Whale Island prologue does efficient worldbuilding: the forest, the guardian fox, the letter from an absent father. The tone is warmer than the series will eventually permit, and that warmth becomes the series' most important sleight of hand.",
+          "the_moment": "Gon catches a giant fish bare-handed - a deceptively simple beat that sets up the physical and emotional logic the show will rely on for 148 episodes.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Defeat x And x Disgrace",
+          "air_date": "2012-01-22",
+          "bollymeter": 8.8,
+          "spoiler_free": "The Trick Tower sequence reaches its pivot as the examination reveals it is not testing combat ability but psychological endurance and judgment. The writing shifts the rules mid-game and the characters must adapt without the show pretending they should be comfortable doing so.",
+          "the_moment": "The majority-vote reveal reframes everything that came before it - the exam has been about social dynamics, not strength.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 36,
+      "release_date": {
+        "value": "2012-01-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "The Heavens Arena and Yorknew City arcs represent the show's creative acceleration - Nen as a power system is one of anime's most internally consistent magic rules, and the Phantom Troupe's introduction produces the series' first genuinely tragic antagonists."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2098220/ratings/"
+      },
+      "review_body": "Heavens Arena (eps 27-36) introduces Nen - the series' power system - with a rigour that most shonen series reserve for its endpoint rather than its midpoint. Yorknew City (eps 37-62) then delivers the show's first full demonstration of what it is capable of: the Phantom Troupe are introduced as antagonists who are also fully realised people, their leader Chrollo Lucilfer sketched with a complexity that makes the moral stakes genuinely ambiguous. The Kurapika-versus-Troupe thread became one of the most discussed anime storylines of 2012-2013. IMDb's per-episode ratings for Yorknew episodes cluster significantly higher than the opening arc, reflecting the audience registering the tonal shift.",
+      "season_over_season": "Where the Hunter Exam established the premise, Yorknew City fulfils it - the series stops pretending its protagonist can win on optimism alone.",
+      "episode_reviews": [
+        {
+          "number": 58,
+          "title": "Condition x And x Condition",
+          "air_date": "2012-11-18",
+          "bollymeter": 9.3,
+          "spoiler_free": "The negotiation between Kurapika and Chrollo - two characters defined entirely by grief and revenge - is one of the arc's sharpest episodes. The Nen contract at its centre gives the conversation a clockwork tension: both parties understand the rules and what violating them costs.",
+          "the_moment": "The terms of the chain contract made explicit - the episode teaches the audience a new level of what this power system means and immediately raises the stakes for every subsequent interaction.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 61,
+      "release_date": {
+        "value": "2013-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.7,
+        "basis": "The Chimera Ant arc is among the most celebrated extended arcs in anime history - a 60-episode meditation on mortality, humanity, and the cost of strength that dismantles shonen's heroic framework entirely. The Meruem-Komugi storyline in particular drew near-universal critical praise."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The Chimera Ant arc is the most ambitious arc in any shonen anime, a slow-building tragedy that earns every moment.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/hunter-x-hunter-2011/episode-116/.68744"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2098220/ratings/"
+      },
+      "review_body": "The Chimera Ant arc (eps 76-136) is the axis around which the entire series turns. A species that can absorb the DNA of its prey gains sentience; its king, Meruem, is the most complex antagonist the show produces. The arc is deliberately slow - early episodes accumulate dread rather than spectacle - but the payoff in episodes 116-135 is extraordinary. The Meruem-Komugi thread attracted attention even from viewers unfamiliar with anime; their board-game scenes are studies in vulnerability and connection between two beings who have no obvious reason to care for each other. The Chimera Ant arc's 97-percent audience approval on aggregated scores reflects a series that chose to be devastating over being exciting.",
+      "season_over_season": "The Chimera Ant arc represents a fundamental shift in register - the series stops being about a boy finding his father and becomes a philosophical argument about what power costs its wielder.",
+      "episode_reviews": [
+        {
+          "number": 116,
+          "title": "Anger x And x Light",
+          "air_date": "2013-09-25",
+          "bollymeter": 9.8,
+          "spoiler_free": "The episode that the Chimera Ant arc has been building toward for forty episodes. The action is extraordinary; the emotional weight is almost unbearable. Reviewers across anime criticism sites described it as among the finest single episodes in the medium.",
+          "the_moment": "Gon's transformation - and what it reveals about the cost of that choice - landed as one of the most discussed scenes in anime in 2013.",
+          "critic_note": {
+            "text": "An episode that reaches the emotional heights the arc has been promising for forty episodes.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/hunter-x-hunter-2011/episode-116/.68744"
+          }
+        },
+        {
+          "number": 131,
+          "title": "Resolve x And x Awakening",
+          "air_date": "2014-01-15",
+          "bollymeter": 9.9,
+          "spoiler_free": "The Meruem-Komugi conclusion. This episode achieves something rare: a villain's ending that generates grief rather than relief. The board-game motif, carried across dozens of episodes, arrives at its payoff here with devastating formal economy.",
+          "the_moment": "The final game of Gungi - the scene that turned a shonen anime into a discussion about empathy, mortality, and what it means to be human.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-01-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "The Election arc and brief Alluka subplot serve as a necessary denouement after the Chimera Ant arc's emotional extremity. Reception acknowledged the arc as lighter but appreciated the character resolution for Killua."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2098220/ratings/"
+      },
+      "review_body": "The 13th Hunter Chairman Election arc (eps 137-148) serves as the series' coda. After the Chimera Ant arc's sustained emotional brutality, the show shifts to Hunter Association politics and Killua's family storyline. The pacing is deliberately gentler. Critics and fans broadly accepted this as an appropriate decompression, while noting that the show ends before reaching several of the manga's later plot threads - a consequence of the source material's hiatus. The series finale does not resolve Gon's stated goal of finding his father in a definitive way, which polarised a segment of the audience but satisfied the majority who read the ending as thematically complete.",
+      "season_over_season": "A structural exhale after the Chimera Ant arc - smaller in scope by design, and more effective for accepting that limitation.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:00:00+05:30"
+}

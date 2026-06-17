@@ -1,0 +1,127 @@
+{
+  "slug": "el-reino",
+  "qid": {
+    "value": "Q104813441",
+    "source": "Wikidata via Spanish Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "El reino",
+    "source": "Spanish Wikipedia / Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Argentina",
+  "original_language": {
+    "value": "es",
+    "source": "Spanish Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Drama",
+    "Mystery",
+    "Psychological"
+  ],
+  "logline": "When Argentina's vice-presidential candidate is assassinated on election night, his evangelical pastor running mate inherits the presidency - and the investigation into who ordered the killing.",
+  "poster": {
+    "src": "/img/series/el-reino/poster.jpg",
+    "alt": "El reino poster",
+    "attribution": "Poster © Netflix / Underground Producciones. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run completed with Season 2 in March 2023. Multiple Premios Platino, Premios Condor de Plata, and Premios Sur wins confirmed the series ended at the height of its reputation.",
+    "source": "Spanish Wikipedia",
+    "source_url": "https://es.wikipedia.org/wiki/El_reino_(serie_de_televisi%C3%B3n)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-08-13",
+        "source": "Spanish Wikipedia / Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Critics singled out the direction and cinematographic control as exceptional, with strong ensemble performances anchored by Diego Peretti. Premios Platino Best Miniseries win confirms the regional critical consensus."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Quality storytelling supported by significant narrative and visual resources with strong performances throughout.",
+            "source": "Spanish-language critic consensus via Spanish Wikipedia",
+            "url": "https://es.wikipedia.org/wiki/El_reino_(serie_de_televisi%C3%B3n)"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "El reino launched on Netflix in August 2021 and immediately established itself as Argentina's most compelling political thriller in years. The premise - an evangelical pastor unexpectedly inheriting a presidential candidacy after his running mate's assassination - gave writers Marcelo Piñeyro and Claudia Piñeiro (adapting her own novel) a setting rich with hypocrisy and power. Critics consistently praised the direction and visual control, and Diego Peretti's performance as the pastor Emilio Vázquez Pena became the series' centrepiece: a man whose faith and ambition are indistinguishable. The show won Best Miniseries at the Premios Platino, the region's most prestigious screen awards, and collected multiple Premios Condor de Plata and Premios Sur wins. The eight-episode structure is tight and purposeful, building dread out of institutional corruption rather than action spectacle. For viewers of non-English political drama - fans of Occupied, Borgen, or Dark - El reino operates at comparable altitude.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-08-13",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the assassination's political fallout with precision. The show takes no time to define Emilio as a man whose religiosity is inseparable from his appetite for power.",
+          "the_moment": "The assassination in the final moments of the campaign reframes everything the episode set up about democratic normalcy.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2021-08-13",
+          "bollymeter": 8.7,
+          "spoiler_free": "The finale ties the investigation's threads into a conclusion that is satisfying as conspiracy but unsettling as moral verdict - nobody walks away clean.",
+          "the_moment": "The moment where institutional complicity is confirmed rather than implied.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-03-22",
+        "source": "Spanish Wikipedia / Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 2 deepens the institutional critique with a tighter six-episode structure. Critics noted consistent quality relative to Season 1, though the compressed run slightly narrows the room for character development."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 of El reino arrived in March 2023 with six episodes, tighter than the first run and more focused on the mechanisms of institutional corruption. The writers continued exploring how religious authority and political machinery interlock in Argentine public life - a theme that had intensified since Season 1 given regional events. Peretti's performance remained the anchor, and the ensemble around him (Nancy Dupláa, Joaquín Furriel, Chino Darín) continued to deliver work above genre expectation. The shorter episode count proved a reasonable trade-off: less room for ambience, but the narrative propulsion improved. The season served as a satisfying conclusion to the arc opened by the Season 1 assassination, and the series ended with its reputation intact - one of Latin America's definitive political thrillers of the streaming era.",
+      "season_over_season": "Season 2 sharpens the conspiracy mechanics into a tighter six-episode arc, trading the atmospheric sprawl of Season 1 for concentrated institutional dread.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

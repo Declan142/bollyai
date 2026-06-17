@@ -1,0 +1,242 @@
+{
+  "slug": "fringe",
+  "qid": {
+    "value": "Q216896",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Fringe",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Max",
+    "source": "Warner Bros. Discovery streaming rights",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Sci-Fi",
+    "Thriller",
+    "Mystery",
+    "Drama"
+  ],
+  "logline": "An FBI agent, a brilliant but institutionalized scientist, and his conflicted son investigate a wave of impossible crimes linked to a shadowy corporation and the edges of human science.",
+  "poster": {
+    "src": "/img/series/fringe/poster.jpg",
+    "alt": "Fringe poster",
+    "attribution": "Poster © Bad Robot Productions / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Fringe ran for five seasons on Fox (2008-2013), with the network ordering a shortened 13-episode final season to allow the showrunners to conclude the story on their own terms. The finale aired January 18, 2013.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2012/tv/news/fox-renews-fringe-for-final-13-episode-season-1118055819/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 20,
+      "release_date": {
+        "value": "2008-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 1 earned strong critical notices for John Noble's Walter Bishop and its X-Files-adjacent procedural structure, though critics noted the standalone episodes outpaced the mythology arc in quality."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 35,
+        "pull_quotes": [
+          {
+            "text": "John Noble's Walter Bishop is one of the most original characters to hit network television in years.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/fringe-review-149073/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1119644/ratings/"
+      },
+      "review_body": "Fringe arrived in September 2008 with J.J. Abrams, Alex Kurtzman, and Roberto Orci as executive producers and enough DNA from The X-Files to invite the comparison critics inevitably made. The procedural scaffolding - FBI agent Olivia Dunham investigating 'fringe science' cases alongside institutionalized genius Walter Bishop and his reluctant son Peter - served as delivery system for John Noble's extraordinary performance. Critics at 82 percent on Rotten Tomatoes found the mythology episodes more compelling than the standalones, but agreed that Noble's Walter was an immediate classic: damaged, brilliant, baking biscuits while discussing the multiverse. Anna Torv held the emotional center with underrated precision. Season 1 ends with mythology threads that reward patience.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2008-09-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "The pilot establishes the Fringe Division, introduces all three leads in high-pressure circumstances, and immediately deploys Walter Bishop as the show's irreplaceable asset. A confident, expensive premiere that earns its mythology setup.",
+          "the_moment": "Walter Bishop being retrieved from a mental institution and immediately demonstrating that his madness and his genius are inseparable.",
+          "critic_note": {
+            "text": "John Noble's Walter Bishop is one of the most original characters to hit network television in years.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/fringe-review-149073/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 23,
+      "release_date": {
+        "value": "2009-09-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Season 2 is widely regarded as the show's peak, with the parallel universe mythology expanding into genuine emotional stakes and critics calling the Peter-Walter relationship one of the best father-son dynamics in genre television."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 20,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1119644/ratings/"
+      },
+      "review_body": "Season 2 is where Fringe stopped being a procedural with mythology ambitions and became a mythology show that used its procedural structure as counterweight. The parallel universe expanded from a concept into a tangible world, with critics praising the show's commitment to working through the emotional logic of alternate realities rather than using them for cheap twists. The revelation of Peter Bishop's origin is among the most affecting single-episode pivots in network science fiction. Joshua Jackson, often undervalued relative to Torv and Noble, found his most compelling dramatic register. The 88 percent critical response reflected a clear consensus that Season 2 represented the show's fullest realization.",
+      "season_over_season": "Season 2 transforms the procedural engine of Season 1 into a mythology machine, with the parallel universe emerging as the show's emotional and dramatic center.",
+      "episode_reviews": [
+        {
+          "number": 16,
+          "title": "Peter",
+          "air_date": "2010-04-01",
+          "bollymeter": 9.4,
+          "spoiler_free": "A standalone origin episode that reframes everything the show has established about Walter Bishop. Told almost entirely in the past, it earns its emotional devastation through accumulated specificity. Fan discourse and IMDb scores consistently place it among the finest single episodes in the series.",
+          "the_moment": "The moment Walter's decision in the alternate universe becomes clear - the scope of what he gave up and what he took is revealed in full.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2010,
+      "episodes": 22,
+      "release_date": {
+        "value": "2010-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Season 3's alternating structure between universes won critical praise for Anna Torv's dual performance as both Olivias, with the AltFringe episodes providing a fresh tonal contrast that energized the parallel mythology."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 15,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1119644/ratings/"
+      },
+      "review_body": "Season 3 formalized the parallel universe structure with alternating episodes set in each world, a formal experiment that critics generally welcomed. Anna Torv's dual performance as Prime Olivia and her alternate counterpart earned reassessment from critics who had undervalued her in earlier seasons. The device allowed the show to interrogate its own mythology from two perspectives simultaneously, with the alt-universe's warmer, braver Olivia serving as a productive foil. The season's central conflict - whose version of history survives - gave the mythology its clearest emotional stakes yet, even if the machinery required to sustain it occasionally creaked.",
+      "season_over_season": "Season 3 formalizes the parallel structure Season 2 introduced, with alternating-universe episodes giving Anna Torv a showcase that critics had not fully anticipated.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2011,
+      "episodes": 22,
+      "release_date": {
+        "value": "2011-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 4's timeline-reset premise divided critics and audience alike, with fans invested in the Peter-Walter relationship finding the erasure frustrating even as critics acknowledged the logical ambition of the narrative gamble."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1119644/ratings/"
+      },
+      "review_body": "Season 4 opened with a timeline in which Peter Bishop had never existed - a bold mythology reset that alienated portions of the audience who had invested three seasons in the Peter-Walter dynamic. Critics were more charitable than fans, recognizing the reset as a genuine attempt to rebuild emotional stakes rather than a creative retreat. The Observers mythology expanded significantly, seeding the fifth season's premise, and Walter's arc across the season - rebuilding a relationship with a son he technically never knew - delivered some of Noble's finest work. The show's ratings erosion continued, but the creative ambition remained intact.",
+      "season_over_season": "Season 4's timeline reset recontextualizes three seasons of earned relationships, a gamble that the 80 percent Rotten Tomatoes score suggests landed better with press than with the invested audience.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2012,
+      "episodes": 13,
+      "release_date": {
+        "value": "2012-09-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "The shortened final season pivoted to an Observer-occupation future, delivering a focused goodbye that critics praised for honoring its characters even as the mythology acceleration required some compression of setup."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 8,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1119644/ratings/"
+      },
+      "review_body": "Fox's decision to grant a truncated 13-episode final season allowed the showrunners to conclude the story on their own terms rather than face mid-narrative cancellation. Set entirely in a dystopian 2036 under Observer occupation, Season 5 operated as a compression of the show's themes: found family, the cost of scientific hubris, and what Walter Bishop might sacrifice to save a world he partly broke. The Walter-Peter relationship received its fullest and most painful treatment. The finale aired January 18, 2013 and earned a 84 percent Rotten Tomatoes score as a satisfying, if slightly rushed, conclusion to a five-season run.",
+      "season_over_season": "Season 5 abandons the procedural structure entirely for a serialized resistance narrative, giving the Walter Bishop arc a conclusion commensurate with five seasons of setup.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "An Enemy of Fate",
+          "air_date": "2013-01-18",
+          "bollymeter": 8.8,
+          "spoiler_free": "The series finale resolves the Observer threat and delivers Walter's final sacrifice with the emotional clarity the character deserved. The ending functions as an earned goodbye to five seasons of character work, even as the mythology machinery required to reach it compressed several threads.",
+          "the_moment": "Walter's final choice - what he gives up and why - reframes the entire five-season arc as his story, not Olivia's or Peter's.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

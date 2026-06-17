@@ -1,0 +1,242 @@
+{
+  "slug": "person-of-interest",
+  "qid": {
+    "value": "Q1054574",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Person of Interest",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Paramount+ streaming rights",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Sci-Fi",
+    "Action",
+    "Drama"
+  ],
+  "logline": "A reclusive billionaire genius and a former CIA operative use an all-seeing artificial intelligence to intervene in crimes before they happen - while the Machine itself develops its own agenda.",
+  "poster": {
+    "src": "/img/series/person-of-interest/poster.jpg",
+    "alt": "Person of Interest poster",
+    "attribution": "Poster © Bad Robot Productions / Warner Bros. Television / CBS Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Person of Interest ran for five seasons on CBS (2011-2016), with CBS ordering a shortened 13-episode final season. The series finale aired June 21, 2016, resolving the Machine-Samaritan conflict.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2016/tv/news/person-of-interest-season-5-cbs-air-date-1201684539/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 23,
+      "release_date": {
+        "value": "2011-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 1 established the procedural formula and the Caviezel-Emerson partnership to strong critical notices, with reviewers noting the show was more intelligent than its CBS timeslot suggested, even as the episodic case-of-the-week structure dominated over mythology."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 33,
+        "pull_quotes": [
+          {
+            "text": "A slick, entertaining procedural that proves smarter than its premise suggests.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/person-interest-review-236866/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1839578/ratings/"
+      },
+      "review_body": "Person of Interest premiered September 2011 with J.J. Abrams and Jonathan Nolan as creators and immediately exceeded critical expectations for a CBS procedural. Jim Caviezel's taciturn former operative John Reese and Michael Emerson's eccentric billionaire Harold Finch formed a partnership critics described as unusually affecting for the genre - Emerson in particular deploying his Lost-honed gift for suggesting depths behind minimal exposition. The 79 percent Rotten Tomatoes first season score reflected a consensus that the show's surveillance-state premise was more thoughtful than the procedural trappings implied. The Machine - an AI that monitors everyone and generates 'relevant' and 'irrelevant' numbers - was already being read as a parable about post-9/11 mass surveillance infrastructure well before the Snowden disclosures made that reading unavoidable.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2011-09-22",
+          "bollymeter": 7.8,
+          "spoiler_free": "The pilot establishes Finch and Reese's partnership, the Machine's function, and the moral framework around 'irrelevant' numbers with more economy than the premise might suggest. Caviezel and Emerson locate each other's rhythms immediately.",
+          "the_moment": "Finch's explanation of why he built the Machine and why the government only gets to see what he wants them to see - the show's moral foundation in a single speech.",
+          "critic_note": {
+            "text": "A slick, entertaining procedural that proves smarter than its premise suggests.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/person-interest-review-236866/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2012,
+      "episodes": 22,
+      "release_date": {
+        "value": "2012-09-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "Season 2 introduced Root and Decima Technologies, expanding the mythology while critics noted the ensemble deepening around Shaw and the HR corruption arc - the show began its evolution from procedural to serialized thriller."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 18,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1839578/ratings/"
+      },
+      "review_body": "Season 2 introduced Amy Acker's Root - the show's most philosophically interesting antagonist, a hacker who believed the Machine was a god before the protagonists did - and began a tonal shift that would define the show's most significant evolution. The HR police corruption arc delivered a multi-episode thriller within the procedural structure, while the mythology deepened around competing AI development. Jonathan Nolan and his writing team were laying groundwork for a sci-fi conspiracy narrative that the network format could only partially accommodate. The 82 percent Rotten Tomatoes score reflected press recognition of the ambition even when individual episodes prioritized the weekly case.",
+      "season_over_season": "Season 2 introduces Root and the competing AI mythology, beginning the show's gradual pivot from procedural toward serialized science fiction.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2013,
+      "episodes": 23,
+      "release_date": {
+        "value": "2013-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Season 3 is widely considered the show's peak, with the Samaritan threat, Shaw's integration into the team, and the HR finale delivering the most sustained serialized storytelling of the run; critics praised the ambition of a network show openly depicting AI as an existential threat."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 15,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1839578/ratings/"
+      },
+      "review_body": "Season 3 delivered the show's finest sustained run. The HR arc concluded with a genuinely costly climax, the Samaritan AI emerged as a genuine antagonist rather than a theoretical threat, and Sarah Shahi's Sameen Shaw integrated into the team with a dry authority that balanced the ensemble. The late-season episodes depicting the moment Samaritan goes online and the Machine's team is forced underground represented television science fiction thinking seriously about AI-driven surveillance states in ways that pre-dated mainstream discourse on the subject by several years. At 88 percent on Rotten Tomatoes it earned the best-reviewed season of any Person of Interest run.",
+      "season_over_season": "Season 3 completes the procedural-to-serial transformation, with the Samaritan threat arriving and the Machine mythology reaching its dramatic peak.",
+      "episode_reviews": [
+        {
+          "number": 23,
+          "title": "Deus Ex Machina",
+          "air_date": "2014-05-13",
+          "bollymeter": 9.2,
+          "spoiler_free": "The Season 3 finale brings the HR arc to its conclusion and pivots the show toward the Samaritan threat that will define its final two seasons. The episode delivers the casualty the show earns through three seasons of careful setup.",
+          "the_moment": "The cost of the HR confrontation - the moment that proved the show was willing to pay the price its serialized ambition required.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2014,
+      "episodes": 22,
+      "release_date": {
+        "value": "2014-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Season 4 maintained the Samaritan-hunted premise with the team operating in deep cover, delivering strong individual episodes even as the season's structural challenge of sustaining tension while hiding the protagonists occasionally strained credibility."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 12,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1839578/ratings/"
+      },
+      "review_body": "Season 4 operated under the shadow of Samaritan's dominance with the team maintaining false identities and the Machine communicating through improvised means. The formal constraint - how do you sustain tension when your protagonists are in permanent hiding - produced some inventive storytelling, including episodes told from unconventional perspectives. CBS's ratings pressure resulted in a mix of mythology-heavy and procedural episodes that occasionally disrupted momentum, but the season finale's cliffhanger raised the stakes to a level the fifth and final season would need to resolve.",
+      "season_over_season": "Season 4 sustains the Samaritan threat with the team underground, trading Season 3's escalating momentum for a more constrained cat-and-mouse structure.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-05-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "The shortened final season delivered what critics called one of the best series finales in recent network television history, with Finch's arc and the Machine's conclusion earning praise for emotional and philosophical coherence rarely achieved in serialized science fiction."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1839578/ratings/"
+      },
+      "review_body": "CBS ordered a truncated 13-episode final season and Person of Interest used every episode with the economy of a show that knew exactly where it was going. The Machine-Samaritan war reached its conclusion, Harold Finch made the decision five seasons had been building toward, and the series finale earned a 90 percent Rotten Tomatoes score as one of the more emotionally satisfying network science fiction finales in recent memory. The finale aired June 21, 2016, and cemented the show's reputation as a CBS procedural that had gradually become something richer: a meditation on surveillance, identity, and what artificial intelligence might owe the humans who created it.",
+      "season_over_season": "Season 5 closes the Machine's arc and Finch's story with the compressed clarity of a show that earned its ending across 103 episodes.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "Return 0",
+          "air_date": "2016-06-21",
+          "bollymeter": 9.5,
+          "spoiler_free": "The series finale resolves the Samaritan conflict and Harold Finch's central moral question in a manner that rewards five seasons of investment. The episode earned a 90 percent Rotten Tomatoes series-finale score - among the strongest for any network science fiction drama.",
+          "the_moment": "Finch's final choice - the completion of an arc the show built from the pilot's opening monologue about what we owe each other.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

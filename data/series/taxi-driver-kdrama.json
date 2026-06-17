@@ -1,0 +1,116 @@
+{
+  "slug": "taxi-driver-kdrama",
+  "qid": {
+    "value": "Q104607512",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Taxi Driver",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Action",
+    "Crime",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A former special-forces soldier drives a secret vigilante taxi that delivers justice to crime victims whose perpetrators escaped the legal system - one revenge at a time.",
+  "poster": {
+    "src": "/img/series/taxi-driver-kdrama/poster.jpg",
+    "alt": "Taxi Driver poster",
+    "attribution": "Poster © SBS / Studio S. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons aired on SBS. Season 1 ran April-May 2021 (16 episodes), Season 2 ran February-April 2023 (18 episodes), and Season 3 aired November 2025 to January 2026 (16 episodes), concluding the series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Taxi_Driver_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-04-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 1 drew strong SBS ratings and became a streaming hit on Netflix, with Lee Je-hoon's controlled performance and the episode-by-episode vigilante-justice structure earning sustained audience enthusiasm across Asia."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13604590/"
+      },
+      "review_body": "Taxi Driver launched on SBS in April 2021 and quickly became one of the network's stronger action outings of the year. Lee Je-hoon plays Kim Do-gi with a convincing physical intensity - a former special-forces soldier who channels trauma into vigilante precision. The show's formula is smart: each case is drawn from real Korean social scandals (school bullying, cult manipulation, romance scams), giving the wish-fulfillment revenge plot a grounding in lived anxieties. The episodic structure works because the writing keeps Do-gi's backstory - a childhood defined by loss at the hands of a cult - as a slow reveal that deepens rather than distracts. Pyo Ye-jin matches the energy as the detective tracking the phantom taxi service. Season 1 built a devoted audience that pulled Season 2 into production. No professional critic sample was catalogued on major aggregators at time of writing, but IMDb audience ratings reflect strong pan-Asian engagement.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-04-09",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere introduces Kim Do-gi and the Rainbow Taxi organization, establishing the show's procedural rhythm via a school-bullying revenge case. The tone - part thriller, part cathartic fantasy - is locked in fast.",
+          "the_moment": "Do-gi's first reveal that the taxi is not what it appears, and the target's dawning realization.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 18,
+      "release_date": {
+        "value": "2023-02-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 2 expanded the team and the case variety, maintaining the SBS action pedigree, though the longer 18-episode run allowed minor pacing slack; audience retention remained high relative to Season 1."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned in February 2023 with a wider ensemble and more ambitious case construction. The expansion to 18 episodes (plus two specials) gave the writers room to explore new criminal arenas, including cross-border fraud operations. Lee Je-hoon's Do-gi remains the center of gravity, and the chemistry with Shin Jae-ha as a new team member added fresh dynamics. The pacing in the mid-section loosened compared to Season 1's tighter episodic focus, but the action set-pieces remained a consistent strength. Audience scores indicate solid retention from the first season, and the SBS timeslot delivered competitive ratings. The format held; the novelty had naturally worn some.",
+      "season_over_season": "Season 2 trades some of Season 1's compact case-by-case momentum for larger narrative arcs, with mixed results on pacing but consistent action craft."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

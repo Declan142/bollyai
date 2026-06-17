@@ -1,0 +1,111 @@
+{
+  "slug": "signal-kdrama",
+  "qid": {
+    "value": "Q19854621",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Signal",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Mystery",
+    "Drama"
+  ],
+  "logline": "A criminal profiler discovers a walkie-talkie connecting him to a detective from 1989, and together they crack cold cases - unraveling that altering the past carries devastating costs.",
+  "poster": {
+    "src": "/img/series/signal-kdrama/poster.jpg",
+    "alt": "Signal poster",
+    "attribution": "Poster © CJ ENM / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 1 ran 16 episodes on tvN in 2016 and concluded as a standalone story. A Season 2 was confirmed in March 2024 and was in production as of mid-2025.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Signal_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 16,
+      "release_date": {
+        "value": "2016-01-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "96% on Rotten Tomatoes and a peak cable rating of 12.5% made this one of the highest-rated Korean cable dramas of its era, with critics consistently citing it as a benchmark of the crime-thriller genre."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "Signal makes you ponder the consequences of altering life. Do you let a person die at a certain time, no matter how horrific?",
+            "source": "Jae-Ha Kim, Substack",
+            "url": "https://www.rottentomatoes.com/tv/signal/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt5386312/"
+      },
+      "review_body": "Signal arrived in early 2016 and quickly established itself as one of the finest Korean crime dramas ever produced. The premise - a 2015 profiler and a 1989 detective communicating via a mysterious walkie-talkie to solve cold cases - sounds like a gimmick, but the writing treats the time-travel mechanics with rigorous logic, ensuring each intervention carries genuine moral weight. Critics praised the dual-timeline structure for generating sustained dread: solving a case in the past reshapes the present in ways neither man anticipates. The 96% Rotten Tomatoes score reflects an unusual critical consensus for a Korean cable drama of this vintage. Kim Hye-soo anchors the present-day side as a tenacious detective, while Cho Jin-woong's portrayal of the past-timeline cop carries the show's emotional gravity. The series drew peak ratings of 12.5% - exceptional for cable. The finale's refusal of easy resolution cemented its reputation as a series willing to honor the logic it spent 16 hours building.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-01-22",
+          "bollymeter": 9.0,
+          "spoiler_free": "The opener establishes both timelines with confidence, introducing Park Hae-young as a profiler who discovers the walkie-talkie and makes first contact with detective Lee Jae-han in 1989. The cold-case setup - a kidnapping that devastated Park's family - gives the procedural an immediate personal stake.",
+          "the_moment": "The first transmission crackles through and two voices in different decades realize they are actually hearing each other.",
+          "critic_note": {
+            "text": "Signal makes you ponder the consequences of altering life. Do you let a person die at a certain time, no matter how horrific?",
+            "source": "Jae-Ha Kim, Substack",
+            "url": "https://www.rottentomatoes.com/tv/signal/s01"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2016-03-12",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale resolves the central mystery without betraying the show's insistence that changing the past is never clean. The last transmissions carry the full emotional weight of 16 hours of accumulated consequence.",
+          "the_moment": "The final walkie-talkie exchange, which reframes the entire series in one devastating beat.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

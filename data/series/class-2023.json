@@ -1,0 +1,113 @@
+{
+  "slug": "class-2023",
+  "qid": {
+    "value": "Q116691847",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Class",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Teen",
+    "Drama",
+    "Mystery",
+    "Thriller",
+    "Coming of Age"
+  ],
+  "logline": "Three scholarship students from a poor Delhi neighbourhood enter an elite private school and collide with wealth, caste, and a murder that implicates everyone.",
+  "poster": {
+    "src": "/img/series/class-2023/poster.jpg",
+    "alt": "Class poster",
+    "attribution": "Poster © Netflix India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Netflix confirmed Season 2 on March 6, 2023, weeks after the debut.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(2023_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-02-03",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "An 86% Tomatometer from 7 critics reflects genuine praise for its India-specific caste and class layering. Audience response was similarly warm at 87%, though the small sample means consensus is tentative."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 7,
+        "pull_quotes": [
+          {
+            "text": "Layers on commentary about a class system unique to India, shifting the tone just enough to make it distinctive.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/class_2023"
+          },
+          {
+            "text": "Deftly interweaves a murder mystery with high school drama layered with caste, class, and religious clashes.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/class_2023"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/class_2023"
+      },
+      "review_body": "Netflix India's loosely Elite-inspired Class arrived in February 2023 with a premise that travels well: three scholarship students from a poor Delhi neighbourhood crash into Hampton International, an elite private school where wealth, caste, and religion harden into weapons. Critics gave it 86 percent on Rotten Tomatoes from seven reviews, with the most consistent praise going to how the writers reskinned the Spanish source material into something distinctly Indian - caste cleavage and UP-Delhi class politics replacing Iberian social stratification. The murder-mystery frame keeps the plotting taut across eight episodes, and the younger cast holds the material together better than the premise might suggest. The audience score mirrored critic warmth, landing at 87 percent. Five Filmfare OTT Award nominations signalled that the domestic industry took it seriously. The result is a confident genre adaptation that earns its Indian setting rather than simply importing a format.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-02-03",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere drops three outsiders into Hampton International and immediately frames the school as a warzone along class, caste, and religious lines. The tonal blend of telenovela heat and social commentary is set up quickly, and the murder hook at the end gives it genuine pull.",
+          "the_moment": "The moment a scholarship student realises the social rules at Hampton operate on entirely different logic to anything she has known.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2023-02-03",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale delivers on the mystery thread while keeping character entanglements messy enough that no resolution feels clean. It earns the Season 2 renewal by leaving real questions open.",
+          "the_moment": "The identity of the murderer lands with more moral ambiguity than the genre typically permits.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "shogun-2024",
+  "qid": {
+    "value": "Q124165060",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shogun",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX / Hulu",
+    "source": "FX Networks press release",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Historical",
+    "Drama",
+    "War",
+    "Action"
+  ],
+  "logline": "A stranded English navigator becomes entangled in a deadly power struggle among feudal Japanese warlords as one lord plots to seize control of a divided nation.",
+  "poster": {
+    "src": "/img/series/shogun-2024/poster.jpg",
+    "alt": "Shogun poster",
+    "attribution": "Poster © FX / Hulu / Searchlight Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Shogun was conceived as a limited series and concluded after its 10-episode first season. FX confirmed a second season (Season 2) is in development, but the original run stands as a complete, self-contained story.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/news/shogun-season-2-fx-renewed-1236037073/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 10,
+      "release_date": {
+        "value": "2024-02-27",
+        "source": "FX Networks",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.4,
+        "basis": "Swept the 2024 Emmys with 18 wins including Outstanding Drama Series - critics at 99% on Rotten Tomatoes praised its immersive Japanese-language authenticity and Hiroyuki Sanada's performance as a dual achievement of craft and cultural representation."
+      },
+      "critic": {
+        "positive_pct": 99,
+        "sample": 186,
+        "pull_quotes": [
+          {
+            "text": "A gorgeous, gripping epic that honors its source material while bringing fresh eyes to the story.",
+            "source": "Rolling Stone",
+            "url": "https://www.rollingstone.com/tv-movies/tv-movie-reviews/shogun-fx-review-hiroyuki-sanada-cosmo-jarvis-1234978651/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2976891/ratings/"
+      },
+      "review_body": "The 2024 FX adaptation of James Clavell's novel demolished every expectation for what a prestige historical epic can accomplish on American television. With roughly 60 percent of the dialogue in Japanese - subtitled, never dubbed down - showrunners Rachel Kondo and Caillin Puente made a structural declaration: this story belongs to its Japanese characters first. Critics rewarded that choice with a near-unanimous 99 percent on Rotten Tomatoes from 186 reviews. Hiroyuki Sanada, who co-produced the series for over a decade, delivers Yoshii Toranaga as a chess master whose stillness conceals seismic intent. Cosmo Jarvis as the shipwrecked navigator John Blackthorne earns his place as cultural outsider without letting the Western gaze dominate. The 18 Emmy wins, including Outstanding Drama Series, reflected a broad consensus that this was the most fully realized limited series in years.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Crimson Sky",
+          "air_date": "2024-02-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere drops John Blackthorne into a hostile Japanese port and builds its world through the logic of power, translation, and misread intent. The bilingual structure is established immediately - Japanese dialogue is treated as native, not exotic, and that choice reframes everything.",
+          "the_moment": "Toranaga's first courtroom appearance, where the gap between what he says and what outsiders understand reveals the show's central engine.",
+          "critic_note": {
+            "text": "A staggering piece of television - rich, novelistic, and completely uncompromising in its commitment to authenticity.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/criticism/series/shogun-review-fx-hulu-hiroyuki-sanada-cosmo-jarvis-1234962753/"
+          }
+        },
+        {
+          "number": 10,
+          "title": "Toranaga",
+          "air_date": "2024-04-23",
+          "bollymeter": 9.5,
+          "spoiler_free": "The finale delivers the payoff Toranaga's long game promised without a single cheap catharsis. The series closes on an image of stillness that rewards every patient hour preceding it.",
+          "the_moment": "The final revelation of Toranaga's plan - every piece placed in plain sight for ten episodes, finally assembled.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

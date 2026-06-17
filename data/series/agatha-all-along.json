@@ -1,0 +1,111 @@
+{
+  "slug": "agatha-all-along",
+  "qid": {
+    "value": "Q116849750",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Agatha All Along",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "Disney+ / Marvel Studios",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Supernatural",
+    "Fantasy",
+    "Drama",
+    "Horror"
+  ],
+  "logline": "Stripped of her powers and memories, the notorious witch Agatha Harkness must lead a coven of witches through a legendary and lethal road called the Witches' Road to reclaim what she has lost.",
+  "poster": {
+    "src": "/img/series/agatha-all-along/poster.jpg",
+    "alt": "Agatha All Along poster",
+    "attribution": "Poster © Marvel Studios / Disney+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Agatha All Along was conceived and completed as a limited series. Marvel Studios has not announced a continuation or second season as of mid-2026.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/news/agatha-all-along-review-disney-plus-kathryn-hahn-marvel-1236149817/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 9,
+      "release_date": {
+        "value": "2024-09-18",
+        "source": "Disney+",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Critics at 82% on Rotten Tomatoes praised Kathryn Hahn's performance and the show's darker, more gothic tone compared to typical MCU fare, while noting that its narrative ambition occasionally exceeded its execution."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 120,
+        "pull_quotes": [
+          {
+            "text": "Kathryn Hahn is sensational, making Agatha one of the MCU's most compelling characters with effortless wit and menace.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/news/agatha-all-along-review-disney-plus-kathryn-hahn-marvel-1236149817/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15571352/ratings/"
+      },
+      "review_body": "Agatha All Along premiered September 2024 as the MCU's first proper WandaVision spin-off, with Kathryn Hahn reprising the scene-stealing Agatha Harkness from her 2021 debut. The 82 percent Rotten Tomatoes score reflected genuine critical appreciation for the show's deliberate pivot toward a darker, more gothic register than most Disney+ Marvel series had attempted. Creator Jac Schaeffer leaned into witchcraft folk horror aesthetics and a road-movie structure - the Witches' Road as a literal journey through supernatural trials - that critics found refreshing within the MCU house style. Hahn anchored every episode with a performance calibrated between comic menace and genuine pathos. Critics who felt the season's back half struggled to sustain its mythological reveals still conceded that Hahn alone justified the series' existence.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Seekest Thou the Road",
+          "air_date": "2024-09-18",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere reintroduces Agatha under a spell-imposed identity before her real nature reasserts. The gothic tone is established quickly, and the ensemble coven assembled for the Road is intriguing enough to carry the premise forward.",
+          "the_moment": "Agatha's identity surfacing through the suppression - Hahn communicating her character's full history through constraint.",
+          "critic_note": {
+            "text": "Kathryn Hahn is sensational, making Agatha one of the MCU's most compelling characters with effortless wit and menace.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/news/agatha-all-along-review-disney-plus-kathryn-hahn-marvel-1236149817/"
+          }
+        },
+        {
+          "number": 5,
+          "title": "Darkest Hour",
+          "air_date": "2024-10-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "The mid-season episode where the Witches' Road raises its true cost. Losses accumulate and the tone shifts from adventure to genuine horror, with the ensemble thinning in ways that establish the finale's emotional stakes.",
+          "the_moment": "The Road's toll becoming real - the moment that separates the show's ambition from standard MCU consequence-free action.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

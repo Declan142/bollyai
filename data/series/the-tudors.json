@@ -1,0 +1,203 @@
+{
+  "slug": "the-tudors",
+  "qid": {
+    "value": "Q635933",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Tudors",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Historical",
+    "Romance"
+  ],
+  "logline": "A deliberately unhistorical but compulsively watchable portrait of Henry VIII's court, collapsing his reign into four seasons of power, sex, religion, and beheading.",
+  "poster": {
+    "src": "/img/series/the-tudors/poster.jpg",
+    "alt": "The Tudors poster",
+    "attribution": "Poster © Showtime Networks / Peace Arch Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Four-season run concluded in June 2010 with Henry VIII's death. Creator Michael Hirst subsequently made Vikings for History Channel.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2010/tv/news/the-tudors-ends-after-4-seasons-1118019505/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": 10,
+      "release_date": {
+        "value": "2007-04-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Metacritic scored the debut at 61, reflecting the split between appreciation for the lavish production and Jonathan Rhys Meyers' charismatic performance versus frustration at the historical inaccuracies."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "More soap opera than history lesson, but compulsively watchable in a guilty-pleasure sort of way.",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/culture/2007/apr/01/television"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0758790/ratings/"
+      },
+      "review_body": "The debut season established the show's aesthetic contract: lavish Irish locations doubling for Tudor England, Jonathan Rhys Meyers as a hyper-sexualised Henry VIII, and a script that prioritises court intrigue and desire over documentary accuracy. The Metacritic debut score of 61 captured the split reaction: those who valued the show's energy and visual splendour found it guilty-pleasure television of a high order; those who wanted historical fidelity - the show collapses two of Henry's sisters into one character, among many liberties - found it frustrating. Sam Neill as Cardinal Wolsey provided most of the dramatic ballast. Showtime's ratings held strong and renewal came swiftly.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "In Cold Blood",
+          "air_date": "2007-04-01",
+          "bollymeter": 6.9,
+          "spoiler_free": "The premiere introduces the court of Henry VIII as a place of dangerous beauty - gorgeous costumes, political calculation disguised as pleasure, and a king who wants everything at once. The show announces its lurid ambitions clearly.",
+          "the_moment": "Henry's first scene with Cardinal Wolsey, establishing the power dynamic that drives the first season.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2008,
+      "episodes": 10,
+      "release_date": {
+        "value": "2008-03-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 covers the rise and fall of Anne Boleyn - the show's most dramatically compelling arc - with Natalie Dormer's performance as Anne drawing consistent press recognition for giving the queen agency beyond the victim frame."
+      },
+      "critic": {
+        "positive_pct": 63,
+        "sample": 10,
+        "pull_quotes": [
+          {
+            "text": "Natalie Dormer's Anne Boleyn is the season's revelation - intelligent, calculating, and tragically human.",
+            "source": "Variety",
+            "url": "https://variety.com/2008/tv/reviews/the-tudors-season-2-1200474474/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0758790/ratings/"
+      },
+      "review_body": "Season 2 is the dramatic peak of the series. The arc covering Henry's obsession with Anne Boleyn, the break with Rome, and ultimately Anne's fall and execution gave the show material that suited its sensationalist register. Natalie Dormer rendered Anne as a political actor rather than merely a romantic object, and her final scenes before execution stand as the series' best acting. The English Reformation's theological and political dimensions were simplified but not ignored. IMDb audience ratings for the season consistently rank among the show's highest.",
+      "season_over_season": "Season 2 centres on Anne Boleyn's rise and fall - the show's most dramatically rich material - and delivers on it.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Death of a Whore",
+          "air_date": "2008-06-01",
+          "bollymeter": 8.1,
+          "spoiler_free": "The finale handles Anne Boleyn's execution with more emotional restraint than the season's earlier excess, and Dormer's final scene is the best performance the series produced.",
+          "the_moment": "Anne's composed walk to the scaffold - the show refusing to give its most complex queen an undignified ending.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2009,
+      "episodes": 8,
+      "release_date": {
+        "value": "2009-04-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Post-Boleyn, Season 3 cycled through Jane Seymour and Anne of Cleves in eight compressed episodes; the shorter run felt rushed despite covering the Pilgrimage of Grace and the dissolution of the monasteries."
+      },
+      "critic": {
+        "positive_pct": 55,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0758790/ratings/"
+      },
+      "review_body": "Season 3 contracted to eight episodes and felt it. The political material - the Pilgrimage of Grace, the dissolution of the monasteries, Cromwell's fall - was dramatically rich but the show's compressed storytelling left it underserved. Jane Seymour's arc was brief by design (historically accurate in that respect), and the introduction of Anne of Cleves felt almost comedic. The season lacked the sustained dramatic engine of Season 2. The Reformation's human costs were occasionally well-drawn but never given the space to breathe. The season functioned as connective tissue between the Boleyn high point and the final chapter.",
+      "season_over_season": "Season 3 is visibly compressed and suffers after the dramatic peak of Season 2's Boleyn arc.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2010,
+      "episodes": 10,
+      "release_date": {
+        "value": "2010-04-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "The final season covers Catherine Howard's brief marriage and execution, Katherine Parr, and Henry's physical decline, delivering an elegiac conclusion more restrained than the earlier seasons' spectacle."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 8,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0758790/ratings/"
+      },
+      "review_body": "Season 4 returned to ten episodes and benefited from the larger canvas. The young Catherine Howard's tragedy - naive, manipulated, ultimately executed - gave the season emotional focus, and the casting found a credibly vulnerable performer for the role. Jonathan Rhys Meyers conveyed Henry's physical decline with more conviction than the series had previously asked of him. Katherine Parr's portrait as a survival strategist brought the harem-politics framework full circle. The finale was more elegiac than expected from a show that had leaned heavily on spectacle; the aging king's death scene was restrained in a way that suited the material. A flawed but culturally significant series closed on a dignified note.",
+      "season_over_season": "Season 4 is more elegiac than spectacular, and benefits from it - the aging king's decline suits the show's restrained final register.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

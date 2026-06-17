@@ -1,0 +1,127 @@
+{
+  "slug": "biohackers",
+  "qid": {
+    "value": "Q87474671",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Biohackers",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Sci-Fi",
+    "Thriller",
+    "Mystery"
+  ],
+  "logline": "A medical student enrolls at Freiburg University to expose a brilliant professor she believes killed her family, uncovering a dangerous genetic engineering conspiracy in Germany's biosciences underground.",
+  "poster": {
+    "src": "/img/series/biohackers/poster.jpg",
+    "alt": "Biohackers poster",
+    "attribution": "Poster © Netflix / Claussen+Puetter Filmproduktion. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix confirmed a two-season run. Season 2 concluded in July 2021 with no further renewal announced. The limited story was considered resolved.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2021/tv/global/biohackers-season-2-netflix-review-1235025468/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-08-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Rotten Tomatoes scored Season 1 at 73% from 11 critic reviews; Luna Wedler's committed lead performance and the show's slick visual style were the consistent points of agreement."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": 11,
+        "pull_quotes": [
+          {
+            "text": "Biohackers moves fast and looks great, even when its science and plotting strain credibility.",
+            "source": "Variety",
+            "url": "https://variety.com/2020/tv/reviews/biohackers-review-netflix-german-series-1234752490/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10890716/ratings/"
+      },
+      "review_body": "Season 1 of Biohackers established the show's identity clearly: a fast-moving German sci-fi thriller aimed squarely at a young Netflix international audience, with genetic engineering and campus intrigue as its twin engines. Luna Wedler as Mia anchors the series with a physically and emotionally committed performance that the 73% Rotten Tomatoes score identifies as the show's primary asset. The six-episode run keeps pace high and exposition minimal, which suits the binge format but leaves some ethical dimensions of the biohacking premise underdeveloped. The Freiburg University setting and production design gave the series a visual identity sharper than many genre entries.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Arrival",
+          "air_date": "2020-08-20",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere sets up Mia's double identity on campus efficiently - student investigator posing as ordinary new arrival - while using Freiburg's architecture and laboratories to establish a sleek visual world. The show's ambitions are clear from the first scene.",
+          "the_moment": "Mia's first encounter with Professor Lorenz in the lecture hall, where the show's central antagonism is established without melodrama.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-07-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 2 maintained the show's visual style and pacing while escalating the conspiracy to a satisfying if conventional conclusion; a competent closer for a slim but enjoyable series."
+      },
+      "critic": {
+        "positive_pct": 70,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10890716/ratings/"
+      },
+      "review_body": "Season 2 resolved the conspiracy threads from the first season with the urgency the show had maintained throughout. The genetic engineering stakes escalated to near-thriller extremes - the science moved further from plausibility but the entertainment value held. Luna Wedler again gave the show more emotional range than the writing strictly required. The six-episode format prevented the season from overstaying its welcome and the conclusion, while not surprising, was satisfying on the show's own terms. Biohackers emerged as a competent European sci-fi thriller that succeeded by knowing its audience and not overreaching.",
+      "season_over_season": "Season 2 escalates the conspiracy to its conclusion cleanly - shorter is better for a series that works best at pace.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

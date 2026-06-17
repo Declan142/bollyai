@@ -1,0 +1,199 @@
+{
+  "slug": "yu-yu-hakusho",
+  "qid": {
+    "value": "Q868563",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Yu Yu Hakusho",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll / Netflix",
+    "source": "platform listings",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Supernatural",
+    "Adventure",
+    "Fantasy"
+  ],
+  "logline": "A juvenile delinquent dies saving a child, is assigned as a Spirit Detective to police supernatural crime, and discovers that the spirit world has politics as corrupt as any human institution - Yoshihiro Togashi's blueprint for Hunter x Hunter.",
+  "poster": {
+    "src": "/img/series/yu-yu-hakusho/poster.jpg",
+    "alt": "Yu Yu Hakusho poster",
+    "attribution": "Poster © Studio Pierrot / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Original anime ran 1992-1995 across 112 episodes. A Netflix live-action adaptation premiered December 2023. No new anime continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Yu_Yu_Hakusho"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1992,
+      "episodes": 28,
+      "release_date": {
+        "value": "1992-10-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The Spirit Detective and Artifacts of Darkness arcs establish the series' tonal range: black comedy about death, bureaucratic supernatural politics, and genuine heart. Critics and fans recognise this stretch as the series finding its footing before the Dark Tournament's full realisation."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0102973/ratings/"
+      },
+      "review_body": "Yu Yu Hakusho began in October 1992 on Fuji TV, adapting Yoshihiro Togashi's Shonen Jump manga with direction by Noriyuki Abe for Studio Pierrot. The opening arc is the series' most unusual: Yusuke Urameshi's death in episode one is played as dark comedy, and his resurrection is conditional on proving his worth to a Spirit World bureaucracy that seems genuinely uncertain whether he deserves to exist. Critics of the 1990s era and retrospective reviewers agree that the opening arc distinguishes itself from contemporaries by grounding its supernatural premise in character rather than power escalation. The humor is genuine, the emotional beats around Keiko and Kuwabara are grounded, and the tone - lighter than what follows - serves the series by establishing who Yusuke is before the Dark Tournament redefines what he faces.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Surprised to Be Dead",
+          "air_date": "1992-10-10",
+          "bollymeter": 8.2,
+          "spoiler_free": "The series premiere kills its protagonist in the first five minutes and then spends the rest of the episode exploring his reaction to being dead with a deadpan humor that was genuinely novel in 1992 shonen. The opening establishes Togashi's signature move: a protagonist who complicates every expectation the genre places on him.",
+          "the_moment": "Yusuke's spirit watching his own funeral - observing who cried, who didn't, and what that reveals about how others perceived a boy who never understood his own value.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1993,
+      "episodes": 57,
+      "release_date": {
+        "value": "1993-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "The Dark Tournament arc is the series' creative apex and one of the finest tournament arcs in shonen history. Critics consistently cite Team Urameshi's moral complexity and the antagonist Toguro's tragic backstory as the arc's distinguishing qualities over genre contemporaries."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The Dark Tournament remains the gold standard of the tournament arc in shonen anime - psychologically richer than its imitators.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/feature/2023-12-14/how-yu-yu-hakusho-changed-shonen-anime/.201476"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0102973/ratings/"
+      },
+      "review_body": "The Dark Tournament arc (eps 26-66) is what Yu Yu Hakusho is remembered for - a fighting tournament that consistently subverts its own conventions. Togashi structured the arc so that the fights are vehicles for revelation rather than spectacle, a choice that distinguishes Yu Yu Hakusho from contemporaries that became dominated by power escalation. The antagonist Toguro - a former spirit detective who chose to become a demon - represents the series' most psychologically complex figure: a man who engineered his own monstrousness because he could not survive the guilt of weakness. The arc culminates in a one-on-one final that is argued among anime communities as the genre's finest character-driven climax. Retrospective critics writing around the 2023 Netflix live-action adaptation specifically cited the Dark Tournament arc as the source material that both live-action and documentary coverage found hardest to replicate.",
+      "season_over_season": "The Dark Tournament transforms the series from a charming supernatural procedural into one of shonen's landmark achievements.",
+      "episode_reviews": [
+        {
+          "number": 66,
+          "title": "Toguro's Malice",
+          "air_date": "1994-01-08",
+          "bollymeter": 9.5,
+          "spoiler_free": "The Dark Tournament final between Yusuke and Toguro is the arc's culmination - a fight that operates as a conversation about grief, strength, and what it costs a person to pursue power as a substitute for meaning. The backstory reveal reframes Toguro as the series' genuine tragic figure.",
+          "the_moment": "Toguro's final form and the revelation of why he sought it - the moment the series establishes that its real subject is what happens to people who cannot process loss.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 1994,
+      "episodes": 27,
+      "release_date": {
+        "value": "1994-10-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "The Chapter Black arc is an ambitious structural experiment that shifts the series toward a more ambiguous moral landscape. Critics praise its antagonist Sensui as one of anime's most thoughtfully constructed villains, though the arc's tonal shift polarised audiences at the time."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0102973/ratings/"
+      },
+      "review_body": "The Chapter Black arc (eps 67-94) introduced Shinobu Sensui - a former Spirit Detective who lost his faith in humanity upon witnessing a demonic orgy of human cruelty. Sensui ranks among shonen's finest villains precisely because his worldview is not wrong, only incomplete. Togashi wrote the arc as a moral interrogation of everything the series had previously celebrated: the spirit detective as institution, the binary of human and demon, and whether optimism about people is evidence or delusion. The arc appealed to those who found the Dark Tournament too conventionally structured, while alienating the portion of the audience that wanted a second tournament. The Chapter Black arc's rehabilitation in contemporary discourse tracks alongside a broader reappraisal of Yu Yu Hakusho as a series that routinely exceeded its genre's ambitions.",
+      "season_over_season": "Chapter Black is the series pivoting away from tournament shonen toward something more morally uncomfortable - not always comfortable viewing, but consistently interesting.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 1994,
+      "episodes": 7,
+      "release_date": {
+        "value": "1994-12-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "The Three Kings arc is the series' most debated conclusion - rushed in adaptation, compromised by Togashi's health issues, but containing character work for Kurama and Hiei that fans argue remains unmatched in its emotional clarity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0102973/ratings/"
+      },
+      "review_body": "The Three Kings arc (eps 95-112) concludes the series under constrained circumstances: the manga's author Togashi was experiencing the health difficulties that would come to define his career, and the arc's pacing reflects both the source material's compression and the adaptation's awareness that it was working toward a definite endpoint. The arc's emotional register - Yusuke discovering his demon lineage, the political intrigue among the Demon Plane's three rulers - is compelling in outline. The execution is inconsistent. The final episodes and the series' conclusion, however, were praised for resisting the triumphalist ending the genre conventionally demands. The series concludes in a spirit of earned ambiguity that connects directly to what Togashi would achieve more fully in Hunter x Hunter.",
+      "season_over_season": "The Three Kings arc is the series contracting rather than expanding - the right ending for a show that always understood limits as characters.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:00:00+05:30"
+}

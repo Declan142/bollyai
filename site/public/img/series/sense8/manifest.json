@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Anarchos Productions / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Benzene_Structural_diagram.svg/330px-Benzene_Structural_diagram.svg.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T23:24:12Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/sense8/poster.jpg",
+    "source_height": 410,
+    "source_width": 330,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "sense8",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Aromatic_compound",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Benzene_Structural_diagram.svg/330px-Benzene_Structural_diagram.svg.png"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/sense8/w185.avif",
+      "bytes": 281
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/sense8/w185.webp",
+      "bytes": 160
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/sense8/w342.avif",
+      "bytes": 291
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/sense8/w342.webp",
+      "bytes": 392
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/sense8/w500.avif",
+      "bytes": 282
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/sense8/w500.webp",
+      "bytes": 746
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T23:26:42.823Z"
+}

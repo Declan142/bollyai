@@ -1,0 +1,162 @@
+{
+  "slug": "sense8",
+  "qid": {
+    "value": "Q19834818",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sense8",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Sci-Fi",
+    "Drama",
+    "Action",
+    "LGBTQ"
+  ],
+  "logline": "Eight strangers across four continents suddenly share consciousness, emotions, and skills - becoming a psychic cluster hunted by forces that want them destroyed or exploited.",
+  "poster": {
+    "src": "/img/series/sense8/poster.jpg",
+    "alt": "Sense8 poster",
+    "attribution": "Poster © Anarchos Productions / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled Sense8 after Season 2 in June 2017. A fan campaign prompted the network to commission a two-hour series finale special, which aired June 8, 2018, providing a conclusive ending to the cluster's story.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2017/tv/news/sense8-canceled-netflix-1202461405/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-06-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Season 1 divided critics between those who found the Wachowskis' ambitious global ensemble thrillingly original and those who found its deliberately slow pace and philosophical digression self-indulgent; audiences who connected with its LGBTQ representation and emotional generosity became intensely loyal."
+      },
+      "critic": {
+        "positive_pct": 68,
+        "sample": 44,
+        "pull_quotes": [
+          {
+            "text": "A sprawling, deeply earnest, frequently self-indulgent series that's also one of the most heartfelt things Netflix has ever made.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/sense8-review-1798182337"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2431438/ratings/"
+      },
+      "review_body": "The Wachowskis' first Netflix collaboration premiered June 2015 with a premise as ambitious as any in premium television: eight strangers across Nairobi, Mumbai, Chicago, Berlin, Seoul, London, Mexico City, and San Francisco share a sudden psychic link. The 68 percent Rotten Tomatoes score reflected the critical split honestly - reviewers who wanted tight plotting found the first season's patient, world-building episodes frustrating, while those attuned to its emotional logic and genuine LGBTQ representation found something almost unique. The show's treatment of its trans and queer characters, written by trans co-creator Lana Wachowski, drew specific praise from critics who noted its specificity and lack of condescension. The pilot's slow burn deterred casual viewers but built the foundation of one of Netflix's most passionate fanbases.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "What's Going On?",
+          "air_date": "2015-06-05",
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode where the cluster's connection becomes fully tactile - eight people in different cities sharing a musical moment. The sequence became the show's signature image and the clearest demonstration of what the Wachowskis were actually attempting.",
+          "the_moment": "The eight sensates singing together across four continents - pure cinema of shared consciousness.",
+          "critic_note": {
+            "text": "A sprawling, deeply earnest, frequently self-indulgent series that's also one of the most heartfelt things Netflix has ever made.",
+            "source": "The A.V. Club",
+            "url": "https://www.avclub.com/sense8-review-1798182337"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-05-05",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 2 tightened the action and mythology while retaining the show's emotional generosity; critics noted improvement over Season 1's pacing issues, but Netflix cancelled the series weeks after the season finale aired, triggering the fan campaign that produced the finale special."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 28,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2431438/ratings/"
+      },
+      "review_body": "Season 2 arrived May 2017 preceded by a Christmas special and represented a creative consolidation - the Wachowskis had learned which elements of their format worked and tightened the action sequences while preserving the show's most distinctive quality: its refusal to treat emotional vulnerability as weakness in the context of science fiction. The season's 75 percent Rotten Tomatoes score reflected improvement in narrative momentum over Season 1. Netflix cancelled the show three weeks after the Season 2 finale, citing viewing numbers the platform declined to specify. The cancellation provoked a fan campaign that resulted in the two-hour finale special produced and released June 2018 - one of the few cases in streaming history where audience mobilization altered a platform's decision.",
+      "season_over_season": "Season 2 sharpens the action and mythology threads Season 1 established, delivering cleaner narrative momentum while maintaining the show's emotional generosity.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2018,
+      "episodes": 1,
+      "release_date": {
+        "value": "2018-06-08",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "The two-hour finale special delivered closure the fanbase had campaigned for; critics acknowledged it as a generous and emotionally satisfying conclusion given the circumstances, even if compressed storytelling was inevitable in a single feature-length episode."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 12,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2431438/ratings/"
+      },
+      "review_body": "The Sense8 Series Finale - a single two-hour special rather than a conventional season - exists because fans mobilized loudly enough that Netflix reversed its cancellation and funded a conclusive episode. Critics reviewing it largely set aside standard evaluation frameworks and assessed it for what it was: a gift to a devoted audience. The episode delivered resolution to every major character arc, brought the cluster to Paris for an action sequence that used its shared-consciousness premise inventively, and closed on an image of collective joy that summarized what the show had always been about. At 78 percent on Rotten Tomatoes it earned more credit than cynics might have predicted.",
+      "season_over_season": "The finale special compresses several seasons' worth of mythology resolution into two hours, functioning as a thank-you to the audience that saved it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
