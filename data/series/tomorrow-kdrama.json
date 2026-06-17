@@ -1,0 +1,101 @@
+{
+  "slug": "tomorrow-kdrama",
+  "qid": {
+    "value": "Q110618862",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tomorrow",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Supernatural",
+    "Fantasy",
+    "Drama",
+    "Comedy"
+  ],
+  "logline": "An unemployed young man accidentally joins a grim reaper crisis management team whose mission is preventing suicides - and discovers both a purpose and a reckoning with human fragility.",
+  "poster": {
+    "src": "/img/series/tomorrow-kdrama/poster.jpg",
+    "alt": "Tomorrow poster",
+    "attribution": "Poster © MBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "16-episode run concluded May 21, 2022. Also streamed globally on Netflix. Based on a webtoon/manhwa. No sequel announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tomorrow_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 16,
+      "release_date": {
+        "value": "2022-04-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "NME gave Tomorrow 4 out of 5 stars and international reception was notably warmer than domestic viewership suggested, with the show's sensitive handling of suicide prevention drawing specific praise. IMDb audience score of 7.7 reflects a show that landed harder outside Korea than within it."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt18926162/"
+      },
+      "review_body": "Tomorrow arrived on MBC in April 2022 with a premise that could have gone wrong in several directions - grim reapers preventing suicides is a premise that demands both tonal precision and genuine empathy. Critics internationally, including NME's 4-out-of-5-star review, noted that the show largely earns its subject matter through the humanity of its episodic structure. Each episode's crisis case is treated with specificity rather than generic melodrama, and Kim Hee-sun anchors the supernatural workplace dynamic with authority. Domestically the show premiered at 7.6 percent before declining to an average of 3.4 percent, a gap that international streaming numbers on Netflix partially offset. Rowoon's contract-employee protagonist provides the necessary audience-entry point into a world of supernatural bureaucracy. The show's structural willingness to sit with grief rather than rush through it is its defining quality.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-04-01",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premiere opens the underworld crisis management premise with a strong 7.6 percent domestic rating and establishes the show's tonal contract quickly - supernatural bureaucracy as a frame for empathetic engagement with human suffering. The worldbuilding is set up without over-explaining.",
+          "the_moment": "Choi Joon-woong's accidental entry into the Crisis Management Team and his first glimpse of the work grim reapers actually do sets the series' emotional stakes.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Spring",
+          "air_date": "2022-04-30",
+          "bollymeter": 8.9,
+          "spoiler_free": "Episode 5 carries the series' highest IMDb episode rating at 8.9. The crisis case at its centre is handled with restraint rather than melodrama, and the episode stands as the clearest demonstration of the show's approach to its subject matter.",
+          "the_moment": "The episode's central crisis case, resolved with restraint rather than melodrama, became the most-discussed single hour of the series.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

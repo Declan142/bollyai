@@ -1,0 +1,131 @@
+{
+  "slug": "queer-as-folk-uk",
+  "qid": {
+    "value": "Q23623",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Queer as Folk",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Channel 4",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "LGBTQ", "Coming of Age"],
+  "logline": "Three gay men - the reckless Stuart, the devoted Vince, and the fifteen-year-old Nathan - navigate sex, love, and identity in Manchester's Canal Street gay village, in the series that changed the terms of LGBTQ representation on British television.",
+  "poster": {
+    "src": "/img/series/queer-as-folk-uk/poster.jpg",
+    "alt": "Queer as Folk poster",
+    "attribution": "Poster © Channel 4 / Red Production Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-series run concluded in February 2000. Creator Russell T Davies wrote all ten episodes. The series was always conceived as a finite story and has not been revived in its original form.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Queer_as_Folk_(UK_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1999,
+      "episodes": 8,
+      "release_date": {
+        "value": "1999-02-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Rotten Tomatoes 100% (7 critics). Widely acknowledged as a watershed in LGBTQ television representation - the first British drama to depict gay life without apology, condescension, or tragedy as the inevitable horizon. Russell T Davies won the BAFTA for Best Drama Serial."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 76,
+        "scale": 100,
+        "source": "Rotten Tomatoes audience score",
+        "source_url": "https://www.rottentomatoes.com/tv/queer_as_folk"
+      },
+      "review_body": "Queer as Folk premiered on Channel 4 on 23 February 1999 and produced an immediate cultural rupture. Russell T Davies wrote eight episodes depicting gay Manchester with a frankness - sexual, emotional, social - that British television had never before attempted. The three central characters were drawn with the kind of moral complexity usually reserved for heterosexual protagonists: Stuart is charismatic and destructive, Vince is loyal and self-limiting, Nathan is fifteen years old and discovering who he is with consequences for everyone around him. Critics reached 100 percent on Rotten Tomatoes and the series won the BAFTA for Best Drama Serial. What distinguished the reception was the recognition that Davies was not making a documentary about gay life but a drama in which gay life was the unremarkable starting point - the social normalcy being depicted, rather than a subject for investigation or rescue. The Canal Street of 1999 Manchester was rendered as vivid and complete as any fictional locale in British drama.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "1999-02-23",
+          "bollymeter": 9.0,
+          "spoiler_free": "The opening hour of Queer as Folk is constructed around the meeting of Stuart and Nathan, and the ripple effects through Vince. Davies establishes Canal Street as a world with its own rules, social hierarchies, and pleasures - a documentary impulse filtered through a very specific dramatic sensibility.",
+          "the_moment": "Stuart, at full confidence and maximum recklessness, and what that does to Nathan's sense of the possible.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "1999-04-13",
+          "bollymeter": 8.8,
+          "spoiler_free": "The Series 1 finale refuses neat resolution. Stuart remains Stuart; Vince's devotion has cost him something he may not fully account yet; Nathan has changed in ways that the story will need the second series to complete. Davies resists the tragic ending that the genre conventions of the time demanded.",
+          "the_moment": "The series declines to punish its characters for their choices in the way that gay narratives of the period typically required.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2000,
+      "episodes": 2,
+      "release_date": {
+        "value": "2000-02-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Two concluding episodes that completed the arcs Davies had established in Series 1. Critics praised the emotional honesty of the ending and Stuart and Vince's final choices. A genuinely satisfying conclusion to a landmark series."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The two-episode Series 2 aired in February 2000 as a deliberate conclusion to the story Davies had structured across Series 1. The decision to extend to only two additional episodes rather than a full second run gave the finale unusual structural economy: there was no padding, no plot generated for its own sake. Stuart and Vince's relationship arrives at an ending that is emotionally honest and dramatically courageous - not the ending that conventional narrative logic demanded, but the ending the characters had been building toward. Nathan's arc completed with the ambiguity appropriate to a seventeen-year-old making large decisions. The two episodes have since acquired the character of a coda: essential to the total work, and inseparable from Series 1 in how the series is remembered.",
+      "season_over_season": "Two episodes rather than eight: Series 2 is conceived as a conclusion, not a continuation, and the compression makes the dramatic decisions feel final.",
+      "episode_reviews": [
+        {
+          "number": 2,
+          "title": "Episode 2",
+          "air_date": "2000-02-22",
+          "bollymeter": 8.8,
+          "spoiler_free": "The final episode of Queer as Folk resolves what ten episodes have been circling. Davies refuses the obvious resolutions and chooses the ones that are true to these specific characters rather than the audience's comfort. A genuinely difficult and genuinely satisfying ending.",
+          "the_moment": "Stuart's final gesture, and what it tells us about who he has always been.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

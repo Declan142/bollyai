@@ -1,0 +1,213 @@
+{
+  "slug": "sailor-moon",
+  "qid": {
+    "value": "Q704353",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sailor Moon",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Fantasy", "Romance", "Coming of Age", "Supernatural"],
+  "logline": "A clumsy middle schooler discovers she is a reincarnated warrior princess and must transform into Sailor Moon to defend Earth alongside fellow Sailor Soldiers against an escalating supernatural evil.",
+  "poster": {
+    "src": "/img/series/sailor-moon/poster.jpg",
+    "alt": "Sailor Moon poster",
+    "attribution": "Poster © Toei Animation / Naoko Takeuchi. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 200-episode run concluded in February 1997 after five seasons. The series was later reimagined as Sailor Moon Crystal (2014-2016) and a theatrical reboot; the classic 1992 series remains a closed, self-contained run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sailor_Moon_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1992,
+      "episodes": 46,
+      "release_date": {
+        "value": "1992-03-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Rotten Tomatoes Season 1 scores 90% from 10 critics. Critics called it a breakthrough for feminine heroism in animation - powerfully genre-defining despite its episodic repetitiveness."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 10,
+        "pull_quotes": [
+          {
+            "text": "A breakthrough in anime, giving both young girls and boys strong yet unapologetically feminine heroes.",
+            "source": "WhatCulture",
+            "url": "https://www.rottentomatoes.com/tv/sailor_moon/s01"
+          },
+          {
+            "text": "Powerfully feminine and hypnotically cheesy, Sailor Moon's iconic anime still sparkles.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/sailor_moon/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.75,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/530/Bishoujo_Senshi_Sailor_Moon"
+      },
+      "review_body": "The original Sailor Moon season arrived in March 1992 and quietly redefined what shojo anime could accomplish on a broadcast network. Critics in retrospect have centred on two contributions: the series planted unapologetically feminine heroism at the core of an action show at a time when that framing was almost nonexistent, and it established the transformation-and-team template that the magical girl genre would iterate on for decades. Rotten Tomatoes Season 1 scores 90 percent from 10 critics. The storytelling formula is repetitive - the monster-of-the-week structure rarely breaks - but critics and audiences have consistently argued that the emotional core, anchored by Usagi's unguarded vulnerability and eventual growth, more than justifies the formula's limitations. A foundational series that shaped global anime fandom.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Moon Star Is Born",
+          "air_date": "1992-03-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere introduces Usagi Tsukino as a crybaby underachiever before dropping the transformation sequence that would define a generation. The setup is deceptively light - the weight comes from how completely it commits to its hero's flaws before granting her power.",
+          "the_moment": "The first transformation sequence - Usagi becoming Sailor Moon for the first time - lands as a genuine aesthetic declaration.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1993,
+      "episodes": 43,
+      "release_date": {
+        "value": "1993-03-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Sailor Moon R expands the ensemble and introduces Chibiusa, deepening the mythology at the cost of a slower early arc. Audience reception remains strong among series devotees."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.75,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/532/Bishoujo_Senshi_Sailor_Moon_R"
+      },
+      "review_body": "Sailor Moon R begins with a transitional filler arc before launching its main storyline, which introduces time travel and the Chibiusa character that split the fandom. The season expands the series' emotional stakes by exploring Usagi's future identity, and the Black Moon Clan arc delivers the franchise's first sustained multi-episode dramatic arc. The pacing is uneven - the filler opening is a genuine obstacle - but patient viewers find the strongest emotional payoff of the first two seasons. The relationship dynamics among the Sailor Soldiers deepen considerably, making R an essential bridge even for viewers who find its opening episodes slow.",
+      "season_over_season": "R sacrifices Season 1's tight episodic clarity for a longer arc structure - the tradeoff lands if viewers clear the filler opening.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 1994,
+      "episodes": 38,
+      "release_date": {
+        "value": "1994-03-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Sailor Moon S is widely regarded by critics and the fandom as the creative peak of the franchise - darker tone, the Outer Sailors, and the season's climactic moral dilemma set it apart from the prior two seasons."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/532/Bishoujo_Senshi_Sailor_Moon_S"
+      },
+      "review_body": "Sailor Moon S is considered the series' high-water mark. The introduction of Sailor Uranus and Sailor Neptune gave the show its most morally complex characters - their ends-justify-means ethos runs in direct tension with Usagi's unconditional compassion. The Death Busters arc is notably darker than prior seasons, and the climax forces a genuine ethical confrontation that the earlier seasons never risked. The Outer Sailors became cultural touchstones in their own right - Haruka and Michiru remain among the most discussed character relationships in 1990s anime. This season repays full attention: the escalating stakes and character work are dense enough to sustain re-examination.",
+      "season_over_season": "S is a significant tonal step up from R - darker, more thematically ambitious, with the franchise's strongest character work in the Outer Sailors.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 1995,
+      "episodes": 39,
+      "release_date": {
+        "value": "1995-03-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "SuperS is the consensus weak link of the original run - the Dream arc centres heavily on Chibiusa, and the absence of the Outer Sailors is widely noted as a creative misstep by the fandom."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Sailor Moon SuperS is the most debated season of the original run. Foregrounding Chibiusa and sidelining the popular Outer Sailors was a production decision that the fandom has relitigated ever since. The Dead Moon Circus arc introduces Pegasus as a fantasy element that sits less tonally coherent than prior seasons' villains. The season is not without defenders - the animation quality improved, and the core romantic themes between Usagi and Mamoru receive dedicated focus. But for viewers who came for the ensemble and the darker registers of S, SuperS reads as a step backward that the series needed one more season to recover from.",
+      "season_over_season": "SuperS is a noticeable step down from the acclaimed S - narrower focus and a lighter tone frustrate viewers accustomed to the prior season's moral weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 1996,
+      "episodes": 34,
+      "release_date": {
+        "value": "1996-03-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Sailor Stars is the finale season and a genuine creative return to form - the Sailor Starlights, the Shadow Galactica arc, and the series-ending confrontation brought the franchise to an emotionally resonant close that cemented its legacy."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/1239/Bishoujo_Senshi_Sailor_Moon_Sailor_Stars"
+      },
+      "review_body": "Sailor Stars closes the original Sailor Moon run and does so with ambition. The Shadow Galactica arc goes galactic in scope - literally: the threat is now cosmic, and the emotional toll on Usagi by the finale is among the most affecting the series attempts. The introduction of the Sailor Starlights - three Sailor Soldiers who live in disguise as a male idol group - gave the season cultural talking points that outlasted its original run. The final episodes rank among the strongest the series produced, and the fandom consensus has held that view for decades. Sailor Stars functions as both a satisfying conclusion and a demonstration of how much the franchise had grown in ambition from its 1992 premiere.",
+      "season_over_season": "Stars course-corrects from SuperS decisively - broader scope, bolder narrative risks, and a finale that earned the series its enduring reputation.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

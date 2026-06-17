@@ -1,0 +1,102 @@
+{
+  "slug": "trigun",
+  "qid": {
+    "value": "Q6349664",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Trigun",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Action", "Sci-Fi", "Adventure", "Drama"],
+  "logline": "Vash the Stampede - the most wanted outlaw on a desert planet with a 60 billion double dollar bounty - wanders the wasteland as a pacifist gunslinger, shadowed by insurance agents who must figure out if the legends about him are true.",
+  "poster": {
+    "src": "/img/series/trigun/poster.jpg",
+    "alt": "Trigun poster",
+    "attribution": "Poster © Madhouse / Yasuhiro Nightow. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 26-episode Trigun series concluded in October 1998 and is a complete, standalone adaptation. A full reimagining - Trigun Stampede - was produced by Orange Studio and aired in 2023; it is a separate work with a different continuity.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Trigun_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1998,
+      "episodes": 26,
+      "release_date": {
+        "value": "1998-04-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb 8.2 from audience voters. The series is a genre-defining space western with a pacifist hero whose moral philosophy becomes the show's real engine - though critics note the first half's episodic filler substantially undercuts the stronger back half."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Trigun has endured as a fan-favourite anime show, at least considering the strength of its narrative from episode eleven onward.",
+            "source": "AniTAY / Medium",
+            "url": "https://medium.com/anitay-official/trigun-1998-episodes-1-26-anime-series-review-c3d40f126f06"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0251439/"
+      },
+      "review_body": "Trigun aired on TV Tokyo from April to October 1998 and earned most of its Western reputation in the years after its initial broadcast, when it became a defining title of the early-2000s anime boom. The 26 episodes split into a recognisable two-act shape: a comedic, monster-of-the-week first half in which Vash the Stampede's pacifist gunnery is played mainly for absurdist humour, and a dramatically escalating second half that reveals the weight behind his philosophy. Critics and reviewers have consistently identified this structural imbalance as the series' central problem - the first eleven episodes function as a warm-up that not all viewers survive. From episode 11 onward, the arrival of Knives and the backstory of the SEEDS colony ships transforms Trigun into something with genuine moral stakes. The MAL audience score of 8.22 from nearly 400,000 members reflects the loyalty the back half earns. IMDb rates it 8.2. The animation is limited by modern standards, but the character design - Vash's red coat, the round glasses, the damage visible beneath the comedy - remains visually distinctive.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The $$60,000,000,000 Man",
+          "air_date": "1998-04-02",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere plays Vash the Stampede entirely for comedy - a wanted outlaw who causes enormous collateral damage while somehow never hitting anyone. The episode is deliberately misleading about what kind of show Trigun is, which is either a clever long game or a patience tax depending on the viewer.",
+          "the_moment": "The gap between the wanted poster legend and the reality of Vash - the joke that the whole first half is built on.",
+          "critic_note": null
+        },
+        {
+          "number": 23,
+          "title": "Paradise",
+          "air_date": "1998-09-10",
+          "bollymeter": 9.0,
+          "spoiler_free": "The confrontation between Vash and his twin brother Knives reaches its moral and emotional peak. The episode is the clearest statement of the series' central argument about pacifism, survival guilt, and the cost of choosing not to kill.",
+          "the_moment": "Vash's final reckoning with what his refusal to use lethal force has cost the people around him - the series' most honest emotional beat.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

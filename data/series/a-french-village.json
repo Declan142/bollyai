@@ -1,0 +1,238 @@
+{
+  "slug": "a-french-village",
+  "qid": {
+    "value": "Q3549122",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A French Village",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "France",
+  "original_language": {
+    "value": "fr",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "France 3",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "War", "Historical", "Psychological"],
+  "logline": "In the fictional French village of Villeneuve under German occupation from 1940 to 1945, ordinary people make extraordinary choices between resistance, collaboration, and survival - the first major French television series to directly confront Vichy-era collaboration.",
+  "poster": {
+    "src": "/img/series/a-french-village/poster.jpg",
+    "alt": "A French Village poster",
+    "attribution": "Poster © France Televisions / Tetra Media Fiction. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Seven-season run concluded on 30 November 2017. The series chronicled France's German occupation from 1940 through post-Liberation trials, a complete historical arc. International distribution via MHZ Choice, TV5MONDE, and PBS stations in the USA.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Un_village_fran%C3%A7ais"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 6,
+      "release_date": {
+        "value": "2009-06-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Described by the New York Times as 'the first major French television series seriously to address collaboration during the Nazi occupation.' The premiere season established the moral framework that made the show internationally celebrated: occupation rendered through the daily choices of specific individuals, not historical abstraction."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The first major French television series seriously to address collaboration during the Nazi occupation in World War II.",
+            "source": "New York Times",
+            "url": "https://en.wikipedia.org/wiki/Un_village_fran%C3%A7ais"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Un village francais (A French Village) premiered on France 3 on 4 June 2009 and addressed territory that French television had consistently avoided: the reality of collaboration under German occupation. Set in the fictional Burgundian commune of Villeneuve beginning in June 1940, the series followed a ensemble of ordinary people - a doctor, a mayor, a police officer, a schoolteacher - as the German occupation reshaped every dimension of their lives. The New York Times identified its historical significance precisely: this was the first major French series to engage seriously with the Vichy-era choices that French cultural memory had suppressed for decades. Robin Renucci as Daniel Larcher and Audrey Fleurot as Hortense Larcher anchored the ensemble with performances of considerable psychological complexity. The series launched with six episodes covering the initial months of occupation, 1940, under the subtitle 'Vivre c'est choisir' - to live is to choose, which named the series' central moral question.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2009-06-04",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series opens on the German arrival in Villeneuve in June 1940 and immediately establishes its moral seriousness. The German occupation is rendered not as theatrical villainy but as administrative fact, and the first decisions the villagers face - accommodation, evasion, or confrontation - are shown to carry weight that will accumulate across seven seasons.",
+          "the_moment": "The moment of German arrival and the realisation among the village's inhabitants that normality will not return, and that each person's response to that realisation will define who they are.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 6,
+      "release_date": {
+        "value": "2009-10-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "The second run of six episodes, aired in October 2009, continued 1941 and deepened the collaboration-resistance dynamics. The series' international reputation was growing rapidly with its moral seriousness and historical rigour."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The second season aired in October 2009, continuing the 1941 timeline and advancing the series' exploration of how ordinary people accommodate themselves to extraordinary conditions. The writing's refusal of simple moral categories - collaborators are shown to have comprehensible motivations, resistants to have compromised histories - gave the series its distinctive ethical texture. The Villeneuve ensemble deepened as individual characters began making the choices that would define them across the full seven-season arc. The series had by now attracted attention from international broadcasters and critical audiences outside France.",
+      "season_over_season": "Season 2 expands the moral complexity of Season 1 without softening it; the individual choices accumulate weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2010,
+      "episodes": 12,
+      "release_date": {
+        "value": "2010-11-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "The expanded twelve-episode third season covered continued occupation through 1941-1942. Critics found the expanded run suited the material, allowing the social complexity of an occupied community to be rendered with the density it required."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The third season expanded to twelve episodes and covered continued occupation, advancing the series toward the most difficult periods of Vichy collaboration. The expanded runtime allowed the writing to trace multiple parallel storylines with the depth that the earlier six-episode seasons had occasionally compressed. The German military administration in Villeneuve, the French police cooperation with deportation orders, the gradual emergence of a resistance network, and the intimate lives of the village's ordinary inhabitants were all given space to develop without artificial dramatic acceleration. International co-production arrangements reflected the series' growing cross-border reputation.",
+      "season_over_season": "The doubled episode count allows the social texture of occupation to be rendered at full complexity for the first time.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2012,
+      "episodes": 12,
+      "release_date": {
+        "value": "2012-03-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "1942 - the period of active deportations and the sharpest moral choices. Critics identified Season 4 as the series at its most devastating. The deportation episodes in particular were cited as exceptional French television drama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 covering 1942 brought the series to its most terrible material: the deportations of Jews from the occupied zone with the active participation of French police under Vichy instruction. The writing's refusal to spare the viewer from the implications of what it showed - that ordinary French people, in an ordinary French village, participated in atrocities that they did not have to participate in - gave the season its status as a historical and dramatic milestone. The series was by now a reference point in discussions of serious French reckoning with the Occupation period. Individual performances reached new heights in the deportation sequences. Season 4 is the season most commonly recommended to new audiences as an entry point.",
+      "season_over_season": "Season 4 arrives at the material the entire series has been building toward: the deportations and the moral catastrophe of collaboration at its extreme.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2013,
+      "episodes": 12,
+      "release_date": {
+        "value": "2013-10-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "1943 - the resistance grows and the occupation begins to show strain. The season subtitle 'Choisir la Resistance' indicated a shift in the series' moral balance. Critics found the growing resistance narrative as morally complex as the collaboration had been."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 covered 1943 with the subtitle 'Choisir la Resistance' and showed the series' moral intelligence operating at its most nuanced: as the Allied victory became increasingly conceivable, the resistance narrative required as careful handling as the collaboration narrative had. The writing was careful to show that people joined the resistance for mixed motives - idealism, opportunism, personal loyalty, belated guilt - and that the resistance itself was no more morally uniform than the collaboration had been. The ensemble had by now been together for five years and the performances carried the weight of accumulated choices without needing to explain them.",
+      "season_over_season": "Season 5 turns the moral lens on the resistance with the same rigour applied to collaboration; neither side is given easy virtue.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-11-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "1944 - Liberation approaching. The season subtitle 'L'Histoire choisit ses heroes' - history chooses its heroes - named the retrospective mythology-making that follows liberation. Critics praised the series' refusal to let the liberation become triumphalist."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 covered 1944 and the approaching Liberation, and its subtitle - 'L'Histoire choisit ses heroes' (history chooses its heroes) - announced the series' most complex thematic territory yet: the question of how the narrative of the occupation would be constructed after the fact, and who would be remembered as what. The writing showed the liberation not as uncomplicated triumph but as a moment of intense social renegotiation - old scores settled, new mythologies constructed, the complex truth of four years' daily compromise being compressed into usable narratives of heroism and resistance. The series was now widely distributed internationally.",
+      "season_over_season": "Season 6 shifts from depicting history to depicting how history will be remembered; the retrospective mythology of the liberation is as complex as the occupation itself.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-10-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "The concluding season covering 1945 and post-Liberation trials brought the series to a close that critics found fully earned. The purge trials and the question of who would be held accountable for what provided the sharpest moral reckoning of the entire run. A landmark achievement in European television drama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The final season of Un village francais aired from October 2016 to November 2017 and brought the series to a conclusion proportionate to its ambition. The post-Liberation trials, the purges, the legal and social reckonings with collaboration that were politically managed and personally devastating, gave the writing its sharpest material. Characters who had been followed across seven years of impossible choices now faced judgement from a society that had largely shared in those choices, and the writing refused to simplify who should be condemned, who pitied, and who forgiven. The conclusion stands as a genuine achievement in European television drama - a series that had done what French television had never previously attempted and had done it with sustained intelligence across eight years and seventy-two episodes.",
+      "season_over_season": "The final season completes what the first established: seven years of moral reckoning given a conclusion that earns the full weight of what preceded it.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

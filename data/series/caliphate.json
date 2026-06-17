@@ -1,0 +1,102 @@
+{
+  "slug": "caliphate",
+  "qid": {
+    "value": "Q82070811",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Caliphate",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Sweden",
+  "original_language": {
+    "value": "sv",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Crime", "Drama", "Psychological"],
+  "logline": "Three women - a Swedish SAPO agent, a disillusioned woman trapped in ISIS-held Syria, and a teenager being radicalized in Stockholm - race against a terror plot converging on Swedish soil.",
+  "poster": {
+    "src": "/img/series/caliphate/poster.jpg",
+    "alt": "Caliphate poster",
+    "attribution": "Poster © SVT / Filmlance International. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 8 episodes. Originally aired on SVT1 in Sweden before global Netflix release in March 2020. Series was removed from Netflix on September 1, 2025.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Caliphate_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-03-18",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "IMDb audience rating of 8.2 and record-breaking SVT Play viewership; critics praised the taut parallel structure and strong female performances across all three storylines."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "A gripping series full of strong female characters.",
+            "source": "Haaretz",
+            "url": "https://www.rottentomatoes.com/tv/caliphate/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11398870/"
+      },
+      "review_body": "Caliphate became the most-watched series in SVT Play history upon its January 2020 Swedish debut - a statistic that reflects both the show's quality and the raw topicality of its subject. The series braids three parallel narratives: a SAPO intelligence officer (Aliette Opheim) running a source across the border, a desperate young woman (Gizem Erdogan) trying to flee ISIS-held Syria, and a Stockholm teenager sliding toward radicalization. Directors Goran Kapetanovic holds the tension taut across all eight episodes. The 8.2 IMDb rating speaks to the show's audience resonance. Critics highlighted the female-centred approach as a corrective to male-gaze jihadist narratives, while the procedural intelligence-tradecraft layer satisfies viewers who want realism alongside drama. The show's removal from Netflix in September 2025 adds urgency to finding it while it circulates.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-01-12",
+          "bollymeter": 8.0,
+          "spoiler_free": "The opening hour establishes all three narrative threads with precision - the agent, the trapped wife, the recruit - and makes clear that the show's real subject is not terrorism but the women navigating the spaces around it. The parallel cutting is crisp and the performances immediately credible.",
+          "the_moment": "Pervin's first covert call out of Syria, conducted under her husband's gaze, sets the stakes for the entire series in a single held breath.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2020-02-09",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale converges all three storylines in a final act that refuses easy resolutions. The procedural tension holds without becoming mechanical, and the character costs feel earned rather than manipulative.",
+          "the_moment": "The convergence of surveillance and human intelligence channels in the final sequence demonstrates how the series understands counter-terrorism as fundamentally about people, not technology.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

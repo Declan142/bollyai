@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix / SAM Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/3/3e/The_Chestnut_Man.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T23:54:13Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/the-chestnut-man/poster.jpg",
+    "source_height": 348,
+    "source_width": 235,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "the-chestnut-man",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/The_Chestnut_Man",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/3e/The_Chestnut_Man.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/the-chestnut-man/w185.avif",
+      "bytes": 14047
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/the-chestnut-man/w185.webp",
+      "bytes": 13488
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/the-chestnut-man/w342.avif",
+      "bytes": 29977
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/the-chestnut-man/w342.webp",
+      "bytes": 32574
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/the-chestnut-man/w500.avif",
+      "bytes": 42801
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/the-chestnut-man/w500.webp",
+      "bytes": 50088
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T23:55:21.630Z"
+}

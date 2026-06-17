@@ -1,0 +1,240 @@
+{
+  "slug": "ray-donovan",
+  "qid": {
+    "value": "Q2579964",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ray Donovan",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Crime", "Thriller"],
+  "logline": "Boston-Irish fixer Ray Donovan keeps Los Angeles celebrities out of the headlines while his own family - led by his jailbird father Mickey - makes his private life exactly the kind of disaster he is paid to clean up for others.",
+  "poster": {
+    "src": "/img/series/ray-donovan/poster.jpg",
+    "alt": "Ray Donovan poster",
+    "attribution": "Poster © Showtime Networks / CBS Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Showtime cancelled Ray Donovan after 7 seasons in February 2020 without a planned finale. A feature film, Ray Donovan: The Movie, aired on Showtime in January 2022 to wrap up the story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ray_Donovan"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 12,
+      "release_date": {
+        "value": "2013-06-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 1 earned 77 percent on Rotten Tomatoes with critics praising Liev Schreiber's 'beleaguered badass' performance and Jon Voight's scene-stealing work as Mickey. The fixer premise was novelty enough to carry a sometimes generic pilot-season structure."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A muscular, instantly riveting series that features sensational performances by Liev Schreiber and Jon Voight.",
+            "source": "Metacritic (composite)",
+            "url": "https://www.metacritic.com/tv/ray-donovan/critic-reviews/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2249007/"
+      },
+      "review_body": "Ray Donovan premiered on Showtime in June 2013 and immediately found its niche: part family drama, part crime procedural, all Liev Schreiber. The fixer premise - a man who handles celebrities' worst moments while failing to manage his own - was inherently compelling, and Jon Voight's Mickey Donovan, released from prison after twenty years, gave the show a motor that its LA crime plots rarely matched. Season 1 earned 77 percent on Rotten Tomatoes. Critics praised the show's muscularity and its performances while noting the pilot-season structure spread itself thin across the ensemble. TIME's critic described Schreiber as playing Ray as 'a beleaguered badass whose menace is all in a day's work' - the show's appeal in a single phrase.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Bag or the Bat",
+          "air_date": "2013-06-30",
+          "bollymeter": 7.7,
+          "spoiler_free": "The premiere establishes Ray Donovan's world with economy: the first fix, the first client, and Mickey's release from Walpole all within the opening hour. Schreiber arrives fully formed as Ray - contained, menacing, exhausted by a life of controlled violence.",
+          "the_moment": "Mickey Donovan walking out of prison and calling his son - the family wound that will drive seven seasons in a single image.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-07-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 dropped slightly to 73 percent on Rotten Tomatoes. Critics found the show deepening its family dynamics while the crime-of-the-week plots remained serviceable rather than exceptional."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 continued the Donovan family saga with a 73-percent Rotten Tomatoes score. The show's formula was settling into comfortable rhythms: Ray fixes a client problem, Mickey causes chaos, the Donovan siblings circle their unresolved trauma. The family dynamics proved more compelling than the standalone-fix plots, and the Voight-Schreiber scenes remained the show's highest-wattage element. The season deepened without transforming, which satisfied existing fans without generating the cross-platform enthusiasm the debut had drawn.",
+      "season_over_season": "Season 2 deepens the family dynamics but the crime plots settle into formula - a comfortable if less surprising second year.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-07-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Season 3 returned to 77 percent on Rotten Tomatoes. Critics noted the show expanded its canvas and deepened its characters, with the Donovan family's Irish-Catholic trauma given more sustained attention."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 matched Season 1's 77-percent Rotten Tomatoes score and is considered a creative rebound from the slightly softer Season 2. The Donovan backstory - abuse, Catholicism, Boston's working-class Irish community - was brought forward more deliberately, with the show's crime plotting grounded in something more personal and specific. Ray's world expanded toward New York, and the ensemble was given more room to breathe.",
+      "season_over_season": "Season 3 expands the canvas and digs deeper into the Donovan family's Boston origins - the most emotionally ambitious year to date.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": 12,
+      "release_date": {
+        "value": "2016-06-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "Season 4 fell to 50 percent on Rotten Tomatoes, the show's critical low point. Pacing issues and unmotivated character decisions drew the sharpest critical notices of the run."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 is Ray Donovan's weakest critical moment - a 50-percent Rotten Tomatoes score from a season that played unfocused throughout. The crime plot mechanics that had always been the show's most perfunctory element became genuinely laborious, and the Donovan family drama that carried earlier seasons felt like it was spinning in place. Schreiber's performance remained committed, but the writing gave him less to work with. For viewers maintaining a completionist investment, the season remains watchable; as a critical recommendation, it is the series at its most forgettable.",
+      "season_over_season": "Season 4 hits the critical nadir at 50 percent - pacing problems and unmotivated character beats signal the show running on habit rather than purpose.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-08-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Season 5 achieved a perfect 100-percent Rotten Tomatoes score from critics who found the show had rediscovered its intent. The move to New York and a darker tone energised the writing."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 is the surprise of the Ray Donovan run: a perfect 100-percent Rotten Tomatoes score after the Season 4 creative nadir. The move to New York injected new visual energy, and the Donovan family dynamics took a harder, darker edge that the show had been withholding. Schreiber's performance benefited from material that finally matched his capacity for quiet devastation. The season's 100-percent consensus confirmed that Ray Donovan was capable of genuine excellence when it stopped playing it safe.",
+      "season_over_season": "Season 5 is the show's creative resurrection - 100 percent on Rotten Tomatoes, the New York relocation, and a harder emotional register.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2018,
+      "episodes": 12,
+      "release_date": {
+        "value": "2018-09-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Season 6 dropped back to 60 percent on Rotten Tomatoes after the Season 5 peak. Critics found the New York setting embedded but the storytelling unevenly paced across the extended run."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 could not sustain the Season 5 momentum, returning to a 60-percent Rotten Tomatoes consensus that described a show trading on its character equity more than its plotting. The New York world remained vividly realised, and Schreiber and Voight were as watchable as ever, but the 12-episode structure felt baggy again. Critics acknowledged the show had genuine strengths but found the back half of the season especially uneven.",
+      "season_over_season": "Season 6 retreats from the Season 5 peak - the New York world is fully embedded, but the writing unevenness returns at 60 percent.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-01-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The seventh and final season of Ray Donovan was cancelled by Showtime without warning before a planned conclusion could be produced, leaving the show without a proper finale. Critics and fans were vocal about the unsatisfying abrupt end. Showtime subsequently commissioned Ray Donovan: The Movie (2022), which brought closure to the storylines - a television-movie cap to a seven-season drama that deserved a full finale. Season 7 itself, 10 episodes cut short by cancellation, is a transitional chapter without a destination.",
+      "season_over_season": "Season 7 is cut off mid-story by Showtime's cancellation - the movie finale provides closure, but the season alone is an incomplete chapter.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

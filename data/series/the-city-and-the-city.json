@@ -1,0 +1,111 @@
+{
+  "slug": "the-city-and-the-city",
+  "qid": {
+    "value": "Q3520291",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The City and the City",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC Two",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Crime", "Mystery", "Thriller"],
+  "logline": "Inspector Borlú investigates a student's murder in Beszel, a city that shares the same physical space as rival city Ul Qoma - where citizens must deliberately unsee each other or face prosecution by the mysterious Breach.",
+  "poster": {
+    "src": "/img/series/the-city-and-the-city/poster.jpg",
+    "alt": "The City and the City poster",
+    "attribution": "Poster © BBC / Mammoth Screen. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Four-episode BBC Two limited series, commissioned as a single event. No further seasons planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_City_and_the_City_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 4,
+      "release_date": {
+        "value": "2018-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "78-percent Rotten Tomatoes from 9 critics; IMDb audience settled at 6.4 - critical enthusiasm for the concept and Morrissey's performance was modulated by reservations about pace and the challenges of visualising Mieville's intensely literary premise on screen."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "Smart without crowing about it, and it provides a satisfying level of humour too.",
+            "source": "London Evening Standard",
+            "url": "https://www.rottentomatoes.com/tv/the_city_and_the_city/s01"
+          },
+          {
+            "text": "The careful work of this adaptation feels as though it will be well worth the investment.",
+            "source": "Den of Geek",
+            "url": "https://www.rottentomatoes.com/tv/the_city_and_the_city/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7205264/"
+      },
+      "review_body": "China Mieville's award-laden 2009 novel poses an almost impossible adaptation challenge: two cities occupying the same physical space, separated only by the trained civilian will to not-see the other. Tony Grisoni's BBC Two adaptation, directed by Tom Shankland, leans heavily on David Morrissey as Inspector Borluu and on production design to carry the conceptual weight across four episodes. The 78-percent Rotten Tomatoes score from nine critics represents genuine admiration for the ambition - the London Evening Standard praised its wit, Den of Geek its careful craft - alongside acknowledgment that the premise resists full visualisation. The 6.4 IMDb score from audiences reflects wider reservations: the show demands patience and a willingness to accept the central conceit on its own terms rather than pressing it for realistic logic. Viewers who surrender to Mieville's worldbuilding will find a thoughtful, peculiar procedural unlike anything else on television.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-04-06",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere earns its reputation as one of the most conceptually ambitious British crime series in recent memory. The challenge of establishing two invisible cities - and the trained civic blindness that keeps them separate - is met with patient, layered staging. Morrissey grounds the surreal premise in procedural specificity.",
+          "the_moment": "The first time Borlu deliberately unsees something from Ul Qoma in plain sight - a gesture so ordinary and so horrifying in its implications that it defines the entire series.",
+          "critic_note": {
+            "text": "China Mieville's source novel delights in misdirection in its early chapters, but things do get clearer.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/the_city_and_the_city/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2018-04-27",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale resolves Borlu's investigation while pressing the political stakes of the two-city conceit to a conclusion that is satisfying without being simple. The adaptation's fidelity to Mieville's themes over his plot mechanics serves the material well in the final hour.",
+          "the_moment": "Borlu's final reckoning with what Breach truly represents - and what it costs to understand it - lands with quiet force.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © BBC / Mammoth Screen. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/d/d1/Mieville_City_2009_UK.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T23:54:53Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/the-city-and-the-city/poster.jpg",
+    "source_height": 391,
+    "source_width": 254,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "the-city-and-the-city",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/The_City_%26_the_City",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/d1/Mieville_City_2009_UK.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/the-city-and-the-city/w185.avif",
+      "bytes": 4077
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/the-city-and-the-city/w185.webp",
+      "bytes": 4066
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/the-city-and-the-city/w342.avif",
+      "bytes": 8212
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/the-city-and-the-city/w342.webp",
+      "bytes": 9120
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/the-city-and-the-city/w500.avif",
+      "bytes": 12694
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/the-city-and-the-city/w500.webp",
+      "bytes": 14424
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T23:55:23.210Z"
+}

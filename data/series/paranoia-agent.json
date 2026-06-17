@@ -1,0 +1,102 @@
+{
+  "slug": "paranoia-agent",
+  "qid": {
+    "value": "Q947799",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Paranoia Agent",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Psychological", "Thriller", "Mystery", "Drama"],
+  "logline": "A mysterious bat-wielding boy terrorises Tokyo, and two detectives unravel an interconnected web of modern anxiety, delusion, and societal collapse - the sole TV series from director Satoshi Kon.",
+  "poster": {
+    "src": "/img/series/paranoia-agent/poster.jpg",
+    "alt": "Paranoia Agent poster",
+    "attribution": "Poster © Madhouse / Satoshi Kon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Paranoia Agent is a standalone 13-episode limited series from 2004. Director Satoshi Kon passed away in 2010; the series has no sequels or continuation and stands complete as designed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Paranoia_Agent"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2004,
+      "episodes": 13,
+      "release_date": {
+        "value": "2004-02-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "100 percent on Rotten Tomatoes from 12 critics. Kon's only TV work is a formally inventive, deeply unsettling study of Japanese social anxiety - its 13 episodes earn required-viewing status among critics of the medium."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 12,
+        "pull_quotes": [
+          {
+            "text": "Unsettling ideas about humanity thrown into a blender with wry wit, vantablack humor, and a love for all things art.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/this-week-in-anime/2020-02-13/.156382"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.66,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/323/Mousou_Dairinin"
+      },
+      "review_body": "Paranoia Agent aired on Wowow in early 2004 and has since become one of the most discussed single-season anime in the medium's critical canon. Satoshi Kon built the series from leftover ideas that did not fit his film projects, and the episodic structure lets him range further than any single film could. Each of the 13 episodes can function as a standalone vignette - a hikikomori, an overworked designer, a child prostitute, an elderly detective - before the full architecture locks into place. Critics have centred on the series as a precise diagnosis of early-2000s Japanese social stress: overwork, identity dissolution, the comfort of collective delusion. Rotten Tomatoes registers 100 percent from 12 critics. The MAL audience score of 7.66 sits below the critical consensus, reflecting how deliberately alienating the series is in structure - it refuses to make its horror comfortable. Kon remains the auteur thread holding every episode together.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Enter Lil' Slugger",
+          "air_date": "2004-02-03",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes the central conceit with precision: Tsukiko Sagi, the creator of a beloved mascot character, is attacked by a bat-wielding boy on roller skates. The episode is built on dread and the unsettling texture of contemporary Tokyo - mundane surfaces concealing unbearable pressure.",
+          "the_moment": "The reveal that Maromi - the mascot character Tsukiko designed - appears to be watching her with knowing, innocent eyes.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Happy Family Planning",
+          "air_date": "2004-03-30",
+          "bollymeter": 9.0,
+          "spoiler_free": "Three strangers who met online plan a group suicide and keep failing in increasingly absurd ways. The episode is a tonal departure - darkly comic, structurally unusual - and stands as one of the most inventive single episodes of 2000s anime.",
+          "the_moment": "The sequence in which the three would-be suicides discover their attempts have only landed them in stranger terrain - the joke and the horror converge perfectly.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

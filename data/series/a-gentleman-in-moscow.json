@@ -1,0 +1,98 @@
+{
+  "slug": "a-gentleman-in-moscow",
+  "qid": {
+    "value": "Q118647414",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Gentleman in Moscow",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Historical", "Biographical"],
+  "logline": "Russian aristocrat Count Alexander Rostov is sentenced to permanent house arrest in Moscow's Metropol Hotel after the Revolution - and across three decades learns that a life lived fully can be constructed within any walls.",
+  "poster": {
+    "src": "/img/series/a-gentleman-in-moscow/poster.jpg",
+    "alt": "A Gentleman in Moscow poster",
+    "attribution": "Poster © eOne / Paramount+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A Gentleman in Moscow is a closed-ended limited series adapting Amor Towles's 2016 novel. No sequel or continuation is planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/A_Gentleman_in_Moscow_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-03-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "A 92-percent Rotten Tomatoes score was driven almost entirely by Ewan McGregor's performance; Metacritic's 74/100 reflected critical ambivalence about whether the narrative matched his charisma. IMDb audiences rated it 6.6/10, suggesting the show's leisurely pace divided viewers."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 21,
+        "pull_quotes": [
+          {
+            "text": "McGregor imbues this entitled man with wit, warmth and joie de vivre, qualities that drive the Bolsheviks crazy but make us like him.",
+            "source": "NPR",
+            "url": "https://www.npr.org/2024/03/29/1241628158/ewan-mcgregor-proves-exceedingly-appealing-as-a-gentleman-in-moscow"
+          },
+          {
+            "text": "A dark story that still has some levity, some heart and, despite a padded eight-hour running time, very little intellectual depth.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/a-gentleman-in-moscow-review-ewan-mcgregor-mary-elizabeth-winstead-1235860730/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8230448/"
+      },
+      "review_body": "A Gentleman in Moscow adapts Amor Towles's beloved 2016 novel across eight episodes, with Ewan McGregor as Count Alexander Rostov under permanent house arrest in a Moscow hotel that becomes his entire world across three Soviet decades. Critics split along predictable lines: the 92-percent Rotten Tomatoes score reflects genuine admiration for McGregor's performance - warm, witty, never pitying itself - while Metacritic's 74 and an audience score of 6.6 on IMDb register the complaint that the show is handsomely produced but emotionally static. Variety's Alison Herman was the clearest dissent, arguing McGregor's charm carried a script that did not deepen the source material. The IndieWire read was characteristically precise: McGregor has delivered more great performances on television than great television shows, and this fits the pattern. For viewers who loved the novel, the adaptation is a satisfying visual companion; for those arriving fresh, the pace requires patience.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-03-29",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes Rostov's genteel defiance - sentenced to the hotel attic, he reorganises his world with studied elegance. McGregor's lightness of touch is immediate, and the Metropol Hotel itself becomes a character, its corridors spanning Soviet decades in a single tracking shot.",
+          "the_moment": "Rostov standing in the attic room, surveying what remains of his life, and deciding - without a word - that he will make it magnificent.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

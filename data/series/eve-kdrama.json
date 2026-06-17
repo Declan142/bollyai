@@ -1,0 +1,92 @@
+{
+  "slug": "eve-kdrama",
+  "qid": {
+    "value": "Q111025790",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Eve",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Drama",
+    "Romance",
+    "Psychological"
+  ],
+  "logline": "A woman who witnessed her father's murder at the hands of a powerful politician spends thirteen years building a new identity to seduce and destroy the man who took everything from her.",
+  "poster": {
+    "src": "/img/series/eve-kdrama/poster.jpg",
+    "alt": "Eve poster",
+    "attribution": "Poster © tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "16-episode run concluded July 21, 2022. Yoo Sun won Excellence Award for Actress at 2022 APAN Star Awards. No sequel produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Eve_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 16,
+      "release_date": {
+        "value": "2022-06-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Seo Yea-ji's committed performance as the revenge architect drew consistent praise, but critics and viewers flagged uneven pacing and a male lead whose emotional register was too flat to sell the central affair convincingly. IMDb audience rating of 7.3 and a nationwide average of 3.7 percent (Nielsen Korea) reflect appreciation for the lead performance above the drama as a whole."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt20723826/"
+      },
+      "review_body": "Eve is a revenge melodrama built around one of the more intricate long-game setups in recent Korean television - a daughter who reconstructs herself entirely over thirteen years to infiltrate the family of the man who murdered her father. Seo Yea-ji carries the show on the strength of a physically and emotionally precise performance, and her work in the scenes where the character's revenge calculus starts to fracture under genuine feeling is the drama's best material. The supporting cast around her is strong; Yoo Sun in particular won the Excellence Award at the 2022 APAN Star Awards. The weaknesses are consistent: Park Byung-eun's male lead registers too narrowly across the emotional arc the plot demands, and the middle episodes slow the momentum of a premise that works best at speed. Average nationwide viewership of 3.7 percent (Nielsen Korea) placed it in competent mid-tier cable territory.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-06-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere layers the revenge backstory efficiently, establishing Lee La-el's trauma and the meticulous 13-year plan without overexplaining. The 19-plus rating signals the show's willingness to go to darker places than standard cable fare.",
+          "the_moment": "The childhood sequence that closes the first episode locks in the emotional stakes - the murder that set the entire revenge architecture in motion.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

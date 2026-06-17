@@ -1,0 +1,143 @@
+{
+  "slug": "the-mire",
+  "qid": {
+    "value": "Q56340299",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Mire",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Poland",
+  "original_language": {
+    "value": "pl",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Historical", "Mystery", "Thriller"],
+  "logline": "Across three time periods spanning Poland's communist twilight, post-communist floods, and millennium anxieties, a fictional provincial town yields linked murders whose roots reach back through decades of buried secrets.",
+  "poster": {
+    "src": "/img/series/the-mire/poster.jpg",
+    "alt": "The Mire poster",
+    "attribution": "Poster © Netflix / Studio Filmowe Kadr. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded with The Mire: Millennium on February 28, 2024. Each season is set in a distinct era of Polish political history.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Mire"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 5,
+      "release_date": {
+        "value": "2019-12-21",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "93-percent Rotten Tomatoes from 2 critics and a 97-percent audience score; IMDb settled at 7.1 across the full run - exceptional numbers for a Polish-language series largely undiscovered outside genre circles."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "One of the qualities of this sober series The Mire is that of interlacing its status as a thriller.",
+            "source": "El Pais",
+            "url": "https://www.rottentomatoes.com/tv/the_mire/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8855592/"
+      },
+      "review_body": "The first season of The Mire (Rojst) is set in communist Poland in 1984 - a provincial town where a double murder and a wave of teenage suicides intersect with the suffocating social pressure of the late communist system. Director Jan Holoubek uses the wetland imagery of the title as both literal setting and metaphor: the mire is the past that swallows evidence, the political complicity that buries truth, and the moral ambiguity journalists Piotr and Witold navigate as they investigate. Andrzej Seweryn and Dawid Ogrodnik are exceptional together, pairing world-weary institutional cynicism against youthful idealism with understated precision. The 93-percent Rotten Tomatoes score rests on a small sample but the 97-percent audience score tells the fuller story: this is a deeply compelling, atmospheric crime drama that understands Polish communist-era social texture in ways that most international productions cannot.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-08-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes the series' unhurried, atmospheric register immediately - a provincial newspaper office, a police report that does not add up, and the grey social texture of 1984 Poland rendered without nostalgia or caricature. The central investigative partnership announces itself as the series' core strength.",
+          "the_moment": "The first crime scene walk-through, where what the police insist and what the evidence suggests are clearly different things - the show's central tension in a single sequence.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-07-07",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 2 shifts to 1997 flooding Poland - a different historical register but the same atmospheric density and character-driven procedural approach that made Season 1 distinctive."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The Mire '97 moves the series forward thirteen years to 1997, when catastrophic flooding in western Poland surfaces long-buried remains and re-opens wounds the community thought it had sealed. The structural shift from communist-era repression to post-communist transition anxieties is handled with the same historical care that distinguished Season 1. Holoubek's direction maintains the oppressive atmospheric register and the central partnership deepens under new pressure. The six-episode season sustains the investigative procedural quality of the original while using the flood imagery to extend the series' central metaphor - the mire yields what it should not, when the conditions change.",
+      "season_over_season": "Season 2 advances to 1997 post-communist Poland, using flood-surfaced evidence to connect to Season 1's buried crimes while finding a new set of institutional failures to indict.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-02-28",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "The final season set in 1999 brings the trilogy's historical arc to a close; critical reception was positive among engaged viewers though the series remained largely under the radar of mainstream criticism."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The Mire: Millennium concludes the trilogy in 1999 as Poland enters the new century carrying the accumulated weight of its communist and post-communist decades. The millennium anxieties the season stages - missing persons, historical crimes resurfacing under new democratic institutions - complete the series' three-era journey through Polish societal transformation. For viewers who have followed the full run, the conclusion delivers an emotionally coherent endpoint. The Review Geek's assessment that Season 3 checked all the right boxes is the broadly shared critical verdict: it is not a formal reinvention, but it finishes a distinctive trilogy with integrity.",
+      "season_over_season": "The Mire: Millennium closes the historical trilogy in 1999, completing a journey from communist Poland through transformation and into the millennial moment.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,237 @@
+{
+  "slug": "prime-suspect",
+  "qid": {
+    "value": "Q1518758",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Prime Suspect",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Thriller", "Mystery"],
+  "logline": "Detective Chief Inspector Jane Tennison fights institutionalised sexism to lead murder inquiries in a hostile male police force, solving complex cases across London and Manchester over fifteen years.",
+  "poster": {
+    "src": "/img/series/prime-suspect/poster.jpg",
+    "alt": "Prime Suspect poster",
+    "attribution": "Poster © ITV / Granada Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Seven-series run concluded in October 2006 with 'Prime Suspect: The Final Act'. Helen Mirren confirmed she would not return after Series 7.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Prime_Suspect"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1991,
+      "episodes": 2,
+      "release_date": {
+        "value": "1991-04-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Rotten Tomatoes overall series score of 84% (37 critics) understates the Series 1 impact - Helen Mirren's BAFTA-winning debut as Tennison defined TV drama for a generation. Critics called it a landmark of British television."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 37,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/prime-suspect/"
+      },
+      "review_body": "Series 1 arrived in April 1991 as a two-part event and immediately rewrote what British crime drama could do. Helen Mirren's DCI Jane Tennison is one of television's great creations: brilliant, ruthless under pressure, and battling the institutional misogyny of the Metropolitan Police simultaneously with a high-profile murder case. Lynda La Plante's script refused easy feminist triumphalism - Tennison's victories come with costs, personal and professional. Critics reached for superlatives. The series won the BAFTA for Best Drama Series and Mirren took Best Actress; she would win the same award for the next two series in succession. Averaging over 14 million UK viewers, Prime Suspect was a cultural event as much as a television programme. The procedural detail was forensically accurate, the character work psychologically dense. A foundational text for the modern prestige crime drama.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Prime Suspect - Part 1",
+          "air_date": "1991-04-07",
+          "bollymeter": 9.2,
+          "spoiler_free": "Tennison inherits a murder investigation from a dying colleague and must immediately assert command over a squad that resents her. The double pressure - solve the case AND prove your right to lead it - makes the procedural electric with human tension.",
+          "the_moment": "Tennison takes the briefing room cold, facing a wall of hostile male detectives who have already decided she will fail.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1992,
+      "episodes": 2,
+      "release_date": {
+        "value": "1992-12-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Tennison investigating a racist murder case in inner London. Critics praised the series' willingness to interrogate institutional racism alongside gender discrimination. Mirren won a second consecutive BAFTA Best Actress."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 aired over two nights in December 1992 and took Tennison into a case involving the murder of a black youth, with institutional racism inside the police force as charged a subject as the original's sexism. The writing refused to let either the investigation or its political dimensions dominate the other. Critics and BAFTA voters agreed: Mirren took Best Actress for a second consecutive year, and the series consolidated Prime Suspect's reputation as the most serious crime drama on British television. The social realism sat alongside the procedural mechanics without strain.",
+      "season_over_season": "Series 2 broadens its institutional critique beyond gender to encompass race, and the investigation is correspondingly more politically complex.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 1993,
+      "episodes": 2,
+      "release_date": {
+        "value": "1993-12-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Tennison investigates murders connected to Manchester's male sex work scene. A third consecutive BAFTA Best Actress for Mirren confirmed the series' sustained excellence. Widely cited as the boldest of the three early installments."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 3 moved to Manchester and into a case involving the murders of rent boys, territory that prime-time British drama had largely avoided. The willingness to humanise the victims and to show Tennison's personal vulnerabilities - she is by now fighting alcoholism as well as caseload - gave the series a rawness that distinguished it from procedural convention. Mirren took a third BAFTA Best Actress. The Granada production design captured a grim north that felt documentarily honest. The series was growing more interested in Tennison's interior life, and this deeper focus on her interior world proved an enrichment rather than a distraction from the case.",
+      "season_over_season": "Series 3 deepens Tennison's personal deterioration while taking the moral complexity of its victim community further than any predecessor.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 1995,
+      "episodes": 3,
+      "release_date": {
+        "value": "1995-04-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Three separate instalments covering a paedophile ring, an Indian family murder, and a missing girl. Critical consensus found the anthology format diluted the sustained intensity of the earlier series, though Mirren's performance remained exemplary."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 4 expanded to three ninety-minute films across spring 1995. The format shift - three distinct cases rather than one sustained investigation - divided the reception: the serial depth of the earlier series was sacrificed for breadth, and the anthology structure felt less immersive than the sustained investigation mode. Each film is nonetheless solidly crafted, and the strand covering child sex abuse was handled with unflinching rigour. Mirren remained the constant, and her Tennison was now a more senior and more hollowed-out figure than the driven inspector of 1991. The Emmy for Outstanding Miniseries followed; American audiences were by now as devoted as British ones.",
+      "season_over_season": "The anthology format across three films trades sustained tension for breadth, a structural experiment that produced mixed results.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 1996,
+      "episodes": 2,
+      "release_date": {
+        "value": "1996-10-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Tennison transfers to Vice. Critics found the investigation less compelling than earlier series but praised the portrayal of Tennison's personal struggles with alcoholism as the most honest the series had yet attempted."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 5 placed Tennison in the Vice Squad investigating a prostitution ring, and its case mechanics lacked the urgency of the murder investigations that defined the earlier run. The personal strand - Tennison's alcoholism, which had been a background note in Series 3 - was now foregrounded with considerable bravery, and Mirren's performance of the addiction was the most honest the series had yet attempted. The series ran October 1996 and maintained strong viewing figures. When the procedural mechanics fell short, the personal strand carried the dramatic weight.",
+      "season_over_season": "Series 5 shifts focus to Tennison's addiction as the dominant dramatic engine, with the case investigation playing a secondary role.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2003,
+      "episodes": 2,
+      "release_date": {
+        "value": "2003-11-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Tennison returns after a seven-year gap to investigate organised crime in Northern Ireland. Critics welcomed the return but noted the long hiatus created a tonal discontinuity, and the Irish political landscape felt somewhat schematically handled."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "After a seven-year break, Prime Suspect returned in November 2003 with Tennison now a Detective Superintendent investigating an organised crime case with Northern Irish connections. The gap in production showed: the series felt both thematically updated and somewhat uncertain of its tonal register, the political landscape sketched more than excavated. Critical response was respectful rather than enthusiastic. Mirren anchored the material and the viewing figures held, but the consensus was that the series had not fully earned its return. The move to Northern Ireland introduced geopolitical complexity without the writing fully meeting the ambition.",
+      "season_over_season": "Seven years on, Tennison returns as Superintendent but the institutional depth of the early series is harder to locate in this broader political canvas.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2006,
+      "episodes": 2,
+      "release_date": {
+        "value": "2006-10-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "The final act: Tennison on the verge of retirement investigates a murdered teenager while her own alcoholism reaches crisis. Critics called it a fitting and emotionally devastating conclusion to one of television's great characters."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Prime Suspect: The Final Act aired in October 2006 as a worthy farewell to one of television's great characters. Tennison is fifty-two, days from mandatory retirement, investigating the murder of a teenage girl while her alcoholism is finally destroying her private life. The parallel structures - the girl's end and Tennison's professional ending - gave the writing a mournful symmetry. Mirren's performance of Tennison's final scenes was measured and devastating, and the Peabody Award acknowledged the series' sustained achievement across fifteen years. Few television dramas had ended with quite this combination of elegiac weight and unsentimental honesty.",
+      "season_over_season": "The finale inverts the series' foundational dynamic: now it is Tennison's personal unravelling that drives the drama, with the case giving it shape.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

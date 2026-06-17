@@ -1,0 +1,133 @@
+{
+  "slug": "the-chestnut-man",
+  "qid": {
+    "value": "Q108817800",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Chestnut Man",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Denmark",
+  "original_language": {
+    "value": "da",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Crime", "Thriller", "Mystery", "Drama"],
+  "logline": "Copenhagen detectives Thulin and Hess hunt a serial killer who leaves tiny chestnut figurines at crime scenes - each one linked to a government minister's missing daughter in a case connecting to a 1987 family tragedy.",
+  "poster": {
+    "src": "/img/series/the-chestnut-man/poster.jpg",
+    "alt": "The Chestnut Man poster",
+    "attribution": "Poster © Netflix / SAM Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 released on Netflix on May 7, 2026, based on Soren Sveistrup's follow-up material with Sofie Graboel joining the cast.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Chestnut_Man"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-09-29",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100-percent Rotten Tomatoes score from 9 critics; the Sveistrup source novel credentialling (he created The Killing) means the procedural bones are exceptionally well-built."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "The Chestnut Man is a great reminder that the Scandinavians still do this stuff better than anyone.",
+            "source": "The Post (New Zealand)",
+            "url": "https://www.rottentomatoes.com/tv/the_chestnut_man/s01"
+          },
+          {
+            "text": "An excellent example of Nordic noir that you cannot miss.",
+            "source": "Fotogramas",
+            "url": "https://www.rottentomatoes.com/tv/the_chestnut_man/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 83,
+        "scale": 100,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/the_chestnut_man/s01"
+      },
+      "review_body": "Season 1 of The Chestnut Man arrived on Netflix in September 2021 and earned a perfect 100-percent Rotten Tomatoes score from nine reviewers - a small but unanimously enthusiastic critical sample that validated what Nordic noir devotees already knew: Soren Sveistrup, creator of The Killing, writes procedurals with an architectural precision most crime writers cannot match. The six-episode structure suits the material well; there is no fat. Danica Curcic as detective Thulin is a compelling lead - methodical without being cold, human without being sentimental - and the tonal blend of domestic realism and procedural dread lands exactly where Scandinavian crime operates best. The linking device, chestnut dolls with fingerprints tied to a missing child's case, is genuinely unsettling. Critics and the 83-percent audience score on RT both agree: this is premium Nordic noir.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-09-29",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere delivers the series in miniature - a murder scene, a chestnut figure, a bureaucratic detective paired with a reluctant partner. Sveistrup's script withholds just enough to keep the mystery functional while establishing the domestic stakes that separate this from procedural-by-numbers.",
+          "the_moment": "The forensic detail on the first chestnut doll - and what it implies about the killer's knowledge - makes the threat feel intimate rather than theatrical.",
+          "critic_note": {
+            "text": "It might feel like a premise you've encountered before, but in the way Scandi-noir works, it is anchored as much in domesticity as in crime fighting.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/the_chestnut_man/s01"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2021-09-29",
+          "bollymeter": 8.8,
+          "spoiler_free": "The finale pulls together threads that seemed structurally decorative in earlier episodes and reveals them as load-bearing. The emotional cost of the resolution is handled with restraint rather than manipulation - a mark of the source material's quality.",
+          "the_moment": "The revelation connecting the chestnut dolls to the 1987 case reframes every preceding scene in a single sequence.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 6,
+      "release_date": {
+        "value": "2026-05-07",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 premiered on Netflix on May 7, 2026, with Sofie Graboel joining the cast. Critical reception had not aggregated sufficiently at the time of writing to ground a BollyMeter verdict. Fans of the first season's procedural rigor are the natural audience.",
+      "season_over_season": "Season 2 expands the cast with Sofie Graboel (Sarah Lund in The Killing) - a Scandi-noir pedigree addition - while continuing the Copenhagen procedural world established in Season 1.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

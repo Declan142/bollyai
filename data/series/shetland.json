@@ -1,0 +1,308 @@
+{
+  "slug": "shetland",
+  "qid": {
+    "value": "Q16934235",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shetland",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+  "logline": "A detective investigates murders and serious crime in the remote Shetland Islands, where the archipelago's isolation, tight community bonds, and stark landscape make every crime resonate far beyond its immediate facts.",
+  "poster": {
+    "src": "/img/series/shetland/poster.jpg",
+    "alt": "Shetland poster",
+    "attribution": "Poster © BBC / ITV Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "An eleventh series has been commissioned, with Alison O'Donnell departing after that final season. Ashley Jensen continues as DI Ruth Calder following Douglas Henshall's exit after Series 7.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Shetland_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 2,
+      "release_date": {
+        "value": "2013-03-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Rotten Tomatoes 87% (4 critics). Metacritic 70 (12 critics). Critics noted the landscape-as-character quality immediately but found the two-episode pilot format too compressed. Phil Harrison in Time Out praised the show's 'combination of big skies and claustrophobic parochial smallness.'"
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "Wring considerable capital out of Shetland's combination of big skies and claustrophobic, parochial smallness.",
+            "source": "Time Out",
+            "url": "https://www.rottentomatoes.com/tv/shetland/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Shetland launched in March 2013 as a two-episode serial adapted from Ann Cleeves' novels, with Douglas Henshall as DI Jimmy Perez. The Metacritic score of 70 (12 critics) reflected a generally positive but measured reception: critics were immediately struck by the quality of the location photography and the atmospheric specificity of the archipelago setting, while some found the opening two-episode format too compressed to fully establish the character world. Phil Harrison in Time Out identified the show's core virtue - the tension between the islands' vast skies and their social claustrophobia - that would sustain the series across a decade. Henshall's Perez was a quieter, more interior detective than the genre's dominant mode, and that understatement would prove a strength across the longer run.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 6,
+      "release_date": {
+        "value": "2014-03-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The expansion to six episodes allowed the series to breathe into its format. Critics found the sustained pacing suited the material better than the two-episode pilot structure. Audience figures grew significantly."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 expanded to six episodes and confirmed that Shetland functioned better as a sustained narrative than as a compressed two-part serial. The expanded runtime allowed the investigation to develop across multiple threads while the island community accumulated texture. Series 1 had been promising but format-constrained; the six-episode structure corrected that immediately. Henshall's Perez deepened as a character with room to breathe, and the supporting ensemble - particularly Alison O'Donnell as DS Alison 'Tosh' McIntosh - began to establish the show's secondary layer. Audience figures grew, establishing Shetland as a reliable BBC One schedule anchor.",
+      "season_over_season": "The move to six episodes is the format correction the show needed; the investigative depth increases proportionally.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-01-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Consistent quality through Series 3. The Ann Cleeves adaptations provided reliable structural integrity and the landscape continued to function as a genuine dramatic element rather than mere backdrop."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 3 aired in early 2016 and consolidated the show's position as a dependable quality drama. The Ann Cleeves adaptations provided strong source material and the writers had by now fully internalised the series' particular tonal balance - procedural discipline combined with the specific social and emotional texture of island life. Perez's personal history continued to develop alongside the investigations. Critics treated the series with the qualified warmth reserved for reliably good television, and Shetland's audience continued to grow, particularly internationally as the series found distribution beyond the UK.",
+      "season_over_season": "Series 3 maintains the Series 2 standard without significant variation; reliability is the dominant quality.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 6,
+      "release_date": {
+        "value": "2018-02-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Rotten Tomatoes 100% (season-level score). Critics praised Series 4 as the show at its most assured: a more ambitious case with Norwegian connections, and Perez's characterisation at its richest."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 78,
+        "scale": 100,
+        "source": "Rotten Tomatoes audience score",
+        "source_url": "https://www.rottentomatoes.com/tv/shetland"
+      },
+      "review_body": "Series 4 achieved a perfect Rotten Tomatoes score and is the Henshall-era high-water mark. A case with Norwegian connections expanded the show's geographic frame without losing its island specificity, and the writing gave Perez's personal emotional life more narrative weight than previous series had attempted. The series had moved decisively beyond its status as a reliable procedural and was now making claims on the better end of British crime drama. The atmospheric cinematography of Shetland's coastlines in winter had become one of British television's most distinctive visual signatures.",
+      "season_over_season": "Series 4 is the series operating at its most ambitious and achieving that ambition most fully.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-02-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Rotten Tomatoes 88% (season-level score). A slightly less celebrated but still well-reviewed series. Critics found the case mechanics a little more conventional than Series 4 but Henshall's performance remained the constant."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 5 maintained an 88 percent Rotten Tomatoes score, a slight step back from Series 4's ambition but still well within quality range. The case investigation was competently handled but less distinctive than the Norwegian strand of the previous series. Perez's characterisation continued to deepen and Henshall's performance remained the series' primary asset. The Shetland landscape had by now become so central to the show's identity that location sequences served as a reliable quality signal regardless of the episode's narrative strength. A solid if slightly routine instalment from a series in excellent overall health.",
+      "season_over_season": "Series 5 steps back slightly from Series 4's creative peak but remains in the top bracket of British crime drama.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-10-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Delayed from 2020 due to production disruption. Critics and audiences found the series a reliable return, with Perez's developing personal storylines providing emotional continuity across the investigation."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 6 aired in autumn 2021 after production delays, and was received as a welcome return to form for viewers who had waited through an extended gap. The familiar pleasures of the format were delivered reliably: a contained island murder, a cast of suspects with intersecting histories, Perez's methodical and emotionally attentive investigation. The personal storylines accumulated across the series gave Henshall's performance additional weight. The series was operating in comfortable rather than experimental territory, which for a show of this quality was an entirely defensible choice.",
+      "season_over_season": "After the production gap, Series 6 returns to the established format without trying to reinvent it.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-08-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Douglas Henshall's final series as Jimmy Perez. Critics acknowledged the valedictory quality of the writing and performance. The farewell to a decade-long central character generated significant audience and critical attention."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 7 was Douglas Henshall's final series as Jimmy Perez, and the production made the valedictory quality of the farewell explicit. A decade of the character's development was given a conclusion that was honest and emotionally satisfying - the show resisted the temptation to give Perez a redemptive finale and instead offered something more ambiguous and more true. Henshall's departure was genuinely affecting, and the series was given the space to treat the ending with the seriousness it merited. The question of what came next was left genuinely open.",
+      "season_over_season": "Series 7 is the farewell to the Henshall era; the writing and performance rise to the occasion.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-11-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Rotten Tomatoes 67% for Series 8. Ashley Jensen's debut as DI Ruth Calder. Critics were divided: some found the recasting energising, others felt the new lead had not yet found the character's centre of gravity. The format continued to function."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 8 introduced Ashley Jensen as DI Ruth Calder and received the more measured critical reception that most recasting announcements attract. The 67 percent Rotten Tomatoes score reflected genuine division: critics who appreciated Jensen's different register found the transition credibly handled, while those who remained committed to Perez found the new character underwritten in its first series. The Shetland landscape and the core procedural format provided structural continuity. The show's baseline quality held even as the character recalibration was still in progress.",
+      "season_over_season": "Series 8 is the post-Henshall transition series; the format survives the recasting better than the character depth does.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-11-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Ruth Calder's second series provided the character space to develop further. Critics found Jensen more settled in the role and the investigative format as reliable as ever."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 9 gave Ashley Jensen's Ruth Calder a second series in which to grow, and the development showed in a more settled performance and better-integrated ensemble work. The character had a clearer identity in its second outing and the supporting cast had adjusted to the new lead more comfortably. The case investigation maintained the standard structural quality of the Shetland format and the islands remained as atmospherically compelling as ever. The show was operating in reliable-quality territory rather than creative-peak territory, which for a show in its ninth series represents solid achievement.",
+      "season_over_season": "Series 9 confirms that the post-Henshall era is sustainable; Jensen's Calder has found her footing.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": {
+        "value": "2025-11-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Rotten Tomatoes 80% for Series 10. The show in its tenth year continues to deliver its established pleasures. An eleventh series has been commissioned, with Alison O'Donnell departing after that final run."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 10 aired in late 2025 with the show entering its second decade on BBC One. The 80 percent Rotten Tomatoes score reflected consistent critical regard for a show that has maintained quality across a long run without resorting to reinvention. The announcement that Alison O'Donnell would depart after the commissioned Series 11 gave the current run an additional layer of valedictory weight. Critics credited the production's ability to keep the Shetland setting fresh across ten series as an achievement in itself. The show's international following on BritBox and streaming platforms had long since outgrown its domestic BBC One scheduling.",
+      "season_over_season": "Series 10 continues the Jensen-led run with quiet assurance; the impending departure of O'Donnell gives it an elegiac undertow.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

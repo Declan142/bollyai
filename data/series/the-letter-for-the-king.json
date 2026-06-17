@@ -1,0 +1,98 @@
+{
+  "slug": "the-letter-for-the-king",
+  "qid": {
+    "value": "Q86601827",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Letter for the King",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Netherlands",
+  "original_language": {
+    "value": "nl",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Adventure", "Coming of Age", "Family"],
+  "logline": "A young aspiring knight races across a treacherous kingdom to deliver a secret letter to a distant king - a quest based on the beloved Dutch children's classic by Tonke Dragt.",
+  "poster": {
+    "src": "/img/series/the-letter-for-the-king/poster.jpg",
+    "alt": "The Letter for the King poster",
+    "attribution": "Poster © Netflix / FilmWave. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix produced a single six-episode season. No second season was commissioned.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/80993125"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-03-20",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "Critics split 55/45 at Rotten Tomatoes (22 reviews) - young cast won praise but pacing and tonal inconsistency undercut the source material's warmth."
+      },
+      "critic": {
+        "positive_pct": 55,
+        "sample": 22,
+        "pull_quotes": [
+          {
+            "text": "Written by Will Davies of How to Train Your Dragon, this really is tremendous fun.",
+            "source": "Financial Times",
+            "url": "https://www.rottentomatoes.com/tv/the_letter_for_the_king/s01/reviews"
+          },
+          {
+            "text": "Unambitious family fare that tries to piggyback on the success of Game of Thrones.",
+            "source": "NME",
+            "url": "https://www.rottentomatoes.com/tv/the_letter_for_the_king/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8741648/"
+      },
+      "review_body": "Netflix's adaptation of Tonke Dragt's 1962 Dutch classic arrived in March 2020 with a 55-percent Rotten Tomatoes score across 22 reviews - a mixed-to-middling verdict that mirrored audience sentiment. Critics who responded favourably highlighted the young cast's commitment and the lush European location photography; detractors pointed to bloated pacing, a tone caught between children's adventure and adult fantasy, and liberties taken with the source text that drew a pointed rebuke from Dutch audiences. The IMDb score settled at 6.0. The series is engaging when it focuses on Tiuri's moral dilemmas and cross-cultural friendships, but the six-episode runtime strains a premise that works better as a compact novel. Fans of the book will find the changes divisive; newcomers will get a competent, sometimes charming, but rarely memorable quest narrative.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-03-20",
+          "bollymeter": 6.0,
+          "spoiler_free": "The premiere establishes Tiuri as an earnest underdog on the eve of his knighthood vigil before a chance encounter sets a continent-spanning quest in motion. The Dutch-English production design is handsome and the young lead likeable, even if the plotting leans on well-worn fantasy conventions.",
+          "the_moment": "Tiuri makes a fateful choice inside the church vigil that costs him everything - and defines the entire series.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

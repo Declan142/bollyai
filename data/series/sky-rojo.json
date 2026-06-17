@@ -1,0 +1,158 @@
+{
+  "slug": "sky-rojo",
+  "qid": {
+    "value": "Q101208208",
+    "source": "Wikipedia infobox",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sky Rojo",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Spain",
+  "original_language": {
+    "value": "es",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Action", "Drama", "Thriller"],
+  "logline": "Three sex workers - Coral, Wendy, and Gina - flee their brutal pimp and his henchmen across Tenerife in a hyper-stylised, relentlessly propulsive chase series from the Money Heist creators.",
+  "poster": {
+    "src": "/img/series/sky-rojo/poster.jpg",
+    "alt": "Sky Rojo poster",
+    "attribution": "Poster © Netflix / Vancouver Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three-season run concluded with Season 3 on January 13, 2023. Netflix did not commission a fourth season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sky_Rojo"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-03-19",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "92-percent Rotten Tomatoes from 13 critics - praise centred on kinetic energy, the lead trio's chemistry, and the show's unapologetic pulp register alongside serious trafficking themes."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 13,
+        "pull_quotes": [
+          {
+            "text": "This isn't any kind of social-realist drama. It's pulp - very good pulp.",
+            "source": "TIME",
+            "url": "https://www.rottentomatoes.com/tv/sky_rojo/s01/reviews"
+          },
+          {
+            "text": "Wild cliffhanger endings should have you slamming 'next episode' faster.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/sky_rojo/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8690776/"
+      },
+      "review_body": "Sky Rojo's first season landed in March 2021 trailing the enormous goodwill of Money Heist - and it largely justified the hype on its own pulp terms. Creator Alex Pina and Esther Martinez Lobato strip the narrative to its essentials: three women running, two men chasing, a Tenerife backdrop soaked in neon and club smoke. The 92-percent Rotten Tomatoes score from 13 critics reflected a genuine critical consensus that the show's velocity and tonal confidence were assets rather than evasions. TIME called it 'very good pulp', which is precisely the right frame: the series does not pretend to be a social-realist document about trafficking, but the horror underneath the stylised surface is always present. The lead trio - Veronika Sanchez, Lali Esposito, and Yany Prado - carry crackling chemistry through short, punchy episodes that rarely overstay their welcome.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-03-19",
+          "bollymeter": 7.8,
+          "spoiler_free": "The opener establishes the show's grammar in under 30 minutes: percussive editing, Tarantino-adjacent visual design, and three protagonists whose survival instincts override every other consideration. The inciting escape is both darkly funny and genuinely harrowing.",
+          "the_moment": "The first chase sequence through Las Novias Club announces the show's visual register - and its willingness to be unsettling even while being stylish.",
+          "critic_note": {
+            "text": "A vivid, thundering denunciation of the sexual exploitation of women.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/sky_rojo/s01/reviews"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-07-23",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "83-percent RT score but critically noted for losing momentum - subplots diluted Season 1's tight chase energy, and reviewers found the pacing inconsistent over the extended mid-section."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived four months after the first, with an 83-percent Rotten Tomatoes aggregate - technically positive but noted for a slackening of the relentless pace that gave Season 1 its identity. Additional subplots dilute the core fugitive-thriller structure; the show is at its best when Coral, Wendy, and Gina are sprinting, and Season 2 keeps slowing to manage threads that do not earn the screen time. Asier Etxeandia as Romeo remains the series' most compelling presence - morally repellent and somehow charismatic - and some of the standalone chase and confrontation sequences still land with Season 1's kinetic force. The season functions as connective tissue more than self-contained entertainment.",
+      "season_over_season": "Season 2 loses the tight fugitive-thriller structure of Season 1 as additional plot lines dilute the core chase dynamic.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-01-13",
+        "source": "Netflix",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.5,
+        "basis": "62-percent RT from a minimal sample; critics described it as 'a roller coaster' with an open resolution that divided audiences expecting a conclusive finale."
+      },
+      "critic": {
+        "positive_pct": 62,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "A sort of roller coaster; we'll see if it ends on a high or a low.",
+            "source": "Espinof",
+            "url": "https://www.rottentomatoes.com/tv/sky_rojo/s03"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The third and final season arrived in January 2023 with a 62-percent Rotten Tomatoes score from a thin critical sample - suggesting the show had settled into a niche rather than expanding it. Season 3 recovers some of the original's propulsion in individual sequences but ultimately ends the series in a way that left its most committed viewers debating whether the resolution honoured the premise. The series deserves credit for being genuinely about something - sexual exploitation, sisterhood, survival - even when its execution is uneven. Fans of Seasons 1 and 2 should watch to close the loop; casual viewers can safely treat Season 1 as a standalone.",
+      "season_over_season": "Season 3 attempts a definitive conclusion to the three-season chase but delivers a mixed resolution that satisfied the core fanbase more than general audiences.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

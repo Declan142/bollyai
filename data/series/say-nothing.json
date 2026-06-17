@@ -1,0 +1,116 @@
+{
+  "slug": "say-nothing",
+  "qid": {
+    "value": "Q124485743",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Say Nothing",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX on Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Historical", "Thriller", "War"],
+  "logline": "Across four decades of Northern Ireland's Troubles, the abduction of widow Jean McConville and the violent idealism of IRA members Dolours and Marian Price illuminate how political conviction becomes atrocity and how its costs outlast the cause.",
+  "poster": {
+    "src": "/img/series/say-nothing/poster.jpg",
+    "alt": "Say Nothing poster",
+    "attribution": "Poster © FX Productions / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Say Nothing is a closed-ended limited series adapting Patrick Radden Keefe's 2018 non-fiction book of the same name. No continuation is planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Say_Nothing_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 9,
+      "release_date": {
+        "value": "2024-11-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Say Nothing earned 93 percent on Rotten Tomatoes (46 critics) and an 80/100 Metacritic score, with critics citing its moral and political ambiguity as what makes it genuinely haunting rather than merely procedural. The Peabody Award confirmed its standing among 2024's best television."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 46,
+        "pull_quotes": [
+          {
+            "text": "All the more powerful for its moral and political ambiguity, Say Nothing is a haunting depiction of The Troubles.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/say_nothing/s01"
+          },
+          {
+            "text": "A layered look at a traumatic conflict with reverberating effects to this day, boasting a stellar ensemble.",
+            "source": "Collider",
+            "url": "https://collider.com/"
+          },
+          {
+            "text": "The must-watch political thriller of 2024.",
+            "source": "Time",
+            "url": "https://time.com/7174152/say-nothing-review-fx/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt31122777/"
+      },
+      "review_body": "Say Nothing is the prestige miniseries of the 2024 FX slate. Creator Joshua Zetumer's adaptation of Patrick Radden Keefe's book spans four decades of The Troubles with a structural intelligence that mirrors the book's own non-linear reckoning with moral consequence. The 93-percent Rotten Tomatoes score (46 critics) and Peabody Award reflected critical consensus that the show achieves something rare: it makes the violence of the IRA emotionally comprehensible without becoming an apologia. Lola Petticrew and Hazel Doupe as young Dolours and Marian Price are the dramatic engine, their idealism and its aftermath charted with unflinching specificity. The Jean McConville thread - a widow of ten children abducted and never seen alive again - anchors the series in a specific human cost that the ideological argument cannot absorb. Time magazine called it the must-watch political thriller of 2024. The Guardian's dissent (that the show does not adequately hide its sympathies) is the minority position, but worth registering for viewers who want the more adversarial read.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-11-14",
+          "bollymeter": 8.7,
+          "spoiler_free": "The premiere drops the viewer into Belfast 1972 and the abduction of Jean McConville simultaneously with the young Price sisters' recruitment into the IRA. The structural juxtaposition - a woman taken from her children, young women choosing a cause - is the show's moral engine established in its opening hour.",
+          "the_moment": "Jean McConville's children watching from the window as she is taken into the night - the image the entire series radiates from.",
+          "critic_note": {
+            "text": "A moving, empathetic assessment of the Troubles.",
+            "source": "Variety",
+            "url": "https://variety.com/2024/tv/tv-reviews/say-nothing-review-fx-the-troubles-1236201749/"
+          }
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2024-11-14",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale brings the four-decade span to an accounting - not a resolution, because Say Nothing insists there is none. What remains is memory, consequence, and the unanswerable question of what the cause cost the people who served it and the people it destroyed.",
+          "the_moment": "The show's final sequence, which refuses comfort and offers only the weight of what has been shown.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
