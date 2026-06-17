@@ -23,7 +23,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 777 / 1000   (baseline 183)
+## Progress: 805 / 1000   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -37,6 +37,16 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 14 — 2026-06-18 — 28 series — STATUS: DONE (777->805)
+- **A K-Drama:** forest-of-secrets · mother-kdrama · miss-hammurabi · lawless-lawyer · go-back-couple · one-spring-night
+- **B Anime:** horimiya · welcome-to-the-nhk · the-ancient-magus-bride · little-witch-academia · spice-and-wolf · komi-cant-communicate
+- **C US Prestige:** russian-doll · when-they-see-us · glow · the-man-in-the-high-castle · goliath
+- **D UK/Euro:** small-axe · penny-dreadful · a-very-english-scandal · pistol · chewing-gum · into-the-night
+- **E Indian+World:** paava-kadhaigal · our-boys · call-my-agent-bollywood · the-time-in-between · inspector-montalbano
+- 28/28 validate clean · build green (7765pp) · AggregateRating gate clean · 12/28 posters (16 SVG fallback)
+- Skipped: the-crown (already existed) · six-suspects (= The Great Indian Murder already in catalogue)
+- Commit: a9edbe8
+
 ### Batch 13 — 2026-06-18 — 30 series — STATUS: DONE (747->777)
 - **A K-Drama:** snowdrop · agency-kdrama · her-private-life · do-you-like-brahms · lovestruck-in-the-city · my-dearest
 - **B Anime:** inuyasha · k-on · hyouka · food-wars · astra-lost-in-space · non-non-biyori
