@@ -1,0 +1,97 @@
+{
+  "slug": "little-witch-academia",
+  "qid": null,
+  "title": {
+    "value": "Little Witch Academia",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia / Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Coming of Age",
+    "Adventure",
+    "Comedy"
+  ],
+  "logline": "An ordinary girl with no magical heritage enrolls at an elite witch academy fuelled only by her idol-worship of a disgraced stage sorceress - a kinetic coming-of-age story about believing in impossible things when the world stops believing in magic.",
+  "poster": {
+    "src": "/img/series/little-witch-academia/poster.jpg",
+    "alt": "Little Witch Academia poster",
+    "attribution": "Poster © Trigger / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 25-episode TV series concluded June 26, 2017. No sequel series produced; the franchise expanded through the 2013 OVA and 2015 film The Enchanted Parade, both predating the TV run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Little_Witch_Academia"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 25,
+      "release_date": {
+        "value": "2017-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb 7.8 and placement on Crunchyroll's Top 100 Anime of the 2010s reflect genuine affection for Trigger's craft; critics noted the series is more tonally consistent than thematically ambitious."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6352180/"
+      },
+      "review_body": "Little Witch Academia premiered January 2017 on Japanese television before Netflix acquired worldwide streaming rights, making it one of the platform's early high-profile anime pickups. Studio Trigger's production is characteristically kinetic: character animation prioritises expressiveness and comic timing over realism, with action sequences that recall the studio's Gurren Lagann DNA. Crunchyroll ranked it among the Top 100 anime of the 2010s; IGN included it among the decade's best anime series. Common Sense Media praised its consistent messaging around perseverance and underdog grit. Where critics tempered enthusiasm was in the back half's plotting - the Grand Triskellion arc is more mechanical than the freewheeling early episodes suggested it would be. The series is most effective as an anthology of standalone magical mishaps, less so as a mythology-building exercise. Akko remains one of the decade's more endearing protagonists: her enthusiasm is earned, not performed.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A New Beginning",
+          "air_date": "2017-01-09",
+          "bollymeter": 8.0,
+          "spoiler_free": "A confident scene-setter that channels the Miyazaki-school love of flight and wonder while establishing Akko's outsider status among children raised on magic from birth.",
+          "the_moment": "Akko's first glimpse of Luna Nova through the magical transit - Trigger's most Ghibli-adjacent shot, and the series' clearest statement of intent.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "Changing and Unchanging",
+          "air_date": "2017-06-26",
+          "bollymeter": 7.5,
+          "spoiler_free": "A finale that wraps the Grand Triskellion arc with visual spectacle but emotional tidiness - satisfying rather than surprising, which is the series in miniature.",
+          "the_moment": "The final transformation sequence, which delivers the full Trigger house style in concentrated form.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

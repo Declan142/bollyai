@@ -1,0 +1,122 @@
+{
+  "slug": "komi-cant-communicate",
+  "qid": null,
+  "title": {
+    "value": "Komi Can't Communicate",
+    "source": "Wikipedia / Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Comedy",
+    "Romance",
+    "Slice of Life",
+    "Coming of Age"
+  ],
+  "logline": "Komi Shouko is the most admired girl at her new high school - a perfect, silent enigma to every classmate who doesn't know she has a severe communication disorder; with one unlikely ally, she sets out to make 100 friends.",
+  "poster": {
+    "src": "/img/series/komi-cant-communicate/poster.jpg",
+    "alt": "Komi Can't Communicate poster",
+    "attribution": "Poster © OLM / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 1 premiered October 2021 on TV Tokyo and Netflix worldwide. Season 2 aired April to June 2022 in Japan, with Netflix worldwide streaming from April 27, 2022. No further season announced as of June 2026.",
+    "source": "Wikipedia / What's on Netflix",
+    "source_url": "https://en.wikipedia.org/wiki/Komi_Can%27t_Communicate"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-10-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Rotten Tomatoes 88% critic score (2 reviews), IMDb 7.6, and a 6th Crunchyroll Anime Awards Best Comedy win indicate strong platform reception; the show is earnest and well-paced without overreaching."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 2,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14626352/"
+      },
+      "review_body": "Komi Can't Communicate debuted October 2021 simultaneously on TV Tokyo in Japan and Netflix worldwide - part of a wave of manga adaptations the platform used to build its anime catalogue. The series' hook is structural: Komi's severe communication anxiety creates a constant tension between her public image as the school's ethereal ideal and the terrified, well-meaning person underneath. Kotaku's Isaiah Colbert placed it on the 11 Best Anime of 2021 list, citing its 'comedy and for addressing the issue of social anxiety.' IGN included it on its Best New Anime (Fall 2021) list. The Crunchyroll Anime Awards named it Best Comedy at the sixth ceremony. OLM Team Kojima's production is clean and charming without distinctive visual ambition. The comedy lands because the series never condescends to Komi - her disorder is real and the show treats it as such, which gives the incremental friendship-building genuine emotional weight.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "It's Just That She Can't Communicate. / It's Just That She Wants Friends.",
+          "air_date": "2021-10-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "A precise premiere that introduces the central joke and the series' emotional project simultaneously - Komi's paralysis and Tadano's slow comprehension of it are both rendered with unusual care.",
+          "the_moment": "The blackboard scene, where Komi and Tadano communicate in chalk - a visually elegant solution that defines the series' approach to depicting her limitations.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "It's Just a Closing Ceremony. / And Then Summer Break.",
+          "air_date": "2021-12-23",
+          "bollymeter": 7.5,
+          "spoiler_free": "A warm seasonal wrap that tallies how far Komi's friend count has moved and positions the relationship with Tadano for the second season without forcing a false resolution.",
+          "the_moment": "Komi's count of friends acquired so far - small enough to be real progress, large enough to feel like a genuine achievement.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-04-27",
+        "source": "What's on Netflix / Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Season 2 maintained the series' formula in Summer term, adding new friend archetypes without meaningfully escalating the romantic thread - satisfying for invested viewers, diminishing returns for newcomers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 (April to June 2022, Netflix worldwide from April 27) moved the setting into summer term and expanded the supporting cast with new students whose own social quirks mirror and contrast with Komi's. The formula held: each episode introduced a new potential friend through a structured comedic misunderstanding resolved by Komi's effortful communication attempt. OLM maintained production consistency. Audience reception tracked closely with Season 1 - those who connected with the series' warmth found it delivered more of the same; those hoping for romantic progress between Komi and Tadano found the pace deliberate to a fault. With the manga still running in Japan, the season ended without closure on that thread.",
+      "season_over_season": "Season 2 widens the cast and shifts to summer settings but holds the same gentle episodic structure - consistent rather than evolved.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

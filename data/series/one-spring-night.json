@@ -1,0 +1,115 @@
+{
+  "slug": "one-spring-night",
+  "qid": {
+    "value": "Q61360273",
+    "source": "Wikipedia sidebar / wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "One Spring Night",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "A librarian in a stalling long-term relationship falls for a single-father pharmacist, and the two slowly, honestly negotiate love against a backdrop of social expectation and family pressure.",
+  "poster": {
+    "src": "/img/series/one-spring-night/poster.jpg",
+    "alt": "One Spring Night poster",
+    "attribution": "Poster © MBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "32-episode run (structured as 16 pairs of 35-minute episodes) completed July 2019. Directed by Ahn Pan-seok, written by Kim Eunsang. No continuation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/One_Spring_Night"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 32,
+      "release_date": {
+        "value": "2019-05-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "RT Tomatometer 94% from 3 critics. IMDb 7.9/10. Critics at Decider and But Why Tho praised its portrait of adult romance under societal pressure; some noted the deliberate pacing requires patience."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "A really interesting look at how romance in your 30s, no matter where you live, is complicated as hell.",
+            "source": "Decider",
+            "url": "https://decider.com/2019/07/19/one-spring-night-netflix-review-stream-it-or-skip-it/"
+          },
+          {
+            "text": "One Spring Night is also about female solidarity, and women who are supportive of each other.",
+            "source": "But Why Tho?",
+            "url": "https://butwhy.tho/one-spring-night"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10192576/"
+      },
+      "review_body": "One Spring Night aired on MBC from May to July 2019, the network's first weekday miniseries in the earlier 20:55 KST slot, and drew a 9.5% viewership rating for its finale. Director Ahn Pan-seok and writer Kim Eunsang - the same creative team behind Something in the Rain - applied a similarly patient, naturalistic approach to adult romance. Han Ji-min and Jung Hae-in's chemistry was widely praised, and critics flagged the show's unusually honest treatment of single parenthood stigma in Korean society. The Rotten Tomatoes Tomatometer sits at 94% from a small critic sample of three. Joel Keller at Decider called it 'a really interesting look at how romance in your 30s is complicated as hell.' The 32-episode run, structured as short paired episodes, rewards viewers willing to let the drama build slowly.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-05-22",
+          "bollymeter": 7.8,
+          "spoiler_free": "A quiet, observational opener that establishes the librarian's comfortable but airless relationship before introducing the pharmacist as a disruption - gentle and sure-footed in its setup.",
+          "the_moment": "The first wordless moment of recognition between the two leads in the pharmacy - nothing dramatic, just two people noticing each other in a way neither expected.",
+          "critic_note": {
+            "text": "A really interesting look at how romance in your 30s, no matter where you live, is complicated as hell.",
+            "source": "Joel Keller, Decider",
+            "url": "https://decider.com/2019/07/19/one-spring-night-netflix-review-stream-it-or-skip-it/"
+          }
+        },
+        {
+          "number": 32,
+          "title": "Episode 32",
+          "air_date": "2019-07-11",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale resolves its central tension without melodrama, trusting that the accumulation of small honest moments across 32 episodes has earned the ending. The 9.5% finale rating suggests audiences agreed.",
+          "the_moment": "The final conversation between the leads strips away every social obstacle the series spent weeks building, leaving only the choice each person has to make for themselves.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

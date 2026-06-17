@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © tvN / HB Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Lawless_Lawyer-poster.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T22:30:00Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/lawless-lawyer/poster.jpg",
+    "source_height": 383,
+    "source_width": 265,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "lawless-lawyer",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Lawless_Lawyer",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Lawless_Lawyer-poster.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/lawless-lawyer/w185.avif",
+      "bytes": 13605
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/lawless-lawyer/w185.webp",
+      "bytes": 14188
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/lawless-lawyer/w342.avif",
+      "bytes": 27966
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/lawless-lawyer/w342.webp",
+      "bytes": 33652
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/lawless-lawyer/w500.avif",
+      "bytes": 39401
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/lawless-lawyer/w500.webp",
+      "bytes": 49178
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T22:34:35.661Z"
+}

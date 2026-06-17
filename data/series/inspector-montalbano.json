@@ -1,0 +1,111 @@
+{
+  "slug": "inspector-montalbano",
+  "qid": {
+    "value": "Q9302120",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Inspector Montalbano",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Italy",
+  "original_language": {
+    "value": "it",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "RAI 1",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "Commissario Salvo Montalbano solves crimes in sun-scorched fictional Sicily with a detective's intelligence, a gourmand's appetites, and a reluctance to play by Rome's rules.",
+  "poster": {
+    "src": "/img/series/inspector-montalbano/poster.jpg",
+    "alt": "Inspector Montalbano poster",
+    "attribution": "Poster © RAI / Palomar. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The final episode, Il metodo Catalanotti, aired on 8 March 2021. Author Andrea Camilleri passed away in 2019; Luca Zingaretti confirmed no further episodes.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Inspector_Montalbano_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1999,
+      "episodes": 4,
+      "release_date": {
+        "value": "1999-05-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "The debut season established the series as Italy's defining modern crime drama; each episode a feature-length film averaging 100 minutes. Critics praised Luca Zingaretti's performance and the Sicilian landscape as a character in itself."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0920489/"
+      },
+      "review_body": "Inspector Montalbano debuted on RAI 2 in May 1999 and immediately distinguished itself from the European police procedural pack by refusing to be procedural in any hurried sense. Each of the four debut episodes runs close to 100 minutes, adapted from Andrea Camilleri's novels of the same fictional Sicilian setting. Luca Zingaretti's Commissario Salvo Montalbano is a policeman who reads, cooks, swims, argues with Rome, and occasionally solves murders - roughly in that order of enthusiasm. The series broadcast in over 65 countries and became RAI's most internationally successful drama of the era. Individual episode IMDb ratings cluster around 7.5 for the early run, with the series averaging solid marks across two decades. The debut season's signal achievement is establishing tone: warmly comic, morally serious, visually anchored in the actual Ragusa and Modica coastline that doubles for the fictional Vigata.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 15,
+      "year": 2021,
+      "episodes": 2,
+      "release_date": {
+        "value": "2021-03-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "The final two episodes aired posthumously after Camilleri's death; Il metodo Catalanotti received a 6.7 IMDb score - the lowest of the series - reflecting fans' sense of an ending that arrived under difficult circumstances."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14209954/"
+      },
+      "review_body": "The fifteenth and final season arrived on RAI 1 in March 2021, roughly twenty-two months after Andrea Camilleri's death at age 93. Il metodo Catalanotti - the concluding episode - closes not with a triumphant resolution but with a meditation on age, memory, and the Sicilian sense of time. Luca Zingaretti plays Montalbano noticeably older, more prone to melancholy, less amused by Rome. The IMDb episode score of 6.7 - the lowest in the series' run - reflects a fanbase that wanted a grander farewell rather than a sombre coda. That may be the wrong lens: the final season is faithful to Camilleri's late-career tone, which had grown darker and less playful. As a series conclusion it is honest rather than cathartic.",
+      "season_over_season": "After fourteen previous seasons of self-contained mysteries, the final two episodes carry the weight of farewell more explicitly than any prior run - the craft is intact but the energy is valedictory."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

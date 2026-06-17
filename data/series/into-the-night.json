@@ -1,0 +1,124 @@
+{
+  "slug": "into-the-night",
+  "qid": {
+    "value": "Q85769774",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Into the Night",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Belgium",
+  "original_language": {
+    "value": "fr",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Sci-Fi",
+    "Drama"
+  ],
+  "logline": "When sunlight becomes lethal and kills everything it touches, a hijacked red-eye flight from Brussels races westward through the dark with a fractured multilingual cabin - because stopping means dying.",
+  "poster": {
+    "src": "/img/series/into-the-night/poster.jpg",
+    "alt": "Into the Night poster",
+    "attribution": "Poster © Netflix / Big Wave Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix ended the series after Season 2 in September 2021. A Turkish-language spinoff, Yakamoz S-245, aired in April 2022 on Netflix.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81001143"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-05-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "88% on Rotten Tomatoes (18 reviews). Movie Nation called it 'taut, tense and nerve-wracking, a European riff on the End of Days disaster movie formula that plays by the rules and rarely disappoints.'"
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 18,
+        "pull_quotes": [
+          {
+            "text": "Taut, tense and nerve-wracking, a European riff on the End of Days disaster movie formula that rarely disappoints.",
+            "source": "Movie Nation",
+            "url": "https://www.metacritic.com/tv/into-the-night/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/into_the_night"
+      },
+      "review_body": "Into the Night launched on Netflix in May 2020 as Belgium's first Netflix original series - a six-episode thriller built around a premise of almost deranged simplicity: sunlight now kills, and the only safety is darkness, so a red-eye flight from Brussels must keep flying west, chasing the night, with a cabin full of strangers who do not trust each other. Critics responded positively: 88% on Rotten Tomatoes from 18 reviews. The show's engine is the claustrophobic ensemble - passengers and crew from a dozen countries, speaking French, Italian, Turkish, Russian, Polish, and English, whose alliances and antagonisms evolve as the plane runs low on fuel and options. Creator Jason George, adapting Jacek Dukaj's novel The Old Axolotl, kept the pace relentless and the stakes immediate. Audience reception was more divided - the rapid characterisation left some viewers detached - but as a Netflix genre experiment from an unexpected national cinema, Season 1 delivered.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Hijacking",
+          "air_date": "2020-05-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the premise with commendable economy: a soldier forces the pilot to turn the plane around before dawn, and within thirty minutes the show has explained why and set its multilingual ensemble in motion. The genre compact is clear and tightly honoured.",
+          "the_moment": "The first time the plane banks and turns westward, with the cabin just beginning to understand what they are running from.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-09-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/into_the_night"
+      },
+      "review_body": "Season 2 moved the survivors from the aircraft to a NATO bunker in Gorajde, expanding the world while losing some of the suffocating tension that made Season 1 work. The ground setting invited more complex faction politics and introduced new characters, but the formula that sustained the airborne premise - constant forward motion as existential necessity - could not be replicated underground. Sufficient critical data for a verified score was not available at time of writing. Netflix cancelled the series after Season 2, ending the story without the resolution audiences had been promised.",
+      "season_over_season": "Season 2 trades the plane's kinetic necessity for bunker politics - more space, less urgency.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

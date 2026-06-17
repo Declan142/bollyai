@@ -1,0 +1,103 @@
+{
+  "slug": "welcome-to-the-nhk",
+  "qid": null,
+  "title": {
+    "value": "Welcome to the N.H.K.",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Funimation",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Psychological",
+    "Drama",
+    "Slice of Life",
+    "Comedy"
+  ],
+  "logline": "A 22-year-old shut-in who blames a shadowy conspiracy for his social withdrawal is visited by a mysterious girl who insists she can cure him - a darkly comic descent into hikikomori culture, depression, and the elaborate fictions people construct to avoid living.",
+  "poster": {
+    "src": "/img/series/welcome-to-the-nhk/poster.jpg",
+    "alt": "Welcome to the N.H.K. poster",
+    "attribution": "Poster © Gonzo / Kadokawa Shoten. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 24-episode run that concluded December 2006. Based on the 2002 novel by Tatsuhiko Takimoto. No sequel or continuation produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Welcome_to_the_N.H.K."
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2006,
+      "episodes": 24,
+      "release_date": {
+        "value": "2006-07-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "IMDb's 8.2 from a substantial user base reflects a durable cult reputation - reviewers consistently cite its unflinching psychological honesty about depression and social avoidance as rare in the medium."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A true anime gem - a delicately human tale that may be the best anime of 2008.",
+            "source": "THEM Anime Reviews",
+            "url": "https://themanime.org/viewreview.php?id=1311"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0857297/"
+      },
+      "review_body": "Welcome to the N.H.K. arrived in 2006 as one of the sharper psychological portraits the medium had produced - a 24-episode Gonzo series adapted from Tatsuhiko Takimoto's semi-autobiographical novel about hikikomori life in early-2000s Japan. The show's unusual achievement is that its protagonist, Satou, is genuinely unpleasant in his self-delusion and manipulation, yet the series never loses sympathy for the structural forces that produced him. Critics responding to its English release noted the Catcher in the Rye comparisons that dogged the source novel: the same blend of self-aware unreliability and real anguish under the pose. THEM Anime Reviews called it 'a true anime gem - a delicately human tale.' The IMDb score of 8.2 across a large sample reflects a maintained cult standing two decades on. Gonzo's production is rarely flashy but consistently purposeful - the visual restraint matches the subject's suffocating interiority.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Welcome to the Project!",
+          "air_date": "2006-07-09",
+          "bollymeter": 7.8,
+          "spoiler_free": "A disorienting, funny, and quietly devastating first episode that establishes Satou's paranoid worldview with uncomfortable precision.",
+          "the_moment": "Satou's internal monologue explaining why the NHK is responsible for his condition - absurd, specific, and more emotionally honest than he intends.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Welcome to the Counselling!",
+          "air_date": "2006-09-03",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series reaches its psychological core as Satou's constructed defences collide with Misaki's own concealed damage - the episode that shifts the show from comedy to something harsher.",
+          "the_moment": "A rooftop scene that reframes the entire counselling dynamic in the final minutes - the series at its most structurally audacious.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

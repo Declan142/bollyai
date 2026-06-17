@@ -1,0 +1,81 @@
+{
+  "slug": "call-my-agent-bollywood",
+  "qid": {
+    "value": "Q109535906",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Call My Agent: Bollywood",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "logline": "Four Mumbai talent agents scramble to save their sinking agency while managing the egos and crises of Bollywood's biggest stars - an Indian remix of France's beloved Dix Pour Cent.",
+  "poster": {
+    "src": "/img/series/call-my-agent-bollywood/poster.jpg",
+    "alt": "Call My Agent: Bollywood poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "No second season announced; series effectively ended at one season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Call_My_Agent:_Bollywood"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-10-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.5,
+        "basis": "No Rotten Tomatoes score aggregated; critic consensus across Film Companion, The Quint, and Scroll.in was predominantly negative, with reviewers citing the show as 'vapid', 'barely funny', and structurally disconnected from its French source material."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A truly terrible remake of a terrific series - Shaad Ali gets it woefully wrong.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/call-my-agent-bollywood-netflix-review-terrible-remake-of-a-terrific-series-aahana-kumra-soni-razdan-ayush-mehra-rajat-kapoor"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Directed by Shaad Ali and written by Hussain and Abbas Dalal, Call My Agent: Bollywood arrives carrying the genetic advantage of one of French television's most beloved comedies, Dix Pour Cent - and squanders it. The Indian version follows four agents at a Mumbai talent firm - Aahana Kumra, Ayush Mehra, Rajat Kapoor, and Soni Razdan - as their agency lurches from crisis to crisis. Each of the six episodes features a celebrity guest playing a version of themselves. Critics at Film Companion called it a truly terrible remake, while The Quint described it as vapid and barely funny; Scroll.in registered a similar verdict. No Rotten Tomatoes aggregate exists for the series. The celebrity-episode format occasionally generates a moment of self-aware comedy, but the underlying agency drama lacks the emotional stakes that made the French original irresistible. The show mistakes Bollywood adjacency for Bollywood satire, and the gap between those two things is where the comedy dies.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

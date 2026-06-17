@@ -1,0 +1,100 @@
+{
+  "slug": "small-axe",
+  "qid": {
+    "value": "Q96100975",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Small Axe",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Historical",
+    "Biographical"
+  ],
+  "logline": "Five films by Steve McQueen trace the defiance, joy, and grief of West Indian communities in London from the 1960s to the 1980s - each story a blade that cuts at the roots of institutional racism.",
+  "poster": {
+    "src": "/img/series/small-axe/poster.jpg",
+    "alt": "Small Axe poster",
+    "attribution": "Poster © BBC / Amazon Studios / Turbine Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A five-film anthology conceived as a complete work by Steve McQueen. No further installments planned.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/programmes/m000mg6l"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 5,
+      "release_date": {
+        "value": "2020-11-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Five films averaging 97% on Rotten Tomatoes (467 reviews); Sight and Sound named Lovers Rock the best film of 2020. McQueen's formal range - from legal procedural to euphoric musical night - sets a benchmark for anthology filmmaking."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 467,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/small_axe"
+      },
+      "review_body": "Steve McQueen's Small Axe arrived on BBC One in late 2020 as one of the most ambitious British television events in years - five distinct films, each a self-contained world, united by the West Indian experience in London. The anthology holds 97% on Rotten Tomatoes across 467 reviews. Mangrove, the opening film, reconstructs the 1970 trial of the Mangrove Nine with the procedural rigour of a legal thriller and the fury of a civil rights document. Lovers Rock pivots entirely into euphoria - a single night at a blues dance, the camera drunk on movement and desire; Sight and Sound named it the best film of 2020. Red, White and Blue, Alex Wheatle, and Education complete the collection, each modulating tone while sustaining McQueen's core argument: that resistance is not just protest but community, music, and the insistence on being seen. The Peabody Award and John Boyega's Golden Globe for Best Supporting Actor mark the formal reception of a series that operates at a level most anthology television never reaches.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Mangrove",
+          "air_date": "2020-11-15",
+          "bollymeter": 9.3,
+          "spoiler_free": "The first film reconstructs the 1970 prosecution of nine Black activists who fought back against police harassment of the Mangrove restaurant in Notting Hill. McQueen delivers a courtroom drama that burns with documented injustice and finds unexpected grace in collective refusal.",
+          "the_moment": "The defendants speak for themselves in court, turning the trial into a public statement that cannot be ignored or dismissed.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Lovers Rock",
+          "air_date": "2020-11-22",
+          "bollymeter": 9.4,
+          "spoiler_free": "A single night at a blues dance in 1980 - Michaela Coel, Amarah-Jae St. Aubyn, and an ensemble of bodies move together in a film that is less a narrative than a sustained act of joy. Sight and Sound named it the best film of the year.",
+          "the_moment": "The crowd holds a single chord from Janet Kay's Silly Games and refuses to let it die - a moment that is both documentary and transcendence.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

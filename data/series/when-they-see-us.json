@@ -1,0 +1,120 @@
+{
+  "slug": "when-they-see-us",
+  "qid": {
+    "value": "Q55606843",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "When They See Us",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Crime",
+    "Biographical",
+    "Historical"
+  ],
+  "logline": "Ava DuVernay's four-part dramatisation of the 1989 Central Park jogger case follows five Black and Latino teenagers from arrest through decades of wrongful conviction, watching their lives fracture under a system that decided they were guilty before trial began.",
+  "poster": {
+    "src": "/img/series/when-they-see-us/poster.jpg",
+    "alt": "When They See Us poster",
+    "attribution": "Poster © Netflix / Array Filmworks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Released as a four-part limited series in May 2019. No additional seasons planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/When_They_See_Us"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 4,
+      "release_date": {
+        "value": "2019-05-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "96 percent on Rotten Tomatoes from 85 critics and a Metascore of 86; critics described it as shattering, elegant, and essential, with Jharrel Jerome's performance as Korey Wise earning particular praise."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 85,
+        "pull_quotes": [
+          {
+            "text": "The emotional roller coaster never lets up, careening from rage and sorrow to horror in DuVernay's shattering four-part dramatization.",
+            "source": "TV Guide Magazine",
+            "url": "https://www.metacritic.com/tv/when-they-see-us/"
+          },
+          {
+            "text": "A human story teased from history, it is personal and political, inextricably and in equal measure.",
+            "source": "Los Angeles Times",
+            "url": "https://www.metacritic.com/tv/when-they-see-us/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/when-they-see-us/"
+      },
+      "review_body": "When They See Us premiered May 31, 2019, and critics placed it among the most important American limited series of the decade. DuVernay's approach is structural rather than sensational: the first two episodes track the interrogations and trial; the third and fourth follow each of the Central Park Five into adulthood and through exoneration. The 96 percent Rotten Tomatoes score from 85 critics and the Metascore of 86 both reflected the rare case where craft and moral urgency are inseparable. Jharrel Jerome's performance as the adult Korey Wise, who endured more than a decade in adult prison, became the critical focal point - winning him an Emmy. DuVernay forces the camera to stay with faces the original coverage chose not to see.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Part 1",
+          "air_date": "2019-05-31",
+          "bollymeter": 9.0,
+          "spoiler_free": "The opening episode reconstructs the night of April 19, 1989, and the interrogations that followed. DuVernay refuses to reproduce the tabloid frame - the camera stays with the boys, not the prosecution. The coercion of children is shown methodically, without score-swelling drama, which makes it more disturbing than spectacle would.",
+          "the_moment": "The moment a detective tells a teenager his friend already confessed - and the lie starts to cascade through the room.",
+          "critic_note": {
+            "text": "Elegant, wrenching four-part reenactment of the Central Park Five saga.",
+            "source": "Time",
+            "url": "https://www.metacritic.com/tv/when-they-see-us/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Part 4",
+          "air_date": "2019-05-31",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale belongs entirely to Korey Wise. Jerome carries an episode that tracks years in adult prison and eventual exoneration, building to a confrontation with the justice system's architects that the series has been holding back. The most emotionally demanding hour of the four.",
+          "the_moment": "Wise's arrival at Rikers, alone among adults, the youngest face in a place that was not built for someone his age.",
+          "critic_note": {
+            "text": "It does as much as it can to recast the gaze on Black and brown people, eliciting empathy and the desire for justice.",
+            "source": "RogerEbert.com",
+            "url": "https://www.metacritic.com/tv/when-they-see-us/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

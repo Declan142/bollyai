@@ -1,0 +1,152 @@
+{
+  "slug": "russian-doll",
+  "qid": {
+    "value": "Q55632122",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Russian Doll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Supernatural",
+    "Psychological"
+  ],
+  "logline": "A sharp-tongued software engineer in New York keeps dying and rebooting at her 36th birthday party, and the mystery of why pulls her - and one other unlucky soul - apart and together across time.",
+  "poster": {
+    "src": "/img/series/russian-doll/poster.jpg",
+    "alt": "Russian Doll poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 2 premiered April 20, 2022, concluding the series. Creators have noted ideas for additional seasons but none have been greenlit.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Russian_Doll_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-02-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "97 percent on Rotten Tomatoes from 98 critics, with universal acclaim for Lyonne's layered performance and the season's tight, philosophically rich time-loop construction."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 98,
+        "pull_quotes": [
+          {
+            "text": "Natasha Lyonne gives a terrifically layered performance that ranges from hilariously funny to brutally emotional.",
+            "source": "ScreenCrush",
+            "url": "https://www.rottentomatoes.com/tv/russian_doll/s01"
+          },
+          {
+            "text": "Tightly scripted, compassionate LOLs balance the Freudian nightmares, while every episode twists and evolves in unpredictable ways.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/russian_doll/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/russian-doll/"
+      },
+      "review_body": "Russian Doll arrived in February 2019 and critics immediately recognised something unusual: a time-loop comedy built not around spectacle but around grief, trauma, and the compulsion to self-destruct. Natasha Lyonne's Nadia Vulvokov keeps dying at her own birthday party, and the show uses that premise to excavate childhood wounds with a specificity that most prestige dramas avoid. The 97 percent Rotten Tomatoes score from 98 critics reflected a rare consensus - every craft element, from the original score to the Greenwich Village locations to co-creator Leslye Headland's direction, reinforced the existential stakes. Metacritic registered 84, its 'Universal Acclaim' threshold. The season functions as an eight-episode short story, perfectly closed, with nothing wasted.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Nothing in This World Is Easy",
+          "air_date": "2019-02-01",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere drops Nadia mid-loop without prologue - she is already on her second or third death before the credits. The show trusts the audience to catch up, and that confidence sets the tone. The New York geography feels genuinely lived-in, not a Netflix postcard.",
+          "the_moment": "Nadia walks out of the bathroom mirror for the first time and the loop begins - the show's central image, elegant and unsettling.",
+          "critic_note": {
+            "text": "There's much more to appreciate about this quick hit of brilliance, from the leads' soulful performances to the edgy, adventurous direction.",
+            "source": "IndieWire",
+            "url": "https://www.rottentomatoes.com/tv/russian_doll/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Ariadne",
+          "air_date": "2019-02-01",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale resolves the loop with an emotional clarity that the show earns rather than explains. It refuses easy catharsis and yet still lands as cathartic. The final image is one of the better season endings in recent streaming history.",
+          "the_moment": "The two timelines diverge and the episode asks whether healing requires a witness - or just the willingness to try.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-04-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "97 percent on RT from 68 critics but with the consensus noting not every gamble pays off; the season is ambitious and audacious while occasionally overreaching."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 68,
+        "pull_quotes": [
+          {
+            "text": "Stylistically and philosophically consistent with its predecessor, it's different enough to not feel like a calculating retread.",
+            "source": "Los Angeles Times",
+            "url": "https://www.metacritic.com/tv/russian-doll/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/russian-doll/"
+      },
+      "review_body": "Season 2 pivoted from spatial looping to temporal displacement, sending Nadia backwards through her family's history via a Budapest-to-New York subway line. Critics maintained the 97 percent mark but the RT consensus itself noted that not all the gambles pay off, making this the more polarising of the two seasons. The formal ambition is genuine - the show uses time travel to explore intergenerational trauma and wartime dispossession - but the season loses some of Season 1's compressed urgency across seven episodes. Still, Lyonne's performance and the show's refusal to sentimentalise its protagonist remain assets.",
+      "season_over_season": "Season 2 trades the tight single-location premise for wider historical sweep, gaining thematic depth but losing some of the debut's structural elegance.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

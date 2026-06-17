@@ -1,0 +1,122 @@
+{
+  "slug": "spice-and-wolf",
+  "qid": null,
+  "title": {
+    "value": "Spice and Wolf",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia / Crunchyroll",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Romance",
+    "Adventure",
+    "Drama"
+  ],
+  "logline": "A travelling merchant and a centuries-old wolf deity journey northward through a medieval trading landscape, their relationship deepening as her divine cunning rescues his business ventures and the Church closes in on both of them.",
+  "poster": {
+    "src": "/img/series/spice-and-wolf/poster.jpg",
+    "alt": "Spice and Wolf poster",
+    "attribution": "Poster © Imagin / Kadokawa. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 2008 Brain's Base/Imagin adaptation ran two seasons (2008 and 2009). A remake series, Spice and Wolf: Merchant Meets the Wise Wolf (Passione, 2024), retells the story with updated production. This entry covers the original 2008 anime.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Spice_and_Wolf"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 13,
+      "release_date": {
+        "value": "2008-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "IMDb 7.7 understates the cult standing - critics who engaged with the series cited its economics-as-drama framework as genuinely original within the genre, with the Holo-Lawrence dynamic as its most durable achievement."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1158671/"
+      },
+      "review_body": "Spice and Wolf arrived in January 2008 as one of the more formally unusual anime of its era: a romance built not around schools or battles but around grain prices, currency debasement, and trade route monopolies. The 2008 series (produced by studio Imagin) established the franchise's reputation on the extraordinary chemistry between its two leads. English-language reception singled out the 'shockingly wide' economic detail and the 'perfect chemistry' of the leads - a phrase from contemporary reviews that held through the licensing cycle. The series holds a 7.7 on IMDb from a solid user base, which undersells how consistently the franchise is name-checked in discussions of romance writing in the medium. The Church-as-antagonist thread gives the episodic trading arcs a geopolitical edge that distinguishes the world-building from generic fantasy. Holo remains one of the most written-about characters in anime fandom two decades later.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Wolf and a Boy's Bet",
+          "air_date": "2008-01-09",
+          "bollymeter": 8.2,
+          "spoiler_free": "A quietly revolutionary premiere: Lawrence discovers Holo sleeping in his cargo, and the series immediately establishes that its drama will be verbal, mercantile, and unexpectedly warm.",
+          "the_moment": "Holo's first negotiation with Lawrence over the terms of their arrangement - the show's thesis in miniature: wit and mutual self-interest as the foundation of something genuine.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "Wolf and Tail of Happiness",
+          "air_date": "2008-02-06",
+          "bollymeter": 8.0,
+          "spoiler_free": "The first major trading arc concludes; the episode crystallises why the economic plotting works - the stakes are simultaneously financial and deeply personal.",
+          "the_moment": "Holo's quiet assessment of Lawrence after the deal resolves, delivered with a warmth she hasn't previously shown.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 12,
+      "release_date": {
+        "value": "2009-07-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 2 maintained the series' formula with confidence; the Kraft-Holo dynamic deepened credibly, though the absence of the arcs fans most wanted from the light novels left the season feeling incomplete."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 (Summer 2009) continued the original story with the same creative team and Imagin production. The emotional arc between Lawrence and Holo advanced with more directness - the series' defining characteristic, the dance of two intelligent people refusing to admit what they feel, reached new frankness. The season adapted content that left several popular light novel arcs unreached, and that gap fed years of audience demand for a remake - a demand eventually answered by the 2024 Passione series Spice and Wolf: Merchant Meets the Wise Wolf. As a standalone arc the season is confident and well-paced; as a continuation it ends in a place that felt provisional at the time.",
+      "season_over_season": "Season 2 adds emotional directness to the formula - less economic plotting, more relationship movement - at the cost of some of Season 1's structural novelty.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "horimiya",
+  "qid": {
+    "value": "Q104815263",
+    "source": "wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Horimiya",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Romance",
+    "Slice of Life",
+    "Coming of Age"
+  ],
+  "logline": "Two high school students discover each other's hidden private selves - the model student who manages a household alone and the quiet loner covered in tattoos - and fall into an unexpectedly tender romance.",
+  "poster": {
+    "src": "/img/series/horimiya/poster.jpg",
+    "alt": "Horimiya poster",
+    "attribution": "Poster © CloverWorks / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Season 1 (2021) adapted the main manga arc; Season 2 (Horimiya: The Missing Pieces, 2023) revisited story threads left out of the first run. The manga concluded in March 2021.",
+    "source": "Crunchyroll News",
+    "source_url": "https://www.crunchyroll.com/news/guides/2023/9/26/how-to-watch-horimiya-in-chronological-order"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 13,
+      "release_date": {
+        "value": "2021-01-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb's 8.0 user score reflects broad affection for the central couple's warmth, though critics noted the pacing compresses too many side-character arcs into too little time after the midpoint."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13103134/"
+      },
+      "review_body": "Horimiya debuted in January 2021 as one of Winter season's most anticipated adaptations, leveraging a beloved manga with a loyal readership. CloverWorks rendered the central romance with genuine warmth, and the exceptional main-duo chemistry became the series' defining quality - the show avoided conventional shojo melodrama in favour of quiet, domestic tenderness. The structural controversy centred on episodes five onwards, when the series pivoted to a snapshot anthology format covering the wider supporting cast - a format that divided reception: it pleased readers familiar with the manga material and frustrated newcomers who wanted sustained narrative momentum. IMDb's 8.0 user rating and a MyAnimeList weighted score around 7.7 reflect a show that succeeded where it was supposed to: the central love story is earned, specific, and avoids most genre cliches even when the plotting around it softens.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "That Wasn't Here Before",
+          "air_date": "2021-01-10",
+          "bollymeter": 8.0,
+          "spoiler_free": "A deft first episode that establishes both leads' double lives with economy and visual wit, setting the series' unusually grounded tone from the jump.",
+          "the_moment": "The reveal of Miyamura's hidden tattoos reframes him entirely in a single shot - the series' most effective visual surprise.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "It's Beginning to Look a Lot Like",
+          "air_date": "2021-04-04",
+          "bollymeter": 7.8,
+          "spoiler_free": "A quiet, satisfying finale that prioritises emotional resolution over plot mechanics - characteristic of the series at its best.",
+          "the_moment": "The couple's understated acknowledgment of their changed relationship closes the main arc without fanfare, trusting the audience to feel the weight.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 13,
+      "release_date": {
+        "value": "2023-07-01",
+        "source": "Crunchyroll / ComicBook.com",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The Missing Pieces is expressly fan-service for manga readers - pleasantly crafted but narratively inessential, functioning more as supplementary content than a standalone season."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Horimiya: The Missing Pieces (Summer 2023) adapted chapters the first season deliberately skipped - mostly low-stakes comedic vignettes and secondary-character moments. Anyone who found Season 1's anthology pivot awkward will find this season doubles down on exactly that register. The CloverWorks production maintains the warm visual style of the original, and individual episodes carry genuine charm. But without a central emotional arc to anchor it, the season functions as a highlight reel rather than a story. Best consumed after Season 1 by anyone wanting more time with the supporting cast.",
+      "season_over_season": "Where Season 1 built towards a romantic payoff, The Missing Pieces is entirely episodic - lighter, looser, and considerably less essential.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "paava-kadhaigal",
+  "qid": {
+    "value": "Q103662590",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Paava Kadhaigal",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "ta",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Crime",
+    "LGBTQ",
+    "Biographical"
+  ],
+  "logline": "Four Tamil directors turn the lens on honour, caste, and gender in interlocking stories where love becomes transgression and family becomes executioner.",
+  "poster": {
+    "src": "/img/series/paava-kadhaigal/poster.jpg",
+    "alt": "Paava Kadhaigal poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single anthology release; no sequel announced.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81451010"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 4,
+      "release_date": {
+        "value": "2020-12-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Rotten Tomatoes 75% from 8 critics; Saibal Chatterjee (NDTV) gave 4/5 praising the directors' command of compressed narrative; audience response was strong for Vetrimaaran and Sudha Kongara segments."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "The actors are in prime form; the abridged narrative format gives them scope to create sharply chiselled portraits of putrid patriarchy.",
+            "source": "NDTV (Saibal Chatterjee)",
+            "url": "https://www.ndtv.com/entertainment/paava-kadhaigal-review-netflix-anthology-film-tackles-honor-killings-caste-and-gender-violence-2340694"
+          },
+          {
+            "text": "It is the exploration of why the regular feels right and the different becomes a sin that makes Paava Kadhaigal gut-wrenching.",
+            "source": "Firstpost (Ranjani Krishnakumar)",
+            "url": "https://www.firstpost.com/entertainment/paava-kadhaigal-review-netflixs-tamil-anthology-is-brave-bold-and-necessary-8996501.html"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13206988/"
+      },
+      "review_body": "Four directors, four registers - and the anthology holds together because the subject matter is unforgiving enough to resist sentimentality. Sudha Kongara's Thangam follows a trans woman in 1980s Tamil Nadu whose devotion to her childhood friend costs her everything, and it is the gentlest of the four segments precisely because Kongara trusts the situation to carry its own weight. Vetrimaaran's Oor Iravu is the harshest, a father-and-daughter confrontation compressed into one devastating night. Critics on Rotten Tomatoes awarded a 75 percent score from eight reviews, with NDTV awarding 4 out of 5 stars and calling the performances prime form. The anthology's limitation is also its honesty: at roughly 40 minutes per story, the format can gesture at social wounds it cannot fully explore. That restraint reads as discipline rather than incompletion.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Thangam",
+          "air_date": "2020-12-18",
+          "bollymeter": 7.5,
+          "spoiler_free": "Directed by Sudha Kongara, this segment follows a Muslim trans woman in 1980s Tamil Nadu whose fierce loyalty to her childhood friend pulls her into the orbit of an interfaith romance she can only watch from the outside. Kalidas Jayaram and Kalki Koechlin anchor the piece with quiet restraint.",
+          "the_moment": "The final image of Thangam walking away from a celebration she helped make possible - kept at a distance that says everything.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Oor Iravu",
+          "air_date": "2020-12-18",
+          "bollymeter": 8.0,
+          "spoiler_free": "Vetrimaaran's contribution is the anthology's gut-punch - a father returning home the night of his daughter's inter-caste elopement, the film's moral horror locked entirely within one household. Prakash Raj delivers what critics called career-level work.",
+          "the_moment": "A single door closing - and the silence afterward that refuses to let the audience off the hook.",
+          "critic_note": {
+            "text": "Paava Kadhaigal touches upon taboo subjects: same-gender love, caste politics, rape, inter-caste marriage.",
+            "source": "Hindustan Times (Haricharan Pudipeddi)",
+            "url": "https://www.hindustantimes.com/entertainment/review/paava-kadhaigal-review-netflix-anthology-film-is-brave-and-unflinching-101608304523009.html"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

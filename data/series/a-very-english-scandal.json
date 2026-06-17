@@ -1,0 +1,112 @@
+{
+  "slug": "a-very-english-scandal",
+  "qid": {
+    "value": "Q30612134",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Very English Scandal",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Biographical",
+    "Crime",
+    "LGBTQ"
+  ],
+  "logline": "Liberal Party leader Jeremy Thorpe conspired to silence - permanently - the former male lover whose existence threatened his career, in an England where homosexuality had only just stopped being a crime.",
+  "poster": {
+    "src": "/img/series/a-very-english-scandal/poster.jpg",
+    "alt": "A Very English Scandal poster",
+    "attribution": "Poster © Blueprint Pictures / BBC One. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A self-contained three-episode miniseries based on John Preston's book. Amazon Prime Video subsequently commissioned A Very British Scandal (2021) with the same format but different subject.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/programmes/b0bpwgs5"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 3,
+      "release_date": {
+        "value": "2018-05-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% on Rotten Tomatoes (69 reviews); Metacritic 84 (universal acclaim, 17 critics). RogerEbert.com called it a must-see and Stephen Frears's best work in over a decade; Hugh Grant and Ben Whishaw are described as performances the season will be remembered for."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 69,
+        "pull_quotes": [
+          {
+            "text": "Stephen Frears does his best work in over a decade - a must-see.",
+            "source": "RogerEbert.com",
+            "url": "https://www.rogerebert.com/reviews/a-very-english-scandal-2018"
+          },
+          {
+            "text": "This rollicking, sublimely written work leaves no doubt that Thorpe was guilty.",
+            "source": "Wall Street Journal",
+            "url": "https://www.wsj.com/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.2,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/a-very-english-scandal/"
+      },
+      "review_body": "Russell T Davies wrote A Very English Scandal as a dark comedy about power and cowardice - and Stephen Frears directed it with the dry, furious wit the material demanded. Three episodes reconstruct Jeremy Thorpe's rise as Liberal Party leader, his long affair with Norman Scott during years when homosexuality was illegal, and the conspiracy that ended with a hired gunman shooting Scott's dog on Exmoor. Critics lined up behind it: 97% on Rotten Tomatoes from 69 reviews, Metacritic 84. The praise concentrated on two things: Davies's script, which treats Thorpe's mendacity as a product of institutional rot rather than personal evil, and the performances. Hugh Grant shed his romantic-comedy residue entirely; Ben Whishaw's Norman Scott - vulnerable, infuriating, ultimately right - gave the show its moral centre. The Wall Street Journal called it sublimely written; RogerEbert.com judged it Frears's best work in over a decade. A template for the British prestige miniseries that followed.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-05-20",
+          "bollymeter": 8.5,
+          "spoiler_free": "The opening episode establishes Thorpe's power and the furtive, doomed shape of the affair with Norman Scott. Davies plays it partly as establishment comedy - the rituals of the Liberal Party, the closed world of the Commons - and partly as a portrait of a man who has learned to perform innocence so well he has almost stopped noticing the reality.",
+          "the_moment": "Thorpe's first encounter with Scott, played against the social comedy of postwar England, makes the danger of the relationship visible before either man does.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2018-06-03",
+          "bollymeter": 9.0,
+          "spoiler_free": "The trial episode, in which Thorpe faces the full public reckoning. Grant gives the series its defining performance in a man stripped of every defence except the establishment's residual willingness to protect its own. The finale lands with the particular chill of a true story that has no satisfying resolution.",
+          "the_moment": "The verdict, and the camera's long pause on Norman Scott's face as the acquittal is read out.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

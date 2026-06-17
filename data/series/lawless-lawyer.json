@@ -1,0 +1,101 @@
+{
+  "slug": "lawless-lawyer",
+  "qid": {
+    "value": "Q50716289",
+    "source": "Wikipedia sidebar / wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Lawless Lawyer",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "Wikipedia / Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Legal",
+    "Action",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A former gangster turned street-fighting lawyer teams up with a principled attorney to dismantle the corrupt judge who destroyed both their lives in the fictional port city of Kisung.",
+  "poster": {
+    "src": "/img/series/lawless-lawyer/poster.jpg",
+    "alt": "Lawless Lawyer poster",
+    "attribution": "Poster © tvN / HB Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "16-episode single-season run completed July 2018. No renewal announced. Finale rated 8.937% on AGB Nielsen, one of the highest cable finale ratings of 2018.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Lawless_Lawyer"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-05-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb rates it 7.6/10. The finale was one of cable television's highest-rated episodes of 2018 at 8.937% (AGB Nielsen). Critics praised Lee Joon-gi's physical charisma and the villain work, while noting script inconsistency in the second half."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8160178/"
+      },
+      "review_body": "Lawless Lawyer premiered on tvN in May 2018 and drew strong cable ratings throughout its run, with the finale hitting 8.937% on AGB Nielsen - among the highest for a Korean cable drama that year. The show is built around Lee Joon-gi's physicality: the action choreography is kinetic and the lead's commitment to the brawling lawyer persona never wavers. Seo Yea-ji holds her own as the ethically grounded counterpart, and the antagonist duo of Choi Min-soo and Lee Hye-young deliver genuinely menacing work. The general consensus places the first eight episodes as a tight revenge thriller, with the back half becoming narratively hazier. Viewers who tune in for the action and villain dynamics will find the ride satisfying; those seeking tighter plotting in the second half may find it uneven.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-05-12",
+          "bollymeter": 8.0,
+          "spoiler_free": "A kinetic opening that makes no apology for its pulp ambitions - the courtroom fistfight within the first ten minutes sets the show's register and Lee Joon-gi's charisma does the rest.",
+          "the_moment": "The moment Bong Sang-pil defends a client by threatening the opposing lawyer with physical consequences is both ridiculous and completely committed - the show's contract with the audience in one scene.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2018-07-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale delivers the revenge payoff viewers tuned in for, even if the path to get there required some narrative shortcuts. A satisfying close to a series that prioritised momentum over rigour.",
+          "the_moment": "The final confrontation in the courthouse closes the personal arc that opened the series, landing with the genre satisfaction the show promised from episode one.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

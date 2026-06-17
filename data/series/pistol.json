@@ -1,0 +1,91 @@
+{
+  "slug": "pistol",
+  "qid": {
+    "value": "Q106362893",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Pistol",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX on Hulu / Disney+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Biographical",
+    "Drama",
+    "Musical"
+  ],
+  "logline": "Danny Boyle reconstructs the Sex Pistols' brief, shattering career through the eyes of guitarist Steve Jones - a petty thief from Shepherd's Bush who accidentally helped detonate British culture.",
+  "poster": {
+    "src": "/img/series/pistol/poster.jpg",
+    "alt": "Pistol poster",
+    "attribution": "Poster © FX Productions / Turbine Studios / Ginger Pig Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A six-episode limited series based on Steve Jones's memoir Lonely Boy. No continuation planned.",
+    "source": "FX",
+    "source_url": "https://www.fxnetworks.com/shows/pistol"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-05-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "64% on Rotten Tomatoes (61 reviews); Metacritic 60/100. Critics praised Boyle's kinetic direction and Anson Boon's Johnny Rotten but found the series fell back on biopic formula - the story of a band that mocked formula told inside one."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": 61,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes Popcornmeter",
+        "source_url": "https://www.rottentomatoes.com/tv/pistol"
+      },
+      "review_body": "Danny Boyle brought the frenzied, jump-cut energy that made Trainspotting essential to the story of British punk's original four-minute assault - and the result is a six-episode series that is frequently exciting and structurally conventional. Rotten Tomatoes settled at 64% from 61 reviews; Metacritic at 60. The split in the score reflects a genuine paradox: the Sex Pistols were the band that punctured rock mythology, yet Pistol gives them a standard rise-and-fall arc, complete with the obligatory scenes of inner conflict, record company showdowns, and artistic betrayal. On the credit side, Boyle's direction is relentless, Anson Boon's inhabiting of John Lydon's snarl and posture is extraordinary, and the period design makes 1976 London feel genuinely grimy. Toby Wallace's Steve Jones is a likeable protagonist whose ordinariness is the point but also the limit. The audience score of 60% on Rotten Tomatoes reflects the same ambivalence the mixed critical reception signals. Worth watching for the music sequences, Boon's performance, and Boyle's refusal to make anything look clean.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Cloak of Invisibility",
+          "air_date": "2022-05-31",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere establishes Steve Jones as a kid who steals equipment from rock stars because he cannot imagine being one. Boyle opens with pure energy - jump cuts, period music, the specific texture of Shepherd's Bush in 1975. The character work is rougher than the style but the intent is clear: this is punk as working-class self-invention.",
+          "the_moment": "Jones breaking into David Bowie's dressing room and staring at the equipment as if it belongs to another species.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
