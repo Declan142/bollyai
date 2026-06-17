@@ -1,0 +1,96 @@
+{
+  "slug": "sungkyunkwan-scandal",
+  "qid": {
+    "value": "Q623415",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Sungkyunkwan Scandal",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "KBS2",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Romance", "Coming of Age", "Comedy", "Drama"],
+  "logline": "A Joseon-era woman disguises herself as a man to enter the kingdom's most elite university, and finds herself caught between scholarship, political intrigue, and three very different young men who change everything.",
+  "poster": {
+    "src": "/img/series/sungkyunkwan-scandal/poster.jpg",
+    "alt": "Sungkyunkwan Scandal poster",
+    "attribution": "Poster © C-JeS Entertainment / KBS2. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season complete series. 20 episodes aired on KBS2 from August 30 to November 2, 2010.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sungkyunkwan_Scandal"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 20,
+      "release_date": {
+        "value": "2010-08-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "A period rom-com that built a fervent international fanbase and sold 110,000 OST copies within weeks of airing. Won the Bronze World Medal at the 55th New York Festivals International Television and Film Awards (2012), reflecting genuine crossover critical esteem."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2236080/"
+      },
+      "review_body": "Sungkyunkwan Scandal is a foundational text in the Joseon cross-dressing rom-com genre - a show that knew exactly what it was doing and did it with craft and charm. Park Min-young's Kim Yoon-hee is one of the most resourceful heroines in K-drama historical fiction, navigating Sungkyunkwan's rigid male hierarchy through wit rather than luck. Song Joong-ki and Yoo Ah-in - before either became household names internationally - deliver complementary supporting turns that give the central romance room to breathe. The show attracted ratings that underperformed its cultural footprint: the fervent fanbase and 110,000 OST copies sold within weeks told the truer story. Its 2012 New York Festivals win cemented the case for its craft. A must-watch for anyone tracing the DNA of the modern sageuk romance.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2010-08-30",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere lays out the gender-disguise premise with economy and warmth. Park Min-young establishes Yoon-hee's intelligence and desperation in a single opening sequence that makes the whole deception feel plausible.",
+          "the_moment": "Yoon-hee's first day at Sungkyunkwan in male dress - the gap between her composure and her visible terror played with quiet precision.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2010-11-02",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale gives the Jalgeum Quartet's story a resolution that respects every character's arc without rushing. The political thread and the romance converge cleanly, which is harder than the show makes it look.",
+          "the_moment": "The reveal that Yoon-hee's identity was known earlier than the audience assumed - a recontextualization that adds emotional depth without changing any plot facts.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "baccano",
+  "qid": {
+    "value": "Q484579",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Baccano!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll / Funimation",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Thriller", "Supernatural", "Crime", "Historical"],
+  "logline": "In 1930s Prohibition America, mafiosi, thieves, immortal alchemists, and a train called the Flying Pussyfoot collide across three timelines told simultaneously - a gangster mystery that refuses to pick a protagonist.",
+  "poster": {
+    "src": "/img/series/baccano/poster.jpg",
+    "alt": "Baccano! poster",
+    "attribution": "Poster © Brain's Base / Ryohgo Narita / Dengeki Bunko. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season 16-episode run completed in 2007 (13 broadcast + 3 DVD-exclusive). No sequel anime has been produced; the light novel series by Ryohgo Narita continues.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Baccano!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": 16,
+      "release_date": {
+        "value": "2007-07-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "MAL score of 8.34 from 399,709 users; critically praised for its non-linear structure, 30-character ensemble, and the density of its plotting, which rewards rewatch in a way few 13-episode anime can claim."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.34,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/2251/Baccano"
+      },
+      "review_body": "Baccano! aired on WOWOW in summer 2007 and was immediately identified as an outlier: 16 episodes structured across three interweaving timelines - 1711, 1930, and 1931 - with a cast of roughly 30 characters and no central protagonist. Brain's Base adapted Ryohgo Narita's light novel with an almost adversarial confidence, refusing to orient the viewer with linear chronology and trusting that the pieces would assemble into a coherent whole. The Flying Pussyfoot train massacre, which runs through the 1931 timeline, provides the narrative spine; the 1930 Martillo family story provides the comedy; the 1711 prologue provides the mythology. Critical and audience reception has been consistently high, with the MAL score of 8.34 from nearly 400,000 users reflecting a show whose reputation has only grown through word of mouth. Comparisons to Tarantino in structure are common and broadly accurate.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Vice President Doesn't Say Anything About the Scenario He Wrote",
+          "air_date": "2007-07-27",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere is a deliberate orientation challenge: two informants debate who the protagonist of the story should be, list candidates, and agree they cannot decide. The episode then cuts between timelines without apology. Viewers who accept the disorientation get the series; those who need a conventional anchor are advised to adjust expectations.",
+          "the_moment": "The two informants' opening argument about protagonists, which is the show's thesis delivered as comedy: there is no center, there are only people.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "The Train Comes, The Train Goes",
+          "air_date": "2007-10-11",
+          "bollymeter": 9.0,
+          "spoiler_free": "The broadcast finale converges the major timelines and reveals how the Flying Pussyfoot massacre, the Martillo family's elixir, and the 1711 alchemists' bargain are structurally the same story told at different scales. The three DVD-exclusive episodes continue past this point, but the broadcast ending stands as a satisfying resolution.",
+          "the_moment": "The convergence of Isaac and Miria's cheerful obliviousness with the darkest events on the train - the show's argument that chaos produces grace as readily as violence.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

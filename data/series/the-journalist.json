@@ -1,0 +1,118 @@
+{
+  "slug": "the-journalist",
+  "qid": null,
+  "title": {
+    "value": "The Journalist",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "logline": "A tenacious reporter at a Tokyo newspaper uncovers a government cover-up, in a political thriller adapted from the 2019 film based on real journalist Isoko Mochizuki's memoir.",
+  "poster": {
+    "src": "/img/series/the-journalist/poster.jpg",
+    "alt": "The Journalist poster",
+    "attribution": "Poster © Netflix Japan. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Based on the 2019 film and journalist Isoko Mochizuki's 2017 memoir. Two seasons released on Netflix Japan in 2022 and 2023.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Journalist_(2019_film)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "100% on Rotten Tomatoes (8 critics). Critics praised its unflinching approach to press freedom and government accountability in Japan, with Ryoko Yonekura as a compelling lead."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "A political thriller that grabs its audience from the very first episode and doesn't let them go.",
+            "source": "But Why Tho",
+            "url": "https://www.rottentomatoes.com/tv/the_journalist/s01"
+          },
+          {
+            "text": "This is a series with a purpose and a lot to say if you give it time to find its footing.",
+            "source": "Flick Fan Nation",
+            "url": "https://www.rottentomatoes.com/tv/the_journalist/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The Journalist launched on Netflix on January 13, 2022, adapted from the celebrated 2019 film of the same name and journalist Isoko Mochizuki's memoir about challenging Japan's government press club system. Ryoko Yonekura plays Erika Yoshioka, a reporter at the Toto Newspaper who follows a trail of government deception through layers of bureaucratic obstruction. The series earned a perfect 100% on Rotten Tomatoes from 8 critics. Reviewers at But Why Tho and Flick Fan Nation praised its urgency and political clarity. The South China Morning Post noted Yonekura's compelling lead performance while finding the season's pacing uneven. For international audiences, the show offered a rare window into Japanese press culture and the real institutional pressures that Mochizuki documented.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2022-01-13",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes the institutional machinery Erika is fighting against - the kisha club system that manages government access and punishes reporters who step outside it.",
+          "the_moment": "Erika's first direct challenge to a government press briefing - the moment the show announces what kind of journalism drama it intends to be.",
+          "critic_note": {
+            "text": "A political thriller that grabs its audience from the very first episode and doesn't let them go.",
+            "source": "But Why Tho",
+            "url": "https://www.rottentomatoes.com/tv/the_journalist/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-01-01",
+        "source": "reported",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 of The Journalist was released on Netflix in 2023, continuing the investigative thread from the first season. No aggregated critic score appeared on Rotten Tomatoes for Season 2 at the time of writing. The series maintained its focus on government accountability and press freedom in Japan, with Ryoko Yonekura continuing in the lead role. Detailed season-specific reception data was not available from verified sources.",
+      "season_over_season": "Season 2 extends the investigative arc into new political territory while maintaining the first season's formal commitment to institutional detail.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

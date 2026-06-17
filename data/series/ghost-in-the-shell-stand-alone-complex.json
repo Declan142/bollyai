@@ -1,0 +1,157 @@
+{
+  "slug": "ghost-in-the-shell-stand-alone-complex",
+  "qid": {
+    "value": "Q1776982",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ghost in the Shell: Stand Alone Complex",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Sci-Fi", "Thriller", "Crime", "Psychological"],
+  "logline": "Major Motoko Kusanagi leads Section 9, an elite cybercrime unit in a 2030 Japan where the line between human and machine is political, not philosophical - and every case tests what it means to have a soul.",
+  "poster": {
+    "src": "/img/series/ghost-in-the-shell-stand-alone-complex/poster.jpg",
+    "alt": "Ghost in the Shell: Stand Alone Complex poster",
+    "attribution": "Poster © Production I.G / Kodansha. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded in 2005, followed by the Solid State Society OVA in 2006. The Stand Alone Complex continuity has not been revived; a separate Netflix CGI series (SAC_2045) launched in 2020.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell:_Stand_Alone_Complex"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2002,
+      "episodes": 26,
+      "release_date": {
+        "value": "2002-10-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "RT critics score of 67% from 12 reviews understates the show's reputation; MAL audience score of 8.42 from 172,923 users and a 97% audience score on Rotten Tomatoes reflect its enduring status as the benchmark cyberpunk police procedural in animation."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 12,
+        "pull_quotes": [
+          {
+            "text": "Stand Alone Complex combines the best of both Shirow and Oshii's sensibilities, arguably positioning itself as one of the best anime series of its time.",
+            "source": "Paste Magazine",
+            "url": "https://www.rottentomatoes.com/tv/ghost_in_the_shell_stand_alone_complex/s01"
+          },
+          {
+            "text": "If only all sci-fi was this good.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/ghost_in_the_shell_stand_alone_complex/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.42,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/467/Ghost_in_the_Shell__Stand_Alone_Complex"
+      },
+      "review_body": "The first season of Stand Alone Complex aired in Japan from October 2002 and reframed what a Ghost in the Shell adaptation could be - not a philosophical art film like Oshii's 1995 movie, but a procedural that embedded the franchise's identity questions inside police casework. The Laughing Man arc, tracking a hacker whose symbol becomes a mass meme, proved remarkably prescient about internet-era anonymous protest. Critics at the time were divided - the 67% Rotten Tomatoes score from 12 reviews reflects an era when Western anime criticism lacked the vocabulary for the show's ambitions - but the 97% audience score and MAL's 8.42 from over 172,000 users tell a different story. Production I.G's animation was simply the most technically accomplished TV anime of its period, and Yoko Kanno's score remains one of anime's all-time great soundtracks.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Section 9",
+          "air_date": "2002-10-01",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere deploys Section 9 against a terrorist incident involving a cyborg diplomat and wastes no time establishing Major Kusanagi as a commander who thinks philosophically while operating tactically. The series' central tension - human identity inside post-human bodies - arrives in the first act.",
+          "the_moment": "Kusanagi dives off a building mid-mission and goes thermoptic camouflage, a visual statement that the series plays in a different register from its film predecessors.",
+          "critic_note": {
+            "text": "Stand Alone Complex combines the best of both Shirow and Oshii's sensibilities, arguably positioning itself as one of the best anime series of its time.",
+            "source": "Paste Magazine",
+            "url": "https://www.rottentomatoes.com/tv/ghost_in_the_shell_stand_alone_complex/s01"
+          }
+        },
+        {
+          "number": 26,
+          "title": "Stand Alone Complex",
+          "air_date": "2003-10-01",
+          "bollymeter": 9.0,
+          "spoiler_free": "The season finale resolves the Laughing Man investigation by exposing how a spontaneous act of civil disobedience was commercialized, co-opted, and weaponized - a conclusion that reads as prescient twenty years later. The final conversation between Kusanagi and the Laughing Man is the philosophical peak of the season.",
+          "the_moment": "The Laughing Man's reveal turns the question of mimicry back on the audience: if a symbol can be copied without meaning, what is left of the original act?",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2004,
+      "episodes": 26,
+      "release_date": {
+        "value": "2004-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "2nd GIG is frequently rated above Season 1 by long-term fans; the refugee crisis narrative and Kuze as an antagonist are cited as the most emotionally resonant storytelling in the Stand Alone Complex continuity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Ghost in the Shell: Stand Alone Complex is one of the exceptions to the rule when adapting films to television.",
+            "source": "WhatCulture",
+            "url": "https://www.rottentomatoes.com/tv/ghost_in_the_shell_stand_alone_complex/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.42,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/467/Ghost_in_the_Shell__Stand_Alone_Complex"
+      },
+      "review_body": "The second season, subtitled 2nd GIG, broadened the franchise's political scope: where the Laughing Man arc examined information and identity, 2nd GIG tackled refugee displacement, post-war nationalism, and the radicalization of the disenfranchised. The antagonist Hideo Kuze - a cyborg who becomes a messiah figure for stateless refugees - gave the season a moral complexity that the first season's hacker premise could not match. Fan and critical reception places 2nd GIG at or above Season 1 as the high point of the television continuity. The integration of standalone episodes and the serialized Individual Eleven arc demonstrated that Production I.G had mastered the structural balance the first season invented. Yoko Kanno returned with a score equally ambitious as the first.",
+      "season_over_season": "2nd GIG raises the political and emotional stakes of Season 1 by replacing a hacker mystery with a full refugee crisis, and Kuze is the most fully realized antagonist in the continuity.",
+      "episode_reviews": [
+        {
+          "number": 11,
+          "title": "Affection / KUSANAGI'S MELANCHOLY",
+          "air_date": "2004-03-20",
+          "bollymeter": 9.1,
+          "spoiler_free": "A Kusanagi-focused episode that traces her history with prosthetic bodies back to childhood, asking whether continuity of memory constitutes identity when the physical substrate has been replaced multiple times. Among the most quoted episodes in discussions of the series' philosophy.",
+          "the_moment": "Young Motoko at the edge of a lake, asking the doctor whether the ghost inside her is real - a question the series never definitively answers.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

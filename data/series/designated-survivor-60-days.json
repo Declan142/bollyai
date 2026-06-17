@@ -1,0 +1,106 @@
+{
+  "slug": "designated-survivor-60-days",
+  "qid": {
+    "value": "Q61757497",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Designated Survivor: 60 Days",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Drama", "Mystery", "Crime"],
+  "logline": "South Korea's mild-mannered environment minister survives a bombing that kills the entire line of succession, inherits the presidency for 60 days, and must unravel the conspiracy that put him there - while holding a fractured government together.",
+  "poster": {
+    "src": "/img/series/designated-survivor-60-days/poster.jpg",
+    "alt": "Designated Survivor: 60 Days poster",
+    "attribution": "Poster © Studio Dragon / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single-season limited series. 16 episodes aired on tvN from July 1 to August 20, 2019. Based on the American series Designated Survivor; no continuation planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Designated_Survivor:_60_Days"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-07-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Rotten Tomatoes Tomatometer at 94% from 2 reviews; won the 2019 Asian Academy Creative Awards for Best Adaptation of an Existing Format. The Korean remake locates the American format's crisis-premise inside the specific texture of Korean political culture with notable fidelity."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "A fresh - yet familiar - show that introduces Korean politics to fans of political dramas.",
+            "source": "Cinema Escapist",
+            "url": "https://www.rottentomatoes.com/tv/designated_survivor_60_days/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "AGB Nielsen (nationwide average viewership 4.464%)",
+        "source_url": "https://en.wikipedia.org/wiki/Designated_Survivor:_60_Days"
+      },
+      "review_body": "The Korean adaptation of Designated Survivor earns its subtitle. Rather than translating the American premise wholesale, writer Kim Tae-hee reconfigures it around the specific pressures of Korean coalition politics, bureaucratic hierarchy, and media scrutiny. Ji Jin-hee's acting president is not an American everyman thrust into power - he is a Korean technocrat whose competence and decency are treated as liabilities by everyone around him. Director Yoo Jong-sun keeps the procedural pace taut across 16 episodes, and the bombing-conspiracy thread genuinely sustains its tension through the finale. The 94% Rotten Tomatoes score is thin in sample (2 reviews) but the 2019 Asian Academy Creative Award for Best Adaptation confirms the quality of the localization. One of the more intelligent political thrillers in recent Korean television.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-07-01",
+          "bollymeter": 8.2,
+          "spoiler_free": "The bombing sequence that reorders the Korean political landscape is staged with real force, and the show immediately establishes that its acting-president protagonist is a man whose qualities are exactly wrong for the moment he has been handed.",
+          "the_moment": "The moment Park Mu-jin realizes he is the only surviving member of the line of succession - the look on Ji Jin-hee's face does the work that a lesser show would give to exposition.",
+          "critic_note": {
+            "text": "A fresh - yet familiar - show that introduces Korean politics to fans of political dramas.",
+            "source": "Cinema Escapist",
+            "url": "https://www.rottentomatoes.com/tv/designated_survivor_60_days/s01"
+          }
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2019-08-20",
+          "bollymeter": 7.9,
+          "spoiler_free": "The finale resolves the conspiracy without collapsing into the melodrama the middle episodes occasionally threatened. The 60-day countdown structure pays off in a way that feels structurally honest.",
+          "the_moment": "The disclosure of who ordered the bombing - a reveal the show has earned by not telegraphing the answer in the back half.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

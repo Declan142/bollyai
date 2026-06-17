@@ -1,0 +1,88 @@
+{
+  "slug": "jonathan-strange-and-mr-norrell",
+  "qid": {
+    "value": "Q16995459",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Jonathan Strange and Mr Norrell",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Fantasy", "Historical", "Drama", "Supernatural"],
+  "logline": "In an alternate Napoleonic England where magic has been forgotten, a reclusive scholar and a reckless young magician revive the old arts - and inadvertently awaken a malevolent fairy whose bargains come at unthinkable cost.",
+  "poster": {
+    "src": "/img/series/jonathan-strange-and-mr-norrell/poster.jpg",
+    "alt": "Jonathan Strange and Mr Norrell poster",
+    "attribution": "Poster © BBC / Cuba Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode miniseries, concluded June 2015. Based on Susanna Clarke's novel; no sequel planned.",
+    "source": "BBC",
+    "source_url": "https://www.bbc.co.uk/programmes/p02p5dk3"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 7,
+      "release_date": {
+        "value": "2015-05-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "92% on Rotten Tomatoes (36 critics) and 73 on Metacritic (16 critics); Bertie Carvel and Eddie Marsan praised for playing their contrasting magicians with wit and menace in a handsomely realised historical fantasy."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 36,
+        "pull_quotes": [
+          {
+            "text": "Carvel and especially Marsan give such invigorating performances, and play against each other so beautifully.",
+            "source": "Slate",
+            "url": "https://www.metacritic.com/tv/jonathan-strange-mr-norrell/"
+          },
+          {
+            "text": "An idiosyncratic tale bracingly told, generously whimsical but embellished with malevolence.",
+            "source": "Newark Star-Ledger",
+            "url": "https://www.metacritic.com/tv/jonathan-strange-mr-norrell/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/jonathan-strange-mr-norrell/"
+      },
+      "review_body": "The BBC's seven-episode adaptation of Susanna Clarke's 800-page novel aired in May and June 2015 to strong critical and audience approval. Adaptor Peter Harness and director Toby Haynes faced the challenge of condensing a sprawling alternate history into contained television and largely succeeded: the 92% Rotten Tomatoes score reflected widespread agreement that the tone - stately, dark, shot through with mordant wit - matched Clarke's original register. Eddie Marsan's Norrell is a masterclass in cramped, proprietary anxiety; Bertie Carvel's Strange a charming foil whose confidence shades into hubris. Marc Warren's Gentleman with the Thistledown Hair was cited as one of the most genuinely unsettling fairy presences British television had produced in years. The BFI named the series among the year's ten most important television programmes.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

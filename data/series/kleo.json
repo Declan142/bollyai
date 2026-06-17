@@ -1,0 +1,105 @@
+{
+  "slug": "kleo",
+  "qid": {
+    "value": "Q113574132",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kleo",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Action", "Comedy", "Spy"],
+  "logline": "A Stasi assassin wrongly imprisoned is freed when the Berlin Wall falls in 1989 - and immediately sets out to kill everyone who betrayed her, with a hapless West Berlin cop in reluctant pursuit.",
+  "poster": {
+    "src": "/img/series/kleo/poster.jpg",
+    "alt": "Kleo poster",
+    "attribution": "Poster © Netflix / Zeitsprung Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons, concluded with Season 2 in July 2024. Netflix did not announce a third season.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81489595"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-08-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "92% on Rotten Tomatoes (13 critics); Jella Haase won the Deutscher Fernsehpreis for Best Actress and the season was praised for blending Cold War nostalgia with kinetic action-comedy."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 13,
+        "pull_quotes": [
+          {
+            "text": "Once you get beyond its derivative aspects, this East German revenge thriller is a lot of fun, thanks to Jella Haase.",
+            "source": "The Times",
+            "url": "https://www.rottentomatoes.com/tv/kleo/s01"
+          },
+          {
+            "text": "Kleo may not be the first to do it, but it is nevertheless an entertaining, highly stylised and cinematic adventure.",
+            "source": "The Guardian",
+            "url": "https://www.rottentomatoes.com/tv/kleo/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Kleo arrived on Netflix in August 2022 and immediately drew comparisons to Killing Eve - another stylised thriller built around a lethal, charismatic woman navigating a world of institutional betrayal. The series is set in the final days of the GDR and the chaotic months after the Wall falls, grounding its revenge plot in a specific historical texture that German television rarely serves up this entertainingly. Jella Haase carries the season with a performance that earned her the Deutscher Fernsehpreis and the Jupiter Award for Best Actress: Kleo is funny, cold, and volatile in roughly equal measure. Critics at the 92% Rotten Tomatoes mark noted the season's confident visual grammar and its refusal to flatten the moral stakes of its premise. The Grimme-Preis went to the writing team.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-07-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned in July 2024 with six episodes, pulling Kleo into a wider conspiracy that extends beyond her personal vendetta into Cold War geopolitics still unresolved after reunification. The shorter episode run gave the season a tighter pace than its predecessor, though critical coverage was thinner. Jella Haase remained the anchor - the series would not function without her particular blend of deadpan menace and physical commitment. Audience reception was generally positive among viewers who followed from Season 1, though the show was not renewed for a third season, leaving some threads open.",
+      "season_over_season": "Tighter at six episodes but the Cold War conspiracy widens in ways that trade the first season's fresh energy for a more conventional thriller structure.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

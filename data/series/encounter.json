@@ -1,0 +1,96 @@
+{
+  "slug": "encounter",
+  "qid": {
+    "value": "Q55547488",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Encounter",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Drama", "Slice of Life"],
+  "logline": "A constrained politician's daughter who manages a luxury hotel meets a free-spirited young traveler in Cuba - and when he turns up as her employee in Seoul, they must navigate a relationship that defies everything their worlds allow.",
+  "poster": {
+    "src": "/img/series/encounter/poster.jpg",
+    "alt": "Encounter poster",
+    "attribution": "Poster © Bon Factory Worldwide / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. 16 episodes aired on tvN from November 28, 2018 to January 24, 2019. Broadcasting rights sold to over 100 territories.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Encounter_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-11-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "The premiere drew 8.7% nationwide ratings, among the highest cable drama debuts of 2018. Broadcasting rights sold to over 100 territories. Critics noted Song Hye-kyo and Park Bo-gum were 'completely absorbed in their roles' in a quietly composed melodrama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "AGB Nielsen (premiere: 8.7% nationwide)",
+        "source_url": "https://en.wikipedia.org/wiki/Encounter_(South_Korean_TV_series)"
+      },
+      "review_body": "Encounter (also known as Boyfriend) is a measured, visually precise melodrama that trades on the contrast between its leads' social worlds. Cha Soo-hyun lives inside duty - political family, public role, watched life. Kim Jin-hyuk lives inside spontaneity. Their Cuba meeting is the kind of meet-cute that could feel contrived, but director Park Shin-woo shoots it as something closer to collision than coincidence. Song Hye-kyo delivers one of her quieter, more technically controlled performances; Park Bo-gum matches her restraint without losing warmth. The 8.7% premiere rating placed it among cable television's highest launches that year, with broadcasting rights sold to over 100 territories. The series rewards viewers who prefer atmosphere over plot.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-11-28",
+          "bollymeter": 8.1,
+          "spoiler_free": "The Cuba sequence that opens the series sets a visual and tonal register the rest of the show has to live up to - and mostly does. The contrast between the sunlit Havana backdrop and the closed Seoul world awaiting both leads is established without commentary.",
+          "the_moment": "The first real conversation between Soo-hyun and Jin-hyuk, in which neither says what they mean and both know it.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2019-01-24",
+          "bollymeter": 7.4,
+          "spoiler_free": "The finale lands the relationship arc cleanly but the resolution of the political subplot feels compressed relative to the care the show lavished on the romantic beats in earlier episodes.",
+          "the_moment": "Soo-hyun's choice in the final scene - which lands as a statement of self rather than a conventional romance ending.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

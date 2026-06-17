@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © IWill Media / MBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/b/bb/On_the_Verge_of_Insanity.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T22:52:57Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/on-the-verge-of-insanity/poster.jpg",
+    "source_height": 375,
+    "source_width": 250,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "on-the-verge-of-insanity",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/On_the_Verge_of_Insanity",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/On_the_Verge_of_Insanity.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/on-the-verge-of-insanity/w185.avif",
+      "bytes": 7107
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/on-the-verge-of-insanity/w185.webp",
+      "bytes": 7556
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/on-the-verge-of-insanity/w342.avif",
+      "bytes": 13771
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/on-the-verge-of-insanity/w342.webp",
+      "bytes": 15350
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/on-the-verge-of-insanity/w500.avif",
+      "bytes": 19373
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/on-the-verge-of-insanity/w500.webp",
+      "bytes": 22232
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T22:57:54.444Z"
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "masters-of-none",
+  "qid": {
+    "value": "Q20856971",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Master of None",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix / Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Romance", "Slice of Life"],
+  "logline": "A 30-year-old actor stumbles through romance, ambition, and identity in New York and Italy - a confessional comedy that reinvented what personal storytelling on television could look like.",
+  "poster": {
+    "src": "/img/series/masters-of-none/poster.jpg",
+    "alt": "Master of None poster",
+    "attribution": "Poster © Netflix / Universal Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons aired across 2015-2021. Creator Aziz Ansari has not announced a fourth season; the show is widely considered concluded.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Master_of_None"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-11-06",
+        "source": "Netflix / Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% Rotten Tomatoes and a Metacritic score of 91 reflect near-universal critical agreement that Season 1 set a new bar for personal, semi-autobiographical comedy-drama on streaming."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A smart comedy of manners that picks apart social conventions and has more in common with Seinfeld than contemporaries.",
+            "source": "The Atlantic",
+            "url": "https://www.metacritic.com/tv/master-of-none/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/master-of-none/"
+      },
+      "review_body": "Season 1 landed in November 2015 and immediately registered as something different: a comedy rooted in the texture of millennial life in New York, co-written by Aziz Ansari and Lena Waithe, that treated parenthood, race, dating apps, and immigrant identity as comedic material without reducing any of it to punchlines. Critics awarded it a perfect Rotten Tomatoes score and a Metacritic of 91. The season earned Ansari a Primetime Emmy for writing and a Golden Globe for Best Actor. Two episodes - the immigrant parents-focused \"Indians on TV\" and the date-montage \"Nashville\" - were widely cited as instant classics. The show's semi-autobiographical mode and Italian neorealist influences felt new on Netflix.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 2,
+          "title": "Parents",
+          "air_date": "2015-11-06",
+          "bollymeter": 9.5,
+          "spoiler_free": "Dev and his friend Brian spend a day shadowing their immigrant fathers, piecing together lives of quiet sacrifice. One of the most emotionally honest 30 minutes of 2015 television.",
+          "the_moment": "The parallel montages of the fathers' daily routines - unglamorous, unacknowledged, utterly real.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "The Other Man",
+          "air_date": "2015-11-06",
+          "bollymeter": 8.5,
+          "spoiler_free": "A deft study in romantic self-deception, shot partly in black and white to echo classic Italian cinema. Ansari and Noel Wells generate real chemistry.",
+          "the_moment": "The reveal that reframes the entire episode's emotional register in its final seconds.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-05-12",
+        "source": "Netflix / Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "100% Rotten Tomatoes and Metacritic 91 for Season 2; IndieWire called it 'one of the most honest, moving, and unpredictable love stories in recent memory.'"
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Builds one of the most honest, moving, and unpredictable love stories in recent memory.",
+            "source": "IndieWire",
+            "url": "https://www.metacritic.com/tv/master-of-none/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/master-of-none/"
+      },
+      "review_body": "Shot partly in Italy in black-and-white, Season 2 arrived in May 2017 and matched Season 1's perfect Rotten Tomatoes score while raising the formal ambition. Critics flagged the eleven-minute pasta-making opening as an immediate statement of intent. The season wore its Italian neorealist influences openly - Fellini and Antonioni are felt in the compositions and the pacing - while telling a slow-burn love story with Alessandra Mastronardi. The premiere episode \"The Thief,\" shot in monochrome and near-silent, became the season's defining showpiece. Ansari won a second Emmy for writing. The finale divided opinion but cemented the season as the show's creative peak for most critics.",
+      "season_over_season": "Season 2 raises the formal register dramatically over Season 1 - trading New York realism for Italian cinema pastiche - and the gamble mostly pays off.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Thief",
+          "air_date": "2017-05-12",
+          "bollymeter": 9.5,
+          "spoiler_free": "Shot in black-and-white in Modena, the season opener devotes its first eleven minutes almost entirely to the art of pasta-making. A formally audacious and disarming statement that the show will do whatever it wants.",
+          "the_moment": "The opening pasta sequence - unhurried, reverential, oddly moving - that announces a complete change of register from Season 1.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": 5,
+      "release_date": {
+        "value": "2021-05-23",
+        "source": "Netflix / Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "82% Rotten Tomatoes and Metacritic 75 reflect appreciation for the formal experiment but division over whether the slow, observational approach sustains over five episodes; Variety noted 'sporadically deft but otherwise plodding.'"
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 3 is sporadically deft but otherwise plodding, though it features two standout performances.",
+            "source": "Variety",
+            "url": "https://www.metacritic.com/tv/master-of-none/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/master-of-none/"
+      },
+      "review_body": "Subtitled \"Moments in Love,\" Season 3 released in May 2021 and is structurally unlike any prior season: five near-wordless episodes following Denise (Lena Waithe) and her partner Alicia (Naomi Ackie) in a rural English countryside setting, shot in black-and-white by Aziz Ansari and Lena Waithe. The Rotten Tomatoes score dropped to 82%, with Metacritic at 75 - critics split between those who found the slow cinema experiment bracingly original and those who found it inert. Naomi Ackie's performance drew near-unanimous praise. The season was effectively a standalone film in miniseries form: demanding, beautiful, and explicitly not for every viewer.",
+      "season_over_season": "Season 3 abandons Series protagonist Dev entirely and restructures around Denise - a bold creative pivot that alienated some fans while earning new admirers.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

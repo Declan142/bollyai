@@ -1,0 +1,83 @@
+{
+  "slug": "des",
+  "qid": null,
+  "title": {
+    "value": "Des",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Crime", "Drama", "Biographical", "Psychological"],
+  "logline": "When human remains block a North London drain in 1983, police arrest mild-mannered civil servant Dennis Nilsen - and discover one of Britain's most prolific serial killers hiding in plain sight.",
+  "poster": {
+    "src": "/img/series/des/poster.jpg",
+    "alt": "Des poster",
+    "attribution": "Poster © ITV / New Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Three-part miniseries, concluded September 2020. No continuation planned.",
+    "source": "ITV",
+    "source_url": "https://www.itv.com/hub/des"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 3,
+      "release_date": {
+        "value": "2020-09-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "89% on Rotten Tomatoes; David Tennant's International Emmy-winning portrayal of Nilsen drew near-unanimous praise for making a killer both banal and terrifying."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Tennant's hypnotic presence - to make a character simultaneously dull and mesmerising takes quite some talent.",
+            "source": "The Times",
+            "url": "https://www.metacritic.com/tv/des/"
+          },
+          {
+            "text": "Rare it is to watch a drama about a serial killer that leaves you feeling the victims have been done a service.",
+            "source": "The Guardian",
+            "url": "https://www.metacritic.com/tv/des/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/des/"
+      },
+      "review_body": "Des aired across three nights in September 2020 on ITV and was immediately recognised as a showcase for one of British television's most unsettling lead performances. David Tennant plays Dennis Nilsen - a Scottish civil servant who murdered at least twelve men in North London between 1978 and 1983 - with a studied ordinariness that critics found more disturbing than any conventional menace. The Metacritic score of 75 reflected strong approval across major outlets, with The Times singling out Tennant's ability to make Nilsen simultaneously dull and mesmerising. Daniel Mays as detective Peter Jay and Jason Watkins as true-crime writer Brian Masters ground the narrative in its documentary roots - the drama adapts Masters' book 'Killing for Company.' Tennant took the International Emmy Award for Best Actor in 2021.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

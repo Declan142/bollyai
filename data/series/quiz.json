@@ -1,0 +1,83 @@
+{
+  "slug": "quiz",
+  "qid": null,
+  "title": {
+    "value": "Quiz",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Biographical", "Crime", "Thriller"],
+  "logline": "A dramatisation of the 2001 Who Wants to Be a Millionaire cheating scandal, in which army major Charles Ingram coughed his way to a million pounds - and straight into a fraud trial.",
+  "poster": {
+    "src": "/img/series/quiz/poster.jpg",
+    "alt": "Quiz poster",
+    "attribution": "Poster © ITV / Left Bank Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Three-part miniseries, concluded April 2020. No continuation planned.",
+    "source": "ITV",
+    "source_url": "https://www.itv.com/hub/quiz"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 3,
+      "release_date": {
+        "value": "2020-04-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "95% on Rotten Tomatoes and 75 on Metacritic (17 critics); praised for smart pacing, sharp performances by Matthew Macfadyen and Sian Clifford, and its refusal to hand the audience an easy verdict."
+      },
+      "critic": {
+        "positive_pct": 95,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A remarkably uncynical version of events, with sympathetic performances by both leads.",
+            "source": "The Independent",
+            "url": "https://www.metacritic.com/tv/quiz/"
+          },
+          {
+            "text": "Quiz is smart, entertaining, and told with a great sense of efficiency.",
+            "source": "Vulture / New York Magazine",
+            "url": "https://www.metacritic.com/tv/quiz/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/quiz/"
+      },
+      "review_body": "Quiz landed on ITV in April 2020 during the first COVID-19 lockdown, attracting 5.3 million viewers for its opening episode. The miniseries dramatises the now-legendary tale of Charles Ingram, the army major who won one million pounds on Who Wants to Be a Millionaire in 2001 and was subsequently convicted of procuring that win by fraud - allegations he has always denied. Matthew Macfadyen and Sian Clifford play the Ingrams with an ambiguity the script deliberately refuses to resolve, leaving audiences to weigh their guilt or innocence long after the credits roll. Michael Sheen's portrait of host Chris Tarrant earned a BAFTA nomination. Critics clustered around the show's moral playfulness: USA Today noted that what elevates it beyond scripted docudrama is the quality of the ensemble.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "one-the-woman",
+  "qid": {
+    "value": "Q107441580",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "One the Woman",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Legal", "Comedy", "Romance", "Mystery", "Drama"],
+  "logline": "A hard-charging corrupt prosecutor gets amnesia and wakes up being mistaken for the heiress of a powerful chaebol family - then decides to stay undercover and dismantle the corrupt Han family from the inside.",
+  "poster": {
+    "src": "/img/series/one-the-woman/poster.jpg",
+    "alt": "One the Woman poster",
+    "attribution": "Poster © Gill Pictures / SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. 16 episodes aired on SBS from September 17 to November 6, 2021.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/One_the_Woman"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-09-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Finale drew 17.8% nationwide viewership - the show's highest rating - confirming strong audience loyalty across its run. Lee Hanee won a Top Excellence Award at the 2021 SBS Drama Awards for her dual-role performance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "AGB Nielsen (finale: 17.8% nationwide)",
+        "source_url": "https://en.wikipedia.org/wiki/One_the_Woman"
+      },
+      "review_body": "One the Woman is one of the more energetically plotted legal rom-coms in the 2021 K-drama slate. The dual-identity premise could have been a gimmick, but writer Kim Ha-ram finds genuine comic and dramatic potential in the gap between the two women Lee Hanee plays - one a corner-cutting prosecutor, the other a chaebol heiress who has been quietly victimized her whole life. Lee Sang-yoon is equally well-served, and the two won Top Excellence awards at the 2021 SBS Drama Awards together. The first-half plotting is brisk and inventive; the corporate conspiracy arc in the back half is denser but remains engaging. The finale's 17.8% nationwide rating - the series high - indicates an audience that grew more invested as the show developed.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-09-17",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere sets up the identity switch with economy: Jo Yeon-joo is established as competent and morally compromised before the amnesia event, which makes her subsequent reinvention feel earned rather than arbitrary.",
+          "the_moment": "The scene in which Yeon-joo first realizes the Han family believes she is Kang Mi-na - and chooses not to correct them.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2021-11-06",
+          "bollymeter": 7.9,
+          "spoiler_free": "A finale that delivers on the legal-justice thread and the romance in parallel, without sacrificing one to resolve the other. The show ends at a moral position its premise actually earned.",
+          "the_moment": "The courtroom sequence that puts the Han family's crimes on record - the show's most formally satisfying beat.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

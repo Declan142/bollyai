@@ -1,0 +1,95 @@
+{
+  "slug": "choona",
+  "qid": {
+    "value": "Q120912984",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Choona",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Thriller"
+  ],
+  "logline": "A mismatched gang of strangers unite to scam a corrupt and superstitious UP politician - a heist comedy that plays its ensemble cast like a game of chess.",
+  "poster": {
+    "src": "/img/series/choona/poster.jpg",
+    "alt": "Choona poster",
+    "attribution": "Poster © Netflix / Flying Saucer. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single-season limited series. No sequel announced as of June 2026.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81264055"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-09-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "43% on Rotten Tomatoes (7 critics). Critics praised the ensemble chemistry and Jimmy Shergill's turn as the villain but found the pacing uneven in the middle stretch."
+      },
+      "critic": {
+        "positive_pct": 43,
+        "sample": 7,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Choona arrived on Netflix in September 2023 with a strong ensemble cast and a premise tailor-made for the heist-comedy genre: misfits vs. a superstitious corrupt politician. Director Pushpendra Nath Misra assembled veterans Jimmy Shergill and Aashim Gulati alongside a tight ensemble, with Arshad Warsi narrating. The 43% Rotten Tomatoes score from 7 critics reflected a divided reception - reviewers who leaned into the Bollywood-inflected absurdism found it charming, while others found the mid-series momentum thin. Shergill as the villain Avinash Shukla emerged as the clear standout, playing superstition-driven menace with visible relish. The show works best in its ensemble scenes, where the heist planning crackles with comic energy.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-09-29",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere does its job efficiently: establishing the villain's particular brand of superstitious corruption and assembling the gang one character at a time.",
+          "the_moment": "Avinash Shukla's introduction - the moment viewers understand exactly what kind of villain Shergill has decided to play.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2023-09-29",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale delivers on the heist's promise with enough twists to justify the buildup, even if some beats feel telegraphed.",
+          "the_moment": "The con's final turn, where the superstition angle pays off in the most satisfying way the show has engineered.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

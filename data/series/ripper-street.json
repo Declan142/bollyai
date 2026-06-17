@@ -1,0 +1,189 @@
+{
+  "slug": "ripper-street",
+  "qid": {
+    "value": "Q2855210",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ripper Street",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Historical", "Drama", "Mystery"],
+  "logline": "Six months after Jack the Ripper's last murder, Detective Inspector Edmund Reid's H Division polices a Whitechapel still raw with fear - investigating cases that demand improvised forensics, moral compromise, and an intimate knowledge of the city's darkest corners.",
+  "poster": {
+    "src": "/img/series/ripper-street/poster.jpg",
+    "alt": "Ripper Street poster",
+    "attribution": "Poster © BBC / Tiger Aspect Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Five seasons concluded in 2016. BBC cancelled after Season 2; Amazon rescued it for Seasons 3-5, which aired simultaneously on Amazon and BBC.",
+    "source": "BBC / Amazon",
+    "source_url": "https://www.bbc.co.uk/programmes/b01qhixy"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 8,
+      "release_date": {
+        "value": "2012-12-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "90% on Rotten Tomatoes (20 critics) and Metacritic score of 72 (18 critics); praised for Matthew Macfadyen's commanding lead, strong production values, and historically grounded scripts."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 20,
+        "pull_quotes": [
+          {
+            "text": "Gritty, sinister, and visually striking - a gripping thriller with well-crafted characters and compellingly lurid plotlines.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/ripper_street/s01"
+          },
+          {
+            "text": "Ripper Street is riveting from the first cry of murder.",
+            "source": "RedEye",
+            "url": "https://www.metacritic.com/tv/ripper-street/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "Metacritic user score",
+        "source_url": "https://www.metacritic.com/tv/ripper-street/"
+      },
+      "review_body": "Ripper Street launched on BBC One on 30 December 2012 to strong ratings and critical approval that crystallised around a single virtue: it refused to be about Jack the Ripper. The killer exists only as shadow and civic trauma; the actual work of H Division is what drives the plot, case by case, through a Whitechapel rendered in grime and gas-lit detail by Tiger Aspect's production team. Matthew Macfadyen's Reid is a deeply decent man corroded by what the job requires of him - a more nuanced anchor than the Victorian police procedural had previously managed. Jerome Flynn as the volatile Drake and Adam Rothenberg's American surgeon-turned-fixer give the trio a volatile chemistry. The season was voted best British TV show of 2013 in a public poll, and the 90% RT score reflected a consensus that the period setting was earned rather than decorative.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I Need Light",
+          "air_date": "2012-12-30",
+          "bollymeter": 8.2,
+          "spoiler_free": "The series opener establishes its moral grammar in under an hour: a murder investigation that forces Reid's team to excavate the new technology - early photography, an American's forensic instincts - and the old brutalities of the East End. It declares its intentions without the Ripper-franchise noise.",
+          "the_moment": "Reid's first scene with Jackson establishes the show's central tension - the future arriving in Victorian London whether its inhabitants want it or not.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2013,
+      "episodes": 8,
+      "release_date": {
+        "value": "2013-10-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Maintained strong audience loyalty; BBC cancelled the series after this season despite solid ratings, leading to a fan campaign that secured an Amazon pickup."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 deepened the personal stakes for Reid and Drake while expanding the show's procedural range - cases touched on early anarchism, colonial trauma, and the nascent Irish independence movement. The production remained as carefully period-detailed as its first run. BBC's subsequent cancellation triggered one of the most organised viewer campaigns British television had seen: fans petitioned and trended on social media until Amazon commissioned three further seasons, effectively rescuing the series and setting a template for streaming rescues to come.",
+      "season_over_season": "Darker in its personal arcs, with the ensemble's chemistry now fully bedded in - strong enough that the BBC's cancellation sparked an immediate viewer rescue campaign.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2014,
+      "episodes": 8,
+      "release_date": {
+        "value": "2014-11-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The Amazon rescue season brought the show back with higher production budgets and a willingness to stretch its timelines: Season 3 jumps forward several years, ageing its characters and testing the permanence of what the team built. Airing on Amazon in the UK before a later BBC broadcast, it demonstrated the streaming-rescue model before that model became industry standard. The historical canvas expanded - labour unrest, Fenian activity, the shadow of coming century-changing events now visible on the horizon of the 1890s drama.",
+      "season_over_season": "An Amazon-rescued return that jumps forward in time, trades procedural regularity for character consequence, and earns the fan campaign that brought it back.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": 7,
+      "release_date": {
+        "value": "2016-01-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 tightened its episode count to seven and continued the character work begun in Season 3, pushing Reid, Drake, and Jackson toward decisions that feel genuinely consequential given four seasons of established history. The show had found its rhythm as an Amazon production - confident in its period world and its ensemble - even if the critical spotlight had shifted elsewhere by this point.",
+      "season_over_season": "A slightly shorter run that trades breadth for concentration, relying on accumulated character investment the show has earned across three prior seasons.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-10-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The final season wrapped Ripper Street's story with six episodes that resolved the principal arcs with more care than most long-running British crime dramas manage at conclusion. The series ended on its own terms in 2016, four years after BBC cancelled it - proof that the Amazon rescue had been worthwhile. The finale respected what the show had become over five seasons of increasingly complex character drama.",
+      "season_over_season": "A six-episode conclusion that brings the characters' arcs to considered closes - the rarest thing in British television, a cancellation-then-rescue that actually earns its ending.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
