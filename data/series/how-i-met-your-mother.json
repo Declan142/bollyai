@@ -1,0 +1,337 @@
+{
+  "slug": "how-i-met-your-mother",
+  "qid": {
+    "value": "Q147235",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "How I Met Your Mother",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "CBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Romance", "Slice of Life"],
+  "logline": "Architect Ted Mosby narrates to his future children the long, meandering story of how he met their mother - a romantic comedy about friendship, New York, and the distance between the people we want to be and the people we actually are.",
+  "poster": {
+    "src": "/img/series/how-i-met-your-mother/poster.jpg",
+    "alt": "How I Met Your Mother poster",
+    "attribution": "Poster © 20th Century Fox Television / CBS Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "How I Met Your Mother concluded its nine-season run on CBS on March 31, 2014. The finale drew 12.9 million viewers but became one of television's most controversial series endings.",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com/news/how-i-met-your-mother-series-finale-scores-record-ratings"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Season 1 established HIMYM's distinctive structure and introduced one of the decade's best ensemble casts - an 84% overall Rotten Tomatoes series score reflects sustained quality across its best years."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 1 of How I Met Your Mother arrived in 2005 with a formally clever premise: a father narrating to his future children the story of how he met their mother - a narrative device that allowed the show to play with time, reliability, and nostalgia simultaneously. The ensemble clicked immediately: Josh Radnor's earnest Ted, Jason Segel's Marshall, Alyson Hannigan's Lily, Cobie Smulders' Robin, and above all Neil Patrick Harris's Barney Stinson, who became the show's breakout performance. The structure - flash-forwards, callbacks, running jokes - distinguished it from conventional sitcoms and established the architecture the show would build on for nine years.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2005-09-19",
+          "bollymeter": 8.0,
+          "spoiler_free": "The pilot establishes the show's narrative conceit - Ted narrating from 2030, the group introduced around a bar booth - and demonstrates immediately that Neil Patrick Harris is going to be funnier than anyone planned.",
+          "the_moment": "Barney Stinson's first 'Suit up!' - the show announcing its scene-stealer in the first act.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 22,
+      "release_date": {
+        "value": "2006-09-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Season 2 is among the show's strongest - the Marshall-Lily relationship arc and the growing ensemble chemistry generating genuinely warm comedy alongside the structural cleverness."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 2 of HIMYM stands as the high point of the show's first half - the ensemble fully bonded, the narrative time-jumps used with precision rather than gimmickry, and Neil Patrick Harris's Barney Stinson finding the warmth underneath the character's performance of shallow confidence. The Marshall-Lily storyline carried genuine emotional stakes. Audience ratings climbed in its second year. The structural device of Future Ted narrating functioned at its most elegant here: the gap between what Ted thought he understood and what the audience could see gave the comedy a layer of gentle irony.",
+      "season_over_season": "Season 2 deepens the ensemble and finds the emotional warmth beneath the structural cleverness - the show at its most balanced.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 20,
+      "release_date": {
+        "value": "2007-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Season 3 maintained the show's quality with a shortened run due to the writers' strike, Neil Patrick Harris earning Emmy and Golden Globe nominations for Barney Stinson."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "The writers' strike shortened Season 3 to 20 episodes, and the compression served the show well - less filler, stronger episode-to-episode momentum. Neil Patrick Harris received Emmy and Golden Globe nominations for Barney Stinson, confirmation that what audiences had identified as a breakout performance was registering critically as well. The show's structural games remained inventive, and the Ted-Robin dynamic continued to generate both comedy and genuine feeling. Season 3 is the last year of the show's unambiguous peak before longer seasons and extended premise-stretching began to show.",
+      "season_over_season": "Season 3's shortened run is among the show's tightest - a compression that served the writing's pace and focus.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 24,
+      "release_date": {
+        "value": "2008-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Season 4 is where the longer episode count began testing the show's premise - still reliably funny, but critics noted the 24-episode structure occasionally stretched material that wanted to move faster."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 4 expanded to 24 episodes and the additional episode count occasionally showed. The show remained genuinely funny - Harris, Segel, and Hannigan in particular continued to operate at a high level - but the premise of delaying Ted's meeting with the mother began to feel like a structural choice that served CBS's scheduling more than the story's logic. Season 4 played as reliable rather than essential. The Barney-Robin dynamic generated new energy and became the season's most compelling ongoing thread.",
+      "season_over_season": "Season 4's 24-episode run tests the show's premise-stretching in ways the shorter earlier seasons avoided.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2009,
+      "episodes": 24,
+      "release_date": {
+        "value": "2009-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 5 is the first year critics identified the show as coasting - the ensemble charm sustained it, but the central premise's elasticity was being tested without a credible answer in sight."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 5 is where discerning critics began noting the gap between HIMYM's potential and its execution. The show was charming, well-cast, and reliably funny, but the central conceit - when does Ted meet the mother? - was being sustained through repetition of structural tricks rather than genuine story progress. The Barney-Robin split felt like a creative retreat from Season 4's most interesting development. The ensemble's warmth carried the season, and individual episodes remained strong; the show simply felt like it was marking time with unusual skill.",
+      "season_over_season": "Season 5 is where the premise-stretching becomes visible - charming and funny, but missing a sense of forward motion.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2010,
+      "episodes": 24,
+      "release_date": {
+        "value": "2010-09-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Season 6 recovered some creative momentum with Marshall's family arc providing genuine emotional weight alongside the comedy - the show's best post-peak season."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 6 is the best of HIMYM's later years. Jason Segel's Marshall was given an emotional arc - his father's health and death - that the show handled with unusual sincerity and restraint, demonstrating that the ensemble could carry genuine feeling when the writing demanded it. The season showed what the show's late years could have been with more consistent dramatic ambition alongside the comedy. The emotional register change is what separated Season 6 from the coasting years around it.",
+      "season_over_season": "Season 6 outperforms its immediate predecessors by anchoring the season in Marshall's emotional arc - the show's strongest late-period work.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2011,
+      "episodes": 24,
+      "release_date": {
+        "value": "2011-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 7 returned to reliable but undemanding comedy - the Barney proposal storyline provided an endpoint, but audiences by this point were waiting for the premise to conclude rather than engaging with each episode as fresh."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 7 settled back into the show's comfortable late-period rhythm. The Barney-Robin proposal storyline gave the season a nominal arc, and the comedy remained warm and professionally executed. Critics and engaged audiences, however, were increasingly evaluating the season against the show's premise rather than its episode quality: how much longer could the central mystery be deferred? Season 7 is best understood as the show competently occupying its renewal rather than building toward something.",
+      "season_over_season": "Season 7 maintains Season 6's floor without its emotional ambition - reliable but not essential.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2012,
+      "episodes": 24,
+      "release_date": {
+        "value": "2012-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Season 8 is the show's weakest full run - the premise at its most visibly strained, with the mother glimpsed but still withheld in ways that critics found increasingly testing of audience patience."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460649/ratings/"
+      },
+      "review_body": "Season 8 is the point at which most critics agree the show's structural patience became structural stubbornness. The mother was glimpsed and teased but the actual meeting remained structurally deferred while the season cycled through familiar emotional beats. The ensemble's warmth remained genuine; Neil Patrick Harris and Alyson Hannigan in particular continued operating at high comedic competence. But the show's central promise - we will eventually meet this mother - was being kept at a cost to dramatic credibility. Season 8 functions best as a late-run episode collection rather than a coherent seasonal arc.",
+      "season_over_season": "Season 8 is the show at its most premise-exhausted - the structural deferral of the central mystery feels increasingly unjustified.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2013,
+      "episodes": 24,
+      "release_date": {
+        "value": "2013-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The final season set almost entirely at a single wedding weekend felt structurally strained, and the series finale - which drew 12.9 million viewers but earned an IMDb episode rating of 5.5 out of 10 - became one of television's most debated and divisive endings."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 82,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 5.5,
+        "scale": 10,
+        "source": "IMDb (finale episode rating)",
+        "source_url": "https://www.imdb.com/title/tt3415304/"
+      },
+      "review_body": "The ninth and final season of HIMYM made an unusual structural choice: setting almost the entire season across one wedding weekend. The conceit played as occasionally inventive but more often claustrophobic - 24 episodes of wedding-prep stretched the device past its natural limits. The season finale, 'Last Forever,' drew a series-record 12.9 million viewers and immediately became one of television's most controversial endings. The decision to resolve the mother's story and pivot to a different conclusion - details best left unspecified for new viewers - registered for a significant portion of the eventual viewership as nine seasons of emotional logic abandoned in a single hour. The IMDb episode rating of 5.5 out of 10 is a blunt expression of audience disappointment. The finale's ending is still debated; first-time viewers should approach unspoiled.",
+      "season_over_season": "Season 9's wedding-weekend conceit pushes structural novelty past its limit, and the finale became one of television's most argued-over series endings.",
+      "episode_reviews": [
+        {
+          "number": 24,
+          "title": "Last Forever: Part Two",
+          "air_date": "2014-03-31",
+          "bollymeter": 5.5,
+          "spoiler_free": "The series finale drew 12.9 million viewers and ended nine seasons of anticipation with a resolution that remains one of television's most argued-over conclusions - its 5.5 IMDb episode rating captures the scale of disappointment. Arrive unspoiled.",
+          "the_moment": "The final scene - which either lands as the emotional payoff the show always intended or as the most controversial pivot in CBS sitcom history, depending on your relationship to the preceding nine seasons.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:25:00+05:30"
+}

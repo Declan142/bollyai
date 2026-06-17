@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Comedy", "Supernatural", "Drama", "Family"],
+  "genres": [
+    "Comedy",
+    "Supernatural",
+    "Drama",
+    "Family"
+  ],
   "logline": "A young couple inherits a crumbling English country house haunted by ghosts from every era of British history - and after a near-death accident, the new owner discovers she can see and hear them all.",
   "poster": {
     "src": "/img/series/ghosts-uk/poster.jpg",
@@ -75,7 +80,46 @@
       "audience": null,
       "review_body": "Series 1 of Ghosts aired on BBC One in April-May 2019, created by and starring the ensemble (Martha Howe-Douglas, Mathew Baynton, Simon Farnaby, among others), and quickly earned an 87% Rotten Tomatoes score. The Guardian praised it as 'sweet, funny, clever and warm' at a time when British prestige TV had grown relentlessly dark. The Independent found it 'sweet, but with a little edge'. The core premise - a historical cross-section of British society haunting a single house, from a medieval knight to a 1980s Tory MP - gave the writers a structural device of almost inexhaustible comic potential. Charlotte Ritchie and Kiell Smith-Bynoe as the living couple provided grounded emotional anchors for the ensemble's more baroque period characters. Critics noted the show's light touch on its absurd premise, treating the ghosts with genuine character depth rather than pure punchline.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Who Do You Think You Are?",
+          "air_date": "2019-04-15",
+          "bollymeter": 8.0,
+          "spoiler_free": "The pilot does the difficult work of introducing eight distinct ghosts and two living leads while establishing the warm register that would sustain five series. Den of Geek described it as 'a masterclass in making the audience fall in love at first sight', with each ghost's quirks readable within minutes. The central premise - Alison and Mike inherit Button House and discover it is fully occupied - lands with the right mix of panic and delight.",
+          "the_moment": "Alison's first moment of realising she can see the ghosts after her near-death fall - the camera holds on her face as a room full of dead people stare back.",
+          "critic_note": {
+            "text": "A masterclass in making the audience fall in love at first sight.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/bbc-ghosts-best-episodes-so-far/"
+          },
+          "review_body": ""
+        },
+        {
+          "number": 3,
+          "title": "Happy Death Day",
+          "air_date": "2019-04-29",
+          "bollymeter": 8.5,
+          "spoiler_free": "The episode that shifted the show's register. A flashback to 1984 shows Pat's death by archery accident, and critics across outlets identified this as the episode where Ghosts earned genuine emotional investment alongside its comedy. Den of Geek ranked it among the series' best, noting it was 'the first time we really consider that all of the ghosts are just normal people' who lost their lives in mundane, unjust ways.",
+          "the_moment": "The flashback reveal of how Pat dies - an arrow through the neck mid-sentence, absurd and oddly moving at once.",
+          "critic_note": {
+            "text": "The first time in the show that we really consider that all of the ghosts are just normal people.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/bbc-ghosts-best-episodes-so-far/"
+          },
+          "review_body": ""
+        },
+        {
+          "number": 6,
+          "title": "Getting Out",
+          "air_date": "2019-05-20",
+          "bollymeter": 8.2,
+          "spoiler_free": "The S1 finale became memorable for its final sequence, in which Robin and Mary improvise a fantasy dinner so the ghosts can enjoy a meal with Alison and Mike despite being unable to eat or touch anything. Den of Geek described it as 'a memorable season finale', and the warmth of that scene established the emotional grammar the show would develop across four more series.",
+          "the_moment": "The ghosts' improvised dinner pantomime - each performing eating in their own style while Alison and Mike play along.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     },
     {
       "number": 2,
@@ -100,7 +144,36 @@
       "audience": null,
       "review_body": "Series 2 aired in September-October 2020, produced during the pandemic year, and maintained the affectionate critical standing the debut had established. Radio Times noted the show's ability to keep audiences on the 'Button House rollercoaster' without diminishing returns. The ensemble format proved remarkably robust - each ghost character's historical period opened fresh comedic territory, and the writers used the second series to develop the more emotionally complex backstories that distinguished the show from pure sitcom. The Metacritic series score of 81 reflects a critical consensus that held across the run. Fan enthusiasm grew steadily, and the show's gentle but precise satirical edge - particularly in the handling of the Tory politician ghost Captain and the World War Two soldier Pat - drew repeated critical appreciation.",
       "season_over_season": "Consistent with the debut's quality - the ensemble deepens rather than strains the premise.",
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "The Thomas Thorne Affair",
+          "air_date": "2020-04-27",
+          "bollymeter": 8.6,
+          "spoiler_free": "Den of Geek ranked this among the show's finest hours. The episode reveals how Romantic poet Thomas Thorne died in a duel defending the honour of a woman who was not worth defending, and the gap between Thomas's grand self-image and the banal reality of his death is handled with what critics called 'one of the show's most tragic moments'.",
+          "the_moment": "The duel flashback reveal - Thomas's death is both absurd and genuinely pathetic in a way that makes the character suddenly sympathetic.",
+          "critic_note": {
+            "text": "One of the show's most tragic moments.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/bbc-ghosts-best-episodes-so-far/"
+          },
+          "review_body": ""
+        },
+        {
+          "number": 5,
+          "title": "Bump in the Night",
+          "air_date": "2020-05-04",
+          "bollymeter": 8.7,
+          "spoiler_free": "Den of Geek named this the second-best Ghosts episode across all five series. With Alison absent, the ghosts must help Mike deal with burglars using only manipulation of electronics and physical environment. Critics called it 'consistently hilarious, incredibly clever' with 'an unpredictable ending'. The constraint of working without Alison as translator forces inventive comedy the show rarely topped.",
+          "the_moment": "The ghosts' coordinated haunting operation - each contributing their specific supernatural ability (or lack thereof) in sequence.",
+          "critic_note": {
+            "text": "Consistently hilarious, incredibly clever, an unpredictable ending.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/bbc-ghosts-best-episodes-so-far/"
+          },
+          "review_body": ""
+        }
+      ]
     },
     {
       "number": 3,
@@ -150,7 +223,36 @@
       "audience": null,
       "review_body": "Series 4 aired September-October 2022 and delivered the emotional payoffs the show had been carefully building across its run. Ghosts had by this point achieved something unusual in British sitcom - a consistent tonal signature across four series that never grew stale, because the ensemble's historical range kept providing new comedic terrain. The show's commitment to treating its ghost characters' existential situations - trapped in one house across centuries - with occasional genuine poignancy had by Series 4 produced some of the most memorable character moments of the entire run.",
       "season_over_season": "The most emotionally resonant series yet - four series of relationship building pays dividends.",
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 3,
+          "title": "The Hardest Word",
+          "air_date": "2022-12-12",
+          "bollymeter": 8.8,
+          "spoiler_free": "After Alison loses patience with the ghosts, the ensemble creates an apology song to win her back. Den of Geek described it as containing 'probably the funniest three minutes in Ghosts history' - a set piece that demonstrated how precisely the show understood each ghost's comic register and how to deploy them simultaneously.",
+          "the_moment": "The apology song performance - each ghost contributing a verse that perfectly captures their era and personality.",
+          "critic_note": {
+            "text": "Probably the funniest three minutes in Ghosts history.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/bbc-ghosts-best-episodes-so-far/"
+          },
+          "review_body": ""
+        },
+        {
+          "number": 4,
+          "title": "Gone Gone",
+          "air_date": "2022-12-19",
+          "bollymeter": 9.1,
+          "spoiler_free": "Den of Geek ranked this the best Ghosts episode ever made. A ghost permanently ascends, and the episode explores how each remaining character grieves differently. Critics called it 'the Ghosts episode that changed everything', earning it rare status as a comedy episode with genuine emotional gravity. The show's willingness to follow through on its premise's consequences gave the series its most resonant hour.",
+          "the_moment": "The moment of ascension itself - handled with a restraint that makes the loss feel real rather than merely plot-functional.",
+          "critic_note": {
+            "text": "This is the Ghosts episode that changed everything.",
+            "source": "Den of Geek",
+            "url": "https://www.denofgeek.com/tv/bbc-ghosts-best-episodes-so-far/"
+          },
+          "review_body": ""
+        }
+      ]
     },
     {
       "number": 5,

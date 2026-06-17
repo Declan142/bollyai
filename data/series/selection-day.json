@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Drama", "Sports", "Coming of Age"],
+  "genres": [
+    "Drama",
+    "Sports",
+    "Coming of Age"
+  ],
   "logline": "Two brothers are groomed from childhood to become India's next great cricket batsmen by an obsessive father, but when they reach Mumbai's competitive selection trials, the elder discovers a desire that has nothing to do with cricket.",
   "poster": {
     "src": "/img/series/selection-day/poster.jpg",
@@ -75,7 +79,18 @@
       },
       "review_body": "Part 1 of Selection Day arrived on Netflix India in December 2018 as the platform's adaptation of Aravind Adiga's 2016 novel, produced by Anil Kapoor. The six-episode first chapter follows the Kumar brothers - played by Mohammad Samad and Yash Dholye - arriving in Mumbai under their domineering father's cricket-obsession, where the older Manju's dawning identity begins to complicate the plan. Business Standard celebrated it as Netflix India's best series to date. The Quint found 'writing, production values and performances a notch behind recent Indian series.' The 44% Rotten Tomatoes score reflects an honest split: the source material's moral complexity is present in the performances but the adaptation's pacing is cautious. Ratna Pathak Shah and Rajesh Tailang in supporting roles provide the series' most consistent critical praise.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-12-28",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere establishes the central pressure Mohan places on his sons Manju and Radha as he brings them from their village to Mumbai months before cricket trials. Show's Nob's recap noted the episode's supernatural touch - after Manju confesses to a deity that he does not like cricket, the deity appears to wink - as the show's way of signalling that the cricketing premise masks something stranger and more interior. The Scroll.in review called it 'nicely written' though the adaptation underdelivered on Aravind Adiga's source novel.",
+          "the_moment": "Manju's confession to the deity - the moment the series signals it is about the burden of a parent's ambition more than cricket itself.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     },
     {
       "number": 2,

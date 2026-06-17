@@ -27,7 +27,13 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Horror", "Mystery", "Thriller", "Psychological", "Supernatural"],
+  "genres": [
+    "Horror",
+    "Mystery",
+    "Thriller",
+    "Psychological",
+    "Supernatural"
+  ],
   "logline": "Three men in Chennai - a psychiatrist, a blind librarian and a cricket coach - are drawn together across separate timelines by a supernatural phone and a vengeful force that blurs the boundary between grief and possession.",
   "poster": {
     "src": "/img/series/andhaghaaram/poster.jpg",
@@ -75,7 +81,22 @@
       },
       "review_body": "V. Vignarajan's debut feature arrived on Netflix in November 2020 after a six-year development, presenting three interwoven timelines that never announce their connection until the final act. Arjun Das, Vinoth Kishan and Kumar Natarajan anchor each strand - a grieving psychiatrist, a blind librarian performing occult rituals, and a cricket coach receiving calls from the dead. Baradwaj Rangan at Film Companion called it 'some kind of spectacular' scene for scene while finding the whole underwhelming. The Hindustan Times praised 'a moody, spectacular supernatural thriller.' Critics and audiences converged on the film's craft virtues - cinematography by Sathyan Sooryan, the Chennai-dark atmosphere, Arjun Das's physical commitment - while diverging sharply on whether the mystery's resolution earns the film's structural ambition. For Tamil horror cinema, it remains a significant formal experiment by a genuinely distinct new voice.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Andhaghaaram",
+          "air_date": "2020-11-24",
+          "bollymeter": 7.5,
+          "spoiler_free": "Baradwaj Rangan's Film Companion review described Andhaghaaram as 'underwhelming as a whole, but scene for scene some kind of spectacular' - a tension that runs through the nearly three-hour Tamil film-length feature. Three interlocked storylines converge around blindness, grief and institutional failure. The casting was called 'brilliant right down to the inspector glimpsed in one scene', and Rangan wrote that 'the visual effects are super-classy' even as the thriller mechanics failed to generate consistent momentum. Rotten Tomatoes holds at 67% from 6 critics.",
+          "the_moment": "The convergence of the three timelines - a structural reveal that the film builds toward across its runtime, arriving more as intellectual satisfaction than emotional shock.",
+          "critic_note": {
+            "text": "Taken as a whole it is underwhelming, and yet, scene for scene, it is some kind of spectacular.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/andhaghaaram-tamil-movie-review-netflix-an-underwhelming-thriller-but-a-top-notch-show-reel-arjun-das-vinoth-kishan-atlee-baradwaj-rangan"
+          },
+          "review_body": ""
+        }
+      ]
     }
   ],
   "_quarantine": [],

@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Drama", "Legal", "Romance"],
+  "genres": [
+    "Drama",
+    "Legal",
+    "Romance"
+  ],
   "logline": "Eldest daughter Hannah Defoe defects from the family divorce firm to a rival practice, then finds her own marriage unravelling under the same forensic pressure she applies to her clients' crumbling unions.",
   "poster": {
     "src": "/img/series/the-split/poster.jpg",
@@ -75,7 +79,28 @@
       "audience": null,
       "review_body": "Series 1 premiered on BBC One in April 2018, written by Abi Morgan, and earned 74% on Rotten Tomatoes with a 72 Metacritic score. Critics found the show's central conceit - a family of divorce lawyers whose own family is fracturing - dramatically rich if occasionally too neatly assembled. Paste Magazine praised the show when it allowed the Defoe women to 'face real decisions and consequences'. The Independent called the sibling dynamic 'a delight, realistically but warmly observed'. Nicola Walker's Hannah established immediately as a performance of controlled emotional precision, and her chemistry with Stephen Mangan as husband Nathan anchored a marriage the show would spend three series slowly and deliberately dismantling. The Times noted the show was 'often too polished for its own good' while acknowledging its pleasures.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-04-24",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere structures itself around Hannah's mother's 70th birthday - a single landmark day that Den of Geek called a smart device for compressing family history and professional stakes into one hour. The review noted 'early signs are promising that there's enough emotionally revealing drama underneath that shiny cladding', and Nicola Walker's Hannah is established as both professionally assured and personally exposed from the first scene on the Millennium Bridge.",
+          "the_moment": "Hannah crossing the Millennium Bridge in expensive heels, cutting between her boardroom confidence and the family gathering she is about to disrupt by changing firms.",
+          "critic_note": null,
+          "review_body": ""
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2018-05-29",
+          "bollymeter": 8.0,
+          "spoiler_free": "The S1 finale earned an 88% Rotten Tomatoes audience score and closed the Hannah-Nathan strand with emotional restraint. Den of Geek praised the premiere episode highly, and the finale paid off on those character investments across six episodes. Nicola Walker and Stephen Mangan's performances were the central element singled out in season reviews, and the finale let both actors play the resolution without over-dramatizing it.",
+          "the_moment": "The Defoe family gathered together with the fractures in their relationships newly visible - warmth and damage occupying the same frame.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     },
     {
       "number": 2,
@@ -131,7 +156,18 @@
       "audience": null,
       "review_body": "Series 3 aired April-May 2022 as the main narrative conclusion of The Split, bringing Hannah and Nathan's long-running marital dissolution to a resolution the show had earned through three seasons of patient character work. Abi Morgan's writing had by Series 3 moved past the show's early reputation as glossy BBC drama - the audience consensus of 91% on Rotten Tomatoes overall reflected an investment that deepened with each series. The three-season arc demonstrated something rare: a drama whose understanding of its characters genuinely sharpened over time, allowing Nicola Walker and Stephen Mangan to deliver performances of increasing subtlety. The December 2024 two-part special provided a coda for those who wanted further resolution.",
       "season_over_season": "The strongest entry in dramatic terms - three seasons of careful character investment pay off in the concluding episodes.",
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2022-05-17",
+          "bollymeter": 8.2,
+          "spoiler_free": "The series finale wrapped three seasons of legal and marital drama with more honesty than resolution. The show understood that separation is rarely clean, and the final episode gave each major character a landing that felt true to who they had become. The Rotten Tomatoes critical consensus for S3 held at 100% on a small but unanimously positive critical sample. A two-part special in December 2024 revisited the characters.",
+          "the_moment": "Hannah's final decision - delivered not as a dramatic announcement but as an ordinary conversation, which made it land harder.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     }
   ],
   "_quarantine": [],

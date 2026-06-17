@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "returning",
-  "genres": ["Anime", "Slice of Life", "Romance", "Coming of Age"],
+  "genres": [
+    "Anime",
+    "Slice of Life",
+    "Romance",
+    "Coming of Age"
+  ],
   "logline": "An overachieving country girl arrives in Tokyo for high school with grand ambitions and zero friends, and finds both in ways she did not plan for.",
   "poster": {
     "src": "/img/series/skip-and-loafer/poster.jpg",
@@ -75,7 +80,32 @@
       },
       "review_body": "P.A. Works' adaptation of Misaki Takamatsu's manga landed in Spring 2023 and quickly became one of the season's most discussed slice-of-life entries. Critics and audience consensus aligned around the show's distinctive emotional intelligence - it handles class anxiety, family pressure, and adolescent identity with specificity rather than trope shorthand. Mitsumi's optimism is written as a character trait with roots and limits, not a magical reset button. Reviewers at AniTrendz and Lost in Anime praised the synergy between character writing, voice performances, and P.A. Works' characteristically warm visual direction. The series won Best Animation Screenplay at the 29th Shanghai TV Festival and was nominated at the Crunchyroll Anime Awards. MyAnimeList community ranked it 7th across all Spring 2023 anime with an 8.16 score. Season 2 was confirmed in December 2024.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Moving Along! (Stumbling Along!)",
+          "air_date": "2023-04-03",
+          "bollymeter": 8.2,
+          "spoiler_free": "Anime News Network reviewed the opening episodes and described Skip and Loafer as 'thoroughly charming', praising its naturalistic animation and character animation that conveys emotion through small movements rather than exaggeration. But Why Tho called the premiere 'the perfect representation of how good anime can be in establishing character relationships in a short amount of time'. Mitsumi's arrival in Tokyo from rural Fukui is presented without irony or condescension - her relentless optimism reads as a genuine personality trait rather than a narrative device.",
+          "the_moment": "Mitsumi getting completely lost on her first day navigating Tokyo's train system, then encountering Shima - the meeting that defines the series' tone in a single scene.",
+          "critic_note": {
+            "text": "Thoroughly charming, with naturalistic animation and well-done backdrops.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/skip-and-loafer/episodes-1-3/.197225"
+          },
+          "review_body": ""
+        },
+        {
+          "number": 12,
+          "title": "Wavering! (Stagnating!)",
+          "air_date": "2023-06-19",
+          "bollymeter": 8.5,
+          "spoiler_free": "The MUST-WATCH season finale resolves the series' central emotional question - what Mitsumi and Shima mean to each other - with the restraint that marked the whole run. The Wonder of Anime's series review called Skip and Loafer 'a very human slice-of-life', and the finale is the culmination of that humanism. The show chooses to let the relationships land quietly rather than with dramatic declarations. IMDb user rating for the series holds at 7.8.",
+          "the_moment": "Mitsumi and Shima's final exchange of the season - simple and low-key, but carrying the weight of twelve episodes of careful character work.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     }
   ],
   "_quarantine": [],

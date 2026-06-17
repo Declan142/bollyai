@@ -27,7 +27,11 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Comedy", "Drama", "Adventure"],
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Adventure"
+  ],
   "logline": "A catastrophic tidal wave hits during a high school's ten-year reunion, stranding an all-female group of former classmates on the flooded island campus - and forcing them to survive each other as much as the apocalypse.",
   "poster": {
     "src": "/img/series/class-of-07/poster.jpg",
@@ -80,7 +84,38 @@
       },
       "review_body": "Class of '07 landed on Prime Video in March 2023 and earned a perfect 12-critic Rotten Tomatoes score for creator Kacie Anning's confident blend of apocalyptic comedy and female ensemble drama. The premise - a tidal wave strands former classmates on their flooded school's roof during a ten-year reunion - functions as both genre conceit and sharp social observation: the social hierarchies of high school do not dissolve under existential threat, they calcify. Critics praised Emily Browning, Megan Smart, and Caitlin Stasey as the core trio, noting the show's skill at using the survival framework to excavate the emotional wreckage of female friendship and the long afterlife of teenage dynamics. Paste Magazine called it a love letter to female friendships; Decider praised its ability to lighten the tone without deflating the stakes.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2023-03-17",
+          "bollymeter": 7.9,
+          "spoiler_free": "The opening hour drops the survivors onto a flooded island campus before the audience has time to settle. Critics at Rotten Tomatoes (100%, 12 reviews) praised the premiere for establishing both the absurdist survival premise and the high-school social hierarchy with economy and wit. The ensemble's chemistry - specifically Caitlin Stasey as reformed bully Saskia - reads as the show's strongest card from the first scene.",
+          "the_moment": "The tidal wave hitting mid-reunion speech, cutting the past and present together in a single catastrophic cut.",
+          "critic_note": null,
+          "review_body": ""
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2023-03-17",
+          "bollymeter": 8.2,
+          "spoiler_free": "Episodes four and five - scripted by Romina Acurso - are the season's strongest material according to Ready Steady Cut's season review. The fourth episode is where the show's balance of raunchy comedy and genuine character warmth reaches its peak, and the competitive friendships between the women begin to feel genuinely hard-won rather than merely set up.",
+          "the_moment": "A shared survival task that forces two former rivals to operate as a unit for the first time.",
+          "critic_note": null,
+          "review_body": ""
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2023-03-17",
+          "bollymeter": 7.4,
+          "spoiler_free": "The finale drew mixed reactions. Reel Mockery scored it 6/10, noting the script ran looser than earlier episodes and the humor in the final two episodes was the weakest stretch of the season. The finale's strongest material was in its relationship resolutions, and the series ended in a way that left the door open for a second season that Prime Video never commissioned.",
+          "the_moment": "The survivors' final confrontation on the flooded campus, where the survival question gives way to something more personal.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     }
   ],
   "_quarantine": [],

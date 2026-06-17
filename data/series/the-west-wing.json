@@ -1,0 +1,302 @@
+{
+  "slug": "the-west-wing",
+  "qid": {
+    "value": "Q3577037",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The West Wing",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "NBC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Historical", "Biographical"],
+  "logline": "Inside a fictional Democratic White House, President Josiah Bartlet and his senior staff navigate legislation, crises, and moral compromise - Aaron Sorkin's hymn to the idea that politics could be practiced by people who genuinely care.",
+  "poster": {
+    "src": "/img/series/the-west-wing/poster.jpg",
+    "alt": "The West Wing poster",
+    "attribution": "Poster © Warner Bros. Television / John Wells Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The West Wing completed its seven-season run on NBC on May 14, 2006. Creator Aaron Sorkin departed after Season 4; Seasons 5-7 were helmed by John Wells.",
+    "source": "NBC",
+    "source_url": "https://www.nbc.com/the-west-wing"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1999,
+      "episodes": 22,
+      "release_date": {
+        "value": "1999-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Season 1 earned a 96% Rotten Tomatoes score from 47 critics and nine Emmy Awards - the most Emmy wins by a single season in television history at that point - establishing Sorkin's walk-and-talk political drama as an immediate benchmark."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 47,
+        "pull_quotes": [
+          {
+            "text": "There hasn't been a dead second so far in this dynamite, Emmy-sprinkled series.",
+            "source": "The Age",
+            "url": "https://www.rottentomatoes.com/tv/the-west-wing/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "Season 1 of The West Wing announced a new category of prestige television. Aaron Sorkin's dialogue - overlapping, dense, walking-and-talking through corridors - created an entirely new rhythm for political drama. A 96% Rotten Tomatoes score from 47 critics and nine Emmy Awards (the most for any single season in television history at that point) confirmed what audiences were already sensing: the show was exceptional. Martin Sheen's Jed Bartlet arrived fully formed as an idealised president - Catholic intellectual, policy wonk, moral actor - while the ensemble of Allison Janney, Rob Lowe, Bradley Whitford, Richard Schiff, and Dulé Hill gave Sorkin's scripts precision and warmth. The show made civic idealism feel like drama.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "1999-09-22",
+          "bollymeter": 8.8,
+          "spoiler_free": "The pilot introduces the Bartlet White House in Sorkin's signature walk-and-talk style - fast, overlapping, dense with policy and wit. The ensemble arrives at full speed and Sheen's Bartlet enters late, landing like a thesis statement about what this show believes.",
+          "the_moment": "Bartlet's entrance in the pilot - the president revealed after an hour of setup, arriving as the argument the show has been building toward.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "The Short List",
+          "air_date": "1999-11-17",
+          "bollymeter": 9.0,
+          "spoiler_free": "A Supreme Court nomination episode that demonstrates the show's ability to make procedural policy decisions feel morally urgent - one of the first instances where The West Wing proved it could sustain drama from the internal logic of governance.",
+          "the_moment": "The nominee interview scene - where the show's argument about principled governance gets its first fully dramatic expression.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2000,
+      "episodes": 22,
+      "release_date": {
+        "value": "2000-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.2,
+        "basis": "Season 2 is widely considered the show's creative apex - the Emmy win for Outstanding Drama Series repeated, and the two-part 'In the Shadow of Two Gunmen' and episode 'Two Cathedrals' are cited by critics as among the finest hours in television drama."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 156,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "Season 2 is where The West Wing reached its highest point. The season opened with a two-part shooter aftermath that redefined what television drama could do with non-linear structure, and it closed with 'Two Cathedrals' - an episode in which President Bartlet's confrontation with grief, faith, and political duty delivered one of the most formally daring finales in television history. The ensemble had fully settled into their characters; Allison Janney's CJ Cregg became a dominant presence; Richard Schiff's Toby Ziegler carried the season's moral weight. The show won its second consecutive Emmy for Outstanding Drama Series, and critical consensus was that it had earned both.",
+      "season_over_season": "Season 2 surpasses Season 1's already exceptional run with 'Two Cathedrals' as one of the most formally ambitious single episodes in drama history.",
+      "episode_reviews": [
+        {
+          "number": 22,
+          "title": "Two Cathedrals",
+          "air_date": "2001-05-16",
+          "bollymeter": 9.8,
+          "spoiler_free": "President Bartlet stands alone in a cathedral and has it out with God, grief, and the question of whether to seek a second term. The episode operates simultaneously as political drama and personal reckoning - the show at its most formally daring.",
+          "the_moment": "Bartlet's confrontation with God in the empty cathedral - the single scene most cited when critics discuss The West Wing's peak.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2001,
+      "episodes": 21,
+      "release_date": {
+        "value": "2001-10-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Season 3 maintained the show's Emmy streak with a third consecutive Outstanding Drama Series win, and the 9/11-adjacent 'Isaac and Ishmael' special episode demonstrated Sorkin's willingness to use the show's moral framework for direct civic argument."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 156,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "Season 3 opened with a special episode - 'Isaac and Ishmael' - written and filmed in nine days as a direct response to the September 11 attacks, in which the characters debated terrorism and American values as themselves rather than their fictional selves. It divided critics but demonstrated the show's sense of civic purpose. The season continued Sorkin's streak of Outstanding Drama Series Emmy wins - the third in a row - while deepening the political stakes around Bartlet's MS disclosure and re-election preparation. The ensemble performed at the same high level, and Sorkin's structural ambitions continued.",
+      "season_over_season": "Season 3 extends the Emmy run and addresses 9/11 directly with a special episode that divided critics but confirmed the show's sense of civic purpose.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2002,
+      "episodes": 23,
+      "release_date": {
+        "value": "2002-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Sorkin's final season as showrunner completed the fourth consecutive Emmy sweep for Outstanding Drama Series and featured his most ambitious structural experiments - though critics noted the volume of plots occasionally exceeded the show's ability to service them all."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 156,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "Sorkin's final season as showrunner completed the four-peat Emmy run for Outstanding Drama Series - a record no drama had matched - and delivered his most structurally complex season. The Zoey Bartlet kidnapping arc provided genuine thriller tension; the season's live debate episode pushed the show's format into new territory. The season's volume could feel overloaded at scale, and Sorkin's departure at season's end was announced as he left. As a final statement of his West Wing voice, Season 4 demonstrated both the ceiling of his ambitions and the creative cost of those ambitions at scale.",
+      "season_over_season": "Sorkin's Season 4 is his most formally ambitious and his most uneven - the four-peat Emmy win arrives alongside the first signs of creative strain.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2003,
+      "episodes": 22,
+      "release_date": {
+        "value": "2003-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The first post-Sorkin season under John Wells was the show's most debated decline - the walk-and-talk rhythm remained but the density of wit and political idealism thinned noticeably, and critics registered the difference."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 156,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "Season 5 is The West Wing's visible transition year. John Wells inherited the show after Sorkin's departure and the difference in voice was immediate: the dialogue remained fast, the format identical, but the specific gravity of Sorkin's idealism and his particular brand of overlapping wit were absent. Season 5 registered as more conventional - still better than most television drama, but measurably below the Sorkin peak. The political stories continued and the ensemble remained excellent, particularly Allison Janney, but Season 5 functions more as a very good political drama than a defining one.",
+      "season_over_season": "The first post-Sorkin season registers the change in voice - competent and often very good, but missing the specific density that made the first four seasons exceptional.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2004,
+      "episodes": 22,
+      "release_date": {
+        "value": "2004-10-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 6 showed Wells finding his own rhythm for the show, with the Democratic primary race providing fresh dramatic energy and the ensemble generating their best post-Sorkin material."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 156,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "Season 6 is where John Wells stopped trying to replicate Sorkin's West Wing and began making his own. The Democratic presidential primary - introducing Jimmy Smits' Matt Santos as a fresh political presence - provided exactly the structural energy the show needed after the exhausted Bartlet second term. Season 6 found legitimate forward motion rather than simply sustaining what Sorkin built - a measurable improvement over Season 5's uncertain footing. The Santos-Vinick race set up the final season with genuine stakes.",
+      "season_over_season": "Season 6 finds Wells' own voice for the show, with the Democratic primary energising the drama in a way Season 5 could not.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "The final season's Santos-Vinick presidential race delivered the most dramatically compelling Wells-era material, and the live debate episode between the two candidates is considered one of the post-Sorkin seasons' finest achievements."
+      },
+      "critic": {
+        "positive_pct": 81,
+        "sample": 156,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0200276/ratings/"
+      },
+      "review_body": "The final season of The West Wing delivered the best television of the Wells era. The Santos-Vinick presidential race - with Jimmy Smits and Alan Alda as candidates who respected each other while disagreeing substantively - generated drama that felt genuinely political rather than merely procedural. A live debate episode between the two candidates became the season's standout achievement. The finale aired May 14, 2006, and managed the difficult task of closing a show about idealism without becoming saccharine about it. The finale delivered an honourable conclusion to one of television's most ambitious political series.",
+      "season_over_season": "Season 7's presidential race delivers the strongest Wells-era material - the show's finale worthy of the legacy the Sorkin seasons established.",
+      "episode_reviews": [
+        {
+          "number": 7,
+          "title": "The Debate",
+          "air_date": "2005-11-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "A live broadcast episode in which the Santos-Vinick presidential debate plays out in real time - the formal conceit works because the two actors make their candidates' disagreements feel substantive rather than theatrical.",
+          "the_moment": "Vinick and Santos on stage together - two people who respect each other disagreeing honestly about the country, as the show always argued was possible.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:20:00+05:30"
+}

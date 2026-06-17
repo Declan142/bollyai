@@ -27,7 +27,12 @@
     "confidence": "verified"
   },
   "status": "limited",
-  "genres": ["Crime", "Mystery", "Thriller", "Drama"],
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Thriller",
+    "Drama"
+  ],
   "logline": "A seasoned police officer and a retired journalist with a fractured shared history team up to untangle a murder in Mumbai's Mahim district, uncovering a city's hidden margins of longing and desperation.",
   "poster": {
     "src": "/img/series/murder-in-mahim/poster.jpg",
@@ -64,7 +69,32 @@
       "audience": null,
       "review_body": "Murder in Mahim arrived on JioCinema in May 2024 as an adaptation of Jerry Pinto's award-winning novel of the same name, bringing to screen a whodunit set in Mumbai's Mahim district that is as much about the city's invisible communities as it is about the crime at its centre. Director Raj Acharya assembled two of Hindi cinema's most reliable character actors - Vijay Raaz and Ashutosh Rana - as the investigative duo whose complicated history mirrors the moral complexity of the case they are solving. The show engaged seriously with LGBTQ life in urban Mumbai, following the source material's lead rather than softening it for the platform. The eight-episode runtime kept the pacing disciplined, and the two lead performances ensured emotional credibility across the investigation.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-05-10",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes Mahim itself as a protagonist. Scroll.in praised the show's 'immersive Mumbai setting' and named the dynamic between Vijay Raaz's retired journalist Peter and Ashutosh Rana's police officer Shiva as its central engine. The first episode moves slowly by design - momentum builds across subsequent episodes - but the ensemble's lived-in performances and attention to Mahim's geography make the setup feel grounded.",
+          "the_moment": "The crime scene at the Mahim junction - the moment where the neighbourhood's role as witness and subject of the story becomes clear.",
+          "critic_note": {
+            "text": "Murder in Mahim impresses with its gripping plot, masterful pacing, and immersive Mumbai setting.",
+            "source": "Scroll.in",
+            "url": "https://scroll.in/reel/1067531/murder-in-mahim-review-a-bigger-crime-is-afoot-than-wrongful-death"
+          },
+          "review_body": ""
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2024-05-10",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale resolves the murder investigation and the strained friendship between Peter and Shiva. Film Fugitives' episode recap documented that Shiva and Firdaus move to file a complaint against their ACP for organ trafficking, and Peter returns to journalism. Outlook India called the finale appropriately modest rather than triumphant - a reasonable end to a show that was overloaded in its middle but delivered on the character work it set up.",
+          "the_moment": "Peter and Shiva's final scene together, where the case's resolution restores what the investigation had fractured between them.",
+          "critic_note": null,
+          "review_body": ""
+        }
+      ]
     }
   ],
   "_quarantine": [],

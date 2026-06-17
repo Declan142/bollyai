@@ -1,0 +1,283 @@
+{
+  "slug": "the-good-wife",
+  "qid": {
+    "value": "Q19570",
+    "source": "wikidata",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Good Wife",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "CBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-16T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Legal", "Crime", "Mystery"],
+  "logline": "After her husband's political corruption and sex scandal destroy their public life, Alicia Florrick returns to her law career - transforming from a disgraced politician's wife into one of television's most quietly formidable protagonists.",
+  "poster": {
+    "src": "/img/series/the-good-wife/poster.jpg",
+    "alt": "The Good Wife poster",
+    "attribution": "Poster © CBS Studios / Scott Free Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "CBS concluded The Good Wife after seven seasons on May 8, 2016. A spin-off, The Good Fight, launched on CBS All Access in 2017.",
+    "source": "CBS",
+    "source_url": "https://www.cbs.com/shows/the-good-wife/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 23,
+      "release_date": {
+        "value": "2009-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Season 1 launched with an 83% Rotten Tomatoes score and Julianna Margulies delivering a performance that earned a Golden Globe in 2010 - the show arrived fully formed as prestige legal drama."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 40,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "Season 1 of The Good Wife was a statement of intent: a CBS procedural with the ambitions of prestige cable. Julianna Margulies as Alicia Florrick - head down, resilient, quietly seething - announced herself as one of network television's most controlled lead performances. An 83% Rotten Tomatoes score from 40 critics reflected critics' surprise at finding genuine moral complexity in a broadcast drama. The law firm procedural cases were well-constructed, but the season's lasting contribution was establishing Alicia Florrick as a character who registered the political subtext of every room she entered. Margulies won a Golden Globe for the performance in 2010.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2009-09-22",
+          "bollymeter": 8.0,
+          "spoiler_free": "The pilot opens at a press conference - Alicia standing beside her disgraced husband - and the camera finds her face at exactly the right moment. The show's premise is established in that image: a woman deciding, in public, what her life means now.",
+          "the_moment": "Alicia's wordless expression at the podium, the moment that sets the show's moral register for seven seasons.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2010,
+      "episodes": 22,
+      "release_date": {
+        "value": "2010-09-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Season 2 deepened the firm's politics and Alicia's professional emergence, with Margulies winning the Emmy for Outstanding Lead Actress in a Drama Series."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 215,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "Season 2 expanded the show's internal politics - the power dynamics at Lockhart Gardner grew more complex, the Alicia-Kalinda friendship deepened into one of television's most compelling female partnerships, and Margulies' Emmy win for Outstanding Lead Actress confirmed what critics had been arguing since the pilot. The procedural cases continued to serve as vehicles for larger moral arguments, and the show's political subplot gave Peter Florrick's arc genuine weight. Season 2 is where The Good Wife graduated from very good network drama to something genuinely essential.",
+      "season_over_season": "Season 2 expands Season 1's political terrain and delivers on the promise of Margulies' pilot performance with an Emmy-winning turn.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2011,
+      "episodes": 22,
+      "release_date": {
+        "value": "2011-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 3 is considered by many critics the show's peak - the firm intrigue, Alicia's moral development, and the political subplot all firing in precise coordination."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 215,
+        "pull_quotes": [
+          {
+            "text": "One of the smartest, sharpest dramas of the 21st century aired on network television.",
+            "source": "Collider",
+            "url": "https://collider.com/the-good-wife-legal-drama-julianna-margulies-greatest-21st-century/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "Season 3 is The Good Wife at its most formally assured. The show's architecture - procedural case of the week carrying thematic resonance, long-arc firm politics, Alicia's personal moral development - operated as a precision instrument. Critics who had been cautiously enthusiastic became unqualified advocates: Collider would later describe the series as 'one of the smartest, sharpest dramas of the 21st century.' The Lockhart Gardner internal conflict sharpened, and the show demonstrated that network television could sustain the kind of character complexity previously assumed to require premium cable.",
+      "season_over_season": "Season 3 represents the full realisation of everything Seasons 1 and 2 promised - the firm politics, character arcs, and procedural cases in perfect coordination.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2012,
+      "episodes": 22,
+      "release_date": {
+        "value": "2012-09-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Season 4 maintained critical consensus while building to major plot developments that set up Season 5's seismic shifts."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 215,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "Season 4 continued the show's assured run while seeding the upheavals that Season 5 would deliver. The internal firm dynamics shifted as new players arrived, and Alicia's moral position - always the show's most interesting variable - became more complexly compromised. Critics maintained their enthusiasm: the overall 93% Rotten Tomatoes series score reflects the show's sustained quality over its run. Season 4 functions as essential connective tissue between the show's peak years and its most dramatic structural transformation.",
+      "season_over_season": "Season 4 sustains Season 3's quality while layering in the tensions that Season 5 will dramatically resolve.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2013,
+      "episodes": 22,
+      "release_date": {
+        "value": "2013-09-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "A 100% Rotten Tomatoes score from critics captures Season 5 as the show's most boldly constructed season - a seismic mid-run plot development that reconfigured every ongoing relationship."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 22,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "Season 5 is the year The Good Wife shocked everyone watching carefully. A mid-season episode - which critics have been careful never to spoil in detail since its original air date - reconfigured the entire show's emotional landscape in roughly 43 minutes. The decision, when it came, was one of the boldest narrative moves in broadcast drama history. Critics awarded Season 5 a perfect 100% Rotten Tomatoes score; the season is considered the show's artistic peak. Alicia Florrick's arc took on new moral dimensions in the aftermath, and the writing room built seven episodes of devastating consequences with extraordinary care.",
+      "season_over_season": "Season 5 detonates the structures built across four seasons and rebuilds the show's moral universe from the wreckage - the series at its most daring.",
+      "episode_reviews": [
+        {
+          "number": 15,
+          "title": "Dramatics, Your Honor",
+          "air_date": "2014-02-23",
+          "bollymeter": 9.5,
+          "spoiler_free": "An episode that permanently changed The Good Wife's emotional landscape. Critics have been careful not to detail the specifics in advance of first viewing. Arrive unspoiled.",
+          "the_moment": "The sequence that redefined the show - one of the most discussed single scenes in broadcast drama history.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "year": 2014,
+      "episodes": 22,
+      "release_date": {
+        "value": "2014-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 6 showed the show reconfiguring after Season 5's upheaval - critics found it uneven but still among the strongest dramas on broadcast television."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 215,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "Season 6 faced the challenge that follows any seismic mid-run development: rebuilding narrative momentum after the landscape has permanently changed. The season played as somewhat uneven - some of the new firm dynamics took time to settle, and the political subplot occasionally felt like obligation rather than investment. Alicia's arc, however, continued to generate the morally complex material Margulies could sustain. The show's craft remained evident; it simply needed time to map new territory after the earthquake of Season 5.",
+      "season_over_season": "Season 6 navigates the aftermath of Season 5's upheavals with variable success - the show recalibrating more than firing on all cylinders.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2015,
+      "episodes": 22,
+      "release_date": {
+        "value": "2015-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-16T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "The final season navigated Alicia's political ambitions and the firm's evolution toward a conclusion that critics found more honest than triumphant - consistent with the show's refusal to sentimentalise its protagonist."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 215,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1442462/ratings/"
+      },
+      "review_body": "The seventh and final season of The Good Wife gave Alicia Florrick a conclusion that reflected the show's consistent moral intelligence: not a triumph, not a catastrophe, but a continuation of the complicated life the series had always traced. Critics respected the finale's refusal to resolve Alicia into easy heroism or simple villainy - she remained, to the end, exactly as the show always presented her: brilliant, compromised, and in motion. The series ended May 8, 2016, and The Good Fight spin-off launched in 2017, confirming the universe had more to explore.",
+      "season_over_season": "Season 7 brings Alicia's seven-year arc to a conclusion that honours the show's moral complexity rather than offering easy resolution.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-16T10:15:00+05:30"
+}
