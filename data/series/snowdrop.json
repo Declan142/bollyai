@@ -1,0 +1,108 @@
+{
+  "slug": "snowdrop",
+  "qid": {
+    "value": "Q98791700",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Snowdrop",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+",
+    "source": "Disney+ press announcement",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Spy",
+    "Historical",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "A university student shelters a wounded North Korean spy in her dormitory during South Korea's 1987 democracy uprising - a romance set inside one of the country's most contested historical moments.",
+  "poster": {
+    "src": "/img/series/snowdrop/poster.jpg",
+    "alt": "Snowdrop poster",
+    "attribution": "Poster © JTBC / Disney+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series. 16 episodes aired on JTBC from December 18, 2021 to January 30, 2022. No continuation announced.",
+    "source": "JTBC",
+    "source_url": "https://en.wikipedia.org/wiki/Snowdrop_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-12-18",
+        "source": "JTBC broadcast records",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Ambitious spy-romance with strong lead performances from Jung Hae-in and Jisoo, undercut by repetitive plotting and a controversial historical framing that critics found clumsy. RT critics gave it 97% but from only 3 reviews; broader discourse was sharply divided."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "A clumsy political thriller with repetitive plotting and insensitive handling of the 1987 pro-democracy movement.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/drama/article/3162018/snowdrop-kdrama-review-jung-hae-jisoo-jtbc-disney-plus"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt13304700/"
+      },
+      "review_body": "Snowdrop arrived in December 2021 as one of the most anticipated and then most controversial K-dramas of the year. Set against the June 1987 democracy movement in South Korea, it casts Jung Hae-in as a North Korean spy who collapses into the dormitory of university student Eun Yeong-ro, played by Jisoo of BLACKPINK. The premise promised a politically charged love story with genuine historical stakes. Critics who reviewed it noted the leads carry real chemistry and the production design is immaculate, but the execution drew fierce backlash: petitions called for cancellation over what viewers saw as a revisionist portrayal of state security agents during the democracy movement. Pierce Conran at the South China Morning Post awarded it 1 out of 5, citing somnolent pacing and a repetitive narrative across 16 episodes. NME called it ambitious but ultimately tedious. Audience reception on IMDb was considerably warmer, rating it 8.6, suggesting the fandoms of the leads carried it through the controversy. For viewers unbothered by the historical debate, it functions as a handsomely mounted period romance with an espionage edge - though the plotting rarely earns the weight of its setting.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-12-18",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the dorm-as-sanctuary premise with efficient economy - Jisoo and Jung Hae-in's first collision carries enough heat to carry the episode past its clunky exposition. The 1987 period design is the real star.",
+          "the_moment": "The injured spy's collapse inside the women's dormitory and the split-second decision that sets the entire season in motion.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2022-01-30",
+          "bollymeter": 5.8,
+          "spoiler_free": "The finale resolves its romantic and political threads with more sentiment than clarity. Viewers who invested in the leads will find enough emotional payoff; those frustrated by the historical framing will find the ending a confirmation of their concerns.",
+          "the_moment": "The final sequence recontextualising the leads' entire arc against the political backdrop.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

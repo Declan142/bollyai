@@ -1,0 +1,100 @@
+{
+  "slug": "the-makanai",
+  "qid": {
+    "value": "Q115664572",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Makanai: Cooking for the Maiko House",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "NHK / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Slice of Life",
+    "Drama",
+    "Coming of Age"
+  ],
+  "logline": "Two best friends arrive in Kyoto's Gion district chasing maiko careers - and when one discovers she is a cook rather than a dancer, the series becomes a quietly profound meditation on finding purpose sideways.",
+  "poster": {
+    "src": "/img/series/the-makanai/poster.jpg",
+    "alt": "The Makanai: Cooking for the Maiko House poster",
+    "attribution": "Poster © NHK / Netflix / Bunkuku. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "The 9-episode series completed its run as a self-contained adaptation of the manga. No second season has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Makanai:_Cooking_for_the_Maiko_House"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 9,
+      "release_date": {
+        "value": "2023-01-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "The Makanai holds a 93% Tomatometer from 15 reviews and a 94% audience score - a rare alignment that reflects the show's gentle cross-demographic appeal. Critics singled out Hirokazu Kore-eda's direction of the first two episodes and Yoko Kanno's score as the primary craft achievements, alongside Nana Mori's performance as Kiyo."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": 15,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "Rotten Tomatoes",
+        "source_url": "https://www.rottentomatoes.com/tv/the_makanai_cooking_for_the_maiko_house"
+      },
+      "review_body": "Hirokazu Kore-eda directing the first two episodes of a Netflix/NHK manga adaptation is not a subtle signal - The Makanai announces its ambitions clearly and then mostly delivers on them. The premise is deceptively small: Kiyo, who fails to progress as a maiko, discovers her gift is cooking for the apprentice geisha house in Kyoto's Gion district. What could be a consolation-prize narrative becomes something closer to a thesis on the dignity of vocation. Yoko Kanno's score keeps the show from tipping into sentimentality. Nana Mori's performance as Kiyo grounds every episode in the practical and the specific. The 93 percent Rotten Tomatoes score from 15 critics and a 94 percent audience rating signal a show that achieves alignment across very different viewer expectations - a rare thing for a slow, food-centered slice-of-life drama.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-01-12",
+          "bollymeter": 8.8,
+          "spoiler_free": "Kore-eda's direction in the opening episode establishes the show's tonal register immediately: unhurried, specific about ritual and space, and interested in the gap between the life characters imagined and the one they are actually living. The Gion district is filmed as a lived environment rather than a postcard, which grounds the folklore and ceremony in something real.",
+          "the_moment": "The first meal Kiyo cooks for the house - the moment when the other maiko stop performing politeness and actually eat with appetite - is the scene that tells you exactly what the series is about.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2023-01-12",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale closes the friendship at the centre of the series with the same restraint that has characterised every episode. The show earns its ending not through plot mechanics but through the accumulation of small, specific details - the kind of closing that only works if the preceding eight episodes did their job.",
+          "the_moment": "A shared meal between Kiyo and Sumire that recapitulates everything the series has been building about friendship, divergence, and the different shapes a meaningful life can take.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

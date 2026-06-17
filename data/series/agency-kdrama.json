@@ -1,0 +1,100 @@
+{
+  "slug": "agency-kdrama",
+  "qid": {
+    "value": "Q115557959",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Agency",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix international availability",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Psychological",
+    "Slice of Life"
+  ],
+  "logline": "A razor-sharp advertising executive fights her way to become the first female CEO of a top Korean agency - a workplace drama about ambition, betrayal, and the cost of power.",
+  "poster": {
+    "src": "/img/series/agency-kdrama/poster.jpg",
+    "alt": "Agency poster",
+    "attribution": "Poster © JTBC / How Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed 16-episode run on JTBC from January 7 to February 26, 2023. Final episode recorded a 16.044% nationwide rating, placing it among the top 5 highest-rated JTBC dramas of all time.",
+    "source": "Koala's Playground",
+    "source_url": "https://koalasplayground.com/2023/02/27/lee-bo-youngs-agency-ends-with-super-high-16-044-ratings-becoming-5th-highest-jtbc-drama-of-all-time/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-01-07",
+        "source": "JTBC broadcast records",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "Lee Bo-young's performance as the calculating and driven Go Ah-in is the season's load-bearing element. Commercial reception was exceptional - a 16.044% finale rating made it one of the top-rated JTBC dramas in network history, averaging 9.95% nationwide."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26253514/"
+      },
+      "review_body": "Agency arrived in January 2023 riding the prestige slot JTBC cleared after Reborn Rich, and it rewarded that inheritance with numbers: the series averaged 9.95% nationwide and its finale hit 16.044%, placing it in the top 5 highest-rated dramas in JTBC history. The premise is elemental - Go Ah-in, raised in poverty, claws her way toward becoming the first female executive of a major advertising conglomerate. Lee Bo-young's performance as the calculating and driven executive anchors every scene. IMDb audience ratings settled at 7.8, reflecting warm but not rapturous consensus - the show's emphasis on office politics over emotional warmth divided viewers who wanted more personal drama alongside the corporate ladder-climbing. The writing is precise and the stakes feel genuinely adult in ways much K-drama avoids. A workplace drama that earns its ambition.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-01-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere wastes no time establishing Go Ah-in as someone who calculates every room before entering it. Lee Bo-young commands the screen from the first scene, and the advertising world backdrop feels researched rather than decorative.",
+          "the_moment": "Go Ah-in's first boardroom play - an opening move that signals exactly what kind of show this will be.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2023-02-26",
+          "bollymeter": 8.3,
+          "spoiler_free": "The finale delivers on the show's core promise without sentimentalising its protagonist. Whether Go Ah-in deserves the ending she gets is precisely the question the final hour forces the audience to sit with.",
+          "the_moment": "The boardroom resolution that had Korean audiences driving the show to a 16% nationwide rating peak.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

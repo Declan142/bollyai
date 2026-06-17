@@ -1,0 +1,110 @@
+{
+  "slug": "first-love-hatsukoi",
+  "qid": {
+    "value": "Q109363674",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "First Love",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama"
+  ],
+  "logline": "Two former teenage sweethearts, now in their 30s, navigate a nonlinear story of reunion and regret set against Hikaru Utada's iconic songs - one carrying amnesia, the other a life built on what might have been.",
+  "poster": {
+    "src": "/img/series/first-love-hatsukoi/poster.jpg",
+    "alt": "First Love poster",
+    "attribution": "Poster © Netflix / C&I Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Released as a standalone limited series with no announced continuation. The 9-episode run tells a complete story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/First_Love_(2022_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 9,
+      "release_date": {
+        "value": "2022-11-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "First Love holds a 92% Rotten Tomatoes score and an 8.4 IMDb rating, with critics praising its nonlinear construction and lead performances from Hikari Mitsushima and Takeru Satoh. Reviewers split on whether the 9-episode runtime justifies its deliberate pace - the Japan Times called it luscious and spectacularly silly."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "Luscious and spectacularly silly.",
+            "source": "Japan Times",
+            "url": "https://www.rottentomatoes.com/tv/first_love/s01"
+          },
+          {
+            "text": "Impressive in its construction, visuals, performances, and emotional power.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2022/11/24/first-love-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt15289042/"
+      },
+      "review_body": "Director Yuri Kanchiku structured First Love as a romantic puzzle built on two Hikaru Utada songs - the 1985 Yuki Saito hit and Utada's own 1999 track - threading 30 years of a relationship through nonlinear time jumps. The result is visually beautiful and emotionally earnest in a way that a specific subset of viewers will find devastating and others will find overextended. The 92 percent Rotten Tomatoes score comes from a small sample (2 reviews), and the IMDb audience rating of 8.4 suggests the show finds exactly the viewers it wants. Ready Steady Cut's Jonathon Wilson called it impressive in construction, visuals, performances, and emotional power while noting it is at least two episodes too long - a fair summary of both its achievement and its limitation. For viewers who want their grief slow-cooked in perfect cinematography, this is the show.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "First Love",
+          "air_date": "2022-11-24",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the dual timeline - teenage Yae and adult Yae (now a taxi driver with no memory of her first love) - with a visual precision that makes the nonlinear structure feel earned rather than stylistic. The Utada soundtrack is not background; the songs structure the emotional logic of every scene they touch.",
+          "the_moment": "A specific piece of music triggers an involuntary memory in adult Yae, and the cut between timelines makes the emotional connection between past and present feel physically real.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Hatsukoi",
+          "air_date": "2022-11-24",
+          "bollymeter": 7.6,
+          "spoiler_free": "The finale closes the two timelines with a sequence that will satisfy viewers who have invested in Yae and Harumichi across all nine episodes. Whether the reunion earns its emotional weight depends entirely on how much the earlier episodes built up - the finale itself does not manufacture feeling it has not deposited.",
+          "the_moment": "The moment the two timelines converge and the gap between who they were and who they became is finally measured in the same frame.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

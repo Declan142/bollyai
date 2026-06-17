@@ -1,0 +1,556 @@
+{
+  "slug": "doctor-who",
+  "qid": {
+    "value": "Q34316",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Doctor Who",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BritBox / BBC iPlayer",
+    "source": "Wikipedia / platform listings",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Sci-Fi", "Adventure", "Drama", "Fantasy"],
+  "logline": "A time-travelling alien known only as the Doctor whisks human companions across centuries and galaxies, facing monsters, moral reckoning, and the weight of being the last of their kind.",
+  "poster": {
+    "src": "/img/series/doctor-who/poster.jpg",
+    "alt": "Doctor Who poster",
+    "attribution": "Poster © BBC / BBC Wales. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Russell T Davies departed in June 2026; BBC committed to a competitive tender for a new showrunner, with a return anticipated no earlier than 2028. The revival era spans Series 1-15 (2005-2024).",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Doctor_Who"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 13,
+      "release_date": {
+        "value": "2005-03-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "The Eccleston-Billie Piper series earned 85% on Rotten Tomatoes (13 reviews) and reinvented a dormant franchise - the chemistry and the 'Bad Wolf' story arc set a template for prestige sci-fi on British television."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 13,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Russell T Davies handed Christopher Eccleston a near-impossible brief: resurrect a beloved but dormant franchise after 16 years and make it matter to a Saturday-night BBC One crowd raised on prestige drama. Series 1 delivered. The 85 percent Rotten Tomatoes score from 13 reviews reflected genuine respect for how efficiently the show remade itself without erasing its own history. The key virtues were plain: Billie Piper's Rose grounded the fantastical in working-class texture, Eccleston's haunted Doctor carried the moral weight of a Time War survivor, and the 'Bad Wolf' arc provided narrative architecture that episodic sci-fi rarely managed. The season works as a stand-alone argument that popular entertainment and real emotion are compatible.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Rose",
+          "air_date": "2005-03-26",
+          "bollymeter": 8.0,
+          "spoiler_free": "The series opener drops shop assistant Rose Tyler into the Doctor's orbit via a department store full of plastic mannequins. Lean, fast, and surprisingly funny - a tonal statement that this revival intends to be accessible without being stupid.",
+          "the_moment": "The Doctor grabs Rose's hand and simply says 'Run' - two words that defined the tone of a decade.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Dalek",
+          "air_date": "2005-04-30",
+          "bollymeter": 9.0,
+          "spoiler_free": "A lone Dalek in captivity becomes a meditation on genocide, survival, and what hatred does to both the hater and the hated. Eccleston at his most raw; the standout hour of Series 1 by most reckonings.",
+          "the_moment": "The Doctor facing the last Dalek and recognising something of himself in its rage.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 13,
+      "release_date": {
+        "value": "2006-04-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "David Tennant's debut full season scored 100% on Rotten Tomatoes (8 reviews); the Doctor-Rose emotional arc reached its zenith, and the 'Doomsday' finale became a defining pop-culture event."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 8,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "David Tennant arrived with Series 2 and immediately enlarged the character - looser, more joyful, but with an undertow of loneliness that made the Doctor-Rose relationship feel genuinely earned rather than merely convenient. A 100 percent Rotten Tomatoes score from eight reviews reflected the show finding its voice. The Cybermen two-parter brought a returning villain back with real menace. The season finale 'Doomsday' delivered a separation scene that became the defining emotional event of revival-era Who - it remains the emotional reference point for a generation who grew up with the revival era. This is the season most people point to when arguing that British sci-fi can break hearts.",
+      "season_over_season": "A marked uplift from Series 1: Tennant's warmth and range gives the show an emotional ceiling Eccleston's more austere performance could not reach, and the story arcs are tighter.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "Doomsday",
+          "air_date": "2006-07-08",
+          "bollymeter": 9.4,
+          "spoiler_free": "The season finale closes the Cybermen-Daleks war arc and separates the Doctor and Rose in a sequence that stands as the emotional peak of the revival era. Earned every one of its tears.",
+          "the_moment": "The beach farewell - impeccably staged, no music during the key exchange, Tennant and Piper purely present.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 13,
+      "release_date": {
+        "value": "2007-03-31",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Series 3 introduced Martha Jones and produced 'Blink' - a non-linear standalone episode that introduced the Weeping Angels and stands as one of the finest hours of British television."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Martha Jones (Freema Agyeman) stepped into a companion role that had to follow an iconic predecessor, and the show wisely made her unrequited feelings for the Doctor a feature, not a bug - it grounded her in human vulnerability without making her passive. Series 3 is defined primarily by 'Blink', a Steven Moffat-scripted episode that ran with a non-linear structure, introduced the Weeping Angels, and became the show's calling card outside its own fanbase. The three-part finale featuring John Simm as the Master remains an ambitious swing in scale that marks the point where the revival era declared itself willing to reach for spectacle.",
+      "season_over_season": "A step sideways from Series 2 in emotional stakes but a step up in formal ambition - 'Blink' is the show proving it can do something no other franchise was doing.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Blink",
+          "air_date": "2007-06-09",
+          "bollymeter": 9.8,
+          "spoiler_free": "A 'Doctor-lite' episode that follows Sally Sparrow as she unravels a mystery involving stone angels that only move when unobserved. Technically and emotionally a masterclass - ranked among the best Doctor Who episodes ever produced.",
+          "the_moment": "The Angels moving in the dark - an image so simple and so effective it turned garden statues into cultural uncanny.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 13,
+      "release_date": {
+        "value": "2008-04-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Donna Noble (Catherine Tate) gave the show its finest companion partnership - the non-romantic dynamic was a creative breakthrough, and the Series 4 finale remains one of the most ambitious hours of British television."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Catherine Tate's Donna Noble had been introduced as a one-off comic foil, and casting her as the full-series companion was the kind of brave choice that defines peak-era Davies. The show abandoned any romantic tension and built something rarer: a friendship of equals between a grieving alien and a woman who felt insignificant in ordinary life. The season's quality held consistently across its run, and the finale - uniting virtually every companion from the revival era in an apocalyptic set-piece - remains the show's most ambitious production. Donna's ending is the revival era's most genuinely tragic companion departure.",
+      "season_over_season": "Donna replaces Martha and lifts the companion writing to its revival-era peak - the platonic pairing gives Tennant new registers to play.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2010,
+      "episodes": 13,
+      "release_date": {
+        "value": "2010-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Matt Smith's debut under Steven Moffat marked a tonal pivot toward fairytale imagery and metatextual complexity - the reinvention held, and Smith established immediate authority in the role."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Steven Moffat inherited the franchise and remade it decisively: the palette went cooler, the narrative structure became more puzzle-like, and Matt Smith - the youngest actor to play the Doctor - convinced the room within his first episode that the recasting was not just a replacement but an evolution. The companion dynamic shifted again with Amy Pond (Karen Gillan), whose lifelong relationship with the Doctor gave Moffat's era its emotional spine. The self-conscious cleverness is both a strength and an occasional liability, but Series 5 represents one of the cleanest creative transitions the show has ever managed.",
+      "season_over_season": "A full showrunner change alongside a new Doctor - the tonal shift toward fairytale and puzzle structure is pronounced, and works.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2011,
+      "episodes": 13,
+      "release_date": {
+        "value": "2011-04-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The series doubled down on arc-heavy plotting around the Doctor's apparent death - the complexity rewards patience but the split-season format fractured narrative momentum."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Series 6 pursued the 'Doctor's death' arc with sustained ambition but also with the density that began to exhaust its welcome. The split-season format - premiered in spring, concluded in autumn - fractured narrative momentum. High points included 'The Doctor's Wife' by Neil Gaiman, an extraordinary standalone in which the TARDIS was given a human form and voice, and River Song's arc reaching emotional coherence. The season's reception split those who prized clever structure and those who wanted more emotional directness from Moffat's writing - a tension that would define the era from this point.",
+      "season_over_season": "More ambitious and more uneven than Series 5 - the arc pays off for invested viewers but creates barriers for the casual audience.",
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "The Doctor's Wife",
+          "air_date": "2011-05-14",
+          "bollymeter": 9.5,
+          "spoiler_free": "Neil Gaiman's contribution gives the TARDIS a human body and a voice, turning decades of mythology into a genuinely moving love story. One of the finest single hours the franchise has produced.",
+          "the_moment": "The TARDIS telling the Doctor she did not take him where he wanted to go - she took him where he needed to.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "year": 2012,
+      "episodes": 13,
+      "release_date": {
+        "value": "2012-09-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "The split series format returned for the Ponds' exit and Clara's introduction; the Impossible Girl arc generated interest but execution was uneven."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Series 7 has a divided legacy: the first block with the Ponds concluded in 'The Angels Take Manhattan', a New York farewell that worked emotionally if not structurally. The second block introduced Jenna Coleman as Clara Oswald and pursued the 'Impossible Girl' mystery arc, engaging in theory but diffuse in execution. The season also produced standout individual episodes - 'Hide' and 'The Crimson Horror' - while the 50th anniversary special 'The Day of the Doctor' in November 2013 stands as the franchise's most spectacular celebration. Clara's proper run begins properly in Series 8.",
+      "season_over_season": "Uneven but not without high moments - the companion changeover disrupts momentum and the split format fragments what was already a compressed season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-08-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Peter Capaldi's debut as the older, more austere Doctor split the room but earned genuine respect - the Twelfth Doctor's abrasive intelligence was a worthwhile creative risk that the season supported with strong writing."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Peter Capaldi arrived as the most deliberately difficult Doctor since the franchise's revival - older, less charming on the surface, quicker to moral impatience. Series 8 spent considerable energy addressing the tonal shift: Clara's adjustment mirrored the broader audience's, and the Missy reveal provided the season's defining twist. Those who engaged with Capaldi's interpretation were rewarded; those who wanted Tennant-era warmth struggled. The finale's double bill represented Moffat's most politically charged writing, and the Danny Pink storyline split opinion on whether the companion's domestic life was a resource or a distraction.",
+      "season_over_season": "A genuine creative recalibration - Capaldi forces a different emotional contract with the viewer and the show is stronger for accepting the challenge.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Capaldi's best season - 'Heaven Sent' is among the finest single episodes of British television and the Doctor-Clara relationship reached its devastating conclusion."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Series 9 is Capaldi's peak and arguably Moffat's finest season as showrunner. The Doctor-Clara partnership was written with full emotional weight, the story arcs were allowed to breathe across two-part stories, and 'Heaven Sent' - a virtually one-hander episode that placed the Doctor alone in a Gothic castle solving a puzzle over an unimaginable timescale - is ranked among the greatest pieces of British television. The Clara farewell in 'Face the Raven' and its aftermath achieved the emotional devastation that the show's best seasons always build toward. The season is near-unanimously praised in the show's critical literature.",
+      "season_over_season": "A significant creative peak over Series 8 - Capaldi now fully inhabited and the writing rising to meet him.",
+      "episode_reviews": [
+        {
+          "number": 11,
+          "title": "Heaven Sent",
+          "air_date": "2015-11-28",
+          "bollymeter": 9.9,
+          "spoiler_free": "A near-solo performance piece in which the Doctor is trapped alone in a shifting castle, forced to solve an impossible puzzle across what may be billions of years. Experimental, devastating, and formally unlike anything else the franchise has produced.",
+          "the_moment": "The reveal of the timescale across which the Doctor has been solving the puzzle - a piece of science fiction that earns its awe.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-04-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "Moffat's final season introduced Bill Potts - the show's most fully realised companion since Donna - and the Capaldi era concluded with emotional generosity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Moffat's final season benefited enormously from Pearl Mackie's Bill Potts - curious, funny, working-class, and Black, she gave the show a companion energy that recalls Donna Noble's best qualities. The season's standalone episodes were among the most inventive of the Moffat era, and the Capaldi farewell across Christmas 2017 handled regeneration with unusual emotional clarity. A fitting close to the Twelfth Doctor era even if Series 9 remains the creative summit of the Capaldi years.",
+      "season_over_season": "Gentler and more accessible than Series 9 - Bill Potts revitalises the companion dynamic, but Moffat's exit means the season carries valedictory weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-10-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Jodie Whittaker became the first female Doctor to widespread media attention; the casting held, but Chris Chibnall's scripts favoured accessibility over complexity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Jodie Whittaker's arrival as the first female Doctor was culturally significant and the casting itself was welcomed. Chris Chibnall's showrunning choices were the more contentious element: a larger TARDIS team, lighter narrative serialisation, and scripts that are warm but dramatically thin. 'Rosa' - a historical episode about Rosa Parks - earned particular attention for tackling racism directly, though opinion on the execution was split. The season's audience figures were strong at launch and softened across the run, a pattern that characterised the Chibnall era overall.",
+      "season_over_season": "A full reset in showrunner, Doctor, and tonal approach - more accessible by design but a loss of dramatic complexity from the Moffat era.",
+      "episode_reviews": []
+    },
+    {
+      "number": 12,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-01-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "The 'Timeless Child' revelation attempted a franchise-altering mythology retcon that split the room deeply, overshadowing what was otherwise a stronger run than Series 11."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Series 12's defining legacy is the 'Timeless Child' mythology reveal, which retroactively rewrote the Doctor's origin story. The debate it generated was genuine and loud: bold mythology-building on one reading, an unnecessary complication of the franchise's emotional core on another. The season's individual episodes were more consistent than Series 11, and Sacha Dhawan's manic Master provided genuine menace. But the finale's mythology dump became the most argued-about creative decision of the Chibnall era and left the show's continuity in a complicated place.",
+      "season_over_season": "More dramatically confident than Series 11 but the 'Timeless Child' arc generates as much argument as engagement.",
+      "episode_reviews": []
+    },
+    {
+      "number": 13,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-11-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "The pandemic-compressed 'Flux' arc crammed too much mythology into six episodes; the ambition was commendable but the execution was rushed and incoherent."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Series 13 - branded 'Flux' - was compressed to six episodes by COVID-19 production constraints and tasked with resolving the 'Timeless Child' arc while introducing new story elements. The ambition in the scale of threats deployed is real; the incoherence of the storytelling is equally real. The season moved too fast to sustain character and too slowly to function as pure spectacle. It marked the effective end of the Chibnall era's creative credibility, with Whittaker deserving better material than she received in this compressed, under-developed run.",
+      "season_over_season": "A steep step down in coherence from Series 12 - production constraints and overloaded plotting combined to produce the weakest run of the revival era.",
+      "episode_reviews": []
+    },
+    {
+      "number": 14,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-11-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "The Disney+ co-production era began with 60th anniversary specials reuniting David Tennant and Catherine Tate; the specials functioned as an emotionally generous bridge before Ncuti Gatwa took over."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "The 60th anniversary specials that opened Season 14 were fan service executed with genuine craft: Tennant and Tate's reunion was built on the emotional weight of their Series 4 partnership and paid it off without cynicism. The specials landed well as a cleansing palate after the Chibnall years. Ncuti Gatwa then took the role in the Christmas special 'The Church on Ruby Road', and his debut signalled a return to the energy and charm of the Davies revival era's best days.",
+      "season_over_season": "A strong tonal and creative reset - Davies's return with new resources brings the show back to its revival-era baseline.",
+      "episode_reviews": []
+    },
+    {
+      "number": 15,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-05-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Ncuti Gatwa's first full season earned praise for his charisma and the show's renewed inclusivity; the Disney+ global platform raised production values visibly."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0436992/"
+      },
+      "review_body": "Ncuti Gatwa's first full season confirmed the promise of his debut: joyful, physically expressive, and emotionally available in a way that recalled the Davies-era Doctors without being derivative. Ruby Sunday (Millie Gibson) provided a companion mystery arc handled with more elegance than recent equivalents. The Disney+ co-production money was visible in the production design, and the show's global reach expanded. Davies' departure in June 2026 leaves the franchise's next chapter uncertain, but Series 15 stands as a creative recovery from the Chibnall years.",
+      "season_over_season": "A further step up from Season 14 - Gatwa fully settled and the companion dynamic clicking.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

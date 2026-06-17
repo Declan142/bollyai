@@ -1,0 +1,108 @@
+{
+  "slug": "astra-lost-in-space",
+  "qid": {
+    "value": "Q28683258",
+    "source": "wikidata.org/wiki/Q28683258",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Astra Lost in Space",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Adventure",
+    "Mystery",
+    "Coming of Age"
+  ],
+  "logline": "Nine high school students stranded 5,000 light-years from home in an abandoned spacecraft must hop between alien planets to survive long enough to uncover why someone sent them there to die.",
+  "poster": {
+    "src": "/img/series/astra-lost-in-space/poster.jpg",
+    "alt": "Astra Lost in Space poster",
+    "attribution": "Poster © Lerche / Shueisha. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A complete single-season adaptation (12 episodes) of Kenta Shinohara's manga, which ran 2016-2017. The story concludes fully within the 12 episodes. No sequel is planned or possible.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Astra_Lost_in_Space"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-07-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "IMDb rates it 7.9. The series won the 12th Manga Taisho Award and the Seiun Award for Best Media at the 51st ceremony. Anime News Network called it 'a rousing, absorbing anime, rich in core sf tropes.' Anime-Planet users scored it 83/100. It is consistently cited as one of the best single-season anime of 2019."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A rousing, absorbing anime, rich in core sf tropes.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=21779"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10483250/ratings/"
+      },
+      "review_body": "Astra Lost in Space (12 episodes, July-September 2019) is one of the sharpest single-season anime to emerge from the 2010s. Lerche adapted Kenta Shinohara's survival sci-fi manga with real economy - the show knows exactly how many episodes it has and uses every one to advance both the survival plot and the mystery underneath it. Nine students stranded by an apparent accident spend the series planet-hopping toward home, and as the physical journey tightens, the revelation of why they were targeted becomes genuinely unsettling. Anime News Network called it absorbing and 'rich in core sf tropes.' It won the Manga Taisho Award and the Seiun Award for Best Media. The character ensemble is well-differentiated, and the final reveal reworks everything that came before it without feeling like a cheat.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Planet Camp",
+          "air_date": "2019-07-03",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere double-length episode establishes all nine characters and strands them with brisk efficiency. The tone is lighter than the premise might suggest - the show trusts the mystery to do its work without front-loading the horror.",
+          "the_moment": "The sphere appears and the camera cuts between each student's face before pulling back to show the full scale of where they have ended up.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Astra",
+          "air_date": "2019-09-18",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves every thread it planted across 12 episodes and earns the emotional payoff by withholding nothing. It is a model of how to conclude a limited anime - no sequel hooks, no loose threads, just a complete story told well.",
+          "the_moment": "The final revelation recontextualises the survival journey in a way that makes the entire series feel like it was always building toward this single image.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

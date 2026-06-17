@@ -1,0 +1,122 @@
+{
+  "slug": "invisible-city",
+  "qid": {
+    "value": "Q86740705",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Invisible City",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Brazil",
+  "original_language": {
+    "value": "pt",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Thriller",
+    "Supernatural",
+    "Mystery"
+  ],
+  "logline": "An environmental detective in Rio de Janeiro investigates a dead pink river dolphin and stumbles into a hidden underworld populated by creatures straight out of Brazilian folklore - and discovers his own connection to it.",
+  "poster": {
+    "src": "/img/series/invisible-city/poster.jpg",
+    "alt": "Invisible City poster",
+    "attribution": "Poster © Netflix / produtoras. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled the series after two seasons. No third season is planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Invisible_City_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 7,
+      "release_date": {
+        "value": "2021-02-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 1 landed in Netflix's top 10 across multiple countries at launch and holds an 89% Tomatometer. Critics praised the inventive use of Brazilian folklore (Curupira, Iara, Cuca) as a genre scaffold and Marco Pigossi's grounded lead performance, though some noted the finale's pacing stumbled."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8878862/"
+      },
+      "review_body": "When Invisible City debuted on Netflix in February 2021 it made an immediate case for Brazilian folklore as premium television fuel. Creator Carlos Saldanha structured the first season around a dead pink river dolphin on a Rio de Janeiro beach - a detail so specific that it immediately signals the show knows exactly where it is. Environmental detective Eric's investigation into his wife's death serves as the plot spine, but the real achievement is the way the series integrates Curupira, Iara, Cuca, and other figures from Brazilian mythology into a contemporary thriller without reducing them to costume. The 89 percent Tomatometer reflects critical consensus that Season 1 largely delivers on its strange, vivid premise. The IMDb audience score of 7.2 tracks a slightly more ambivalent viewer response, with the finale drawing some complaints about rushed resolution.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The River",
+          "air_date": "2021-02-05",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes both the procedural layer and the folklore layer with efficiency. The dead pink river dolphin is one of the more arresting inciting images in recent genre television - specific enough to feel real, strange enough to signal that something mythological is at work. Eric's grief and professional instincts run together without the show needing to separate them.",
+          "the_moment": "The moment a river creature transforms in front of Eric and the show commits fully to its folkloric world rather than treating it as ambiguous.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 5,
+      "release_date": {
+        "value": "2023-03-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Critics found Season 2 rushed and tonally uneven. The Review Geek described it as lacking the magical spark of the first season, and the compressed 5-episode run felt like a cancellation-shaped conclusion rather than a confident second act."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8878862/"
+      },
+      "review_body": "Season 2 arrived in March 2023 with five episodes and the aura of a show aware its time is limited. The shorter run concentrates the mythology-versus-modernity conflict but at the cost of the patient world-building that made Season 1 distinctive. The Review Geek's verdict - that the follow-up lacked the magical spark of the first run - captured the dominant critical reaction. Film Fugitives noted it was lost under its own weight but remained an easy watch for viewers already invested in the folklore engine. The cancellation announcement shortly after confirmed that the show would not find its footing again, leaving the series as a half-told story with a strong opening chapter.",
+      "season_over_season": "Season 2 compresses the mythology into five episodes with diminishing returns, trading the patient folklore integration of Season 1 for a rushed sense of conclusion.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

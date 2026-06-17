@@ -1,0 +1,110 @@
+{
+  "slug": "lovecraft-country",
+  "qid": {
+    "value": "Q31202701",
+    "source": "Wikipedia sidebar / wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Lovecraft Country",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Max",
+    "source": "HBO / Max platform",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Horror",
+    "Drama",
+    "Supernatural",
+    "Historical"
+  ],
+  "logline": "A young Black man drives across Jim Crow America in the 1950s searching for his missing father, only to discover that the monsters H.P. Lovecraft wrote about are far less dangerous than the ones America built.",
+  "poster": {
+    "src": "/img/series/lovecraft-country/poster.jpg",
+    "alt": "Lovecraft Country poster",
+    "attribution": "Poster © HBO / Monkeypaw Productions / Bad Robot. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by HBO on July 2, 2021, after one season, despite strong critical reception and Emmy nominations.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Lovecraft_Country_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-08-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Rotten Tomatoes 88 percent (142 critics) with Metacritic 79; the show fused Jim Crow horror with Lovecraftian creature horror in a way that made the historical racism the more visceral threat."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 142,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6905686/"
+      },
+      "review_body": "Jordan Peele and Misha Green's Lovecraft Country arrived in August 2020 as one of the most formally ambitious horror series HBO had commissioned. The premise - a Black Korean War veteran navigating both supernatural monsters and Jim Crow segregation in 1950s America - built the show's double-bind argument: the systemic racism was always the more terrifying horror. At 88 percent on Rotten Tomatoes (142 reviews) with a Metacritic of 79, the reception landed the series as one of 2020's most significant HBO originals. Jonathan Majors and Jurnee Smollett anchored a show that refused to settle into a single genre register, shifting between road-trip thriller, period horror, body-horror, and cosmic dread within single episodes. The audience score on Rotten Tomatoes (64 percent) reflected a more divided popular response - the genre-jumping between road trip, period horror, and cosmic dread within single episodes proved disorienting for a portion of the audience. The cancellation after one season remains one of the more contested HBO decisions of recent years.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Sundown",
+          "air_date": "2020-08-16",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere drops Atticus Freeman into a sundown-town encounter with local police that is more frightening than the Lovecraftian creatures that follow. The show's central argument - that American racism is the real monster - is established in the first 20 minutes.",
+          "the_moment": "The traffic stop sequence, where the threat of violence from white police officers and the arrival of actual supernatural monsters creates a scene of genuinely disorienting horror.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Meet Me in Daegu",
+          "air_date": "2020-09-27",
+          "bollymeter": 9.0,
+          "spoiler_free": "A standalone bottle episode set in the Korean War, following Ji-ah rather than Atticus. The most formally daring hour of the season and one of the best individual episodes HBO produced in 2020.",
+          "the_moment": "The fox-spirit revelation - a horror image that recontextualises everything the season has built toward Ji-ah's character.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Full Circle",
+          "air_date": "2020-10-18",
+          "bollymeter": 8.3,
+          "spoiler_free": "The season finale circles back to the show's Jim Crow themes while staging a climax that asks Black women - sidelined in Lovecraft's original mythology - to be the ones who save the day.",
+          "the_moment": "Leti's confrontation with the show's primary human villain - the scene where the series makes its feminist subtext entirely explicit.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

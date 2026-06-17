@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © KakaoTV / Bon Factory Worldwide. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/0/0d/City_Couple%E2%80%99s_Way_of_Love_My_Lovable_Camera_Thief.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T22:08:15Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/lovestruck-in-the-city/poster.jpg",
+    "source_height": 378,
+    "source_width": 264,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "lovestruck-in-the-city",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Lovestruck_in_the_City",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/City_Couple%E2%80%99s_Way_of_Love_My_Lovable_Camera_Thief.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/lovestruck-in-the-city/w185.avif",
+      "bytes": 8221
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/lovestruck-in-the-city/w185.webp",
+      "bytes": 8268
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/lovestruck-in-the-city/w342.avif",
+      "bytes": 15837
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/lovestruck-in-the-city/w342.webp",
+      "bytes": 16746
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/lovestruck-in-the-city/w500.avif",
+      "bytes": 22902
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/lovestruck-in-the-city/w500.webp",
+      "bytes": 25082
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T22:13:36.884Z"
+}

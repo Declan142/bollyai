@@ -1,0 +1,107 @@
+{
+  "slug": "hyouka",
+  "qid": {
+    "value": "Q1339165",
+    "source": "wikidata.org/wiki/Q1339165",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hyouka",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Mystery",
+    "Slice of Life",
+    "Coming of Age"
+  ],
+  "logline": "An energy-conserving high schooler who has vowed to avoid all unnecessary effort gets recruited into the Classics Club - and finds himself unable to resist solving the small mysteries that Eru Chitanda keeps thrusting in front of him.",
+  "poster": {
+    "src": "/img/series/hyouka/poster.jpg",
+    "alt": "Hyouka poster",
+    "attribution": "Poster © Kyoto Animation / Shogakukan. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A single 22-episode season aired April to September 2012. No sequel season has been produced, though the source novel series by Honobu Yonezawa remains ongoing.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hyouka_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 22,
+      "release_date": {
+        "value": "2012-04-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Anime News Network praised the series extensively across two home-video reviews, calling it rich in 'spectacular production and intimate character drama.' IMDb rates it 7.7. Crunchyroll Editorial listed it among the top 100 anime of the decade. The series is frequently cited as one of KyoAni's finest works."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Hyouka's second half reaches even greater heights of spectacular production and intimate character drama.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/hyouka/bd-dvd-part-two/.123861"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2340841/ratings/"
+      },
+      "review_body": "Hyouka (2012, 22 episodes) is Kyoto Animation at its most formally precise. Adapted from Honobu Yonezawa's novel series, it follows Oreki Houtarou - a student whose governing principle is minimum effort - as he is pulled reluctantly into solving everyday mysteries by the relentlessly curious Eru Chitanda. The mysteries are intentionally small: a 45-year-old school festival mystery, a missing library book, a film script with an odd structure. What makes the show exceptional is that the mysteries are primarily vehicles for character revelation. Anime News Network praised the home-video release extensively, and Crunchyroll Editorial placed it among the decade's best. The animation is among KyoAni's most elegant work - every scene feels considered, and Chitanda's curiosity is rendered as one of the most visually expressive states in modern anime.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "In a Far-Off Spring",
+          "air_date": "2012-04-22",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Oreki's philosophy and Chitanda's inexhaustible curiosity in immediate conflict. KyoAni's visual language for Chitanda's curiosity - luminous, slightly unreal - is introduced here and carries through the entire series.",
+          "the_moment": "Chitanda leans toward Oreki and says 'I'm curious' - the phrase that will define every mystery to follow - and the camera treats her as something slightly beyond ordinary.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "The Truth of the Kudryavka Sequence",
+          "air_date": "2012-07-01",
+          "bollymeter": 8.5,
+          "spoiler_free": "The conclusion of the Kanya Festival arc - a multi-episode mystery about a film script - resolves with a piece of deduction that reframes everything prior while saying something pointed about storytelling itself.",
+          "the_moment": "Oreki reconstructs the scriptwriter's original intent from fragments of evidence, and the solution turns out to be about a very different kind of problem than the characters assumed.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

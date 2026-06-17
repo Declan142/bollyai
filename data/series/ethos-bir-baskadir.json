@@ -1,0 +1,115 @@
+{
+  "slug": "ethos-bir-baskadir",
+  "qid": {
+    "value": "Q101542419",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ethos",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Turkey",
+  "original_language": {
+    "value": "tr",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Drama",
+    "Psychological",
+    "Slice of Life"
+  ],
+  "logline": "Eight characters from opposite ends of Istanbul's class, religion, and political divides collide through a single therapist's waiting room - writer-director Berkun Oya's precise, compassionate study of a society arguing with itself.",
+  "poster": {
+    "src": "/img/series/ethos-bir-baskadir/poster.jpg",
+    "alt": "Ethos poster",
+    "attribution": "Poster © Netflix Turkey / Medyapim. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Released as a single-season limited series. Berkun Oya confirmed the 8-episode run as a complete work with no second season planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ethos_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-11-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Ethos holds an 8.4 IMDb rating and earned a Sight and Sound review from Nikki Baughan, who wrote that Berkun Oya artfully continues the discussion of what it means to be Turkish and that in making his drama both authentic and accessible, Oya has ensured its message will reach far beyond Turkey. The ensemble and the structural rigor place it among the finest limited series Netflix has commissioned globally."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Oya artfully continues the discussion of what it means to be Turkish.",
+            "source": "Sight and Sound (BFI)",
+            "url": "https://www.bfi.org.uk/sight-and-sound/reviews/ethos-berkun-oya-turkish-series-istanbul-tradition-progress"
+          },
+          {
+            "text": "In making his drama both authentic and accessible, Oya has ensured that its message will reach far beyond Turkey.",
+            "source": "Sight and Sound (BFI)",
+            "url": "https://www.bfi.org.uk/sight-and-sound/reviews/ethos-berkun-oya-turkish-series-istanbul-tradition-progress"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11301642/"
+      },
+      "review_body": "Berkun Oya wrote and directed all eight episodes of Ethos himself, which is visible in every scene - the series has a single author's coherent vision running through a story deliberately built from eight incoherent voices. Meryem, a part-time cleaner from Istanbul's conservative outskirts, goes to see a secular psychiatrist for fainting spells and becomes the thread that stitches together a tapestry of modern Turkish life: a playboy, a Kurdish family, a soap opera actress, a closeted daughter of a religious leader. The structural ambition could easily become a schematic survey of social types, and Sight and Sound's Nikki Baughan acknowledged the risk - but concluded that the performances and narrative are so involving that it never becomes a major issue. The IMDb rating of 8.4 reflects strong global audience response to a show that treats its ideological conflicts with curiosity rather than verdict. Called one of the finest Turkish dramas Netflix has commissioned, and one of the finest limited series of 2020 across any territory.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Meryem",
+          "air_date": "2020-11-12",
+          "bollymeter": 8.7,
+          "spoiler_free": "The series names its first episode after its entry character and uses her fainting spells as the mechanism that pulls eight lives into proximity. Oya's direction is quiet, precise, and deeply interested in how architecture and clothing signal social position. The secular psychiatrist's consultation room against Meryem's covered appearance is the show's central image - two Turkeys across a desk.",
+          "the_moment": "The first session between Meryem and Dr. Peri, where the gulf between them is measured not in words but in silence and the angle of the camera.",
+          "critic_note": {
+            "text": "Oya artfully continues the discussion of what it means to be Turkish.",
+            "source": "Sight and Sound (BFI)",
+            "url": "https://www.bfi.org.uk/sight-and-sound/reviews/ethos-berkun-oya-turkish-series-istanbul-tradition-progress"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Bir Baskadir",
+          "air_date": "2020-11-12",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale does not resolve the ideological tensions it has spent eight episodes mapping. It does something more honest - it leaves the characters changed in small, real ways that the show has earned through patience. The title (which means something like Ethos, or a distinctive character) earns its meaning in the final episode rather than announcing it.",
+          "the_moment": "A moment of genuine connection across the series' central class-religion divide that works because the show has spent eight episodes refusing to make it easy.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

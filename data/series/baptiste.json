@@ -1,0 +1,126 @@
+{
+  "slug": "baptiste",
+  "qid": {
+    "value": "Q63538437",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Baptiste",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BritBox / AMC+",
+    "source": "Wikipedia / platform listings",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Thriller", "Drama"],
+  "logline": "A semi-retired French detective with a gift for empathy is drawn back into active casework across European cities, unravelling sex trafficking rings and political corruption in cases too morally complex for the police to solve alone.",
+  "poster": {
+    "src": "/img/series/baptiste/poster.jpg",
+    "alt": "Baptiste poster",
+    "attribution": "Poster © BBC / Two Brothers Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The series concluded after two seasons (2019, 2021). No third season has been announced. The character originated in The Missing (2014-2016) and this spin-off ran for 12 episodes total.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Baptiste_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-02-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "86% on Rotten Tomatoes (33 reviews) - Tom Hollander's jittery performance and Amsterdam atmosphere are the season's sharpest assets; the plot's twists outpace its character depth."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 33,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8259142/"
+      },
+      "review_body": "Baptiste's first outing as a standalone series dropped him into Amsterdam and a sex-trafficking investigation that quickly entangled a British ex-pat (Tom Hollander) with connections to the missing woman at the centre of the case. The 86 percent Rotten Tomatoes score from 33 reviews rested on two foundations: Tcheky Karyo's ability to make Baptiste's empathy feel lived-in rather than performed, and Hollander's performance of controlled desperation. The Amsterdam setting was used with intelligence - the city's canal geography and institutionalised sex industry functioning as both setting and commentary. The Williams brothers' reliance on jolting twists over emotional groundwork serves momentum at the cost of resonance, and the season's weakest moments are where plot mechanics take over from character.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-02-17",
+          "bollymeter": 7.8,
+          "spoiler_free": "Baptiste is drawn into a missing-person case in Amsterdam involving a Romanian sex worker, an ex-pat British businessman, and a trail of institutional failure. The series opener establishes its moral geography with efficiency.",
+          "the_moment": "Baptiste's first meeting with Hollander's Edward Stratton - Karyo reading the man's guilt before a word of truth has been spoken.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2019-03-24",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale delivers on the season's central mystery with a resolution that prioritises moral consequence over genre satisfaction. Not all threads land cleanly, but Baptiste himself emerges with integrity intact.",
+          "the_moment": "Baptiste's final confrontation with the institutional cover-up - the show at its most direct about power and accountability.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-07-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Fiona Shaw's commanding presence anchors a Budapest-set season whose tonal shift and non-linear structure ask more of the viewer than Season 1 did."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8259142/"
+      },
+      "review_body": "Series 2 relocated Baptiste to Budapest and a case involving a British ambassador (Fiona Shaw) whose son is missing amid political violence. Fiona Shaw is the season's decisive asset: magnetic, controlled, and morally complex in a way that gave the season an emotional anchor Tom Hollander had also provided in Series 1. The season opened in deliberate disorientation - a non-linear structure that rewarded patience but frustrated the expectation of procedural clarity. Baptiste himself was placed in more personal jeopardy, and the meditation on ageing, complicity, and the limits of goodness gave the show thematic depth that partly compensated for occasional plot strain.",
+      "season_over_season": "A lateral move from Series 1 - the Budapest setting and Shaw's presence are real assets, but the disorienting structure demands more than Season 1 did.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

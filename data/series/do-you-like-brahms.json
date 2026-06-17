@@ -1,0 +1,101 @@
+{
+  "slug": "do-you-like-brahms",
+  "qid": {
+    "value": "Q97233126",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Do You Like Brahms?",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Amazon Prime Video listing",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Drama",
+    "Musical",
+    "Slice of Life"
+  ],
+  "logline": "A violin student and a promising pianist at a conservatory navigate unrequited feelings, professional pressure, and the painful distance between talent and love.",
+  "poster": {
+    "src": "/img/series/do-you-like-brahms/poster.jpg",
+    "alt": "Do You Like Brahms? poster",
+    "attribution": "Poster © SBS / Studio S. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season, 16-episode series that concluded on SBS on October 20, 2020. No continuation announced. Park Eun-bin won Top Excellence Award for Actress and Kim Min-jae won Excellence Award for Actor at the 2020 SBS Drama Awards.",
+    "source": "SBS",
+    "source_url": "https://en.wikipedia.org/wiki/Do_You_Like_Brahms%3F"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-08-31",
+        "source": "SBS broadcast records",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Park Eun-bin and Kim Min-jae's performances as two introverted classical musicians are the show's singular achievement - technically committed (both actors trained on their instruments) and emotionally precise. The script consistently lagged behind its cast, averaging 4.9% nationwide on SBS, but the leads earned two SBS Drama Awards."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12867750/"
+      },
+      "review_body": "Do You Like Brahms? aired on SBS from August to October 2020 and averaged 4.9% nationwide - a respectable figure for a classical-music romance that made no concessions to mass-market energy. The series casts Kim Min-jae as Park Joon-young, a pianist straddling technical mastery and emotional repression, opposite Park Eun-bin as Chae Song-ah, a late-blooming violin student navigating talent gaps and self-doubt. Both actors committed fully: each trained on their respective instruments for the production, and the scenes at the keyboard and with the bow register as something more than set dressing. The IMDb episode ratings tell the story: the finale scored 9.4 while mid-season episodes sat in the 7s, a pattern that reflects strong lead performances carrying a script that loses its footing between the first and final stretches. IMDb settled at 7.6, with individual stand-out episodes rated into the high 8s and 9s, suggesting the show has peaks worth finding even when the story meanders. For K-drama viewers who want a slow, chamber-piece romance with genuine musical atmosphere and lead performances that carry their weight, this is the rare genre entry that earns repeat listens.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-08-31",
+          "bollymeter": 7.4,
+          "spoiler_free": "The premiere establishes the conservatory world with real textural detail - the prestige hierarchies, the daily grind of practice, the specific loneliness of being a late starter. Song-ah and Joon-young's first encounter is quiet and deliberate.",
+          "the_moment": "Song-ah's audition scene, which locates her character's fear and determination in a single unbroken take.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Poco a Poco: Slowly, Gradually",
+          "air_date": "2020-10-20",
+          "bollymeter": 9.4,
+          "spoiler_free": "The finale is the season's most acclaimed episode by a clear margin, earning a 9.4 on IMDb. The series resolves its romantic and professional threads with the careful restraint it maintained throughout - no false urgency, no manufactured crisis, just two introverted people landing where the story always suggested they would.",
+          "the_moment": "The final performance sequence, which the show earns through sixteen episodes of careful groundwork.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

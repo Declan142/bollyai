@@ -1,0 +1,126 @@
+{
+  "slug": "capitani",
+  "qid": {
+    "value": "Q65320900",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Capitani",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Luxembourg",
+  "original_language": {
+    "value": "lb",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix platform listing",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Thriller", "Drama"],
+  "logline": "Inspector Luc Capitani investigates a teenage girl's body found in a Luxembourg forest, navigating the closed silence of a northern village where everyone is hiding something and nothing is as rural as it looks.",
+  "poster": {
+    "src": "/img/series/capitani/poster.jpg",
+    "alt": "Capitani poster",
+    "attribution": "Poster © RTL Télé Letzebuerg / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons completed: Season 1 (2019, RTL; 2021, Netflix) and Season 2 (2022, RTL; 2022, Netflix). Luxembourg's first Netflix original. No third season announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Capitani_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 12,
+      "release_date": {
+        "value": "2019-10-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "A slow-burn Nordic-influenced mystery structure and the specificity of the Luxembourgish setting give Season 1 a distinctive atmosphere rare in European crime drama - the 6.6 IMDb rating underreflects what the show achieves on its own terms."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10483610/"
+      },
+      "review_body": "Capitani arrived as Luxembourg's first Netflix original and the achievement is real: a 12-episode slow-burn crime mystery set in the fictional northern village of Manscheid, conducted largely in Luxembourgish - a language most of the world had never heard on television. The show's structural debts to Scandinavian noir are visible (isolated community, institutional distrust, detective outsider) but the setting is specific enough to generate its own atmosphere. Luc Schiltz plays Capitani as a man carrying his own secrets into someone else's, and the village community is drawn with enough texture that the procedural mystery operates as character study too. The Netflix release in February 2021 brought it to a vastly wider audience than its RTL premiere had reached.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-10-01",
+          "bollymeter": 7.4,
+          "spoiler_free": "Capitani arrives in Manscheid following the discovery of fifteen-year-old Jenny Engel's body in a forest. The premiere establishes the village's particular silence - people who share roads and names but refuse to share information - and sets Capitani against that silence.",
+          "the_moment": "Capitani's first conversation with the local police - the outsider-investigator dynamic established with economy and friction.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2019-12-17",
+          "bollymeter": 7.8,
+          "spoiler_free": "The season finale resolves the Jenny Engel case across the village's full social map - what appeared local and isolated opened onto something considerably darker. The closing image uses the forest with the visual intelligence the series has built across twelve episodes.",
+          "the_moment": "The revelation of who knew what and how long the community had organised its silence - the slow-burn structure paying its dividend.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 12,
+      "release_date": {
+        "value": "2022-02-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.9,
+        "basis": "Season 2 relocated Capitani from village to city and urban drug trafficking - a setting shift that retained procedural competence but sacrificed the distinctive rural atmosphere that made Season 1 notable."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10483610/"
+      },
+      "review_body": "Season 2 reset the premise: Capitani, now fired from the police force following the events of Season 1, went undercover to investigate an urban drug trafficking network in Luxembourg City. The shift from isolated village to city environment was the defining creative question: the Manscheid setting had been the show's primary asset, and the urban crime drama that replaced it, while competent, operated in a more familiar register. Capitani himself was given greater moral complexity in his compromised position, and the investigation had genuine procedural tension. But the specificity that made Season 1 distinctive - Luxembourgish spoken in forest light, a community small enough to map its own secrets onto a single case - was absent.",
+      "season_over_season": "A setting reset that trades the show's most distinctive asset - the northern village - for more conventional urban crime terrain.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

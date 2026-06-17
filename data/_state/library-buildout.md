@@ -23,7 +23,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 747 / 1000   (baseline 183)
+## Progress: 777 / 1000   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -37,6 +37,14 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 13 — 2026-06-18 — 30 series — STATUS: DONE (747->777)
+- **A K-Drama:** snowdrop · agency-kdrama · her-private-life · do-you-like-brahms · lovestruck-in-the-city · my-dearest
+- **B Anime:** inuyasha · k-on · hyouka · food-wars · astra-lost-in-space · non-non-biyori
+- **C US Prestige:** girls-hbo · perry-mason-2020 · lovecraft-country · true-blood · generation-kill · how-to-get-away-with-murder
+- **D UK/Euro:** doctor-who · spaced · baptiste · vera · the-pursuit-of-love · capitani
+- **E Indian+World:** hatufim · invisible-city · first-love-hatsukoi · the-makanai · queen-sono · ethos-bir-baskadir
+- 30/30 validate clean · build green (7676pp) · AggregateRating gate clean · 17/30 posters (13 SVG fallback)
+
 ### Batch 12 — 2026-06-18 — 30 series — STATUS: DONE (717->747)
 - **A K-Drama:** king-the-land · my-country-the-new-age · mystic-pop-up-bar · search-www · the-school-nurse-files · the-bequeathed
 - **B US Prestige:** devs · the-act · under-the-banner-of-heaven · the-staircase · the-plot-against-america · the-gilded-age

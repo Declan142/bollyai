@@ -1,0 +1,109 @@
+{
+  "slug": "generation-kill",
+  "qid": {
+    "value": "Q953430",
+    "source": "Wikipedia sidebar / wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Generation Kill",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Max",
+    "source": "HBO / Max platform",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "War",
+    "Drama",
+    "Biographical"
+  ],
+  "logline": "Embedded with the 1st Marine Recon Battalion during the 2003 invasion of Iraq, David Simon and Ed Burns follow an elite unit through the opening weeks of Operation Iraqi Freedom - no heroics, no ideology, just the grinding reality of men in vehicles waiting to fight a war they did not design.",
+  "poster": {
+    "src": "/img/series/generation-kill/poster.jpg",
+    "alt": "Generation Kill poster",
+    "attribution": "Poster © HBO / Company Pictures / Blown Deadline Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A seven-episode miniseries, never designed for renewal. Based on Evan Wright's 2004 book of the same name about his Rolling Stone embedded reporting.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Generation_Kill"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 7,
+      "release_date": {
+        "value": "2008-07-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Rotten Tomatoes 86 percent (42 critics) with a 93-percent audience score; critics placed it alongside The Wire as a David Simon work that refuses to simplify what it documents."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 42,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0995832/"
+      },
+      "review_body": "Generation Kill arrived in July 2008 as the Iraq War was still ongoing, which lent the miniseries an urgency that purely historical war drama cannot manufacture. David Simon and Ed Burns adapted Evan Wright's Rolling Stone embedded reporting into seven episodes that followed the 1st Marine Recon Battalion from Kuwait into Iraq during the 2003 invasion. At 86 percent on Rotten Tomatoes (42 critics), the response was not as overwhelmingly effusive as The Wire but was deeply respectful - this was television that trusted its audience to follow operational detail without a moral instruction manual. Alexander Skarsgard's Nate Fick and James Ransone's Ray Person anchored an ensemble of nearly 30 characters without a single scene of sentimentality. The miniseries' central argument - that the systemic dysfunction driving the invasion was visible at the squad level - was made through accumulation of observed incident rather than thesis statement. One of the finest war documentations in the television medium.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Get Some",
+          "air_date": "2008-07-13",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes the show's approach immediately: the invasion has not begun, and the episode is almost entirely composed of men waiting, talking, and performing absurdist coping rituals in the Kuwaiti desert. Simon and Burns trust boredom as a documentary subject.",
+          "the_moment": "Ray Person's first extended monologue - a torrent of offensive, funny, and ultimately revealing Marine-culture talk that sets the show's ear for authentic institutional language.",
+          "critic_note": null
+        },
+        {
+          "number": 4,
+          "title": "Combat Jack",
+          "air_date": "2008-08-03",
+          "bollymeter": 9.1,
+          "spoiler_free": "The season's midpoint episode escalates the operational confusion and command dysfunction that has been building since the premiere. The civilian casualty scene that ends the episode is the miniseries' most morally loaded sequence.",
+          "the_moment": "The checkpoint incident - a moment that crystallises everything the miniseries is arguing about rules of engagement, institutional failure, and individual soldiers carrying impossible responsibilities.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Bomb in the Garden",
+          "air_date": "2008-08-24",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale reaches Baghdad and the miniseries ends where it must: not with victory but with exhaustion, institutional absurdity, and the quiet devastation of men who performed exactly as trained in a war that remained incoherent from the command level down.",
+          "the_moment": "The final image of the battalion in Baghdad - not triumph, not defeat, just soldiers in a city they cannot explain occupying.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

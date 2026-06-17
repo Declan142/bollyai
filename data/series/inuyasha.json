@@ -1,0 +1,142 @@
+{
+  "slug": "inuyasha",
+  "qid": {
+    "value": "Q21587460",
+    "source": "wikidata.org/wiki/Q21587460",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Inuyasha",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Adventure",
+    "Action",
+    "Romance"
+  ],
+  "logline": "A Tokyo schoolgirl tumbles into feudal Japan, shatters a wish-granting jewel, and forges an uneasy alliance with a half-demon warrior to recover every last shard before the malevolent Naraku claims them.",
+  "poster": {
+    "src": "/img/series/inuyasha/poster.jpg",
+    "alt": "Inuyasha poster",
+    "attribution": "Poster © Sunrise / Yomiuri TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original 167-episode run concluded in September 2004. A direct sequel, Inuyasha: The Final Act (26 episodes), aired October 2009 to March 2010 and brought the story to a definitive close.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Inuyasha_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2000,
+      "episodes": 167,
+      "release_date": {
+        "value": "2000-10-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "IMDb audience score sits at 7.9 across hundreds of thousands of ratings. Critics and fans consistently praise the feudal fantasy world-building and the Kagome-Inuyasha dynamic, while noting the notorious filler padding that stretches the middle portion of the run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0290223/ratings/"
+      },
+      "review_body": "Inuyasha arrived in October 2000 as a sweeping adaptation of Rumiko Takahashi's shonen manga and within a few years had become a defining piece of early-2000s anime culture worldwide, including a landmark Adult Swim run in North America. The original 167-episode series builds a richly textured Sengoku-era world where time-travel romance and demon-hunting action coexist with genuine emotional stakes. The central acknowledged flaw is the sheer volume of filler episodes that dilute the main quest. Nonetheless, the Kagome-Inuyasha pairing and the ever-escalating Naraku threat gave the series a pull that sustained audiences for four years across both the Japanese and Western markets.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Girl Who Overcame Time...and the Boy Who Was Just Overcome",
+          "air_date": "2000-10-16",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the core premise with confidence - Kagome falls through the Bone-Eater's Well and lands in a world of demons and warring clans. The episode's pacing trusts the fish-out-of-water hook to carry viewers without over-explaining.",
+          "the_moment": "Kagome pulls the Sacred Jewel from inside her own body, instantly making her the most dangerous person in feudal Japan.",
+          "critic_note": null
+        },
+        {
+          "number": 167,
+          "title": "Inuyasha's True Feelings",
+          "air_date": "2004-09-13",
+          "bollymeter": 7.2,
+          "spoiler_free": "The original series ends without fully resolving Naraku's arc - a known weakness that left audiences waiting five years for The Final Act. Still, the emotional beats between the core cast land with accumulated weight.",
+          "the_moment": "The final shot of the original run leaves the central quest deliberately open, a choice that frustrated and compelled audiences in equal measure.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 26,
+      "release_date": {
+        "value": "2009-10-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "The Final Act is broadly regarded as the superior instalment by the fanbase - it strips the filler entirely, accelerates to a satisfying conclusion, and delivers the emotional payoff the original run deferred for years."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1583624/ratings/"
+      },
+      "review_body": "Inuyasha: The Final Act (2009-2010) returned after a five-year gap to deliver the ending the manga's climax demanded. At 26 episodes with zero filler, it moves at a pace the original series never risked. It is the tighter, more emotionally coherent piece of work - every episode advances either the Naraku confrontation or the central romance arc. The animation from Sunrise received a visible upgrade and the finale delivers closure that feels genuinely earned after the long journey of the original run. The Final Act is the version most recommended for those who found the 167-episode run daunting.",
+      "season_over_season": "Where the original 167-episode run prioritised world breadth and paid for it with filler bloat, The Final Act operates as a focused sprint to the finish - tighter, faster, and more emotionally direct.",
+      "episode_reviews": [
+        {
+          "number": 26,
+          "title": "Toward Tomorrow",
+          "air_date": "2010-03-29",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series finale delivers the resolution to a decade-long story with genuine warmth. Audiences who stuck through the original run reported the ending as worth the journey.",
+          "the_moment": "The long-deferred resolution of the Kagome-Inuyasha relationship lands with the weight of ten years of storytelling behind it.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

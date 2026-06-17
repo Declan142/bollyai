@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © NHK / Netflix / Bunkuku. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/1/11/Kiyo_In_Kyoto.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T22:12:46Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/the-makanai/poster.jpg",
+    "source_height": 375,
+    "source_width": 265,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "the-makanai",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/The_Makanai%3A_Cooking_for_the_Maiko_House",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/1/11/Kiyo_In_Kyoto.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/the-makanai/w185.avif",
+      "bytes": 10469
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/the-makanai/w185.webp",
+      "bytes": 11048
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/the-makanai/w342.avif",
+      "bytes": 20521
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/the-makanai/w342.webp",
+      "bytes": 23596
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/the-makanai/w500.avif",
+      "bytes": 29398
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/the-makanai/w500.webp",
+      "bytes": 35086
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T22:13:46.385Z"
+}

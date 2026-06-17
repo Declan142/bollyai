@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Lerche / Shueisha. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Astra_Lost_in_Space_volume_1_cover.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T22:09:28Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/astra-lost-in-space/poster.jpg",
+    "source_height": 396,
+    "source_width": 252,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "astra-lost-in-space",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Astra_Lost_in_Space",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Astra_Lost_in_Space_volume_1_cover.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/astra-lost-in-space/w185.avif",
+      "bytes": 17627
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/astra-lost-in-space/w185.webp",
+      "bytes": 17558
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/astra-lost-in-space/w342.avif",
+      "bytes": 40268
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/astra-lost-in-space/w342.webp",
+      "bytes": 45868
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/astra-lost-in-space/w500.avif",
+      "bytes": 56822
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/astra-lost-in-space/w500.webp",
+      "bytes": 68828
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T22:13:16.324Z"
+}

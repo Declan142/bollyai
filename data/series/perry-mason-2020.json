@@ -1,0 +1,127 @@
+{
+  "slug": "perry-mason-2020",
+  "qid": {
+    "value": "Q60771449",
+    "source": "Wikipedia sidebar / wikidata.org",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Perry Mason",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Max",
+    "source": "HBO / Max platform",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery",
+    "Historical",
+    "Legal"
+  ],
+  "logline": "A morally compromised private investigator in 1930s Depression-era Los Angeles stumbles into a sensational child-murder case that will transform him into the city's most reluctant defense attorney.",
+  "poster": {
+    "src": "/img/series/perry-mason-2020/poster.jpg",
+    "alt": "Perry Mason poster",
+    "attribution": "Poster © HBO / Team Downey. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by HBO in June 2023 after two seasons; co-showrunner Michael Begler confirmed the cancellation, with Season 2 serving as an unplanned finale.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Perry_Mason_(2020_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-06-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Rotten Tomatoes 75 percent (84 critics); Matthew Rhys's performance and the period atmosphere were the season's strengths; the storytelling was 'somewhat messy' before the finale resolved it."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 84,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9174558/"
+      },
+      "review_body": "Perry Mason's 2020 reboot transplanted the courtroom procedural to Depression-era Los Angeles and spent its first season more interested in the world it was building than in the case driving it. Matthew Rhys played Mason as a traumatised, mud-caked private investigator - closer to noir antihero than TV lawyer - and the performance held the season together through its plotting difficulties. At 75 percent on Rotten Tomatoes (84 reviews), the season landed with measured approval: the production design, John Lithgow's supporting work, and the 1930s period detail all registered positively. The storytelling was genuinely messy - a child murder case, city corruption, a revivalist church conspiracy, and Mason's own backstory competed for attention without always integrating. The season improved sharply in its final two episodes once the courtroom arrived.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Chapter One",
+          "air_date": "2020-06-21",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes 1932 Los Angeles in precise, rain-soaked detail. A murdered infant is the inciting case; Mason is introduced at his lowest point. The atmosphere is thick but the pace is deliberate.",
+          "the_moment": "The infant crime scene - the show announces its moral seriousness in a single, unflinching image.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Chapter Eight",
+          "air_date": "2020-08-09",
+          "bollymeter": 8.2,
+          "spoiler_free": "The season finale delivers the courtroom confrontation the preceding seven episodes were building toward. Rhys's courtroom work justifies the long runway the show took to get here.",
+          "the_moment": "Mason's closing argument - the moment the character finds his voice as a lawyer rather than a brawler.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-03-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Rotten Tomatoes 85 percent (31 critics); a more disciplined and cohesive season than the debut, with tighter plotting and a stronger emotional throughline."
+      },
+      "critic": {
+        "positive_pct": 85,
+        "sample": 31,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 answered the coherence problem of the debut with a more disciplined story structure and an 85-percent Rotten Tomatoes score (31 reviews). A new murder case - a Latino oil heir - gave the show room to engage with the racial and economic stratification of 1930s Los Angeles that Season 1 had approached but not fully excavated. Rhys settled into Perry Mason as a defined character rather than a work-in-progress, and the supporting cast - particularly Paul Drake's expanded role - gave the ensemble greater depth. The cancellation before a planned Season 3 means the series ends unresolved on several fronts, a fact that tempers an otherwise solid finale-season verdict.",
+      "season_over_season": "Season 2 arrives with tighter plotting and a stronger social conscience than Season 1, finally delivering on the city-portrait ambitions the reboot announced from its opening frame.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

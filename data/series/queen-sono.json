@@ -1,0 +1,92 @@
+{
+  "slug": "queen-sono",
+  "qid": {
+    "value": "Q59640153",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Queen Sono",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Africa",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Spy",
+    "Action",
+    "Thriller",
+    "Drama"
+  ],
+  "logline": "An elite South African intelligence operative navigates high-stakes covert missions across the continent while piecing together the truth behind her own mother's assassination.",
+  "poster": {
+    "src": "/img/series/queen-sono/poster.jpg",
+    "alt": "Queen Sono poster",
+    "attribution": "Poster © Netflix Africa. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix renewed the series for Season 2 on April 28, 2020, then cancelled it on November 26, 2020, citing production challenges from the COVID-19 pandemic. No further seasons were produced.",
+    "source": "Deadline",
+    "source_url": "https://deadline.com/2020/04/queen-sono-netflix-renews-first-african-original-1202919754/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-02-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Queen Sono holds 91% on Rotten Tomatoes from 11 critics, with a consensus citing twisty taut thrills, epic action sequences, and soapy delights. The show is historically significant as Netflix's first African original drama; Pearl Thusi's performance and the pan-African locations were consistently praised. IMDb audience rating of 6.2 reflects a more divided viewer response."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": 11,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9426290/"
+      },
+      "review_body": "When Queen Sono debuted on February 28, 2020, it carried the weight of a landmark: Netflix's first African original drama series. Creator Kagiso Lediga and star Pearl Thusi built a show that operates confidently in the international spy-thriller genre while anchoring its story specifically in South African politics and pan-African geography. The 6-episode first season won over 91 percent of critics who reviewed it, with the Rotten Tomatoes consensus highlighting twisty taut thrills and epic action sequences. The IMDb rating of 6.2 reflects a gap between critical enthusiasm and general viewer engagement, a pattern common to landmark shows that succeed at historical mission without fully solving entertainment consistency. The cancellation - framed as a COVID-19 production challenge - denied the series a second chance to consolidate its strongest elements. What remains is an imperfect but historically significant debut.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-02-28",
+          "bollymeter": 7.4,
+          "spoiler_free": "The premiere establishes Queen Sono as a credible spy-action lead with enough personal mythology (the assassinated mother, the intelligence service family legacy) to anchor six episodes of thriller mechanics. The action sequences in the first episode set a visual standard that justifies the landmark billing.",
+          "the_moment": "An early action sequence that positions Sono not just as competent but as someone with a specific style of controlled aggression - the camera choices tell you this show knows how to stage its lead.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

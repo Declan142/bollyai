@@ -1,0 +1,133 @@
+{
+  "slug": "k-on",
+  "qid": {
+    "value": "Q482482",
+    "source": "wikidata.org/wiki/Q482482",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "K-On!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Slice of Life",
+    "Musical",
+    "Coming of Age",
+    "Comedy"
+  ],
+  "logline": "Four high school girls rescue their school's light music club from disbandment and accidentally become a real band - mostly by eating cake and barely practicing, but somehow also by growing up.",
+  "poster": {
+    "src": "/img/series/k-on/poster.jpg",
+    "alt": "K-On! poster",
+    "attribution": "Poster © Kyoto Animation / TBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The two-season TV run concluded in September 2010. A theatrical film released December 2011 served as a canonical epilogue. No further anime has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/K-On!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 13,
+      "release_date": {
+        "value": "2009-04-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "IMDb scores the series at 7.8 while the franchise generated over 15 billion yen in merchandise by 2011. Critics highlighted Kyoto Animation's warm character work and the show's role in codifying the slice-of-life moe genre."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1410218/ratings/"
+      },
+      "review_body": "K-On! Season 1 (spring 2009, 13 episodes) arrived from Kyoto Animation and quickly became the defining work of the 'cute girls doing cute things' sub-genre. The show refuses to manufacture drama - the stakes are purely personal, the conflicts are minor, and the appeal is in watching four distinct personalities become friends through shared silliness. KyoAni's signature fluid animation and expressive character acting give even mundane tea-and-cake scenes an unusual warmth. The opening and ending themes both charted, and the franchise generated over 15 billion yen in merchandise by 2011 according to Wikipedia. Season 1 is the more focused of the two runs, with 13 episodes that establish central group chemistry without overstaying its welcome.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Disband the Club!",
+          "air_date": "2009-04-03",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere introduces the setup with irresistible lightness - a music club with no members, a student desperate enough to join anything, and an instrument she cannot play. KyoAni's animation communicates personality through movement in a way dialogue alone never could.",
+          "the_moment": "Yui picks up a guitar for the first time and her expression shifts from panic to something that looks very close to love.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2010,
+      "episodes": 26,
+      "release_date": {
+        "value": "2010-04-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Season 2 is widely regarded as the superior instalment - with 26 episodes, it has room to develop each character more fully and its graduation arc became one of the most emotionally resonant finales in slice-of-life anime."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1688591/ratings/"
+      },
+      "review_body": "K-On!! Season 2 (spring-autumn 2010, 26 episodes) expands on everything the first season established and adds genuine emotional weight. The extended episode count allows the show to invest in each band member individually before pulling them toward the same inevitable goodbye. The graduation arc in the final quarter became something audiences did not expect from a show about cake and guitar practice - it is quietly devastating, and it earned the series its reputation as one of the emotional high-water marks of the genre. KyoAni's animation remained impeccably expressive throughout. The 2011 theatrical film, set during a London school trip, functions as a love letter to the characters and is best watched after the season.",
+      "season_over_season": "Season 2 doubles the episode count and uses the space to deepen character work and build emotional momentum toward a graduation arc that far exceeds the first season's ambitions.",
+      "episode_reviews": [
+        {
+          "number": 20,
+          "title": "Graduation Ceremony!",
+          "air_date": "2010-08-24",
+          "bollymeter": 9.0,
+          "spoiler_free": "The graduation episode is the emotional centrepiece of the entire series - the moment the show earns its reputation beyond the slice-of-life genre by delivering a farewell that works without any manufactured drama.",
+          "the_moment": "The band plays their final song at the school festival and the camera holds on each face long enough to let the weight settle.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

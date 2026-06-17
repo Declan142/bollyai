@@ -1,0 +1,96 @@
+{
+  "slug": "the-pursuit-of-love",
+  "qid": {
+    "value": "Q97798656",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Pursuit of Love",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Prime Video platform listing",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Romance", "Drama", "Historical", "Comedy"],
+  "logline": "Two English cousins - one impulsive and romantic, one cautious and domestic - navigate the between-wars decades in pursuit of love, finding that the pursuit itself may be the only life worth living.",
+  "poster": {
+    "src": "/img/series/the-pursuit-of-love/poster.jpg",
+    "alt": "The Pursuit of Love poster",
+    "attribution": "Poster © BBC / Amazon Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Three-episode miniseries, complete as designed. Based on Nancy Mitford's 1945 novel, adapted and directed by Emily Mortimer. No sequel planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Pursuit_of_Love_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 3,
+      "release_date": {
+        "value": "2021-05-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "88% on Rotten Tomatoes (52 reviews) against a 6.7 IMDb rating - the gap reflects a real tonal split between the formal ambition the production committed to and the period-drama expectations it confounded."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 52,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10556338/"
+      },
+      "review_body": "Emily Mortimer's adaptation of Nancy Mitford's 1945 novel announced itself as something deliberately distinctive from the start: a period drama that deployed anachronistic pop music, vivid colour palette, and tonal swings between farce and tragedy that confounded the heritage-drama expectation. The 88 percent Rotten Tomatoes score from 52 reviews reflected genuine appreciation for the formal ambition; the 6.7 IMDb score captured the dissonance the approach generated in those who wanted something more conventional. Lily James as Linda Radlett was the near-universal praise point - she gave the character's reckless romanticism an authenticity that stopped the performance from becoming mere period-drama charm. Andrew Scott's Lord Merlin provided the series' most stylised performance and its most useful compass point for understanding what Mortimer was attempting: a period piece more interested in the feeling of a novel than the plot of one.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode One",
+          "air_date": "2021-05-09",
+          "bollymeter": 7.6,
+          "spoiler_free": "The series opener establishes Linda and Fanny's contrasting characters in childhood and early adulthood, and sets the tonal register: gorgeous, a little anarchic, and emotionally serious beneath the surface brightness.",
+          "the_moment": "The opening fox-hunt sequence - Mortimer establishing the period setting through mood and colour rather than heritage-drama convention.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode Three",
+          "air_date": "2021-05-23",
+          "bollymeter": 7.1,
+          "spoiler_free": "The miniseries finale follows Linda to Paris and her final loves, concluding in a register of muted tragedy that the adaptation handled with more emotional intelligence than its opening episode's energy might suggest.",
+          "the_moment": "Fanny's closing narration over Linda's life - the show earning its emotional argument that the pursuit itself is the point.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
