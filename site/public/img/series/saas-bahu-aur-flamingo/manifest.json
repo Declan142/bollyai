@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 Disney+ Hotstar / Homi Adajania Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © Disney+ Hotstar / Homi Adajania Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/a/a8/Saas%2C_Bahu_Aur_Flamingo_poster.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/a/a8/Saas%2C_Bahu_Aur_Flamingo_poster.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/saas-bahu-aur-flamingo/w185.avif",
+      "bytes": 10292
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/saas-bahu-aur-flamingo/w185.webp",
+      "bytes": 10464
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/saas-bahu-aur-flamingo/w342.avif",
+      "bytes": 18692
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/saas-bahu-aur-flamingo/w342.webp",
+      "bytes": 21496
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/saas-bahu-aur-flamingo/w500.avif",
+      "bytes": 25802
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/saas-bahu-aur-flamingo/w500.webp",
+      "bytes": 31102
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:50.549Z"
 }

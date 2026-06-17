@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 Kinema Citrus / DR Movie. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © Kinema Citrus / DR Movie. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/6/65/The_Rising_of_the_Shield_Hero_light_novel_vol_1.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/6/65/The_Rising_of_the_Shield_Hero_light_novel_vol_1.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/rising-of-the-shield-hero/w185.avif",
+      "bytes": 19103
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/rising-of-the-shield-hero/w185.webp",
+      "bytes": 17514
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/rising-of-the-shield-hero/w342.avif",
+      "bytes": 36665
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/rising-of-the-shield-hero/w342.webp",
+      "bytes": 38742
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/rising-of-the-shield-hero/w500.avif",
+      "bytes": 50896
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/rising-of-the-shield-hero/w500.webp",
+      "bytes": 56956
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:43.323Z"
 }

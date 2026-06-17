@@ -1,0 +1,164 @@
+{
+  "slug": "valeria",
+  "qid": {
+    "value": "Q89759231",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Valeria",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Spain",
+  "original_language": {
+    "value": "es",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Comedy", "Drama", "Slice of Life"],
+  "logline": "A blocked novelist in Madrid questions her stale marriage and her stalled writing life, leaning on three fiercely loyal friends as she tries to figure out what she actually wants.",
+  "poster": {
+    "src": "/img/series/valeria/poster.jpg",
+    "alt": "Valeria poster",
+    "attribution": "Poster © Plano a Plano / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Valeria concluded with its fourth and final season on February 14, 2025, closing out a five-year run based on the novel series by Elisabet Benavent.",
+    "source": "What's on Netflix",
+    "source_url": "https://www.whats-on-netflix.com/news/valeria-renewed-for-fourth-and-final-season-at-netflix/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-05-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "67% on Rotten Tomatoes (6 critics). Globe and Mail called it 'lighter fare and utterly escapist, but clever fun.' Decider found the cast appealing and the writing sharp enough to overcome the familiar premise."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Lighter fair and utterly escapist, but clever fun.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/valeria/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "Rotten Tomatoes",
+        "source_url": "https://www.rottentomatoes.com/tv/valeria/s01"
+      },
+      "review_body": "The debut season adapts Elisabet Benavent's bestselling novel and arrives with a premise critics found well-worn: a woman in a creatively dry, emotionally cold marriage rediscovers herself through friendship and a tempting stranger. Diana Gomez anchors the show with enough charm to keep the familiar beats from feeling tired. The four-way friendship between Valeria, Carmen, Lola, and Nerea is the show's genuine engine - the chemistry lands and the writing is sharp on female friendship dynamics even when it softens on everything else. Rotten Tomatoes registered 67 percent positive from 6 critics, with the Globe and Mail praising its escapist energy. Audience scores tracked higher at 80 percent on the platform. As a breezy, well-cast romantic dramedy it earns its run time.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-08-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "A single critic review on Rotten Tomatoes (67%) and limited aggregation point to a season that maintained visual warmth but lost dialogue sharpness, per the Clarin review."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": 1,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 pushes the romantic triangle into more complicated territory as Valeria weighs her feelings for her husband and the pull of Victor. The season retains the breezy Madrid setting and strong ensemble chemistry but criticism noted a thinning of the dialogue that made Season 1 click. With only one tracked critic review on Rotten Tomatoes, aggregation is limited. Audience response on Netflix remained warm, though the season's narrative circling frustrated viewers expecting forward momentum on Valeria's writing career and love life.",
+      "season_over_season": "Season 2 deepens the romantic stakes but loses some of the sharp banter that gave the debut its lift.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-06-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "50% on Rotten Tomatoes (3 critics). The season arrived with speculation it would be the finale; renewal for Season 4 came later, suggesting Netflix saw value in the audience it retained despite critical fatigue."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 3,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 arrived in June 2023 with Valeria still navigating the fallout of her romantic choices and a publishing career that keeps stumbling. The 50-percent Rotten Tomatoes tally across 3 critics signals critic fatigue with a formula the show had now run for three seasons without significant reinvention. Audience loyalty to the cast kept the show in Netflix's renewal column. The season functions as bridge material - moving characters into position for the eventual conclusion without generating the tension or surprise the format demands.",
+      "season_over_season": "Season 3 treads familiar ground, with the show's emotional texture intact but its narrative engine visibly idling.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": {
+        "value": "2025-02-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "The final season received warmer notices than Season 3, with But Why Tho calling it 'short, sweet and gifting closure.' The shortened six-episode run tightened the pacing and delivered satisfying character resolutions across all four leads."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Short, sweet and gifts us closure.",
+            "source": "But Why Tho",
+            "url": "https://butwhytho.net/2025/02/valeria-season-4-review-netflix/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The final six-episode season landed on Valentine's Day 2025 and benefited from knowing it was the end - the compressed format forces decisions the middle seasons kept deferring. Valeria chooses career over romance, Nerea accepts love on her own terms, and Carmen and Lola are allowed adult complications the earlier seasons kept domesticating. But Why Tho called the season 'short, sweet and gifting closure.' As series finales go, Valeria Season 4 outperforms the mid-run drift and sends the show out on a note fans of the characters will find satisfying.",
+      "season_over_season": "Season 4 is the show's tightest and most decisive run - the six-episode constraint does what the earlier season-length formats could not.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

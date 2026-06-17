@@ -1,0 +1,141 @@
+{
+  "slug": "showa-genroku-rakugo-shinju",
+  "qid": {
+    "value": "Q120333711",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Descending Stories: Showa Genroku Rakugo Shinju",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Historical",
+    "Drama",
+    "Biographical"
+  ],
+  "logline": "A newly released convict apprentices himself to the last great master of rakugo - traditional Japanese comedic storytelling - forcing a reckoning with an art form, a rivalry, and a love triangle that spans three generations.",
+  "poster": {
+    "src": "/img/series/showa-genroku-rakugo-shinju/poster.jpg",
+    "alt": "Descending Stories: Showa Genroku Rakugo Shinju poster",
+    "attribution": "Poster © Studio Deen / Showa Genroku Rakugo Shinju Committee. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run: Season 1 (13 episodes, January-March 2016) and Season 2 (12 episodes, January-March 2017), totalling 25 episodes. Adapted from Haruko Kumota's complete manga.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Showa_Genroku_Rakugo_Shinju"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 13,
+      "release_date": {
+        "value": "2016-01-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Anime News Network reviewer Nick Creamer awarded an A grade, calling it 'an intentionally theatrical tragedy, staged something like a rakugo performance itself' with 'gorgeous direction and top-tier performances'."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "An intentionally theatrical tragedy, staged something like a rakugo performance itself, with gorgeous direction and top-tier performances.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/showa-and-genroku-era-rakugo-sentimentality/episodes-1-13"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/28735/Shouwa_Genroku_Rakugo_Shinjuu"
+      },
+      "review_body": "Studio Deen's adaptation of Haruko Kumota's manga opened in January 2016 with an extended 45-minute premiere that announced an unusually ambitious project. The series centres on rakugo - a centuries-old Japanese art of solo comedic storytelling - and treats the form with the seriousness of a period drama about any classical tradition in decline. Anime News Network reviewer Nick Creamer awarded Season 1 an A grade, describing it as 'an intentionally theatrical tragedy, staged something like a rakugo performance itself,' with 'strong underlying narrative to gorgeous direction and top-tier performances.' The underlying manga won the 38th Kodansha Manga Award for Best General Manga and earned author Haruko Kumota the 21st Tezuka Osamu Cultural Prize's New Creator Prize in 2017. Director Shinichi Omata found visual equivalents for the rakugo stage throughout - intimate close-ups, theatrical stillness, and the precise timing of comedy that knows when to let silence work.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Yotaro's Rakugo",
+          "air_date": "2016-01-09",
+          "bollymeter": 9.2,
+          "spoiler_free": "The extended 45-minute premiere follows Yotaro's release from prison and immediate apprenticeship to the legendary Yakumo, then pulls the frame back to a long flashback that becomes the season's true emotional spine. A formally confident opener that earns its runtime.",
+          "the_moment": "The extended rakugo performance in the flashback - where the young Yakumo and Sukeroku perform together for the last time - crystallises the show's entire emotional argument in a single sustained sequence.",
+          "critic_note": {
+            "text": "An intentionally theatrical tragedy, staged something like a rakugo performance itself, with gorgeous direction and top-tier performances.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/showa-and-genroku-era-rakugo-sentimentality/episodes-1-13"
+          }
+        },
+        {
+          "number": 13,
+          "title": "Descending Stories",
+          "air_date": "2016-03-25",
+          "bollymeter": 9.0,
+          "spoiler_free": "Season 1's finale closes the flashback arc and returns to the present with the weight of everything that has been lost fully measured. The transition sets up Season 2 without leaving the first season feeling incomplete.",
+          "the_moment": "Yakumo's final solo performance, shot from the wings of an empty theatre, is the season's most formally precise and emotionally devastating sequence.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2017,
+      "episodes": 12,
+      "release_date": {
+        "value": "2017-01-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Season 2 resolved the multi-generational arc with a continuation that critics found emotionally satisfying; MAL audience scores remained exceptionally high at 8.7, indicating sustained engagement through the conclusion."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/33095/Shouwa_Genroku_Rakugo_Shinjuu__Sukeroku_Futatabi-hen"
+      },
+      "review_body": "Season 2 aired January to March 2017 and shifted the generational axis, moving from Yakumo and Sukeroku's era to the consequences their relationship imposed on the next generation. The season continued the show's formal seriousness - each rakugo performance is staged and choreographed as carefully as a film scene, with Omata's direction treating the art form as content rather than backdrop. The resolution of Yotaro's arc, and the question of whether rakugo itself can survive into a contemporary Japan that has largely stopped listening, is handled without sentimentality or easy answers. Season 2 lost a small fraction of the mythic weight that made Season 1 so striking, partly because it traded the mystery of the flashback structure for the more conventional forward momentum of its conclusion. As a completion of the story it was faithful and emotionally earned.",
+      "season_over_season": "Season 2 trades the mythic flashback structure of Season 1 for a forward-moving generational resolution - less mysterious, but a satisfying completion of the arc.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

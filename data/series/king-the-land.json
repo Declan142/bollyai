@@ -1,0 +1,102 @@
+{
+  "slug": "king-the-land",
+  "qid": {
+    "value": "Q114243955",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "King the Land",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Comedy", "Drama"],
+  "logline": "A hotel heir tangled in an inheritance war and a perpetually smiling employee collide in a luxury hospitality empire where charm is currency and every smile hides a cost.",
+  "poster": {
+    "src": "/img/series/king-the-land/poster.jpg",
+    "alt": "King the Land poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed its 16-episode run on JTBC and Netflix in August 2023. No sequel or continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/King_the_Land"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 16,
+      "release_date": {
+        "value": "2023-06-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Sizzling lead chemistry from Lee Jun-ho and Im Yoon-ah keeps the show afloat, but a thin script and formulaic conflict arcs dragged the 75% RT score with only 8 critic reviews - a muted endorsement for a romance that coasts on star power."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "The show fully embraces the humour in the well-trodden path as the main love story unfolds.",
+            "source": "The Straits Times",
+            "url": "https://www.straitstimes.com/life/entertainment/king-the-land-review"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 5.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt26693803/"
+      },
+      "review_body": "King the Land premiered on JTBC in June 2023 and landed on Netflix globally the same day, riding considerable anticipation built around its two leads: 2PM singer-actor Lee Jun-ho and Girls' Generation's Im Yoon-ah. The chemistry delivers on paper - the luxury hotel setting is lush, the will-they-won't-they push-pull is professionally executed, and Lee Jun-ho's grand prize trot at the 2023 Asia Artist Awards confirmed audience affection for his performance. The problem is structural: at 16 episodes the show repeats its central misunderstanding arc far past its tension point, and the antagonists belong to a K-drama template circa 2015. The Rotten Tomatoes tally of 75% from just 8 critics reflects the show's watchability without endorsing its ambition. A solid date-night drama; a forgettable one the week after.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-06-17",
+          "bollymeter": 7.0,
+          "spoiler_free": "A stylish premiere that establishes the hotel empire backdrop and drops the two leads into each other's orbit with precise comic timing.",
+          "the_moment": "Sa-rang's reflexively professional smile in the face of Gu Won's open disdain - the show's thesis in a single expression.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2023-08-06",
+          "bollymeter": 6.5,
+          "spoiler_free": "A tidy finale that resolves its threads without surprising anyone - closure over catharsis, but the leads sell it.",
+          "the_moment": "The final reconciliation scene in the hotel lobby, shot with the same visual grammar as the opening meeting.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 SonyLIV / Emmay Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © SonyLIV / Emmay Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/9/92/Freedom_at_Midnight.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/9/92/Freedom_at_Midnight.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/freedom-at-midnight/w185.avif",
+      "bytes": 11122
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/freedom-at-midnight/w185.webp",
+      "bytes": 11510
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/freedom-at-midnight/w342.avif",
+      "bytes": 20608
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/freedom-at-midnight/w342.webp",
+      "bytes": 23630
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/freedom-at-midnight/w500.avif",
+      "bytes": 28925
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/freedom-at-midnight/w500.webp",
+      "bytes": 34020
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:30:54.092Z"
 }

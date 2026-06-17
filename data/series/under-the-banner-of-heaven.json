@@ -1,0 +1,102 @@
+{
+  "slug": "under-the-banner-of-heaven",
+  "qid": {
+    "value": "Q108166770",
+    "source": "Wikipedia sidebar (en.wikipedia.org/wiki/Under_the_Banner_of_Heaven_(miniseries))",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Under the Banner of Heaven",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX on Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller",
+    "Biographical",
+    "Mystery"
+  ],
+  "logline": "A devout Mormon detective investigates a brutal 1984 murder tied to fundamentalist LDS offshoots, forcing a reckoning between his faith and the violence carried out in its name.",
+  "poster": {
+    "src": "/img/series/under-the-banner-of-heaven/poster.jpg",
+    "alt": "Under the Banner of Heaven poster",
+    "attribution": "Poster © FX / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Seven-episode limited series adapted from Jon Krakauer's 2003 non-fiction book by Dustin Lance Black. No continuation planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Under_the_Banner_of_Heaven_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 7,
+      "release_date": {
+        "value": "2022-04-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "An 86% Rotten Tomatoes score (51 reviews) and an 81% audience rating reflect strong consensus around Andrew Garfield's performance and the show's moral seriousness, despite some criticism of how it frames LDS faith."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 51,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11723138/"
+      },
+      "review_body": "Dustin Lance Black's adaptation of Jon Krakauer's true-crime book unfolds as a dual-timeline procedural - a 1984 murder investigation that cuts back into early Mormon history to trace how fundamentalist splinter beliefs mutated into violence. Andrew Garfield's Detective Jeb Pyre is the show's moral engine, a practising LDS member whose faith is tested by what the evidence reveals about men who claimed God's authority. Critics at 86% on Rotten Tomatoes (51 reviews) praised the performances - particularly Wyatt Russell as the dangerous Dan Lafferty - and the formal rigor of intercutting the 1980s case with 19th-century tableaux. A minority of critics, and members of the LDS community, argued the series conflated mainstream Mormonism with its violent fringe. That tension gives the show its friction and its best arguments.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "When God Was Love",
+          "air_date": "2022-04-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Jeb Pyre's faith as an asset and liability simultaneously - before the crime is even fully framed, the show has positioned faith itself as the subject.",
+          "the_moment": "Jeb's first encounter with the crime scene, where the calm domestic setting is at odds with the violence contained within it - an image the premiere returns to in memory throughout the season.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Blood Atonement",
+          "air_date": "2022-06-02",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale closes both timelines with a conclusion that is less about plot resolution than about what faith costs a person who looks too closely at its history.",
+          "the_moment": "Jeb's final conversation about whether revelation and violence can ever be truly separated - the episode's most debated exchange.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

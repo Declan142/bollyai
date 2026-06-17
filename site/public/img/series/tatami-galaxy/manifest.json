@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 Madhouse / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © Madhouse / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Tatami_Galaxy_cover.png",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Tatami_Galaxy_cover.png"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/tatami-galaxy/w185.avif",
+      "bytes": 11513
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/tatami-galaxy/w185.webp",
+      "bytes": 10996
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/tatami-galaxy/w342.avif",
+      "bytes": 23757
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/tatami-galaxy/w342.webp",
+      "bytes": 25392
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/tatami-galaxy/w500.avif",
+      "bytes": 34156
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/tatami-galaxy/w500.webp",
+      "bytes": 37430
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:59.244Z"
 }

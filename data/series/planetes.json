@@ -1,0 +1,101 @@
+{
+  "slug": "planetes",
+  "qid": {
+    "value": "Q104549787",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Planetes",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "In 2075, the unglamorous crew of a space debris collection vessel navigates orbital physics and personal ambition while the commercialisation of space colonisation threatens everything above and below.",
+  "poster": {
+    "src": "/img/series/planetes/poster.jpg",
+    "alt": "Planetes poster",
+    "attribution": "Poster © Sunrise / NHK BS-2. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 26-episode series aired October 2003 to April 2004 on NHK BS-2; available on Crunchyroll as of October 2024. No sequel produced; the manga source material also concluded.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Planetes"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2003,
+      "episodes": 26,
+      "release_date": {
+        "value": "2003-10-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Proclaimed by Anime News Network as the best science fiction anime series of 2005; the manga and anime each won the Seiun Award for best science fiction series in their respective years."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/329/Planetes"
+      },
+      "review_body": "Goro Taniguchi's adaptation of Makoto Yukimura's manga aired on NHK BS-2 from October 2003 and established itself as the benchmark for hard science fiction in anime. Set in 2075 aboard a debris-collection spacecraft, the series applies rigorous orbital mechanics and zero-gravity physics to the everyday lives of a working-class crew whose job is to clean up humanity's orbital mess. Anime News Network declared it the best science fiction anime series of 2005, and the show won the Seiun Award - Japan's top science fiction prize - for the anime medium in 2005, following the manga's own Seiun win in 2002. What separates Planetes from genre contemporaries is its refusal to glamorise space travel: the work is tedious, the pay is poor, and the politics of space colonisation grind against individual aspiration throughout. The 26-episode arc manages both a rigorous physical world and an emotionally mature examination of ambition, partnership, and what people owe each other in hostile environments.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Outside the Atmosphere",
+          "air_date": "2003-10-04",
+          "bollymeter": 8.6,
+          "spoiler_free": "The premiere establishes the unglamorous physics of 2075 orbit - debris floats, coffee is a luxury, and the crew of the Half Section treats space junk removal as just another shift. The tonal gap between setting and register is the entire show's thesis.",
+          "the_moment": "A coffee cup drifting in vacuum - the show's first image of space not as frontier but as littered workplace.",
+          "critic_note": null
+        },
+        {
+          "number": 26,
+          "title": "And the Days We Chance Upon...",
+          "air_date": "2004-04-17",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the season's competing ambitions - personal and political - without softening the costs. It earns its emotional weight through 25 episodes of accumulated specificity.",
+          "the_moment": "The final launch sequence, shot with the same procedural patience the show applied to debris collection, recasts ambition as something quietly earned rather than dramatically seized.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

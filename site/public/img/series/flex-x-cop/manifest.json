@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 SBS / Studio S. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © SBS / Studio S. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Flex_X_Cop_%28poster%29.jpeg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Flex_X_Cop_%28poster%29.jpeg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/flex-x-cop/w185.avif",
+      "bytes": 16174
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/flex-x-cop/w185.webp",
+      "bytes": 15672
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/flex-x-cop/w342.avif",
+      "bytes": 33992
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/flex-x-cop/w342.webp",
+      "bytes": 37680
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/flex-x-cop/w500.avif",
+      "bytes": 48886
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/flex-x-cop/w500.webp",
+      "bytes": 56056
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:30:52.043Z"
 }

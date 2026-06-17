@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 MAPPA / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © MAPPA / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/c/c4/Kakegurui_-_Compulsive_Gambler%2C_Volume_1.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/Kakegurui_-_Compulsive_Gambler%2C_Volume_1.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/kakegurui/w185.avif",
+      "bytes": 11368
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/kakegurui/w185.webp",
+      "bytes": 12760
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/kakegurui/w342.avif",
+      "bytes": 21787
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/kakegurui/w342.webp",
+      "bytes": 27198
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/kakegurui/w500.avif",
+      "bytes": 31487
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/kakegurui/w500.webp",
+      "bytes": 39394
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:05.519Z"
 }

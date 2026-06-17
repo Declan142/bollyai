@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 Netflix / JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © Netflix / JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Daily_Dose_of_Sunshine.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Daily_Dose_of_Sunshine.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/daily-dose-of-sunshine/w185.avif",
+      "bytes": 15186
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/daily-dose-of-sunshine/w185.webp",
+      "bytes": 14250
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/daily-dose-of-sunshine/w342.avif",
+      "bytes": 30762
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/daily-dose-of-sunshine/w342.webp",
+      "bytes": 32932
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/daily-dose-of-sunshine/w500.avif",
+      "bytes": 43972
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/daily-dose-of-sunshine/w500.webp",
+      "bytes": 49836
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:30:37.830Z"
 }

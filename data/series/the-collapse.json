@@ -1,0 +1,86 @@
+{
+  "slug": "the-collapse",
+  "qid": null,
+  "title": {
+    "value": "The Collapse",
+    "source": "Wikipedia / International Emmy nomination records",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "France",
+  "original_language": {
+    "value": "fr",
+    "source": "Wikipedia / International Emmy nomination records",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Canal+ / OCS",
+    "source": "International Emmy nomination records",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Thriller", "Psychological"],
+  "logline": "Eight episodes, eight characters, one collapsing world - each instalment a single continuous take following a different ordinary person during the first hours of civilisation's unravelling in France.",
+  "poster": {
+    "src": "/img/series/the-collapse/poster.jpg",
+    "alt": "The Collapse (L'Effondrement) poster",
+    "attribution": "Poster © Canal+ / Les Parasites. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode miniseries; complete and self-contained. No further seasons produced.",
+    "source": "International Emmy Awards 48th ceremony records",
+    "source_url": "https://en.wikipedia.org/wiki/48th_International_Emmy_Awards"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-11-07",
+        "source": "reported",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "reported"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Nominated for the International Emmy Award for Best TV Movie or Miniseries in 2020 (48th ceremony) - a signal of the series' exceptional formal ambition: eight episodes, each shot in a single continuous take."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "L'Effondrement arrived on Canal+ in late 2019 as one of the most formally radical miniseries produced in France - eight episodes, each presenting a different character and location during the initial hours of a civilisational collapse, and each shot in a single continuous take with no cuts. Directed by the collective Les Parasites (Guillaume Desjardins, Bastien Ughetto, Jimmy Laporal-Trésor, and Jérémy Bernard), the series rejected the conventional disaster-narrative grammar of cross-cutting and parallel editing in favour of something rawer and more immersive. The anthology structure mirrors the chaos: individual lives fragmented, each episode a sealed bottle floating in the same catastrophe. The series received an International Emmy nomination for Best TV Movie or Miniseries at the 48th ceremony in 2020 - one of four international contenders in the category. Critics who covered it for English-language outlets noted the extraordinary formal constraint and its effect: without cuts to compress time or shift perspective, the collapse unfolds at human pace.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Supermarket",
+          "air_date": "2019-11-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The opening episode follows a supermarket manager as shelves are stripped and the social contract dissolves in real time - a single unbroken take that refuses to look away from the mundane logistics of panic.",
+          "the_moment": "The moment when the manager realises that her authority has simply ceased to function - no violence, just absence.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Finale",
+          "air_date": null,
+          "bollymeter": 9.0,
+          "spoiler_free": "The final episode draws the anthology's threads together by choosing a perspective that sees the collapse from the outside - a single take that confirms the scope of what the preceding seven hours have only partially revealed.",
+          "the_moment": "The closing image - which the series has been building toward without the audience realising it until it arrives.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

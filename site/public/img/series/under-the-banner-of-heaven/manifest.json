@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © FX / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/2/22/Under_the_Banner_of_Heaven_poster.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T21:40:14Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/under-the-banner-of-heaven/poster.jpg",
+    "source_height": 362,
+    "source_width": 241,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "under-the-banner-of-heaven",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Under_the_Banner_of_Heaven_(miniseries)",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/22/Under_the_Banner_of_Heaven_poster.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/under-the-banner-of-heaven/w185.avif",
+      "bytes": 6815
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/under-the-banner-of-heaven/w185.webp",
+      "bytes": 7036
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/under-the-banner-of-heaven/w342.avif",
+      "bytes": 13701
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/under-the-banner-of-heaven/w342.webp",
+      "bytes": 15806
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/under-the-banner-of-heaven/w500.avif",
+      "bytes": 20220
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/under-the-banner-of-heaven/w500.webp",
+      "bytes": 23934
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:44:18.792Z"
+}

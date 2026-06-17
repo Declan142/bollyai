@@ -1,0 +1,102 @@
+{
+  "slug": "devs",
+  "qid": {
+    "value": "Q56276177",
+    "source": "Wikipedia sidebar (en.wikipedia.org/wiki/Devs_(miniseries))",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Devs",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FX on Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Sci-Fi",
+    "Thriller",
+    "Drama",
+    "Mystery",
+    "Psychological"
+  ],
+  "logline": "A software engineer probes her boyfriend's death inside a quantum computing division whose secret technology can reconstruct any moment in history - and may have erased the future.",
+  "poster": {
+    "src": "/img/series/devs/poster.jpg",
+    "alt": "Devs poster",
+    "attribution": "Poster © FX / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Conceived and completed as a single eight-episode limited series by creator-director Alex Garland. No continuation planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Devs_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-03-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "An 82% Rotten Tomatoes score (90 reviews) and a 71 Metacritic consensus reflect broad appreciation for Garland's visual precision and philosophical ambition, with reservations about the pace in the middle hours."
+      },
+      "critic": {
+        "positive_pct": 82,
+        "sample": 90,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8134186/"
+      },
+      "review_body": "Alex Garland's directorial debut on television arrived as a single unified work - eight episodes conceived as one feature-length argument about determinism, free will, and Silicon Valley hubris. Critics at 82% on Rotten Tomatoes praised the show's striking visual grammar, Nick Offerman's quietly menacing performance as the tech messiah Forest, and composer Mark Serocki's hypnotic score. Detractors noted that Garland's fidelity to a single philosophical idea occasionally idles the plot. Sonoya Mizuno anchors the thriller mechanics with a controlled intensity. The final two episodes polarised audiences: the resolution was hauntingly logical to some, a philosophical dead end to others. As an exercise in prestige science-fiction that refuses spectacle in favour of dread, it lands firmly in the worth-watching tier.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-03-05",
+          "bollymeter": 8.2,
+          "spoiler_free": "Garland establishes the paranoid tone in a single hour - a gleaming tech campus, a sudden death, and a protagonist who refuses to accept the official story. The visual world-building does the heavy lifting.",
+          "the_moment": "Sergei enters the Devs lab for the first time and the camera holds on his face as the reality of what the machine can do registers without a word of dialogue.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2020-04-16",
+          "bollymeter": 7.5,
+          "spoiler_free": "Garland commits fully to the philosophical logic he built across seven hours. Whether the conclusion satisfies depends entirely on how far a viewer bought into the determinism premise.",
+          "the_moment": "The machine's final output reframes the entire series in a single sustained image - audiences were sharply divided on whether it was profound or evasive.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

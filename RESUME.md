@@ -1,4 +1,15 @@
-# BollyAI - pickup state (2026-06-16 ~17:08, 6H PUSH RUNNING - WAVE-1 DEPLOYED)
+# BollyAI - pickup state (2026-06-16 ~17:40, 6H PUSH WRAPPED by Aditya - 2 WAVES LIVE)
+
+## WRAP SUMMARY (17:40) - run concluded on Aditya "wrap up now"
+- Session total: 566 -> 717 series (+151). TWO deploy waves LIVE: wave-1 93 (commit 2db1a6d) +
+  wave-2 59 (commit 8c15dae). IndexNow 144 pinged. All committed + PUSHED (origin synced @89ce5a2).
+- Deep lane (Azure gpt-5.4): beef 18 + physical-100 18 + you 49 = 85 subtitle-grounded eps live.
+- Azure-only infra COMMITTED + durable (extract_dossier nano backend, crosspass skip, loop fix).
+- STOPPED clean: bollyloop killed, bolly6h drained, BUILDOUT_STOP set, bolly claim released.
+- TO RESUME: `rm data/_state/BUILDOUT_STOP && tmux new-session -d -s bollyloop -c ~/bollyai 'bash scripts/batch/loop_6h.sh 4'`
+  (loop self-commits now; floor deploys waves). Excluded 3 partials: how-i-met-your-mother,
+  the-good-wife, the-west-wing (re-validate before committing). NOTE: a stale 18:11 supervision
+  wakeup may fire once and self-terminate (sees BUILDOUT_STOP).
 
 ## WAVE-1 STATUS (17:08)
 - Loop: 566 -> 687 series (+121 in ~75min, 4 ticks). FIXED a commit bug: ticks 1-2 backgrounded

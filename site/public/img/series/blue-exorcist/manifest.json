@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 A-1 Pictures / Studio VOLN / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © A-1 Pictures / Studio VOLN / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/6/62/Blue_Exorcist_vol_1.png",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/6/62/Blue_Exorcist_vol_1.png"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/blue-exorcist/w185.avif",
+      "bytes": 14793
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/blue-exorcist/w185.webp",
+      "bytes": 14268
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/blue-exorcist/w342.avif",
+      "bytes": 26982
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/blue-exorcist/w342.webp",
+      "bytes": 28742
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/blue-exorcist/w500.avif",
+      "bytes": 38082
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/blue-exorcist/w500.webp",
+      "bytes": 41558
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:30:21.079Z"
 }

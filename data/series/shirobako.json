@@ -1,0 +1,107 @@
+{
+  "slug": "shirobako",
+  "qid": {
+    "value": "Q17903715",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Shirobako",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Comedy",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "Five friends who swore to make anime together after high school navigate the brutal, unglamorous realities of a professional animation studio where dreams collide daily with deadlines.",
+  "poster": {
+    "src": "/img/series/shirobako/poster.jpg",
+    "alt": "Shirobako poster",
+    "attribution": "Poster © P.A. Works / Shirobako Committee. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 24-episode television series concluded in March 2015. A theatrical film followed in February 2020, with a North American release in August 2021.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Shirobako"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 24,
+      "release_date": {
+        "value": "2014-10-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Anime News Network awarded an A grade, praising its 'concept and character development'; it won Animation of the Year at the Tokyo Anime Awards 2016 and the Animation Kobe Television Award 2015."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Shirobako earns an A for its concept and character development.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/shirobako/.87148"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/25835/Shirobako"
+      },
+      "review_body": "Director Tsutomu Mizushima and P.A. Works delivered one of the most forensically detailed portraits of a creative industry ever committed to animation. Shirobako follows five young women on different rungs of an anime production company - from production desk to key animator to voice actress - and treats their unglamorous daily grind with the same seriousness the industry grants its finished products. The Anime News Network review awarded it an A, singling out its unusually grounded character work. It won Animation of the Year at the Tokyo Anime Awards 2016. The show functions simultaneously as workplace comedy, coming-of-age drama, and an unsentimental industry documentary. Its insight into how compromise, miscommunication, and sheer exhaustion shape a finished episode gave it a cult following among working animators worldwide.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Two Kinds of Donuts",
+          "air_date": "2014-10-09",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere plunges viewers into the chaos of an anime studio on deadline, establishing the five leads through their professional roles rather than backstory - a structural choice that signals what kind of show this will be.",
+          "the_moment": "The frantic all-nighter to finish an episode before broadcast sets the show's entire emotional register: exhausted, funny, and strangely moving.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "The Best in the World",
+          "air_date": "2015-03-26",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale brings the five friends' promise full circle, delivering an emotional payoff that earns every minute of buildup across two cours of industry detail.",
+          "the_moment": "The moment the five protagonists watch their completed work together closes the show's central argument about what creative friendship actually costs.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

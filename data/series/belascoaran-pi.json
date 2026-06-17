@@ -1,0 +1,101 @@
+{
+  "slug": "belascoaran-pi",
+  "qid": null,
+  "title": {
+    "value": "Belascoaran, PI",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Mexico",
+  "original_language": {
+    "value": "es",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Crime", "Mystery", "Thriller", "Comedy"],
+  "logline": "A bored engineer abandons his corporate life and dead marriage in 1970s Mexico City to become a detective - stumbling into murders, kidnappings, and corruption that the city's institutions refuse to touch.",
+  "poster": {
+    "src": "/img/series/belascoaran-pi/poster.jpg",
+    "alt": "Belascoaran, PI poster",
+    "attribution": "Poster © Netflix Mexico. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Released as a three-episode limited series on October 12, 2022. No second season was announced as of mid-2026, though the source novels by Paco Ignacio Taibo II contain additional cases.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81354865"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 3,
+      "release_date": {
+        "value": "2022-10-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "88% on Rotten Tomatoes (2 critics). Decider called it 'a classic detective show - stylish, fast-moving.' Cinegarage praised its 'sharp sense of humor.' IMDb audience score of 7.3 and an 83% audience approval on Rotten Tomatoes confirm the crossover appeal."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 2,
+        "pull_quotes": [
+          {
+            "text": "A classic detective show - stylish, fast-moving show.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/belascoaran_pi/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21963650/"
+      },
+      "review_body": "Belascoaran, PI is one of the more quietly assured crime shows Netflix Mexico has produced: three feature-length episodes, each adapted from a different Paco Ignacio Taibo II novel, set in 1970s Mexico City with a visual palette that commits fully to the era. Luis Gerardo Mendez plays Hector Belascoaran with the off-balance charm of a man who has no idea what he is doing but keeps going anyway - which is precisely the joke and the point. The show blends detective procedural with deadpan comedy in proportions that critics found effective. Rotten Tomatoes registered 88 percent (2 critics), with Decider calling it stylish and fast-moving. IMDb audience scores confirmed broad approval at 7.3. The three-episode format, each case self-contained and feature-length, gives the show an anthology quality that suits the source material.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Days in Combat",
+          "air_date": "2022-10-12",
+          "bollymeter": 7.5,
+          "spoiler_free": "Belascoaran's debut case drops him into a TV quiz show and teams him with a mysterious woman tracking a strangler. The episode establishes the show's comic-detective register immediately: Mendez plays a man improvising detection in real time, and the 1970s Mexico City recreation is confident enough to carry the tone.",
+          "the_moment": "The quiz-show framing in the opening act - Belascoaran as contestant, the city as the real puzzle.",
+          "critic_note": {
+            "text": "A thriller with a sharp sense of humor.",
+            "source": "Cinegarage",
+            "url": "https://www.rottentomatoes.com/tv/belascoaran_pi/s01/reviews"
+          }
+        },
+        {
+          "number": 3,
+          "title": "No Happy Ending",
+          "air_date": "2022-10-12",
+          "bollymeter": 7.6,
+          "spoiler_free": "The finale case puts Belascoaran directly in the police's crosshairs when a corpse appears in his office. It is the most tightly wound of the three episodes and lands the series' running theme - that the system will punish anyone who actually does the work the system claims to want done.",
+          "the_moment": "The discovery of the planted body, which reframes everything Belascoaran thought he understood about who is actually in danger.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

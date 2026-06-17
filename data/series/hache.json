@@ -1,0 +1,105 @@
+{
+  "slug": "hache",
+  "qid": {
+    "value": "Q90259152",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Hache",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Spain",
+  "original_language": {
+    "value": "es",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Historical", "Drama", "Thriller"],
+  "logline": "In 1960s Barcelona, a single mother turns survival instinct into ambition by infiltrating the city's heroin trade - becoming the criminal organisation's most dangerous and unexpected asset.",
+  "poster": {
+    "src": "/img/series/hache/poster.jpg",
+    "alt": "Hache poster",
+    "attribution": "Poster © Weekend Studio / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled Hache after two seasons in July 2021. The series concluded with a six-episode second run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hache_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-11-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "75% on Rotten Tomatoes (4 critics). Globe and Mail called it 'gloriously odd, provocative and compelling.' Adriana Ugarte's performance drew Walter White comparisons and Javier Rey's supporting turn won the Best Drama Actor prize at the 2021 MiM Series Awards."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "A gloriously odd, provocative and compelling series turns up on Netflix, offering something with potency.",
+            "source": "Globe and Mail",
+            "url": "https://www.rottentomatoes.com/tv/hache/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8575476/"
+      },
+      "review_body": "Hache lands as one of Netflix Spain's more distinctive period offerings: a sepia-tinted Barcelona in the 1960s, a heroin trade that critic Joel Keller at Decider called the setting for 'two fine lead performances and a well-paced first episode.' Adriana Ugarte's Helena is drawn into the drug underworld with the credibility of someone whose choices are economically logical before they become morally tangled. The 75-percent Rotten Tomatoes tally (4 critics) reflects a genuine critical majority, though the audience score on IMDb settled lower at 6.5 - suggesting mainstream viewers found the period crime pacing deliberate to a fault. Javier Rey would later win Best Drama Actor at the MiM Series Awards for his work across the run. A slow-burn that rewards patience with its atmosphere.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-02-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The six-episode second season intensifies Helena's position inside the cartel and closes out the show's 1960s Barcelona story. Rotten Tomatoes registered no aggregated critic score for this run, and the season arrived amid Netflix's Covid-era catalogue expansion with limited critical attention in English-language outlets. The storytelling is more compressed and the stakes higher, but the cancellation announcement followed in July 2021, leaving some character threads unresolved. Fans of the first season's atmosphere will find enough here to justify the watch.",
+      "season_over_season": "Season 2 tightens the noose around Helena but shortens the season - the compressed run gains tension while losing some of the period texture that distinguished Season 1.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

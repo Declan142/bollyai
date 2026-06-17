@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Mystic_Pop-up_Bar.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-17T21:39:08Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/mystic-pop-up-bar/poster.jpg",
+    "source_height": 356,
+    "source_width": 250,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "mystic-pop-up-bar",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Mystic_Pop-up_Bar.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/mystic-pop-up-bar/w185.avif",
+      "bytes": 13583
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/mystic-pop-up-bar/w185.webp",
+      "bytes": 12722
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/mystic-pop-up-bar/w342.avif",
+      "bytes": 25645
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/mystic-pop-up-bar/w342.webp",
+      "bytes": 27822
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/mystic-pop-up-bar/w500.avif",
+      "bytes": 36483
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/mystic-pop-up-bar/w500.webp",
+      "bytes": 41364
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:44:06.216Z"
+}

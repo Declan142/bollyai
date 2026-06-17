@@ -1,0 +1,107 @@
+{
+  "slug": "keep-your-hands-off-eizouken",
+  "qid": {
+    "value": "Q120359398",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Keep Your Hands Off Eizouken!",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Comedy",
+    "Coming of Age",
+    "Slice of Life"
+  ],
+  "logline": "Three high school girls with zero budget and maximum ambition set out to make the greatest anime ever conceived, turning a crumbling school clubroom into a launchpad for imagination.",
+  "poster": {
+    "src": "/img/series/keep-your-hands-off-eizouken/poster.jpg",
+    "alt": "Keep Your Hands Off Eizouken! poster",
+    "attribution": "Poster © Science Saru / NHK. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 12-episode season aired January-March 2020 on NHK General TV. No second season announced; the story concludes within the one cour run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Keep_Your_Hands_Off_Eizouken!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-01-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Won the Grand Prize for Television Animation at the 2021 Tokyo Anime Awards and the animation division Grand Prize at the 24th Japan Media Arts Festival; cited by The New York Times and The New Yorker among 2020's best shows."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A deeply personal ode to the creative process, directed with kinetic joy by Masaaki Yuasa.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=23860"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/39792/Eizouken_ni_wa_Te_wo_Dasu_na"
+      },
+      "review_body": "Masaaki Yuasa's adaptation of Sumito Owara's manga arrived in January 2020 and immediately positioned itself as one of the decade's most formally exhilarating anime. The premise - three girls building an anime club from institutional scraps - sounds modest, but the execution is anything but. Yuasa treats every fantasy sequence as an invitation to abandon conventional cel grammar, cutting between rough storyboard style and fully-rendered motion in ways that make the act of imagination visible. Critics at The New York Times and The New Yorker both listed it among 2020's best television of any medium. The 12-episode run won the Grand Prize at both the Tokyo Anime Awards and the Japan Media Arts Festival. What distinguished it was the specificity: the show understands how animators think, how they fight over continuity and physics, how a single convincing background can anchor an entire world.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Greatest World",
+          "air_date": "2020-01-06",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere establishes the Eizouken's founding trio through a ten-minute fantasy sequence that demonstrates the series' entire aesthetic thesis - imagination rendered in motion, with Yuasa's hand-crafted energy pushing every frame.",
+          "the_moment": "The first shared daydream, where the three girls inhabit a hand-drawn world of flying machines and sky cities, announces what kind of show this will be.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "This Is What We Do!",
+          "air_date": "2020-03-23",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale delivers on every promise the first episode made, completing the arc of three creators finding their voice while the animation itself pulls out every technical trick the season has been building toward.",
+          "the_moment": "The screening of the club's completed film closes the loop on what making art costs and what it returns.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "the-bequeathed",
+  "qid": {
+    "value": "Q123944011",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Bequeathed",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Horror", "Thriller", "Mystery", "Crime"],
+  "logline": "A college instructor inherits a remote family burial ground from an estranged uncle, and as a half-brother contests the land and bodies begin to surface, a detective pulls at threads connecting ancestral secrets to present-day murder.",
+  "poster": {
+    "src": "/img/series/the-bequeathed/poster.jpg",
+    "alt": "The Bequeathed poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "6-episode limited series released January 19, 2024 on Netflix. Created and written by Yeon Sang-ho (Train to Busan, Hellbound). Standalone; no continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Bequeathed"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 6,
+      "release_date": {
+        "value": "2024-01-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Yeon Sang-ho's bleak rural atmosphere and Kim Hyun-joo's anchoring performance elevate what is essentially a contained procedural; the 83% RT score from 6 critics reflects the show's craft competence over narrative ambition, and the South China Morning Post's atmospheric-but-overlong verdict rings true."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Atmospheric, but may have been better as a feature-length movie.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3248425/netflix-k-drama-review-bequeathed-horror-thriller-series-created-train-busan-and-hellbound-director"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt28225048/"
+      },
+      "review_body": "The Bequeathed marks Yeon Sang-ho's first directorial absence from his own script - he wrote the series, Min Hong-nam directed - and the atmospheric hand is consistent with the creator's prior work on Hellbound: provincial dread, institutional rot, and an occult mystery tethered to family inheritance. The six-episode structure is tight enough that the show sustains its tension through episode four, when the central procedural begins to coil into ambiguity that the finale only partially resolves. Kim Hyun-joo carries the series as the increasingly beleaguered Yoon Seo-ha, and Park Hee-soon's detective work provides the procedural spine that keeps the supernatural elements grounded. The series entered Netflix's Global Top 10 Non-English TV chart in its opening week - 14.5 million hours watched in three days - and held the number-one slot. The 83% Rotten Tomatoes score from six critics reflects genuine craft respect for a show that earns its grimness without fully resolving what it excavates.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-19",
+          "bollymeter": 7.5,
+          "spoiler_free": "The rural burial ground is introduced with the slow-burn menace of classic Korean horror - the inheritance document arriving like a curse, not a gift.",
+          "the_moment": "The first visit to the 'seonsan' - the family burial ground - where the landscape itself reads as hostile.",
+          "critic_note": {
+            "text": "The bleak rural setting brings to mind Bong Joon-ho's Memories of Murder.",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/lifestyle/k-pop/k-drama/article/3248425/netflix-k-drama-review-bequeathed-horror-thriller-series-created-train-busan-and-hellbound-director"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2024-01-19",
+          "bollymeter": 6.0,
+          "spoiler_free": "The finale closes some threads while leaving the darkest implications deliberately open - a choice that fits the show's tone but will frustrate those who wanted explicit resolution.",
+          "the_moment": "The confrontation at the burial ground that recontextualises what the land was actually protecting.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

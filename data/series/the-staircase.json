@@ -1,0 +1,111 @@
+{
+  "slug": "the-staircase",
+  "qid": {
+    "value": "Q107176616",
+    "source": "Wikipedia sidebar (en.wikipedia.org/wiki/The_Staircase_(American_miniseries))",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Staircase",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO Max",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Biographical",
+    "Legal",
+    "Thriller"
+  ],
+  "logline": "Crime novelist Michael Peterson is accused of killing his wife Kathleen - and a French documentary crew filming his defence becomes as tangled in the case as his lawyers.",
+  "poster": {
+    "src": "/img/series/the-staircase/poster.jpg",
+    "alt": "The Staircase poster",
+    "attribution": "Poster © HBO Max. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Eight-episode limited series from Antonio Campos, completed as a single run in 2022. Based on the French documentary miniseries of the same name and the real Michael Peterson murder case.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Staircase_(American_miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-05-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "A 92% Rotten Tomatoes score (71 reviews) and an 80 Metacritic rating represent near-unanimous praise for Colin Firth and Toni Collette, with critics singling out Antonio Campos's formally inventive decision to embed the French documentary crew inside the drama itself."
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 71,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0780536/"
+      },
+      "review_body": "Antonio Campos's adaptation of the Michael Peterson case is the rare true-crime drama that uses the existence of a documentary about the case as a structural device within the drama itself. Juliette Binoche plays the French filmmaker Sophie Brunet whose intimacy with Peterson complicates the documentary's objectivity - a layer of meta-commentary that elevates the series well above the procedural average. Colin Firth's Peterson is opaque by design: the performance withholds verdict throughout, which is precisely the point. Toni Collette's Kathleen is rendered in flashback with enough substance to avoid being merely a victim. The 92% Rotten Tomatoes score (71 reviews) reflected genuine critical enthusiasm; the 80 Metacritic consensus confirmed it as one of the prestige drama highlights of 2022. Sophie Turner and Parker Posey round out an exceptionally well-cast ensemble.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Zoom",
+          "air_date": "2022-05-05",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere opens with the French documentary crew already embedded - immediately complicating any stable vantage point. Campos signals from the first scene that representation itself is the subject.",
+          "the_moment": "The opening shot of Peterson being filmed being filmed - a visual joke that is also a thesis statement for the entire series.",
+          "critic_note": null
+        },
+        {
+          "number": 5,
+          "title": "911",
+          "air_date": "2022-05-26",
+          "bollymeter": 8.8,
+          "spoiler_free": "The episode that recreates the night of Kathleen's death from multiple temporal and physical vantage points - the season's formal high point and the clearest statement of Campos's structural intent.",
+          "the_moment": "The reconstruction of the staircase itself, approached from competing angles that refuse to resolve into a single authoritative account of what happened.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Cuckoo",
+          "air_date": "2022-06-09",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale closes the case without closing the question - a structurally honest ending for a series that was always about the limits of what evidence can prove.",
+          "the_moment": "Peterson's final monologue to the camera, directed at an audience that has spent eight hours uncertain whether to believe him.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

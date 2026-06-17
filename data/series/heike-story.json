@@ -1,0 +1,101 @@
+{
+  "slug": "heike-story",
+  "qid": {
+    "value": "Q108393516",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Heike Story",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Historical",
+    "Drama",
+    "War"
+  ],
+  "logline": "A girl born with one eye that sees the past and one that sees the future witnesses the rise and fall of the Taira clan through the chaos of 12th-century Japan's Genpei War, as the sound of temple bells marks every passing glory.",
+  "poster": {
+    "src": "/img/series/heike-story/poster.jpg",
+    "alt": "The Heike Story poster",
+    "attribution": "Poster © Science Saru / FujiTV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single 11-episode limited series, aired September to November 2021. A complete adaptation of the Tale of the Heike epic with no sequel planned.",
+    "source": "Wikipedia / Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q108393516"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 11,
+      "release_date": {
+        "value": "2021-09-16",
+        "source": "wikidata",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Naoko Yamada's return to long-form direction after K-ON! and A Silent Voice received critical acclaim for its expressionist watercolour aesthetic and emotionally precise approach to Japan's classical war epic."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/50396/Heike_Monogatari"
+      },
+      "review_body": "Naoko Yamada's The Heike Story adapted Japan's foundational medieval war epic into 11 episodes for Science SARU, streaming globally on Netflix from September 2021. Yamada, known for K-ON! and A Silent Voice, brought an expressionist visual language to the Taira clan's doomed dominance - the series renders 12th-century court life in loose watercolour-inflected character designs and fluid crowd animation that deliberately breaks from the clean-line conventions of contemporary anime. The addition of Biwa, an original character with prophetic eyes, gave the adaptation a structural device for compressing centuries of epic poetry into a coherent emotional arc. The show's visual treatment of impermanence - the Buddhist concept that underlies the original Tale of the Heike text - was a noted point of distinction in reviews at ANN and Polygon. The 11-episode compression forced disciplined storytelling: each episode carries the weight of a novel chapter without feeling rushed.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Those Who Prosper Must Decline",
+          "air_date": "2021-09-16",
+          "bollymeter": 9.0,
+          "spoiler_free": "The premiere establishes Biwa's dual-eyed vision as both narrative device and thematic statement - she sees what has been and what will come, placing the viewer at the hinge of a dynasty's arc before a single battle has been fought.",
+          "the_moment": "Biwa's first vision of the Taira clan's fall, rendered in the show's loose watercolour style, introduces the elegiac tone that distinguishes this adaptation from conventional historical drama.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "The Passing of Time",
+          "air_date": "2021-11-25",
+          "bollymeter": 9.1,
+          "spoiler_free": "The finale completes the elegiac arc - the Taira clan's destruction rendered not as tragedy but as the fulfilment of what the opening episode's bells already announced. Yamada's closing imagery is among the most formally striking of any 2021 anime.",
+          "the_moment": "The final image of Biwa on the shore, the sea taking what the land could not hold - a visual rhyme with the opening that lands with cumulative force.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

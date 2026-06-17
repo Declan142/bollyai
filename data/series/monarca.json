@@ -1,0 +1,108 @@
+{
+  "slug": "monarca",
+  "qid": {
+    "value": "Q67603630",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Monarca",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Mexico",
+  "original_language": {
+    "value": "es",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Crime", "Thriller", "Psychological"],
+  "logline": "After twenty years in self-imposed exile, Ana Maria returns to her family's tequila empire and discovers that the corruption holding it together runs deeper than the secrets she left behind.",
+  "poster": {
+    "src": "/img/series/monarca/poster.jpg",
+    "alt": "Monarca poster",
+    "attribution": "Poster © Netflix Mexico. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled Monarca in March 2021 after two seasons. The series ran from September 2019 to January 2021.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Monarca"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-09-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Rotten Tomatoes did not aggregate a Tomatometer score (1 critic submission). Alta Fidelidad Magazine noted outstanding visuals alongside narrative flaws. Audience reception on IMDb trended strongly positive, with reviews praising the realistic portrait of corrupt Mexican business elites and strong female lead."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": 1,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8655736/"
+      },
+      "review_body": "Monarca launched on Netflix Mexico in September 2019 and found an audience well before English-language critics caught up. Created by Diego Gutierrez and executive-produced by Salma Hayek, the series follows Irene Azuela's Ana Maria returning to the Carranza family tequila dynasty after two decades abroad. The show's strongest asset is its lived-in sense of how power operates within a Mexican elite family - the corruption is systemic, generational, and as much cultural as criminal. The 10-episode first season generates enough intrigue through its ensemble to sustain the sprawl. Critical aggregation on Rotten Tomatoes remained thin (one submission), but audience word of mouth positioned it as a high-quality alternative to the cartel genre's more violent registers.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-01-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Ready Steady Cut (Daniel Hart, 3.5/5) called it 'a toxic drama worth watching' with a 'thickened story.' Audience reviewers on IMDb praised the cinematography, performances, and score in a second season that escalated family warfare and added political complexity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Season 2 thickening the story, and making it a toxic drama worth watching.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2021/01/01/review-monarca-season-2-netflix-series/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 2 premiered on New Year's Day 2021 with the Carranza family under greater external pressure and internal fracture. The storylines thicken rather than resolve: Ana Maria's control of the company is contested from within, and the political entanglements of prior seasons deepen. Ready Steady Cut's Daniel Hart awarded 3.5 out of 5, praising the show as a hidden gem and noting that the second season makes the dynasty drama feel genuinely toxic. The musical score drew particular attention from audience reviewers for its atmospheric contribution to tense scenes. The cancellation in March 2021 cut the story short and left threads unresolved, which remains the series' primary frustration.",
+      "season_over_season": "Season 2 amplifies the political and family stakes from Season 1 and tightens the central power struggle, though cancellation means no formal resolution.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

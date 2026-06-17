@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 Studio Dragon / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © Studio Dragon / tvN. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/My_Roommate_Is_a_Gumiho.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/My_Roommate_Is_a_Gumiho.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/my-roommate-is-a-gumiho/w185.avif",
+      "bytes": 10011
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/my-roommate-is-a-gumiho/w185.webp",
+      "bytes": 10078
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/my-roommate-is-a-gumiho/w342.avif",
+      "bytes": 19469
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/my-roommate-is-a-gumiho/w342.webp",
+      "bytes": 21912
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/my-roommate-is-a-gumiho/w500.avif",
+      "bytes": 28588
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/my-roommate-is-a-gumiho/w500.webp",
+      "bytes": 33258
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:26.233Z"
 }

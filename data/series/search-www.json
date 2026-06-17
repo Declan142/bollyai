@@ -1,0 +1,82 @@
+{
+  "slug": "search-www",
+  "qid": {
+    "value": "Q63672031",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Search: WWW",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Romance", "Slice of Life"],
+  "logline": "Three women in their late thirties navigate rival web portal empires and the romantic entanglements that arrive on the side - a portrait of ambition, power, and desire in digital-age Seoul.",
+  "poster": {
+    "src": "/img/series/search-www/poster.jpg",
+    "alt": "Search: WWW poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed its 16-episode run on tvN in July 2019. Produced by Studio Dragon and Hwa&Dam Pictures. No sequel.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Search:_WWW"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-06-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "A rare K-drama that places professional women's ambitions front and centre without flattening them into romance vehicles; Im Soo-jung, Lee Da-hee, and Jeon Hye-jin make the portal rivalry crackle with the same intensity as the personal entanglements."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Search: WWW arrived on tvN in June 2019 as a workplace drama with an unusually honest premise: three women past 35 running competing internet portals, whose romantic subplots are secondary to the professional war they are waging. Writer Kwon Do-eun and directors Jung Ji-hyun and Kwon Young-il give each of the three protagonists - Bae Ta-mi, Cha Hyeon, and Song Ga-kyeong - a distinct relationship to power and compromise. The portal companies Unicon and Barro function as near-satirical mirrors of the real Korean internet duopoly, and the drama makes the algorithm politics feel genuinely consequential. Im Soo-jung's nomination for Top Excellence at the 12th Korea Drama Awards acknowledged a performance that grounds the show's ambitions. The romance arcs are more formulaic, but the central argument - that ambition in a woman is not a disorder to be cured by love - is stated and maintained with unusual consistency for the genre.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-06-05",
+          "bollymeter": 7.5,
+          "spoiler_free": "A confident premiere that introduces all three women at the top of their professional games and sets the portal rivalry in motion with corporate-thriller briskness.",
+          "the_moment": "Bae Ta-mi's board meeting entrance - the show's thesis statement about women and boardroom authority delivered through staging alone.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

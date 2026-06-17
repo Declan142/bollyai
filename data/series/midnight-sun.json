@@ -1,0 +1,91 @@
+{
+  "slug": "midnight-sun",
+  "qid": {
+    "value": "Q27230679",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Midnight Sun",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Sweden",
+  "original_language": {
+    "value": "sv",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SVT / Canal+ France / SBS Australia",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Mystery", "Thriller", "Drama"],
+  "logline": "A Paris detective and a Swedish prosecutor investigate a series of ritualistic murders in far northern Sweden near Kiruna, where the midnight sun and a uranium-smuggling conspiracy refuse to release their secrets.",
+  "poster": {
+    "src": "/img/series/midnight-sun/poster.jpg",
+    "alt": "Midnight Sun (Midnattssol) poster",
+    "attribution": "Poster © SVT / Canal+ / Cinemon Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single eight-episode season; self-contained story concluded. No renewal announced by SVT or Canal+.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Midnattssol"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2016,
+      "episodes": 8,
+      "release_date": {
+        "value": "2016-10-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A competent Nordic noir with an unusual Franco-Swedish co-production pedigree; critics praised the Sami cultural setting and the Arctic location photography without finding the mystery as compelling as its Scandinavian peers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Midnight Sun (Swedish: Midnattssol; French: Jour polaire) aired on Sveriges Television from October to December 2016 - a Swedish-French co-production directed by Måns Mårlind and Björn Stein, the pair behind the Swedish-Danish series The Bridge. Leïla Bekhti played Kahina Zadi, a Parisian police lieutenant sent to Arctic Sweden to investigate ritualistic murders near Kiruna, where she partners with local deputy prosecutor Anders Harnesk (Gustaf Hammarsten). The series distinguished itself from Nordic noir formula through its Sami cultural layer and the uranium-smuggling conspiracy that underpinned the killings, giving the mystery political and ecological dimensions less common in the genre. Peter Stormare as the chief prosecution officer delivered the series' most commanding supporting performance. SBS Australia picked up the series for broadcast from January 2017. The Arctic cinematography was exceptional and the pacing deliberate; the plotting layered in the uranium-smuggling thread was more convoluted than the genre's cleaner Scandinavian peers.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2016-10-13",
+          "bollymeter": 7.5,
+          "spoiler_free": "A French detective arrives in the Swedish Arctic during the endless polar summer - the landscape's impossible light and the cultural gap between Parisian policing and Sami tradition are introduced in a first episode that foregrounds setting over plot.",
+          "the_moment": "Kahina's first sight of the midnight sun over the Lapland wilderness - the geography itself announced as the series' most important character.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2016-12-11",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale resolves the uranium-smuggling conspiracy and the ritualistic murders, bringing the French-Swedish partnership to its conclusion as the Arctic summer finally gives way to darkness.",
+          "the_moment": "The final confrontation that reveals how the Sami cultural wound at the series' centre connected to every killing.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

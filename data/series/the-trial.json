@@ -1,0 +1,105 @@
+{
+  "slug": "the-trial",
+  "qid": {
+    "value": "Q114243465",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Trial: Pyaar Kaanoon Dhokha",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Disney+ Hotstar",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Legal", "Drama", "Crime"],
+  "logline": "After her powerful husband is arrested, a housewife who set aside her legal career reinvents herself as a lawyer - navigating courtroom battles and a crumbling marriage at the same time.",
+  "poster": {
+    "src": "/img/series/the-trial/poster.jpg",
+    "alt": "The Trial: Pyaar Kaanoon Dhokha poster",
+    "attribution": "Poster © Banijay Asia / Ajay Devgn FFilms / Disney+ Hotstar. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 released on Disney+ Hotstar on September 19, 2025, continuing Noyonika's story as a practising lawyer.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Trial_(Indian_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-07-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 5.8,
+        "basis": "Critics split sharply: Kajol's committed performance drew consistent praise, but Film Companion and Koimoi both found the adaptation shallow, noting it prioritised family melodrama over the courtroom rigour that made The Good Wife compelling."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The show's reading of struggle and gender is so simplistic that it hurts.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/trending/tv/reviews/the-trial-series-review-kajols-streaming-debut-is-guilty-of-loud-and-superficial-storytelling-rahul-desai"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt21975100/"
+      },
+      "review_body": "Kajol's long-awaited OTT debut arrives as a Hindi adaptation of The Good Wife, with the Bollywood star playing Noyonika Sengupta - a woman who re-enters the legal profession after her politician husband's arrest. The performance is the show's primary asset: Kajol brings credibility and emotional range to a character that the writing too often simplifies. Critics at Film Companion and Bollywood Life found the series surface-level, noting its tendency to drown courtroom scenes in background score and reduce complex gender politics to broad strokes. IMDb audience scores settled around 7.0, suggesting viewers responded warmly to the star presence even when the craft fell short. As a gateway Indian legal drama it functions, but it does not threaten the source material.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": {
+        "value": "2025-09-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 dropped in September 2025 with Noyonika now an established lawyer, the show tracking her professional growth alongside her estranged husband's political ambitions. Critical reception had not aggregated to a verified score at time of writing. The season consolidates the courtroom procedural elements that the debut season underserved.",
+      "season_over_season": "Season 2 leans harder into the legal procedural format, stepping back from the domestic-shock framing that dominated the first run.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

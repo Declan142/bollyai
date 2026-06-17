@@ -1,0 +1,87 @@
+{
+  "slug": "my-country-the-new-age",
+  "qid": {
+    "value": "Q63282795",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My Country: The New Age",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Drama", "Action", "Romance"],
+  "logline": "Two childhood friends find themselves on opposite sides of a dynastic war as the Goryeo dynasty collapses and a new kingdom rises - loyalty, survival, and betrayal measured in lives.",
+  "poster": {
+    "src": "/img/series/my-country-the-new-age/poster.jpg",
+    "alt": "My Country: The New Age poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Completed its 16-episode run on JTBC in November 2019. Available on Netflix in select regions. No sequel planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_Country:_The_New_Age"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 16,
+      "release_date": {
+        "value": "2019-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "A ₩20-billion sageuk with genuine sweep: Yang Se-jong and Woo Do-hwan deliver the friendship-to-enmity arc with conviction, and Jang Hyuk's Yi Bang-won is one of the period's more menacing TV antagonists. The 8.1 IMDb rating from a dedicated fanbase holds."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10850888/"
+      },
+      "review_body": "My Country: The New Age aired on JTBC in the autumn of 2019 with a reported budget of 20 billion won - substantial for a cable production - and put that money on screen in sweeping battle choreography and period design. The premise is sageuk fundamentals: two men who grew up together, one pledging loyalty to the old order and one climbing into the new regime under the warrior Yi Bang-won. The friction between Yang Se-jong's idealism and Woo Do-hwan's calculated survival instinct carries the drama's emotional weight, while Jang Hyuk commands every scene he occupies as the calculating prince who will become Joseon's third king. Where the show loses ground is in its central romance, which recycles familiar tropes without the political texture to justify their separation. The IMDb score of 8.1 reflects an audience that came for the genre and was rewarded on those terms.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-10-04",
+          "bollymeter": 8.0,
+          "spoiler_free": "A kinetic opening that establishes the Goryeo-to-Joseon fault line and puts the two leads on a collision course across class and allegiance.",
+          "the_moment": "The training ground sequence where the two friends' diverging destinies are already legible in how they fight.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

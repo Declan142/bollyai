@@ -1,0 +1,102 @@
+{
+  "slug": "the-plot-against-america",
+  "qid": {
+    "value": "Q60752460",
+    "source": "Wikipedia sidebar (en.wikipedia.org/wiki/The_Plot_Against_America_(miniseries))",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Plot Against America",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Historical",
+    "Thriller",
+    "War",
+    "Biographical"
+  ],
+  "logline": "In an alternate 1940s America where aviator-celebrity Charles Lindbergh defeats Roosevelt and steers the country toward fascism, a working-class Jewish family in Newark watches their world quietly collapse.",
+  "poster": {
+    "src": "/img/series/the-plot-against-america/poster.jpg",
+    "alt": "The Plot Against America poster",
+    "attribution": "Poster © HBO. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series adapted from Philip Roth's 2004 novel by David Simon and Ed Burns. Completed as a standalone work; no continuation.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Plot_Against_America_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-03-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "An 87% Rotten Tomatoes score (77 reviews) and an exceptional 82 Metacritic rating put this among the best-reviewed prestige dramas of 2020. David Simon and Ed Burns's adaptation of Philip Roth was praised for its political prescience and the emotional precision of its family drama."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 77,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9174558/"
+      },
+      "review_body": "David Simon and Ed Burns brought Philip Roth's counterfactual novel to HBO six episodes that critics at 87% on Rotten Tomatoes (77 reviews) found both politically urgent and emotionally devastating. The 82 Metacritic score placed it in the highest tier of critical reception for the year. Set in 1940s Newark, the series works through the Levin family's experience of watching American fascism arrive not as spectacle but as neighbour relations souring, a son recruited into a government program, quiet antisemitism normalised block by block. Winona Ryder and Morgan Spector carry the parental anxiety with painful restraint. The 2020 broadcast landing mid-pandemic, during a politically charged American election cycle, amplified the show's resonance beyond what pure craft might have achieved. As a marriage of historical dread and domestic intimacy it stands as one of Simon's tightest works.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Part 1",
+          "air_date": "2020-03-16",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere establishes the Levin family's world in its pre-Lindbergh normalcy before the election result arrives - the horror is in how familiar and unremarkable the slide begins.",
+          "the_moment": "The radio broadcast of Lindbergh's election victory playing over the family dinner table - the show's most chilling early beat, because the family's ordinary response makes it worse.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Part 6",
+          "air_date": "2020-04-20",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale manages to close the family story while leaving the larger political horror deliberately unresolved - a structurally honest choice for an alternate history that rhymes too well with lived reality.",
+          "the_moment": "The final images of the Newark streets, which offer neither catharsis nor full resolution - the point being that history rarely does.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 Bones / NTV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © Bones / NTV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ouran_High_School_Vol_1_cover.jpg",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ouran_High_School_Vol_1_cover.jpg"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/ouran-high-school-host-club/w185.avif",
+      "bytes": 11734
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/ouran-high-school-host-club/w185.webp",
+      "bytes": 11208
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/ouran-high-school-host-club/w342.avif",
+      "bytes": 24469
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/ouran-high-school-host-club/w342.webp",
+      "bytes": 25068
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/ouran-high-school-host-club/w500.avif",
+      "bytes": 35008
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/ouran-high-school-host-club/w500.webp",
+      "bytes": 36330
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:33.712Z"
 }

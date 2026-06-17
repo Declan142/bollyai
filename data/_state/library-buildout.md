@@ -23,7 +23,7 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 542 / ~500   (baseline 183) — TARGET REACHED
+## Progress: 747 / 1000   (baseline 183)
 
 ## VIRAL BROWSE shipped 2026-06-09 (commit 3b80448, pushed, NOT deployed)
 Genre data 267/267 (Wikidata P136+P31 via harvest_genres.py + curated seed). /series is
@@ -37,6 +37,14 @@ type + AUTHORING_BRIEF (future waves self-tag). validate baseline now 267/267.
 ## Autonomous wave loop PAUSED at 267 (was Opus-in-session; resumes via cron or manual).
 
 ## Batches
+### Batch 12 — 2026-06-18 — 30 series — STATUS: DONE (717->747)
+- **A K-Drama:** king-the-land · my-country-the-new-age · mystic-pop-up-bar · search-www · the-school-nurse-files · the-bequeathed
+- **B US Prestige:** devs · the-act · under-the-banner-of-heaven · the-staircase · the-plot-against-america · the-gilded-age
+- **C Anime Gems:** keep-your-hands-off-eizouken · shirobako · planetes · yuru-camp · heike-story · showa-genroku-rakugo-shinju
+- **D UK/Euro/Nordic:** inside-no-9 · grantchester · the-salisbury-poisonings · the-collapse · trapped · midnight-sun
+- **E Indian+World:** the-trial · khakee-the-bengal-chapter · valeria · hache · monarca · belascoaran-pi
+- 30/30 validate clean · build green (7526pp) · AggregateRating gate clean · 13/30 posters (17 SVG fallback)
+
 ### Batch 11 — 2026-06-12 — 30 series — STATUS: DONE (branch agents/bolly-south-0612; 512->542)
 - **South Indian (5):** november-story · inspector-rishi · navarasa · victim-who-is-next · loser
 - **Prestige/Fantasy:** rings-of-power · bad-sisters · the-great · interview-with-the-vampire · what-we-do-in-the-shadows

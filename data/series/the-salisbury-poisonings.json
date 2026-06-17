@@ -1,0 +1,116 @@
+{
+  "slug": "the-salisbury-poisonings",
+  "qid": {
+    "value": "Q96317001",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Salisbury Poisonings",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / AMC+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Thriller", "Biographical", "Crime"],
+  "logline": "A three-part dramatisation of the 2018 Salisbury Novichok attack - a Russian state nerve-agent operation that left a city contaminated, a woman dead, and ordinary civil servants confronting a crisis without precedent.",
+  "poster": {
+    "src": "/img/series/the-salisbury-poisonings/poster.jpg",
+    "alt": "The Salisbury Poisonings poster",
+    "attribution": "Poster © BBC / Dancing Ledge Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Three-part limited series; self-contained dramatisation of a single real-world event. No further seasons planned.",
+    "source": "Wikipedia / BBC",
+    "source_url": "https://en.wikipedia.org/wiki/The_Salisbury_Poisonings"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 3,
+      "release_date": {
+        "value": "2020-06-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "88% on Rotten Tomatoes from 16 reviews. Critics praised the 'admirably restrained' approach and the series' dignified treatment of Dawn Sturgess - the civilian who died after handling the contaminated perfume bottle."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 16,
+        "pull_quotes": [
+          {
+            "text": "A tense, unsettling probe of contagion paranoia, a work that segues smoothly between sober re-creation and body horror.",
+            "source": "Sophie Gilbert, The Atlantic",
+            "url": "https://www.rottentomatoes.com/tv/the_salisbury_poisonings/s01"
+          },
+          {
+            "text": "A thoughtful examination of vulnerability and the heroism of ordinary citizens stepping up when the unthinkable lands at their threshold.",
+            "source": "Melanie McFarland, Salon",
+            "url": "https://www.rottentomatoes.com/tv/the_salisbury_poisonings/s01"
+          },
+          {
+            "text": "The series serves in particular as a dignified tribute to Dawn Sturgess.",
+            "source": "Kylie Northover, The Age",
+            "url": "https://www.rottentomatoes.com/tv/the_salisbury_poisonings/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt9139836/"
+      },
+      "review_body": "The three episodes aired on consecutive nights from 14 to 16 June 2020, dramatising the March 2018 Novichok poisoning of Russian intelligence officer Sergei Skripal and his daughter Yulia in Salisbury, Wiltshire. The script focused not on the intelligence dramatics - the GRU operatives, the Kremlin denial, the diplomatic crisis - but on the public health emergency and the ordinary people navigating it: the council's director of public health, the emergency services, and the family of Dawn Sturgess, who died in July 2018 after her partner found the discarded perfume bottle used in the original attack. Critics at 88% on Rotten Tomatoes commended the series' restraint: it did not sensationalise a story that needed none, and its pandemic-era broadcast date (COVID-19 had just locked down the UK) gave its themes of contagion and institutional response added weight. The Guardian called the approach 'admirably restrained.'",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-06-14",
+          "bollymeter": 8.0,
+          "spoiler_free": "The dramatisation opens with the discovery of Sergei and Yulia Skripal on a Salisbury park bench and follows the first responders and public health officials as they begin to understand the scale and nature of what they are dealing with.",
+          "the_moment": "The scene in which public health officials first confirm nerve agent - the realisation that a Russian state weapon has been deployed in a quiet English city.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2020-06-16",
+          "bollymeter": 7.8,
+          "spoiler_free": "The final episode follows the discovery that Dawn Sturgess has been poisoned by the same Novichok - a consequence the original attackers could not have anticipated - and her subsequent death, which the series treats as the drama's moral centre.",
+          "the_moment": "The closing tribute to Dawn Sturgess - handled with documentary restraint that honours rather than dramatises.",
+          "critic_note": {
+            "text": "The series serves in particular as a dignified tribute to Dawn Sturgess.",
+            "source": "Kylie Northover, The Age",
+            "url": "https://www.rottentomatoes.com/tv/the_salisbury_poisonings/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

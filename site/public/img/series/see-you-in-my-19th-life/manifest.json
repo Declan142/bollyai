@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "line": "Poster \u00a9 tvN / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "line": "Poster © tvN / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
     "source_name": "Wikipedia REST summary lead image",
     "source_url": "https://upload.wikimedia.org/wikipedia/en/5/57/See_You_in_My_19th_Life.png",
     "takedown_url": "https://bollyai.in/takedown/"
@@ -34,5 +34,50 @@
     "type": "wikipedia_rest_lead_image",
     "url": "https://upload.wikimedia.org/wikipedia/en/5/57/See_You_in_My_19th_Life.png"
   },
-  "variants": []
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/see-you-in-my-19th-life/w185.avif",
+      "bytes": 7847
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/see-you-in-my-19th-life/w185.webp",
+      "bytes": 8214
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/see-you-in-my-19th-life/w342.avif",
+      "bytes": 15901
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/see-you-in-my-19th-life/w342.webp",
+      "bytes": 17762
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/see-you-in-my-19th-life/w500.avif",
+      "bytes": 23268
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/see-you-in-my-19th-life/w500.webp",
+      "bytes": 26984
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-17T21:31:52.694Z"
 }

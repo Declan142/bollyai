@@ -1,0 +1,111 @@
+{
+  "slug": "the-school-nurse-files",
+  "qid": {
+    "value": "Q65252221",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The School Nurse Files",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Supernatural", "Comedy", "Drama"],
+  "logline": "A school nurse with the ability to see 'jellies' - physical manifestations of human desire and repression - battles the supernatural creatures gestating inside her students, armed with a BB gun and a very specific set of rules.",
+  "poster": {
+    "src": "/img/series/the-school-nurse-files/poster.jpg",
+    "alt": "The School Nurse Files poster",
+    "attribution": "Poster © Netflix / KeyEast. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season of 6 episodes, all released simultaneously on Netflix on September 25, 2020. Adapted from Chung Serang's 2015 novel. No renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_School_Nurse_Files"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Jung Yu-mi's deadpan commitment to fighting invisible gelatinous monsters in a high school is one of Netflix Korea's more singular central performances; the show's deliberate refusal to explain itself is its identity, not its flaw."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "The most gloriously demented new show on the streamers, and it could only come from Korea.",
+            "source": "Bleeding Cool",
+            "url": "https://bleedingcool.com/tv/the-school-nurse-files-review-a-gloriously-demented-netflix-k-fantasy/"
+          },
+          {
+            "text": "It entwines with dark comedy - it was not made for a mainstream audience.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2020/09/25/review-the-school-nurse-files-season-1-k-drama-netflix-series/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12879522/"
+      },
+      "review_body": "The School Nurse Files arrived on Netflix in September 2020 as an adaptation of Chung Serang's cult 2015 novel, and director Lee Kyoung-mi commits fully to the source material's refusal of conventional logic. The show posits that human desires and repressions solidify into 'jellies' - translucent creatures only school nurse Ahn Eun-young can perceive - and the production design renders them with a genuinely uncanny tactility. Jung Yu-mi plays Eun-young as a pragmatist so accustomed to her abnormal perception that she registers supernatural emergencies with the same flat efficiency as a supply requisition. The 73% Rotten Tomatoes score reflects a real split: the show rewards viewers willing to surrender to its internal logic and alienates those expecting narrative coherence. At six episodes the pacing is brisk if occasionally rushed, and the finale's ambiguity is less a cliffhanger than a natural condition of the material. A niche gem that knows exactly what it is.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-09-25",
+          "bollymeter": 7.5,
+          "spoiler_free": "The show establishes its visual grammar for jelly-hunting in the first ten minutes and never condescends to explain the rules - a remarkable act of confidence in its own weirdness.",
+          "the_moment": "Eun-young's first encounter with the high school's resident jelly infestation, shot with the matter-of-fact procedural rhythm of a building inspection.",
+          "critic_note": {
+            "text": "A burst of adrenaline-laced bubblegum pop that's exactly what we need right now.",
+            "source": "Bleeding Cool",
+            "url": "https://bleedingcool.com/tv/the-school-nurse-files-review-a-gloriously-demented-netflix-k-fantasy/"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2020-09-25",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale resolves the central supernatural threat while leaving Eun-young's world fundamentally open - true to the novel's register, less satisfying as conventional television.",
+          "the_moment": "The confrontation at the school's energy source, where the show's visual vocabulary reaches its most elaborate expression.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

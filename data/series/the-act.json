@@ -1,0 +1,108 @@
+{
+  "slug": "the-act",
+  "qid": {
+    "value": "Q55635017",
+    "source": "Wikipedia sidebar (en.wikipedia.org/wiki/The_Act_(TV_series))",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Act",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Biographical",
+    "Thriller",
+    "Psychological"
+  ],
+  "logline": "The true story of Gypsy Rose Blanchard, kept sick and homebound by a mother who fabricated her illnesses - until Gypsy's desperation for freedom led to murder.",
+  "poster": {
+    "src": "/img/series/the-act/poster.jpg",
+    "alt": "The Act poster",
+    "attribution": "Poster © Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A single-season true-crime anthology limited series. No second season announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Act_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-03-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "An 88% Rotten Tomatoes score (49 reviews) and Emmy win for Patricia Arquette mark this as one of the defining true-crime dramas of the streaming era. Joey King's performance as Gypsy was widely cited as a revelation."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 49,
+        "pull_quotes": [
+          {
+            "text": "The bizarre true tale is chronicled rightfully as a slow-burn gothic horror.",
+            "source": "Collider",
+            "url": "https://collider.com/the-act-review-hulu/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8016026/"
+      },
+      "review_body": "Hulu's The Act arrived in 2019 as the true-crime genre was reaching a saturation point, and distinguished itself through two performances critics found genuinely unsettling. Patricia Arquette's Emmy-winning portrayal of Dee Dee Blanchard - controlling, delusional, terrifyingly maternal - and Joey King's Gypsy Rose construct a co-dependent horror from the inside. The 88% Rotten Tomatoes consensus (49 reviews) reflected strong praise for the performances and the show's refusal to reduce the story to simple victim-villain framing. Critics from Collider noted the slow-burn gothic register as a particularly apt choice. Audience reception was exceptionally warm (91% on Rotten Tomatoes audience score), a rare alignment in true-crime television. Creator Nick Antosca and Michelle Dean keep the camera close to Gypsy's limited world, making the eventual rupture hit with real force.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "La Malade",
+          "air_date": "2019-03-20",
+          "bollymeter": 8.0,
+          "spoiler_free": "The opening hour builds the claustrophobic Blanchard household with precision - a world so hermetically sealed by Dee Dee's narrative that Gypsy's reality has been entirely colonised.",
+          "the_moment": "Gypsy secretly walking without her wheelchair in a moment of stolen freedom - a detail that reframes everything the viewer has just been told.",
+          "critic_note": null
+        },
+        {
+          "number": 7,
+          "title": "Bonnie and Clyde",
+          "air_date": "2019-04-24",
+          "bollymeter": 8.8,
+          "spoiler_free": "The episode where Gypsy's plan moves from desperation to action. King plays the tipping point with a stillness that is more disturbing than any conventional thriller beat.",
+          "the_moment": "Gypsy composing text messages from the motel room - the show's most quietly devastating scene.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

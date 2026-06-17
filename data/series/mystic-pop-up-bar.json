@@ -1,0 +1,91 @@
+{
+  "slug": "mystic-pop-up-bar",
+  "qid": {
+    "value": "Q85981769",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mystic Pop-up Bar",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC / Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Supernatural", "Comedy", "Drama", "Mystery"],
+  "logline": "A cursed spirit running a supernatural pojangmacha recruits a young man whose touch compels people to confess their deepest wounds - together they must resolve 100,000 grievances before her redemption can begin.",
+  "poster": {
+    "src": "/img/series/mystic-pop-up-bar/poster.jpg",
+    "alt": "Mystic Pop-up Bar poster",
+    "attribution": "Poster © JTBC / Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "12-episode single season completed June 2020 on JTBC. Based on the webtoon 'Twin Tops Bar' by Bae Hye-soo. No renewal.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 12,
+      "release_date": {
+        "value": "2020-05-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "An inventive webtoon adaptation that blends grief-processing with slapstick supernatural comedy; Hwang Jung-eum's volatile energy against Choi Won-young's deadpan makes the episodic structure charming rather than repetitive."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Mystic Pop-up Bar adapts Bae Hye-soo's webtoon 'Twin Tops Bar' with a ₩8.6-billion production that marked JTBC's return to the Wednesday-Thursday slot after an eight-year gap. The show's conceit - a supernatural bar where the owner and her staff resolve the unfinished emotional business of living people via their dreamscapes - gives it an anthology heartbeat within a continuous arc. Each episode brings a new client's buried wound to the surface, with Hwang Jung-eum oscillating between ruthless efficiency and reluctant compassion as the spirit Weol-ju. The tonal range is ambitious: one episode plays as screwball comedy, the next as quiet tragedy about a parent's regret. The structure starts to show fatigue around the midpoint as the formula becomes predictable, but the final revelation about Weol-ju's own story earns its emotional weight. A generous, warm fantasy that rewards patience.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-05-20",
+          "bollymeter": 7.5,
+          "spoiler_free": "The bar materialises, the trio is assembled, and the show's rules are demonstrated through a bittersweet first-client story that sets its emotional register precisely.",
+          "the_moment": "Han Kang-bae's accidental touch triggering a stranger's public confession in the subway - the show's core mechanic revealed with perfect comic panic.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2020-06-25",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale ties Weol-ju's centuries-old sin to the present with more elegance than the setup promised, delivering genuine emotional resolution.",
+          "the_moment": "The reveal of Weol-ju's original identity and the moment that recontextualises her 500-year penance.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
