@@ -23,7 +23,16 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 955 / 1000   (baseline 183)
+## Progress: 985 / 1000   (baseline 183)
+
+### Batch 20 — 2026-06-18 — 30 series — STATUS: DONE (955->985)
+- **A K-Drama:** coffee-prince · goong · yong-pal · 100-days-my-prince · tree-with-deep-roots · daejanggeum
+- **B Anime:** soul-eater · nagi-no-asukara · magi · claymore · ore-monogatari · yamada-kun-and-the-seven-witches
+- **C US Prestige:** criminal-minds · the-mentalist · the-underground-railroad · the-chair · unbelievable · manifest
+- **D UK/Euro:** foyle-s-war · hustle · being-human · midsomer-murders · dirilis-ertugrul · dear-child
+- **E Indian+World:** chacha-vidhayak-hain-hamare · paranormal-2020 · outer-range · good-girls · the-peripheral · quicksand
+- 30/30 validate clean · build green (8556pp) · AggregateRating gate clean · 14/30 posters (16 SVG fallback)
+- Commit: 74b42ff
 
 ### Batch 19 — 2026-06-18 — 30 series — STATUS: DONE (925->955)
 - **A K-Drama:** boys-over-flowers · city-hunter · the-heirs · master-sun · she-was-pretty · tunnel-kdrama
