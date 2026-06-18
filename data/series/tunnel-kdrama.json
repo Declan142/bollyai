@@ -1,0 +1,96 @@
+{
+  "slug": "tunnel-kdrama",
+  "qid": {
+    "value": "Q28700201",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tunnel",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "OCN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Mystery", "Drama"],
+  "logline": "A 1986 detective chasing a serial killer through a tunnel reappears 30 years later in 2016, forced to partner with modern investigators as the same killer's pattern resurfaces.",
+  "poster": {
+    "src": "/img/series/tunnel-kdrama/poster.jpg",
+    "alt": "Tunnel poster",
+    "attribution": "Poster © OCN / Monster Union. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 16 episodes concluded on May 21, 2017. The series became the highest-rated drama in OCN history at that point. Thai and Indonesian remakes followed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tunnel_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 16,
+      "release_date": {
+        "value": "2017-03-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "IMDb 8.2 and a record-breaking OCN ratings run; critics positioned it among the best non-romantic K-dramas alongside Beyond Evil and Stranger, praising its victim-centred storytelling and the procedural craft of its time-slip mechanics."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6356086/"
+      },
+      "review_body": "Tunnel premiered on OCN in March 2017 with a 2.8 percent cable rating and built steadily to set a new all-time record for the network. The series distinguishes itself from the crowded time-travel K-drama field by anchoring its procedural mechanics in the emotional weight of cold-case grief - the suffering of victims' families is foregrounded in ways that push it above genre exercise. Choi Jin-hyuk's performance as the 1986 detective disoriented by modern Seoul balances fish-out-of-water comedy against genuine procedural tension. Audience commentary on IMDb (8.2) places it in the upper tier of Korean crime dramas; its comparison set on fan rankings runs alongside Stranger and Signal. The first four episodes build slowly, but the midpoint payoff justifies the setup.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-03-25",
+          "bollymeter": 7.8,
+          "spoiler_free": "The 1986 cold open establishes the serial-killer case with genuine procedural weight before the time-slip device launches the series' central conceit; the tonal control is notable for a cable crime thriller.",
+          "the_moment": "The detective emerging from the tunnel into 2016 Seoul - the show's central image, handled with restraint rather than spectacle.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Episode 16",
+          "air_date": "2017-05-21",
+          "bollymeter": 8.5,
+          "spoiler_free": "The finale resolves the killer's identity and the detective's temporal paradox with an emotional precision that matched the show's best episodes; the victim-centred closure felt earned rather than neat.",
+          "the_moment": "The revelation that reframes the personal stakes of the entire investigation.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

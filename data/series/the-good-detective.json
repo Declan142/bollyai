@@ -1,0 +1,123 @@
+{
+  "slug": "the-good-detective",
+  "qid": {
+    "value": "Q85978596",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Good Detective",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Mystery", "Legal", "Thriller"],
+  "logline": "Two Incheon detectives - one a streetwise veteran who bends rules, the other a by-the-book analyst - are forced to partner up and find that every major crime leads back to a corruption they cannot outrun.",
+  "poster": {
+    "src": "/img/series/the-good-detective/poster.jpg",
+    "alt": "The Good Detective poster",
+    "attribution": "Poster © JTBC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons aired on JTBC: Season 1 in summer 2020, Season 2 in summer 2022. No further renewal announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Good_Detective"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 16,
+      "release_date": {
+        "value": "2020-07-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Audience reception was strong enough to double viewership ratings from premiere to finale on JTBC. Critics at HelloKPop highlighted the simple yet engrossing storytelling and a nicely balanced blend of crime, drama and comedy. IMDb audiences rate it 7.6."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Simple yet engrossing storytelling with nicely-incorporated drama, comedy and thrilling notes.",
+            "source": "HelloKpop",
+            "url": "https://www.hellokpop.com/review/k-drama-review-the-good-detective/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12504214/"
+      },
+      "review_body": "Written by Choi Jin-won and directed by Jo Nam-gook, Season 1 of The Good Detective aired on JTBC's prime Monday-Tuesday slot from July to August 2020. The drama built its audience steadily - viewership ratings doubled between the first and last episodes, a metric that signals genuine word-of-mouth traction in Korean broadcast. Critics pointed to the odd-couple chemistry between Son Hyun-joo's rough-edged veteran Kang Do-chang and Jang Seung-jo's evidence-driven Oh Ji-hyuk as the engine that keeps 16 episodes moving. The show is fundamentally a crime procedural but layers its case-of-the-week structure with ongoing institutional corruption, making each solved case feel like a smaller battle inside a larger unwinnable war. Reviewers found the middle episodes slower but praised both leads' performances and the sharp writing in the final stretch.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-07-06",
+          "bollymeter": 7.6,
+          "spoiler_free": "The first episode establishes the partnership dynamic cleanly - two men who should not work together, thrown together by circumstance, circling a case that is bigger than either of them knows.",
+          "the_moment": "The scene where Do-chang's instinct-based hunch and Ji-hyuk's forensic read arrive at the same answer from opposite directions.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 16,
+      "release_date": {
+        "value": "2022-07-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 returned the core pairing with new cast additions but reviews suggested slightly diminished urgency compared to the debut season's tighter corruption arc."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt12504214/"
+      },
+      "review_body": "Season 2 brought back Son Hyun-joo and Jang Seung-jo with new colleagues and a fresh corruption case set against Incheon's power structures. The JTBC return aired from July to September 2022 across 16 episodes. Audience reception was broadly positive - the pairing that made Season 1 work still functions, and the procedural-plus-conspiracy structure that distinguishes the show from standard K-crime formats carries over intact. The second season lacks the revelatory freshness of the debut but delivers reliable, well-crafted crime drama for viewers already invested in the characters.",
+      "season_over_season": "The core buddy dynamic carries over intact, but Season 2 lacks the first season's element of surprise - the corruption formula is now expected rather than revelatory.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

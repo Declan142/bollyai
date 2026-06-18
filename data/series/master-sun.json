@@ -1,0 +1,96 @@
+{
+  "slug": "master-sun",
+  "qid": {
+    "value": "Q13718334",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Master's Sun",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Supernatural", "Comedy", "Drama"],
+  "logline": "A woman cursed with the ability to see ghosts discovers that clinging to a cold, materialistic CEO is the only thing that makes the spirits disappear - engineering the world's most reluctant romance.",
+  "poster": {
+    "src": "/img/series/master-sun/poster.jpg",
+    "alt": "Master's Sun poster",
+    "attribution": "Poster © SBS / B&H Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 17 episodes concluded on October 3, 2013. No sequel produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Master%27s_Sun"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 17,
+      "release_date": {
+        "value": "2013-08-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "IMDb 8.0 and a finale that peaked at 21.8 percent nationally (Nielsen Korea) confirm its standing as one of the Hong sisters' best-received works; praise clustered on lead chemistry and the blend of comedy, horror, and romance."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3184674/"
+      },
+      "review_body": "Master's Sun aired on SBS from August to October 2013 and represented Hong sisters writers Hong Jung-eun and Hong Mi-ran operating at high commercial form. The finale reached 21.8 percent nationally, a figure that underscored how successfully the show converted a horror-adjacent premise into mainstream romantic entertainment. The lead pairing of So Ji-sub and Gong Hyo-jin generated chemistry strong enough to carry episodes even when the ghost-of-the-week plots were uneven - this dynamic is the engine the show runs on. The blend of slapstick, jump-scare, and slow-burn romance is the signature Hong sisters formula, and it lands here with unusual consistency. The 8.0 IMDb score places it among the most admired Korean romcoms of its generation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2013-08-07",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere invents a satisfying central conceit in under an hour: ghost-tormented woman discovers a grumpy CEO functions as a human spirit repellent, and the show commits to that absurdity with full sincerity.",
+          "the_moment": "Tae Gong-shil grabbing Joo Joong-won's arm for the first time and the spirits vanishing - the image that defines the entire series.",
+          "critic_note": null
+        },
+        {
+          "number": 17,
+          "title": "Episode 17",
+          "air_date": "2013-10-03",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale resolves its supernatural mystery and romance simultaneously, landing the emotional gut-punch the Hong sisters had been building toward and rewarding viewers who stuck with the show's tonal balancing act.",
+          "the_moment": "The reunion sequence that paid off the memory arc the show had layered in across its back half.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

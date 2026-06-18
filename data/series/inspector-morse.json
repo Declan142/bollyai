@@ -1,0 +1,272 @@
+{
+  "slug": "inspector-morse",
+  "qid": {
+    "value": "Q2685847",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Inspector Morse",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Crime", "Mystery"],
+  "logline": "A classically educated, opera-loving Oxford detective solves elaborate murders with his loyal sergeant in tow - Colin Dexter's beloved creation brought to definitive life by John Thaw across 13 years on ITV.",
+  "poster": {
+    "src": "/img/series/inspector-morse/poster.jpg",
+    "alt": "Inspector Morse poster",
+    "attribution": "Poster © ITV / Zenith Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded November 2000 following the death of lead actor John Thaw in 2002; series had already wrapped. Spawned two spinoffs: Lewis (2006-2015) and prequel Endeavour (2012-2023).",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Inspector_Morse_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1987,
+      "episodes": 3,
+      "release_date": {
+        "value": "1987-01-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "The debut series introduced one of British television's defining characters. The BFI ranked the programme 42nd in the 100 Greatest British Television Programmes (2000); IMDb overall series rating 8.2."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0092379/"
+      },
+      "review_body": "The first series of Inspector Morse aired in January 1987 and immediately established the template for British prestige crime drama: feature-length mysteries, an Oxford setting of beautiful melancholy, and at its centre John Thaw's Morse - irascible, brilliant, emotionally arrested. The 100-minute format, pioneered here for British network drama, gave the show room to develop character alongside plot. The three-episode debut was a proof of concept that ITV rapidly expanded. The BFI later ranked the series 42nd in the 100 Greatest British Television Programmes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Dead of Jericho",
+          "air_date": "1987-01-06",
+          "bollymeter": 8.4,
+          "spoiler_free": "The debut episode places Morse in Oxford's Jericho district investigating a woman's apparent suicide - establishing the show's atmosphere of autumnal unease and its detective's conflicted interior life.",
+          "the_moment": "The final revelation that reframes the entire investigation - a structural signature Morse episodes would deploy repeatedly across the series.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1988,
+      "episodes": 4,
+      "release_date": {
+        "value": "1987-12-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "The second series - opening on Christmas Day 1987 - confirmed the show's status as ITV prestige event television, with the Morse and Lewis dynamic firmly established and the Oxford milieu fully realised."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 opened with a Christmas Day broadcast, a mark of the confidence ITV had developed in the show's status as appointment television. The four episodes deepened the Morse-Lewis dynamic - Kevin Whately's earnest, patient Lewis becoming the essential foil to Thaw's mercurial brilliance. The series' increasing assurance in its visual grammar was evident: the spires and quads of Oxford used not merely as backdrop but as emotional architecture. The adaptation of Dexter's source novels became looser in later series, but this period remained close to the books' sensibility.",
+      "season_over_season": "Series 2 consolidates and deepens the debut's achievements - the Morse-Lewis pairing fully locked in.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 1989,
+      "episodes": 4,
+      "release_date": {
+        "value": "1989-01-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Series 3 is among the programme's high points; its episode construction was technically polished and Thaw's performance deepened the character's emotional complexity."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 3 demonstrated the show's full maturity. The four feature-length mysteries ranged across the university world, the rural Home Counties, and Continental Europe, giving the show's visual grammar a broader canvas. The increasing psychological depth of Morse's characterisation - the loneliness beneath the arrogance, the self-destructive drinking used not for comic effect but as character truth - was evident throughout. The BAFTA recognition that would arrive in 1992 and 1993 was already visible in the production standards evident here.",
+      "season_over_season": "Series 3 reaches the show's creative peak - fully assured and emotionally rich.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 1990,
+      "episodes": 4,
+      "release_date": {
+        "value": "1990-01-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "Series 4 produced some of the show's most discussed individual episodes. Viewership regularly hit 14-18 million - extraordinary figures reflecting its status as appointment television across a wide cross-section of the British audience."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 4 landed in January 1990 with the programme at the height of its cultural standing. The show regularly drew audiences of 14-18 million viewers. The series explored darker psychological territory, including episodes that queried the justice system itself rather than simply deploying Morse to vindicate it. The Masonic Mysteries episode holds an 8.4 IMDb user rating, illustrating the show's comfort with institutional critique.",
+      "season_over_season": "Series 4 maintains the show's creative peak with darker psychological reach.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 1991,
+      "episodes": 5,
+      "release_date": {
+        "value": "1991-02-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "The five-episode Series 5 expanded the run and received the first BAFTA nomination for Best Drama; Kevin Whately later described John Thaw as 'Britain's finest screen actor.'"
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 5 ran across five episodes from February to March 1991, sustaining the show's position as ITV's most acclaimed drama production. Kevin Whately, who played Lewis across the entire run, later described John Thaw as 'Britain's finest screen actor' - a view that aligned with the consensus of this period. BAFTA recognition arrived in the following years. By now Inspector Morse had become something more than a popular detective series: it was cultural furniture for millions of British viewers.",
+      "season_over_season": "Series 5 sustains the creative high with strong individual episodes and a larger episode count.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 1992,
+      "episodes": 5,
+      "release_date": {
+        "value": "1992-02-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Won the BAFTA Award for Best Drama Series in 1992. This and Series 7 represent the awards-era peak for the programme."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 6 earned Inspector Morse its first BAFTA Award for Best Drama Series in 1992. The five-episode run included what many viewers consider the programme's finest individual episodes, combining intricate mystery plotting with genuine emotional depth in Morse's characterisation. The show's Oxford DOP work was among the best on British television. The show's status as the benchmark for British crime drama was at its most unambiguous.",
+      "season_over_season": "Series 6 is the BAFTA-winning peak - the show at its most accomplished.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 1993,
+      "episodes": 3,
+      "release_date": {
+        "value": "1993-01-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "The final regular series before the long hiatus won a second consecutive BAFTA for Best Drama, but the compressed three-episode run felt like a valediction rather than a full season."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 7 completed the show's regular run in January 1993, taking a second consecutive BAFTA Award for Best Drama Series. The three-episode return felt like an honorary lap rather than a full creative statement, but the quality of writing and performance remained high. The programme then entered a long hiatus before returning as a series of specials. By the time regular production wrapped, Inspector Morse had become the most successful British drama series of its era by audience figures.",
+      "season_over_season": "Series 7 is a shorter, awards-validated close to the regular run - quality intact.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 1995,
+      "episodes": 5,
+      "release_date": {
+        "value": "1995-11-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The specials phase (1995-2000) produced five films that maintained the show's production values and Thaw's performance without quite recapturing the creative momentum of the regular series."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "After a two-year break, Inspector Morse returned in November 1995 with the first of five TV films produced through to November 2000. The specials format suited the material's feature-length ambitions, but these were event returns rather than sustained creative runs. Thaw's Morse remained compulsively watchable and the Oxford photography retained its melancholic beauty. The specials served a devoted audience well even while operating in the shadow of the series' peak years.",
+      "season_over_season": "The specials phase is a measured return - event television rather than sustained creative run.",
+      "episode_reviews": [
+        {
+          "number": 5,
+          "title": "The Remorseful Day",
+          "air_date": "2000-11-15",
+          "bollymeter": 8.5,
+          "spoiler_free": "The final episode - aired November 2000 - provided a conclusion to the Morse story that landed as genuinely moving, appropriate for one of British television's most beloved characters.",
+          "the_moment": "The final scene, which closes the Morse story without sentiment but with great gravity, stands as one of the defining endings in British television drama.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

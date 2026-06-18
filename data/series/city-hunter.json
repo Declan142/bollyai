@@ -1,0 +1,96 @@
+{
+  "slug": "city-hunter",
+  "qid": {
+    "value": "Q484941",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "City Hunter",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Action", "Romance", "Thriller", "Drama"],
+  "logline": "A man raised in the Thai jungle by a rogue operative returns to Seoul to dismantle the powerful men who ordered his father killed - all while falling for the bodyguard protecting his targets.",
+  "poster": {
+    "src": "/img/series/city-hunter/poster.jpg",
+    "alt": "City Hunter poster",
+    "attribution": "Poster © SBS / Hwa&Dam Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 20 episodes concluded on July 28, 2011. No sequel has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/City_Hunter_(2011_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 20,
+      "release_date": {
+        "value": "2011-05-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "An IMDb score of 8.0 from a large international audience reflects its reputation as one of the best-executed action K-dramas of its era, with particular praise for its tightly plotted revenge structure and lead chemistry."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1982229/"
+      },
+      "review_body": "City Hunter aired on SBS from May to July 2011 and commanded premium advertising rates, earning a reported 10.45 billion won in television advertising revenue for the network. The series stands as a rare K-drama delivering genuine action craft alongside romantic stakes - the 1983 covert-mission cold open announced the show's cinematic ambition in its first minutes. Lee Min-ho's performance earned him Best Actor at the 4th Korea Drama Awards and the series broke through to European audiences in ways few Korean productions had managed by that point. The storytelling is genuinely tense in its middle third, when the hero's moral strategy of exposure over elimination creates real ideological conflict with his revenge-obsessed mentor. An 8.0 on IMDb reflects the depth of audience affection it has sustained since broadcast.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2011-05-25",
+          "bollymeter": 8.5,
+          "spoiler_free": "A cold-open massacre sets the 1983 conspiracy in motion with cinematic ambition unusual for a network K-drama; the show announces immediately that it intends to be taken seriously as an action thriller.",
+          "the_moment": "The Operation Clean Sweep betrayal sequence - a brutal pivot that reframes everything the hero is about to become.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2011-07-28",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale threads its personal and political threads with unusual discipline for the genre, delivering an ending that rewards viewers who tracked its ideological argument across the season.",
+          "the_moment": "The rooftop confrontation that forces the hero to choose between revenge and justice.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

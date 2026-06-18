@@ -1,0 +1,126 @@
+{
+  "slug": "darling-in-the-franxx",
+  "qid": {
+    "value": "Q36498848",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "DARLING in the FRANXX",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll simulcast (original 2018 airing)",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Romance",
+    "Action",
+    "Coming of Age",
+    "Drama"
+  ],
+  "logline": "In a post-apocalyptic future, child soldiers bred to pilot giant mechas in male-female pairs must fight for humanity's survival while discovering emotions, identity, and forbidden love.",
+  "poster": {
+    "src": "/img/series/darling-in-the-franxx/poster.jpg",
+    "alt": "DARLING in the FRANXX poster",
+    "attribution": "Poster © A-1 Pictures / Trigger / CloverWorks. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 24-episode series concluded on July 7, 2018. No sequel or continuation has been announced. The source manga by Code:000 and Kentaro Yabuki also concluded.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Darling_in_the_Franxx"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 24,
+      "release_date": {
+        "value": "2018-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "MyAnimeList community score of 7.32 reflects a series that starts with genuine ambition and deteriorates; critics at ANN praised the first half's coming-of-age and romance elements but called the finale an abandonment of everything that made the show work."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "This finale just doesn't feel earned after eschewing everything that made it great.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/darling-in-the-franxx/episode-24/.133974"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.32,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/35849/Darling_in_the_FranXX"
+      },
+      "review_body": "Launched in January 2018, DARLING in the FRANXX arrived from the A-1 Pictures and Trigger collaboration with considerable anticipation and a premise that fused mecha action with coming-of-age romance. The first half - roughly episodes 1-13 - delivered on that promise. Critics at Anime News Network praised the coming-of-age and romance elements and singled out Zero Two as one of the season's most compelling anime characters: carnal, self-aware, and emotionally volatile in ways that grounded the dystopian machinery around her. The mecha battles of the first cour were well-staged and the love story between Hiro and Zero Two gained emotional traction. The second half abandoned that momentum. Plot pivots toward cosmic mythology and alien antagonists struck reviewers as a betrayal of the character-driven intimacy the show had built. ANN's episode 24 review captured the critical consensus: the finale is technically accomplished but its pathos does not feel earned. Won Best Opening Sequence at the 2019 Crunchyroll Anime Awards for 'Kiss of Death'. Memorable for what it almost was.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Alone and a Bird",
+          "air_date": "2018-01-13",
+          "bollymeter": 7.8,
+          "spoiler_free": "The first episode establishes the dystopian world-building with visual confidence and introduces Hiro and Zero Two with enough mystery to pull viewers forward. The mecha designs and their intimate piloting mechanics are established without over-explanation.",
+          "the_moment": "Zero Two's first appearance - the series' best card played at exactly the right moment.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "The Beast and the Prince",
+          "air_date": "2018-04-07",
+          "bollymeter": 8.5,
+          "spoiler_free": "The midpoint episode is widely cited as the series' creative peak - a fairy-tale-framed sequence that layers Hiro and Zero Two's backstory with surreal visual storytelling. ANN called it the most cohesive and heartbreaking episode the show produced.",
+          "the_moment": "The picture-book sequence - the series at maximum ambition before the second half loses the thread.",
+          "critic_note": {
+            "text": "An astonishingly effective piece of storytelling - surreal framework stripped of convoluted layers.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/darling-in-the-franxx/episode-13/.130110"
+          }
+        },
+        {
+          "number": 24,
+          "title": "Never Stop Dreaming",
+          "air_date": "2018-07-07",
+          "bollymeter": 5.5,
+          "spoiler_free": "The series finale is well-directed and well-animated but arrives after a second half that drifted far from the character chemistry that made the early episodes work. Critics found the emotional register unconvincing given the narrative choices made in the final arc.",
+          "the_moment": "The ending image that divided the entire fanbase - half seeing it as poetic, half as evidence the show miscalculated its final act.",
+          "critic_note": {
+            "text": "Well-directed and well-animated, but none of that gloss covers up that the pathos doesn't feel earned.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/darling-in-the-franxx/episode-24/.133974"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "carnivale",
+  "qid": {
+    "value": "Q839715",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Carnivale",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Drama", "Horror", "Mystery", "Supernatural"],
+  "logline": "During the 1930s Dust Bowl, a mysterious healer joins a travelling carnival while a corrupt minister in California follows a path toward darkness - two men drawn toward a cosmic confrontation neither fully understands.",
+  "poster": {
+    "src": "/img/series/carnivale/poster.jpg",
+    "alt": "Carnivale poster",
+    "attribution": "Poster © HBO / Knauf Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Cancelled by HBO after Season 2 in 2005 due to high production costs. Creator Daniel Knauf's planned six-season mythology was left incomplete.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Carniv%C3%A0le"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2003,
+      "episodes": 12,
+      "release_date": {
+        "value": "2003-09-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "93% overall on Rotten Tomatoes; debut season drew praise for its extraordinary visual design and Dust Bowl atmosphere, with critics divided on whether the slow mythology justified the patience demanded."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "There's something impenetrable and distancing about series creator Daniel Knauf's vision, which proves little more than a curiosity.",
+            "source": "Variety",
+            "url": "https://variety.com/2005/tv/reviews/carnivale-4-1200528823/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0318974/ratings/"
+      },
+      "review_body": "Season 1 premiered on HBO in September 2003 and won 5 Emmy Awards including Outstanding Cinematography and Costume Design. Critical response divided sharply: those who surrendered to Daniel Knauf's Depression-era supernatural atmosphere found it riveting and unprecedented; those who demanded narrative propulsion found the deliberate pacing prohibitive. Variety called the vision 'intriguing but less than satisfying - a concept more notable for the unusual time and space the show occupies than what it achieves dramatically.' The A.V. Club later framed it as 'the ultimate hangout drama,' which captures both its quality and its limitation. Nick Stahl's mute drifter Ben Hawkins and Clancy Brown's corrupted preacher Brother Justin are genuine dual-protagonist creations, their convergence the slow gravity around which 24 episodes orbit.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Milfay",
+          "air_date": "2003-09-14",
+          "bollymeter": 7.8,
+          "spoiler_free": "Ben Hawkins is pulled into the Carnivale after his mother's death; the pilot establishes the show's visual language and cosmic dread with minimal exposition.",
+          "the_moment": "Ben's first involuntary healing - the moment the show's supernatural logic is revealed without being explained - establishes the series' tone of inexplicable obligation.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "The Day That Was the Day",
+          "air_date": "2003-11-30",
+          "bollymeter": 8.2,
+          "spoiler_free": "The Season 1 finale delivers the convergence of Ben and Justin's storylines that 11 episodes of setup has been building toward.",
+          "the_moment": "The finale's closing vision of what the two men represent to each other - not yet a confrontation but an acknowledgement - reframed everything prior.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2005,
+      "episodes": 12,
+      "release_date": {
+        "value": "2005-01-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Widely considered superior to Season 1 by critics and audiences; the mythology accelerated and the cosmic confrontation delivered, making cancellation after this season a genuine cultural loss."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 aired January-March 2005 and delivered the narrative momentum that Season 1's patient mythology-building had been promising. Critics and audiences who stayed the course through Season 1's deliberate pacing were rewarded with accelerating clarity about the Ben-Justin conflict, Samson's mysterious masters, and the show's Dust Bowl theology. Brother Justin's descent into fully self-aware corruption gave Clancy Brown a showcase that critics compared favourably to the great cable villain performances of the era. The season concluded in a fashion that would have served as a satisfying narrative midpoint in Knauf's planned six-season arc - instead, HBO cancelled the series citing production costs, leaving what stands as one of American television's most acclaimed incomplete visions.",
+      "season_over_season": "Season 2 justifies Season 1's patience in full: the mythology pays out, the performances reach their peak, making the cancellation a sharper loss.",
+      "episode_reviews": [
+        {
+          "number": 12,
+          "title": "New Canaan, CA",
+          "air_date": "2005-03-27",
+          "bollymeter": 9.2,
+          "spoiler_free": "The series finale delivers a cosmic confrontation between Ben and Justin that the show had been building toward across 24 episodes - and then ends, with HBO's cancellation ensuring no resolution.",
+          "the_moment": "The climax of the Ben-Justin confrontation, which lands with genuine mythic force precisely because the show built toward it across two full seasons.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,166 @@
+{
+  "slug": "father-ted",
+  "qid": {
+    "value": "Q1366945",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Father Ted",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Channel 4",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Slice of Life"],
+  "logline": "Three misfit Irish Catholic priests exiled to windswept Craggy Island endure each other's company and an endless succession of disasters - Linehan and Mathews' comedy as both relentless farce and quietly devastating study in loneliness.",
+  "poster": {
+    "src": "/img/series/father-ted/poster.jpg",
+    "alt": "Father Ted poster",
+    "attribution": "Poster © Hat Trick Productions / Channel 4. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded May 1998. A planned fourth series was cancelled following the death of lead actor Dermot Morgan in February 1998, the night after the Series 3 finale aired.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Father_Ted"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1995,
+      "episodes": 6,
+      "release_date": {
+        "value": "1995-04-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Won Best New TV Comedy at the 1995 British Comedy Awards. Ardal O'Hanlon took the Top TV Comedy Newcomer Award. The BFI ranked Father Ted 50th in the 100 Greatest British Television Programmes - highest Channel 4 production on the list."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0111958/"
+      },
+      "review_body": "Father Ted arrived on Channel 4 in April 1995 and won Best New TV Comedy at the British Comedy Awards that year. The six-episode debut introduced Dermot Morgan's Father Ted Crilly, Ardal O'Hanlon's Father Dougal McGuire, and Frank Kelly's Father Jack Hackett - a trio whose comic chemistry operated on multiple frequencies simultaneously. The show's structural generosity was evident from the first episode: individually absurdist plots that also sustained a longer meditation on exile, failed ambition, and the Irish Church as an institution that contained its problems by sending them to remote outposts. The BFI ranked it 50th in the 100 Greatest British Television Programmes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Good Luck, Father Ted",
+          "air_date": "1995-04-21",
+          "bollymeter": 8.2,
+          "spoiler_free": "The series opener drops the three priests into a caravan park race sequence that captures the show's essential method: comic escalation built on character rather than plot mechanics.",
+          "the_moment": "Father Jack's first sustained tirade, establishing the character as a pure id-force around which the other two must navigate.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1996,
+      "episodes": 10,
+      "release_date": {
+        "value": "1996-03-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "Won the BAFTA Award for Best Comedy in 1996. Pauline McLynn won Top TV Comedy Actress for Mrs Doyle. The Series 2 episodes A Song for Europe (IMDb 8.6) and Are You Right There Father Ted (IMDb 8.9) are among the highest-rated in British sitcom."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 expanded to 10 episodes and delivered what many rate as the finest single season of British sitcom in the 1990s. The BAFTA for Best Comedy in 1996 was accompanied by Pauline McLynn winning Top TV Comedy Actress for her Mrs Doyle. The writing by Linehan and Mathews reached its most confident: episodes including Eurovision entry parody A Song for Europe (IMDb 8.6) and the classic Are You Right There Father Ted all rate among the most beloved in British comedy history. The show had found a register in which pure farce coexisted with genuine pathos, and in Series 2 it executed that register at full creative stretch.",
+      "season_over_season": "Series 2 is the peak - BAFTA-winning, creatively explosive, producing the show's most iconic episodes.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Entertaining Father Stone",
+          "air_date": "1996-03-08",
+          "bollymeter": 8.4,
+          "spoiler_free": "A visiting priest whose company is impenetrably boring traps the Craggy Island trio in social obligation - one of the show's purest character studies.",
+          "the_moment": "The stone-still dinner scene that tests the audience's patience with exactly the same exquisite precision with which it tests Ted's.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "A Song for Europe",
+          "air_date": "1996-04-12",
+          "bollymeter": 8.6,
+          "spoiler_free": "Father Ted attempts to write a Eurovision entry - the resulting satire of both national culture and the competition itself holds up as sharp comedy writing.",
+          "the_moment": "The My Lovely Horse performance, which became a genuine cultural artefact extending well beyond the show.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 1998,
+      "episodes": 8,
+      "release_date": {
+        "value": "1998-03-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Won a second BAFTA for Best Comedy in 1999. The episode Are You Right There Father Ted holds an IMDb rating of 8.9 - the highest in the series and one of the most celebrated in British sitcom history."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 3 aired in March-May 1998 and won a second BAFTA for Best Comedy, but the season was defined by what came after: Dermot Morgan died of a heart attack on 1 March 1998, the day after the series finale aired. The tragedy gave the final run an unbearable retrospective weight. The episodes themselves are among the show's finest, including Are You Right There Father Ted (IMDb 8.9), which deploys satire of Irish attitudes so precisely that it continues to circulate in cultural conversation decades later. Father Ted ended not by running out of ideas but by losing its irreplaceable centre.",
+      "season_over_season": "Series 3 matches Series 2's creative ambition; its place in television history was permanently secured by Dermot Morgan's death immediately after broadcast.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Are You Right There Father Ted?",
+          "air_date": "1998-03-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "Father Ted is mistaken for a racist and must prove himself innocent - the episode operates as both precision satire and the most technically accomplished piece of comic construction in the series.",
+          "the_moment": "The escalating accidental-gesture sequence, which builds to a punchline that is simultaneously the most absurd and most logical conclusion possible.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

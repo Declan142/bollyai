@@ -1,0 +1,96 @@
+{
+  "slug": "boys-over-flowers",
+  "qid": {
+    "value": "Q482653",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Boys Over Flowers",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "KBS2",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Drama", "Coming of Age", "Teen"],
+  "logline": "A working-class scholarship girl at an elite high school collides with the arrogant heir of a chaebol empire, triggering a war of class and heart that captivated all of Asia.",
+  "poster": {
+    "src": "/img/series/boys-over-flowers/poster.jpg",
+    "alt": "Boys Over Flowers poster",
+    "attribution": "Poster © KBS / Group Eight. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 25 episodes concluded on March 31, 2009. No sequel or revival has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boys_Over_Flowers_(2009_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 25,
+      "release_date": {
+        "value": "2009-01-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "A defining landmark of the first Korean Wave with an IMDb rating of 7.7 from tens of thousands of votes; critics noted its outsized cultural impact on pan-Asian fandom despite well-documented concerns about its romanticisation of bullying."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1370334/"
+      },
+      "review_body": "Boys Over Flowers arrived in January 2009 and averaged roughly 25-30 percent viewership in South Korea, a figure that made it one of the most-watched dramas of that year. Audience reception across Asia was fervent: the series is widely credited with accelerating the Korean Wave into Southeast Asia and the Middle East, turning Lee Min-ho into a regional superstar overnight. Critics, where they engaged, split on whether the show's central romance - built around the heroine enduring sustained harassment from the male lead - served as escapist fantasy or troubling wish-fulfilment. What most observers agreed on was the undeniable chemistry between the leads and the aspirational production design. For fans of classic Hallyu romance tropes, this is the origin document; for viewers with lower tolerance for retrograde gender dynamics, the ride will be rougher.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2009-01-05",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the class-war premise efficiently - the scholarship girl's first collision with the F4 sets up every conflict the show will milk across 25 episodes.",
+          "the_moment": "Geum Jan-di's defiant stand on the rooftop that reframes her as more than a passive target.",
+          "critic_note": null
+        },
+        {
+          "number": 25,
+          "title": "Episode 25",
+          "air_date": "2009-03-31",
+          "bollymeter": 7.8,
+          "spoiler_free": "The finale delivers the romantic resolution the fanbase demanded after weeks of will-they-won't-they anguish, tying off its love triangle with decisive finality.",
+          "the_moment": "The airport sequence that became a template for Hallyu finale conventions.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

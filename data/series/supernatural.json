@@ -1,0 +1,467 @@
+{
+  "slug": "supernatural",
+  "qid": {
+    "value": "Q130585",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Supernatural",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "The CW",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Horror", "Drama", "Supernatural", "Action"],
+  "logline": "Brothers Sam and Dean Winchester drive the backroads of America hunting demons, ghosts, and gods while carrying a brotherly bond that becomes the axis of escalating cosmic stakes across 15 seasons.",
+  "poster": {
+    "src": "/img/series/supernatural/poster.jpg",
+    "alt": "Supernatural poster",
+    "attribution": "Poster © Warner Bros. Television / The CW. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Fifteen-season run concluded November 19, 2020 - the longest-running American live-action fantasy TV series. Creator Eric Kripke designed the mythology for five seasons; the show continued under successive showrunners for ten more.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Supernatural_(American_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-09-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "80% on Rotten Tomatoes; the Winchester brothers' chemistry exceeded the network-procedural horror pitch and the lore foundations were laid with care."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0460681/ratings/"
+      },
+      "review_body": "Season 1 premiered on The WB network in September 2005 and earned 80% on Rotten Tomatoes. The series worked better than its network-procedural horror pitch suggested, largely because Jared Padalecki and Jensen Ackles created a sibling dynamic that felt genuinely earned rather than performed. The monster-of-the-week structure gave the season accessibility, while creator Eric Kripke planted the mythology seeds - the yellow-eyed demon, Mary Winchester's death - that would define the show's first five-season arc. Audience reception exceeded critical scores from the first season, a pattern that would characterise the show's entire fifteen-year run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2005-09-13",
+          "bollymeter": 7.5,
+          "spoiler_free": "The Winchester brothers reunite to search for their missing father and encounter the Woman in White - a clean, confident setup for the mythology to come.",
+          "the_moment": "The final image of the pilot, which recontextualises the show's opening and establishes the stakes for everything that follows.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 22,
+      "release_date": {
+        "value": "2006-09-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "100% on Rotten Tomatoes; the mythology deepened significantly, the yellow-eyed demon arc resolved, and the Winchester relationship carried genuine dramatic weight."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 achieved 100% on Rotten Tomatoes as the show found its voice. The yellow-eyed demon arc intensified, the mythology around Sam's special abilities gained real menace, and the show proved it could land an emotionally significant death without retreating from its consequences. The season demonstrated a confidence in its own world-building that separated it from its network-procedural peers. The Winchester relationship was the engine the show would never abandon: two brothers carrying the weight of a supernatural war while also carrying each other.",
+      "season_over_season": "Season 2 elevates the mythology from atmospheric backdrop to genuine dramatic architecture, confirming the show's long-game ambitions.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 16,
+      "release_date": {
+        "value": "2007-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "88% on Rotten Tomatoes; shortened to 16 episodes by the Writers Strike, Dean's deal with the crossroads demon gave the season urgency from a reduced episode count."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 was shortened to 16 episodes by the 2007-08 Writers Guild strike and earned 88% on Rotten Tomatoes. The reduced episode count gave the season a tighter structure than might otherwise have been the case: Dean's deal with the crossroads demon, with its one-year countdown to Hell, focused the narrative with a precision that 22-episode seasons sometimes lack. The finale's execution of Dean's fate gave the season genuine consequence. The truncation that seemed like a setback produced one of the run's more cohesive seasonal arguments.",
+      "season_over_season": "Season 3 turns constraint into craft - the Writers Strike shortened it to 16 episodes and produced a tighter, more urgent season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 22,
+      "release_date": {
+        "value": "2008-09-18",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "88% on Rotten Tomatoes; Castiel's introduction and the angel mythology transformed the show from horror procedural to full-scale cosmic mythology."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 returned Dean from Hell and introduced Castiel, the angel who pulled him out, transforming the show's mythological register from demon-centric horror to a full-scale Heaven-vs-Hell cosmic narrative. Eric Kripke was building toward his planned five-season endgame and Season 4 is where the design became legible. Misha Collins' Castiel became the show's most popular new character since its premiere. The season's revelations about Sam's abilities and Dean's role in the apocalypse built genuine dread across its 22 episodes.",
+      "season_over_season": "Season 4 introduces the angel mythology that expands the show's cosmic scale and sets the stage for Kripke's planned endgame.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Lazarus Rising",
+          "air_date": "2008-09-18",
+          "bollymeter": 9.0,
+          "spoiler_free": "Dean's return from Hell and Castiel's arrival announce the show's expansion into angel mythology - a premiere that announced the show was playing for different stakes.",
+          "the_moment": "Castiel's introduction - the sheer scale of the moment, contrasted against the show's grounded horror roots - is the series announcing its cosmic ambitions.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "year": 2009,
+      "episodes": 22,
+      "release_date": {
+        "value": "2009-09-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes; Eric Kripke's intended series finale concluded the five-season arc with 'Swan Song' - one of American genre television's most acclaimed season finales."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 earned 100% on Rotten Tomatoes and delivered Eric Kripke's intended conclusion to the five-season arc he had designed from the beginning. The finale 'Swan Song' received near-universal positive assessment as one of the finest season finales in American genre television - a conclusion that honoured five seasons of brotherly mythology, sacrificed appropriately, and landed with genuine emotional impact. 'Swan Song' would have been a perfect series ending; the show's subsequent ten seasons exist in creative dialogue with that elegance. Kripke stepped back as showrunner after this season, handing off a completed story.",
+      "season_over_season": "Season 5 is Kripke's intended ending: a perfect five-season argument that the show's continuation would spend the next decade living in the shadow of.",
+      "episode_reviews": [
+        {
+          "number": 22,
+          "title": "Swan Song",
+          "air_date": "2010-05-13",
+          "bollymeter": 9.8,
+          "spoiler_free": "The five-season arc ends with Sam and Dean's sacrifice at Stull Cemetery - a finale so well-executed that the debate over whether the show should have ended here has never stopped.",
+          "the_moment": "Sam's goodbye at the fence in the closing scene - the show's purest expression of what the Winchester relationship means - stands as one of American television's most debated final images.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "year": 2010,
+      "episodes": 22,
+      "release_date": {
+        "value": "2010-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "100% on Rotten Tomatoes despite audience division; the first post-Kripke season demonstrated the show could continue beyond its designed conclusion."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 arrived post-'Swan Song' with Sera Gamble as showrunner and earned 100% on Rotten Tomatoes, though the audience divided between those who welcomed the continuation and those who felt the show's intended ending had been perfect. The soulless-Sam storyline and Castiel's arc toward a genuinely dark turn gave the season distinctive ideas. The show's mythology was now expanding retroactively rather than building toward a designed conclusion - a structural shift the season navigated with more credibility than the circumstances suggested.",
+      "season_over_season": "Season 6 navigates the post-Kripke challenge with more invention than initial reception credited, though the bar set by 'Swan Song' was impossible to clear.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2011,
+      "episodes": 23,
+      "release_date": {
+        "value": "2011-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "100% on Rotten Tomatoes; the Leviathan storyline carried the season despite audience reception finding the new villains less compelling than prior mythology."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 7 maintained a 100% Rotten Tomatoes score while introducing the Leviathans as cosmic antagonists and sending Castiel through a controversial arc. The Leviathan mythology was thinner against the Heaven-and-Hell cosmology of Seasons 4-5, and audience scores reflected that comparison. The season demonstrated the challenge the show now faced: constructing villain credibility from scratch each season without the designed momentum that Kripke's five-season arc had provided. The Winchester chemistry and procedural craft remained the reliable floor.",
+      "season_over_season": "Season 7 introduces Leviathans as a conceptually ambitious threat; critical scores held but the new mythology lacked the weight of prior cosmology.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2012,
+      "episodes": 23,
+      "release_date": {
+        "value": "2012-10-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "67% on Rotten Tomatoes, the series' lowest per-season score; Jeremy Carver's debut introduced the Men of Letters mythology with an ambition the pacing failed to fully serve."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 8 dropped to 67% on Rotten Tomatoes under new showrunner Jeremy Carver, the show's lowest critical score to that point. The season's ambition exceeded its execution: the Men of Letters mythology and the trials to close the Gates of Hell were genuinely interesting concepts that the pacing failed to serve. The Sam-Cas dynamic stretched in ways that divided viewers. The season demonstrated the cumulative difficulty of maintaining a show beyond its designed lifespan - the mythology had to keep expanding without a structural endpoint in sight.",
+      "season_over_season": "Season 8 under Carver aims for mythology reconstruction but gets tangled in its own ambition - the series' most critically scored down season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2013,
+      "episodes": 23,
+      "release_date": {
+        "value": "2013-10-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "100% on Rotten Tomatoes; Carver's mythology work cohered more fully, with Dean's Mark of Cain arc delivering the season's strongest dramatic thread."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 9 returned to 100% on Rotten Tomatoes as Jeremy Carver found firmer narrative footing. Dean's acceptance of the Mark of Cain - and what it begins doing to him - gave the season a compelling central arc. Gadreel's possession of Sam carried real ethical weight. The Winchester relationship, always the show's engine, found genuine new friction that felt earned across nine seasons of established trust.",
+      "season_over_season": "Season 9 recovers the critical standing that Season 8 lost, with Dean's Mark of Cain arc as the most dramatically compelling thread since Season 5.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2014,
+      "episodes": 23,
+      "release_date": {
+        "value": "2014-10-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "100% on Rotten Tomatoes; Demon Dean and the Mark of Cain consequences gave the season distinctive dramatic texture, Jensen Ackles' work in the inversion particularly strong."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 10 earned 100% on Rotten Tomatoes and opened with Dean as a demon - a premise that unsettles given a decade of established characterisation. Jensen Ackles' performance across the Demon Dean arc is the season's headline achievement, the character's fundamental nature inverted with restraint that makes the horror more effective than spectacle would have. The Mark of Cain arc continued to deepen and the season demonstrated that the show could still mine dramatically fresh territory from its central relationship even after ten years and multiple mythology resets.",
+      "season_over_season": "Season 10 turns Dean into the threat rather than the hunter - a decade's worth of characterisation investment making the inversion genuinely disturbing.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2015,
+      "episodes": 23,
+      "release_date": {
+        "value": "2015-10-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "90% on Rotten Tomatoes; 'The Darkness' as cosmic antagonist provided a compelling new mythology thread, the show's best post-Kripke run."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 11 earned 90% on Rotten Tomatoes and introduced 'The Darkness' - God's imprisoned sister Amara - as the show's most cosmically ambitious villain since the Kripke era. The God-and-creation mythology gave the show a fresh vertical expansion rather than lateral rehash. The season also delivered standout episodes that recalled the show's capacity for formally inventive one-offs within its mythology - the strongest overall post-Season 5 run.",
+      "season_over_season": "Season 11 introduces the Darkness arc - a mythology expansion that recalls the show's cosmic peak and earns the post-Kripke era's strongest critical marks.",
+      "episode_reviews": []
+    },
+    {
+      "number": 12,
+      "year": 2016,
+      "episodes": 23,
+      "release_date": {
+        "value": "2016-10-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "100% on Rotten Tomatoes; the British Men of Letters arc provided the season's strongest narrative engine, Mary Winchester's return adding fresh emotional perspective."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 12 earned 100% on Rotten Tomatoes under new showrunners Robert Singer and Andrew Dabb. The British Men of Letters storyline gave the season a grounded, procedural-thriller quality that contrasted effectively with the cosmic mythology of prior seasons. Mary Winchester's return from the dead provided emotional texture and a new perspective on the brothers' origin story. The season demonstrated the show's ability to modulate between grand mythological gestures and smaller-stakes institutional conflict.",
+      "season_over_season": "Season 12 refreshes with a grounded Men of Letters threat that functions as institutional thriller within the show's mythology frame.",
+      "episode_reviews": []
+    },
+    {
+      "number": 13,
+      "year": 2017,
+      "episodes": 23,
+      "release_date": {
+        "value": "2017-10-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "100% on Rotten Tomatoes; the alternate universe Apocalypse World and Jack's introduction as Lucifer's Nephilim son gave the show a generational dimension."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 13 earned 100% on Rotten Tomatoes and introduced Jack, Lucifer's Nephilim son, as a character who gave the show's mythology a generational dimension. The alternate-universe Apocalypse World storyline is a high-wire formal move - familiar characters in inverted versions of themselves - executed with reasonable confidence. Alexander Calvert's Jack provided fresh dramatic energy at a point in the series when new blood was needed.",
+      "season_over_season": "Season 13 adds Jack as a mythological heir and the Apocalypse World as a formal device - the show still capable of expanding its frame.",
+      "episode_reviews": []
+    },
+    {
+      "number": 14,
+      "year": 2018,
+      "episodes": 20,
+      "release_date": {
+        "value": "2018-10-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "83% on Rotten Tomatoes; Michael-possessed Dean and the Chuck revelation gave the season strong moments, the finale's cosmic escalation landing with variable impact."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 14 earned 83% on Rotten Tomatoes and returned to the possessed-Dean premise from a new angle, with archangel Michael occupying the vessel. Jensen Ackles again demonstrated his range in the inversion. The revelation of Chuck as an active, malevolent author of the Winchesters' story gave the mythology a meta-textual dimension - either inspired or too cute, depending on viewer tolerance. The season displayed both the show's enduring craft and the diminishing returns of its continued escalation.",
+      "season_over_season": "Season 14 delivers Michael-Dean as a compelling second possession arc and the Chuck reveal as a bold mythology gambit.",
+      "episode_reviews": []
+    },
+    {
+      "number": 15,
+      "year": 2019,
+      "episodes": 20,
+      "release_date": {
+        "value": "2019-10-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "100% on Rotten Tomatoes for the final season; the God-as-villain conclusion generated extensive audience debate about whether the show earned its ending."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The final season earned 100% on Rotten Tomatoes while airing across 2019-2020, its final episodes delayed by the COVID-19 pandemic. The Chuck-as-author mythology is an appropriately meta resolution to a show that had outlived its designed ending by a decade. TV Guide called the finale 'bittersweet,' with the happiness granted feeling 'earned but incomplete.' The show's cultural legacy as the longest-running American live-action fantasy series, with one of streaming's most devoted fanbases, is unambiguous regardless of finale debates.",
+      "season_over_season": "Season 15 closes fifteen seasons with the show's most meta-textual resolution - the finale's reception was split, 'Swan Song' remaining the alternative ideal for many.",
+      "episode_reviews": [
+        {
+          "number": 20,
+          "title": "Carry On",
+          "air_date": "2020-11-19",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series finale delivers the Winchester brothers' final chapter with genuine feeling, a quiet close to fifteen years of apocalypse-averting.",
+          "the_moment": "Dean's death scene and Sam's life completed - the show insisting on ordinary endings for men who spent fifteen years averting the apocalypse multiple times.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

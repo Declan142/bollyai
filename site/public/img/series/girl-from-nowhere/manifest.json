@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix / SOUR Bangkok. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Girl_From_Nowhere_Season_2_Netflix_Poster.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T00:45:08Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/girl-from-nowhere/poster.jpg",
+    "source_height": 384,
+    "source_width": 259,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "girl-from-nowhere",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Girl_from_Nowhere",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Girl_From_Nowhere_Season_2_Netflix_Poster.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/girl-from-nowhere/w185.avif",
+      "bytes": 10721
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/girl-from-nowhere/w185.webp",
+      "bytes": 10892
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/girl-from-nowhere/w342.avif",
+      "bytes": 21043
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/girl-from-nowhere/w342.webp",
+      "bytes": 23684
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/girl-from-nowhere/w500.avif",
+      "bytes": 28980
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/girl-from-nowhere/w500.webp",
+      "bytes": 33986
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T00:45:52.207Z"
+}

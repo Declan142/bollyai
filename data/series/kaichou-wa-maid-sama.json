@@ -1,0 +1,102 @@
+{
+  "slug": "kaichou-wa-maid-sama",
+  "qid": {
+    "value": "Q1141838",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Kaichou wa Maid-sama!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll catalogue",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Romance",
+    "Comedy",
+    "Slice of Life",
+    "Coming of Age"
+  ],
+  "logline": "The first female student council president of a formerly all-boys high school secretly moonlights at a maid cafe to keep her family afloat - until the school's most popular boy discovers her secret.",
+  "poster": {
+    "src": "/img/series/kaichou-wa-maid-sama/poster.jpg",
+    "alt": "Kaichou wa Maid-sama! poster",
+    "attribution": "Poster © J.C.Staff / Hiro Fujiwara / Hakusensha. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 26-episode anime adaptation aired April-September 2010. The source manga by Hiro Fujiwara concluded in 2013. No second season has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Maid_Sama!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 26,
+      "release_date": {
+        "value": "2010-04-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "IMDb rates the series 7.9; reviewers consistently cite its snappy comedic delivery and strong romantic chemistry between the leads as the series' genuine strength, while acknowledging its shallow emotional depth and rushed finale."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1634208/"
+      },
+      "review_body": "Kaichou wa Maid-sama! aired on TBS from April 2010 as J.C.Staff's adaptation of Hiro Fujiwara's manga, and became one of the defining shojo romance anime of its era. The premise - a hard-edged female student council president with a secret maid cafe job, caught by the school's effortlessly popular boy - is a textbook tsundere setup, and the series knows it. What distinguishes it from formula is the comedic delivery: the show's sharp, snappy writing keeps the gags landing even in retrospect. Misaki Ayuzawa is a more competent and less passive female lead than many contemporaries, which gives the romance a different flavour - she drives as many scenes as she is rescued from. IMDb's 7.9 audience score reflects genuine warmth toward the series. The consistent critical point is a rushed ending and limited emotional depth; resolutions arrive in one or two episodes and the 26-episode run ends before the manga's full arc. The OVA adds some closure, but the anime adaptation is incomplete relative to its source. As a comfort rewatch - clever, fast, and charming - it holds.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "I am the Student Council President!",
+          "air_date": "2010-04-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series opener efficiently establishes Misaki's dual life and brings Usui into her orbit with the minimum of setup. The comedic timing is established immediately - J.C.Staff's direction keeps the pacing crisp throughout.",
+          "the_moment": "Usui's discovery of Misaki at the cafe - the central secret exposed in the first episode, letting the real dynamic begin.",
+          "critic_note": null
+        },
+        {
+          "number": 26,
+          "title": "The Special Maid-sama!",
+          "air_date": "2010-09-23",
+          "bollymeter": 7.0,
+          "spoiler_free": "The anime finale delivers emotional resolution but feels compressed relative to the manga's full arc. The ending is fast and the pacing is rushed - but it closes the central romantic question with enough warmth to satisfy.",
+          "the_moment": "The final rooftop scene - the culmination of the Misaki/Usui dynamic the series spent 26 episodes building.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

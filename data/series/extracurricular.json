@@ -1,0 +1,102 @@
+{
+  "slug": "extracurricular",
+  "qid": {
+    "value": "Q63311224",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Extracurricular",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Drama", "Coming of Age", "Psychological"],
+  "logline": "A model high school student secretly runs an illegal protection racket for sex workers - until a classmate discovers his operation and forces her way in, sending both down a spiral they cannot escape.",
+  "poster": {
+    "src": "/img/series/extracurricular/poster.jpg",
+    "alt": "Extracurricular poster",
+    "attribution": "Poster © Netflix / Studio 329. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 10 episodes. Netflix has not announced a continuation.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/title/81037961"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-04-29",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "An 87 percent Rotten Tomatoes score from 3 critics reflects the show's sharp first half - a queasy premise executed with genuine tension - though reviewers noted the back half loses momentum in cycles of escalating violence."
+      },
+      "critic": {
+        "positive_pct": 87,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "Extracurricular is good, funny stuff... not likely to stop you from binging the crap out of this show.",
+            "source": "Decider",
+            "url": "https://decider.com/2020/04/29/extracurricular-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10262630/"
+      },
+      "review_body": "Directed by Kim Jin-min and written by Jin Han-sae, Extracurricular landed on Netflix in April 2020 and earned quick word-of-mouth as one of the darker Korean originals on the platform. Critics at Rotten Tomatoes gave it 87 percent across 3 reviews, clustering praise on the cold moral architecture of its premise - a straight-A student running a criminal operation without ever playing the anti-hero card. The first five episodes deliver taut, almost blackly comic escalation. The back half, as a second reviewer noted, pivots into repetitive violent set-pieces that dilute the satire. Kim Dong-hee and Park Ju-hyun carry the material with controlled intensity; the show trusts that watching two teenagers make irreversible choices is scarier than any genre stylisation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-04-29",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere establishes the show's cold logic in one elegant setup - a student whose illegal side-business is run with more discipline than most adults manage, until a classmate stumbles into his world.",
+          "the_moment": "The moment Gyu-ri realises exactly what Ji-soo is running, and does not flinch.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2020-05-20",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale lands the consequences the show has been building, though the resolution feels earned only in emotional terms - the plot mechanics have frayed by this point.",
+          "the_moment": null,
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

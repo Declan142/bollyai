@@ -1,0 +1,247 @@
+{
+  "slug": "nurse-jackie",
+  "qid": {
+    "value": "Q23614",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Nurse Jackie",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Showtime",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Comedy", "Medical", "Psychological"],
+  "logline": "An exceptionally skilled New York ER nurse manages patients, colleagues, and a secret addiction to prescription pills with a moral calculus that never becomes comfortable.",
+  "poster": {
+    "src": "/img/series/nurse-jackie/poster.jpg",
+    "alt": "Nurse Jackie poster",
+    "attribution": "Poster © Showtime Networks / Lionsgate Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Seven-season run ended in June 2015. A revival has been reported in development at Prime Video as of 2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Nurse_Jackie"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 12,
+      "release_date": {
+        "value": "2009-06-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "89% on Rotten Tomatoes at debut; Edie Falco's performance is an immediate career landmark and the show is an original addition to cable's addiction-portraiture tradition."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt1190689/ratings/"
+      },
+      "review_body": "Season 1 premiered on Showtime in June 2009 with an 89% Rotten Tomatoes score. The show's central tension is immediately apparent: Jackie Peyton is genuinely good at her job and genuinely self-destructive in equal measure, and the series refuses to resolve that contradiction into either redemption or condemnation. Edie Falco, moving directly from The Sopranos, drew overwhelmingly positive notices - the show was called 'smart, acrid, alternately sharp and sentimental' and the best Showtime series yet on addiction. The half-hour format gives the season a compressed, pressurised quality that longer dramas rarely achieve. Merritt Wever's Zoey established herself as an early ensemble standout.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2009-06-08",
+          "bollymeter": 8.5,
+          "spoiler_free": "Jackie Peyton's dual life is established in a single episode with extraordinary economy - nurse of almost supernatural skill, pill addict of profound cunning.",
+          "the_moment": "Jackie's method of disposing of a problem in the first episode establishes the show's moral register instantly: she is not the hero, but she may be right.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2010,
+      "episodes": 12,
+      "release_date": {
+        "value": "2010-03-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "83% on Rotten Tomatoes; Falco won the Emmy for Outstanding Lead Actress while the season deepened the addiction spiral with less overall momentum than the debut."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 earned 83% on Rotten Tomatoes while Edie Falco collected the Primetime Emmy for Outstanding Lead Actress in a Comedy Series - the first of six consecutive nominations. The season is a capable continuation rather than a creative leap, with the writers resisting any pressure to force Jackie toward conventional recovery-narrative beats. The addiction tightened its grip in ways that feel documentary-accurate, and the ER environment remained one of television's most convincingly rendered workplaces. The Falco performance is the primary reason to watch.",
+      "season_over_season": "Season 2 deepens the addiction's grip without offering the resolution that conventional medical drama would reach for at this stage.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2011,
+      "episodes": 12,
+      "release_date": {
+        "value": "2011-03-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "76% on Rotten Tomatoes; the escalating deception plots strain credibility around the margins, though Falco's performance holds the season together."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 scored 76% on Rotten Tomatoes, the series' lowest mark to that point. The deception mechanics of Jackie's double life had accumulated into something narratively strained - the number of characters who almost discover her addiction while never quite doing so tested plausibility. The A.V. Club's assessment that 'despite the rather lame drama swirling around her, Edie Falco's coolly exasperated Jackie still somehow rises above' captures the season exactly: the performance carried what the writing could not.",
+      "season_over_season": "Season 3 shows the first signs of the long-con plot mechanics around Jackie's secret beginning to creak under their own weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2012,
+      "episodes": 10,
+      "release_date": {
+        "value": "2012-04-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "94% on Rotten Tomatoes; Jackie's exposure and consequences finally arrive, making the season the creative payoff of three seasons of accumulation."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 rebounded to 94% on Rotten Tomatoes as the consequences of Jackie's addiction finally materialised in ways that the story could no longer deflect. Years of watching Jackie maintain her double life made the unravelling genuinely affecting rather than plot-mechanics. The season demonstrated that a show about addiction could actually portray the wages of addiction rather than perpetually defer them - the creative gamble of Seasons 1-3 finally paid out.",
+      "season_over_season": "Season 4 marks the creative recovery, arriving at the consequences that Seasons 2-3 deferred.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2013,
+      "episodes": 10,
+      "release_date": {
+        "value": "2013-04-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "62% on Rotten Tomatoes; the series' weakest season, the recovery-then-relapse cycle beginning to feel repetitive rather than honest."
+      },
+      "critic": {
+        "positive_pct": 62,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 dropped to 62% on Rotten Tomatoes and represents the series' most significant creative difficulty. The narrative structure of recovery-sabotage-relapse began to feel like a loop rather than a progression, and the show's refusal to either rehabilitate or condemn Jackie was generating diminishing dramatic returns without new angles. Falco's performance remained the constant floor, but the season raised a genuine question about whether the show had a destination in mind or was extending its premise indefinitely.",
+      "season_over_season": "Season 5 hits the structural wall of addiction drama - the loop cycle that seemed honest in Season 1 becomes a trap by Season 5.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-04-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "69% on Rotten Tomatoes; modest recovery with the ensemble - Wever, Gilpin, Deavere Smith - given more room, the main narrative still struggling to regenerate urgency."
+      },
+      "critic": {
+        "positive_pct": 69,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 improved modestly to 69% on Rotten Tomatoes. The expansion back to 12 episodes gave the ensemble - Merritt Wever, Betty Gilpin, Anna Deavere Smith - more room, while the main narrative struggled to regenerate urgency around Jackie's latest relapse cycle. The season functions as a reminder of everything the show could do at its best while also demonstrating the difficulty of reinventing that potential across a long run. Watchable, uneven, and carrying the Falco performance as its guaranteed floor.",
+      "season_over_season": "Season 6 expands the ensemble space modestly but cannot fully rediscover the compressed tension of the early seasons.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2015,
+      "episodes": 12,
+      "release_date": {
+        "value": "2015-04-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "94% on Rotten Tomatoes; the series finale season's courageous, uncompromising ending refused the conventional recovery narrative and restored faith in the show's creative vision."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The final season rebounded to 94% on Rotten Tomatoes and delivered one of television's more debated series finales. The show refused to grant Jackie redemption on the terms the genre conventionally demands, with the finale's closing image landing as either hopeful ambiguity or honest despair depending on the viewer. Showrunner Clyde Phillips produced an ending consistent with everything the series had argued about addiction: that it is not resolved by good intentions, good people, or good television. Edie Falco received her sixth consecutive Emmy nomination. The season restored faith in a show that had struggled creatively in its middle years.",
+      "season_over_season": "Season 7 arrives as a genuine creative finale - the show finds its exit with more conviction than its middle seasons suggested it could.",
+      "episode_reviews": [
+        {
+          "number": 12,
+          "title": "I Say a Little Prayer",
+          "air_date": "2015-06-28",
+          "bollymeter": 9.0,
+          "spoiler_free": "The series finale closes Jackie's arc without consolation or easy resolution - a final scene read as either devastating or perfect, often both.",
+          "the_moment": "The final image became one of the most debated moments of 2015 television, the show's thesis statement delivered without commentary.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

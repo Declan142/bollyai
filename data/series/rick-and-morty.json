@@ -1,0 +1,332 @@
+{
+  "slug": "rick-and-morty",
+  "qid": {
+    "value": "Q15659308",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Rick and Morty",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Adult Swim",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Sci-Fi", "Comedy", "Adventure", "Psychological"],
+  "logline": "A genius alcoholic scientist and his anxious teenage grandson ricochet across infinite dimensions, dismantling sci-fi conventions and family sitcom tropes in equal measure.",
+  "poster": {
+    "src": "/img/series/rick-and-morty/poster.jpg",
+    "alt": "Rick and Morty poster",
+    "attribution": "Poster © Adult Swim / Williams Street. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "running",
+    "note": "Season 9 aired May-July 2026. Adult Swim has not announced a cancellation; the series continues under its 70-episode renewal deal signed in 2018.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rick_and_Morty"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 11,
+      "release_date": {
+        "value": "2013-12-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% on Rotten Tomatoes; Variety's premiere review identified the show's rare ambition to tell actual stories beneath the gag density."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Manic but more focused than a lot of Adult Swim fare, 'Rick and Morty' is an amusing animated construct.",
+            "source": "Variety",
+            "url": "https://variety.com/2013/tv/reviews/rick-and-morty-tv-review-cartoon-network-adult-swim-1200883197/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2861424/ratings/"
+      },
+      "review_body": "The debut season launched on Adult Swim in December 2013 and earned a 97% on Rotten Tomatoes. Variety called it 'an amusing animated construct' that attempts to 'dream just a little bigger' than its Adult Swim peers. The Harmon-Roiland creative engine does something few animated comedies bother with: embedding genuine science-fiction concepts and real emotional stakes inside the joke delivery system. The Rick-Morty relationship, apparently a Back to the Future parody at conception, quickly revealed itself as a portrait of codependency and intellectual exploitation that the jokes could not fully conceal. A rare debut season with almost no weak episodes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2013-12-02",
+          "bollymeter": 8.0,
+          "spoiler_free": "Rick and Morty establish their dynamic on a dimension-hopping adventure involving alien customs agents and interdimensional cable.",
+          "the_moment": "Rick's transformation from comedic drunk grandfather to something genuinely unsettling happens in the final minutes.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Close Rick-Counters of the Rick Kind",
+          "air_date": "2014-04-07",
+          "bollymeter": 9.2,
+          "spoiler_free": "The multiverse concept gets its full showcase when Rick is arrested by a council of alternate Ricks - the show's mythology begins here.",
+          "the_moment": "Evil Morty's reveal recontextualises everything the show has assumed about the Rick-Morty hierarchy.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-07-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "91% on Rotten Tomatoes; the season deepened family dynamics and landed a devastating finale with genuine emotional credibility."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 arrived in July 2015 and earned 91% on Rotten Tomatoes. The season's two achievements are its formal ambition and its emotional follow-through: 'A Rickle in Time' earned extensive attention for its split-screen time-loop construction, and the finale 'The Wedding Squanchers' delivered real consequence without betraying the show's comedic identity. The season demonstrated that the show could modulate tone without losing its voice - 'Total Rickall' and 'Interdimensional Cable 2' functioned as comedy experiments while the season arc built toward a payoff that no Adult Swim show had previously attempted.",
+      "season_over_season": "Season 2 moves from premise establishment to genuine emotional stakes, with a finale that demonstrates the show can hurt as well as delight.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "A Rickle in Time",
+          "air_date": "2015-07-26",
+          "bollymeter": 9.4,
+          "spoiler_free": "The time-freeze premise from the Season 1 finale pays off in a formally inventive episode that splits the screen as timelines diverge.",
+          "the_moment": "The split-screen multiplication of possible Ricks and Mortys is a piece of animation craft that rewards close attention.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-04-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "96% on Rotten Tomatoes; won the Primetime Emmy for Outstanding Animated Program for 'Pickle Rick' - the show's most formally daring season."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 dropped its premiere April Fools' episode without warning in 2017 and delivered the show's most culturally explosive season - 96% on Rotten Tomatoes and a Primetime Emmy win for Outstanding Animated Program for 'Pickle Rick.' The season is the show's most psychologically complex: Rick's nihilism revealed as defence mechanism, Beth's enablement of her father examined without easy resolution, and the family structure dismantled and imperfectly reassembled. 'Pickle Rick' became the show's most-discussed single episode, and the finale 'The Rickchurian Mortydate' is the sequence where the show fully accepted its own mythology.",
+      "season_over_season": "Season 3 escalates the psychological deconstruction of Rick's genius-alcoholic persona and pays off the Beth-Jerry divorce thread.",
+      "episode_reviews": [
+        {
+          "number": 3,
+          "title": "Pickle Rick",
+          "air_date": "2017-08-06",
+          "bollymeter": 9.5,
+          "spoiler_free": "Rick turns himself into a pickle to avoid family therapy; what follows is a savage action-comedy sequence and an unexpectedly lucid therapy scene.",
+          "the_moment": "The therapist's precise deconstruction of Rick's genius-as-avoidance - delivered calmly and without condescension - is the show's most honest moment.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-11-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "96% on Rotten Tomatoes; a confident return after a long hiatus with strong episode-level craft, though lacking a unifying emotional through-line."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 returned after a two-year hiatus and scored 96% on Rotten Tomatoes. Standout episodes 'Claw and Hoarder: Special Ricktim's Morty' and 'Never Ricking Morty' demonstrate the show's continued formal invention. The season is strong at the episode level - confident, intellectually curious, genuinely funny - but without a Season 3-calibre emotional through-line it feels more like a premium anthology than a cohesive narrative. Still several levels above most animation on television.",
+      "season_over_season": "Season 4 recalibrates after the cultural saturation of Season 3, favouring episode-level invention over season-wide arc.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2021,
+      "episodes": 10,
+      "release_date": {
+        "value": "2021-06-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "86% on Rotten Tomatoes; the mythology episodes rewarded patience while the filler was the show's most uneven to date."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 scored 86% on Rotten Tomatoes, the show's lowest mark to that point. A quality split defines the season: episodes advancing the Evil Morty mythology - 'Forgetting Sarick Mortshall' and 'Rickmurai Jack' - rank among the series' best, while the mid-season standalones received mixed responses for feeling like content without consequence. The finale's Evil Morty payoff is one of the show's most genuinely moving sequences. A season of genuine peaks and genuine valleys.",
+      "season_over_season": "Season 5 delivers the show's most significant mythology payoff yet is its most uneven season - rewarding patience with the finale's emotional climax.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "Rickmurai Jack",
+          "air_date": "2021-09-05",
+          "bollymeter": 9.6,
+          "spoiler_free": "The Evil Morty thread that began in Season 1 reaches a devastating payoff in a finale that recontextualises the entire Rick-Morty relationship.",
+          "the_moment": "The flashback montage, delivered without dialogue over a song, is the show at its most unexpectedly devastating.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "year": 2022,
+      "episodes": 10,
+      "release_date": {
+        "value": "2022-09-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "91% on Rotten Tomatoes; the first season navigating the Roiland contract dispute, delivering strong standalone comedy while the Rick Prime mythology built."
+      },
+      "critic": {
+        "positive_pct": 91,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 landed a 91% Rotten Tomatoes score and navigated the off-screen drama of Justin Roiland's contract dispute, which would lead to his replacement the following season. 'Solaricks' and 'Night Family' stand out, and the continued mythology work around the Rick Prime storyline gives the season forward momentum. The show's ability to maintain quality across a turbulent production period is the season's most notable achievement.",
+      "season_over_season": "Season 6 holds the mythology thread steady while delivering reliable standalone comedy craft, despite off-screen production turbulence.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2023,
+      "episodes": 10,
+      "release_date": {
+        "value": "2023-10-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "77% on Rotten Tomatoes; the first full season with recasted voices, the transition smoother than feared while the Rick Prime closure lands as genuine mythology payoff."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 7 became the show's lowest-rated season on Rotten Tomatoes at 77%, arriving fully under new voice performances following Justin Roiland's departure. Ian Cardoni and Harry Belden capture the essential Rick-Morty chemistry more effectively than the transition's circumstances suggested possible - the early episodes carry a certain uncanny quality, but the new voices settle convincingly by mid-season. The Rick Prime conclusion lands as a genuine mythology payoff. The season is notable as a case study in a show successfully surviving the exit of a creator-voice-performer.",
+      "season_over_season": "Season 7 is defined by the voice recasting; the transition is credible if initially uncanny, with the Rick Prime closure as the season's anchor.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2025,
+      "episodes": 10,
+      "release_date": {
+        "value": "2025-05-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "93% on Rotten Tomatoes; the new voice cast is fully settled, the writing confident, the post-Roiland era confirmed as sustainable."
+      },
+      "critic": {
+        "positive_pct": 93,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 8 earned a 93% Rotten Tomatoes score - a creative bounceback with the new voice cast now fully settled and the writing demonstrating renewed confidence. The balance of standalone comedy craft and mythology threading is the sharpest since Season 4, and the formal invention of the best episodes recalled the peak Seasons 2-3 energy without simply repeating prior moves. The season confirms the show can sustain itself in a post-Roiland era.",
+      "season_over_season": "Season 8 is the post-Roiland proof of concept - a creative recovery that earns the series' continuation.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2026,
+      "episodes": 10,
+      "release_date": {
+        "value": "2026-05-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100% on Rotten Tomatoes based on available reviews; early assessments point to creative peak form for the post-Roiland era."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 9 is currently airing (May-July 2026) and carries a 100% Rotten Tomatoes score based on early reviews. The new voice performances are fully internalised and the show's mythology confidence is at a post-Roiland high. Full critical consensus is still forming as the season completes its run.",
+      "season_over_season": "Season 9 arrives with early assessments pointing to the show's best work since the voice recasting.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "eureka-seven",
+  "qid": {
+    "value": "Q962161",
+    "source": "Wikipedia sidebar / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Eureka Seven",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Crunchyroll catalogue",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Sci-Fi",
+    "Romance",
+    "Action",
+    "Coming of Age",
+    "Adventure"
+  ],
+  "logline": "A bored teenager in a military backwater joins an outlaw mecha crew, falls for their mysterious pilot, and discovers that humanity's conflict with a sentient alien lifeform may have a very different origin than the official story.",
+  "poster": {
+    "src": "/img/series/eureka-seven/poster.jpg",
+    "alt": "Eureka Seven poster",
+    "attribution": "Poster © Bones / Bandai Visual. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 50-episode original series concluded April 2006. A film adaptation followed in 2009. A sequel series, Eureka Seven AO, aired in 2012. The original series stands as a self-contained story.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Eureka_Seven"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 50,
+      "release_date": {
+        "value": "2005-04-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "ANN weighted mean of 8.143 (Very good) from 4,771 ratings, ranked #421 of all anime. ANN's Blu-ray review called it 'a sprawling, entertaining mecha behemoth with some heart-slaying emotional highlights' - but noted the second half muddles the clarity of the first."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A sprawling, entertaining mecha behemoth with some heart-slaying emotional highlights.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/eureka-seven/blu-ray-part-1/.75868"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Eureka Seven aired on MBS from April 2005 across 50 episodes and won Best Television Series at the 2006 Tokyo International Anime Fair - the most high-profile award a Bones production had received to that point. ANN's Blu-ray reviewer Carl Kimlinger described it as 'a sprawling, entertaining mecha behemoth with some heart-slaying emotional highlights' and 'solid entertainment' in an assessment that also captured the consensus criticism: the second half overplays its hand. ANN's user rating pool of 4,771 raters gave it a weighted mean of 8.143, ranking it #421 all-time. The show's strengths are front-loaded in the first cour - Renton's adolescent restlessness, the surfing-on-atmosphere mecha choreography, and the slowly developing dynamic with Eureka carry genuine momentum. The second half introduces escalating cosmic mythology that diluted the intimate character work; Kimlinger noted it 'consistently overplays characters' emotions' and 'ultimately feels a little hollow.' Bones' animation quality remained a standout throughout, and the romantic arc delivers. The series won a Best Television Series award at the 2006 Tokyo International Anime Fair, reflecting how seriously the industry took it on release.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Blue Monday",
+          "air_date": "2005-04-17",
+          "bollymeter": 8.0,
+          "spoiler_free": "Renton's world is established with Bones' characteristic kinetic energy - the LFO mecha surfing on Trapar atmospheric waves is visually original and the show wastes no time getting its protagonist into motion. The opening has more visual flair than most mecha pilots.",
+          "the_moment": "Eureka's Nirvash crashing into Renton's grandfather's garage - the inciting incident delivered without ceremony.",
+          "critic_note": null
+        },
+        {
+          "number": 50,
+          "title": "Wish Upon a Star",
+          "air_date": "2006-04-02",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series finale resolves the Renton-Eureka arc with emotional conviction but requires the viewer to have invested in the increasingly abstract mythology of the final arc. Those who did found the payoff earned; those who didn't found it indulgent.",
+          "the_moment": "The final resolution of Eureka's transformation arc - the romantic and science-fictional threads converge at last.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

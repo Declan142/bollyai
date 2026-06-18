@@ -1,0 +1,93 @@
+{
+  "slug": "1983",
+  "qid": {
+    "value": "Q56328126",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "1983",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Poland",
+  "original_language": {
+    "value": "pl",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Thriller", "Sci-Fi", "Drama", "Psychological"],
+  "logline": "In a 2003 Poland that never escaped communist rule - because a 1983 bombing prevented the transition - a law student and a disgraced investigator uncover a conspiracy buried in the state's founding trauma.",
+  "poster": {
+    "src": "/img/series/1983/poster.jpg",
+    "alt": "1983 poster",
+    "attribution": "Poster © Netflix. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "One season produced; Netflix did not commission a second season. The series ran as a limited event, ending on an unresolved narrative.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/1983_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 8,
+      "release_date": {
+        "value": "2018-11-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Rotten Tomatoes Tomatometer at 72%; IMDb user rating 6.7. Critics praised the premise and production design while noting the dialogue and pacing as weaknesses. A compelling idea incompletely executed."
+      },
+      "critic": {
+        "positive_pct": 72,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Fast paced and good looking, 1983 is a dystopian thriller that evokes Orwellian ideas while developing its own gripping plot.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2018/11/30/1983-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7371666/"
+      },
+      "review_body": "Netflix's first Polish original arrived in November 2018 with an alternate-history premise that was immediately striking: a 1983 terrorist bombing prevented Poland's transition from communism, leaving a surveillance state intact into 2003, with Soviet-era architecture coexisting with mobile phones and a significant Vietnamese immigrant community. The 72 percent Rotten Tomatoes score reflected a genuine critical split - the concept, cinematography, and production design drawing consistent praise, while critics flagged the dialogue as occasionally contrived and the pacing as uneven. Ready Steady Cut called it 'an unexpected gem from Netflix with lots of interesting themes that feel weighty and relevant.' The 6.7 IMDb user rating suggested audience response aligned with the mixed critical read. Directors Agnieszka Holland and Agnieszka Smoczyńska brought strong visual authority to their episodes. The series ends on an unresolved note; no second season followed.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-11-30",
+          "bollymeter": 7.2,
+          "spoiler_free": "The series opener establishes its alternate 2003 Poland with confidence - the world-building is the episode's primary virtue, with the central investigation set in motion by an encounter in a university archive.",
+          "the_moment": "The first street-level sequence that makes the alternate timeline tactile: surveillance cameras and communist-era architecture alongside late-1990s consumer goods.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "the-heirs",
+  "qid": {
+    "value": "Q13409848",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Heirs",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Drama", "Teen", "Coming of Age"],
+  "logline": "An exiled chaebol heir returns from Los Angeles to reclaim his birthright and the girl he loves - navigating a boarding school of heirs whose futures are already decided by their families' wealth.",
+  "poster": {
+    "src": "/img/series/the-heirs/poster.jpg",
+    "alt": "The Heirs poster",
+    "attribution": "Poster © SBS / Hwa&Dam Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 20 episodes concluded on December 12, 2013. No sequel has been produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Heirs"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 20,
+      "release_date": {
+        "value": "2013-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Peaked at 25.6% domestic viewership (Nielsen Korea) and surpassed one billion views on China's Youku; IMDb sits at 7.5 reflecting an audience that prizes its star power over storytelling rigour."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3243098/"
+      },
+      "review_body": "The Heirs aired on SBS from October to December 2013 and became one of the most commercially successful K-dramas of the year - it peaked at 25.6 percent nationally (Nielsen Korea) and sold to 13 countries, commanding the highest per-episode licensing fee of any 2013 Korean drama in Japan. Writer Kim Eun-sook assembled a cast headlined by Lee Min-ho, Park Shin-hye, and Kim Woo-bin and staged them against glossy Beverly Hills and Seoul private-school backdrops. Audience reception was enthusiastic, driven by ship wars between Kim Tan and Choi Young-do's competing claims on the heroine. Critical observers were more divided: the first eight episodes drew consistent complaints of narrative stasis, though the final ten delivered on its melodrama promises. The Youku billion-view milestone confirms its position as a foundational text of the second Hallyu wave in China.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2013-10-09",
+          "bollymeter": 7.0,
+          "spoiler_free": "The Los Angeles-set opening sequences establish the fish-out-of-water dynamic efficiently; the hero's first encounter with the heroine on foreign soil plants the seed before the Korean boarding school dynamics take over.",
+          "the_moment": "Kim Tan watching Cha Eun-sang navigate her humiliation in California - the moment that tells him she is unlike every other person in his world.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2013-12-12",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale resolves its inheritance and romance arcs with the emotional payoff the show's fanbase had been promised, delivering the catharsis that sustained 20 episodes of slow-burn tension.",
+          "the_moment": "The rooftop scene that concluded the central love triangle with definitive finality.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

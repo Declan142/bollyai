@@ -1,0 +1,127 @@
+{
+  "slug": "girl-from-nowhere",
+  "qid": {
+    "value": "Q55907137",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Girl From Nowhere",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Thailand",
+  "original_language": {
+    "value": "th",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": ["Thriller", "Drama", "Mystery", "Supernatural", "Psychological"],
+  "logline": "A mysterious girl with an unnerving gift transfers between elite Thai schools, exposing faculty and students' hidden cruelties and serving as judge and executioner - then vanishing to start again somewhere new.",
+  "poster": {
+    "src": "/img/series/girl-from-nowhere/poster.jpg",
+    "alt": "Girl From Nowhere poster",
+    "attribution": "Poster © Netflix / SOUR Bangkok. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 dropped on Netflix in May 2021. A reboot titled Girl From Nowhere: The Reset has been announced for 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Girl_from_Nowhere"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 13,
+      "release_date": {
+        "value": "2018-08-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 1 built a cult following through its anthology-within-a-series structure, praised by critics and audiences for its willingness to tackle social hypocrisy in Thai private school culture with a horror register most local TV avoids."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8824648/"
+      },
+      "review_body": "Girl From Nowhere premiered on GMM 25 in August 2018 and later moved to Netflix internationally, where it became one of the platform's most-watched Thai originals. Season 1 structures itself as an anthology: each episode places protagonist Nanno (Chicha Amatayakul) at a new school where she exposes a specific rot - sexual exploitation, academic corruption, bullying, class privilege. The show is rooted in Thailand's fraught relationship with elite private schooling, deploying a horror register to anatomise societal issues involving young people that local television rarely touches directly. The 83 percent RT score reflects a positive reception - each episode functions as a self-contained moral horror story while Nanno's ambiguity grows more unsettling across episodes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Ugly Truth",
+          "air_date": "2018-08-08",
+          "bollymeter": 7.9,
+          "spoiler_free": "The opening episode introduces Nanno's method - she does not cause the cruelty, she simply reveals it - and immediately establishes that this show will not redeem its villains.",
+          "the_moment": "The moment a teacher who assumed Nanno was a victim realises she is something else entirely.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-05-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 2 darkened the tone further and introduced Yuri as a rival force, receiving strong audience engagement on Netflix. Critics noted the expanded ambition though the shorter episode count is tighter."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.8,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8824648/"
+      },
+      "review_body": "Season 2 arrived on Netflix in May 2021 with 8 episodes - a tighter run than the 13-episode debut. The significant addition was Chanya McClory as Yuri, a character who mirrors and challenges Nanno rather than simply becoming another victim or villain. This destabilises the show's formula in productive ways: for the first time Nanno faces something that pushes back. The season's cases are darker and more explicitly violent than Season 1, and audience reception on Netflix was strong enough to trigger global Top-10 appearances in multiple Asian markets during its launch week. The reduced episode count gives the season a more concentrated impact.",
+      "season_over_season": "Season 2 complicates the first season's formula by introducing Yuri as Nanno's adversary - shifting the show from a one-woman morality engine to a contest between two ambiguous forces.",
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Minnie and the Four Bodies",
+          "air_date": "2021-05-07",
+          "bollymeter": 7.8,
+          "spoiler_free": "The Season 2 opener is the show at its most ambitious - a multi-timeline mystery that reframes who Nanno is before resetting expectations for the season ahead.",
+          "the_moment": "The reveal of how the four bodies are connected to Nanno's arrival.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

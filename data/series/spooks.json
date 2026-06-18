@@ -1,0 +1,312 @@
+{
+  "slug": "spooks",
+  "qid": {
+    "value": "Q680722",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Spooks",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Thriller", "Spy", "Action"],
+  "logline": "Britain's domestic intelligence service, MI5, fights terrorists and foreign agents from a secure London hub known as The Grid - with officers who may be killed or turned at any moment.",
+  "poster": {
+    "src": "/img/series/spooks/poster.jpg",
+    "alt": "Spooks poster",
+    "attribution": "Poster © BBC / Kudos Film and Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Concluded after 10 series in October 2011. BBC and Kudos jointly announced in August 2011 that Series 10 would be the last.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Spooks_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2002,
+      "episodes": 6,
+      "release_date": {
+        "value": "2002-05-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Debut series won the 2003 BAFTA Award for Best Drama Series and the RTS Award for Best Drama. The show's willingness to kill major cast members without warning was a structural shock to British television convention that IMDb users still rate at 8.3 overall."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0160904/"
+      },
+      "review_body": "The first series of Spooks arrived in May 2002 and immediately reset expectations for British espionage drama. Set within MI5's fictional Section D, the show dispensed with glamorous spy fantasy in favour of procedural grit and genuine moral ambiguity. The BAFTA win for Best Drama in 2003 ratified what audiences had already sensed: this was something new. Peak viewership hit 7.49 million. The show's refusal to protect its cast - a structural courage that made every episode feel genuinely dangerous - was its defining signature. The Kudos production values were notably cinematic for the era, and Matthew Macfadyen's Tom Quinn established a template of the conflicted intelligence officer that the show would iterate across a decade.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Thou Shalt Not Kill",
+          "air_date": "2002-05-13",
+          "bollymeter": 8.5,
+          "spoiler_free": "The series opener establishes The Grid's culture - technical, paranoid, morally complicated - with a cell infiltration plot that pays off in the final minutes.",
+          "the_moment": "A choice made in a kitchen that permanently established the show's willingness to go further than any comparable British drama.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2003,
+      "episodes": 10,
+      "release_date": {
+        "value": "2003-04-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "The expanded 10-episode run maintained the debut's quality, with standout episodes on chemical terrorism and domestic extremism mapping post-9/11 anxiety with unusual craft."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 2 expanded to 10 episodes and used the additional space to deepen the show's political texture. The post-September 2001 environment gave the writers a live grid of anxieties to map: chemical attack scenarios, domestic far-right cells, and the corrosive effects of surveillance on civil liberties. The cast expanded while the core tension - how much of yourself can you sacrifice for the state before there is no self left - sharpened. Viewership remained strong. The show's craft-level ambition, particularly its location work and editing rhythm, sustained tension across the longer run without feeling padded.",
+      "season_over_season": "Series 2 matched the debut's BAFTA-winning quality and expanded its political scope across a larger episode count.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2004,
+      "episodes": 10,
+      "release_date": {
+        "value": "2004-10-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "Cast refresh following Matthew Macfadyen's departure tested audience loyalty but the show's structural engine remained intact, with the Series 3 finale among the best single episodes of the run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 3 navigated the loss of its lead with more confidence than expected. Richard Armitage joined as Lucas North - a character who would become central to the show's mythology - and the ensemble approach became Spooks' defining strategy: no single protagonist, just a rotating cast of operatives whose mortality was always credibly at stake. The season finale drew strong reception for its operational realism and character payoffs.",
+      "season_over_season": "Series 3 absorbed a major cast change more smoothly than expected, reinforcing the show's ensemble-over-stars philosophy.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2005,
+      "episodes": 10,
+      "release_date": {
+        "value": "2005-10-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "Solid mid-run series with strong individual episodes and stronger villain construction than Series 3; Cold War-era secrets colliding with contemporary threat landscapes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 4 continued Spooks' reliable delivery of high-stakes procedural drama. The show compensated for a slight formula-setting tendency with stronger villain construction and a more geopolitically sophisticated story engine - Cold War-era secrets colliding with contemporary threat landscapes. Richard Armitage's Lucas North continued to anchor the drama with a brooding credibility. The 10-episode structure remained well-paced.",
+      "season_over_season": "Series 4 holds its quality line though the innovation edge of the early seasons is less sharp.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2006,
+      "episodes": 10,
+      "release_date": {
+        "value": "2006-10-09",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The show's mid-run remains solidly crafted with credible threat scenarios; the shock value of the earlier series is no longer available as a narrative weapon but the moral grey zone remains the show's strongest attribute."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "By Series 5, Spooks had firmly established its identity as the prestige entry point for British intelligence drama. The willingness to explore moral grey zones - double agents, asset burns, collateral damage framed as policy - remained the show's strongest attribute. Viewership was stable. The show's craft consistency was intact while the structural surprise of the early series could not be repeated now that the show's grammar was well understood by its audience.",
+      "season_over_season": "Series 5 is steady-state Spooks - reliable craft, reduced novelty.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2007,
+      "episodes": 10,
+      "release_date": {
+        "value": "2007-10-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "Creditable mid-run continuation with a strong finale arc; the shift to a more serialised format aligned Spooks with the contemporary prestige-drama trend and gave the show renewed momentum."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 6 leaned harder into serial storytelling, with a season-long arc built around a rogue intelligence operation. The structural ambition showed even when the episode-by-episode quality varied. The shift to a more serialised format aligned Spooks with the contemporary prestige-drama trend and gave the show renewed momentum heading into its later years.",
+      "season_over_season": "Series 6 tries a more serialised arc structure, with mixed but mostly positive results.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2008,
+      "episodes": 8,
+      "release_date": {
+        "value": "2008-10-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "The trimmed 8-episode format suited the show's pacing; the CIA-MI5 tension arc drew on real post-Iraq intelligence relationship strains for credibility."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 7 adopted the reduced 8-episode format that would serve the show through to its finale. The tighter count forced narrative discipline and produced an uptick in per-episode tension. The transatlantic intelligence angle - CIA-MI5 friction over extraordinary rendition and intelligence sharing - gave the season a topicality that landed well. Lucas North remained the show's most complex character.",
+      "season_over_season": "The shorter run sharpens Series 7 - the move to 8 episodes proves a net positive.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2009,
+      "episodes": 8,
+      "release_date": {
+        "value": "2009-10-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Consistent with the show's late-run form; the Lucas North storyline received its most complex treatment to date, setting up the Series 9 resolution."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 8 continued Spooks' reliable delivery while deepening the Lucas North arc with a backstory that would pay off dramatically in Series 9. The show's characters remained in genuine moral jeopardy across a long run. The series functioned as both a standalone procedural season and a necessary chapter in the Lucas North story.",
+      "season_over_season": "Series 8 functions as effective setup for the Series 9 Lucas North payoff.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2010,
+      "episodes": 8,
+      "release_date": {
+        "value": "2010-09-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "The Lucas North resolution divided opinion but delivered genuine dramatic shock; the season stands among the most emotionally consequential of the run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Series 9 delivered the Lucas North arc to a conclusion that divided opinion but could not be ignored. Richard Armitage's exit from the series was handled with the same willingness to shock that defined the show's early seasons. The reaction - much of it online in an era when social media was becoming central to television culture - confirmed that Spooks had retained the ability to make audiences feel the stakes were real.",
+      "season_over_season": "Series 9 hits as hard as the early seasons in its arc conclusion - a late-run high point.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2011,
+      "episodes": 6,
+      "release_date": {
+        "value": "2011-09-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "A compressed final run - a respectful sendoff for a show that redefined British television espionage drama across a decade. Viewership held at 5.41 million in its tenth year."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The final series returned to 6 episodes and closed Spooks with a finale that satisfied without being transcendent. The show ended having transformed British television's approach to intelligence drama - introducing formats, moral frameworks, and a willingness to discard beloved characters that influenced years of subsequent production. Viewership in Series 10 stood at 5.41 million. The finale aired on 23 October 2011.",
+      "season_over_season": "Series 10 is a dignified close - not the show's finest hour but an honest end to a genuinely important series.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

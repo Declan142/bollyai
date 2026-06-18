@@ -1,0 +1,237 @@
+{
+  "slug": "bosch",
+  "qid": {
+    "value": "Q16844915",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Bosch",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+  "logline": "Los Angeles homicide detective Harry Bosch obsessively pursues justice across a morally compromised city, adapted from Michael Connelly's bestselling novels.",
+  "poster": {
+    "src": "/img/series/bosch/poster.jpg",
+    "alt": "Bosch poster",
+    "attribution": "Poster © Amazon Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Seven-season run concluded in June 2021. Sequel series Bosch: Legacy launched on Amazon Freevee in 2022.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bosch_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-02-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "84% on Rotten Tomatoes at debut; Titus Welliver's laconic intensity and the show's fidelity to Connelly's noir atmosphere are the season's twin anchors."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3502248/ratings/"
+      },
+      "review_body": "Season 1 arrived on Prime Video in February 2015 and scored 84% on Rotten Tomatoes. Titus Welliver's gravel-voiced Bosch is the rare TV detective who feels genuinely inhabited rather than performed. Connelly's noir atmosphere - corrupt politicians, a city that rewards compromise, a detective who refuses it - translates cleanly to the streaming format. The multi-case structure covering three simultaneous investigations is dense, but the moral texture holds and Lance Reddick's quietly authoritative Irving anchors the supporting ensemble. A confident, adult procedural that announced itself as a genuine alternative to the prestige-drama hype cycle.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Unpossible",
+          "air_date": "2015-02-13",
+          "bollymeter": 7.5,
+          "spoiler_free": "A dense, atmospheric pilot that establishes Bosch as a detective who bends rules in pursuit of justice - three cases, one moral compass.",
+          "the_moment": "Bosch's interrogation style in the opening scenes signals that this is not a procedural content with easy wins.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-03-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "100% on Rotten Tomatoes; the season where Bosch fully hit its stride, with a tighter case and expanded city politics."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 achieved a perfect 100% on Rotten Tomatoes - the season that cemented Bosch as a premium procedural. The serial killer storyline allows the show to develop its antagonist with genuine menace, while the political subplot deepens the portrait of a city where power and compromise are inseparable. Welliver's performance grew more layered and the writers trusted the ensemble - Amy Aquino's Jerry Edgar in particular. The show began demonstrating what distinguishes it from the network procedural template: consequences carry forward, relationships erode and mend, and the city itself behaves as a character rather than scenery.",
+      "season_over_season": "Season 2 tightens the sprawl of Season 1 into a more focused serial case while deepening the institutional corruption threads.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-04-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "100% on Rotten Tomatoes; the gang-war storyline becomes genuine social commentary about LA's neighbourhood fault lines and institutional complicity."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 maintained the 100% Rotten Tomatoes mark and widened the lens beyond homicide to explore how gang violence implicates real-estate developers, city hall, and the LAPD hierarchy simultaneously. The show's willingness to sit with institutional failure - rather than resolve it through individual heroism - is its distinguishing virtue. Welliver remained the gravitational centre, and Lance Reddick's Irving got a substantial arc that pushed the series into political-thriller territory without losing its procedural grounding.",
+      "season_over_season": "Season 3 expands from individual criminality to systemic corruption, making LA itself feel more complicit.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-04-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "100% on Rotten Tomatoes; the opioid crisis becomes the season's central crime engine, giving the show its most topically resonant case."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 leaned into the opioid crisis as its central crime engine, engaging contemporary public-health catastrophe without turning it into a lecture. The case structure remained sound and the procedural machinery ran as smoothly as ever, though the season's mid-run episodes plateaued before the finale. Welliver anchored the whole enterprise with the same rigorous economy - a detective who absorbs trauma rather than displays it, making the rare emotional eruptions register with genuine force.",
+      "season_over_season": "Season 4 refreshes the crime canvas by centering the opioid epidemic, the show's most topically resonant case to date.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-04-19",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "100% on Rotten Tomatoes; Maddie Bosch's growing presence and her father's moral reckoning with legacy cases add emotional texture to the procedural frame."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 continued the show's streak of perfect Rotten Tomatoes scores while threading a cold-case trail against a real-estate crime. Madison Lintz's Maddie Bosch functions as a welcome generational counterpoint to her father's old-school ethos - their dynamic gives the season emotional texture beyond the procedural engine. The writing remained disciplined: no episode wasted, the city's geography deployed meaningfully, the moral calculus never resolved too cleanly.",
+      "season_over_season": "Season 5 foregrounds the father-daughter relationship more than any prior season, adding emotional stakes to the procedural frame.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-04-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "100% on Rotten Tomatoes; police-accountability themes the show had embedded for years became unavoidably prescient when the season aired in April 2020."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 aired in April 2020 against the backdrop of intensifying national conversation about policing and earned a 100% Rotten Tomatoes score. The show had embedded police-accountability themes long before they became unavoidable in the headlines - a structural foresight the season benefited from rather than manufactured. The personal stakes for Bosch felt earned rather than grafted on. The finale is the series' most emotionally direct hour, setting up a climactic final season with real forward momentum.",
+      "season_over_season": "Season 6 arrives with police accountability questions already baked in, making its institutional critique feel earned rather than reactive.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-06-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "100% on Rotten Tomatoes; a graceful, earned conclusion that honoured six seasons of character work without forcing false resolution."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The shortened eight-episode final season earned a 100% Rotten Tomatoes score and constitutes a graceful close - not a blaze of glory but a steady, honourable exit. The case work remained crisp and the character farewells felt earned across seven seasons of investment. The series finale resisted both triumphalism and nihilism, landing in the nuanced middle ground that Bosch always occupied: justice is pursued, sometimes achieved, never guaranteed, always worth it. Welliver's performance across the run stands as one of streaming television's best sustained portrayals of a literary detective.",
+      "season_over_season": "Season 7 shrinks to eight episodes for a focused, disciplined close - economy over spectacle, which suits the show perfectly.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

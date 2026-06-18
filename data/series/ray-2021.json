@@ -1,0 +1,129 @@
+{
+  "slug": "ray-2021",
+  "qid": {
+    "value": "Q107389489",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ray",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Thriller", "Psychological", "Crime", "Mystery"],
+  "logline": "Four short stories by Satyajit Ray - a memory thief, a master of disguise, a rivalry on a train, and an actor's existential unravelling - adapted by three directors into a Netflix anthology that tests how far India's best filmmakers can honour a literary giant.",
+  "poster": {
+    "src": "/img/series/ray-2021/poster.jpg",
+    "alt": "Ray poster",
+    "attribution": "Poster © Netflix / Dooparr Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Single-season limited anthology. Four episodes, no continuation planned.",
+    "source": "Netflix",
+    "source_url": "https://www.netflix.com/in/title/81183492"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 4,
+      "release_date": {
+        "value": "2021-06-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "78 percent on Rotten Tomatoes from 9 critics. Film Companion's Anupama Chopra called it a mix of dazzling and mediocre, with Abhishek Chaubey's Hungama Hai Kyon Barpa as the clear standout. IMDb audiences give it 7.1."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": 9,
+        "pull_quotes": [
+          {
+            "text": "Like most anthologies, Ray is a mix of dazzling and mediocre. The stand-out is Abhishek Chaubey's Hungama hai Kyon Barpa.",
+            "source": "Film Companion",
+            "url": "https://www.filmcompanion.in/reviews/streaming-reviews/ray-netflix-series-review-an-anthology-too-uneven-to-do-satyajit-rays-stories-justice-manoj-bajpayee-harshvardhan-kapoor-ali-fazal-kay-kay-menon-anupama-chopra"
+          },
+          {
+            "text": "This Netflix anthology, based on short stories by Satyajit Ray, is a mixed bag.",
+            "source": "The Indian Express",
+            "url": "https://www.rottentomatoes.com/tv/ray/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14160660/"
+      },
+      "review_body": "Released on Netflix on 25 June 2021, Ray adapts four short stories by Satyajit Ray across four standalone episodes directed by Srijit Mukherji (two episodes), Abhishek Chaubey, and Vasan Bala. The anthology format exposes the uneven distance between directors: Chaubey's Hungama Hai Kyon Barpa - a two-hander train-compartment duet with Manoj Bajpayee and Gajraj Rao - is the consensus standout, praised for its wry wit and the controlled intimacy of the performances. Srijit Mukherji's Bahrupiya with Kay Kay Menon drew admiration for its tonal darkness. The other two segments divided critics more sharply. Rotten Tomatoes registered 78 percent from 9 reviews - positive overall but with clear acknowledgement of the anthology's internal hierarchy. VODzilla.co rated it 7.3/10, calling it a collision of greed, identity and loss of humanity.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Forget Me Not",
+          "air_date": "2021-06-25",
+          "bollymeter": 6.5,
+          "spoiler_free": "Directed by Srijit Mukherji and starring Ali Fazal, Forget Me Not adapts Bipin Chowdhury's Memory Loss into a corporate-world thriller about a man whose past begins erasing itself.",
+          "the_moment": "The scene where Ipsit Rama Nair realises the scale of what has been taken from him.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Bahrupiya",
+          "air_date": "2021-06-25",
+          "bollymeter": 7.4,
+          "spoiler_free": "Kay Kay Menon plays a prosthetics obsessive who discovers he can become anyone - and that this gift comes with a cost he did not anticipate. Mukherji's darker, stranger piece.",
+          "the_moment": "The scene where Indrashish first tests how far his transformation can go.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Hungama Hai Kyon Barpa",
+          "air_date": "2021-06-25",
+          "bollymeter": 8.2,
+          "spoiler_free": "The anthology's acknowledged crown jewel. Abhishek Chaubey directs Manoj Bajpayee and Gajraj Rao in a train-compartment face-off that expands and contracts in ways the source story's brevity only hinted at.",
+          "the_moment": "The final exchange between Musafir Ali and Aslam Baig - a perfect closing note that retroactively reframes every scene before it.",
+          "critic_note": {
+            "text": "Greed, identity and loss of humanity collide in this anthology of Satyajit Ray short stories.",
+            "source": "VODzilla.co",
+            "url": "https://www.rottentomatoes.com/tv/ray/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Spotlight",
+          "air_date": "2021-06-25",
+          "bollymeter": 6.2,
+          "spoiler_free": "Vasan Bala directs Harshvardhan Kapoor as a fading actor who encounters a mysterious figure named Didi. The most stylistically playful of the four segments - lighter in tone, more ambiguous in its resolution.",
+          "the_moment": "The moment Vik Arora realises Didi is not what she appears to be.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

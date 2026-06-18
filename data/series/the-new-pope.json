@@ -1,0 +1,82 @@
+{
+  "slug": "the-new-pope",
+  "qid": {
+    "value": "Q60769208",
+    "source": "Wikipedia sidebar",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The New Pope",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Italy",
+  "original_language": {
+    "value": "it",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "HBO / Sky Atlantic",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Psychological", "Thriller"],
+  "logline": "With Pope Pius XIII (Jude Law) lying comatose, the Vatican elects a new pope - and John Malkovich's John Paul III must navigate faith, scandal, and a Church in crisis under Paolo Sorrentino's uncompromising eye.",
+  "poster": {
+    "src": "/img/series/the-new-pope/poster.jpg",
+    "alt": "The New Pope poster",
+    "attribution": "Poster © HBO / Sky Atlantic / Wildside. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A self-contained 9-episode limited series; the story concludes within this run. No further continuation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_New_Pope"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 9,
+      "release_date": {
+        "value": "2020-01-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "90 percent on Rotten Tomatoes from 49 reviews; Metacritic 63 from 12 critics. The series performs best as an extension of Sorrentino's visual theology - the Vatican as theatre of power and institutional rot."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 49,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "The New Pope arrived on HBO and Sky Atlantic in January 2020 as the follow-up to Paolo Sorrentino's acclaimed The Young Pope, with John Malkovich joining Jude Law as the series' new theological centre. The 90 percent Rotten Tomatoes score from 49 reviews reflects genuine enthusiasm for Sorrentino's visual language - his Vatican is a theatre of power, beauty, and institutional rot rendered in images that operate at the intersection of religious iconography and contemporary satire. The Metacritic score of 63 from 12 critics indicates a slightly more divided reception. Malkovich's John Paul III is a more enigmatic construction than Law's Pius XIII, and the ambiguity was productive for some and elusive for others. The nine episodes function as a self-contained theological argument about faith, media, and the Church's survival in secular modernity.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2020-01-10",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere reintroduces Sorrentino's Vatican world while establishing Malkovich's new pope as a different kind of enigma from Law's Pius XIII - worldly, intellectual, and resistant to simple characterisation.",
+          "the_moment": "The opening sequence that signals the series' visual ambition - a Sorrentino set-piece that operates as both exposition and provocation.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

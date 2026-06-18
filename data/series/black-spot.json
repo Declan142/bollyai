@@ -1,0 +1,123 @@
+{
+  "slug": "black-spot",
+  "qid": {
+    "value": "Q30742469",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Black Spot",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "France",
+  "original_language": {
+    "value": "fr",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "France 2 / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Thriller", "Supernatural", "Mystery", "Drama"],
+  "logline": "In a remote French town where the murder rate is six times the national average and the ancient forest seems to swallow people whole, a tenacious police major investigates crimes that defy both law and logic.",
+  "poster": {
+    "src": "/img/series/black-spot/poster.jpg",
+    "alt": "Black Spot poster",
+    "attribution": "Poster © France 2 / Be-Films / Haut et Court TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons aired on France 2 in 2017 and 2019 respectively. Netflix distributed internationally. No third season announced; series considered concluded.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Black_Spot_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 8,
+      "release_date": {
+        "value": "2017-04-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "84 percent on Rotten Tomatoes from 1 critic review. Described as Twin Peaks-lite folk horror - a procedural surface over a deeply strange, forest-mythology core that distinguishes it from standard European crime dramas."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 1,
+        "pull_quotes": [
+          {
+            "text": "A huge dollop of folk-horror that blends gentle humour with high drama and big chills to dish up some Twin Peaks-lite fare.",
+            "source": "The Post NZ",
+            "url": "https://www.rottentomatoes.com/tv/black_spot/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6519410/"
+      },
+      "review_body": "Zone Blanche premiered on France 2 in April 2017 and reached international audiences via Netflix as Black Spot. Created by Mathieu Missoffe, the series sets Suliane Brahim's Police-Major Laurene Weiss in Villefranche - a fictional town encircled by a 50,000-acre forest with a murder rate six times the national average and a history that nobody fully understands. The 8-episode debut season establishes the show's distinct register: it is a crime procedural on the surface but it draws steadily from folk horror and supernatural dread, with the forest functioning less as backdrop and more as active presence. Critics and audience reviewers noted the Twin Peaks influence without dismissing it as derivative - Black Spot builds its own mythology. The 84 percent RT score from one review reflects the positive critical reception it received from European and international outlets.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-04-10",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes the town's geography - physical and psychological - with Weiss at the centre, a woman who knows more about Villefranche's darkness than she lets on.",
+          "the_moment": "The first glimpse into the forest at night, which makes clear that this show treats the natural world as something that watches back.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-06-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 deepens the town's mythology and Weiss's backstory but reviewers noted the expanded supernatural elements divide the audience that came for the crime procedural elements."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6519410/"
+      },
+      "review_body": "The second season of Black Spot returned to France 2 in June 2019 and to Netflix internationally shortly after. The 8-episode run escalates the supernatural dimension of Villefranche's mythology while maintaining the procedural framework. Season 2 leans further into the forest-as-entity concept that distinguished the debut - the core investigation is tighter in places but looser in others, and Weiss's personal history with the forest receives more attention than Season 1 allowed. The season rewards those who came for the folklore as much as the crime, making it a natural extension of what the first season promised.",
+      "season_over_season": "Season 2 tips the show's balance further toward supernatural horror, trading procedural clarity for mythological depth - satisfying for fans of the first season's darker textures.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
