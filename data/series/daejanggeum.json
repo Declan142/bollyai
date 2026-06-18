@@ -1,0 +1,105 @@
+{
+  "slug": "daejanggeum",
+  "qid": {
+    "value": "Q133898",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Daejanggeum",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBC",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Drama", "Biographical"],
+  "logline": "An orphaned kitchen apprentice in the Joseon court masters royal cuisine and court medicine through relentless study and rivalry, eventually becoming the first female physician to treat a king - a story of competence as rebellion.",
+  "poster": {
+    "src": "/img/series/daejanggeum/poster.jpg",
+    "alt": "Daejanggeum poster",
+    "attribution": "Poster © MBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 54 episodes concluded March 23, 2004 on MBC. Sold to 91 countries, earned US$103.4 million worldwide from a US$15 million budget, and remains a landmark of the Korean Wave.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Jewel_in_the_Palace"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2003,
+      "episodes": 54,
+      "release_date": {
+        "value": "2003-09-15",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "Averaged 45.8% nationwide viewership with a peak of 57.1% on MBC - figures unmatched by Korean historical drama before or since. Lee Young-ae won the Grand Prize (Daesang) at the 2003 MBC Drama Awards. Sold to 91 countries and credited as a foundational text of the Korean Wave."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0401736/"
+      },
+      "review_body": "Daejanggeum (Jewel in the Palace) aired on MBC from September 2003 to March 2004 and achieved viewership figures that remain the benchmark for Korean television: an average of 45.8% nationwide with a peak of 57.1%. Director Lee Byung-hoon and writer Kim Young-hyun built the series around a deceptively radical idea - that mastery of craft, specifically the mastery of food and medicine by a woman in a rigidly hierarchical court, is itself a form of political resistance. Lee Young-ae's Jang-geum is not a warrior or a schemer; she wins through knowledge acquired in conditions designed to exclude her. The production's attention to historical culinary and medical detail was unprecedented for Korean television, and international buyers in 91 countries responded: the show earned US$103.4 million worldwide against a US$15 million production budget and became a cornerstone of the Korean Wave export phenomenon. Lee Young-ae won the Grand Prize (Daesang) at the 2003 MBC Drama Awards; director Lee Byung-hoon won Best Director at the 2004 Baeksang Arts Awards.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2003-09-15",
+          "bollymeter": 8.5,
+          "spoiler_free": "The premiere establishes Jang-geum's origins with the Joseon palace hierarchy and its specific cruelties made legible from the first scene. The kitchen as battleground and the adult world's indifference to a child's talent are the twin engines the show will run on for 54 episodes.",
+          "the_moment": "Young Jang-geum watching the palace kitchen work and recognising her calling - the moment the series' entire stakes are set.",
+          "critic_note": null
+        },
+        {
+          "number": 27,
+          "title": "Episode 27",
+          "air_date": "2004-01-05",
+          "bollymeter": 9.0,
+          "spoiler_free": "The midpoint of the series marks the pivot from culinary competition to medical mastery - the same woman who won through cooking must now rebuild her standing in an entirely different discipline. The tonal shift is the drama's most ambitious structural choice.",
+          "the_moment": "Jang-geum's transition from royal cuisine to royal medicine - the series reinvents its own premise at the midpoint.",
+          "critic_note": null
+        },
+        {
+          "number": 54,
+          "title": "Episode 54",
+          "air_date": "2004-03-23",
+          "bollymeter": 9.3,
+          "spoiler_free": "The finale's 57.1% peak viewership remains the high-water mark of Korean television drama. The resolution of Jang-geum's decades-long arc against court opposition and personal loss was met with national television event status - rare for any serialised drama.",
+          "the_moment": "The king's formal recognition of Jang-geum as royal physician - the institutional acknowledgement the entire series had deferred.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

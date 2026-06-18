@@ -1,0 +1,120 @@
+{
+  "slug": "the-chair",
+  "qid": {
+    "value": "Q107660171",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Chair",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Comedy", "Drama", "Slice of Life"],
+  "logline": "The first woman of colour to chair an English department at a prestigious university discovers that institutional power and actual authority are two entirely different things - played by Sandra Oh at her most precisely calibrated.",
+  "poster": {
+    "src": "/img/series/the-chair/poster.jpg",
+    "alt": "The Chair poster",
+    "attribution": "Poster © Netflix / Blossom Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Netflix cancelled The Chair in January 2023 after one season, despite strong initial reception. Creators Amanda Peet and Annie Julia Wyman confirmed no continuation.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2023/tv/news/the-chair-cancelled-netflix-1235481882/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-08-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "86% Tomatometer from 73 critics and a Metacritic score of 73 from 36 reviews. Critical consensus centred on Oh's performance and the show's sharp academic satire; the shortness of the run (6 episodes, under three hours total) was both its commercial problem and its artistic discipline."
+      },
+      "critic": {
+        "positive_pct": 86,
+        "sample": 73,
+        "pull_quotes": [
+          {
+            "text": "What makes The Chair worth watching is Oh.",
+            "source": "The New Yorker",
+            "url": "https://www.metacritic.com/tv/the-chair-2021/"
+          },
+          {
+            "text": "A darkly funny satire, skewering aspects of modern higher education with veritable glee.",
+            "source": "USA Today",
+            "url": "https://www.metacritic.com/tv/the-chair-2021/"
+          },
+          {
+            "text": "Oh, Duplass, Taylor and Balaban all are outstanding as they bounce from pratfalls to Chaucer jokes to poignant moments.",
+            "source": "Reason.com",
+            "url": "https://www.metacritic.com/tv/the-chair-2021/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.4,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/the-chair-2021/"
+      },
+      "review_body": "The Chair earned 86% from 73 Rotten Tomatoes critics and a 73 Metacritic score - the warmest reception any academic-satire comedy had attracted in years. Amanda Peet and Annie Julia Wyman's script draws on genuine institutional knowledge: the battles over tenure, relevance, and student cultural politics are specific enough to read as documentary. Sandra Oh's Ji-Yoon Kim inhabits the role of a first woman of colour in an institutional seat built for someone else entirely - she's managing the optics of her own authority while the building's plumbing fails around her. The 6-episode run (each around 30 minutes) was called too short by reviewers who wanted more, and too slight in its comedy-drama balance by those who found it unresolved. Both criticisms are accurate; both miss that the show's compression is a feature - it ends before the satire calcifies into thesis.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The New Chair",
+          "air_date": "2021-08-20",
+          "bollymeter": 7.8,
+          "spoiler_free": "Ji-Yoon's first day as Chair is a masterclass in institutional gap-between-authority-and-power comedy. The English department's senior faculty - Bob Balaban's ancient Joan Hambling, David Duchovny cameo aside - perform deference while resisting every actual decision. Oh's timing is extraordinary throughout.",
+          "the_moment": "Ji-Yoon's office - discovered to be the size of a utility closet - announces the show's central joke and central sadness simultaneously.",
+          "critic_note": {
+            "text": "What makes The Chair worth watching is Oh.",
+            "source": "The New Yorker",
+            "url": "https://www.metacritic.com/tv/the-chair-2021/"
+          }
+        },
+        {
+          "number": 4,
+          "title": "The Absurdity of Things",
+          "air_date": "2021-08-20",
+          "bollymeter": 7.5,
+          "spoiler_free": "The cancel-culture subplot escalates to crisis point as Ji-Yoon is forced to choose between institutional loyalty and personal relationship. Jay Duplass's Bill Dobson - the charismatic professor whose context-free Nazi salute has gone viral - gives the show its most uncomfortably honest academic freedom debate.",
+          "the_moment": "Ji-Yoon's realisation that the institution she has finally been allowed to lead will also be the institution that consumes her if she defends the wrong person.",
+          "critic_note": {
+            "text": "A darkly funny satire, skewering aspects of modern higher education with veritable glee.",
+            "source": "USA Today",
+            "url": "https://www.metacritic.com/tv/the-chair-2021/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

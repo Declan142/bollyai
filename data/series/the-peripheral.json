@@ -1,0 +1,111 @@
+{
+  "slug": "the-peripheral",
+  "qid": {
+    "value": "Q106742665",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Peripheral",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Amazon Prime Video / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Thriller", "Mystery"],
+  "logline": "A near-future gamer in rural Appalachia discovers a seemingly virtual headset connects her to 2099 London - where the people on the other end need her to prevent a catastrophe already baked into her timeline.",
+  "poster": {
+    "src": "/img/series/the-peripheral/poster.jpg",
+    "alt": "The Peripheral poster",
+    "attribution": "Poster © Amazon Studios / Kilter Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Renewed for Season 2 in February 2023; cancelled August 2023 due to the SAG-AFTRA and Writers Guild of America strikes. Executive producers Jonathan Nolan and Lisa Joy (Westworld) could not restart production.",
+    "source": "The Hollywood Reporter",
+    "source_url": "https://www.hollywoodreporter.com/tv/tv-news/the-peripheral-cancelled-amazon-prime-video-1235566447/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-10-21",
+        "source": "Wikipedia / Wikidata",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "79% on Rotten Tomatoes from 56 critics; audience score 85%. Critics split on whether the dense mythology rewarded or frustrated; audience response was more uniformly positive."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 56,
+        "pull_quotes": [
+          {
+            "text": "Based on William Gibson's novel, it's tough stuff lushly rendered.",
+            "source": "Sydney Morning Herald",
+            "url": "https://www.smh.com.au/culture/tv-and-radio/the-peripheral-review-20221115-p5bxs2.html"
+          },
+          {
+            "text": "If you are looking for something to scratch that Westworld itch, The Peripheral is a joy to watch.",
+            "source": "TheWrap",
+            "url": "https://www.thewrap.com/the-peripheral-review-amazon-prime-video/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8291284/"
+      },
+      "review_body": "The Peripheral premiered October 21, 2022, carrying the gravitational pull of Jonathan Nolan and Lisa Joy's Westworld pedigree and William Gibson's source novel. Chloe Grace Moretz's Flynne Fisher provided the human anchor across a dual-timeline structure that demanded careful tracking: 2032 rural Appalachia and 2099 post-catastrophe London, linked by a peripheral robot body. Critics in the 79 percent Rotten Tomatoes bracket responded to the show's visual ambition and the lushness of its world-building. The 21-point gap between that critic score and the 85 percent audience score is instructive: viewers who engaged with the Gibson mythology rewarded it more than critics who measured it against coherence benchmarks. IndieWire and Hollywood Reporter were both cooler, flagging convoluted plotting. The cancellation after Season 1 - due to the 2023 strikes - remains one of streaming's more frustrating early cuts.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2022-10-21",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere sets up both timelines and Flynne's accidental crossing between them. The dual-future world-building is dense but the Moretz performance pulls it forward before the exposition fully resolves.",
+          "the_moment": "Flynne's first moments in the peripheral body in 2099 London - the visual confirmation that what she thought was a game has real-world consequences across time.",
+          "critic_note": {
+            "text": "Based on the novel by William Gibson, it's tough stuff lushly rendered.",
+            "source": "Sydney Morning Herald",
+            "url": "https://www.smh.com.au/culture/tv-and-radio/the-peripheral-review-20221115-p5bxs2.html"
+          }
+        },
+        {
+          "number": 8,
+          "title": "The Creation of a Thousand Forests",
+          "air_date": "2022-12-02",
+          "bollymeter": 7.6,
+          "spoiler_free": "The season finale attempts to synthesize the dual-timeline threads and plants the Season 2 arc that was never produced. The IMDb audience score of 8.0 - 6 points above the critic Tomatometer - suggests the season-end resonated more strongly with general viewers than with press.",
+          "the_moment": "The reveal that ties Flynne's timeline to the larger stakes of the 2099 world - the moment the show earns its slow-burn investment.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

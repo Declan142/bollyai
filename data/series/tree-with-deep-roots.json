@@ -1,0 +1,96 @@
+{
+  "slug": "tree-with-deep-roots",
+  "qid": {
+    "value": "Q487137",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Tree with Deep Roots",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Historical", "Thriller", "Mystery", "Drama"],
+  "logline": "A royal guard haunted by past trauma investigates a series of scholar murders in the Joseon court - only to uncover that the conspiracy is tied to King Sejong's secret project to create a new alphabet for his people.",
+  "poster": {
+    "src": "/img/series/tree-with-deep-roots/poster.jpg",
+    "alt": "Tree with Deep Roots poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited series of 24 episodes, concluded December 22, 2011 on SBS. Won the Grand Prize at the 2012 Baeksang Arts Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_Rooted_Tree"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 24,
+      "release_date": {
+        "value": "2011-10-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "Averaged 19.4% nationwide (AGB Nielsen) with a finale reaching 25.4%. Won the Grand Prize at the 2012 Baeksang Arts Awards - the Korean industry's highest television honour. Rare for a historical thriller to hold both critical and popular consensus at this level."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2067732/"
+      },
+      "review_body": "Tree with Deep Roots is one of the most critically decorated Korean dramas of the 2010s - a historical thriller that won the Grand Prize at the 2012 Baeksang Arts Awards and averaged 19.4% nationwide (AGB Nielsen) across its 24-episode run, with the finale reaching 25.4%. Writers Kim Young-hyun and Park Sang-yeon frame the invention of Hangul - the Korean alphabet - as a conspiracy thriller rather than a celebratory biopic, surrounding King Sejong's linguistic project with murders, shadow organisations, and a bodyguard (Jang Hyuk) whose personal trauma links him to the king's past. Han Suk-kyu's King Sejong is a genuinely complex figure: idealist and strategist in one body, capable of ruthlessness in service of an idea he believes will free his people. The result is a rare case of historical K-drama that takes its subject matter seriously as political philosophy rather than court romance backdrop.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2011-10-05",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere opens in media res with a scholar murder that immediately signals this is not a conventional sageuk. The investigation framework is established quickly, and Jang Hyuk's Kang Chae-yoon arrives carrying a vendetta whose origins are deliberately withheld - effective tension architecture for a 24-episode run.",
+          "the_moment": "The discovery of the first murdered scholar - the crime whose solution will eventually reveal a secret that reshapes Korean history.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "Episode 24",
+          "air_date": "2011-12-22",
+          "bollymeter": 9.1,
+          "spoiler_free": "The finale resolves both the investigation and the decade-long personal conflict between Chae-yoon and the king. The 25.4% viewership for this episode reflected an audience that had stayed invested through 24 hours of dense political and personal stakes.",
+          "the_moment": "Sejong's revelation of the full scope of his plan - and Chae-yoon's understanding of what he was actually protecting.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

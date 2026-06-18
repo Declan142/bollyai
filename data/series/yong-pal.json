@@ -1,0 +1,96 @@
+{
+  "slug": "yong-pal",
+  "qid": {
+    "value": "Q20154656",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Yong-pal",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Viki",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Medical", "Thriller", "Romance", "Drama"],
+  "logline": "A brilliant surgeon moonlights as an underground mercenary doctor to fund his sister's dialysis - until he rescues a comatose chaebol heiress and finds himself entangled in her family's lethal power struggle.",
+  "poster": {
+    "src": "/img/series/yong-pal/poster.jpg",
+    "alt": "Yong-pal poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 18 episodes concluded October 1, 2015 on SBS. Extended from original 16-episode order due to high ratings.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Yong-pal"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 18,
+      "release_date": {
+        "value": "2015-08-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Peaked at 21.5% nationwide (Nielsen Korea, Episode 13), averaged 18.3% across its run, and was extended by two episodes due to audience demand. Won Best Drama at the 2015 Hallyu Awards."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4823754/"
+      },
+      "review_body": "Yong-pal premiered on SBS in August 2015 and quickly became one of the year's dominant dramas, peaking at 21.5% nationwide ratings by Episode 13 - a figure that prompted SBS to extend the run by two episodes. The show's engine is a tension between its two halves: the first half operates as a kinetic medical thriller, with Kim Tae-hyun (Joo Won) navigating illegal house-calls to gangsters and corporate VIPs to keep his sister alive; the second half pivots into a chaebol revenge plot after the heiress Yeo-jin (Kim Tae-hee) awakens. The tonal shift from medical thriller to corporate revenge narrative is both the show's ambition and its main structural weakness - the kinetic energy of the early episodes was harder to sustain once the boardroom replaced the operating table. The lead performances held the two halves together, and the show's willingness to keep its stakes genuinely high gave it a pulse that more restrained romcoms of the era lacked.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2015-08-05",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes Tae-hyun's double life with compact efficiency - licensed surgeon by day, underground mercenary doctor by night. The moral arithmetic of his situation lands immediately: the same skills he uses to save wealthy criminals fund the dialysis keeping his sister alive.",
+          "the_moment": "Tae-hyun performing emergency surgery in a moving vehicle - the image that defined the series' tone and became its promotional hook.",
+          "critic_note": null
+        },
+        {
+          "number": 13,
+          "title": "Episode 13",
+          "air_date": "2015-09-17",
+          "bollymeter": 8.2,
+          "spoiler_free": "The peak-rated episode of the run, reaching 21.5% nationwide. The episode lands the major turning point in Yeo-jin's revenge arc and marks the moment the show committed fully to its second-half identity.",
+          "the_moment": "The power shift that redefines who holds the advantage in the Han family conflict.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

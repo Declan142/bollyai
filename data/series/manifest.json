@@ -1,0 +1,182 @@
+{
+  "slug": "manifest",
+  "qid": {
+    "value": "Q53406553",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Manifest",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Mystery", "Drama", "Thriller", "Supernatural"],
+  "logline": "Passengers of a commercial flight that vanishes for five and a half years return to find the world has moved on without them - and start hearing mysterious 'callings' guiding them toward events they cannot explain.",
+  "poster": {
+    "src": "/img/series/manifest/poster.jpg",
+    "alt": "Manifest poster",
+    "attribution": "Poster © NBC / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "NBC cancelled Manifest after Season 3 in 2021; Netflix rescued the series and produced Season 4 as a two-part 20-episode final season concluding June 2, 2023.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2022/tv/news/manifest-season-4-netflix-renewal-1235139248/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Season 1 earned 56% from 39 Rotten Tomatoes critics - the RT consensus cited the well-chosen cast and the mystery hook's effectiveness against a lack of distinguishing characteristics. The mythology-tease format worked as appointment television but critics found the execution generic."
+      },
+      "critic": {
+        "positive_pct": 56,
+        "sample": 39,
+        "pull_quotes": [
+          {
+            "text": "Manifest is back and better than ever, fully taking advantage of its new life on Netflix to keep everyone on the edge of their seats.",
+            "source": "Collider",
+            "url": "https://www.rottentomatoes.com/tv/manifest/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/manifest/"
+      },
+      "review_body": "Manifest premiered on NBC in September 2018 and became a genuine broadcast hit despite receiving only 56% from 39 critics on Rotten Tomatoes. The show borrowed the mythology-tease architecture of Lost - mysterious disappearance, returning passengers, cryptic callings, a death date - and executed it as network-friendly procedural drama. Melissa Roxburgh and Josh Dallas anchor the Stone family at the centre of the mystery, and the casting is the show's main critical credit. The mythology's early episodes work as compulsive appointment television precisely because the questions are more interesting than the answers being withheld. Critics who disliked it found it derivative; audiences who embraced it found the family drama sturdy enough to carry the mystery.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2018-09-24",
+          "bollymeter": 6.5,
+          "spoiler_free": "The pilot establishes the show's central premise efficiently: Flight 828 lands five and a half years late; passengers haven't aged; their families have moved on. The Stone family's fractured domestic fallout - Ben's wife remarried, his sister engaged to someone new - grounds the sci-fi hook in recognisable drama.",
+          "the_moment": "The moment Ben Stone sees his son's leukaemia has progressed during his absence - the show's human cost grounded before the mythology demands attention.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": 13,
+      "release_date": {
+        "value": "2020-01-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 deepens the callings mythology and introduces the Major as an antagonist tracking the passengers. The 13-episode run runs tighter than Season 1's 16, which concentrates the serialised plotting. Audience investment is high - NBC's overnight ratings held through the network disruptions of January 2020 - but critics continued to find the mythology's answers less satisfying than its questions. The season ends on a cliffhanger that the network did not immediately resolve.",
+      "season_over_season": "A tighter episode order improves narrative pace; the mythology's antagonist structure sharpens with the Major subplot.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": 13,
+      "release_date": {
+        "value": "2021-04-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 was the show's NBC finale - cancelled before resolution, leaving the mythology arc deliberately unresolved. The season's archaeological subplot investigating the wreckage of Flight 828 at the bottom of the ocean gave the series its most ambitious visual register. NBC's cancellation announcement generated a fan campaign that successfully secured Netflix's rescue pickup; the audience's investment in the unresolved mythology proved commercially real.",
+      "season_over_season": "The underwater wreckage arc expands the mythology's physical scale; the NBC cancellation mid-mythology makes the season feel structurally incomplete.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2022,
+      "episodes": 20,
+      "release_date": {
+        "value": "2022-11-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 4 earned 88% from 8 Rotten Tomatoes critics - a significant improvement on Season 1's 56%. Critics credited Netflix's production upgrade and the writers' apparent freedom to resolve the mythology on their own terms. The Death Date mythology built across four seasons reaches genuine stakes."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": 8,
+        "pull_quotes": [
+          {
+            "text": "Manifest pulls out all the stops in its final batch of episodes to prove itself worthy of surviving its own Death Date.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/manifest/s04"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Manifest's Netflix rescue produced the show's best-reviewed season - 88% from 8 critics, noting the freedom that came with a platform that understood the audience rather than NBC's mass-broadcast metrics. The 20-episode final season split into two parts and committed to resolving the callings mythology with earnest ambition. Critics who had dismissed the early seasons acknowledged that the show had earned its finale through audience loyalty; Decider called it 'worthy of surviving its own Death Date.' The resolution of the Death Date mythology - a near-apocalyptic framework built since Season 1 - lands with more emotional weight than the mixed earlier seasons suggested it would. For viewers who followed the full run, the final episodes reward the investment.",
+      "season_over_season": "Netflix's production upgrade and platform freedom unlock a final season that resolves the mythology with more ambition than the NBC years suggested possible.",
+      "episode_reviews": [
+        {
+          "number": 20,
+          "title": "Final Boarding",
+          "air_date": "2023-06-02",
+          "bollymeter": 7.8,
+          "spoiler_free": "The series finale resolves the Death Date mythology and the Stone family's five-season arc with earnest commitment. The show has never been subtle, and the finale doesn't try to be - it delivers the resolution its audience asked for across four years and a cancelled-then-rescued run.",
+          "the_moment": "The final image of the series - a callback to the Season 1 premiere's establishing mythology - closes the show's central question with a directness that rewards long-run viewers.",
+          "critic_note": {
+            "text": "Manifest pulls out all the stops in its final batch of episodes to prove itself worthy of surviving its own Death Date.",
+            "source": "Decider",
+            "url": "https://www.rottentomatoes.com/tv/manifest/s04"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

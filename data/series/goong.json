@@ -1,0 +1,96 @@
+{
+  "slug": "goong",
+  "qid": {
+    "value": "Q483493",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Goong",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Viki",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Comedy", "Drama", "Historical"],
+  "logline": "In an alternate modern Korea that kept its monarchy, a commoner girl is betrothed to the cold Crown Prince by royal arrangement - and their reluctant cohabitation slowly bends toward something neither planned.",
+  "poster": {
+    "src": "/img/series/goong/poster.jpg",
+    "alt": "Goong poster",
+    "attribution": "Poster © MBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 24 episodes concluded March 30, 2006 on MBC. A spin-off, Goong S, aired in 2007 with a different cast.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Princess_Hours"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2006,
+      "episodes": 24,
+      "release_date": {
+        "value": "2006-01-11",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Peaked at 28.3% nationwide ratings on MBC and became a flagship title of the Korean Wave export across Asia in 2006, winning Best New Actor and Best New Actress at the 2006 MBC Drama Awards."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0832243/"
+      },
+      "review_body": "Goong (also known as Princess Hours) aired on MBC from January to March 2006 and peaked at 28.3% viewership - a strong performance for a premise that blended Joseon-era palace protocol with a contemporary alternate-history conceit. The show's alternate-Korea, where the monarchy survived into the 21st century, gave it a distinctive visual palette: modern teens navigating formal royal duties, hanbok at state banquets, and palace gossip that reads more like high school social warfare. Yoon Eun-hye and Ju Ji-hoon generated the expected will-they-won't-they tension, but the series' lasting influence was structural - it codified the arranged-marriage romcom formula that dozens of subsequent K-dramas would mine. International reception was enthusiastic enough to make Goong one of the defining Korean Wave exports of the mid-2000s across Southeast Asia and China.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2006-01-11",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere sets up the alternate-Korea monarchy conceit efficiently and lands the central couple in the same palace without wasting time on unnecessary setup. The visual contrast between modern clothing and royal ceremony is immediately effective.",
+          "the_moment": "The royal betrothal announcement that forces two strangers into the same gilded cage - the show's central comic and emotional engine.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "Episode 24",
+          "air_date": "2006-03-30",
+          "bollymeter": 8.1,
+          "spoiler_free": "The finale resolves the love triangle and the palace power struggle with the emotional satisfaction the 24-episode run had been building toward. The series closes on a note that earned it its reputation as a foundational arranged-marriage romance.",
+          "the_moment": "The Crown Prince's public declaration - the moment viewers had waited 24 episodes for.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

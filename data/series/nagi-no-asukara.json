@@ -1,0 +1,102 @@
+{
+  "slug": "nagi-no-asukara",
+  "qid": {
+    "value": "Q2590187",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Nagi-Asu: A Lull in the Sea",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Romance",
+    "Fantasy",
+    "Coming of Age",
+    "Drama"
+  ],
+  "logline": "Four teenagers from an underwater village surface to attend junior high school on land, navigating a world of forbidden loves and ancient tensions between sea-dwellers and surface humans.",
+  "poster": {
+    "src": "/img/series/nagi-no-asukara/poster.jpg",
+    "alt": "Nagi-Asu: A Lull in the Sea poster",
+    "attribution": "Poster © P.A. Works / NIS America. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "26-episode single-season run concluded April 3, 2014. No continuation announced. NIS America holds North American rights with English dub released 2015.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Nagi-Asu:_A_Lull_in_the_Sea"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 26,
+      "release_date": {
+        "value": "2013-10-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "MAL community scores it 7.93 from over 269,000 ratings, ranking it among P.A. Works' most emotionally affecting originals. Reviewers consistently praised its world-building and emotional sincerity, even as some found its romance pacing uneven."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.93,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/16067/Nagi_no_Asukara"
+      },
+      "review_body": "P.A. Works produced this 26-episode original in 2013 and 2014, constructing one of anime's most visually sumptuous settings - an undersea village where its residents wear a bio-material called Ena that lets them breathe underwater. The first half grounds the show in a five-way romantic tangle among seven junior-high friends, generating the kind of ache-heavy adolescent drama the studio perfected in Hanasaku Iroha. The series' midpoint pivot restructures the emotional geometry entirely, rewarding patience with a second half that lands themes of loss, time, and the weight of feelings carried too long. The exceptional underwater animation and Mari Okada's emotionally dense script were the production's signature strengths. MAL's 7.93 from 269,000 voters places it comfortably in the upper tier of PA Works originals. Viewers who find the teen melodrama slow in its opening episodes consistently report the back half justifies the investment.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "In Between the Sea and the Land",
+          "air_date": "2013-10-03",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere immerses viewers in the undersea world's visual logic and social tensions, establishing the central love polygon with economical efficiency.",
+          "the_moment": "The first glimpse of the underwater village Shioshishio - its lantern-lit streets and drifting sediment - signals a production putting serious craft behind its world-building.",
+          "critic_note": null
+        },
+        {
+          "number": 26,
+          "title": "The Promised Day",
+          "air_date": "2014-04-03",
+          "bollymeter": 8.0,
+          "spoiler_free": "The finale resolves its web of unrequited feelings with more emotional intelligence than most romance anime, landing each character's arc on a note that earned the long wait.",
+          "the_moment": "The resolution of the series' central romantic tension - delayed across years of in-story time - lands on a note that resists the easy pairing most romance anime default to.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

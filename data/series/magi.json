@@ -1,0 +1,122 @@
+{
+  "slug": "magi",
+  "qid": {
+    "value": "Q761921",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Magi: The Labyrinth of Magic",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Adventure",
+    "Action"
+  ],
+  "logline": "A wandering young Magi named Aladdin teams with an ambitious merchant Alibaba to conquer treasure-filled dungeons and navigate a world of warring kingdoms and hidden destinies.",
+  "poster": {
+    "src": "/img/series/magi/poster.jpg",
+    "alt": "Magi: The Labyrinth of Magic poster",
+    "attribution": "Poster © A-1 Pictures / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run totalling 50 episodes concluded March 30, 2014. A prequel spin-off, Magi: Adventure of Sinbad, aired in 2016.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Magi:_The_Labyrinth_of_Magic"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 25,
+      "release_date": {
+        "value": "2012-10-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "MAL community scores Season 1 at 8.00 from over 586,000 ratings, with IGN listing the series among the best anime of the 2010s for its blend of adventure spectacle and political depth."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/14513/Magi__The_Labyrinth_of_Magic"
+      },
+      "review_body": "A-1 Pictures adapted Shinobu Ohtaka's Arabian Nights-inflected manga as a two-cour series premiering in October 2012. Season 1 establishes the dungeon-crawling premise efficiently, pairing the childlike Magi Aladdin with the physically capable but directionless Alibaba for a fantasy road trip that escalates in geopolitical complexity. The show's willingness to engage with slavery, imperialism, and class conflict beneath its shonen adventure surface sets it apart from peers - IGN listed it among the best anime of the 2010s, calling it \"a fun watch\" with \"a surprising amount of action.\" The djinn designs and magic-system logic are distinctive creative achievements. MAL's 8.00 from over 586,000 users reflects broad appeal across both casual and invested anime audiences. The pacing accelerates significantly in the second half as the Balbadd arc reveals the larger stakes of the Magi mythology.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Aladdin and Alibaba",
+          "air_date": "2012-10-07",
+          "bollymeter": 7.5,
+          "spoiler_free": "A disarming premiere that keeps its world-building light while establishing the central duo's chemistry through a dungeon-rush that doubles as a character introduction.",
+          "the_moment": "Aladdin's flute summoning Ugo for the first time establishes the show's most memorable visual signature.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2013,
+      "episodes": 25,
+      "release_date": {
+        "value": "2013-10-06",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 2 - subtitled The Kingdom of Magic - maintained the franchise's MAL standing. Reviewers found its political ambitions expanded but pacing more uneven than Season 1 as the cast splintered across multiple story arcs."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.09,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/18217/Magi__The_Kingdom_of_Magic"
+      },
+      "review_body": "Retitled Magi: The Kingdom of Magic, Season 2 aired October 2013 through March 2014 and expanded the world substantially, splitting the core trio across different continents for much of its run. The Magnostadt arc delved deeper into the show's class-war and racial-hierarchy themes, generating the franchise's most politically charged sequences. The splintered narrative dilutes the core trio's chemistry that anchored Season 1, trading earned character moments for wider geopolitical scope. The Alma Torran backstory chapters - revealing the origins of the Magi mythology - are the season's creative peak. MAL's community rates Season 2 marginally higher than Season 1, reflecting a fanbase that rewarded the expanded world-building.",
+      "season_over_season": "Season 2 widens the political canvas and delivers the franchise's most ambitious lore, but the separation of its core trio costs it some of Season 1's propulsive energy.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

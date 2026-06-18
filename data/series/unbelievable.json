@@ -1,0 +1,133 @@
+{
+  "slug": "unbelievable",
+  "qid": {
+    "value": "Q48743432",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Unbelievable",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": ["Drama", "Crime", "Thriller", "Biographical"],
+  "logline": "A teenage rape survivor is pressured into recanting her report; two detectives in different states start connecting identical cases in a thriller grounded in a real ProPublica investigation.",
+  "poster": {
+    "src": "/img/series/unbelievable/poster.jpg",
+    "alt": "Unbelievable poster",
+    "attribution": "Poster © Netflix / CBS Television Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A single-season limited series adapted from the ProPublica/Marshall Project investigation 'An Unbelievable Story of Rape' by T. Christian Miller and Ken Armstrong. No continuation.",
+    "source": "Netflix",
+    "source_url": "https://en.wikipedia.org/wiki/Unbelievable_(miniseries)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 8,
+      "release_date": {
+        "value": "2019-09-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "98% Rotten Tomatoes from 84 critics and a Metacritic score of 83 from 25 reviews. Critics reached near-consensus on three elements: Toni Collette and Merritt Wever's performances, the procedural rigour of the female detective investigation, and the series' systemic critique of how rape reports are handled by law enforcement."
+      },
+      "critic": {
+        "positive_pct": 98,
+        "sample": 84,
+        "pull_quotes": [
+          {
+            "text": "Refreshingly empathetic toward victims, procedure and justice.",
+            "source": "Washington Post",
+            "url": "https://www.rottentomatoes.com/tv/unbelievable/s01"
+          },
+          {
+            "text": "One of the best series of the year.",
+            "source": "Chicago Sun-Times",
+            "url": "https://www.rottentomatoes.com/tv/unbelievable/s01"
+          },
+          {
+            "text": "The performances from Collette, Wever, and Dever are uniformly excellent, with Dever equally parts devastating and subtle.",
+            "source": "Paste Magazine",
+            "url": "https://www.rottentomatoes.com/tv/unbelievable/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/unbelievable/"
+      },
+      "review_body": "Unbelievable arrived on Netflix in September 2019 with a 98% Rotten Tomatoes score from 84 critics - the near-universal critical acclaim reserved for series that do something difficult and do it precisely right. The show runs two parallel narratives: teenage Marie Adler (Kaitlyn Dever), whose rape report is pressured out of her by male detectives who find her affect unconvincing, and detectives Karen Duvall (Merritt Wever) and Grace Rasmussen (Toni Collette), working separate jurisdictions who eventually connect a serial rapist's signature. Critics focused on the systematic critique embedded in the procedural structure - the show is not simply about one bad investigation but about the institutional patterns that make disbelieving rape victims the path of least resistance. Wever and Collette's scenes together carry a comic-dramatic chemistry that makes the detective half feel like the show's reward for enduring the survivor half's horror. Dever's Marie is the show's ethical centre - her devastation presented without manipulation.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-09-13",
+          "bollymeter": 8.8,
+          "spoiler_free": "The first episode follows Marie through her initial report and the immediate institutional response - two male detectives whose scepticism about her demeanour builds into quiet pressure. Kaitlyn Dever handles the impossible task of playing dissociation as both symptom and misread evidence. Devastating and restrained in equal measure.",
+          "the_moment": "Marie's recantation - signed under pressure - is delivered without melodrama, which makes it the most disturbing scene in the episode.",
+          "critic_note": {
+            "text": "Refreshingly empathetic toward victims, procedure and justice.",
+            "source": "Washington Post",
+            "url": "https://www.rottentomatoes.com/tv/unbelievable/s01"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Episode 4",
+          "air_date": "2019-09-13",
+          "bollymeter": 8.7,
+          "spoiler_free": "Duvall and Rasmussen share an office for the first time as they map the geographical and behavioural links between their cases. Wever and Collette's first extended scene together is the show's tonal gear-shift - the dry professional comedy between them cuts the procedural tension without deflating it.",
+          "the_moment": "Rasmussen's methodical recreation of the suspect's preparedness ritual - itemising what was and was not taken from the crime scene - reveals a profiler's focus that the male detectives in Marie's story never applied.",
+          "critic_note": {
+            "text": "One of the best series of the year.",
+            "source": "Chicago Sun-Times",
+            "url": "https://www.rottentomatoes.com/tv/unbelievable/s01"
+          }
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2019-09-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale brings both narrative threads to resolution with a precision that honours the real investigation's facts. Marie's confrontation with the institutional failure that labelled her a liar is handled without cathartic overreach. The final scene is one of 2019's best television endings.",
+          "the_moment": "The moment when the truth of the original investigation is finally acknowledged to Marie - the show holds the beat longer than the viewer expects and earns every second.",
+          "critic_note": {
+            "text": "The performances from Collette, Wever, and Dever are uniformly excellent, with Dever equally parts devastating and subtle.",
+            "source": "Paste Magazine",
+            "url": "https://www.rottentomatoes.com/tv/unbelievable/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

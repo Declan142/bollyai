@@ -1,0 +1,252 @@
+{
+  "slug": "the-mentalist",
+  "qid": {
+    "value": "Q204228",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Mentalist",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "trade announcement",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+  "logline": "A former fraudulent TV psychic uses razor-sharp observation and psychological manipulation to help the CBI solve murders - all while hunting the serial killer who slaughtered his wife and daughter.",
+  "poster": {
+    "src": "/img/series/the-mentalist/poster.jpg",
+    "alt": "The Mentalist poster",
+    "attribution": "Poster © CBS / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Seven-season run on CBS concluded February 18, 2015, with the series finale resolving the Red John arc and Patrick Jane's personal story.",
+    "source": "CBS",
+    "source_url": "https://en.wikipedia.org/wiki/The_Mentalist"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 23,
+      "release_date": {
+        "value": "2008-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "A 60% Tomatometer from 25 critics acknowledged Simon Baker's transfixing performance while flagging the familiar procedural template. Metacritic's 65 from 52 reviews reflects a wider press consensus - mixed-to-positive, Baker-dependent. Audience response on Metacritic ran to 8.3 from 640 ratings, significantly warmer than critical opinion."
+      },
+      "critic": {
+        "positive_pct": 60,
+        "sample": 25,
+        "pull_quotes": [
+          {
+            "text": "Simon Baker is transfixing to watch in this role. It's embarrassing to admit it, really.",
+            "source": "Salon",
+            "url": "https://www.rottentomatoes.com/tv/the_mentalist/s01"
+          },
+          {
+            "text": "The Mentalist has an appealing low-tech approach to crime-solving.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.rottentomatoes.com/tv/the_mentalist/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/the-mentalist/"
+      },
+      "review_body": "The Mentalist premiered on CBS in September 2008 and earned a 60% Tomatometer from 25 critics - divided along a clear fault line. Critics who engaged with Simon Baker's performance understood what the show was doing; those fixated on procedural originality found it shopworn. Baker's Patrick Jane - conman using his skills for the law, haunted by the Red John murder of his family - is a lead character with genuine psychological texture. The pilot establishes his Sherlock-lite observation skills efficiently without over-explaining. Metacritic's 65 aggregate from 52 reviews puts it in generally favourable territory. Crucially, the audience - 8.3 from 640 Metacritic raters - were warmer than critics throughout the run.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "2008-09-23",
+          "bollymeter": 7.2,
+          "spoiler_free": "The pilot establishes Jane's origin and method with efficient economy - former TV psychic fraud, devastated by Red John's murders, now working his observational gifts for the CBI. Baker owns the screen from the first scene. The case itself is secondary to the character establishment.",
+          "the_moment": "Jane casually deducing the lead detective's domestic situation within seconds of meeting her - the show's central trick announced without fanfare.",
+          "critic_note": {
+            "text": "Simon Baker is transfixing to watch in this role. It's embarrassing to admit it, really.",
+            "source": "Salon",
+            "url": "https://www.rottentomatoes.com/tv/the_mentalist/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2009,
+      "episodes": 23,
+      "release_date": {
+        "value": "2009-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 consolidates the show's procedural confidence while layering in more Red John mythology. Baker and Robin Tunney's Jane-Lisbon dynamic develops into the series' most reliable dramatic engine - the tension between Jane's freelance intuition and Lisbon's institutional authority giving every case a secondary register. The season builds the Red John subplot more deliberately, rewarding viewers who tracked the mythology through Season 1.",
+      "season_over_season": "The Red John arc deepens from background menace to active season spine, rewarding long-form viewers.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2010,
+      "episodes": 24,
+      "release_date": {
+        "value": "2010-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 is the show at its confident procedural peak before the Red John arc demands resolution. The 24-episode run contains some of the series' most inventive standalone cases alongside building Red John pressure. Jane's manipulation tactics - playing suspects against each other, staging false evidence - reach their most elaborate expression in the mid-season stretch.",
+      "season_over_season": "The standalone case quality reaches its highest point as the writers balance procedural invention against Red John escalation.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2011,
+      "episodes": 24,
+      "release_date": {
+        "value": "2011-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 begins with the fallout from Season 3's finale - Jane in custody after a violent confrontation with Red John's network - and the procedural formula accommodates the mythology weight well. Hightower's subplot expands the Red John conspiracy. Baker's comedic timing in the lighter episodes becomes more confident than any prior season, giving the series range that pure procedurals rarely develop.",
+      "season_over_season": "Season 4 balances mythology aftermath with the show's sharpest light-touch procedural episodes, demonstrating range the earlier seasons only hinted at.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2012,
+      "episodes": 22,
+      "release_date": {
+        "value": "2012-09-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 builds toward Red John's unmasking with mounting serialised investment. The final episode's revelation generated significant online debate about whether the suspect list had been constructed to support the reveal - a sign that the arc had accumulated genuine long-form stakes across five years of otherwise episodic television.",
+      "season_over_season": "The Red John unmasking arrives at the season finale, generating the franchise's most-discussed plot resolution after a five-season mythology build.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2013,
+      "episodes": 22,
+      "release_date": {
+        "value": "2013-09-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 confronts a structural problem: The Mentalist was built around Red John, and Season 5's resolution removed the show's organising principle. The writers relocated the team to the FBI in Austin and introduced a new antagonist in Lazarus. The first half navigates Red John's aftermath competently; the post-midseason pivot to new territory feels like a show finding its reason to continue rather than one with clear intent.",
+      "season_over_season": "Post-Red John, the show visibly searches for a new organising mythology - the pivot to FBI/Austin is competent but the urgency evaporates.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2014,
+      "episodes": 13,
+      "release_date": {
+        "value": "2014-11-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "The final season earned 83% from 6 critics - the best-reviewed season since the early run. The 13-episode compact format focused the Jane-Lisbon romantic resolution and gave long-run fans the closure they had earned across seven years."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 6,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/the-mentalist/"
+      },
+      "review_body": "The Mentalist's final 13 episodes earned 83% from 6 critics - the show's best-reviewed run since its early seasons. The compressed format forced resolution on the Jane-Lisbon relationship that the previous two seasons had deferred. Baker and Tunney's chemistry, reliable across all seven years, carries the finale arc with quiet confidence. The series ends as a character study rather than a mythology piece: Jane's journey from conman to detective to something approximating peace is the story, and it resolves without overreach.",
+      "season_over_season": "The compressed 13-episode order proved the right medicine - focused finale energy after Season 6's searching drift.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "White Orchids",
+          "air_date": "2015-02-18",
+          "bollymeter": 7.8,
+          "spoiler_free": "The series finale resolves the Jane-Lisbon arc with unhurried grace, offering the kind of earned romantic conclusion that procedural crime dramas rarely manage after seven seasons. Baker's final scene is calibrated to the performance he has built across the entire run.",
+          "the_moment": "The final sequence lands with the quiet force of a long-running character arriving exactly where the audience - and perhaps the character - needed him to be.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

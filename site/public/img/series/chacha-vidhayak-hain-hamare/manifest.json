@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Amazon Prime Video / Only Much Louder. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/5/51/Chacha_Vidhayak_Hain_Humare.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T01:08:37Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/chacha-vidhayak-hain-hamare/poster.jpg",
+    "source_height": 385,
+    "source_width": 259,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "chacha-vidhayak-hain-hamare",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Chacha_Vidhayak_Hain_Humare",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/5/51/Chacha_Vidhayak_Hain_Humare.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/chacha-vidhayak-hain-hamare/w185.avif",
+      "bytes": 12507
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/chacha-vidhayak-hain-hamare/w185.webp",
+      "bytes": 12318
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/chacha-vidhayak-hain-hamare/w342.avif",
+      "bytes": 21779
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/chacha-vidhayak-hain-hamare/w342.webp",
+      "bytes": 23832
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/chacha-vidhayak-hain-hamare/w500.avif",
+      "bytes": 29809
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/chacha-vidhayak-hain-hamare/w500.webp",
+      "bytes": 34940
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T01:09:42.270Z"
+}

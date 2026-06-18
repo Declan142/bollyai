@@ -1,0 +1,107 @@
+{
+  "slug": "quicksand",
+  "qid": {
+    "value": "Q51572795",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Quicksand",
+    "source": "Wikipedia / Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Sweden",
+  "original_language": {
+    "value": "sv",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Crime", "Drama", "Psychological", "Mystery"],
+  "logline": "An 18-year-old from Stockholm's elite school is on trial for a mass shooting she admits to committing - and the real question is what her toxic, controlling boyfriend made her into before he died.",
+  "poster": {
+    "src": "/img/series/quicksand/poster.jpg",
+    "alt": "Quicksand poster",
+    "attribution": "Poster © Netflix / Yellow Bird. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series; no second season. Netflix's first Swedish-language original. The source novel by Malin Persson Giolito is a standalone.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quicksand_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-04-05",
+        "source": "Wikipedia / Wikidata",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.1,
+        "basis": "75% on Rotten Tomatoes from 3 critics; IMDb 7.4. Critics praised the performances and atmosphere while noting the series occasionally disappoints given its strong premise."
+      },
+      "critic": {
+        "positive_pct": 75,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "Outstanding performances.",
+            "source": "Clarin",
+            "url": "https://www.clarin.com/series/quicksand-netflix-critica_0_quicksand.html"
+          },
+          {
+            "text": "Chilling scenes might bring more realism to what's an interesting crime drama.",
+            "source": "Decider",
+            "url": "https://decider.com/2019/04/05/quicksand-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8686106/"
+      },
+      "review_body": "Quicksand arrived April 5, 2019, as Netflix's first Swedish-language original - a distinction the show lived up to with a lead performance from Hanna Ardéhn that won Best Actress at the 2019 Kristallen awards, Sweden's broadcasting honours. The six-episode structure alternates between courtroom testimony and the events that led Maja Norberg to a school shooting, using the legal frame to slow the revelation of how a wealthy Stockholm teenager became complicit in violence. Critics from the small Rotten Tomatoes sample (75 percent, 3 reviews) pointed to the atmosphere and performances as clear strengths. The Culturamas review noted the show 'ends up disappointing' given its strong premise - a fair critique of the final episodes' uneven resolution. IMDb's 7.4 from a broader audience is the more reliable signal: viewers found it gripping even where critics wanted more.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-04-05",
+          "bollymeter": 7.5,
+          "spoiler_free": "The opener drops viewers into the courtroom where Maja Norberg is already on trial, then cuts back to her life before the shooting. The contrast between the accused girl and the one we see in flashback is the show's central engine.",
+          "the_moment": "The first courtroom scene - Ardéhn's stillness as Maja, the full weight of what she is accused of held without melodrama.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2019-04-05",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale resolves the trial and reveals the full account of what happened in the school. The Culturamas review's mild disappointment applies most here - the ending satisfies legally but may not fully deliver on the psychological complexity the series promised.",
+          "the_moment": "The verdict - and Maja's reaction, which tells the audience what the series ultimately thinks about culpability and class.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

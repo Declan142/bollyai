@@ -1,0 +1,120 @@
+{
+  "slug": "dear-child",
+  "qid": {
+    "value": "Q121995458",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dear Child",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Thriller",
+    "Psychological",
+    "Crime",
+    "Drama"
+  ],
+  "logline": "A woman escapes captivity after years of imprisonment with two children, triggering a police investigation that reopens a 13-year-old disappearance and reveals a horror more methodical than anyone imagined.",
+  "poster": {
+    "src": "/img/series/dear-child/poster.jpg",
+    "alt": "Dear Child poster",
+    "attribution": "Poster © Netflix / Constantin Film AG. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "A standalone six-episode miniseries based on Romy Hausmann's novel Liebes Kind. No second season announced or expected. Won Best TV Movie or Miniseries at the 52nd International Emmy Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dear_Child"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-09-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Rotten Tomatoes scored 100% from 10 critics. Won Best TV Movie or Miniseries at the 52nd International Emmy Awards. Became the most-watched non-English language show on Netflix in its first two weeks, reaching the top 10 in over 90 countries."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 10,
+        "pull_quotes": [
+          {
+            "text": "It keeps a sense of menace and suspense simmering beautifully over the six episodes, and the ending is satisfying.",
+            "source": "The Straits Times",
+            "url": "https://www.rottentomatoes.com/tv/dear_child/s01"
+          },
+          {
+            "text": "The fraught stillness gets overtaken by the plot, but the twists will satisfy the genre's fans.",
+            "source": "Sydney Morning Herald",
+            "url": "https://www.rottentomatoes.com/tv/dear_child/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.3,
+        "scale": 10,
+        "source": "Rotten Tomatoes audience",
+        "source_url": "https://www.rottentomatoes.com/tv/dear_child"
+      },
+      "review_body": "Dear Child arrived on Netflix on 7 September 2023 and immediately demonstrated that German-language thriller television had found its post-Dark moment. Based on Romy Hausmann's novel Liebes Kind, the six-episode miniseries opened with a woman's escape from years of captivity and built its investigation backward through a 13-year-old disappearance case. The structure was that of a puzzle box, deploying timeline fragmentation and perspective shifts to maintain menace while the mechanics of the captivity were slowly revealed. Critics were nearly unanimous in their praise: Rotten Tomatoes recorded 100% from 10 reviews. The Straits Times cited the show's sustained tension across all six episodes; the Sydney Morning Herald noted the twists rewarded genre fans without cheating the emotional ground. The series became the most-watched non-English language show on Netflix in its first two weeks, reaching the top 10 in over 90 countries. The International Emmy win for Best TV Movie or Miniseries confirmed the critical consensus. At six tightly constructed episodes, Dear Child is the miniseries format used with ideal efficiency - not a scene wasted, the ending earning everything the premise promised.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2023-09-07",
+          "bollymeter": 8.4,
+          "spoiler_free": "The premiere establishes the premise with controlled restraint: a woman on a road, the systematic detail of the world she has escaped, and the investigation that opens around a 13-year-old case. The pacing is tight; the menace arrives before anything explicit is shown.",
+          "the_moment": "The first glimpse of the domestic structure the captive children have been raised inside - its terrible normality more disturbing than explicit horror.",
+          "critic_note": {
+            "text": "It keeps a sense of menace and suspense simmering beautifully over the six episodes, and the ending is satisfying.",
+            "source": "The Straits Times",
+            "url": "https://www.rottentomatoes.com/tv/dear_child/s01"
+          }
+        },
+        {
+          "number": 6,
+          "title": "Episode 6",
+          "air_date": "2023-09-07",
+          "bollymeter": 8.6,
+          "spoiler_free": "The finale resolves the investigation in a manner that critics credited as genuinely satisfying rather than merely surprising. The emotional architecture of the series earns its conclusion.",
+          "the_moment": "The final revelation that recontextualises the entire series - the kind of ending that prompts an immediate rewatch with new information.",
+          "critic_note": {
+            "text": "The fraught stillness gets overtaken by the plot, but the twists will satisfy the genre's fans.",
+            "source": "Sydney Morning Herald",
+            "url": "https://www.rottentomatoes.com/tv/dear_child/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Amazon Studios / Plan B Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/3/32/The_Underground_Railroad_Poster.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T01:06:44Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/the-underground-railroad/poster.jpg",
+    "source_height": 387,
+    "source_width": 257,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "the-underground-railroad",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/The_Underground_Railroad_(miniseries)",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/32/The_Underground_Railroad_Poster.png"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/the-underground-railroad/w185.avif",
+      "bytes": 12264
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/the-underground-railroad/w185.webp",
+      "bytes": 11962
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/the-underground-railroad/w342.avif",
+      "bytes": 23803
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/the-underground-railroad/w342.webp",
+      "bytes": 25356
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/the-underground-railroad/w500.avif",
+      "bytes": 34334
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/the-underground-railroad/w500.webp",
+      "bytes": 38302
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T01:10:03.472Z"
+}

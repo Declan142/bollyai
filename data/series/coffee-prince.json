@@ -1,0 +1,102 @@
+{
+  "slug": "coffee-prince",
+  "qid": {
+    "value": "Q484695",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Coffee Prince",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Comedy", "Drama"],
+  "logline": "A tomboyish woman disguises herself as a man to work at a coffee shop, and her boss begins falling for her - triggering a crisis of identity and desire neither expected.",
+  "poster": {
+    "src": "/img/series/coffee-prince/poster.jpg",
+    "alt": "Coffee Prince poster",
+    "attribution": "Poster © MBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 17 episodes concluded August 28, 2007 on MBC. No sequel or continuation was produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Coffee_Prince_(2007_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": 17,
+      "release_date": {
+        "value": "2007-07-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "Ratings peaked at 29.9% nationwide (MBC, 2007), earning Best Drama at the Korea PD Awards and Best Actress at the Baeksang Arts Awards for Yoon Eun-hye. Critics at Collider called it revolutionary for examining identity and attraction with unexpected openness."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Coffee Prince is an iconic K-drama because it was somewhat revolutionary for its time.",
+            "source": "Collider",
+            "url": "https://collider.com/best-k-dramas-ranked-all-time/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": null,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0991188/"
+      },
+      "review_body": "Coffee Prince arrived on MBC in July 2007 and became one of that year's breakout hits, climbing from a 14.4% debut to a peak of 29.9% nationwide - an extraordinary trajectory for a romcom that dared to centre its tension on questions of gender and desire. The premise is deceptively simple: Go Eun-chan (Yoon Eun-hye), perpetually mistaken for a boy, takes a job at heir Choi Han-gyeol's (Gong Yoo) coffee shop, and he hires her believing she is male. What follows is neither straight farce nor safe romance but an unusually earnest interrogation of what attraction means when categories fail. Critics retrospectively identified the series as a watershed for Korean television's treatment of identity, with Collider noting it examines 'attraction and sexuality with unexpected openness.' Yoon Eun-hye's Baeksang Best Actress win and Gong Yoo's breakout performance sealed its place in the classic K-drama canon.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2007-07-02",
+          "bollymeter": 8.2,
+          "spoiler_free": "The premiere establishes Go Eun-chan's chaotic life and the first collision with Han-gyeol in a scene that doubles as comedy and character thesis. The gender-disguise hook lands immediately, but the episode earns its laughs by grounding them in real economic desperation.",
+          "the_moment": "Han-gyeol's accidental job offer to someone he assumes is a teenage boy - the misunderstanding that sets the entire series in motion.",
+          "critic_note": null
+        },
+        {
+          "number": 17,
+          "title": "Episode 17",
+          "air_date": "2007-08-28",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the series' central emotional knot with the earned confidence of a show that never took the easy route. The payoff to seventeen episodes of layered longing lands cleanly, and the final scene became one of the most discussed K-drama endings of its era.",
+          "the_moment": "The resolution of Han-gyeol's internal conflict - the emotional climax the series had been building toward across seventeen episodes.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

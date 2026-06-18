@@ -1,0 +1,101 @@
+{
+  "slug": "claymore",
+  "qid": {
+    "value": "Q476230",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Claymore",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Funimation",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Fantasy",
+    "Psychological"
+  ],
+  "logline": "Clare, a half-human half-monster warrior called a Claymore, hunts the shape-shifting demons that plague a medieval world while her own suppressed power threatens to consume her.",
+  "poster": {
+    "src": "/img/series/claymore/poster.jpg",
+    "alt": "Claymore poster",
+    "attribution": "Poster © Madhouse / VAP. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "26-episode single-season run concluded September 26, 2007. The anime ends with an original conclusion; the manga ran until 2014 with a different story resolution.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Claymore_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": 26,
+      "release_date": {
+        "value": "2007-04-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "MAL community scores it 7.73 from 346,000 ratings; Rotten Tomatoes audience gives it 86%. Reviewers praised Madhouse's visceral action animation and Clare's emotionally grounded arc, while noting the anime-original ending diverges from the manga's richer conclusion."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.73,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/1818/Claymore"
+      },
+      "review_body": "Madhouse adapted Norihiro Yagi's dark fantasy manga across 26 episodes in 2007, and the result remains one of the studio's more underappreciated achievements. The show follows Clare - ranked 47th among the organisation's silver-eyed warriors - and uses her methodical climb through a ranked combat system as a scaffold for examining trauma, identity, and the cost of power. The animation quality of its action sequences commits to the brutal physicality that defines the source material, and the all-female cast of Claymores stands out as unusually compelling for a shonen-adjacent dark fantasy of its era. The anime diverges from the manga at the Northern Campaign arc, and long-time fans consider the original ending the show's main liability. MAL's 7.73 from over 346,000 voters reflects steady appreciation rather than peak enthusiasm. Funimation holds the English licence.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Great Sword",
+          "air_date": "2007-04-04",
+          "bollymeter": 7.5,
+          "spoiler_free": "A spare, assured premiere that establishes the world's monster hierarchy and Clare's cold professionalism without over-explaining, earning audience trust through economy.",
+          "the_moment": "Clare's first yoma hunt in the village sets the visual grammar - desaturated palette, fluid combat, visible cost - in place for the entire run.",
+          "critic_note": null
+        },
+        {
+          "number": 15,
+          "title": "The Witch's Maw, Part 2",
+          "air_date": "2007-07-18",
+          "bollymeter": 8.5,
+          "spoiler_free": "The Northern Campaign's early episodes mark the series' creative peak, deploying the ensemble of ranked Claymores against a threat that clarifies the show's real themes about power and sacrifice.",
+          "the_moment": "The confrontation between Clare's unit and the Awakened Being represents Madhouse's animation craft at its peak - fluid, brutal, and emotionally grounded.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

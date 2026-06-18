@@ -1,0 +1,143 @@
+{
+  "slug": "outer-range",
+  "qid": {
+    "value": "Q105085590",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Outer Range",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Amazon Prime Video / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Mystery", "Sci-Fi", "Drama", "Thriller"],
+  "logline": "A Wyoming rancher discovers a bottomless void on his land and a drifter who seems to know his future - a neo-Western puzzle box where time, grief, and frontier violence collide.",
+  "poster": {
+    "src": "/img/series/outer-range/poster.jpg",
+    "alt": "Outer Range poster",
+    "attribution": "Poster © Amazon Studios / Alcon Television Group. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Renewed for Season 2 in October 2022; cancelled after two seasons in July 2024. Creator Brian Watkins' run concluded with Season 2.",
+    "source": "Variety",
+    "source_url": "https://variety.com/2024/tv/news/outer-range-cancelled-amazon-1236094897/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-04-15",
+        "source": "Wikipedia / Wikidata",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "79% on Rotten Tomatoes from 53 critics; Metacritic 60/100. Critics split between those who found the slow-burn weirdness atmospheric and those who felt it earned its strangeness too slowly."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 53,
+        "pull_quotes": [
+          {
+            "text": "A puzzle box of a program - and the weirder that Outer Range gets, the more it intrigues and engrosses.",
+            "source": "Concrete Playground",
+            "url": "https://www.concreteplayground.com/sydney/arts-entertainment/outer-range-review/"
+          },
+          {
+            "text": "Outer Range proves to be unique, alluring, and infinitely odd. Expertly acted, and wonderfully strange, it's a hit.",
+            "source": "Wonderfully Weird and Horrifying",
+            "url": "https://www.wonderfullyweirdandhorrifying.com/outer-range-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11685912/"
+      },
+      "review_body": "Season 1 opened on April 15, 2022, staking out neo-Western territory with the Abbott family and a literal hole in their Wyoming land that defies physical explanation. Josh Brolin's performance as Royal Abbott anchored the slow-burn mystery, and critics largely responded to the atmospheric strangeness even as a minority found the pacing glacial. The A.V. Club graded it C, writing that it 'never goes far enough.' The Hollywood Reporter flagged 'bizarrely glacial' narrative pacing. Ryan Britt at Inverse pushed back, calling it 'one of the boldest, weirdest sci-fi shows of the 21st century.' The 79 percent Rotten Tomatoes score on 53 reviews reflects a show that genuinely divided critics along the fault line of patience - those who leaned into the void got something unusual.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Void",
+          "air_date": "2022-04-15",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the Abbott family's financial and legal pressures before revealing the impossible void on their land. Brolin's tight-lipped rancher performance sets the register for the whole season.",
+          "the_moment": "Royal's first encounter with the black void - a scene that refuses easy explanation and makes clear the show is not interested in conventional genre payoffs.",
+          "critic_note": {
+            "text": "Outer Range is a bit touch-and-go in terms of its interest factor but you will want to know how it all turns out.",
+            "source": "New York Post",
+            "url": "https://nypost.com/2022/05/03/outer-range-review-amazons-western-mystery/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": 7,
+      "release_date": {
+        "value": "2024-05-16",
+        "source": "Wikipedia / Wikidata",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "92% on Rotten Tomatoes from 25 critics. Season 2 leaned harder into the time-loop mythology and was rewarded; the New York Times called it 'What fun. What menace. What a total bonanza.'"
+      },
+      "critic": {
+        "positive_pct": 92,
+        "sample": 25,
+        "pull_quotes": [
+          {
+            "text": "What fun. What menace. What a total bonanza.",
+            "source": "New York Times",
+            "url": "https://www.nytimes.com/2024/05/16/arts/television/outer-range-season-2-review.html"
+          },
+          {
+            "text": "Outer Range Season 2 is even better than the first, expanding the scope of its sci-fi story as it hones in more on character.",
+            "source": "Collider",
+            "url": "https://collider.com/outer-range-season-2-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11685912/"
+      },
+      "review_body": "Season 2 arrived May 16, 2024, with seven episodes that committed more fully to the time-manipulation mythology critics found tantalizing in Season 1. The improvement was measurable: the Rotten Tomatoes score jumped from 79 to 92 percent on 25 reviews. RogerEbert.com noted the season 'commits deeper to the show's own weirdness, which is appreciated.' The New York Times delivered the season's most quoted line: 'What fun. What menace. What a total bonanza.' Tamara Podemski emerged as a standout in an expanded storyline, and the critics consensus acknowledged a 'better handle on its characters.' The cancellation news in July 2024 landed as a disappointment to a fanbase that had watched the show finally find its footing.",
+      "season_over_season": "Season 2 drops the slow-burn hesitation and commits to full time-loop mythology, earning a 13-point jump in the Rotten Tomatoes score.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

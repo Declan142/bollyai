@@ -1,0 +1,426 @@
+{
+  "slug": "criminal-minds",
+  "qid": {
+    "value": "Q202141",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Criminal Minds",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Paramount+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Crime", "Thriller", "Drama", "Mystery", "Psychological"],
+  "logline": "The FBI's Behavioral Analysis Unit profiles the darkest minds in America - tracking serial killers, terrorists, and unsubs through criminal psychology before the next body drops.",
+  "poster": {
+    "src": "/img/series/criminal-minds/poster.jpg",
+    "alt": "Criminal Minds poster",
+    "attribution": "Poster © CBS / ABC Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Revived as Criminal Minds: Evolution on Paramount+ in November 2022 after the original CBS run ended in February 2020; renewed through Season 20 premiering 2027.",
+    "source": "Variety",
+    "source_url": "https://variety.com/tv/criminal-minds/"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Season 1 earned a 50% Tomatometer from 14 critics - they called it serviceable procedural with Patinkin as the draw. Metacritic's 46 aggregate confirms critic ambivalence, but audience scores (Metacritic user 7.6) reflect a loyal fanbase that found the BAU profiling hook compelling."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "Mandy Patinkin's return to television is reason to celebrate, even if it is yet another crime-procedural series.",
+            "source": "Los Angeles Times",
+            "url": "https://www.rottentomatoes.com/tv/criminal_minds/s01"
+          },
+          {
+            "text": "Solidly plotted and filmed, the pilot has a nice bookended structure that delivers a surprising, unexpected conclusion.",
+            "source": "Pittsburgh Post-Gazette",
+            "url": "https://www.rottentomatoes.com/tv/criminal_minds/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "Metacritic",
+        "source_url": "https://www.metacritic.com/tv/criminal-minds/"
+      },
+      "review_body": "Criminal Minds arrived in September 2005 as CBS's procedural bet on criminal psychology over forensics. Season 1 split critics almost down the middle - a 50% Tomatometer from 14 reviews - but audiences recognised something CBS crime dramas rarely offered: the story of the hunter, not just the crime. Mandy Patinkin's Gideon draws most of the press coverage in Season 1, and rightly so: his forensic empathy gives the BAU team a moral texture most crime procedurals skip. The format is case-of-the-week, but the unsub framing - profiling through victimology, signature, and modus operandi - gave viewers a new vocabulary for true-crime fascination. The pilot's bookended structure impressed even its sceptics.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Extreme Aggressor",
+          "air_date": "2005-09-22",
+          "bollymeter": 7.0,
+          "spoiler_free": "The series opener establishes the BAU's working method through a kidnapping case in Seattle. Patinkin's Gideon and Thomas Gibson's Hotchner define the show's two poles - intuitive empathy versus procedural discipline - and the pilot's bookended structure earns its critical notice.",
+          "the_moment": "Gideon's in-the-field profile read lands with quiet authority, signalling the show has found a psychological register most crime procedurals skip.",
+          "critic_note": {
+            "text": "Solidly plotted and filmed, the pilot has a nice bookended structure that delivers a surprising, unexpected conclusion.",
+            "source": "Pittsburgh Post-Gazette",
+            "url": "https://www.rottentomatoes.com/tv/criminal_minds/s01"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 23,
+      "release_date": {
+        "value": "2006-09-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 2 deepened the ensemble and sharpened the profiling procedural formula. Audience reception remained strong as the show found its footing as CBS's most psychologically ambitious crime drama."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 consolidated the gains of the debut year, shifting the balance slightly toward ensemble storytelling as Morgan, Garcia, and Reid developed distinct procedural voices. The BAU's unsub-profiling template - geographic profiling, victimology, signature analysis - becomes a reliable rhythm by midseason. Critics largely ignored it in favour of splashier network fare, but viewers continued building the loyal following that would sustain fifteen CBS seasons. The franchise's identity as procedural comfort-horror - disturbing cases held at clinical distance through profiling language - is fully established here.",
+      "season_over_season": "Season 2 expands the ensemble depth beyond Gideon and Hotchner, giving Morgan and Garcia room that Season 1 denied them.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 20,
+      "release_date": {
+        "value": "2007-09-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 ran short at 20 episodes due to the WGA writers strike, and the truncation shows in the back half's pace. Patinkin's abrupt departure mid-season created a genuine vacuum the writers never fully solved within these episodes. Joe Mantegna's David Rossi arrives as Gideon's replacement in the final stretch, and his authoritative calm offers a different but workable centre of gravity for the team.",
+      "season_over_season": "Patinkin's exit marks the show's first major transition; Mantegna's Rossi arrives as a steadier if less volatile successor.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 26,
+      "release_date": {
+        "value": "2008-09-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4's 26-episode run is the series at peak CBS procedural confidence. Rossi is fully integrated, the ensemble rhythms are well-drilled, and the unsub cases escalate in scope. The season-long arc involving serial killer George Foyet (The Reaper) gave the show its first genuine serialised spine and pushed Hotchner's personal stakes into the frame, lifting the formula beyond pure case-of-the-week comfort.",
+      "season_over_season": "The Reaper arc adds a serialised backbone that the case-of-the-week format had resisted through three seasons.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2009,
+      "episodes": 23,
+      "release_date": {
+        "value": "2009-09-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 resolves the Reaper arc with Hotchner's most emotionally exposed moment in the series run. The aftermath shapes Morgan's leadership trajectory through the back half. CBS procedural comfort-horror at its most polished - the profiling vocabulary is shorthand now, and the show trusts its audience to keep pace without extensive exposition.",
+      "season_over_season": "The Reaper resolution gives Hotchner a personal cost Season 4 only implied; the aftermath reconfigures team dynamics for the next stretch.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2010,
+      "episodes": 24,
+      "release_date": {
+        "value": "2010-09-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 6 marked the first real signs of franchise fatigue. Paget Brewster and A.J. Cook's contract disputes disrupted ensemble continuity, and the replacements - Rachel Nichols and Ashly Cusato - never found purchase with a fanbase invested in the original chemistry. The cases remain competent, but the team frictions feel managerial rather than dramatic.",
+      "season_over_season": "Cast turbulence introduced by network salary disputes makes Season 6 the first instalment that feels reactive rather than authored.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2011,
+      "episodes": 24,
+      "release_date": {
+        "value": "2011-09-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 7 restores Brewster and Cook, returning the ensemble to its best configuration. The procedural rhythm feels refreshed after Season 6's disruptions, and the show's willingness to let Garcia's tech humour cut through the darkness remains one of its more distinctive tonal decisions. Solid mid-run procedural television - it delivers exactly what its audience wants.",
+      "season_over_season": "Brewster and Cook's return immediately restores the ensemble chemistry Season 6 fractured.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2012,
+      "episodes": 24,
+      "release_date": {
+        "value": "2012-09-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 8 introduces Blake (Jeanne Tripplehorn) as Prentiss's replacement after Brewster's departure, and the transition is smoother than Season 6's stumble. The season's strongest cases lean into international profiling scope and domestic terrorism angles. Alex Blake integrates competently without replicating the Prentiss dynamic - a different kind of field analyst rather than a direct swap.",
+      "season_over_season": "Tripplehorn's Blake offers a different intelligence profile to Prentiss - academic analyst over field operative - which the writers use rather than paper over.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2013,
+      "episodes": 24,
+      "release_date": {
+        "value": "2013-09-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 9 is workmanlike late-run procedural - the BAU formula is deeply grooved by now and the show makes no apologies for repeating it. Jennifer Love Hewitt joins as forensic technician Kate Callahan, a casting decision that generates press without materially shifting the show's register. The serialised thread involving the Replicator from Season 8 resolves cleanly.",
+      "season_over_season": "The Replicator resolution from Season 8 closes out cleanly, and the show resets to pure procedural mode for the back half.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2014,
+      "episodes": 23,
+      "release_date": {
+        "value": "2014-10-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 10 hits the double-digit mark with a show that knows exactly what it is and executes it reliably. Aisha Tyler joins as Dr. Tara Lewis and adds a dry forensic wit. The cases in the middle stretch of this season - a cluster around human trafficking networks - give the ensemble more procedural texture than a standard serial killer rotation.",
+      "season_over_season": "Aisha Tyler's Tara Lewis refreshes the BAU's internal voice without disrupting the procedural cadence.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2015,
+      "episodes": 22,
+      "release_date": {
+        "value": "2015-09-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 11 brings Shemar Moore's Morgan into his most active season - his kidnapping arc drives the serialised narrative with genuine urgency. Prentiss returns in the finale, setting up what long-run fans recognise as a soft promise of restoration. The profiling formula remains intact; the emotional stakes are higher than mid-run seasons.",
+      "season_over_season": "Morgan's kidnapping arc delivers the most concentrated suspense the show has produced since the Reaper years.",
+      "episode_reviews": []
+    },
+    {
+      "number": 12,
+      "year": 2016,
+      "episodes": 22,
+      "release_date": {
+        "value": "2016-09-28",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 12 loses Shemar Moore permanently after his Season 11 exit, and the team's internal chemistry never quite re-centres. The season-long Scratch (Mr. Scratch) arc is ambitious but overextended. Thomas Gibson's termination mid-season - Hotchner disappears without a proper farewell episode - is the most jarring behind-the-scenes disruption since Patinkin's departure in Season 3.",
+      "season_over_season": "Gibson's mid-season exit and Moore's permanent absence make Season 12 the show's most editorially disrupted run since Season 3.",
+      "episode_reviews": []
+    },
+    {
+      "number": 13,
+      "year": 2017,
+      "episodes": 22,
+      "release_date": {
+        "value": "2017-09-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 13 operates without its two longest-tenured male leads for the first time. Adam Rodriguez's Luke Alvez and Daniel Henney's Matt Simmons consolidate as the new field operatives, and the reconfigured BAU has a younger, less psychologically weighted feel. The cases are competent; the sense of institutional memory has thinned.",
+      "season_over_season": "Without Gibson and Moore, the BAU's senior male authority line is gone; the show navigates this more confidently than Season 12 suggested it would.",
+      "episode_reviews": []
+    },
+    {
+      "number": 14,
+      "year": 2018,
+      "episodes": 15,
+      "release_date": {
+        "value": "2018-10-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 14 runs a compressed 15 episodes as CBS manages the show's end-of-life arc. Paget Brewster's Prentiss leads the team with quiet authority, and the season's cases reflect a franchise in disciplined late-run mode - tighter arcs, less mid-season drift. The farewell to long-tenured characters begins here in earnest.",
+      "season_over_season": "A shorter episode order focuses the narrative; Prentiss's leadership role gives Season 14 a cleaner dramatic line than Season 13.",
+      "episode_reviews": []
+    },
+    {
+      "number": 15,
+      "year": 2020,
+      "episodes": 10,
+      "release_date": {
+        "value": "2020-01-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "The 10-episode CBS finale season earned 79% from 2 critics - a fresh rating on minimal data. The compressed format forced the writers to resolve long-running character arcs efficiently, and the fan reception treated it as a respectful send-off for a 15-year institution."
+      },
+      "critic": {
+        "positive_pct": 79,
+        "sample": 2,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Criminal Minds ended its CBS run with a 10-episode final season that felt, against expectations, like a genuine farewell rather than a contractual obligation. The compressed format - half the length of a standard run - forced writers to prioritise character resolutions over case proceduralism. The Chameleon arc through the back half gave the BAU a final villain worthy of the show's peak-era ambitions. Critics who bothered reviewing it (only 2 on RT, yielding 79%) noted the efficiency as a feature rather than a constraint. Fans who had sustained 15 seasons rewarded the effort.",
+      "season_over_season": "The compressed 10-episode format proved a gift: the show spent its final run on character resolution rather than procedural wheel-spinning.",
+      "episode_reviews": [
+        {
+          "number": 10,
+          "title": "And in the End...",
+          "air_date": "2020-02-19",
+          "bollymeter": 7.5,
+          "spoiler_free": "The series finale brings the full BAU ensemble together for a final case that deliberately echoes the show's founding mythology. Long-running character threads get closed with varying degrees of elegance, but the effort to honour 15 seasons is visible throughout.",
+          "the_moment": "The final team gathering in the bullpen - a visual callback to the pilot's establishing shots - functions as a deliberate, unhurried farewell.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

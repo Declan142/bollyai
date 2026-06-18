@@ -1,0 +1,108 @@
+{
+  "slug": "soul-eater",
+  "qid": {
+    "value": "Q537389",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Soul Eater",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Action",
+    "Fantasy",
+    "Supernatural",
+    "Comedy"
+  ],
+  "logline": "Students at a grim reaper's academy must collect 99 evil souls and one witch's soul to forge the ultimate weapon, battling madness and monsters along the way.",
+  "poster": {
+    "src": "/img/series/soul-eater/poster.jpg",
+    "alt": "Soul Eater poster",
+    "attribution": "Poster © Bones / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-cour run of 51 episodes concluded on March 30, 2009. The manga's ending diverges from the anime's original finale. A remake series Soul Eater NOT! aired in 2014.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Soul_Eater"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2008,
+      "episodes": 51,
+      "release_date": {
+        "value": "2008-04-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Rotten Tomatoes critics gave it 100% across 10 reviews, praising its Gothic aesthetic and action-comedy balance. MAL community scores it 7.86 across nearly a million ratings, reflecting a show that delights but falters with its anime-original finale."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 10,
+        "pull_quotes": [
+          {
+            "text": "A bewitching delight, Soul Eater provides the perfect combination of action, drama, and comedy with its cast of lovable oddball characters.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/soul_eater/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.86,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/3588/Soul_Eater"
+      },
+      "review_body": "Bones delivered Soul Eater in 2008 as a 51-episode run on TV Tokyo, adapting Atsushi Ohkubo's shonen manga with a visual style critics quickly likened to Tim Burton - all skewed architecture, grinning suns, and theatrical darkness. The 100% Rotten Tomatoes score from 10 critics reflects a consensus on its tonal achievement: the show fuses slapstick comedy with genuine menace better than most shonen contemporaries. The meister-weapon partnership mechanic gave the ensemble unusual emotional depth, and the mid-series Arachnophobia arc maintained tension across a long cour. The anime-original finale - diverging from the manga - drew the most criticism, with reviewers noting it prioritises spectacle over the thematic coherence the manga later delivered. MAL's 7.86 from over 900,000 voters positions it as a beloved crowd-pleaser rather than a genre pinnacle. Crunchyroll carries it globally.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Resonance of the Soul - Will Soul Eater Become a Death Scythe?",
+          "air_date": "2008-04-07",
+          "bollymeter": 8.0,
+          "spoiler_free": "A kinetic triple-cold-open introduces three meister-weapon pairs in wildly different tonal registers - funny, gothic, and sweet - establishing the show's full personality in one hour.",
+          "the_moment": "The moon bleeds its grin across the opening frames, instantly signalling this world's warped aesthetic.",
+          "critic_note": null
+        },
+        {
+          "number": 51,
+          "title": "The Word Is Bravery!",
+          "air_date": "2009-03-30",
+          "bollymeter": 6.5,
+          "spoiler_free": "The anime-original climax goes for maximum emotional spectacle but diverges from the manga's thematic resolution, leaving dedicated fans divided.",
+          "the_moment": "The final confrontation is visually striking but resolves the series via a conventional power-of-friendship beat rather than the thematic logic the earlier arcs had built.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

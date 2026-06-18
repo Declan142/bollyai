@@ -1,0 +1,97 @@
+{
+  "slug": "paranormal-2020",
+  "qid": {
+    "value": "Q99658491",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Paranormal",
+    "source": "Wikipedia / Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Egypt",
+  "original_language": {
+    "value": "ar",
+    "source": "Wikipedia / Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Horror", "Supernatural", "Mystery", "Drama"],
+  "logline": "A skeptical Cairo hematologist in the 1960s finds himself repeatedly ambushed by supernatural events rooted in Egyptian mythology - each one testing the line between rationalism and belief.",
+  "poster": {
+    "src": "/img/series/paranormal-2020/poster.jpg",
+    "alt": "Paranormal poster",
+    "attribution": "Poster © Netflix / Good Gate Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series, no second season announced. Netflix's first Egyptian original; the standalone format appears to have been the intended run.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Paranormal_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 6,
+      "release_date": {
+        "value": "2020-11-05",
+        "source": "Wikipedia / Wikidata",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "A 96% Rotten Tomatoes score on 4 reviews reflects critical enthusiasm for Ahmed Amin's performance and the novelty of Egyptian mythology in genre television, though the small sample warrants caution."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": 4,
+        "pull_quotes": [
+          {
+            "text": "Paranormal's wry sense of humor and case-of-the-week structure lightens the show just enough to make its dreary visuals more palatable.",
+            "source": "Decider",
+            "url": "https://decider.com/2020/11/05/paranormal-netflix-review/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "When Paranormal dropped on November 5, 2020, it became Netflix's first Egyptian original and promptly climbed to number 7 on the platform's global charts - a landmark for Arabic-language television. The six-episode run adapts Ahmed Khaled Tawfik's beloved novel series, setting skeptical hematologist Refaat Ismail against a parade of supernatural threats drawn from Egyptian folklore. Ahmed Amin's central performance was the critical consensus anchor: Den of Geek called him 'never less than completely watchable.' The 96 percent Rotten Tomatoes score (four critics) reflects that novelty premium - critics were responding to the show's identity as much as its execution. The period 1960s Cairo setting and case-of-the-week structure keep individual episodes accessible even as the mythology deepens.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Myth of the House",
+          "air_date": "2020-11-05",
+          "bollymeter": 7.3,
+          "spoiler_free": "The series opener drops Dr. Refaat Ismail into the Khadrawy House, where the rational and the supernatural refuse to stay separated. The period atmosphere and Amin's dry scepticism establish the show's tone immediately.",
+          "the_moment": "Refaat's first genuine confrontation with something he cannot explain - the moment the series earns the viewer's investment.",
+          "critic_note": null
+        },
+        {
+          "number": 6,
+          "title": "The Myth of the House: The Return",
+          "air_date": "2020-11-05",
+          "bollymeter": 7.4,
+          "spoiler_free": "The finale returns to the opening location, closing the loop on Refaat's arc with a payoff that rewards viewers who tracked the mythology threads across all six episodes.",
+          "the_moment": "The convergence of the Khadrawy House's past and Refaat's personal history - the show's clearest statement of what the supernatural means to him.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
