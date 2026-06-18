@@ -23,7 +23,16 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 925 / 1000   (baseline 183)
+## Progress: 955 / 1000   (baseline 183)
+
+### Batch 19 — 2026-06-18 — 30 series — STATUS: DONE (925->955)
+- **A K-Drama:** boys-over-flowers · city-hunter · the-heirs · master-sun · she-was-pretty · tunnel-kdrama
+- **B Anime:** hajime-no-ippo · legend-of-galactic-heroes · darling-in-the-franxx · kaichou-wa-maid-sama · eureka-seven · fullmetal-panic
+- **C US:** bosch · rick-and-morty · supernatural · nurse-jackie · the-borgias · carnivale
+- **D UK/Euro:** spooks · inspector-morse · father-ted · 1983 · the-new-pope · life-on-mars-uk
+- **E World:** extracurricular · the-good-detective · wisting · girl-from-nowhere · ray-2021 · black-spot
+- 30/30 validate clean · build green (8428pp) · AggregateRating gate clean · 17/30 posters (13 SVG fallback)
+- Commit: eca1cb0
 
 ### Batch 18 — 2026-06-18 — 30 series — STATUS: DONE (895->925)
 - **A K-Drama:** arthdal-chronicles · my-id-is-gangnam-beauty · familiar-wife · mine-kdrama · a-korean-odyssey · oh-my-ghost
