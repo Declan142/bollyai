@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Production I.G / MBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/1/14/Ao_Haru_Ride_Volume_1.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T01:33:29Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/ao-haru-ride/poster.jpg",
+    "source_height": 397,
+    "source_width": 251,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "ao-haru-ride",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Ao_Haru_Ride",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Ao_Haru_Ride_Volume_1.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/ao-haru-ride/w185.avif",
+      "bytes": 10041
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/ao-haru-ride/w185.webp",
+      "bytes": 10682
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/ao-haru-ride/w342.avif",
+      "bytes": 18224
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/ao-haru-ride/w342.webp",
+      "bytes": 21354
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/ao-haru-ride/w500.avif",
+      "bytes": 25106
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/ao-haru-ride/w500.webp",
+      "bytes": 31058
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T01:34:19.548Z"
+}

@@ -1,0 +1,304 @@
+{
+  "slug": "monk",
+  "qid": {
+    "value": "Q189068",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Monk",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "USA Network",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Mystery", "Crime", "Comedy", "Drama", "Psychological"],
+  "logline": "A brilliant but shattered detective with 312 phobias and obsessive-compulsive disorder returns to consulting work for the San Francisco police while investigating the unsolved murder of his wife.",
+  "poster": {
+    "src": "/img/series/monk/poster.jpg",
+    "alt": "Monk poster",
+    "attribution": "Poster © NBC Universal / Mandeville Films. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Monk ran 8 seasons on USA Network from July 2002 to December 2009, concluding with a series finale that resolved the central murder mystery. The show was not revived after its conclusion.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Monk_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2002,
+      "episodes": 13,
+      "release_date": {
+        "value": "2002-07-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes. Season 1 launched Tony Shalhoub's Emmy-winning turn as Adrian Monk to near-universal critical acclaim. Critics called it 'a sure-handed blend of mystery and humor' that was also the best show USA Network had produced."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Monk is a summer delight - a sure-handed blend of mystery and humor. Shalhoub is excellent as the twitchy, mild-mannered Monk.",
+            "source": "TV critics aggregated at Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/monk/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 1 established Monk as the most-awarded cable drama of its era and launched one of the definitive character performances of 2000s American television. Tony Shalhoub's Adrian Monk - a brilliant homicide detective whose OCD and 312 phobias have made normal life impossible - earned 100% on Rotten Tomatoes and four consecutive Emmy Awards for Outstanding Lead Actor in a Drama Series. Critics recognized immediately that the show's premise was an elegant engineering solution: the detective's limitations are simultaneously the source of his gifts and his suffering, giving every case emotional stakes beyond the procedural. The writing balanced genuine melancholy about Monk's condition with comedy that never reduced OCD to a punchline.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Mr. Monk and the Candidate",
+          "air_date": "2002-07-12",
+          "bollymeter": 8.8,
+          "spoiler_free": "The two-part premiere establishes Monk's world with confident economy: his OCD rituals, his assistant Sharona's exasperated loyalty, his relationship with the SFPD, and the unsolved murder of his wife Trudy that runs as the show's long-form emotional thread. The pilot case is credible and the character dynamic is fully formed from the first scene.",
+          "the_moment": "Monk solving the case through an observation no other detective would have noticed - and then being unable to shake the hand of the person he just saved.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2003,
+      "episodes": 16,
+      "release_date": {
+        "value": "2003-06-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes. Season 2 expanded to 16 episodes and the show found even greater creative range, with Shalhoub winning his second Emmy and the ensemble chemistry fully settled."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 2 expanded to 16 episodes and maintained the critical standard of the debut with another 100% Rotten Tomatoes score. The Trudy murder mythology was developed with care, seeding clues across the procedural-of-the-week structure without allowing it to dominate. The Monk-Sharona dynamic reached its most fully articulated form this season, with Bitty Schram's performance given more emotional range than the pilot's caretaker role had initially suggested. The show's willingness to find genuine pathos in Monk's condition - episodes where his OCD is not comic material but devastating limitation - gave it a tonal seriousness that distinguished it from the detective-comedy genre it nominally occupied.",
+      "season_over_season": "The expanded order allows deeper character development - the Trudy mythology and Monk-Sharona dynamic both mature.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2004,
+      "episodes": 16,
+      "release_date": {
+        "value": "2004-06-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 7.9,
+        "basis": "80% on Rotten Tomatoes. Season 3 navigated the departure of Bitty Schram mid-season and the introduction of Traylor Howard as Natalie Teeger. Critics acknowledged the transition cost while finding the new dynamic workable."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 3 was disrupted mid-run by the departure of Bitty Schram, who left after contract disputes and was replaced by Traylor Howard as Natalie Teeger from episode 11 onwards. Critics at 80% on Rotten Tomatoes found the transition competently handled but acknowledged the loss of Schram's particular chemistry with Shalhoub. Howard's Natalie offered a different dynamic - warmer, less exasperated, more genuinely fond of Monk in ways Sharona's professional resentment never allowed. The two approaches were simply different rather than one being clearly superior.",
+      "season_over_season": "Schram's departure and Howard's arrival creates a measurable tonal shift - 80% RT reflects genuine transition costs.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2005,
+      "episodes": 16,
+      "release_date": {
+        "value": "2005-07-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 4 saw the Monk-Natalie partnership settle into its full rhythm, with Howard's warmer dynamic giving the show a slightly different emotional register than the Sharona years. The Trudy mythology continued its slow development across the procedural-of-the-week structure. Shalhoub won his third Emmy in 2006 for this season's work. USA Network continued to rate Monk as its most-watched scripted drama.",
+      "season_over_season": "The Natalie era fully established - the Monk-Natalie dynamic has now had a full season to find its rhythm.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2006,
+      "episodes": 16,
+      "release_date": {
+        "value": "2006-07-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 5 maintained the show's reliable procedural quality with another 16-episode run. The format had by this point become deeply familiar - the elaborate locked-room crime, Monk's intuitive leap, the comic obstacle that his phobias create before the revelation - and the show's audience appreciated the consistency. Critical attention was more sporadic than in the early seasons, though Shalhoub's Emmy record (four wins by this point) ensured continued industry recognition.",
+      "season_over_season": "The show's format is now a deeply familiar comfort - consistent quality without obvious creative reinvention.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2007,
+      "episodes": 16,
+      "release_date": {
+        "value": "2007-07-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "83% on Rotten Tomatoes. Season 6 earned renewed critical notice for an episode where Monk investigates a case connected to Trudy's murder, advancing the central mythology with more clarity than the show had previously allowed."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 6 at 83% on Rotten Tomatoes represented a modest critical upswing from the unscored middle seasons. The Trudy mythology received more deliberate development, with an episode that gave viewers the clearest window into the conspiracy surrounding her murder that the show had offered. Critics who had been waiting for the central thread to be addressed more directly responded positively. The season's tone balanced its typical procedural confidence with awareness that the finale was eventually coming and the mythology would need resolution.",
+      "season_over_season": "Trudy mythology development gives Season 6 renewed critical urgency - 83% RT after the unscored middle stretch.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2008,
+      "episodes": 16,
+      "release_date": {
+        "value": "2008-07-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 7 built toward the announced final season with increasing attention to the Trudy murder mythology. The show had committed to resolving its central mystery in Season 8 and the writers began laying groundwork here. The procedural episodes maintained quality standards - the show had a production rhythm by this point that rarely produced a genuinely bad installment - and the emotional weight of the approaching finale gave the season a purpose that mid-run years sometimes lacked.",
+      "season_over_season": "The penultimate season: mythology groundwork for the finale runs under the week-to-week procedural structure.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2009,
+      "episodes": 16,
+      "release_date": {
+        "value": "2009-08-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "83% on Rotten Tomatoes. The final season resolved the Trudy murder mystery and concluded with a series finale that drew 9.4 million viewers - holding the record for most-watched scripted cable drama from 2009 to 2012. A worthy conclusion to an 8-season run."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0312172/"
+      },
+      "review_body": "Season 8 delivered the resolution that the Trudy murder mythology had been building toward for eight years. The series finale aired December 4, 2009 and drew 9.4 million viewers - the most-watched scripted cable drama finale at the time, a record it held until The Walking Dead surpassed it in 2012. Critics at 83% on Rotten Tomatoes found the concluding season emotionally satisfying without being sentimental: the mythology was resolved with clarity and the Monk character arrived at a kind of peace that the show had always withheld. Eight Emmy Awards, one Golden Globe, and two Screen Actors Guild Awards across the run represent a cable drama achievement that remains extraordinary for a basic-cable network in the 2000s.",
+      "season_over_season": "The definitive finale: 9.4 million viewers, Trudy mystery resolved, a worthy conclusion to an 8-year run.",
+      "episode_reviews": [
+        {
+          "number": 16,
+          "title": "Mr. Monk and the End - Part 2",
+          "air_date": "2009-12-04",
+          "bollymeter": 9.2,
+          "spoiler_free": "The series finale resolves the Trudy Monk mystery that the show has been developing across eight seasons. The writing trusts the audience's investment without manufacturing false sentiment. The final scene gives Shalhoub a moment of earned stillness that remains one of the most quietly moving conclusions in cable drama history.",
+          "the_moment": "The final resolution of what happened to Trudy - the show's entire emotional architecture collapses into a single scene, and it earns every beat.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

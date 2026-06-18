@@ -1,0 +1,105 @@
+{
+  "slug": "49-days",
+  "qid": {
+    "value": "Q488652",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "49 Days",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:25:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Fantasy", "Romance", "Drama", "Supernatural"],
+  "logline": "A woman in a coma is given 49 days to collect three genuine tears of love from living people - inhabiting a stranger's body to do it - and discovers her picture-perfect life was built on betrayal.",
+  "poster": {
+    "src": "/img/series/49-days/poster.jpg",
+    "alt": "49 Days poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 20 episodes completed May 19, 2011 on SBS. Lee Yo-won won the PD Award and Top Ten Stars Award at the 2011 SBS Drama Awards.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/49_Days"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2011,
+      "episodes": 20,
+      "release_date": {
+        "value": "2011-03-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:25:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "IMDb users rate it 8.0/10 and MyDramaList users 8.2/10 across 21,480 votes. Finale achieved 17.1 percent nationally and 19.9 percent in Seoul. Lee Yo-won's dual-role performance won the PD Award at the 2011 SBS Drama Awards."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "MyDramaList",
+        "source_url": "https://mydramalist.com/288-49-days-2011"
+      },
+      "review_body": "49 Days aired on SBS in spring 2011 and built steadily to a Seoul finale rating of 19.9 percent, with critics and audiences drawn to its unusually grounded treatment of a supernatural premise. The central conceit - a comatose woman borrowing another woman's body to collect tears proving she was genuinely loved - draws from Korean shamanic traditions about the soul's 49-day transit after death, giving the fantasy architecture a cultural specificity absent from similar Western dramas. Lee Yo-won carries the double performance, embodying two women with distinct physicality and emotional registers; critics at the 2011 SBS Drama Awards singled her out for the PD Award. The show's genuine dramatic engine is the revelation that the protagonist's ideal life was scaffolded on deception - each genuine tear she collects chips away at what she thought she knew. MyDramaList users rank it 8.2/10, with the emotional finale as a recurring reference point in reviews.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2011-03-16",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premise is established with efficient, unsentimental staging - the accident that triggers the 49-day countdown is shot with real shock, not melodramatic lingering.",
+          "the_moment": "Ji-hyun's moment of realization that she is in someone else's body - played without any comedic softening.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2011-04-21",
+          "bollymeter": 8.3,
+          "spoiler_free": "The midpoint episode where the first genuine tear is earned - the show's thesis that authentic love is rarer than we want to believe is stated most clearly here.",
+          "the_moment": "The scene where Ji-hyun realizes who among her circle is capable of a real emotion versus a performed one.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2011-05-19",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale drew 19.9 percent in Seoul for a reason - the resolution is genuinely brave, refusing the easy comfort the genre usually extends, while still delivering on the emotional contract with the audience.",
+          "the_moment": "The final tear scene - the identity of the third person who cries for Ji-hyun reframes the entire season.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:25:00+05:30"
+}

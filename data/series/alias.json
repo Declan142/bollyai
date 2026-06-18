@@ -1,0 +1,213 @@
+{
+  "slug": "alias",
+  "qid": {
+    "value": "Q212807",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Alias",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ABC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Spy", "Action", "Thriller", "Drama"],
+  "logline": "A graduate student discovers she has been working for a criminal syndicate rather than the CIA and becomes a double agent, juggling impossible missions and an increasingly labyrinthine mythology of ancient prophecy.",
+  "poster": {
+    "src": "/img/series/alias/poster.jpg",
+    "alt": "Alias poster",
+    "attribution": "Poster © ABC / Touchstone Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Alias ran five seasons on ABC from September 2001 to May 2006. Jennifer Garner confirmed after Season 5 that the show was concluding, and ABC did not order a sixth season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Alias_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2001,
+      "episodes": 22,
+      "release_date": {
+        "value": "2001-09-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "84% on Rotten Tomatoes from 37 reviews. J.J. Abrams' debut television series launched Jennifer Garner as a genuine action lead, with the AFI listing it among the top ten television programs of 2003. The double-agent premise is established with propulsive clarity."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": 37,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0285333/"
+      },
+      "review_body": "Season 1 is the show's cleanest argument. J.J. Abrams drops Sydney Bristow into a premise of elegant paranoia: the spy organization that recruited her is not the CIA - it is a criminal syndicate. Every mission she has run has served the enemy. The first season uses this revelation as a structural engine, with Sydney working for both SD-6 (under cover) and the real CIA (in secret) while the mythology of Renaissance prophet Milo Rambaldi begins its slow intrusion. Garner won a Golden Globe for her performance and critics clustered around 84% on Rotten Tomatoes. The show's greatest Season 1 achievement is sustaining emotional plausibility under a plot architecture that required total suspension of disbelief.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Truth Be Told",
+          "air_date": "2001-09-30",
+          "bollymeter": 8.2,
+          "spoiler_free": "The pilot establishes Sydney's double life in a single episode that would have taken most shows three. Garner carries the physical and emotional demands simultaneously, and Abrams' structure - beginning in crisis, then flashing back to explain everything, then catching up - gives the episode momentum that never lets up.",
+          "the_moment": "The revelation of what SD-6 actually is, delivered to Sydney with clinical brutality, reframes everything that came before and sets the season's stakes in a single scene.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2002,
+      "episodes": 22,
+      "release_date": {
+        "value": "2002-09-29",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "90% on Rotten Tomatoes - the show's critical peak. Season 2 is remembered as Alias at its most inventive, with a mid-season twist that the fan community still debates as one of American television's boldest structural moves."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0285333/"
+      },
+      "review_body": "Season 2 is where Alias reached its creative ceiling. At 90% on Rotten Tomatoes, it represents the best critical consensus the show achieved across its five-season run. The SD-6 storyline that anchored Season 1 was resolved mid-season - a structurally audacious move that refused to let the premise calcify. The Rambaldi mythology deepened in ways that felt genuinely mysterious rather than deliberately obfuscatory. Lena Olin's recurring presence added a layer of moral complexity to the Bristow family dynamics that the show had not previously achieved. The season finale generated genuine shock.",
+      "season_over_season": "The creative summit: a mid-season structural pivot that few network dramas would have risked, executed with confidence.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2003,
+      "episodes": 22,
+      "release_date": {
+        "value": "2003-09-28",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "83% on Rotten Tomatoes. Season 3 opened with a two-year time jump and a memory-gap mystery for Sydney that critics received positively, though the mythology was growing more elaborate than the show could fully sustain."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0285333/"
+      },
+      "review_body": "Season 3 opened with Sydney waking from a two-year memory gap, a premise that reset the show's emotional dynamics and gave Garner new dramatic material. The 83% Rotten Tomatoes score reflects the memory-gap device landing as effective, even as the Rambaldi mythology was growing more baroque than coherent. The Vaughn storyline introduced complications that the show's serialized structure could not fully resolve within 22 episodes. Still, the season maintained the quality level that had made Alias ABC's most ambitious drama.",
+      "season_over_season": "The memory-gap reset offers fresh dramatic territory even as the mythology begins to strain under its own weight.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-01-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "73% on Rotten Tomatoes. Critics felt the show had run out of fresh mythology moves and the Rambaldi arc was generating more confusion than suspense. Garner's performance remained the show's anchor."
+      },
+      "critic": {
+        "positive_pct": 73,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Alias enters its fourth season having run out of rabbits, but Jennifer Garner's charm keeps these spy games fun.",
+            "source": "Rotten Tomatoes (aggregated critics)",
+            "url": "https://www.rottentomatoes.com/tv/alias/s04"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0285333/"
+      },
+      "review_body": "Season 4 moved to Wednesday nights and attempted a partial format reset, introducing more standalone missions alongside the serialized mythology. The 73% Rotten Tomatoes score reflects a cautious reception: Garner's performance remained the show's load-bearing element even as the mythology rabbit-hole grew harder to navigate. The move away from Sunday night reduced the show's event-television profile. Audience numbers declined, prompting ABC to shorten the order for the fifth and final season.",
+      "season_over_season": "Format adjustment and timeslot change signal a show in managed decline - Garner's charisma is the remaining constant.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2005,
+      "episodes": 17,
+      "release_date": {
+        "value": "2005-09-29",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "100% on Rotten Tomatoes on a small sample. The shortened final season moved quickly toward resolution, with critics crediting the writers for knowing when to end and doing so with more craft than the mythology's complexity warranted."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0285333/"
+      },
+      "review_body": "Season 5 ran 17 episodes and functioned as a controlled demolition of the mythology the show had built across four years. At 100% on Rotten Tomatoes on a limited sample, the abbreviated order forced narrative clarity: Rambaldi's prophecies were resolved, character arcs were closed, and the finale gave Garner a send-off that acknowledged what she had brought to the role. Jennifer Garner's real-life pregnancy was written into the season. The show's final season works considerably better as a conclusion than as standalone television.",
+      "season_over_season": "A controlled, coherent finale: the shortened order forced narrative discipline the show had been lacking.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

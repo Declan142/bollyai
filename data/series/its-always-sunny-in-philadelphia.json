@@ -1,0 +1,583 @@
+{
+  "slug": "its-always-sunny-in-philadelphia",
+  "qid": {
+    "value": "Q23670",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "It's Always Sunny in Philadelphia",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "FXX",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Comedy", "Slice of Life"],
+  "logline": "Five catastrophically self-interested friends run a dive bar in Philadelphia, scheme constantly, learn nothing, and somehow remain friends because none of them are capable of anything better.",
+  "poster": {
+    "src": "/img/series/its-always-sunny-in-philadelphia/poster.jpg",
+    "alt": "It's Always Sunny in Philadelphia poster",
+    "attribution": "Poster © FX Productions / RCG Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 17 aired July to August 2025. As of June 2026, the show holds the record for the longest-running American live-action sitcom by seasons. Season 18 is in development.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/It%27s_Always_Sunny_in_Philadelphia"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": 7,
+      "release_date": {
+        "value": "2005-08-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "76% on Rotten Tomatoes. The original seven-episode run shot on consumer-grade cameras with a micro-budget, the series introduced its amoral premise with a roughness that was clearly intentional rather than a constraint."
+      },
+      "critic": {
+        "positive_pct": 76,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "After years of futility, the search for a top-notch, 20-something slacker comedy is over - invariably clever and occasionally a laugh-out-loud riot.",
+            "source": "Variety",
+            "url": "https://variety.com/2005/film/reviews/it-s-always-sunny-in-philadelphia-3-1200524154/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 1 was shot on a consumer video camera for almost nothing - the pilot reportedly cost $200 - and the technical roughness matched the show's moral roughness in ways that felt purposeful. Charlie Day, Glenn Howerton, and Rob McElhenney had built a premise around characters who committed acts that sitcom conventions typically require punishment for, and then refused to punish them. The BBC later designated it 'the best US sitcom.' Variety called it 'invariably clever and occasionally a laugh-out-loud riot.' At 76% on Rotten Tomatoes, critics were intrigued rather than convinced. The show needed Danny DeVito's Season 2 arrival to fully activate its potential.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2006,
+      "episodes": 10,
+      "release_date": {
+        "value": "2006-06-29",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "96% on Rotten Tomatoes. Danny DeVito's arrival as Frank Reynolds transformed the show, giving the gang a financial and moral sponsor of their worst instincts. Critics recognized the upgrade immediately."
+      },
+      "critic": {
+        "positive_pct": 96,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 2 brought Danny DeVito as Frank Reynolds and the show instantly found its definitive configuration. At 96% on Rotten Tomatoes, critics recognized that DeVito's presence liberated the gang's worst instincts by giving those instincts a patron. Frank does not redeem the group - he embodies everything the show argues about how humans actually behave when consequence is reliably absent. The production values improved and the writing hit a consistency that the micro-budget first season could not sustain. The show's willingness to lean into taboo subjects without moralizing distinguished it sharply from every other sitcom on American cable.",
+      "season_over_season": "DeVito's arrival is a transformative upgrade: 96% RT confirms the show found its definitive form.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2007,
+      "episodes": 15,
+      "release_date": {
+        "value": "2007-09-13",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.6,
+        "basis": "90% on Rotten Tomatoes. Season 3 expanded to 15 episodes and the show's tonal range widened, incorporating musical elements, extended concept episodes, and the 'The Gang Goes Jihad' controversy."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 3 demonstrated the show's formal ambition alongside its moral flexibility. At 90% on Rotten Tomatoes, the expanded episode order gave the writers room to experiment: concept episodes, musical elements, and extended set-pieces that would become genre signatures. The 'Nightman Cometh' musical episode, developed across the season and formalized later, had its creative roots here. The show's willingness to treat its characters as genuinely awful while maintaining audience affection for them was becoming a studied craft rather than an accident.",
+      "season_over_season": "The expanded order reveals the writers' formal ambition: concept episodes and musical elements enter the arsenal.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2008,
+      "episodes": 13,
+      "release_date": {
+        "value": "2008-09-18",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes. Season 4 is widely considered the show's most formally inventive run, including 'The Nightman Cometh' - a full-length musical staged within the show that critics and fans regard as one of the most remarkable single episodes in American comedy television."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 4 is the show's formal peak. The 100% Rotten Tomatoes score is anchored by 'The Nightman Cometh,' a full in-universe musical staged in the final episode that demonstrated a level of creative ambition and execution that television comedy rarely attempts. The episode required the cast to perform original songs, choreography, and a continuous narrative that worked both as parody and as genuine theatrical piece. The rest of the season matched that energy: concept episodes, more elaborate set-pieces, and a sharpening of the show's argument about character stasis as a comedy mechanism rather than a narrative failure.",
+      "season_over_season": "The creative summit: 100% RT and 'The Nightman Cometh' as a landmark single episode.",
+      "episode_reviews": [
+        {
+          "number": 13,
+          "title": "The Nightman Cometh",
+          "air_date": "2008-11-20",
+          "bollymeter": 9.5,
+          "spoiler_free": "Charlie stages a full musical - songs, sets, costumes, and a continuous in-world story - in which his feelings for the Waitress are encoded in fantasy and delusion. The episode is simultaneously a perfectly executed parody of community theatre and a genuinely moving portrait of a character who can only express love through elaborate indirection.",
+          "the_moment": "Charlie's final plea in the closing number, which is played completely straight despite the absurd context surrounding it.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "year": 2009,
+      "episodes": 12,
+      "release_date": {
+        "value": "2009-09-17",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "94% on Rotten Tomatoes. Season 5 maintained the creative peak with episodes that remain among the most frequently cited in fan rankings. The show's long-form character comedy had fully matured."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 5 at 94% on Rotten Tomatoes confirmed that Season 4 was not an aberration. The show had found a durable creative rhythm: build each episode around a premise that a normal sitcom would refuse, execute it with discipline, and trust the audience to track the internal logic of characters who have no redemption arc coming. Episodes like 'The Gang Gives Frank an Intervention' demonstrated the show's ability to find emotional weight inside comedic darkness without collapsing into sincerity. The writing was at this point operating at a precision the early seasons could not have anticipated.",
+      "season_over_season": "The sustained peak: 94% RT confirms the show's creative consistency rather than one-season lightning-in-a-bottle.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 2010,
+      "episodes": 13,
+      "release_date": {
+        "value": "2010-09-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "94% on Rotten Tomatoes. Season 6 continued the show's remarkable mid-run form, including the acclaimed 'A Very Sunny Christmas' special that became a seasonal cable staple."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 6 sustained the creative consistency of Seasons 4 and 5 and included 'A Very Sunny Christmas,' an extended holiday episode that worked as a genuine special rather than a clip-show filler. At 94% on Rotten Tomatoes, the season operates with a confidence that makes even its darker excursions feel purposeful. The Kaitlin Olson - Dennis Reynolds dynamic received writing attention this season, with the show finding new angles on a relationship it had been developing for six years.",
+      "season_over_season": "Creative consistency maintained at the highest level - the Christmas special extends the show's formal range.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2011,
+      "episodes": 13,
+      "release_date": {
+        "value": "2011-09-15",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes. Season 7 is another critical high-water mark, featuring the 'Chardee MacDennis' episode - an extended game episode that critics ranked among the show's finest hours."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 7 hit 100% on Rotten Tomatoes and is remembered largely for 'Chardee MacDennis: The Game of Games,' an episode-length exploration of a sadistic board game the gang invented, which functions as a perfect encapsulation of the show's entire moral and comedic universe. The episode demonstrated that the show could build a sustained set-piece from first principles - establishing rules, testing them, and finding its humor in the collision between the gang's internal logic and observable reality.",
+      "season_over_season": "A second 100% RT season demonstrates the show has not declined from its mid-run peak.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2012,
+      "episodes": 10,
+      "release_date": {
+        "value": "2012-10-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes. Season 8 was the final season on FX before the move to FXX, and delivered another critically perfect run."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 8 closed the show's FX chapter with another 100% Rotten Tomatoes score and a ten-episode run that demonstrated the writers' ability to find new situations for characters whose defining trait is their refusal to grow. The final FX season before the network shift to FXX, it maintained every creative standard the show had established across seven prior seasons.",
+      "season_over_season": "The final FX season - another 100% RT, the character formula fully mastered.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2013,
+      "episodes": 10,
+      "release_date": {
+        "value": "2013-09-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes. The FXX debut season maintained the 100% critical streak and introduced the show to a broader cable audience via the network transition."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 9 moved the show to FXX and maintained its perfect critical record with another 100% Rotten Tomatoes score. The transition came with an FXX launch marathon that introduced the show to viewers who had not followed it from the beginning, and the network bet on Sunny as an anchor property. At ten episodes, the season matched the compressed format the show had adopted since the move away from the longer 13-15 episode orders of the mid-run years.",
+      "season_over_season": "Network transition to FXX with creative standard fully intact - 100% RT continues.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2015,
+      "episodes": 10,
+      "release_date": {
+        "value": "2015-01-14",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes. Season 10 is a fan-consensus peak, featuring 'Charlie Work' - an unbroken tracking-shot episode that critics and audiences ranked among the most technically accomplished comedy episodes in television history."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 10 at 100% on Rotten Tomatoes is remembered primarily for 'Charlie Work,' an episode structured as a series of extended tracking shots following Charlie as he tries to pass a health inspection while the rest of the gang run an incompatible scam around him. The choreography required to execute the single-take aesthetic in a comedy context without losing the pacing is a genuine technical achievement - one of the most formally accomplished comedy half-hours in television history. The rest of the season matched the ambition.",
+      "season_over_season": "'Charlie Work' arrives as a landmark technical achievement - 100% RT confirms the show's late-run creative power.",
+      "episode_reviews": [
+        {
+          "number": 4,
+          "title": "Charlie Work",
+          "air_date": "2015-01-28",
+          "bollymeter": 9.6,
+          "spoiler_free": "Charlie desperately tries to keep the bar functional during a health inspection while the rest of the gang scheme around him, all captured in a series of extended tracking shots that execute a comedy of escalating chaos with the precision of a heist film. One of the most formally accomplished half-hours in television comedy.",
+          "the_moment": "The shot that follows Charlie from the basement to the roof in a single unbroken take, juggling six different narrative threads simultaneously.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "year": 2016,
+      "episodes": 10,
+      "release_date": {
+        "value": "2016-01-06",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "100% on Rotten Tomatoes. Season 11 sustained the creative momentum with another perfect critical run, making the show's consistent quality across a decade-plus the story itself."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 11's 100% on Rotten Tomatoes extended the show's remarkable late-run creative record. By this point the show had become a case study in how to maintain a single-premise comedy across more than a decade - the gang's refusal to learn from experience was not a writing limitation but a structural choice that the show had now demonstrated could sustain indefinitely. The BBC's 2019 designation of it as 'the best US sitcom' reflected this cumulative achievement.",
+      "season_over_season": "Consistent excellence across a decade - the show's durability is now itself the remarkable quality.",
+      "episode_reviews": []
+    },
+    {
+      "number": 12,
+      "year": 2017,
+      "episodes": 10,
+      "release_date": {
+        "value": "2017-01-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "90% on Rotten Tomatoes. A dip from the 100% streak but still firmly excellent. Season 12 included 'Hero or Hate Crime?' which critics praised as one of the show's sharper character studies."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 12 broke the show's multi-season 100% streak at 90% on Rotten Tomatoes - still a strong result by any standard but representing the first crack in the streak. The season included 'Hero or Hate Crime?,' an episode that stands as one of the show's most structurally accomplished installments, using the gang's petty grievances to construct an extended argument about identity, language, and the arbitrariness of social contract. The show's decade-plus run was increasingly being read through an auteur lens, with Howerton, McElhenney, and Day recognized as writer-performers of unusual consistency.",
+      "season_over_season": "First break in the 100% streak, still 90% - a minor creative dip after six consecutive perfect critical seasons.",
+      "episode_reviews": []
+    },
+    {
+      "number": 13,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-09-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "94% on Rotten Tomatoes. The return to high-90s territory demonstrated the minor Season 12 dip was not a trend. The show reached its record as the longest-running American live-action sitcom during this era."
+      },
+      "critic": {
+        "positive_pct": 94,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 13 at 94% on Rotten Tomatoes confirmed the return to form after Season 12's relative dip. During this period the show surpassed The Adventures of Ozzie and Harriet to become the longest-running American live-action sitcom in history by season count. The show's quality had not followed the typical network sitcom decline curve - the creative record across 13 seasons was without meaningful precedent in the genre.",
+      "season_over_season": "Return to 94% and a historic longevity record - the show is now definitively the longest-running American live-action sitcom.",
+      "episode_reviews": []
+    },
+    {
+      "number": 14,
+      "year": 2019,
+      "episodes": 10,
+      "release_date": {
+        "value": "2019-09-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "83% on Rotten Tomatoes. The show's first genuinely mixed critical season in years. Critics found some episodes reaching for societal commentary at the expense of character-driven absurdism."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 14 at 83% on Rotten Tomatoes was the show's lowest score in years. The tension between the show's character comedy and its increasing engagement with social commentary shows in some episodes: the gang's insularity had always allowed hot-button subjects to be comedy material without didacticism, but Season 14 occasionally feels more interested in the subjects than in the characters reacting to them. Still watchable for committed fans.",
+      "season_over_season": "The show's weakest recent score at 83% - the balance between character comedy and social commentary tilts noticeably.",
+      "episode_reviews": []
+    },
+    {
+      "number": 15,
+      "year": 2021,
+      "episodes": 8,
+      "release_date": {
+        "value": "2021-12-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "100% on Rotten Tomatoes. The COVID-delayed Season 15 returned to critical perfection with a tight 8-episode run that critics called a creative resurgence. The gang's pandemic-era adventures generated the show's most inventive recent material."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 15, delayed by COVID-19 production shutdowns, arrived in December 2021 with a lean 8-episode order and 100% on Rotten Tomatoes. The compressed format reads as a creative advantage - the season has the density of the best mid-run years without overstaying its welcome. Episodes set in Ireland provided a geographic change that reinvigorated the gang's dynamic. The 100% score stands as evidence that the show had not entered the gradual creative decline that typically characterizes long-running sitcoms.",
+      "season_over_season": "The COVID return: compressed format and an Ireland setting produce the show's strongest recent critical reception.",
+      "episode_reviews": []
+    },
+    {
+      "number": 16,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-06-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "100% on Rotten Tomatoes. Season 16 sustained the late-run resurgence with another perfect critical run and continued the compressed 8-episode format that had reinvigorated the show."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 16 maintained the creative resurgence of Season 15 with another 100% Rotten Tomatoes score and 8 episodes. The show's late-era renaissance - post-Season 14 dip - is a documented trend: two consecutive perfect scores for a show in its second decade of production. The compressed format continued to suit the show's comedic sensibility: less time for filler meant every episode had to earn its place.",
+      "season_over_season": "Second consecutive 100% RT after the Season 14 dip - the late-era resurgence is confirmed as a trend.",
+      "episode_reviews": []
+    },
+    {
+      "number": 17,
+      "year": 2025,
+      "episodes": 8,
+      "release_date": {
+        "value": "2025-07-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "84% on Rotten Tomatoes. Season 17 aired July to August 2025 to a positive if slightly cooler reception than the Seasons 15-16 peak. The show remains the longest-running American live-action sitcom with no announced end date."
+      },
+      "critic": {
+        "positive_pct": 84,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0472954/"
+      },
+      "review_body": "Season 17 aired in summer 2025 to 84% on Rotten Tomatoes - a solid result that placed it closer to Season 14 than to the late-run 100% seasons. The show is now in its twentieth year on air. Season 18 is in development. The critical consensus around Season 17 acknowledged the show's extraordinary durability while noting that the creative ceiling it achieved in Seasons 4 through 11 remained a high-water mark. For a show in its second decade, very few competitors can claim this level of continued critical engagement.",
+      "season_over_season": "Slight dip from the Seasons 15-16 peak - 84% still represents extraordinary late-run quality for a twenty-year-old show.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

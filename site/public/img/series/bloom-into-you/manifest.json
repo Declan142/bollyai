@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Troyca / BS11. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Yagate_Kimi_ni_Naru_manga_volume_1_ASCII_Media_Works_cover.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T01:33:46Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/bloom-into-you/poster.jpg",
+    "source_height": 386,
+    "source_width": 271,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "bloom-into-you",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Bloom_Into_You",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Yagate_Kimi_ni_Naru_manga_volume_1_ASCII_Media_Works_cover.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/bloom-into-you/w185.avif",
+      "bytes": 9465
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/bloom-into-you/w185.webp",
+      "bytes": 9710
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/bloom-into-you/w342.avif",
+      "bytes": 18686
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/bloom-into-you/w342.webp",
+      "bytes": 21032
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/bloom-into-you/w500.avif",
+      "bytes": 27491
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/bloom-into-you/w500.webp",
+      "bytes": 30776
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T01:34:22.950Z"
+}

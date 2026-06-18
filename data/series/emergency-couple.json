@@ -1,0 +1,96 @@
+{
+  "slug": "emergency-couple",
+  "qid": {
+    "value": "Q15520883",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Emergency Couple",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Comedy", "Drama", "Medical"],
+  "logline": "A bitterly divorced couple find themselves reunited as medical interns in the same hospital emergency room, forced to work side by side while confronting the unfinished business of their failed marriage.",
+  "poster": {
+    "src": "/img/series/emergency-couple/poster.jpg",
+    "alt": "Emergency Couple poster",
+    "attribution": "Poster © tvN / CJ ENM. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 21 episodes completed April 5, 2014. Series was extended by one episode from the original 20 due to strong audience response.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Emergency_Couple"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 21,
+      "release_date": {
+        "value": "2014-01-24",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "IMDb users rate it 7.4/10 and MyDramaList users 7.9/10, with consistent praise for the lead chemistry and the novel flashback structure layering a failed marriage over its tentative rebuilding."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3530644/"
+      },
+      "review_body": "Emergency Couple opened on tvN in January 2014 with modest cable ratings of 2.4 percent, climbing to 5.1 percent by the finale - a trajectory that prompted an extra episode and international sales to nine countries. Audience response on MyDramaList (7.9/10 from over 27,000 users) consistently clustered around two strengths: the sparky antagonism between Song Ji-hyo and Choi Jin-hyuk as the bickering ex-spouses, and the structural ingenuity of using ER chaos as a pressure chamber that forces genuine reckoning. The medical backdrop functions as scaffolding for the romantic premise rather than a procedural in disguise - the ER is a milieu, not the subject. Pacing drags in the middle stretch, and the second male lead's function as emotional foil is underwritten, but the finale delivers on its central question: whether two people who failed the first time can build something honest from the wreckage.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2014-01-24",
+          "bollymeter": 7.5,
+          "spoiler_free": "The setup lands with efficient economy - the divorce backstory is sketched through sharp flashbacks, and the ER reunion is staged with enough comic awkwardness to hook the premise immediately.",
+          "the_moment": "The moment the two ex-spouses lock eyes across a gurney for the first time as colleagues, not spouses.",
+          "critic_note": null
+        },
+        {
+          "number": 21,
+          "title": "Episode 21",
+          "air_date": "2014-04-05",
+          "bollymeter": 7.6,
+          "spoiler_free": "The finale earns its extended runtime by grounding the reconciliation in earned emotional logic rather than convenient coincidence, paying off the slow-burn rebuild across the season.",
+          "the_moment": "The final ER shift together - the show's central metaphor about triage and second chances made literal.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:00:00+05:30"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "firefly",
+  "qid": {
+    "value": "Q11622",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Firefly",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Fox",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Adventure", "Drama", "Action"],
+  "logline": "In a future where humanity has colonized the stars, a ragtag crew of nine aboard the transport ship Serenity scrapes out a living on the outer edges of civilization - losers of a war who refuse to stop running.",
+  "poster": {
+    "src": "/img/series/firefly/poster.jpg",
+    "alt": "Firefly poster",
+    "attribution": "Poster © Fox Broadcasting Company / Mutant Enemy Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Fox cancelled Firefly after airing 11 of 14 produced episodes in December 2002. The story continued with the 2005 feature film Serenity. No television revival has been produced despite persistent fan campaigns.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2002,
+      "episodes": 14,
+      "release_date": {
+        "value": "2002-09-20",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "77% on Rotten Tomatoes from 43 reviews, with a 96% audience score. Despite Fox airing episodes out of order and cancelling the show after 11 episodes, critics and audiences recognized a world-building achievement of uncommon ambition. Metacritic scored it 63 from critics but 8.8 from users."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": 43,
+        "pull_quotes": [
+          {
+            "text": "Firefly benefits enormously from Whedon's ability to take the clichés of any genre and give them a good, hard yank.",
+            "source": "Metacritic critic aggregation",
+            "url": "https://www.metacritic.com/tv/firefly/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 9.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0303461/"
+      },
+      "review_body": "Firefly was broadcast out of order by Fox, denied a full-season run, and cancelled after three months. What remains is 14 episodes - 11 aired, 3 unaired at cancellation - that constitute one of the sharpest cases of television-industry waste in the genre's history. Joss Whedon's space Western places nine fully drawn characters aboard a ship and lets their dynamics generate drama from the friction of shared necessity. The 77% Rotten Tomatoes score understates the show's critical standing; the 96% audience approval and 9.1 IMDb rating more accurately capture the passion of its reception. Critics initially divided on whether the genre hybrid (space opera meets frontier Western) worked; the audience delivered a verdict without ambiguity. The 'Browncoat' fandom that sustained a campaign for revival for two decades is the show's most lasting cultural artifact.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Serenity",
+          "air_date": "2002-12-20",
+          "bollymeter": 8.8,
+          "spoiler_free": "The two-hour pilot - aired last by Fox but intended as the series opener - establishes the nine crew members and the show's moral universe with a confidence that most series take a full season to achieve. Malcolm Reynolds' defining line about what he believes in is delivered in the first episode and never superseded.",
+          "the_moment": "The moment Shepherd Book arrives at the ship and the crew's response to him defines the show's tonal contract: warmth without sentimentality, suspicion without cruelty.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Out of Gas",
+          "air_date": "2002-10-25",
+          "bollymeter": 9.3,
+          "spoiler_free": "Three interleaved timelines - how the ship came together, the crew's past, and a lethal present-day crisis - constitute the show's most formally ambitious episode and its emotional peak. The story of how Serenity was acquired is one of the genuinely moving origin stories American genre television produced in the 2000s.",
+          "the_moment": "Mal alone on the dying ship, waiting for a ship that may never come. The show's heart is most visible in its silences.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Objects in Space",
+          "air_date": "2002-12-13",
+          "bollymeter": 9.2,
+          "spoiler_free": "A bounty hunter who sees the world as objects rather than people boards Serenity to collect River Tam. The episode is Whedon's most formally experimental hour, using River's perception disorder as a lens that reframes the entire show. The final aired episode before cancellation.",
+          "the_moment": "The bounty hunter's first conversation with River, which becomes something almost philosophical before it becomes something dangerous.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

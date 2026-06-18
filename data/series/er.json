@@ -1,0 +1,501 @@
+{
+  "slug": "er",
+  "qid": {
+    "value": "Q207375",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "ER",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "NBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Medical"],
+  "logline": "Inside the emergency room of a Chicago teaching hospital, doctors and nurses fight to save lives under relentless pressure - and somehow manage to keep their own lives from falling apart.",
+  "poster": {
+    "src": "/img/series/er/poster.jpg",
+    "alt": "ER poster",
+    "attribution": "Poster © Warner Bros. Television / NBC. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "ER ran 15 seasons on NBC from 1994 to 2009, concluding with a series finale on April 2, 2009. The show was not revived after its conclusion.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/ER_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1994,
+      "episodes": 25,
+      "release_date": {
+        "value": "1994-09-19",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "Season 1 established Michael Crichton's hospital drama as a new standard for American television, with Variety calling both ER and its rival Chicago Hope 'riveting, superior TV fare.' Critics praised its fast-paced ensemble storytelling."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Riveting, superior TV fare - ER is exceptional ensemble drama from its very first episode.",
+            "source": "Variety",
+            "url": "https://variety.com/1994/tv/reviews/er-2-1200438457/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 1 of ER announced itself as a genre redefinition. Michael Crichton's creation brought documentary-style pacing, overlapping medical jargon, and a deliberately unglamorous view of hospital work that had no network television equivalent. The 25-episode debut built an ensemble - anchored by Anthony Edwards and a career-making early appearance from George Clooney - whose internal dynamics felt genuinely unscripted. Variety recognized it as 'riveting, superior TV fare.' The show broke cable-network conventions for how much blood and procedural reality prime-time drama could absorb, setting a standard that shaped ER's successors for decades. The pilot alone drew massive viewership.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "24 Hours",
+          "air_date": "1994-09-19",
+          "bollymeter": 8.8,
+          "spoiler_free": "The feature-length pilot drops viewers into Cook County ER without orientation, trusting them to find their footing amid overlapping crises. Michael Crichton's script moves with the speed of genuine emergency medicine. George Clooney's Doug Ross and Anthony Edwards' Mark Greene establish a dynamic that would define the show's entire run.",
+          "the_moment": "The closing shot of the ER team regrouping after a catastrophic hour - exhausted, intact, ready for the next case. The show's whole emotional argument in one image.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1995,
+      "episodes": 22,
+      "release_date": {
+        "value": "1995-09-21",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "Season 2 holds 100% on Rotten Tomatoes and represents the show at its critical and creative summit. The ensemble deepened and the moral complexity of emergency medicine became the show's defining subject."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 2 is where ER became culturally inescapable. The 100% Rotten Tomatoes score reflects a near-consensus that the show had found its full register - the pace relentless, the ensemble working at peak efficiency, and the moral weight of the cases giving the drama a seriousness that network television rarely attempted. The Clooney-Edwards chemistry anchored episodes asking difficult questions about rationing care, physician burnout, and the human cost of institutional medicine. The show hit its ratings peak in this period, drawing over 30 million viewers.",
+      "season_over_season": "The creative summit: 100% RT, ratings peak, the ensemble fully formed and the moral stakes at their sharpest.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 1996,
+      "episodes": 22,
+      "release_date": {
+        "value": "1996-09-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.4,
+        "basis": "Season 3 maintained the show's critical standing and audience loyalty, continuing to push the boundaries of what medical drama could address on network prime-time."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 3 sustained the show's remarkable creative run with another 22 episodes that balanced procedural rigor against deepening character work. The writers found ways to introduce new crises without retreading ground - a testament to the breadth of Crichton's original premise that Cook County ER could plausibly contain almost any human story. The show's willingness to kill characters, break romances without resolution, and depict institutional failure without neat correctives gave it an authenticity that its competitors did not match.",
+      "season_over_season": "Maintains the creative standard without obvious creative reinvention - the ensemble's depth now carries what new plotting does not.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 1997,
+      "episodes": 22,
+      "release_date": {
+        "value": "1997-09-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "50% on Rotten Tomatoes marks a clear critical dip, though audience loyalty held. Character departures and the strain of sustaining four seasons of intensity began to show."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 4 scored 50% on Rotten Tomatoes - a significant drop attributable to character churn and a sense that the show's format, brilliant in its first two seasons, had exhausted some of its best narrative possibilities. George Clooney's rising film career was beginning to pull him away from the series. The audience remained enormous by any standard, but the 50% score signals the show settling into comfortable repetition rather than pushing against its own template.",
+      "season_over_season": "The first major dip: 50% RT as character departures and format familiarity begin to cost the show its critical edge.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 1998,
+      "episodes": 22,
+      "release_date": {
+        "value": "1998-09-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "Season 5 marked the full departure of George Clooney and the show's pivot to new ensemble members. Critics acknowledged the transition costs while finding the core format durable enough to sustain the change."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 5 navigated the full exit of George Clooney and the introduction of new cast members including Alex Kingston as Dr. Elizabeth Corday. The show's format proved robust enough to absorb the transition - the ER itself remained the gravitational center, and new characters found their footing within the existing ensemble rather than displacing it. The ratings stayed strong even as the critical consensus softened from the early-season peaks. Maria Bello's arrival added energy that critics credited with partially compensating for the star's departure.",
+      "season_over_season": "The post-Clooney pivot: new cast members fill the space competently, though the show's star wattage dims.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 1999,
+      "episodes": 22,
+      "release_date": {
+        "value": "1999-09-30",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "Season 6 continued the show's post-Clooney identity with a stabilized ensemble and the kind of emotionally ambitious episode-level storytelling that kept the series on the awards circuit."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 6 consolidated the post-Clooney ensemble and delivered several standalone episodes notable enough to land on awards-season shortlists. Laura Innes as Dr. Kerry Weaver assumed a more prominent role, and the writing accommodated her character's complexity without losing the procedural momentum that defined the show's appeal. The series remained NBC's prestige drama anchor even as newer competitors were emerging. Emotionally ambitious set-pieces demonstrated that the show had not abandoned the creative ambition of its early seasons.",
+      "season_over_season": "Ensemble stabilization complete - the show finds its post-Clooney rhythm without obvious creative reinvention.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 2000,
+      "episodes": 22,
+      "release_date": {
+        "value": "2000-10-12",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.3,
+        "basis": "Season 7 brought Alex Kingston and Julianna Margulies' departures. The show's cast churn was becoming a structural feature rather than a narrative tool, and critics noted the cumulative effect."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 7 absorbed more cast departures - Julianna Margulies and Alex Kingston among them - and the cumulative cost of cast churn was becoming harder to ignore. The show's great strength was always its ensemble, and rebuilding that ensemble repeatedly required an investment of narrative time that the format's pace did not always accommodate gracefully. The individual episode quality remained high, but the emotional connective tissue that made early seasons devastating had thinned.",
+      "season_over_season": "Margulies and Kingston departures mark another transition point - ensemble continuity is now the exception rather than the rule.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2001,
+      "episodes": 22,
+      "release_date": {
+        "value": "2001-09-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Season 8 aired in the immediate aftermath of the September 11 attacks and the show's themes of trauma, triage, and institutional resilience acquired unexpected resonance. Anthony Edwards' exit closed an era."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 8 aired under the shadow of September 11 and navigated that historical weight with variable success. The show's central concerns - mass casualty events, institutional responses to crisis, the human capacity to keep working under impossible pressure - resonated differently after September 2001. Anthony Edwards' departure as Dr. Mark Greene in a landmark episode was handled with directorial and writing ambition that stands as the show at its best. The finale closed the Greene era with genuine grace, a proper farewell to the character who had anchored the show since the pilot.",
+      "season_over_season": "The Greene era ends: Edwards' exit is handled beautifully, a reminder of what the show can do at its best.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2002,
+      "episodes": 22,
+      "release_date": {
+        "value": "2002-09-26",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Season 9 struggled to establish post-Greene identity while the broader television landscape was shifting toward serialized cable drama. The format was showing its age."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 9 opened the post-Greene chapter with a new set of characters and a television landscape that had fundamentally changed since ER's 1994 debut. The Wire had begun its run; The Sopranos had reshaped what prestige drama could do. ER's format - episodic, procedural, resolutely present-tense - felt less innovative in this context than it had in the 1990s. The show remained competently made and the new ensemble found its footing, but the critical conversation had moved to different rooms.",
+      "season_over_season": "The post-Greene era begins in a changed television landscape - the format's episodic model looks more conventional in 2002 than it did in 1994.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2003,
+      "episodes": 22,
+      "release_date": {
+        "value": "2003-09-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.7,
+        "basis": "Season 10 marked the show's decade anniversary. The format remained solid but the cultural conversation had moved on. For dedicated viewers only."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 10 marked ER's tenth anniversary on NBC and the show acknowledged its own longevity in the writing - episodes that brought back familiar faces and nodded at decade-long institutional history. The format's durability was itself the subject of commentary: few network dramas had survived their first cast turnover, let alone their second and third. Quality was consistent without being exceptional. The audience, while smaller than the early-2000s peak, remained loyal.",
+      "season_over_season": "Tenth anniversary introspection - the show acknowledges its own institutional weight without breaking new ground.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2004,
+      "episodes": 22,
+      "release_date": {
+        "value": "2004-09-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 11 continued the show's competent late-run form. The medical stories remained credible and the format's efficiency in establishing new characters had become a craft skill in itself after a decade of practice. Critical attention was elsewhere in 2004 - The Wire, Deadwood, and Lost dominated the prestige conversation - but ER continued to serve its audience with reliable quality.",
+      "season_over_season": "Reliable late-run competence - the show serves its loyal audience without chasing the new prestige-TV conversation.",
+      "episode_reviews": []
+    },
+    {
+      "number": 12,
+      "year": 2005,
+      "episodes": 22,
+      "release_date": {
+        "value": "2005-09-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 12 brought renewed attention when Julianna Margulies returned as Carol Hathaway for a guest arc, demonstrating that the original ensemble retained audience affection even years after their departures. The season otherwise held steady in the show's late-run mode: proficient, character-driven, and unambitious about reinventing itself at this stage of its run.",
+      "season_over_season": "Margulies' return provides a genuine emotional jolt in an otherwise steady late-run season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 13,
+      "year": 2006,
+      "episodes": 23,
+      "release_date": {
+        "value": "2006-09-21",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 13, at 23 episodes, was one of the longer late-run seasons. The show was now operating in a television environment dominated by serialized cable drama and the early wave of prestige streaming. Its procedural format felt like a different medium's answer to a question no one was asking anymore. For established fans, the quality was consistent. New viewers had little reason to start here rather than at the beginning.",
+      "season_over_season": "The show serves its established audience without attempting to recruit new viewers at this late stage.",
+      "episode_reviews": []
+    },
+    {
+      "number": 14,
+      "year": 2007,
+      "episodes": 19,
+      "release_date": {
+        "value": "2007-09-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 14, a truncated 19-episode run, signaled the show's approaching conclusion. NBC had been in discussions about an end date and the writing reflected awareness that the finale was coming. For fans who had followed the show across a decade and a half, the prospect of a proper farewell focused attention in a way the show had not commanded in years.",
+      "season_over_season": "The shortened season signals the end is in sight - writing gains focus as the conclusion approaches.",
+      "episode_reviews": []
+    },
+    {
+      "number": 15,
+      "year": 2008,
+      "episodes": 22,
+      "release_date": {
+        "value": "2008-09-25",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 15 holds 83% on Rotten Tomatoes. The final season brought back George Clooney, Anthony Edwards, Julianna Margulies, and other franchise alumni, producing a genuine emotional farewell that critics acknowledged as a worthy close to 15 years."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0108757/"
+      },
+      "review_body": "Season 15 functioned as a retrospective. The final run brought back George Clooney, Anthony Edwards, Julianna Margulies, and others for guest appearances that allowed the show to close its character arcs with something approaching emotional completion. The 83% Rotten Tomatoes score reflects a consensus that the finale season earned its sentiment rather than manufacturing it. The series finale on April 2, 2009 drew 16.4 million viewers. The show won 128 industry awards from 442 nominations across its run, including a Peabody Award and a Primetime Emmy for Outstanding Drama Series. By any measure, one of the longest and most influential runs in American television drama history.",
+      "season_over_season": "A proper farewell: returning alumni and 83% RT validate a finale season that earns its emotion.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

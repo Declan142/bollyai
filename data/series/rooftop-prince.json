@@ -1,0 +1,96 @@
+{
+  "slug": "rooftop-prince",
+  "qid": {
+    "value": "Q485856",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Rooftop Prince",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Fantasy", "Comedy", "Mystery"],
+  "logline": "A Joseon-era crown prince time-travels 300 years to modern Seoul after his wife's mysterious death, assuming a contemporary billionaire's identity while investigating whether history is about to repeat itself.",
+  "poster": {
+    "src": "/img/series/rooftop-prince/poster.jpg",
+    "alt": "Rooftop Prince poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 20 episodes completed May 24, 2012. No continuation or spinoff was produced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rooftop_Prince"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": 20,
+      "release_date": {
+        "value": "2012-03-21",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "IMDb rates it 7.7/10, with MyDramaList audience giving high scores for the inventive fish-out-of-water comedy setup and Park Yoo-chun's committed physical performance as the bewildered Joseon prince."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2401162/"
+      },
+      "review_body": "Rooftop Prince aired on SBS in spring 2012, averaging 12.1 percent nationwide by the TNmS metric - solid for a time-travel romantic comedy competing in a crowded primetime slot. The drama won a devoted international following, particularly in China and Japan, with fans from over 35 countries visiting filming locations. The premise is genuinely inventive: a grieving prince displaced in time, surrounded by three loyal retainers equally baffled by modern Seoul, navigating a reincarnation mystery that doubles as a corporate thriller. Early episodes mine this setup for sharp physical comedy. The second half shifts register toward melodrama and the tonal gear-change divides opinion - MyDramaList reviews praise the first-half charm, while several note the finale's emotional logic as undercooked. Park Yoo-chun's earnest commitment to the slapstick keeps the whole construct credible.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2012-03-21",
+          "bollymeter": 8.0,
+          "spoiler_free": "The Joseon cold-open is shot with enough period atmosphere to make the time-travel rupture genuinely jarring - the four men landing on a Seoul rooftop is staged as pure disorientation comedy.",
+          "the_moment": "The crown prince's first encounter with a smartphone - played with complete bewildered sincerity.",
+          "critic_note": null
+        },
+        {
+          "number": 20,
+          "title": "Episode 20",
+          "air_date": "2012-05-24",
+          "bollymeter": 7.2,
+          "spoiler_free": "The finale resolves the reincarnation mystery with emotional ambition that somewhat outpaces its own plotting - affecting in moments but less airtight than the premise promised.",
+          "the_moment": "The final resolution of the who-killed-the-crown-princess thread, which recontextualizes both timelines.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:05:00+05:30"
+}

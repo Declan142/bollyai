@@ -1,0 +1,122 @@
+{
+  "slug": "laakhon-mein-ek",
+  "qid": {
+    "value": "Q55075181",
+    "source": "Wikipedia infobox (Wikidata item link)",
+    "fetched_at": "2026-06-18T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Laakhon Mein Ek",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "India",
+  "original_language": {
+    "value": "hi",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:20:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Drama", "Coming of Age", "Teen", "Biographical"],
+  "logline": "A small-town teenager is pushed into the brutal factory of IIT coaching in Season 1, and a government doctor confronts rural healthcare failure in Season 2 - two seasons of India's systemic contradictions told through intimate human cost.",
+  "poster": {
+    "src": "/img/series/laakhon-mein-ek/poster.jpg",
+    "alt": "Laakhon Mein Ek poster",
+    "attribution": "Poster © Amazon Prime Video India. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two anthology-style seasons aired on Amazon Prime Video in 2017 and 2019. No further seasons have been announced as of 2026.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Laakhon_Mein_Ek"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": 7,
+      "release_date": {
+        "value": "2017-10-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.1,
+        "basis": "An 8.1 IMDb rating from over 4,000 user ratings is unusually high for Indian web originals of its era. Critics from Film Companion, Mid-Day, and the Daily Pioneer clustered around the season's atmospheric specificity - the lived-in details of IIT coaching culture that make it more honest than its mainstream peers."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "It's the mechanics of this atmosphere - the specifics and little details - that makes this show more lived-in than its mainstream companions.",
+            "source": "Film Companion (Rahul Desai)",
+            "url": "https://www.filmcompanion.in/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7269100/ratings/"
+      },
+      "review_body": "Season 1 of Laakhon Mein Ek is one of the most precisely observed pieces of Indian streaming drama to emerge from that first generation of Prime Video originals. Created by stand-up comedian Biswa Kalyan Rath, it follows Aakash - a teenager from Raipur railroaded into a Visakhapatnam IIT coaching institute by his father's aspirations - with the patience of someone who has actually lived this experience. Critics from Film Companion, Mid-Day, and the Daily Pioneer all highlighted the same quality: the granular specificity of the coaching-institute atmosphere, the psychological pressure of being in the bottom division, the texture of a life on hold. An 8.1 IMDb score from over 4,000 ratings reflects genuine audience resonance. The season's dramatic limitation - noted by FirstPost - is that Rath's comedy instincts occasionally misfire when the story demands tonal gravity.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Projectile",
+          "air_date": "2017-10-13",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere establishes its stakes without sentimentality: Aakash arrives at Genius Infinity already behind, already wrong-fitting, already carrying someone else's dream. The episode earns its tension through specificity rather than melodrama.",
+          "the_moment": "The first physics class scene - Aakash unable to keep pace with students who have been here longer - is where the series announces what kind of portrait it intends to be.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": 7,
+      "release_date": {
+        "value": "2019-04-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:20:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 2 shifted its lens to rural public healthcare, following a doctor running a cataract camp in a village resistant to government medicine. Critical response was positive but more muted than Season 1, with the consensus noting it as a worthy if slightly less focused anthology entry."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.1,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7269100/ratings/"
+      },
+      "review_body": "Season 2 retained the anthology format but pivoted its setting entirely - from the pressure cooker of elite coaching to the broken plumbing of rural healthcare. Dr. Shreya conducting a cataract camp in a village that distrusts government doctors is a premise with genuine dramatic potential, and the season handles the systemic critique with the same on-the-ground specificity that made Season 1 distinctive. The tonal shift away from adolescent coming-of-age to adult institutional frustration makes it a different kind of watch - quieter, more procedural - and audience reception, while still positive, reflected that the first season's personal urgency was harder to replicate in a new register.",
+      "season_over_season": "Season 1's pressure-cooker IIT setting gave the series a propulsive emotional engine that Season 2's quieter rural healthcare story cannot quite replicate, though the craft remains intact."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:20:00+05:30"
+}

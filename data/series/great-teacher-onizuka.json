@@ -1,0 +1,102 @@
+{
+  "slug": "great-teacher-onizuka",
+  "qid": {
+    "value": "Q457981",
+    "source": "Wikipedia infobox (Wikidata item link)",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Great Teacher Onizuka",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Fuji TV / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Comedy", "Drama", "Coming of Age"],
+  "logline": "A foul-mouthed 22-year-old ex-biker gang leader becomes the most unorthodox teacher at an elite Tokyo school, dismantling student trauma one absurd lesson at a time.",
+  "poster": {
+    "src": "/img/series/great-teacher-onizuka/poster.jpg",
+    "alt": "Great Teacher Onizuka poster",
+    "attribution": "Poster © Studio Pierrot / Fuji TV. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The 43-episode anime adaptation concluded in September 2000. The franchise has since spawned live-action dramas and a 2024 revival series, but the original 1999 anime run is complete.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Great_Teacher_Onizuka"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1999,
+      "episodes": 43,
+      "release_date": {
+        "value": "1999-06-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "MyAnimeList score of 8.68 from over 451,000 ratings places it among the all-time top-100 anime. Critics and fans consistently cite its social commentary on the education system and Onizuka's charismatic irreverence as genre-defining virtues."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "GTO is the father of all slice-of-life anime - a true classic with hidden truisms about actual life.",
+            "source": "Star Crossed Anime",
+            "url": "https://starcrossedanime.com/great-teacher-onizuka-review-875100/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.68,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/245/GTO__Great_Teacher_Onizuka"
+      },
+      "review_body": "When GTO debuted on Fuji TV in June 1999, it arrived as one of the sharpest pieces of social satire Studio Pierrot had produced. Eikichi Onizuka - delinquent, romantic disaster, accidental moralist - became one of the medium's most beloved protagonists not through competence but through sheer audacious empathy. Critics and fans clustered around the same observation: the series weaponises comedy to expose the hypocrisy lurking inside Japan's high-pressure school system, with each episode peeling back a different student's hidden crisis. An 8.68 MyAnimeList score from over 451,000 ratings, placing it in the all-time top-100, reflects a consensus that GTO earns every laugh with genuine emotional weight. The tonal whiplash - viewer laughing hysterically one moment, welling up the next - is not a flaw but the entire point.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Lesson 1: GTO - The Legend Begins",
+          "air_date": "1999-06-30",
+          "bollymeter": 8.5,
+          "spoiler_free": "The extended premiere (48 minutes) introduces Onizuka through a bravura sequence that establishes his contradictions - lecherous, reckless, and oddly principled - before depositing him in front of the class that will eventually transform him as much as he transforms them.",
+          "the_moment": "Onizuka's first confrontation with the class's ringleader establishes that this teacher will not be broken by the usual psychological warfare.",
+          "critic_note": null
+        },
+        {
+          "number": 43,
+          "title": "GTO: Forever",
+          "air_date": "2000-09-17",
+          "bollymeter": 9.0,
+          "spoiler_free": "The finale resolves the arcs of every major student in Class 3-4 while keeping Onizuka's essential wildness intact - a difficult tonal needle the episode threads with surprising grace.",
+          "the_moment": "The class rallying behind Onizuka in the final act is the emotional peak the series builds toward across 43 episodes.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:00:00+05:30"
+}

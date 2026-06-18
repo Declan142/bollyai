@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/2/22/I_Hear_Your_Voice_Official_Poster.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T01:32:35Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/i-hear-your-voice/poster.jpg",
+    "source_height": 385,
+    "source_width": 258,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "i-hear-your-voice",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/I_Can_Hear_Your_Voice",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/22/I_Hear_Your_Voice_Official_Poster.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/i-hear-your-voice/w185.avif",
+      "bytes": 7373
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/i-hear-your-voice/w185.webp",
+      "bytes": 7620
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/i-hear-your-voice/w342.avif",
+      "bytes": 15561
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/i-hear-your-voice/w342.webp",
+      "bytes": 18214
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/i-hear-your-voice/w500.avif",
+      "bytes": 22664
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/i-hear-your-voice/w500.webp",
+      "bytes": 27580
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T01:34:28.891Z"
+}

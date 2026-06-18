@@ -1,0 +1,122 @@
+{
+  "slug": "the-devil-is-a-part-timer",
+  "qid": {
+    "value": "Q5680972",
+    "source": "Wikipedia infobox (Wikidata item link)",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Devil Is a Part-Timer!",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll / Disney+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:05:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Comedy", "Fantasy", "Slice of Life"],
+  "logline": "The demon lord Satan, stripped of his magic and stranded in modern Tokyo, has no choice but to survive by flipping burgers at a fast-food joint while his nemesis hero hunts him down.",
+  "poster": {
+    "src": "/img/series/the-devil-is-a-part-timer/poster.jpg",
+    "alt": "The Devil Is a Part-Timer! poster",
+    "attribution": "Poster © White Fox / MBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two seasons aired between 2013 and 2023. No further seasons have been announced as of 2026, and the source light novel series concluded.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Devil_Is_a_Part-Timer!"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 13,
+      "release_date": {
+        "value": "2013-04-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "Season 1 holds a 7.79 MyAnimeList score from hundreds of thousands of ratings. Reviewers praised its nimble genre-flipping - fantasy fish-out-of-water comedy executed with lively animation and sharp comic timing."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "It's funny when it needs to be, cool when it needs to be, and feel-good when it needs to be.",
+            "source": "Anime Rants",
+            "url": "https://animerants.net/2020/02/18/the-devil-is-a-part-timer-anime-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2622982/"
+      },
+      "review_body": "Season 1 of Hataraku Maou-sama landed in Spring 2013 as a tightly produced 13-episode comedy that pulled off a genuinely clever premise: a world-conquering demon lord humbled by the grind of minimum-wage Tokyo life. White Fox animated the culture-shock gags with a light touch, and the ensemble - Satan as an earnest part-timer, the hero Emi Yusa as his grudge-holding neighbor - generated genuine chemistry. Critics awarded it solid marks for execution, noting the comedy worked best in the first half before the novelty wore thin. A 7.79 MyAnimeList score reflects a strong consensus that Season 1 delivers a satisfying genre lark even if its story never builds to a definitive conclusion.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Devil Arrives in Sasazuka",
+          "air_date": "2013-04-04",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere earns its premise in a single act - a world-ending battle collapses into an argument about train fares - and the tonal whiplash is exactly the joke the whole series is built on.",
+          "the_moment": "Satan mispronouncing the station name while clutching a grocery bag is the moment that crystallises why the concept works.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 24,
+      "release_date": {
+        "value": "2022-07-14",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:05:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Season 2 returned after a nine-year gap to mixed reception. Reviewers found the expanded plot threads vague and the comedy less effective once the novelty of the premise had fully dissolved."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.4,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt2622982/"
+      },
+      "review_body": "Season 2 arrived in Summer 2022, nine years after the original run, produced by a new studio (3Hz) under Disney+ streaming rights for its second part. The delay proved costly: the novelty engine that powered Season 1 had long since idled, and the new season's ambition to advance the actual fantasy plot landed as 'scattered, vague, and poorly structured' in the consensus of dedicated reviewers. Part 2 (2023) completed the adaptation of the light novels but left longtime fans divided. The series closed more as a completion exercise than a triumphant return.",
+      "season_over_season": "Where Season 1 thrived on a contained comic premise executed with precision, Season 2 stretched into ambitious mythology that landed as vague and structurally loose."
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:05:00+05:30"
+}

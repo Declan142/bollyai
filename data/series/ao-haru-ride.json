@@ -1,0 +1,96 @@
+{
+  "slug": "ao-haru-ride",
+  "qid": {
+    "value": "Q1033328",
+    "source": "Wikipedia infobox (Wikidata item link)",
+    "fetched_at": "2026-06-18T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Ao Haru Ride",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "MBS / Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:10:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Anime", "Romance", "Coming of Age", "Teen", "Drama"],
+  "logline": "High school student Futaba reunites with her first love Kou years later to find him emotionally shuttered by grief - and begins the slow work of reaching him without losing herself.",
+  "poster": {
+    "src": "/img/series/ao-haru-ride/poster.jpg",
+    "alt": "Ao Haru Ride poster",
+    "attribution": "Poster © Production I.G / MBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "The 12-episode anime adaptation aired in Summer 2014, covering roughly half the manga. A companion OVA released in December 2014. The anime was not renewed for a second cour; a separate live-action TV drama adaptation ran in 2023-2024.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Ao_Haru_Ride"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2014,
+      "episodes": 12,
+      "release_date": {
+        "value": "2014-07-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:10:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb rating of 7.5 from a large audience sample and a reported MyAnimeList score of 7.75 reflect warm consensus. Critics praised Production I.G's warm visual atmosphere and the emotional authenticity of the leads, with the main caveat being an incomplete adaptation that ends mid-story."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3592708/"
+      },
+      "review_body": "Ao Haru Ride aired in Summer 2014 as one of that season's most anticipated shoujo adaptations, produced by Production I.G - a studio whose technical pedigree brought an unusually polished look to what is, at its core, a quiet high school romance. An IMDb rating of 7.5 and a reported MyAnimeList score of 7.75 reflect warm audience reception centred on the emotional honesty of Futaba and Kou's dynamic: two people circling each other's wounds rather than rushing toward confession. Industry professionals in Japan named it among the best manga series of its year in fan polls. The anime's core limitation is that 12 episodes cover only a portion of the source manga's arc, leaving the central relationship unresolved. For viewers content with an honest portrait of first love's hesitation rather than its culmination, the adaptation rewards.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2014-07-07",
+          "bollymeter": 7.8,
+          "spoiler_free": "The premiere efficiently establishes Futaba's performance of unlikeability as a social survival strategy and drops Kou back into her life as someone who has clearly endured something she cannot yet name.",
+          "the_moment": "The moment Futaba recognises Kou's voice but not his personality reframes the romantic premise as a story about grief rather than nostalgia.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Episode 12",
+          "air_date": "2014-09-22",
+          "bollymeter": 7.5,
+          "spoiler_free": "The finale moves the central relationship forward but by design leaves the resolution open - a choice that satisfies manga readers and frustrates newcomers in roughly equal measure.",
+          "the_moment": "Kou's admission in the final scene is the emotional landing the season has been building toward, though the story clearly has further to travel.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:10:00+05:30"
+}

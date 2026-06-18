@@ -23,7 +23,13 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 985 / 1000   (baseline 183)
+## Progress: 1003 / 1000   *** TARGET REACHED 2026-06-18 ***  (baseline 183)
+
+### Batch 21 — 2026-06-18 — 18 series — STATUS: DONE (985->1003) — TARGET REACHED
+- **A Classic US:** the-x-files · er · alias · firefly · its-always-sunny-in-philadelphia · monk
+- **B K-Drama Classics:** emergency-couple · rooftop-prince · marriage-not-dating · i-hear-your-voice · moon-embracing-the-sun · 49-days
+- **C Anime+World:** great-teacher-onizuka · the-devil-is-a-part-timer · ao-haru-ride · bloom-into-you · laakhon-mein-ek · atiye
+- 18/18 validate clean · build green (8655pp) · AggregateRating gate clean · 10/18 posters (8 SVG fallback)
 
 ### Batch 20 — 2026-06-18 — 30 series — STATUS: DONE (955->985)
 - **A K-Drama:** coffee-prince · goong · yong-pal · 100-days-my-prince · tree-with-deep-roots · daejanggeum

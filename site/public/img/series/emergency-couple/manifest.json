@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © tvN / CJ ENM. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Official_Poster_-_Emergency_Man_and_Woman.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T01:32:00Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/emergency-couple/poster.jpg",
+    "source_height": 375,
+    "source_width": 266,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "emergency-couple",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Emergency_Couple",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Official_Poster_-_Emergency_Man_and_Woman.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/emergency-couple/w185.avif",
+      "bytes": 13724
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/emergency-couple/w185.webp",
+      "bytes": 13744
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/emergency-couple/w342.avif",
+      "bytes": 27562
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/emergency-couple/w342.webp",
+      "bytes": 31984
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/emergency-couple/w500.avif",
+      "bytes": 35998
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/emergency-couple/w500.webp",
+      "bytes": 46984
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T01:34:24.978Z"
+}

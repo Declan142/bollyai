@@ -1,0 +1,105 @@
+{
+  "slug": "i-hear-your-voice",
+  "qid": {
+    "value": "Q13416878",
+    "source": "Wikipedia / Wikidata sidebar",
+    "fetched_at": "2026-06-18T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "I Hear Your Voice",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "SBS",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T10:15:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Romance", "Fantasy", "Legal", "Drama", "Supernatural"],
+  "logline": "A cynical public defender and a teenage mind-reader who witnessed her court testimony as a child are reunited when the killer she helped convict is released - and hunting them both.",
+  "poster": {
+    "src": "/img/series/i-hear-your-voice/poster.jpg",
+    "alt": "I Hear Your Voice poster",
+    "attribution": "Poster © SBS. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run of 18 episodes completed August 1, 2013 on SBS. Originally planned for 16 episodes; extended by two due to strong ratings.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/I_Can_Hear_Your_Voice"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 18,
+      "release_date": {
+        "value": "2013-06-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T10:15:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.0,
+        "basis": "IMDb users rate it 8.0/10. Nielsen Korea viewership climbed from 7.7 percent to a peak 24.1 percent nationwide, with the finale at 23.1 percent - the sustained audience engagement across 18 episodes signals genuine word-of-mouth quality."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt3141190/"
+      },
+      "review_body": "I Hear Your Voice premiered on SBS in June 2013 with 7.7 percent national ratings and closed at 23.1 percent for the finale - a tripling of audience that is one of the cleaner momentum stories in early 2010s K-drama. The mind-reading premise is deployed with more structural intelligence than most supernatural romcoms: it functions as a legal procedure tool, a trauma metaphor, and a threat amplifier simultaneously. Lee Bo-young's Jang Hye-sung is refreshingly compromised - she started as a self-interested teenager and arrives at this story still not fully redeemed. Lee Jong-suk's Park Soo-ha carries the show's emotional center, his devotion never tipping into sentimentality because the villain subplot keeps it tethered to real danger. The thriller strand in the final act, while darker than the premise suggests, is what elevates this above standard legal romcom fare.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2013-06-05",
+          "bollymeter": 8.0,
+          "spoiler_free": "A confident premiere that establishes the supernatural mechanic without over-explaining it, while grounding both leads in believable self-interest rather than instant likability.",
+          "the_moment": "The flashback to Soo-ha as a child watching Hye-sung's courtroom testimony - the moment that locks their fates together.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Episode 9",
+          "air_date": "2013-07-04",
+          "bollymeter": 8.4,
+          "spoiler_free": "The midseason episode (rated 8.4 on IMDb) where the thriller thread overtakes the romantic subplot - the show's tonal shift here is unsettling in the best way.",
+          "the_moment": "The confrontation scene that makes the stakes of the villain's release viscerally real.",
+          "critic_note": null
+        },
+        {
+          "number": 18,
+          "title": "Episode 18",
+          "air_date": "2013-08-01",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale resolves the thriller and romantic threads with satisfying economy, though the courtroom climax is more emotionally rigorous than legally plausible - the show's consistent tradeoff.",
+          "the_moment": "The epilogue sequence that closes the loop on the origin-flashback from episode one.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T10:15:00+05:30"
+}

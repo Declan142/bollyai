@@ -1,0 +1,396 @@
+{
+  "slug": "the-x-files",
+  "qid": {
+    "value": "Q2744",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The X-Files",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Fox",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": ["Sci-Fi", "Mystery", "Thriller", "Supernatural"],
+  "logline": "Two FBI agents - the believer and the skeptic - investigate paranormal cases while uncovering a vast government conspiracy about extraterrestrial life.",
+  "poster": {
+    "src": "/img/series/the-x-files/poster.jpg",
+    "alt": "The X-Files poster",
+    "attribution": "Poster © Fox Broadcasting Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "The original nine-season run ended in 2002. Fox revived the series for a six-episode Season 10 in 2016 and a ten-episode Season 11 in 2018, which served as the series conclusion.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_X-Files"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1993,
+      "episodes": 24,
+      "release_date": {
+        "value": "1993-09-10",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Critics called Season 1 'the most paranoid, subversive show on TV,' and it holds 83% on Rotten Tomatoes. A cult hit from episode one despite initially modest Nielsen numbers."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 1 launched in September 1993 and immediately established the show's defining DNA: Mulder's unshakeable belief against Scully's forensic skepticism, mythology episodes seeding a vast government conspiracy alongside monster-of-the-week standalones that ranged from genuinely terrifying to darkly comic. The Vancouver-shot gloom lent the proceedings an atmospheric consistency few network shows of the era matched. The 83% Rotten Tomatoes score reflects a near-consensus that the pilot-to-finale arc built something genuinely new - a long-form mystery drama with procedural texture and science-fiction ambition. Word-of-mouth turned the modest-rated debut into a cult phenomenon by the end of its first year.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Pilot",
+          "air_date": "1993-09-10",
+          "bollymeter": 8.5,
+          "spoiler_free": "The pilot drops Scully into Mulder's world - abduction cases, a suspicious FBI hierarchy, and a file no one wants opened. It establishes the show's tonal contract: paranoia as philosophy, the monster always lurking just outside the frame.",
+          "the_moment": "The opening abduction sequence in rural Oregon, lit like a nightmare, signals immediately that this is not standard procedural TV.",
+          "critic_note": null
+        },
+        {
+          "number": 24,
+          "title": "The Erlenmeyer Flask",
+          "air_date": "1994-05-13",
+          "bollymeter": 9.0,
+          "spoiler_free": "The Season 1 finale pays off the mythology threads with shocking force, raising the conspiracy stakes to a level that made waiting for Season 2 genuinely painful. One of the best season enders in 1990s network drama.",
+          "the_moment": "The revelation of what is in the flask - and what it means for the cover-up Mulder has been chasing all season.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1994,
+      "episodes": 25,
+      "release_date": {
+        "value": "1994-09-16",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.9,
+        "basis": "Season 2 earned 89% on Rotten Tomatoes and is widely regarded as one of the show's finest runs. The mythology deepened with genuine menace and the standalone episodes reached new creative heights."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 2 built on the cult momentum with more confidence and darker imagination. The mythology arc expanded dramatically, introducing elements that would define the show for years, while monster-of-the-week episodes like 'Duane Barry' and 'Humbug' demonstrated a creative range that contemporaries could not match. The 89% Rotten Tomatoes score reflects critical consensus that this season represented the show firing on all cylinders. Gillian Anderson's pregnancy was woven into the plot in ways that became mythology-defining moments, and the writers used the constraint to deepen Scully's role in the conspiracy arc rather than sideline her.",
+      "season_over_season": "A clear step up from an already strong debut - the mythology acquired genuine weight and the standalone hours grew bolder.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 1995,
+      "episodes": 24,
+      "release_date": {
+        "value": "1995-09-22",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "88% on Rotten Tomatoes. Season 3 produced some of the show's most celebrated standalone hours and maintained mythology momentum heading into the peak Season 4 run."
+      },
+      "critic": {
+        "positive_pct": 88,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 3 cemented the show's reputation as prestige television before that term existed on American networks. The mythology episodes grew more labyrinthine while the standalones achieved a tonal diversity - horror, dark comedy, melancholy - that few genre shows have matched. Critical reception tracked the audience enthusiasm: 88% on Rotten Tomatoes and Nielsen numbers that placed the series firmly in Fox's prime schedule. The show's ability to oscillate between government paranoia and folkloric monster-hunting reached a kind of creative equilibrium in this season.",
+      "season_over_season": "Maintains the heights of Season 2 while the standalone episodes grow more formally ambitious.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 1996,
+      "episodes": 24,
+      "release_date": {
+        "value": "1996-10-04",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.0,
+        "basis": "100% on Rotten Tomatoes (6 reviews) and widely considered the show's creative peak. The mythology reached maximum complexity while Scully's cancer arc added emotional gravity that grounded the conspiracy in human stakes."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 4 is the show at its most precisely engineered. Scully's cancer diagnosis runs as an emotional throughline that gave the mythology - which might otherwise have collapsed under its own complexity - a human anchor that critics and audiences latched onto. The 100% Rotten Tomatoes score, albeit on a small sample, reflects near-universal agreement that this was the creative summit. Episodes like 'Memento Mori' showed the series using its paranoid apparatus to explore mortality with unexpected grace. The writing in the standalone hours reached a confidence that spawned imitators but no equals.",
+      "season_over_season": "The series peak: mythology and character stakes converge for the first and only time at full intensity.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 1997,
+      "episodes": 20,
+      "release_date": {
+        "value": "1997-11-02",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "67% on Rotten Tomatoes. The mythology started showing structural strain and the season felt transitional ahead of the 1998 feature film, but strong standalones kept it watchable."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 5 represents a clear dip from the creative peak of Seasons 2 through 4, landing at 67% on Rotten Tomatoes. The mythology episodes feel like setup rather than payoff - the show was building toward the 1998 feature film and the conspiracy arc lost its narrative momentum in the transition. The standalones, however, remained inventive. 'Bad Blood' in particular stands as one of the show's great comic hours. Audience loyalty held even as the mythology wheel-spun.",
+      "season_over_season": "First signs of mythology fatigue - the conspiracy threads grow unwieldy while the standalones remain sharp.",
+      "episode_reviews": []
+    },
+    {
+      "number": 6,
+      "year": 1998,
+      "episodes": 22,
+      "release_date": {
+        "value": "1998-11-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "83% on Rotten Tomatoes. Production moved from Vancouver to Los Angeles, giving the show a sunnier visual palette that divided fans. The standalones remained creative but the mythology felt increasingly circular."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 6 marked the move to Los Angeles and a deliberate lightening of the show's visual and tonal register. The Vancouver gloom that defined the early seasons was gone, replaced by California light and a more playful creative mode. The 83% Rotten Tomatoes score reflects a consensus that the tonal shift worked better in the standalone hours than in the mythology episodes, which seemed to be treading water post-film. The Mulder-Scully dynamic, years into its slow-burn tension, remained compelling even when the conspiracy plotting did not.",
+      "season_over_season": "Production move to LA shifts the visual identity; creative energy concentrates in the standalones.",
+      "episode_reviews": []
+    },
+    {
+      "number": 7,
+      "year": 1999,
+      "episodes": 22,
+      "release_date": {
+        "value": "1999-11-07",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.4,
+        "basis": "78% on Rotten Tomatoes. Duchovny's reduced involvement began to be felt and the mythology showed signs of exhaustion, though the show still produced standout standalone hours."
+      },
+      "critic": {
+        "positive_pct": 78,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 7 was built partly around the understanding that Duchovny's contract issues might make Season 8 uncertain, so it was constructed to function as a possible series conclusion. The mythology episodes attempted resolution and the Mulder-Scully arc received more explicit emotional weight than the show had previously allowed. The 78% Rotten Tomatoes score places it as an honorable if uneven season. The closing episodes land with genuine sincerity - the writing earns something for characters eight seasons deep.",
+      "season_over_season": "Built as a potential finale - the Mulder-Scully emotional arc gets its clearest statement yet.",
+      "episode_reviews": []
+    },
+    {
+      "number": 8,
+      "year": 2000,
+      "episodes": 21,
+      "release_date": {
+        "value": "2000-11-05",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "67% on Rotten Tomatoes. Robert Patrick's Doggett replaced the absent Mulder for much of the season. Critics were divided - some found the fresh dynamic invigorating, others felt the show had lost its defining energy."
+      },
+      "critic": {
+        "positive_pct": 67,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 8 required the show to rebuild around Scully and new agent Doggett (Robert Patrick) with Mulder largely absent. Critics were split at 67% on Rotten Tomatoes - some credited Patrick for bringing fresh procedural energy to a show that had calcified, while others found the substitution an admission that the show's core dynamic was irreplaceable. Gillian Anderson carried the emotional weight and received deserved credit for grounding a transitional season that by any logic should not have worked as well as it did.",
+      "season_over_season": "A radical rebuild forced by Duchovny's departure - Scully carries the season and Robert Patrick earns his place.",
+      "episode_reviews": []
+    },
+    {
+      "number": 9,
+      "year": 2001,
+      "episodes": 20,
+      "release_date": {
+        "value": "2001-11-11",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.5,
+        "basis": "22% on Rotten Tomatoes - the only season that critics called outright bad. Without Mulder or the original mythology energy, the show ran out of creative oxygen in its final original-run season."
+      },
+      "critic": {
+        "positive_pct": 22,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 9 is the show's only Rotten season on Rotten Tomatoes, scoring 22% - a clear indication of the creative collapse. With Mulder absent for most episodes and the mythology entirely exhausted, the show limped to its original series conclusion. The finale brought Mulder back for closure, but the season as a whole is something to endure rather than enjoy. The post-9/11 environment made the show's government-conspiracy paranoia feel different, and the writing never found a new register to compensate.",
+      "season_over_season": "Creative collapse: Mulder's absence and mythology exhaustion produce the show's only Rotten season.",
+      "episode_reviews": []
+    },
+    {
+      "number": 10,
+      "year": 2016,
+      "episodes": 6,
+      "release_date": {
+        "value": "2016-01-24",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "64% on Rotten Tomatoes. The six-episode revival brought back Mulder and Scully to a mixed reception - the mythology reset felt rushed and contrived, though the standalone hours offered welcome nostalgia."
+      },
+      "critic": {
+        "positive_pct": 64,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 10's six-episode 2016 revival scored 64% on Rotten Tomatoes - cautious enthusiasm that the mythology episodes did not quite justify. The conspiracy reset strains visibly to feel relevant in a post-Snowden, post-social media world. The standalones fared better: 'Mulder and Scully Meet the Were-Monster' is a genuine return to the show's comic imagination. Duchovny and Anderson's chemistry survived the 14-year gap intact. The season ultimately reads as proof of concept rather than statement: the mythology engine needed more room than six episodes allowed.",
+      "season_over_season": "A 14-year gap revival: the chemistry survives, the mythology reboot less so.",
+      "episode_reviews": []
+    },
+    {
+      "number": 11,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-01-03",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "77% on Rotten Tomatoes. A better-received revival season than Season 10, with stronger standalone hours and a finale that divided audiences. Effectively the series conclusion."
+      },
+      "critic": {
+        "positive_pct": 77,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt0106179/"
+      },
+      "review_body": "Season 11 improved on Season 10 in almost every measurable way. At 77% on Rotten Tomatoes, it earned the best score of the revival era. The mythology received greater discipline across ten episodes and the standalone hours - including a deliberately retro horror episode and a formally inventive animated installment - demonstrate the creative team at closer to its best. The finale's ambiguity will read as earned to some, as arbitrary to others. Fox did not order a Season 12. Gillian Anderson confirmed she would not return regardless.",
+      "season_over_season": "A clear improvement on Season 10 - more episodes allowed better pacing, and the standalones recaptured some of the original spark.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
