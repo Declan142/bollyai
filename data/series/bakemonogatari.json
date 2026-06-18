@@ -1,0 +1,97 @@
+{
+  "slug": "bakemonogatari",
+  "qid": null,
+  "title": {
+    "value": "Bakemonogatari",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Supernatural",
+    "Mystery",
+    "Romance",
+    "Psychological"
+  ],
+  "logline": "Recovering vampire Koyomi Araragi draws oddity-afflicted girls into his orbit - each apparition a supernatural mirror of buried trauma - in Shaft's word-drunk, visually radical reimagining of what anime can look like.",
+  "poster": {
+    "src": "/img/series/bakemonogatari/poster.jpg",
+    "alt": "Bakemonogatari poster",
+    "attribution": "Poster © Shaft / Aniplex. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Bakemonogatari (15 episodes, 2009-2010) is the founding arc of the broader Monogatari series, which continues through multiple sequel arcs. This entry covers the original Bakemonogatari arc only.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bakemonogatari"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2009,
+      "episodes": 15,
+      "release_date": {
+        "value": "2009-07-03",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "An 8.32 MAL score from over 1.4 million users and the Tokyo Anime Award for best anime of 2009 reflect a near-consensus that Bakemonogatari is a formally daring work - dense dialogue, stark graphic design, and supernatural oddities that function as psychological allegory."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.32,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/5081/Bakemonogatari"
+      },
+      "review_body": "Bakemonogatari landed in summer 2009 as an immediate aesthetic provocation. Shaft and director Akiyuki Shinbo built the series around rapid-fire dialogue, typographic flash cuts, and near-static compositions that replaced conventional animation with design intensity. Each arc pairs Araragi with a girl haunted by a different supernatural oddity - a crab god of weight, a snail spirit of wandering, a monkey paw of jealousy - and the show is explicit that these apparitions map onto psychological wounds rather than literal threat. The MAL community, over 1.4 million scorers strong, placed it at 8.32/10. The Tokyo Anime Award named it the best anime of 2009. Critics and audiences split, predictably, on whether the talky approach rewards patience or performs depth it does not earn - but the formal ambition is not in dispute.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Hitagi Crab, Part 1",
+          "air_date": "2009-07-03",
+          "bollymeter": 8.6,
+          "spoiler_free": "The series announces itself with Hitagi Senjougahara falling and Araragi catching her - only to discover she weighs almost nothing. The premiere establishes the show's grammar: dialogue at machine-gun speed, sudden graphic interruptions, and an oddity framed as something earned rather than imposed.",
+          "the_moment": "Araragi catches the weightless Senjougahara mid-fall - the impossible physics becoming the season's defining image.",
+          "critic_note": null
+        },
+        {
+          "number": 12,
+          "title": "Tsubasa Cat, Part 1",
+          "air_date": "2009-09-19",
+          "bollymeter": 8.8,
+          "spoiler_free": "The final arc pivots toward Hanekawa, whose cat-spirit possession surfaces something more unsettling than any prior oddity. The shift in tone - quieter, more genuinely threatening - reframes what the series has been building.",
+          "the_moment": "The cat-Hanekawa reveal, handled with a restraint that makes the earlier arcs feel like prologue.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "freud",
+  "qid": {
+    "value": "Q82332636",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Freud",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Austria",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Mystery",
+    "Historical",
+    "Psychological",
+    "Supernatural"
+  ],
+  "logline": "A young, cocaine-using Sigmund Freud teams with a traumatised police detective and a Hungarian medium to solve crimes in 1886 Vienna - a pulpy, blood-soaked reimagining of the father of psychoanalysis as an occult detective.",
+  "poster": {
+    "src": "/img/series/freud/poster.jpg",
+    "alt": "Freud poster",
+    "attribution": "Poster © Netflix / MR Film. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single season of 8 episodes, no renewal announced. Netflix has not ordered a second season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Freud_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": 8,
+      "release_date": {
+        "value": "2020-03-23",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.0,
+        "basis": "50% on Rotten Tomatoes from 14 critics; Metacritic score of 52 from 4 reviews. Critical consensus found the show entertaining as gonzo pulp but undermined by an unfocused second half and a muddled finale."
+      },
+      "critic": {
+        "positive_pct": 50,
+        "sample": 14,
+        "pull_quotes": [
+          {
+            "text": "An enticing blend of horror and revisionist history that slips too far into the absurd.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/freud/s01/reviews"
+          },
+          {
+            "text": "Stick with it; the classy rewards outweigh the ludicrous.",
+            "source": "The Arts Desk",
+            "url": "https://www.rottentomatoes.com/tv/freud/s01/reviews"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Freud premiered on Austrian broadcaster ORF in March 2020 before landing on Netflix globally one week later. The series places a young Sigmund Freud - debt-ridden, cocaine-dependent, desperate to prove his hypnosis theories - alongside a traumatised detective and a Hungarian medium named Fleur Salome in an 1886 Vienna that is simultaneously lush and grotesque. The critical split was even: the Guardian found it an enticing but ultimately overextended supernatural thriller; The Arts Desk recommended patience, arguing the rewards accumulate. The Metacritic score of 52 reflects the divide between critics who embraced the pulp premise and those who found the show lost in its own mythology by midseason. As a visual object - the production design of Ringstrasse-era Vienna, the saturated period palette - the show is consistently striking. As a narrative, it stumbles badly at the finish.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Hysteria",
+          "air_date": "2020-03-23",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere establishes the show's gonzo logic immediately: this is not a Freud biography but a supernatural procedural wearing Freud's name. Robert Finster plays him as manic, brilliant, and professionally marginalised - a credible interpretation that the show promptly launches into a murder mystery.",
+          "the_moment": "Freud's first hypnosis session with Fleur - the moment the show signals it will pursue the occult more seriously than the psychology.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

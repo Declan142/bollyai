@@ -1,0 +1,111 @@
+{
+  "slug": "a-very-british-scandal",
+  "qid": {
+    "value": "Q110300050",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Very British Scandal",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "limited",
+  "genres": [
+    "Drama",
+    "Historical",
+    "Biographical"
+  ],
+  "logline": "Claire Foy and Paul Bettany play Margaret and Ian Campbell in the most savage aristocratic divorce of 1963 Britain - a case that exposed how the establishment punished women for the same freedoms it quietly granted men.",
+  "poster": {
+    "src": "/img/series/a-very-british-scandal/poster.jpg",
+    "alt": "A Very British Scandal poster",
+    "attribution": "Poster © BBC / Amazon Prime Video / Blueprint Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Three-episode limited series; complete. Created by Sarah Phelps as a standalone work, not connected to A Very English Scandal (the Jeremy Thorpe series).",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/A_Very_British_Scandal"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 3,
+      "release_date": {
+        "value": "2021-12-26",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "89% on Rotten Tomatoes from 37 critics. Reviewers clustered on Foy and Bettany's performances and the miniseries' sharp read of institutional misogyny, while noting the three-episode format leaves character depth underexplored."
+      },
+      "critic": {
+        "positive_pct": 89,
+        "sample": 37,
+        "pull_quotes": [
+          {
+            "text": "Foy and Bettany are at the top of their games with emotional performances that draw sympathy and anger over the double standards portrayed.",
+            "source": "Variety",
+            "url": "https://variety.com/2022/tv/reviews/very-british-scandal-amazon-prime-video-review-1235233190/"
+          },
+          {
+            "text": "Beautiful cinematography and world-building alongside careful, female-forward handling of the sexual subject matter.",
+            "source": "Variety",
+            "url": "https://variety.com/2022/tv/reviews/very-british-scandal-amazon-prime-video-review-1235233190/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.0,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14220870/"
+      },
+      "review_body": "The Argyll divorce case of 1963 was already documented infamy - the Duke's evidence included a compromising Polaroid, a list of 88 alleged paramours, and a judge who deployed language of medieval misogyny from the bench. Sarah Phelps adapts it with a declared feminist frame. Rotten Tomatoes registered 89 percent from 37 critics. The critical through-line was consistent: Claire Foy's Margaret Campbell is a performance of formidable precision - controlled, withholding, and finally devastated without ever losing composure. Paul Bettany's Ian reads as vain, cruel, and cowardly in the way only class-armoured men can afford to be. Variety praised the 'female-forward handling of the sexual subject matter' and the 'beautiful cinematography.' The legitimate complaint across multiple reviews - including from Variety and The Hollywood Reporter - was that three episodes cannot fully excavate a 12-year marriage. The miniseries is more indictment than biography. That is not a failure of execution; it is a choice that may frustrate viewers who want the full human complexity behind the scandal.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-12-26",
+          "bollymeter": 7.4,
+          "spoiler_free": "The opening episode establishes the Argylls at the height of their gilded world - Margaret as the most photographed woman in Britain, Ian as the charming Duke whose cruelty is still concealed beneath rank and beauty. The social world is rendered with tactile precision.",
+          "the_moment": "Margaret in the dock - the camera holds on Foy's face as the judge delivers his verdict in language that belongs to another century.",
+          "critic_note": null
+        },
+        {
+          "number": 3,
+          "title": "Episode 3",
+          "air_date": "2021-12-28",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale forces the legal machinery toward its conclusion. The system's bias is laid out plainly - what was prosecuted as vice in Margaret was practised freely by men at every level of the establishment. The closing register is angry and earned.",
+          "the_moment": "The judge's summation - a monologue that functions as a period document of institutional misogyny delivered without softening.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

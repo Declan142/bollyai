@@ -1,0 +1,116 @@
+{
+  "slug": "mine-kdrama",
+  "qid": {
+    "value": "Q105940076",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Mine",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Thriller",
+    "Mystery",
+    "Drama",
+    "Psychological"
+  ],
+  "logline": "Two daughters-in-law trapped inside a powerful Korean chaebol family use their positions, secrets, and solidarity to claim lives that are finally their own.",
+  "poster": {
+    "src": "/img/series/mine-kdrama/poster.jpg",
+    "alt": "Mine poster",
+    "attribution": "Poster © tvN / JS Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season limited run of 16 episodes on tvN, May to June 2021. Finale achieved 10.5% national viewership, a series high.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mine_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 16,
+      "release_date": {
+        "value": "2021-05-08",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.2,
+        "basis": "100% Rotten Tomatoes from 3 critics; finale hit 10.5% national ratings. Critics consistently cited the women-centric narrative and the chaebol-thriller framework as standout achievements in 2021 Korean drama."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 3,
+        "pull_quotes": [
+          {
+            "text": "A women-centric K-drama in which the worst actions have been created by men.",
+            "source": "Jae-Ha Kim / Substack",
+            "url": "https://www.rottentomatoes.com/tv/mine/s01/reviews"
+          },
+          {
+            "text": "Mine has been far more compelling as a story of women coming together in the face of adversity.",
+            "source": "Pierce Conran / South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/mine/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt14023192/"
+      },
+      "review_body": "Mine arrived in May 2021 as a rare Korean drama that made a lesbian lead character central to its narrative rather than peripheral, earning its place in the cultural record on that fact alone. But the craft supported the ambition: Lee Bo-young and Kim Seo-hyung delivered performances of controlled intensity as two women inside an oppressive chaebol household who discover the exit is solidarity, not escape. Critics on Rotten Tomatoes gave Season 1 a perfect score across three reviews, consistently citing the series' treatment of class, gender, and institutional power. The finale broke 10.5% nationally, a series-high that confirmed the show's grip on audiences. The thriller structure - a central mystery overlaid on character excavation - maintained tension across all 16 episodes.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Strangers",
+          "air_date": "2021-05-08",
+          "bollymeter": 8.0,
+          "spoiler_free": "The premiere introduces the Hyowon family's suffocating hierarchy through two new arrivals - the actress who married into it and the woman who clawed her way to chaebol wife status. The class tension is established with quiet precision before the thriller machinery clicks on.",
+          "the_moment": "Hi-soo and Seo-hyun's first real exchange - two women in the same gilded cage who are not yet allies.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Fighting in the Dark",
+          "air_date": "2021-06-27",
+          "bollymeter": 8.2,
+          "spoiler_free": "The finale resolves the central mystery and delivers both women to autonomy on their own terms. The 10.5% national rating reflects the episode's emotional payoff; the IMDb episode rating of 8.2 confirms it landed for the show's core audience.",
+          "the_moment": "The moment both women choose themselves over the institution - the scene the entire series built toward.",
+          "critic_note": {
+            "text": "Mine has been far more compelling as a story of women coming together in the face of adversity.",
+            "source": "Pierce Conran / South China Morning Post",
+            "url": "https://www.rottentomatoes.com/tv/mine/s01/reviews"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

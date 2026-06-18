@@ -1,0 +1,101 @@
+{
+  "slug": "oh-my-ghost",
+  "qid": {
+    "value": "Q20062598",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Oh My Ghost",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Comedy",
+    "Supernatural",
+    "Thriller"
+  ],
+  "logline": "A timid chef's assistant gets possessed by a brash virgin ghost on a mission to resolve her han - and the chaos that follows forces both women, and the oblivious head chef who employs one of them, to confront what they are really hungry for.",
+  "poster": {
+    "src": "/img/series/oh-my-ghost/poster.jpg",
+    "alt": "Oh My Ghost poster",
+    "attribution": "Poster © tvN / Chorokbaem Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season completed run of 16 episodes on tvN, July to August 2015. Also known as Oh My Ghostess.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Oh_My_Ghost_(South_Korean_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2015,
+      "episodes": 16,
+      "release_date": {
+        "value": "2015-07-03",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.6,
+        "basis": "IMDb audience rating of 7.9 on a healthy voter base; finale peaked at 7.34% Nielsen Korea. Multiple award nominations including APAN Star Awards recognize Park Bo-young's dual-register performance as the drama's critical engine."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt4799574/"
+      },
+      "review_body": "Oh My Ghost (also aired as Oh My Ghostess) asked a difficult double-performance of Park Bo-young: play a shy woman, then play a completely different personality inhabiting the same body, then make the audience care about both simultaneously. She delivered. The possession conceit let the show run as a broad comedy for long stretches before the darker subplot - involving the detective played by Lim Ju-hwan - reminded viewers there was a mystery underneath. Jo Jung-suk's exacting head chef provided the romantic heat while Kim Seul-gi's ghost Soon-ae earned her own arc. The finale's 7.34% Nielsen rating marked a strong viewership climb from its debut, confirming the audience grew with the drama. An IMDb score of 7.9 reflects the affection that has sustained the show's reputation in K-drama fandom for over a decade.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2015-07-03",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere introduces Bong-sun's near-invisible existence in the restaurant kitchen alongside the ghost Soon-ae's noisy desperation to resolve her unfinished business. The tonal blend - slapstick possession comedy against a genuine haunting - is established quickly and cleanly.",
+          "the_moment": "The first full possession scene: Bong-sun's body, Soon-ae's personality, head chef Kang Sun-woo's total confusion.",
+          "critic_note": null
+        },
+        {
+          "number": 14,
+          "title": "It Wasn't Me",
+          "air_date": "2015-08-14",
+          "bollymeter": 8.0,
+          "spoiler_free": "The thriller subplot moves to the foreground as the truth behind Soon-ae's death begins to surface. One of the most tonally demanding episodes in the run, shifting between comedy and genuine menace. IMDb rates it the second-highest episode at 8.0.",
+          "the_moment": "The moment the detective's true nature is confirmed - when the show reveals the comedy always had a genuine crime at its center.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

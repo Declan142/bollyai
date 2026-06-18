@@ -1,0 +1,106 @@
+{
+  "slug": "la-fortuna",
+  "qid": {
+    "value": "Q105710016",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "La Fortuna",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Spain",
+  "original_language": {
+    "value": "es",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Movistar+ / AMC+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Thriller"
+  ],
+  "logline": "A young Spanish diplomat and a determined civil servant face off against a ruthless American treasure hunter over the wreck of a sunken Spanish galleon - in a battle that exposes how much history nations are willing to own.",
+  "poster": {
+    "src": "/img/series/la-fortuna/poster.jpg",
+    "alt": "La Fortuna poster",
+    "attribution": "Poster © Movistar+ / AMC Studios / MOD Producciones. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Six-episode limited series. Complete. Alejandro Amenabar's television directorial debut; no second season announced or planned.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/La_Fortuna_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-09-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "100% Rotten Tomatoes from 6 critics, but IMDb audience score of 6.6 and Deadline's review noted it is 'never less than watchable, but never emphatic enough to be compelling.' Stanley Tucci and Clarke Peters' performances are the clear highlights."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "The actors' clinic put on by Tucci and Peters is enough to make La Fortuna worth retrieving from the depths of streaming.",
+            "source": "Roxana Hadadi, Vulture",
+            "url": "https://www.rottentomatoes.com/tv/la_fortuna/s01"
+          },
+          {
+            "text": "Never less than watchable, but never emphatic enough to be compelling.",
+            "source": "Stephanie Bunbury, Deadline",
+            "url": "https://deadline.com/2021/09/la-fortuna-review-stanley-tucci-alejandro-amenabar-tv-series-1234844167/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.6,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10714778/"
+      },
+      "review_body": "La Fortuna is adapted from the graphic novel El tesoro del Cisne Negro by Paco Roca and Guillermo Corral, which was itself inspired by a real legal dispute over a sunken Spanish colonial ship whose cargo was salvaged by an American treasure-hunting company. Alejandro Amenabar - director of The Others and The Sea Inside - made his television debut here. The logline is intrinsically cinematic: a diplomatic battle over who owns a shipwreck of contested national history. The six-episode structure should have been a gift. Critics gave it 100 percent on Rotten Tomatoes from six reviews, driven largely by the performance value of Stanley Tucci and Clarke Peters as adversaries. Vulture's Roxana Hadadi argued that 'the actors' clinic put on by Tucci and Peters is enough to make La Fortuna worth retrieving.' Deadline's Stephanie Bunbury provided the honest counterweight: the show is 'never less than watchable, but never emphatic enough to be compelling.' IMDb audiences registered 6.6. The verdict lands somewhere in the space between those two assessments - a show of genuine craft and frustrating narrative passivity. The real legal controversy around Spanish colonial history is acknowledged but not interrogated. Amenabar's television instincts run gentler than his film work.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-09-30",
+          "bollymeter": 6.8,
+          "spoiler_free": "The premiere establishes Alex Ventura as an unlikely diplomatic combatant and introduces Frank Wild, the treasure hunter played by Stanley Tucci as a man who has converted colonial logic into commercial procedure. The underwater footage of the wreck is the visual standout of the episode.",
+          "the_moment": "Tucci's first scene as Wild - the character establishes himself as someone who has never once considered that he might be in the wrong.",
+          "critic_note": {
+            "text": "The actors' clinic put on by Tucci and Peters is enough to make La Fortuna worth retrieving from the depths of streaming.",
+            "source": "Roxana Hadadi, Vulture",
+            "url": "https://www.rottentomatoes.com/tv/la_fortuna/s01"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

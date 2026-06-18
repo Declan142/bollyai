@@ -1,0 +1,101 @@
+{
+  "slug": "familiar-wife",
+  "qid": {
+    "value": "Q52852929",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Familiar Wife",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Fantasy",
+    "Drama",
+    "Comedy"
+  ],
+  "logline": "A burnt-out bank employee uses a mysterious time-slip to undo his marriage - then spends the rest of the series reckoning with what he destroyed and what he actually wanted.",
+  "poster": {
+    "src": "/img/series/familiar-wife/poster.jpg",
+    "alt": "Familiar Wife poster",
+    "attribution": "Poster © tvN / Chorokbaem Media. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season completed run of 16 episodes on tvN, August to September 2018.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Familiar_Wife"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-08-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "Consistently ranked first in its cable time slot with a national average of 6.8% viewership; IMDb audience rating of 7.7 reflects strong affection for Ji Sung and Han Ji-min's performances."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8487786/"
+      },
+      "review_body": "Familiar Wife used its time-travel premise not as spectacle but as a moral reckoning: what does it mean to erase a marriage because you found it hard? Ji Sung's Cha Joo-hyuk starts the series as a sympathetic but self-deceiving protagonist, and the drama is honest enough to hold him accountable for the alternate timeline he engineers. Han Ji-min countered with a performance that made Seo Woo-jin's alternate-reality version equally compelling. tvN's series averaged 6.8% nationally and peaked at 8.2%, consistently dominating its time slot. The show is most effective when it treats the fantasy conceit as emotional realism: the question is not whether magic can fix a marriage but whether the person inside the marriage was worth fighting for.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-08-01",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere efficiently establishes the domestic exhaustion driving Joo-hyuk's resentment - the commute, the bickering, the sense of a life defaulted into rather than chosen. The time-slip device is introduced with just enough mystery to make the premise feel earned.",
+          "the_moment": "The coin toss on the bus platform - a small random act that the drama will turn into the axis of two entirely different lives.",
+          "critic_note": null
+        },
+        {
+          "number": 9,
+          "title": "Who Are You?",
+          "air_date": "2018-08-30",
+          "bollymeter": 8.2,
+          "spoiler_free": "The midpoint pivot where the alternate-reality honeymoon wears off and Joo-hyuk begins to understand the full moral weight of what he erased. The episode's 8.2 IMDb rating marks it as the fan-consensus turning point.",
+          "the_moment": "Joo-hyuk's confrontation with what the original Woo-jin was carrying that he never noticed.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "deadloch",
+  "qid": {
+    "value": "Q118955219",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Deadloch",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Australia",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Crime",
+    "Comedy",
+    "Mystery",
+    "Thriller"
+  ],
+  "logline": "Two wildly mismatched detectives - uptight local cop Dulcie and abrasive big-city Eddie - investigate a string of male murders in a Tasmanian festival town, with the comedy landing as hard as the corpses.",
+  "poster": {
+    "src": "/img/series/deadloch/poster.jpg",
+    "alt": "Deadloch poster",
+    "attribution": "Poster © Amazon MGM Studios. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 premiered on Prime Video in March 2026, relocating the action to Darwin. Prime Video confirmed the renewal after Season 1's strong reception.",
+    "source": "Amazon MGM Studios press release",
+    "source_url": "https://press.amazonmgmstudios.com/us/en/press-release/prime-video-renews-global-hit-ideadloch-for-season"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2023,
+      "episodes": 8,
+      "release_date": {
+        "value": "2023-06-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 9.1,
+        "basis": "100% on Rotten Tomatoes from 23 critics with an 88% audience score. Critics described it as the year's most surprising crime comedy - a perfect fusion of mordant humour and genuine thriller mechanics."
+      },
+      "critic": {
+        "positive_pct": 100,
+        "sample": 23,
+        "pull_quotes": [
+          {
+            "text": "Like Broadchurch mashed with a feminist, less gun-packed Hot Fuzz.",
+            "source": "Slate",
+            "url": "https://www.rottentomatoes.com/tv/deadloch/s01/reviews"
+          },
+          {
+            "text": "Certainly the funniest crime show, and potentially one of the year's best.",
+            "source": "Mashable",
+            "url": "https://www.rottentomatoes.com/tv/deadloch/s01/reviews"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.8,
+        "scale": 10,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/deadloch/s01"
+      },
+      "review_body": "Deadloch arrived on Prime Video in June 2023 and immediately earned a rare 100% Rotten Tomatoes score from 23 critics. Created by Kate McCartney and Kate McLennan, the series exploits a genre gap: the murdered-women crime procedural flipped on its axis, with the victims male and the investigators a chaotic female partnership. Kate Box as the methodical local detective Dulcie and Madeleine Sami as the profane, unstoppable Eddie from Darwin form one of streaming's best mismatched-cop pairings. Critics at Slate compared it to a feminist Hot Fuzz; Decider noted it laughs at the investigators rather than the murder. The Tasmanian setting - its parochialism, its passive-aggressiveness, its folk-festival absurdity - functions as a fifth character. AACTA awarded it Best Comedy Series and Best Screenplay.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "It Was a Dark and Stormy Night",
+          "air_date": "2023-06-02",
+          "bollymeter": 8.8,
+          "spoiler_free": "The premiere establishes the town, the corpse, and the comedy in equal measure. The Dulcie-Eddie dynamic is live from the first scene: two worldviews that are simply incompatible, assigned to the same case.",
+          "the_moment": "Eddie's arrival at the crime scene - her reading of the situation versus Dulcie's. Two detectives, one body, zero common ground.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "The Night of Living Deadloch",
+          "air_date": "2023-07-07",
+          "bollymeter": 9.2,
+          "spoiler_free": "The finale delivers on every thread the show laid down - the mystery resolution is both surprising and, in retrospect, inevitable. The comedy and the thriller have been running at different speeds for seven episodes; here they arrive at the same moment.",
+          "the_moment": "The final confrontation in the festival venue - played for both stakes and satirical absurdity simultaneously.",
+          "critic_note": {
+            "text": "You really will be guessing all the way to the end, with unpredictable twists.",
+            "source": "Guardian",
+            "url": "https://www.rottentomatoes.com/tv/deadloch/s01/reviews"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 6,
+      "release_date": {
+        "value": "2026-03-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 relocated Dulcie and Eddie from Tasmania to Darwin - a broader, hotter, more politically charged canvas. The six-episode run premiered in March 2026 on Prime Video. Critical aggregation is still forming as of this writing; early audience response on the platform tracked favourably. The season introduces Eddie's ex-partner as both victim and complicating factor, adding a personal dimension to the detective dynamic. Verdict to be updated as critical consensus solidifies.",
+      "season_over_season": "Season 2 trades Deadloch's claustrophobic festival-town paranoia for the sprawling heat of Darwin - a tonal shift that widens the show's canvas but loses some of the first season's satirical precision.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

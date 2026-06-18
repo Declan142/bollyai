@@ -1,0 +1,138 @@
+{
+  "slug": "arthdal-chronicles",
+  "qid": {
+    "value": "Q56063639",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Arthdal Chronicles",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Historical",
+    "Drama",
+    "Action",
+    "Adventure"
+  ],
+  "logline": "In a mythical Bronze Age land, a young man discovers his prophesied origins while warring tribes clash to build the first civilization in ancient Arthdal - Korea's answer to epic fantasy world-building.",
+  "poster": {
+    "src": "/img/series/arthdal-chronicles/poster.jpg",
+    "alt": "Arthdal Chronicles poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Two-season run concluded with Season 2 (The Sword of Aramun) in October 2023. Song Joong-ki was replaced by Lee Joon-gi for the sequel season.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Arthdal_Chronicles"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 18,
+      "release_date": {
+        "value": "2019-06-01",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.5,
+        "basis": "Ambitious world-building praised for its unique ancient-Korean setting, but mixed critical reception cited slow pacing, uneven CGI, and structural bloat across 18 episodes."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Stunning camera work makes Arthdal Chronicles a visual pleasure to watch, capturing sweeping panoramas.",
+            "source": "Forbes",
+            "url": "https://www.forbes.com/sites/joanmacdonald/2019/06/11/arthdal-chronicles-is-koreas-game-of-thrones-but-better/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8750956/"
+      },
+      "review_body": "Season 1 arrived in June 2019 as one of the most expensive Korean dramas ever produced, drawing immediate comparisons to Game of Thrones for its fantasy scope and political intrigue. Reception split sharply: the genuinely original premise - a Bronze Age civilization saga rooted in Dangun mythology rather than Western fantasy tropes - earned praise from admirers, while detractors flagged sluggish pacing across its 18-episode runtime and inconsistent visual effects. Forbes called the cinematography's sweeping panoramas a visual pleasure. The series ranked sixth among Korean dramas preferred by US viewers in 2019, suggesting audience engagement outpaced the mixed critical response. Song Joong-ki's dual-role performance as both oppressor and messianic figure gave the season its dramatic spine.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Prophecy",
+          "air_date": "2019-06-01",
+          "bollymeter": 7.0,
+          "spoiler_free": "The premiere world-builds at scale, dropping viewers into a Bronze Age continent divided by tribe and blood. The visuals impress; the mythology is dense but rewards patience. An unconventional opener for Korean drama that signals genuine ambition.",
+          "the_moment": "The revelation of Eun-seom's dual blood heritage - the first signal that the prophecy maps onto him directly.",
+          "critic_note": null
+        },
+        {
+          "number": 18,
+          "title": "Episode 18",
+          "air_date": "2019-09-22",
+          "bollymeter": 7.2,
+          "spoiler_free": "The season closer consolidates its power-struggle threads and leaves Arthdal's political map redrawn. The payoff rewards patience, even if the journey getting here felt overlong.",
+          "the_moment": "The final confrontation that sets up the civilizational stakes for any continuation.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2023,
+      "episodes": 12,
+      "release_date": {
+        "value": "2023-09-09",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Tighter at 12 episodes with Lee Joon-gi energizing the sequel, though recasting and a four-year gap tested audience continuity. Stronger action sequences than the original run."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 8.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8750956/"
+      },
+      "review_body": "The Sword of Aramun returned four years later with a reconfigured lead cast - Lee Joon-gi replacing Song Joong-ki - and a leaner 12-episode structure that addressed Season 1's pacing complaints. The sequel felt more assured in its action choreography and political maneuvering, even if the recasting created a continuity friction that tested returning viewers. The mythology deepened satisfyingly for those invested in the world. A four-year gap between seasons was an unusual test of audience loyalty for a Korean drama, but the series maintained a dedicated international fanbase through Netflix.",
+      "season_over_season": "Tighter runtime and a new lead actor give Season 2 more momentum than the sprawling original, though the casting change is a genuine tonal disruption.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

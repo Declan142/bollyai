@@ -1,0 +1,188 @@
+{
+  "slug": "the-bay",
+  "qid": {
+    "value": "Q63066708",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Bay",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "ITV",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery",
+    "Thriller"
+  ],
+  "logline": "A family liaison officer investigates murders in the economically frayed coastal town of Morecambe, where the personal cost of each case runs deeper than the crime itself.",
+  "poster": {
+    "src": "/img/series/the-bay/poster.jpg",
+    "alt": "The Bay poster",
+    "attribution": "Poster © ITV / Tall Story Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Five seasons have aired on ITV since 2019, with Series 5 broadcast in March 2025. No official cancellation announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Bay_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 6,
+      "release_date": {
+        "value": "2019-03-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.8,
+        "basis": "Rotten Tomatoes 80% from 15 critics. Reviewers identified strong performances and a few genuine surprises but noted familiar genre beats throughout."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 15,
+        "pull_quotes": [
+          {
+            "text": "The Bay doesn't break any new ground, but strong performances and a few surprises hook those seeking a new crime drama.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_bay/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 80,
+        "scale": 100,
+        "source": "Rotten Tomatoes Audience",
+        "source_url": "https://www.rottentomatoes.com/tv/the_bay/s01"
+      },
+      "review_body": "The Bay landed in March 2019 as ITV's attempt to claim the Nordic noir coastal-crime space on British ground. Morecambe, a faded Lancashire resort, does real work as a setting - the grey estuary and shuttered arcades underline the economic desperation that runs through every family the FLO encounters. Critics gave it 80 percent on Rotten Tomatoes from 15 reviews. The consensus was measured: strong performances, notably Morven Christie as FLO Lisa Armstrong, and enough tonal surprise to reward patient viewers. Critics noted it does not reinvent the procedural formula. The personal subplot - Lisa entangled with a witness in her own investigation - divided reviewers. Some found it a fresh structural choice; others called it a distraction. As a mood piece about a specific kind of British coastal decline, Season 1 earns its keep without quite elevating itself above the crowded field.",
+      "season_over_season": null,
+      "episode_reviews": []
+    },
+    {
+      "number": 2,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-01-20",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 6.6,
+        "basis": "Critics noted Morven Christie's continued commitment but flagged the season as formula-dependent with less narrative surprise than the debut."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned Lisa Armstrong to a fresh Morecambe murder, with the family liaison structure intact but the novelty of Season 1 necessarily reduced. Morven Christie retained critical goodwill - her performance was consistently cited as the series' steadiest asset. Reviewers who had warmed to the setting's bleak specificity found the season reasonably satisfying as a returning-format crime drama. Critics who wanted the show to deepen its procedural or emotional ambition were less impressed. The season aired in January 2021 during UK lockdown, which boosted viewership. For audiences, it was comfort-crime viewing executed competently; for the more demanding observer, it was a show content to run in place. Solid rather than memorable.",
+      "season_over_season": "Season 2 replays the FLO-in-over-her-head structure of Season 1 without meaningfully raising the stakes or breaking the formula.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-01-12",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "Critics reported Marsha Thomason established herself capably in the lead, but reviewers described the season as a decent but unremarkable whodunit."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Thomason quickly established herself as solid and convincing in the role.",
+            "source": "Rotten Tomatoes critic review",
+            "url": "https://www.rottentomatoes.com/tv/the_bay/s03/reviews"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Season 3 marked a full lead changeover, with Marsha Thomason stepping in as DS Jenn Townsend after Morven Christie's departure. The recasting is the season's most discussed feature - critics acknowledged Thomason's competence in the role while noting that the transition inevitably stripped the series of accumulated character depth. The Morecambe setting and six-episode format remained, as did the structural formula: family liaison work, a murder, a personally compromised investigator. One critic called it 'a decent whodunit to get you through a long January, but it won't be joining any lists of great detective dramas.' That summary captures the season fairly. It functions, it entertains in a modest key, and it offers nothing that demands to be seen.",
+      "season_over_season": "The lead changeover to Marsha Thomason resets audience investment while the format remains identical, making Season 3 the series' most mechanical outing.",
+      "episode_reviews": []
+    },
+    {
+      "number": 4,
+      "year": 2023,
+      "episodes": 6,
+      "release_date": {
+        "value": "2023-03-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 continued Marsha Thomason's tenure as DS Jenn Townsend, arriving in March 2023. By this point the series had settled into a reliable but low-ambition pattern: a new Morecambe crime, a six-episode run, personal complication for the lead. Critics gave it measured notices. The consistent Rotten Tomatoes pattern from earlier seasons - mixed but watchable - held. Thomason's performance remained the most consistently praised element. The season served its ITV audience without pushing toward anything that would sustain wider conversation. For committed fans of British procedurals set in coastal communities, it represented competent mid-tier fare.",
+      "season_over_season": "Season 4 deepens the Thomason era without expanding the show's ambition - reliable franchise programming with a firm ceiling.",
+      "episode_reviews": []
+    },
+    {
+      "number": 5,
+      "year": 2025,
+      "episodes": 6,
+      "release_date": {
+        "value": "2025-03-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 5 aired in March 2025, maintaining the established format under Marsha Thomason's lead. Critical reception data for the latest run is not yet aggregated at scale. The season represents The Bay's fifth consecutive year of Morecambe-set procedural crime drama with the same six-episode structure. Thomason's DS Jenn Townsend remains the anchor. Whether Season 5 attempts any structural shift or continues the settled formula established from Season 3 onward will determine whether the series justifies further renewal.",
+      "season_over_season": "Season 5 maintains the Thomason-era formula - further verdict pending fuller critical aggregation.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

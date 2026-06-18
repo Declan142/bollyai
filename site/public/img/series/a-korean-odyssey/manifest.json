@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/e/e4/A_Korean_Odyssey_%28Hwayugi%29.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T00:12:29Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/a-korean-odyssey/poster.jpg",
+    "source_height": 383,
+    "source_width": 265,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "a-korean-odyssey",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/A_Korean_Odyssey",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/A_Korean_Odyssey_%28Hwayugi%29.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/a-korean-odyssey/w185.avif",
+      "bytes": 8065
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/a-korean-odyssey/w185.webp",
+      "bytes": 8678
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/a-korean-odyssey/w342.avif",
+      "bytes": 15475
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/a-korean-odyssey/w342.webp",
+      "bytes": 17960
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/a-korean-odyssey/w500.avif",
+      "bytes": 21960
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/a-korean-odyssey/w500.webp",
+      "bytes": 26708
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-18T00:17:02.031Z"
+}

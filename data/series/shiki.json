@@ -1,0 +1,97 @@
+{
+  "slug": "shiki",
+  "qid": {
+    "value": "Q61974440",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "title": {
+    "value": "Shiki",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Horror",
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+  ],
+  "logline": "A sleepy Japanese village begins losing residents to an unexplained epidemic - until a doctor begins to suspect the new family in the hilltop mansion are not quite human, and the town must decide whether monsters can be mourned.",
+  "poster": {
+    "src": "/img/series/shiki/poster.jpg",
+    "alt": "Shiki poster",
+    "attribution": "Poster © Daume / Fuyumi Ono. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "limited",
+    "note": "Shiki aired 22 TV episodes on Fuji TV's Noitamina block from July to December 2010, followed by 2 OVA episodes. A complete single-run adaptation of Fuyumi Ono's novel and Ryu Fujisaki's manga. No sequel or remake has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Shiki_(manga)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2010,
+      "episodes": 22,
+      "release_date": {
+        "value": "2010-07-08",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.3,
+        "basis": "Shiki is consistently cited in horror anime discourse as one of the genre's landmark works, praised for its moral ambiguity - the series refuses to separate monster from victim cleanly - and for committing to a village-wide tragedy rather than a conventional protagonist-escapes arc."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Shiki aired on Fuji TV's Noitamina programming block from July to December 2010 and spent its 22 episodes dismantling the traditional vampire story from the inside. Director Tetsuro Amino and studio Daume set the series in an isolated 1990s Japanese village, using geographic claustrophobia to prevent any exit from the moral reckoning the show is building toward. What separates Shiki from conventional horror anime is its insistence on symmetry: the human response to the Shiki becomes as monstrous as the predation it answers. The Noitamina block - known for adult-oriented, experimental work - gave the production space to develop both sides without resolving the tension. Funimation's North American release confirmed the series found a dedicated audience outside Japan.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Shiki 1",
+          "air_date": "2010-07-08",
+          "bollymeter": 7.9,
+          "spoiler_free": "The premiere establishes Sotoba as a village where nothing moves fast - the summer heat, the conservative social order, the pace of gossip. A teenager dies. Another family has moved into the old Kanemasa mansion. The two facts are not yet connected, but the framing makes their proximity feel ominous.",
+          "the_moment": "The first unnatural death, described with clinical detachment by the village doctor - laying the false-epidemic track that the series will systematically destroy.",
+          "critic_note": null
+        },
+        {
+          "number": 11,
+          "title": "Shiki 11",
+          "air_date": "2010-09-16",
+          "bollymeter": 8.7,
+          "spoiler_free": "The midpoint pivot where Dr. Ozaki's clinical certainty confronts something that cannot be filed under any diagnosis he was trained for. The episode marks the point where Shiki transitions from slow-burn mystery to genuine horror.",
+          "the_moment": "Ozaki's experiment with his own wife - the series using the protagonist's scientific ruthlessness to begin dismantling any easy moral position.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

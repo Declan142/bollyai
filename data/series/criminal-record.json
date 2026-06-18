@@ -1,0 +1,132 @@
+{
+  "slug": "criminal-record",
+  "qid": {
+    "value": "Q112663545",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Criminal Record",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Mystery",
+    "Drama"
+  ],
+  "logline": "A young Black DS and a celebrated senior DCI collide over a years-old murder conviction - one determined to reopen it, one equally determined to keep it closed - in a British crime thriller built on institutional power and what gets buried beneath it.",
+  "poster": {
+    "src": "/img/series/criminal-record/poster.jpg",
+    "alt": "Criminal Record poster",
+    "attribution": "Poster © Tod Productions / STV Studios / Apple TV+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "returning",
+    "note": "Season 2 premiered on Apple TV+ in April 2026 and concluded in June 2026. A third season has not yet been confirmed.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Criminal_Record_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2024,
+      "episodes": 8,
+      "release_date": {
+        "value": "2024-01-10",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.5,
+        "basis": "90% on Rotten Tomatoes from 49 critics; critics consensus cited the Capaldi-Jumbo pairing as the primary engine. The Washington Post and others called it one of the best thrillers in recent memory."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 49,
+        "pull_quotes": [
+          {
+            "text": "Jumbo and Capaldi are powerhouses; the crackle of their work together elevates a relatively simple question into something murkier.",
+            "source": "Washington Post",
+            "url": "https://www.rottentomatoes.com/tv/criminal_record/s01/reviews"
+          },
+          {
+            "text": "A mystery that only gets more intriguing as it unfolds.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/criminal_record/s01"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Criminal Record launched on Apple TV+ in January 2024 and earned a 90% Rotten Tomatoes score from 49 critics, placing it among the stronger British crime exports of the year. Creator Paul Rutman builds the central tension around institutional hierarchy as much as the murder case: DCI Daniel Hegarty (Peter Capaldi) is a decorated, politically connected senior officer; DS June Lenker (Cush Jumbo) is early in her career and has no institutional leverage. The anonymous phone call that links them to a decade-old conviction creates a power imbalance that the show exploits for eight episodes without cheapening it. Critics at the Washington Post highlighted the lead pairing as the series' essential engine - Capaldi's charm deployed as a weapon, Jumbo's performance a study in controlled pressure. The mystery mechanics are relatively conventional; the character work is not.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2024-01-10",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere establishes the dynamic between Hegarty and Lenker with economy and precision. An anonymous call, a sleeping woman on the phone, a conviction that everyone official wants to remain closed. The show is already doing its real work: the power gap between these two detectives is more interesting than the case.",
+          "the_moment": "The first conversation between Hegarty and Lenker in his office - the calibration of how he handles people who threaten to inconvenience him.",
+          "critic_note": null
+        },
+        {
+          "number": 8,
+          "title": "Episode 8",
+          "air_date": "2024-02-21",
+          "bollymeter": 8.7,
+          "spoiler_free": "The finale brings the season's central question to a resolution that is satisfying without being neat. The show is less interested in whether the right person was convicted than in the structures that protect the answer from scrutiny.",
+          "the_moment": "The final reckoning between Hegarty and Lenker - a confrontation that both sides have been preparing for since the first episode.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-04-22",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.8,
+        "basis": "90% on Rotten Tomatoes from 10 critics. Reviewers found the storytelling confident and the character work strong, though some noted the season's stakes feel more contained than the first."
+      },
+      "critic": {
+        "positive_pct": 90,
+        "sample": 10,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 aired on Apple TV+ from April to June 2026 and maintained the 90% Rotten Tomatoes score, though with a smaller critical sample of ten reviews. The season introduces a new case while continuing to develop the uneasy professional relationship between Hegarty and Lenker, now on altered institutional footing following the first season's conclusion. The storytelling is described as beautifully paced in reviews. The season holds the show's essential tension - individual agency against systemic protection - in a tighter frame: character-rich but somewhat less propulsive than the first run.",
+      "season_over_season": "Season 2 tightens the scope after Season 1's institutional revelations - a character-first chamber piece where the dynamic between the leads now carries the full dramatic weight.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

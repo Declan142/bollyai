@@ -1,0 +1,101 @@
+{
+  "slug": "a-korean-odyssey",
+  "qid": {
+    "value": "Q41948223",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "A Korean Odyssey",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "tvN / Netflix",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Romance",
+    "Comedy",
+    "Supernatural"
+  ],
+  "logline": "A modern Monkey King bound by an ancient contract must protect a ghost-seeing woman he resents - until the line between obligation and devotion collapses under an apocalyptic prophecy.",
+  "poster": {
+    "src": "/img/series/a-korean-odyssey/poster.jpg",
+    "alt": "A Korean Odyssey poster",
+    "attribution": "Poster © tvN / Studio Dragon. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season completed run of 20 episodes on tvN, December 2017 to March 2018. Also known as Hwayugi.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/A_Korean_Odyssey"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 20,
+      "release_date": {
+        "value": "2017-12-23",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Broke tvN drama-debut viewership records in its target demographic; IMDb audience rating of 7.9. Hong sisters' signature blend of mythology and banter generated strong international following on Netflix."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.9,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt7099334/"
+      },
+      "review_body": "Written by the Hong sisters and produced by Studio Dragon, A Korean Odyssey transplanted the Monkey King mythology into contemporary Seoul with enough wit to obscure the seams. Lee Seung-gi's Son Oh-gong - immortal, self-serving, and allergic to sincerity - struck an immediate audience chord, while Cha Seung-won's Bull Demon King provided the comic counterweight. The premiere broke tvN's drama-debut records in its demographic, and the show ranked first in its Saturday-Sunday cable slot throughout its run. An IMDb audience rating of 7.9 from a healthy voter base reflects sustained affection. Some mid-series pacing slack in the 20-episode count drew comment from viewers, but the central romantic tension and the Hong sisters' mythology riffs kept the audience engaged through a tonally ambitious finale.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2017-12-23",
+          "bollymeter": 7.8,
+          "spoiler_free": "The record-breaking premiere introduces Son Oh-gong at maximum arrogance and Seon-mi at maximum vulnerability. The mythology is delivered through comedy, which keeps the world-building from feeling like homework. The Hong sisters' signature premise - reluctant supernatural protector, danger-magnet human - arrives fully formed.",
+          "the_moment": "Son Oh-gong's first genuine moment of involuntary care for Seon-mi - the crack in his armor that the entire series will pry open.",
+          "critic_note": null
+        },
+        {
+          "number": 2,
+          "title": "Episode 2",
+          "air_date": "2017-12-24",
+          "bollymeter": 8.6,
+          "spoiler_free": "The highest IMDb-rated episode in the series at 8.6, Episode 2 deepens the contract mythology and the reluctant bond with enough supernatural spectacle and romantic undercurrent to establish the show's signature register.",
+          "the_moment": "The formal binding of Oh-gong and Seon-mi - a pact meant to be transactional that the drama slowly reveals is anything but.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "three-pines",
+  "qid": null,
+  "title": {
+    "value": "Three Pines",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Canada",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Drama"
+  ],
+  "logline": "A quietly methodical Quebec homicide inspector investigates a series of village murders while separately pursuing a decades-old cold case involving a missing Indigenous woman.",
+  "poster": {
+    "src": "/img/series/three-pines/poster.jpg",
+    "alt": "Three Pines poster",
+    "attribution": "Poster © Amazon Prime Video / Piazza Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Amazon cancelled Three Pines in March 2023 after one season. Production partners and the streamer reportedly could not reach an agreement on renewal terms despite mutual interest.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Three_Pines"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": 8,
+      "release_date": {
+        "value": "2022-12-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Rotten Tomatoes at 72% from 18 critics and Metacritic at 68 from 6 reviews place it in firmly favorable territory; RogerEbert.com called it a collection of intelligent two-hour mysteries for fans of Agatha Christie or Columbo."
+      },
+      "critic": {
+        "positive_pct": 72,
+        "sample": 18,
+        "pull_quotes": [
+          {
+            "text": "A collection of intelligent two-hour mysteries that fans of Agatha Christie or even Columbo should watch.",
+            "source": "RogerEbert.com",
+            "url": "https://www.metacritic.com/tv/three-pines/"
+          },
+          {
+            "text": "Handsomely shot snowscapes, a Christmassy setting and Molina's beautifully measured performance make it a moreish winter treat.",
+            "source": "The Telegraph",
+            "url": "https://www.metacritic.com/tv/three-pines/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 6.3,
+        "scale": 10,
+        "source": "Metacritic User Score",
+        "source_url": "https://www.metacritic.com/tv/three-pines/"
+      },
+      "review_body": "Three Pines arrived on Prime Video in December 2022 as a prestige adaptation of Louise Penny's beloved Inspector Gamache novels, with Alfred Molina as a casting choice critics consistently praised as the show's strongest asset. The 72 percent Rotten Tomatoes score from 18 reviewers reflected appreciation for the procedural craftsmanship and Molina's measured performance without enthusiasm for the series as a whole. RogerEbert.com called it intelligent Christie-adjacent mysteries. The Telegraph singled out the Quebec snowscapes and Molina's measured work. A running parallel cold case involving a missing Indigenous woman added social weight that critics noted as thoughtful but unevenly integrated. Cancelled after one season despite solid reviews, leaving Penny's expansive book series largely unadapted.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Hangman - Part 1",
+          "air_date": "2022-12-02",
+          "bollymeter": 7.2,
+          "spoiler_free": "Chief Inspector Gamache arrives in Three Pines to investigate a suspicious death while the village's particular rhythms establish the show's cozy-but-unsettling tonal register. Molina's unhurried authority sets the show's pace immediately.",
+          "the_moment": "Gamache's first walk through the village signals that this is a procedural in no hurry to be anything else - the atmosphere is the argument.",
+          "critic_note": {
+            "text": "A quality supporting cast and a light sense of humor helps. Not every aspect of the show is light and airy, but it seems to know when it needs to be serious.",
+            "source": "Decider",
+            "url": "https://www.metacritic.com/tv/three-pines/"
+          }
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

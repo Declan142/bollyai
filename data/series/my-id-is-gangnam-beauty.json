@@ -1,0 +1,101 @@
+{
+  "slug": "my-id-is-gangnam-beauty",
+  "qid": {
+    "value": "Q55038915",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "My ID is Gangnam Beauty",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "South Korea",
+  "original_language": {
+    "value": "ko",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "JTBC",
+    "source": "wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Romance",
+    "Coming of Age",
+    "Drama",
+    "Slice of Life"
+  ],
+  "logline": "A college freshman who got plastic surgery to escape years of bullying finds that beauty does not fix social cruelty - and that the classmate who sees through appearances may be worth the risk.",
+  "poster": {
+    "src": "/img/series/my-id-is-gangnam-beauty/poster.jpg",
+    "alt": "My ID is Gangnam Beauty poster",
+    "attribution": "Poster © JTBC / Art & Culture. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season completed run. Based on the webtoon by Maanggi; series concluded with 16 episodes in September 2018.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/My_ID_is_Gangnam_Beauty"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 16,
+      "release_date": {
+        "value": "2018-07-27",
+        "source": "wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.2,
+        "basis": "Praised for honest engagement with Korean beauty standards and bullying culture; IMDb audience consensus at 7.2 reflects warm reception from viewers who connected with Mi-rae's journey."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": {
+        "rating": 7.2,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt8585954/"
+      },
+      "review_body": "Adapted from a popular webtoon, this 2018 JTBC entry tackled Korean beauty standards with more directness than the genre typically allows. Kang Mi-rae's arc - from bullied teenager who opts for surgery to a college student discovering the surgery only changed the type of judgment she faces - gave the show a sociological edge that resonated well beyond its romantic comedy surface. Cha Eun-woo's cold-but-perceptive Do Kyung-seok anchored the romance, while the supporting ensemble addressed peer cruelty and social hierarchies with genuine attention. The series earned recognition for asking real questions about appearance and happiness without moralizing, according to multiple viewer and critical commentaries on the show's cultural reception. The 7.2 IMDb score from a substantial voter base reflects steady audience warmth.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Your ID is Gangnam Beauty",
+          "air_date": "2018-07-27",
+          "bollymeter": 7.5,
+          "spoiler_free": "The premiere establishes Mi-rae's transformation and her fraught arrival at university where the surgery that was supposed to liberate her instead marks her as a target of a different kind of social scrutiny. Im Soo-hyang grounds the vulnerability without sentimentality.",
+          "the_moment": "Mi-rae's silent scan of the campus crowd - realizing that a new face did not buy her a new identity.",
+          "critic_note": null
+        },
+        {
+          "number": 16,
+          "title": "Even Though We Don't Know Much About Life Yet",
+          "air_date": "2018-09-15",
+          "bollymeter": 8.8,
+          "spoiler_free": "The series finale ties Mi-rae's growth arc to a clear-eyed resolution on beauty, belonging, and self-worth. The highest-rated episode on IMDb at 8.8 confirms the finale delivered the emotional payoff viewers had been tracking across 16 weeks.",
+          "the_moment": "Mi-rae's final declaration - to herself more than to anyone else - about who she is beyond her appearance.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

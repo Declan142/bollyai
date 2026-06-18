@@ -1,0 +1,148 @@
+{
+  "slug": "log-horizon",
+  "qid": {
+    "value": "Q123022280",
+    "source": "Wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "title": {
+    "value": "Log Horizon",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Japan",
+  "original_language": {
+    "value": "ja",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Crunchyroll",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "reported"
+  },
+  "status": "ended",
+  "genres": [
+    "Anime",
+    "Fantasy",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "logline": "Thirty thousand Japanese gamers are permanently trapped inside their MMORPG, and veteran strategist Shiroe sets about building a functioning society from the rubble of game mechanics - less about escaping the world, more about mastering it.",
+  "poster": {
+    "src": "/img/series/log-horizon/poster.jpg",
+    "alt": "Log Horizon poster",
+    "attribution": "Poster © Satelight / Studio Deen / Mamare Touno. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons aired across 2013-2021 (Satelight for S1, Studio Deen for S2-3). The anime adaptation concluded with Season 3 in March 2021; the light novel source continues.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Log_Horizon"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": 25,
+      "release_date": {
+        "value": "2013-10-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.7,
+        "basis": "MAL users scored the series at 7.89/10 across 609,000 raters. Anime News Network's Rebecca Silverman noted its 'unique take on what has become a subgenre of fantasy,' distinguishing it from the isekai wave by centering governance and strategy over combat."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Log Horizon has its own unique take on what has become a subgenre of fantasy.",
+            "source": "Anime News Network",
+            "url": "https://www.animenewsnetwork.com/review/log-horizon"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.89,
+        "scale": 10,
+        "source": "MyAnimeList",
+        "source_url": "https://myanimelist.net/anime/17265/Log_Horizon"
+      },
+      "review_body": "Log Horizon arrived in autumn 2013 at the peak of the isekai boom and carved a distinct identity by largely ignoring the combat-escape arc. Protagonist Shiroe is not a fighter - he is a strategist, referred to in-universe as 'the villain in glasses,' a label the show deploys with clear affection. Season 1 uses Elder Tale's game mechanics as a framework for examining governance, economics, and social contract theory: how do 30,000 displaced people build functioning institutions from scratch? ANN's Rebecca Silverman praised the show's differentiation within the crowded genre. MAL's 609,000 scorers placed it at 7.89/10. The pacing is deliberately unhurried and rewards viewers who appreciate worldbuilding over spectacle.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Apocalypse",
+          "air_date": "2013-10-05",
+          "bollymeter": 7.6,
+          "spoiler_free": "The series opens with the mass-trapping event and Shiroe's immediate analytical response - not panic, but assessment. The premiere distinguishes itself from action-isekai peers by treating the game world as an institutional design problem rather than a power fantasy.",
+          "the_moment": "Shiroe's first read of the situation: counting available players, mapping the city, thinking three moves ahead while others are still processing what happened.",
+          "critic_note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": 25,
+      "release_date": {
+        "value": "2014-10-04",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.5,
+        "basis": "Season 2 expands the political scope to involve the People of the Land and external factions; reception was slightly cooler than Season 1, with some fans finding the political arcs diffuse, but the world-building ambition remained consistent."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 widened the Log Horizon canvas significantly, introducing the People of the Land - NPCs who have developed genuine sentience - and expanding the political map beyond Akihabara. Studio Deen took over production duties from Satelight, with a subtle shift in visual tone marking the transition. The season's strength is its ambition: building out an entire political economy inside a game world, exploring what sovereignty means when the rules are literally written in code. The diffusion of focus across multiple factions diluted the tight Shiroe-centric drive of Season 1 but added genuine complexity.",
+      "season_over_season": "Season 2 broadens the political world considerably but loses some of Season 1's focused momentum by spreading across more factions.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": 12,
+      "release_date": {
+        "value": "2021-01-13",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Season 3 returned after a six-year gap with a compressed 12-episode run; audience reception noted the gap and truncated scope made it feel like an incomplete adaptation of the source material rather than a satisfying conclusion."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Log Horizon Season 3 arrived in January 2021 after a six-year absence, with a halved episode count of 12. The return was greeted warmly by the existing fanbase but attracted limited new viewers. The condensed runtime forced the adaptation to compress significant light novel content, and the result felt like a highlight reel of a season rather than a fully realized arc. For completionists it was a necessary watch; as a standalone entry it struggled to recapture the patient world-building momentum of the earlier seasons. The series concluded without a full adaptation of the remaining source material.",
+      "season_over_season": "Season 3 returns after a six-year gap with a compressed 12-episode run that feels truncated against the scope of Seasons 1-2.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

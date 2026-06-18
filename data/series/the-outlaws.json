@@ -1,0 +1,154 @@
+{
+  "slug": "the-outlaws",
+  "qid": {
+    "value": "Q107016644",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Outlaws",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United Kingdom",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "BBC One / Amazon Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "logline": "Seven strangers from Bristol's opposite ends of society are sentenced to community payback together - and stumble into the orbit of a criminal gang when they find a bag stuffed with drug money.",
+  "poster": {
+    "src": "/img/series/the-outlaws/poster.jpg",
+    "alt": "The Outlaws poster",
+    "attribution": "Poster © BBC / Amazon Studios / Big Talk Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Three seasons completed. Season 3 aired May 2024 as the final run. Creators Stephen Merchant and Elgin James concluded the story across the full arc.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Outlaws_(2021_TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2021,
+      "episodes": 6,
+      "release_date": {
+        "value": "2021-10-25",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "80% on Rotten Tomatoes from 25 critics. Reviewers found the ensemble chemistry winning and the premise genuinely fresh, though critics noted the political underpinning is painted broad and the character construction leans on familiar tropes."
+      },
+      "critic": {
+        "positive_pct": 80,
+        "sample": 25,
+        "pull_quotes": [
+          {
+            "text": "A touch too broad to mine much nuance from its concept, but its aggressive affability and merry band of miscreants make for a solid caper.",
+            "source": "Rotten Tomatoes Critics Consensus",
+            "url": "https://www.rottentomatoes.com/tv/the_outlaws/s01"
+          },
+          {
+            "text": "The series is at its most enjoyable when its relationships are at their most endearing.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-outlaws-1235123036/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt11646832/"
+      },
+      "review_body": "Stephen Merchant and Elgin James constructed The Outlaws around one of TV comedy's most reliable engines: people who have no business liking each other, forced together by circumstance. The seven-person community payback cohort spans class, race, age, and ideology. The Bristol setting - the mural-covered terraces, the wealth gradient running a few streets apart - is smartly deployed. Season 1 registered 80 percent on Rotten Tomatoes from 25 critics. The consensus acknowledged the formula's appeal while identifying its ceiling: the political and class commentary is applied lightly, treating its characters as types before people. Christopher Walken as a weathered American conman is the season's scene-stealing wildcard. IMDb audiences scored it 7.7. Hollywood Reporter critic Angie Han identified the show's core strength as 'the affection it shows for its characters' rather than any sharp satirical edge. That is an accurate calibration: The Outlaws is warm, funny in bursts, and propulsive enough that its shallower moments pass without stalling the ride.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2021-10-25",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere efficiently assembles its unlikely ensemble and plants the bag-of-money inciting event that will define the season's criminal stakes. Merchant is comfortable in fish-out-of-water register; Walken arrives as a genuine surprise.",
+          "the_moment": "The group discovers the bag - the moment the show shifts from community-service comedy into something with real criminal consequence.",
+          "critic_note": {
+            "text": "The affection it shows for its characters is just winning enough to make you want to comply.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-outlaws-1235123036/"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2022,
+      "episodes": 6,
+      "release_date": {
+        "value": "2022-06-05",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "Critics found the second season maintained the ensemble warmth with escalating criminal stakes, though structural ambitions remained modest."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 returned the group to Bristol with the criminal threat now fully in play. The domestic and workplace storylines for each character expanded, which gave depth to the ensemble while occasionally diluting the crime-plot momentum. Stephen Merchant's direction retained the visual confidence of the first run - the show consistently looks richer than its comedy-crime label suggests. The tonal mixture of affable ensemble comedy and genuine threat remained the series' core balancing act. Critics who had warmed to Season 1 found the second run a natural continuation; those who found Season 1 too shallow found little in Season 2 to change that reading. Audience scores held. The season performed its function as a satisfying mid-story act.",
+      "season_over_season": "Season 2 deepens the criminal stakes without fundamentally changing the ensemble-warmth formula that defined Season 1.",
+      "episode_reviews": []
+    },
+    {
+      "number": 3,
+      "year": 2024,
+      "episodes": 5,
+      "release_date": {
+        "value": "2024-05-30",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 concluded the series with a five-episode final run in May 2024. The compression to five episodes tightened pacing, which benefited a show that had occasionally let character subplots drift in earlier seasons. The criminal arc built across two previous seasons found its resolution here. Critical reception data is limited at scale, but audience response was positive for a show whose loyal base had tracked the ensemble relationship for three years. As a finale season for a comedy-thriller franchise, it delivered the closure its characters had earned. The Outlaws ends as a warm, imperfect, genuinely funny show that never quite reached the satirical bite its premise promised but consistently delivered worthwhile entertainment.",
+      "season_over_season": "Season 3's shortened run sharpens the pacing and brings the criminal storyline to a satisfying close after two seasons of escalating consequences.",
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

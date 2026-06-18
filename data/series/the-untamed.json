@@ -1,0 +1,108 @@
+{
+  "slug": "the-untamed",
+  "qid": {
+    "value": "Q64982669",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Untamed",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "China",
+  "original_language": {
+    "value": "zh",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Fantasy",
+    "Drama",
+    "Action",
+    "Romance",
+    "Supernatural"
+  ],
+  "logline": "Wei Wuxian is resurrected 16 years after his death and reunites with the steadfast Lan Wangji - together they investigate mysteries that spiral back to the catastrophic event that tore them apart, in this wuxia epic (陈情令) that became a global phenomenon on Netflix.",
+  "poster": {
+    "src": "/img/series/the-untamed/poster.jpg",
+    "alt": "The Untamed poster",
+    "attribution": "Poster © Tencent Penguin Pictures. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single 50-episode season, complete. Two companion films - The Living Dead and Fatal Journey - were released in 2019. No further seasons.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Untamed_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2019,
+      "episodes": 50,
+      "release_date": {
+        "value": "2019-06-27",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.7,
+        "basis": "IMDb score of 8.7 from international audiences; 9.5 billion views on Tencent Video as of 2021. Audience and critic consensus centres on the Xiao Zhan and Wang Yibo partnership and the series' emotional depth within the wuxia genre."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "A wild, sweeping love story with the chemistry of two leads carrying 50 episodes convincingly.",
+            "source": "The Cougar Star",
+            "url": "https://thecougarstar.com/2186/entertainment/review-the-untamed/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 8.7,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt10554898/"
+      },
+      "review_body": "Released on Tencent Video from June to August 2019 and later made available on Netflix, The Untamed became one of the most-watched Chinese dramas globally in the streaming era. The show accumulated over 9.5 billion views on Tencent Video alone and ranked first in China's popularity index for 2019. Based on Mo Xiang Tong Xiu's novel The Grandmaster of Demonic Cultivation, the series adapts its central relationship with careful coding that survived Chinese broadcast censorship while remaining unmistakable to international audiences. Critics highlighted the chemistry between Xiao Zhan and Wang Yibo as the primary emotional engine: 50 episodes rarely feel indulgent because the relationship at the centre carries genuine cost. The production design - elaborate robes, fog-draped mountain sets, choreographed sword fights - gave international viewers unfamiliar with cdrama a visually distinctive world.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2019-06-27",
+          "bollymeter": 8.3,
+          "spoiler_free": "The premiere opens in Wei Wuxian's second life before the series methodically reconstructs his first. The structural choice to begin with the aftermath rather than the origin creates immediate stakes: viewers are dropped into a world that has already been permanently shaped by events they have not yet witnessed.",
+          "the_moment": "The moment Lan Wangji recognises Wei Wuxian in his new body - a recognition wordless and total.",
+          "critic_note": null
+        },
+        {
+          "number": 33,
+          "title": "Episode 33",
+          "air_date": null,
+          "bollymeter": 9.0,
+          "spoiler_free": "The episode where the full picture of the Sunshot Campaign and its political betrayals comes into focus. Audience reception identifies this as the point where the series shifts from adventure to tragedy.",
+          "the_moment": "The recreation of what actually happened at the Burial Mounds - a scene that reframes everything preceding it.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}

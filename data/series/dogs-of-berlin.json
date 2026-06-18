@@ -1,0 +1,107 @@
+{
+  "slug": "dogs-of-berlin",
+  "qid": {
+    "value": "Q47087923",
+    "source": "wikidata",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Dogs of Berlin",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Germany",
+  "original_language": {
+    "value": "de",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-06-18T12:00:00+05:30",
+    "confidence": "verified"
+  },
+  "status": "ended",
+  "genres": [
+    "Crime",
+    "Thriller",
+    "Drama",
+    "Psychological"
+  ],
+  "logline": "Two morally compromised Berlin detectives - one Turkish-German, one neo-Nazi-adjacent - are forced to partner on the murder of a football star whose death ignites every ethnic and criminal fault line in the city.",
+  "poster": {
+    "src": "/img/series/dogs-of-berlin/poster.jpg",
+    "alt": "Dogs of Berlin poster",
+    "attribution": "Poster © Netflix / Syrreal Entertainment. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "ended",
+    "note": "Single-season run. Netflix has not announced a second season. The show concluded as a limited crime series.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dogs_of_Berlin"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": 10,
+      "release_date": {
+        "value": "2018-12-07",
+        "source": "Wikipedia",
+        "fetched_at": "2026-06-18T12:00:00+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "WORTH-IT",
+      "bollymeter": {
+        "score": 7.0,
+        "basis": "IMDb audience rating 7.5 from over 15,000 users. Critics who reviewed the series found a dense, morally complex German crime drama that rewards patient viewing despite a demanding early learning curve."
+      },
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": [
+          {
+            "text": "Characters are confined to their corruptions and demons - a show more about facing corruption than solving crime.",
+            "source": "Ready Steady Cut",
+            "url": "https://readysteadycut.com/2018/12/07/dogs-of-berlin-netflix-review/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 7.5,
+        "scale": 10,
+        "source": "IMDb",
+        "source_url": "https://www.imdb.com/title/tt6839788/"
+      },
+      "review_body": "Dogs of Berlin arrived in December 2018 as Netflix's second German original series, following Dark. Where Dark leaned into supernatural mystery, this show planted itself in Berlin's contemporary social fractures - the Arab clan networks operating in Neukolln, the neo-Nazi presence in the east, the Turkish-German community's uneasy position between both. Creator and director Christian Alvart built the investigation around the murder of a football player whose ethnic identity makes him a symbol to everyone, a person to almost no one. The two lead detectives - Fahri Yardim's Erol Birkan and Felix Kramer's Kurt Grimmer - are each compromised in ways that make simple moral authority impossible. Critics who reviewed it found a demanding, reward-latent show that takes several episodes to establish its full architecture. Ready Steady Cut gave it 4 out of 5, noting that 'characters are confined to their corruptions.' IMDb audiences scored it 7.5. The show is not binge-friendly in the Netflix scroll-and-pause sense - it requires focused attention - but that density is the point.",
+      "season_over_season": null,
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "Episode 1",
+          "air_date": "2018-12-07",
+          "bollymeter": 7.2,
+          "spoiler_free": "The premiere establishes the murder and the social geography of Berlin that will frame the entire investigation. The city is rendered as a space of contested identity - football stadium, immigrant neighbourhood, police precinct. The two leads are introduced through their corruptions rather than their virtues.",
+          "the_moment": "The aftermath at the stadium - the death of the footballer triggers an immediate city-wide power struggle that shows exactly what kind of show this is going to be.",
+          "critic_note": null
+        },
+        {
+          "number": 10,
+          "title": "Episode 10",
+          "air_date": "2018-12-07",
+          "bollymeter": 7.0,
+          "spoiler_free": "The finale resolves the central murder investigation while leaving several of the city's underlying tensions deliberately unresolved. The show's argument - that Berlin's social fault lines are structural, not criminal - is maintained to the end.",
+          "the_moment": "The final confrontation between Erol and the criminal forces he has been navigating all season - a scene that earns the show's patient investment in moral ambiguity.",
+          "critic_note": null
+        }
+      ]
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-06-18T12:00:00+05:30"
+}
