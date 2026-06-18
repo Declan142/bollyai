@@ -23,7 +23,16 @@ wakeup - a wave must always be in flight so completions keep waking the orchestr
 Read this ledger first, then dispatch the next pending batch's pools. Stop at target
 or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocity call.
 
-## Progress: 895 / 1000   (baseline 183)
+## Progress: 925 / 1000   (baseline 183)
+
+### Batch 18 — 2026-06-18 — 30 series — STATUS: DONE (895->925)
+- **A K-Drama:** arthdal-chronicles · my-id-is-gangnam-beauty · familiar-wife · mine-kdrama · a-korean-odyssey · oh-my-ghost
+- **B Anime:** bakemonogatari · kuroko-no-basket · log-horizon · shiki · the-melancholy-of-haruhi-suzumiya · chuunibyou-demo-koi-ga-shitai
+- **C US/Canada:** enlightened · orphan-black · three-pines · godfather-of-harlem · mythic-quest · ghosts-us
+- **D UK/Euro:** the-bay · a-very-british-scandal · the-outlaws · dogs-of-berlin · the-law-according-to-lidia-poet · la-fortuna
+- **E World/Asian:** nirvana-in-fire · the-untamed · deadloch · the-newsreader · freud · criminal-record
+- 30/30 validate clean · build green (8280pp) · AggregateRating gate clean · 12/30 posters (18 SVG fallback)
+- Commit: f99c9e7
 
 ### Batch 17 — 2026-06-18 — 30 series — STATUS: DONE (865->895)
 - **A K-Drama:** queen-in-hyuns-man · hot-stove-league · eve-kdrama · poong-the-joseon-psychiatrist · shooting-stars-kdrama · tomorrow-kdrama
