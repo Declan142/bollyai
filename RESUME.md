@@ -1,3 +1,21 @@
+# BollyAI - pickup state (2026-06-18 ~07:10, TARGET 1000 HIT - ALL WAVES LIVE)
+
+## WRAP SUMMARY (07:10 IST, 2026-06-18) - overnight session complete
+- **TARGET 1000 REACHED**: 717 -> 1003 series (+286 this session)
+- **Wave 2 shipped**: duranga (9 eps, 7.3-8.1) + taj-divided-by-blood (8 eps, 7.6-8.4) - Azure gpt-5.4 regen
+- **10 buildout ticks deployed**: batches 12-21, each ~30 series (717->1003)
+- **Every batch**: 262 pytest PASS, validate_series PASS, AggregateRating clean, pushed + IndexNow
+- **8655 static pages** live on bollyai.in (commit 5f25c87, pushed to origin)
+- **Loop stopped**: BUILDOUT_STOP flag auto-set by loop at target, bollyloop session in pts/8 idle
+- **Deploy worktree**: /tmp/bolly-ship1 at 5f25c87 (node_modules symlinked from main)
+- **Azure env**: scripts/subtitles/.azure-env.sh (NANO drafts, FULL finals, cap-3 serial)
+- **IndexNow total this session**: 19+28+30+30+30+30+30+18 = 215 URLs pinged
+
+## NEXT SESSION OPTIONS
+- Subtitle-grounded episode depth wave (duranga + taj have dossiers ready; other candidates: check data/subtitles/)
+- Design improvements (series page / browse grid weakest surfaces - see prior RESUME sections below)
+- New content: target bumped if desired, or switch to quality moat work
+
 # BollyAI - pickup state (2026-06-16 ~17:40, 6H PUSH WRAPPED by Aditya - 2 WAVES LIVE)
 
 ## WRAP SUMMARY (17:40) - run concluded on Aditya "wrap up now"
