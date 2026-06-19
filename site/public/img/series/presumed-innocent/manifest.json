@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Apple TV+ / Bad Robot Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Cover_of_Presumed_Innocent_%282024%29.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T20:15:39Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/presumed-innocent/poster.jpg",
+    "source_height": 387,
+    "source_width": 258,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "presumed-innocent",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Presumed_Innocent_(TV_series)",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Cover_of_Presumed_Innocent_%282024%29.png"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/presumed-innocent/w185.avif",
+      "bytes": 6361
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/presumed-innocent/w185.webp",
+      "bytes": 7748
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/presumed-innocent/w342.avif",
+      "bytes": 14216
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/presumed-innocent/w342.webp",
+      "bytes": 17950
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/presumed-innocent/w500.avif",
+      "bytes": 21947
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/presumed-innocent/w500.webp",
+      "bytes": 28076
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T03:29:26.648Z"
+}

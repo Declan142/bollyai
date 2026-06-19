@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Madhouse / Yorimoi Production Committee. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/f/f3/A_Place_Further_Than_the_Universe_key_visual.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T19:39:03Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/a-place-further-than-the-universe/poster.jpg",
+    "source_height": 375,
+    "source_width": 250,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "a-place-further-than-the-universe",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/A_Place_Further_than_the_Universe",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/A_Place_Further_Than_the_Universe_key_visual.png"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/a-place-further-than-the-universe/w185.avif",
+      "bytes": 19046
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/a-place-further-than-the-universe/w185.webp",
+      "bytes": 15494
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/a-place-further-than-the-universe/w342.avif",
+      "bytes": 36071
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/a-place-further-than-the-universe/w342.webp",
+      "bytes": 34048
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/a-place-further-than-the-universe/w500.avif",
+      "bytes": 50522
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/a-place-further-than-the-universe/w500.webp",
+      "bytes": 51890
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T03:28:33.086Z"
+}

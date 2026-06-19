@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Press image used for criticism and review under fair dealing (Sec 52(1)(a) Indian Copyright Act). Takedown requests: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/7/76/Gyaarah_Gyaarah_Poster.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T19:58:10Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/gyaarah-gyaarah/poster.jpg",
+    "source_height": 421,
+    "source_width": 237,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "gyaarah-gyaarah",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/Gyaarah_Gyaarah",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/7/76/Gyaarah_Gyaarah_Poster.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/gyaarah-gyaarah/w185.avif",
+      "bytes": 13465
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/gyaarah-gyaarah/w185.webp",
+      "bytes": 13006
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/gyaarah-gyaarah/w342.avif",
+      "bytes": 26253
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/gyaarah-gyaarah/w342.webp",
+      "bytes": 28992
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/gyaarah-gyaarah/w500.avif",
+      "bytes": 36883
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/gyaarah-gyaarah/w500.webp",
+      "bytes": 43286
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T03:28:59.543Z"
+}

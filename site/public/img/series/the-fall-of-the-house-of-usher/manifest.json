@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix / Intrepid Pictures / Sarnoff Company. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Wikipedia REST summary lead image",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Netflix_Fall_of_House_of_Usher_series.png",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-18T20:27:14Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/the-fall-of-the-house-of-usher/poster.jpg",
+    "source_height": 393,
+    "source_width": 265,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "the-fall-of-the-house-of-usher",
+  "source": {
+    "name": "Wikipedia REST summary lead image",
+    "page_url": "https://en.wikipedia.org/wiki/The_Fall_of_the_House_of_Usher_(miniseries)",
+    "type": "wikipedia_rest_lead_image",
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Netflix_Fall_of_House_of_Usher_series.png"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/the-fall-of-the-house-of-usher/w185.avif",
+      "bytes": 5892
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/the-fall-of-the-house-of-usher/w185.webp",
+      "bytes": 6272
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/the-fall-of-the-house-of-usher/w342.avif",
+      "bytes": 12259
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/the-fall-of-the-house-of-usher/w342.webp",
+      "bytes": 14326
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/the-fall-of-the-house-of-usher/w500.avif",
+      "bytes": 17765
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/the-fall-of-the-house-of-usher/w500.webp",
+      "bytes": 20864
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T03:29:39.146Z"
+}

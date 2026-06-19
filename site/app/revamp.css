@@ -261,19 +261,28 @@
   position: absolute; inset: 0;
   display: flex; flex-direction: column; justify-content: space-between;
   padding: clamp(.65rem, 1.5vw, 1.05rem);
-  background: oklch(10% .004 285);
+  /* Desk-tinted key-art wash: a soft accent light-source bleeds from the top, the body deepens
+     diagonally to near-black so the title stays legible. Turns a posterless tile from a flat
+     void into colored, poster-weight presence per desk. */
+  background:
+    radial-gradient(140% 100% at 14% -10%, color-mix(in oklch, var(--accent) 58%, transparent), transparent 56%),
+    radial-gradient(125% 78% at 94% 112%, color-mix(in oklch, var(--accent-2, var(--accent)) 34%, transparent), transparent 58%),
+    linear-gradient(156deg,
+      color-mix(in oklch, var(--accent) 40%, oklch(16% .03 285)) 0%,
+      color-mix(in oklch, var(--accent) 9%, oklch(11% .014 285)) 48%,
+      oklch(8% .006 285) 100%);
   border-top: 3px solid var(--accent);
   overflow: hidden;
 }
 .one-sheet::before { /* 35mm film-strip sprocket motif down the left edge, near-invisible */
   content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 9px;
-  background: repeating-linear-gradient(to bottom, oklch(100% 0 0 / .07) 0 5px, transparent 5px 11px);
-  opacity: .6;
+  background: repeating-linear-gradient(to bottom, oklch(100% 0 0 / .09) 0 5px, transparent 5px 11px);
+  opacity: .65;
 }
 .one-sheet::after { /* faint oversized reel glyph bleeding off the corner = texture, not accent */
   content: "\25C9"; position: absolute; right: -.35em; bottom: -.5em;
   font-size: clamp(3.4rem, 9vw, 5.2rem); line-height: 1;
-  color: oklch(100% 0 0 / .035); pointer-events: none;
+  color: oklch(100% 0 0 / .05); pointer-events: none;
 }
 .one-sheet__top {
   display: flex; justify-content: space-between; gap: .4rem; z-index: 1;
@@ -282,9 +291,10 @@
 }
 .one-sheet__title {
   z-index: 1; margin: auto 0;
-  font-family: var(--font-display); font-weight: 430; font-variation-settings: "opsz" 80;
-  font-size: clamp(1.05rem, 2.5vw, 1.5rem); line-height: 1.02; letter-spacing: -.01em;
+  font-family: var(--font-display); font-weight: 460; font-variation-settings: "opsz" 80;
+  font-size: clamp(1.12rem, 2.7vw, 1.62rem); line-height: 1.01; letter-spacing: -.012em;
   color: var(--text); text-wrap: balance;
+  text-shadow: 0 1px 14px oklch(0% 0 0 / .5);
 }
 .one-sheet__foot {
   z-index: 1; font-family: var(--font-number); font-size: .54rem; letter-spacing: .2em; text-transform: uppercase;
