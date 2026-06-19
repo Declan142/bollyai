@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Universal Content Productions / USA Network. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYg-DhhfJ9RjIMlBVRF3qPmlg4pu8M4wGc_-Wm0PlcErczekTuYhX9qNT5kE3zQvB7PEwt3Vk5nFpAisXfCUef-2MBRVrBM3f0B2.jpg?r=2a3",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T06:03:25Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/the-sinner/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "the-sinner",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/80175802",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYg-DhhfJ9RjIMlBVRF3qPmlg4pu8M4wGc_-Wm0PlcErczekTuYhX9qNT5kE3zQvB7PEwt3Vk5nFpAisXfCUef-2MBRVrBM3f0B2.jpg?r=2a3"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/the-sinner/w185.avif",
+      "bytes": 6345
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/the-sinner/w185.webp",
+      "bytes": 6938
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/the-sinner/w342.avif",
+      "bytes": 19445
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/the-sinner/w342.webp",
+      "bytes": 23096
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/the-sinner/w500.avif",
+      "bytes": 42841
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/the-sinner/w500.webp",
+      "bytes": 46796
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:09:42.681Z"
+}

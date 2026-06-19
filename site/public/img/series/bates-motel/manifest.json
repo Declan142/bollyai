@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © A&E / Universal Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeVmwrzuruudcjBmVGYbC6f0luLPajr63Owp2FN9iuW6TW09ccZpqXkZjA-U-fSB-l1GOI3R0td7ij-73iABlsxLrQV1mbJ0H6sd.jpg?r=33a",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:51:58Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/bates-motel/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "bates-motel",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/70272479",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeVmwrzuruudcjBmVGYbC6f0luLPajr63Owp2FN9iuW6TW09ccZpqXkZjA-U-fSB-l1GOI3R0td7ij-73iABlsxLrQV1mbJ0H6sd.jpg?r=33a"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/bates-motel/w185.avif",
+      "bytes": 10385
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/bates-motel/w185.webp",
+      "bytes": 10744
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/bates-motel/w342.avif",
+      "bytes": 29917
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/bates-motel/w342.webp",
+      "bytes": 32720
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/bates-motel/w500.avif",
+      "bytes": 57501
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/bates-motel/w500.webp",
+      "bytes": 61260
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:07:04.110Z"
+}

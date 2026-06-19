@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © NBC / Universal Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZA_N4Y7Mrd6WWhW3grE3pyAVUV-dmO06TDQUbAB3Rv_zacE1BLP684RmRvqt55w8v8I9b-m3d3hAfGoiWR3t7FwED1B2R1D12nH.jpg?r=876",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:55:34Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/good-girls/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "good-girls",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/80177342",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZA_N4Y7Mrd6WWhW3grE3pyAVUV-dmO06TDQUbAB3Rv_zacE1BLP684RmRvqt55w8v8I9b-m3d3hAfGoiWR3t7FwED1B2R1D12nH.jpg?r=876"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/good-girls/w185.avif",
+      "bytes": 8302
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/good-girls/w185.webp",
+      "bytes": 8618
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/good-girls/w342.avif",
+      "bytes": 23216
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/good-girls/w342.webp",
+      "bytes": 25186
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/good-girls/w500.avif",
+      "bytes": 44226
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/good-girls/w500.webp",
+      "bytes": 47474
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:07:56.028Z"
+}

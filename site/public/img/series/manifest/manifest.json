@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © NBC / Warner Bros. Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABY5q9H508w5FsCmQQzCM7m9yhSyb2NAjvAmrjHooV2A3xUe9O0mh4J14zVdMsTY6d0zPMvelp7iIVojSt0G8tGTkbh2JhjodgX8J.jpg?r=be3",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:57:20Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/manifest/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "manifest",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/80241318",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABY5q9H508w5FsCmQQzCM7m9yhSyb2NAjvAmrjHooV2A3xUe9O0mh4J14zVdMsTY6d0zPMvelp7iIVojSt0G8tGTkbh2JhjodgX8J.jpg?r=be3"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/manifest/w185.avif",
+      "bytes": 7660
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/manifest/w185.webp",
+      "bytes": 8260
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/manifest/w342.avif",
+      "bytes": 22149
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/manifest/w342.webp",
+      "bytes": 24984
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/manifest/w500.avif",
+      "bytes": 43832
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/manifest/w500.webp",
+      "bytes": 49462
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:08:16.400Z"
+}

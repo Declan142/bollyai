@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix / Anonymous Content. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXGWdWTqiE0D-hrlFZ30RkrJeWJkCRD2-HoYeiDe3HIHlxugsWP5Gxu2M_elwlBK8DynVnthbSuZW6jfAYo1k-WPii7ARl8d-np1.jpg?r=6bb",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:52:15Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/bodkin/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "bodkin",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/81423482",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXGWdWTqiE0D-hrlFZ30RkrJeWJkCRD2-HoYeiDe3HIHlxugsWP5Gxu2M_elwlBK8DynVnthbSuZW6jfAYo1k-WPii7ARl8d-np1.jpg?r=6bb"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/bodkin/w185.avif",
+      "bytes": 11201
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/bodkin/w185.webp",
+      "bytes": 11014
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/bodkin/w342.avif",
+      "bytes": 25710
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/bodkin/w342.webp",
+      "bytes": 27912
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/bodkin/w500.avif",
+      "bytes": 42845
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/bodkin/w500.webp",
+      "bytes": 47846
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:07:09.335Z"
+}

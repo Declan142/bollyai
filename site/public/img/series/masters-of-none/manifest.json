@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix / Universal Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQXcz5gB3HV1OIqYjTVO1H6XL_aL2fN8aA9Dbqo1KUHVYWSJx28VsPy1vYjNN12fAH5EKo6WqgW8ZE2olRWJ3rLBLL0uIGi5kFjJ.jpg?r=3ad",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:57:28Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/masters-of-none/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "masters-of-none",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/80049714",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQXcz5gB3HV1OIqYjTVO1H6XL_aL2fN8aA9Dbqo1KUHVYWSJx28VsPy1vYjNN12fAH5EKo6WqgW8ZE2olRWJ3rLBLL0uIGi5kFjJ.jpg?r=3ad"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/masters-of-none/w185.avif",
+      "bytes": 3023
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/masters-of-none/w185.webp",
+      "bytes": 3338
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/masters-of-none/w342.avif",
+      "bytes": 8752
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/masters-of-none/w342.webp",
+      "bytes": 13632
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/masters-of-none/w500.avif",
+      "bytes": 28554
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/masters-of-none/w500.webp",
+      "bytes": 31808
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:08:18.456Z"
+}

@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix / Media Rights Capital. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVRizI-i8_pQeNPbY0xFVJDYpZmLoV9UPIq0ZRmYzYG8ujJFxEuLGJS113jlT5fRmiqpY2BcSBtUW4RoaVlq_f_HZYqhuw-1dRlf.jpg?r=65d",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:56:13Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/house-of-cards/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "house-of-cards",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/70178217",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVRizI-i8_pQeNPbY0xFVJDYpZmLoV9UPIq0ZRmYzYG8ujJFxEuLGJS113jlT5fRmiqpY2BcSBtUW4RoaVlq_f_HZYqhuw-1dRlf.jpg?r=65d"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/house-of-cards/w185.avif",
+      "bytes": 2356
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/house-of-cards/w185.webp",
+      "bytes": 2998
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/house-of-cards/w342.avif",
+      "bytes": 6283
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/house-of-cards/w342.webp",
+      "bytes": 10240
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/house-of-cards/w500.avif",
+      "bytes": 18813
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/house-of-cards/w500.webp",
+      "bytes": 23356
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:08:03.051Z"
+}

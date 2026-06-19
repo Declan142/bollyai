@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © FX Productions / Ryan Murphy Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/U6_eu_lw5TPOkLCYXBHQsUANDp0/AAAABautQJWzVX4Li0zX8L3MES3NsfUnCsE2rA7l37QsK15PXaizta7bPDhtTdm9IUKiyJvPI0TZ.jpg",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:51:39Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/american-crime-story/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "american-crime-story",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/80083977",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/U6_eu_lw5TPOkLCYXBHQsUANDp0/AAAABautQJWzVX4Li0zX8L3MES3NsfUnCsE2rA7l37QsK15PXaizta7bPDhtTdm9IUKiyJvPI0TZ.jpg"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/american-crime-story/w185.avif",
+      "bytes": 455
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/american-crime-story/w185.webp",
+      "bytes": 402
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/american-crime-story/w342.avif",
+      "bytes": 601
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/american-crime-story/w342.webp",
+      "bytes": 870
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/american-crime-story/w500.avif",
+      "bytes": 714
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/american-crime-story/w500.webp",
+      "bytes": 1442
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:07:00.133Z"
+}

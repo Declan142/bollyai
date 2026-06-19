@@ -1,0 +1,83 @@
+{
+  "attribution": {
+    "line": "Poster © Netflix Turkey / Medyapim. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown",
+    "source_name": "Netflix key art",
+    "source_url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYhfp7fCtU8dCkcfprkeYXBSWtR8I2JYKWBis_GT5m2F7xp8YNRPvSlbwbP9J4lbZUerh2qVLC4_zhP7NAiEW1xIHx1onnikC-5a.jpg?r=b0c",
+    "takedown_url": "https://bollyai.in/takedown/"
+  },
+  "generated_at": "2026-06-19T05:54:40Z",
+  "kind": "series-poster",
+  "policy": {
+    "allowed_chain": "official press, official og:image, official trailer still, Wikipedia lead or infobox image",
+    "rejected_sources": [
+      "tmdb",
+      "justwatch",
+      "imdb",
+      "letterboxd",
+      "stock",
+      "social_mirrors"
+    ],
+    "served_image": "self_hosted"
+  },
+  "poster": {
+    "height": 750,
+    "path": "/img/series/ethos-bir-baskadir/poster.jpg",
+    "source_height": 720,
+    "source_width": 1280,
+    "width": 500
+  },
+  "schema": "bollyai-image-harvest/v2",
+  "slug": "ethos-bir-baskadir",
+  "source": {
+    "name": "Netflix key art",
+    "page_url": "https://www.netflix.com/title/81106900",
+    "type": "platform_press_kit",
+    "url": "https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYhfp7fCtU8dCkcfprkeYXBSWtR8I2JYKWBis_GT5m2F7xp8YNRPvSlbwbP9J4lbZUerh2qVLC4_zhP7NAiEW1xIHx1onnikC-5a.jpg?r=b0c"
+  },
+  "variants": [
+    {
+      "width": 185,
+      "height": 278,
+      "format": "avif",
+      "path": "/img/series/ethos-bir-baskadir/w185.avif",
+      "bytes": 3033
+    },
+    {
+      "width": 185,
+      "height": 278,
+      "format": "webp",
+      "path": "/img/series/ethos-bir-baskadir/w185.webp",
+      "bytes": 3726
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "avif",
+      "path": "/img/series/ethos-bir-baskadir/w342.avif",
+      "bytes": 10968
+    },
+    {
+      "width": 342,
+      "height": 513,
+      "format": "webp",
+      "path": "/img/series/ethos-bir-baskadir/w342.webp",
+      "bytes": 15400
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "avif",
+      "path": "/img/series/ethos-bir-baskadir/w500.avif",
+      "bytes": 34071
+    },
+    {
+      "width": 500,
+      "height": 750,
+      "format": "webp",
+      "path": "/img/series/ethos-bir-baskadir/w500.webp",
+      "bytes": 39834
+    }
+  ],
+  "variant_tool": "site/scripts/generate-image-variants.mjs",
+  "variant_generated_at": "2026-06-19T06:07:42.506Z"
+}
