@@ -62,9 +62,14 @@ one and the build breaks. They are non-negotiable.
 
 ## Deploy / infra
 
-CF Pages Direct Upload (NOT GH-Actions build - uncounted vs 500-build cap):
+CF Pages Direct Upload (manual/floor) + a daily-refresh GHA cron that also build+deploys:
 `npx wrangler pages deploy site/out --project-name=bollyai-in --branch=main`
-Creds: `~/.claude/vault/cloudflare.md` (Pages token + account ID).
+Creds (manual deploy): `~/.claude/vault/cloudflare-master.md` (empire-god token, All-accounts).
+ACCOUNT_ID=18c1d9f76c2153a2dde6efa561116b17. 🚨 `vault/cloudflare.md` Pages token does NOT
+scope bollyai-in (auth 10000) - do NOT use it here; god token is the standing creds (Aditya
+2026-06-21 "use god token for now"). The GHA daily-refresh uses its own working
+`CLOUDFLARE_API_TOKEN` GH secret (runs green) - leave it; do not put the god token in GH secrets.
+Build self-guards the CF 20k-file cap via `postbuild:filecap` (strips avif + hard-fails if >=20k).
 
 IndexNow: content-hash-gated re-pings only. Script: `scripts/indexnow_ping.sh` (throttled,
 85 URLs/wave max). Google Search Console: manual verify required (Aditya's Google login).

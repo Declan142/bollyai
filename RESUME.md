@@ -92,7 +92,7 @@ Tonight was content-grinding (done, see below). Next session is VISUAL. The qual
 - Fleet STOPPED: `bollynite` drained gracefully, orphan regen killed, box quiet. vyom2 runs PA/MW/BB on session `wc` - SEPARATE floor, NOT mine.
 
 ## SHIP PATTERN (proven 3x tonight) + DIGEST NOTES for Aditya
-- 🚨 build_review writes `data/series` NON-atomically -> never build the live tree mid-regen. Standing git worktree `/tmp/bolly-ship1` (node_modules symlinked): commit to main -> `git -C /tmp/bolly-ship1 checkout <HEAD-sha>` (reset `data/_state/series-links.json` if it shows M) -> `cd /tmp/bolly-ship1/site && npm run build` -> `npx wrangler pages deploy out --project-name=bollyai-in --branch=main` (CF creds inline from `vault/cloudflare.md` via grep+sed, NEVER echo) -> verify `/series/<slug>/` 200 -> IndexNow (`scripts/lib/indexnow_ping.py --delta <urls> --key 51f2725a841760148d45a3b07a08c53c --host bollyai.in`, <=85). 🚨 `rm -rf` + `git worktree remove --force` are DENY-LISTED - REUSE the worktree, never delete it.
+- 🚨 build_review writes `data/series` NON-atomically -> never build the live tree mid-regen. Standing git worktree `/tmp/bolly-ship1` (node_modules symlinked): commit to main -> `git -C /tmp/bolly-ship1 checkout <HEAD-sha>` (reset `data/_state/series-links.json` if it shows M) -> `cd /tmp/bolly-ship1/site && npm run build` -> `npx wrangler pages deploy out --project-name=bollyai-in --branch=main` (CF creds inline from `vault/cloudflare-master.md` (god token) via grep+sed, NEVER echo) -> verify `/series/<slug>/` 200 -> IndexNow (`scripts/lib/indexnow_ping.py --delta <urls> --key 51f2725a841760148d45a3b07a08c53c --host bollyai.in`, <=85). 🚨 `rm -rf` + `git worktree remove --force` are DENY-LISTED - REUSE the worktree, never delete it.
 - Standing deploy/push grant (CLAUDE.md) = gates-green IS the approval (validate_series + em-dash + design-reviewer>=7.5 + pytest + npm build).
 - DIGEST: (1) babysit's 25m ttl over-flagged the long content lanes as STALLED (~6 false-positive pokes) - they were productive; worth a productivity-aware or per-lane ttl so 2hr content grinds don't spam the floor. (2) VIVEKA: `conductor add` logs an EMPTY task_id to `shadow.jsonl` (v0 gap) so `viveka verdict <task_id>` can't link to its shadow prediction - I recorded kept-verdicts by lane-name (is_win=false: VIVEKA had predicted nested vs my flat lanes). Fix the add->shadow task_id propagation to make the flywheel real.
 
@@ -326,7 +326,7 @@ D. kantara = authored as 2022 original; add 2025 "Chapter 1" separately.
   `(pgrep regen_batch)+(pgrep build_review)=0`. run_batch (dossiers, data/subtitles) does NOT
   race the build - ignore it.
 - `cd site && npm run build` (green, ~2616 pages) -> `npx wrangler pages deploy site/out
-  --project-name=bollyai-in --branch=main` (CF creds vault/cloudflare.md, extract inline, never echo)
+  --project-name=bollyai-in --branch=main` (CF creds vault/cloudflare-master.md god token, extract inline, never echo)
   -> live-verify episode pages 200+content -> IndexNow `python3 scripts/lib/indexnow_ping.py
   --delta <urlfile> --key 51f2725a841760148d45a3b07a08c53c --host bollyai.in` (<=85/wave)
   -> commit+push series JSONs (pytest gate; pathspec - data/subtitles is gitignored).
