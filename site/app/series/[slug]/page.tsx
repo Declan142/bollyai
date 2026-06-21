@@ -10,6 +10,7 @@ import { EpisodeList } from "../../../components/EpisodeList";
 import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
+import { hasPrediction } from "../../../lib/predictions";
 import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
 import { ogImage, pageSeo } from "../../../lib/seo";
 
@@ -101,6 +102,13 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
           <a className="ending-cta" href={`/series/${series.slug}/ending-explained/`}>
             <span className="ending-cta__k">SPOILERS</span>
             <span>How does {series.title.value} end? Read the ending explained →</span>
+          </a>
+        )}
+
+        {hasPrediction(series.slug) && (
+          <a className="ending-cta" href={`/series/${series.slug}/finale-predictions/`}>
+            <span className="ending-cta__k">FINALE</span>
+            <span>{series.title.value} finale: what could happen? BollyAI predictions →</span>
           </a>
         )}
 

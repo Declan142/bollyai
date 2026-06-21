@@ -27,6 +27,7 @@ const platformSlug = (p) => p.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(
 const films = listJson(path.join(dataDir, "films"));
 const series = listJson(path.join(dataDir, "series"));
 const endings = listJson(path.join(dataDir, "endings"));
+const predictions = listJson(path.join(dataDir, "predictions"));
 const watch = listJson(path.join(dataDir, "recommendations"));
 const calendar = fs.existsSync(path.join(dataDir, "ott", "calendar.json"))
   ? readJson(path.join(dataDir, "ott", "calendar.json"))
@@ -129,6 +130,9 @@ for (const s of series) {
 // endings
 const endingRows = endings.map((e) => ({ loc: `${SITE}/series/${e.slug}/ending-explained/`, lastmod: day(e.date_modified) }));
 
+// finale predictions
+const predictionRows = predictions.map((p) => ({ loc: `${SITE}/series/${p.slug}/finale-predictions/`, lastmod: day(p.date_modified) }));
+
 // watch lists
 const watchRows = watch.map((l) => ({ loc: `${SITE}/watch/${l.slug}/`, lastmod: day(l.updated) }));
 
@@ -156,6 +160,7 @@ const children = [
   ["sitemap-where-to-watch.xml", urlXml(w2wRows), maxDay(w2wRows.map((r) => r.lastmod))],
   ["sitemap-seasons.xml", urlXml(seasonRows), maxDay(seasonRows.map((r) => r.lastmod))],
   ["sitemap-endings.xml", urlXml(endingRows), maxDay(endingRows.map((r) => r.lastmod))],
+  ["sitemap-predictions.xml", urlXml(predictionRows), maxDay(predictionRows.map((r) => r.lastmod))],
   ["sitemap-watch.xml", urlXml(watchRows), maxDay(watchRows.map((r) => r.lastmod))],
   ["sitemap-images.xml", imageXml, LAUNCH]
 ];
@@ -169,8 +174,8 @@ const indexXml =
   `\n</sitemapindex>\n`;
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), indexXml);
 
-const total = pages.length + filmRows.length + seriesRows.length + w2wRows.length + seasonRows.length + endingRows.length + watchRows.length;
+const total = pages.length + filmRows.length + seriesRows.length + w2wRows.length + seasonRows.length + endingRows.length + predictionRows.length + watchRows.length;
 console.log(
   `sitemaps: index + ${children.length} children | ${total} URLs ` +
-  `(pages ${pages.length}, films ${filmRows.length}, series ${seriesRows.length}, where-to-watch ${w2wRows.length}, seasons ${seasonRows.length}, endings ${endingRows.length}, watch ${watchRows.length}) + ${imgRows.length} images`
+  `(pages ${pages.length}, films ${filmRows.length}, series ${seriesRows.length}, where-to-watch ${w2wRows.length}, seasons ${seasonRows.length}, endings ${endingRows.length}, predictions ${predictionRows.length}, watch ${watchRows.length}) + ${imgRows.length} images`
 );

@@ -2,6 +2,7 @@ import type { Film } from "./data";
 import { formatDate } from "./data";
 import type { Series, SeriesSeason, EpisodeReview } from "./series";
 import type { Ending } from "./endings";
+import type { Prediction } from "./predictions";
 
 const siteUrl = "https://bollyai.in";
 
@@ -284,6 +285,41 @@ export function endingArticleJsonLd(series: Series, ending: Ending) {
 
 export function endingFaqJsonLd(ending: Ending) {
   const qa = ending.lingering_questions ?? [];
+  if (qa.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: qa.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a }
+    }))
+  };
+}
+
+// "Finale Predictions" page = an Article with speculation clearly attributed as BollyAI analysis.
+// Same Article shape as endingArticleJsonLd, but URL and description differ.
+export function predictionArticleJsonLd(series: Series, prediction: Prediction) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${series.title.value} Season ${prediction.season_number} Finale Predictions`,
+    description: prediction.hook,
+    dateModified: prediction.date_modified,
+    author: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+    publisher: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+    mainEntityOfPage: `${siteUrl}/series/${series.slug}/finale-predictions/`,
+    about: {
+      "@type": "TVSeries",
+      name: series.title.value,
+      ...(series.qid ? { sameAs: `https://www.wikidata.org/wiki/${series.qid.value}` } : {})
+    },
+    citation: prediction.sources.map((s) => s.url)
+  };
+}
+
+export function predictionFaqJsonLd(prediction: Prediction) {
+  const qa = prediction.lingering_questions ?? [];
   if (qa.length === 0) return null;
   return {
     "@context": "https://schema.org",
