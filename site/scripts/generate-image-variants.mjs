@@ -83,11 +83,11 @@ async function run() {
     const variants = [];
     let wroteVariant = false;
     for (const width of widths) {
-      const avif = await writeVariant(source, dir, width, "avif");
+      // avif dropped 2026-06-21: 1008 avif files pushed the build over CF Pages' 20k-file
+      // cap; avif had 0 <img>/<source> usages (webp+jpg serve all images). webp-only now.
       const webp = await writeVariant(source, dir, width, "webp");
-      variants.push(avif.variant);
       variants.push(webp.variant);
-      wroteVariant = wroteVariant || avif.wrote || webp.wrote;
+      wroteVariant = wroteVariant || webp.wrote;
     }
     const originalManifest = fs.existsSync(manifestPath) ? fs.readFileSync(manifestPath, "utf8") : "";
     const manifest = fs.existsSync(manifestPath)
