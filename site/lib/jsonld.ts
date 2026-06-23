@@ -3,6 +3,7 @@ import { formatDate } from "./data";
 import type { Series, SeriesSeason, EpisodeReview } from "./series";
 import type { Ending } from "./endings";
 import type { Prediction } from "./predictions";
+import type { Explainer } from "./explainers";
 
 const siteUrl = "https://bollyai.in";
 
@@ -325,6 +326,40 @@ export function predictionFaqJsonLd(prediction: Prediction) {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: qa.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a }
+    }))
+  };
+}
+
+// "Explainer" page = an Article about FROM lore, character arcs, or fan theories.
+// Article (not Review) - explanatory/analytical, not a rated verdict. Never AggregateRating.
+export function explainerArticleJsonLd(series: Series, explainer: Explainer) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: explainer.title,
+    description: explainer.hook,
+    dateModified: explainer.date_modified,
+    author: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+    publisher: { "@type": "Organization", name: "BollyAI", url: siteUrl },
+    mainEntityOfPage: `${siteUrl}/series/${series.slug}/explainer/${explainer.topic}/`,
+    about: {
+      "@type": "TVSeries",
+      name: series.title.value,
+      ...(series.qid ? { sameAs: `https://www.wikidata.org/wiki/${series.qid.value}` } : {})
+    },
+    citation: explainer.sources.map((s) => s.url)
+  };
+}
+
+export function explainerFaqJsonLd(explainer: Explainer) {
+  if (explainer.faq.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: explainer.faq.map((f) => ({
       "@type": "Question",
       name: f.q,
       acceptedAnswer: { "@type": "Answer", text: f.a }

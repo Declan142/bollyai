@@ -11,6 +11,7 @@ import { formatDate } from "../../../lib/data";
 import { getAllSeries, getSeries, latestSeason, peakSeason, qualifiesForWhereToWatch } from "../../../lib/series";
 import { hasEnding } from "../../../lib/endings";
 import { hasPrediction } from "../../../lib/predictions";
+import { getExplainersForSlug } from "../../../lib/explainers";
 import { breadcrumbJsonLd, seriesJsonLd, seriesFaq, seriesFaqJsonLd } from "../../../lib/jsonld";
 import { ogImage, pageSeo } from "../../../lib/seo";
 
@@ -48,6 +49,7 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
   const episodeSeason = [...series.seasons]
     .sort((a, b) => (b.episode_reviews?.length ?? 0) - (a.episode_reviews?.length ?? 0))[0];
   const standoutEpisodes = episodeSeason?.episode_reviews ?? [];
+  const explainers = getExplainersForSlug(series.slug);
 
   return (
     <DeskTint desk={series.canonical_industry} className="film-page">
@@ -110,6 +112,19 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
             <span className="ending-cta__k">FINALE</span>
             <span>{series.title.value} finale: what could happen? BollyAI predictions →</span>
           </a>
+        )}
+
+        {explainers.length > 0 && (
+          <section className="panel">
+            <h2>{series.title.value} - Explained</h2>
+            <ul className="source-list">
+              {explainers.map((e) => (
+                <li key={e.topic}>
+                  <a href={`/series/${series.slug}/explainer/${e.topic}/`}>{e.title}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         <section className="panel">
