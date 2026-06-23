@@ -116,7 +116,7 @@ export default function SeriesHub({ params }: { params: { slug: string } }) {
 
         {explainers.length > 0 && (
           <section className="panel">
-            <h2>{series.title.value} - Explained</h2>
+            <h2>{series.title.value}: All Articles</h2>
             <ul className="source-list">
               {explainers.map((e) => (
                 <li key={e.topic}>

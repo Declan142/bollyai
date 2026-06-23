@@ -56,7 +56,6 @@ export default function ExplainerPage({ params }: { params: { slug: string; topi
           { name: "Home", url: "/" },
           { name: "Series", url: "/series/" },
           { name: series.title.value, url: `/series/${series.slug}/` },
-          { name: "FROM Explained", url: `/series/${series.slug}/` },
           { name: explainer.title, url: `/series/${series.slug}/explainer/${explainer.topic}/` }
         ])}
       />
@@ -105,8 +104,8 @@ export default function ExplainerPage({ params }: { params: { slug: string; topi
           <section className="panel">
             <h2>Sources</h2>
             <ul className="source-list">
-              {explainer.sources.map((s) => (
-                <li key={s.url}>
+              {explainer.sources.map((s, i) => (
+                <li key={`${i}-${s.url}`}>
                   <a href={s.url} rel="nofollow noopener" target="_blank">
                     {s.text}
                   </a>
@@ -122,7 +121,7 @@ export default function ExplainerPage({ params }: { params: { slug: string; topi
 
         {related.length > 0 && (
           <section className="panel">
-            <h2>FROM Explained - More Articles</h2>
+            <h2>More {series.title.value} Articles</h2>
             <ul className="source-list">
               {related.map((r) => (
                 <li key={r.topic}>
@@ -135,9 +134,6 @@ export default function ExplainerPage({ params }: { params: { slug: string; topi
 
         <nav className="mesh-links" aria-label="Series links">
           <a href={`/series/${series.slug}/`}>All about {series.title.value}</a>
-          <a href={`/series/${series.slug}/finale-predictions/`}>
-            {series.title.value} Season 4 finale predictions
-          </a>
           <a href="/series/">Back to Series</a>
         </nav>
       </section>
