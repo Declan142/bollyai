@@ -1,3 +1,47 @@
+# BollyAI - pickup state (2026-06-24, FROM Phase 2 LIVE)
+
+## WRAP (2026-06-24 ~01:19 IST) - FROM Phase 2 explainer hub shipped
+- **Explainer route LIVE**: `site/lib/explainers.ts` + `site/app/series/[slug]/explainer/[topic]/page.tsx` + JSON-LD helpers. Data: `data/explainers/<slug>/<topic>.json` (one file per article, per-series dir).
+- **3 flagship articles**: `boy-in-white.json` (S1-S3 grounded, theories labeled), `mythology.json` (episode-cited, 8 sections), `clues-you-missed-s4.json` (E1-E9 foreshadowing from repo episode reviews).
+- **FROM series page** now surfaces "FROM Explained" panel linking all explainers for the series.
+- **predictions/from.json** trimmed to 9 theories (test gate fix, was 10).
+- Commit 6dc9677, deployed CF Pages, conductor outcome reported.
+- Gates: 262 pytest PASS (OTT calendar pre-existing excluded), em-dash 0, build 19947 files.
+- W2 monsters.json already present in data dir (writer lane running).
+
+## FLOOR: needs Aditya
+- **S04E08.srt CONTAMINATED**: `data/subtitles/from/S04E08.srt` is The Rookie S4E8 ("Simone"), not FROM. E8 review is web-grounded (fine), but the srt needs replacement if E8 depth-regen is wanted. Delete + re-fetch when correct file available.
+- **FROM Season 5 renewal UNCONFIRMED** (as of 2026-06-24): MGM+ has NOT announced S5. Verify and update once MGM+ makes an official announcement. Do NOT publish renewal claims without confirmation.
+- **OTT calendar test pre-existing fail**: `test_ott_calendar.py::test_generated_calendar_has_source_envelopes` - calendar entries empty since Jun-22 roll. Needs `data/ott/calendar.json` regeneration.
+
+## NEXT (Phase 2 continuation)
+- E10 finale airs June 28 - stub only until it airs
+- Writer lanes (W1 characters, W2 mystery/theory, W3 guides) writing to data/explainers/from/ - deploy wave 2 when their files land (LEAD only deploys)
+- IndexNow: new explainer URLs will be picked up by next daily cron via sitemap
+
+---
+
+# BollyAI - pickup state (2026-06-24, FROM SATURATION SHIPPED)
+
+## WRAP (2026-06-24 ~00:55 IST) - FROM Phase 1 complete, LIVE on bollyai.in
+- **E9 "The Calm Before" upgraded**: 9593ch -> 12447ch, real subs beats (Sophia dead-forms constraint, Clara possession, Henry dream-anchor, Boyd Bottle Tree plea, Que Sera Sera + Doctor My Eyes, final voice). bollymeter 8.8 set.
+- **E8 bollymeter 8.1 set** (body stays at 5611ch - web-grounded, E8 subs mislabeled)
+- **date_modified refreshed** to 2026-06-24 (was 2026-06-10) - FROM now floats to top of homepage
+- **predictions/from.json** expanded: +3 character theories (Sophia/Victor/Henry) + "Clues You Missed in S4" section
+- **endings/from.json** sharpened: S4 section + 4 new finale questions from E9
+- Commit 73d7409, deployed CF dep 252fe0ec, pushed, IndexNow 3 URLs
+- All gates: validate_series PASS, em-dash 0, pytest 264/265 (OTT calendar pre-existing fail)
+
+## FLOOR: needs Aditya
+- **S04E08.srt CONTAMINATED**: `data/subtitles/from/S04E08.srt` is The Rookie S4E8 ("Simone"), not FROM. E8 review is web-grounded (fine), but the srt needs replacement if E8 depth-regen is wanted. Delete + re-fetch when correct file available.
+- **FROM Season 5 renewal UNCONFIRMED** (as of 2026-06-24): MGM+ has NOT announced S5. `data/explainers/from/season-5.json` states this clearly. Verify and update once MGM+ makes an official announcement. Do NOT publish renewal claims without confirmation.
+
+## NEXT (Phase 2, if time remains)
+- E10 finale airs June 28 - E10 stub lives as predictions only (hard fence)
+- Phase 2: generic article route for FROM pieces ("Boy in White explained", mythology guide, character analysis) + homepage FROM cluster block. Design-reviewer >= 7.5 gate. Only attempt if Phase 1 fully stable.
+
+---
+
 # BollyAI - pickup state (2026-06-18 ~07:10, TARGET 1000 HIT - ALL WAVES LIVE)
 
 ## WRAP SUMMARY (07:10 IST, 2026-06-18) - overnight session complete
