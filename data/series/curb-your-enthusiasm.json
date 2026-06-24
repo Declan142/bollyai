@@ -27,7 +27,10 @@
     "confidence": "verified"
   },
   "status": "ended",
-  "genres": ["Comedy", "Slice of Life"],
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
   "logline": "A fictionalized Larry David navigates the absurd social minefields of Los Angeles life, turning minor etiquette violations into epic, escalating catastrophes.",
   "poster": {
     "src": "/img/series/curb-your-enthusiasm/poster.jpg",
@@ -69,7 +72,108 @@
       },
       "review_body": "The first season of Curb Your Enthusiasm arrived in October 2000 as a loose, improvisational follow-up to Larry David's 1999 HBO special. The 89% Rotten Tomatoes score reflected broad approval for a show built entirely on improvisation and the gap between social expectation and human reality. The format - no script, just Larry David's comic sensibility and a cast calibrated to follow it - gave every scene an unpredictable texture. The Guardian later ranked the series 13th among the greatest television shows of the 21st century. The debut season was where that singular comic worldview found its structural home.",
       "season_over_season": null,
-      "episode_reviews": []
+      "episode_reviews": [
+        {
+          "number": 1,
+          "title": "The Pants Tent",
+          "air_date": "2000-10-15",
+          "bollymeter": null,
+          "spoiler_free": "Cheryl’s brutally specific pants inspection metastasizes into nonstop phone warfare, movie-date negotiations, and high-stakes apology talk, turning domestic awkwardness into a fast, scorched-earth comedy of boundaries.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 2,
+          "title": "Ted and Mary",
+          "air_date": "2000-10-22",
+          "bollymeter": null,
+          "spoiler_free": "Larry vows to buy change with twenty bucks, but a bowling shoe snafu and a fussy return of a half-man outfit turn logistics into dialogue-driven torment, all while Paul Simon tickets loom like a civic miracle.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 3,
+          "title": "Porno Gil",
+          "air_date": "2000-10-29",
+          "bollymeter": null,
+          "spoiler_free": "A well-meaning plan to snag a stash of forbidden tapes gets treated like a logistics problem, mixing deadpan instructions and domestic anxiety in a comedy of misread directions and awkward arrivals.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 4,
+          "title": "The Bracelet",
+          "air_date": "2000-11-05",
+          "bollymeter": null,
+          "spoiler_free": "Dialogue-heavy squabbles over amends and property rights turn personal romance into a jewelry-store bureaucracy, as Larry tries buying forgiveness with a platinum bracelet while manners and credit get weaponized.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 5,
+          "title": "Interior Decorator",
+          "air_date": "2000-11-12",
+          "bollymeter": null,
+          "spoiler_free": "A waiting-room policy that demands public visibility collides with Larry David’s obsession with fairness, as money, phone access, and office rules escalate into sharply hostile, dialogue-heavy confrontation.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 6,
+          "title": "The Wire",
+          "air_date": "2000-11-19",
+          "bollymeter": null,
+          "spoiler_free": "A clipped apology call kicks off a frantic, dialogue-heavy campaign to outsource backyard wiring trouble, where cut-off deadlines and $17,000 damages force neighbors to treat childcare chaos like courtroom logistics.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 7,
+          "title": "AAMCO",
+          "air_date": "2000-11-26",
+          "bollymeter": null,
+          "spoiler_free": "In a fast, argument-driven episode, neighborly automotive small talk collides with a dinner-party fiasco, forcing Julie to coordinate chaos while Larry and Mike fight over respect, logistics, and a very loud car.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 8,
+          "title": "Beloved Aunt",
+          "air_date": "2000-12-03",
+          "bollymeter": null,
+          "spoiler_free": "Condolence etiquette spirals into bureaucratic farce when a well-meaning relative is pushed toward Florida timing, paperwork deadlines, and a rapidly mutating obituary that turns sympathy into open insult.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 9,
+          "title": "Affirmative Action",
+          "air_date": "2000-12-10",
+          "bollymeter": null,
+          "spoiler_free": "Larry’s attempt to quietly manage a prescription crisis spirals into jumbled social friction and uncomfortable shorthand, as Cheryl and Justin chase medical solutions under the pressure of weekend rules.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        },
+        {
+          "number": 10,
+          "title": "The Group",
+          "air_date": "2000-12-17",
+          "bollymeter": null,
+          "spoiler_free": "Jeff engineers a tightly controlled office reunion that sells opportunities and intimacy on the same breath, while Cheryl and Larry collide in a group setting where humor keeps slipping into awkward, defensive intensity.",
+          "the_moment": null,
+          "critic_note": null,
+          "hero_image": "/img/series/curb-your-enthusiasm/poster.jpg"
+        }
+      ]
     },
     {
       "number": 2,
