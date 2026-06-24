@@ -2,78 +2,170 @@
   "_doc": "Editorial overlay for the inter-series link mesh. Two layers: (1) universes = tight shared-canon/franchise families that get a 'Same universe' edge; (2) watch_next = hand-picked 'if you finished X, BollyAI points you at Y' picks that outrank every computed edge. SLUGS MUST EXIST in data/series/. Notes are third-person, no first-person viewing claim, no fabricated numbers, <= ~14 words. Computed mesh (genre/region/platform/era) covers the long tail; this file covers the marquee. Consumed by site/scripts/build-series-links.mjs.",
   "version": 1,
   "universes": [
-    { "family": "Money Heist", "blurb": "The Professor's heist, in two languages", "slugs": ["money-heist", "money-heist-korea"] },
-    { "family": "Breaking Bad", "blurb": "The Heisenberg saga and its prequel", "slugs": ["breaking-bad", "better-call-saul"] },
-    { "family": "Star Wars", "blurb": "The Star Wars live-action canon", "slugs": ["the-mandalorian", "andor"] },
-    { "family": "Marvel", "blurb": "Marvel's streaming chapter", "slugs": ["loki", "daredevil"] },
-    { "family": "Scam (Hansal Mehta)", "blurb": "Hansal Mehta's financial-crime anthology", "slugs": ["scam-1992-the-harshad-mehta-story", "scam-2003-the-telgi-story"] },
-    { "family": "Reply", "blurb": "tvN's Reply nostalgia anthology", "slugs": ["reply-1988", "reply-1994", "reply-1997"] }
+    {
+      "family": "Money Heist",
+      "blurb": "The Professor's heist, in two languages",
+      "slugs": [
+        "money-heist",
+        "money-heist-korea"
+      ]
+    },
+    {
+      "family": "Breaking Bad",
+      "blurb": "The Heisenberg saga and its prequel",
+      "slugs": [
+        "breaking-bad",
+        "better-call-saul"
+      ]
+    },
+    {
+      "family": "Star Wars",
+      "blurb": "The Star Wars live-action canon",
+      "slugs": [
+        "the-mandalorian",
+        "andor"
+      ]
+    },
+    {
+      "family": "Marvel",
+      "blurb": "Marvel's streaming chapter",
+      "slugs": [
+        "loki",
+        "daredevil"
+      ]
+    },
+    {
+      "family": "Reply",
+      "blurb": "tvN's Reply nostalgia anthology",
+      "slugs": [
+        "reply-1988",
+        "reply-1994",
+        "reply-1997"
+      ]
+    }
   ],
   "watch_next": {
     "squid-game": [
-      { "slug": "alice-in-borderland", "note": "Another deadly-game survival thriller out of Asia" },
-      { "slug": "sweet-home", "note": "Same Netflix Korea dread, monsters instead of guards" },
-      { "slug": "all-of-us-are-dead", "note": "Survival horror with the same brutal arithmetic" }
+      {
+        "slug": "alice-in-borderland",
+        "note": "Another deadly-game survival thriller out of Asia"
+      },
+      {
+        "slug": "sweet-home",
+        "note": "Same Netflix Korea dread, monsters instead of guards"
+      },
+      {
+        "slug": "all-of-us-are-dead",
+        "note": "Survival horror with the same brutal arithmetic"
+      }
     ],
     "stranger-things": [
-      { "slug": "dark", "note": "German time-loop sci-fi with the same small-town dread" },
-      { "slug": "the-sandman", "note": "Another lavish supernatural ensemble for the same crowd" }
+      {
+        "slug": "dark",
+        "note": "German time-loop sci-fi with the same small-town dread"
+      },
+      {
+        "slug": "the-sandman",
+        "note": "Another lavish supernatural ensemble for the same crowd"
+      }
     ],
     "breaking-bad": [
-      { "slug": "better-call-saul", "note": "The prequel critics rate just as highly" },
-      { "slug": "narcos", "note": "Crime empire built brick by brick" },
-      { "slug": "ozark", "note": "Family man laundering his way into the dark" }
+      {
+        "slug": "better-call-saul",
+        "note": "The prequel critics rate just as highly"
+      },
+      {
+        "slug": "narcos",
+        "note": "Crime empire built brick by brick"
+      },
+      {
+        "slug": "ozark",
+        "note": "Family man laundering his way into the dark"
+      }
     ],
     "money-heist": [
-      { "slug": "money-heist-korea", "note": "The Korean remake, beat for beat reimagined" },
-      { "slug": "lupin", "note": "Gentleman-thief caper with the same glee" }
+      {
+        "slug": "money-heist-korea",
+        "note": "The Korean remake, beat for beat reimagined"
+      },
+      {
+        "slug": "lupin",
+        "note": "Gentleman-thief caper with the same glee"
+      }
     ],
     "the-boys": [
-      { "slug": "invincible", "note": "Superhero deconstruction, animated and just as brutal" },
-      { "slug": "daredevil", "note": "Street-level heroics with real consequences" }
+      {
+        "slug": "invincible",
+        "note": "Superhero deconstruction, animated and just as brutal"
+      },
+      {
+        "slug": "daredevil",
+        "note": "Street-level heroics with real consequences"
+      }
     ],
     "game-of-thrones": [
-      { "slug": "the-witcher", "note": "Sprawling fantasy with monsters and politics" },
-      { "slug": "rings-of-power", "note": "Big-budget high fantasy on the same scale" },
-      { "slug": "the-last-kingdom", "note": "Blood-and-mud medieval power struggle" }
-    ],
-    "sacred-games": [
-      { "slug": "mirzapur", "note": "Indian crime epic with the same sprawl" },
-      { "slug": "paatal-lok", "note": "A cop, a conspiracy, and a rotten city" },
-      { "slug": "the-family-man", "note": "Streaming-India's other landmark thriller" }
-    ],
-    "the-family-man": [
-      { "slug": "special-ops", "note": "Indian espionage with the same procedural grip" },
-      { "slug": "bard-of-blood", "note": "Spy thriller from the same streaming wave" },
-      { "slug": "sacred-games", "note": "Streaming-India's other landmark thriller" }
-    ],
-    "mirzapur": [
-      { "slug": "paatal-lok", "note": "Heartland crime with a darker conscience" },
-      { "slug": "sacred-games", "note": "The crime epic that opened the door" }
-    ],
-    "scam-1992-the-harshad-mehta-story": [
-      { "slug": "scam-2003-the-telgi-story", "note": "The next chapter of the Scam anthology" },
-      { "slug": "rocket-boys", "note": "Another handsomely mounted Indian period drama" }
+      {
+        "slug": "the-witcher",
+        "note": "Sprawling fantasy with monsters and politics"
+      },
+      {
+        "slug": "rings-of-power",
+        "note": "Big-budget high fantasy on the same scale"
+      },
+      {
+        "slug": "the-last-kingdom",
+        "note": "Blood-and-mud medieval power struggle"
+      }
     ],
     "dark": [
-      { "slug": "stranger-things", "note": "The other small-town sci-fi obsession" },
-      { "slug": "1899", "note": "From the same creators, same puzzle-box DNA" }
+      {
+        "slug": "stranger-things",
+        "note": "The other small-town sci-fi obsession"
+      },
+      {
+        "slug": "1899",
+        "note": "From the same creators, same puzzle-box DNA"
+      }
     ],
     "the-last-of-us": [
-      { "slug": "all-of-us-are-dead", "note": "Outbreak survival with the same emotional core" },
-      { "slug": "sweet-home", "note": "Apartment-block horror, humans vs the turned" }
+      {
+        "slug": "all-of-us-are-dead",
+        "note": "Outbreak survival with the same emotional core"
+      },
+      {
+        "slug": "sweet-home",
+        "note": "Apartment-block horror, humans vs the turned"
+      }
     ],
     "severance": [
-      { "slug": "dark", "note": "Another high-concept puzzle box worth the patience" },
-      { "slug": "3-body-problem", "note": "Cerebral sci-fi that rewards close attention" }
+      {
+        "slug": "dark",
+        "note": "Another high-concept puzzle box worth the patience"
+      },
+      {
+        "slug": "3-body-problem",
+        "note": "Cerebral sci-fi that rewards close attention"
+      }
     ],
     "jujutsu-kaisen": [
-      { "slug": "demon-slayer-kimetsu-no-yaiba", "note": "Sword-and-demon shonen with elite animation" },
-      { "slug": "chainsaw-man", "note": "Same studio energy, bloodier and stranger" }
+      {
+        "slug": "demon-slayer-kimetsu-no-yaiba",
+        "note": "Sword-and-demon shonen with elite animation"
+      },
+      {
+        "slug": "chainsaw-man",
+        "note": "Same studio energy, bloodier and stranger"
+      }
     ],
     "attack-on-titan": [
-      { "slug": "vinland-saga", "note": "Brutal historical epic with the same moral weight" },
-      { "slug": "death-note", "note": "Cat-and-mouse stakes for the same brain" }
+      {
+        "slug": "vinland-saga",
+        "note": "Brutal historical epic with the same moral weight"
+      },
+      {
+        "slug": "death-note",
+        "note": "Cat-and-mouse stakes for the same brain"
+      }
     ]
   }
 }

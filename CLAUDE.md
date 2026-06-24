@@ -5,11 +5,18 @@
 
 ## What this is
 
-Pan-India cinema/TV/box-office answer engine. Disclosed-AI critic: "BollyAI has NOT watched
+Western cinema/TV/box-office answer engine. Disclosed-AI critic: "BollyAI has NOT watched
 anything. BollyAI has read everyone who has." Live: https://bollyai.in. Stack: Next.js static
-export, CF Pages Direct Upload, JSON-in-repo (no PocketBase), GH Actions crons. South-first
-weighting (Telugu/Tamil > Hindi by OTT volume since 2023). 7 desks: Bollywood / Kollywood /
-Tollywood / Mollywood / Sandalwood / Hollywood / Streaming.
+export, CF Pages Direct Upload, JSON-in-repo (no PocketBase), GH Actions crons. Desks:
+Hollywood (films) + Streaming (Western / global series).
+
+🚨 BRAND LOCK (Aditya, 2026-06-24): bollyai = Western series + movies, NOT pan-India cinema
+(despite the legacy name). Indian-cinema content is OFF-BRAND. 117 Indian-origin series +
+their 24 ending-explainers + 1 wholly-Indian recommendation list were archived (reversible)
+to `data/_archive/indian*/`. A prebuild guard (`scripts/guard-offbrand-series.mjs`, wired in
+`site/package.json`) FAILS the build if any unprotected Indian-language series (hi/ur/ta/te/
+ml/kn/bn/mr/pa/gu) reappears in `data/series/`. Do NOT author Indian-cinema pages. OPEN
+QUESTION (not yet ruled): Korean dramas + anime + India-targeted lists currently remain.
 
 ## BollyAI honesty fences (HARD - a violation fails the validator and the build)
 

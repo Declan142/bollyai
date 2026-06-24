@@ -10,7 +10,7 @@ function abs(p: string): string {
 }
 
 export type SeoInput = {
-  /** Canonical path WITH trailing slash, e.g. "/series/aarya/" or "/". */
+  /** Canonical path WITH trailing slash, e.g. "/series/breaking-bad/" or "/". */
   path: string;
   /** Site-relative or absolute share image (e.g. a poster). Falls back to the branded default card. */
   image?: string | null;
