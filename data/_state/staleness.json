@@ -1,9 +1,9 @@
 {
-  "checked_count": 24,
-  "generated_at": "2026-06-24T07:58:54Z",
+  "checked_count": 69,
+  "generated_at": "2026-06-25T07:59:43Z",
   "items": [
     {
-      "age_hours": 396.98,
+      "age_hours": 421.0,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q107105860.json",
       "qid": "Q107105860",
@@ -14,7 +14,29 @@
       "title": "Project Hail Mary"
     },
     {
-      "age_hours": 277.48,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q112040381.json",
+      "qid": "Q112040381",
+      "reason": "within_sla",
+      "slug": "masters-of-the-universe",
+      "stale": false,
+      "status": "released",
+      "title": "Masters of the Universe"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q115931717.json",
+      "qid": "Q115931717",
+      "reason": "within_sla",
+      "slug": "wake-up-dead-man",
+      "stale": false,
+      "status": "released",
+      "title": "Wake Up Dead Man"
+    },
+    {
+      "age_hours": 301.5,
       "latest_boxoffice_at": "2026-06-12T18:30:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q116677364.json",
       "qid": "Q116677364",
@@ -25,7 +47,29 @@
       "title": "Michael"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q117745793.json",
+      "qid": "Q117745793",
+      "reason": "within_sla",
+      "slug": "die-my-love",
+      "stale": false,
+      "status": "released",
+      "title": "Die My Love"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q117830073.json",
+      "qid": "Q117830073",
+      "reason": "within_sla",
+      "slug": "mortal-kombat-ii",
+      "stale": false,
+      "status": "released",
+      "title": "Mortal Kombat II"
+    },
+    {
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q120188867.json",
       "qid": "Q120188867",
@@ -36,7 +80,62 @@
       "title": "Ustaad Bhagat Singh"
     },
     {
-      "age_hours": 277.48,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q120237363.json",
+      "qid": "Q120237363",
+      "reason": "within_sla",
+      "slug": "tron-ares",
+      "stale": false,
+      "status": "released",
+      "title": "Tron: Ares"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q121433282.json",
+      "qid": "Q121433282",
+      "reason": "within_sla",
+      "slug": "eddington",
+      "stale": false,
+      "status": "released",
+      "title": "Eddington"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q122741016.json",
+      "qid": "Q122741016",
+      "reason": "within_sla",
+      "slug": "hamnet",
+      "stale": false,
+      "status": "released",
+      "title": "Hamnet"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q123472177.json",
+      "qid": "Q123472177",
+      "reason": "within_sla",
+      "slug": "eden",
+      "stale": false,
+      "status": "released",
+      "title": "Eden"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124216482.json",
+      "qid": "Q124216482",
+      "reason": "within_sla",
+      "slug": "five-nights-at-freddy-s-2",
+      "stale": false,
+      "status": "released",
+      "title": "Five Nights at Freddy's 2"
+    },
+    {
+      "age_hours": 301.5,
       "latest_boxoffice_at": "2026-06-12T18:30:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q124246549.json",
       "qid": "Q124246549",
@@ -47,7 +146,7 @@
       "title": "The Mandalorian and Grogu"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q124301053.json",
       "qid": "Q124301053",
@@ -58,7 +157,62 @@
       "title": "The RajaSaab"
     },
     {
-      "age_hours": 277.48,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124355470.json",
+      "qid": "Q124355470",
+      "reason": "within_sla",
+      "slug": "peaky-blinders-the-immortal-man",
+      "stale": false,
+      "status": "released",
+      "title": "Peaky Blinders: The Immortal Man"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124393313.json",
+      "qid": "Q124393313",
+      "reason": "within_sla",
+      "slug": "nuremberg",
+      "stale": false,
+      "status": "released",
+      "title": "Nuremberg"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124435493.json",
+      "qid": "Q124435493",
+      "reason": "within_sla",
+      "slug": "black-phone-2",
+      "stale": false,
+      "status": "released",
+      "title": "Black Phone 2"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124566659.json",
+      "qid": "Q124566659",
+      "reason": "within_sla",
+      "slug": "mercy",
+      "stale": false,
+      "status": "released",
+      "title": "Mercy"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124735657.json",
+      "qid": "Q124735657",
+      "reason": "within_sla",
+      "slug": "the-bride",
+      "stale": false,
+      "status": "released",
+      "title": "The Bride!"
+    },
+    {
+      "age_hours": 301.5,
       "latest_boxoffice_at": "2026-06-12T18:30:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q124806421.json",
       "qid": "Q124806421",
@@ -69,7 +223,139 @@
       "title": "The Super Mario Galaxy Movie"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q124829697.json",
+      "qid": "Q124829697",
+      "reason": "within_sla",
+      "slug": "jay-kelly",
+      "stale": false,
+      "status": "released",
+      "title": "Jay Kelly"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q125131076.json",
+      "qid": "Q125131076",
+      "reason": "within_sla",
+      "slug": "backrooms",
+      "stale": false,
+      "status": "released",
+      "title": "Backrooms"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q125449414.json",
+      "qid": "Q125449414",
+      "reason": "within_sla",
+      "slug": "the-running-man",
+      "stale": false,
+      "status": "released",
+      "title": "The Running Man"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q125971387.json",
+      "qid": "Q125971387",
+      "reason": "within_sla",
+      "slug": "bugonia",
+      "stale": false,
+      "status": "released",
+      "title": "Bugonia"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q125975336.json",
+      "qid": "Q125975336",
+      "reason": "within_sla",
+      "slug": "pillion",
+      "stale": false,
+      "status": "released",
+      "title": "Pillion"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126012569.json",
+      "qid": "Q126012569",
+      "reason": "within_sla",
+      "slug": "the-smashing-machine",
+      "stale": false,
+      "status": "released",
+      "title": "The Smashing Machine"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126203157.json",
+      "qid": "Q126203157",
+      "reason": "within_sla",
+      "slug": "eternity",
+      "stale": false,
+      "status": "released",
+      "title": "Eternity"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126394034.json",
+      "qid": "Q126394034",
+      "reason": "within_sla",
+      "slug": "crime-101",
+      "stale": false,
+      "status": "released",
+      "title": "Crime 101"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126396314.json",
+      "qid": "Q126396314",
+      "reason": "within_sla",
+      "slug": "predator-badlands",
+      "stale": false,
+      "status": "released",
+      "title": "Predator: Badlands"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126405648.json",
+      "qid": "Q126405648",
+      "reason": "within_sla",
+      "slug": "the-sheep-detectives",
+      "stale": false,
+      "status": "released",
+      "title": "The Sheep Detectives"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126511469.json",
+      "qid": "Q126511469",
+      "reason": "within_sla",
+      "slug": "the-long-walk",
+      "stale": false,
+      "status": "released",
+      "title": "The Long Walk"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q126683577.json",
+      "qid": "Q126683577",
+      "reason": "within_sla",
+      "slug": "disclosure-day",
+      "stale": false,
+      "status": "released",
+      "title": "Disclosure Day"
+    },
+    {
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q126734387.json",
       "qid": "Q126734387",
@@ -80,7 +366,95 @@
       "title": "Border 2"
     },
     {
-      "age_hours": 511.98,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q127118129.json",
+      "qid": "Q127118129",
+      "reason": "within_sla",
+      "slug": "blue-moon",
+      "stale": false,
+      "status": "released",
+      "title": "Blue Moon"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q127382372.json",
+      "qid": "Q127382372",
+      "reason": "within_sla",
+      "slug": "after-the-hunt",
+      "stale": false,
+      "status": "released",
+      "title": "After the Hunt"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q129423731.json",
+      "qid": "Q129423731",
+      "reason": "within_sla",
+      "slug": "28-years-later-the-bone-temple",
+      "stale": false,
+      "status": "released",
+      "title": "28 Years Later: The Bone Temple"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q130118681.json",
+      "qid": "Q130118681",
+      "reason": "within_sla",
+      "slug": "marty-supreme",
+      "stale": false,
+      "status": "released",
+      "title": "Marty Supreme"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q130393881.json",
+      "qid": "Q130393881",
+      "reason": "within_sla",
+      "slug": "wuthering-heights",
+      "stale": false,
+      "status": "released",
+      "title": "Wuthering Heights"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q130590402.json",
+      "qid": "Q130590402",
+      "reason": "within_sla",
+      "slug": "the-drama",
+      "stale": false,
+      "status": "released",
+      "title": "The Drama"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q130742503.json",
+      "qid": "Q130742503",
+      "reason": "within_sla",
+      "slug": "roofman",
+      "stale": false,
+      "status": "released",
+      "title": "Roofman"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q131189949.json",
+      "qid": "Q131189949",
+      "reason": "within_sla",
+      "slug": "the-rip",
+      "stale": false,
+      "status": "released",
+      "title": "The Rip"
+    },
+    {
+      "age_hours": 536.0,
       "latest_boxoffice_at": "2026-06-02T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q131341662.json",
       "qid": "Q131341662",
@@ -91,7 +465,7 @@
       "title": "Karuppu"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q131445677.json",
       "qid": "Q131445677",
@@ -102,7 +476,51 @@
       "title": "Parasakthi"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q131450198.json",
+      "qid": "Q131450198",
+      "reason": "within_sla",
+      "slug": "scary-movie",
+      "stale": false,
+      "status": "released",
+      "title": "Scary Movie"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q131549006.json",
+      "qid": "Q131549006",
+      "reason": "within_sla",
+      "slug": "anaconda",
+      "stale": false,
+      "status": "released",
+      "title": "Anaconda"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q131630491.json",
+      "qid": "Q131630491",
+      "reason": "within_sla",
+      "slug": "the-housemaid",
+      "stale": false,
+      "status": "released",
+      "title": "The Housemaid"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q131686066.json",
+      "qid": "Q131686066",
+      "reason": "within_sla",
+      "slug": "a-house-of-dynamite",
+      "stale": false,
+      "status": "released",
+      "title": "A House of Dynamite"
+    },
+    {
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q131763755.json",
       "qid": "Q131763755",
@@ -113,7 +531,40 @@
       "title": "Mardaani 3"
     },
     {
-      "age_hours": 397.73,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q132200341.json",
+      "qid": "Q132200341",
+      "reason": "within_sla",
+      "slug": "send-help",
+      "stale": false,
+      "status": "released",
+      "title": "Send Help"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q132672651.json",
+      "qid": "Q132672651",
+      "reason": "within_sla",
+      "slug": "apex",
+      "stale": false,
+      "status": "released",
+      "title": "Apex"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q133505340.json",
+      "qid": "Q133505340",
+      "reason": "within_sla",
+      "slug": "lee-cronin-s-the-mummy",
+      "stale": false,
+      "status": "released",
+      "title": "Lee Cronin's The Mummy"
+    },
+    {
+      "age_hours": 421.75,
       "latest_boxoffice_at": "2026-06-07T18:15:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q133573186.json",
       "qid": "Q133573186",
@@ -124,7 +575,7 @@
       "title": "Peddi"
     },
     {
-      "age_hours": 396.98,
+      "age_hours": 421.0,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q134435699.json",
       "qid": "Q134435699",
@@ -135,7 +586,7 @@
       "title": "Aadu 3"
     },
     {
-      "age_hours": 397.73,
+      "age_hours": 421.75,
       "latest_boxoffice_at": "2026-06-07T18:15:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q134562010.json",
       "qid": "Q134562010",
@@ -146,7 +597,7 @@
       "title": "Hai Jawani Toh Ishq Hona Hai"
     },
     {
-      "age_hours": 277.48,
+      "age_hours": 301.5,
       "latest_boxoffice_at": "2026-06-12T18:30:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q134611972.json",
       "qid": "Q134611972",
@@ -157,7 +608,7 @@
       "title": "The Devil Wears Prada 2"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q135025214.json",
       "qid": "Q135025214",
@@ -168,7 +619,29 @@
       "title": "Drishyam 3"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q135038882.json",
+      "qid": "Q135038882",
+      "reason": "within_sla",
+      "slug": "the-voice-of-hind-rajab",
+      "stale": false,
+      "status": "released",
+      "title": "The Voice of Hind Rajab"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q135411818.json",
+      "qid": "Q135411818",
+      "reason": "within_sla",
+      "slug": "the-punisher-one-last-kill",
+      "stale": false,
+      "status": "released",
+      "title": "The Punisher: One Last Kill"
+    },
+    {
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q135647565.json",
       "qid": "Q135647565",
@@ -179,7 +652,18 @@
       "title": "Mana Shankara Vara Prasad Garu"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q136163067.json",
+      "qid": "Q136163067",
+      "reason": "within_sla",
+      "slug": "obsession",
+      "stale": false,
+      "status": "released",
+      "title": "Obsession"
+    },
+    {
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q136187174.json",
       "qid": "Q136187174",
@@ -190,7 +674,7 @@
       "title": "Bhooth Bangla"
     },
     {
-      "age_hours": 396.98,
+      "age_hours": 421.0,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q136673072.json",
       "qid": "Q136673072",
@@ -201,7 +685,7 @@
       "title": "Ikkis"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q137713080.json",
       "qid": "Q137713080",
@@ -212,7 +696,7 @@
       "title": "Anaganaga Oka Raju"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q137783833.json",
       "qid": "Q137783833",
@@ -223,7 +707,7 @@
       "title": "O'Romeo"
     },
     {
-      "age_hours": 367.98,
+      "age_hours": 392.0,
       "latest_boxoffice_at": "2026-06-08T23:59:59Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q138381591.json",
       "qid": "Q138381591",
@@ -234,7 +718,7 @@
       "title": "The Kerala Story 2: Goes Beyond"
     },
     {
-      "age_hours": 396.98,
+      "age_hours": 421.0,
       "latest_boxoffice_at": "2026-06-07T19:00:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q139209789.json",
       "qid": "Q139209789",
@@ -245,7 +729,7 @@
       "title": "Pati Patni Aur Woh Do"
     },
     {
-      "age_hours": 397.73,
+      "age_hours": 421.75,
       "latest_boxoffice_at": "2026-06-07T18:15:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q139962231.json",
       "qid": "Q139962231",
@@ -256,7 +740,7 @@
       "title": "Mollywood Times"
     },
     {
-      "age_hours": 277.48,
+      "age_hours": 301.5,
       "latest_boxoffice_at": "2026-06-12T18:30:00Z",
       "path": "/home/runner/work/bollyai/bollyai/data/films/Q29580929.json",
       "qid": "Q29580929",
@@ -265,6 +749,17 @@
       "stale": true,
       "status": "released",
       "title": "Avatar: Fire and Ash"
+    },
+    {
+      "age_hours": 11.26,
+      "latest_boxoffice_at": "2026-06-24T20:44:22.544725Z",
+      "path": "/home/runner/work/bollyai/bollyai/data/films/Q65146722.json",
+      "qid": "Q65146722",
+      "reason": "within_sla",
+      "slug": "now-you-see-me-now-you-don-t",
+      "stale": false,
+      "status": "released",
+      "title": "Now You See Me: Now You Don't"
     }
   ],
   "ok": false,
