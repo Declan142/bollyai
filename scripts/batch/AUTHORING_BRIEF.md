@@ -12,9 +12,9 @@ sources, that passes the BollyAI fence validator on the first try.
 ## STEP 1 — Read the contract (do this once, first)
 - Read `/home/aditya/bollyai/site/lib/series.ts` — the exact TypeScript schema (types
   `Series`, `SeriesSeason`, `EpisodeReview`). Your JSON MUST match it.
-- Read `/home/aditya/bollyai/data/series/squid-game.json` — the gold-standard exemplar.
-  Mirror its shape, depth, and tone exactly. (Recent multi-season K-drama with episode
-  reviews — same family as much of your work.)
+- Read `/home/aditya/bollyai/data/series/mad-men.json` — the gold-standard exemplar.
+  Mirror its shape, depth, and tone exactly. (Multi-season Western prestige drama with full
+  episode reviews — the brand target.)
 
 ## STEP 2 — Ground each series (mandatory, no exceptions)
 For every slug, gather real facts before writing:
@@ -77,12 +77,14 @@ For every slug, gather real facts before writing:
 - **genres** (string array, right after `status`): 2-5 facet tags for the show from this
   controlled set so it slots into the browse filters — Drama, Thriller, Comedy, Crime,
   Romance, Fantasy, Sci-Fi, Action, Mystery, Horror, Historical, Adventure, Coming of Age,
-  Teen, Anime (for any anime), Supernatural, Medical, Legal, Biographical, Documentary,
+  Teen, Supernatural, Medical, Legal, Biographical, Documentary,
   Sports, Superhero, Spy, Psychological, Slice of Life, Musical, Family, War, LGBTQ. Use the
-  show's real genres; keep it tight (no nationality tags like "Korean Drama").
+  show's real genres; keep it tight (no nationality tags).
 - `_quarantine`: `[]`. `date_modified`: current ISO-8601 +05:30.
-- Many of these are non-English (Korean, Japanese, Spanish, German, Hebrew, Hindi). That is
-  expected: set `origin` to the country and `original_language` to the ISO code.
+- BRAND LOCK (Aditya 2026-06-26 "full on western"): author WESTERN series only. English-language
+  leads; Western-European non-English (Spanish/German/French/Italian/Nordic) OK. NEVER Korean,
+  Japanese/anime, Indian, or other non-Western - the prebuild Western-allowlist guard fails the
+  build. Set `origin` to the country and `original_language` to the ISO code.
 
 ## STEP 5 — Write + self-verify
 - **Before writing each file, check if it already exists** at

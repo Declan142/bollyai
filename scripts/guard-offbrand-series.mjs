@@ -1,16 +1,19 @@
 /**
- * guard-offbrand-series.mjs  --  Prebuild guard for off-brand Indian series.
+ * guard-offbrand-series.mjs  --  Prebuild guard: enforce WESTERN-ONLY series.
  *
- * Fails the build (exit 1) if any Indian-language series whose slug is NOT in
- * the protect-list JSON is still present in data/series/.
+ * BRAND LOCK (Aditya, 2026-06-26 "we are going full on western"): bollyai = Western
+ * series + movies. Fails the build (exit 1) if any series whose original_language is
+ * NOT in the Western allowlist (and whose slug is NOT in the protect-list) is present
+ * in data/series/.
  *
- * Usage (add to package.json prebuild):
- *   "prebuild": "node scripts/guard-offbrand-series.mjs --protect-list .cull-protect-list.json"
+ * Allowlist > denylist by design: the old denylist (Indian ISO codes) let Korean (ko),
+ * Japanese (ja), and string-valued "Hindi" languages slip through. An allowlist catches
+ * every non-Western language, present and future.
  *
- * Or run standalone:
+ * Usage (wired in site/package.json prebuild):
  *   node scripts/guard-offbrand-series.mjs --protect-list .cull-protect-list.json
  *
- * Protect-list format:  { "protect": ["slug-a", "slug-b", ...] }
+ * Protect-list format:  { "protect": ["slug-a", ...] }  -- explicit non-Western overrides.
  * If the file does not exist the guard exits 0 (not yet wired) with a warning.
  */
 
@@ -22,8 +25,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const SERIES_DIR = path.join(REPO_ROOT, "data", "series");
 
-const INDIAN_LANGS = new Set(["hi", "ur", "ta", "te", "ml", "kn", "bn", "mr", "pa", "gu"]);
-const INDIAN_DESKS = new Set(["bollywood", "tollywood", "kollywood", "mollywood", "sandalwood"]);
+// Western languages we KEEP. MUST stay in sync with scripts/batch/plan_western_cull.py.
+const WESTERN_KEEP = new Set([
+  "en", "English",                              // anglophone core
+  "es", "de", "fr", "it",                       // major Western European
+  "sv", "da", "no", "nb", "nn", "fi", "is",     // Nordic
+  "pl", "cs", "sk", "hu", "ro", "el",           // Central/Eastern European + Greek
+  "nl", "ca", "pt", "gl", "lb", "yi", "ga",     // Dutch / Iberian / misc European
+]);
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -38,7 +47,7 @@ function parseArgs() {
 function loadProtectList(filePath) {
   const abs = path.resolve(REPO_ROOT, filePath);
   if (!fs.existsSync(abs)) {
-    console.warn(`[guard-offbrand] WARN: protect-list not found at ${abs} -- guard is inactive (exit 0).`);
+    console.warn(`[guard-western] WARN: protect-list not found at ${abs} -- guard is inactive (exit 0).`);
     process.exit(0);
   }
   const raw = JSON.parse(fs.readFileSync(abs, "utf8"));
@@ -47,14 +56,14 @@ function loadProtectList(filePath) {
   throw new Error(`Unrecognized protect-list format in ${abs}. Expected {"protect": [...]} or a plain array.`);
 }
 
-function isIndianSeries(data) {
-  const lang =
-    typeof data.original_language === "object" && data.original_language !== null
-      ? data.original_language.value
-      : data.original_language;
-  if (INDIAN_LANGS.has(lang)) return true;
-  if (INDIAN_DESKS.has(data.canonical_industry)) return true;
-  return false;
+function langOf(data) {
+  const ol = data.original_language;
+  return typeof ol === "object" && ol !== null ? ol.value : ol;
+}
+
+function isNonWestern(data) {
+  const lang = langOf(data);
+  return !WESTERN_KEEP.has(lang);
 }
 
 function main() {
@@ -68,21 +77,22 @@ function main() {
     const slug = file.replace(/\.json$/, "");
     if (protectSet.has(slug)) continue;
     const data = JSON.parse(fs.readFileSync(path.join(SERIES_DIR, file), "utf8"));
-    if (isIndianSeries(data)) {
-      violations.push(slug);
+    if (isNonWestern(data)) {
+      violations.push(`${slug} (${langOf(data)})`);
     }
   }
 
   if (violations.length === 0) {
-    console.log(`[guard-offbrand] OK: no unprotected Indian-language series in data/series/.`);
+    console.log(`[guard-western] OK: all series in data/series/ are Western (or protected).`);
     process.exit(0);
   }
 
-  console.error(`[guard-offbrand] BUILD FAIL: ${violations.length} unprotected Indian-language series remain in data/series/:`);
-  for (const slug of violations.sort()) {
-    console.error(`  - ${slug}`);
+  console.error(`[guard-western] BUILD FAIL: ${violations.length} non-Western series remain in data/series/:`);
+  for (const v of violations.sort()) {
+    console.error(`  - ${v}`);
   }
-  console.error(`Add them to the protect-list or run: node scripts/batch/archive_offbrand_series.py --cull-list ... --apply`);
+  console.error(`Archive them: python3 scripts/batch/western_cull_apply.py --cull-list <list> --apply`);
+  console.error(`Or add the slug to the protect-list for an explicit override.`);
   process.exit(1);
 }
 

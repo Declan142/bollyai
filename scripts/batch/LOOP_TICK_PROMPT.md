@@ -14,10 +14,13 @@ subtitle-grounded lane - never author them here (treat as already-existing; skip
 
 Then DO EXACTLY ONE BATCH:
 
-1. Pick ~30 NEW series across 5 DISJOINT themed pools (lean Netflix + K-drama per Aditya;
-   mix in anime, UK/Euro, Indian/world). List data/series/ first and EXCLUDE every slug that
-   already exists. Curate well-known, well-reviewed shows that have a real Wikipedia page and
-   real critical reception - skip anything too obscure or too fresh to ground.
+1. Pick ~30 NEW WESTERN series across 5 DISJOINT themed pools (US / UK / Hollywood prestige +
+   Western-European). BRAND LOCK (Aditya 2026-06-26 "full on western"): English-language leads,
+   Western-European non-English (Spanish/German/French/Italian/Nordic) OK. NEVER author Korean,
+   Japanese / anime, Indian, or any other non-Western series - the prebuild Western-allowlist
+   guard (scripts/guard-offbrand-series.mjs) will FAIL the build. List data/series/ first and
+   EXCLUDE every slug that already exists. Curate well-known, well-reviewed shows that have a
+   real Wikipedia page and real critical reception - skip anything too obscure or too fresh to ground.
 
 2. Spawn 5 parallel general-purpose subagents (model: sonnet), one per pool. Give each:
    the path /home/aditya/bollyai/scripts/batch/AUTHORING_BRIEF.md, its ~6 slug->title list,

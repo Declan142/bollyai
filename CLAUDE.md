@@ -10,13 +10,19 @@ anything. BollyAI has read everyone who has." Live: https://bollyai.in. Stack: N
 export, CF Pages Direct Upload, JSON-in-repo (no PocketBase), GH Actions crons. Desks:
 Hollywood (films) + Streaming (Western / global series).
 
-🚨 BRAND LOCK (Aditya, 2026-06-24): bollyai = Western series + movies, NOT pan-India cinema
-(despite the legacy name). Indian-cinema content is OFF-BRAND. 117 Indian-origin series +
-their 24 ending-explainers + 1 wholly-Indian recommendation list were archived (reversible)
-to `data/_archive/indian*/`. A prebuild guard (`scripts/guard-offbrand-series.mjs`, wired in
-`site/package.json`) FAILS the build if any unprotected Indian-language series (hi/ur/ta/te/
-ml/kn/bn/mr/pa/gu) reappears in `data/series/`. Do NOT author Indian-cinema pages. OPEN
-QUESTION (not yet ruled): Korean dramas + anime + India-targeted lists currently remain.
+🚨 BRAND LOCK (Aditya, 2026-06-26 "we are going full on western"): bollyai = WESTERN series +
+movies ONLY (English-language + Western-European; NOT pan-India, NOT Korean, NOT Japanese/anime,
+despite the legacy name). The 2026-06-24 Indian cull (117 series) was EXTENDED to all non-Western:
+420 series archived (reversible) to `data/_archive/non-western/{korean,japanese,indian,foreign}/`
+- Korean 225 (K-dramas), Japanese 176 (anime), Hindi 6, Hebrew/Turkish/Chinese/Thai/Arabic 13 -
+plus 57 endings, 390 img dirs, 6 off-brand lists; 3 kept lists stripped of culled picks. 466
+Western series remain. The prebuild guard (`scripts/guard-offbrand-series.mjs`, wired in
+`site/package.json`) now enforces a WESTERN ALLOWLIST (en + European langs) and FAILS the build
+if ANY non-Western series appears in `data/series/`. Do NOT author non-Western pages. To restore
+a bucket if the brand call ever changes: `git mv data/_archive/non-western/<lang>/<slug>.json
+data/series/`. OPEN (Aditya's call, not pressing): European/Latin-American non-English (Dark,
+Money Heist, Lupin, Gomorrah, Acapulco ~80 series) are KEPT as Western - say the word for
+English-only and they archive too.
 
 ## BollyAI honesty fences (HARD - a violation fails the validator and the build)
 
@@ -93,7 +99,8 @@ throttled. Force-push / history rewrite / branch deletion remain DENIED, always.
 ## Repo conventions
 
 - Schema: `site/lib/series.ts` (Series / SeriesSeason / EpisodeReview types). Match exactly.
-- Gold exemplar: `data/series/squid-game.json` - mirror shape, depth, tone.
+- Gold exemplar: `data/series/mad-men.json` - mirror shape, depth, tone. (squid-game archived in
+  the 2026-06-26 Western cull.)
 - State / ledger: `data/_state/library-buildout.md` - read before authoring batches.
 - Authoring brief (full): `scripts/batch/AUTHORING_BRIEF.md` - read in full before writing.
 - Batch toolchain: `validate_series.py`, `fix_series.py`, `ingest_batch.sh`, `harvest_genres.py`.
@@ -120,7 +127,7 @@ throttled. Force-push / history rewrite / branch deletion remain DENIED, always.
 - Deploy/push: standing grant (2026-06-13) under the conditions above - tests/build/design
   gates are the approval now; skip a gate = no ship.
 - Never use `gpt swarm` (Spark) for repo edits - exits 0 silently even when it no-ops tasks.
-- Never add off-topic subdomains to bollyai.in (apex topical map locked to pan-India cinema).
+- Never add off-topic subdomains to bollyai.in (apex topical map locked to WESTERN cinema/TV).
 - Never touch TMDB watch-providers "JustWatch scrape" path - attribution only via TMDB API.
 
 ---
