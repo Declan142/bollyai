@@ -1,12 +1,12 @@
 {
   "DATA_PENDING": true,
-  "generated_at": "2026-06-15T18:00:00+05:30",
-  "schema": "bollyai-boxoffice-week/v1",
-  "territory": "India",
+  "generated_at": "2026-06-27T07:55:28Z",
+  "records": [],
+  "schema": "bollyai-boxoffice-week/v2",
+  "territory": "Worldwide",
   "week": {
-    "end": "2026-06-14",
-    "label": "Week of 8 June 2026",
-    "start": "2026-06-08"
-  },
-  "records": []
+    "end": "2026-06-28",
+    "label": "Week of 22 June 2026",
+    "start": "2026-06-22"
+  }
 }

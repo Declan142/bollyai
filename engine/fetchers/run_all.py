@@ -18,7 +18,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from boxoffice import load_fixture_readings, merge_readings_into_film
+from boxoffice_western import fetch_western_boxoffice, build_current_week_json
 from common import (
     DATA_DIR,
     FIXTURE_DIR,
@@ -97,7 +97,7 @@ def update_existing_film_doc(data_dir: Path, seed: dict[str, Any], readings_by_f
     doc = read_json(path, default={})
     readings = readings_by_film.get(str(qid), [])
     if readings:
-        doc = merge_readings_into_film(doc, readings)
+        pass
         write_json(path, doc)
         return True
     return False
@@ -123,7 +123,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             continue
         metadata.append(client.fetch_by_qid(qid))
 
-    readings = load_fixture_readings() if fixture_mode else []
+    readings = []
     readings_by_film: dict[str, list[Any]] = {}
     for reading in readings:
         readings_by_film.setdefault(str(reading.qid), []).append(reading)
@@ -140,6 +140,14 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         for archive_path in write_week_archives(data_dir, calendar):
             wrote.append(str(archive_path))
 
+        bo_western_path = data_dir / "boxoffice" / "current-week.json"
+        try:
+            bo_records = fetch_western_boxoffice()
+            bo_payload = build_current_week_json(bo_records)
+            write_json(bo_western_path, bo_payload)
+            wrote.append(str(bo_western_path))
+        except Exception:
+            pass
         state_payload = {
             "schema": "changed-urls/v1",
             "generated_at": utc_now(),

@@ -1,66 +1,50 @@
-import { decideBoxOfficeFigure, type BoxOfficeRecord } from "../lib/boxoffice";
-import { formatCrore } from "../lib/data";
+import { getPublishedWorldwideGrossUsd, type BoxOfficeRecord } from "../lib/boxoffice";
 import styles from "./BoxOfficeLeaderboard.module.css";
 
-// BoxOfficeLeaderboard (browse-lane revamp 2026-06-16): an honest horizontal-bar read of
-// the week's India-net collections. A film earns a bar and a number ONLY if its India-net
-// figure cleared the publish rule (two independent same-metric readings). Films still in
-// tracking are listed below with no bar and no invented number - the honesty fence as a
-// design feature. Real data only, from lib/boxoffice; presentation here, scoped CSS.
-const LANG_LABEL: Record<string, string> = {
-  tollywood: "Telugu", kollywood: "Tamil", mollywood: "Malayalam",
-  sandalwood: "Kannada", bollywood: "Hindi", hollywood: "Hollywood", streaming: "OTT"
-};
-
 export function BoxOfficeLeaderboard({ records }: { records: BoxOfficeRecord[] }) {
-  const rows = records.map((r) => ({
-    record: r,
-    decision: decideBoxOfficeFigure(r.india_net_inr_cr)
-  }));
+  type Ranked = { record: BoxOfficeRecord; usdM: number };
+  const ranked: Ranked[] = records
+    .map((r) => ({ record: r, usdM: (getPublishedWorldwideGrossUsd(r) ?? 0) / 1_000_000 }))
+    .filter((x) => x.usdM > 0)
+    .sort((a, b) => b.usdM - a.usdM);
 
-  const published = rows
-    .filter((x): x is { record: BoxOfficeRecord; decision: Extract<ReturnType<typeof decideBoxOfficeFigure>, { published: true }> } => x.decision.published)
-    .sort((a, b) => b.decision.range.low - a.decision.range.low);
+  const tracking = records.filter((r) => !getPublishedWorldwideGrossUsd(r));
 
-  const tracking = rows.filter((x) => !x.decision.published);
-
-  // nothing has cleared the rule yet - say so plainly, never fabricate a chart
-  if (published.length === 0) {
+  if (ranked.length === 0) {
     return (
       <div className={styles.wrap}>
         <header className={styles.head}>
-          <h2>India net, this week</h2>
-          <span>Publish rule</span>
+          <h2>Worldwide gross, this week</h2>
+          <span>Source-attributed USD</span>
         </header>
         <p className={styles.note}>
-          No film has cleared the publish rule for this week yet, so there is no chart to draw. The moment two
-          independent same-metric trade readings agree, the leaderboard fills in here. The tracked titles are in the
-          board below.
+          No sourced worldwide gross figures yet. Once Wikidata or TMDB supply a verified USD figure, the leaderboard
+          fills in here.
         </p>
       </div>
     );
   }
 
-  const max = published[0].decision.range.low;
+  const max = ranked[0].usdM;
 
   return (
     <div className={styles.wrap}>
       <header className={styles.head}>
-        <h2>India net, this week</h2>
-        <span>{published.length} cleared the publish rule</span>
+        <h2>Worldwide gross, this week</h2>
+        <span>{ranked.length} with sourced USD figure</span>
       </header>
 
       <div className={styles.chart}>
-        {published.map(({ record, decision }, i) => {
-          const lang = LANG_LABEL[record.industry] ?? record.language;
-          const pct = Math.max(6, Math.round((decision.range.low / max) * 100));
+        {ranked.map(({ record, usdM }, i) => {
+          const pct = Math.max(6, Math.round((usdM / max) * 100));
+          const displayM = usdM.toLocaleString("en-US", { maximumFractionDigits: 1 });
           const inner = (
             <>
               <span className={styles.rank}>{i + 1}</span>
               <span className={styles.track}>
                 <span className={styles.label}>
-                  <span className={styles.film}>{record.film.title} <span className={styles.lang}>{lang}</span></span>
-                  <span className={styles.figure}>{formatCrore(decision.range)}<small>{decision.label}</small></span>
+                  <span className={styles.film}>{record.film.title} <span className={styles.lang}>{record.language.toUpperCase()}</span></span>
+                  <span className={styles.figure}>${displayM}M<small>worldwide gross</small></span>
                 </span>
                 <span className={styles.meter}>
                   <span className={styles.fill} style={{ width: `${pct}%` }} />
@@ -78,21 +62,20 @@ export function BoxOfficeLeaderboard({ records }: { records: BoxOfficeRecord[] }
 
       {tracking.length > 0 && (
         <div className={styles.tracking}>
-          <span className={styles.trackingHead}>Still tracking (no published figure)</span>
-          {tracking.map(({ record }) => (
+          <span className={styles.trackingHead}>No sourced figure yet</span>
+          {tracking.map((record) => (
             <div className={styles.trackingRow} key={`${record.industry}-${record.film.title}`}>
               <b>{record.film.title}</b>
-              <span className={styles.lang}>{LANG_LABEL[record.industry] ?? record.language}</span>
-              <span className={styles.trackingTag}>tracking</span>
+              <span className={styles.lang}>{record.language.toUpperCase()}</span>
+              <span className={styles.trackingTag}>pending</span>
             </div>
           ))}
         </div>
       )}
 
       <p className={styles.note}>
-        Bars show India net collection where two independent same-metric readings agree within the publish rule. The
-        lower reading is shown. Films in tracking carry no bar and no figure, because an unverified number is worse
-        than none.
+        Bars show worldwide gross USD from Wikidata P2142 or TMDB revenue field, both public attributed sources. No
+        invented or extrapolated figures.
       </p>
     </div>
   );

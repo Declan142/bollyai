@@ -15,20 +15,21 @@ import { getDesk } from "../../lib/desks";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Box Office Tracker - Weekly Trade Board",
+  title: "Worldwide Box Office Tracker - Weekly USD Board",
   description:
-    "Current-week box-office tracker with source attribution and conservative trade publishing rules.",
+    "Current-week worldwide theatrical box-office tracker with source-attributed USD gross figures from Wikidata and TMDB.",
   ...pageSeo({ path: "/box-office/" })
 };
 
 export default function BoxOfficeHubPage() {
   const board = getCurrentBoxOfficeBoard();
+  const weekLabel = board.week?.label ?? "Current week";
 
   return (
     <main className="page-shell box-office-hub" data-desk="hollywood">
       <JsonLd
         data={boxOfficeDatasetJsonLd({
-          name: `Box office tracker: ${board.week.label}`,
+          name: `Box office tracker: ${weekLabel}`,
           description: "Current-week box-office dataset with conservative source-gated publishing.",
           url: "/box-office/",
           dateModified: board.generated_at,
@@ -38,16 +39,16 @@ export default function BoxOfficeHubPage() {
       <JsonLd data={boxOfficeItemListJsonLd(board)} />
       <SectionHero
         eyebrow="Box office desk"
-        title="Box office, the conservative read"
+        title="Worldwide box office"
         lede={
           <>
-            Current-week theatrical tracking. A rupee figure appears <b>only after independent trade
-            sources clear the publish rule,</b> so unverified rows stay in tracking rather than guessing.
+            Current-week worldwide theatrical gross in USD. Figures are sourced from Wikidata P2142 and TMDB -
+            <b> only real attributed data appears here.</b> No invented or extrapolated numbers.
           </>
         }
         stats={[
           { value: String(board.records.length), label: "Films tracked" },
-          { value: board.week.label, label: "Trade week" },
+          { value: weekLabel, label: "Trade week" },
           { value: board.territory, label: "Territory" }
         ]}
       >
@@ -57,10 +58,10 @@ export default function BoxOfficeHubPage() {
       {board.DATA_PENDING && (
         <section className="panel bo-alert" aria-label="Data status">
           <p className="eyebrow">Data pending</p>
-          <h2>Tracking before totals</h2>
+          <h2>No sourced figures yet</h2>
           <p>
-            Live sources are linked below, but the current weekly amounts are withheld until two independent same-metric
-            readings agree closely enough. Missing numbers are the honest state.
+            Wikidata P2142 or TMDB have not returned current-week records yet. The board updates automatically when
+            the scheduled refresh runs. Missing data is the honest state.
           </p>
         </section>
       )}
@@ -72,7 +73,7 @@ export default function BoxOfficeHubPage() {
       <section className="panel bo-board-panel">
         <header className="bo-panel-head">
           <div>
-            <p className="eyebrow">{board.week.label}</p>
+            <p className="eyebrow">{weekLabel}</p>
             <h2>Current Week Board</h2>
           </div>
           <span className="pill">{board.territory}</span>
@@ -104,20 +105,20 @@ export default function BoxOfficeHubPage() {
 
       <section className="bo-method-grid" aria-label="Box office methodology">
         <article className="panel">
-          <p className="eyebrow">Publish rule</p>
-          <h2>When a number appears</h2>
+          <p className="eyebrow">Data sources</p>
+          <h2>Where figures come from</h2>
           <p>
-            Two independent readings within 10 percent render the lower reading as a trade estimate. If readings differ
-            by 10 to 25 percent, only the lower figure is shown with a caveat. Wider divergence, single-source data, and
-            PR-only pairs stay as tracking.
+            Worldwide gross figures are sourced from Wikidata P2142 (box office gross property, USD) and the TMDB
+            revenue field. Both are public attributed sources. Each figure carries a source URL so you can verify it
+            directly.
           </p>
         </article>
         <article className="panel">
           <p className="eyebrow">What is excluded</p>
-          <h2>No budgets or salaries</h2>
+          <h2>No budgets or invented figures</h2>
           <p>
-            Budgets, salaries, and platform view counts are not auto-published here. The board is only for attributed
-            theatrical collection readings that can be checked against the rule.
+            Budgets, salaries, and streaming view counts are not published here. If a film does not have a sourced
+            worldwide gross in Wikidata or TMDB, it does not appear on this board.
           </p>
         </article>
       </section>

@@ -10,7 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -73,6 +73,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--data-dir", default="data", help="Data directory to read and write.")
     parser.add_argument("--today", help="Override today as YYYY-MM-DD. The week starts on Monday.")
     parser.add_argument("--weeks", type=int, default=2)
+    parser.add_argument("--past-weeks", type=int, default=2, help="Extend window this many weeks into the past (default 2).")
     parser.add_argument("--dry-run", action="store_true", help="Print result only; do not write files.")
     return parser
 
@@ -81,9 +82,13 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     data_dir = repo_path(args.data_dir)
     today = parse_date(args.today) if args.today else date.today()
-    start = current_week_start(today)
+    current_monday = current_week_start(today)
+    past_weeks = max(0, args.past_weeks)
+    adjusted_start = current_monday - timedelta(days=past_weeks * 7)
+    total_weeks = past_weeks + args.weeks
+    start = adjusted_start
     announcements = load_announcements(fixture_mode=args.fixture_mode, data_dir=data_dir)
-    calendar = build_calendar(announcements, films=load_films(data_dir), series=load_series(data_dir), start=start, weeks=args.weeks)
+    calendar = build_calendar(announcements, films=load_films(data_dir), series=load_series(data_dir), start=start, weeks=total_weeks)
     urls = changed_urls(calendar)
 
     wrote: list[str] = []

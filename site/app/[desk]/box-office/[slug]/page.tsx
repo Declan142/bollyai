@@ -77,7 +77,7 @@ export default function BoxOfficePage({ params }: { params: { desk: string; slug
 
   const total = formatCrore(film.box_office.totals.india_net_inr_cr.value);
   const boardRecord = getBoxOfficeRecordForFilm(film.canonical_industry, film.slug);
-  const scoreboardYear = boardRecord?.week.start.slice(0, 4) ?? film.release_date.value.slice(0, 4);
+  const scoreboardYear = boardRecord?.week?.start.slice(0, 4) ?? film.release_date.value.slice(0, 4);
   const clubLinks = boardRecord ? getQualifiedClubsForRecord(boardRecord) : [];
   const deskLabel = getDesk(film.canonical_industry)?.label ?? film.canonical_industry;
 

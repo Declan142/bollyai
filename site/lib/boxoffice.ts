@@ -3,6 +3,22 @@ import path from "node:path";
 import { DESK_SLUGS, type DeskSlug } from "./desks";
 import type { Film, MoneyRange } from "./data";
 
+export type WorldwideGrossUsdSource = {
+  name: string;
+  url: string;
+  as_of?: string;
+  fetched_at?: string;
+  metric?: string;
+  value?: number;
+};
+
+export type WorldwideGrossUsd = {
+  value: number | null;
+  label: string;
+  as_of: string;
+  sources: WorldwideGrossUsdSource[];
+};
+
 export type BoxOfficeSource = {
   name: string;
   url: string;
@@ -33,18 +49,20 @@ export type BoxOfficeRecord = {
   };
   language: string;
   industry: DeskSlug;
-  week: BoxOfficeWeek;
+  week?: BoxOfficeWeek;
   territory: string;
-  india_net_inr_cr: BoxOfficeFigure;
-  worldwide_gross_inr_cr: BoxOfficeFigure;
+  india_net_inr_cr?: BoxOfficeFigure;
+  worldwide_gross_inr_cr?: BoxOfficeFigure;
+  worldwide_gross_usd?: WorldwideGrossUsd;
+  release_date?: string;
   notes?: string;
 };
 
 export type BoxOfficeBoard = {
-  schema: "bollyai-boxoffice-week/v1";
+  schema: "bollyai-boxoffice-week/v1" | "bollyai-boxoffice-week/v2";
   DATA_PENDING: boolean;
   generated_at: string;
-  week: BoxOfficeWeek;
+  week?: BoxOfficeWeek;
   territory: string;
   records: BoxOfficeRecord[];
 };
@@ -52,6 +70,7 @@ export type BoxOfficeBoard = {
 export type BoxOfficeClub = {
   slug: string;
   label: string;
+  /** Threshold in USD millions */
   tier: number;
 };
 
@@ -76,7 +95,8 @@ const boxofficeDir = path.resolve(process.cwd(), "..", "data", "boxoffice");
 const currentWeekPath = path.join(boxofficeDir, "current-week.json");
 
 const SOUTH_FIRST: DeskSlug[] = ["hollywood", "streaming"];
-const CLUB_TIERS = [100, 200, 500, 1000] as const;
+/** USD million thresholds for worldwide gross clubs */
+const CLUB_TIERS_USD_M = [100, 500, 1000] as const;
 
 const SOURCE_GROUPS: Record<string, string> = {
   sacnilk: "sacnilk",
@@ -97,11 +117,11 @@ const PR_LEANING = new Set(["bollywood_hungama", "bh", "taran_adarsh", "taran"])
 export function getCurrentBoxOfficeBoard(): BoxOfficeBoard {
   if (!fs.existsSync(currentWeekPath)) {
     return {
-      schema: "bollyai-boxoffice-week/v1",
+      schema: "bollyai-boxoffice-week/v2",
       DATA_PENDING: true,
-      generated_at: "2026-06-12T00:00:00+05:30",
-      week: { start: "2026-06-08", end: "2026-06-14", label: "Week of 8 June 2026" },
-      territory: "India",
+      generated_at: "2026-06-27T00:00:00Z",
+      week: { start: "2026-06-23", end: "2026-06-29", label: "Week of 23 June 2026" },
+      territory: "Worldwide",
       records: []
     };
   }
@@ -114,17 +134,17 @@ export function getCurrentBoxOfficeBoard(): BoxOfficeBoard {
 }
 
 export function getCurrentBoxOfficeYear(): string {
-  return getCurrentBoxOfficeBoard().week.start.slice(0, 4);
+  return getCurrentBoxOfficeBoard().week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
 }
 
 export function compareRecordsSouthFirst(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
   return industryRank(left.industry) - industryRank(right.industry) || left.film.title.localeCompare(right.film.title);
 }
 
-export function compareRecordsByPublishedIndiaNet(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
-  const leftNet = getPublishedIndiaNet(left) ?? -1;
-  const rightNet = getPublishedIndiaNet(right) ?? -1;
-  return rightNet - leftNet || compareRecordsSouthFirst(left, right);
+export function compareRecordsByGross(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
+  const leftFigure = getPublishedClubFigure(left) ?? -1;
+  const rightFigure = getPublishedClubFigure(right) ?? -1;
+  return rightFigure - leftFigure || compareRecordsSouthFirst(left, right);
 }
 
 export function decideBoxOfficeFigure(figure: BoxOfficeFigure): FigureDecision {
@@ -190,7 +210,17 @@ export function decideBoxOfficeFigure(figure: BoxOfficeFigure): FigureDecision {
 export function uniqueFigureSources(record: BoxOfficeRecord): BoxOfficeSource[] {
   const seen = new Set<string>();
   const output: BoxOfficeSource[] = [];
-  for (const source of [...record.india_net_inr_cr.sources, ...record.worldwide_gross_inr_cr.sources]) {
+  const usdSources: BoxOfficeSource[] = (record.worldwide_gross_usd?.sources ?? []).map((s) => ({
+    name: s.name,
+    url: s.url,
+    as_of: s.as_of
+  }));
+  const allSources = [
+    ...(record.india_net_inr_cr?.sources ?? []),
+    ...(record.worldwide_gross_inr_cr?.sources ?? []),
+    ...usdSources
+  ];
+  for (const source of allSources) {
     const key = `${source.name}|${source.url}`;
     if (seen.has(key)) continue;
     seen.add(key);
@@ -199,10 +229,14 @@ export function uniqueFigureSources(record: BoxOfficeRecord): BoxOfficeSource[] 
   return output;
 }
 
+export function getPublishedWorldwideGrossUsd(record: BoxOfficeRecord): number | null {
+  return record.worldwide_gross_usd?.value ?? null;
+}
+
 export function getBoxOfficeClubs(): BoxOfficeClub[] {
-  return CLUB_TIERS.map((tier) => ({
-    slug: `${tier}-crore-club`,
-    label: `${tier} Crore Club`,
+  return CLUB_TIERS_USD_M.map((tier) => ({
+    slug: `${tier}m-club`,
+    label: `$${tier}M Club`,
     tier
   }));
 }
@@ -212,18 +246,20 @@ export function getBoxOfficeClub(slug: string): BoxOfficeClub | undefined {
 }
 
 export function getClubRecords(tier: number): BoxOfficeRecord[] {
-  const year = getCurrentBoxOfficeYear();
-  return getCurrentBoxOfficeBoard()
-    .records.filter((record) => recordYear(record) === year && (getPublishedClubFigure(record) ?? 0) >= tier)
+  const board = getCurrentBoxOfficeBoard();
+  const year = board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
+  return board.records
+    .filter((record) => recordYear(record, board) === year && (getPublishedClubFigure(record) ?? 0) >= tier)
     .sort(compareRecordsByPublishedClubFigure);
 }
 
 export function getBoxOfficeRecordForFilm(industry: DeskSlug, slug: string): BoxOfficeRecord | undefined {
-  const year = getCurrentBoxOfficeYear();
-  return getCurrentBoxOfficeBoard().records.find(
+  const board = getCurrentBoxOfficeBoard();
+  const year = board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
+  return board.records.find(
     (record) =>
       record.industry === industry &&
-      recordYear(record) === year &&
+      recordYear(record, board) === year &&
       (record.film.slug === slug || record.film.url === `/${industry}/box-office/${slug}/`)
   );
 }
@@ -235,16 +271,17 @@ export function getQualifiedClubsForRecord(record: BoxOfficeRecord): BoxOfficeCl
 }
 
 export function getYearScoreboardRecords(industry: DeskSlug, year: string): BoxOfficeRecord[] {
-  return getCurrentBoxOfficeBoard()
-    .records.filter((record) => record.industry === industry && recordYear(record) === year)
-    .sort(compareRecordsByPublishedIndiaNet);
+  const board = getCurrentBoxOfficeBoard();
+  return board.records
+    .filter((record) => record.industry === industry && recordYear(record, board) === year)
+    .sort(compareRecordsByGross);
 }
 
 export function getYearScoreboardParams(): Array<{ industry: DeskSlug; year: string }> {
   const board = getCurrentBoxOfficeBoard();
-  const years = new Set<string>([board.week.start.slice(0, 4)]);
+  const years = new Set<string>([board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString()]);
   for (const record of board.records) {
-    years.add(recordYear(record));
+    years.add(recordYear(record, board));
   }
 
   return [...years]
@@ -255,8 +292,8 @@ export function getYearScoreboardParams(): Array<{ industry: DeskSlug; year: str
 
 export function boxOfficeItemListJsonLd(board: BoxOfficeBoard) {
   return boxOfficeRecordsItemListJsonLd({
-    name: `India box office tracker: ${board.week.label}`,
-    description: "Current-week Indian theatrical box-office tracking with conservative trade publishing rules.",
+    name: `Worldwide box office tracker: ${board.week?.label ?? "Current week"}`,
+    description: "Current-week worldwide theatrical box-office tracking with source-attributed USD figures.",
     records: board.records
   });
 }
@@ -317,9 +354,9 @@ export function boxOfficeDatasetJsonLd({
       url: "https://bollyai.in"
     },
     license: "https://bollyai.in/about",
-    measurementTechnique: "Two-source independent trade verification with conservative lower-bound publishing.",
-    variableMeasured: ["India nett box office", "Worldwide gross box office"],
-    spatialCoverage: "India",
+    measurementTechnique: "Source-attributed worldwide gross USD from Wikidata P2142 or TMDB revenue field.",
+    variableMeasured: ["Worldwide gross box office (USD)"],
+    spatialCoverage: "Worldwide",
     keywords: records.map((record) => record.film.title).join(", ")
   };
 }
@@ -377,21 +414,32 @@ function industryRank(industry: DeskSlug): number {
   return index === -1 ? SOUTH_FIRST.length : index;
 }
 
-function recordYear(record: BoxOfficeRecord): string {
-  return record.week.start.slice(0, 4);
+function recordYear(record: BoxOfficeRecord, board: BoxOfficeBoard): string {
+  return record.release_date ? record.release_date.slice(0, 4) : board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
 }
 
 function getPublishedIndiaNet(record: BoxOfficeRecord): number | null {
+  if (!record.india_net_inr_cr) return null;
   const decision = decideBoxOfficeFigure(record.india_net_inr_cr);
   return decision.published ? decision.range.low : null;
 }
 
 function getPublishedWorldwideGross(record: BoxOfficeRecord): number | null {
+  if (!record.worldwide_gross_inr_cr) return null;
   const decision = decideBoxOfficeFigure(record.worldwide_gross_inr_cr);
   return decision.published ? decision.range.low : null;
 }
 
+/** Returns worldwide gross in USD millions for USD-schema records, null otherwise */
+function getPublishedWorldwideGrossUsdM(record: BoxOfficeRecord): number | null {
+  const usd = record.worldwide_gross_usd?.value;
+  if (typeof usd !== "number" || !Number.isFinite(usd) || usd <= 0) return null;
+  return usd / 1_000_000;
+}
+
 function getPublishedClubFigure(record: BoxOfficeRecord): number | null {
+  const usdM = getPublishedWorldwideGrossUsdM(record);
+  if (usdM !== null) return usdM;
   const indiaNet = getPublishedIndiaNet(record);
   const worldwideGross = getPublishedWorldwideGross(record);
   const figures = [indiaNet, worldwideGross].filter((value): value is number => value !== null);

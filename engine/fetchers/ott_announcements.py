@@ -39,15 +39,10 @@ SOURCE_TYPES = {"press", "official_social", "trade"}
 OFFICIAL_SOURCE_TYPES = {"press", "official_social"}
 DEFAULT_REGISTRY = DATA_DIR / "ott" / "announcements.json"
 ARCHIVE_DIRNAME = "calendar"
-TARGET_PLATFORMS = ["Netflix", "Prime Video", "JioHotstar", "ZEE5", "SonyLIV", "aha"]
+TARGET_PLATFORMS = ["Netflix", "Prime Video", "Disney+", "Max", "Apple TV+", "Hulu", "Paramount+", "Peacock"]
 SOUTH_FIRST_INDUSTRIES = {
-    "tollywood": 0,
-    "kollywood": 1,
-    "mollywood": 2,
-    "sandalwood": 3,
-    "streaming": 4,
-    "bollywood": 5,
-    "hollywood": 6,
+    "streaming": 0,
+    "hollywood": 1,
 }
 
 

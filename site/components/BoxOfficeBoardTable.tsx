@@ -1,11 +1,5 @@
-import {
-  decideBoxOfficeFigure,
-  uniqueFigureSources,
-  type BoxOfficeFigure,
-  type BoxOfficeRecord,
-  type BoxOfficeSource
-} from "../lib/boxoffice";
-import { formatCrore, formatDate } from "../lib/data";
+import { uniqueFigureSources, type BoxOfficeRecord, type BoxOfficeSource } from "../lib/boxoffice";
+import { formatDate } from "../lib/data";
 
 export function BoxOfficeBoardTable({
   records,
@@ -31,9 +25,8 @@ export function BoxOfficeBoardTable({
           <tr>
             <th>Film</th>
             {showIndustry && <th>Industry</th>}
-            <th>Week</th>
-            <th>India nett</th>
-            <th>Worldwide gross</th>
+            <th>Release</th>
+            <th>Worldwide gross (USD)</th>
             <th>Sources</th>
           </tr>
         </thead>
@@ -47,11 +40,8 @@ export function BoxOfficeBoardTable({
                 </span>
               </td>
               {showIndustry && <td>{industryLabel(record.industry)}</td>}
-              <td>
-                {formatDate(record.week.start)} to {formatDate(record.week.end)}
-              </td>
-              <MetricCell figure={record.india_net_inr_cr} />
-              <MetricCell figure={record.worldwide_gross_inr_cr} />
+              <td>{record.release_date ? formatDate(record.release_date) : "-"}</td>
+              <UsdGrossCell record={record} />
               <td>
                 <SourceStack sources={uniqueFigureSources(record)} record={record} />
               </td>
@@ -63,15 +53,25 @@ export function BoxOfficeBoardTable({
   );
 }
 
-function MetricCell({ figure }: { figure: BoxOfficeFigure }) {
-  const decision = decideBoxOfficeFigure(figure);
+function UsdGrossCell({ record }: { record: BoxOfficeRecord }) {
+  const usd = record.worldwide_gross_usd;
+  if (!usd || usd.value === null) {
+    return (
+      <td>
+        <span className="bo-metric" data-state="tracking">
+          <strong>tracking</strong>
+          <span>awaiting source</span>
+        </span>
+      </td>
+    );
+  }
+  const displayM = (usd.value / 1_000_000).toLocaleString("en-US", { maximumFractionDigits: 1 });
   return (
     <td>
-      <span className="bo-metric" data-state={decision.published ? "published" : "tracking"}>
-        <strong>{decision.published ? formatCrore(decision.range) : "tracking"}</strong>
-        <span>{decision.published ? decision.label : figure.label}</span>
-        {decision.published && <small>Basis: {decision.basisSources.join(" + ")}</small>}
-        {decision.caveat && <small>{decision.caveat}</small>}
+      <span className="bo-metric" data-state="published">
+        <strong>${displayM}M</strong>
+        <span>{usd.label}</span>
+        {usd.as_of && <small>as of {formatDate(usd.as_of)}</small>}
       </span>
     </td>
   );
@@ -97,6 +97,6 @@ function SourceStack({ sources, record }: { sources: BoxOfficeSource[]; record: 
 function industryLabel(industry: string): string {
   return {
     hollywood: "Hollywood",
-    streaming: "Streaming",
+    streaming: "Streaming"
   }[industry] ?? industry;
 }

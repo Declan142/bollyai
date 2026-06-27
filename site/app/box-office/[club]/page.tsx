@@ -37,7 +37,7 @@ export default function BoxOfficeClubPage({ params }: { params: { club: string }
 
   const board = getCurrentBoxOfficeBoard();
   const records = getClubRecords(club.tier);
-  const answer = `This club stays empty until a film has a publishable conservative figure at or above Rs ${club.tier} crore. A press-only or single-source figure does not count.`;
+  const answer = `This club lists films with a sourced worldwide gross at or above $${club.tier}M USD from Wikidata P2142 or TMDB. No invented or extrapolated figures qualify.`;
 
   return (
     <main className="page-shell box-office-hub" data-desk="hollywood">
@@ -70,7 +70,7 @@ export default function BoxOfficeClubPage({ params }: { params: { club: string }
             <p className="eyebrow">Verified entries</p>
             <h2>Club Board</h2>
           </div>
-          <span className="pill">Rs {club.tier} cr threshold</span>
+          <span className="pill">${club.tier}M USD threshold</span>
         </header>
         <BoxOfficeBoardTable
           records={records}

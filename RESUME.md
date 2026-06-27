@@ -1,11 +1,18 @@
-# BollyAI - pickup state (2026-06-26, FULL-WESTERN cull LIVE)
+# BollyAI - pickup state (2026-06-27, FILMS + SERIES Western cull LIVE)
+
+## WRAP (2026-06-27 ~12:05 IST) - INDIAN FILM cull SHIPPED + LIVE
+- **Films brand-lock executed**: 36 Indian films archived (bollywood 14 / kollywood 6 / tollywood 8 / mollywood 7 / sandalwood 1 - the old "92" estimate conflated series; Tollywood was missing) to `data/_archive/non-western-films/` via reversible `git mv`. **72 Hollywood films kept.**
+- 5 Indian desks removed from `site/lib/desks.ts`; new prebuild guard `scripts/guard-offbrand-films.mjs` (Western-only allowlist, FAILS build on any non-hollywood in `data/films/`). Box-office data-fence: `boxoffice.ts` DESK_SLUGS filter + `current-week.json` emptied + DATA_PENDING true + Indian box-office / 2026-W24 OTT entries archived + comparator repointed to dune-part-two/deadpool-wolverine/conclave. `build-search-index.mjs` trimmed to hollywood+streaming.
+- Commit `f8a1ae4` -> **pushed origin/main** + **deployed bollyai-in**. 6/6 live-verify (kept 200 / culled desks+film 404 / box-office graceful 200). Verified: build exit 0, 0 internal off-brand hrefs, 182 tests pass (sole red = pre-existing OTT-calendar empty-window; it reads compiled `data/ott/calendar.json`, empty in committed state, NOT the cull's `2026-W24.json` source edit).
+- **PRODUCT decisions queued for Aditya (India-shaped features now hollow on Western-only - NOT blockers)**: (1) OTT calendar renders empty (entries were Indian-heavy); (2) box-office tracker is INR/crore-club shaped, Western films carry no India-nett day-wise rows so hub/comparator/clubs are graceful-but-empty. Per feature: rebuild for Western/USD data, or hide/de-link until data exists (recommend hide/de-link interim).
+- Gotcha for next films cull: it leaves orphan `site/public/img/films/<culled-slug>/` dirs, and `build-search-index.mjs` hardcodes the DESKS array (trim it or the search index re-leaks culled URLs every build).
 
 ## WRAP (2026-06-26 ~23:40 IST) - 'full western' SERIES cull SHIPPED + LIVE
 - **Brand lock executed**: 420 non-Western series archived (Korean 225 / Japanese 176 / Hindi 6 / He-Tr-Zh-Th-Ar 13) + 57 endings + ~390 img + ~119 subs to `data/_archive/non-western/`. **466 Western series kept.** Reversible `git mv`.
 - Guard flipped to Western-allowlist (`scripts/guard-offbrand-series.mjs`); build FAILS on any non-Western in `data/series/`. Gold exemplar squid-game -> mad-men.
 - Commits `23ed877` (cull) + `ff982a8` (orphan my-name ending fix) -> **pushed origin/main** (durable vs daily 04:30 Action) + **deployed bollyai-in**. Live-verify 8/8 (kept 200 / culled 404).
 - ~80 Euro/LatAm non-English series (Dark/Money Heist/Lupin/Gomorrah/Acapulco) KEPT as Western - Aditya's call for English-only.
-- **NEXT cull queued (Aditya's go needed)**: 92 Indian FILM route pages still live + homepage-nav-linked (bollywood 44 / kollywood 20 / mollywood 23 / sandalwood 5). Series cull did not touch film routes.
+- **Indian FILM cull: DONE 2026-06-27** (see top WRAP). Actual count was 36 films, not 92 (the estimate conflated series; Tollywood was missing). Series cull did not touch film routes; the films cull handled them separately.
 - Gotcha: a series cull orphans `data/endings/<slug>.json` -> fails test_ending_explained + leaks a 404 into sitemap-endings.xml. Sweep data/endings/ + subs after any series cull. (test_ott_calendar empty-window fail is pre-existing, unrelated.)
 
 ## WRAP (2026-06-24 ~01:19 IST) - FROM Phase 2 explainer hub shipped

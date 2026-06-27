@@ -37,7 +37,7 @@ export default function UpcomingPage({ params }: { params: { desk: string; slug:
   }
 
   const boardRecord = getBoxOfficeRecordForFilm(film.canonical_industry, film.slug);
-  const scoreboardYear = boardRecord?.week.start.slice(0, 4) ?? film.release_date.value.slice(0, 4);
+  const scoreboardYear = boardRecord?.week?.start.slice(0, 4) ?? film.release_date.value.slice(0, 4);
   const clubLinks = boardRecord ? getQualifiedClubsForRecord(boardRecord) : [];
   const deskLabel = getDesk(film.canonical_industry)?.label ?? film.canonical_industry;
 
