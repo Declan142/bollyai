@@ -75,7 +75,7 @@ export type FigureDecision =
 const boxofficeDir = path.resolve(process.cwd(), "..", "data", "boxoffice");
 const currentWeekPath = path.join(boxofficeDir, "current-week.json");
 
-const SOUTH_FIRST: DeskSlug[] = ["tollywood", "kollywood", "mollywood", "sandalwood", "bollywood", "hollywood", "streaming"];
+const SOUTH_FIRST: DeskSlug[] = ["hollywood", "streaming"];
 const CLUB_TIERS = [100, 200, 500, 1000] as const;
 
 const SOURCE_GROUPS: Record<string, string> = {
@@ -109,7 +109,7 @@ export function getCurrentBoxOfficeBoard(): BoxOfficeBoard {
   const parsed = JSON.parse(fs.readFileSync(currentWeekPath, "utf8")) as BoxOfficeBoard;
   return {
     ...parsed,
-    records: [...parsed.records].sort(compareRecordsSouthFirst)
+    records: parsed.records.filter((record) => (DESK_SLUGS as readonly string[]).includes(record.industry)).sort(compareRecordsSouthFirst)
   };
 }
 

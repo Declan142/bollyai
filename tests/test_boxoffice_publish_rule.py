@@ -84,7 +84,13 @@ def test_current_week_schema_and_published_figures_are_source_gated():
     payload = json.loads(path.read_text(encoding="utf-8"))
 
     assert payload["schema"] == "bollyai-boxoffice-week/v1"
-    assert payload["records"]
+
+    # Western-only brand (2026-06): a week with no source-gated Western box-office is a
+    # valid empty/pending board. DATA_PENDING models exactly this state. The honesty
+    # invariant (every published figure has >=2 source-gated readings, below) is unchanged.
+    pending = payload.get("DATA_PENDING", False)
+    if not pending:
+        assert payload["records"]
 
     rank = {
         "tollywood": 0,
@@ -138,4 +144,5 @@ def test_current_week_schema_and_published_figures_are_source_gated():
             assert figure["label"] == decision["label"]
 
     assert payload["DATA_PENDING"] is (published_figures == 0)
-    assert published_figures >= 1
+    if not pending:
+        assert published_figures >= 1

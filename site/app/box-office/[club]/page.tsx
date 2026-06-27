@@ -23,8 +23,8 @@ export function generateMetadata({ params }: { params: { club: string } }) {
   const club = getBoxOfficeClub(params.club);
   if (!club) return {};
   return {
-    title: `${club.label} - India Box Office Tracker`,
-    description: `${club.label} tracker across Indian industries, publishing only source-gated trade figures.`,
+    title: `${club.label} - Box Office Tracker`,
+    description: `${club.label} tracker, publishing only source-gated trade figures.`,
     ...pageSeo({ path: `/box-office/${club.slug}/` })
   };
 }
@@ -40,7 +40,7 @@ export default function BoxOfficeClubPage({ params }: { params: { club: string }
   const answer = `This club stays empty until a film has a publishable conservative figure at or above Rs ${club.tier} crore. A press-only or single-source figure does not count.`;
 
   return (
-    <main className="page-shell box-office-hub" data-desk="tollywood">
+    <main className="page-shell box-office-hub" data-desk="hollywood">
       <JsonLd
         data={boxOfficeDatasetJsonLd({
           name: `${club.label} tracker`,

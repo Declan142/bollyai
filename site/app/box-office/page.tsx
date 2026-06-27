@@ -15,9 +15,9 @@ import { getDesk } from "../../lib/desks";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "India Box Office Tracker - Weekly Trade Board",
+  title: "Box Office Tracker - Weekly Trade Board",
   description:
-    "Current-week India box-office tracker with South-first ordering, source attribution, and conservative trade publishing rules.",
+    "Current-week box-office tracker with source attribution and conservative trade publishing rules.",
   ...pageSeo({ path: "/box-office/" })
 };
 
@@ -25,11 +25,11 @@ export default function BoxOfficeHubPage() {
   const board = getCurrentBoxOfficeBoard();
 
   return (
-    <main className="page-shell box-office-hub" data-desk="tollywood">
+    <main className="page-shell box-office-hub" data-desk="hollywood">
       <JsonLd
         data={boxOfficeDatasetJsonLd({
-          name: `India box office tracker: ${board.week.label}`,
-          description: "Current-week India box-office dataset with conservative source-gated publishing.",
+          name: `Box office tracker: ${board.week.label}`,
+          description: "Current-week box-office dataset with conservative source-gated publishing.",
           url: "/box-office/",
           dateModified: board.generated_at,
           records: board.records
@@ -38,10 +38,10 @@ export default function BoxOfficeHubPage() {
       <JsonLd data={boxOfficeItemListJsonLd(board)} />
       <SectionHero
         eyebrow="Box office desk"
-        title="India box office, the conservative read"
+        title="Box office, the conservative read"
         lede={
           <>
-            Current-week theatrical tracking for India. A rupee figure appears <b>only after independent trade
+            Current-week theatrical tracking. A rupee figure appears <b>only after independent trade
             sources clear the publish rule,</b> so unverified rows stay in tracking rather than guessing.
           </>
         }

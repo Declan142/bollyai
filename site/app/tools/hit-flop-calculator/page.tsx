@@ -73,8 +73,7 @@ export default function HitFlopCalculatorPage() {
           </p>
           <nav className="mesh-links" aria-label="Tool links">
             <a href="/tools/box-office-comparator/">Compare day-wise box office</a>
-            <a href="/bollywood/">Bollywood desk</a>
-            <a href="/tollywood/">Tollywood desk</a>
+            <a href="/hollywood/">Hollywood desk</a>
             <a href="/ott/calendar/">OTT calendar</a>
           </nav>
         </section>

@@ -27,7 +27,7 @@ const TOOLS: { href: string; kicker: string; title: string; desc: string }[] = [
 
 export default function ToolsPage() {
   return (
-    <main className="page-shell" data-desk="tollywood">
+    <main className="page-shell" data-desk="hollywood">
       <SectionHero
         eyebrow="BollyAI tools"
         title="Run the numbers yourself"

@@ -96,12 +96,7 @@ function SourceStack({ sources, record }: { sources: BoxOfficeSource[]; record: 
 
 function industryLabel(industry: string): string {
   return {
-    bollywood: "Bollywood",
     hollywood: "Hollywood",
-    kollywood: "Kollywood",
-    mollywood: "Mollywood",
-    sandalwood: "Sandalwood",
     streaming: "Streaming",
-    tollywood: "Tollywood"
   }[industry] ?? industry;
 }

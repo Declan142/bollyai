@@ -1,4 +1,14 @@
-# BollyAI - pickup state (2026-06-24, FROM Phase 2 LIVE)
+# BollyAI - pickup state (2026-06-26, FULL-WESTERN cull LIVE)
+
+## WRAP (2026-06-26 ~23:40 IST) - 'full western' SERIES cull SHIPPED + LIVE
+- **Brand lock executed**: 420 non-Western series archived (Korean 225 / Japanese 176 / Hindi 6 / He-Tr-Zh-Th-Ar 13) + 57 endings + ~390 img + ~119 subs to `data/_archive/non-western/`. **466 Western series kept.** Reversible `git mv`.
+- Guard flipped to Western-allowlist (`scripts/guard-offbrand-series.mjs`); build FAILS on any non-Western in `data/series/`. Gold exemplar squid-game -> mad-men.
+- Commits `23ed877` (cull) + `ff982a8` (orphan my-name ending fix) -> **pushed origin/main** (durable vs daily 04:30 Action) + **deployed bollyai-in**. Live-verify 8/8 (kept 200 / culled 404).
+- ~80 Euro/LatAm non-English series (Dark/Money Heist/Lupin/Gomorrah/Acapulco) KEPT as Western - Aditya's call for English-only.
+- **NEXT cull queued (Aditya's go needed)**: 92 Indian FILM route pages still live + homepage-nav-linked (bollywood 44 / kollywood 20 / mollywood 23 / sandalwood 5). Series cull did not touch film routes.
+- Gotcha: a series cull orphans `data/endings/<slug>.json` -> fails test_ending_explained + leaks a 404 into sitemap-endings.xml. Sweep data/endings/ + subs after any series cull. (test_ott_calendar empty-window fail is pre-existing, unrelated.)
+
+## WRAP (2026-06-24 ~01:19 IST) - FROM Phase 2 explainer hub shipped
 
 ## WRAP (2026-06-24 ~01:19 IST) - FROM Phase 2 explainer hub shipped
 - **Explainer route LIVE**: `site/lib/explainers.ts` + `site/app/series/[slug]/explainer/[topic]/page.tsx` + JSON-LD helpers. Data: `data/explainers/<slug>/<topic>.json` (one file per article, per-series dir).

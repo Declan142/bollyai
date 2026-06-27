@@ -19,11 +19,6 @@ const entries = [];
 
 // Desks (static, from the canonical list)
 const DESKS = [
-  ["bollywood", "Bollywood"],
-  ["kollywood", "Kollywood"],
-  ["tollywood", "Tollywood"],
-  ["mollywood", "Mollywood"],
-  ["sandalwood", "Sandalwood"],
   ["hollywood", "Hollywood"],
   ["streaming", "Streaming"]
 ];

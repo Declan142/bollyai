@@ -36,7 +36,7 @@ const boxoffice = fs.existsSync(path.join(dataDir, "boxoffice", "current-week.js
   ? readJson(path.join(dataDir, "boxoffice", "current-week.json"))
   : { generated_at: LAUNCH, records: [] };
 
-const DESKS = ["bollywood", "kollywood", "tollywood", "mollywood", "sandalwood", "hollywood", "streaming"];
+const DESKS = ["hollywood", "streaming"];
 const CLUB_TIERS = [100, 200, 500, 1000];
 
 // ---- build URL rows per child {loc, lastmod} ----

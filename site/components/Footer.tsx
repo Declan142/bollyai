@@ -11,7 +11,7 @@ export function Footer() {
       <div className={styles.top}>
         <div className={styles.brand}>
           <b>BollyAI</b>
-          <p>Pan-India cinema and OTT, read by everyone who has watched so you do not have to guess.</p>
+          <p>Western cinema and OTT, read by everyone who has watched so you do not have to guess.</p>
         </div>
 
         <nav className={styles.cols} aria-label="Site map">
@@ -28,8 +28,8 @@ export function Footer() {
           <div className={styles.col}>
             <h4>Verdicts</h4>
             <ul>
-              <li><a href="/bollywood/reviews/">Latest reviews</a></li>
-              <li><a href="/bollywood/upcoming/">Upcoming</a></li>
+              <li><a href="/hollywood/reviews/">Latest reviews</a></li>
+              <li><a href="/hollywood/upcoming/">Upcoming</a></li>
               <li><a href="/how-bollyai-works/">How verdicts work</a></li>
             </ul>
           </div>

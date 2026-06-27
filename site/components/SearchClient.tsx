@@ -9,11 +9,6 @@ const KIND_ORDER = ["Film", "Series", "Ending", "List", "Desk"];
 // Stable site sections - the designed starting points shown before a query is typed,
 // so the search surface never reads as an empty box.
 const DESK_JUMPS: { label: string; href: string }[] = [
-  { label: "Bollywood", href: "/bollywood/" },
-  { label: "Kollywood", href: "/kollywood/" },
-  { label: "Tollywood", href: "/tollywood/" },
-  { label: "Mollywood", href: "/mollywood/" },
-  { label: "Sandalwood", href: "/sandalwood/" },
   { label: "Hollywood", href: "/hollywood/" },
   { label: "Streaming", href: "/streaming/" }
 ];

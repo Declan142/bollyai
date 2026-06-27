@@ -147,7 +147,7 @@ export default function HomePage() {
             <h2>Big This Week</h2>
             <p>The theatrical runs in cinemas now and the highest-scored drops of the season, mixed. Order is real box office and real BollyMeter, never hype.</p>
           </div>
-          <a className="home-section-head__more" href="/bollywood/box-office/2026/">
+          <a className="home-section-head__more" href="/box-office/">
             Box-office boards →
           </a>
         </header>
