@@ -116,6 +116,15 @@ throttled. Force-push / history rewrite / branch deletion remain DENIED, always.
 - Spark (`gpt swarm`) silently no-ops repo edits - diff-verify always; use Claude agents for
   content generation, not Spark.
 
+## Blueprints - the execution layer (2026-07-04)
+
+`blueprints/00-INDEX.md` routes every production task (series batches, rich episode reviews,
+films, companion surfaces, refresh ticks, QA/ship, frontend) to a detailed blueprint plus a
+copy-paste session prompt in `blueprints/prompts/` (P01-P09), tiered Sonnet-worker /
+Opus-4.8-conductor. Every writing lane loads `blueprints/01-QUALITY-BAR.md` (the shared
+constitution: gates, traps, kill-list, rubric). Successor to the retired Azure gpt-5.5 lanes.
+Drift rule: validators/tests win over blueprints; fix the blueprint in the same commit.
+
 ## Don't
 
 - Never serve TMDB images (ToS ban on ad-revenue + image-hosting use).
