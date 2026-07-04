@@ -1,0 +1,87 @@
+{
+  "slug": "elle",
+  "qid": {
+    "value": "Q133696105",
+    "source": "wikidata",
+    "fetched_at": "2026-07-04T12:28:41+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Elle",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T12:28:41+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T12:28:41+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Prime Video",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T12:28:41+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Comedy",
+    "Coming of Age",
+    "Teen"
+  ],
+  "logline": "A prequel following teenage Elle Woods through 1990s Seattle high school, years before Harvard Law turns her into the woman the movies made famous.",
+  "poster": {
+    "src": "/img/series/elle/poster.jpg",
+    "alt": "Elle series poster",
+    "attribution": "Poster (c) Amazon MGM Studios / Prime Video. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Renewed for a second season in January 2026, before season 1 had even premiered.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Elle_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-07-01",
+        "source": "Wikipedia",
+        "fetched_at": "2026-07-04T12:28:41+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.2,
+        "basis": "54% on Rotten Tomatoes across 41 critics and 52 on Metacritic from 18 critics, both squarely mixed; reviewers credited Lexi Minetree's performance while calling the premise a rehash of prequel nostalgia."
+      },
+      "critic": {
+        "positive_pct": 54,
+        "sample": 41,
+        "pull_quotes": [
+          {
+            "text": "Brings sparkle and excellent mimicry to rehashed proceedings, a mildly entertaining case study in prequel nostalgia.",
+            "source": "Rotten Tomatoes (critics consensus)",
+            "url": "https://www.rottentomatoes.com/tv/elle/s01"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 77,
+        "scale": 100,
+        "source": "Rotten Tomatoes (audience)",
+        "source_url": "https://www.rottentomatoes.com/tv/elle"
+      },
+      "review_body": "Elle sends Reese Witherspoon's franchise back to 1990s Seattle, recasting Elle Woods as a high schooler six years before Harvard Law, with newcomer Lexi Minetree carrying the title role. Critics split closer to skeptical than won over: Rotten Tomatoes logged the show at 54% across 41 reviews, Metacritic settled at 52 from 18 critics, both landing in mixed territory. The RT consensus credited Minetree with real sparkle and mimicry even while calling the show a rehash leaning on prequel nostalgia rather than a fresh angle. What lands: a game lead finding her own version of an iconic character. What does not: a premise that spends its first season proving it needed to exist. Amazon renewed it for season 2 anyway, betting the format finds its footing.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-07-04T12:28:41+05:30"
+}

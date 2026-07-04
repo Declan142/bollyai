@@ -25,6 +25,33 @@ or on Aditya's halt. Deploy+IndexNow stays THROTTLED/held until Aditya's velocit
 
 ## Progress: 1003 / 1000   *** TARGET REACHED 2026-06-18 ***  (baseline 183)
 
+> Note: the 2026-06-26/27 Western brand-lock cull archived 420 non-Western series
+> (see `~/bollyai/CLAUDE.md` BRAND LOCK); catalogue count post-cull is 466 (then 469
+> after the batch below). That cull + the P10 episode-review lane are logged in
+> `RESUME.md`, not here - this ledger stays the new-series-authoring log.
+
+## New phase (2026-07-04): new/upcoming series only, Aditya directive
+Aditya (2026-07-04, mid P10-lane session): stop broad-canon backfill, **focus on new
+series upcoming only** - recently-premiered Western shows with zero bollyai.in
+presence yet, full cold-start pages (blueprint `02-SERIES-AUTHORING.md`, P01+P02).
+NOT the announced-but-unaired calendar route (P07) - explicitly out of scope for now.
+
+### Batch 22 — 2026-07-04 — 3 series — STATUS: DONE (466->469)
+- **New premieres:** elle (Prime Video, Legally Blonde prequel, 2026-07-01) ·
+  not-suitable-for-work (Hulu, Mindy Kaling comedy, 2026-06-02) ·
+  life-larry-and-the-pursuit-of-unhappiness (HBO limited series, Larry David, 2026-06-26)
+- 3/3 validate clean · build green (5636 pages, 469/469 series linked) · 181/183 pytest
+  (2 pre-existing fails, box-office cache-version + OTT-calendar staleness, unrelated)
+- Poster harvest: 0/3 (no_usable_candidate, non-fatal, SVG fallback by design)
+- Skipped, reason logged: **oasis** (Netflix, Spanish thriller, 2026-06-19) and
+  **the-american-experiment** (Netflix docuseries, 2026-06-24) - both real, both have
+  real critical coverage (Variety etc.), but NEITHER has a dedicated English Wikipedia
+  page yet as of this session. AUTHORING_BRIEF.md requires the Wikipedia page as the
+  spine source; two consecutive same-cause skips = paused rather than forcing more
+  candidates. Revisit once Wikipedia creates pages for either.
+- Also checked and excluded (Korean, fails Western brand lock): notes-from-the-last-row,
+  agent-kim-reactivated.
+
 ### Batch 21 — 2026-06-18 — 18 series — STATUS: DONE (985->1003) — TARGET REACHED
 - **A Classic US:** the-x-files · er · alias · firefly · its-always-sunny-in-philadelphia · monk
 - **B K-Drama Classics:** emergency-couple · rooftop-prince · marriage-not-dating · i-hear-your-voice · moon-embracing-the-sun · 49-days

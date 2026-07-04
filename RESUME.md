@@ -1,3 +1,58 @@
+# BollyAI - pickup state (2026-07-04 ~11:46 IST, P10 SOLO LANE - 11 SERIES COMPLETE)
+
+## WRAP (2026-07-04 ~11:46 IST) - P10 solo episode-review lane, 11 series completed
+- Ran `blueprints/prompts/P10-sonnet-solo-episode-lane.md` solo (no conductor). WIP fence
+  excluded 14 slugs already dirty from other lanes (better-call-saul, breaking-bad,
+  brooklyn-nine-nine, dead-to-me, from, house-of-the-dragon, landman, lioness, mad-men,
+  nobody-wants-this, severance, the-boys, the-crown, yellowstone) - all left untouched.
+- Worked the dossier-backed, single-episode-gap tier of the gap queue to completion:
+  adolescence S1E2 (Mode A, Film Stories quote), cable-girls S4E1 (Mode B, also fixed a
+  wrong release_date 2019-02-01 -> real 2019-08-09), call-my-agent S2E4 (Mode B),
+  cobra-kai S4E9 (Mode B), dark S1E8 (Mode B, dossier-grounded), deutschland-83 S1E4
+  (Mode A, AV Club quote), orange-is-the-new-black S5E12 (Mode B), ozark S4E14 series
+  finale (Mode B - real Salon quote found but no S4 dossier exists, HOUSE-STYLE needs
+  both), sons-of-anarchy S3E11 (Mode B - real AV Club/Den of Geek quotes found but no S3
+  dossier), wednesday S2E5 (Mode A, Razorfine quote), you S1E7 (Mode A, TellTaleTV quote).
+- All 11 series now show FULL episode coverage (every season, every aired episode
+  reviewed). Final combined validate: **11/11 clean, 0 failed**.
+- 11 commits, all local only (never pushed/built/deployed - commit is the lane's ceiling).
+  Hashes in order: a4c3ff6 (adolescence), 18d3205 (cable-girls), 42c8372 (call-my-agent),
+  1def66a (cobra-kai), e7569e1 (dark), 0acc66a (deutschland-83), 85175cb
+  (orange-is-the-new-black), 64181c6 (ozark), 19ed391 (sons-of-anarchy), d4bf9e7
+  (wednesday), 1ab9295 (you).
+- `buildout-loop.log` got CLAIM/completion lines appended (gitignored, local coordination
+  file only, never committed).
+
+## OPEN - flagged, not blocking
+- Ozark S4 and Sons of Anarchy S3 have NO subtitle dossiers, but real, verified,
+  per-episode critic quotes exist for both (Ozark finale: Salon/Kelly McClure; SOA S3E11:
+  AV Club + Den of Geek). If dossiers get built for those seasons later, both episodes are
+  one-pass upgrades from Mode B to Mode A.
+- `adolescence.json` S1E4 has a legacy thin `review_body` (no H1/subheads/verdict object,
+  no dossier) that counts as "rich" by the gap-audit's truthy check but does not meet the
+  current quality bar. Untouched (MODE was expansion). Flagged for a future upgrade pass.
+- Several sibling episodes in cable-girls/call-my-agent/cobra-kai/deutschland-83 still
+  carry generic "Episode N" placeholder titles + null air_date even where real titles/
+  dates are easy to source. My own new entries used real titles/dates, which is now a
+  minor internal inconsistency with those older siblings (not touched, out of scope).
+- Gap queue still has ~403 series with episode-review gaps (dossier-backed gap=2 tier
+  next: a-very-british-scandal, a-very-english-scandal, all-the-light-we-cannot-see,
+  belascoaran-pi, chernobyl, the-pursuit-of-love, the-salisbury-poisonings, unorthodox).
+
+## NEXT ACTION - Aditya pivot (2026-07-04, mid-session), CONFIRMED
+Aditya said: stop the P10/P03/P04 episode-review gap-filling lane above, **focus on new
+series upcoming only** going forward. Confirmed scope: recently-premiered shows that
+already aired but have ZERO bollyai.in presence yet - full cold-start pages, not
+calendar stubs. Blueprint: `02-SERIES-AUTHORING.md`, prompts P01 (conductor) + P02
+(workers). Output per show: full series page (logline, seasons, verdict, bollymeter,
+episode reviews as groundable). NOT the P07/OTT-calendar route (that's for
+announced-but-unaired titles - explicitly out of scope for now).
+Not yet done this session: read `02-SERIES-AUTHORING.md` + `scripts/batch/AUTHORING_BRIEF.md`
+in full, then discover which recently-premiered Western series are missing from
+`data/series/*.json` (cross-check against a recent-premieres source) before writing anything.
+
+---
+
 # BollyAI - pickup state (2026-06-27, FILMS + SERIES Western cull LIVE)
 
 ## WRAP (2026-06-27 ~12:05 IST) - INDIAN FILM cull SHIPPED + LIVE

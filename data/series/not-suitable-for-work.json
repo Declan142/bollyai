@@ -1,0 +1,87 @@
+{
+  "slug": "not-suitable-for-work",
+  "qid": {
+    "value": "Q139854135",
+    "source": "wikidata",
+    "fetched_at": "2026-07-04T12:29:54+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Not Suitable for Work",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T12:29:54+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T12:29:54+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T12:29:54+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Coming of Age"
+  ],
+  "logline": "Six twenty-something New Yorkers stumble through first jobs, bad dates, and each other's business in Mindy Kaling's latest ensemble comedy.",
+  "poster": {
+    "src": "/img/series/not-suitable-for-work/poster.jpg",
+    "alt": "Not Suitable for Work series poster",
+    "attribution": "Poster (c) Hulu / Disney. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 1 premiered June 2, 2026; no season 2 decision has been announced yet.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Not_Suitable_for_Work"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 9,
+      "release_date": {
+        "value": "2026-06-02",
+        "source": "Wikipedia",
+        "fetched_at": "2026-07-04T12:29:54+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.4,
+        "basis": "52% on Rotten Tomatoes across 21 critics and 53 on Metacritic from 13, both mixed; reviewers split between praising the ensemble chemistry and calling the premise bland and overly safe."
+      },
+      "critic": {
+        "positive_pct": 52,
+        "sample": 21,
+        "pull_quotes": [
+          {
+            "text": "Goes down remarkably easy, with its likable ensemble, sharply written jokes and even tone.",
+            "source": "The Hollywood Reporter (Angie Han)",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/not-suitable-for-work-review-mindy-kaling-hulu-1236610520/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 82,
+        "scale": 100,
+        "source": "Rotten Tomatoes (audience)",
+        "source_url": "https://www.rottentomatoes.com/tv/not_suitable_for_work/s01"
+      },
+      "review_body": "Not Suitable for Work follows six twenty-something New Yorkers, a newly hired financial analyst, an aspiring journalist with media connections, a med school dropout chasing acting, through the ordinary chaos of careers and relationships in a crowded genre. Reception split down the middle: 52% on Rotten Tomatoes across 21 critics, 53 on Metacritic from 13, squarely mixed. The Hollywood Reporter's Angie Han found the show goes down remarkably easy, with its likable ensemble, sharply written jokes and even tone. Other outlets called it bland and overly safe for a Mindy Kaling comedy, arguing the ensemble format dilutes her sharpest instincts. What holds: a cast with real chemistry carrying thin material. What does not: a premise this well-trodden needed a sharper hook than competent execution alone.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-07-04T12:29:54+05:30"
+}
