@@ -1,3 +1,52 @@
+# BollyAI - pickup state (2026-07-04 ~15:40 IST, NEW-SERIES BATCH 23 + BRAND-LOCK FIX)
+
+## WRAP (2026-07-04 ~15:40 IST) - session hygiene + batch 23 (3 series, 469->472)
+- **Clutter swept** (session open): deleted 4 stale untracked scratch/capsule files
+  (`RESUME.auto.md`, `.brief-films-cull.md`, `.brief-western-rebuild.md`,
+  `.films-cull-report.md`) - all from the already-shipped 2026-06-27 Western-rebuild
+  session (commit `2e53d87`), harmless but a week stale. Confirmed the 14 dirty
+  `data/series/*.json` files are known other-lane WIP (P10's fence list) - untouched.
+- **Batch 23 shipped**: star-city (Apple TV+, For All Mankind spinoff, RT 97%/30) ·
+  the-season (Hulu, Hong Kong wealth drama, RT 83%/6) · worst-neighbor-ever (Netflix
+  true-crime docuseries, too fresh for an aggregate - grounded on one named critic
+  instead, bollymeter/verdict correctly left null). All Wikipedia+Wikidata+RT/MC
+  verified via DIRECT fetch (not WebSearch summaries alone - caught the search layer
+  hallucinating an unattributable Guardian/Decider quote for worst-neighbor-ever
+  mid-session; used a real Ready Steady Cut review instead). validate 3/3 clean,
+  guard-offbrand-series PASS, build green, 181/183 pytest (2 pre-existing unrelated
+  fails, same as Batch 22). Full detail: `data/_state/library-buildout.md` Batch 23.
+- **Judgment call flagged**: the-season is Hong Kong/US co-produced but English-
+  language per Wikipedia - passes guard-offbrand-series.mjs (language-gated, not
+  origin-country) and the letter of the brand definition. Included; Aditya's call if
+  he wants origin-country as a second gate.
+- **Brand-lock bug found + fixed**: root-level `public/img/films/{kalki-2898-ad-2024,
+  manjummel-boys-2024}` (git-tracked, separate from `site/public/`) still held the two
+  off-brand film posters the original films cull (f8a1ae4) missed this mirror, and
+  `site/scripts/sync-public.mjs` unconditionally `cp -r`'s it into `site/public/` (and
+  from there into `site/out/`) on every single build, silently resurrecting the orphans
+  no matter how many times the site/public copy gets deleted. Fixed via `git rm` on the
+  root copy; re-ran `sync-public.mjs` standalone to confirm it no longer resurrects.
+  Zero live-site risk (no `data/films/` entry ever existed for either, so no page/
+  sitemap ever linked them) but was silently re-polluting every build's output tree.
+- Commits: (1) brand-lock fix (root public/ off-brand asset removal), (2) batch 23
+  content (3 series + library-buildout.md + this file). Both LOCAL only, not pushed/
+  deployed (standing grant exists but push wasn't requested this turn).
+
+## NEXT ACTION
+Continue the new-series-upcoming batch: search further out for more recently-premiered
+Western shows not yet in `data/series/`, cross-check for collisions, verify each via
+direct Wikipedia/Wikidata/RT fetch before authoring. Revisit oasis / the-american-
+experiment periodically (both still lack an English Wikipedia page as of this session).
+Future candidates seen but not yet actioned (premiere too recent / future-dated, revisit
+once aired + reviewed): Little House on the Prairie (Netflix, premieres 2026-07-09),
+Wrath (Netflix, 2026-07-29), Fightland (Starz, 2026-07-31), Lucky (Apple TV+, 2026-07-15).
+Deprioritized as out-of-scope for this lane: returning seasons of shows absent from the
+catalogue (X-Men '97 S2, Star Trek: Strange New Worlds, Ransom Canyon S2, Sugar S2 - these
+are broad-canon-backfill, explicitly paused) and reality/competition formats (Big Brother,
+House of Stassi - poor fit for the review-schema shape of this catalogue).
+
+---
+
 # BollyAI - pickup state (2026-07-04 ~11:46 IST, P10 SOLO LANE - 11 SERIES COMPLETE)
 
 ## WRAP (2026-07-04 ~11:46 IST) - P10 solo episode-review lane, 11 series completed

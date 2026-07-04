@@ -1,0 +1,78 @@
+{
+  "slug": "the-season",
+  "qid": {
+    "value": "Q139935669",
+    "source": "wikidata",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Season",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "Hong Kong",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Hulu",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Drama", "Thriller", "Romance"],
+  "logline": "Old money and new arrivals collide when a friend group descends on Hong Kong for a summer of yachts, secrets, and score-settling as boating season begins.",
+  "poster": {
+    "src": "/img/series/the-season/poster.jpg",
+    "alt": "The Season poster",
+    "attribution": "Poster (c) PCCW Media / Hulu. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "All 6 episodes of season 1 released June 17, 2026; no season 2 decision announced yet as of this writing.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Season"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 6,
+      "release_date": {
+        "value": "2026-06-17",
+        "source": "Wikipedia",
+        "fetched_at": "2026-07-04T15:35:34+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "ONE-TIME WATCH",
+      "bollymeter": {
+        "score": 6.3,
+        "basis": "83% on Rotten Tomatoes from a slim 6 critics against a cooler 58 on Metacritic from 4; critics enjoyed the Hong Kong gloss and cast but called the plotting familiar and disposable rather than must-watch."
+      },
+      "critic": {
+        "positive_pct": 83,
+        "sample": 6,
+        "pull_quotes": [
+          {
+            "text": "Fizzy and forgettable as cheap champagne.",
+            "source": "The Hollywood Reporter (Angie Han)",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-season-review-hulu-1236620802/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "Yalun Tu's The Season drops an American arrival into Hong Kong's boating-season elite, where old money, new money, and old grudges circle each other over six episodes from the producers of Crazy Rich Asians. Reception landed solidly mixed: 83% on Rotten Tomatoes from a slim six critics, a cooler 58 on Metacritic from four, with critics warmer on the gloss than the plotting. The Hollywood Reporter's Angie Han summed up the split verdict as fizzy and forgettable as cheap champagne, entertaining enough for a summer evening without leaving much behind. Jessie Mei Li and Karena Lam anchor an ensemble critics singled out as the show's strongest asset, even as the deception-and-power-struggles plotting felt over-familiar. A pleasant, disposable watch rather than the prestige drama its pedigree suggested it might become.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-07-04T15:35:34+05:30"
+}

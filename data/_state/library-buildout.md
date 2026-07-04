@@ -36,6 +36,31 @@ series upcoming only** - recently-premiered Western shows with zero bollyai.in
 presence yet, full cold-start pages (blueprint `02-SERIES-AUTHORING.md`, P01+P02).
 NOT the announced-but-unaired calendar route (P07) - explicitly out of scope for now.
 
+### Batch 23 — 2026-07-04 — 3 series — STATUS: DONE (469->472)
+- **New premieres:** star-city (Apple TV+, For All Mankind spinoff, 2026-05-29, RT 97%/30,
+  Metacritic 80/16) · the-season (Hulu, Hong Kong wealth drama, 2026-06-17, RT 83%/6,
+  Metacritic 58/4) · worst-neighbor-ever (Netflix true-crime docuseries, Worst Roommate
+  Ever spinoff, 2026-07-01, no aggregate yet - too fresh, grounded on one named critic
+  review (Ready Steady Cut) instead, bollymeter/verdict left null per fence #4/#10)
+- 3/3 validate clean · build green (6822 files, well under CF 20k cap) · guard-offbrand-
+  series PASS · 181/183 pytest (2 pre-existing fails, box-office cache-version +
+  OTT-calendar staleness, unrelated - same as Batch 22)
+- Poster harvest: 1/3 real (the-season), 2/3 SVG fallback (star-city, worst-neighbor-ever)
+- **Judgment call flagged for Aditya**: the-season is a Hong Kong/US co-production but
+  original_language is English per Wikipedia - guard-offbrand-series.mjs is purely
+  language-code gated (not origin-country), so it passes both the mechanical guard and
+  the letter of CLAUDE.md's "English-language + Western-European" brand definition.
+  Hong Kong isn't named among the excluded categories (Korean/Japanese/pan-India). Included;
+  revisit if Aditya wants origin-country added as a second gate.
+- **Bug found + fixed (unrelated to authoring)**: root-level `public/img/films/{kalki-2898-
+  ad-2024,manjummel-boys-2024}` (git-tracked, NOT the site/public copy) still held the two
+  off-brand films `site/scripts/sync-public.mjs` unconditionally cp -r's on every build,
+  silently re-introducing them into site/public + site/out no matter how many times the
+  site/public copy is deleted. Original films cull (f8a1ae4) missed this root mirror.
+  Fixed via `git rm`; re-ran sync-public.mjs standalone to confirm it no longer resurrects.
+- Also checked: oasis and the-american-experiment STILL have no English Wikipedia page as
+  of this session - stay skipped, unchanged from Batch 22.
+
 ### Batch 22 — 2026-07-04 — 3 series — STATUS: DONE (466->469)
 - **New premieres:** elle (Prime Video, Legally Blonde prequel, 2026-07-01) ·
   not-suitable-for-work (Hulu, Mindy Kaling comedy, 2026-06-02) ·

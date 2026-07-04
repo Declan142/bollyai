@@ -1,0 +1,83 @@
+{
+  "slug": "star-city",
+  "qid": {
+    "value": "Q133567755",
+    "source": "wikidata",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "Star City",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Apple TV+",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-04T15:35:34+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": ["Drama", "Sci-Fi", "Historical", "Spy"],
+  "logline": "A For All Mankind spinoff following Soviet cosmonauts, engineers, and KGB operatives inside a closed Cold War city built to win the space race at any human cost.",
+  "poster": {
+    "src": "/img/series/star-city/poster.jpg",
+    "alt": "Star City poster",
+    "attribution": "Poster (c) Apple Studios / Apple TV+. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "Season 1 (8 episodes) is still airing weekly as of this writing; no season 2 decision announced yet.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Star_City_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-05-29",
+        "source": "Wikipedia",
+        "fetched_at": "2026-07-04T15:35:34+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "MUST-WATCH",
+      "bollymeter": {
+        "score": 8.8,
+        "basis": "97% on Rotten Tomatoes across 30 critics and 80 on Metacritic from 16 critics, both near-unanimous; reviewers praised the Soviet-side reframing as bleaker and more compelling than its parent show, powered by Rhys Ifans and Cold War paranoia."
+      },
+      "critic": {
+        "positive_pct": 97,
+        "sample": 30,
+        "pull_quotes": [
+          {
+            "text": "It's breathlessly tense and oddly moving and just plain fun, which is to say it's classic For All Mankind.",
+            "source": "The Hollywood Reporter (Angie Han)",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/star-city-review-apple-for-all-mankind-spinoff-1236606052/"
+          }
+        ]
+      },
+      "audience": {
+        "rating": 72,
+        "scale": 100,
+        "source": "Rotten Tomatoes (audience)",
+        "source_url": "https://www.rottentomatoes.com/tv/star_city"
+      },
+      "review_body": "Apple's For All Mankind universe expands sideways with Star City, relocating the alt-history space race to the Soviet side to follow the cosmonauts, engineers, and KGB minders inside a closed city built to out-race America to the stars. Rhys Ifans leads a cast navigating ambition under constant surveillance, and critics have responded almost unanimously: 97% on Rotten Tomatoes across 30 reviews, 80 on Metacritic from 16 critics, both landing in rare territory for a streaming spinoff. The Hollywood Reporter's Angie Han found it breathlessly tense and oddly moving, arguing the Soviet vantage makes the stakes higher and the politics bleaker than its parent show ever risked. What critics clocked: a tighter, more paranoid machine than For All Mankind's occasional soapiness, without losing the earnest wonder of the space race itself. Season 1 is still airing weekly; no verdict yet on a second season.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-07-04T15:35:34+05:30"
+}
