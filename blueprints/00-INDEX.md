@@ -48,6 +48,7 @@ build-breaking gates, not by trust.
 |---|---|---|---|---|
 | Author NEW series pages (batch) | `02-SERIES-AUTHORING.md` | P01 (conductor) + P02 (workers) | Opus 4.8 + Sonnet workers | medium; xhigh on reconcile |
 | Rich episode reviews (expand/upgrade a series) | `03-EPISODE-REVIEWS.md` | P03 (conductor) + P04 (workers) | Opus 4.8 + Sonnet writers; Opus writes flagships | medium; xhigh on spot-review |
+| Rich episode reviews, SOLO Sonnet session (no conductor) | `03-EPISODE-REVIEWS.md` | P10 (self-serve lane) | Sonnet | medium |
 | Author film pages (hollywood desk) | `04-FILMS-DESK.md` | P05 | Sonnet, Opus verifies numbers | medium |
 | Endings / predictions / recommendation lists | `05-COMPANION-SURFACES.md` | P06 | Sonnet, Opus spot | medium |
 | Freshness / returning seasons / calendars | `06-REFRESH-OPS.md` | P07 | Sonnet (headless-safe) | medium |
