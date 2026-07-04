@@ -1,3 +1,37 @@
+# BollyAI - AUDIT WRAP (2026-07-04 ~17:30 IST, Fable floor) - corpus-repair campaign SPEC'D, not executed
+
+## Verdict (audit-only session; Aditya: "kaam mat kar, sirf dekh + blueprints likh")
+- **Fences HOLD**: validator 14/14 on dirty WIP, P10's 11 commits clean in added lines,
+  batch 22/23 grounded properly. The blueprint pack works when a lane actually follows it.
+- **NOT theek - 5 findings**: (1) the 2026-07-02 gpt-5.5 upgrade campaign (287 local
+  commits in one day) ADDED style defects the validator cannot see: internal "the dossier
+  notes..." tooling leaks in reader prose (58 files; 30 already LIVE at origin) + broken
+  "from to" dropped-timestamp fragments (27 files) - both violate 01-QUALITY-BAR (lines
+  ~16/~145) which was never mechanically enforced. (2) That campaign died mid-flight:
+  14 series JSONs dirty since 07-02 ~12:13, orphaned; later sessions mistook them for a
+  live lane's WIP and fenced around them. (3) 2,135 placeholder "Episode N" titles across
+  162 files; 516 review H1s BAKE the placeholder (BCS S1E1 "Uno" published as "Episode 1";
+  gold exemplar mad-men carries 90). (4) Ship-train stalled since 06-27: local main 305
+  ahead / 12 behind origin; the 2 red tests (boxoffice schema v1->v2 drift from 3ce98b7;
+  OTT calendar stale 27-day window, Mon/Thu roll not running since ~06-22) hard-block push
+  under "never push red". (5) Refresh-ops cadence unwired (nothing runs regen_ott_weekly).
+- **Fix is SPEC'D for Sonnet**: `blueprints/08-CORPUS-REPAIR.md` (field manual: R0 red-test
+  unblock -> R1 adopt the 14-file orphan tail -> R2 leak sweeps -> R3 real titles/air-dates
+  -> R4 validator gates) + prompt `blueprints/prompts/P11-corpus-repair-lane.md` + routing
+  row in 00-INDEX. ~14-19 Sonnet sessions, medium effort; R3 parallel-safe after R2.
+- **Aditya's judgment items (parked, not blockers)**: orphan tail re-grades scores
+  (mad-men S1E1 9.0->8.6, dead-to-me S1E1 7.8->8.0; R1 reports full drift list) · push =
+  ship lever (GHA daily-refresh deploys origin/main; backlog carries ~6 new series pages +
+  uncapped updates) · OTT Mon/Thu cron wiring · 2026-06-14 fabrication stashes old enough
+  to drop · the-season origin-country question (still open from batch 23).
+
+## DISPATCH (copy-paste)
+Open a sonnet session in /home/aditya/bollyai and say:
+`Read blueprints/prompts/P11-corpus-repair-lane.md and execute it.`
+(Repeat until phases report COMPLETE; R2 single-owner, R3 may run 2-3 parallel sessions.)
+
+---
+
 # BollyAI - pickup state (2026-07-04 ~15:40 IST, NEW-SERIES BATCH 23 + BRAND-LOCK FIX)
 
 ## WRAP (2026-07-04 ~15:40 IST) - session hygiene + batch 23 (3 series, 469->472)

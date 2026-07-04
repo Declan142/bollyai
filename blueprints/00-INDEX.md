@@ -54,6 +54,7 @@ build-breaking gates, not by trust.
 | Freshness / returning seasons / calendars | `06-REFRESH-OPS.md` | P07 | Sonnet (headless-safe) | medium |
 | Pre-ship QA + deploy | `07-QA-SHIP.md` | P08 | Sonnet mechanical + Opus judgment | xhigh on verdicts |
 | Frontend feature / redesign | `07-QA-SHIP.md` + design skills | P09 | Opus 4.8 | xhigh |
+| Corpus repair: style-leak sweeps + placeholder titles + red-test unblock | `08-CORPUS-REPAIR.md` | P11 (self-serve lane) | Sonnet | medium |
 
 ## Model + effort discipline (why the split)
 
