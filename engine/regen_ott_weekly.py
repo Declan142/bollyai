@@ -73,7 +73,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--data-dir", default="data", help="Data directory to read and write.")
     parser.add_argument("--today", help="Override today as YYYY-MM-DD. The week starts on Monday.")
     parser.add_argument("--weeks", type=int, default=2)
-    parser.add_argument("--past-weeks", type=int, default=2, help="Extend window this many weeks into the past (default 2).")
+    parser.add_argument("--past-weeks", type=int, default=0, help="Extend window this many weeks into the past (default 0).")
     parser.add_argument("--dry-run", action="store_true", help="Print result only; do not write files.")
     return parser
 
