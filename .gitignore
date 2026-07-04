@@ -7,6 +7,7 @@ data/_cache/
 !data/cache/fixtures/
 !data/cache/fixtures/*.json
 .env*
+.azure-env.sh
 *.log
 __pycache__/
 
