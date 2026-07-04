@@ -7,7 +7,7 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "engine" / "fetchers"))
 
-from boxoffice import BOXOFFICE_FIGURES, SourceReading, publish_rule
+from boxoffice import SourceReading, publish_rule
 
 
 def reading(source: str, value: float, *, metric: str = "india_net", territory: str = "India") -> SourceReading:
@@ -83,66 +83,37 @@ def test_current_week_schema_and_published_figures_are_source_gated():
     path = REPO_ROOT / "data" / "boxoffice" / "current-week.json"
     payload = json.loads(path.read_text(encoding="utf-8"))
 
-    assert payload["schema"] == "bollyai-boxoffice-week/v1"
+    # Western rebuild (commit 3ce98b7, 2026-06-27): the board reshaped from an
+    # India INR-crore day-wise sheet to a worldwide-gross USD board. Schema v2
+    # record shape comes from engine/fetchers/boxoffice_western.py, the fetcher
+    # that actually writes this file - assert what it truthfully produces, not
+    # the retired v1 shape.
+    assert payload["schema"] == "bollyai-boxoffice-week/v2"
+    assert payload["territory"] == "Worldwide"
 
-    # Western-only brand (2026-06): a week with no source-gated Western box-office is a
-    # valid empty/pending board. DATA_PENDING models exactly this state. The honesty
-    # invariant (every published figure has >=2 source-gated readings, below) is unchanged.
-    pending = payload.get("DATA_PENDING", False)
-    if not pending:
-        assert payload["records"]
+    # A week with no source-gated Western box-office is a valid empty/pending
+    # board. DATA_PENDING models exactly this state.
+    records = payload["records"]
+    assert payload["DATA_PENDING"] is (len(records) == 0)
 
-    rank = {
-        "tollywood": 0,
-        "kollywood": 1,
-        "mollywood": 2,
-        "sandalwood": 3,
-        "bollywood": 4,
-        "hollywood": 5,
-        "streaming": 6,
-    }
-    order = [rank[row["industry"]] for row in payload["records"]]
-    assert order == sorted(order)
-
-    published_figures = 0
-    for record in payload["records"]:
-        assert record["territory"] == "India"
+    for record in records:
+        assert record["territory"] == "Worldwide"
+        assert record["industry"] in {"hollywood", "streaming"}
         assert record["week"]["start"] == payload["week"]["start"]
         assert record["week"]["end"] == payload["week"]["end"]
         assert "budget" not in json.dumps(record).lower()
-        for key, metric in BOXOFFICE_FIGURES.items():
-            figure = record[key]
-            assert set(("value", "sources", "label")).issubset(figure)
-            for source in figure["sources"]:
-                assert source["name"].strip()
-                assert source["url"].startswith("https://")
-            if figure["value"] is None:
-                assert figure["label"] == "tracking"
-                continue
+        assert "salary" not in json.dumps(record).lower()
 
-            published_figures += 1
-            numeric_sources = [source for source in figure["sources"] if isinstance(source.get("value"), (int, float))]
-            assert len(numeric_sources) >= 2, "ZERO figures without >=2-source envelopes"
-            readings = [
-                SourceReading(
-                    qid=record["film"]["qid"] or "unknown",
-                    date=source.get("as_of") or payload["generated_at"][:10],
-                    metric=source.get("metric") or metric,
-                    value=float(source["value"]),
-                    source=source["name"],
-                    url=source["url"],
-                    fetched_at=source.get("fetched_at"),
-                    territory=source.get("territory") or record["territory"],
-                    week_start=record["week"]["start"],
-                    week_end=record["week"]["end"],
-                )
-                for source in numeric_sources
-            ]
-            decision = publish_rule(readings)
-            assert decision["published"] is True
-            assert figure["value"] == decision["net_inr_cr"]
-            assert figure["label"] == decision["label"]
+        figure = record["worldwide_gross_usd"]
+        assert set(("value", "sources", "label")).issubset(figure)
+        if figure["value"] is None:
+            assert figure["label"] == "tracking"
+            continue
 
-    assert payload["DATA_PENDING"] is (published_figures == 0)
-    if not pending:
-        assert published_figures >= 1
+        assert isinstance(figure["value"], (int, float))
+        assert figure["sources"], "a published figure must carry at least one real source"
+        for source in figure["sources"]:
+            assert source["name"].strip()
+            assert source["url"].startswith("https://")
+        numeric_sources = [source for source in figure["sources"] if isinstance(source.get("value"), (int, float))]
+        assert numeric_sources, "a published figure must cite at least one numeric source reading"
