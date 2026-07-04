@@ -39,17 +39,47 @@
   next: a-very-british-scandal, a-very-english-scandal, all-the-light-we-cannot-see,
   belascoaran-pi, chernobyl, the-pursuit-of-love, the-salisbury-poisonings, unorthodox).
 
-## NEXT ACTION - Aditya pivot (2026-07-04, mid-session), CONFIRMED
-Aditya said: stop the P10/P03/P04 episode-review gap-filling lane above, **focus on new
-series upcoming only** going forward. Confirmed scope: recently-premiered shows that
-already aired but have ZERO bollyai.in presence yet - full cold-start pages, not
-calendar stubs. Blueprint: `02-SERIES-AUTHORING.md`, prompts P01 (conductor) + P02
-(workers). Output per show: full series page (logline, seasons, verdict, bollymeter,
-episode reviews as groundable). NOT the P07/OTT-calendar route (that's for
-announced-but-unaired titles - explicitly out of scope for now).
-Not yet done this session: read `02-SERIES-AUTHORING.md` + `scripts/batch/AUTHORING_BRIEF.md`
-in full, then discover which recently-premiered Western series are missing from
-`data/series/*.json` (cross-check against a recent-premieres source) before writing anything.
+## WRAP (2026-07-04 ~12:36 IST) - new-series pivot, batch 1 done (3 series)
+Aditya pivot CONFIRMED: stop the P10/P03/P04 episode-review gap-filling lane, **focus
+on new series upcoming only** - recently-premiered Western shows with ZERO
+bollyai.in presence yet, full cold-start pages (NOT the P07/OTT-calendar
+announced-but-unaired route - explicitly out of scope). Blueprint `02-SERIES-
+AUTHORING.md`, prompts P01+P02, canonical spec `scripts/batch/AUTHORING_BRIEF.md`.
+- Searched recent premieres (June-July 2026), verified each candidate is real (not a
+  search-summary artifact) via direct Wikipedia/Wikidata/RT fetches before authoring.
+- Wrote 3 new full series pages, all fully grounded, all validate clean:
+  **elle** (Prime Video, Legally Blonde prequel, premiered 2026-07-01, RT 54%/41,
+  Metacritic 52), **not-suitable-for-work** (Hulu, Mindy Kaling ensemble comedy,
+  2026-06-02, RT 52%/21, Metacritic 53), **life-larry-and-the-pursuit-of-unhappiness**
+  (HBO limited series, Larry David, 2026-06-26, RT 53%/30, Metacritic 58). Each has a
+  real Wikidata QID (confirmed as "television series" instance), a real RT-consensus
+  or named-critic pull_quote with URL, real SourceValue envelopes throughout.
+- Ran the full ingest pipeline (`scripts/batch/ingest_batch.sh`): fix (0 changes needed)
+  -> validate (3/3 PASS) -> poster harvest (0/3, no_usable_candidate, non-fatal SVG
+  fallback by design) -> `npm run build` GREEN (5636 pages, 469/469 series linked, all
+  guards pass, file count 6811 well under CF's 20k cap). pytest 181/183 (2 pre-existing
+  fails unrelated to this work: box-office cache-version bump, OTT-calendar staleness).
+- **Skipped, reason logged** (in `data/_state/library-buildout.md` Batch 22): **oasis**
+  (Netflix, Spanish thriller, 2026-06-19) and **the-american-experiment** (Netflix
+  docuseries, 2026-06-24) - both real shows with real critical coverage, but NEITHER
+  has a dedicated English Wikipedia page yet. AUTHORING_BRIEF.md requires Wikipedia as
+  the spine source; two consecutive same-cause skips = paused rather than forcing more
+  candidates (per blueprint 00-INDEX.md's escalation matrix). Revisit once Wikipedia
+  creates pages for either - both are otherwise groundable (Netflix Tudum, RT, Variety
+  review already found for each).
+- Also found and excluded (Korean, fails the Western brand lock, never authored):
+  notes-from-the-last-row, agent-kim-reactivated.
+- Commit `31b9e1c` (data/series/ x3 + library-buildout.md + this file). Not pushed/
+  deployed (standing grant exists but push wasn't requested this turn).
+
+## NEXT ACTION
+Continue the new-series-upcoming batch: search further out (past ~July 2026) for more
+recently-premiered Western shows not yet in `data/series/`, cross-check
+`data/series/*.json` for collisions, verify each via direct Wikipedia/Wikidata/RT
+fetch before authoring (do NOT trust WebSearch summaries alone - two names this
+session synthesized plausible-sounding shows that were actually Korean, and search
+result phrasing has been unreliable on exact quote wording more than once). Revisit
+oasis / the-american-experiment periodically in case Wikipedia catches up.
 
 ---
 
