@@ -4,7 +4,7 @@
     "verification_rule": "official source or two distinct trade sources"
   },
   "entries": [],
-  "generated_at": "2026-07-05T07:43:03Z",
+  "generated_at": "2026-07-06T07:14:41Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -31,13 +31,24 @@
   },
   "weeks": [
     {
+      "archive_url": "/ott/calendar/2026/wk-26/",
+      "end": "2026-06-28",
+      "entry_count": 0,
+      "iso_week": "2026-W26",
+      "label": "This week",
+      "start": "2026-06-22",
+      "status": "current",
+      "week": 26,
+      "year": 2026
+    },
+    {
       "archive_url": "/ott/calendar/2026/wk-27/",
       "end": "2026-07-05",
       "entry_count": 0,
       "iso_week": "2026-W27",
-      "label": "This week",
+      "label": "Coming next week",
       "start": "2026-06-29",
-      "status": "current",
+      "status": "coming",
       "week": 27,
       "year": 2026
     },
@@ -51,12 +62,23 @@
       "status": "coming",
       "week": 28,
       "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-29/",
+      "end": "2026-07-19",
+      "entry_count": 0,
+      "iso_week": "2026-W29",
+      "label": "Coming next week",
+      "start": "2026-07-13",
+      "status": "coming",
+      "week": 29,
+      "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-07-12",
-    "start": "2026-06-29",
-    "weeks": 2
+    "end": "2026-07-19",
+    "start": "2026-06-22",
+    "weeks": 4
   }
 }
