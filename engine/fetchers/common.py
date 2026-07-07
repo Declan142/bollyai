@@ -72,7 +72,7 @@ def read_json(path: Path, default: Any = None) -> Any:
         return json.load(handle)
 
 
-def write_json(path: Path, payload: Any) -> None:
+def write_json(path: Path, payload: Any, *, sort_keys: bool = True) -> None:
     ensure_parent(path)
     with tempfile.NamedTemporaryFile(
         "w",
@@ -80,7 +80,7 @@ def write_json(path: Path, payload: Any) -> None:
         dir=str(path.parent),
         delete=False,
     ) as handle:
-        json.dump(payload, handle, ensure_ascii=True, indent=2, sort_keys=True)
+        json.dump(payload, handle, ensure_ascii=True, indent=2, sort_keys=sort_keys)
         handle.write("\n")
         temp_name = handle.name
     os.replace(temp_name, path)

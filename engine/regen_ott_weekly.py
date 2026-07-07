@@ -27,6 +27,7 @@ from ott_announcements import (  # noqa: E402
     parse_date,
     write_week_archives,
 )
+from ott_western import fetch_western_ott  # noqa: E402
 
 
 def load_films(data_dir: Path) -> list[dict[str, Any]]:
@@ -67,6 +68,50 @@ def changed_urls(calendar: dict[str, Any]) -> list[str]:
     return stable_unique(str(url) for url in urls if url)
 
 
+def merge_announcement_entries(existing: list[dict[str, Any]], fetched: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Append-only registry merge. Hand-curated entries always win; a fetched entry is a
+    dupe if EITHER its (qid, platform) or its (id, platform) already exists - the two
+    fetch paths (Wikidata carries qid, TMDB does not) share slugged ids, so keying on
+    both stops the same title entering twice across runs."""
+
+    def keys(item: dict[str, Any]) -> set[tuple[str, str, str]]:
+        platform = str(item.get("platform") or "")
+        out = set()
+        if item.get("qid"):
+            out.add(("qid", str(item["qid"]), platform))
+        if item.get("id"):
+            out.add(("id", str(item["id"]), platform))
+        return out
+
+    seen: set[tuple[str, str, str]] = set()
+    for item in existing:
+        seen |= keys(item)
+    merged = list(existing)
+    for item in fetched:
+        item_keys = keys(item)
+        if item_keys & seen:
+            continue
+        seen |= item_keys
+        merged.append(item)
+    return merged
+
+
+def refresh_registry(data_dir: Path, window_start: date, window_end: date) -> dict[str, int]:
+    """Pull fresh Western OTT announcements into the registry (append-only, curated wins).
+    Degrades gracefully: a dead network yields fetched=0 and the calendar rebuilds from
+    the registry as-is, exactly like the pre-fetch behavior."""
+    fetched = fetch_western_ott(window_start=window_start, window_end=window_end)
+    registry_path = data_dir / "ott" / "announcements.json"
+    raw = read_json(registry_path, default=[])
+    existing = raw if isinstance(raw, list) else raw.get("entries", [])
+    merged = merge_announcement_entries(existing, fetched)
+    added = len(merged) - len(existing)
+    if added:
+        # sort_keys=False: preserve each entry's own key order so the diff is a pure append.
+        write_json(registry_path, merged, sort_keys=False)
+    return {"fetched": len(fetched), "added": added}
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Regenerate BollyAI weekly OTT calendar data.")
     parser.add_argument("--fixture-mode", action="store_true", help="Use saved fixtures where fetchers support them.")
@@ -75,6 +120,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--weeks", type=int, default=2)
     parser.add_argument("--past-weeks", type=int, default=0, help="Extend window this many weeks into the past (default 0).")
     parser.add_argument("--dry-run", action="store_true", help="Print result only; do not write files.")
+    parser.add_argument("--no-fetch", action="store_true", help="Skip the announcements fetch; rebuild from the registry as-is.")
     return parser
 
 
@@ -87,6 +133,9 @@ def main(argv: list[str] | None = None) -> int:
     adjusted_start = current_monday - timedelta(days=past_weeks * 7)
     total_weeks = past_weeks + args.weeks
     start = adjusted_start
+    registry_stats = {"fetched": 0, "added": 0}
+    if not (args.no_fetch or args.fixture_mode or args.dry_run):
+        registry_stats = refresh_registry(data_dir, start, start + timedelta(days=total_weeks * 7))
     announcements = load_announcements(fixture_mode=args.fixture_mode, data_dir=data_dir)
     calendar = build_calendar(announcements, films=load_films(data_dir), series=load_series(data_dir), start=start, weeks=total_weeks)
     urls = changed_urls(calendar)
@@ -115,6 +164,8 @@ def main(argv: list[str] | None = None) -> int:
         "generated_at": utc_now(),
         "week_start": start.isoformat(),
         "entries": len(calendar.get("entries", [])),
+        "registry_fetched": registry_stats["fetched"],
+        "registry_added": registry_stats["added"],
         "weeks": [week.get("iso_week") for week in calendar.get("weeks", [])],
         "changed_urls": urls,
         "wrote": wrote,
