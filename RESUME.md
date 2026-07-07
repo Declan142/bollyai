@@ -1,4 +1,45 @@
-# BollyAI - pickup state (2026-07-07 ~12:35 IST, R0+R4 SHIPPED - SUITE GREEN 211/211)
+# BollyAI - pickup state (2026-07-07 ~16:00 IST, R2 INTEGRITY PASS - SUITE GREEN 217/217)
+
+## WRAP R2 (2026-07-07 PM, genius-pass lane, Fable fork) - commits 08528e4 + 0bcadc4 (+ this wrap)
+- **Fetch-path shadowing KILLED** (08528e4): fetch_western_ott returned TMDB *instead of*
+  Wikidata when TMDB was non-empty; TMDB discover is en-only, so every fr/de/es/it/pt
+  Western-European original (kept by brand lock) was invisible on keyed runs. Now UNION,
+  Wikidata wins collisions (it carries the QID). Plus: registry date-move correction
+  (fetched-origin entries take upstream reschedules in place; curated untouchable;
+  append-only otherwise) and _provenance.refresh honesty stamp (no-fetch/fixture/fetched
+  + fetched/added/updated counts). 6 new tests incl. doubled-run registry byte-stability.
+  Suite 217/217.
+- **Pre-pivot SERP claims purged** (0bcadc4): sitewide "pan-India answer engine", homepage
+  "Verdicts for India" + Squid Game ask-chips (an ARCHIVED series), series-index "Korean
+  drama, anime, Indian OTT", OTT pages "JioHotstar, SonyLIV, ZEE5" - all Western now.
+  Audience-region "in India" (where-to-watch, India nett) KEPT deliberately: audience is
+  Indian, content is Western. Freshness contract, zero scheduling: calendar page renders
+  an honest window-ended note at build time; week-archive eyebrows derive from the build
+  clock ("Archived week"/"This week"/"Upcoming week") - wk-24..27 said "This week"
+  forever. Proof in built HTML: JioHotstar-class 0 hits, labels verified, build green
+  (6822 files, all gates).
+
+## CORRECTIONS to earlier beliefs (verified against origin 2026-07-07)
+- **"OTT Mon/Thu cadence unwired" is FALSE.** `.github/workflows/ott-calendar-roll.yml`
+  (identical both sides) cron `0 3 * * 1,4` runs regen_ott_weekly and HAS been committing
+  rolls: Jun-29, Jul-2, Jul-6. No new cron needed - shipping main puts the FIXED fetcher
+  on the existing schedule and the calendar self-fills.
+- **Origin is serving `entries: []`** - the born-dead fetcher still lives there; the live
+  site's calendar is an empty husk re-windowed twice a week. Ship = fix.
+- The roll workflow env does NOT pass TMDB_API_KEY to the regen step - 1-line env add if
+  TMDB coverage is wanted on rolls (cron file = Aditya's, untouched this lane).
+- Blind-window (06-22..07-07, 16 origin commits) diff-audited: NO fabricated values;
+  box-office diffs are pure window-rolls; the damage was the empty-calendar class only.
+  The roll also REWRITES past week archives each run (W25 sections mutated 07-02) -
+  render-side labels are now derived, so this can't lie to readers anymore.
+
+## 07-QA-SHIP COLLISION MAP (pull --rebase WILL conflict - resolution recipe)
+Both sides rewrote exactly 4 files since merge-base; everything else rebases clean:
+- `data/ott/calendar.json`, `data/ott/calendar/2026-W28.json`, `2026-W29.json`:
+  **take LOCAL** (verified 5-entry superset; origin's are entries-empty husks).
+- `data/_state/changed-urls.json`: **take LOCAL** (delta sidecar; worst case IndexNow
+  under-pings one cycle, the next roll rewrites it).
+W25/26/27 archives moved origin-side only - the rebase takes them silently, correct.
 
 ## WRAP (2026-07-07, corpus-repair lane, Fable fork)
 - **SUITE GREEN 211/211** (was 1 red since ~06-22). Ship-train unblock (R0) DONE +
