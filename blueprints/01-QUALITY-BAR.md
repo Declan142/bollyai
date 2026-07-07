@@ -15,7 +15,7 @@ Disclosure footer where a surface carries one: `Written by BollyAI, reviewed by 
 Never first-person-AI in body text, never "I watched", never meta-references to prompts,
 subtitles, dossiers, watching, or "this review".
 
-## 2. The five build-breaking gates
+## 2. The six build-breaking gates
 
 These fail `validate_series.py` / `pytest` / the build. Zero tolerance.
 
@@ -136,6 +136,27 @@ Sweep any path: `grep -rnP '[\x{2012}-\x{2015}]' <path>`.
 - Never emit AggregateRating schema anywhere (hard build check). BollyMeter renders as
   BollyAI's own disclosed score, labelled as such.
 
+### Gate 6 - style leaks (tooling citations + dropped values)
+
+Enforced by `engine/gates/style_leak_regex.py`, wired into `validate_series.py`
+(all-strings walk, like the dash gate) and `tests/test_style_leaks.py` (catalog-wide
+zero-hit assertion). Born from corpus-repair R4: the 2026-07-02 campaign wrote
+validator-clean prose that still violated this bar at scale.
+
+1. **tooling_leak_tool_cited_as_source**: `the (dossier|subtitles?)('s)?` +
+   {notes, marks, records, gives, shows, has, have, logs, lists, confirms, clocks,
+   counts, flags, tracks}. Reader prose never cites the internal dossier/subtitles
+   as a source - argue from the scene or cut the claim. Legit PLOT usage ("MI5
+   assembles a dossier on the minister") does not match the verb-anchored pattern.
+2. **tooling_leak_per_the_dossier**: `per the dossier`.
+3. **dropped_value_from_to** / **dropped_value_between_and**: `from to` / `between and` -
+   collapsed timestamp templating. Delete the fragment; NEVER invent replacement numbers
+   (see 08-CORPUS-REPAIR.md Sweep B for the surgery rules).
+
+`G-PLACEHOLDER-H1` (review H1 quoting `"Episode N"`) is the deferred third R4 gate -
+it lands only after R3 Tier-1 clears its corpus, else it reddens the suite on known,
+queued work.
+
 ## 3. Fabrication trap catalog (learned the hard way)
 
 | Trap | Correct behavior |
@@ -160,7 +181,9 @@ Sweep any path: `grep -rnP '[\x{2012}-\x{2015}]' <path>`.
 - Aphoristic fortune-cookie closers. Manufactured stakes ("everything changes",
   "will leave audiences breathless" - that last one is ALSO a Gate 2 hit).
 - Neutral both-sides recap with no take. Padding ("In this episode, we see...").
-- Meta-references to the AI, watching, reading, subtitles, or "this review".
+- Meta-references to the AI, watching, reading, subtitles, or "this review". The
+  dossier/subtitles-as-source constructions and dropped-value fragments ("from to",
+  "between and") are Gate 6 - build-breaking, not just editorial.
 - Listing-in-threes as a reflex. Generic intensifiers (truly, deeply, masterfully,
   stunning, hilariously). Hedging (perhaps, seems to, arguably) - take the position or
   cut the line.
@@ -270,7 +293,7 @@ When torn between two rungs/scores, take the lower (anti-inflation default).
     python json.dump.
 12. Word counts inside the surface's range; no padding to reach them.
 
-### Reusable gate scan (any JSON file, both regex gates)
+### Reusable gate scan (any JSON file, all three regex gates)
 
 ```bash
 python3 - <<'PY'
@@ -278,6 +301,7 @@ import json, sys
 sys.path.insert(0, '.')
 from engine.gates.viewing_claim_regex import scan_text as view
 from engine.gates.attribution_regex import scan_text as attr
+from engine.gates.style_leak_regex import scan_text as style
 def walk(n, p="$"):
     if isinstance(n, str): yield p, n
     elif isinstance(n, dict):
@@ -289,6 +313,7 @@ d = json.load(open("PATH_TO_FILE"))
 for path, s in walk(d):
     for f in view(s):  print(f"VIEWING  {path}: {f.match}")
     for f in attr(s):  print(f"ATTRIB   {path}: {f.match}  (needs same-scope quote or rewrite)")
+    for f in style(s): print(f"STYLE    {path}: {f.label}: {f.match}")
 PY
 ```
 Attribution hits are legal ONLY where the same-scope backing quote exists (the validator

@@ -10,6 +10,9 @@ Runs every hard fence over a set of series JSON files BEFORE they are committed:
   * episode_reviews shape (number/title/bollymeter/spoiler_free)
   * NO em-dash / en-dash anywhere (engine/gates/emdash_strip parity)
   * NO first-person viewing claims in any prose field (engine viewing-claim gate)
+  * NO tooling leaks ("the dossier notes...", "per the dossier") or dropped-value
+    fragments ("from to", "between and") in any string (engine style-leak gate,
+    corpus-repair R4) - build-breaking
   * NO fabricated critic/audience attributions ("Critics noted", "widely praised", ...) in
     spoiler_free / the_moment / review_body UNLESS the file has a real backing pull_quote
     with a URL (engine attribution gate) - build-breaking, like the viewing-claim gate
@@ -35,6 +38,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT))
 from engine.gates.viewing_claim_regex import scan_text  # noqa: E402
 from engine.gates.attribution_regex import scan_text as scan_attribution  # noqa: E402
+from engine.gates.style_leak_regex import scan_text as scan_style_leak  # noqa: E402
 
 SERIES_DIR = REPO_ROOT / "data" / "series"
 
@@ -228,6 +232,15 @@ def validate_file(path: Path) -> list[str]:
         if any(dash in text for dash in EMDASH):
             errs.append(f"em/en-dash in {jpath}: ...{text[max(0,_first_dash(text)-15):_first_dash(text)+15]}...")
             break  # one report is enough; fixer strips all
+
+    # Style-leak sweep (Gate 6, corpus-repair R4): tooling citations + dropped-value
+    # fragments, across the same ALL-strings walk as the dash gate. Hand surgery per
+    # hit (see blueprints/08-CORPUS-REPAIR.md R2), so every location is reported.
+    for jpath, text in _walk_strings(d):
+        hits = scan_style_leak(text)
+        if hits:
+            sample = "; ".join(f"{f.label}: {f.match}" for f in hits[:2])
+            errs.append(f"style-leak in {jpath}: {sample}")
 
     return errs
 
