@@ -1,3 +1,47 @@
+# BollyAI - pickup state (2026-07-07 ~12:35 IST, R0+R4 SHIPPED - SUITE GREEN 211/211)
+
+## WRAP (2026-07-07, corpus-repair lane, Fable fork)
+- **SUITE GREEN 211/211** (was 1 red since ~06-22). Ship-train unblock (R0) DONE +
+  gates locked (R4). 4 commits, local only: 3f9e73f (OTT pipeline fix), b0a0a8c
+  (calendar regen + 5 curated July entries), 012d1a8 (5-file residual leak sweep),
+  cd16907 (Gate 6 style-leak gates + tests).
+- **R0 root cause**: regen_ott_weekly could never refresh itself - ott_western.py had
+  ZERO callers, its Wikidata query used wdt:P4947 (TMDb film ID) where wdt:P449
+  (original broadcaster) was meant (0 rows forever), _http_get swallowed every error
+  (429s/timeouts = silent empty), TMDB path fabricated platform "Streaming". All fixed:
+  P449 + platform-first subselect, stderr logging + bounded retry, per-title
+  watch/providers resolution (skip beats guess), fetch->append-only registry merge
+  wired into regen (--no-fetch escape). Wikidata verified working (18 rows on a past
+  window) but honestly SPARSE forward - so 2026-W28/W29 is registry-curated: 5 entries
+  (Nothing to Lose FR 07-08, Little House on the Prairie 07-09, Lucky/Apple TV+ 07-15,
+  The Hawk 07-16, The Map of Longing ES 07-17), each direct-Wikipedia verified, QIDs
+  null never guessed, Korean/Hindi/Indonesian in-window titles excluded per brand lock.
+- **R4 shipped** (R2 grep = 0 catalog-wide since 07-05): engine/gates/style_leak_regex.py
+  (Gate 6), all-strings walk in validate_series.py, tests/test_style_leaks.py with
+  catalog-wide zero-hit lock, 01-QUALITY-BAR.md moved in same commit. The wider gate
+  net immediately caught 8 residual leaks in 5 files (subtitles-give / dossier's-note
+  forms R2's grep missed) - swept same-session, validator 5/5. G-PLACEHOLDER-H1
+  deferred to R3-Tier-1-complete by design.
+- **Not run**: site build / deploy / push (commit is the lane's ceiling; 07-QA-SHIP owns
+  the ship). Working-tree dirt untouched: site/public/* + series-links.json build
+  artifacts + RESUME.auto.md + sitemap-predictions.xml ride the ship commit.
+
+## FOR THE FLOOR (Aditya's levers, unchanged + new)
+- **PUSH = SHIP LEVER, now unblocked**: local main ~321 ahead / 12 behind origin, suite
+  green. 07-QA-SHIP: git pull --rebase over the daily-refresh commits -> full gates ->
+  push (GHA auto-deploys origin/main).
+- **OTT Mon/Thu cadence still unwired** (cron = your call; this lane was cron-banned).
+  Registry now self-refreshes WHEN regen runs; without a scheduler the calendar goes
+  stale again after Jul 19. TMDB_API_KEY lives only in GH secrets - local regen runs
+  Wikidata-only (forward-sparse); a vault TMDB key would make local regen self-sufficient.
+- **Out-of-queue defects flagged, not touched**: raw timestamps in prose ("At t=11:30",
+  nobody-wants-this S2E10 region), "(Unknown)" pull-quote attributions (breaking-bad
+  S5E2, the-crown S6E2), R3 placeholder titles (2,135 across 162 files) queued per
+  blueprint. Wikidata series coverage gap: P577 catches series PREMIERES only, not
+  returning-season drops (by design for now).
+
+---
+
 # BollyAI - AUDIT WRAP (2026-07-04 ~17:30 IST, Fable floor) - corpus-repair campaign SPEC'D, not executed
 
 ## Verdict (audit-only session; Aditya: "kaam mat kar, sirf dekh + blueprints likh")
