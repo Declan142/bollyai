@@ -3,13 +3,190 @@
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
-  "entries": [],
-  "generated_at": "2026-07-10T13:05:10Z",
+  "entries": [
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-07-07T12:25:20+05:30",
+      "id": "film-nothing-to-lose",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
+          }
+        ],
+        "value": "fr"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
+          }
+        ],
+        "value": "Netflix"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
+          }
+        ],
+        "value": "2026-07-08"
+      },
+      "section": "this_week",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "type": "press",
+          "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
+          }
+        ],
+        "value": "Nothing to Lose"
+      },
+      "type": "film",
+      "url": null,
+      "verdict_line": "FR-language film listed for Netflix on 2026-07-08.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W28"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-07-07T12:25:20+05:30",
+      "id": "series-little-house-on-the-prairie",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+          }
+        ],
+        "value": "Netflix"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+          }
+        ],
+        "value": "2026-07-09"
+      },
+      "section": "this_week",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "type": "press",
+          "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-07T12:25:20+05:30",
+        "sources": [
+          {
+            "name": "Wikipedia",
+            "type": "press",
+            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+          }
+        ],
+        "value": "Little House on the Prairie"
+      },
+      "type": "series",
+      "url": null,
+      "verdict_line": "English-language series listed for Netflix on 2026-07-09.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W28"
+    }
+  ],
+  "generated_at": "2026-07-07T06:55:54Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-28/",
     "end": "2026-07-12",
-    "entry_count": 0,
+    "entry_count": 2,
     "iso_week": "2026-W28",
     "label": "This week",
     "start": "2026-07-06",

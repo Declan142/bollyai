@@ -98,5 +98,110 @@
         "type": "press"
       }
     ]
+  },
+  {
+    "id": "film-nothing-to-lose",
+    "qid": null,
+    "title": "Nothing to Lose",
+    "slug": null,
+    "industry": "streaming",
+    "language": "fr",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-07-08",
+    "fetched_at": "2026-07-07T12:25:20+05:30",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null
+  },
+  {
+    "id": "series-little-house-on-the-prairie",
+    "qid": null,
+    "title": "Little House on the Prairie",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Netflix",
+    "date": "2026-07-09",
+    "fetched_at": "2026-07-07T12:25:20+05:30",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null
+  },
+  {
+    "id": "series-lucky",
+    "qid": null,
+    "title": "Lucky",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Apple TV+",
+    "date": "2026-07-15",
+    "fetched_at": "2026-07-07T12:25:20+05:30",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null
+  },
+  {
+    "id": "series-the-hawk",
+    "qid": null,
+    "title": "The Hawk",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Netflix",
+    "date": "2026-07-16",
+    "fetched_at": "2026-07-07T12:25:20+05:30",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null
+  },
+  {
+    "id": "series-the-map-of-longing",
+    "qid": null,
+    "title": "The Map of Longing",
+    "slug": null,
+    "industry": "streaming",
+    "language": "es",
+    "type": "series",
+    "platform": "Netflix",
+    "date": "2026-07-17",
+    "fetched_at": "2026-07-07T12:25:20+05:30",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null
   }
 ]
