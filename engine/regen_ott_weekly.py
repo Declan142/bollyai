@@ -68,11 +68,21 @@ def changed_urls(calendar: dict[str, Any]) -> list[str]:
     return stable_unique(str(url) for url in urls if url)
 
 
-def merge_announcement_entries(existing: list[dict[str, Any]], fetched: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def merge_announcement_entries(
+    existing: list[dict[str, Any]], fetched: list[dict[str, Any]]
+) -> tuple[list[dict[str, Any]], dict[str, int]]:
     """Append-only registry merge. Hand-curated entries always win; a fetched entry is a
     dupe if EITHER its (qid, platform) or its (id, platform) already exists - the two
     fetch paths (Wikidata carries qid, TMDB does not) share slugged ids, so keying on
-    both stops the same title entering twice across runs."""
+    both stops the same title entering twice across runs.
+
+    One exception to append-only (2026-07-07 R2): platforms reschedule constantly, and a
+    pure append meant a moved release date stayed wrong forever - the key matched, the
+    stale date won. When BOTH sides are fetched-origin and the incoming date differs, the
+    existing entry takes the corrected date (plus the newer sources/fetched_at) in place.
+    Entries without origin == "fetched" are curated: never touched, ever.
+
+    Returns (merged, {"added": n, "updated": n})."""
 
     def keys(item: dict[str, Any]) -> set[tuple[str, str, str]]:
         platform = str(item.get("platform") or "")
@@ -83,17 +93,34 @@ def merge_announcement_entries(existing: list[dict[str, Any]], fetched: list[dic
             out.add(("id", str(item["id"]), platform))
         return out
 
-    seen: set[tuple[str, str, str]] = set()
+    by_key: dict[tuple[str, str, str], dict[str, Any]] = {}
     for item in existing:
-        seen |= keys(item)
+        for k in keys(item):
+            by_key.setdefault(k, item)
     merged = list(existing)
+    added = updated = 0
     for item in fetched:
         item_keys = keys(item)
-        if item_keys & seen:
+        hit = next((by_key[k] for k in item_keys if k in by_key), None)
+        if hit is not None:
+            if (
+                hit.get("origin") == "fetched"
+                and item.get("origin") == "fetched"
+                and item.get("date")
+                and item["date"] != hit.get("date")
+            ):
+                hit["date"] = item["date"]
+                if item.get("fetched_at"):
+                    hit["fetched_at"] = item["fetched_at"]
+                if item.get("sources"):
+                    hit["sources"] = item["sources"]
+                updated += 1
             continue
-        seen |= item_keys
+        for k in item_keys:
+            by_key[k] = item
         merged.append(item)
-    return merged
+        added += 1
+    return merged, {"added": added, "updated": updated}
 
 
 def refresh_registry(data_dir: Path, window_start: date, window_end: date) -> dict[str, int]:
@@ -104,12 +131,12 @@ def refresh_registry(data_dir: Path, window_start: date, window_end: date) -> di
     registry_path = data_dir / "ott" / "announcements.json"
     raw = read_json(registry_path, default=[])
     existing = raw if isinstance(raw, list) else raw.get("entries", [])
-    merged = merge_announcement_entries(existing, fetched)
-    added = len(merged) - len(existing)
-    if added:
-        # sort_keys=False: preserve each entry's own key order so the diff is a pure append.
+    merged, stats = merge_announcement_entries(existing, fetched)
+    if stats["added"] or stats["updated"]:
+        # sort_keys=False: preserve each entry's own key order so the diff is a pure
+        # append (or a surgical date correction on a fetched-origin entry).
         write_json(registry_path, merged, sort_keys=False)
-    return {"fetched": len(fetched), "added": added}
+    return {"fetched": len(fetched), "added": stats["added"], "updated": stats["updated"]}
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -133,11 +160,28 @@ def main(argv: list[str] | None = None) -> int:
     adjusted_start = current_monday - timedelta(days=past_weeks * 7)
     total_weeks = past_weeks + args.weeks
     start = adjusted_start
-    registry_stats = {"fetched": 0, "added": 0}
+    registry_stats = {"fetched": 0, "added": 0, "updated": 0}
     if not (args.no_fetch or args.fixture_mode or args.dry_run):
         registry_stats = refresh_registry(data_dir, start, start + timedelta(days=total_weeks * 7))
     announcements = load_announcements(fixture_mode=args.fixture_mode, data_dir=data_dir)
     calendar = build_calendar(announcements, films=load_films(data_dir), series=load_series(data_dir), start=start, weeks=total_weeks)
+    # Honesty stamp (2026-07-07 R2): a registry-only rebuild used to write a calendar
+    # byte-identical in shape to a fetch-refreshed one - generated_at moved, so a dead
+    # network or a --no-fetch run LOOKED fresh downstream. The artifact now records how
+    # it was refreshed; auditors and the QA lane read it instead of guessing.
+    refresh_mode = (
+        "fixture" if args.fixture_mode
+        else "no-fetch" if args.no_fetch
+        else "dry-run" if args.dry_run
+        else "fetched"
+    )
+    calendar.setdefault("_provenance", {})["refresh"] = {
+        "mode": refresh_mode,
+        "fetched": registry_stats["fetched"],
+        "added": registry_stats["added"],
+        "updated": registry_stats["updated"],
+        "at": utc_now(),
+    }
     urls = changed_urls(calendar)
 
     wrote: list[str] = []
@@ -164,8 +208,10 @@ def main(argv: list[str] | None = None) -> int:
         "generated_at": utc_now(),
         "week_start": start.isoformat(),
         "entries": len(calendar.get("entries", [])),
+        "refresh_mode": refresh_mode,
         "registry_fetched": registry_stats["fetched"],
         "registry_added": registry_stats["added"],
+        "registry_updated": registry_stats["updated"],
         "weeks": [week.get("iso_week") for week in calendar.get("weeks", [])],
         "changed_urls": urls,
         "wrote": wrote,

@@ -151,16 +151,37 @@ def fetch_tmdb_ott(*, window_start, window_end, api_key):
     _log(f"tmdb: {len(entries)} entries, {skipped} skipped (unresolvable platform) for {window_start}..{window_end}")
     return entries
 
+def _union_fetch_paths(primary, secondary):
+    """Union the two fetch paths on (id, platform). Primary wins a collision - callers
+    pass Wikidata first because its entries carry a QID and TMDB's never do."""
+    merged = list(primary)
+    seen = {(e.get("id"), e.get("platform")) for e in merged}
+    for e in secondary:
+        key = (e.get("id"), e.get("platform"))
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(e)
+    return merged
+
+
 def fetch_western_ott(*, window_start=None, window_end=None, weeks_ahead=3, weeks_back=4):
     today = date.today()
     if window_start is None: window_start = today - timedelta(days=weeks_back * 7)
     if window_end is None: window_end = today + timedelta(days=weeks_ahead * 7)
     api_key = os.environ.get("TMDB_API_KEY", "")
-    if api_key:
-        results = fetch_tmdb_ott(window_start=window_start, window_end=window_end, api_key=api_key)
-        if results: return results
-        _log("tmdb path empty, falling back to wikidata")
-    return fetch_wikidata_ott(window_start=window_start, window_end=window_end)
+    # The two paths are COMPLEMENTS, not alternatives. TMDB discover is hard-filtered to
+    # original-language en, so it can never see the Western-European (fr/de/es/it/pt)
+    # originals the brand lock keeps; Wikidata sees those but is sparse on fresh English
+    # titles. Returning TMDB *instead of* Wikidata (the pre-2026-07-07 shape) made every
+    # non-English Western original invisible whenever a TMDB key was present. Union both;
+    # Wikidata wins collisions because it carries the QID.
+    tmdb = fetch_tmdb_ott(window_start=window_start, window_end=window_end, api_key=api_key) if api_key else []
+    wikidata = fetch_wikidata_ott(window_start=window_start, window_end=window_end)
+    entries = _union_fetch_paths(wikidata, tmdb)
+    for e in entries:
+        e["origin"] = "fetched"
+    return entries
 
 if __name__ == "__main__":
     import argparse
