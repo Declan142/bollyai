@@ -3,8 +3,8 @@ import { DateModified } from "../components/DateModified";
 import { pageSeo } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "BollyAI - Is It Worth Watching? OTT & Movie Verdicts for India" },
-  description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Indian cinema. Har Friday ka faisla.",
+  title: { absolute: "BollyAI - Is It Worth Watching? Movie & Series Verdicts" },
+  description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Western films and series. Har Friday ka faisla.",
   ...pageSeo({ path: "/" })
 };
 import { OttCalendarHero } from "../components/OttCalendarHero";
@@ -88,7 +88,7 @@ export default function HomePage() {
               <button className="home-ask__go" type="submit">Ask</button>
             </form>
             <div className="home-ask__examples">
-              {["Best Indian crime thriller right now", "Where to watch Squid Game", "Is Squid Game spoiler-heavy?"].map((q) => (
+              {["Best crime thriller right now", "Where to watch The Crown", "Is Severance spoiler-heavy?"].map((q) => (
                 <a className="home-ask__chip" href={`/ask/?q=${encodeURIComponent(q)}`} key={q}>
                   {q}
                 </a>
@@ -255,7 +255,7 @@ export default function HomePage() {
         <section className="hub-block">
           <header className="home-section-head">
             <h2>What to Watch</h2>
-            <p>Curated for a mood, a platform, or a weekend - not a star-rating dump. Indian cinema, global OTT, K-drama, anime.</p>
+            <p>Curated for a mood, a platform, or a weekend - not a star-rating dump. Hollywood, prestige TV, Western streaming.</p>
           </header>
           <div className="watch-rail full-bleed">
             {watchLists.map((list) => (
@@ -308,7 +308,7 @@ export default function HomePage() {
         data={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: "BollyAI - pan-India cinema and OTT verdicts",
+          name: "BollyAI - Western cinema and OTT verdicts",
           description: `Live verdicts and BollyMeter scores across ${stats.series} series and ${stats.films} films.`,
           url: "https://bollyai.in/"
         }}

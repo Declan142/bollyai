@@ -14,8 +14,8 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { platform: string } }) {
   const platform = getOttPlatforms().find((item) => platformSlug(item) === params.platform);
   if (!platform) return {};
-  const title = `What to Watch on ${platform} India - New Releases & Verdicts`;
-  const description = `Upcoming and new ${platform} releases in India - verified OTT dates, film and series announcements, and BollyAI verdicts.`
+  const title = `What to Watch on ${platform} - New Releases & Verdicts`;
+  const description = `Upcoming and new ${platform} releases - verified Western streaming dates, film and series announcements, and BollyAI verdicts.`
     .slice(0, 158)
     .replace(/\s+\S*$/, "");
   return { title, description, ...pageSeo({ path: `/ott/${params.platform}/` }) };

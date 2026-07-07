@@ -6,15 +6,20 @@ import { formatDate, getOttCalendar } from "../../../lib/data";
 import { pageSeo } from "../../../lib/seo";
 
 export const metadata = {
-  title: "OTT Release Calendar India - Upcoming Movies & Series",
+  title: "OTT Release Calendar - New on Netflix, Max, Disney+ & More",
   description:
-    "Verified OTT release dates for Indian movies and series across Netflix, JioHotstar, SonyLIV, ZEE5, Prime Video and more.",
+    "Verified streaming release dates for Western films and series across Netflix, Prime Video, Disney+, Max, Apple TV+, Hulu, Paramount+ and Peacock.",
   ...pageSeo({ path: "/ott/calendar/" })
 };
 
 export default function OttCalendarPage() {
   const calendar = getOttCalendar();
   const platforms = Array.from(new Set(calendar.entries.map((entry) => entry.platform))).sort();
+  // Freshness contract, evaluated at build time: when the tracked window has already
+  // ended, say so instead of presenting an expired board as current. The daily-refresh
+  // build keeps this honest within a day even when the calendar roll itself fails -
+  // exactly the 2026-06-22..07-06 outage shape, where a June window served as live.
+  const windowEnded = new Date().toISOString().slice(0, 10) > calendar.window.end;
 
   return (
     <main className="page-shell" data-desk="streaming">
@@ -52,6 +57,13 @@ export default function OttCalendarPage() {
       >
         <DateModified value={calendar.generated_at} />
       </SectionHero>
+
+      {windowEnded && (
+        <p className="tracking-empty">
+          This tracking window ended {formatDate(calendar.window.end)}. Every date below stays verified for its own
+          window; the next calendar roll refreshes the board.
+        </p>
+      )}
 
       <OttCalendarBoard entries={calendar.entries} />
     </main>

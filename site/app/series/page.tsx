@@ -6,7 +6,7 @@ import { pageSeo } from "../../lib/seo";
 export const metadata = {
   title: "Browse Series & OTT Shows by Genre, Platform & Year",
   description:
-    "Filter and sort BollyAI verdicts on Korean drama, anime, Indian OTT and global streaming by genre, platform, country and year. Newest drops surface first.",
+    "Filter and sort BollyAI verdicts on Western series and streaming originals by genre, platform, country and year. Newest drops surface first.",
   ...pageSeo({ path: "/series/" })
 };
 
@@ -38,7 +38,7 @@ export default function SeriesIndex() {
   return (
     <main className="page-shell" data-desk="streaming">
       <section className="section-head">
-        <p className="eyebrow">Series desk · {all.length} shows · India · Korea · anime · global OTT</p>
+        <p className="eyebrow">Series desk · {all.length} shows · Hollywood · prestige TV · Western streaming</p>
         <h1>Browse Series &amp; OTT</h1>
         <p className="answer-block">
           Every web series BollyAI has read the room on, in one filterable wall. Sort by what just dropped, by BollyMeter,

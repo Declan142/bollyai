@@ -24,8 +24,8 @@ export function generateMetadata({ params }: { params: { year: string; week: str
   const page = getOttCalendarWeek(params.year, params.week);
   if (!page) return {};
   return {
-    title: `OTT Releases India ${page.week.iso_week} - Verified Calendar`,
-    description: `Verified OTT releases in India for ${formatDate(page.week.start)} to ${formatDate(
+    title: `OTT Releases ${page.week.iso_week} - Verified Streaming Calendar`,
+    description: `Verified Western streaming releases for ${formatDate(page.week.start)} to ${formatDate(
       page.week.end
     )}, with source links for every date and platform claim.`,
     ...pageSeo({ path: `/ott/calendar/${params.year}/${params.week}/` })
@@ -38,9 +38,9 @@ export default function OttCalendarArchivePage({ params }: { params: { year: str
     notFound();
   }
 
-  const answer = `${page.week.iso_week} tracks ${page.entries.length} verified OTT drop${
+  const answer = `${page.week.iso_week} tracks ${page.entries.length} verified streaming drop${
     page.entries.length === 1 ? "" : "s"
-  } in India from ${formatDate(page.week.start)} to ${formatDate(page.week.end)}.`;
+  } across the tracked platforms from ${formatDate(page.week.start)} to ${formatDate(page.week.end)}.`;
 
   return (
     <main className="page-shell" data-desk="streaming">
@@ -72,7 +72,7 @@ export default function OttCalendarArchivePage({ params }: { params: { year: str
       <section className="calendar-week" aria-labelledby={`week-${page.week.iso_week}`}>
         <div className="calendar-week__head">
           <div>
-            <p className="eyebrow">{page.week.label}</p>
+            <p className="eyebrow">{weekEyebrow(page.week)}</p>
             <h2 id={`week-${page.week.iso_week}`}>
               {formatDate(page.week.start)} to {formatDate(page.week.end)}
             </h2>
@@ -92,6 +92,16 @@ export default function OttCalendarArchivePage({ params }: { params: { year: str
       </section>
     </main>
   );
+}
+
+function weekEyebrow(week: { start: string; end: string }): string {
+  // Derived at build time. The stored week label froze whatever was true at regen time,
+  // so every archive page said "This week" forever. Labels are presentation, not facts -
+  // the stored dates stay authoritative, the wording follows the build clock.
+  const today = new Date().toISOString().slice(0, 10);
+  if (today > week.end) return "Archived week";
+  if (today < week.start) return "Upcoming week";
+  return "This week";
 }
 
 function CalendarRow({ entry }: { entry: OttCalendarEntry }) {

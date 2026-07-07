@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "BollyAI - Har Friday ka faisla",
     template: "%s | BollyAI"
   },
-  description: "BollyAI is a pan-India entertainment answer engine for verdicts, live box-office trackers, and OTT release answers.",
+  description: "BollyAI is the answer engine for Western films and series - verdicts, live box-office trackers, and verified OTT release answers.",
   openGraph: {
     siteName: "BollyAI",
     type: "website",
