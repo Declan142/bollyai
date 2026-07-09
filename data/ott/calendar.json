@@ -4,7 +4,7 @@
     "verification_rule": "official source or two distinct trade sources"
   },
   "entries": [],
-  "generated_at": "2026-07-08T07:02:31Z",
+  "generated_at": "2026-07-09T06:47:06Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -31,13 +31,35 @@
   },
   "weeks": [
     {
+      "archive_url": "/ott/calendar/2026/wk-26/",
+      "end": "2026-06-28",
+      "entry_count": 0,
+      "iso_week": "2026-W26",
+      "label": "This week",
+      "start": "2026-06-22",
+      "status": "current",
+      "week": 26,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-27/",
+      "end": "2026-07-05",
+      "entry_count": 0,
+      "iso_week": "2026-W27",
+      "label": "Coming next week",
+      "start": "2026-06-29",
+      "status": "coming",
+      "week": 27,
+      "year": 2026
+    },
+    {
       "archive_url": "/ott/calendar/2026/wk-28/",
       "end": "2026-07-12",
       "entry_count": 0,
       "iso_week": "2026-W28",
-      "label": "This week",
+      "label": "Coming next week",
       "start": "2026-07-06",
-      "status": "current",
+      "status": "coming",
       "week": 28,
       "year": 2026
     },
@@ -56,7 +78,7 @@
   "window": {
     "basis": "official_announcements",
     "end": "2026-07-19",
-    "start": "2026-07-06",
-    "weeks": 2
+    "start": "2026-06-22",
+    "weeks": 4
   }
 }
