@@ -1,4 +1,73 @@
-# BollyAI - pickup state (2026-07-07 ~16:00 IST, R2 INTEGRITY PASS - SUITE GREEN 217/217)
+# BollyAI - pickup state (2026-07-10 ~15:35 UTC, SHIP-TRAIN COMPLETE - 326 commits LIVE)
+
+## SHIP (2026-07-10, vyom3 floor) - the 07-QA-SHIP lever pulled, site is LIVE and current
+
+- **Rebased 325 backlogged local commits onto origin/main** (origin had moved 10 commits
+  since the 07-07 audit via daily-refresh/friday-surge/ott-roll crons). Collision was
+  IDENTICAL to the documented recipe (`data/_state/changed-urls.json`,
+  `data/ott/calendar.json`, `2026-W28.json`, `2026-W29.json` at commit b0a0a8c) - verified
+  origin's W28/W29 were still `entries: []` husks (generated 07-10T13:05:10Z) before taking
+  local. Clean rebase, 0 divergence after.
+- **Gates 1-5 all green**: series validator 472/472, films validator 72/72, pytest
+  217/217, dash-sweep 0 hits outside internal `data/subtitles/*/_dossiers` (677 hits there,
+  none reader-facing), build clean (6822 files, guard-western OK, guard-films OK, filecap
+  OK). 7 pre-existing minor curation warnings (universes/watch_next referencing archived
+  Korean slugs like money-heist-korea, reply-1988/94/97, sweet-home) - non-blocking,
+  cosmetic, not fixed this pass.
+- **Gate 6 design-review: 8.1/10 PASS.** Flagged 3 residual off-brand spots on the touched
+  pages (non-blocking per the gate but fixed anyway since they're exactly this ship's class
+  of defect and about to go live): Korean-drama ask placeholder ("Is The Glory worth
+  watching?") in `page.tsx` + `AskClient.tsx`, AskClient's own EXAMPLES chip array (4/6
+  entries off-brand: Indian/Korean titles), stale "Pan-India entertainment answer engine"
+  JSON-LD org description. A widened sweep also caught `AboutMasthead.tsx` still describing
+  the pre-pivot "seven desks, South-first" identity against the already-correct 2-desk
+  (Hollywood + Streaming) `lib/desks.ts`. All fixed to Western equivalents (Severance, The
+  Crown, The Last of Us - verified present in corpus). Checked and correctly LEFT ALONE:
+  `lib/data.ts` TARGET_OTT_PLATFORMS + `lib/platforms.ts` (JioHotstar/SonyLIV/ZEE5 are the
+  deliberate India-audience-access layer for Western content, per brand doc's own "audience
+  is Indian, content is Western" framing) and `data/series/house-of-the-dragon.json`
+  platform=JioHotstar (same India-distributor mapping as Succession/The Last of Us, not
+  stale - a design-review P3 finding that was a false positive). Rebuilt clean after fixes,
+  re-validated 472/472 + 72/72, committed (`b55ada4`).
+- **Pushed** (`a890b6d..b55ada4`, fast-forward, no conflicts - origin hadn't moved again).
+- **Deployed**: `npx wrangler pages deploy` via `scripts/deploy-manual.sh --execute
+  --skip-pull` (god token). 5656 files uploaded, deployment `2b986dce` -> production.
+  Post-deploy verify: all 8 sampled routes 200 (after expected trailing-slash 308s), content
+  freshness confirmed on bollyai.in after a ~20s CDN propagation lag (briefly served the
+  prior deployment's cached response - resolved on retry, not a caching bug, just normal
+  propagation delay). One residual non-reader-facing hit: `data-desk="bollywood"` HTML
+  attribute on the homepage (internal desk-routing key, never rendered as visible text) -
+  cosmetic naming debt, not a brand violation, not fixed this pass.
+- **IndexNow pinged** - 3041 URLs in one batch via `scripts/lib/indexnow_ping.py --all`.
+  **Doc correction**: CLAUDE.md/07-QA-SHIP.md reference a hash-gated, 85-URL/wave-throttled
+  `scripts/indexnow_ping.sh` - **that script does not exist in this repo.** Only the raw
+  `scripts/lib/indexnow_ping.py --all` exists, and it's what `deploy-manual.sh` and (by
+  inspection of shared env wiring) the GHA crons themselves already use - so this ship's
+  IndexNow call matches actual standing practice, not a new deviation, but the docs are
+  stale and should be fixed or the throttled wrapper actually built (Aditya's call).
+- **NOT done this pass** (queued, not urgent): the 7 dead-slug curation warnings; the
+  `data-desk="bollywood"` internal attribute naming; subtitle engine `run_batch.py` crash
+  (see below); R3 corpus-repair (2135 placeholder episode titles) - queued next.
+
+## Subtitle engine (found during this session, not yet fixed)
+
+`@reboot` batch (`scripts/subtitles/run_batch.py`) crashes: `verify_grounding.py:102`'s
+`keep()` calls `.get()` on a `payoffs` list item that is a bare string instead of a dict ->
+`AttributeError`. Not currently running (no retry loop, dies silently on reboot). Azure
+GPT-5.5 credit-drain lanes from 2026-07-02 are long since finished/exhausted (no process
+running, `.azure-env.sh` still correctly gitignored) - unrelated, no action needed there.
+
+## FOR THE FLOOR (carried + new)
+- OTT Mon/Thu cadence: confirmed wired (`ott-calendar-roll.yml`), self-refreshes now that
+  the fetch-path fix (08528e4) is live - no action needed.
+- `TMDB_API_KEY` still not in the roll workflow env (1-line add if TMDB coverage wanted on
+  rolls - your call, unchanged from 07-07).
+- R3 (placeholder titles, 2135 across 162 files, Tier-1 = 116 files w/ baked H1s) is the
+  next content wave - parallel-safe per series, dispatching to the fleet next.
+
+---
+
+
 
 ## WRAP R2 (2026-07-07 PM, genius-pass lane, Fable fork) - commits 08528e4 + 0bcadc4 (+ this wrap)
 - **Fetch-path shadowing KILLED** (08528e4): fetch_western_ott returned TMDB *instead of*
