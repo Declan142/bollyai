@@ -391,7 +391,7 @@ export function organizationJsonLd() {
     name: "BollyAI",
     url: siteUrl,
     description:
-      "Pan-India entertainment answer engine: verdicts, live box-office trackers, OTT release answers, and ending explainers.",
+      "Western entertainment answer engine: verdicts, live box-office trackers, OTT release answers, and ending explainers.",
     founder: FOUNDER,
     sameAs: ["https://x.com/aditya14"]
   };

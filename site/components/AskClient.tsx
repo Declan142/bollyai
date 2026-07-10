@@ -300,12 +300,12 @@ function answerFor(raw: string, aug: Aug[]): Answer {
 }
 
 const EXAMPLES = [
-  "Is The Glory worth watching?",
-  "Best Indian crime thriller right now",
-  "Where to watch Squid Game",
-  "Best Korean thriller",
+  "Is Severance worth watching?",
+  "Best crime thriller right now",
+  "Where to watch The Crown",
+  "Best procedural drama",
   "Best comedy series",
-  "Is Squid Game spoiler-heavy?"
+  "Is The Last of Us spoiler-heavy?"
 ];
 
 function Stars({ score }: { score: number }) {
@@ -475,7 +475,7 @@ export function AskClient() {
           value={q}
           autoFocus
           enterKeyHint="search"
-          placeholder="Is The Glory worth watching?"
+          placeholder="Is Severance worth watching?"
           aria-label="Ask BollyAI a question"
           onChange={(e) => setQ(e.target.value)}
         />

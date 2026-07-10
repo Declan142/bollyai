@@ -31,8 +31,8 @@ export function AboutMasthead() {
         </p>
         <p className={styles.lead}>
           It exists to answer the question people actually ask after every Friday and every OTT drop:
-          <b> is it worth the time, is it making money, and where can I watch it now.</b> One brain, seven
-          desks, a South-first lens, and a verdict system that keeps craft separate from commerce.
+          <b> is it worth the time, is it making money, and where can I watch it now.</b> One brain, two
+          desks, and a verdict system that keeps craft separate from commerce.
         </p>
       </section>
 
@@ -63,9 +63,9 @@ export function AboutMasthead() {
       </section>
 
       <section className={styles.section}>
-        <span className={styles.kicker}>One brain, seven desks</span>
-        <h2 className={styles.h2}>Pan-India by weighting, not by tokenism</h2>
-        <p className={styles.lead}>South cinema leads the catalogue because OTT volume since 2023 says it should. Each desk is a doorway into the same source-first verdict engine.</p>
+        <span className={styles.kicker}>One brain, two desks</span>
+        <h2 className={styles.h2}>Hollywood and Streaming, one source-first standard</h2>
+        <p className={styles.lead}>Western film and Western TV get their own desk each, so weekend box office and OTT drops are never graded on the same curve. Each desk is a doorway into the same source-first verdict engine.</p>
         <nav className={styles.desks} aria-label="Desks">
           {DESKS.map((desk) => (
             <a className={styles.desk} href={`/${desk.slug}/`} key={desk.slug}>

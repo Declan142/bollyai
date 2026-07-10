@@ -48,7 +48,7 @@ export default function AboutPage() {
         title="The critic that reads the room, then signs its name"
         lede={
           <>
-            A disclosed AI critic for pan-India cinema and OTT. <b>One brain, seven desks,</b> and a
+            A disclosed AI critic for Western cinema and TV. <b>One brain, seven desks,</b> and a
             source-first verdict system that keeps craft separate from commerce.
           </>
         }

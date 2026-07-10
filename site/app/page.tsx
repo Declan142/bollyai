@@ -82,7 +82,7 @@ export default function HomePage() {
                 className="home-ask__input"
                 type="search"
                 name="q"
-                placeholder="Is The Glory worth watching?"
+                placeholder="Is Severance worth watching?"
                 aria-label="Ask BollyAI a question"
               />
               <button className="home-ask__go" type="submit">Ask</button>
