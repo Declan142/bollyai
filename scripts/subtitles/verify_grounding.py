@@ -87,6 +87,13 @@ def verify_dossier(ep: str, d: dict, ix: EpisodeIndex) -> tuple[list[str], dict]
     def keep(items, label, check):
         kept = []
         for it in items or []:
+            if not isinstance(it, dict):
+                # Free-tier lanes occasionally emit a malformed list (e.g. a stray
+                # schema key name as a bare string) inside otherwise-valid JSON.
+                # Treat like any other grounding failure: strip + log, never crash.
+                errs.append(f"{label}: not an object ({it!r})")
+                stripped.append({label: it, "why": "not an object"})
+                continue
             problem = check(it)
             if problem:
                 errs.append(f"{label}: {problem}")
