@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """run_batch.py — full backlog orchestrator for the subtitle intelligence engine.
 
-Per series: stage SRTs -> Stage B stats -> dossier extraction (hedged free lane)
+Per series: stage SRTs -> Stage B stats -> dossier extraction (Codex bridge)
 -> G2 verify -> ONE repair round for failing episodes -> G2 verify --strip
 -> season cross-pass (consensus) -> G2 verify crosspass.
 
-Safety: data/subtitles/_engine/STOP halts between episodes; QUOTA_HALT honored;
+Safety: data/subtitles/_engine/STOP halts between episodes;
 ledger at _engine/batch-ledger.jsonl; resume-safe (skips existing dossiers).
 
 Usage: python3 run_batch.py [slug ...]      (default: all staged-able series)
@@ -21,7 +21,6 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
-import orfree
 import extract_dossier as ed
 import verify_grounding as vg
 from stage_series import SERIES_CFG, to_slug, stage_one, SUBS
@@ -45,9 +44,6 @@ def halted() -> bool:
     if STOP.exists():
         print("STOP flag present - halting gracefully", flush=True)
         return True
-    if (ENGINE / "QUOTA_HALT").exists():
-        print("QUOTA_HALT present - halting (rm to resume tomorrow)", flush=True)
-        return True
     return False
 
 
@@ -67,11 +63,12 @@ def process_series(slug: str) -> dict:
             r = ed.extract_one(slug, ep, quote_lang=quote_lang)
             if r is not None:
                 summary["extracted"] += 1
+                log({"event": "extract_ok", "slug": slug, "ep": ep,
+                     "extracted": summary["extracted"],
+                     "model": r["_meta"].get("model"),
+                     "lane_label": r["_meta"].get("lane_label"),
+                     "latency_s": r["_meta"].get("latency_s")})
                 time.sleep(2)  # gentle pacing for the free pools
-        except orfree.QuotaExhausted:
-            (ENGINE / "QUOTA_HALT").touch()
-            summary["halted"] = True
-            return summary
         except Exception as e:
             summary["failed"].append(ep)
             log({"event": "extract_fail", "slug": slug, "ep": ep, "err": str(e)[:200]})
@@ -125,7 +122,7 @@ def main() -> int:
         slugs = args
     else:
         slugs = [to_slug(d.name) for d in sorted(SUBS.iterdir()) if d.is_dir() and to_slug(d.name) != "from"]
-    log({"event": "batch_start", "slugs": slugs, "requests_today": orfree.requests_today()})
+    log({"event": "batch_start", "slugs": slugs})
     for slug in slugs:
         if halted():
             break
@@ -142,7 +139,7 @@ def main() -> int:
         log({"event": "series_done", **s})
         if s.get("halted"):
             break
-    log({"event": "batch_end", "requests_today": orfree.requests_today()})
+    log({"event": "batch_end"})
     return 0
 
 

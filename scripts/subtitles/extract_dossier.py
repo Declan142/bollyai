@@ -20,36 +20,22 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-import orfree
+from llm_bridge import coerce_json, configured_model, gpt_ask
 
 ROOT = Path.home() / "bollyai" / "data" / "subtitles"
 
 
 def _dossier_call(system, user, *, required_keys=(), ctx=""):
-    """Dispatcher for Stage-C extraction.
-    BOLLYAI_DOSSIER_BACKEND=azure -> Azure gpt-5.4 ONLY (no OpenRouter; Aditya 2026-06-16).
-    else -> the default free-OpenRouter staggered-hedge lanes (orfree).
-    Same (obj, meta) contract either way; G1 schema is enforced here, G2 grounding downstream."""
-    backend = os.environ.get("BOLLYAI_DOSSIER_BACKEND", "").strip().lower()
-    # Run-scoped hard switch: a .azure-only flag forces Azure even if the env prefix is missed
-    # (Aditya 2026-06-16 no-OpenRouter guarantee). The Sonnet loop never calls this path.
-    if not backend and (ROOT / "_engine" / ".azure-only").exists():
-        backend = "azure"
-    if backend == "azure":
-        import build_review as br
-        # gpt-5.4-nano (250 RPM) is the high-throughput Azure GPT-5.4 deployment; FULL gpt-5-4
-        # is capacity-3 and 429-storms on volume. Override via BOLLYAI_DOSSIER_AZURE_MODEL.
-        az_model = os.environ.get("BOLLYAI_DOSSIER_AZURE_MODEL", "gpt-5.4-nano").strip()
-        t0 = time.time()
-        text, rc = br.gpt_ask(system, user, model=az_model, budget=6000, timeout=600)
-        obj = orfree.coerce_json(text) if rc == 0 else None
-        if obj is None or any(k not in obj for k in required_keys):
-            missing = [k for k in required_keys if not obj or k not in obj]
-            raise RuntimeError(f"azure dossier g1_schema_fail ctx={ctx} rc={rc} missing={missing}")
-        return obj, {"engine": "azure-gpt5.4", "model": az_model,
-                     "lane_label": "azure-cog", "latency_s": round(time.time() - t0, 1)}
-    return orfree.call(system, user, lane="json", max_tokens=6000, temperature=0.2,
-                       required_keys=required_keys, ctx=ctx)
+    """Stage-C bridge call with unchanged G1 schema contract and downstream G2 gate."""
+    t0 = time.time()
+    model = configured_model()
+    text, rc = gpt_ask(system, user, model=model, budget=6000, timeout=600)
+    obj = coerce_json(text) if rc == 0 else None
+    if obj is None or any(k not in obj for k in required_keys):
+        missing = [k for k in required_keys if not obj or k not in obj]
+        raise RuntimeError(f"codex dossier g1_schema_fail ctx={ctx} rc={rc} missing={missing}")
+    return obj, {"engine": "codex-bridge", "model": model,
+                 "lane_label": "codex-gpt", "latency_s": round(time.time() - t0, 1)}
 
 SYSTEM = (
     "You are a forensic dialogue analyst for an editorial engine. You extract ONLY what "
@@ -146,7 +132,7 @@ def extract_one(slug: str, ep: str, *, force: bool = False, repair_errors: list 
         required_keys=("episode", "beats", "key_lines", "contradiction", "self_check"),
         ctx=f"dossier:{slug}:{ep}",
     )
-    obj["_meta"] = {"engine": "orfree-v1", "model": meta.get("model"),
+    obj["_meta"] = {"engine": meta.get("engine"), "model": meta.get("model"),
                     "lane_label": meta.get("lane_label"), "latency_s": meta.get("latency_s"),
                     "repair_round": bool(repair_errors)}
     out_p.write_text(json.dumps(obj, ensure_ascii=False, indent=1))
@@ -179,10 +165,6 @@ def main() -> int:
             else:
                 done += 1
                 print(f"OK   {ep}  lane={r['_meta']['lane_label']}  {r['_meta']['latency_s']}s")
-        except orfree.QuotaExhausted:
-            print("QUOTA_HALT - daily budget reached, resume tomorrow")
-            (ROOT / "_engine" / "QUOTA_HALT").touch()
-            return 3
         except Exception as e:
             failed += 1
             print(f"FAIL {ep}: {str(e)[:200]}")
