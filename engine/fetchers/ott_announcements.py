@@ -16,6 +16,7 @@ from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 try:
     import requests
@@ -74,7 +75,7 @@ def parse_date(value: str) -> date:
 
 
 def default_today() -> date:
-    return date.today()
+    return datetime.now(ZoneInfo("Asia/Kolkata")).date()
 
 
 def current_week_start(value: date | None = None) -> date:

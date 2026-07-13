@@ -22,6 +22,7 @@ from common import DATA_DIR, read_json, repo_path, stable_unique, utc_now, write
 from ott_announcements import (  # noqa: E402
     build_calendar,
     current_week_start,
+    default_today,
     load_announcements,
     normalized_platform,
     parse_date,
@@ -154,7 +155,7 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     data_dir = repo_path(args.data_dir)
-    today = parse_date(args.today) if args.today else date.today()
+    today = parse_date(args.today) if args.today else default_today()
     current_monday = current_week_start(today)
     past_weeks = max(0, args.past_weeks)
     adjusted_start = current_monday - timedelta(days=past_weeks * 7)

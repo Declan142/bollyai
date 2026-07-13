@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 const SITE = "https://bollyai.in";
 const DEFAULT_OG = "/og-default.png"; // 1200x630 branded card (public/og-default.png)
-const DEFAULT_OG_ALT = "BollyAI - Har Friday ka faisla. OTT & movie verdicts for India.";
+const DEFAULT_OG_ALT = "BollyAI - Har Friday ka faisla. Grounded Western film and TV verdicts.";
 
 function abs(p: string): string {
   if (p.startsWith("http")) return p;

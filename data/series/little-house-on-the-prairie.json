@@ -1,0 +1,69 @@
+{
+  "slug": "little-house-on-the-prairie",
+  "qid": null,
+  "title": {
+    "value": "Little House on the Prairie",
+    "source": "Netflix Tudum",
+    "fetched_at": "2026-07-13T02:09:22+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Netflix Tudum",
+    "fetched_at": "2026-07-13T02:09:22+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Netflix Tudum",
+    "fetched_at": "2026-07-13T02:09:22+05:30",
+    "confidence": "verified"
+  },
+  "status": "returning",
+  "genres": [
+    "Drama",
+    "Historical",
+    "Family",
+    "Adventure"
+  ],
+  "logline": "The Ingalls family crosses the American frontier in a new adaptation that treats Laura's childhood as both intimate family drama and a demanding survival story.",
+  "poster": {
+    "src": "/img/series/_fallback.svg",
+    "alt": "Little House on the Prairie poster",
+    "attribution": ""
+  },
+  "renewal": {
+    "state": "renewed",
+    "note": "Netflix renewed the adaptation for Season 2 before its first season arrived; the next chapter follows the Ingalls family to Walnut Grove.",
+    "source": "Netflix Tudum",
+    "source_url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 8,
+      "release_date": {
+        "value": "2026-07-09",
+        "source": "Netflix Tudum",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 1 moves the Ingalls family toward Independence, Kansas, through eight episodes built around migration, scarcity, community and Laura's changing view of her parents. Netflix frames the adaptation as family drama, frontier survival tale and an origin story of the American West, with Alice Halsey leading the ensemble as Laura. The release is still too new for BollyAI to attach a grounded score or firm watch verdict. This entry therefore stays deliberately factual while the editorial signal matures, giving readers a verified release page now without pretending that early noise is a settled consensus.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-07-13T02:09:22+05:30"
+}

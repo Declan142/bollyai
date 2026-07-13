@@ -1,185 +1,16 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-07-12T21:03:14Z",
+      "fetched": 0,
+      "mode": "no-fetch",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
   "entries": [
-    {
-      "_status": "verified",
-      "confidence": "verified",
-      "fetched_at": "2026-07-07T12:25:20+05:30",
-      "id": "film-nothing-to-lose",
-      "industry": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
-          }
-        ],
-        "value": "streaming"
-      },
-      "language": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
-          }
-        ],
-        "value": "fr"
-      },
-      "platform": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
-          }
-        ],
-        "value": "Netflix"
-      },
-      "qid": null,
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
-          }
-        ],
-        "value": "2026-07-08"
-      },
-      "section": "this_week",
-      "slug": null,
-      "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)",
-      "sources": [
-        {
-          "name": "Wikipedia",
-          "type": "press",
-          "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
-        }
-      ],
-      "title": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2026)"
-          }
-        ],
-        "value": "Nothing to Lose"
-      },
-      "type": "film",
-      "url": null,
-      "verdict_line": "FR-language film listed for Netflix on 2026-07-08.",
-      "verdict_line_basis": {
-        "kind": "calendar_facts",
-        "source_field": "calendar.platform_date_language",
-        "source_url": null
-      },
-      "verification": "official_source",
-      "week": "2026-W28"
-    },
-    {
-      "_status": "verified",
-      "confidence": "verified",
-      "fetched_at": "2026-07-07T12:25:20+05:30",
-      "id": "series-little-house-on-the-prairie",
-      "industry": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
-          }
-        ],
-        "value": "streaming"
-      },
-      "language": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
-          }
-        ],
-        "value": "en"
-      },
-      "platform": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
-          }
-        ],
-        "value": "Netflix"
-      },
-      "qid": null,
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
-          }
-        ],
-        "value": "2026-07-09"
-      },
-      "section": "this_week",
-      "slug": null,
-      "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)",
-      "sources": [
-        {
-          "name": "Wikipedia",
-          "type": "press",
-          "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
-        }
-      ],
-      "title": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Wikipedia",
-            "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
-          }
-        ],
-        "value": "Little House on the Prairie"
-      },
-      "type": "series",
-      "url": null,
-      "verdict_line": "English-language series listed for Netflix on 2026-07-09.",
-      "verdict_line_basis": {
-        "kind": "calendar_facts",
-        "source_field": "calendar.platform_date_language",
-        "source_url": null
-      },
-      "verification": "official_source",
-      "week": "2026-W28"
-    },
     {
       "_status": "verified",
       "confidence": "verified",
@@ -190,9 +21,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "streaming"
@@ -202,9 +33,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "en"
@@ -214,9 +45,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "Apple TV+"
@@ -227,22 +58,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "2026-07-15"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)",
+      "source_url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "Apple TV Press",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+          "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
         }
       ],
       "title": {
@@ -250,9 +81,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "Lucky"
@@ -278,9 +109,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "streaming"
@@ -290,9 +121,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "en"
@@ -302,9 +133,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "Netflix"
@@ -315,22 +146,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "2026-07-16"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+      "source_url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "Netflix Tudum",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+          "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
         }
       ],
       "title": {
@@ -338,9 +169,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "The Hawk"
@@ -366,9 +197,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "streaming"
@@ -378,9 +209,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "es"
@@ -390,9 +221,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "Netflix"
@@ -403,22 +234,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "2026-07-17"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+      "source_url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "About Netflix",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+          "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
         }
       ],
       "title": {
@@ -426,9 +257,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "The Map of Longing"
@@ -443,9 +274,97 @@
       },
       "verification": "official_source",
       "week": "2026-W29"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-07-13T03:14:00+05:30",
+      "id": "series-stuart-fails-to-save-the-universe",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T03:14:00+05:30",
+        "sources": [
+          {
+            "name": "HBO Max Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T03:14:00+05:30",
+        "sources": [
+          {
+            "name": "HBO Max Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T03:14:00+05:30",
+        "sources": [
+          {
+            "name": "HBO Max Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july"
+          }
+        ],
+        "value": "HBO Max"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T03:14:00+05:30",
+        "sources": [
+          {
+            "name": "HBO Max Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july"
+          }
+        ],
+        "value": "2026-07-23"
+      },
+      "section": "coming",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july",
+      "sources": [
+        {
+          "name": "HBO Max Pressroom",
+          "type": "press",
+          "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T03:14:00+05:30",
+        "sources": [
+          {
+            "name": "HBO Max Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july"
+          }
+        ],
+        "value": "Stuart Fails to Save the Universe"
+      },
+      "type": "series",
+      "url": null,
+      "verdict_line": "English-language series listed for HBO Max on 2026-07-23.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W30"
     }
   ],
-  "generated_at": "2026-07-12T07:07:16Z",
+  "generated_at": "2026-07-12T21:03:14Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -470,32 +389,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-28/",
-      "end": "2026-07-12",
-      "entry_count": 2,
-      "iso_week": "2026-W28",
-      "label": "This week",
-      "start": "2026-07-06",
-      "status": "current",
-      "week": 28,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-29/",
       "end": "2026-07-19",
       "entry_count": 3,
       "iso_week": "2026-W29",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-07-13",
-      "status": "coming",
+      "status": "current",
       "week": 29,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-30/",
+      "end": "2026-07-26",
+      "entry_count": 1,
+      "iso_week": "2026-W30",
+      "label": "Coming next week",
+      "start": "2026-07-20",
+      "status": "coming",
+      "week": 30,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-07-19",
-    "start": "2026-07-06",
+    "end": "2026-07-26",
+    "start": "2026-07-13",
     "weeks": 2
   }
 }

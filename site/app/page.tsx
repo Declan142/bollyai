@@ -1,315 +1,338 @@
 import type { Metadata } from "next";
 import { DateModified } from "../components/DateModified";
+import { JsonLd } from "../components/JsonLd";
+import { PosterImage } from "../components/PosterImage";
+import {
+  catalogueStats,
+  heroPick,
+  latestSeries,
+  latestCatalogueModified,
+  ottCalendarDeck,
+  type HeroSubject,
+  type MediaItem,
+  type OttCalItem
+} from "../lib/home";
+import { getAllWatchLists } from "../lib/recommendations";
 import { pageSeo } from "../lib/seo";
+import { getNewestEpisodeReviews } from "../lib/series";
+import styles from "./home.module.css";
 
 export const metadata: Metadata = {
-  title: { absolute: "BollyAI - Is It Worth Watching? Movie & Series Verdicts" },
-  description: "Verdicts, live box-office trackers, OTT release dates, and BollyMeter scores for Western films and series. Har Friday ka faisla.",
+  title: { absolute: "BollyAI - What Should You Watch Tonight?" },
+  description:
+    "Grounded Western film and series verdicts for viewers in India. Ask what is worth watching and choose your next great watch without fake ratings or paid hype.",
   ...pageSeo({ path: "/" })
 };
-import { OttCalendarHero } from "../components/OttCalendarHero";
-import { JsonLd } from "../components/JsonLd";
-import { MediaCard } from "../components/MediaCard";
-import { PosterImage } from "../components/PosterImage";
-import { getYearScoreboardParams } from "../lib/boxoffice";
-import { DESKS, getDesk } from "../lib/desks";
-import { formatCrore, formatDate, getAllFilms, getLatestModified, getOttCalendar, type Film } from "../lib/data";
-import { getNewestEpisodeReviews } from "../lib/series";
-import { getAllWatchLists } from "../lib/recommendations";
-import { bigThisWeek, catalogueStats, deskCounts, justDropped, ottCalendarDeck } from "../lib/home";
 
-function bestFigure(film: Film): { label: string; text: string } | null {
-  const net = film.box_office.totals.india_net_inr_cr?.value;
-  const ww = film.box_office.totals.worldwide_gross_inr_cr?.value;
-  if (ww) return { label: "WW GROSS", text: formatCrore(ww) };
-  if (net) return { label: "INDIA NETT", text: formatCrore(net) };
-  return null;
+const ASK_PROMPTS = [
+  "Best mind-bending series",
+  "Where can I watch Severance?",
+  "Best British mysteries"
+];
+
+function verdictLabel(subject: HeroSubject): string {
+  if (subject.verdictWord) return subject.verdictWord.replaceAll("-", " ");
+  if (subject.score != null) return `${subject.score.toFixed(1)} / 10`;
+  return subject.statusLine;
+}
+
+function latestSeriesSignal(item: MediaItem): string {
+  if (item.score != null) return `${item.score.toFixed(1)} / 10`;
+  if (item.seriesRung) return item.seriesRung.replaceAll("-", " ");
+  return "Verdict pending";
+}
+
+function titleInitials(title: string): string {
+  return title
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((word) => word[0])
+    .join("")
+    .toUpperCase();
+}
+
+function LatestSeriesCard({ item }: { item: MediaItem }) {
+  const releaseDate = new Date(`${item.recency}T00:00:00+05:30`);
+  const month = new Intl.DateTimeFormat("en-IN", { month: "short" }).format(releaseDate);
+  const day = new Intl.DateTimeFormat("en-IN", { day: "2-digit" }).format(releaseDate);
+
+  return (
+    <a className={styles.latestCard} href={item.href} aria-label={`${item.title}, latest season released ${item.recency}`}>
+      <span className={styles.latestDate} aria-hidden="true">
+        <strong>{day}</strong>
+        <span>{month}</span>
+      </span>
+      <span className={styles.latestBody}>
+        <span>{item.meta} · Latest season</span>
+        <strong>{item.title}</strong>
+        <small>{latestSeriesSignal(item)}</small>
+      </span>
+      <span className={styles.rowArrow} aria-hidden="true">→</span>
+    </a>
+  );
+}
+
+function ReleaseCard({ item }: { item: OttCalItem }) {
+  const label = item.upcoming ? "Coming" : "Now streaming";
+  const href = item.href ?? "/ott/calendar/";
+  const releaseDate = new Date(`${item.date}T00:00:00+05:30`);
+  const day = new Intl.DateTimeFormat("en-IN", { day: "2-digit" }).format(releaseDate);
+  const month = new Intl.DateTimeFormat("en-IN", { month: "short" }).format(releaseDate);
+  const year = new Intl.DateTimeFormat("en-IN", { year: "numeric" }).format(releaseDate);
+
+  return (
+    <a className={styles.releaseCard} href={href} aria-label={`${item.title}, ${label}`}>
+      <span className={styles.releaseDate} aria-hidden="true">
+        <strong>{day}</strong>
+        <span>{month}</span>
+        <small>{year}</small>
+      </span>
+      <span className={styles.releaseBody}>
+        <span className={styles.releaseMeta}>{label} · {item.kind}</span>
+        <strong>{item.title}</strong>
+        <span className={styles.releasePlatform}>{item.platform}</span>
+        <span className={styles.releaseSignal}>{item.score != null ? `${item.score.toFixed(1)} / 10` : "Verified date"}</span>
+      </span>
+      <span className={styles.releaseArrow} aria-hidden="true">→</span>
+    </a>
+  );
 }
 
 export default function HomePage() {
-  const films = getAllFilms();
-  const ottItems = ottCalendarDeck(12);
-  const latestModified = getLatestModified();
   const stats = catalogueStats();
-
-  const drops = justDropped(16);
-  const trending = bigThisWeek(14);
-  const counts = deskCounts();
-
-  const board = [...films]
-    .filter((film) => film.box_office.totals.worldwide_gross_inr_cr?.value)
-    .sort(
-      (a, b) =>
-        (b.box_office.totals.worldwide_gross_inr_cr?.value?.high ?? 0) -
-        (a.box_office.totals.worldwide_gross_inr_cr?.value?.high ?? 0)
-    )
-    .slice(0, 5);
-  const boardMax = board[0]?.box_office.totals.worldwide_gross_inr_cr?.value?.high ?? 1;
-
-  const ticker = films
-    .map((film) => ({ film, fig: bestFigure(film) }))
-    .filter((item) => item.fig)
-    .slice(0, 12);
-
-  const ott = getOttCalendar()
-    .entries.filter((entry) => entry.release_date >= "2026-06-01")
-    .slice(0, 8);
-
-  const episodeReviews = getNewestEpisodeReviews(10);
-  const watchLists = getAllWatchLists().slice(0, 6);
-  const yearScoreboards = getYearScoreboardParams();
-
-  // Desk quick-nav: collapse the five cinema desks + Streaming into a scannable strip.
-  const deskNav = DESKS.map((desk) => ({ ...desk, count: counts[desk.slug] ?? 0 }));
+  const spotlight = heroPick();
+  const newestSeries = latestSeries(8);
+  const releases = ottCalendarDeck(4);
+  const episodeReviews = getNewestEpisodeReviews(4);
+  const watchLists = getAllWatchLists().slice(0, 4);
+  const latestModified = latestCatalogueModified();
 
   return (
-    <main className="page-shell home-hub" data-desk="bollywood">
-      {ottItems.length > 0 && <OttCalendarHero items={ottItems} />}
+    <main className={styles.home}>
+      <section className={styles.hero} aria-labelledby="home-title">
+        <div className={styles.heroScrim} aria-hidden="true" />
 
-      <section className="home-ask full-bleed" aria-label="Ask BollyAI">
-        <div className="home-ask__inner">
-          <div className="home-ask__copy">
-            <p className="home-ask__eyebrow">The answer engine</p>
-            <h2 className="home-ask__title">Ask BollyAI anything</h2>
-            <p className="home-ask__sub">
-              Is it worth watching? The best in a genre? Where it streams? One question, a grounded verdict - never an invented score.
+        <div className={styles.heroInner}>
+          <div className={styles.heroCopy}>
+            <p className={styles.eyebrow}>Western film and TV, decoded for India</p>
+            <h1 id="home-title">
+              Know what deserves <span>your night.</span>
+            </h1>
+            <p className={styles.heroLede}>
+              Ask one real question. Get one clear verdict assembled from published criticism, audience response, and
+              source-checked release data. No paid hype. No invented score.
             </p>
-          </div>
-          <div className="home-ask__field">
-            <form className="home-ask__bar" action="/ask/" method="get" role="search">
-              <span className="home-ask__spark" aria-hidden="true">◆</span>
+
+            <form className={styles.askBar} action="/ask/" method="get" role="search">
+              <span className={styles.askMark} aria-hidden="true">✦</span>
               <input
-                className="home-ask__input"
                 type="search"
                 name="q"
-                placeholder="Is Severance worth watching?"
-                aria-label="Ask BollyAI a question"
+                placeholder="Is Severance worth my time?"
+                aria-label="Ask BollyAI what to watch"
               />
-              <button className="home-ask__go" type="submit">Ask</button>
+              <button type="submit">Get the verdict</button>
             </form>
-            <div className="home-ask__examples">
-              {["Best crime thriller right now", "Where to watch The Crown", "Is Severance spoiler-heavy?"].map((q) => (
-                <a className="home-ask__chip" href={`/ask/?q=${encodeURIComponent(q)}`} key={q}>
-                  {q}
+
+            <div className={styles.askPrompts} aria-label="Popular questions">
+              {ASK_PROMPTS.map((prompt) => (
+                <a href={`/ask/?q=${encodeURIComponent(prompt)}`} key={prompt}>
+                  {prompt}
                 </a>
               ))}
             </div>
+
+            <dl className={styles.proof}>
+              <div>
+                <dt>Grounded title pages</dt>
+                <dd>{stats.total}</dd>
+              </div>
+              <div>
+                <dt>Editorial model</dt>
+                <dd>Disclosed AI</dd>
+              </div>
+              <div>
+                <dt>Invented ratings</dt>
+                <dd>Zero</dd>
+              </div>
+            </dl>
           </div>
-        </div>
-      </section>
 
-      <section className="ticker full-bleed" aria-label="Trade ticker">
-        <div className="ticker__track">
-          {[0, 1].map((copy) => (
-            <span className="ticker__group" aria-hidden={copy === 1} key={copy}>
-              {ticker.map(({ film, fig }) => (
-                <a href={`/${film.canonical_industry}/box-office/${film.slug}/`} key={`${copy}-${film.slug}`}>
-                  <strong>{film.title.value.toUpperCase()}</strong> {fig!.text.toUpperCase()} {fig!.label}
-                  <span className="ticker__sep">◆</span>
-                </a>
-              ))}
-            </span>
-          ))}
-        </div>
-      </section>
-
-      <section className="hub-block">
-        <header className="home-section-head home-section-head--rail">
-          <div>
-            <span className="eyebrow">Films &amp; series · one feed</span>
-            <h2>Just Dropped</h2>
-            <p>The newest titles to land, theatrical and OTT side by side. BollyAI reads the room the moment it forms.</p>
-          </div>
-          <a className="home-section-head__more" href="/series/">
-            Browse all →
-          </a>
-        </header>
-        <div className="media-rail full-bleed">
-          {drops.map((item) => (
-            <MediaCard item={item} key={`drop-${item.kind}-${item.slug}`} />
-          ))}
-        </div>
-      </section>
-
-      <section className="desk-nav" aria-label="BollyAI desks">
-        {deskNav.map((desk) => (
-          <a className="desk-nav__tile" href={`/${desk.slug}/`} data-desk={desk.slug} key={desk.slug}>
-            <span className="desk-nav__name">{desk.label}</span>
-            <span className="desk-nav__count">{desk.count} titles</span>
-          </a>
-        ))}
-      </section>
-
-      <section className="hub-block">
-        <header className="home-section-head home-section-head--rail">
-          <div>
-            <span className="eyebrow">High signal · this week</span>
-            <h2>Big This Week</h2>
-            <p>The theatrical runs in cinemas now and the highest-scored drops of the season, mixed. Order is real box office and real BollyMeter, never hype.</p>
-          </div>
-          <a className="home-section-head__more" href="/box-office/">
-            Box-office boards →
-          </a>
-        </header>
-        <div className="media-rail full-bleed">
-          {trending.map((item) => (
-            <MediaCard item={item} key={`trend-${item.kind}-${item.slug}`} />
-          ))}
-        </div>
-      </section>
-
-      <section className="board-split">
-        <div className="big-board">
-          <header className="home-section-head">
-            <h2>Box Office Now</h2>
-            <p>2026 worldwide gross, pair-verified. The whole year on one wall.</p>
-          </header>
-          <ol>
-            {board.map((film, index) => {
-              const ww = film.box_office.totals.worldwide_gross_inr_cr!.value!;
-              const width = Math.max(8, Math.round((ww.high / boardMax) * 100));
-              return (
-                <li key={film.slug} data-desk={film.canonical_industry}>
-                  <a href={`/${film.canonical_industry}/box-office/${film.slug}/`}>
-                    <span className="big-board__rank">{index + 1}</span>
-                    <span className="big-board__body">
-                      <strong>{film.title.value}</strong>
-                      <span className="big-board__bar" style={{ width: `${width}%` }} />
-                    </span>
-                    <span className="big-board__money">{formatCrore(ww)}</span>
-                  </a>
-                </li>
-              );
-            })}
-          </ol>
-        </div>
-        <aside className="ott-rail" aria-label="Streaming this week">
-          <header className="home-section-head">
-            <h2>OTT This Week</h2>
-            <p>Confirmed drops, attributed announcements.</p>
-          </header>
-          {ott.length > 0 ? (
-            <ul>
-              {ott.map((entry) => (
-                <li key={`${entry.title}-${entry.platform}`} data-desk={entry.industry}>
-                  <time dateTime={entry.release_date}>{formatDate(entry.release_date)}</time>
-                  <span className="ott-rail__title">
-                    {entry.slug ? <a href={`/${entry.industry}/box-office/${entry.slug}/`}>{entry.title}</a> : entry.title}
+          {spotlight && (
+            <a className={styles.spotlight} href={spotlight.href} data-desk={spotlight.desk}>
+              <span className={styles.spotlightArt}>
+                <PosterImage
+                  src={spotlight.poster.src}
+                  alt={spotlight.poster.alt}
+                  width="420"
+                  height="630"
+                  loading="eager"
+                  fetchPriority="high"
+                  avifSrcSet={spotlight.poster.variants?.avifSrcSet}
+                  webpSrcSet={spotlight.poster.variants?.webpSrcSet}
+                  sizes="(max-width: 760px) 112px, 330px"
+                />
+                {spotlight.score != null && (
+                  <span className={styles.spotlightScore}>
+                    {spotlight.score.toFixed(1)} <small>/ 10</small>
                   </span>
-                  <span className="pill">{entry.platform}</span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <div className="empty-state">
-              <span className="empty-state__title">Calendar between drops</span>
-              <p className="empty-state__note">No confirmed OTT releases in this window yet. The full calendar tracks every announced date.</p>
-            </div>
+                )}
+              </span>
+              <span className={styles.spotlightBody}>
+                <span className={styles.spotlightKicker}>Tonight&apos;s spotlight</span>
+                <strong>{spotlight.title}</strong>
+                <span className={styles.spotlightVerdict}>{verdictLabel(spotlight)}</span>
+                <span className={styles.spotlightBasis}>{spotlight.basis ?? spotlight.statusLine}</span>
+                <span className={styles.spotlightLink}>Read the grounded verdict <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
           )}
-          <a className="ott-rail__more" href="/ott/calendar/">
-            Full OTT calendar →
-          </a>
-        </aside>
+        </div>
       </section>
 
-      {episodeReviews.length > 0 && (
-        <section className="hub-block" data-desk="streaming">
-          <header className="home-section-head">
-            <h2>Naye Episode Reviews</h2>
-            <p>Standout hours from across the catalogue, freshest first. Premieres, finales, and the turning-point episodes critics argue about.</p>
+      {newestSeries.length > 0 && (
+        <section className={styles.section} aria-labelledby="latest-series">
+          <header className={styles.sectionHead}>
+            <div>
+              <p className={styles.eyebrow}>Current releases, no legacy filler</p>
+              <h2 id="latest-series">Latest series, first</h2>
+            </div>
+            <p>
+              Newest season premieres lead this rail. An older title only returns when a fresh season lands.
+              <a className={styles.inlineLink} href="/series/"> All series →</a>
+            </p>
           </header>
-          <div className="ep-review-rail">
-            {episodeReviews.map((card) => {
-              const ep = card.episode;
-              const badge = `S${String(card.season_number).padStart(2, "0")}E${String(ep.number).padStart(2, "0")}`;
-              return (
-                <a
-                  className="ep-review-card"
-                  data-desk={card.canonical_industry}
-                  href={`/series/${card.slug}/`}
-                  key={`epr-${card.slug}-s${card.season_number}e${ep.number}`}
-                >
-                  <PosterImage
-                    src={card.poster.src}
-                    alt={card.poster.alt}
-                    width="210"
-                    height="200"
-                    loading="lazy"
-                    avifSrcSet={card.poster.variants?.avifSrcSet}
-                    webpSrcSet={card.poster.variants?.webpSrcSet}
-                  />
-                  <div className="ep-review-card__plate">
-                    <span className="ep-review-card__badge">{badge}</span>
-                    <span className="ep-review-card__ep-title">{ep.title}</span>
-                    <span className="ep-review-card__series">{card.title}</span>
-                    {ep.spoiler_free && <p className="ep-review-card__hook">{ep.spoiler_free}</p>}
-                  </div>
-                </a>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {watchLists.length > 0 && (
-        <section className="hub-block">
-          <header className="home-section-head">
-            <h2>What to Watch</h2>
-            <p>Curated for a mood, a platform, or a weekend - not a star-rating dump. Hollywood, prestige TV, Western streaming.</p>
-          </header>
-          <div className="watch-rail full-bleed">
-            {watchLists.map((list) => (
-              <a className="watch-rail__card" data-desk="streaming" href={`/watch/${list.slug}/`} key={list.slug}>
-                <span className="watch-rail__kicker">{list.kicker}</span>
-                <strong>{list.title}</strong>
-                <span className="watch-rail__count">{list.picks.length} picks →</span>
-              </a>
+          <div className={styles.latestGrid}>
+            {newestSeries.map((item) => (
+              <LatestSeriesCard item={item} key={item.slug} />
             ))}
           </div>
-          <a className="ott-rail__more" href="/watch/">
-            All watch lists →
-          </a>
         </section>
       )}
 
-      <section className="hub-block">
-        <header className="home-section-head">
-          <h2>2026 Yearboards</h2>
-          <p>Seven desk scoreboards, ranked by verified India nett when the two-source rule clears.</p>
-        </header>
-        <div className="bo-link-grid">
-          {yearScoreboards.map((scoreboard) => {
-            const desk = getDesk(scoreboard.industry);
-            return (
-              <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
-                <span className="eyebrow">{desk?.industryName ?? "Industry"}</span>
-                <strong>
-                  {desk?.label ?? scoreboard.industry} {scoreboard.year}
-                </strong>
-                <span>Open the {scoreboard.year} board →</span>
-              </a>
-            );
-          })}
+      {releases.length > 0 && (
+        <section className={styles.section} aria-labelledby="new-and-next">
+          <header className={styles.sectionHead}>
+            <div>
+              <p className={styles.eyebrow}>Verified release dates</p>
+              <h2 id="new-and-next">New and next</h2>
+            </div>
+            <p>
+              What just landed and what is coming across major platforms. Every announced date keeps its source trail.
+              <a className={styles.inlineLink} href="/ott/calendar/"> Full calendar →</a>
+            </p>
+          </header>
+          <div className={styles.releaseGrid}>
+            {releases.map((item) => (
+              <ReleaseCard item={item} key={`${item.kind}-${item.title}-${item.date}`} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {(episodeReviews.length > 0 || watchLists.length > 0) && (
+        <section className={`${styles.section} ${styles.discovery}`} aria-label="Explore BollyAI">
+          {episodeReviews.length > 0 && (
+            <div className={styles.deepReads}>
+              <header className={styles.compactHead}>
+                <p className={styles.eyebrow}>Fresh from the reading room</p>
+                <h2>Go deeper</h2>
+                <a href="/series/">All series →</a>
+              </header>
+              <div className={styles.episodeList}>
+                {episodeReviews.map((card) => {
+                  const episode = card.episode;
+                  const badge = `S${String(card.season_number).padStart(2, "0")}E${String(episode.number).padStart(2, "0")}`;
+                  const posterless = !card.poster.src || card.poster.src.includes("_fallback");
+                  return (
+                    <a
+                      className={styles.episodeCard}
+                      href={`/series/${card.slug}/s${card.season_number}/e${episode.number}/`}
+                      key={`${card.slug}-${badge}`}
+                    >
+                      <span className={styles.episodeArt}>
+                        {posterless ? (
+                          <span className={styles.episodeFallback} aria-hidden="true">{titleInitials(card.title)}</span>
+                        ) : (
+                          <PosterImage
+                            src={card.poster.src}
+                            alt=""
+                            width="120"
+                            height="120"
+                            loading="lazy"
+                            avifSrcSet={card.poster.variants?.avifSrcSet}
+                            webpSrcSet={card.poster.variants?.webpSrcSet}
+                            sizes="84px"
+                          />
+                        )}
+                      </span>
+                      <span className={styles.episodeBody}>
+                        <span className={styles.episodeMeta}>{badge} · {card.title}</span>
+                        <strong>{episode.title}</strong>
+                        {episode.spoiler_free && <span>{episode.spoiler_free}</span>}
+                      </span>
+                      <span className={styles.rowArrow} aria-hidden="true">→</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {watchLists.length > 0 && (
+            <aside className={styles.watchLists} aria-labelledby="pick-a-mood">
+              <header className={styles.compactHead}>
+                <p className={styles.eyebrow}>Curated, not infinite</p>
+                <h2 id="pick-a-mood">Pick a mood</h2>
+                <a href="/watch/">All collections →</a>
+              </header>
+              <div className={styles.watchGrid}>
+                {watchLists.map((list) => (
+                  <a className={styles.watchCard} href={`/watch/${list.slug}/`} key={list.slug}>
+                    <span>{list.kicker}</span>
+                    <strong>{list.title}</strong>
+                    <small>{list.picks.length} considered picks</small>
+                  </a>
+                ))}
+              </div>
+            </aside>
+          )}
+        </section>
+      )}
+
+      <section className={styles.trust} aria-labelledby="trust-title">
+        <div className={styles.trustInner}>
+          <div className={styles.trustCopy}>
+            <p className={styles.eyebrow}>The honesty contract</p>
+            <h2 id="trust-title">BollyAI has not watched anything.</h2>
+            <p>
+              It has read everyone who has, then separated consensus from noise. Every score needs a basis, every number needs a source,
+              and a missing answer stays missing.
+            </p>
+            <div className={styles.trustActions}>
+              <a className={styles.primaryAction} href="/how-bollyai-works/">See how verdicts work</a>
+              <a className={styles.secondaryAction} href="/series/diary/">Build your watch diary</a>
+            </div>
+          </div>
+          <ul className={styles.principles}>
+            <li><span>01</span><strong>Citations over vibes</strong><small>Published evidence stays attached to the answer.</small></li>
+            <li><span>02</span><strong>Scores need a basis</strong><small>No grounded reception means no BollyMeter.</small></li>
+            <li><span>03</span><strong>Gaps stay honest</strong><small>Unknown is better than a confident invention.</small></li>
+          </ul>
         </div>
       </section>
 
-      <section className="desk-strip" aria-label="BollyAI desks in depth">
-        {DESKS.map((desk) => (
-          <a className="desk-tile" href={`/${desk.slug}/`} data-desk={desk.slug} key={desk.slug}>
-            <strong>{desk.label}</strong>
-            <span>{desk.answer}</span>
-          </a>
-        ))}
-      </section>
-
-      <DateModified value={latestModified} />
+      <div className={styles.modified}>
+        <DateModified value={latestModified} />
+      </div>
 
       <JsonLd
         data={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: "BollyAI - Western cinema and OTT verdicts",
-          description: `Live verdicts and BollyMeter scores across ${stats.series} series and ${stats.films} films.`,
+          name: "BollyAI - grounded Western film and TV verdicts",
+          description: `Grounded verdicts across ${stats.series} series and ${stats.films} films, with verified release dates and no invented ratings.`,
           url: "https://bollyai.in/"
         }}
       />

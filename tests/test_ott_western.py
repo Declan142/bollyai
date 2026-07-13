@@ -7,6 +7,8 @@ entries shipped a fabricated platform "Streaming". These tests lock both fixes.
 """
 
 from pathlib import Path
+from datetime import date
+import json
 import sys
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -15,6 +17,19 @@ sys.path.insert(0, str(REPO_ROOT / "engine"))
 
 from ott_western import resolve_tmdb_platform, wikidata_ott_query  # noqa: E402
 from regen_ott_weekly import merge_announcement_entries  # noqa: E402
+
+
+def test_weekly_regen_uses_india_today_default(monkeypatch, capsys):
+    import regen_ott_weekly as regen
+
+    monkeypatch.setattr(regen, "default_today", lambda: date(2026, 7, 13))
+    monkeypatch.setattr(regen, "load_announcements", lambda **kwargs: [])
+    monkeypatch.setattr(regen, "load_films", lambda data_dir: [])
+    monkeypatch.setattr(regen, "load_series", lambda data_dir: [])
+
+    assert regen.main(["--dry-run", "--weeks", "2"]) == 0
+    result = json.loads(capsys.readouterr().out)
+    assert result["week_start"] == "2026-07-13"
 
 
 def test_wikidata_query_targets_broadcaster_not_tmdb_id():

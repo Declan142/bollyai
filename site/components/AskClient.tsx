@@ -43,16 +43,14 @@ const FILLER = new Set([
 
 // region word -> { country match, language codes }
 const REGIONS: { keys: string[]; country?: string; langs?: string[]; label: string }[] = [
-  { keys: ["indian", "india", "desi", "bollywood"], country: "India", langs: ["hi", "ta", "te", "ml", "kn", "bn", "mr", "pa"], label: "Indian" },
-  { keys: ["korean", "korea", "kdrama", "k-drama"], country: "South Korea", langs: ["ko"], label: "Korean" },
-  { keys: ["japanese", "japan", "anime"], country: "Japan", langs: ["ja"], label: "Japanese" },
-  { keys: ["british", "britain", "uk", "english"], country: "United Kingdom", label: "British" },
+  { keys: ["british", "britain", "uk"], country: "United Kingdom", label: "British" },
   { keys: ["american", "america", "us", "hollywood"], country: "United States", label: "American" },
   { keys: ["spanish", "spain"], country: "Spain", langs: ["es"], label: "Spanish" },
-  { keys: ["hindi"], langs: ["hi"], label: "Hindi" },
-  { keys: ["tamil"], langs: ["ta"], label: "Tamil" },
-  { keys: ["telugu"], langs: ["te"], label: "Telugu" },
-  { keys: ["malayalam"], langs: ["ml"], label: "Malayalam" }
+  { keys: ["french", "france"], country: "France", langs: ["fr"], label: "French" },
+  { keys: ["german", "germany"], country: "Germany", langs: ["de"], label: "German" },
+  { keys: ["italian", "italy"], country: "Italy", langs: ["it"], label: "Italian" },
+  { keys: ["canadian", "canada"], country: "Canada", label: "Canadian" },
+  { keys: ["australian", "australia"], country: "Australia", label: "Australian" }
 ];
 
 // genre word / synonym -> canonical token tested against record.g (case-insensitive)
@@ -320,7 +318,7 @@ function Stars({ score }: { score: number }) {
 function VerdictCard({ rec, where }: { rec: Rec; where?: boolean }) {
   const meta = [rec.o, rec.g.slice(0, 2).join(" · ")].filter(Boolean).join("  ·  ");
   return (
-    <article className="ask-answer" data-desk={rec.k === "Series" ? "streaming" : "bollywood"}>
+    <article className="ask-answer" data-desk={rec.k === "Series" ? "streaming" : "hollywood"}>
       <header className="ask-answer__head">
         <div>
           <span className="ask-answer__kind">{rec.k}{rec.y ? ` · ${rec.y}` : ""}</span>

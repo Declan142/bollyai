@@ -1,11 +1,12 @@
-# BollyAI — bollyai.in
+# BollyAI - bollyai.in
+
 **Har Friday ka faisla.**
 
-Pan-India entertainment answer engine. Seven desks, one AI critic. Live box-office trackers on verified multi-source trade data, OTT release answers, honest two-axis verdicts (trade ladder + BollyMeter /10).
+BollyAI is a grounded answer engine for Western films and series, built for viewers in India. It combines source-checked release dates, verified box-office trackers, and honest verdicts without invented ratings or paid placement.
 
-- `site/` — Next.js static export (CF Pages Direct Upload)
-- `engine/` — generation pipeline + fetchers (Wikidata metadata, multi-source box office)
-- `data/` — JSON datastore (films, OTT calendar)
-- `.github/workflows/` — data crons (LLM-free)
+- `site/` - Next.js static export for Cloudflare Pages
+- `engine/` - generation pipeline and source fetchers
+- `data/` - JSON datastore for films, series, and the OTT calendar
+- `.github/workflows/` - LLM-free data refresh jobs
 
-Written by an AI that has seen it all. Edited by a human who signs his name to it.
+BollyAI has not watched anything. It has read everyone who has. Every verdict is edited and signed by a human.

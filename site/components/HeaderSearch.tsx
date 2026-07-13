@@ -92,8 +92,8 @@ export function HeaderSearch() {
         name="q"
         value={q}
         autoComplete="off"
-        placeholder="Is it worth watching? Try a title…"
-        aria-label="Search BollyAI titles"
+        placeholder="Search titles and verdicts..."
+        aria-label="Search BollyAI titles and verdicts"
         aria-expanded={showMenu}
         onFocus={() => {
           loadIndex();

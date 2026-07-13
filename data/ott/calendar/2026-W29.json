@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-07-12T21:03:14Z",
+      "fetched": 0,
+      "mode": "no-fetch",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -14,9 +21,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "streaming"
@@ -26,9 +33,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "en"
@@ -38,9 +45,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "Apple TV+"
@@ -51,22 +58,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "2026-07-15"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)",
+      "source_url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "Apple TV Press",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+          "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
         }
       ],
       "title": {
@@ -74,9 +81,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Apple TV Press",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)"
+            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
           }
         ],
         "value": "Lucky"
@@ -102,9 +109,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "streaming"
@@ -114,9 +121,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "en"
@@ -126,9 +133,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "Netflix"
@@ -139,22 +146,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "2026-07-16"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+      "source_url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "Netflix Tudum",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+          "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
         }
       ],
       "title": {
@@ -162,9 +169,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
           }
         ],
         "value": "The Hawk"
@@ -190,9 +197,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "streaming"
@@ -202,9 +209,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "es"
@@ -214,9 +221,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "Netflix"
@@ -227,22 +234,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "2026-07-17"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+      "source_url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "About Netflix",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+          "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
         }
       ],
       "title": {
@@ -250,9 +257,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "About Netflix",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming"
+            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
           }
         ],
         "value": "The Map of Longing"
@@ -269,16 +276,16 @@
       "week": "2026-W29"
     }
   ],
-  "generated_at": "2026-07-12T07:07:16Z",
+  "generated_at": "2026-07-12T21:03:14Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-29/",
     "end": "2026-07-19",
     "entry_count": 3,
     "iso_week": "2026-W29",
-    "label": "Coming next week",
+    "label": "This week",
     "start": "2026-07-13",
-    "status": "coming",
+    "status": "current",
     "week": 29,
     "year": 2026
   }

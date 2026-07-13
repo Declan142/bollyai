@@ -95,6 +95,94 @@
     {
       "_status": "verified",
       "confidence": "verified",
+      "fetched_at": "2026-07-13T02:09:22+05:30",
+      "id": "series-the-man-will-burn",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "sources": [
+          {
+            "name": "HBO Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "sources": [
+          {
+            "name": "HBO Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "sources": [
+          {
+            "name": "HBO Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+          }
+        ],
+        "value": "HBO Max"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "sources": [
+          {
+            "name": "HBO Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+          }
+        ],
+        "value": "2026-07-09"
+      },
+      "section": "this_week",
+      "slug": "the-man-will-burn",
+      "source_type": "press",
+      "source_url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9",
+      "sources": [
+        {
+          "name": "HBO Pressroom",
+          "type": "press",
+          "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "sources": [
+          {
+            "name": "HBO Pressroom",
+            "type": "press",
+            "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+          }
+        ],
+        "value": "The Man Will Burn"
+      },
+      "type": "series",
+      "url": "/series/the-man-will-burn/",
+      "verdict_line": "Four-part HBO documentary series released weekly from 2026-07-09.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9"
+      },
+      "verification": "official_source",
+      "week": "2026-W28"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
       "fetched_at": "2026-07-07T12:25:20+05:30",
       "id": "series-little-house-on-the-prairie",
       "industry": {
@@ -102,9 +190,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+            "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
           }
         ],
         "value": "streaming"
@@ -114,9 +202,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+            "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
           }
         ],
         "value": "en"
@@ -126,9 +214,9 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+            "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
           }
         ],
         "value": "Netflix"
@@ -139,22 +227,22 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+            "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
           }
         ],
         "value": "2026-07-09"
       },
       "section": "this_week",
-      "slug": null,
+      "slug": "little-house-on-the-prairie",
       "source_type": "press",
-      "source_url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)",
+      "source_url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news",
       "sources": [
         {
-          "name": "Wikipedia",
+          "name": "Netflix Tudum",
           "type": "press",
-          "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+          "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
         }
       ],
       "title": {
@@ -162,15 +250,15 @@
         "fetched_at": "2026-07-07T12:25:20+05:30",
         "sources": [
           {
-            "name": "Wikipedia",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)"
+            "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news"
           }
         ],
         "value": "Little House on the Prairie"
       },
       "type": "series",
-      "url": null,
+      "url": "/series/little-house-on-the-prairie/",
       "verdict_line": "English-language series listed for Netflix on 2026-07-09.",
       "verdict_line_basis": {
         "kind": "calendar_facts",
@@ -181,12 +269,12 @@
       "week": "2026-W28"
     }
   ],
-  "generated_at": "2026-07-12T07:07:16Z",
+  "generated_at": "2026-07-12T20:39:22Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-28/",
     "end": "2026-07-12",
-    "entry_count": 2,
+    "entry_count": 3,
     "iso_week": "2026-W28",
     "label": "This week",
     "start": "2026-07-06",

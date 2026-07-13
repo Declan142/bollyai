@@ -145,11 +145,33 @@
         }
       ],
       "season_over_season": null
+    },
+    {
+      "number": 2,
+      "year": 2026,
+      "episodes": 7,
+      "release_date": {
+        "value": "2026-06-25",
+        "source": "Netflix Tudum",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 2 takes Aang, Katara and Sokka deeper into the Earth Kingdom and introduces Toph as Aang's earthbending teacher. The seven-episode run widens the live-action world through Ba Sing Se, new practical sets and a darker middle chapter designed to feed directly into the already filmed final season. The release is current, but BollyAI is not carrying Season 1's 6.2 score forward or presenting that older verdict as a judgment on Season 2. Until a fresh reception basis is recorded, the current season remains unscored and its verdict stays open.",
+      "episode_reviews": [],
+      "season_over_season": "Season 2 moves beyond the first season's setup into the Earth Kingdom, with Toph and Ba Sing Se changing the group's scale and dynamic."
     }
   ],
   "_quarantine": [
     "poster: no originalimage on Wikipedia REST for the 2024 Netflix series page; fallback set",
     "qid: Q109608844 is the parent series QID derived from Season 1 Wikidata entry (Q124633659) 'part of the series' property"
   ],
-  "date_modified": "2026-06-08T06:00:00+05:30"
+  "date_modified": "2026-07-13T02:09:22+05:30"
 }

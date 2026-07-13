@@ -6,9 +6,9 @@ import { getAllWatchLists } from "../../lib/recommendations";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata = {
-  title: "What to Watch - Curated Streaming Picks for India",
+  title: "What to Watch - Curated Western Streaming Picks",
   description:
-    "Curated watch lists across Indian cinema, OTT, and Korean drama. What is actually worth a weekend, where it streams, and why - BollyAI reads the room so you don't gamble the night.",
+    "Curated watchlists across Western film and TV. What is worth a weekend, where it streams, and why - grounded picks without an infinite scroll.",
   ...pageSeo({ path: "/watch/" })
 };
 
@@ -24,7 +24,7 @@ export default function WatchIndex() {
         ])}
       />
       <SectionHero
-        eyebrow="Recommendations · theatres · OTT · K-drama"
+        eyebrow="Western film · series · streaming"
         title="What to Watch"
         lede={
           <>

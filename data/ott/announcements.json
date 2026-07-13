@@ -3,7 +3,7 @@
     "id": "series-every-year-after",
     "qid": null,
     "title": "Every Year After",
-    "slug": null,
+    "slug": "every-year-after",
     "industry": "streaming",
     "language": "en",
     "type": "series",
@@ -22,7 +22,7 @@
     "id": "series-sweet-magnolias-s5",
     "qid": null,
     "title": "Sweet Magnolias Season 5",
-    "slug": null,
+    "slug": "sweet-magnolias-season-5",
     "industry": "streaming",
     "language": "en",
     "type": "series",
@@ -65,7 +65,7 @@
     "id": "series-i-will-find-you",
     "qid": null,
     "title": "I Will Find You",
-    "slug": null,
+    "slug": "i-will-find-you",
     "industry": "streaming",
     "language": "en",
     "type": "series",
@@ -121,10 +121,31 @@
     "verdict_line": null
   },
   {
+    "id": "series-the-man-will-burn",
+    "qid": null,
+    "title": "The Man Will Burn",
+    "slug": "the-man-will-burn",
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "HBO Max",
+    "date": "2026-07-09",
+    "fetched_at": "2026-07-13T02:09:22+05:30",
+    "sources": [
+      {
+        "name": "HBO Pressroom",
+        "url": "https://press.wbd.com/us/media-release/hbo-original-documentary-series-man-will-burn-debuts-july-9",
+        "type": "press"
+      }
+    ],
+    "url": "/series/the-man-will-burn/",
+    "verdict_line": null
+  },
+  {
     "id": "series-little-house-on-the-prairie",
     "qid": null,
     "title": "Little House on the Prairie",
-    "slug": null,
+    "slug": "little-house-on-the-prairie",
     "industry": "streaming",
     "language": "en",
     "type": "series",
@@ -133,12 +154,12 @@
     "fetched_at": "2026-07-07T12:25:20+05:30",
     "sources": [
       {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie_(2026_TV_series)",
+        "name": "Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/little-house-on-the-prairie-cast-release-date-news",
         "type": "press"
       }
     ],
-    "url": null,
+    "url": "/series/little-house-on-the-prairie/",
     "verdict_line": null
   },
   {
@@ -154,8 +175,8 @@
     "fetched_at": "2026-07-07T12:25:20+05:30",
     "sources": [
       {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Lucky_(miniseries)",
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/",
         "type": "press"
       }
     ],
@@ -175,8 +196,8 @@
     "fetched_at": "2026-07-07T12:25:20+05:30",
     "sources": [
       {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+        "name": "Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news",
         "type": "press"
       }
     ],
@@ -196,8 +217,29 @@
     "fetched_at": "2026-07-07T12:25:20+05:30",
     "sources": [
       {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+        "name": "About Netflix",
+        "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null
+  },
+  {
+    "id": "series-stuart-fails-to-save-the-universe",
+    "qid": null,
+    "title": "Stuart Fails to Save the Universe",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "HBO Max",
+    "date": "2026-07-23",
+    "fetched_at": "2026-07-13T03:14:00+05:30",
+    "sources": [
+      {
+        "name": "HBO Max Pressroom",
+        "url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july",
         "type": "press"
       }
     ],

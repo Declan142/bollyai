@@ -1,54 +1,141 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { HeaderSearch } from "./HeaderSearch";
 import styles from "./Nav.module.css";
 
-// Nav (browse-lane revamp 2026-06-16): collapses the old 11-item bar down to 5 primary
-// destinations. The full 6-section IA (Verdicts / OTT Calendar / Browse / Box Office /
-// Desks / About) is expressed in full in the Footer; the top bar keeps only the five the
-// reader reaches for, plus live search. CSS-only off-canvas drawer on mobile.
 const PRIMARY: { href: string; label: string }[] = [
-  { href: "/watch/", label: "Verdicts" },
+  { href: "/watch/", label: "Watchlists" },
   { href: "/ott/calendar/", label: "OTT Calendar" },
   { href: "/browse/", label: "Browse" },
   { href: "/box-office/", label: "Box Office" },
-  { href: "/about/", label: "About" }
+  { href: "/series/diary/", label: "My Diary" }
 ];
 
 export function Nav() {
-  return (
-    <header className={styles.header}>
-      {/* CSS-only drawer toggle */}
-      <input type="checkbox" id="nav-toggle" className={styles.toggle} aria-hidden="true" tabIndex={-1} />
+  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+  const burgerRef = useRef<HTMLButtonElement>(null);
+  const drawerRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setOpen(false);
+        burgerRef.current?.focus();
+        return;
+      }
+
+      if (event.key !== "Tab" || !drawerRef.current || !burgerRef.current) return;
+      const drawerControls = Array.from(
+        drawerRef.current.querySelectorAll<HTMLElement>("a[href], button:not([disabled]), input:not([disabled])")
+      );
+      const focusable = [burgerRef.current, ...drawerControls];
+      const first = focusable[0];
+      const last = focusable.at(-1);
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.body.style.overflow = "hidden";
+    document.addEventListener("keydown", onKeyDown);
+    window.requestAnimationFrame(() => drawerRef.current?.querySelector<HTMLAnchorElement>("a")?.focus());
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [open]);
+
+  const closeAndRestoreFocus = () => {
+    setOpen(false);
+    burgerRef.current?.focus();
+  };
+
+  return (
+    <header className={`${styles.header}${open ? ` ${styles.open}` : ""}`}>
       <a href="/" className={styles.brand} aria-label="BollyAI home">
         <b>BollyAI</b>
         <small>Har Friday ka faisla.</small>
       </a>
 
-      <label htmlFor="nav-toggle" className={styles.burger} aria-label="Toggle navigation menu">
+      <button
+        ref={burgerRef}
+        className={styles.burger}
+        type="button"
+        aria-expanded={open}
+        aria-controls="site-nav-drawer"
+        aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+        onClick={() => setOpen((current) => !current)}
+      >
         <span />
         <span />
         <span />
-      </label>
+      </button>
 
-      <label htmlFor="nav-toggle" className={styles.overlay} aria-hidden="true" />
+      <button
+        className={styles.overlay}
+        type="button"
+        aria-label="Close navigation menu"
+        tabIndex={-1}
+        onClick={closeAndRestoreFocus}
+      />
 
-      <div className={styles.drawer}>
+      <div
+        className={styles.drawer}
+        id="site-nav-drawer"
+        ref={drawerRef}
+        role={open ? "dialog" : undefined}
+        aria-modal={open || undefined}
+        aria-label={open ? "Site navigation" : undefined}
+      >
         <nav className={styles.primary} aria-label="Primary navigation">
-          {/* the flagship: a grounded answer engine. Given the one high-signal CTA slot in
-              the bar so it leads the IA without diluting the five plain links to six. */}
-          <a className={styles.ask} href="/ask/" aria-label="Ask BollyAI, the grounded answer engine">
+          <a
+            className={styles.ask}
+            href="/ask/"
+            aria-current={pathname.startsWith("/ask/") ? "page" : undefined}
+            onClick={() => setOpen(false)}
+          >
             <span className={styles.askSpark} aria-hidden="true">✦</span>
             Ask BollyAI
           </a>
-          {PRIMARY.map((item) => (
-            <a className={styles.link} href={item.href} key={item.href}>
-              {item.label}
-            </a>
-          ))}
+          {PRIMARY.map((item) => {
+            const current = pathname === item.href || pathname.startsWith(item.href);
+            return (
+              <a
+                className={styles.link}
+                href={item.href}
+                key={item.href}
+                aria-current={current ? "page" : undefined}
+                onClick={() => setOpen(false)}
+              >
+                {item.label}
+              </a>
+            );
+          })}
         </nav>
-        {/* mobile-only search lives inside the drawer (desktop search renders in the bar) */}
         <form className="site-search site-search--drawer" action="/search/" method="get" role="search">
-          <input type="search" name="q" placeholder="Search films, series, endings…" aria-label="Search BollyAI" autoComplete="off" />
+          <input
+            type="search"
+            name="q"
+            placeholder="Search titles and verdicts..."
+            aria-label="Search BollyAI"
+            autoComplete="off"
+          />
           <button type="submit" aria-label="Search">↵</button>
         </form>
       </div>

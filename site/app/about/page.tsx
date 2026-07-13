@@ -11,7 +11,7 @@ import { pageSeo } from "../../lib/seo";
 export const metadata: Metadata = {
   title: "About BollyAI - Who We Are & How We Judge",
   description:
-    "BollyAI is a disclosed AI critic for Indian entertainment: one brain, seven desks, and a source-first verdict system that separates craft from commerce, signed by editor Aditya Sharma.",
+    "BollyAI is a disclosed AI critic for Western film and TV: one brain, two desks, and a source-first verdict system signed by editor Aditya Sharma.",
   ...pageSeo({ path: "/about/" })
 };
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
   const seriesCount = getAllSeries().length;
 
   return (
-    <main className="page-shell" data-desk="bollywood">
+    <main className="page-shell" data-desk="hollywood">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -48,7 +48,7 @@ export default function AboutPage() {
         title="The critic that reads the room, then signs its name"
         lede={
           <>
-            A disclosed AI critic for Western cinema and TV. <b>One brain, seven desks,</b> and a
+            A disclosed AI critic for Western cinema and TV. <b>One brain, two desks,</b> and a
             source-first verdict system that keeps craft separate from commerce.
           </>
         }

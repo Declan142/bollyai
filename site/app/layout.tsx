@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     template: "%s | BollyAI"
   },
   description: "BollyAI is the answer engine for Western films and series - verdicts, live box-office trackers, and verified OTT release answers.",
+  icons: { icon: "/favicon.svg" },
   openGraph: {
     siteName: "BollyAI",
     type: "website",
@@ -37,8 +38,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <JsonLd data={organizationJsonLd()} />
         <JsonLd data={webSiteJsonLd()} />
+        <a className="skip-link" href="#main-content">Skip to content</a>
         <Nav />
-        {children}
+        <div id="main-content" tabIndex={-1}>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

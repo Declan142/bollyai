@@ -2,7 +2,7 @@ import { DESKS } from "../lib/desks";
 import styles from "./AboutMasthead.module.css";
 
 // AboutMasthead (browse-lane revamp 2026-06-16): the hero-tier About body. Carries the
-// disclosed-AI thesis, the BollyMeter-vs-verdict-ladder model, the seven desks, the
+// disclosed-AI thesis, the BollyMeter-vs-verdict-ladder model, the two desks, the
 // honesty fences the build actually enforces, and the editor identity card that is the
 // visible anchor for the site Person entity (E-E-A-T). Scoped CSS only.
 

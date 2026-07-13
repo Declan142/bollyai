@@ -4,7 +4,7 @@ import { JsonLd } from "../../components/JsonLd";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ask BollyAI - Grounded Verdicts for Indian & Global OTT" },
+  title: { absolute: "Ask BollyAI - Grounded Western Film and TV Verdicts" },
   description:
     "Ask a real question - is it worth watching, the best in a genre, where to stream - and get a verdict assembled only from BollyAI's grounded critic, audience and subtitle data. No invented scores.",
   ...pageSeo({ path: "/ask/" })
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function AskPage() {
   return (
-    <main className="page-shell ask-page" data-desk="bollywood">
+    <main className="page-shell ask-page" data-desk="streaming">
       <section className="section-head ask-head">
         <p className="eyebrow">The answer engine</p>
         <h1>Ask BollyAI</h1>

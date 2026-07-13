@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function SearchPage() {
   return (
-    <main className="page-shell" data-desk="bollywood">
+    <main className="page-shell" data-desk="streaming">
       <section className="section-head search-head">
         <p className="eyebrow">Answer engine</p>
         <h1>Search BollyAI</h1>

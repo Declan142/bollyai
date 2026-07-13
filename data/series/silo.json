@@ -39,10 +39,10 @@
     "attribution": "Poster © Apple TV+/Legendary Television. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
   },
   "renewal": {
-    "state": "returning",
+    "state": "final-season",
     "note": "Renewed for Seasons 3 and 4 in December 2024; Season 3 premieres July 3, 2026 on Apple TV+; Season 4 will be the final season.",
     "source": "Apple TV Press",
-    "source_url": "https://www.apple.com/tv-pr/news/2024/12/apple-tv-renews-hit-world-building-drama-silo-for-seasons-three-and-four/"
+    "source_url": "https://www.apple.com/tv-pr/news/2026/04/apples-globally-acclaimed-drama-silo-starring-and-executive-produced-by-rebecca-ferguson-returns-for-season-three-on-july-3-2026/"
   },
   "seasons": [
     {
@@ -148,8 +148,30 @@
           "review_body": "The Season 2 premiere picks up immediately from the cliffhanger of Season 1 and wastes no time in expanding the show's mythology. Juliette's new context forces the series to build out the world the first season was systematically withholding, and the premiere's most effective choice is to honour that expansion without losing the show's characteristic restraint. At 94% on Rotten Tomatoes, Season 2 earned a stronger critical response than its predecessor - the freedom to reveal rather than conceal giving the series a different but equally effective gear. Rebecca Ferguson's performance in the transition from the Season 1 ending to the Season 2 opening is the episode's strongest continuous asset."
         }
       ]
+    },
+    {
+      "number": 3,
+      "year": 2026,
+      "episodes": 10,
+      "release_date": {
+        "value": "2026-07-03",
+        "source": "Apple TV Press",
+        "fetched_at": "2026-07-13T02:09:22+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 3 begins a 10-episode weekly run by splitting Silo across two timelines. Juliette returns to a silo recovering from rebellion, while a story set centuries earlier follows a journalist and a congressman into the conspiracy behind the underground world. The expanded structure moves the adaptation deeper into Hugh Howey's trilogy and begins the bridge toward the already confirmed fourth and final season. With only two episodes available at this refresh, BollyAI is keeping the score and verdict open. The page now reflects the active season without recycling Season 2's stronger, fully grounded signal as if it described the new run.",
+      "season_over_season": "Season 3 expands the timeline as well as the world, pairing Juliette's present with the origin of the silo system.",
+      "episode_reviews": []
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-16T06:30:00+05:30"
+  "date_modified": "2026-07-13T02:09:22+05:30"
 }

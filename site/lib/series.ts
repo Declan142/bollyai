@@ -184,20 +184,29 @@ export function ottIndex(rung: OttRung): number {
   return Math.max(0, OTT_RUNGS.indexOf(rung));
 }
 
-// Most recent season air date (ISO yyyy-mm-dd) - the recency signal that powers
-// "recent always surfaces first" across the browse + home rails.
-export function seriesRecency(series: Series): string {
+// Most recent grounded season air date (ISO yyyy-mm-dd). Strict current-release
+// surfaces use this directly so a metadata edit can never make an undated legacy
+// title look newly released.
+export function latestSeasonReleaseDate(series: Series): string | null {
   let best = "";
   for (const s of series.seasons) {
     const d = s.release_date?.value;
     if (d && d > best) best = d;
   }
-  return best || series.date_modified.slice(0, 10);
+  return best || null;
+}
+
+// General catalogue sorting still needs a stable position for records whose
+// season dates are incomplete. This fallback must not power a "latest" surface.
+export function seriesRecency(series: Series): string {
+  return latestSeasonReleaseDate(series) ?? series.date_modified.slice(0, 10);
 }
 
 // "Fresh" = a season aired within the last `days` of the build (gets the NEW badge).
-export function isFreshSeries(series: Series, now: number = Date.now(), days = 150): boolean {
-  const t = new Date(seriesRecency(series)).getTime();
+export function isFreshSeries(series: Series, now: number = Date.now(), days = 90): boolean {
+  const releaseDate = latestSeasonReleaseDate(series);
+  if (!releaseDate) return false;
+  const t = new Date(releaseDate).getTime();
   return Number.isFinite(t) && now - t <= days * 86400000 && now - t >= 0;
 }
 
@@ -310,27 +319,36 @@ export type EpisodeReviewCard = {
   sort_key: string;
 };
 
-// Pull the 8-12 newest standout episode reviews across the catalogue.
-// Sort key: prefer episode-level `merged_at` ISO field (engine writes it during merge),
-// fall back to series `date_modified` so the function is useful before the engine updates.
-export function getNewestEpisodeReviews(limit = 10): EpisodeReviewCard[] {
+// Pull one recent, full episode review per series. Air date leads the sort so a newly
+// edited legacy record cannot displace the shows people are looking for now.
+export function getNewestEpisodeReviews(
+  limit = 10,
+  now: number = Date.now(),
+  days = 180
+): EpisodeReviewCard[] {
   const cards: EpisodeReviewCard[] = [];
+  const windowMs = days * 86400000;
   for (const series of getAllSeries()) {
+    let newest: EpisodeReviewCard | null = null;
     for (const season of series.seasons) {
       for (const ep of season.episode_reviews ?? []) {
-        const merged = (ep as EpisodeReview & { merged_at?: string }).merged_at;
-        const sort_key = merged ?? series.date_modified;
-        cards.push({
+        if (!ep.review_body?.trim() || !ep.air_date) continue;
+        const airedAt = new Date(ep.air_date).getTime();
+        const age = now - airedAt;
+        if (!Number.isFinite(airedAt) || age < 0 || age > windowMs) continue;
+        const candidate: EpisodeReviewCard = {
           slug: series.slug,
           title: series.title.value,
           poster: series.poster,
           canonical_industry: series.canonical_industry,
           season_number: season.number,
           episode: ep as EpisodeReview & { merged_at?: string },
-          sort_key,
-        });
+          sort_key: ep.air_date,
+        };
+        if (!newest || candidate.sort_key > newest.sort_key) newest = candidate;
       }
     }
+    if (newest) cards.push(newest);
   }
   return cards
     .sort((a, b) => b.sort_key.localeCompare(a.sort_key))

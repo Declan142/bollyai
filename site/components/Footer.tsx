@@ -19,8 +19,9 @@ export function Footer() {
             <h4>Browse</h4>
             <ul>
               <li><a href="/ask/">Ask BollyAI</a></li>
-              <li><a href="/browse/">All series</a></li>
+              <li><a href="/series/">All series</a></li>
               <li><a href="/watch/">What to watch</a></li>
+              <li><a href="/series/diary/">My verdict diary</a></li>
               <li><a href="/search/">Search</a></li>
             </ul>
           </div>
@@ -28,8 +29,8 @@ export function Footer() {
           <div className={styles.col}>
             <h4>Verdicts</h4>
             <ul>
-              <li><a href="/hollywood/reviews/">Latest reviews</a></li>
-              <li><a href="/hollywood/upcoming/">Upcoming</a></li>
+              <li><a href="/hollywood/">Hollywood verdicts</a></li>
+              <li><a href="/series/">Series verdicts</a></li>
               <li><a href="/how-bollyai-works/">How verdicts work</a></li>
             </ul>
           </div>
