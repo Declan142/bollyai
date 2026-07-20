@@ -1,273 +1,16 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-07-20T06:19:34Z",
+      "fetched": 0,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
   "entries": [
-    {
-      "_status": "verified",
-      "confidence": "verified",
-      "fetched_at": "2026-07-07T12:25:20+05:30",
-      "id": "series-lucky",
-      "industry": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Apple TV Press",
-            "type": "press",
-            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
-          }
-        ],
-        "value": "streaming"
-      },
-      "language": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Apple TV Press",
-            "type": "press",
-            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
-          }
-        ],
-        "value": "en"
-      },
-      "platform": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Apple TV Press",
-            "type": "press",
-            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
-          }
-        ],
-        "value": "Apple TV+"
-      },
-      "qid": null,
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Apple TV Press",
-            "type": "press",
-            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
-          }
-        ],
-        "value": "2026-07-15"
-      },
-      "section": "this_week",
-      "slug": null,
-      "source_type": "press",
-      "source_url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/",
-      "sources": [
-        {
-          "name": "Apple TV Press",
-          "type": "press",
-          "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
-        }
-      ],
-      "title": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Apple TV Press",
-            "type": "press",
-            "url": "https://www.apple.com/tv-pr/news/2026/02/apple-tv-unveils-the-premiere-date-first-look-and-teaser-for-lucky-new-limited-series-starring-and-executive-produced-by-sag-and-golden-globe-award-winner-anya-taylor-joy-premiering-globally-wednesday-july-15-2026/"
-          }
-        ],
-        "value": "Lucky"
-      },
-      "type": "series",
-      "url": null,
-      "verdict_line": "English-language series listed for Apple TV+ on 2026-07-15.",
-      "verdict_line_basis": {
-        "kind": "calendar_facts",
-        "source_field": "calendar.platform_date_language",
-        "source_url": null
-      },
-      "verification": "official_source",
-      "week": "2026-W29"
-    },
-    {
-      "_status": "verified",
-      "confidence": "verified",
-      "fetched_at": "2026-07-07T12:25:20+05:30",
-      "id": "series-the-hawk",
-      "industry": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Netflix Tudum",
-            "type": "press",
-            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
-          }
-        ],
-        "value": "streaming"
-      },
-      "language": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Netflix Tudum",
-            "type": "press",
-            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
-          }
-        ],
-        "value": "en"
-      },
-      "platform": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Netflix Tudum",
-            "type": "press",
-            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
-          }
-        ],
-        "value": "Netflix"
-      },
-      "qid": null,
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Netflix Tudum",
-            "type": "press",
-            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
-          }
-        ],
-        "value": "2026-07-16"
-      },
-      "section": "this_week",
-      "slug": null,
-      "source_type": "press",
-      "source_url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news",
-      "sources": [
-        {
-          "name": "Netflix Tudum",
-          "type": "press",
-          "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
-        }
-      ],
-      "title": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "Netflix Tudum",
-            "type": "press",
-            "url": "https://www.netflix.com/tudum/articles/the-hawk-will-ferrell-release-date-cast-news"
-          }
-        ],
-        "value": "The Hawk"
-      },
-      "type": "series",
-      "url": null,
-      "verdict_line": "English-language series listed for Netflix on 2026-07-16.",
-      "verdict_line_basis": {
-        "kind": "calendar_facts",
-        "source_field": "calendar.platform_date_language",
-        "source_url": null
-      },
-      "verification": "official_source",
-      "week": "2026-W29"
-    },
-    {
-      "_status": "verified",
-      "confidence": "verified",
-      "fetched_at": "2026-07-07T12:25:20+05:30",
-      "id": "series-the-map-of-longing",
-      "industry": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "About Netflix",
-            "type": "press",
-            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
-          }
-        ],
-        "value": "streaming"
-      },
-      "language": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "About Netflix",
-            "type": "press",
-            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
-          }
-        ],
-        "value": "es"
-      },
-      "platform": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "About Netflix",
-            "type": "press",
-            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
-          }
-        ],
-        "value": "Netflix"
-      },
-      "qid": null,
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "About Netflix",
-            "type": "press",
-            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
-          }
-        ],
-        "value": "2026-07-17"
-      },
-      "section": "this_week",
-      "slug": null,
-      "source_type": "press",
-      "source_url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17",
-      "sources": [
-        {
-          "name": "About Netflix",
-          "type": "press",
-          "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
-        }
-      ],
-      "title": {
-        "confidence": "verified",
-        "fetched_at": "2026-07-07T12:25:20+05:30",
-        "sources": [
-          {
-            "name": "About Netflix",
-            "type": "press",
-            "url": "https://about.netflix.com/en/news/the-map-of-longing-arrives-on-netflix-next-july-17"
-          }
-        ],
-        "value": "The Map of Longing"
-      },
-      "type": "series",
-      "url": null,
-      "verdict_line": "ES-language series listed for Netflix on 2026-07-17.",
-      "verdict_line_basis": {
-        "kind": "calendar_facts",
-        "source_field": "calendar.platform_date_language",
-        "source_url": null
-      },
-      "verification": "official_source",
-      "week": "2026-W29"
-    },
     {
       "_status": "verified",
       "confidence": "verified",
@@ -322,7 +65,7 @@
         ],
         "value": "2026-07-23"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july",
@@ -357,13 +100,15 @@
       "week": "2026-W30"
     }
   ],
-  "generated_at": "2026-07-19T07:03:58Z",
+  "generated_at": "2026-07-20T06:19:34Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
+      "Netflix",
       "Prime Video",
       "Disney+",
       "Max",
+      "Apple TV+",
       "Hulu",
       "Paramount+",
       "Peacock"
@@ -382,32 +127,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-29/",
-      "end": "2026-07-19",
-      "entry_count": 3,
-      "iso_week": "2026-W29",
-      "label": "This week",
-      "start": "2026-07-13",
-      "status": "current",
-      "week": 29,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-30/",
       "end": "2026-07-26",
       "entry_count": 1,
       "iso_week": "2026-W30",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-07-20",
-      "status": "coming",
+      "status": "current",
       "week": 30,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-31/",
+      "end": "2026-08-02",
+      "entry_count": 0,
+      "iso_week": "2026-W31",
+      "label": "Coming next week",
+      "start": "2026-07-27",
+      "status": "coming",
+      "week": 31,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-07-26",
-    "start": "2026-07-13",
+    "end": "2026-08-02",
+    "start": "2026-07-20",
     "weeks": 2
   }
 }

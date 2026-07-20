@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-07-20T06:19:34Z",
+      "fetched": 0,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -58,7 +65,7 @@
         ],
         "value": "2026-07-23"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://press.wbd.com/us/media-release/whats-new-hbo-max-july",
@@ -93,16 +100,16 @@
       "week": "2026-W30"
     }
   ],
-  "generated_at": "2026-07-19T07:03:58Z",
+  "generated_at": "2026-07-20T06:19:34Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-30/",
     "end": "2026-07-26",
     "entry_count": 1,
     "iso_week": "2026-W30",
-    "label": "Coming next week",
+    "label": "This week",
     "start": "2026-07-20",
-    "status": "coming",
+    "status": "current",
     "week": 30,
     "year": 2026
   }
