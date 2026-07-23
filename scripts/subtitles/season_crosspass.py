@@ -20,10 +20,14 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from llm_bridge import coerce_json, configured_model, gpt_ask
+from llm_bridge import coerce_json, configured_model, drop_malformed_list_items, gpt_ask
 from extract_dossier import mmss
 
 ROOT = Path.home() / "bollyai" / "data" / "subtitles"
+
+# Crosspass list fields whose items must be objects (same free-tier bare-string
+# hazard as dossiers; verify_crosspass has no strip guard, so normalize here).
+DICT_LIST_FIELDS = ("callbacks", "motifs", "weak_motifs", "character_arcs")
 
 SYSTEM = (
     "You are a forensic continuity analyst. You find cross-episode connections that exist "
@@ -161,6 +165,8 @@ def _crosspass_call(system: str, prompt: str, *, required_keys: tuple[str, ...],
     if obj is None or any(key not in obj for key in required_keys):
         missing = [key for key in required_keys if not obj or key not in obj]
         raise RuntimeError(f"codex crosspass g1_schema_fail ctx={ctx} rc={rc} missing={missing}")
+    for note in drop_malformed_list_items(obj, DICT_LIST_FIELDS):
+        print(f"  g1 normalize {ctx}: {note}", file=sys.stderr)
     return obj, {"engine": "codex-bridge", "model": model, "lane_label": "codex-gpt",
                  "latency_s": round(time.time() - t0, 1)}
 

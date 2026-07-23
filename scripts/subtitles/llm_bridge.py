@@ -99,3 +99,27 @@ def coerce_json(text: str) -> dict | None:
     except json.JSONDecodeError:
         return None
     return value if isinstance(value, dict) else None
+
+
+def drop_malformed_list_items(obj: dict, fields: tuple[str, ...]) -> list[str]:
+    """Normalize object-item list fields at ingestion: keep dict items only.
+
+    Free-tier lanes occasionally emit a bare string (e.g. a stray schema key
+    name like "plants_from") inside an otherwise-valid JSON list. Dropping
+    those here, before the object is persisted, keeps every on-disk document
+    well-typed so downstream gates verify grounding instead of repairing types.
+
+    Mutates ``obj`` in place. Only fields whose value is a list are touched;
+    string-item lists (e.g. open_loops) must not be passed in ``fields``.
+    Returns human-readable notes for each dropped item, for caller logging.
+    """
+    dropped: list[str] = []
+    for field in fields:
+        items = obj.get(field)
+        if not isinstance(items, list):
+            continue
+        for it in items:
+            if not isinstance(it, dict):
+                dropped.append(f"{field}: dropped non-object item {it!r}")
+        obj[field] = [it for it in items if isinstance(it, dict)]
+    return dropped

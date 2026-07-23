@@ -20,9 +20,12 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from llm_bridge import coerce_json, configured_model, gpt_ask
+from llm_bridge import coerce_json, configured_model, drop_malformed_list_items, gpt_ask
 
 ROOT = Path.home() / "bollyai" / "data" / "subtitles"
+
+# DOSSIER_SPEC list fields whose items must be objects (open_loops is string-item).
+DICT_LIST_FIELDS = ("beats", "character_beats", "key_lines", "payoffs")
 
 
 def _dossier_call(system, user, *, required_keys=(), ctx=""):
@@ -34,8 +37,18 @@ def _dossier_call(system, user, *, required_keys=(), ctx=""):
     if obj is None or any(k not in obj for k in required_keys):
         missing = [k for k in required_keys if not obj or k not in obj]
         raise RuntimeError(f"codex dossier g1_schema_fail ctx={ctx} rc={rc} missing={missing}")
-    return obj, {"engine": "codex-bridge", "model": model,
-                 "lane_label": "codex-gpt", "latency_s": round(time.time() - t0, 1)}
+    # G1 shape normalization: free-tier lanes can emit bare strings inside list
+    # fields; drop them BEFORE the dossier is persisted so every downstream
+    # consumer sees well-typed items (verify_grounding keeps a strip guard for
+    # old on-disk dossiers only).
+    dropped = drop_malformed_list_items(obj, DICT_LIST_FIELDS)
+    for note in dropped:
+        print(f"  g1 normalize {ctx}: {note}", file=sys.stderr)
+    meta = {"engine": "codex-bridge", "model": model,
+            "lane_label": "codex-gpt", "latency_s": round(time.time() - t0, 1)}
+    if dropped:
+        meta["malformed_items_dropped"] = len(dropped)
+    return obj, meta
 
 SYSTEM = (
     "You are a forensic dialogue analyst for an editorial engine. You extract ONLY what "
@@ -135,6 +148,8 @@ def extract_one(slug: str, ep: str, *, force: bool = False, repair_errors: list 
     obj["_meta"] = {"engine": meta.get("engine"), "model": meta.get("model"),
                     "lane_label": meta.get("lane_label"), "latency_s": meta.get("latency_s"),
                     "repair_round": bool(repair_errors)}
+    if meta.get("malformed_items_dropped"):
+        obj["_meta"]["malformed_items_dropped"] = meta["malformed_items_dropped"]
     out_p.write_text(json.dumps(obj, ensure_ascii=False, indent=1))
     return obj
 
