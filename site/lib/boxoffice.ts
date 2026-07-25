@@ -1,299 +1,74 @@
 import fs from "node:fs";
 import path from "node:path";
+import {
+  loadBoxOfficeBoard
+} from "./boxoffice-schema.mjs";
+import type {
+  BoxOfficeBoard,
+  BoxOfficeRecord,
+  BoxOfficeWeek,
+  WeekGrossSource
+} from "./boxoffice-schema.mjs";
+import type { Film } from "./data";
 import { DESK_SLUGS, type DeskSlug } from "./desks";
-import type { Film, MoneyRange } from "./data";
 
-export type WorldwideGrossUsdSource = {
-  name: string;
-  url: string;
-  as_of?: string;
-  fetched_at?: string;
-  metric?: string;
-  value?: number;
-};
-
-export type WorldwideGrossUsd = {
-  value: number | null;
-  label: string;
-  as_of: string;
-  sources: WorldwideGrossUsdSource[];
-};
-
-export type BoxOfficeSource = {
-  name: string;
-  url: string;
-  as_of?: string;
-  group?: string;
-  value?: number;
-};
-
-export type BoxOfficeFigure = {
-  value: MoneyRange | null;
-  sources: BoxOfficeSource[];
-  label: string;
-};
-
-export type BoxOfficeWeek = {
-  start: string;
-  end: string;
-  label: string;
-};
-
-export type BoxOfficeRecord = {
-  film: {
-    title: string;
-    type: "film" | "series";
-    qid: string | null;
-    slug: string | null;
-    url: string | null;
-  };
-  language: string;
-  industry: DeskSlug;
-  week?: BoxOfficeWeek;
-  territory: string;
-  india_net_inr_cr?: BoxOfficeFigure;
-  worldwide_gross_inr_cr?: BoxOfficeFigure;
-  worldwide_gross_usd?: WorldwideGrossUsd;
-  release_date?: string;
-  notes?: string;
-};
-
-export type BoxOfficeBoard = {
-  schema: "bollyai-boxoffice-week/v1" | "bollyai-boxoffice-week/v2";
-  DATA_PENDING: boolean;
-  generated_at: string;
-  week?: BoxOfficeWeek;
-  territory: string;
-  records: BoxOfficeRecord[];
-};
-
-export type BoxOfficeClub = {
-  slug: string;
-  label: string;
-  /** Threshold in USD millions */
-  tier: number;
-};
-
-export type FigureDecision =
-  | {
-      published: true;
-      range: MoneyRange;
-      label: "trade estimate" | "lower figure";
-      agreementPct: number;
-      basisSources: string[];
-      caveat: string | null;
-    }
-  | {
-      published: false;
-      range: null;
-      label: "tracking";
-      reason: string;
-      caveat: string;
-    };
+export type {
+  BoxOfficeBoard,
+  BoxOfficeRecord,
+  BoxOfficeWeek,
+  WeekGrossSource,
+  WeekGrossUsd
+} from "./boxoffice-schema.mjs";
 
 const boxofficeDir = path.resolve(process.cwd(), "..", "data", "boxoffice");
 const currentWeekPath = path.join(boxofficeDir, "current-week.json");
-
-const SOUTH_FIRST: DeskSlug[] = ["hollywood", "streaming"];
-/** USD million thresholds for worldwide gross clubs */
-const CLUB_TIERS_USD_M = [100, 500, 1000] as const;
-
-const SOURCE_GROUPS: Record<string, string> = {
-  sacnilk: "sacnilk",
-  tracktollywood: "tracktollywood",
-  andhraboxoffice: "andhraboxoffice",
-  boxofficeindia: "boxofficeindia",
-  box_office_india: "boxofficeindia",
-  mojo_india: "mojo_india",
-  box_office_mojo: "mojo_india",
-  bollywood_hungama: "studio_pr",
-  bh: "studio_pr",
-  taran_adarsh: "studio_pr",
-  taran: "studio_pr"
-};
-
-const PR_LEANING = new Set(["bollywood_hungama", "bh", "taran_adarsh", "taran"]);
+const WESTERN_DESK_ORDER: DeskSlug[] = ["hollywood", "streaming"];
 
 export function getCurrentBoxOfficeBoard(): BoxOfficeBoard {
-  if (!fs.existsSync(currentWeekPath)) {
-    return {
-      schema: "bollyai-boxoffice-week/v2",
-      DATA_PENDING: true,
-      generated_at: "2026-06-27T00:00:00Z",
-      week: { start: "2026-06-23", end: "2026-06-29", label: "Week of 23 June 2026" },
-      territory: "Worldwide",
-      records: []
-    };
-  }
-
-  const parsed = JSON.parse(fs.readFileSync(currentWeekPath, "utf8")) as BoxOfficeBoard;
-  return {
-    ...parsed,
-    records: parsed.records.filter((record) => (DESK_SLUGS as readonly string[]).includes(record.industry)).sort(compareRecordsSouthFirst)
-  };
-}
-
-export function getCurrentBoxOfficeYear(): string {
-  return getCurrentBoxOfficeBoard().week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
-}
-
-export function compareRecordsSouthFirst(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
-  return industryRank(left.industry) - industryRank(right.industry) || left.film.title.localeCompare(right.film.title);
-}
-
-export function compareRecordsByGross(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
-  const leftFigure = getPublishedClubFigure(left) ?? -1;
-  const rightFigure = getPublishedClubFigure(right) ?? -1;
-  return rightFigure - leftFigure || compareRecordsSouthFirst(left, right);
-}
-
-export function decideBoxOfficeFigure(figure: BoxOfficeFigure): FigureDecision {
-  const readings = figure.sources.filter((source) => typeof source.value === "number" && Number.isFinite(source.value));
-  const pairs: Array<{ pct: number; left: BoxOfficeSource; right: BoxOfficeSource }> = [];
-
-  readings.forEach((left, index) => {
-    readings.slice(index + 1).forEach((right) => {
-      if (isIndependentPair(left, right)) {
-        pairs.push({ pct: agreementPct(left.value as number, right.value as number), left, right });
-      }
-    });
+  const board = loadBoxOfficeBoard({
+    filePath: currentWeekPath,
+    readText: (filePath) => fs.readFileSync(filePath, "utf8")
   });
-
-  pairs.sort((a, b) => a.pct - b.pct);
-  const best = pairs[0];
-
-  if (!best) {
-    return {
-      published: false,
-      range: null,
-      label: "tracking",
-      reason: "single_source_or_no_valid_independent_pair",
-      caveat: "Awaiting two independent same-metric sources."
-    };
-  }
-
-  const low = Math.min(best.left.value as number, best.right.value as number);
-  const high = Math.max(best.left.value as number, best.right.value as number);
-  const basisSources = [best.left.name, best.right.name];
-
-  if (best.pct <= 10) {
-    return {
-      published: true,
-      range: { low: roundCrore(low), high: roundCrore(low) },
-      label: "trade estimate",
-      agreementPct: roundPct(best.pct),
-      basisSources,
-      caveat: null
-    };
-  }
-
-  if (best.pct <= 25) {
-    return {
-      published: true,
-      range: { low: roundCrore(low), high: roundCrore(low) },
-      label: "lower figure",
-      agreementPct: roundPct(best.pct),
-      basisSources,
-      caveat: `Sources vary by ${roundPct(best.pct).toFixed(1)} percent, so the lower figure is shown.`
-    };
-  }
-
   return {
-    published: false,
-    range: null,
-    label: "tracking",
-    reason: "independent_sources_disagree_over_25_percent",
-    caveat: "Sources are too far apart for BollyAI to publish a number."
+    ...board,
+    records: board.records
+      .filter((record) => (
+        (DESK_SLUGS as readonly string[]).includes(record.industry)
+      ))
+      .sort(compareRecordsWesternFirst)
   };
 }
 
-export function uniqueFigureSources(record: BoxOfficeRecord): BoxOfficeSource[] {
-  const seen = new Set<string>();
-  const output: BoxOfficeSource[] = [];
-  const usdSources: BoxOfficeSource[] = (record.worldwide_gross_usd?.sources ?? []).map((s) => ({
-    name: s.name,
-    url: s.url,
-    as_of: s.as_of
-  }));
-  const allSources = [
-    ...(record.india_net_inr_cr?.sources ?? []),
-    ...(record.worldwide_gross_inr_cr?.sources ?? []),
-    ...usdSources
-  ];
-  for (const source of allSources) {
-    const key = `${source.name}|${source.url}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    output.push(source);
-  }
-  return output;
-}
-
-export function getPublishedWorldwideGrossUsd(record: BoxOfficeRecord): number | null {
-  return record.worldwide_gross_usd?.value ?? null;
-}
-
-export function getBoxOfficeClubs(): BoxOfficeClub[] {
-  return CLUB_TIERS_USD_M.map((tier) => ({
-    slug: `${tier}m-club`,
-    label: `$${tier}M Club`,
-    tier
-  }));
-}
-
-export function getBoxOfficeClub(slug: string): BoxOfficeClub | undefined {
-  return getBoxOfficeClubs().find((club) => club.slug === slug);
-}
-
-export function getClubRecords(tier: number): BoxOfficeRecord[] {
-  const board = getCurrentBoxOfficeBoard();
-  const year = board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
-  return board.records
-    .filter((record) => recordYear(record, board) === year && (getPublishedClubFigure(record) ?? 0) >= tier)
-    .sort(compareRecordsByPublishedClubFigure);
-}
-
-export function getBoxOfficeRecordForFilm(industry: DeskSlug, slug: string): BoxOfficeRecord | undefined {
-  const board = getCurrentBoxOfficeBoard();
-  const year = board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
-  return board.records.find(
-    (record) =>
-      record.industry === industry &&
-      recordYear(record, board) === year &&
-      (record.film.slug === slug || record.film.url === `/${industry}/box-office/${slug}/`)
+export function compareRecordsWesternFirst(
+  left: BoxOfficeRecord,
+  right: BoxOfficeRecord
+): number {
+  const leftGross = getPublishedWeekGrossUsd(left) ?? -1;
+  const rightGross = getPublishedWeekGrossUsd(right) ?? -1;
+  return (
+    rightGross - leftGross
+    || industryRank(left.industry) - industryRank(right.industry)
+    || left.film.title.localeCompare(right.film.title)
   );
 }
 
-export function getQualifiedClubsForRecord(record: BoxOfficeRecord): BoxOfficeClub[] {
-  const figure = getPublishedClubFigure(record);
-  if (figure === null) return [];
-  return getBoxOfficeClubs().filter((club) => figure >= club.tier);
+export function getPublishedWeekGrossUsd(
+  record: BoxOfficeRecord
+): number | null {
+  return record.week_gross_usd.value;
 }
 
-export function getYearScoreboardRecords(industry: DeskSlug, year: string): BoxOfficeRecord[] {
-  const board = getCurrentBoxOfficeBoard();
-  return board.records
-    .filter((record) => record.industry === industry && recordYear(record, board) === year)
-    .sort(compareRecordsByGross);
-}
-
-export function getYearScoreboardParams(): Array<{ industry: DeskSlug; year: string }> {
-  const board = getCurrentBoxOfficeBoard();
-  const years = new Set<string>([board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString()]);
-  for (const record of board.records) {
-    years.add(recordYear(record, board));
-  }
-
-  return [...years]
-    .sort((left, right) => right.localeCompare(left))
-    .flatMap((year) => DESK_SLUGS.map((industry) => ({ industry, year })))
-    .sort((left, right) => right.year.localeCompare(left.year) || industryRank(left.industry) - industryRank(right.industry));
+export function uniqueWeekGrossSources(
+  record: BoxOfficeRecord
+): WeekGrossSource[] {
+  return record.week_gross_usd.sources;
 }
 
 export function boxOfficeItemListJsonLd(board: BoxOfficeBoard) {
   return boxOfficeRecordsItemListJsonLd({
-    name: `Worldwide box office tracker: ${board.week?.label ?? "Current week"}`,
-    description: "Current-week worldwide theatrical box-office tracking with source-attributed USD figures.",
+    name: `Worldwide weekly box office: ${board.week.label}`,
+    description:
+      "Latest verified closed-week worldwide theatrical gross, published only after exact-period source consensus.",
     records: board.records
   });
 }
@@ -321,8 +96,10 @@ export function boxOfficeRecordsItemListJsonLd({
       item: {
         "@type": record.film.type === "series" ? "TVSeries" : "Movie",
         name: record.film.title,
-        ...(record.film.url ? { url: `${site}${record.film.url}` } : {}),
-        ...(record.film.qid ? { sameAs: `https://www.wikidata.org/wiki/${record.film.qid}` } : {})
+        url: `${site}${record.film.url}`,
+        ...(record.film.qid
+          ? { sameAs: `https://www.wikidata.org/wiki/${record.film.qid}` }
+          : {})
       }
     }))
   };
@@ -333,12 +110,14 @@ export function boxOfficeDatasetJsonLd({
   description,
   url,
   dateModified,
+  period,
   records
 }: {
   name: string;
   description: string;
   url: string;
   dateModified: string;
+  period: BoxOfficeWeek;
   records: BoxOfficeRecord[];
 }) {
   return {
@@ -354,8 +133,10 @@ export function boxOfficeDatasetJsonLd({
       url: "https://bollyai.in"
     },
     license: "https://bollyai.in/about",
-    measurementTechnique: "Source-attributed worldwide gross USD from Wikidata P2142 or TMDB revenue field.",
-    variableMeasured: ["Worldwide gross box office (USD)"],
+    measurementTechnique:
+      "Exact closed-week gross consensus across at least two independent source groups. The lower reading is published only when the full source spread is within 25 percent.",
+    variableMeasured: ["Exact-week worldwide theatrical gross (USD)"],
+    temporalCoverage: `${period.start}/${period.end}`,
     spatialCoverage: "Worldwide",
     keywords: records.map((record) => record.film.title).join(", ")
   };
@@ -366,7 +147,8 @@ export function filmBoxOfficeDatasetJsonLd(film: Film) {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: `${film.title.value} box office tracker`,
-    description: `${film.title.value} day-wise India nett box-office tracker with attributed trade sources.`,
+    description:
+      `${film.title.value} day-wise India nett box-office tracker with attributed trade sources.`,
     url: `https://bollyai.in/${film.canonical_industry}/box-office/${film.slug}/`,
     dateModified: film.date_modified,
     creator: {
@@ -380,7 +162,8 @@ export function filmBoxOfficeDatasetJsonLd(film: Film) {
       name: film.title.value,
       sameAs: `https://www.wikidata.org/wiki/${film.qid.value}`
     },
-    measurementTechnique: "Day-wise trade readings rendered through BollyAI box-office publish rules.",
+    measurementTechnique:
+      "Day-wise trade readings rendered through BollyAI box-office publish rules.",
     variableMeasured: "India nett box office"
   };
 }
@@ -405,87 +188,7 @@ export function filmDayRowsItemListJsonLd(film: Film) {
   };
 }
 
-export function isYearSlug(slug: string): boolean {
-  return /^20\d{2}$/.test(slug);
-}
-
 function industryRank(industry: DeskSlug): number {
-  const index = SOUTH_FIRST.indexOf(industry);
-  return index === -1 ? SOUTH_FIRST.length : index;
-}
-
-function recordYear(record: BoxOfficeRecord, board: BoxOfficeBoard): string {
-  return record.release_date ? record.release_date.slice(0, 4) : board.week?.start.slice(0, 4) ?? new Date().getFullYear().toString();
-}
-
-function getPublishedIndiaNet(record: BoxOfficeRecord): number | null {
-  if (!record.india_net_inr_cr) return null;
-  const decision = decideBoxOfficeFigure(record.india_net_inr_cr);
-  return decision.published ? decision.range.low : null;
-}
-
-function getPublishedWorldwideGross(record: BoxOfficeRecord): number | null {
-  if (!record.worldwide_gross_inr_cr) return null;
-  const decision = decideBoxOfficeFigure(record.worldwide_gross_inr_cr);
-  return decision.published ? decision.range.low : null;
-}
-
-/** Returns worldwide gross in USD millions for USD-schema records, null otherwise */
-function getPublishedWorldwideGrossUsdM(record: BoxOfficeRecord): number | null {
-  const usd = record.worldwide_gross_usd?.value;
-  if (typeof usd !== "number" || !Number.isFinite(usd) || usd <= 0) return null;
-  return usd / 1_000_000;
-}
-
-function getPublishedClubFigure(record: BoxOfficeRecord): number | null {
-  const usdM = getPublishedWorldwideGrossUsdM(record);
-  if (usdM !== null) return usdM;
-  const indiaNet = getPublishedIndiaNet(record);
-  const worldwideGross = getPublishedWorldwideGross(record);
-  const figures = [indiaNet, worldwideGross].filter((value): value is number => value !== null);
-  if (figures.length === 0) return null;
-  return Math.max(...figures);
-}
-
-function compareRecordsByPublishedClubFigure(left: BoxOfficeRecord, right: BoxOfficeRecord): number {
-  const leftFigure = getPublishedClubFigure(left) ?? -1;
-  const rightFigure = getPublishedClubFigure(right) ?? -1;
-  return rightFigure - leftFigure || compareRecordsSouthFirst(left, right);
-}
-
-function sourceKey(source: BoxOfficeSource): string {
-  const raw = source.group || source.name;
-  const key = raw.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
-  if (key === "bollywoodhungama") return "bollywood_hungama";
-  if (key === "box_office_india") return "boxofficeindia";
-  if (key === "box_office_mojo_india") return "mojo_india";
-  return key;
-}
-
-function sourceGroup(source: BoxOfficeSource): string {
-  const key = sourceKey(source);
-  return SOURCE_GROUPS[key] ?? key;
-}
-
-function isIndependentPair(left: BoxOfficeSource, right: BoxOfficeSource): boolean {
-  const leftKey = sourceKey(left);
-  const rightKey = sourceKey(right);
-  if (leftKey === rightKey) return false;
-  if (sourceGroup(left) === sourceGroup(right)) return false;
-  if (PR_LEANING.has(leftKey) && PR_LEANING.has(rightKey)) return false;
-  return true;
-}
-
-function agreementPct(left: number, right: number): number {
-  const average = (left + right) / 2;
-  if (average === 0) return 0;
-  return (Math.abs(left - right) / average) * 100;
-}
-
-function roundCrore(value: number): number {
-  return Math.round(value * 100) / 100;
-}
-
-function roundPct(value: number): number {
-  return Math.round(value * 10) / 10;
+  const index = WESTERN_DESK_ORDER.indexOf(industry);
+  return index === -1 ? WESTERN_DESK_ORDER.length : index;
 }

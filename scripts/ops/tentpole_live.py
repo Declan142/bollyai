@@ -49,6 +49,7 @@ def run_fetchers(args: argparse.Namespace, data_dir: Path) -> dict[str, Any]:
         live_only=True,
         write=None if args.dry_run else str(data_dir),
         today=args.today,
+        boxoffice_fixture=None,
     )
     return run_all_fetchers.run(fetcher_args)
 
@@ -65,10 +66,17 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
-    args = build_parser().parse_args(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv)
     data_dir = Path(args.data_dir)
     if not data_dir.is_absolute():
         data_dir = REPO_ROOT / data_dir
+    if (
+        args.fixture_mode
+        and not args.dry_run
+        and data_dir.resolve() == (REPO_ROOT / "data").resolve()
+    ):
+        parser.error("fixture mode cannot write the public data directory")
 
     enabled, reason = (True, "force") if args.force else enabled_from_config(data_dir)
     if not enabled:

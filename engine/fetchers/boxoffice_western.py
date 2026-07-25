@@ -1,169 +1,162 @@
+"""Offline-first adapter for the strict Western exact-week contract.
+
+No operational source adapter is enabled yet. A live run therefore reports
+``NO_EXACT_WEEK_SOURCE`` and leaves the last known good board untouched.
+"""
+
 from __future__ import annotations
-import json, os, re, sys, urllib.parse, urllib.request
-from datetime import date, timedelta
+
+import argparse
+import json
+import re
+import sys
+from datetime import date
 from pathlib import Path
 from typing import Any
 
 FETCHERS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(FETCHERS_DIR))
-from common import USER_AGENT, utc_now
 
-TMDB_BASE = 'https://api.themoviedb.org/3'
-WIKIDATA_SPARQL = 'https://query.wikidata.org/sparql'
+from boxoffice_week_schema import (  # noqa: E402
+    BOARD_SCHEMA,
+    BoxOfficeContractError,
+    build_board_from_source_payload,
+    closed_week,
+    pending_board,
+    validate_board,
+)
+from common import (  # noqa: E402
+    DATA_DIR,
+    FIXTURE_DIR,
+    read_json,
+    repo_path,
+    utc_now,
+    write_json,
+)
 
-def _slugify(t):
-    import re as _re
-    return _re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')
 
-def _http_get(url):
-    req = urllib.request.Request(url, headers={
-        'User-Agent': USER_AGENT,
-        'Accept': 'application/sparql-results+json,application/json',
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return json.loads(r.read())
-    except Exception as exc:
-        # Stay non-fatal so a dead upstream still produces a DATA_PENDING board
-        # rather than a crash, but never fail silently: a swallowed exception here
-        # is exactly how a malformed query went unnoticed for two weeks.
-        print(f'[boxoffice_western] fetch failed: {type(exc).__name__}: {exc}', file=sys.stderr)
-        return None
+DEFAULT_FIXTURE_PATH = FIXTURE_DIR / "boxoffice_week_exact.json"
+CANONICAL_DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}\Z")
 
-def fetch_wikidata_boxoffice(*, year_start=2024, year_end=2026, limit=30):
-    dq = chr(34)
-    sparql = (
-        'SELECT DISTINCT ?item ?itemLabel ?gross ?release WHERE {'
-        + ' ?item wdt:P31 wd:Q11424 . ?item wdt:P364 wd:Q1860 .'
-        + ' ?item p:P2142 ?stmt . ?stmt ps:P2142 ?gross .'
-        + ' ?stmt psv:P2142/wikibase:quantityUnit ?cur .'
-        + ' ?cur rdfs:label ?cl .'
-        + " FILTER(LANG(?cl) = 'en' && STR(?cl) = 'United States dollar')"
-        + ' ?item wdt:P577 ?release .'
-        + f' FILTER(YEAR(?release) >= {year_start} && YEAR(?release) <= {year_end})'
-        # Single braces. This segment is a plain string, not an f-string, so the
-        # doubled braces it used to carry were sent to Wikidata literally and the
-        # endpoint answered HTTP 500 on every call from 2026-07-12 onward.
-        + " SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }"
-        + ' } ORDER BY DESC(?gross) LIMIT ' + str(limit)
+
+def fetch_western_boxoffice(
+    *,
+    fixture_mode: bool = False,
+    fixture_path: Path | None = None,
+    expected_week: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    """Return a structured exact-week outcome without unsafe fallback data."""
+
+    requested_week = expected_week or closed_week()
+    if not fixture_mode:
+        return {
+            "status": "data_pending",
+            "code": "NO_EXACT_WEEK_SOURCE",
+            "board": pending_board(week=requested_week),
+            "source_readings": 0,
+            "published_records": 0,
+        }
+
+    source_path = fixture_path or DEFAULT_FIXTURE_PATH
+    source_payload = read_json(source_path, default=None)
+    if source_payload is None:
+        raise BoxOfficeContractError(
+            "FIXTURE_NOT_FOUND",
+            f"offline fixture not found: {source_path}",
+        )
+    board = build_board_from_source_payload(
+        source_payload,
+        expected_week=requested_week,
     )
-    url = WIKIDATA_SPARQL + '?' + urllib.parse.urlencode({'format': 'json', 'query': sparql})
-    data = _http_get(url)
-    if not data: return []
-    rows = data.get('results', {}).get('bindings', [])
-    records, seen = [], set()
-    as_of = date.today().isoformat()
-    fetched_at = utc_now()
-    for row in rows:
-        qid = row['item']['value'].split('/')[-1]
-        title = row.get('itemLabel', {}).get('value', '')
-        gross_str = row.get('gross', {}).get('value', '')
-        release = row.get('release', {}).get('value', '')[:10]
-        if not title or title == qid or not gross_str or qid in seen: continue
-        seen.add(qid)
-        try: gross_usd = float(gross_str)
-        except ValueError: continue
-        source_url = f'https://www.wikidata.org/wiki/' + qid
-        records.append({
-            'film': {
-                'title': title, 'type': 'film',
-                'qid': qid, 'slug': _slugify(title),
-                'url': '/hollywood/review/' + _slugify(title) + '/',
-            },
-            'language': 'en', 'industry': 'hollywood',
-            'territory': 'Worldwide', 'release_date': release,
-            'worldwide_gross_usd': {
-                # Honesty fence 7 reserves "trade estimate" for >= 2 sources
-                # agreeing within 10%. This is one Wikidata reading, so it is
-                # labelled as exactly that and nothing stronger.
-                'value': gross_usd, 'label': 'single source, cumulative to date',
-                'as_of': as_of,
-                'sources': [{
-                    'name': 'Wikidata', 'url': source_url,
-                    'as_of': as_of, 'fetched_at': fetched_at,
-                    'metric': 'worldwide_gross_usd', 'value': gross_usd,
-                }],
-            },
-        })
-    return records
-
-def fetch_tmdb_boxoffice(*, api_key, limit=20):
-    records, seen = [], set()
-    as_of = date.today().isoformat()
-    fetched_at = utc_now()
-    url = TMDB_BASE + '/movie/now_playing?' + urllib.parse.urlencode({'api_key': api_key, 'language': 'en-US', 'region': 'US', 'page': '1'})
-    data = _http_get(url)
-    if not data: return []
-    for item in data.get('results', [])[:limit]:
-        tid = str(item.get('id', ''))
-        if tid in seen: continue
-        seen.add(tid)
-        detail = _http_get(TMDB_BASE + '/movie/' + tid + '?' + urllib.parse.urlencode({'api_key': api_key, 'language': 'en-US'}))
-        if not detail: continue
-        revenue = detail.get('revenue')
-        if not revenue: continue
-        title = detail.get('title', '')
-        release_date = detail.get('release_date', '')
-        source_url = 'https://www.themoviedb.org/movie/' + tid
-        records.append({
-            'film': {
-                'title': title, 'type': 'film',
-                'qid': None, 'slug': _slugify(title),
-                'url': '/hollywood/review/' + _slugify(title) + '/',
-            },
-            'language': detail.get('original_language', 'en'),
-            'industry': 'hollywood',
-            'territory': 'Worldwide',
-            'release_date': release_date,
-            'worldwide_gross_usd': {
-                # Same fence-7 reasoning as the Wikidata path above.
-                'value': float(revenue), 'label': 'single source, cumulative to date',
-                'as_of': as_of,
-                'sources': [{
-                    'name': 'TMDB', 'url': source_url,
-                    'as_of': as_of, 'fetched_at': fetched_at,
-                    'metric': 'worldwide_gross_usd', 'value': float(revenue),
-                }],
-            },
-        })
-    return records
-
-def fetch_western_boxoffice(*, limit=20):
-    api_key = os.environ.get('TMDB_API_KEY', '')
-    if api_key:
-        results = fetch_tmdb_boxoffice(api_key=api_key, limit=limit)
-        if results: return sorted(results, key=lambda r: r['worldwide_gross_usd']['value'], reverse=True)
-    return fetch_wikidata_boxoffice()
-
-def build_current_week_json(records):
-    today = date.today()
-    ws = today - timedelta(days=today.weekday())
-    we = ws + timedelta(days=6)
-    label = ws.strftime('%-d %B %Y')
     return {
-        'schema': 'bollyai-boxoffice-week/v2',
-        'DATA_PENDING': len(records) == 0,
-        'generated_at': utc_now(),
-        'territory': 'Worldwide',
-        'week': {
-            'start': ws.isoformat(),
-            'end': we.isoformat(),
-            'label': f'Week of ' + label,
-        },
-        'records': records,
+        "status": board["status"],
+        "code": (
+            "FIXTURE_READY"
+            if board["status"] == "ready"
+            else "NO_EXACT_WEEK_CONSENSUS"
+        ),
+        "board": board,
+        "source_readings": len(source_payload["readings"]),
+        "published_records": sum(
+            record["week_gross_usd"]["value"] is not None
+            for record in board["records"]
+        ),
     }
 
-if __name__ == '__main__':
-    import argparse
-    p = argparse.ArgumentParser()
-    p.add_argument('--limit', type=int, default=20)
-    p.add_argument('--emit')
-    args = p.parse_args()
-    records = fetch_western_boxoffice(limit=args.limit)
-    payload = build_current_week_json(records)
-    out = json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=True)
-    if args.emit:
-        Path(args.emit).write_text(out)
-        print(f'Wrote ' + str(len(records)) + ' records', file=sys.stderr)
-    else:
-        print(out)
+
+def build_current_week_json(
+    records: list[dict[str, Any]],
+    *,
+    today: date | None = None,
+) -> dict[str, Any]:
+    """Compatibility wrapper that now enforces the v3 closed-week contract."""
+
+    week = closed_week(today)
+    payload = {
+        "schema": BOARD_SCHEMA,
+        "status": "ready" if records else "data_pending",
+        "generated_at": utc_now(),
+        "territory": "Worldwide",
+        "week": week,
+        "records": records,
+    }
+    return validate_board(payload)
+
+
+def _parse_cli_date(value: str) -> date:
+    if not CANONICAL_DATE_PATTERN.fullmatch(value):
+        raise argparse.ArgumentTypeError("--today must use YYYY-MM-DD")
+    try:
+        return date.fromisoformat(value)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError("--today must be a valid calendar date") from exc
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description="Build the exact-week Western box-office board.",
+    )
+    parser.add_argument(
+        "--fixture-mode",
+        action="store_true",
+        help="Use the local offline source fixture.",
+    )
+    parser.add_argument(
+        "--fixture",
+        type=Path,
+        help="Override the offline source fixture path.",
+    )
+    parser.add_argument(
+        "--today",
+        type=_parse_cli_date,
+        help="Override today as YYYY-MM-DD.",
+    )
+    parser.add_argument(
+        "--emit",
+        type=Path,
+        help="Write only a ready board; pending preserves any existing file.",
+    )
+    args = parser.parse_args(argv)
+    if args.fixture and not args.fixture_mode:
+        parser.error("--fixture requires --fixture-mode")
+    emit_path = repo_path(args.emit) if args.emit else None
+    if (
+        args.fixture_mode
+        and emit_path
+        and emit_path.resolve().is_relative_to(DATA_DIR.resolve())
+    ):
+        parser.error("fixture mode cannot emit inside the public data directory")
+    outcome = fetch_western_boxoffice(
+        fixture_mode=args.fixture_mode,
+        fixture_path=args.fixture,
+        expected_week=closed_week(args.today),
+    )
+    if emit_path and outcome["status"] == "ready":
+        write_json(emit_path, outcome["board"])
+    json.dump(outcome, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
+    sys.stdout.write("\n")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

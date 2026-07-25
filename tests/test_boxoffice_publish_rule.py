@@ -8,6 +8,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "engine" / "fetchers"))
 
 from boxoffice import SourceReading, publish_rule
+from boxoffice_week_schema import validate_board
 
 
 def reading(source: str, value: float, *, metric: str = "india_net", territory: str = "India") -> SourceReading:
@@ -83,18 +84,11 @@ def test_current_week_schema_and_published_figures_are_source_gated():
     path = REPO_ROOT / "data" / "boxoffice" / "current-week.json"
     payload = json.loads(path.read_text(encoding="utf-8"))
 
-    # Western rebuild (commit 3ce98b7, 2026-06-27): the board reshaped from an
-    # India INR-crore day-wise sheet to a worldwide-gross USD board. Schema v2
-    # record shape comes from engine/fetchers/boxoffice_western.py, the fetcher
-    # that actually writes this file - assert what it truthfully produces, not
-    # the retired v1 shape.
-    assert payload["schema"] == "bollyai-boxoffice-week/v2"
+    validate_board(payload)
+    assert payload["schema"] == "bollyai-boxoffice-week/v3"
     assert payload["territory"] == "Worldwide"
-
-    # A week with no source-gated Western box-office is a valid empty/pending
-    # board. DATA_PENDING models exactly this state.
     records = payload["records"]
-    assert payload["DATA_PENDING"] is (len(records) == 0)
+    assert payload["status"] == ("data_pending" if len(records) == 0 else "ready")
 
     for record in records:
         assert record["territory"] == "Worldwide"
@@ -104,16 +98,20 @@ def test_current_week_schema_and_published_figures_are_source_gated():
         assert "budget" not in json.dumps(record).lower()
         assert "salary" not in json.dumps(record).lower()
 
-        figure = record["worldwide_gross_usd"]
-        assert set(("value", "sources", "label")).issubset(figure)
+        figure = record["week_gross_usd"]
+        assert figure["measurement"] == "exact_week"
+        assert figure["period"] == payload["week"]
+        assert figure["currency"] == "USD"
         if figure["value"] is None:
             assert figure["label"] == "tracking"
             continue
 
         assert isinstance(figure["value"], (int, float))
-        assert figure["sources"], "a published figure must carry at least one real source"
+        assert len(figure["sources"]) >= 2
+        assert len({source["group"] for source in figure["sources"]}) >= 2
         for source in figure["sources"]:
             assert source["name"].strip()
             assert source["url"].startswith("https://")
-        numeric_sources = [source for source in figure["sources"] if isinstance(source.get("value"), (int, float))]
-        assert numeric_sources, "a published figure must cite at least one numeric source reading"
+            assert source["metric"] == "week_gross_usd"
+            assert source["measurement"] == "exact_week"
+            assert source["period"] == payload["week"]
