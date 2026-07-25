@@ -1,0 +1,86 @@
+{
+  "slug": "the-hawk",
+  "qid": {
+    "value": "Q125965346",
+    "source": "Wikidata",
+    "fetched_at": "2026-07-23T21:40:14+05:30",
+    "confidence": "verified"
+  },
+  "title": {
+    "value": "The Hawk",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-23T21:40:14+05:30",
+    "confidence": "verified"
+  },
+  "canonical_industry": "streaming",
+  "origin": "United States",
+  "original_language": {
+    "value": "en",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-23T21:40:14+05:30",
+    "confidence": "verified"
+  },
+  "platform": {
+    "value": "Netflix",
+    "source": "Wikipedia",
+    "fetched_at": "2026-07-23T21:40:14+05:30",
+    "confidence": "verified"
+  },
+  "status": "running",
+  "genres": [
+    "Comedy",
+    "Sports"
+  ],
+  "logline": "A washed-up former world-number-one golfer chases one last shot at the U.S. Open to complete his career Grand Slam, dragging his estranged family along for the swing.",
+  "poster": {
+    "src": "/img/series/the-hawk/poster.jpg",
+    "alt": "The Hawk poster",
+    "attribution": "Poster © Netflix / Gloria Sanchez Productions. Used for criticism and review under fair dealing (Sec 52(1)(a)). Takedown: bollyai.in/takedown"
+  },
+  "renewal": {
+    "state": "awaiting",
+    "note": "The ten-episode first season released in full on Netflix on July 16, 2026. No second-season decision has been announced.",
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Hawk_(TV_series)"
+  },
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2026,
+      "episodes": 10,
+      "release_date": {
+        "value": "2026-07-16",
+        "source": "Wikipedia",
+        "fetched_at": "2026-07-23T21:40:14+05:30",
+        "confidence": "verified"
+      },
+      "verdict": "SKIP",
+      "bollymeter": {
+        "score": 4.6,
+        "basis": "27% on Rotten Tomatoes from 44 critics and 50 on Metacritic from 24, among the weakest scores of Will Ferrell's TV career; both Variety and The Hollywood Reporter's reviews described the golf comedy as tired and undercooked despite the ensemble cast."
+      },
+      "critic": {
+        "positive_pct": 27,
+        "sample": 44,
+        "pull_quotes": [
+          {
+            "text": "Like 'Stick,' only blander.",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-hawk-review-will-ferrell-netflix-golf-1236649613/"
+          },
+          {
+            "text": "It probably establishes a new baseline representing the absolute minimum number of laughs it would be possible for a television show",
+            "source": "The Hollywood Reporter",
+            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-hawk-review-will-ferrell-netflix-golf-1236649613/"
+          }
+        ]
+      },
+      "audience": null,
+      "review_body": "The Hawk dropped all ten episodes on Netflix on July 16, reuniting Will Ferrell with the golf-comedy premise he has mined since Talladega Nights, and the reception has been unkind: 27 percent positive across 44 critics on Rotten Tomatoes, a 50 from Metacritic's 24. Ferrell plays Lonnie Hawkins, a disgraced former world number one chasing the U.S. Open to complete his career Grand Slam, opposite Molly Shannon as his ex-wife and Jimmy Tatro as the son he alienated. The show wants the family-dysfunction throughline that made Apple TV's Stick land earlier this year, but Lonnie is written selfish and shameless without the edge that would make either quality interesting to watch. Ten half-hours is a long runway for a premise this thin; the jokes clear a low bar and the father-son material never earns its late softening.",
+      "season_over_season": null,
+      "episode_reviews": []
+    }
+  ],
+  "_quarantine": [],
+  "date_modified": "2026-07-23T21:40:14+05:30"
+}

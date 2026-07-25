@@ -23,7 +23,11 @@ def _http_get(url):
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.loads(r.read())
-    except Exception:
+    except Exception as exc:
+        # Stay non-fatal so a dead upstream still produces a DATA_PENDING board
+        # rather than a crash, but never fail silently: a swallowed exception here
+        # is exactly how a malformed query went unnoticed for two weeks.
+        print(f'[boxoffice_western] fetch failed: {type(exc).__name__}: {exc}', file=sys.stderr)
         return None
 
 def fetch_wikidata_boxoffice(*, year_start=2024, year_end=2026, limit=30):
@@ -37,7 +41,10 @@ def fetch_wikidata_boxoffice(*, year_start=2024, year_end=2026, limit=30):
         + " FILTER(LANG(?cl) = 'en' && STR(?cl) = 'United States dollar')"
         + ' ?item wdt:P577 ?release .'
         + f' FILTER(YEAR(?release) >= {year_start} && YEAR(?release) <= {year_end})'
-        + " SERVICE wikibase:label {{ bd:serviceParam wikibase:language 'en'. }}"
+        # Single braces. This segment is a plain string, not an f-string, so the
+        # doubled braces it used to carry were sent to Wikidata literally and the
+        # endpoint answered HTTP 500 on every call from 2026-07-12 onward.
+        + " SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }"
         + ' } ORDER BY DESC(?gross) LIMIT ' + str(limit)
     )
     url = WIKIDATA_SPARQL + '?' + urllib.parse.urlencode({'format': 'json', 'query': sparql})
@@ -66,7 +73,10 @@ def fetch_wikidata_boxoffice(*, year_start=2024, year_end=2026, limit=30):
             'language': 'en', 'industry': 'hollywood',
             'territory': 'Worldwide', 'release_date': release,
             'worldwide_gross_usd': {
-                'value': gross_usd, 'label': 'trade estimate',
+                # Honesty fence 7 reserves "trade estimate" for >= 2 sources
+                # agreeing within 10%. This is one Wikidata reading, so it is
+                # labelled as exactly that and nothing stronger.
+                'value': gross_usd, 'label': 'single source, cumulative to date',
                 'as_of': as_of,
                 'sources': [{
                     'name': 'Wikidata', 'url': source_url,
@@ -106,7 +116,8 @@ def fetch_tmdb_boxoffice(*, api_key, limit=20):
             'territory': 'Worldwide',
             'release_date': release_date,
             'worldwide_gross_usd': {
-                'value': float(revenue), 'label': 'trade estimate',
+                # Same fence-7 reasoning as the Wikidata path above.
+                'value': float(revenue), 'label': 'single source, cumulative to date',
                 'as_of': as_of,
                 'sources': [{
                     'name': 'TMDB', 'url': source_url,

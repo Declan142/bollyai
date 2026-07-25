@@ -16,13 +16,18 @@ import argparse
 import json
 import re
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-import orfree
+from llm_bridge import coerce_json, configured_model, drop_malformed_list_items, gpt_ask
 from extract_dossier import mmss
 
 ROOT = Path.home() / "bollyai" / "data" / "subtitles"
+
+# Crosspass list fields whose items must be objects (same free-tier bare-string
+# hazard as dossiers; verify_crosspass has no strip guard, so normalize here).
+DICT_LIST_FIELDS = ("callbacks", "motifs", "weak_motifs", "character_arcs")
 
 SYSTEM = (
     "You are a forensic continuity analyst. You find cross-episode connections that exist "
@@ -151,6 +156,21 @@ def rematch_existing(slug: str) -> int:
     return 0
 
 
+def _crosspass_call(system: str, prompt: str, *, required_keys: tuple[str, ...],
+                    ctx: str, model: str) -> tuple[dict, dict]:
+    """Bridge-backed G1 call; call sites stay independent of transport details."""
+    t0 = time.time()
+    text, rc = gpt_ask(system, prompt, model=model, budget=12000, timeout=900)
+    obj = coerce_json(text) if rc == 0 else None
+    if obj is None or any(key not in obj for key in required_keys):
+        missing = [key for key in required_keys if not obj or key not in obj]
+        raise RuntimeError(f"codex crosspass g1_schema_fail ctx={ctx} rc={rc} missing={missing}")
+    for note in drop_malformed_list_items(obj, DICT_LIST_FIELDS):
+        print(f"  g1 normalize {ctx}: {note}", file=sys.stderr)
+    return obj, {"engine": "codex-bridge", "model": model, "lane_label": "codex-gpt",
+                 "latency_s": round(time.time() - t0, 1)}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
@@ -161,12 +181,6 @@ def main() -> int:
     if args.rematch:
         return rematch_existing(args.slug)
 
-    import os
-    if os.path.exists(os.path.expanduser("~/bollyai/data/subtitles/_engine/.azure-only")):
-        print(f"{args.slug}: crosspass SKIPPED (azure-only mode; the mega lanes need 1M-ctx "
-              f"OpenRouter, disabled per Aditya no-OpenRouter 2026-06-16). Core dossiers/reviews unaffected.")
-        return 0
-
     corpus, neps, recurring = build_corpus(args.slug)
     est_tokens = int(len(corpus.split()) * 1.4)
     print(f"{args.slug}: {neps} eps, ~{est_tokens//1000}K tokens corpus")
@@ -175,16 +189,20 @@ def main() -> int:
     prompt = PROMPT_TMPL.format(slug=args.slug, neps=neps, corpus=corpus, recurring=recurring)
     req_keys = ("callbacks", "motifs", "character_arcs", "self_check")
 
-    primary, meta1 = orfree.call(SYSTEM, prompt, lane="mega", max_tokens=12000,
-                                 temperature=0.2, required_keys=req_keys,
-                                 ctx=f"crosspass:{args.slug}:primary", total_timeout=900)
+    primary_model = configured_model()
+    primary, meta1 = _crosspass_call(
+        SYSTEM, prompt, required_keys=req_keys, ctx=f"crosspass:{args.slug}:primary",
+        model=primary_model,
+    )
     print(f"primary: {meta1['lane_label']} {meta1.get('latency_s')}s, {len(primary.get('callbacks', []))} callbacks")
 
     if not args.single:
         try:
-            secondary, meta2 = orfree.call(SYSTEM, prompt, lane="mega_alt", max_tokens=12000,
-                                           temperature=0.2, required_keys=req_keys,
-                                           ctx=f"crosspass:{args.slug}:secondary", total_timeout=900)
+            secondary_model = "gpt-5.6-terra" if primary_model == "gpt-5.6-luna" else "gpt-5.6-luna"
+            secondary, meta2 = _crosspass_call(
+                SYSTEM, prompt, required_keys=req_keys, ctx=f"crosspass:{args.slug}:secondary",
+                model=secondary_model,
+            )
             print(f"secondary: {meta2['lane_label']} {meta2.get('latency_s')}s, {len(secondary.get('callbacks', []))} callbacks")
             primary = intersect(primary, secondary)
         except Exception as e:
@@ -197,8 +215,9 @@ def main() -> int:
 
     out = ROOT / args.slug / "_dossiers"
     out.mkdir(exist_ok=True)
-    primary["_meta"] = {"engine": "orfree-v1", "consensus": not args.single,
-                        "primary_lane": meta1.get("lane_label"), "eps": neps}
+    primary["_meta"] = {"engine": meta1.get("engine"), "model": primary_model,
+                        "consensus": not args.single, "primary_lane": meta1.get("lane_label"),
+                        "eps": neps}
     (out / "_crosspass.json").write_text(json.dumps(primary, ensure_ascii=False, indent=1))
     hi = sum(1 for c in primary.get("callbacks", []) if c.get("confidence") == "high")
     print(f"crosspass written: {len(primary.get('callbacks', []))} callbacks ({hi} high-confidence)")

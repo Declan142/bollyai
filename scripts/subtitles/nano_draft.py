@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""nano_draft — batch draft episode reviews via gpt-5.4-nano (250 RPM, no dossier needed).
+"""nano_draft — batch draft episode reviews via the Empire Codex bridge.
 
 For series that lack subtitle dossiers, generates draft reviews from model knowledge + the
 REVIEW-HOUSE-STYLE contract.  Drafts are interim; P2 polish (FULL gpt-5-4) upgrades them.
@@ -23,36 +23,17 @@ import json
 import re
 import subprocess
 import time
-import urllib.request
-import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from llm_bridge import configured_model, gpt_ask
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 HOUSE_STYLE = os.path.join(os.path.dirname(__file__), 'REVIEW-HOUSE-STYLE.md')
 VALIDATE = os.path.join(REPO, 'scripts', 'batch', 'validate_series.py')
 LEDGER = os.path.join(REPO, 'data', 'subtitles', '_engine', 'nano-draft.jsonl')
 
-AZ_ENDPOINT = "https://adity-mnuhhdt9-eastus2.cognitiveservices.azure.com"
-AZ_API_VER = "2024-12-01-preview"
-NANO_DEPLOYMENT = "gpt-5.4-nano"
-
 WORKERS = int(os.environ.get('NANO_WORKERS', '5'))
 FORCE = '--force' in sys.argv
-
-_AZ_KEY = None
-
-
-def az_key() -> str:
-    global _AZ_KEY
-    if _AZ_KEY:
-        return _AZ_KEY
-    _AZ_KEY = os.environ.get('AZURE_FOUNDRY_KEY', '').strip()
-    if not _AZ_KEY:
-        _AZ_KEY = subprocess.run(
-            ["az", "cognitiveservices", "account", "keys", "list", "-g", "empire-ai",
-             "-n", "adity-mnuhhdt9-eastus2", "--query", "key1", "-o", "tsv"],
-            capture_output=True, text=True).stdout.strip()
-    return _AZ_KEY
 
 
 def log(rec: dict):
@@ -94,43 +75,9 @@ def parse_verdict_json(text: str) -> dict | None:
         return None
 
 
-def _http_post(url: str, headers: dict, body: dict, timeout: int = 120):
-    data = json.dumps(body).encode()
-    req = urllib.request.Request(url, data=data, headers=headers)
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return 200, json.loads(r.read()), ''
-    except urllib.error.HTTPError as e:
-        return e.code, None, str(e.headers.get('Retry-After', '') or '')
-    except Exception as e:
-        print(f"  call failed: {e!r}", file=sys.stderr)
-        return 0, None, ''
-
-
-def nano_chat(system_msg: str, user_msg: str, timeout: int = 90) -> tuple[str, int]:
-    """Call gpt-5.4-nano with backoff. Returns (text, rc)."""
-    url = (f"{AZ_ENDPOINT}/openai/deployments/{NANO_DEPLOYMENT}"
-           f"/chat/completions?api-version={AZ_API_VER}")
-    for attempt in range(5):
-        code, parsed, retry_after = _http_post(
-            url,
-            {"Content-Type": "application/json", "api-key": az_key()},
-            {"messages": [{"role": "system", "content": system_msg},
-                          {"role": "user", "content": user_msg}],
-             "max_completion_tokens": 2200},
-            timeout=timeout
-        )
-        if code == 200:
-            text = (parsed["choices"][0]["message"]["content"] or "").strip() if parsed else ""
-            return text, 0
-        if code == 429 and attempt < 4:
-            wait = int(retry_after) if str(retry_after).isdigit() else min(30, 4 * (2 ** attempt))
-            print(f"  429 rate-limit, backoff {wait}s (attempt {attempt+1}/5)", flush=True)
-            time.sleep(wait)
-            continue
-        print(f"  nano HTTP {code}", file=sys.stderr)
-        return "", 1
-    return "", 1
+def nano_chat(system_msg: str, user_msg: str, timeout: int = 600) -> tuple[str, int]:
+    """Call the shared bridge seam; model and effort come from BOLLYAI_LLM_* env."""
+    return gpt_ask(system_msg, user_msg, model=configured_model(), timeout=timeout)
 
 
 def build_prompt(series_data: dict, season_obj: dict, ep_num: int,
@@ -207,7 +154,7 @@ def draft_episode(series_data: dict, slug: str, snum: int, ep_num: int,
 
     if rc != 0 or len(text.split()) < 200:
         log({'event': 'ep_FAIL', 'slug': slug, 'ep': ep_label,
-             'detail': f'rc={rc} words={len(text.split())}', 'model': NANO_DEPLOYMENT})
+             'detail': f'rc={rc} words={len(text.split())}', 'model': configured_model()})
         return None
 
     # Strip em-dashes
@@ -228,7 +175,7 @@ def draft_episode(series_data: dict, slug: str, snum: int, ep_num: int,
 
     words = len(review_body.split())
     log({'event': 'ep_ok', 'slug': slug, 'ep': ep_label,
-         'detail': f'{words} words | em={em_dash_count(review_body)}', 'model': NANO_DEPLOYMENT})
+         'detail': f'{words} words | em={em_dash_count(review_body)}', 'model': configured_model()})
 
     ep_review = {
         'number': ep_num,
