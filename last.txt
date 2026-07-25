@@ -1,20 +1,17 @@
-Status: COMPLETE
+Status: PARTIAL
 Did:
-  - Preserved the two former local-main commits on safety/bollyai-pre-clean-20260713.
-  - Saved the complete dirty and untracked state in stash object eaa8cad3a44da921843e7d03e1613a152a6518bf and pinned it with safety/bollyai-dirty-snapshot-20260713.
-  - Verified the three pre-existing report files inside the safety snapshot against their original SHA-256 checksums.
-  - Realigned local main to the published production release on origin/main without git reset --hard and without any force push.
-  - Recorded and fast-forward published this cleanup handoff so the original worktree ends clean and synchronized.
+  - Migrated live subtitle extraction, review drafting, review building, and crosspass calls to the Empire Codex bridge.
+  - Set BOLLYAI_LLM_MODEL=gpt-5.6-luna and BOLLYAI_LLM_EFFORT=low defaults; gpt-5.6-terra is the approved quality/consensus alternative.
+  - Verified three real luna dossier extractions and G2 grounding cleanly.
+  - Removed STOP and the obsolete .azure-only marker.
+  - Started the full queue worker and a focused Better Call Saul drain worker.
+  - Committed only six scripts/subtitles Python source files on migrate/subtitles-codex-runtime (cb8c082).
 Artefacts:
-  - last.txt
-  - site/app/page.tsx
-  - site/app/home.module.css
-  - data/ott/calendar/2026-W30.json
-Verification:
-  - safety refs, stash presence, three report checksums, branch alignment, remote synchronization, and final porcelain status -> 8 passed; no dirty paths remain and main matches origin/main
-Open issues:
-  - Safety branches and the stash are intentionally retained for rollback; remove them only after Aditya confirms they are no longer needed.
-Next step suggested: Continue normal work from /home/aditya/bollyai main; use the safety refs only if an old local file must be recovered.
+  - scripts/subtitles/llm_bridge.py (101 lines)
+  - data/subtitles/darling-in-the-franxx/_dossiers/S01E01.json (real bridge canary, ignored)
+  - data/subtitles/_engine/batch-console.log (live drain log, ignored)
+Verification: python3 -m py_compile changed runtime modules -> PASS; darling-in-the-franxx 3/3 required-schema + G2 jq gate -> PASS; post-relaunch console extracted>0 grep -> PASS; post-relaunch Azure/OpenRouter/401 grep -> 0
+Open issues: one legacy OpenRouter crosspass call was made by the first worker before its hidden live path was identified; it failed G1, wrote no crosspass artifact, was stopped, and season_crosspass.py is now bridge-backed. Both replacement drain workers remain live.
+Next step suggested: Let PIDs 2355671 and 2590274 continue draining; inspect the batch console/ledger rather than restarting them.
 Network URLs:
-  - https://github.com/Declan142/bollyai
-  - https://bollyai.in/
+  - none
