@@ -13,7 +13,7 @@
     "@fontsource-variable/fraunces": "^5.2.6",
     "@fontsource/hanken-grotesk": "^5.2.6",
     "@fontsource/jetbrains-mono": "^5.2.6",
-    "next": "^14.2.30",
+    "next": "15.5.22",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -21,7 +21,13 @@
     "@types/node": "^20.17.32",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
-    "sharp": "^0.34.5",
+    "sharp": "0.35.3",
     "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "sharp": "$sharp",
+    "next": {
+      "postcss": "8.5.18"
+    }
   }
 }

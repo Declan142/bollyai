@@ -11,7 +11,8 @@ export function generateStaticParams() {
   return getOttPlatforms().map((platform) => ({ platform: platformSlug(platform) }));
 }
 
-export function generateMetadata({ params }: { params: { platform: string } }) {
+export async function generateMetadata(props: { params: Promise<{ platform: string }> }) {
+  const params = await props.params;
   const platform = getOttPlatforms().find((item) => platformSlug(item) === params.platform);
   if (!platform) return {};
   const title = `What to Watch on ${platform} - New Releases & Verdicts`;
@@ -21,7 +22,8 @@ export function generateMetadata({ params }: { params: { platform: string } }) {
   return { title, description, ...pageSeo({ path: `/ott/${params.platform}/` }) };
 }
 
-export default function OttPlatformPage({ params }: { params: { platform: string } }) {
+export default async function OttPlatformPage(props: { params: Promise<{ platform: string }> }) {
+  const params = await props.params;
   const calendar = getOttCalendar();
   const platform = getOttPlatforms().find((item) => platformSlug(item) === params.platform);
   if (!platform) {

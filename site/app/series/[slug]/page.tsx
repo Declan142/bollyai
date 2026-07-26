@@ -21,7 +21,8 @@ export function generateStaticParams() {
   return getAllSeries().map((s) => ({ slug: s.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
+export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const series = getSeries(params.slug);
   if (!series) return {};
   const peak = peakSeason(series);
@@ -37,7 +38,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   return { title, description, ...pageSeo({ path: `/series/${params.slug}/`, image: ogImage(series.slug) ?? series.poster.src, type: "article" }) };
 }
 
-export default function SeriesHub({ params }: { params: { slug: string } }) {
+export default async function SeriesHub(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const series = getSeries(params.slug);
   if (!series) notFound();
   const latest = latestSeason(series);

@@ -15,7 +15,8 @@ export function generateStaticParams() {
     .map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
+export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const prediction = getPrediction(params.slug);
   const series = getSeries(params.slug);
   if (!prediction || !series) return {};
@@ -25,7 +26,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   return { title, description, ...pageSeo({ path: `/series/${params.slug}/finale-predictions/`, image: series.poster.src, type: "article" }) };
 }
 
-export default function FinalePredictionsPage({ params }: { params: { slug: string } }) {
+export default async function FinalePredictionsPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const series = getSeries(params.slug);
   const prediction = getPrediction(params.slug);
   if (!series || !prediction) notFound();

@@ -21,7 +21,8 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: { params: { desk: string; slug: string } }) {
+export async function generateMetadata(props: { params: Promise<{ desk: string; slug: string }> }) {
+  const params = await props.params;
   const film = getFilm(params.desk, params.slug);
   if (!film) return {};
   const filmTitle = film.title.value;
@@ -37,7 +38,8 @@ export function generateMetadata({ params }: { params: { desk: string; slug: str
   return { title, description, ...pageSeo({ path: `/${params.desk}/box-office/${params.slug}/`, image: film.poster.src, type: "article" }) };
 }
 
-export default function BoxOfficePage({ params }: { params: { desk: string; slug: string } }) {
+export default async function BoxOfficePage(props: { params: Promise<{ desk: string; slug: string }> }) {
+  const params = await props.params;
   const film = getFilm(params.desk, params.slug);
   if (!film) {
     notFound();

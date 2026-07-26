@@ -5,6 +5,9 @@ Did:
   - Added offline fixtures, immutable source-group ownership, atomic durable writes, explicit last-good preservation, and fixture-to-public publication fences across every owner CLI.
   - Removed retired selector pages from rendering, search, Ask, and sitemaps while preserving intentional permanent redirects.
   - Regenerated the static artifacts so the board, sitemap lastmod, and rendered Dataset timestamp are coherent.
+  - Cleared the production dependency advisories by upgrading Next.js to 15.5.22, PostCSS to 8.5.18, and Sharp to 0.35.3 without changing React 18.
+  - Migrated all dynamic App Router pages to Next.js 15 async params and made robots.txt explicitly static-export compatible.
+  - Made the series-link generator byte-stable when its validated source graph is unchanged.
 Artefacts:
   - engine/fetchers/boxoffice_week_schema.py (600 lines)
   - engine/fetchers/boxoffice_western.py (162 lines)
@@ -14,21 +17,29 @@ Artefacts:
   - site/lib/boxoffice-schema.mjs (440 lines)
   - site/lib/boxoffice-schema.d.mts (73 lines)
   - site/lib/boxoffice.ts (194 lines)
+  - site/package.json
+  - site/package-lock.json
+  - site/app/robots.ts
+  - site/app/[desk]/page.tsx
+  - site/app/series/[slug]/page.tsx
+  - site/scripts/build-series-links.mjs
   - data/cache/fixtures/boxoffice_week_exact.json
   - tests/fixtures/boxoffice/
 Verification:
   - python3 -m pytest -q -> PASS: 297 tests passed
-  - npm run test:boxoffice -> PASS: 17 tests passed
+  - npm ci -> PASS: clean install, 39 packages audited
+  - npm audit --audit-level=high -> PASS: 0 vulnerabilities in the full dependency tree
+  - npm run test:boxoffice -> PASS: 17 of 17 tests passed
   - python3 -m compileall -q engine/fetchers scripts/boxoffice scripts/ops tests -> PASS
-  - npm run build -> PASS: 5661 static pages and 6839 output files under the 20000-file cap
+  - npm run build -> PASS: 5661 of 5661 static pages and 6840 output files under the 20000-file cap
   - Python and JavaScript parsers -> PASS on the tracked strict v3 data_pending board
   - fixture publication guards -> PASS: all three owner CLIs correctly rejected public-data writes
   - malformed and compact --today values -> PASS: argparse correctly rejected both forms with no traceback
   - generated artifact coherence -> PASS: current timestamp present and stale timestamp count 0
+  - series-link generator rerun twice -> PASS: identical SHA-256 643de4fb5aeb37521148b30de82c0efcffdff284184374bbb6a05dd5efdfa04a and no tracked artifact diff
   - retired selector scan -> PASS: absent from build, search, Ask, and sitemaps except intentional redirects
-  - npm audit --omit=dev -> BLOCKED, 2 high production-tree advisories in Next.js and PostCSS with only a breaking forced upgrade proposed
   - git diff --check -> PASS
-Open issues: The production source registry and live exact-week adapter are deliberately empty, so the public board truthfully remains data_pending. Two upstream production dependency advisories also remain. No deployment or paid provider call was performed.
+Open issues: The production source registry and live exact-week adapter are deliberately empty, so the public board truthfully remains data_pending. No deployment or paid provider call was performed.
 Next step suggested: register and test at least two approved independent exact-week production sources, then run a reviewed live canary before deployment.
 Network URLs:
   - https://registry.npmjs.org
