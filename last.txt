@@ -16,17 +16,18 @@ Artefacts:
   - site/lib/boxoffice.ts (194 lines)
   - data/cache/fixtures/boxoffice_week_exact.json
   - tests/fixtures/boxoffice/
-Verification: python3 -m pytest -q -> PASS, 297 passed
-Verification: npm run test:boxoffice -> PASS, 17 passed
-Verification: python3 -m compileall -q engine/fetchers scripts/boxoffice scripts/ops tests -> PASS
-Verification: npm run build -> PASS, 5661 static pages and 6839 output files under the 20000-file cap
-Verification: Python and JavaScript parsers -> PASS on the tracked strict v3 data_pending board
-Verification: fixture publication guards -> PASS, all three owner CLIs rejected public-data writes with exit 2
-Verification: malformed and compact --today values -> PASS, argparse exit 2 with no traceback
-Verification: generated artifact coherence -> PASS, current timestamp present and stale timestamp count 0
-Verification: retired selector scan -> PASS, absent from build, search, Ask, and sitemaps except intentional redirects
-Verification: npm audit --omit=dev -> BLOCKED, 2 high production-tree advisories in Next.js and PostCSS with only a breaking forced upgrade proposed
-Verification: git diff --check -> PASS
+Verification:
+  - python3 -m pytest -q -> PASS: 297 tests passed
+  - npm run test:boxoffice -> PASS: 17 tests passed
+  - python3 -m compileall -q engine/fetchers scripts/boxoffice scripts/ops tests -> PASS
+  - npm run build -> PASS: 5661 static pages and 6839 output files under the 20000-file cap
+  - Python and JavaScript parsers -> PASS on the tracked strict v3 data_pending board
+  - fixture publication guards -> PASS: all three owner CLIs correctly rejected public-data writes
+  - malformed and compact --today values -> PASS: argparse correctly rejected both forms with no traceback
+  - generated artifact coherence -> PASS: current timestamp present and stale timestamp count 0
+  - retired selector scan -> PASS: absent from build, search, Ask, and sitemaps except intentional redirects
+  - npm audit --omit=dev -> BLOCKED, 2 high production-tree advisories in Next.js and PostCSS with only a breaking forced upgrade proposed
+  - git diff --check -> PASS
 Open issues: The production source registry and live exact-week adapter are deliberately empty, so the public board truthfully remains data_pending. Two upstream production dependency advisories also remain. No deployment or paid provider call was performed.
 Next step suggested: register and test at least two approved independent exact-week production sources, then run a reviewed live canary before deployment.
 Network URLs:
