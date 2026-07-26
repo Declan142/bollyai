@@ -1,7 +1,344 @@
 {
-  "DATA_PENDING": true,
-  "generated_at": "2026-07-25T06:37:14Z",
-  "records": [],
+  "DATA_PENDING": false,
+  "generated_at": "2026-07-26T07:10:29Z",
+  "records": [
+    {
+      "film": {
+        "qid": "Q3604746",
+        "slug": "avatar-the-way-of-water",
+        "title": "Avatar: The Way of Water",
+        "type": "film",
+        "url": "/hollywood/review/avatar-the-way-of-water/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-10-02",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q3604746",
+            "value": 2176229105.0
+          }
+        ],
+        "value": 2176229105.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q102180106",
+        "slug": "deadpool-wolverine",
+        "title": "Deadpool & Wolverine",
+        "type": "film",
+        "url": "/hollywood/review/deadpool-wolverine/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2024-07-24",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q102180106",
+            "value": 1338073645.0
+          }
+        ],
+        "value": 1338073645.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q59395971",
+        "slug": "lilo-stitch",
+        "title": "Lilo & Stitch",
+        "type": "film",
+        "url": "/hollywood/review/lilo-stitch/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-05-21",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q59395971",
+            "value": 1030541425.0
+          }
+        ],
+        "value": 1030541425.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q42051",
+        "slug": "star-wars-episode-iii-revenge-of-the-sith",
+        "title": "Star Wars: Episode III \u2013 Revenge of the Sith",
+        "type": "film",
+        "url": "/hollywood/review/star-wars-episode-iii-revenge-of-the-sith/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-04-24",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q42051",
+            "value": 905595947.0
+          }
+        ],
+        "value": 905595947.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q13417189",
+        "slug": "interstellar",
+        "title": "Interstellar",
+        "type": "film",
+        "url": "/hollywood/review/interstellar/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-02-26",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q13417189",
+            "value": 701729206.0
+          }
+        ],
+        "value": 701729206.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q116547790",
+        "slug": "superman",
+        "title": "Superman",
+        "type": "film",
+        "url": "/hollywood/review/superman/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-07-09",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q116547790",
+            "value": 618723803.0
+          }
+        ],
+        "value": 618723803.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q114802043",
+        "slug": "the-conjuring-last-rites",
+        "title": "The Conjuring: Last Rites",
+        "type": "film",
+        "url": "/hollywood/review/the-conjuring-last-rites/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-09-04",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q114802043",
+            "value": 460164908.0
+          }
+        ],
+        "value": 460164908.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q112865900",
+        "slug": "beetlejuice-beetlejuice",
+        "title": "Beetlejuice Beetlejuice",
+        "type": "film",
+        "url": "/hollywood/review/beetlejuice-beetlejuice/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2024-08-28",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q112865900",
+            "value": 425500000.0
+          }
+        ],
+        "value": 425500000.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q118904382",
+        "slug": "how-to-train-your-dragon",
+        "title": "How to Train Your Dragon",
+        "type": "film",
+        "url": "/hollywood/review/how-to-train-your-dragon/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-06-11",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q118904382",
+            "value": 371482710.0
+          }
+        ],
+        "value": 371482710.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q115932544",
+        "slug": "alien-romulus",
+        "title": "Alien: Romulus",
+        "type": "film",
+        "url": "/hollywood/review/alien-romulus/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2024-08-15",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q115932544",
+            "value": 350447667.0
+          }
+        ],
+        "value": 350447667.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q85847274",
+        "slug": "sound-of-freedom",
+        "title": "Sound of Freedom",
+        "type": "film",
+        "url": "/hollywood/review/sound-of-freedom/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2024-01-25",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q85847274",
+            "value": 231000000.0
+          }
+        ],
+        "value": 231000000.0
+      }
+    },
+    {
+      "film": {
+        "qid": "Q117085614",
+        "slug": "one-battle-after-another",
+        "title": "One Battle After Another",
+        "type": "film",
+        "url": "/hollywood/review/one-battle-after-another/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2025-09-08",
+      "territory": "Worldwide",
+      "worldwide_gross_usd": {
+        "as_of": "2026-07-26",
+        "label": "single source, cumulative to date",
+        "sources": [
+          {
+            "as_of": "2026-07-26",
+            "fetched_at": "2026-07-26T07:10:29Z",
+            "metric": "worldwide_gross_usd",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q117085614",
+            "value": 209586604.0
+          }
+        ],
+        "value": 209586604.0
+      }
+    }
+  ],
   "schema": "bollyai-boxoffice-week/v2",
   "territory": "Worldwide",
   "week": {
