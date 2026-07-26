@@ -57,6 +57,54 @@ divergent reading.
 - A single source, a repeated group, or spread above 25 percent publishes no
   number and remains `tracking`.
 
+## Source clearance gate
+
+`source-candidates.json` is a sanitized, machine-readable assessment registry.
+It contains no endpoint, credential, fee, or licensing-term assumptions. The
+offline evaluator is `engine/fetchers/boxoffice_source_clearance.py`.
+
+The evaluator compares the registry to a code-owned policy that the JSON
+cannot weaken. A source qualifies only when all of these are true:
+
+- its coverage is proven as Worldwide gross in USD for one exact, closed
+  Monday-to-Sunday period on the UTC calendar;
+- its independence group is attested with a reviewed reference;
+- coverage, legal, terms, and license reviews are complete;
+- activation has a reviewed approval reference and an adapter registered in
+  code.
+
+The gate opens only with at least two qualifying sources from two distinct
+independence groups. Opening this gate does not itself create or enable an
+adapter. Until both source clearance and an operational adapter exist, the
+board remains `data_pending`.
+
+The 2026-07-26 research snapshot is intentionally non-authorizing:
+
+| Candidate | Verified public signal | Current assessment |
+| --- | --- | --- |
+| Box Office Mojo public weekly chart | Domestic, Friday to Thursday | Scope mismatch |
+| The Numbers public charts | Domestic | Scope mismatch; exact period not proven |
+| IMDb Box Office bulk data | Licensed candidate documents Weekly and Worldwide options | Policy blocked by the project rule against IMDb datasets; exact weekdays and currency not proven |
+| Comscore Global Box Office | Commercial global reporting candidate | Needs review; exact period and currency not proven |
+
+Every candidate remains unapproved and unconfigured. Candidate documentation
+links record only the public pages used for this assessment.
+
+Procurement and activation checklist:
+
+1. Obtain provider documentation proving the requested exact closed period,
+   territory, measurement, and currency without relabelling.
+2. Complete legal, terms, license, robots, and rate-limit review as applicable.
+3. Attest the estimation and ownership independence of each source group.
+4. Record sanitized review references only. Keep credentials and commercial
+   terms outside this repository.
+5. Implement an offline-testable adapter with captured fixtures and strict
+   provenance timestamps.
+6. Change a candidate to `cleared`, approved, configured, and code-registered
+   only in a separately reviewed activation change.
+7. Pass source-clearance, parser-parity, consensus, last-good, full test, and
+   production-build gates before enabling a live write.
+
 ## Last-good publication
 
 `engine/fetchers/run_all.py` owns the public write. It validates a complete
@@ -100,30 +148,37 @@ python3 engine/fetchers/boxoffice_western.py \
   --fixture-mode --today 2026-07-26
 python3 engine/fetchers/run_all.py \
   --fixture-mode --today 2026-07-26
+python3 engine/fetchers/boxoffice_source_clearance.py
+python3 scripts/boxoffice/fetch_boxoffice.py --list-sources
 python3 scripts/boxoffice/fetch_boxoffice.py --report
 python3 -m pytest -q tests/test_boxoffice_week_contract.py \
   tests/test_run_all_boxoffice.py tests/test_common_atomic_json.py
 cd site && node --test lib/boxoffice-schema.test.mjs
 ```
 
+The standalone clearance command exits 2 while candidates remain pending.
+That is the activation gate's expected closed state, not a source failure.
 The Python and JavaScript readers share
 `tests/fixtures/boxoffice/ready-v3.json` as a cross-runtime contract fixture.
 
 ## Operational adapter status
 
-No live exact-week source adapter is enabled yet. Live runs return
-`NO_EXACT_WEEK_SOURCE`, publish no substitute, and preserve the last-good
-bytes. This is deliberate.
+No live exact-week source adapter is enabled yet. Live runs evaluate the
+checked-in registry, return `SOURCE_CLEARANCE_PENDING`, publish no substitute,
+and preserve the last-good bytes. This is deliberate. If two sources and their
+adapter references are eventually cleared and code-registered before adapter
+execution is wired, the result remains pending with
+`NO_OPERATIONAL_SOURCE_ADAPTER`.
 
 Before enabling an operational adapter, it must:
 
-1. prove that each provider reading is gross for the requested exact week,
+1. pass the source-clearance gate;
+2. prove that each provider reading is gross for the requested exact week,
    not a lifetime, cumulative, opening-weekend, or week-to-date total;
-2. map source independence through a reviewed code-owned registry;
-3. emit the strict source payload without relabelling a stale period;
-4. pass the full offline, parser-parity, last-good, and production-build
-   gates;
-5. receive a separate review for robots, terms, rate limits, and provenance.
+3. map source independence through the reviewed code-owned registry;
+4. emit the strict source payload without relabelling a stale period;
+5. pass the full offline, parser-parity, last-good, and production-build
+   gates.
 
 ## Legacy India pipeline
 

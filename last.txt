@@ -1,47 +1,45 @@
 Status: PARTIAL
 Did:
-  - Replaced the legacy box-office shape with a strict cross-runtime v3 contract for an exact closed Monday-to-Sunday Worldwide gross period.
-  - Made publication fail closed on missing scope, unsafe numbers, future or noncanonical timestamps, cumulative metrics, dependent sources, duplicate canonical URLs, private hosts, and source spread above 25 percent.
-  - Added offline fixtures, immutable source-group ownership, atomic durable writes, explicit last-good preservation, and fixture-to-public publication fences across every owner CLI.
-  - Removed retired selector pages from rendering, search, Ask, and sitemaps while preserving intentional permanent redirects.
-  - Regenerated the static artifacts so the board, sitemap lastmod, and rendered Dataset timestamp are coherent.
-  - Cleared the production dependency advisories by upgrading Next.js to 15.5.22, PostCSS to 8.5.18, and Sharp to 0.35.3 without changing React 18.
-  - Migrated all dynamic App Router pages to Next.js 15 async params and made robots.txt explicitly static-export compatible.
-  - Made the series-link generator byte-stable when its validated source graph is unchanged.
+  - Added a deterministic offline source-clearance gate for the closed Monday-to-Sunday UTC Worldwide box-office contract.
+  - Made production readiness require at least two fully reviewed, code-registered sources from two attested independence groups.
+  - Kept territory, exact-period, currency, consensus thresholds, and minimum-source policy code-owned so registry JSON cannot weaken them.
+  - Added a sanitized candidate registry and procurement checklist without endpoints, credentials, fees, invented license terms, or implied approval.
+  - Classified the public Box Office Mojo and The Numbers surfaces as scope mismatches and kept IMDb bulk and Comscore Global as unapproved procurement candidates only.
+  - Kept every candidate unapproved and unconfigured; the canonical gate returns SOURCE_CLEARANCE_PENDING with zero qualifying sources.
+  - Integrated sanitized clearance evidence into the live fetch result, run-all status, and source-list CLI while preserving the last-good public board.
+  - Added adversarial tests for policy type confusion, fake adapter registration, partial approvals, repeated independence groups, credentialed URLs, unknown fields, coverage mismatch, and consensus thresholds.
 Artefacts:
-  - engine/fetchers/boxoffice_week_schema.py (600 lines)
-  - engine/fetchers/boxoffice_western.py (162 lines)
-  - engine/fetchers/run_all.py (440 lines)
-  - engine/fetchers/common.py (194 lines)
-  - scripts/boxoffice/fetch_boxoffice.py (146 lines)
-  - site/lib/boxoffice-schema.mjs (440 lines)
-  - site/lib/boxoffice-schema.d.mts (73 lines)
-  - site/lib/boxoffice.ts (194 lines)
-  - site/package.json
-  - site/package-lock.json
-  - site/app/robots.ts
-  - site/app/[desk]/page.tsx
-  - site/app/series/[slug]/page.tsx
-  - site/scripts/build-series-links.mjs
-  - data/cache/fixtures/boxoffice_week_exact.json
-  - tests/fixtures/boxoffice/
+  - RESUME.md
+  - data/boxoffice/README.md
+  - data/boxoffice/source-candidates.json
+  - engine/fetchers/boxoffice_source_clearance.py
+  - engine/fetchers/boxoffice_week_schema.py
+  - engine/fetchers/boxoffice_western.py
+  - engine/fetchers/run_all.py
+  - scripts/boxoffice/fetch_boxoffice.py
+  - tests/test_boxoffice_compat_cli.py
+  - tests/test_boxoffice_source_clearance.py
+  - tests/test_boxoffice_week_contract.py
+  - tests/test_run_all_boxoffice.py
+  - last.txt
 Verification:
-  - python3 -m pytest -q -> PASS: 297 tests passed
-  - npm ci -> PASS: clean install, 39 packages audited
-  - npm audit --audit-level=high -> PASS: 0 vulnerabilities in the full dependency tree
-  - npm run test:boxoffice -> PASS: 17 of 17 tests passed
-  - python3 -m compileall -q engine/fetchers scripts/boxoffice scripts/ops tests -> PASS
-  - npm run build -> PASS: 5661 of 5661 static pages and 6840 output files under the 20000-file cap
-  - Python and JavaScript parsers -> PASS on the tracked strict v3 data_pending board
-  - fixture publication guards -> PASS: all three owner CLIs correctly rejected public-data writes
-  - malformed and compact --today values -> PASS: argparse correctly rejected both forms with no traceback
-  - generated artifact coherence -> PASS: current timestamp present and stale timestamp count 0
-  - series-link generator rerun twice -> PASS: identical SHA-256 643de4fb5aeb37521148b30de82c0efcffdff284184374bbb6a05dd5efdfa04a and no tracked artifact diff
-  - retired selector scan -> PASS: absent from build, search, Ask, and sitemaps except intentional redirects
+  - python3 -m pytest -q -> PASS: 311 passed in 10.63s
+  - npm run test:boxoffice from site/ -> PASS: 17 of 17 tests
+  - npm run build from site/ -> PASS: 5661 static pages; 6840 files under the 20000-file Cloudflare cap
+  - python3 engine/fetchers/boxoffice_source_clearance.py -> EXPECTED CLOSED: exit 2, SOURCE_CLEARANCE_PENDING, 0 of 2 qualifying sources, 0 independence groups
+  - python3 scripts/boxoffice/fetch_boxoffice.py --list-sources -> PASS: SOURCE_CLEARANCE_PENDING, 0 operational sources
+  - candidate registry assertion -> PASS: 4 of 4 unapproved, 4 of 4 unconfigured, 0 credentialed documentation URLs
   - git diff --check -> PASS
-Open issues: The production source registry and live exact-week adapter are deliberately empty, so the public board truthfully remains data_pending. No deployment or paid provider call was performed.
-Next step suggested: register and test at least two approved independent exact-week production sources, then run a reviewed live canary before deployment.
+  - production build warnings -> 7 pre-existing missing-slug curation warnings; unchanged and non-blocking
+Open issues:
+  - No candidate currently proves the exact closed Monday-to-Sunday UTC Worldwide USD contract.
+  - Legal, terms, license, coverage, ownership-independence, and activation reviews remain pending.
+  - No production adapter is code-registered, and no live or licensed source call was made.
+  - The public board must remain data_pending until two independent sources and an operational adapter pass a separately reviewed canary.
+Next step suggested: Procure and document two truly independent exact-week sources, complete reviews outside the repo, then add offline fixtures and adapters in a separately approved activation change.
 Network URLs:
-  - https://registry.npmjs.org
-  - https://query.wikidata.org
-  - https://github.com
+  - https://www.boxofficemojo.com/weekly/
+  - https://www.the-numbers.com/
+  - https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/
+  - https://developer.imdb.com/documentation/api-documentation/getting-access/
+  - https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting

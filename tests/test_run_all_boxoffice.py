@@ -67,7 +67,8 @@ def test_pending_live_job_preserves_last_good_bytes(tmp_path):
     )
 
     assert result["status"] == "preserved_last_good"
-    assert result["code"] == "NO_EXACT_WEEK_SOURCE"
+    assert result["code"] == "SOURCE_CLEARANCE_PENDING"
+    assert result["source_clearance"]["qualifying_sources"] == 0
     assert result["changed"] is False
     assert result["preserved_previous_bytes"] is True
     assert target.read_bytes() == original

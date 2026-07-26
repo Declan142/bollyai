@@ -253,6 +253,7 @@ def run_boxoffice_job(
         "source_readings": outcome["source_readings"],
         "published_records": outcome["published_records"],
         "candidate_sha256": _sha256_bytes(candidate_bytes),
+        "source_clearance": outcome.get("source_clearance"),
     }
     if outcome["status"] != "ready":
         pending_status = {

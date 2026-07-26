@@ -1,0 +1,162 @@
+{
+  "candidates": [
+    {
+      "access_model": "public",
+      "activation": {
+        "adapter": null,
+        "approval_ref": null,
+        "approved": false,
+        "configured": false
+      },
+      "assessment": "scope_mismatch",
+      "coverage": {
+        "closed_period": true,
+        "currency": "USD",
+        "measurement": "weekly",
+        "territory": "Domestic",
+        "time_zone": null,
+        "week_end": "Thursday",
+        "week_start": "Friday"
+      },
+      "id": "box_office_mojo_public_weekly",
+      "independence": {
+        "attestation_ref": null,
+        "attested": false,
+        "group": null
+      },
+      "name": "Box Office Mojo public weekly chart",
+      "provenance": {
+        "coverage_review": "partial",
+        "documentation_urls": [
+          "https://www.boxofficemojo.com/weekly/"
+        ],
+        "legal_review": "pending",
+        "license_review": "pending",
+        "terms_review": "pending"
+      }
+    },
+    {
+      "access_model": "public",
+      "activation": {
+        "adapter": null,
+        "approval_ref": null,
+        "approved": false,
+        "configured": false
+      },
+      "assessment": "scope_mismatch",
+      "coverage": {
+        "closed_period": null,
+        "currency": null,
+        "measurement": null,
+        "territory": "Domestic",
+        "time_zone": null,
+        "week_end": null,
+        "week_start": null
+      },
+      "id": "the_numbers_public_charts",
+      "independence": {
+        "attestation_ref": null,
+        "attested": false,
+        "group": null
+      },
+      "name": "The Numbers public charts",
+      "provenance": {
+        "coverage_review": "partial",
+        "documentation_urls": [
+          "https://www.the-numbers.com/"
+        ],
+        "legal_review": "pending",
+        "license_review": "pending",
+        "terms_review": "pending"
+      }
+    },
+    {
+      "access_model": "licensed_candidate",
+      "activation": {
+        "adapter": null,
+        "approval_ref": null,
+        "approved": false,
+        "configured": false
+      },
+      "assessment": "policy_blocked",
+      "coverage": {
+        "closed_period": null,
+        "currency": null,
+        "measurement": "weekly",
+        "territory": "Worldwide",
+        "time_zone": null,
+        "week_end": null,
+        "week_start": null
+      },
+      "id": "imdb_box_office_bulk",
+      "independence": {
+        "attestation_ref": null,
+        "attested": false,
+        "group": null
+      },
+      "name": "IMDb Box Office bulk data",
+      "provenance": {
+        "coverage_review": "partial",
+        "documentation_urls": [
+          "https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/",
+          "https://developer.imdb.com/documentation/api-documentation/getting-access/"
+        ],
+        "legal_review": "pending",
+        "license_review": "pending",
+        "terms_review": "pending"
+      }
+    },
+    {
+      "access_model": "commercial_candidate",
+      "activation": {
+        "adapter": null,
+        "approval_ref": null,
+        "approved": false,
+        "configured": false
+      },
+      "assessment": "needs_review",
+      "coverage": {
+        "closed_period": null,
+        "currency": null,
+        "measurement": null,
+        "territory": "Worldwide",
+        "time_zone": null,
+        "week_end": null,
+        "week_start": null
+      },
+      "id": "comscore_global_box_office",
+      "independence": {
+        "attestation_ref": null,
+        "attested": false,
+        "group": null
+      },
+      "name": "Comscore Global Box Office",
+      "provenance": {
+        "coverage_review": "partial",
+        "documentation_urls": [
+          "https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting"
+        ],
+        "legal_review": "pending",
+        "license_review": "pending",
+        "terms_review": "pending"
+      }
+    }
+  ],
+  "policy": {
+    "closed_period": true,
+    "consensus": {
+      "lower_figure_max_pct": 25,
+      "over_max_action": "hold",
+      "published_value": "lowest",
+      "trade_estimate_max_pct": 10
+    },
+    "currency": "USD",
+    "measurement": "exact_week",
+    "minimum_independent_sources": 2,
+    "territory": "Worldwide",
+    "time_zone": "UTC",
+    "week_end": "Sunday",
+    "week_start": "Monday"
+  },
+  "schema": "bollyai-boxoffice-source-registry/v1"
+}

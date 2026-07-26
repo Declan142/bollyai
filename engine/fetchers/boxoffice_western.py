@@ -1,7 +1,8 @@
 """Offline-first adapter for the strict Western exact-week contract.
 
-No operational source adapter is enabled yet. A live run therefore reports
-``NO_EXACT_WEEK_SOURCE`` and leaves the last known good board untouched.
+No operational source adapter is enabled yet. A live run evaluates the
+checked-in source-clearance gate, reports ``SOURCE_CLEARANCE_PENDING``, and
+leaves the last known good board untouched.
 """
 
 from __future__ import annotations
@@ -17,6 +18,10 @@ from typing import Any
 FETCHERS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(FETCHERS_DIR))
 
+from boxoffice_source_clearance import (  # noqa: E402
+    DEFAULT_REGISTRY_PATH,
+    load_source_clearance,
+)
 from boxoffice_week_schema import (  # noqa: E402
     BOARD_SCHEMA,
     BoxOfficeContractError,
@@ -43,18 +48,27 @@ def fetch_western_boxoffice(
     *,
     fixture_mode: bool = False,
     fixture_path: Path | None = None,
+    source_registry_path: Path | None = None,
     expected_week: dict[str, str] | None = None,
 ) -> dict[str, Any]:
     """Return a structured exact-week outcome without unsafe fallback data."""
 
     requested_week = expected_week or closed_week()
     if not fixture_mode:
+        source_clearance = load_source_clearance(
+            source_registry_path or DEFAULT_REGISTRY_PATH
+        )
         return {
             "status": "data_pending",
-            "code": "NO_EXACT_WEEK_SOURCE",
+            "code": (
+                source_clearance["code"]
+                if source_clearance["status"] != "ready"
+                else "NO_OPERATIONAL_SOURCE_ADAPTER"
+            ),
             "board": pending_board(week=requested_week),
             "source_readings": 0,
             "published_records": 0,
+            "source_clearance": source_clearance,
         }
 
     source_path = fixture_path or DEFAULT_FIXTURE_PATH

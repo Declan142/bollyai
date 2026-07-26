@@ -86,9 +86,10 @@ def test_live_mode_has_no_lifetime_fallback():
     )
 
     assert outcome["status"] == "data_pending"
-    assert outcome["code"] == "NO_EXACT_WEEK_SOURCE"
+    assert outcome["code"] == "SOURCE_CLEARANCE_PENDING"
     assert outcome["source_readings"] == 0
     assert outcome["board"]["records"] == []
+    assert outcome["source_clearance"]["qualifying_sources"] == 0
 
 
 def test_stale_fixture_period_is_rejected_instead_of_relabelled(source_payload):

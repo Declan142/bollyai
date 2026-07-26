@@ -55,6 +55,8 @@ TIMESTAMP_PATTERN = re.compile(
 DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}")
 MAX_FUTURE_SKEW = timedelta(minutes=5)
 MAX_SAFE_INTEGER = 9_007_199_254_740_991
+TRADE_ESTIMATE_MAX_PERCENT = 10
+LOWER_FIGURE_MAX_PERCENT = 25
 PRODUCTION_SOURCE_GROUPS: Mapping[str, str] = MappingProxyType({})
 FIXTURE_SOURCE_GROUPS: Mapping[str, str] = MappingProxyType(
     {
@@ -327,9 +329,9 @@ def _consensus(sources: list[dict[str, Any]]) -> tuple[int, str] | None:
     values = sorted(_positive_number(source["value"], "source.value") for source in sources)
     difference = values[-1] - values[0]
     total = values[-1] + values[0]
-    if 20 * difference <= total:
+    if 200 * difference <= TRADE_ESTIMATE_MAX_PERCENT * total:
         return values[0], "trade estimate"
-    if 8 * difference <= total:
+    if 200 * difference <= LOWER_FIGURE_MAX_PERCENT * total:
         return values[0], "lower figure"
     return None
 

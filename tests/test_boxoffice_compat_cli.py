@@ -60,8 +60,9 @@ def test_report_and_source_status_use_v3_shapes():
     assert json.loads(report.stdout)["board_schema"] == "bollyai-boxoffice-week/v3"
     assert sources.returncode == 0
     source_payload = json.loads(sources.stdout)
-    assert source_payload["code"] == "NO_EXACT_WEEK_SOURCE"
+    assert source_payload["code"] == "SOURCE_CLEARANCE_PENDING"
     assert source_payload["operational_sources"] == []
+    assert source_payload["clearance"]["qualifying_sources"] == 0
 
 
 def test_owner_clis_reject_fixture_publication(tmp_path):

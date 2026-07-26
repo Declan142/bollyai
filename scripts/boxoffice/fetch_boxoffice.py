@@ -20,6 +20,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 FETCHERS_DIR = REPO_ROOT / "engine" / "fetchers"
 sys.path.insert(0, str(FETCHERS_DIR))
 
+from boxoffice_source_clearance import load_source_clearance  # noqa: E402
 from boxoffice_week_schema import BoxOfficeContractError, validate_board  # noqa: E402
 from common import DATA_DIR, read_json  # noqa: E402
 from run_all import run_boxoffice_job  # noqa: E402
@@ -95,17 +96,33 @@ def main(argv: list[str] | None = None) -> int:
         parser.error("fixture mode cannot write the public board")
 
     if args.list_sources:
-        json.dump(
-            {
-                "schema": "boxoffice-source-status/v1",
-                "operational_sources": [],
-                "status": "data_pending",
-                "code": "NO_EXACT_WEEK_SOURCE",
-            },
-            sys.stdout,
-            indent=2,
-            sort_keys=True,
-        )
+        try:
+            clearance = load_source_clearance()
+        except BoxOfficeContractError as exc:
+            json.dump(
+                {
+                    "schema": "boxoffice-source-status/v2",
+                    "status": "failed",
+                    "code": exc.code,
+                },
+                sys.stderr,
+                indent=2,
+                sort_keys=True,
+            )
+            sys.stderr.write("\n")
+            return 1
+        payload = {
+            "schema": "boxoffice-source-status/v2",
+            "operational_sources": [
+                candidate["id"]
+                for candidate in clearance["candidates"]
+                if candidate["qualifies"]
+            ],
+            "status": clearance["status"],
+            "code": clearance["code"],
+            "clearance": clearance,
+        }
+        json.dump(payload, sys.stdout, indent=2, sort_keys=True)
         sys.stdout.write("\n")
         return 0
 
