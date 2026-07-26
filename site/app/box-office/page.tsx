@@ -9,6 +9,7 @@ import {
   boxOfficeItemListJsonLd,
   getCurrentBoxOfficeBoard
 } from "../../lib/boxoffice";
+import { projectBoxOfficePublicState } from "../../lib/boxoffice-public-state.mjs";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -20,22 +21,32 @@ export const metadata: Metadata = {
 
 export default function BoxOfficeHubPage() {
   const board = getCurrentBoxOfficeBoard();
+  const publicState = projectBoxOfficePublicState(board);
   const weekLabel = board.week.label;
 
   return (
     <main className="page-shell box-office-hub" data-desk="hollywood">
-      <JsonLd
-        data={boxOfficeDatasetJsonLd({
-          name: `Box office tracker: ${weekLabel}`,
-          description:
-            "Exact closed-week box-office dataset with conservative independent-source consensus.",
-          url: "/box-office/",
-          dateModified: board.generated_at,
-          period: board.week,
-          records: board.records
-        })}
-      />
-      <JsonLd data={boxOfficeItemListJsonLd(board)} />
+      {publicState.showStructuredData && (
+        <>
+          <JsonLd
+            data={boxOfficeDatasetJsonLd({
+              name: `Box office tracker: ${weekLabel}`,
+              description:
+                "Exact closed-week box-office dataset with conservative independent-source consensus.",
+              url: "/box-office/",
+              dateModified: board.generated_at,
+              period: board.week,
+              records: publicState.jsonLdRecords
+            })}
+          />
+          <JsonLd
+            data={boxOfficeItemListJsonLd({
+              ...board,
+              records: publicState.jsonLdRecords
+            })}
+          />
+        </>
+      )}
       <SectionHero
         eyebrow="Box office desk"
         title="Worldwide box office"
@@ -47,7 +58,7 @@ export default function BoxOfficeHubPage() {
           </>
         }
         stats={[
-          { value: String(board.records.length), label: "Films tracked" },
+          { value: String(publicState.boardRecords.length), label: "Films tracked" },
           { value: weekLabel, label: "Closed week" },
           { value: board.territory, label: "Territory" }
         ]}
@@ -55,7 +66,7 @@ export default function BoxOfficeHubPage() {
         <DateModified value={board.generated_at} />
       </SectionHero>
 
-      {board.status === "data_pending" && (
+      {publicState.dataPending && (
         <section className="panel bo-alert" aria-label="Data status">
           <p className="eyebrow">Data pending</p>
           <h2>No exact-week consensus yet</h2>
@@ -66,8 +77,8 @@ export default function BoxOfficeHubPage() {
         </section>
       )}
 
-      {board.status === "ready" && board.records.length > 0 && (
-        <BoxOfficeLeaderboard records={board.records} />
+      {publicState.rankedRecords.length > 0 && (
+        <BoxOfficeLeaderboard records={publicState.boardRecords} />
       )}
 
       <section className="panel bo-board-panel">
@@ -78,7 +89,7 @@ export default function BoxOfficeHubPage() {
           </div>
           <span className="pill">{board.territory}</span>
         </header>
-        <BoxOfficeBoardTable records={board.records} />
+        <BoxOfficeBoardTable records={publicState.boardRecords} />
       </section>
 
       <section className="bo-method-grid" aria-label="Box office methodology">

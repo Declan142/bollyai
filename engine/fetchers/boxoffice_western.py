@@ -18,6 +18,11 @@ from typing import Any
 FETCHERS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(FETCHERS_DIR))
 
+from boxoffice_source_adapters import (  # noqa: E402
+    cleared_production_adapters,
+    fetch_adapter_batch,
+)
+from boxoffice_fixture_adapters import fixture_adapters  # noqa: E402
 from boxoffice_source_clearance import (  # noqa: E402
     DEFAULT_REGISTRY_PATH,
     load_source_clearance,
@@ -25,6 +30,7 @@ from boxoffice_source_clearance import (  # noqa: E402
 from boxoffice_week_schema import (  # noqa: E402
     BOARD_SCHEMA,
     BoxOfficeContractError,
+    PRODUCTION_SOURCE_GROUPS,
     build_board_from_source_payload,
     closed_week,
     pending_board,
@@ -55,29 +61,62 @@ def fetch_western_boxoffice(
 
     requested_week = expected_week or closed_week()
     if not fixture_mode:
-        source_clearance = load_source_clearance(
-            source_registry_path or DEFAULT_REGISTRY_PATH
+        registry_path = source_registry_path or DEFAULT_REGISTRY_PATH
+        source_clearance = load_source_clearance(registry_path)
+        if source_clearance["status"] != "ready":
+            return {
+                "status": "data_pending",
+                "code": source_clearance["code"],
+                "board": pending_board(week=requested_week),
+                "source_readings": 0,
+                "published_records": 0,
+                "source_clearance": source_clearance,
+                "adapter_states": [],
+            }
+        registry = read_json(registry_path, default=None)
+        if registry is None:
+            raise BoxOfficeContractError(
+                "SOURCE_REGISTRY_MISSING",
+                "source candidate registry is unavailable",
+            )
+        adapters = cleared_production_adapters(registry, source_clearance)
+        adapter_batch = fetch_adapter_batch(adapters, requested_week)
+        board = build_board_from_source_payload(
+            adapter_batch["source_payload"],
+            expected_week=requested_week,
+            trusted_source_groups=PRODUCTION_SOURCE_GROUPS,
         )
         return {
-            "status": "data_pending",
+            "status": board["status"],
             "code": (
-                source_clearance["code"]
-                if source_clearance["status"] != "ready"
-                else "NO_OPERATIONAL_SOURCE_ADAPTER"
+                "SOURCE_ADAPTERS_READY"
+                if board["status"] == "ready"
+                else "NO_EXACT_WEEK_CONSENSUS"
             ),
-            "board": pending_board(week=requested_week),
-            "source_readings": 0,
-            "published_records": 0,
+            "board": board,
+            "source_readings": len(adapter_batch["source_payload"]["readings"]),
+            "published_records": sum(
+                record["week_gross_usd"]["value"] is not None
+                for record in board["records"]
+            ),
             "source_clearance": source_clearance,
+            "adapter_states": adapter_batch["adapters"],
         }
 
-    source_path = fixture_path or DEFAULT_FIXTURE_PATH
-    source_payload = read_json(source_path, default=None)
-    if source_payload is None:
-        raise BoxOfficeContractError(
-            "FIXTURE_NOT_FOUND",
-            f"offline fixture not found: {source_path}",
+    adapter_batch = None
+    if fixture_path is None:
+        adapter_batch = fetch_adapter_batch(
+            fixture_adapters(),
+            requested_week,
         )
+        source_payload = adapter_batch["source_payload"]
+    else:
+        source_payload = read_json(fixture_path, default=None)
+        if source_payload is None:
+            raise BoxOfficeContractError(
+                "FIXTURE_NOT_FOUND",
+                f"offline fixture not found: {fixture_path}",
+            )
     board = build_board_from_source_payload(
         source_payload,
         expected_week=requested_week,
@@ -95,6 +134,7 @@ def fetch_western_boxoffice(
             record["week_gross_usd"]["value"] is not None
             for record in board["records"]
         ),
+        "adapter_states": adapter_batch["adapters"] if adapter_batch else [],
     }
 
 

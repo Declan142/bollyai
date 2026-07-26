@@ -484,6 +484,7 @@ def build_board_from_source_payload(
     payload: Any,
     *,
     expected_week: dict[str, str],
+    trusted_source_groups: Mapping[str, str] = FIXTURE_SOURCE_GROUPS,
 ) -> dict[str, Any]:
     if not isinstance(payload, dict):
         _fail("INVALID_SOURCE_PAYLOAD", "source payload must be an object")
@@ -539,7 +540,7 @@ def build_board_from_source_payload(
             generated_at=generated_at,
             week=week,
             territory=payload["territory"],
-            trusted_source_groups=FIXTURE_SOURCE_GROUPS,
+            trusted_source_groups=trusted_source_groups,
             where=f"{where}.source",
         )
         identity = _film_identity(film)
@@ -598,5 +599,5 @@ def build_board_from_source_payload(
     }
     return validate_board(
         board,
-        trusted_source_groups=FIXTURE_SOURCE_GROUPS,
+        trusted_source_groups=trusted_source_groups,
     )

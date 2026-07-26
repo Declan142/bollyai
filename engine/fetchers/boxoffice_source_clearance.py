@@ -15,6 +15,7 @@ from collections.abc import Collection
 from pathlib import Path
 from typing import Any
 
+from boxoffice_source_adapters import production_adapter_references
 from boxoffice_week_schema import (
     BoxOfficeContractError,
     LOWER_FIGURE_MAX_PERCENT,
@@ -76,7 +77,7 @@ ASSESSMENTS = {"needs_review", "scope_mismatch", "policy_blocked", "cleared"}
 ACCESS_MODELS = {"public", "licensed_candidate", "commercial_candidate"}
 REVIEW_STATES = {"pending", "partial", "approved", "blocked", "not_required"}
 PASSING_REVIEW_STATES = {"approved", "not_required"}
-PRODUCTION_ADAPTERS: frozenset[str] = frozenset()
+PRODUCTION_ADAPTERS: frozenset[str] = production_adapter_references()
 REFERENCE_PATTERN = re.compile(r"[a-z0-9][a-z0-9._:/-]{2,127}")
 IDENTIFIER_PATTERN = re.compile(r"[a-z0-9]+(?:_[a-z0-9]+)*")
 ADAPTER_PATTERN = re.compile(r"[a-z0-9_./:-]+")

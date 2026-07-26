@@ -70,6 +70,8 @@ def test_checked_in_candidates_are_fail_closed_and_unconfigured(registry):
         "the_numbers_public_charts",
         "imdb_box_office_bulk",
         "comscore_global_box_office",
+        "boxoffice_pro_public_reports",
+        "wikipedia_weekly_tables",
     }
     assert all(not candidate["qualifies"] for candidate in result["candidates"])
     assert all(

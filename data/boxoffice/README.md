@@ -78,14 +78,16 @@ independence groups. Opening this gate does not itself create or enable an
 adapter. Until both source clearance and an operational adapter exist, the
 board remains `data_pending`.
 
-The 2026-07-26 research snapshot is intentionally non-authorizing:
+The 2026-07-27 research snapshot is intentionally non-authorizing:
 
 | Candidate | Verified public signal | Current assessment |
 | --- | --- | --- |
 | Box Office Mojo public weekly chart | Domestic, Friday to Thursday | Scope mismatch |
-| The Numbers public charts | Domestic | Scope mismatch; exact period not proven |
+| The Numbers public charts | Domestic, Friday to Thursday; worldwide surface is cumulative | Scope mismatch |
 | IMDb Box Office bulk data | Licensed candidate documents Weekly and Worldwide options | Policy blocked by the project rule against IMDb datasets; exact weekdays and currency not proven |
-| Comscore Global Box Office | Commercial global reporting candidate | Needs review; exact period and currency not proven |
+| Rentrak, formerly Comscore Movies | Licensed global reporting candidate; public output is weekend estimates | Needs review; exact period, finality, publication rights, and currency method not proven |
+| Boxoffice Pro public reports | Sunday studio estimates for a three-day domestic weekend | Scope mismatch |
+| Wikipedia weekly tables | Regional weekend or cumulative secondary tables | Scope mismatch; independence inherits each row's upstream source |
 
 Every candidate remains unapproved and unconfigured. Candidate documentation
 links record only the public pages used for this assessment.
@@ -104,6 +106,39 @@ Procurement and activation checklist:
    only in a separately reviewed activation change.
 7. Pass source-clearance, parser-parity, consensus, last-good, full test, and
    production-build gates before enabling a live write.
+
+## Source adapter layer
+
+`engine/fetchers/boxoffice_source_adapters.py` owns the provider-neutral
+interface and batch boundary. An adapter must declare a stable source ID and
+independence group, fetch exactly one requested closed week, return normalized
+Worldwide USD rows, and report `fresh`, `stale`, `empty`, or `failed` with a
+stable code. The batch admits at most one fresh adapter per independence group.
+It then passes normalized readings to `boxoffice_week_schema.py`, which remains
+the only consensus and publication oracle.
+
+`engine/fetchers/boxoffice_fixture_adapters.py` implements two concrete
+offline-only examples over separate synthetic payloads:
+
+- `FixtureLedgerAdapter` parses
+  `data/cache/fixtures/boxoffice_adapters/fixture_ledger.json`.
+- `FixtureBulletinAdapter` parses
+  `data/cache/fixtures/boxoffice_adapters/fixture_bulletin.json`.
+
+The fixture shapes intentionally differ so the adapter boundary proves real
+normalization rather than reading one pre-normalized combined file twice.
+Neither adapter has an endpoint, credential, or live transport. The aggregate
+`boxoffice_week_exact.json` remains available only as a compatibility and
+schema fixture.
+
+The live seam is code-owned `PRODUCTION_ADAPTER_FACTORIES`, currently empty.
+The source registry's `activation.adapter` value is the configuration pointer.
+A live run first evaluates clearance against the registered factory names,
+then resolves only qualifying candidates, runs their adapters, and submits
+their normalized rows to the strict board builder. Adding a procured adapter
+therefore does not require changing the fetcher orchestration. It still
+requires a separately reviewed adapter implementation, source-group mapping,
+registry approval, legal review, and complete tests.
 
 ## Last-good publication
 
@@ -152,8 +187,9 @@ python3 engine/fetchers/boxoffice_source_clearance.py
 python3 scripts/boxoffice/fetch_boxoffice.py --list-sources
 python3 scripts/boxoffice/fetch_boxoffice.py --report
 python3 -m pytest -q tests/test_boxoffice_week_contract.py \
-  tests/test_run_all_boxoffice.py tests/test_common_atomic_json.py
-cd site && node --test lib/boxoffice-schema.test.mjs
+  tests/test_boxoffice_source_adapters.py tests/test_run_all_boxoffice.py \
+  tests/test_common_atomic_json.py
+cd site && npm run test:boxoffice
 ```
 
 The standalone clearance command exits 2 while candidates remain pending.

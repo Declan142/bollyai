@@ -28,7 +28,9 @@
       "provenance": {
         "coverage_review": "partial",
         "documentation_urls": [
-          "https://www.boxofficemojo.com/weekly/"
+          "https://www.boxofficemojo.com/weekly/",
+          "https://help.imdb.com/article/imdbpro/industry-research/box-office-by-imdbpro-glossary/GN8HA87MT4597FSW/",
+          "https://www.imdb.com/conditions/"
         ],
         "legal_review": "pending",
         "license_review": "pending",
@@ -63,7 +65,9 @@
       "provenance": {
         "coverage_review": "partial",
         "documentation_urls": [
-          "https://www.the-numbers.com/"
+          "https://www.the-numbers.com/weekly-box-office-chart",
+          "https://www.the-numbers.com/terms-of-service",
+          "https://www.opusdata.com/research.php"
         ],
         "legal_review": "pending",
         "license_review": "pending",
@@ -99,7 +103,8 @@
         "coverage_review": "partial",
         "documentation_urls": [
           "https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/",
-          "https://developer.imdb.com/documentation/api-documentation/getting-access/"
+          "https://developer.imdb.com/documentation/api-documentation/getting-access/",
+          "https://aws.amazon.com/marketplace/pp/prodview-nzspap6vaousm"
         ],
         "legal_review": "pending",
         "license_review": "pending",
@@ -130,11 +135,87 @@
         "attested": false,
         "group": null
       },
-      "name": "Comscore Global Box Office",
+      "name": "Rentrak, formerly Comscore Movies",
       "provenance": {
         "coverage_review": "partial",
         "documentation_urls": [
-          "https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting"
+          "https://www.advayacap.com/press/advaya-acquires-comscore-movies",
+          "https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting",
+          "https://www.comscore.com/fre/content/download/69682/file/Online-Product-Terms-v7-260126.pdf?inLanguage=eng-US&version=2"
+        ],
+        "legal_review": "pending",
+        "license_review": "pending",
+        "terms_review": "pending"
+      }
+    },
+    {
+      "access_model": "public",
+      "activation": {
+        "adapter": null,
+        "approval_ref": null,
+        "approved": false,
+        "configured": false
+      },
+      "assessment": "scope_mismatch",
+      "coverage": {
+        "closed_period": false,
+        "currency": "USD",
+        "measurement": "weekend_estimate",
+        "territory": "Domestic",
+        "time_zone": null,
+        "week_end": "Sunday",
+        "week_start": "Friday"
+      },
+      "id": "boxoffice_pro_public_reports",
+      "independence": {
+        "attestation_ref": null,
+        "attested": false,
+        "group": null
+      },
+      "name": "Boxoffice Pro public weekend reports",
+      "provenance": {
+        "coverage_review": "partial",
+        "documentation_urls": [
+          "https://www.boxofficepro.com/subscribe/",
+          "https://www.boxofficepro.com/terms-of-service/",
+          "https://www.boxofficepro.com/legal/"
+        ],
+        "legal_review": "pending",
+        "license_review": "pending",
+        "terms_review": "pending"
+      }
+    },
+    {
+      "access_model": "public",
+      "activation": {
+        "adapter": null,
+        "approval_ref": null,
+        "approved": false,
+        "configured": false
+      },
+      "assessment": "scope_mismatch",
+      "coverage": {
+        "closed_period": null,
+        "currency": null,
+        "measurement": null,
+        "territory": null,
+        "time_zone": null,
+        "week_end": null,
+        "week_start": null
+      },
+      "id": "wikipedia_weekly_tables",
+      "independence": {
+        "attestation_ref": null,
+        "attested": false,
+        "group": null
+      },
+      "name": "Wikipedia weekly box-office tables",
+      "provenance": {
+        "coverage_review": "partial",
+        "documentation_urls": [
+          "https://en.wikipedia.org/wiki/Lists_of_box_office_number-one_films",
+          "https://www.mediawiki.org/wiki/API:Action_API",
+          "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_API_Usage_Guidelines/en"
         ],
         "legal_review": "pending",
         "license_review": "pending",

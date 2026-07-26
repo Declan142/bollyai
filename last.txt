@@ -1,45 +1,56 @@
-Status: PARTIAL
+Status: COMPLETE
 Did:
-  - Added a deterministic offline source-clearance gate for the closed Monday-to-Sunday UTC Worldwide box-office contract.
-  - Made production readiness require at least two fully reviewed, code-registered sources from two attested independence groups.
-  - Kept territory, exact-period, currency, consensus thresholds, and minimum-source policy code-owned so registry JSON cannot weaken them.
-  - Added a sanitized candidate registry and procurement checklist without endpoints, credentials, fees, invented license terms, or implied approval.
-  - Classified the public Box Office Mojo and The Numbers surfaces as scope mismatches and kept IMDb bulk and Comscore Global as unapproved procurement candidates only.
-  - Kept every candidate unapproved and unconfigured; the canonical gate returns SOURCE_CLEARANCE_PENDING with zero qualifying sources.
-  - Integrated sanitized clearance evidence into the live fetch result, run-all status, and source-list CLI while preserving the last-good public board.
-  - Added adversarial tests for policy type confusion, fake adapter registration, partial approvals, repeated independence groups, credentialed URLs, unknown fields, coverage mismatch, and consensus thresholds.
+  - Researched Box Office Mojo and IMDbPro, The Numbers and Nash OpusData, Rentrak formerly Comscore Movies, Boxoffice Pro, and Wikipedia from first-party documentation without scraping commercial box-office data.
+  - Kept production source clearance at 0 of 2 sources and 0 independence groups; every candidate remains unapproved and unconfigured.
+  - Added a provider-neutral exact-week adapter interface with explicit fresh, stale, empty, and failed states.
+  - Added two concrete offline-only adapters over separate synthetic fixture shapes.
+  - Made adapter batches admit at most one source from each independence group before the existing v3 consensus oracle.
+  - Wired the existing activation.adapter registry pointer through the live clearance gate while leaving the production adapter and source-group registries empty.
+  - Added a public-state projection that suppresses ranked rows and box-office JSON-LD while data is pending.
+  - Added an explicit regression proving zero cleared sources render data_pending with zero ranked and JSON-LD items.
+  - Wrote the citation-complete procurement and implementation report.
 Artefacts:
-  - RESUME.md
   - data/boxoffice/README.md
   - data/boxoffice/source-candidates.json
+  - data/cache/fixtures/boxoffice_adapters/fixture_ledger.json
+  - data/cache/fixtures/boxoffice_adapters/fixture_bulletin.json
+  - engine/fetchers/boxoffice_source_adapters.py
+  - engine/fetchers/boxoffice_fixture_adapters.py
   - engine/fetchers/boxoffice_source_clearance.py
   - engine/fetchers/boxoffice_week_schema.py
   - engine/fetchers/boxoffice_western.py
-  - engine/fetchers/run_all.py
-  - scripts/boxoffice/fetch_boxoffice.py
-  - tests/test_boxoffice_compat_cli.py
+  - tests/test_boxoffice_source_adapters.py
   - tests/test_boxoffice_source_clearance.py
-  - tests/test_boxoffice_week_contract.py
-  - tests/test_run_all_boxoffice.py
+  - site/lib/boxoffice-public-state.mjs
+  - site/lib/boxoffice-public-state.d.mts
+  - site/lib/boxoffice-public-state.test.mjs
+  - site/app/box-office/page.tsx
+  - site/package.json
   - last.txt
+  - /home/aditya/vyom-overnight/2026-07-27/bollyai/REPORT.md
 Verification:
-  - python3 -m pytest -q -> PASS: 311 passed in 10.63s
-  - npm run test:boxoffice from site/ -> PASS: 17 of 17 tests
-  - npm run build from site/ -> PASS: 5661 static pages; 6840 files under the 20000-file Cloudflare cap
-  - python3 engine/fetchers/boxoffice_source_clearance.py -> EXPECTED CLOSED: exit 2, SOURCE_CLEARANCE_PENDING, 0 of 2 qualifying sources, 0 independence groups
-  - python3 scripts/boxoffice/fetch_boxoffice.py --list-sources -> PASS: SOURCE_CLEARANCE_PENDING, 0 operational sources
-  - candidate registry assertion -> PASS: 4 of 4 unapproved, 4 of 4 unconfigured, 0 credentialed documentation URLs
+  - python3 -m pytest tests/ -> PASS: 319 passed in 5.88s
+  - npm run test:boxoffice from site/ -> PASS: 18 passed, 0 failed
+  - npm run build from site/ -> PASS: exit 0, 5661 static pages, aggregate lint passed, 6839 files under the 20000-file cap
+  - python3 engine/fetchers/boxoffice_source_clearance.py -> EXPECTED CLOSED: exit 2, SOURCE_CLEARANCE_PENDING, 0 qualifying sources, 0 independence groups
+  - focused adapter and box-office suites -> PASS: 76 passed in 0.94s
+  - static out/box-office/index.html inspection -> PASS: Data pending visible; 0 leaderboard headings, 0 ranked bars, 0 fixture titles, 0 box-office Dataset, ItemList, or ListItem objects
   - git diff --check -> PASS
-  - production build warnings -> 7 pre-existing missing-slug curation warnings; unchanged and non-blocking
 Open issues:
-  - No candidate currently proves the exact closed Monday-to-Sunday UTC Worldwide USD contract.
-  - Legal, terms, license, coverage, ownership-independence, and activation reviews remain pending.
-  - No production adapter is code-registered, and no live or licensed source call was made.
-  - The public board must remain data_pending until two independent sources and an operational adapter pass a separately reviewed canary.
-Next step suggested: Procure and document two truly independent exact-week sources, complete reviews outside the repo, then add offline fixtures and adapters in a separately approved activation change.
+  - Live activation remains blocked until Rentrak and a contractually non-Rentrak Nash feed prove the exact window, public redistribution rights, price, and independent lineage.
+  - Next printed non-fatal lockfile patch warnings during the green build.
+Next step suggested: Run a two-vendor RFP and sample acceptance test for Rentrak plus Nash OpusData; keep the board pending unless both contracts clear.
 Network URLs:
-  - https://www.boxofficemojo.com/weekly/
-  - https://www.the-numbers.com/
+  - https://www.imdb.com/conditions/
   - https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/
-  - https://developer.imdb.com/documentation/api-documentation/getting-access/
+  - https://aws.amazon.com/marketplace/pp/prodview-nzspap6vaousm
+  - https://www.the-numbers.com/terms-of-service
+  - https://www.opusdata.com/
+  - https://www.advayacap.com/press/advaya-acquires-comscore-movies
   - https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting
+  - https://legacy.iboe.com/login.html?locale_id=PE
+  - https://www.boxofficepro.com/terms-of-service/
+  - https://www.boxofficepro.com/legal/
+  - https://www.mediawiki.org/wiki/API:Action_API
+  - https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_API_Usage_Guidelines/en
+  - https://enterprise.wikimedia.com/pricing/

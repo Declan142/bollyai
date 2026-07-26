@@ -7,7 +7,7 @@
     "build": "next build && npm run lint:aggregate && npm run postbuild:filecap",
     "postbuild:filecap": "find out -type f -name '*.avif' -delete; find out -name 'index.txt' -delete; C=$(find out -type f | wc -l); echo \"filecap: out has $C files\"; [ \"$C\" -lt 20000 ] || { echo 'ERROR: CF Pages 20k-file cap exceeded - reduce files (drop a format / upgrade plan)'; exit 1; }",
     "lint:aggregate": "node scripts/assert-no-aggregate-rating.mjs",
-    "test:boxoffice": "node --test lib/boxoffice-schema.test.mjs"
+    "test:boxoffice": "node --test lib/boxoffice-schema.test.mjs lib/boxoffice-public-state.test.mjs"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.6",
