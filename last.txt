@@ -13,7 +13,6 @@ Artefacts:
   - engine/fetchers/boxoffice_source_clearance.py
   - engine/fetchers/boxoffice_week_schema.py
   - engine/fetchers/boxoffice_western.py
-  - site/out/ (6840 files, 354686336 bytes, 0 symlinks)
 Verification:
   - python3 -m pytest -q -> PASS: 311 tests
   - npm run test:boxoffice from site/ -> PASS: 17 of 17 tests
