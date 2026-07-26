@@ -1,45 +1,43 @@
 Status: PARTIAL
 Did:
-  - Added a deterministic offline source-clearance gate for the closed Monday-to-Sunday UTC Worldwide box-office contract.
-  - Made production readiness require at least two fully reviewed, code-registered sources from two attested independence groups.
-  - Kept territory, exact-period, currency, consensus thresholds, and minimum-source policy code-owned so registry JSON cannot weaken them.
-  - Added a sanitized candidate registry and procurement checklist without endpoints, credentials, fees, invented license terms, or implied approval.
-  - Classified the public Box Office Mojo and The Numbers surfaces as scope mismatches and kept IMDb bulk and Comscore Global as unapproved procurement candidates only.
-  - Kept every candidate unapproved and unconfigured; the canonical gate returns SOURCE_CLEARANCE_PENDING with zero qualifying sources.
-  - Integrated sanitized clearance evidence into the live fetch result, run-all status, and source-list CLI while preserving the last-good public board.
-  - Added adversarial tests for policy type confusion, fake adapter registration, partial approvals, repeated independence groups, credentialed URLs, unknown fields, coverage mismatch, and consensus thresholds.
+  - Preserved the deterministic offline source-clearance gate for the closed Monday-to-Sunday UTC Worldwide box-office contract.
+  - Kept all four procurement candidates unapproved and unconfigured; no licensed source or paid provider call was made.
+  - Reconciled fresh origin/main without weakening the weekly contract: accepted the newer 480-series / 4800-edge graph and retained the v3 fail-closed weekly box-office board.
+  - Re-ran the complete Python, JavaScript, production-build, file-cap, and merge-integrity gates on the reconciled tree.
+  - Deployed exact clean commit 5d1b0353cd065b9dbc803cdd98a68f9f8778a1c5 to Cloudflare Pages production as deployment 8d0d06f3-f022-4f46-88d8-1010e90a0445.
+  - Verified Cloudflare records branch main, commit_dirty=false, the exact commit hash, and a successful production stage.
+  - Fast-forwarded both the feature branch and GitHub main to the deployed commit without force or history rewrite.
+  - Verified the live weekly board remains explicitly Data pending with zero published rows, its sitemap entry is present, and legacy club routes redirect to the canonical board.
 Artefacts:
-  - RESUME.md
-  - data/boxoffice/README.md
   - data/boxoffice/source-candidates.json
   - engine/fetchers/boxoffice_source_clearance.py
   - engine/fetchers/boxoffice_week_schema.py
   - engine/fetchers/boxoffice_western.py
-  - engine/fetchers/run_all.py
-  - scripts/boxoffice/fetch_boxoffice.py
-  - tests/test_boxoffice_compat_cli.py
-  - tests/test_boxoffice_source_clearance.py
-  - tests/test_boxoffice_week_contract.py
-  - tests/test_run_all_boxoffice.py
-  - last.txt
+  - site/out/ (6840 files, 354686336 bytes, 0 symlinks)
 Verification:
-  - python3 -m pytest -q -> PASS: 311 passed in 10.63s
+  - python3 -m pytest -q -> PASS: 311 tests
   - npm run test:boxoffice from site/ -> PASS: 17 of 17 tests
-  - npm run build from site/ -> PASS: 5661 static pages; 6840 files under the 20000-file Cloudflare cap
+  - npm run build from site/ -> PASS: Next.js 15.5.22, 5661 static pages, aggregate-rating gate PASS, 6840 files below the 20000-file Cloudflare cap
+  - sorted export manifest -> SHA-256 a4c242630bc49b6ea8a858361e6923a6f1fdb542f6e8cde455e32fcb30d2ca12
+  - series-links before/after build -> byte-identical SHA-256 7d747a7751d2caf1abec70cf4b7e8e44f65272da5ed718ad5de1055386ee8117
   - python3 engine/fetchers/boxoffice_source_clearance.py -> EXPECTED CLOSED: exit 2, SOURCE_CLEARANCE_PENDING, 0 of 2 qualifying sources, 0 independence groups
-  - python3 scripts/boxoffice/fetch_boxoffice.py --list-sources -> PASS: SOURCE_CLEARANCE_PENDING, 0 operational sources
-  - candidate registry assertion -> PASS: 4 of 4 unapproved, 4 of 4 unconfigured, 0 credentialed documentation URLs
-  - git diff --check -> PASS
-  - production build warnings -> 7 pre-existing missing-slug curation warnings; unchanged and non-blocking
+  - Cloudflare deployment API -> production success; commit_hash=5d1b0353cd065b9dbc803cdd98a68f9f8778a1c5; commit_dirty=false; aliases bollyai.in and www.bollyai.in
+  - live https://bollyai.in/box-office/ and immutable deployment URL -> 200; Data pending, No exact-week consensus yet, numberOfItems=0, empty-board marker present, no ranked rows
+  - live sitemap-pages.xml -> 200 and canonical box-office URL present
+  - live legacy /box-office/100m-club/ -> 301 to /box-office/
+  - git ls-remote origin main and feature branch -> both 5d1b0353cd065b9dbc803cdd98a68f9f8778a1c5
 Open issues:
-  - No candidate currently proves the exact closed Monday-to-Sunday UTC Worldwide USD contract.
-  - Legal, terms, license, coverage, ownership-independence, and activation reviews remain pending.
-  - No production adapter is code-registered, and no live or licensed source call was made.
-  - The public board must remain data_pending until two independent sources and an operational adapter pass a separately reviewed canary.
-Next step suggested: Procure and document two truly independent exact-week sources, complete reviews outside the repo, then add offline fixtures and adapters in a separately approved activation change.
+  - Production deployment is complete, but source activation is deliberately blocked: no candidate proves the exact closed-week scope, two independent groups, license approval, and adapter canary.
+  - Seven pre-existing missing-slug curation warnings remain non-blocking; the enforced 480/480 series-link gate passes.
+Next step suggested: Keep the public board fail-closed; separately procure and review two independent exact-week sources before any adapter or licensed-source activation.
 Network URLs:
+  - https://api.cloudflare.com
+  - https://bollyai.in
+  - https://www.bollyai.in
+  - https://8d0d06f3.bollyai-in.pages.dev
+  - https://github.com/Declan142/bollyai
+  - https://registry.npmjs.org
   - https://www.boxofficemojo.com/weekly/
   - https://www.the-numbers.com/
-  - https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/
-  - https://developer.imdb.com/documentation/api-documentation/getting-access/
-  - https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting
+  - https://developer.imdb.com/
+  - https://www.comscore.com/
