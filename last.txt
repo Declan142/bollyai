@@ -1,13 +1,13 @@
 Status: COMPLETE
 Did:
-  - Rebuilt the BollyAI homepage into a responsive editorial cinema experience led by the Friday Verdict, a grounded Ask flow, a current-release desk, verified-upcoming truth states, deeper reads, curated moods, and a clear honesty contract.
-  - Added original responsive hero artwork, refined Fraunces typography, stronger hierarchy, cleaner navigation, reduced pill styling, and mobile layouts down to 320 px.
-  - Kept homepage selection honest by excluding wrong, off-scope, landscape, fallback, and stale art; pending verdicts are labelled as open editorial files instead of graded titles.
-  - Made Browse filter and sort state shareable through the URL, added progressive facets, and consolidated legacy Series and Streaming hubs onto canonical Browse routes.
-  - Resolved stale episode-image paths through filesystem-backed fallback resolution and added a fail-closed generated-site static asset gate.
-  - Expanded deterministic sitemap generation to episode and explainer routes, added explicit redirect exclusions, and bound homepage lastmod to content or template revision.
-  - Updated trust tests and release gates without weakening the existing Western-only, rating-provenance, box-office, or Cloudflare file-cap contracts.
-  - Worked only in isolated branch codex/bollyai-worldclass-site-20260801 from base 5d1b0353; the user's dirty main workspace was not modified, and no push or deployment was performed.
+  - Rebuilt BollyAI into a responsive editorial cinema experience led by the Friday Verdict, grounded Ask flow, current-release desk, verified-upcoming truth state, deeper reads, curated moods, and a clear honesty contract.
+  - Added original responsive hero artwork, refined typography and hierarchy, URL-backed Browse filters, canonical Browse redirects, filesystem-backed image fallbacks, a generated-site asset gate, and expanded deterministic sitemaps.
+  - Rebased the isolated release branch onto current origin/main without touching the user's dirty main worktree.
+  - Reconciled the rolling OTT calendar contract so an empty window is valid only when that window has no source-verified announcements; no release data was fabricated.
+  - Preserved the historical /ott/hbo-max/ URL with a tested 301 to the current /ott/max/ hub and regenerated the current W31/W32 sitemap inventory.
+  - Pushed branch codex/bollyai-worldclass-site-20260801, then fast-forwarded GitHub main without force to production source commit 532dc322a80a39f37107836afaaab4691c96e2a1.
+  - Deployed the fresh 6847-file static export to Cloudflare Pages production as deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b.
+  - Verified the Cloudflare preview and bollyai.in custom domain, then submitted the hash-gated 5955-URL sitemap to IndexNow.
 Artefacts:
   - site/app/page.tsx (424 lines)
   - site/app/home.module.css (791 lines)
@@ -17,26 +17,39 @@ Artefacts:
   - site/lib/series.ts (366 lines)
   - site/public/img/brand/friday-verdict-hero.webp (23022 bytes)
   - site/public/img/brand/friday-verdict-hero-960.webp (9144 bytes)
+  - site/public/_redirects (19 lines)
+  - site/public/sitemap-pages.xml (34 URLs)
+  - site/public/sitemap-episodes.xml (2873 URLs)
+  - site/public/sitemap-explainers.xml (21 URLs)
   - site/scripts/assert-static-assets.mjs (63 lines)
   - site/scripts/build-sitemaps.mjs (233 lines)
-  - site/public/sitemap-episodes.xml (277564 bytes; 2873 URLs)
-  - site/public/sitemap-explainers.xml (2410 bytes; 21 URLs)
-  - tests/test_brand_lock.py (176 lines)
-  - last.txt (42 lines)
+  - tests/test_brand_lock.py (181 lines)
+  - tests/test_ott_calendar.py (149 lines)
+  - data/_state/indexnow_ping_state.json (8 lines)
+  - last.txt (55 lines)
 Verification:
-  - cd site && npx --yes --package node@20.19.4 -- npm run build -> PASS: Next 15.5.22 generated 5661 static routes; artifact has 6847 files and 5659 HTML files under the Cloudflare cap.
-  - pytest -q -> PASS: 315 passed in 9.95s.
-  - cd site && node scripts/assert-static-assets.mjs -> PASS: 778 unique static references across 5666 HTML/CSS files, 0 missing.
-  - generated sitemap audit -> PASS: 12 valid XML files, 11 of 11 index children present, 0 missing, 0 orphan, and 0 duplicate expected canonicals.
-  - generated redirect/canonical audit -> PASS: /series/ and /streaming/ redirect to /browse/; 0 exact legacy internal links; all hub artifacts canonicalize to /browse/.
-  - CDP responsive canary at 1440, 1024, 900, 768, 390, and 320 px -> PASS: 0 horizontal overflow, 0 image load defects, 5 current cards, 4 episode rows, and 4 mood cards at every width.
-  - CDP accessibility canary -> PASS: working skip link, modal focus trap, Escape and overlay restoration, reduced-motion behavior, and 44 px minimum interactive targets.
-  - Browse URL-state canary -> PASS: rated + Mystery + Netflix restored from query state with 39 results, Dark first, and 0 overflow.
-  - independent visual audit -> PASS: 8.8/10 GO with no release blocker.
-  - semantic two-build comparison -> PASS: 0 changed HTML files after normalizing Next's random build ID.
+  - python3 -m pytest tests/ -q -> PASS: 316 tests passed in 5.44s.
+  - Node 20 npm run build -> PASS: Next 15.5.22 generated 5661 static pages; export contains 6847 files under the Cloudflare cap.
+  - generated static asset gate -> PASS: 778 unique references across 5666 HTML/CSS files with 0 missing assets.
+  - generated OTT alias audit -> PASS: /ott/max/ exists, /ott/hbo-max/ is absent from static pages and sitemap, and the legacy redirect is present.
+  - local Cloudflare Pages canary -> PASS: /ott/hbo-max/ returned 301 to /ott/max/ and /ott/max/ returned 200.
+  - independent responsive visual audit -> PASS: 8.8/10 GO with no release blocker at desktop and 390 px mobile.
+  - git remote verification -> PASS: refs/heads/main resolved to 532dc322a80a39f37107836afaaab4691c96e2a1 after a non-force fast-forward.
+  - Cloudflare deployment API -> PASS: deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b is production, branch main, commit 532dc322a80a39f37107836afaaab4691c96e2a1, latest stage success.
+  - preview and custom-domain route matrix -> PASS: 14 of 14 checks returned 200 across home, Browse, Box Office, OTT calendar, Max, Mad Men, and Where to Watch.
+  - live canonical redirects -> PASS: /series/ and /streaming/ returned 301 to /browse/; /ott/hbo-max/ returned 301 to /ott/max/; www returned 301 to bollyai.in.
+  - live homepage signature audit -> PASS: world-class headline and honest zero state present, exactly 1 h1, and no AggregateRating schema.
+  - live hero asset audit -> PASS: image/webp returned 200 at 23022 bytes.
+  - IndexNow submission -> PASS: one batch containing 5955 normalized sitemap URLs was accepted.
   - git diff --check -> PASS.
 Open issues:
   - Seven pre-existing non-blocking curation warnings remain for missing related-title slugs in Money Heist, Reply, and two watch-next records; no warning was hidden or weakened.
-Next step suggested: Review the isolated worktree, then merge and publish the branch when ready.
+Next step suggested: Monitor the first production traffic window, then resolve the seven curation warnings as a separate content-maintenance slice.
 Network URLs:
+  - https://github.com/Declan142/bollyai
   - https://registry.npmjs.org/
+  - https://api.cloudflare.com/
+  - https://b2e36e61.bollyai-in.pages.dev/
+  - https://bollyai.in/
+  - https://www.bollyai.in/
+  - https://api.indexnow.org/indexnow
