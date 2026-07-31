@@ -51,7 +51,74 @@
 .sort[data-on="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
 
 /* ---- facets --------------------------------------------------------------- */
-.facets { display: grid; gap: 12px; }
+.filterDock {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-block: 12px;
+  border-block: 1px solid var(--border-hair);
+}
+
+.quickFilters {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 7px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.quickFilters::-webkit-scrollbar { display: none; }
+.quickLabel {
+  flex: 0 0 auto;
+  margin-right: 3px;
+  color: var(--text-faint);
+  font-family: var(--font-number);
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.filterToggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  min-height: 40px;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  padding: 0 12px;
+  cursor: pointer;
+  border: 1px solid color-mix(in oklch, var(--accent) 48%, var(--border));
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-number);
+  font-size: .68rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.filterToggle:hover { border-color: var(--accent); }
+.filterToggle span {
+  display: grid;
+  min-width: 20px;
+  height: 20px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: .62rem;
+}
+.filterToggle b { color: var(--accent); font-size: .9rem; }
+
+.facets {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--border-hair);
+  background: color-mix(in oklch, var(--surface) 72%, var(--bg-deep));
+}
 .facet { display: grid; gap: 7px; }
 .facetLabel {
   font-family: var(--font-number);
@@ -360,4 +427,8 @@
   .bar { gap: 10px; }
   .sorts { width: 100%; justify-content: space-between; }
   .sort { padding: 7px 6px; font-size: .68rem; letter-spacing: 0; }
+  .filterDock { align-items: stretch; }
+  .quickFilters { margin-right: -4px; }
+  .quickLabel { display: none; }
+  .filterToggle { min-height: 44px; }
 }

@@ -1,10 +1,6 @@
-import { DESKS } from "../lib/desks";
 import styles from "./Footer.module.css";
 
-// Footer (browse-lane revamp 2026-06-16): the full 6-section information architecture lives
-// here as a proper sitemap, which is what lets the top Nav collapse to five links. Six
-// sections: Browse, Verdicts, OTT Calendar, Box Office, Desks, About. Same disclosed-AI
-// editorial credit line BollyAI has always carried.
+// The footer is a compact second-tier index, not a repetition of every route in the product.
 export function Footer() {
   return (
     <footer className={styles.footer}>
@@ -19,46 +15,28 @@ export function Footer() {
             <h4>Browse</h4>
             <ul>
               <li><a href="/ask/">Ask BollyAI</a></li>
-              <li><a href="/series/">All series</a></li>
+              <li><a href="/browse/">All series</a></li>
               <li><a href="/watch/">What to watch</a></li>
               <li><a href="/series/diary/">My verdict diary</a></li>
-              <li><a href="/search/">Search</a></li>
             </ul>
           </div>
 
           <div className={styles.col}>
-            <h4>Verdicts</h4>
+            <h4>Evidence</h4>
             <ul>
               <li><a href="/hollywood/">Hollywood verdicts</a></li>
-              <li><a href="/series/">Series verdicts</a></li>
+              <li><a href="/ott/calendar/">OTT release calendar</a></li>
+              <li><a href="/box-office/">Box office desk</a></li>
               <li><a href="/how-bollyai-works/">How verdicts work</a></li>
             </ul>
           </div>
 
           <div className={styles.col}>
-            <h4>OTT Calendar</h4>
+            <h4>Tools</h4>
             <ul>
-              <li><a href="/ott/calendar/">Release calendar</a></li>
-              <li><a href="/streaming/">Streaming desk</a></li>
-              <li><a href="/watch/">Weekend picks</a></li>
-            </ul>
-          </div>
-
-          <div className={styles.col}>
-            <h4>Box Office</h4>
-            <ul>
-              <li><a href="/box-office/">Live trackers</a></li>
+              <li><a href="/tools/">All tools</a></li>
               <li><a href="/tools/hit-flop-calculator/">Hit or flop</a></li>
               <li><a href="/tools/box-office-comparator/">Comparator</a></li>
-            </ul>
-          </div>
-
-          <div className={styles.col}>
-            <h4>Desks</h4>
-            <ul>
-              {DESKS.map((desk) => (
-                <li key={desk.slug}><a href={`/${desk.slug}/`}>{desk.label}</a></li>
-              ))}
             </ul>
           </div>
 
@@ -81,12 +59,9 @@ export function Footer() {
         </p>
         <p>Metadata is keyed on Wikidata QIDs; OTT listings render attributed official and trade announcements.</p>
         <nav className={styles.policy} aria-label="Policy navigation">
-          <a href="/about/">About</a>
           <a href="/how-bollyai-works/">How BollyAI works</a>
           <a href="/takedown/">Takedown</a>
           <a href="/privacy/">Privacy</a>
-          <a href="/contact/">Contact</a>
-          <a href="/disclaimer/">Disclaimer</a>
         </nav>
       </div>
     </footer>

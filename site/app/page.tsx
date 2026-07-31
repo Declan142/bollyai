@@ -4,17 +4,18 @@ import { JsonLd } from "../components/JsonLd";
 import { PosterImage } from "../components/PosterImage";
 import {
   catalogueStats,
+  hasHomepageArt,
   heroPick,
   latestSeries,
   latestCatalogueModified,
-  ottCalendarDeck,
+  verifiedOttCalendar,
   type HeroSubject,
   type MediaItem,
   type OttCalItem
 } from "../lib/home";
 import { getAllWatchLists } from "../lib/recommendations";
 import { pageSeo } from "../lib/seo";
-import { getNewestEpisodeReviews } from "../lib/series";
+import { getAllSeries, getNewestEpisodeReviews } from "../lib/series";
 import styles from "./home.module.css";
 
 export const metadata: Metadata = {
@@ -42,6 +43,10 @@ function latestSeriesSignal(item: MediaItem): string {
   return "Verdict pending";
 }
 
+function latestSeriesStatus(item: MediaItem): string {
+  return item.score != null || item.seriesRung ? "Recently graded" : "Editorial file open";
+}
+
 function titleInitials(title: string): string {
   return title
     .split(/\s+/)
@@ -52,29 +57,48 @@ function titleInitials(title: string): string {
     .toUpperCase();
 }
 
-function LatestSeriesCard({ item }: { item: MediaItem }) {
+function LatestSeriesCard({ item, lead = false }: { item: MediaItem; lead?: boolean }) {
   const releaseDate = new Date(`${item.recency}T00:00:00+05:30`);
   const month = new Intl.DateTimeFormat("en-IN", { month: "short" }).format(releaseDate);
   const day = new Intl.DateTimeFormat("en-IN", { day: "2-digit" }).format(releaseDate);
+  const year = new Intl.DateTimeFormat("en-IN", { year: "numeric" }).format(releaseDate);
 
   return (
-    <a className={styles.latestCard} href={item.href} aria-label={`${item.title}, latest season released ${item.recency}`}>
-      <span className={styles.latestDate} aria-hidden="true">
-        <strong>{day}</strong>
-        <span>{month}</span>
+    <a
+      className={styles.latestCard}
+      data-lead={lead || undefined}
+      href={item.href}
+      aria-label={`${item.title}, latest season released ${item.recency}`}
+    >
+      <span className={styles.latestArt}>
+        <PosterImage
+          src={item.poster.src}
+          alt={item.poster.alt}
+          width="342"
+          height="513"
+          loading="lazy"
+          avifSrcSet={item.poster.variants?.avifSrcSet}
+          webpSrcSet={item.poster.variants?.webpSrcSet}
+          sizes={lead ? "(max-width: 860px) 62vw, 380px" : "(max-width: 860px) 42vw, 210px"}
+        />
+        <span className={styles.latestDate} aria-hidden="true">
+          <strong>{day}</strong>
+          <span>{month} {year}</span>
+        </span>
+        {item.score != null && <span className={styles.latestScore}>{item.score.toFixed(1)}<small>/10</small></span>}
       </span>
       <span className={styles.latestBody}>
-        <span>{item.meta} · Latest season</span>
+        <span>{item.meta} · {latestSeriesStatus(item)}</span>
         <strong>{item.title}</strong>
         <small>{latestSeriesSignal(item)}</small>
+        {lead && <span className={styles.latestLink}>Open the verdict <span aria-hidden="true">→</span></span>}
       </span>
-      <span className={styles.rowArrow} aria-hidden="true">→</span>
     </a>
   );
 }
 
 function ReleaseCard({ item }: { item: OttCalItem }) {
-  const label = item.upcoming ? "Coming" : "Now streaming";
+  const label = "Verified upcoming";
   const href = item.href ?? "/ott/calendar/";
   const releaseDate = new Date(`${item.date}T00:00:00+05:30`);
   const day = new Intl.DateTimeFormat("en-IN", { day: "2-digit" }).format(releaseDate);
@@ -83,16 +107,31 @@ function ReleaseCard({ item }: { item: OttCalItem }) {
 
   return (
     <a className={styles.releaseCard} href={href} aria-label={`${item.title}, ${label}`}>
-      <span className={styles.releaseDate} aria-hidden="true">
-        <strong>{day}</strong>
-        <span>{month}</span>
-        <small>{year}</small>
+      <span className={styles.releaseVisual}>
+        {item.poster ? (
+          <PosterImage
+            src={item.poster.src}
+            alt=""
+            width="185"
+            height="278"
+            loading="lazy"
+            avifSrcSet={item.poster.variants?.avifSrcSet}
+            webpSrcSet={item.poster.variants?.webpSrcSet}
+            sizes="120px"
+          />
+        ) : (
+          <span className={styles.releaseDate} aria-hidden="true">
+            <strong>{day}</strong>
+            <span>{month}</span>
+            <small>{year}</small>
+          </span>
+        )}
       </span>
       <span className={styles.releaseBody}>
         <span className={styles.releaseMeta}>{label} · {item.kind}</span>
         <strong>{item.title}</strong>
         <span className={styles.releasePlatform}>{item.platform}</span>
-        <span className={styles.releaseSignal}>{item.score != null ? `${item.score.toFixed(1)} / 10` : "Verified date"}</span>
+        <span className={styles.releaseSignal}>Published calendar receipt</span>
       </span>
       <span className={styles.releaseArrow} aria-hidden="true">→</span>
     </a>
@@ -103,9 +142,21 @@ export default function HomePage() {
   const stats = catalogueStats();
   const spotlight = heroPick();
   const newestSeries = latestSeries(8);
-  const releases = ottCalendarDeck(4);
-  const episodeReviews = getNewestEpisodeReviews(4);
-  const watchLists = getAllWatchLists().slice(0, 4);
+  const featuredSeries = newestSeries.slice(0, 5);
+  const releases = verifiedOttCalendar(4);
+  const episodeReviews = getNewestEpisodeReviews(12)
+    .filter((card) => hasHomepageArt(card.slug, card.poster))
+    .slice(0, 4);
+  const series = getAllSeries();
+  const seriesBySlug = new Map(series.map((item) => [item.slug, item]));
+  const seriesByTitle = new Map(series.map((item) => [item.title.value.toLowerCase(), item]));
+  const watchLists = getAllWatchLists().slice(0, 4).map((list) => {
+    const art = list.picks
+      .filter((pick) => pick.ref_type === "series")
+      .map((pick) => (pick.slug ? seriesBySlug.get(pick.slug) : seriesByTitle.get(pick.title.toLowerCase())))
+      .find((item) => item && !item.poster.src.includes("_fallback") && !item.poster.src.endsWith(".svg"));
+    return { list, poster: art?.poster ?? null };
+  });
   const latestModified = latestCatalogueModified();
 
   return (
@@ -115,6 +166,11 @@ export default function HomePage() {
 
         <div className={styles.heroInner}>
           <div className={styles.heroCopy}>
+            <div className={styles.folio} aria-label="BollyAI publication edition">
+              <span>The Friday Verdict</span>
+              <span>India edition</span>
+              <span>{stats.total} grounded title pages</span>
+            </div>
             <p className={styles.eyebrow}>Western film and TV, decoded for India</p>
             <h1 id="home-title">
               Know what deserves <span>your night.</span>
@@ -171,7 +227,7 @@ export default function HomePage() {
                   fetchPriority="high"
                   avifSrcSet={spotlight.poster.variants?.avifSrcSet}
                   webpSrcSet={spotlight.poster.variants?.webpSrcSet}
-                  sizes="(max-width: 760px) 112px, 330px"
+                  sizes="(max-width: 860px) 112px, 330px"
                 />
                 {spotlight.score != null && (
                   <span className={styles.spotlightScore}>
@@ -180,7 +236,7 @@ export default function HomePage() {
                 )}
               </span>
               <span className={styles.spotlightBody}>
-                <span className={styles.spotlightKicker}>Tonight&apos;s spotlight</span>
+                <span className={styles.spotlightKicker}>The cover verdict</span>
                 <strong>{spotlight.title}</strong>
                 <span className={styles.spotlightVerdict}>{verdictLabel(spotlight)}</span>
                 <span className={styles.spotlightBasis}>{spotlight.basis ?? spotlight.statusLine}</span>
@@ -191,54 +247,64 @@ export default function HomePage() {
         </div>
       </section>
 
-      {newestSeries.length > 0 && (
+      {featuredSeries.length > 0 && (
         <section className={styles.section} aria-labelledby="latest-series">
           <header className={styles.sectionHead}>
             <div>
               <p className={styles.eyebrow}>Current releases, no legacy filler</p>
-              <h2 id="latest-series">Latest series, first</h2>
+              <h2 id="latest-series">Fresh on the desk</h2>
             </div>
             <p>
-              Newest season premieres lead this rail. An older title only returns when a fresh season lands.
-              <a className={styles.inlineLink} href="/series/"> All series →</a>
+              One cover story, four current reads. An older title only returns when a fresh season lands.
+              <a className={styles.inlineLink} href="/browse/"> Browse all →</a>
             </p>
           </header>
           <div className={styles.latestGrid}>
-            {newestSeries.map((item) => (
-              <LatestSeriesCard item={item} key={item.slug} />
+            {featuredSeries.map((item, index) => (
+              <LatestSeriesCard item={item} lead={index === 0} key={item.slug} />
             ))}
           </div>
         </section>
       )}
 
-      {releases.length > 0 && (
-        <section className={styles.section} aria-labelledby="new-and-next">
-          <header className={styles.sectionHead}>
-            <div>
-              <p className={styles.eyebrow}>Verified release dates</p>
-              <h2 id="new-and-next">New and next</h2>
-            </div>
-            <p>
-              What just landed and what is coming across major platforms. Every announced date keeps its source trail.
-              <a className={styles.inlineLink} href="/ott/calendar/"> Full calendar →</a>
-            </p>
-          </header>
+      <section className={styles.section} aria-labelledby="new-and-next">
+        <header className={styles.sectionHead}>
+          <div>
+            <p className={styles.eyebrow}>Official and trade announcements only</p>
+            <h2 id="new-and-next">Verified upcoming</h2>
+          </div>
+          <p>
+            Premiere dates appear here only when they exist in the sourced OTT calendar. A catalogue date is never
+            relabelled as current India availability.
+            <a className={styles.inlineLink} href="/ott/calendar/"> Open the calendar →</a>
+          </p>
+        </header>
+        {releases.length > 0 ? (
           <div className={styles.releaseGrid}>
             {releases.map((item) => (
               <ReleaseCard item={item} key={`${item.kind}-${item.title}-${item.date}`} />
             ))}
           </div>
-        </section>
-      )}
+        ) : (
+          <div className={styles.releaseEmpty}>
+            <span className={styles.releaseEmptyMark} aria-hidden="true">00</span>
+            <div>
+              <strong>No upcoming date is verified in the published window.</strong>
+              <p>The desk stays blank until an official source or two independent trade sources clear the date.</p>
+            </div>
+            <a href="/ott/calendar/">Inspect the source desk <span aria-hidden="true">→</span></a>
+          </div>
+        )}
+      </section>
 
       {(episodeReviews.length > 0 || watchLists.length > 0) && (
         <section className={`${styles.section} ${styles.discovery}`} aria-label="Explore BollyAI">
           {episodeReviews.length > 0 && (
             <div className={styles.deepReads}>
               <header className={styles.compactHead}>
-                <p className={styles.eyebrow}>Fresh from the reading room</p>
+                <p className={styles.eyebrow}>From the reading room</p>
                 <h2>Go deeper</h2>
-                <a href="/series/">All series →</a>
+                <a href="/browse/">All series →</a>
               </header>
               <div className={styles.episodeList}>
                 {episodeReviews.map((card) => {
@@ -288,8 +354,23 @@ export default function HomePage() {
                 <a href="/watch/">All collections →</a>
               </header>
               <div className={styles.watchGrid}>
-                {watchLists.map((list) => (
+                {watchLists.map(({ list, poster }) => (
                   <a className={styles.watchCard} href={`/watch/${list.slug}/`} key={list.slug}>
+                    {poster && (
+                      <span className={styles.watchArt} aria-hidden="true">
+                        <PosterImage
+                          src={poster.src}
+                          alt=""
+                          width="185"
+                          height="278"
+                          loading="lazy"
+                          avifSrcSet={poster.variants?.avifSrcSet}
+                          webpSrcSet={poster.variants?.webpSrcSet}
+                          sizes="190px"
+                        />
+                      </span>
+                    )}
+                    <span className={styles.watchScrim} aria-hidden="true" />
                     <span>{list.kicker}</span>
                     <strong>{list.title}</strong>
                     <small>{list.picks.length} considered picks</small>
@@ -313,7 +394,9 @@ export default function HomePage() {
             <div className={styles.trustActions}>
               <a className={styles.primaryAction} href="/how-bollyai-works/">See how verdicts work</a>
               <a className={styles.secondaryAction} href="/series/diary/">Build your watch diary</a>
+              <a className={styles.secondaryAction} href="/tools/">Open the tools desk</a>
             </div>
+            <p className={styles.signature}>Edited and verified by Aditya Sharma · India</p>
           </div>
           <ul className={styles.principles}>
             <li><span>01</span><strong>Citations over vibes</strong><small>Published evidence stays attached to the answer.</small></li>

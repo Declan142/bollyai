@@ -429,7 +429,7 @@ function NoAnswer({ q, onPick }: { q: string; onPick: (s: string) => void }) {
       </div>
       <nav className="ask-answer__links">
         <a className="ask-answer__cta" href={`/search/?q=${encodeURIComponent(q)}`}>Search the catalogue &rarr;</a>
-        <a className="ask-answer__link" href="/series/">Browse every series</a>
+        <a className="ask-answer__link" href="/browse/">Browse every series</a>
       </nav>
     </article>
   );

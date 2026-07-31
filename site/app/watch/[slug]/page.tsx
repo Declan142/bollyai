@@ -94,7 +94,7 @@ export default async function WatchListPage(props: { params: Promise<{ slug: str
 
         <nav className="mesh-links" aria-label="Watch links">
           <a href="/watch/">All watch lists</a>
-          <a href="/series/">Series desk</a>
+          <a href="/browse/">Series desk</a>
           <a href="/ott/calendar/">OTT calendar</a>
         </nav>
       </section>

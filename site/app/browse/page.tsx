@@ -1,4 +1,5 @@
-import { BrowseGrid, type BrowseItem } from "../../components/BrowseGrid";
+import { Suspense } from "react";
+import { BrowseGrid, BrowseGridSkeleton, type BrowseItem } from "../../components/BrowseGrid";
 import { DateModified } from "../../components/DateModified";
 import { getSeriesByRecency, peakSeason, seriesRecency, isFreshSeries } from "../../lib/series";
 import { pageSeo } from "../../lib/seo";
@@ -47,7 +48,9 @@ export default function BrowseIndex() {
         <DateModified value={all[0]?.date_modified ?? "2026-06-09T00:00:00+05:30"} />
       </section>
 
-      <BrowseGrid items={items} />
+      <Suspense fallback={<BrowseGridSkeleton count={10} />}>
+        <BrowseGrid items={items} />
+      </Suspense>
     </main>
   );
 }

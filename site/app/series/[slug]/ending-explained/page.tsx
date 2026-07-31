@@ -42,7 +42,7 @@ export default async function EndingExplainedPage(props: { params: Promise<{ slu
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: series.title.value, url: `/series/${series.slug}/` },
           { name: "Ending Explained", url: `/series/${series.slug}/ending-explained/` }
         ])}
@@ -115,7 +115,7 @@ export default async function EndingExplainedPage(props: { params: Promise<{ slu
           <a href={`/series/${series.slug}/s${ending.season_number}/`}>
             Season {ending.season_number} review
           </a>
-          <a href="/series/">Back to Series</a>
+          <a href="/browse/">Back to Series</a>
         </nav>
       </section>
     </DeskTint>

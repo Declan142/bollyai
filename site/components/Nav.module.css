@@ -10,9 +10,9 @@
   gap: 28px;
   padding: 14px max(16px, calc(50% - 590px));
   border-bottom: 1px solid var(--border-hair);
-  background: oklch(11% .03 280 / .92);
-  backdrop-filter: blur(13px) saturate(1.15);
-  -webkit-backdrop-filter: blur(13px) saturate(1.15);
+  background: oklch(10.5% .008 285 / .96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .header::after {
@@ -95,8 +95,8 @@
   gap: 7px;
   padding: 7px 15px;
   border: 1px solid color-mix(in oklch, var(--accent) 60%, var(--border));
-  border-radius: 999px;
-  background: color-mix(in oklch, var(--accent) 13%, transparent);
+  border-radius: 4px;
+  background: transparent;
   color: var(--accent);
   font-family: var(--font-body);
   font-size: .9rem;
@@ -131,8 +131,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 5px;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   padding: 9px;
   cursor: pointer;
   border: 1px solid var(--border);
@@ -162,11 +162,15 @@
   cursor: pointer;
 }
 
-@media (min-width: 721px) {
+@media (max-width: 1120px) and (min-width: 961px) {
+  .searchSlot { display: none; }
+}
+
+@media (min-width: 961px) {
   .drawer { display: contents; }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
   .header {
     gap: 12px;
     flex-wrap: nowrap;

@@ -33,7 +33,7 @@ export type EpisodeReview = {
 };
 
 export type PosterVariants = {
-  avifSrcSet: string;
+  avifSrcSet?: string;
   webpSrcSet: string;
   widths: number[];
 };
@@ -98,6 +98,12 @@ const SERIES_POSTER_FALLBACK = "/img/series/_fallback.svg";
 const publicDir = path.resolve(process.cwd(), "public");
 const POSTER_VARIANT_WIDTHS = [185, 342, 500];
 
+export function resolvePublicImage(src: string | null | undefined, fallback: string): string {
+  if (!src?.startsWith("/")) return fallback;
+  const onDisk = path.join(publicDir, src.replace(/^\//, ""));
+  return fs.existsSync(onDisk) ? src : fallback;
+}
+
 function posterVariantPath(src: string, width: number, extension: "avif" | "webp"): string {
   return src.replace(/poster\.jpg$/, `w${width}.${extension}`);
 }
@@ -106,16 +112,20 @@ function posterVariants(src: string): PosterVariants | undefined {
   if (!src.startsWith("/img/series/") || src.includes("_fallback") || !src.endsWith("/poster.jpg")) return undefined;
   const manifest = path.join(publicDir, src.replace(/poster\.jpg$/, "manifest.json").replace(/^\//, ""));
   if (!fs.existsSync(manifest)) return undefined;
-  const hasEveryVariant = POSTER_VARIANT_WIDTHS.every((width) =>
-    (["avif", "webp"] as const).every((extension) => {
-      const variant = posterVariantPath(src, width, extension);
-      return fs.existsSync(path.join(publicDir, variant.replace(/^\//, "")));
-    })
-  );
-  if (!hasEveryVariant) return undefined;
+  const hasEveryWebp = POSTER_VARIANT_WIDTHS.every((width) => {
+    const variant = posterVariantPath(src, width, "webp");
+    return fs.existsSync(path.join(publicDir, variant.replace(/^\//, "")));
+  });
+  if (!hasEveryWebp) return undefined;
+  const hasEveryAvif = POSTER_VARIANT_WIDTHS.every((width) => {
+    const variant = posterVariantPath(src, width, "avif");
+    return fs.existsSync(path.join(publicDir, variant.replace(/^\//, "")));
+  });
   return {
     widths: POSTER_VARIANT_WIDTHS,
-    avifSrcSet: POSTER_VARIANT_WIDTHS.map((width) => `${posterVariantPath(src, width, "avif")} ${width}w`).join(", "),
+    ...(hasEveryAvif
+      ? { avifSrcSet: POSTER_VARIANT_WIDTHS.map((width) => `${posterVariantPath(src, width, "avif")} ${width}w`).join(", ") }
+      : {}),
     webpSrcSet: POSTER_VARIANT_WIDTHS.map((width) => `${posterVariantPath(src, width, "webp")} ${width}w`).join(", ")
   };
 }

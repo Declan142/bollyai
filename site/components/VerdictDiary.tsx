@@ -85,7 +85,7 @@ export function VerdictDiary() {
             Open any series and tap <strong>Save to Diary</strong> to start tracking it. Your
             watchlist, your ratings, your notes - all kept privately on this device.
           </p>
-          <a className={styles.emptyCta} href="/series/">
+          <a className={styles.emptyCta} href="/browse/">
             Browse series <span aria-hidden="true">→</span>
           </a>
         </div>

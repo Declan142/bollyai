@@ -96,8 +96,24 @@ export function seriesToItem(series: Series, now: number = Date.now()): MediaIte
 
 export const LATEST_SERIES_WINDOW_DAYS = 90;
 
+function hasRealArt(poster: PosterAsset): boolean {
+  return Boolean(poster?.src) && !poster.src.includes("_fallback") && !poster.src.endsWith(".svg");
+}
+
+// These catalogue entries remain available on their title and Browse surfaces, but their
+// current assets failed homepage art direction: Silo is unrelated stock photography, House of
+// the Dragon is a landscape logo crop, and The Season falls outside the Western-only front page.
+// Keeping this list explicit makes each exception reviewable and easy to remove after curation.
+const HOMEPAGE_ART_EXCLUSIONS = new Set(["silo", "house-of-the-dragon", "the-season"]);
+
+export function hasHomepageArt(slug: string, poster: PosterAsset): boolean {
+  return hasRealArt(poster) && !HOMEPAGE_ART_EXCLUSIONS.has(slug);
+}
+
 // The homepage latest rail is deliberately date-led. A title only returns when a new
-// season lands, so evergreen catalogue hits cannot crowd out current search intent.
+// season lands, so evergreen catalogue hits cannot crowd out current search intent. The
+// cover is also art-directed: titles without shipped key art stay available in Browse but
+// never turn the homepage into a fallback wall.
 export function latestSeries(limit = 8, now: number = Date.now()): MediaItem[] {
   const windowMs = LATEST_SERIES_WINDOW_DAYS * 86400000;
   return getAllSeries()
@@ -107,6 +123,7 @@ export function latestSeries(limit = 8, now: number = Date.now()): MediaItem[] {
       return { ...seriesToItem(series, now), recency: releaseDate };
     })
     .filter((item): item is MediaItem => item !== null)
+    .filter((item) => hasHomepageArt(item.slug, item.poster))
     .filter((item) => {
       const releasedAt = new Date(item.recency).getTime();
       const age = now - releasedAt;
@@ -153,9 +170,6 @@ export type HeroSubject = {
   recency: string;
 };
 
-const hasRealArt = (poster: PosterAsset): boolean =>
-  Boolean(poster?.src) && !poster.src.includes("_fallback") && !poster.src.endsWith(".svg");
-
 function filmBoFigure(film: Film): string | null {
   const ww = film.box_office.totals.worldwide_gross_inr_cr?.value;
   const net = film.box_office.totals.india_net_inr_cr?.value;
@@ -181,7 +195,7 @@ function rankedSubjects(now: number): HeroSubject[] {
   const scored: Array<{ subj: HeroSubject; weight: number }> = [];
 
   for (const f of getAllFilms()) {
-    if (!hasRealArt(f.poster)) continue;
+    if (!hasHomepageArt(f.slug, f.poster)) continue;
     const item = filmToItem(f, now);
     if (!isCurrent(item.recency)) continue;
     const bo = filmBoFigure(f);
@@ -211,7 +225,7 @@ function rankedSubjects(now: number): HeroSubject[] {
   }
 
   for (const s of getAllSeries()) {
-    if (!hasRealArt(s.poster)) continue;
+    if (!hasHomepageArt(s.slug, s.poster)) continue;
     const item = seriesToItem(s, now);
     if (!isCurrent(item.recency)) continue;
     const bm = latestSeason(s)?.bollymeter ?? null;
@@ -261,9 +275,8 @@ function seriesLookupKey(title: string): string {
     .trim();
 }
 
-// ONE OTT CALENDAR ROW for the calendar hero. Composed from the real upcoming OTT announcements
-// (forward-looking) PLUS the recently-dropped catalogue titles (which carry posters + pages +
-// scores) so the calendar is poster-rich and clickable, not 4 thin unlinkable rows.
+// One row from the verified OTT announcement calendar. Catalogue season dates are intentionally
+// excluded: a premiere date plus a platform field does not prove current India availability.
 export type OttCalItem = {
   date: string; // ISO yyyy-mm-dd
   title: string;
@@ -271,18 +284,17 @@ export type OttCalItem = {
   kind: "film" | "series";
   href: string | null; // null = announced but no page yet
   poster: PosterAsset | null;
-  score: number | null; // BollyMeter for already-dropped titles
-  upcoming: boolean; // true = future drop, false = now streaming
+  score: null;
 };
 
-export function ottCalendarDeck(count = 12, now: number = Date.now()): OttCalItem[] {
+export function verifiedOttCalendar(count = 12, now: number = Date.now()): OttCalItem[] {
   const todayIso = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date(now));
   const seen = new Set<string>();
   const coming: OttCalItem[] = [];
-  const dropped: OttCalItem[] = [];
   const seriesByTitle = new Map(getAllSeries().map((series) => [seriesLookupKey(series.title.value), series]));
 
-  // 1) genuine upcoming announcements from the OTT calendar (calendar slugs are series slugs)
+  // Genuine upcoming announcements only. If the source window is empty, the homepage says so
+  // instead of relabelling recently graded catalogue titles as verified streaming availability.
   for (const e of getOttCalendar().entries) {
     if (e.release_date < todayIso) continue;
     const matchedSeries = e.type === "series" ? seriesByTitle.get(seriesLookupKey(e.title)) : undefined;
@@ -297,47 +309,11 @@ export function ottCalendarDeck(count = 12, now: number = Date.now()): OttCalIte
       kind: e.type,
       href: slug ? `/series/${slug}/` : null,
       poster: slug ? seriesPosterBySlug(slug) : null,
-      score: null,
-      upcoming: true
+      score: null
     });
   }
 
-  // 2) recently dropped on OTT from the catalogue (rich + clickable)
-  const recent = [
-    ...getAllSeries().map((s) => seriesToItem(s, now)),
-    ...getAllFilms()
-      .filter((f) => f.status === "ott")
-      .map((f) => filmToItem(f, now))
-  ]
-    .filter((i) => Boolean(i.poster.src) && !i.poster.src.includes("_fallback"))
-    .sort((a, b) => b.recency.localeCompare(a.recency));
-
-  for (const i of recent) {
-    if (dropped.length >= count) break;
-    const key = `${i.kind}:${i.slug}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    dropped.push({
-      date: i.recency,
-      title: i.title,
-      platform: i.meta,
-      kind: i.kind,
-      href: i.href,
-      poster: i.poster,
-      score: i.score,
-      upcoming: false
-    });
-  }
-
-  coming.sort((a, b) => a.date.localeCompare(b.date)); // soonest drop first
-  const droppedSlots = Math.ceil(count / 2);
-  const comingSlots = count - droppedSlots;
-  const selected = [...dropped.slice(0, droppedSlots), ...coming.slice(0, comingSlots)];
-  if (selected.length >= count) return selected;
-
-  return [
-    ...selected,
-    ...dropped.slice(droppedSlots),
-    ...coming.slice(comingSlots)
-  ].slice(0, count);
+  return coming
+    .sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title))
+    .slice(0, count);
 }

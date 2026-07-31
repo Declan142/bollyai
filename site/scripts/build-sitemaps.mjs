@@ -13,6 +13,7 @@ const dataDir = path.join(repoRoot, "data");
 const publicDir = path.join(siteRoot, "public");
 const SITE = "https://bollyai.in";
 const LAUNCH = "2026-06-08"; // real first-publish date for static/utility pages
+const HOME_TEMPLATE_REVISION = "2026-08-01";
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 const listJson = (dir) =>
@@ -39,7 +40,15 @@ const boxoffice = loadBoxOfficeBoard({
   readText: (filePath) => fs.readFileSync(filePath, "utf8")
 });
 
-const DESKS = ["hollywood", "streaming"];
+// /streaming/ is a Cloudflare redirect to the canonical /browse/ catalogue.
+const DESKS = ["hollywood"];
+const homeModified = maxDay([
+  HOME_TEMPLATE_REVISION,
+  ...films.map((film) => film.date_modified),
+  ...series.map((show) => show.date_modified),
+  ...watch.map((list) => list.updated),
+  calendar.generated_at
+]);
 
 // ---- build URL rows per child {loc, lastmod} ----
 const urlXml = (rows) =>
@@ -57,14 +66,19 @@ const staticPaths = [
   "/takedown/",
   "/how-bollyai-works/",
   "/box-office/",
-  "/series/",
-  "/watch/"
+  "/ask/",
+  "/browse/",
+  "/series/diary/",
+  "/watch/",
+  "/tools/",
+  "/tools/hit-flop-calculator/",
+  "/tools/box-office-comparator/"
 ];
 const pages = [];
 for (const p of staticPaths) {
   pages.push({
     loc: `${SITE}${p}`,
-    lastmod: p === "/box-office/" ? day(boxoffice.generated_at) : LAUNCH
+    lastmod: p === "/" ? homeModified : p === "/box-office/" ? day(boxoffice.generated_at) : LAUNCH
   });
 }
 for (const desk of DESKS) {
@@ -109,6 +123,7 @@ for (const f of films) {
 // series hubs + seasons + where-to-watch (separate children)
 const seriesRows = [];
 const seasonRows = [];
+const episodeRowsByLocation = new Map();
 const w2wRows = [];
 for (const s of series) {
   const lm = day(s.date_modified);
@@ -120,6 +135,45 @@ for (const s of series) {
   }
   for (const season of s.seasons || []) {
     seasonRows.push({ loc: `${SITE}/series/${s.slug}/s${season.number}/`, lastmod: lm });
+    for (const episode of season.episode_reviews || []) {
+      if (!episode.review_body?.trim()) continue;
+      const loc = `${SITE}/series/${s.slug}/s${season.number}/e${episode.number}/`;
+      episodeRowsByLocation.set(loc, { loc, lastmod: lm });
+    }
+  }
+}
+
+// Subtitle-grounded breakdowns and rich embedded episode reviews share one route. Keep a
+// deduplicated sitemap row for both sources so every indexable exported episode is discoverable.
+const episodeDataDir = path.join(dataDir, "episodes");
+if (fs.existsSync(episodeDataDir)) {
+  const seriesBySlug = new Map(series.map((show) => [show.slug, show]));
+  for (const slug of fs.readdirSync(episodeDataDir)) {
+    const dir = path.join(episodeDataDir, slug);
+    if (!fs.statSync(dir).isDirectory()) continue;
+    for (const episode of listJson(dir)) {
+      if (!Number.isInteger(episode.season) || !Number.isInteger(episode.number)) continue;
+      const loc = `${SITE}/series/${slug}/s${episode.season}/e${episode.number}/`;
+      episodeRowsByLocation.set(loc, { loc, lastmod: day(seriesBySlug.get(slug)?.date_modified) });
+    }
+  }
+}
+const episodeRows = [...episodeRowsByLocation.values()].sort((a, b) => a.loc.localeCompare(b.loc));
+
+// Standalone explainers are indexable editorial pages, not utility search results.
+const explainerRows = [];
+const explainersDir = path.join(dataDir, "explainers");
+if (fs.existsSync(explainersDir)) {
+  for (const slug of fs.readdirSync(explainersDir)) {
+    const dir = path.join(explainersDir, slug);
+    if (!fs.statSync(dir).isDirectory()) continue;
+    for (const explainer of listJson(dir)) {
+      if (!explainer.topic) continue;
+      explainerRows.push({
+        loc: `${SITE}/series/${slug}/explainer/${explainer.topic}/`,
+        lastmod: day(explainer.date_modified)
+      });
+    }
   }
 }
 
@@ -155,6 +209,8 @@ const children = [
   ["sitemap-series.xml", urlXml(seriesRows), maxDay(seriesRows.map((r) => r.lastmod))],
   ["sitemap-where-to-watch.xml", urlXml(w2wRows), maxDay(w2wRows.map((r) => r.lastmod))],
   ["sitemap-seasons.xml", urlXml(seasonRows), maxDay(seasonRows.map((r) => r.lastmod))],
+  ["sitemap-episodes.xml", urlXml(episodeRows), maxDay(episodeRows.map((r) => r.lastmod))],
+  ["sitemap-explainers.xml", urlXml(explainerRows), maxDay(explainerRows.map((r) => r.lastmod))],
   ["sitemap-endings.xml", urlXml(endingRows), maxDay(endingRows.map((r) => r.lastmod))],
   ["sitemap-predictions.xml", urlXml(predictionRows), maxDay(predictionRows.map((r) => r.lastmod))],
   ["sitemap-watch.xml", urlXml(watchRows), maxDay(watchRows.map((r) => r.lastmod))],
@@ -170,8 +226,8 @@ const indexXml =
   `\n</sitemapindex>\n`;
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), indexXml);
 
-const total = pages.length + filmRows.length + seriesRows.length + w2wRows.length + seasonRows.length + endingRows.length + predictionRows.length + watchRows.length;
+const total = pages.length + filmRows.length + seriesRows.length + w2wRows.length + seasonRows.length + episodeRows.length + explainerRows.length + endingRows.length + predictionRows.length + watchRows.length;
 console.log(
   `sitemaps: index + ${children.length} children | ${total} URLs ` +
-  `(pages ${pages.length}, films ${filmRows.length}, series ${seriesRows.length}, where-to-watch ${w2wRows.length}, seasons ${seasonRows.length}, endings ${endingRows.length}, predictions ${predictionRows.length}, watch ${watchRows.length}) + ${imgRows.length} images`
+  `(pages ${pages.length}, films ${filmRows.length}, series ${seriesRows.length}, where-to-watch ${w2wRows.length}, seasons ${seasonRows.length}, episodes ${episodeRows.length}, explainers ${explainerRows.length}, endings ${endingRows.length}, predictions ${predictionRows.length}, watch ${watchRows.length}) + ${imgRows.length} images`
 );

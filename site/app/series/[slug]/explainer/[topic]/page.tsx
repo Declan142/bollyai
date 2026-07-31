@@ -56,7 +56,7 @@ export default async function ExplainerPage(props: { params: Promise<{ slug: str
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: series.title.value, url: `/series/${series.slug}/` },
           { name: explainer.title, url: `/series/${series.slug}/explainer/${explainer.topic}/` }
         ])}
@@ -136,7 +136,7 @@ export default async function ExplainerPage(props: { params: Promise<{ slug: str
 
         <nav className="mesh-links" aria-label="Series links">
           <a href={`/series/${series.slug}/`}>All about {series.title.value}</a>
-          <a href="/series/">Back to Series</a>
+          <a href="/browse/">Back to Series</a>
         </nav>
       </section>
     </DeskTint>

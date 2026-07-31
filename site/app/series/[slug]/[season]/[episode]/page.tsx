@@ -5,7 +5,13 @@ import { DeskTint } from "../../../../../components/DeskTint";
 import { JsonLd } from "../../../../../components/JsonLd";
 import { ReviewBody } from "../../../../../components/ReviewBody";
 import { formatDate } from "../../../../../lib/data";
-import { getAllSeries, getSeries, getEpisodeReview, getRichEpisodeParams } from "../../../../../lib/series";
+import {
+  getAllSeries,
+  getSeries,
+  getEpisodeReview,
+  getRichEpisodeParams,
+  resolvePublicImage
+} from "../../../../../lib/series";
 import { getEpisodeBreakdowns, getEpisodeBreakdown, epPath, parseEpId } from "../../../../../lib/episodes";
 import { breadcrumbJsonLd } from "../../../../../lib/jsonld";
 import { ogImage, pageSeo } from "../../../../../lib/seo";
@@ -98,7 +104,7 @@ export default async function EpisodePage(props: { params: Promise<Params> }) {
 
   const title_str = richEp?.title ?? ep?.title ?? `Episode ${number}`;
   const scoreVal = richEp?.verdict?.score ?? richEp?.bollymeter ?? ep?.bollymeter ?? null;
-  const heroImg = richEp?.hero_image ?? series.poster.src;
+  const heroImg = resolvePublicImage(richEp?.hero_image, series.poster.src);
 
   const reviewLd = {
     "@context": "https://schema.org",
@@ -130,7 +136,7 @@ export default async function EpisodePage(props: { params: Promise<Params> }) {
         <JsonLd
           data={breadcrumbJsonLd([
             { name: "Home", url: "/" },
-            { name: "Series", url: "/series/" },
+            { name: "Series", url: "/browse/" },
             { name: t, url: `/series/${series.slug}/` },
             { name: `Season ${season}`, url: `/series/${series.slug}/s${season}/` },
             { name: `Episode ${number}`, url: epPath(series.slug, season, number) }
@@ -215,7 +221,7 @@ export default async function EpisodePage(props: { params: Promise<Params> }) {
           <nav className="mesh-links" aria-label="Series links">
             <a href={`/series/${series.slug}/s${season}/`}>{t} Season {season} review</a>
             <a href={`/series/${series.slug}/`}>All seasons of {t}</a>
-            <a href="/series/">Back to Series</a>
+            <a href="/browse/">Back to Series</a>
           </nav>
         </section>
       </DeskTint>
@@ -231,7 +237,7 @@ export default async function EpisodePage(props: { params: Promise<Params> }) {
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: t, url: `/series/${series.slug}/` },
           { name: `Season ${ep.season}`, url: `/series/${series.slug}/s${ep.season}/` },
           { name: `Episode ${ep.number}`, url: epPath(series.slug, ep.season, ep.number) }
@@ -352,7 +358,7 @@ export default async function EpisodePage(props: { params: Promise<Params> }) {
             {t} Season {ep.season} review
           </a>
           <a href={`/series/${series.slug}/`}>All seasons of {t}</a>
-          <a href="/series/">Back to Series</a>
+          <a href="/browse/">Back to Series</a>
         </nav>
       </section>
     </DeskTint>

@@ -7,7 +7,7 @@ export const metadata = {
   title: "Browse Series & OTT Shows by Genre, Platform & Year",
   description:
     "Filter and sort BollyAI verdicts on Western series and streaming originals by genre, platform, country and year. Newest drops surface first.",
-  ...pageSeo({ path: "/series/" })
+  ...pageSeo({ path: "/browse/" })
 };
 
 export default function SeriesIndex() {

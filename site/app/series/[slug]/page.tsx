@@ -60,7 +60,7 @@ export default async function SeriesHub(props: { params: Promise<{ slug: string 
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: series.title.value, url: `/series/${series.slug}/` }
         ])}
       />

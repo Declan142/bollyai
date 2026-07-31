@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState, type ReactNode } from "react";
+import { useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { PosterImage } from "./PosterImage";
 import styles from "./BrowseGrid.module.css";
 
@@ -65,13 +66,16 @@ export function BrowseGridSkeleton({ count = 12 }: { count?: number }) {
 }
 
 export function BrowseGrid({ items }: { items: BrowseItem[] }) {
-  const [q, setQ] = useState("");
-  const [sort, setSort] = useState<SortKey>("recent");
-  const [genres, setGenres] = useState<Set<string>>(new Set());
-  const [plats, setPlats] = useState<Set<string>>(new Set());
-  const [origins, setOrigins] = useState<Set<string>>(new Set());
-  const [statuses, setStatuses] = useState<Set<string>>(new Set());
-  const [decades, setDecades] = useState<Set<string>>(new Set());
+  const searchParams = useSearchParams();
+  const initialSort = searchParams.get("sort");
+  const [q, setQ] = useState(() => searchParams.get("q") ?? "");
+  const [sort, setSort] = useState<SortKey>(() => SORTS.some((item) => item.k === initialSort) ? initialSort as SortKey : "recent");
+  const [genres, setGenres] = useState<Set<string>>(() => new Set(searchParams.getAll("genre")));
+  const [plats, setPlats] = useState<Set<string>>(() => new Set(searchParams.getAll("platform")));
+  const [origins, setOrigins] = useState<Set<string>>(() => new Set(searchParams.getAll("country")));
+  const [statuses, setStatuses] = useState<Set<string>>(() => new Set(searchParams.getAll("status")));
+  const [decades, setDecades] = useState<Set<string>>(() => new Set(searchParams.getAll("era")));
+  const [filtersOpen, setFiltersOpen] = useState(() => ["genre", "platform", "country", "status", "era"].some((key) => searchParams.has(key)));
   const [showAllGenres, setShowAllGenres] = useState(false);
 
   const facets = useMemo(() => ({
@@ -88,7 +92,23 @@ export function BrowseGrid({ items }: { items: BrowseItem[] }) {
     setter(next);
   };
 
-  const activeCount = genres.size + plats.size + origins.size + statuses.size + decades.size + (q.trim() ? 1 : 0);
+  const facetCount = genres.size + plats.size + origins.size + statuses.size + decades.size;
+  const activeCount = facetCount + (q.trim() ? 1 : 0);
+
+  useEffect(() => {
+    const next = new URLSearchParams();
+    if (q.trim()) next.set("q", q.trim());
+    if (sort !== "recent") next.set("sort", sort);
+    const add = (key: string, values: Set<string>) => [...values].sort().forEach((value) => next.append(key, value));
+    add("genre", genres);
+    add("platform", plats);
+    add("country", origins);
+    add("status", statuses);
+    add("era", decades);
+    const query = next.toString();
+    const url = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
+    window.history.replaceState(window.history.state, "", url);
+  }, [q, sort, genres, plats, origins, statuses, decades]);
 
   const results = useMemo(() => {
     const needle = q.trim().toLowerCase();
@@ -153,7 +173,28 @@ export function BrowseGrid({ items }: { items: BrowseItem[] }) {
         </div>
       </div>
 
-      <div className={styles.facets}>
+      <div className={styles.filterDock}>
+        <div className={styles.quickFilters} aria-label="Quick genre filters">
+          <span className={styles.quickLabel}>Quick cuts</span>
+          {facets.genres.slice(0, 6).map((genre) => (
+            <Chip key={genre.name} on={genres.has(genre.name)} onClick={() => toggle(genres, setGenres, genre.name)}>
+              {genre.name}
+            </Chip>
+          ))}
+        </div>
+        <button
+          type="button"
+          className={styles.filterToggle}
+          aria-controls="browse-filter-panel"
+          aria-expanded={filtersOpen}
+          onClick={() => setFiltersOpen((open) => !open)}
+        >
+          All filters {facetCount > 0 && <span>{facetCount}</span>}
+          <b aria-hidden="true">{filtersOpen ? "−" : "+"}</b>
+        </button>
+      </div>
+
+      <div className={styles.facets} id="browse-filter-panel" hidden={!filtersOpen}>
         <div className={styles.facet}>
           <span className={styles.facetLabel}>Genre</span>
           <div className={styles.chips}>
@@ -210,7 +251,7 @@ export function BrowseGrid({ items }: { items: BrowseItem[] }) {
         <span><b>{results.length}</b> {results.length === 1 ? "show" : "shows"}</span>
         {activeCount > 0 && (
           <button type="button" className={styles.clear} onClick={clearAll}>
-            Clear {activeCount} filter{activeCount === 1 ? "" : "s"}
+            Clear {activeCount} refinement{activeCount === 1 ? "" : "s"}
           </button>
         )}
       </div>

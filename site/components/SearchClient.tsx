@@ -10,7 +10,7 @@ const KIND_ORDER = ["Film", "Series", "Ending", "List", "Desk"];
 // so the search surface never reads as an empty box.
 const DESK_JUMPS: { label: string; href: string }[] = [
   { label: "Hollywood", href: "/hollywood/" },
-  { label: "Streaming", href: "/streaming/" }
+  { label: "Streaming", href: "/browse/" }
 ];
 const QUICK_JUMPS: { label: string; href: string }[] = [
   { label: "OTT Calendar", href: "/ott/calendar/" },

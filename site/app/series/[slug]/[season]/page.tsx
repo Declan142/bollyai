@@ -61,7 +61,7 @@ export default async function SeasonPage(props: { params: Promise<{ slug: string
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: series.title.value, url: `/series/${series.slug}/` },
           { name: `Season ${season.number}`, url: `/series/${series.slug}/s${season.number}/` }
         ])}
@@ -179,7 +179,7 @@ export default async function SeasonPage(props: { params: Promise<{ slug: string
               {series.title.value} ending explained
             </a>
           )}
-          <a href="/series/">Back to Series</a>
+          <a href="/browse/">Back to Series</a>
           <a href="/ott/calendar/">OTT calendar</a>
         </nav>
       </section>

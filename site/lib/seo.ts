@@ -25,7 +25,7 @@ export type SeoInput = {
  * Spread it into a route's metadata (page title & description flow into og:/twitter: via
  * Next's metadata merge, so they need not be repeated here):
  *
- *   export const metadata = { title, description, ...pageSeo({ path: "/series/" }) };
+ *   export const metadata = { title, description, ...pageSeo({ path: "/browse/" }) };
  *   // or, per-title with its poster as the share image:
  *   return { title, description, ...pageSeo({ path: `/series/${slug}/`, image: series.poster.src, type: "article" }) };
  */

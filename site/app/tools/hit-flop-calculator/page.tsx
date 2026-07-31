@@ -19,7 +19,7 @@ export default function HitFlopCalculatorPage() {
     "BollyAI's hit-flop calculator converts gross to nett, applies an editable distributor-share ratio, and maps recovery to the 9-rung trade ladder. Estimated budgets or default share ratios render a verdict band, not fake precision.";
 
   return (
-    <main className="page-shell tool-shell" data-desk="bollywood">
+    <main className="page-shell tool-shell" data-desk="hollywood">
       <JsonLd
         data={{
           "@context": "https://schema.org",

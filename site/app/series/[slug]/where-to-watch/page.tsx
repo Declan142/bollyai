@@ -88,7 +88,7 @@ export default async function WhereToWatchPage(props: { params: Promise<{ slug: 
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: t, url: `/series/${series.slug}/` },
           { name: "Where to Watch", url: `/series/${series.slug}/where-to-watch/` }
         ])}
@@ -258,7 +258,7 @@ export default async function WhereToWatchPage(props: { params: Promise<{ slug: 
         <nav className="mesh-links" aria-label="Series links">
           <a href={`/series/${series.slug}/`}>Full {t} review</a>
           {ottSlug && <a href={`/ott/${ottSlug}/`}>What&apos;s new on {plat}</a>}
-          <a href="/series/">Browse all series</a>
+          <a href="/browse/">Browse all series</a>
         </nav>
       </section>
     </DeskTint>

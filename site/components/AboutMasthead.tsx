@@ -68,7 +68,7 @@ export function AboutMasthead() {
         <p className={styles.lead}>Western film and Western TV get their own desk each, so weekend box office and OTT drops are never graded on the same curve. Each desk is a doorway into the same source-first verdict engine.</p>
         <nav className={styles.desks} aria-label="Desks">
           {DESKS.map((desk) => (
-            <a className={styles.desk} href={`/${desk.slug}/`} key={desk.slug}>
+            <a className={styles.desk} href={desk.slug === "streaming" ? "/browse/" : `/${desk.slug}/`} key={desk.slug}>
               <strong>{desk.label}</strong>
               <span>{desk.industryName}</span>
             </a>

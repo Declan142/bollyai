@@ -1,6 +1,4 @@
-/* Footer - component-scoped (CSS Module). Carries the FULL 6-section IA as a sitemap
-   (Browse / Verdicts / OTT Calendar / Box Office / Desks / About), so the top Nav can
-   stay at 5. Same warm-graphite + amber language as the rest of the site. */
+/* Compact second-tier index: the active product journeys without a second copy of the nav. */
 
 .footer {
   width: min(1180px, calc(100% - 32px));
@@ -37,7 +35,7 @@
 
 .cols {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 28px 24px;
 }
 
@@ -87,9 +85,10 @@
 
 @media (max-width: 860px) {
   .top { grid-template-columns: 1fr; gap: 30px; }
+  .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 560px) {
   .footer { width: min(100% - 22px, 1180px); }
-  .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cols { grid-template-columns: 1fr 1fr; gap: 26px 18px; }
 }

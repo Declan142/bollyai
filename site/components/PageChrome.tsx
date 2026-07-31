@@ -41,7 +41,7 @@ export function SiteHeader() {
             </a>
           ))}
           <a href="/box-office/">Box Office</a>
-          <a href="/series/">Series</a>
+          <a href="/browse/">Series</a>
           <a href="/watch/">What to Watch</a>
           <a href="/ott/calendar/">OTT Calendar</a>
         </nav>

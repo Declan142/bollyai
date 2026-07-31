@@ -19,7 +19,8 @@ export async function generateMetadata(props: { params: Promise<{ desk: string }
   if (!desk) return {};
   const title = `${desk.label} Movie Reviews, Box Office & Verdicts`;
   const description = desk.answer.slice(0, 158).replace(/\s+\S*$/, "");
-  return { title, description, ...pageSeo({ path: `/${params.desk}/` }) };
+  const canonicalPath = params.desk === "streaming" ? "/browse/" : `/${params.desk}/`;
+  return { title, description, ...pageSeo({ path: canonicalPath }) };
 }
 
 export default async function DeskHub(props: { params: Promise<{ desk: string }> }) {

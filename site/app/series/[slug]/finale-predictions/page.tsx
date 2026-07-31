@@ -41,7 +41,7 @@ export default async function FinalePredictionsPage(props: { params: Promise<{ s
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: "/" },
-          { name: "Series", url: "/series/" },
+          { name: "Series", url: "/browse/" },
           { name: series.title.value, url: `/series/${series.slug}/` },
           { name: "Finale Predictions", url: `/series/${series.slug}/finale-predictions/` }
         ])}
@@ -127,7 +127,7 @@ export default async function FinalePredictionsPage(props: { params: Promise<{ s
           <a href={`/series/${series.slug}/s${prediction.season_number}/`}>
             Season {prediction.season_number} review
           </a>
-          <a href="/series/">Back to Series</a>
+          <a href="/browse/">Back to Series</a>
         </nav>
       </section>
     </DeskTint>

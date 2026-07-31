@@ -1,45 +1,42 @@
-Status: PARTIAL
+Status: COMPLETE
 Did:
-  - Added a deterministic offline source-clearance gate for the closed Monday-to-Sunday UTC Worldwide box-office contract.
-  - Made production readiness require at least two fully reviewed, code-registered sources from two attested independence groups.
-  - Kept territory, exact-period, currency, consensus thresholds, and minimum-source policy code-owned so registry JSON cannot weaken them.
-  - Added a sanitized candidate registry and procurement checklist without endpoints, credentials, fees, invented license terms, or implied approval.
-  - Classified the public Box Office Mojo and The Numbers surfaces as scope mismatches and kept IMDb bulk and Comscore Global as unapproved procurement candidates only.
-  - Kept every candidate unapproved and unconfigured; the canonical gate returns SOURCE_CLEARANCE_PENDING with zero qualifying sources.
-  - Integrated sanitized clearance evidence into the live fetch result, run-all status, and source-list CLI while preserving the last-good public board.
-  - Added adversarial tests for policy type confusion, fake adapter registration, partial approvals, repeated independence groups, credentialed URLs, unknown fields, coverage mismatch, and consensus thresholds.
+  - Rebuilt the BollyAI homepage into a responsive editorial cinema experience led by the Friday Verdict, a grounded Ask flow, a current-release desk, verified-upcoming truth states, deeper reads, curated moods, and a clear honesty contract.
+  - Added original responsive hero artwork, refined Fraunces typography, stronger hierarchy, cleaner navigation, reduced pill styling, and mobile layouts down to 320 px.
+  - Kept homepage selection honest by excluding wrong, off-scope, landscape, fallback, and stale art; pending verdicts are labelled as open editorial files instead of graded titles.
+  - Made Browse filter and sort state shareable through the URL, added progressive facets, and consolidated legacy Series and Streaming hubs onto canonical Browse routes.
+  - Resolved stale episode-image paths through filesystem-backed fallback resolution and added a fail-closed generated-site static asset gate.
+  - Expanded deterministic sitemap generation to episode and explainer routes, added explicit redirect exclusions, and bound homepage lastmod to content or template revision.
+  - Updated trust tests and release gates without weakening the existing Western-only, rating-provenance, box-office, or Cloudflare file-cap contracts.
+  - Worked only in isolated branch codex/bollyai-worldclass-site-20260801 from base 5d1b0353; the user's dirty main workspace was not modified, and no push or deployment was performed.
 Artefacts:
-  - RESUME.md
-  - data/boxoffice/README.md
-  - data/boxoffice/source-candidates.json
-  - engine/fetchers/boxoffice_source_clearance.py
-  - engine/fetchers/boxoffice_week_schema.py
-  - engine/fetchers/boxoffice_western.py
-  - engine/fetchers/run_all.py
-  - scripts/boxoffice/fetch_boxoffice.py
-  - tests/test_boxoffice_compat_cli.py
-  - tests/test_boxoffice_source_clearance.py
-  - tests/test_boxoffice_week_contract.py
-  - tests/test_run_all_boxoffice.py
-  - last.txt
+  - site/app/page.tsx (424 lines)
+  - site/app/home.module.css (791 lines)
+  - site/components/BrowseGrid.tsx (300 lines)
+  - site/components/BrowseGrid.module.css (434 lines)
+  - site/lib/home.ts (319 lines)
+  - site/lib/series.ts (366 lines)
+  - site/public/img/brand/friday-verdict-hero.webp (23022 bytes)
+  - site/public/img/brand/friday-verdict-hero-960.webp (9144 bytes)
+  - site/scripts/assert-static-assets.mjs (63 lines)
+  - site/scripts/build-sitemaps.mjs (233 lines)
+  - site/public/sitemap-episodes.xml (277564 bytes; 2873 URLs)
+  - site/public/sitemap-explainers.xml (2410 bytes; 21 URLs)
+  - tests/test_brand_lock.py (176 lines)
+  - last.txt (42 lines)
 Verification:
-  - python3 -m pytest -q -> PASS: 311 passed in 10.63s
-  - npm run test:boxoffice from site/ -> PASS: 17 of 17 tests
-  - npm run build from site/ -> PASS: 5661 static pages; 6840 files under the 20000-file Cloudflare cap
-  - python3 engine/fetchers/boxoffice_source_clearance.py -> EXPECTED CLOSED: exit 2, SOURCE_CLEARANCE_PENDING, 0 of 2 qualifying sources, 0 independence groups
-  - python3 scripts/boxoffice/fetch_boxoffice.py --list-sources -> PASS: SOURCE_CLEARANCE_PENDING, 0 operational sources
-  - candidate registry assertion -> PASS: 4 of 4 unapproved, 4 of 4 unconfigured, 0 credentialed documentation URLs
-  - git diff --check -> PASS
-  - production build warnings -> 7 pre-existing missing-slug curation warnings; unchanged and non-blocking
+  - cd site && npx --yes --package node@20.19.4 -- npm run build -> PASS: Next 15.5.22 generated 5661 static routes; artifact has 6847 files and 5659 HTML files under the Cloudflare cap.
+  - pytest -q -> PASS: 315 passed in 9.95s.
+  - cd site && node scripts/assert-static-assets.mjs -> PASS: 778 unique static references across 5666 HTML/CSS files, 0 missing.
+  - generated sitemap audit -> PASS: 12 valid XML files, 11 of 11 index children present, 0 missing, 0 orphan, and 0 duplicate expected canonicals.
+  - generated redirect/canonical audit -> PASS: /series/ and /streaming/ redirect to /browse/; 0 exact legacy internal links; all hub artifacts canonicalize to /browse/.
+  - CDP responsive canary at 1440, 1024, 900, 768, 390, and 320 px -> PASS: 0 horizontal overflow, 0 image load defects, 5 current cards, 4 episode rows, and 4 mood cards at every width.
+  - CDP accessibility canary -> PASS: working skip link, modal focus trap, Escape and overlay restoration, reduced-motion behavior, and 44 px minimum interactive targets.
+  - Browse URL-state canary -> PASS: rated + Mystery + Netflix restored from query state with 39 results, Dark first, and 0 overflow.
+  - independent visual audit -> PASS: 8.8/10 GO with no release blocker.
+  - semantic two-build comparison -> PASS: 0 changed HTML files after normalizing Next's random build ID.
+  - git diff --check -> PASS.
 Open issues:
-  - No candidate currently proves the exact closed Monday-to-Sunday UTC Worldwide USD contract.
-  - Legal, terms, license, coverage, ownership-independence, and activation reviews remain pending.
-  - No production adapter is code-registered, and no live or licensed source call was made.
-  - The public board must remain data_pending until two independent sources and an operational adapter pass a separately reviewed canary.
-Next step suggested: Procure and document two truly independent exact-week sources, complete reviews outside the repo, then add offline fixtures and adapters in a separately approved activation change.
+  - Seven pre-existing non-blocking curation warnings remain for missing related-title slugs in Money Heist, Reply, and two watch-next records; no warning was hidden or weakened.
+Next step suggested: Review the isolated worktree, then merge and publish the branch when ready.
 Network URLs:
-  - https://www.boxofficemojo.com/weekly/
-  - https://www.the-numbers.com/
-  - https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/
-  - https://developer.imdb.com/documentation/api-documentation/getting-access/
-  - https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting
+  - https://registry.npmjs.org/
