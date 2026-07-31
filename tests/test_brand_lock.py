@@ -82,6 +82,11 @@ def test_browse_is_the_only_advertised_series_index():
     assert 'params.desk === "streaming" ? "/browse/"' in desk_page
 
 
+def test_legacy_hbo_max_route_redirects_to_current_max_hub():
+    redirects = (REPO_ROOT / "site/public/_redirects").read_text(encoding="utf-8").splitlines()
+    assert "/ott/hbo-max/ /ott/max/ 301" in redirects
+
+
 def test_latest_series_contract_is_date_led_and_bounded():
     home_lib = (REPO_ROOT / "site/lib/home.ts").read_text(encoding="utf-8")
     series_lib = (REPO_ROOT / "site/lib/series.ts").read_text(encoding="utf-8")

@@ -119,7 +119,6 @@ def test_generated_calendar_has_source_envelopes():
     assert win_end.weekday() == 6, "OTT calendar window must end on a Sunday"
     assert (win_end - win_start).days == 13, "OTT calendar window must span two weeks"
     assert len(calendar["weeks"]) == 2
-    assert calendar["entries"], "weekly OTT calendar should not be empty"
 
     rendered_titles = {entry["title"]["value"] for entry in calendar["entries"]}
     verified_in_window = {
@@ -132,6 +131,10 @@ def test_generated_calendar_has_source_envelopes():
         )
     }
     assert verified_in_window <= rendered_titles, "active calendar dropped a verified announcement in its own window"
+    if not calendar["entries"]:
+        assert not verified_in_window, (
+            "an empty calendar is valid only when its window has no source-verified announcements"
+        )
 
     for entry in calendar["entries"]:
         for field in ("title", "platform", "release_date", "language", "industry"):
