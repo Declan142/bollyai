@@ -5,9 +5,9 @@ Did:
   - Rebased the isolated release branch onto current origin/main without touching the user's dirty main worktree.
   - Reconciled the rolling OTT calendar contract so an empty window is valid only when that window has no source-verified announcements; no release data was fabricated.
   - Preserved the historical /ott/hbo-max/ URL with a tested 301 to the current /ott/max/ hub and regenerated the current W31/W32 sitemap inventory.
-  - Pushed branch codex/bollyai-worldclass-site-20260801, then fast-forwarded GitHub main without force to production source commit 532dc322a80a39f37107836afaaab4691c96e2a1.
+  - Pushed branch codex/bollyai-worldclass-site-20260801, then fast-forwarded GitHub main without force through production source commit 532dc322a80a39f37107836afaaab4691c96e2a1.
   - Deployed the fresh 6847-file static export to Cloudflare Pages production as deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b.
-  - Verified the Cloudflare preview and bollyai.in custom domain, then submitted the hash-gated 5955-URL sitemap to IndexNow.
+  - Verified the Cloudflare preview and bollyai.in custom domain, then submitted the hash-gated 5955-URL sitemap to IndexNow and committed only its state plus this handoff after the production source commit.
 Artefacts:
   - site/app/page.tsx (424 lines)
   - site/app/home.module.css (791 lines)
@@ -26,7 +26,7 @@ Artefacts:
   - tests/test_brand_lock.py (181 lines)
   - tests/test_ott_calendar.py (149 lines)
   - data/_state/indexnow_ping_state.json (8 lines)
-  - last.txt (55 lines)
+  - last.txt (56 lines)
 Verification:
   - python3 -m pytest tests/ -q -> PASS: 316 tests passed in 5.44s.
   - Node 20 npm run build -> PASS: Next 15.5.22 generated 5661 static pages; export contains 6847 files under the Cloudflare cap.
@@ -34,7 +34,8 @@ Verification:
   - generated OTT alias audit -> PASS: /ott/max/ exists, /ott/hbo-max/ is absent from static pages and sitemap, and the legacy redirect is present.
   - local Cloudflare Pages canary -> PASS: /ott/hbo-max/ returned 301 to /ott/max/ and /ott/max/ returned 200.
   - independent responsive visual audit -> PASS: 8.8/10 GO with no release blocker at desktop and 390 px mobile.
-  - git remote verification -> PASS: refs/heads/main resolved to 532dc322a80a39f37107836afaaab4691c96e2a1 after a non-force fast-forward.
+  - git remote verification -> PASS: origin/main contains production source commit 532dc322a80a39f37107836afaaab4691c96e2a1 as an ancestor after non-force fast-forwards.
+  - production and main site-tree parity -> PASS: 0 site/ path changes exist after the deployed production source commit; later commits contain operational state and handoff only.
   - Cloudflare deployment API -> PASS: deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b is production, branch main, commit 532dc322a80a39f37107836afaaab4691c96e2a1, latest stage success.
   - preview and custom-domain route matrix -> PASS: 14 of 14 checks returned 200 across home, Browse, Box Office, OTT calendar, Max, Mad Men, and Where to Watch.
   - live canonical redirects -> PASS: /series/ and /streaming/ returned 301 to /browse/; /ott/hbo-max/ returned 301 to /ott/max/; www returned 301 to bollyai.in.
