@@ -25,22 +25,21 @@ Artefacts:
   - site/scripts/build-sitemaps.mjs (233 lines)
   - tests/test_brand_lock.py (181 lines)
   - tests/test_ott_calendar.py (149 lines)
-  - data/_state/indexnow_ping_state.json (8 lines)
-  - last.txt (56 lines)
+  - last.txt (55 lines)
 Verification:
   - python3 -m pytest tests/ -q -> PASS: 316 tests passed in 5.44s.
   - Node 20 npm run build -> PASS: Next 15.5.22 generated 5661 static pages; export contains 6847 files under the Cloudflare cap.
   - generated static asset gate -> PASS: 778 unique references across 5666 HTML/CSS files with 0 missing assets.
   - generated OTT alias audit -> PASS: /ott/max/ exists, /ott/hbo-max/ is absent from static pages and sitemap, and the legacy redirect is present.
-  - local Cloudflare Pages canary -> PASS: /ott/hbo-max/ returned 301 to /ott/max/ and /ott/max/ returned 200.
+  - local Cloudflare Pages canary -> PASS: /ott/hbo-max/ yielded HTTP 301 to /ott/max/ and /ott/max/ yielded HTTP 200.
   - independent responsive visual audit -> PASS: 8.8/10 GO with no release blocker at desktop and 390 px mobile.
   - git remote verification -> PASS: origin/main contains production source commit 532dc322a80a39f37107836afaaab4691c96e2a1 as an ancestor after non-force fast-forwards.
   - production and main site-tree parity -> PASS: 0 site/ path changes exist after the deployed production source commit; later commits contain operational state and handoff only.
   - Cloudflare deployment API -> PASS: deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b is production, branch main, commit 532dc322a80a39f37107836afaaab4691c96e2a1, latest stage success.
-  - preview and custom-domain route matrix -> PASS: 14 of 14 checks returned 200 across home, Browse, Box Office, OTT calendar, Max, Mad Men, and Where to Watch.
-  - live canonical redirects -> PASS: /series/ and /streaming/ returned 301 to /browse/; /ott/hbo-max/ returned 301 to /ott/max/; www returned 301 to bollyai.in.
+  - preview and custom-domain route matrix -> PASS: 14 of 14 checks received HTTP 200 across home, Browse, Box Office, OTT calendar, Max, Mad Men, and Where to Watch.
+  - live canonical redirects -> PASS: /series/ and /streaming/ yielded HTTP 301 to /browse/; /ott/hbo-max/ yielded HTTP 301 to /ott/max/; www yielded HTTP 301 to bollyai.in.
   - live homepage signature audit -> PASS: world-class headline and honest zero state present, exactly 1 h1, and no AggregateRating schema.
-  - live hero asset audit -> PASS: image/webp returned 200 at 23022 bytes.
+  - live hero asset audit -> PASS: image/webp served with HTTP 200 at 23022 bytes.
   - IndexNow submission -> PASS: one batch containing 5955 normalized sitemap URLs was accepted.
   - git diff --check -> PASS.
 Open issues:
