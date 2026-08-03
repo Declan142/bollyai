@@ -245,5 +245,27 @@
     ],
     "url": null,
     "verdict_line": null
+  },
+  {
+    "id": "film-cobra",
+    "qid": "Q637290",
+    "title": "Cobra",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-08-13",
+    "fetched_at": "2026-08-03T06:24:39Z",
+    "sources": [
+      {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q637290",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null,
+    "origin": "fetched"
   }
 ]
