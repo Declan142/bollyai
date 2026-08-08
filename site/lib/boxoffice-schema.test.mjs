@@ -140,6 +140,36 @@ test("source scope, provenance, and exact period are mandatory", () => {
   assertCode("INVALID_SOURCE_TIME", () => parseBoxOfficeBoard(unclosedFetch));
 });
 
+test("every record needs observed provenance even when consensus is pending", () => {
+  const missing = loadJson(readyPath);
+  const tracking = clone(missing.records[0]);
+  tracking.film = {
+    title: "Fixture Tracking",
+    type: "film",
+    qid: null,
+    slug: "fixture-tracking",
+    url: "/hollywood/box-office/fixture-tracking/"
+  };
+  tracking.week_gross_usd = {
+    ...tracking.week_gross_usd,
+    value: null,
+    label: "tracking",
+    sources: []
+  };
+  missing.records.push(tracking);
+  assertCode("MISSING_SOURCE_PROVENANCE", () => parseBoxOfficeBoard(missing));
+
+  const observed = loadJson(readyPath);
+  const singleSource = clone(tracking);
+  singleSource.week_gross_usd.sources = [
+    clone(observed.records[0].week_gross_usd.sources[0])
+  ];
+  singleSource.week_gross_usd.sources[0].url =
+    "https://example.com/fixture-tracking-source";
+  observed.records.push(singleSource);
+  assert.equal(parseBoxOfficeBoard(observed).records.length, 2);
+});
+
 test("consensus value and framing are recomputed rather than trusted", () => {
   const dishonestLabel = loadJson(readyPath);
   dishonestLabel.records[0].week_gross_usd.label = "lower figure";

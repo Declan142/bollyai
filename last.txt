@@ -1,56 +1,41 @@
 Status: COMPLETE
 Did:
-  - Researched Box Office Mojo and IMDbPro, The Numbers and Nash OpusData, Rentrak formerly Comscore Movies, Boxoffice Pro, and Wikipedia from first-party documentation without scraping commercial box-office data.
-  - Kept production source clearance at 0 of 2 sources and 0 independence groups; every candidate remains unapproved and unconfigured.
-  - Added a provider-neutral exact-week adapter interface with explicit fresh, stale, empty, and failed states.
-  - Added two concrete offline-only adapters over separate synthetic fixture shapes.
-  - Made adapter batches admit at most one source from each independence group before the existing v3 consensus oracle.
-  - Wired the existing activation.adapter registry pointer through the live clearance gate while leaving the production adapter and source-group registries empty.
-  - Added a public-state projection that suppresses ranked rows and box-office JSON-LD while data is pending.
-  - Added an explicit regression proving zero cleared sources render data_pending with zero ranked and JSON-LD items.
-  - Wrote the citation-complete procurement and implementation report.
+  - Audited the unlanded weekly source lane from its data, source registry, tests, build, CLIs, monitor, and rendered public artifact.
+  - Added a latest-closed-UTC-week health contract that rejects stale or empty boards without weakening historical schema validation.
+  - Hardened the adapter boundary against stale relabelling, false-fresh empty rows, missing provenance, timestamp mismatch, and wall-clock source substitution.
+  - Made the owner fetcher, compatibility CLI, run-all orchestrator, tentpole wrapper, and staleness monitor exit nonzero with explicit stable errors when no current box-office data exists.
+  - Made the public projector and page withhold stale rows, rankings, and box-office JSON-LD while rendering an explicit expected-versus-observed no-current-data state.
+  - Left the stale 262-byte public board unchanged because no production source pair is cleared; no figures were fabricated.
 Artefacts:
-  - data/boxoffice/README.md
-  - data/boxoffice/source-candidates.json
-  - data/cache/fixtures/boxoffice_adapters/fixture_ledger.json
-  - data/cache/fixtures/boxoffice_adapters/fixture_bulletin.json
+  - SOL-BOXOFFICE-20260809.md
   - engine/fetchers/boxoffice_source_adapters.py
-  - engine/fetchers/boxoffice_fixture_adapters.py
-  - engine/fetchers/boxoffice_source_clearance.py
   - engine/fetchers/boxoffice_week_schema.py
   - engine/fetchers/boxoffice_western.py
-  - tests/test_boxoffice_source_adapters.py
-  - tests/test_boxoffice_source_clearance.py
+  - engine/fetchers/run_all.py
+  - engine/fetchers/staleness_check.py
+  - scripts/boxoffice/fetch_boxoffice.py
+  - scripts/ops/tentpole_live.py
+  - site/lib/boxoffice-schema.mjs
   - site/lib/boxoffice-public-state.mjs
   - site/lib/boxoffice-public-state.d.mts
-  - site/lib/boxoffice-public-state.test.mjs
   - site/app/box-office/page.tsx
-  - site/package.json
+  - tests/test_staleness_check.py
+  - related Python/Node regression tests and box-office operations documentation
   - last.txt
-  - /home/aditya/vyom-overnight/2026-07-27/bollyai/REPORT.md
 Verification:
-  - python3 -m pytest tests/ -> PASS: 319 passed in 5.88s
-  - npm run test:boxoffice from site/ -> PASS: 18 passed, 0 failed
-  - npm run build from site/ -> PASS: exit 0, 5661 static pages, aggregate lint passed, 6839 files under the 20000-file cap
-  - python3 engine/fetchers/boxoffice_source_clearance.py -> EXPECTED CLOSED: exit 2, SOURCE_CLEARANCE_PENDING, 0 qualifying sources, 0 independence groups
-  - focused adapter and box-office suites -> PASS: 76 passed in 0.94s
-  - static out/box-office/index.html inspection -> PASS: Data pending visible; 0 leaderboard headings, 0 ranked bars, 0 fixture titles, 0 box-office Dataset, ItemList, or ListItem objects
+  - python3 -m pytest tests/ -> PASS: 333 passed in 6.03s (baseline: 319 passed in 5.48s)
+  - cd site && npm run build -> PASS: 24 box-office tests, 5661 static pages, assert-no-aggregate-rating passed, filecap 6839
+  - stale ready report fixture -> EXPECTED FAIL: exit 2, STALE_BOXOFFICE_BOARD
+  - current empty board report -> EXPECTED FAIL: exit 2, NO_CURRENT_BOXOFFICE_DATA
+  - stale weekly monitor fixture -> EXPECTED FAIL: exit 1, ok=false, weekly_boxoffice=STALE_BOXOFFICE_BOARD
+  - uncleared live source seam -> EXPECTED FAIL: exit 2, SOURCE_CLEARANCE_PENDING, previous bytes preserved
+  - rendered desktop/mobile artifact review -> PASS: 8.2/10; no stale rows or box-office Dataset/ItemList/AggregateRating JSON-LD
   - git diff --check -> PASS
 Open issues:
-  - Live activation remains blocked until Rentrak and a contractually non-Rentrak Nash feed prove the exact window, public redistribution rights, price, and independent lineage.
-  - Next printed non-fatal lockfile patch warnings during the green build.
-Next step suggested: Run a two-vendor RFP and sample acceptance test for Rentrak plus Nash OpusData; keep the board pending unless both contracts clear.
+  - No live exact-week source can run until two legally cleared, configured, independent production sources exist.
+  - The current public board remains stale and empty; the system now says so loudly and renders it honestly.
+  - Next.js emits a non-fatal SWC lockfile-patching warning during the otherwise green build.
+  - Non-blocking desktop polish: the Worldwide pill overlaps the empty board border by about 6 CSS pixels.
+Next step suggested: Land this fail-closed branch, then complete source procurement and sample acceptance without weakening the exact-week contract.
 Network URLs:
-  - https://www.imdb.com/conditions/
-  - https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/box-office/
-  - https://aws.amazon.com/marketplace/pp/prodview-nzspap6vaousm
-  - https://www.the-numbers.com/terms-of-service
-  - https://www.opusdata.com/
-  - https://www.advayacap.com/press/advaya-acquires-comscore-movies
-  - https://www.comscore.com/Products/Movies/Global-Box-Office-Reporting
-  - https://legacy.iboe.com/login.html?locale_id=PE
-  - https://www.boxofficepro.com/terms-of-service/
-  - https://www.boxofficepro.com/legal/
-  - https://www.mediawiki.org/wiki/API:Action_API
-  - https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_API_Usage_Guidelines/en
-  - https://enterprise.wikimedia.com/pricing/
+  - none

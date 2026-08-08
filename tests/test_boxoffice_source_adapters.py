@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import sys
+from dataclasses import replace
 from datetime import date
 from pathlib import Path
 
@@ -80,11 +81,55 @@ def test_stale_adapter_period_is_explicit_and_contributes_no_rows():
     assert batch["status"] == "data_pending"
     assert batch["qualifying_sources"] == 0
     assert batch["qualifying_independence_groups"] == 0
-    assert batch["source_payload"]["readings"] == []
+    assert batch["source_payload"] is None
     assert {item["state"] for item in batch["adapters"]} == {"stale"}
     assert {item["code"] for item in batch["adapters"]} == {
         "SOURCE_PERIOD_STALE"
     }
+    assert all(item["observed_week"] == EXACT_WEEK for item in batch["adapters"])
+
+
+def test_adapter_boundary_rejects_stale_rows_claimed_as_fresh():
+    requested_week = closed_week(date(2026, 8, 2))
+
+    class RelabelledLedger(FixtureLedgerAdapter):
+        def fetch_closed_week(self, week):
+            honest = super().fetch_closed_week(EXACT_WEEK)
+            return replace(honest, requested_week=week)
+
+    batch = fetch_adapter_batch((RelabelledLedger(),), requested_week)
+
+    assert batch["source_payload"] is None
+    assert batch["code"] == "SOURCE_PERIOD_STALE"
+    assert batch["adapters"][0]["state"] == "stale"
+    assert batch["adapters"][0]["used"] is False
+
+
+def test_adapter_boundary_rejects_fresh_state_without_rows():
+    class FalseFreshLedger(FixtureLedgerAdapter):
+        def fetch_closed_week(self, week):
+            honest = super().fetch_closed_week(week)
+            return replace(honest, rows=())
+
+    batch = fetch_adapter_batch((FalseFreshLedger(),), EXACT_WEEK)
+
+    assert batch["source_payload"] is None
+    assert batch["code"] == "SOURCE_EMPTY"
+    assert batch["adapters"][0]["state"] == "empty"
+    assert batch["adapters"][0]["used"] is False
+
+
+def test_adapter_batch_timestamp_is_source_derived_not_wall_clock():
+    class WallClockLedger(FixtureLedgerAdapter):
+        def fetch_closed_week(self, week):
+            honest = super().fetch_closed_week(week)
+            return replace(honest, fetched_at="2099-01-01T00:00:00Z")
+
+    batch = fetch_adapter_batch((WallClockLedger(),), EXACT_WEEK)
+
+    assert batch["source_payload"] is None
+    assert batch["code"] == "SOURCE_TIMESTAMP_MISMATCH"
+    assert batch["adapters"][0]["state"] == "failed"
 
 
 def test_malformed_fixture_returns_sanitized_failure_state(tmp_path):

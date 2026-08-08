@@ -15,14 +15,14 @@ import { pageSeo } from "../../lib/seo";
 export const metadata: Metadata = {
   title: "Worldwide Box Office Tracker - Weekly USD Board",
   description:
-    "Latest verified closed-week worldwide theatrical gross, published only after exact-period independent-source consensus.",
+    "Verified closed-week worldwide theatrical gross appears only when current exact-period independent-source consensus is available.",
   ...pageSeo({ path: "/box-office/" })
 };
 
 export default function BoxOfficeHubPage() {
   const board = getCurrentBoxOfficeBoard();
   const publicState = projectBoxOfficePublicState(board);
-  const weekLabel = board.week.label;
+  const weekLabel = publicState.expectedWeek.label;
 
   return (
     <main className="page-shell box-office-hub" data-desk="hollywood">
@@ -52,9 +52,9 @@ export default function BoxOfficeHubPage() {
         title="Worldwide box office"
         lede={
           <>
-            Latest verified closed-week worldwide theatrical gross in USD.
-            <b> Every published number covers the displayed seven-day period.</b> No lifetime totals, invented
-            estimates, or stale-week relabelling.
+            Verified closed-week worldwide theatrical gross in USD appears only with current evidence.
+            <b> Figures appear only when the current closed week clears the source contract.</b> No lifetime totals,
+            invented estimates, or stale-week relabelling.
           </>
         }
         stats={[
@@ -63,17 +63,25 @@ export default function BoxOfficeHubPage() {
           { value: board.territory, label: "Territory" }
         ]}
       >
-        <DateModified value={board.generated_at} />
+        {!publicState.noCurrentData && <DateModified value={board.generated_at} />}
       </SectionHero>
 
-      {publicState.dataPending && (
+      {publicState.noCurrentData && (
         <section className="panel bo-alert" aria-label="Data status">
-          <p className="eyebrow">Data pending</p>
-          <h2>No exact-week consensus yet</h2>
-          <p>
-            No operational source pair has cleared the exact-period contract for this closed week. The last verified
-            board is never overwritten by a partial, cumulative, or mismatched-period candidate.
-          </p>
+          <p className="eyebrow">Data unavailable</p>
+          <h2>No current box-office data</h2>
+          {publicState.stale ? (
+            <p>
+              The available snapshot covers {publicState.observedWeek.label}, while the current closed-week slot
+              expects {publicState.expectedWeek.label}. Its rows and structured data are withheld instead of being
+              relabelled as current.
+            </p>
+          ) : (
+            <p>
+              No operational source pair has cleared the exact-period contract for {publicState.expectedWeek.label}.
+              Partial, cumulative, empty, and mismatched-period results remain unpublished.
+            </p>
+          )}
         </section>
       )}
 
@@ -85,11 +93,14 @@ export default function BoxOfficeHubPage() {
         <header className="bo-panel-head">
           <div>
             <p className="eyebrow">{weekLabel}</p>
-            <h2>Latest Verified Closed Week</h2>
+            <h2>{publicState.noCurrentData ? "Current Closed-Week Availability" : "Latest Verified Closed Week"}</h2>
           </div>
           <span className="pill">{board.territory}</span>
         </header>
-        <BoxOfficeBoardTable records={publicState.boardRecords} />
+        <BoxOfficeBoardTable
+          records={publicState.boardRecords}
+          emptyState="No current exact-week figures have cleared the publication contract."
+        />
       </section>
 
       <section className="bo-method-grid" aria-label="Box office methodology">

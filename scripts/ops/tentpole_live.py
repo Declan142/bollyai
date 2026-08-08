@@ -100,6 +100,13 @@ def main(argv: list[str] | None = None) -> int:
     }
     print(json.dumps(result, ensure_ascii=True, indent=2, sort_keys=True))
     write_github_output(args.github_output, {"ran": True, "reason": reason})
+    if fetcher_result["overall_status"] != "ok":
+        boxoffice = fetcher_result["jobs"]["boxoffice"]
+        sys.stderr.write(
+            "ERROR: tentpole fetch has no current box-office data "
+            f"[{boxoffice['code']}] status={boxoffice['status']}\n"
+        )
+        return 1 if fetcher_result["overall_status"] == "failed" else 2
     return 0
 
 

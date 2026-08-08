@@ -51,8 +51,8 @@ Do this FIRST; it is small and it un-rots the suite for every other lane.
    file and both runtime readers now use strict v3: one exact closed week, full-set
    independent-source consensus, no lifetime substitution, and atomic last-good
    preservation. The operational exact-week source adapter remains a separate pending
-   task; missing live input is honest degraded status, not permission to weaken the
-   contract.
+   task; missing live input is honest degraded status with a nonzero owner-process exit,
+   not permission to weaken the contract or render stale bytes as current.
 2. **OTT calendar staleness.** Read `python3 engine/regen_ott_weekly.py --help`, then run
    it (it is the cron-safe Mon/Thu entrypoint; writes `data/ott/calendar.json`, week
    archives, changed-URL sidecar; never deploys). Verify: window = current Monday ->

@@ -10,11 +10,11 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from types import MappingProxyType
 from typing import Any, Callable, Literal, Mapping
 
 from boxoffice_week_schema import SOURCE_FIXTURE_SCHEMA
-from common import utc_now
 
 
 AdapterState = Literal["fresh", "stale", "empty", "failed"]
@@ -83,13 +83,17 @@ class AdapterResult:
         *,
         used: bool,
         exclusion_code: str | None,
+        state: AdapterState | None = None,
+        code: str | None = None,
     ) -> dict[str, Any]:
         return {
             "adapter": self.adapter_ref,
             "source_id": self.source_id,
             "independence_group": self.independence_group,
-            "state": self.state,
-            "code": self.code,
+            "state": state or self.state,
+            "code": code or self.code,
+            "requested_week": self.requested_week,
+            "observed_week": self.observed_week,
             "fetched_at": self.fetched_at,
             "row_count": len(self.rows),
             "used": used,
@@ -135,6 +139,70 @@ def cleared_production_adapters(
     return tuple(PRODUCTION_ADAPTER_FACTORIES[reference]() for reference in references)
 
 
+def _observation_time(value: Any) -> datetime | None:
+    if not isinstance(value, str):
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return None
+    return parsed.astimezone(timezone.utc)
+
+
+def _result_contract(
+    adapter: WeeklyBoxOfficeSourceAdapter,
+    result: AdapterResult,
+    week: dict[str, str],
+) -> tuple[AdapterState, str, list[tuple[datetime, str]]]:
+    identity = (
+        result.adapter_ref == adapter.adapter_ref
+        and result.source_id == adapter.source_id
+        and result.source_name == adapter.source_name
+        and result.independence_group == adapter.independence_group
+    )
+    if not identity or result.requested_week != week:
+        return "failed", "ADAPTER_RESULT_MISMATCH", []
+    if result.state != "fresh":
+        if result.rows:
+            return "failed", "ADAPTER_STATE_CONTRADICTION", []
+        return result.state, result.code, []
+    if result.observed_week != week:
+        return "stale", "SOURCE_PERIOD_STALE", []
+    if not result.rows:
+        return "empty", "SOURCE_EMPTY", []
+
+    result_time = _observation_time(result.fetched_at)
+    row_times = [
+        (_observation_time(row.fetched_at), row.fetched_at)
+        for row in result.rows
+    ]
+    if result_time is None or any(parsed is None for parsed, _text in row_times):
+        return "failed", "SOURCE_TIMESTAMP_MISSING", []
+    observations = [(parsed, text) for parsed, text in row_times if parsed is not None]
+    if result_time != max(parsed for parsed, _text in observations):
+        return "failed", "SOURCE_TIMESTAMP_MISMATCH", []
+    return "fresh", result.code, observations
+
+
+def _batch_code(
+    *,
+    ready: bool,
+    adapters: tuple[WeeklyBoxOfficeSourceAdapter, ...],
+    summaries: list[dict[str, Any]],
+) -> str:
+    if ready:
+        return "ADAPTER_BATCH_READY"
+    if not adapters:
+        return "NO_OPERATIONAL_SOURCE_ADAPTER"
+    for state in ("failed", "stale", "empty"):
+        match = next((item for item in summaries if item["state"] == state), None)
+        if match is not None:
+            return str(match["code"])
+    return "INSUFFICIENT_FRESH_SOURCES"
+
+
 def fetch_adapter_batch(
     adapters: tuple[WeeklyBoxOfficeSourceAdapter, ...],
     week: dict[str, str],
@@ -146,15 +214,18 @@ def fetch_adapter_batch(
     readings: list[dict[str, Any]] = []
     summaries: list[dict[str, Any]] = []
     used_results: list[AdapterResult] = []
-    for result in results:
+    observation_times: list[tuple[datetime, str]] = []
+    for adapter, result in zip(adapters, results, strict=True):
+        state, code, result_times = _result_contract(adapter, result, week)
         exclusion_code = None
-        used = result.state == "fresh"
+        used = state == "fresh"
         if used and result.independence_group in used_groups:
             used = False
             exclusion_code = "DUPLICATE_INDEPENDENCE_GROUP"
         elif used:
             used_groups.add(result.independence_group)
             used_results.append(result)
+            observation_times.extend(result_times)
             readings.extend(
                 row.as_reading(
                     source_name=result.source_name,
@@ -164,28 +235,31 @@ def fetch_adapter_batch(
                 for row in result.rows
             )
         summaries.append(
-            result.summary(used=used, exclusion_code=exclusion_code)
+            result.summary(
+                used=used,
+                exclusion_code=exclusion_code,
+                state=state,
+                code=code,
+            )
         )
-    fetched_times = [
-        result.fetched_at
-        for result in used_results
-        if result.fetched_at is not None
-    ]
-    generated_at = max(fetched_times) if fetched_times else utc_now()
     source_count = len(used_results)
     group_count = len(used_groups)
     ready = source_count >= 2 and group_count >= 2
-    return {
-        "status": "ready" if ready else "data_pending",
-        "code": "ADAPTER_BATCH_READY" if ready else "ADAPTER_BATCH_PENDING",
-        "qualifying_sources": source_count,
-        "qualifying_independence_groups": group_count,
-        "adapters": summaries,
-        "source_payload": {
+    source_payload = None
+    if observation_times:
+        generated_at = max(observation_times, key=lambda item: item[0])[1]
+        source_payload = {
             "schema": SOURCE_FIXTURE_SCHEMA,
             "generated_at": generated_at,
             "territory": "Worldwide",
             "week": week,
             "readings": readings,
-        },
+        }
+    return {
+        "status": "ready" if ready else "data_pending",
+        "code": _batch_code(ready=ready, adapters=adapters, summaries=summaries),
+        "qualifying_sources": source_count,
+        "qualifying_independence_groups": group_count,
+        "adapters": summaries,
+        "source_payload": source_payload,
     }

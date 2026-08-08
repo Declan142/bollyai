@@ -81,6 +81,16 @@ def fetch_western_boxoffice(
             )
         adapters = cleared_production_adapters(registry, source_clearance)
         adapter_batch = fetch_adapter_batch(adapters, requested_week)
+        if adapter_batch["source_payload"] is None:
+            return {
+                "status": "data_pending",
+                "code": adapter_batch["code"],
+                "board": pending_board(week=requested_week),
+                "source_readings": 0,
+                "published_records": 0,
+                "source_clearance": source_clearance,
+                "adapter_states": adapter_batch["adapters"],
+            }
         board = build_board_from_source_payload(
             adapter_batch["source_payload"],
             expected_week=requested_week,
@@ -91,7 +101,7 @@ def fetch_western_boxoffice(
             "code": (
                 "SOURCE_ADAPTERS_READY"
                 if board["status"] == "ready"
-                else "NO_EXACT_WEEK_CONSENSUS"
+                else adapter_batch["code"]
             ),
             "board": board,
             "source_readings": len(adapter_batch["source_payload"]["readings"]),
@@ -110,6 +120,15 @@ def fetch_western_boxoffice(
             requested_week,
         )
         source_payload = adapter_batch["source_payload"]
+        if source_payload is None:
+            return {
+                "status": "data_pending",
+                "code": adapter_batch["code"],
+                "board": pending_board(week=requested_week),
+                "source_readings": 0,
+                "published_records": 0,
+                "adapter_states": adapter_batch["adapters"],
+            }
     else:
         source_payload = read_json(fixture_path, default=None)
         if source_payload is None:
@@ -126,7 +145,11 @@ def fetch_western_boxoffice(
         "code": (
             "FIXTURE_READY"
             if board["status"] == "ready"
-            else "NO_EXACT_WEEK_CONSENSUS"
+            else (
+                adapter_batch["code"]
+                if adapter_batch
+                else "NO_EXACT_WEEK_CONSENSUS"
+            )
         ),
         "board": board,
         "source_readings": len(source_payload["readings"]),
@@ -209,6 +232,13 @@ def main(argv: list[str] | None = None) -> int:
         write_json(emit_path, outcome["board"])
     json.dump(outcome, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
     sys.stdout.write("\n")
+    if outcome["status"] != "ready":
+        sys.stderr.write(
+            "ERROR: box-office fetch produced no current data "
+            f"[{outcome['code']}] for {outcome['board']['week']['start']} "
+            f"to {outcome['board']['week']['end']}\n"
+        )
+        return 2
     return 0
 
 

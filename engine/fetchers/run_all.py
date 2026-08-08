@@ -14,7 +14,7 @@ import json
 import re
 import sys
 from collections.abc import Mapping
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -143,6 +143,7 @@ def _sha256_bytes(value: bytes) -> str:
 def _existing_board_status(
     previous_bytes: bytes | None,
     *,
+    expected_week: dict[str, str],
     trusted_source_groups: Mapping[str, str],
 ) -> str:
     if previous_bytes is None:
@@ -160,6 +161,8 @@ def _existing_board_status(
         TypeError,
     ):
         return "invalid"
+    if board["week"] != expected_week:
+        return "stale"
     return str(board["status"])
 
 
@@ -179,11 +182,12 @@ def run_boxoffice_job(
         if trusted_source_groups is not None
         else (FIXTURE_SOURCE_GROUPS if fixture_mode else PRODUCTION_SOURCE_GROUPS)
     )
+    requested_week = closed_week(today)
     previous_status = _existing_board_status(
         previous_bytes,
+        expected_week=requested_week,
         trusted_source_groups=source_groups,
     )
-    requested_week = closed_week(today)
     base = {
         "requested_period": requested_week,
         "target": str(target),
@@ -254,12 +258,14 @@ def run_boxoffice_job(
         "published_records": outcome["published_records"],
         "candidate_sha256": _sha256_bytes(candidate_bytes),
         "source_clearance": outcome.get("source_clearance"),
+        "adapter_states": outcome.get("adapter_states", []),
     }
     if outcome["status"] != "ready":
         pending_status = {
             "missing": "data_pending",
             "data_pending": "preserved_pending",
             "ready": "preserved_last_good",
+            "stale": "preserved_stale",
         }[previous_status]
         return {
             **common,
@@ -305,7 +311,11 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         and data_dir.resolve() == DATA_DIR.resolve()
     ):
         raise ValueError("fixture mode cannot write the public data directory")
-    today = parse_cli_date(args.today) if args.today else date.today()
+    today = (
+        parse_cli_date(args.today)
+        if args.today
+        else datetime.now(timezone.utc).date()
+    )
     week_start = current_week_start(today)
     boxoffice_fixture = getattr(args, "boxoffice_fixture", None)
     fixture_path = Path(boxoffice_fixture) if boxoffice_fixture else None
@@ -377,6 +387,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
     elif boxoffice_job["status"] in {
         "preserved_last_good",
         "preserved_pending",
+        "preserved_stale",
         "data_pending",
     }:
         overall_status = "degraded"
@@ -434,7 +445,15 @@ def main(argv: list[str] | None = None) -> int:
     payload = run(args)
     json.dump(payload, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
     sys.stdout.write("\n")
-    return 1 if payload["overall_status"] == "failed" else 0
+    if payload["overall_status"] != "ok":
+        job = payload["jobs"]["boxoffice"]
+        sys.stderr.write(
+            "ERROR: box-office refresh did not produce current data "
+            f"[{job['code']}] status={job['status']} "
+            f"source_readings={job['source_readings']}\n"
+        )
+        return 1 if payload["overall_status"] == "failed" else 2
+    return 0
 
 
 if __name__ == "__main__":

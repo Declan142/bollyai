@@ -315,6 +315,12 @@ function validateRecord(value, board, generatedAt, trustedSourceGroups, where) {
   if (!Array.isArray(figure.sources)) {
     fail("INVALID_SOURCES", `${where}.week_gross_usd.sources must be a list`);
   }
+  if (figure.sources.length === 0) {
+    fail(
+      "MISSING_SOURCE_PROVENANCE",
+      `${where}.week_gross_usd.sources must contain an observed source`
+    );
+  }
   figure.sources.forEach((source, index) => {
     validateSource(
       source,

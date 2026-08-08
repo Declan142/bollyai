@@ -19,6 +19,7 @@ from boxoffice_week_schema import (  # noqa: E402
     build_board_from_source_payload,
     closed_week,
     validate_board as validate_raw_board,
+    validate_current_board as validate_raw_current_board,
 )
 from boxoffice_western import fetch_western_boxoffice  # noqa: E402
 
@@ -30,6 +31,11 @@ READY_FIXTURE_PATH = REPO_ROOT / "tests" / "fixtures" / "boxoffice" / "ready-v3.
 def validate_board(payload, **kwargs):
     kwargs.setdefault("trusted_source_groups", FIXTURE_SOURCE_GROUPS)
     return validate_raw_board(payload, **kwargs)
+
+
+def validate_current_board(payload, **kwargs):
+    kwargs.setdefault("trusted_source_groups", FIXTURE_SOURCE_GROUPS)
+    return validate_raw_current_board(payload, **kwargs)
 
 
 @pytest.fixture
@@ -77,6 +83,47 @@ def test_shared_ready_fixture_passes_the_python_contract():
 
     assert validate_board(payload) is payload
     assert payload["records"][0]["week_gross_usd"]["value"] == 100_000_000
+
+
+def test_current_board_gate_accepts_only_the_latest_publishable_closed_week():
+    ready = json.loads(READY_FIXTURE_PATH.read_text(encoding="utf-8"))
+
+    assert validate_current_board(ready, today=date(2026, 7, 26)) is ready
+
+    with pytest.raises(BoxOfficeContractError) as stale:
+        validate_current_board(ready, today=date(2026, 8, 9))
+    assert stale.value.code == "STALE_BOXOFFICE_BOARD"
+
+    pending = {
+        **ready,
+        "status": "data_pending",
+        "records": [],
+    }
+    with pytest.raises(BoxOfficeContractError) as empty:
+        validate_current_board(pending, today=date(2026, 7, 26))
+    assert empty.value.code == "NO_CURRENT_BOXOFFICE_DATA"
+
+
+def test_every_ready_board_record_requires_observed_source_provenance():
+    board = json.loads(READY_FIXTURE_PATH.read_text(encoding="utf-8"))
+    tracking = copy.deepcopy(board["records"][0])
+    tracking["film"].update(
+        {
+            "title": "Fixture Tracking",
+            "qid": None,
+            "slug": "fixture-tracking",
+            "url": "/hollywood/box-office/fixture-tracking/",
+        }
+    )
+    tracking["week_gross_usd"].update(
+        {"value": None, "label": "tracking", "sources": []}
+    )
+    board["records"].append(tracking)
+
+    with pytest.raises(BoxOfficeContractError) as exc:
+        validate_board(board)
+
+    assert exc.value.code == "MISSING_SOURCE_PROVENANCE"
 
 
 def test_live_mode_has_no_lifetime_fallback():

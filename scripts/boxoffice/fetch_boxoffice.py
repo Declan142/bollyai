@@ -12,7 +12,7 @@ import argparse
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -21,8 +21,14 @@ FETCHERS_DIR = REPO_ROOT / "engine" / "fetchers"
 sys.path.insert(0, str(FETCHERS_DIR))
 
 from boxoffice_source_clearance import load_source_clearance  # noqa: E402
-from boxoffice_week_schema import BoxOfficeContractError, validate_board  # noqa: E402
-from common import DATA_DIR, read_json  # noqa: E402
+from boxoffice_week_schema import (  # noqa: E402
+    BoxOfficeContractError,
+    FIXTURE_SOURCE_GROUPS,
+    PRODUCTION_SOURCE_GROUPS,
+    closed_week,
+    validate_current_board,
+)
+from common import DATA_DIR, read_json, repo_path  # noqa: E402
 from run_all import run_boxoffice_job  # noqa: E402
 
 
@@ -32,7 +38,7 @@ DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}")
 
 def _parse_date(value: str | None, parser: argparse.ArgumentParser) -> date:
     if value is None:
-        return date.today()
+        return datetime.now(timezone.utc).date()
     if not DATE_PATTERN.fullmatch(value):
         parser.error("--today must use YYYY-MM-DD")
     try:
@@ -77,7 +83,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--report",
         action="store_true",
-        help="Validate and summarize the current public v3 board.",
+        help="Require and summarize current publishable public v3 data.",
+    )
+    parser.add_argument(
+        "--board",
+        type=Path,
+        help="Board path for --report; defaults to the canonical public board.",
     )
     parser.add_argument(
         "--list-sources",
@@ -94,6 +105,10 @@ def main(argv: list[str] | None = None) -> int:
         parser.error("--fixture requires --fixture-mode")
     if args.fixture_mode and args.write:
         parser.error("fixture mode cannot write the public board")
+    if args.board and not args.report:
+        parser.error("--board requires --report")
+    if args.report and (args.write or args.fixture):
+        parser.error("--report cannot be combined with --write or --fixture")
 
     if args.list_sources:
         try:
@@ -124,25 +139,44 @@ def main(argv: list[str] | None = None) -> int:
         }
         json.dump(payload, sys.stdout, indent=2, sort_keys=True)
         sys.stdout.write("\n")
+        if clearance["status"] != "ready":
+            sys.stderr.write(
+                "ERROR: no cleared operational box-office source pair "
+                f"[{clearance['code']}]\n"
+            )
+            return 2
         return 0
 
     if args.report:
-        board = read_json(CURRENT_WEEK_PATH, default=None)
+        today = _parse_date(args.today, parser)
+        board_path = repo_path(args.board) if args.board else CURRENT_WEEK_PATH
+        board = read_json(board_path, default=None)
         try:
-            validated = validate_board(board)
+            validated = validate_current_board(
+                board,
+                today=today,
+                trusted_source_groups=(
+                    FIXTURE_SOURCE_GROUPS
+                    if args.fixture_mode
+                    else PRODUCTION_SOURCE_GROUPS
+                ),
+            )
         except BoxOfficeContractError as exc:
             json.dump(
                 {
                     "schema": "boxoffice-report-error/v1",
                     "status": "failed",
                     "code": exc.code,
+                    "error": str(exc),
+                    "expected_week": closed_week(today),
+                    "board_path": str(board_path),
                 },
                 sys.stderr,
                 indent=2,
                 sort_keys=True,
             )
             sys.stderr.write("\n")
-            return 1
+            return 2
         json.dump(_summary(validated), sys.stdout, indent=2, sort_keys=True)
         sys.stdout.write("\n")
         return 0
@@ -156,7 +190,14 @@ def main(argv: list[str] | None = None) -> int:
     )
     json.dump(result, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
     sys.stdout.write("\n")
-    return 1 if result["status"] == "failed" else 0
+    if result["status"] not in {"dry_run", "updated", "unchanged"}:
+        sys.stderr.write(
+            "ERROR: box-office fetch did not produce current data "
+            f"[{result['code']}] status={result['status']} "
+            f"source_readings={result['source_readings']}\n"
+        )
+        return 1 if result["status"] == "failed" else 2
+    return 0
 
 
 if __name__ == "__main__":

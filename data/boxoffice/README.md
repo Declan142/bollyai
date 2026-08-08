@@ -16,7 +16,8 @@ The root object has these exact fields:
 
 - `schema`: always `bollyai-boxoffice-week/v3`.
 - `status`: `ready` or `data_pending`.
-- `generated_at`: an ISO timestamp with a timezone.
+- `generated_at`: an ISO pipeline-generation timestamp with a timezone. It is
+  never evidence that source observations are current.
 - `territory`: always `Worldwide`.
 - `week`: the exact closed week with canonical `start`, `end`, and `label`.
 - `records`: Western `hollywood` or `streaming` rows only.
@@ -42,7 +43,31 @@ The shared Python and JavaScript validators reject:
 - a stored value or label that does not match recomputed consensus.
 
 A `data_pending` board is valid only with an empty `records` array. A `ready`
-board needs at least one record with a publishable number.
+board needs at least one record with a publishable number. Every record,
+including a tracking row, needs at least one observed source envelope. A row
+without source `as_of`, `fetched_at`, URL, and independence provenance is
+rejected.
+
+## Freshness and loud failure
+
+The declared public freshness window is the latest fully closed Monday-to-Sunday
+UTC week. Historical v3 documents can still pass the structural parser for
+audit and fixture use, but they do not pass the current-data gate. Current-data
+health requires all three conditions:
+
+1. the board period equals the latest fully closed week;
+2. the board is `ready` with at least one publishable record;
+3. every record has source-derived observation provenance.
+
+`scripts/boxoffice/fetch_boxoffice.py --report` enforces that current-data gate.
+It exits nonzero with `STALE_BOXOFFICE_BOARD` or
+`NO_CURRENT_BOXOFFICE_DATA` instead of reporting an old or empty document as
+healthy. `engine/fetchers/staleness_check.py` checks the weekly board alongside
+live film trackers and exits nonzero whenever its report says `ok: false`.
+
+The public renderer applies the same latest-closed-week rule. Stale bytes may be
+preserved for audit or recovery, but stale rows, rankings, and structured data
+are withheld and the page renders an explicit no-current-data state.
 
 ## Consensus rule
 
@@ -117,6 +142,13 @@ stable code. The batch admits at most one fresh adapter per independence group.
 It then passes normalized readings to `boxoffice_week_schema.py`, which remains
 the only consensus and publication oracle.
 
+The generic batch boundary does not trust an adapter's `fresh` label. It checks
+the requested and observed weeks, requires nonempty rows with explicit source
+timestamps, and derives `source_payload.generated_at` only from admitted row
+observations. A stale, empty, contradictory, or timestamp-mismatched batch
+cannot receive a wall-clock substitute source timestamp and contributes no
+readings.
+
 `engine/fetchers/boxoffice_fixture_adapters.py` implements two concrete
 offline-only examples over separate synthetic payloads:
 
@@ -159,6 +191,8 @@ old bytes survived. The box-office job reports one structured status:
 - `preserved_last_good` when a pending live result leaves existing bytes
   untouched and those bytes validate as a ready v3 board;
 - `preserved_pending` when existing bytes validate only as `data_pending`;
+- `preserved_stale` when structurally valid existing bytes are older than the
+  requested latest closed week;
 - `data_pending` when no prior board exists;
 - `failed` for a contract or write error.
 
@@ -166,9 +200,10 @@ Existing bytes are parsed and validated before receiving any "last good"
 label. Invalid JSON or a non-v3 document returns `INVALID_EXISTING_BOARD`,
 stays byte-identical, and fails the wider refresh.
 
-The top-level `overall_status` is `ok`, `degraded`, or `failed`. Intentional
-live `data_pending` is degraded but does not fail the wider refresh process.
-A hard contract or writer error exits nonzero.
+The top-level `overall_status` is `ok`, `degraded`, or `failed`. A degraded
+box-office fetch preserves safe bytes but the owner CLI exits nonzero and logs
+an explicit error. A hard contract or writer error also exits nonzero. This is
+intentional: missing or stale source data is an alert condition, not health.
 
 ## Offline verification
 
@@ -186,14 +221,17 @@ python3 engine/fetchers/run_all.py \
 python3 engine/fetchers/boxoffice_source_clearance.py
 python3 scripts/boxoffice/fetch_boxoffice.py --list-sources
 python3 scripts/boxoffice/fetch_boxoffice.py --report
+python3 engine/fetchers/staleness_check.py --data-dir data
 python3 -m pytest -q tests/test_boxoffice_week_contract.py \
   tests/test_boxoffice_source_adapters.py tests/test_run_all_boxoffice.py \
   tests/test_common_atomic_json.py
 cd site && npm run test:boxoffice
 ```
 
-The standalone clearance command exits 2 while candidates remain pending.
-That is the activation gate's expected closed state, not a source failure.
+The standalone clearance command, source listing, current-board report, and
+non-ready owner fetch all exit nonzero while candidates remain pending or data
+is stale. That is the activation gate's expected closed state and it remains
+loud until operational sources exist.
 The Python and JavaScript readers share
 `tests/fixtures/boxoffice/ready-v3.json` as a cross-runtime contract fixture.
 

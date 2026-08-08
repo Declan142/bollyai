@@ -94,6 +94,28 @@ def test_pending_live_job_does_not_call_pending_bytes_last_good(tmp_path):
     assert target.read_bytes() == original
 
 
+def test_pending_fetch_marks_an_old_ready_board_stale(tmp_path):
+    target = boxoffice_target(tmp_path)
+    target.parent.mkdir(parents=True)
+    original = READY_BOARD_PATH.read_bytes()
+    target.write_bytes(original)
+
+    result = run_all.run_boxoffice_job(
+        fixture_mode=False,
+        fixture_path=None,
+        data_dir=tmp_path,
+        today=date(2026, 8, 9),
+        write=True,
+        trusted_source_groups=FIXTURE_SOURCE_GROUPS,
+    )
+
+    assert result["status"] == "preserved_stale"
+    assert result["previous_board_status"] == "stale"
+    assert result["code"] == "SOURCE_CLEARANCE_PENDING"
+    assert result["preserved_previous_bytes"] is True
+    assert target.read_bytes() == original
+
+
 def test_invalid_existing_board_fails_without_claiming_last_good(tmp_path):
     target = boxoffice_target(tmp_path)
     target.parent.mkdir(parents=True)
@@ -247,3 +269,25 @@ def test_fixture_run_reports_structured_offline_status(monkeypatch):
         "label": "13 to 19 July 2026",
     }
     assert payload["wrote"] == []
+
+
+def test_run_all_cli_fails_loudly_for_degraded_boxoffice(monkeypatch, capsys):
+    monkeypatch.setattr(
+        run_all,
+        "run",
+        lambda _args: {
+            "overall_status": "degraded",
+            "jobs": {
+                "boxoffice": {
+                    "status": "preserved_stale",
+                    "code": "SOURCE_PERIOD_STALE",
+                    "source_readings": 0,
+                }
+            },
+        },
+    )
+
+    assert run_all.main([]) == 2
+    captured = capsys.readouterr()
+    assert "ERROR: box-office refresh did not produce current data" in captured.err
+    assert "SOURCE_PERIOD_STALE" in captured.err

@@ -31,8 +31,9 @@ green on origin).
 Western OTT fetch path: `engine/fetchers/ott_western.py` (TMDB-key-on-Actions, keyless
 Wikidata fallback). `engine/fetchers/boxoffice_western.py` is the strict exact-week
 boundary, but has no operational live source adapter yet. Live box-office runs report
-structured degraded status and preserve the existing v3 file byte for byte. Lifetime or
-cumulative sources are not a fallback. The India fetcher
+structured degraded status, preserve the existing v3 file byte for byte, and exit nonzero
+so missing current data alerts instead of passing as health. The public projector withholds
+stale rows. Lifetime or cumulative sources are not a fallback. The India fetcher
 (`engine/fetchers/boxoffice.py`) is fully orphaned from `run_all.py`, and its optional
 fill path is isolated under `_cache/boxoffice/`. Never rewire it to the public board.
 To add a real OTT announcement by hand, append to `data/ott/announcements.json` (the

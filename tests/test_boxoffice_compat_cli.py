@@ -52,17 +52,60 @@ def test_fixture_cli_cannot_overwrite_the_public_board():
     assert CURRENT_WEEK.read_bytes() == before
 
 
-def test_report_and_source_status_use_v3_shapes():
-    report = run_cli("--report")
+def test_report_and_source_status_fail_loudly_when_no_current_data_exists():
+    report = run_cli("--report", "--today", "2026-08-09")
     sources = run_cli("--list-sources")
 
-    assert report.returncode == 0
-    assert json.loads(report.stdout)["board_schema"] == "bollyai-boxoffice-week/v3"
-    assert sources.returncode == 0
+    assert report.returncode == 2
+    report_error = json.loads(report.stderr)
+    assert report_error["code"] == "STALE_BOXOFFICE_BOARD"
+    assert report_error["expected_week"]["end"] == "2026-08-02"
+    assert sources.returncode == 2
     source_payload = json.loads(sources.stdout)
     assert source_payload["code"] == "SOURCE_CLEARANCE_PENDING"
     assert source_payload["operational_sources"] == []
     assert source_payload["clearance"]["qualifying_sources"] == 0
+    assert "no cleared operational box-office source pair" in sources.stderr
+
+
+def test_report_accepts_current_ready_fixture_and_rejects_it_when_stale():
+    ready = REPO_ROOT / "tests" / "fixtures" / "boxoffice" / "ready-v3.json"
+    current = run_cli(
+        "--report",
+        "--board",
+        str(ready),
+        "--fixture-mode",
+        "--today",
+        "2026-07-26",
+    )
+    stale = run_cli(
+        "--report",
+        "--board",
+        str(ready),
+        "--fixture-mode",
+        "--today",
+        "2026-08-09",
+    )
+
+    assert current.returncode == 0
+    assert json.loads(current.stdout)["board_schema"] == "bollyai-boxoffice-week/v3"
+    assert stale.returncode == 2
+    assert json.loads(stale.stderr)["code"] == "STALE_BOXOFFICE_BOARD"
+
+
+def test_current_empty_board_report_is_nonzero():
+    result = run_cli("--report", "--today", "2026-07-26")
+
+    assert result.returncode == 2
+    assert json.loads(result.stderr)["code"] == "NO_CURRENT_BOXOFFICE_DATA"
+
+
+def test_stale_adapter_fetch_is_nonzero_and_keeps_specific_error():
+    result = run_cli("--fixture-mode", "--today", "2026-08-09")
+
+    assert result.returncode == 2
+    assert json.loads(result.stdout)["code"] == "SOURCE_PERIOD_STALE"
+    assert "ERROR: box-office fetch did not produce current data" in result.stderr
 
 
 def test_owner_clis_reject_fixture_publication(tmp_path):
@@ -131,3 +174,20 @@ def test_tentpole_dry_run_passes_the_complete_fetcher_contract():
     assert payload["schema"] == "tentpole-live-result/v1"
     assert payload["fetcher"]["overall_status"] == "ok"
     assert payload["fetcher"]["jobs"]["boxoffice"]["status"] == "dry_run"
+
+
+def test_tentpole_propagates_stale_fixture_failure():
+    result = run_script(
+        TENTPOLE,
+        "--fixture-mode",
+        "--force",
+        "--dry-run",
+        "--today",
+        "2026-08-09",
+    )
+
+    assert result.returncode == 2
+    payload = json.loads(result.stdout)
+    assert payload["fetcher"]["overall_status"] == "degraded"
+    assert payload["fetcher"]["jobs"]["boxoffice"]["code"] == "SOURCE_PERIOD_STALE"
+    assert "ERROR: tentpole fetch has no current box-office data" in result.stderr

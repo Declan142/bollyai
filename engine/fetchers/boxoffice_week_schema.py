@@ -216,7 +216,7 @@ def _validate_field_names(value: Any, where: str = "payload") -> None:
 def closed_week(today: date | None = None) -> dict[str, str]:
     """Return the latest fully closed Monday-to-Sunday period."""
 
-    reference = today or date.today()
+    reference = today or datetime.now(timezone.utc).date()
     start = reference - timedelta(days=reference.weekday() + 7)
     end = start + timedelta(days=6)
     return {
@@ -375,6 +375,11 @@ def _validate_record(
         _fail("FIGURE_SCOPE_MISMATCH", f"{where}.week_gross_usd scope differs")
     if not isinstance(figure["sources"], list):
         _fail("INVALID_SOURCES", f"{where}.week_gross_usd.sources must be a list")
+    if not figure["sources"]:
+        _fail(
+            "MISSING_SOURCE_PROVENANCE",
+            f"{where}.week_gross_usd.sources must contain an observed source",
+        )
     sources = [
         _validate_source(
             source,
@@ -466,6 +471,45 @@ def validate_board(
     if payload["status"] == "ready" and published_count == 0:
         _fail("EMPTY_READY_BOARD", "ready board needs a publishable exact-week figure")
     return payload
+
+
+def validate_current_board(
+    payload: Any,
+    *,
+    today: date | None = None,
+    now: datetime | None = None,
+    trusted_source_groups: Mapping[str, str] = PRODUCTION_SOURCE_GROUPS,
+) -> dict[str, Any]:
+    """Require a publishable board for the latest fully closed UTC week."""
+
+    board = validate_board(
+        payload,
+        now=now,
+        trusted_source_groups=trusted_source_groups,
+    )
+    if today is None:
+        clock = now or datetime.now(timezone.utc)
+        if clock.tzinfo is None:
+            _fail("INVALID_CLOCK", "validation clock must include a timezone")
+        today = clock.astimezone(timezone.utc).date()
+    expected_week = closed_week(today)
+    if board["week"] != expected_week:
+        _fail(
+            "STALE_BOXOFFICE_BOARD",
+            (
+                f"board week {board['week']['start']} to {board['week']['end']} is stale; "
+                f"expected {expected_week['start']} to {expected_week['end']}"
+            ),
+        )
+    if board["status"] != "ready" or not board["records"]:
+        _fail(
+            "NO_CURRENT_BOXOFFICE_DATA",
+            (
+                "latest closed week has no publishable box-office records: "
+                f"{expected_week['start']} to {expected_week['end']}"
+            ),
+        )
+    return board
 
 
 def pending_board(*, week: dict[str, str], generated_at: str | None = None) -> dict[str, Any]:

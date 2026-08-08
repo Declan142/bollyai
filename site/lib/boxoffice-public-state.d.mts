@@ -1,11 +1,16 @@
 import type {
   BoxOfficeBoard,
-  BoxOfficeRecord
+  BoxOfficeRecord,
+  BoxOfficeWeek
 } from "./boxoffice-schema.mjs";
 
 export interface BoxOfficePublicState {
-  status: "ready" | "data_pending";
+  status: "ready" | "data_pending" | "no_current_data";
   dataPending: boolean;
+  stale: boolean;
+  noCurrentData: boolean;
+  expectedWeek: BoxOfficeWeek;
+  observedWeek: BoxOfficeWeek;
   boardRecords: BoxOfficeRecord[];
   rankedRecords: BoxOfficeRecord[];
   jsonLdRecords: BoxOfficeRecord[];
@@ -13,5 +18,8 @@ export interface BoxOfficePublicState {
 }
 
 export function projectBoxOfficePublicState(
-  board: BoxOfficeBoard
+  board: BoxOfficeBoard,
+  options?: { now?: Date }
 ): BoxOfficePublicState;
+
+export function latestClosedBoxOfficeWeek(now?: Date): BoxOfficeWeek;
