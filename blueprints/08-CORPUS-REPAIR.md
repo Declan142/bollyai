@@ -19,7 +19,7 @@
 | D1 tooling leak: reader-facing prose cites the internal dossier | `[Tt]he dossier('s)? (notes\|marks\|records\|gives\|shows\|has\|logs\|lists\|confirms\|clocks\|counts\|flags\|tracks)\|[Pp]er the dossier\|[Tt]he subtitles? (show\|note\|record\|mark)` | 58 files (30 of them ALSO leaky at origin = live site serves them today) |
 | D2 dropped-value glitch: timestamp templating collapsed to broken English ("silences from to and again from to") | `from to( \|,\|\.)\|between and( \|,\|\.)` | 27 files |
 | D3 placeholder episode titles: `"title": "Episode N"` + null air_date, with review H1s baking the placeholder (`# Better Call Saul S1E1: "Episode 1" Review` - the real title is "Uno") | titles: `"title": "Episode [0-9]+"` · baked H1s: `: \\"Episode [0-9]+\\" Review` | 2,135 placeholder episodes across 162 files; 516 review H1s baked across 116 files (Tier-1). mad-men (the gold exemplar) has 90 |
-| Red test 1, resolved 2026-07-26 | `tests/test_boxoffice_publish_rule.py::test_current_week_schema_and_published_figures_are_source_gated` | strict `bollyai-boxoffice-week/v3` now enforces exact closed-week scope in Python and JavaScript; v1/v2 and lifetime fields fail closed |
+| Red test 1 | `tests/test_boxoffice_publish_rule.py::test_current_week_schema_and_published_figures_are_source_gated` | data is `bollyai-boxoffice-week/v2` (commit `3ce98b7`, deliberate Western rebuild); test + `data/boxoffice/README.md` still assert v1 |
 | Red test 2 | `tests/test_ott_calendar.py::test_generated_calendar_has_source_envelopes` | `data/ott/calendar.json` window 2026-06-08 -> 2026-07-05 (27 days; must be 13). The Mon/Thu roll (`engine/regen_ott_weekly.py`) has not run since ~Jun-22 |
 | Orphan tail | 14 series JSONs dirty since 2026-07-02 ~04:50-12:13 IST, no owning lane alive (no tmux, no loop, no claim) | better-call-saul, breaking-bad, brooklyn-nine-nine, dead-to-me, from, house-of-the-dragon, landman, lioness, mad-men, nobody-wants-this, severance, the-boys, the-crown, yellowstone |
 | Ship stall | local main 305 ahead of origin, 12 behind (daily-refresh cron commits); last push = films cull 2026-06-27 | live site is ~a week stale on all content work |
@@ -47,12 +47,14 @@ detection greps; they are the queue.
 
 Do this FIRST; it is small and it un-rots the suite for every other lane.
 
-1. **Box-office schema drift, resolved 2026-07-26.** Do not restore v1 or v2. The public
-   file and both runtime readers now use strict v3: one exact closed week, full-set
-   independent-source consensus, no lifetime substitution, and atomic last-good
-   preservation. The operational exact-week source adapter remains a separate pending
-   task; missing live input is honest degraded status with a nonzero owner-process exit,
-   not permission to weaken the contract or render stale bytes as current.
+1. **Box-office schema drift.** Investigate intent, then align the stale side:
+   `git show 3ce98b7 --stat` and `git show 3ce98b7 -- data/boxoffice/current-week.json`.
+   Expected finding: v2 was shipped deliberately in the Western rebuild and the test was
+   missed. Fix = update the v1 assertion in `tests/test_boxoffice_publish_rule.py` AND the
+   `Weekly files use schema: ... /v1` line in `data/boxoffice/README.md` to v2, verifying
+   the test's OTHER assertions still describe the v2 shape truthfully (publish rule,
+   source gating - those are honesty fences, do not loosen them). If investigation shows
+   v2 was NOT deliberate, regenerate the data at v1 instead. One side moves, never both.
 2. **OTT calendar staleness.** Read `python3 engine/regen_ott_weekly.py --help`, then run
    it (it is the cron-safe Mon/Thu entrypoint; writes `data/ott/calendar.json`, week
    archives, changed-URL sidecar; never deploys). Verify: window = current Monday ->
@@ -66,8 +68,8 @@ Do this FIRST; it is small and it un-rots the suite for every other lane.
    `site/public/*`, `data/_state/series-links.json` build-artifact dirt ALONE - the floor
    regenerates + commits those at ship time (`sitemap-predictions.xml` is new build output;
    it rides the same ship commit).
-4. **Gate:** run the current full Python suite. Historical fixed test counts are evidence
-   only; do not weaken new gates to match the old 183-test snapshot.
+4. **Gate:** `python3 -m pytest tests/ -q` -> expect 183/183. Commit per fix, messages like
+   `bollyai: fix boxoffice schema test drift (v1->v2, commit 3ce98b7 intent)`.
 5. **Report the cadence gap:** the Mon/Thu OTT roll has no live scheduler. Wiring a cron is
    the floor's call - flag it, do not build it.
 

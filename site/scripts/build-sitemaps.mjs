@@ -5,7 +5,6 @@
 // Runs in prebuild AFTER sync-public so poster files are present for the on-disk check.
 import fs from "node:fs";
 import path from "node:path";
-import { loadBoxOfficeBoard } from "../lib/boxoffice-schema.mjs";
 
 const siteRoot = process.cwd();
 const repoRoot = path.resolve(siteRoot, "..");
@@ -33,13 +32,12 @@ const watch = listJson(path.join(dataDir, "recommendations"));
 const calendar = fs.existsSync(path.join(dataDir, "ott", "calendar.json"))
   ? readJson(path.join(dataDir, "ott", "calendar.json"))
   : { generated_at: LAUNCH, entries: [] };
-const boxofficePath = path.join(dataDir, "boxoffice", "current-week.json");
-const boxoffice = loadBoxOfficeBoard({
-  filePath: boxofficePath,
-  readText: (filePath) => fs.readFileSync(filePath, "utf8")
-});
+const boxoffice = fs.existsSync(path.join(dataDir, "boxoffice", "current-week.json"))
+  ? readJson(path.join(dataDir, "boxoffice", "current-week.json"))
+  : { generated_at: LAUNCH, records: [] };
 
 const DESKS = ["hollywood", "streaming"];
+const CLUB_TIERS = [100, 200, 500, 1000];
 
 // ---- build URL rows per child {loc, lastmod} ----
 const urlXml = (rows) =>
@@ -61,15 +59,21 @@ const staticPaths = [
   "/watch/"
 ];
 const pages = [];
-for (const p of staticPaths) {
-  pages.push({
-    loc: `${SITE}${p}`,
-    lastmod: p === "/box-office/" ? day(boxoffice.generated_at) : LAUNCH
-  });
-}
+for (const p of staticPaths) pages.push({ loc: `${SITE}${p}`, lastmod: LAUNCH });
+for (const tier of CLUB_TIERS) pages.push({ loc: `${SITE}/box-office/${tier}-crore-club/`, lastmod: day(boxoffice.generated_at) });
 for (const desk of DESKS) {
   const deskMod = maxDay(films.filter((f) => f.canonical_industry === desk).map((f) => f.date_modified));
   pages.push({ loc: `${SITE}/${desk}/`, lastmod: deskMod });
+}
+const scoreboardYears = new Set([String(boxoffice.week?.start || boxoffice.generated_at || LAUNCH).slice(0, 4)]);
+for (const row of boxoffice.records || []) {
+  if (!row.industry || !row.week?.start) continue;
+  scoreboardYears.add(String(row.week.start).slice(0, 4));
+}
+for (const year of [...scoreboardYears].sort().reverse()) {
+  for (const industry of DESKS) {
+    pages.push({ loc: `${SITE}/${industry}/box-office/${year}/`, lastmod: day(boxoffice.generated_at) });
+  }
 }
 pages.push({ loc: `${SITE}/ott/calendar/`, lastmod: day(calendar.generated_at) });
 for (const week of calendar.weeks || []) {

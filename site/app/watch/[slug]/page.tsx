@@ -12,15 +12,13 @@ export function generateStaticParams() {
   return getAllWatchLists().map((l) => ({ slug: l.slug }));
 }
 
-export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: { slug: string } }) {
   const list = getWatchList(params.slug);
   if (!list) return {};
   return { title: list.title, description: list.intro, ...pageSeo({ path: `/watch/${params.slug}/`, type: "article" }) };
 }
 
-export default async function WatchListPage(props: { params: Promise<{ slug: string }> }) {
-  const params = await props.params;
+export default function WatchListPage({ params }: { params: { slug: string } }) {
   const list = getWatchList(params.slug);
   if (!list) notFound();
   const faqLd = watchListFaqJsonLd(list);

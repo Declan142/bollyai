@@ -1,32 +1,3 @@
-# BollyAI - source clearance hardening (2026-07-26, data pending)
-
-- Added a checked-in, machine-readable source candidate registry plus an
-  offline fail-closed evaluator. The production policy is code-owned:
-  two independent qualifying sources, exact closed Monday-to-Sunday UTC
-  Worldwide gross, USD, complete provenance reviews, explicit approval, and a
-  configured code-registered adapter. Registry edits cannot weaken consensus
-  thresholds or invent an operational adapter.
-- Current result is intentionally `SOURCE_CLEARANCE_PENDING`: 0 qualifying
-  sources and 0 qualifying independence groups. All four assessed candidates
-  remain unapproved and unconfigured.
-- Public Box Office Mojo weekly data is domestic Friday-to-Thursday, and The
-  Numbers public charts are domestic, so neither satisfies this board. IMDb
-  Box Office bulk is only a licensed candidate with Weekly and Worldwide
-  signals and is also blocked by this repo's no-IMDb-dataset policy. Comscore
-  Global is only a commercial candidate. Exact period and currency coverage
-  are not assumed for either licensed candidate.
-- Live mode now evaluates clearance before reporting pending. Registry claims
-  cannot invent a code-registered adapter; a future cleared registry still
-  returns `NO_OPERATIONAL_SOURCE_ADAPTER` until adapter execution is wired.
-- Verification is green: focused source/publication tests 73 passed, full
-  Python suite 311 passed, JavaScript box-office contract 17 subtests passed,
-  and the production build exported 5,661 static pages with 6,840 files under
-  the Cloudflare cap.
-- No network fetch, paid service, licensed dataset, source approval, credential,
-  public board write, push, or deployment was performed.
-
----
-
 # BollyAI - pickup state (2026-07-10 ~15:35 UTC, SHIP-TRAIN COMPLETE - 326 commits LIVE)
 
 ## SHIP (2026-07-10, vyom3 floor) - the 07-QA-SHIP lever pulled, site is LIVE and current

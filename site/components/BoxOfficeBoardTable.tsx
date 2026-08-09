@@ -1,8 +1,4 @@
-import {
-  uniqueWeekGrossSources,
-  type BoxOfficeRecord,
-  type WeekGrossSource
-} from "../lib/boxoffice";
+import { uniqueFigureSources, type BoxOfficeRecord, type BoxOfficeSource } from "../lib/boxoffice";
 import { formatDate } from "../lib/data";
 
 export function BoxOfficeBoardTable({
@@ -30,7 +26,7 @@ export function BoxOfficeBoardTable({
             <th>Film</th>
             {showIndustry && <th>Industry</th>}
             <th>Release</th>
-            <th>Closed-week gross (USD)</th>
+            <th>Worldwide gross (USD)</th>
             <th>Sources</th>
           </tr>
         </thead>
@@ -47,7 +43,7 @@ export function BoxOfficeBoardTable({
               <td>{record.release_date ? formatDate(record.release_date) : "-"}</td>
               <UsdGrossCell record={record} />
               <td>
-                <SourceStack sources={uniqueWeekGrossSources(record)} record={record} />
+                <SourceStack sources={uniqueFigureSources(record)} record={record} />
               </td>
             </tr>
           ))}
@@ -58,13 +54,13 @@ export function BoxOfficeBoardTable({
 }
 
 function UsdGrossCell({ record }: { record: BoxOfficeRecord }) {
-  const usd = record.week_gross_usd;
-  if (usd.value === null) {
+  const usd = record.worldwide_gross_usd;
+  if (!usd || usd.value === null) {
     return (
       <td>
         <span className="bo-metric" data-state="tracking">
           <strong>tracking</strong>
-          <span>consensus pending</span>
+          <span>awaiting source</span>
         </span>
       </td>
     );
@@ -75,19 +71,13 @@ function UsdGrossCell({ record }: { record: BoxOfficeRecord }) {
       <span className="bo-metric" data-state="published">
         <strong>${displayM}M</strong>
         <span>{usd.label}</span>
-        <small>{formatDate(usd.period.start)} to {formatDate(usd.period.end)}</small>
+        {usd.as_of && <small>as of {formatDate(usd.as_of)}</small>}
       </span>
     </td>
   );
 }
 
-function SourceStack({
-  sources,
-  record
-}: {
-  sources: WeekGrossSource[];
-  record: BoxOfficeRecord;
-}) {
+function SourceStack({ sources, record }: { sources: BoxOfficeSource[]; record: BoxOfficeRecord }) {
   if (sources.length === 0) {
     return <span className="source-line">Sources pending.</span>;
   }

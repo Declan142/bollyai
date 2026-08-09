@@ -40,8 +40,7 @@ function nums(params: Params) {
   return { season: Number(params.season.replace(/^s/, "")), number: Number(params.episode.replace(/^e/, "")) };
 }
 
-export async function generateMetadata(props: { params: Promise<Params> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: Params }) {
   const series = getSeries(params.slug);
   if (!series) return {};
   const { season, number } = nums(params);
@@ -68,8 +67,7 @@ export async function generateMetadata(props: { params: Promise<Params> }) {
   };
 }
 
-export default async function EpisodePage(props: { params: Promise<Params> }) {
-  const params = await props.params;
+export default function EpisodePage({ params }: { params: Params }) {
   const series = getSeries(params.slug);
   if (!series) notFound();
   const { season, number } = nums(params);

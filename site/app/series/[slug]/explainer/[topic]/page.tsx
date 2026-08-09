@@ -13,8 +13,7 @@ export function generateStaticParams() {
   return getAllExplainerParams().filter((p) => getSeries(p.slug));
 }
 
-export async function generateMetadata(props: { params: Promise<{ slug: string; topic: string }> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: { slug: string; topic: string } }) {
   const explainer = getExplainer(params.slug, params.topic);
   const series = getSeries(params.slug);
   if (!explainer || !series) return {};
@@ -30,8 +29,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string; 
   };
 }
 
-export default async function ExplainerPage(props: { params: Promise<{ slug: string; topic: string }> }) {
-  const params = await props.params;
+export default function ExplainerPage({ params }: { params: { slug: string; topic: string } }) {
   const series = getSeries(params.slug);
   const explainer = getExplainer(params.slug, params.topic);
   if (!series || !explainer) notFound();

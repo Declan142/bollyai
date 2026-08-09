@@ -22,8 +22,7 @@ export function generateStaticParams() {
   );
 }
 
-export async function generateMetadata(props: { params: Promise<{ slug: string; season: string }> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: { slug: string; season: string } }) {
   const series = getSeries(params.slug);
   if (!series) return {};
   const num = Number(params.season.replace(/^s/, ""));
@@ -41,8 +40,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string; 
   return { title, description, ...pageSeo({ path: `/series/${params.slug}/s${num}/`, image: ogImage(series.slug, num) ?? ogImage(series.slug) ?? series.poster.src, type: "article" }) };
 }
 
-export default async function SeasonPage(props: { params: Promise<{ slug: string; season: string }> }) {
-  const params = await props.params;
+export default function SeasonPage({ params }: { params: { slug: string; season: string } }) {
   const series = getSeries(params.slug);
   if (!series) notFound();
   const num = Number(params.season.replace(/^s/, ""));

@@ -7,118 +7,118 @@ import { BoxOfficeLeaderboard } from "../../components/BoxOfficeLeaderboard";
 import {
   boxOfficeDatasetJsonLd,
   boxOfficeItemListJsonLd,
-  getCurrentBoxOfficeBoard
+  getBoxOfficeClubs,
+  getCurrentBoxOfficeBoard,
+  getYearScoreboardParams
 } from "../../lib/boxoffice";
-import { projectBoxOfficePublicState } from "../../lib/boxoffice-public-state.mjs";
+import { getDesk } from "../../lib/desks";
 import { pageSeo } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Worldwide Box Office Tracker - Weekly USD Board",
   description:
-    "Verified closed-week worldwide theatrical gross appears only when current exact-period independent-source consensus is available.",
+    "Current-week worldwide theatrical box-office tracker with source-attributed USD gross figures from Wikidata and TMDB.",
   ...pageSeo({ path: "/box-office/" })
 };
 
 export default function BoxOfficeHubPage() {
   const board = getCurrentBoxOfficeBoard();
-  const publicState = projectBoxOfficePublicState(board);
-  const weekLabel = publicState.expectedWeek.label;
+  const weekLabel = board.week?.label ?? "Current week";
 
   return (
     <main className="page-shell box-office-hub" data-desk="hollywood">
-      {publicState.showStructuredData && (
-        <>
-          <JsonLd
-            data={boxOfficeDatasetJsonLd({
-              name: `Box office tracker: ${weekLabel}`,
-              description:
-                "Exact closed-week box-office dataset with conservative independent-source consensus.",
-              url: "/box-office/",
-              dateModified: board.generated_at,
-              period: board.week,
-              records: publicState.jsonLdRecords
-            })}
-          />
-          <JsonLd
-            data={boxOfficeItemListJsonLd({
-              ...board,
-              records: publicState.jsonLdRecords
-            })}
-          />
-        </>
-      )}
+      <JsonLd
+        data={boxOfficeDatasetJsonLd({
+          name: `Box office tracker: ${weekLabel}`,
+          description: "Current-week box-office dataset with conservative source-gated publishing.",
+          url: "/box-office/",
+          dateModified: board.generated_at,
+          records: board.records
+        })}
+      />
+      <JsonLd data={boxOfficeItemListJsonLd(board)} />
       <SectionHero
         eyebrow="Box office desk"
         title="Worldwide box office"
         lede={
           <>
-            Verified closed-week worldwide theatrical gross in USD appears only with current evidence.
-            <b> Figures appear only when the current closed week clears the source contract.</b> No lifetime totals,
-            invented estimates, or stale-week relabelling.
+            Current-week worldwide theatrical gross in USD. Figures are sourced from Wikidata P2142 and TMDB -
+            <b> only real attributed data appears here.</b> No invented or extrapolated numbers.
           </>
         }
         stats={[
-          { value: String(publicState.boardRecords.length), label: "Films tracked" },
-          { value: weekLabel, label: "Closed week" },
+          { value: String(board.records.length), label: "Films tracked" },
+          { value: weekLabel, label: "Trade week" },
           { value: board.territory, label: "Territory" }
         ]}
       >
-        {!publicState.noCurrentData && <DateModified value={board.generated_at} />}
+        <DateModified value={board.generated_at} />
       </SectionHero>
 
-      {publicState.noCurrentData && (
+      {board.DATA_PENDING && (
         <section className="panel bo-alert" aria-label="Data status">
-          <p className="eyebrow">Data unavailable</p>
-          <h2>No current box-office data</h2>
-          {publicState.stale ? (
-            <p>
-              The available snapshot covers {publicState.observedWeek.label}, while the current closed-week slot
-              expects {publicState.expectedWeek.label}. Its rows and structured data are withheld instead of being
-              relabelled as current.
-            </p>
-          ) : (
-            <p>
-              No operational source pair has cleared the exact-period contract for {publicState.expectedWeek.label}.
-              Partial, cumulative, empty, and mismatched-period results remain unpublished.
-            </p>
-          )}
+          <p className="eyebrow">Data pending</p>
+          <h2>No sourced figures yet</h2>
+          <p>
+            Wikidata P2142 or TMDB have not returned current-week records yet. The board updates automatically when
+            the scheduled refresh runs. Missing data is the honest state.
+          </p>
         </section>
       )}
 
-      {publicState.rankedRecords.length > 0 && (
-        <BoxOfficeLeaderboard records={publicState.boardRecords} />
+      {!board.DATA_PENDING && board.records.length > 0 && (
+        <BoxOfficeLeaderboard records={board.records} />
       )}
 
       <section className="panel bo-board-panel">
         <header className="bo-panel-head">
           <div>
             <p className="eyebrow">{weekLabel}</p>
-            <h2>{publicState.noCurrentData ? "Current Closed-Week Availability" : "Latest Verified Closed Week"}</h2>
+            <h2>Current Week Board</h2>
           </div>
           <span className="pill">{board.territory}</span>
         </header>
-        <BoxOfficeBoardTable
-          records={publicState.boardRecords}
-          emptyState="No current exact-week figures have cleared the publication contract."
-        />
+        <BoxOfficeBoardTable records={board.records} />
+      </section>
+
+      <section className="bo-link-grid" aria-label="Box office scoreboards">
+        {getBoxOfficeClubs().map((club) => (
+          <a className="bo-link-card" href={`/box-office/${club.slug}/`} key={club.slug}>
+            <span className="eyebrow">Cross-industry club</span>
+            <strong>{club.label}</strong>
+            <span>Only films with a publishable conservative figure cross the line.</span>
+          </a>
+        ))}
+        {getYearScoreboardParams().map((scoreboard) => {
+          const desk = getDesk(scoreboard.industry);
+          return (
+            <a className="bo-link-card" href={`/${scoreboard.industry}/box-office/${scoreboard.year}/`} key={`${scoreboard.industry}-${scoreboard.year}`}>
+              <span className="eyebrow">Year scoreboard</span>
+              <strong>
+                {desk?.label ?? scoreboard.industry} {scoreboard.year}
+              </strong>
+              <span>{desk?.industryName ?? "Industry"} tracker rows for the year.</span>
+            </a>
+          );
+        })}
       </section>
 
       <section className="bo-method-grid" aria-label="Box office methodology">
         <article className="panel">
-          <p className="eyebrow">Publication contract</p>
-          <h2>What clears the board</h2>
+          <p className="eyebrow">Data sources</p>
+          <h2>Where figures come from</h2>
           <p>
-            At least two independent source groups must report USD gross for the same Monday-to-Sunday period and
-            Worldwide territory. Within 10 percent, the lower reading is a trade estimate. From 10 to 25 percent,
-            only the lower figure appears with that conservative label. Wider disagreement stays in tracking.
+            Worldwide gross figures are sourced from Wikidata P2142 (box office gross property, USD) and the TMDB
+            revenue field. Both are public attributed sources. Each figure carries a source URL so you can verify it
+            directly.
           </p>
         </article>
         <article className="panel">
           <p className="eyebrow">What is excluded</p>
-          <h2>No scope substitution</h2>
+          <h2>No budgets or invented figures</h2>
           <p>
-            Lifetime and cumulative revenue, opening-weekend totals, week-to-date readings, budgets, salaries, and
-            streaming view counts cannot enter this weekly dataset. Missing exact-week evidence remains missing.
+            Budgets, salaries, and streaming view counts are not published here. If a film does not have a sourced
+            worldwide gross in Wikidata or TMDB, it does not appear on this board.
           </p>
         </article>
       </section>

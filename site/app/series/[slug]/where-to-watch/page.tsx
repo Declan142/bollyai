@@ -30,8 +30,7 @@ export function generateStaticParams() {
     .map((s) => ({ slug: s.slug }));
 }
 
-export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!series) return {};
   const t = series.title.value;
@@ -51,8 +50,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
   };
 }
 
-export default async function WhereToWatchPage(props: { params: Promise<{ slug: string }> }) {
-  const params = await props.params;
+export default function WhereToWatchPage({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   if (!series) notFound();
 

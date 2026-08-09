@@ -16,8 +16,7 @@ export function generateStaticParams() {
     .map((e) => ({ slug: e.slug }));
 }
 
-export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: { slug: string } }) {
   const ending = getEnding(params.slug);
   const series = getSeries(params.slug);
   if (!ending || !series) return {};
@@ -27,8 +26,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
   return { title, description, ...pageSeo({ path: `/series/${params.slug}/ending-explained/`, image: series.poster.src, type: "article" }) };
 }
 
-export default async function EndingExplainedPage(props: { params: Promise<{ slug: string }> }) {
-  const params = await props.params;
+export default function EndingExplainedPage({ params }: { params: { slug: string } }) {
   const series = getSeries(params.slug);
   const ending = getEnding(params.slug);
   if (!series || !ending) notFound();

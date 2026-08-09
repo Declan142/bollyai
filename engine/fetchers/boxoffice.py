@@ -1,4 +1,4 @@
-"""Legacy India box-office ingestion and publishing rules for BollyAI.
+"""Box-office ingestion and publishing rules for BollyAI.
 
 Numbers are estimates, so this module is deliberately conservative. The
 publish rule is a code-level contract:
@@ -8,10 +8,6 @@ publish rule is a code-level contract:
 * >25% apart or single-source publishes no number and stays tracking.
 * Budgets and salaries never pass through this rule.
 * Bollywood Hungama + Taran Adarsh never form a valid 2-source pair by themselves.
-
-This legacy pipeline is isolated from the public Western weekly board. Its
-optional fill command reads and writes only a private cache path, never
-``data/boxoffice/current-week.json``.
 """
 
 from __future__ import annotations
@@ -39,7 +35,7 @@ from common import DATA_DIR, FIXTURE_DIR, USER_AGENT, read_json, repo_path, sour
 
 
 BOXOFFICE_CACHE_DIR = repo_path("_cache/boxoffice")
-LEGACY_CURRENT_WEEK_PATH = BOXOFFICE_CACHE_DIR / "legacy-india-current-week-v1.json"
+CURRENT_WEEK_PATH = DATA_DIR / "boxoffice" / "current-week.json"
 BOXOFFICE_FIGURES = {
     "india_net_inr_cr": "india_net",
     "worldwide_gross_inr_cr": "worldwide_gross",
@@ -924,16 +920,10 @@ def count_tracking_figures(board: dict[str, Any]) -> int:
     return count
 
 
-def fill_legacy_current_week(
-    *,
-    fixture_mode: bool = False,
-    write: bool = False,
-) -> dict[str, Any]:
-    board = read_json(LEGACY_CURRENT_WEEK_PATH, default=None)
+def fill_current_week(*, fixture_mode: bool = False, write: bool = False) -> dict[str, Any]:
+    board = read_json(CURRENT_WEEK_PATH, default=None)
     if not isinstance(board, dict):
-        raise FileNotFoundError(
-            f"Missing legacy India box-office board: {LEGACY_CURRENT_WEEK_PATH}"
-        )
+        raise FileNotFoundError(f"Missing box-office board: {CURRENT_WEEK_PATH}")
 
     before_tracking = count_tracking_figures(board)
     fetcher = CachedHttpFetcher(fixture_mode=fixture_mode)
@@ -956,7 +946,7 @@ def fill_legacy_current_week(
     board["generated_at"] = ist_now()
     after_tracking = count_tracking_figures(board)
     if write:
-        write_json(LEGACY_CURRENT_WEEK_PATH, board)
+        write_json(CURRENT_WEEK_PATH, board)
 
     return {
         "schema": "boxoffice-fill-result/v1",
@@ -968,7 +958,7 @@ def fill_legacy_current_week(
         "tracking_after": after_tracking,
         "published_figures": len(board.get("records", [])) * len(BOXOFFICE_FIGURES) - after_tracking,
         "adapter_hits": adapter_hits,
-        "written": str(LEGACY_CURRENT_WEEK_PATH) if write else None,
+        "written": str(CURRENT_WEEK_PATH) if write else None,
     }
 
 
@@ -1032,39 +1022,16 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--date")
     parser.add_argument("--industry", default="tollywood")
     parser.add_argument("--emit", help="Optional JSON output path.")
-    parser.add_argument(
-        "--fill-legacy-current-week",
-        action="store_true",
-        help="Fill the isolated legacy India cache board.",
-    )
-    parser.add_argument(
-        "--write-legacy-current-week",
-        action="store_true",
-        help="Write only the isolated legacy India cache board.",
-    )
+    parser.add_argument("--fill-current-week", action="store_true", help="Fetch source readings for data/boxoffice/current-week.json.")
+    parser.add_argument("--write-current-week", action="store_true", help="Write current-week.json after --fill-current-week.")
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     fixture_mode = bool(args.fixture_mode or args.from_fixtures)
-    emit_path = repo_path(args.emit).resolve() if args.emit else None
-    if (
-        emit_path is not None
-        and not emit_path.is_relative_to(BOXOFFICE_CACHE_DIR.resolve())
-    ):
-        raise SystemExit(
-            "--emit is restricted to the isolated _cache/boxoffice directory"
-        )
-    if args.write_legacy_current_week and not args.fill_legacy_current_week:
-        raise SystemExit(
-            "--write-legacy-current-week requires --fill-legacy-current-week"
-        )
-    if args.fill_legacy_current_week:
-        payload = fill_legacy_current_week(
-            fixture_mode=fixture_mode,
-            write=bool(args.write_legacy_current_week),
-        )
+    if args.fill_current_week:
+        payload = fill_current_week(fixture_mode=fixture_mode, write=bool(args.write_current_week))
         json.dump(payload, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
         sys.stdout.write("\n")
         return 0
@@ -1083,8 +1050,8 @@ def main(argv: list[str] | None = None) -> int:
         "day_rows": rows,
         "secondary_stubs": secondary_source_stub(args.industry),
     }
-    if emit_path is not None:
-        write_json(emit_path, payload)
+    if args.emit:
+        write_json(repo_path(args.emit), payload)
     json.dump(payload, sys.stdout, ensure_ascii=True, indent=2, sort_keys=True)
     sys.stdout.write("\n")
     return 0

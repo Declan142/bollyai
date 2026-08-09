@@ -3,7 +3,6 @@
 // Runs in prebuild AFTER sync-public so it is not clobbered by the public copy.
 import fs from "node:fs";
 import path from "node:path";
-import { loadBoxOfficeBoard } from "../lib/boxoffice-schema.mjs";
 
 const siteRoot = process.cwd();
 const repoRoot = path.resolve(siteRoot, "..");
@@ -24,19 +23,38 @@ const DESKS = [
   ["streaming", "Streaming"]
 ];
 const boxofficePath = path.join(dataDir, "boxoffice", "current-week.json");
-const boxoffice = loadBoxOfficeBoard({
-  filePath: boxofficePath,
-  readText: (filePath) => fs.readFileSync(filePath, "utf8")
-});
+const boxoffice = fs.existsSync(boxofficePath) ? readJson(boxofficePath) : { records: [] };
 for (const [slug, label] of DESKS) {
   entries.push({ t: `${label} desk`, u: `/${slug}/`, k: "Desk", d: `${label} reviews, box office and verdicts` });
 }
 entries.push({
-  t: "Worldwide Weekly Box Office",
+  t: "India Box Office",
   u: "/box-office/",
   k: "Box Office",
-  d: `Latest verified closed week: ${boxoffice.week.label}. Exact-period independent-source consensus only`
+  d: "Current-week India box office tracker with source-gated trade estimates"
 });
+for (const tier of [100, 200, 500, 1000]) {
+  entries.push({
+    t: `${tier} Crore Club`,
+    u: `/box-office/${tier}-crore-club/`,
+    k: "Box Office",
+    d: "Cross-industry box office club with renderer-gated trade figures"
+  });
+}
+const yearScoreboards = new Set();
+for (const row of boxoffice.records || []) {
+  if (!row.industry || !row.week?.start) continue;
+  yearScoreboards.add(`${row.industry}|${String(row.week.start).slice(0, 4)}`);
+}
+for (const key of [...yearScoreboards].sort()) {
+  const [industry, year] = key.split("|");
+  entries.push({
+    t: `${industry} Box Office ${year}`,
+    u: `/${industry}/box-office/${year}/`,
+    k: "Box Office",
+    d: "Industry year scoreboard with source-gated trade rows"
+  });
+}
 
 entries.push(
   {

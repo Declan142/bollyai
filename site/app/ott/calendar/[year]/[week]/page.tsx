@@ -20,8 +20,7 @@ export function generateStaticParams() {
   return getOttCalendarArchiveParams();
 }
 
-export async function generateMetadata(props: { params: Promise<{ year: string; week: string }> }) {
-  const params = await props.params;
+export function generateMetadata({ params }: { params: { year: string; week: string } }) {
   const page = getOttCalendarWeek(params.year, params.week);
   if (!page) return {};
   return {
@@ -33,8 +32,7 @@ export async function generateMetadata(props: { params: Promise<{ year: string; 
   };
 }
 
-export default async function OttCalendarArchivePage(props: { params: Promise<{ year: string; week: string }> }) {
-  const params = await props.params;
+export default function OttCalendarArchivePage({ params }: { params: { year: string; week: string } }) {
   const page = getOttCalendarWeek(params.year, params.week);
   if (!page) {
     notFound();

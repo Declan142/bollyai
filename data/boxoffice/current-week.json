@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T23:31:41Z",
+  "DATA_PENDING": true,
+  "generated_at": "2026-07-25T06:37:14Z",
   "records": [],
-  "schema": "bollyai-boxoffice-week/v3",
-  "status": "data_pending",
+  "schema": "bollyai-boxoffice-week/v2",
   "territory": "Worldwide",
   "week": {
-    "end": "2026-07-19",
-    "label": "13 to 19 July 2026",
-    "start": "2026-07-13"
+    "end": "2026-07-26",
+    "label": "Week of 20 July 2026",
+    "start": "2026-07-20"
   }
 }

@@ -24,18 +24,13 @@ green on origin).
 | File | Owner |
 |---|---|
 | `data/ott/calendar.json` (+ `data/ott/calendar/` archive) | ott-calendar-roll |
-| `data/boxoffice/current-week.json` | daily-refresh / friday-surge through the strict v3 last-good writer in run_all.py |
+| `data/boxoffice/current-week.json` | daily-refresh / friday-surge via run_all.py |
 | `site/public/sitemap*.xml` | build |
 | `data/_state/*.log`, `staleness.json`, `changed-urls.json` | engine/scripts |
 
-Western OTT fetch path: `engine/fetchers/ott_western.py` (TMDB-key-on-Actions, keyless
-Wikidata fallback). `engine/fetchers/boxoffice_western.py` is the strict exact-week
-boundary, but has no operational live source adapter yet. Live box-office runs report
-structured degraded status, preserve the existing v3 file byte for byte, and exit nonzero
-so missing current data alerts instead of passing as health. The public projector withholds
-stale rows. Lifetime or cumulative sources are not a fallback. The India fetcher
-(`engine/fetchers/boxoffice.py`) is fully orphaned from `run_all.py`, and its optional
-fill path is isolated under `_cache/boxoffice/`. Never rewire it to the public board.
+Western fetch paths: `engine/fetchers/ott_western.py` (TMDB-key-on-Actions, keyless
+Wikidata fallback) + `boxoffice_western.py`. The India fetcher
+(`engine/fetchers/boxoffice.py`) is fully orphaned from `run_all.py` - never rewire it.
 To add a real OTT announcement by hand, append to `data/ott/announcements.json` (the
 curated source the roll consumes), never to calendar.json.
 
