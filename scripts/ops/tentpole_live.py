@@ -49,6 +49,7 @@ def run_fetchers(args: argparse.Namespace, data_dir: Path) -> dict[str, Any]:
         live_only=True,
         write=None if args.dry_run else str(data_dir),
         today=args.today,
+        boxoffice_fixture=None,
     )
     return run_all_fetchers.run(fetcher_args)
 
@@ -65,10 +66,17 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
-    args = build_parser().parse_args(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv)
     data_dir = Path(args.data_dir)
     if not data_dir.is_absolute():
         data_dir = REPO_ROOT / data_dir
+    if (
+        args.fixture_mode
+        and not args.dry_run
+        and data_dir.resolve() == (REPO_ROOT / "data").resolve()
+    ):
+        parser.error("fixture mode cannot write the public data directory")
 
     enabled, reason = (True, "force") if args.force else enabled_from_config(data_dir)
     if not enabled:
@@ -92,6 +100,13 @@ def main(argv: list[str] | None = None) -> int:
     }
     print(json.dumps(result, ensure_ascii=True, indent=2, sort_keys=True))
     write_github_output(args.github_output, {"ran": True, "reason": reason})
+    if fetcher_result["overall_status"] != "ok":
+        boxoffice = fetcher_result["jobs"]["boxoffice"]
+        sys.stderr.write(
+            "ERROR: tentpole fetch has no current box-office data "
+            f"[{boxoffice['code']}] status={boxoffice['status']}\n"
+        )
+        return 1 if fetcher_result["overall_status"] == "failed" else 2
     return 0
 
 

@@ -1,0 +1,192 @@
+{
+  "generated_at": "2026-07-20T08:00:00Z",
+  "readings": [
+    {
+      "film": {
+        "qid": null,
+        "slug": "fixture-alpha",
+        "title": "Fixture Alpha",
+        "type": "film",
+        "url": "/hollywood/box-office/fixture-alpha/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2026-07-10",
+      "source": {
+        "as_of": "2026-07-20",
+        "currency": "USD",
+        "fetched_at": "2026-07-20T07:30:00Z",
+        "group": "fixture_trade_a",
+        "measurement": "exact_week",
+        "metric": "week_gross_usd",
+        "name": "Fixture Trade A",
+        "period": {
+          "end": "2026-07-19",
+          "label": "13 to 19 July 2026",
+          "start": "2026-07-13"
+        },
+        "territory": "Worldwide",
+        "url": "https://example.com/fixture-alpha-trade-a",
+        "value": 105000000
+      },
+      "territory": "Worldwide"
+    },
+    {
+      "film": {
+        "qid": null,
+        "slug": "fixture-alpha",
+        "title": "Fixture Alpha",
+        "type": "film",
+        "url": "/hollywood/box-office/fixture-alpha/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2026-07-10",
+      "source": {
+        "as_of": "2026-07-20",
+        "currency": "USD",
+        "fetched_at": "2026-07-20T07:35:00Z",
+        "group": "fixture_trade_b",
+        "measurement": "exact_week",
+        "metric": "week_gross_usd",
+        "name": "Fixture Trade B",
+        "period": {
+          "end": "2026-07-19",
+          "label": "13 to 19 July 2026",
+          "start": "2026-07-13"
+        },
+        "territory": "Worldwide",
+        "url": "https://example.org/fixture-alpha-trade-b",
+        "value": 110000000
+      },
+      "territory": "Worldwide"
+    },
+    {
+      "film": {
+        "qid": "Q123456789",
+        "slug": "fixture-beta",
+        "title": "Fixture Beta",
+        "type": "film",
+        "url": "/hollywood/box-office/fixture-beta/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2026-07-04",
+      "source": {
+        "as_of": "2026-07-20",
+        "currency": "USD",
+        "fetched_at": "2026-07-20T07:40:00Z",
+        "group": "fixture_trade_a",
+        "measurement": "exact_week",
+        "metric": "week_gross_usd",
+        "name": "Fixture Trade A",
+        "period": {
+          "end": "2026-07-19",
+          "label": "13 to 19 July 2026",
+          "start": "2026-07-13"
+        },
+        "territory": "Worldwide",
+        "url": "https://example.com/fixture-beta-trade-a",
+        "value": 48000000
+      },
+      "territory": "Worldwide"
+    },
+    {
+      "film": {
+        "qid": "Q123456789",
+        "slug": "fixture-beta",
+        "title": "Fixture Beta",
+        "type": "film",
+        "url": "/hollywood/box-office/fixture-beta/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2026-07-04",
+      "source": {
+        "as_of": "2026-07-20",
+        "currency": "USD",
+        "fetched_at": "2026-07-20T07:45:00Z",
+        "group": "fixture_trade_b",
+        "measurement": "exact_week",
+        "metric": "week_gross_usd",
+        "name": "Fixture Trade B",
+        "period": {
+          "end": "2026-07-19",
+          "label": "13 to 19 July 2026",
+          "start": "2026-07-13"
+        },
+        "territory": "Worldwide",
+        "url": "https://example.org/fixture-beta-trade-b",
+        "value": 60000000
+      },
+      "territory": "Worldwide"
+    },
+    {
+      "film": {
+        "qid": null,
+        "slug": "fixture-gamma",
+        "title": "Fixture Gamma",
+        "type": "film",
+        "url": "/hollywood/box-office/fixture-gamma/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2026-07-01",
+      "source": {
+        "as_of": "2026-07-20",
+        "currency": "USD",
+        "fetched_at": "2026-07-20T07:50:00Z",
+        "group": "fixture_trade_a",
+        "measurement": "exact_week",
+        "metric": "week_gross_usd",
+        "name": "Fixture Trade A",
+        "period": {
+          "end": "2026-07-19",
+          "label": "13 to 19 July 2026",
+          "start": "2026-07-13"
+        },
+        "territory": "Worldwide",
+        "url": "https://example.com/fixture-gamma-trade-a",
+        "value": 20000000
+      },
+      "territory": "Worldwide"
+    },
+    {
+      "film": {
+        "qid": null,
+        "slug": "fixture-gamma",
+        "title": "Fixture Gamma",
+        "type": "film",
+        "url": "/hollywood/box-office/fixture-gamma/"
+      },
+      "industry": "hollywood",
+      "language": "en",
+      "release_date": "2026-07-01",
+      "source": {
+        "as_of": "2026-07-20",
+        "currency": "USD",
+        "fetched_at": "2026-07-20T07:55:00Z",
+        "group": "fixture_trade_b",
+        "measurement": "exact_week",
+        "metric": "week_gross_usd",
+        "name": "Fixture Trade B",
+        "period": {
+          "end": "2026-07-19",
+          "label": "13 to 19 July 2026",
+          "start": "2026-07-13"
+        },
+        "territory": "Worldwide",
+        "url": "https://example.org/fixture-gamma-trade-b",
+        "value": 30000000
+      },
+      "territory": "Worldwide"
+    }
+  ],
+  "schema": "bollyai-boxoffice-week-source/v1",
+  "territory": "Worldwide",
+  "week": {
+    "end": "2026-07-19",
+    "label": "13 to 19 July 2026",
+    "start": "2026-07-13"
+  }
+}

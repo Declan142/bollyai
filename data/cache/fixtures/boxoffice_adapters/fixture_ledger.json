@@ -1,0 +1,53 @@
+{
+  "published_at": "2026-07-20T07:30:00Z",
+  "rows": [
+    {
+      "base_url": "https://example.com",
+      "film": {
+        "qid": null,
+        "slug": "fixture-alpha",
+        "title": "Fixture Alpha",
+        "type": "film"
+      },
+      "gross_usd": 105000000,
+      "industry": "hollywood",
+      "language": "en",
+      "reading_path": "/fixture-alpha-ledger",
+      "release_date": "2026-07-10"
+    },
+    {
+      "base_url": "https://example.com",
+      "film": {
+        "qid": "Q123456789",
+        "slug": "fixture-beta",
+        "title": "Fixture Beta",
+        "type": "film"
+      },
+      "gross_usd": 48000000,
+      "industry": "hollywood",
+      "language": "en",
+      "reading_path": "/fixture-beta-ledger",
+      "release_date": "2026-07-04"
+    },
+    {
+      "base_url": "https://example.com",
+      "film": {
+        "qid": null,
+        "slug": "fixture-gamma",
+        "title": "Fixture Gamma",
+        "type": "film"
+      },
+      "gross_usd": 20000000,
+      "industry": "hollywood",
+      "language": "en",
+      "reading_path": "/fixture-gamma-ledger",
+      "release_date": "2026-07-01"
+    }
+  ],
+  "schema": "bollyai-fixture-ledger/v1",
+  "week": {
+    "end": "2026-07-19",
+    "label": "13 to 19 July 2026",
+    "start": "2026-07-13"
+  }
+}

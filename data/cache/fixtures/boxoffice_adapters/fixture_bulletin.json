@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "desk": "hollywood",
+      "evidence_url": "https://example.org/fixture-alpha-bulletin",
+      "kind": "film",
+      "language": "en",
+      "qid": null,
+      "released": "2026-07-10",
+      "slug": "fixture-alpha",
+      "title": "Fixture Alpha",
+      "weekly_usd": "110000000"
+    },
+    {
+      "desk": "hollywood",
+      "evidence_url": "https://example.org/fixture-beta-bulletin",
+      "kind": "film",
+      "language": "en",
+      "qid": "Q123456789",
+      "released": "2026-07-04",
+      "slug": "fixture-beta",
+      "title": "Fixture Beta",
+      "weekly_usd": "60000000"
+    },
+    {
+      "desk": "hollywood",
+      "evidence_url": "https://example.org/fixture-gamma-bulletin",
+      "kind": "film",
+      "language": "en",
+      "qid": null,
+      "released": "2026-07-01",
+      "slug": "fixture-gamma",
+      "title": "Fixture Gamma",
+      "weekly_usd": "30000000"
+    }
+  ],
+  "report": {
+    "currency": "USD",
+    "finalized_at": "2026-07-20T07:35:00Z",
+    "measurement": "exact_week",
+    "period": {
+      "end": "2026-07-19",
+      "label": "13 to 19 July 2026",
+      "start": "2026-07-13"
+    },
+    "territory": "Worldwide"
+  },
+  "schema": "bollyai-fixture-bulletin/v1"
+}

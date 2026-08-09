@@ -3,16 +3,17 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "prebuild": "node ../scripts/guard-offbrand-series.mjs --protect-list .cull-protect-list.json && node ../scripts/guard-offbrand-films.mjs && node scripts/build-series-links.mjs && node scripts/sync-public.mjs && node scripts/generate-image-variants.mjs && node scripts/build-search-index.mjs && node scripts/build-ask-index.mjs && node scripts/build-sitemaps.mjs",
+    "prebuild": "npm run test:boxoffice && node ../scripts/guard-offbrand-series.mjs --protect-list .cull-protect-list.json && node ../scripts/guard-offbrand-films.mjs && node scripts/build-series-links.mjs && node scripts/sync-public.mjs && node scripts/generate-image-variants.mjs && node scripts/build-search-index.mjs && node scripts/build-ask-index.mjs && node scripts/build-sitemaps.mjs",
     "build": "next build && npm run lint:aggregate && npm run postbuild:filecap",
     "postbuild:filecap": "find out -type f -name '*.avif' -delete; find out -name 'index.txt' -delete; C=$(find out -type f | wc -l); echo \"filecap: out has $C files\"; [ \"$C\" -lt 20000 ] || { echo 'ERROR: CF Pages 20k-file cap exceeded - reduce files (drop a format / upgrade plan)'; exit 1; }",
-    "lint:aggregate": "node scripts/assert-no-aggregate-rating.mjs"
+    "lint:aggregate": "node scripts/assert-no-aggregate-rating.mjs",
+    "test:boxoffice": "node --test lib/boxoffice-schema.test.mjs lib/boxoffice-public-state.test.mjs"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.6",
     "@fontsource/hanken-grotesk": "^5.2.6",
     "@fontsource/jetbrains-mono": "^5.2.6",
-    "next": "^14.2.30",
+    "next": "15.5.22",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -20,7 +21,13 @@
     "@types/node": "^20.17.32",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
-    "sharp": "^0.34.5",
+    "sharp": "0.35.3",
     "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "sharp": "$sharp",
+    "next": {
+      "postcss": "8.5.18"
+    }
   }
 }

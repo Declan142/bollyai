@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { DeskTint } from "../../../../components/DeskTint";
 import { FilmHero } from "../../../../components/FilmHero";
 import { JsonLd } from "../../../../components/JsonLd";
-import { getBoxOfficeRecordForFilm, getQualifiedClubsForRecord } from "../../../../lib/boxoffice";
 import { formatDate, getAllFilms, getFilm } from "../../../../lib/data";
 import { getDesk } from "../../../../lib/desks";
 import { breadcrumbJsonLd } from "../../../../lib/jsonld";
@@ -17,7 +16,8 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: { params: { desk: string; slug: string } }) {
+export async function generateMetadata(props: { params: Promise<{ desk: string; slug: string }> }) {
+  const params = await props.params;
   const film = getFilm(params.desk, params.slug);
   if (!film) return {};
   const filmTitle = film.title.value;
@@ -30,15 +30,13 @@ export function generateMetadata({ params }: { params: { desk: string; slug: str
   return { title, description, ...pageSeo({ path: `/${params.desk}/upcoming/${params.slug}/`, image: film.poster.src, type: "article" }) };
 }
 
-export default function UpcomingPage({ params }: { params: { desk: string; slug: string } }) {
+export default async function UpcomingPage(props: { params: Promise<{ desk: string; slug: string }> }) {
+  const params = await props.params;
   const film = getFilm(params.desk, params.slug);
   if (!film) {
     notFound();
   }
 
-  const boardRecord = getBoxOfficeRecordForFilm(film.canonical_industry, film.slug);
-  const scoreboardYear = boardRecord?.week?.start.slice(0, 4) ?? film.release_date.value.slice(0, 4);
-  const clubLinks = boardRecord ? getQualifiedClubsForRecord(boardRecord) : [];
   const deskLabel = getDesk(film.canonical_industry)?.label ?? film.canonical_industry;
 
   return (
@@ -75,12 +73,7 @@ export default function UpcomingPage({ params }: { params: { desk: string; slug:
         <nav className="mesh-links" aria-label="Film page links">
           <a href={`/${film.canonical_industry}/reviews/${film.slug}/`}>Now reviewed</a>
           <a href={`/${film.canonical_industry}/box-office/${film.slug}/`}>Track box office</a>
-          <a href={`/${film.canonical_industry}/box-office/${scoreboardYear}/`}>{deskLabel} {scoreboardYear} scoreboard</a>
-          {clubLinks.map((club) => (
-            <a href={`/box-office/${club.slug}/`} key={club.slug}>
-              {club.label}
-            </a>
-          ))}
+          <a href="/box-office/">Latest verified weekly board</a>
           <a href={`/${film.canonical_industry}/`}>Back to {deskLabel}</a>
         </nav>
       </section>

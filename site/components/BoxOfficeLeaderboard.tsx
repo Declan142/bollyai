@@ -1,25 +1,25 @@
-import { getPublishedWorldwideGrossUsd, type BoxOfficeRecord } from "../lib/boxoffice";
+import { getPublishedWeekGrossUsd, type BoxOfficeRecord } from "../lib/boxoffice";
 import styles from "./BoxOfficeLeaderboard.module.css";
 
 export function BoxOfficeLeaderboard({ records }: { records: BoxOfficeRecord[] }) {
   type Ranked = { record: BoxOfficeRecord; usdM: number };
   const ranked: Ranked[] = records
-    .map((r) => ({ record: r, usdM: (getPublishedWorldwideGrossUsd(r) ?? 0) / 1_000_000 }))
+    .map((r) => ({ record: r, usdM: (getPublishedWeekGrossUsd(r) ?? 0) / 1_000_000 }))
     .filter((x) => x.usdM > 0)
     .sort((a, b) => b.usdM - a.usdM);
 
-  const tracking = records.filter((r) => !getPublishedWorldwideGrossUsd(r));
+  const tracking = records.filter((r) => getPublishedWeekGrossUsd(r) === null);
 
   if (ranked.length === 0) {
     return (
       <div className={styles.wrap}>
         <header className={styles.head}>
-          <h2>Worldwide gross, this week</h2>
-          <span>Source-attributed USD</span>
+          <h2>Gross during the closed week</h2>
+          <span>Exact-period source consensus</span>
         </header>
         <p className={styles.note}>
-          No sourced worldwide gross figures yet. Once Wikidata or TMDB supply a verified USD figure, the leaderboard
-          fills in here.
+          No figure has cleared the exact-week two-source rule yet. Missing data stays missing until independent
+          sources agree on the same period, metric, currency, and territory.
         </p>
       </div>
     );
@@ -30,8 +30,8 @@ export function BoxOfficeLeaderboard({ records }: { records: BoxOfficeRecord[] }
   return (
     <div className={styles.wrap}>
       <header className={styles.head}>
-        <h2>Worldwide gross, this week</h2>
-        <span>{ranked.length} with sourced USD figure</span>
+        <h2>Gross during the closed week</h2>
+        <span>{ranked.length} with verified weekly USD</span>
       </header>
 
       <div className={styles.chart}>
@@ -44,7 +44,7 @@ export function BoxOfficeLeaderboard({ records }: { records: BoxOfficeRecord[] }
               <span className={styles.track}>
                 <span className={styles.label}>
                   <span className={styles.film}>{record.film.title} <span className={styles.lang}>{record.language.toUpperCase()}</span></span>
-                  <span className={styles.figure}>${displayM}M<small>worldwide gross</small></span>
+                  <span className={styles.figure}>${displayM}M<small>gross in this exact week</small></span>
                 </span>
                 <span className={styles.meter}>
                   <span className={styles.fill} style={{ width: `${pct}%` }} />
@@ -74,8 +74,8 @@ export function BoxOfficeLeaderboard({ records }: { records: BoxOfficeRecord[] }
       )}
 
       <p className={styles.note}>
-        Bars show worldwide gross USD from Wikidata P2142 or TMDB revenue field, both public attributed sources. No
-        invented or extrapolated figures.
+        Bars show gross earned only inside the displayed closed week. At least two independent source groups must
+        report the same scope; BollyAI publishes the lower reading and never substitutes lifetime revenue.
       </p>
     </div>
   );

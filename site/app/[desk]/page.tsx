@@ -13,7 +13,8 @@ export function generateStaticParams() {
   return DESK_SLUGS.map((desk) => ({ desk }));
 }
 
-export function generateMetadata({ params }: { params: { desk: string } }) {
+export async function generateMetadata(props: { params: Promise<{ desk: string }> }) {
+  const params = await props.params;
   const desk = getDesk(params.desk);
   if (!desk) return {};
   const title = `${desk.label} Movie Reviews, Box Office & Verdicts`;
@@ -21,7 +22,8 @@ export function generateMetadata({ params }: { params: { desk: string } }) {
   return { title, description, ...pageSeo({ path: `/${params.desk}/` }) };
 }
 
-export default function DeskHub({ params }: { params: { desk: string } }) {
+export default async function DeskHub(props: { params: Promise<{ desk: string }> }) {
+  const params = await props.params;
   const desk = getDesk(params.desk);
   if (!desk) {
     notFound();

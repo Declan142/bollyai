@@ -1,17 +1,41 @@
-Status: PARTIAL
+Status: COMPLETE
 Did:
-  - Migrated live subtitle extraction, review drafting, review building, and crosspass calls to the Empire Codex bridge.
-  - Set BOLLYAI_LLM_MODEL=gpt-5.6-luna and BOLLYAI_LLM_EFFORT=low defaults; gpt-5.6-terra is the approved quality/consensus alternative.
-  - Verified three real luna dossier extractions and G2 grounding cleanly.
-  - Removed STOP and the obsolete .azure-only marker.
-  - Started the full queue worker and a focused Better Call Saul drain worker.
-  - Committed only six scripts/subtitles Python source files on migrate/subtitles-codex-runtime (cb8c082).
+  - Audited the unlanded weekly source lane from its data, source registry, tests, build, CLIs, monitor, and rendered public artifact.
+  - Added a latest-closed-UTC-week health contract that rejects stale or empty boards without weakening historical schema validation.
+  - Hardened the adapter boundary against stale relabelling, false-fresh empty rows, missing provenance, timestamp mismatch, and wall-clock source substitution.
+  - Made the owner fetcher, compatibility CLI, run-all orchestrator, tentpole wrapper, and staleness monitor exit nonzero with explicit stable errors when no current box-office data exists.
+  - Made the public projector and page withhold stale rows, rankings, and box-office JSON-LD while rendering an explicit expected-versus-observed no-current-data state.
+  - Left the stale 262-byte public board unchanged because no production source pair is cleared; no figures were fabricated.
 Artefacts:
-  - scripts/subtitles/llm_bridge.py (101 lines)
-  - data/subtitles/darling-in-the-franxx/_dossiers/S01E01.json (real bridge canary, ignored)
-  - data/subtitles/_engine/batch-console.log (live drain log, ignored)
-Verification: python3 -m py_compile changed runtime modules -> PASS; darling-in-the-franxx 3/3 required-schema + G2 jq gate -> PASS; post-relaunch console extracted>0 grep -> PASS; post-relaunch Azure/OpenRouter/401 grep -> 0
-Open issues: one legacy OpenRouter crosspass call was made by the first worker before its hidden live path was identified; it failed G1, wrote no crosspass artifact, was stopped, and season_crosspass.py is now bridge-backed. Both replacement drain workers remain live.
-Next step suggested: Let PIDs 2355671 and 2590274 continue draining; inspect the batch console/ledger rather than restarting them.
+  - SOL-BOXOFFICE-20260809.md
+  - engine/fetchers/boxoffice_source_adapters.py
+  - engine/fetchers/boxoffice_week_schema.py
+  - engine/fetchers/boxoffice_western.py
+  - engine/fetchers/run_all.py
+  - engine/fetchers/staleness_check.py
+  - scripts/boxoffice/fetch_boxoffice.py
+  - scripts/ops/tentpole_live.py
+  - site/lib/boxoffice-schema.mjs
+  - site/lib/boxoffice-public-state.mjs
+  - site/lib/boxoffice-public-state.d.mts
+  - site/app/box-office/page.tsx
+  - tests/test_staleness_check.py
+  - related Python/Node regression tests and box-office operations documentation
+  - last.txt
+Verification:
+  - python3 -m pytest tests/ -> PASS: 333 passed in 6.03s (baseline: 319 passed in 5.48s)
+  - cd site && npm run build -> PASS: 24 box-office tests, 5661 static pages, assert-no-aggregate-rating passed, filecap 6839
+  - stale ready report fixture -> EXPECTED FAIL: exit 2, STALE_BOXOFFICE_BOARD
+  - current empty board report -> EXPECTED FAIL: exit 2, NO_CURRENT_BOXOFFICE_DATA
+  - stale weekly monitor fixture -> EXPECTED FAIL: exit 1, ok=false, weekly_boxoffice=STALE_BOXOFFICE_BOARD
+  - uncleared live source seam -> EXPECTED FAIL: exit 2, SOURCE_CLEARANCE_PENDING, previous bytes preserved
+  - rendered desktop/mobile artifact review -> PASS: 8.2/10; no stale rows or box-office Dataset/ItemList/AggregateRating JSON-LD
+  - git diff --check -> PASS
+Open issues:
+  - No live exact-week source can run until two legally cleared, configured, independent production sources exist.
+  - The current public board remains stale and empty; the system now says so loudly and renders it honestly.
+  - Next.js emits a non-fatal SWC lockfile-patching warning during the otherwise green build.
+  - Non-blocking desktop polish: the Worldwide pill overlaps the empty board border by about 6 CSS pixels.
+Next step suggested: Land this fail-closed branch, then complete source procurement and sample acceptance without weakening the exact-week contract.
 Network URLs:
   - none

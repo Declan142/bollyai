@@ -42,6 +42,14 @@ INDUSTRY_URL_SEGMENTS = {
 }
 
 
+class AtomicWriteError(OSError):
+    """An atomic JSON write failed, with explicit replacement state."""
+
+    def __init__(self, message: str, *, replaced: bool):
+        super().__init__(message)
+        self.replaced = replaced
+
+
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
@@ -72,18 +80,54 @@ def read_json(path: Path, default: Any = None) -> Any:
         return json.load(handle)
 
 
-def write_json(path: Path, payload: Any, *, sort_keys: bool = True) -> None:
+def write_json(path: Path, payload: Any, *, sort_keys: bool = True) -> bool:
+    """Durably replace a JSON file and report whether its bytes changed.
+
+    The temporary file lives beside the destination so ``os.replace`` stays on
+    one filesystem. Both file contents and the containing directory are synced
+    before success is reported. Identical payloads are a no-op, which keeps
+    generated-data commits meaningful.
+    """
+
     ensure_parent(path)
-    with tempfile.NamedTemporaryFile(
-        "w",
-        encoding="utf-8",
+    encoded = (
+        json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=sort_keys) + "\n"
+    ).encode("utf-8")
+    if path.exists() and path.read_bytes() == encoded:
+        return False
+
+    existing_mode = path.stat().st_mode & 0o777 if path.exists() else 0o644
+    descriptor, temp_name = tempfile.mkstemp(
+        prefix=f".{path.name}.",
+        suffix=".tmp",
         dir=str(path.parent),
-        delete=False,
-    ) as handle:
-        json.dump(payload, handle, ensure_ascii=True, indent=2, sort_keys=sort_keys)
-        handle.write("\n")
-        temp_name = handle.name
-    os.replace(temp_name, path)
+    )
+    try:
+        os.fchmod(descriptor, existing_mode)
+        with os.fdopen(descriptor, "wb") as handle:
+            descriptor = -1
+            handle.write(encoded)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temp_name, path)
+        try:
+            directory_descriptor = os.open(path.parent, os.O_RDONLY)
+            try:
+                os.fsync(directory_descriptor)
+            finally:
+                os.close(directory_descriptor)
+        except OSError as exc:
+            raise AtomicWriteError(
+                "directory durability finalization failed after destination replacement",
+                replaced=True,
+            ) from exc
+    finally:
+        if descriptor >= 0:
+            os.close(descriptor)
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
+
+    return True
 
 
 def canonical_json(payload: Any) -> str:
