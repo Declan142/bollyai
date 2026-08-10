@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-08-10T04:38:41Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -58,7 +65,7 @@
         ],
         "value": "2026-08-13"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://www.wikidata.org/wiki/Q637290",
@@ -93,16 +100,16 @@
       "week": "2026-W33"
     }
   ],
-  "generated_at": "2026-08-09T05:29:05Z",
+  "generated_at": "2026-08-10T04:38:41Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-33/",
     "end": "2026-08-16",
     "entry_count": 1,
     "iso_week": "2026-W33",
-    "label": "Coming next week",
+    "label": "This week",
     "start": "2026-08-10",
-    "status": "coming",
+    "status": "current",
     "week": 33,
     "year": 2026
   }
