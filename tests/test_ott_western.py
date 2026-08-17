@@ -178,6 +178,37 @@ def test_merge_dedupes_within_a_single_fetch():
     assert len(merged) == 1
 
 
+def test_merge_normalizes_platform_aliases_and_updates_fetched_date():
+    existing = [
+        {
+            "id": "series-x",
+            "platform": "Apple TV",
+            "title": "X",
+            "date": "2026-08-21",
+            "origin": "fetched",
+        }
+    ]
+    fetched = [
+        {
+            "id": "series-x",
+            "platform": "Apple TV+",
+            "title": "X",
+            "date": "2026-08-28",
+            "origin": "fetched",
+            "fetched_at": "2026-08-17T00:00:00Z",
+            "sources": [{"url": "https://example.com/current"}],
+        }
+    ]
+
+    merged, stats = merge_announcement_entries(existing, fetched)
+
+    assert len(merged) == 1
+    assert merged[0]["platform"] == "Apple TV"
+    assert merged[0]["date"] == "2026-08-28"
+    assert merged[0]["sources"] == fetched[0]["sources"]
+    assert stats == {"added": 0, "updated": 1}
+
+
 def test_doubled_run_does_not_grow_registry(tmp_path, monkeypatch):
     """Two rolls delivering the same fetch must leave the registry byte-stable - the
     append-only merge holds across RUNS, not just within one (real file I/O, no mocks

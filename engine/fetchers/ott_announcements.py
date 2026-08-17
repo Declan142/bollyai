@@ -564,6 +564,7 @@ def select_series_season(series_doc: dict[str, Any], entry_title: str) -> dict[s
         for season in seasons:
             if season.get("number") == requested:
                 return season
+        return None
     return sorted(seasons, key=lambda season: int(season.get("number") or 0), reverse=True)[0]
 
 

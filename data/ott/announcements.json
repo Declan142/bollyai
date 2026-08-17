@@ -267,5 +267,77 @@
     "url": null,
     "verdict_line": null,
     "origin": "fetched"
+  },
+  {
+    "id": "series-the-dynasty-uconn-huskies",
+    "qid": null,
+    "title": "The Dynasty: UConn Huskies",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Apple TV",
+    "date": "2026-08-21",
+    "fetched_at": "2026-08-17T00:00:00Z",
+    "sources": [
+      {
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/",
+        "type": "press"
+      },
+      {
+        "name": "Apple TV Title Page",
+        "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b",
+        "type": "press"
+      }
+    ]
+  },
+  {
+    "id": "series-stillwater-s5",
+    "qid": null,
+    "title": "Stillwater Season 5",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Apple TV",
+    "date": "2026-08-21",
+    "fetched_at": "2026-08-17T00:00:00Z",
+    "sources": [
+      {
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/",
+        "type": "press"
+      },
+      {
+        "name": "Apple TV Title Page",
+        "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao",
+        "type": "press"
+      }
+    ]
+  },
+  {
+    "id": "series-dark-matter-s2",
+    "qid": null,
+    "title": "Dark Matter Season 2",
+    "slug": "dark-matter",
+    "industry": "streaming",
+    "language": "en",
+    "type": "series",
+    "platform": "Apple TV",
+    "date": "2026-08-28",
+    "fetched_at": "2026-08-17T00:00:00Z",
+    "sources": [
+      {
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/",
+        "type": "press"
+      },
+      {
+        "name": "Apple TV Title Page",
+        "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg",
+        "type": "press"
+      }
+    ]
   }
 ]

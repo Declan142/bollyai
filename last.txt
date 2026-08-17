@@ -1,55 +1,35 @@
 Status: COMPLETE
 Did:
-  - Rebuilt BollyAI into a responsive editorial cinema experience led by the Friday Verdict, grounded Ask flow, current-release desk, verified-upcoming truth state, deeper reads, curated moods, and a clear honesty contract.
-  - Added original responsive hero artwork, refined typography and hierarchy, URL-backed Browse filters, canonical Browse redirects, filesystem-backed image fallbacks, a generated-site asset gate, and expanded deterministic sitemaps.
-  - Rebased the isolated release branch onto current origin/main without touching the user's dirty main worktree.
-  - Reconciled the rolling OTT calendar contract so an empty window is valid only when that window has no source-verified announcements; no release data was fabricated.
-  - Preserved the historical /ott/hbo-max/ URL with a tested 301 to the current /ott/max/ hub and regenerated the current W31/W32 sitemap inventory.
-  - Pushed branch codex/bollyai-worldclass-site-20260801, then fast-forwarded GitHub main without force through production source commit 532dc322a80a39f37107836afaaab4691c96e2a1.
-  - Deployed the fresh 6847-file static export to Cloudflare Pages production as deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b.
-  - Verified the Cloudflare preview and bollyai.in custom domain, then submitted the hash-gated 5955-URL sitemap to IndexNow and committed only its state plus this handoff after the production source commit.
+  - Added three current, official-source Apple TV releases to the 17-30 August window: Stillwater Season 5, The Dynasty: UConn Huskies, and Dark Matter Season 2.
+  - Regenerated the current registry and W34/W35 calendars offline with direct Apple press and title-page provenance; Dark Matter maps to its existing series route.
+  - Hardened the existing OTT automation so an unexpected live zero-fetch fails before writes, platform aliases do not duplicate registry entries, and older-season data cannot substantiate a requested new season.
+  - Kept the existing Mon/Thu workflow because it already covers regeneration, build, and downstream delivery; no duplicate scheduler was added or activated.
 Artefacts:
-  - site/app/page.tsx (424 lines)
-  - site/app/home.module.css (791 lines)
-  - site/components/BrowseGrid.tsx (300 lines)
-  - site/components/BrowseGrid.module.css (434 lines)
-  - site/lib/home.ts (319 lines)
-  - site/lib/series.ts (366 lines)
-  - site/public/img/brand/friday-verdict-hero.webp (23022 bytes)
-  - site/public/img/brand/friday-verdict-hero-960.webp (9144 bytes)
-  - site/public/_redirects (19 lines)
-  - site/public/sitemap-pages.xml (34 URLs)
-  - site/public/sitemap-episodes.xml (2873 URLs)
-  - site/public/sitemap-explainers.xml (21 URLs)
-  - site/scripts/assert-static-assets.mjs (63 lines)
-  - site/scripts/build-sitemaps.mjs (233 lines)
-  - tests/test_brand_lock.py (181 lines)
-  - tests/test_ott_calendar.py (149 lines)
-  - last.txt (55 lines)
+  - data/ott/announcements.json (343 lines)
+  - data/ott/calendar.json (423 lines)
+  - data/ott/calendar/2026-W34.json (264 lines)
+  - data/ott/calendar/2026-W35.json (146 lines)
+  - engine/fetchers/ott_announcements.py (695 lines)
+  - engine/regen_ott_weekly.py (236 lines)
+  - tests/test_ott_calendar.py (203 lines)
+  - tests/test_ott_western.py (266 lines)
+  - tests/test_ott_regen.py (45 lines)
+  - last.txt (this handoff)
 Verification:
-  - python3 -m pytest tests/ -q -> PASS: 316 tests passed in 5.44s.
-  - Node 20 npm run build -> PASS: Next 15.5.22 generated 5661 static pages; export contains 6847 files under the Cloudflare cap.
-  - generated static asset gate -> PASS: 778 unique references across 5666 HTML/CSS files with 0 missing assets.
-  - generated OTT alias audit -> PASS: /ott/max/ exists, /ott/hbo-max/ is absent from static pages and sitemap, and the legacy redirect is present.
-  - local Cloudflare Pages canary -> PASS: /ott/hbo-max/ yielded HTTP 301 to /ott/max/ and /ott/max/ yielded HTTP 200.
-  - independent responsive visual audit -> PASS: 8.8/10 GO with no release blocker at desktop and 390 px mobile.
-  - git remote verification -> PASS: origin/main contains production source commit 532dc322a80a39f37107836afaaab4691c96e2a1 as an ancestor after non-force fast-forwards.
-  - production and main site-tree parity -> PASS: 0 site/ path changes exist after the deployed production source commit; later commits contain operational state and handoff only.
-  - Cloudflare deployment API -> PASS: deployment b2e36e61-4752-4ba4-a76a-2ce2b9b0133b is production, branch main, commit 532dc322a80a39f37107836afaaab4691c96e2a1, latest stage success.
-  - preview and custom-domain route matrix -> PASS: 14 of 14 checks received HTTP 200 across home, Browse, Box Office, OTT calendar, Max, Mad Men, and Where to Watch.
-  - live canonical redirects -> PASS: /series/ and /streaming/ yielded HTTP 301 to /browse/; /ott/hbo-max/ yielded HTTP 301 to /ott/max/; www yielded HTTP 301 to bollyai.in.
-  - live homepage signature audit -> PASS: world-class headline and honest zero state present, exactly 1 h1, and no AggregateRating schema.
-  - live hero asset audit -> PASS: image/webp served with HTTP 200 at 23022 bytes.
-  - IndexNow submission -> PASS: one batch containing 5955 normalized sitemap URLs was accepted.
-  - git diff --check -> PASS.
+  - targeted OTT pytest -> PASS: 22 passed
+  - full pytest -> PASS: 320 passed
+  - offline two-week regeneration -> PASS: 3 entries, explicit no-fetch provenance, W34/W35 generated
+  - Dark Matter series validation -> PASS: 1/1 clean; missing-season verdict remains neutral
+  - site build -> PASS: 5,664 static pages, 6,850 files under cap, 0 missing static assets; build-only sitemap timestamps were restored
+  - JSON parse, Python compile, and git diff --check -> PASS
 Open issues:
-  - Seven pre-existing non-blocking curation warnings remain for missing related-title slugs in Money Heist, Reply, and two watch-next records; no warning was hidden or weakened.
-Next step suggested: Monitor the first production traffic window, then resolve the seven curation warnings as a separate content-maintenance slice.
+  - The older Cobra Wikidata URL remains untouched and outside this tranche; it was not used as evidence for the new releases.
+  - No push, deployment, or indexing was performed by this local sprint.
+Next step suggested: Review and merge the local branch, then allow the existing Mon/Thu workflow to deliver the verified calendar update.
 Network URLs:
-  - https://github.com/Declan142/bollyai
-  - https://registry.npmjs.org/
-  - https://api.cloudflare.com/
-  - https://b2e36e61.bollyai-in.pages.dev/
-  - https://bollyai.in/
-  - https://www.bollyai.in/
-  - https://api.indexnow.org/indexnow
+  - https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/
+  - https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao
+  - https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/
+  - https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b
+  - https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/
+  - https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg

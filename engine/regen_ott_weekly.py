@@ -86,7 +86,7 @@ def merge_announcement_entries(
     Returns (merged, {"added": n, "updated": n})."""
 
     def keys(item: dict[str, Any]) -> set[tuple[str, str, str]]:
-        platform = str(item.get("platform") or "")
+        platform = normalized_platform(str(item.get("platform") or ""))
         out = set()
         if item.get("qid"):
             out.add(("qid", str(item["qid"]), platform))
@@ -126,8 +126,8 @@ def merge_announcement_entries(
 
 def refresh_registry(data_dir: Path, window_start: date, window_end: date) -> dict[str, int]:
     """Pull fresh Western OTT announcements into the registry (append-only, curated wins).
-    Degrades gracefully: a dead network yields fetched=0 and the calendar rebuilds from
-    the registry as-is, exactly like the pre-fetch behavior."""
+    The caller fails closed before calendar writes when every live fetcher returns
+    zero; --no-fetch is the explicit registry-only rebuild path."""
     fetched = fetch_western_ott(window_start=window_start, window_end=window_end)
     registry_path = data_dir / "ott" / "announcements.json"
     raw = read_json(registry_path, default=[])
@@ -166,6 +166,16 @@ def main(argv: list[str] | None = None) -> int:
         registry_stats = refresh_registry(data_dir, start, start + timedelta(days=total_weeks * 7))
     announcements = load_announcements(fixture_mode=args.fixture_mode, data_dir=data_dir)
     calendar = build_calendar(announcements, films=load_films(data_dir), series=load_series(data_dir), start=start, weeks=total_weeks)
+    if (
+        not (args.no_fetch or args.fixture_mode or args.dry_run)
+        and registry_stats["fetched"] == 0
+    ):
+        print(
+            "ERROR: live OTT refresh fetched zero announcements; calendar was not written from potentially stale registry data. "
+            "Inspect source availability or use --no-fetch for an explicit registry-only rebuild.",
+            file=sys.stderr,
+        )
+        return 2
     # Honesty stamp (2026-07-07 R2): a registry-only rebuild used to write a calendar
     # byte-identical in shape to a fetch-refreshed one - generated_at moved, so a dead
     # network or a --no-fetch run LOOKED fresh downstream. The artifact now records how

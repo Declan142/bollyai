@@ -1,10 +1,372 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-08-17T06:38:47Z",
+      "fetched": 0,
+      "mode": "no-fetch",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
-  "entries": [],
-  "generated_at": "2026-08-17T05:07:18Z",
+  "entries": [
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "id": "series-stillwater-s5",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
+          }
+        ],
+        "value": "Apple TV"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
+          }
+        ],
+        "value": "2026-08-21"
+      },
+      "section": "this_week",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/",
+      "sources": [
+        {
+          "name": "Apple TV Press",
+          "type": "press",
+          "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/"
+        },
+        {
+          "name": "Apple TV Title Page",
+          "type": "press",
+          "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
+          }
+        ],
+        "value": "Stillwater Season 5"
+      },
+      "type": "series",
+      "url": null,
+      "verdict_line": "English-language series listed for Apple TV on 2026-08-21.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W34"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "id": "series-the-dynasty-uconn-huskies",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b"
+          }
+        ],
+        "value": "Apple TV"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b"
+          }
+        ],
+        "value": "2026-08-21"
+      },
+      "section": "this_week",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/",
+      "sources": [
+        {
+          "name": "Apple TV Press",
+          "type": "press",
+          "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/"
+        },
+        {
+          "name": "Apple TV Title Page",
+          "type": "press",
+          "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b"
+          }
+        ],
+        "value": "The Dynasty: UConn Huskies"
+      },
+      "type": "series",
+      "url": null,
+      "verdict_line": "English-language series listed for Apple TV on 2026-08-21.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W34"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "id": "series-dark-matter-s2",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg"
+          }
+        ],
+        "value": "Apple TV"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg"
+          }
+        ],
+        "value": "2026-08-28"
+      },
+      "section": "coming",
+      "slug": "dark-matter",
+      "source_type": "press",
+      "source_url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/",
+      "sources": [
+        {
+          "name": "Apple TV Press",
+          "type": "press",
+          "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/"
+        },
+        {
+          "name": "Apple TV Title Page",
+          "type": "press",
+          "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00Z",
+        "sources": [
+          {
+            "name": "Apple TV Press",
+            "type": "press",
+            "url": "https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/"
+          },
+          {
+            "name": "Apple TV Title Page",
+            "type": "press",
+            "url": "https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg"
+          }
+        ],
+        "value": "Dark Matter Season 2"
+      },
+      "type": "series",
+      "url": "/series/dark-matter/",
+      "verdict_line": "English-language series listed for Apple TV on 2026-08-28.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W35"
+    }
+  ],
+  "generated_at": "2026-08-17T06:38:47Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -12,7 +374,6 @@
       "Prime Video",
       "Disney+",
       "Max",
-      "Apple TV+",
       "Hulu",
       "Paramount+",
       "Peacock"
@@ -33,7 +394,7 @@
     {
       "archive_url": "/ott/calendar/2026/wk-34/",
       "end": "2026-08-23",
-      "entry_count": 0,
+      "entry_count": 2,
       "iso_week": "2026-W34",
       "label": "This week",
       "start": "2026-08-17",
@@ -44,7 +405,7 @@
     {
       "archive_url": "/ott/calendar/2026/wk-35/",
       "end": "2026-08-30",
-      "entry_count": 0,
+      "entry_count": 1,
       "iso_week": "2026-W35",
       "label": "Coming next week",
       "start": "2026-08-24",

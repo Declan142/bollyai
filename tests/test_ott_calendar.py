@@ -106,6 +106,60 @@ def test_calendar_verdict_line_uses_catalogue_season_basis():
     }
 
 
+def test_calendar_does_not_reuse_an_older_season_basis_for_a_new_season():
+    entries = [
+        {
+            "id": "catalogue-season-2",
+            "title": "Example Show Season 2",
+            "slug": "example-show",
+            "platform": "Apple TV",
+            "date": "2026-08-28",
+            "industry": "streaming",
+            "language": "en",
+            "type": "series",
+            "sources": [
+                {
+                    "name": "Platform",
+                    "url": "https://example.com/platform",
+                    "type": "press",
+                }
+            ],
+        }
+    ]
+    series = [
+        {
+            "slug": "example-show",
+            "title": {"value": "Example Show"},
+            "seasons": [
+                {
+                    "number": 1,
+                    "bollymeter": {
+                        "score": 8.0,
+                        "basis": "Season 1 catalogue basis must not leak.",
+                    },
+                }
+            ],
+        }
+    ]
+
+    calendar = build_calendar(
+        entries,
+        series=series,
+        start=date(2026, 8, 24),
+        weeks=1,
+    )
+
+    assert (
+        calendar["entries"][0]["verdict_line"]
+        == "English-language series listed for Apple TV on 2026-08-28."
+    )
+    assert calendar["entries"][0]["verdict_line_basis"] == {
+        "kind": "calendar_facts",
+        "source_url": None,
+        "source_field": "calendar.platform_date_language",
+    }
+
+
 def test_generated_calendar_has_source_envelopes():
     calendar = json.loads((REPO_ROOT / "data" / "ott" / "calendar.json").read_text(encoding="utf-8"))
     announcements = json.loads((REPO_ROOT / "data" / "ott" / "announcements.json").read_text(encoding="utf-8"))
