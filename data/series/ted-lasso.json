@@ -26,7 +26,7 @@
     "fetched_at": "2026-06-08T05:00:00+05:30",
     "confidence": "verified"
   },
-  "status": "returning",
+  "status": "running",
   "genres": [
     "Comedy"
   ],
@@ -38,7 +38,7 @@
   },
   "renewal": {
     "state": "returning",
-    "note": "Renewed for Season 4, premiering August 5, 2026 on Apple TV+.",
+    "note": "Season 4 began airing August 5, 2026 on Apple TV+, with new episodes every Wednesday through October 7.",
     "source": "Apple TV Press",
     "source_url": "https://www.apple.com/tv-pr/news/2026/04/apple-tvs-emmy-award-winning-global-smash-hit-series-ted-lasso-returns-for-season-four-on-wednesday-august-5/"
   },
@@ -684,8 +684,30 @@
           "hero_image": "/img/series/ted-lasso/poster.jpg"
         }
       ]
+    },
+    {
+      "number": 4,
+      "year": 2026,
+      "episodes": null,
+      "release_date": {
+        "value": "2026-08-05",
+        "source": "Apple TV Press",
+        "fetched_at": "2026-08-18T01:07:28+05:30",
+        "confidence": "verified"
+      },
+      "verdict": null,
+      "bollymeter": null,
+      "critic": {
+        "positive_pct": null,
+        "sample": null,
+        "pull_quotes": []
+      },
+      "audience": null,
+      "review_body": "Season 4 began its weekly Apple TV run on August 5, 2026. It is still airing, so BollyAI is holding the score and verdict until a grounded reception basis is available.",
+      "episode_reviews": [],
+      "season_over_season": null
     }
   ],
   "_quarantine": [],
-  "date_modified": "2026-06-08T05:00:00+05:30"
+  "date_modified": "2026-08-18T01:07:28+05:30"
 }

@@ -1,31 +1,28 @@
 Status: COMPLETE
 Did:
-  - Added Adults Season 2 on Hulu for 27 August 2026 and All the Truth in My Lies on Netflix for 28 August 2026 from official platform sources.
-  - Regenerated the active W34/W35 calendars, rendered neutral copy when language is not source-verified, and added calendar/platform structured SEO metadata.
-  - Hardened official-source ownership, independent-trade checks, local catalogue-link resolution, browser-normalized URL handling, and normalized platform-route sitemap deduplication.
-  - Reused the existing Monday/Thursday OTT delivery workflow; no duplicate scheduler was added and no push, deployment, or indexing was performed.
+  - Updated Ted Lasso from returning to running and added a deliberately unscored Season 4 shell for the official 5 August 2026 Apple TV premiere.
+  - Recorded only Apple-explicit schedule facts: one premiere episode followed by weekly Wednesday releases through 7 October; episode count remains null until explicitly sourced.
+  - Added a read-only lifecycle auditor that detects dated renewal notes without matching season shells and fails on any new finding beyond a checked-in seven-item legacy baseline.
+  - Wired the lifecycle audit into the existing daily refresh before static build; no duplicate scheduler, deployment, indexing, or external write was added.
+  - Added workflow and parser regressions, including season/date association and baseline-new-debt rejection.
 Artefacts:
-  - data/ott/announcements.json (379 lines)
-  - data/ott/calendar.json (597 lines)
-  - data/ott/calendar/2026-W34.json (264 lines)
-  - data/ott/calendar/2026-W35.json (322 lines)
-  - engine/fetchers/ott_announcements.py (795 lines)
-  - site/app/ott/[platform]/page.tsx (76 lines)
-  - site/app/ott/calendar/page.tsx (72 lines)
-  - site/public/sitemap-pages.xml (40 lines)
-  - site/public/sitemap.xml (14 lines)
-  - site/scripts/build-sitemaps.mjs (266 lines)
-  - tests/test_ott_calendar.py (344 lines)
-  - last.txt (this handoff)
+  - data/series/ted-lasso.json
+  - scripts/ops/series_lifecycle_audit.py
+  - scripts/ops/series-lifecycle-baseline.json
+  - .github/workflows/daily-refresh.yml
+  - tests/test_series_lifecycle_audit.py
+  - tests/test_ops_workflows.py
+  - last.txt
 Verification:
-  - python3 -m pytest -q tests -> PASS: 329 passed
-  - npm run build -> PASS: 5,664 static pages, 6,850 output files under cap, and 0 missing static assets
-  - cd site && node scripts/build-sitemaps.mjs -> PASS: 5,657 URLs; pages sitemap 37/37 unique with one normalized Apple TV route
-  - adversarial local-URL regressions -> PASS: backslash, LF, CR, and tab escape forms rejected
-  - final Luna claim gate and code review -> PASS / CLEAN
+  - python3 scripts/batch/validate_series.py ted-lasso -> PASS: 1/1 clean
+  - python3 scripts/ops/series_lifecycle_audit.py -> PASS: 7 known findings, 0 unexpected, 0 resolved-baseline drift
+  - python3 -m pytest -q -> PASS: 335 passed
+  - cd site && npm run --ignore-scripts build -> PASS: 5,665 static pages; 6,851 files under cap; 0 missing static assets
+  - independent claim recheck -> PASS: Apple supports premiere and weekly schedule; unsupported exact episode count removed
+  - independent Luna code review -> PASS: clean, with no high-confidence BollyAI findings
   - git diff --check -> PASS
-Open issues: none for this local tranche; delivery still requires normal human review and merge.
-Next step suggested: Review and merge the local branch, then allow the existing Monday/Thursday workflow to deliver the verified calendar update.
+Open issues: none for this local tranche; the lifecycle baseline transparently records seven pre-existing missing-season-shell debts for later repair.
+Next step suggested: Review and merge this local tranche, then resolve the seven baseline rows one verified season shell at a time.
 Network URLs:
-  - https://press.hulu.com/schedule/august-2026/
-  - https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28
+  - https://www.apple.com/tv-pr/news/2026/04/apple-tvs-emmy-award-winning-global-smash-hit-series-ted-lasso-returns-for-season-four-on-wednesday-august-5/
+  - https://www.apple.com/tv-pr/originals/ted-lasso/

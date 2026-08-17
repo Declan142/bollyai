@@ -61,6 +61,12 @@ def test_writer_workflows_share_single_writer_group():
             assert payload["permissions"]["contents"] == "write"
 
 
+def test_daily_refresh_fails_on_new_series_lifecycle_contradictions():
+    text = (WORKFLOW_DIR / "daily-refresh.yml").read_text(encoding="utf-8")
+
+    assert "python3 scripts/ops/series_lifecycle_audit.py" in text
+
+
 def test_deploy_steps_are_secret_and_dry_run_guarded():
     for path in WORKFLOW_DIR.glob("*.yml"):
         text = path.read_text(encoding="utf-8")

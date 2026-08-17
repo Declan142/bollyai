@@ -60,6 +60,9 @@ jobs:
       - name: Detect staleness
         run: python3 engine/fetchers/staleness_check.py --sla-hours 26 --emit data/_state/staleness.json
 
+      - name: Audit series lifecycle consistency
+        run: python3 scripts/ops/series_lifecycle_audit.py
+
       - name: Build static site
         run: |
           cd site
