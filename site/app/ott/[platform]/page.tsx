@@ -34,7 +34,7 @@ export default async function OttPlatformPage(props: { params: Promise<{ platfor
   const latest = entries.map((entry) => entry.fetched_at).sort().at(-1) ?? calendar.generated_at;
   const answer = `BollyAI is tracking ${entries.length} attributed ${platform} OTT announcement${
     entries.length === 1 ? "" : "s"
-  } in the next-four-weeks calendar.`;
+  } in the ${formatDate(calendar.window.start)} to ${formatDate(calendar.window.end)} tracking window.`;
 
   return (
     <main className="page-shell" data-desk="streaming">
@@ -46,7 +46,8 @@ export default async function OttPlatformPage(props: { params: Promise<{ platfor
           mainEntity: entries.map((entry) => ({
             "@type": entry.type === "film" ? "Movie" : "TVSeries",
             name: entry.title,
-            identifier: entry.qid
+            identifier: entry.qid,
+            datePublished: entry.release_date
           }))
         }}
       />

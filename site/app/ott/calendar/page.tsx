@@ -34,7 +34,8 @@ export default function OttCalendarPage() {
             position: index + 1,
             item: {
               "@type": entry.type === "film" ? "Movie" : "TVSeries",
-              name: entry.title
+              name: entry.title,
+              datePublished: entry.release_date
             }
           }))
         }}

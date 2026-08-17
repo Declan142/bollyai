@@ -23,7 +23,7 @@ const day = (iso) => (iso ? String(iso).slice(0, 10) : LAUNCH);
 const maxDay = (arr) => arr.map(day).sort().at(-1) || LAUNCH;
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const platformSlug = (p) => p.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const platformSlug = (p) => String(p || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 // ---- load data ----
 const films = listJson(path.join(dataDir, "films"));
@@ -103,11 +103,29 @@ if (fs.existsSync(archiveDir)) {
   }
 }
 const trackedPlatforms = calendar.tracking?.platforms || [];
-const platforms = [...new Set([...trackedPlatforms, ...(calendar.entries || []).map((e) => val(e.platform)).filter(Boolean)])];
-for (const plat of platforms) {
-  const lm = maxDay((calendar.entries || []).filter((e) => val(e.platform) === plat).map((e) => e.fetched_at));
-  pages.push({ loc: `${SITE}/ott/${platformSlug(plat)}/`, lastmod: lm });
+const platformSlugs = [
+  ...new Set(
+    [...trackedPlatforms, ...(calendar.entries || []).map((e) => val(e.platform)).filter(Boolean)]
+      .map(platformSlug)
+      .filter(Boolean)
+  )
+];
+for (const slug of platformSlugs) {
+  const lm = maxDay(
+    (calendar.entries || [])
+      .filter((e) => platformSlug(val(e.platform)) === slug)
+      .map((e) => e.fetched_at)
+  );
+  pages.push({ loc: `${SITE}/ott/${slug}/`, lastmod: lm });
 }
+
+const assertUniqueLocations = (label, rows) => {
+  const seen = new Set();
+  for (const row of rows) {
+    if (seen.has(row.loc)) throw new Error(`${label} contains duplicate URL: ${row.loc}`);
+    seen.add(row.loc);
+  }
+};
 
 // films: review + box-office + upcoming
 const filmRows = [];
@@ -216,6 +234,21 @@ const children = [
   ["sitemap-watch.xml", urlXml(watchRows), maxDay(watchRows.map((r) => r.lastmod))],
   ["sitemap-images.xml", imageXml, LAUNCH]
 ];
+
+for (const [label, rows] of [
+  ["pages", pages],
+  ["films", filmRows],
+  ["series", seriesRows],
+  ["where-to-watch", w2wRows],
+  ["seasons", seasonRows],
+  ["episodes", episodeRows],
+  ["explainers", explainerRows],
+  ["endings", endingRows],
+  ["predictions", predictionRows],
+  ["watch", watchRows]
+]) {
+  assertUniqueLocations(label, rows);
+}
 
 for (const [name, xml] of children) fs.writeFileSync(path.join(publicDir, name), xml);
 

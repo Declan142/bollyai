@@ -2,7 +2,7 @@
   "_provenance": {
     "refresh": {
       "added": 0,
-      "at": "2026-08-17T06:38:47Z",
+      "at": "2026-08-17T19:02:26Z",
       "fetched": 0,
       "mode": "no-fetch",
       "updated": 0
@@ -250,6 +250,94 @@
     {
       "_status": "verified",
       "confidence": "verified",
+      "fetched_at": "2026-08-17T00:00:00+05:30",
+      "id": "series-adults-s2",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Hulu Press",
+            "type": "press",
+            "url": "https://press.hulu.com/schedule/august-2026/"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Hulu Press",
+            "type": "press",
+            "url": "https://press.hulu.com/schedule/august-2026/"
+          }
+        ],
+        "value": "und"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Hulu Press",
+            "type": "press",
+            "url": "https://press.hulu.com/schedule/august-2026/"
+          }
+        ],
+        "value": "Hulu"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Hulu Press",
+            "type": "press",
+            "url": "https://press.hulu.com/schedule/august-2026/"
+          }
+        ],
+        "value": "2026-08-27"
+      },
+      "section": "coming",
+      "slug": "adults-season-2",
+      "source_type": "press",
+      "source_url": "https://press.hulu.com/schedule/august-2026/",
+      "sources": [
+        {
+          "name": "Hulu Press",
+          "type": "press",
+          "url": "https://press.hulu.com/schedule/august-2026/"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Hulu Press",
+            "type": "press",
+            "url": "https://press.hulu.com/schedule/august-2026/"
+          }
+        ],
+        "value": "Adults Season 2"
+      },
+      "type": "series",
+      "url": null,
+      "verdict_line": "Series listed for Hulu on 2026-08-27.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W35"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
       "fetched_at": "2026-08-17T00:00:00Z",
       "id": "series-dark-matter-s2",
       "industry": {
@@ -364,17 +452,103 @@
       },
       "verification": "official_source",
       "week": "2026-W35"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-08-17T00:00:00+05:30",
+      "id": "series-all-the-truth-in-my-lies",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Netflix About",
+            "type": "press",
+            "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Netflix About",
+            "type": "press",
+            "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28"
+          }
+        ],
+        "value": "und"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Netflix About",
+            "type": "press",
+            "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28"
+          }
+        ],
+        "value": "Netflix"
+      },
+      "qid": null,
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Netflix About",
+            "type": "press",
+            "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28"
+          }
+        ],
+        "value": "2026-08-28"
+      },
+      "section": "coming",
+      "slug": "all-the-truth-in-my-lies",
+      "source_type": "press",
+      "source_url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28",
+      "sources": [
+        {
+          "name": "Netflix About",
+          "type": "press",
+          "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-08-17T00:00:00+05:30",
+        "sources": [
+          {
+            "name": "Netflix About",
+            "type": "press",
+            "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28"
+          }
+        ],
+        "value": "All the Truth in My Lies"
+      },
+      "type": "series",
+      "url": null,
+      "verdict_line": "Series listed for Netflix on 2026-08-28.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W35"
     }
   ],
-  "generated_at": "2026-08-17T06:38:47Z",
+  "generated_at": "2026-08-17T19:02:26Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
-      "Netflix",
       "Prime Video",
       "Disney+",
       "Max",
-      "Hulu",
       "Paramount+",
       "Peacock"
     ],
@@ -405,7 +579,7 @@
     {
       "archive_url": "/ott/calendar/2026/wk-35/",
       "end": "2026-08-30",
-      "entry_count": 1,
+      "entry_count": 3,
       "iso_week": "2026-W35",
       "label": "Coming next week",
       "start": "2026-08-24",

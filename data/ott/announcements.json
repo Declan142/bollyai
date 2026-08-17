@@ -1,5 +1,41 @@
 [
   {
+    "id": "series-adults-s2",
+    "qid": null,
+    "title": "Adults Season 2",
+    "slug": "adults-season-2",
+    "industry": "streaming",
+    "type": "series",
+    "platform": "Hulu",
+    "date": "2026-08-27",
+    "fetched_at": "2026-08-17T00:00:00+05:30",
+    "sources": [
+      {
+        "name": "Hulu Press",
+        "url": "https://press.hulu.com/schedule/august-2026/",
+        "type": "press"
+      }
+    ]
+  },
+  {
+    "id": "series-all-the-truth-in-my-lies",
+    "qid": null,
+    "title": "All the Truth in My Lies",
+    "slug": "all-the-truth-in-my-lies",
+    "industry": "streaming",
+    "type": "series",
+    "platform": "Netflix",
+    "date": "2026-08-28",
+    "fetched_at": "2026-08-17T00:00:00+05:30",
+    "sources": [
+      {
+        "name": "Netflix About",
+        "url": "https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28",
+        "type": "press"
+      }
+    ]
+  },
+  {
     "id": "series-every-year-after",
     "qid": null,
     "title": "Every Year After",

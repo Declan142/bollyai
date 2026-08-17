@@ -11,7 +11,8 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass
+from urllib.parse import urlparse
+from dataclasses import dataclass, replace
 from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
@@ -37,7 +38,22 @@ from common import (
 
 
 SOURCE_TYPES = {"press", "official_social", "trade"}
-OFFICIAL_SOURCE_TYPES = {"press", "official_social"}
+OFFICIAL_SOURCE_TYPES = {"press"}
+# A source label is metadata supplied by the registry, not proof of first-party
+# ownership. Bind each first-party host to the platform it can substantiate.
+# `official_social` remains parseable registry metadata but cannot verify a
+# release until an exact platform-account allowlist is reviewed.
+OFFICIAL_HOSTS_BY_PLATFORM = {
+    "netflix": {"about.netflix.com", "www.netflix.com"},
+    "prime-video": {"press.amazonmgmstudios.com", "www.primevideo.com"},
+    "disney": {"press.disneyplus.com", "www.disneyplus.com", "thewaltdisneycompany.com"},
+    "max": {"press.wbd.com", "www.max.com"},
+    "hbo-max": {"press.wbd.com", "www.max.com"},
+    "apple-tv": {"www.apple.com", "tv.apple.com"},
+    "hulu": {"press.hulu.com", "www.hulu.com"},
+    "paramount": {"www.paramount.com", "www.paramountplus.com", "www.paramountpressexpress.com"},
+    "peacock": {"www.peacocktv.com", "www.nbcumv.com"},
+}
 DEFAULT_REGISTRY = DATA_DIR / "ott" / "announcements.json"
 ARCHIVE_DIRNAME = "calendar"
 TARGET_PLATFORMS = ["Netflix", "Prime Video", "Disney+", "Max", "Apple TV+", "Hulu", "Paramount+", "Peacock"]
@@ -322,10 +338,11 @@ def build_calendar(
 
     for raw in entries:
         announcement = announcement_from_dict(raw)
+        announcement = replace(announcement, sources=eligible_sources(announcement))
         release_date = parse_date(announcement.date)
         if not (start <= release_date < end):
             continue
-        if not is_verified_announcement(announcement):
+        if not announcement.sources or not is_verified_announcement(announcement):
             omitted_unverified.append({"id": announcement.item_id, "title": announcement.title})
             continue
         key = (announcement.item_id, normalized_platform(announcement.platform))
@@ -337,7 +354,13 @@ def build_calendar(
         industry = announcement.industry or unwrap_value(film.get("canonical_industry")) or unwrap_value(film.get("industry")) or "streaming"
         language = announcement.language or unwrap_value(film.get("original_language")) or "und"
         slug = announcement.slug or unwrap_value(film.get("slug"))
-        resolved_url = resolve_local_url(announcement, industry=str(industry), slug=str(slug) if slug else None)
+        has_catalogue_page = bool(series_doc) if announcement.content_type == "series" else bool(film)
+        resolved_url = resolve_local_url(
+            announcement,
+            industry=str(industry),
+            slug=str(slug) if slug else None,
+            has_catalogue_page=has_catalogue_page,
+        )
         week_start = current_week_start(release_date)
         week_index = (week_start - start).days // 7
         first_source = announcement.sources[0]
@@ -454,16 +477,68 @@ def write_week_archives(data_dir: Path, calendar: dict[str, Any]) -> list[Path]:
 
 
 def is_verified_announcement(announcement: Announcement) -> bool:
-    if any(source.source_type in OFFICIAL_SOURCE_TYPES for source in announcement.sources):
+    if any(is_official_source(source, announcement.platform) for source in announcement.sources):
         return True
-    trade_urls = {source.url for source in announcement.sources if source.source_type == "trade"}
-    return len(trade_urls) >= 2
+    return len(trade_source_hosts(announcement.sources)) >= 2
 
 
 def verification_basis(announcement: Announcement) -> str:
-    if any(source.source_type in OFFICIAL_SOURCE_TYPES for source in announcement.sources):
+    if any(is_official_source(source, announcement.platform) for source in announcement.sources):
         return "official_source"
     return "two_trade_sources"
+
+
+def is_safe_source_url(url: str) -> bool:
+    """Reject active, ambiguous, credentialed, or non-canonical source URLs."""
+    if not url or any(character.isspace() or ord(character) < 32 or ord(character) == 127 for character in url):
+        return False
+    parsed = urlparse(url)
+    try:
+        port = parsed.port
+    except ValueError:
+        return False
+    return (
+        parsed.scheme == "https"
+        and bool(parsed.hostname)
+        and not parsed.username
+        and not parsed.password
+        and port in {None, 443}
+        and not parsed.params
+        and not parsed.query
+        and not parsed.fragment
+    )
+
+
+def is_official_source(source: SourceRef, platform: str) -> bool:
+    """Return true only when a safe first-party host matches the claimed platform."""
+    if source.source_type not in OFFICIAL_SOURCE_TYPES:
+        return False
+    if not is_safe_source_url(source.url):
+        return False
+    parsed = urlparse(source.url)
+    return parsed.hostname in OFFICIAL_HOSTS_BY_PLATFORM.get(normalized_platform(platform), set())
+
+
+def eligible_sources(announcement: Announcement) -> tuple[SourceRef, ...]:
+    """Keep only sources that are safe to render and eligible for verification."""
+    return tuple(
+        source
+        for source in announcement.sources
+        if is_official_source(source, announcement.platform)
+        or (source.source_type == "trade" and is_safe_source_url(source.url))
+    )
+
+
+def trade_source_hosts(sources: tuple[SourceRef, ...]) -> set[str]:
+    """Count independent trade outlets by hostname, never by URL count."""
+    hosts: set[str] = set()
+    for source in sources:
+        if source.source_type != "trade" or not is_safe_source_url(source.url):
+            continue
+        hostname = urlparse(source.url).hostname
+        if hostname:
+            hosts.add(hostname)
+    return hosts
 
 
 def claim(value: Any, announcement: Announcement, *, generated_at: str) -> dict[str, Any]:
@@ -494,12 +569,13 @@ def calendar_verdict_line(
         line, source_field = series_verdict_line(series_doc, title)
         if line:
             return line, verdict_basis("catalogue_page", resolved_url, source_field)
+    source_field = "calendar.platform_date" if language.lower() == "und" else "calendar.platform_date_language"
     return neutral_calendar_line(
         content_type=announcement.content_type,
         language=language,
         platform=platform,
         release_date=release_date,
-    ), verdict_basis("calendar_facts", None, "calendar.platform_date_language")
+    ), verdict_basis("calendar_facts", None, source_field)
 
 
 def verdict_basis(kind: str, source_url: str | None, source_field: str) -> dict[str, Any]:
@@ -605,6 +681,8 @@ def clean_verdict_line(value: Any) -> str:
 
 def neutral_calendar_line(*, content_type: str, language: str, platform: str, release_date: str) -> str:
     type_label = "film" if content_type == "film" else "series"
+    if language.lower() == "und":
+        return f"{type_label.capitalize()} listed for {platform} on {release_date}."
     language_label = language_name(language)
     return f"{language_label}-language {type_label} listed for {platform} on {release_date}."
 
@@ -613,6 +691,7 @@ def language_name(code: str) -> str:
     return {
         "bn": "Bengali",
         "en": "English",
+        "es": "Spanish",
         "hi": "Hindi",
         "ml": "Malayalam",
         "ta": "Tamil",
@@ -626,10 +705,31 @@ def unwrap_claim(value: Any) -> Any:
     return value
 
 
-def resolve_local_url(announcement: Announcement, *, industry: str, slug: str | None) -> str | None:
+def resolve_local_url(
+    announcement: Announcement,
+    *,
+    industry: str,
+    slug: str | None,
+    has_catalogue_page: bool,
+) -> str | None:
     if announcement.url:
+        parsed = urlparse(announcement.url)
+        if (
+            parsed.scheme
+            or parsed.netloc
+            or parsed.query
+            or parsed.fragment
+            or "\\" in announcement.url
+            or any(
+                character.isspace() or ord(character) < 0x20 or ord(character) == 0x7F
+                for character in announcement.url
+            )
+            or not parsed.path.startswith("/")
+            or parsed.path.startswith("//")
+        ):
+            return None
         return announcement.url
-    if not slug:
+    if not slug or not has_catalogue_page:
         return None
     if announcement.content_type == "series":
         return f"/series/{slug}/"

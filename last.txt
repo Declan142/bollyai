@@ -1,35 +1,31 @@
 Status: COMPLETE
 Did:
-  - Added three current, official-source Apple TV releases to the 17-30 August window: Stillwater Season 5, The Dynasty: UConn Huskies, and Dark Matter Season 2.
-  - Regenerated the current registry and W34/W35 calendars offline with direct Apple press and title-page provenance; Dark Matter maps to its existing series route.
-  - Hardened the existing OTT automation so an unexpected live zero-fetch fails before writes, platform aliases do not duplicate registry entries, and older-season data cannot substantiate a requested new season.
-  - Kept the existing Mon/Thu workflow because it already covers regeneration, build, and downstream delivery; no duplicate scheduler was added or activated.
+  - Added Adults Season 2 on Hulu for 27 August 2026 and All the Truth in My Lies on Netflix for 28 August 2026 from official platform sources.
+  - Regenerated the active W34/W35 calendars, rendered neutral copy when language is not source-verified, and added calendar/platform structured SEO metadata.
+  - Hardened official-source ownership, independent-trade checks, local catalogue-link resolution, browser-normalized URL handling, and normalized platform-route sitemap deduplication.
+  - Reused the existing Monday/Thursday OTT delivery workflow; no duplicate scheduler was added and no push, deployment, or indexing was performed.
 Artefacts:
-  - data/ott/announcements.json (343 lines)
-  - data/ott/calendar.json (423 lines)
+  - data/ott/announcements.json (379 lines)
+  - data/ott/calendar.json (597 lines)
   - data/ott/calendar/2026-W34.json (264 lines)
-  - data/ott/calendar/2026-W35.json (146 lines)
-  - engine/fetchers/ott_announcements.py (695 lines)
-  - engine/regen_ott_weekly.py (236 lines)
-  - tests/test_ott_calendar.py (203 lines)
-  - tests/test_ott_western.py (266 lines)
-  - tests/test_ott_regen.py (45 lines)
+  - data/ott/calendar/2026-W35.json (322 lines)
+  - engine/fetchers/ott_announcements.py (795 lines)
+  - site/app/ott/[platform]/page.tsx (76 lines)
+  - site/app/ott/calendar/page.tsx (72 lines)
+  - site/public/sitemap-pages.xml (40 lines)
+  - site/public/sitemap.xml (14 lines)
+  - site/scripts/build-sitemaps.mjs (266 lines)
+  - tests/test_ott_calendar.py (344 lines)
   - last.txt (this handoff)
 Verification:
-  - targeted OTT pytest -> PASS: 22 passed
-  - full pytest -> PASS: 320 passed
-  - offline two-week regeneration -> PASS: 3 entries, explicit no-fetch provenance, W34/W35 generated
-  - Dark Matter series validation -> PASS: 1/1 clean; missing-season verdict remains neutral
-  - site build -> PASS: 5,664 static pages, 6,850 files under cap, 0 missing static assets; build-only sitemap timestamps were restored
-  - JSON parse, Python compile, and git diff --check -> PASS
-Open issues:
-  - The older Cobra Wikidata URL remains untouched and outside this tranche; it was not used as evidence for the new releases.
-  - No push, deployment, or indexing was performed by this local sprint.
-Next step suggested: Review and merge the local branch, then allow the existing Mon/Thu workflow to deliver the verified calendar update.
+  - python3 -m pytest -q tests -> PASS: 329 passed
+  - npm run build -> PASS: 5,664 static pages, 6,850 output files under cap, and 0 missing static assets
+  - cd site && node scripts/build-sitemaps.mjs -> PASS: 5,657 URLs; pages sitemap 37/37 unique with one normalized Apple TV route
+  - adversarial local-URL regressions -> PASS: backslash, LF, CR, and tab escape forms rejected
+  - final Luna claim gate and code review -> PASS / CLEAN
+  - git diff --check -> PASS
+Open issues: none for this local tranche; delivery still requires normal human review and merge.
+Next step suggested: Review and merge the local branch, then allow the existing Monday/Thursday workflow to deliver the verified calendar update.
 Network URLs:
-  - https://www.apple.com/tv-pr/news/2026/08/apple-tv-unveils-heartwarming-trailer-for-season-five-of-award-winning-series-stillwater-premiering-friday-august-21/
-  - https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao
-  - https://www.apple.com/tv-pr/news/2026/05/apple-tvs-the-dynasty-uconn-huskies-featuring-the-legendary-university-of-connecticut-womens-college-basketball-team-set-to-premiere-globally-august-21-2026/
-  - https://tv.apple.com/us/show/the-dynasty-uconn-huskies/umc.cmc.38cvggceyd4sn4sfgl3kus89b
-  - https://www.apple.com/tv-pr/news/2026/04/apples-acclaimed-sci-fi-hit-dark-matter-starring-golden-globe-nominee-joel-edgerton-and-academy-award-winner-jennifer-connelly-returns-for-season-two-on-august-28-2026/
-  - https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg
+  - https://press.hulu.com/schedule/august-2026/
+  - https://about.netflix.com/en/news/all-the-truth-in-my-lies-coming-to-netflix-on-august-28

@@ -1,7 +1,9 @@
 from datetime import date, datetime as real_datetime
+from dataclasses import replace
 import json
 from pathlib import Path
 import sys
+import xml.etree.ElementTree as ET
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -9,6 +11,18 @@ sys.path.insert(0, str(REPO_ROOT / "engine" / "fetchers"))
 
 import ott_announcements  # noqa: E402
 from ott_announcements import build_calendar  # noqa: E402
+
+
+def eligible_announcement(item):
+    announcement = ott_announcements.announcement_from_dict(item)
+    return replace(announcement, sources=ott_announcements.eligible_sources(announcement))
+
+
+def test_generated_pages_sitemap_has_unique_platform_routes():
+    root = ET.parse(REPO_ROOT / "site" / "public" / "sitemap-pages.xml").getroot()
+    locations = [node.text for node in root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
+    assert len(locations) == len(set(locations))
+    assert locations.count("https://bollyai.in/ott/apple-tv/") == 1
 
 
 def test_default_today_uses_india_calendar_date(monkeypatch):
@@ -42,7 +56,7 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
             "industry": "streaming",
             "language": "en",
             "type": "film",
-            "sources": [{"name": "Prime Video", "url": "https://example.com/prime", "type": "press"}],
+            "sources": [{"name": "Prime Video", "url": "https://www.primevideo.com/detail/example", "type": "press"}],
         },
         {
             "id": "two-trade",
@@ -54,7 +68,7 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
             "type": "series",
             "sources": [
                 {"name": "Outlet A", "url": "https://example.com/a", "type": "trade"},
-                {"name": "Outlet B", "url": "https://example.com/b", "type": "trade"},
+                {"name": "Outlet B", "url": "https://another.example/b", "type": "trade"},
             ],
         },
     ]
@@ -66,9 +80,81 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
     assert calendar["tracking"]["omitted_unverified"] == [{"id": "single-trade", "title": "Single Trade Claim"}]
     assert calendar["weeks"][0]["iso_week"] == "2026-W24"
     assert calendar["weeks"][1]["iso_week"] == "2026-W25"
-    assert calendar["entries"][0]["release_date"]["sources"][0]["url"] == "https://example.com/prime"
+    assert calendar["entries"][0]["release_date"]["sources"][0]["url"] == "https://www.primevideo.com/detail/example"
     assert calendar["entries"][0]["verdict_line"] == "English-language film listed for Prime Video on 2026-06-12."
     assert calendar["entries"][0]["verdict_line_basis"]["kind"] == "calendar_facts"
+
+
+def test_press_label_on_arbitrary_or_reference_hosts_is_not_official():
+    for url in (
+        "https://example.com/press-release",
+        "https://www.wikidata.org/wiki/Q42",
+        "https://en.wikipedia.org/wiki/Example",
+        "http://www.netflix.com/tudum/example",
+        "https://user:password@www.netflix.com/tudum/example",
+        "https://www.netflix.com/tudum/example?campaign=release",
+        "https://www.netflix.com/tudum/example#release",
+        "javascript:alert(1)",
+    ):
+        assert not ott_announcements.is_official_source(
+            ott_announcements.SourceRef("Press", url, "press"),
+            "Netflix",
+        )
+
+
+def test_platform_controlled_https_host_is_official():
+    assert ott_announcements.is_official_source(
+        ott_announcements.SourceRef("Hulu Press", "https://press.hulu.com/schedule/august-2026/", "press"),
+        "Hulu",
+    )
+
+
+def test_first_party_host_must_match_the_claimed_platform():
+    apple = ott_announcements.SourceRef("Apple TV Press", "https://www.apple.com/tv-pr/news/example", "press")
+    assert ott_announcements.is_official_source(apple, "Apple TV+")
+    assert not ott_announcements.is_official_source(apple, "Netflix")
+
+
+def test_official_social_metadata_does_not_verify_without_an_account_allowlist():
+    social = ott_announcements.SourceRef("Netflix", "https://www.netflix.com/tudum/example", "official_social")
+    assert not ott_announcements.is_official_source(social, "Netflix")
+
+
+def test_two_trade_urls_from_one_host_are_not_independent():
+    item = {
+        "id": "same-host-trades",
+        "title": "Same Host Trades",
+        "platform": "Netflix",
+        "date": "2026-06-12",
+        "industry": "streaming",
+        "language": "en",
+        "type": "series",
+        "sources": [
+            {"name": "Outlet A", "url": "https://example.com/one", "type": "trade"},
+            {"name": "Outlet A", "url": "https://example.com/two", "type": "trade"},
+        ],
+    }
+    calendar = build_calendar([item], start=date(2026, 6, 8), weeks=1)
+    assert calendar["entries"] == []
+    assert calendar["tracking"]["omitted_unverified"] == [{"id": "same-host-trades", "title": "Same Host Trades"}]
+
+
+def test_unsafe_trade_urls_never_verify_or_render():
+    item = {
+        "id": "script-trades",
+        "title": "Script Trades",
+        "platform": "Netflix",
+        "date": "2026-06-12",
+        "industry": "streaming",
+        "language": "en",
+        "type": "series",
+        "sources": [
+            {"name": "Outlet A", "url": "javascript:alert(1)", "type": "trade"},
+            {"name": "Outlet B", "url": "javascript:alert(2)", "type": "trade"},
+        ],
+    }
+    calendar = build_calendar([item], start=date(2026, 6, 8), weeks=1)
+    assert calendar["entries"] == []
 
 
 def test_calendar_verdict_line_uses_catalogue_season_basis():
@@ -77,12 +163,12 @@ def test_calendar_verdict_line_uses_catalogue_season_basis():
             "id": "catalogue-season",
             "title": "Example Show Season 2",
             "slug": "example-show",
-            "platform": "JioHotstar",
+            "platform": "Netflix",
             "date": "2026-06-19",
             "industry": "streaming",
             "language": "hi",
             "type": "series",
-            "sources": [{"name": "Platform", "url": "https://example.com/platform", "type": "press"}],
+            "sources": [{"name": "Platform", "url": "https://www.netflix.com/tudum/example", "type": "press"}],
         }
     ]
     series = [
@@ -106,6 +192,52 @@ def test_calendar_verdict_line_uses_catalogue_season_basis():
     }
 
 
+def test_uncatalogued_slug_does_not_create_a_broken_local_link():
+    entries = [
+        {
+            "id": "uncatalogued-series",
+            "title": "Uncatalogued Series",
+            "slug": "uncatalogued-series",
+            "platform": "Netflix",
+            "date": "2026-06-19",
+            "industry": "streaming",
+            "language": "en",
+            "type": "series",
+            "sources": [{"name": "Netflix", "url": "https://www.netflix.com/tudum/example", "type": "press"}],
+        }
+    ]
+    calendar = build_calendar(entries, start=date(2026, 6, 15), weeks=1)
+    assert calendar["entries"][0]["slug"] == "uncatalogued-series"
+    assert calendar["entries"][0]["url"] is None
+
+
+def test_backslash_paths_cannot_escape_the_local_origin():
+    for unsafe_url in (r"/\evil", r"/\\evil", "/\n//evil", "/\r//evil", "/\t//evil"):
+        entries = [
+            {
+                "id": "unsafe-local-url",
+                "title": "Unsafe Local URL",
+                "platform": "Netflix",
+                "date": "2026-06-19",
+                "industry": "streaming",
+                "language": "en",
+                "type": "series",
+                "url": unsafe_url,
+                "sources": [
+                    {
+                        "name": "Netflix",
+                        "url": "https://www.netflix.com/tudum/example",
+                        "type": "press",
+                    }
+                ],
+            }
+        ]
+
+        calendar = build_calendar(entries, start=date(2026, 6, 15), weeks=1)
+
+        assert calendar["entries"][0]["url"] is None
+
+
 def test_calendar_does_not_reuse_an_older_season_basis_for_a_new_season():
     entries = [
         {
@@ -120,7 +252,7 @@ def test_calendar_does_not_reuse_an_older_season_basis_for_a_new_season():
             "sources": [
                 {
                     "name": "Platform",
-                    "url": "https://example.com/platform",
+                    "url": "https://www.apple.com/tv-pr/news/example",
                     "type": "press",
                 }
             ],
@@ -179,10 +311,7 @@ def test_generated_calendar_has_source_envelopes():
         entry["title"]
         for entry in announcements
         if win_start <= date.fromisoformat(entry["date"]) <= win_end
-        and (
-            any(source["type"] in {"press", "official_social"} for source in entry["sources"])
-            or len({source["url"] for source in entry["sources"] if source["type"] == "trade"}) >= 2
-        )
+        and ott_announcements.is_verified_announcement(eligible_announcement(entry))
     }
     assert verified_in_window <= rendered_titles, "active calendar dropped a verified announcement in its own window"
     if not calendar["entries"]:
@@ -196,8 +325,20 @@ def test_generated_calendar_has_source_envelopes():
             assert "value" in claim, f"{field} must be a source envelope"
             assert claim["confidence"] == "verified"
             assert claim["sources"], f"{field} must cite at least one source"
-        official = any(source["type"] in {"press", "official_social"} for source in entry["sources"])
-        trade_count = len({source["url"] for source in entry["sources"] if source["type"] == "trade"})
-        assert official or trade_count >= 2
+        official = any(
+            ott_announcements.is_official_source(
+                ott_announcements.SourceRef(source["name"], source["url"], source["type"]),
+                entry["platform"]["value"],
+            )
+            for source in entry["sources"]
+        )
+        trade_hosts = ott_announcements.trade_source_hosts(
+            tuple(ott_announcements.SourceRef(source["name"], source["url"], source["type"]) for source in entry["sources"])
+        )
+        assert official or len(trade_hosts) >= 2
+        assert all(ott_announcements.is_safe_source_url(source["url"]) for source in entry["sources"])
         assert entry.get("verdict_line"), "calendar entry must render a verdict line"
         assert entry.get("verdict_line_basis", {}).get("kind") in {"catalogue_page", "calendar_facts"}
+        if entry["language"]["value"] == "und":
+            assert "UND-language" not in entry["verdict_line"]
+            assert entry["verdict_line_basis"]["source_field"] == "calendar.platform_date"
