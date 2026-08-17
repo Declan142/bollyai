@@ -1,102 +1,21 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-08-17T03:50:56Z",
+      "fetched": 0,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
-  "entries": [
-    {
-      "_status": "verified",
-      "confidence": "verified",
-      "fetched_at": "2026-08-03T06:24:39Z",
-      "id": "film-cobra",
-      "industry": {
-        "confidence": "verified",
-        "fetched_at": "2026-08-03T06:24:39Z",
-        "sources": [
-          {
-            "name": "Wikidata",
-            "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q637290"
-          }
-        ],
-        "value": "streaming"
-      },
-      "language": {
-        "confidence": "verified",
-        "fetched_at": "2026-08-03T06:24:39Z",
-        "sources": [
-          {
-            "name": "Wikidata",
-            "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q637290"
-          }
-        ],
-        "value": "en"
-      },
-      "platform": {
-        "confidence": "verified",
-        "fetched_at": "2026-08-03T06:24:39Z",
-        "sources": [
-          {
-            "name": "Wikidata",
-            "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q637290"
-          }
-        ],
-        "value": "Netflix"
-      },
-      "qid": "Q637290",
-      "release_date": {
-        "confidence": "verified",
-        "fetched_at": "2026-08-03T06:24:39Z",
-        "sources": [
-          {
-            "name": "Wikidata",
-            "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q637290"
-          }
-        ],
-        "value": "2026-08-13"
-      },
-      "section": "this_week",
-      "slug": null,
-      "source_type": "press",
-      "source_url": "https://www.wikidata.org/wiki/Q637290",
-      "sources": [
-        {
-          "name": "Wikidata",
-          "type": "press",
-          "url": "https://www.wikidata.org/wiki/Q637290"
-        }
-      ],
-      "title": {
-        "confidence": "verified",
-        "fetched_at": "2026-08-03T06:24:39Z",
-        "sources": [
-          {
-            "name": "Wikidata",
-            "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q637290"
-          }
-        ],
-        "value": "Cobra"
-      },
-      "type": "film",
-      "url": null,
-      "verdict_line": "English-language film listed for Netflix on 2026-08-13.",
-      "verdict_line_basis": {
-        "kind": "calendar_facts",
-        "source_field": "calendar.platform_date_language",
-        "source_url": null
-      },
-      "verification": "official_source",
-      "week": "2026-W33"
-    }
-  ],
-  "generated_at": "2026-08-16T04:59:31Z",
+  "entries": [],
+  "generated_at": "2026-08-17T03:50:56Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
+      "Netflix",
       "Prime Video",
       "Disney+",
       "Max",
@@ -119,32 +38,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-33/",
-      "end": "2026-08-16",
-      "entry_count": 1,
-      "iso_week": "2026-W33",
-      "label": "This week",
-      "start": "2026-08-10",
-      "status": "current",
-      "week": 33,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-34/",
       "end": "2026-08-23",
       "entry_count": 0,
       "iso_week": "2026-W34",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-08-17",
-      "status": "coming",
+      "status": "current",
       "week": 34,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-35/",
+      "end": "2026-08-30",
+      "entry_count": 0,
+      "iso_week": "2026-W35",
+      "label": "Coming next week",
+      "start": "2026-08-24",
+      "status": "coming",
+      "week": 35,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-08-23",
-    "start": "2026-08-10",
+    "end": "2026-08-30",
+    "start": "2026-08-17",
     "weeks": 2
   }
 }
