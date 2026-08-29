@@ -32,6 +32,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      - name: Preflight deploy credentials
+        run: |
+          missing=()
+          [ -n "${CLOUDFLARE_API_TOKEN}" ] || missing+=("CLOUDFLARE_API_TOKEN")
+          [ -n "${CLOUDFLARE_ACCOUNT_ID}" ] || missing+=("CLOUDFLARE_ACCOUNT_ID")
+          if [ "${#missing[@]}" -gt 0 ]; then
+            echo "::error title=BollyAI deploy credentials missing::Repository secrets absent: ${missing[*]}. This workflow builds and publishes bollyai.in, so it refuses to run a build whose deploy step could only be silently skipped (false green). Add them under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          if [ -z "${INDEXNOW_KEY}" ]; then
+            echo "::warning title=INDEXNOW_KEY missing::IndexNow delta ping will be skipped - search engines will not be told which URLs changed."
+          fi
+          echo "deploy credentials present"
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -61,6 +75,7 @@ jobs:
         run: python3 engine/fetchers/staleness_check.py --sla-hours 26 --emit data/_state/staleness.json
 
       - name: Build static site
+        id: build
         run: |
           cd site
           npm ci
@@ -83,7 +98,7 @@ jobs:
 
       - name: Deploy Cloudflare Pages
         id: deploy
-        if: ${{ github.event.inputs.dry_run != 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         continue-on-error: true
         uses: cloudflare/wrangler-action@v3
         with:
@@ -93,19 +108,27 @@ jobs:
 
       - name: Retry Cloudflare Pages deploy
         id: deploy_retry
-        if: ${{ steps.deploy.outcome == 'failure' && github.event.inputs.dry_run != 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
+        if: ${{ steps.deploy.outcome == 'failure' && github.event.inputs.dry_run != 'true' }}
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy site/out --project-name=bollyai-in --branch=main --commit-dirty=true
 
-      - name: Check deploy result
-        if: ${{ steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome != 'success' }}
-        run: exit 1
+      - name: Verify deploy landed
+        if: ${{ always() && steps.build.outcome == 'success' && github.event.inputs.dry_run != 'true' }}
+        env:
+          DEPLOY_OUTCOME: ${{ steps.deploy.outcome }}
+          RETRY_OUTCOME: ${{ steps.deploy_retry.outcome }}
+        run: |
+          if [ "${DEPLOY_OUTCOME}" != "success" ] && [ "${RETRY_OUTCOME}" != "success" ]; then
+            echo "::error title=BollyAI build never reached production::site/out built successfully but no Cloudflare Pages deploy succeeded (deploy='${DEPLOY_OUTCOME:-none}', retry='${RETRY_OUTCOME:-none}'). A green run that publishes nothing is a false green - failing on purpose."
+            exit 1
+          fi
+          python3 scripts/ops/verify_pages_deploy.py --project bollyai-in --max-age-minutes 30
 
       - name: IndexNow delta
-        if: ${{ github.event.inputs.dry_run != 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.INDEXNOW_KEY != '' }}
+        if: ${{ github.event.inputs.dry_run != 'true' && env.INDEXNOW_KEY != '' }}
         run: python3 scripts/lib/indexnow_ping.py --delta data/_state/changed-urls.json
 
       - name: IndexNow dry-run

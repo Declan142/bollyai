@@ -61,16 +61,68 @@ def test_writer_workflows_share_single_writer_group():
             assert payload["permissions"]["contents"] == "write"
 
 
-def test_deploy_steps_are_secret_and_dry_run_guarded():
-    for path in WORKFLOW_DIR.glob("*.yml"):
-        text = path.read_text(encoding="utf-8")
-        if "cloudflare/wrangler-action" not in text:
-            continue
+def deploying_workflows() -> list[Path]:
+    return sorted(
+        path
+        for path in WORKFLOW_DIR.glob("*.yml")
+        if "cloudflare/wrangler-action" in path.read_text(encoding="utf-8")
+    )
 
-        assert "github.event.inputs.dry_run != 'true'" in text
-        assert "env.CLOUDFLARE_API_TOKEN != ''" in text
-        assert "env.CLOUDFLARE_ACCOUNT_ID != ''" in text
+
+def steps_of(payload: dict) -> list[dict]:
+    return [step for job in payload["jobs"].values() for step in job["steps"]]
+
+
+def test_deploy_steps_are_dry_run_guarded_but_never_silently_skippable():
+    """Regression fence for the 2026-08-30 false green.
+
+    The deploy step used to carry ``env.CLOUDFLARE_* != ''`` in its ``if:``. With
+    ``CLOUDFLARE_ACCOUNT_ID`` absent from the repository secrets that guard was false on
+    every run, so 232 consecutive green runs built the site and published nothing while
+    bollyai.in stayed frozen for 29 days. A missing deploy credential must fail the run,
+    never quietly disable the deploy.
+    """
+    paths = deploying_workflows()
+
+    assert paths, "no workflow deploys the site any more"
+
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        steps = steps_of(load_workflow(path))
+        names = [step.get("name") for step in steps]
+        deploy = next(step for step in steps if step.get("id") == "deploy")
+
+        assert "github.event.inputs.dry_run != 'true'" in deploy["if"]
+        assert "env.CLOUDFLARE_API_TOKEN" not in deploy["if"]
+        assert "env.CLOUDFLARE_ACCOUNT_ID" not in deploy["if"]
         assert "pages deploy site/out --project-name=bollyai-in --branch=main" in text
+        assert names[0] == "Preflight deploy credentials"
+        assert "Verify deploy landed" in names
+
+
+def test_preflight_fails_loudly_when_deploy_credentials_are_missing():
+    for path in deploying_workflows():
+        preflight = steps_of(load_workflow(path))[0]
+        body = preflight["run"]
+
+        assert "CLOUDFLARE_API_TOKEN" in body
+        assert "CLOUDFLARE_ACCOUNT_ID" in body
+        assert "::error" in body
+        assert "exit 1" in body
+        assert "|| true" not in body
+
+
+def test_verify_deploy_landed_fails_when_a_successful_build_published_nothing():
+    for path in deploying_workflows():
+        steps = steps_of(load_workflow(path))
+        build = next(step for step in steps if step.get("id") == "build")
+        verify = next(step for step in steps if step.get("name") == "Verify deploy landed")
+
+        assert build["name"] == "Build static site"
+        assert "always()" in verify["if"]
+        assert "steps.build.outcome == 'success'" in verify["if"]
+        assert "exit 1" in verify["run"]
+        assert "scripts/ops/verify_pages_deploy.py" in verify["run"]
 
 
 def test_indexnow_stays_embedded_not_standalone_and_accepts_relative_urls():
