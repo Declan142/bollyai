@@ -74,8 +74,12 @@ const staticPaths = [
   "/tools/hit-flop-calculator/",
   "/tools/box-office-comparator/"
 ];
+// /box-office/ is noindex whenever the weekly board has no published rows (see
+// site/app/box-office/page.tsx) - a noindex URL must not be advertised in the sitemap.
+const boxOfficeIsPublished = boxoffice.status === "ready" && (boxoffice.records || []).length > 0;
 const pages = [];
 for (const p of staticPaths) {
+  if (p === "/box-office/" && !boxOfficeIsPublished) continue;
   pages.push({
     loc: `${SITE}${p}`,
     lastmod: p === "/" ? homeModified : p === "/box-office/" ? day(boxoffice.generated_at) : LAUNCH
