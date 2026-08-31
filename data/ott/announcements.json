@@ -267,5 +267,27 @@
     "url": null,
     "verdict_line": null,
     "origin": "fetched"
+  },
+  {
+    "id": "film-call-my-agent-the-movie",
+    "qid": "Q140079697",
+    "title": "Call My Agent! The Movie",
+    "slug": null,
+    "industry": "streaming",
+    "language": "fr",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-09-10",
+    "fetched_at": "2026-08-31T09:26:17Z",
+    "sources": [
+      {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q140079697",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null,
+    "origin": "fetched"
   }
 ]
