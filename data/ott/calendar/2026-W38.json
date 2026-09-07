@@ -14,103 +14,103 @@
     {
       "_status": "verified",
       "confidence": "verified",
-      "fetched_at": "2026-08-31T09:26:17Z",
-      "id": "film-call-my-agent-the-movie",
+      "fetched_at": "2026-09-07T08:00:34Z",
+      "id": "film-cars",
       "industry": {
         "confidence": "verified",
-        "fetched_at": "2026-08-31T09:26:17Z",
+        "fetched_at": "2026-09-07T08:00:34Z",
         "sources": [
           {
             "name": "Wikidata",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q140079697"
+            "url": "https://www.wikidata.org/wiki/Q182153"
           }
         ],
         "value": "streaming"
       },
       "language": {
         "confidence": "verified",
-        "fetched_at": "2026-08-31T09:26:17Z",
+        "fetched_at": "2026-09-07T08:00:34Z",
         "sources": [
           {
             "name": "Wikidata",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q140079697"
+            "url": "https://www.wikidata.org/wiki/Q182153"
           }
         ],
-        "value": "fr"
+        "value": "en"
       },
       "platform": {
         "confidence": "verified",
-        "fetched_at": "2026-08-31T09:26:17Z",
+        "fetched_at": "2026-09-07T08:00:34Z",
         "sources": [
           {
             "name": "Wikidata",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q140079697"
+            "url": "https://www.wikidata.org/wiki/Q182153"
           }
         ],
         "value": "Netflix"
       },
-      "qid": "Q140079697",
+      "qid": "Q182153",
       "release_date": {
         "confidence": "verified",
-        "fetched_at": "2026-08-31T09:26:17Z",
+        "fetched_at": "2026-09-07T08:00:34Z",
         "sources": [
           {
             "name": "Wikidata",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q140079697"
+            "url": "https://www.wikidata.org/wiki/Q182153"
           }
         ],
-        "value": "2026-09-10"
+        "value": "2026-09-17"
       },
-      "section": "this_week",
+      "section": "coming",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://www.wikidata.org/wiki/Q140079697",
+      "source_url": "https://www.wikidata.org/wiki/Q182153",
       "sources": [
         {
           "name": "Wikidata",
           "type": "press",
-          "url": "https://www.wikidata.org/wiki/Q140079697"
+          "url": "https://www.wikidata.org/wiki/Q182153"
         }
       ],
       "title": {
         "confidence": "verified",
-        "fetched_at": "2026-08-31T09:26:17Z",
+        "fetched_at": "2026-09-07T08:00:34Z",
         "sources": [
           {
             "name": "Wikidata",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q140079697"
+            "url": "https://www.wikidata.org/wiki/Q182153"
           }
         ],
-        "value": "Call My Agent! The Movie"
+        "value": "Cars"
       },
       "type": "film",
       "url": null,
-      "verdict_line": "FR-language film listed for Netflix on 2026-09-10.",
+      "verdict_line": "English-language film listed for Netflix on 2026-09-17.",
       "verdict_line_basis": {
         "kind": "calendar_facts",
         "source_field": "calendar.platform_date_language",
         "source_url": null
       },
       "verification": "official_source",
-      "week": "2026-W37"
+      "week": "2026-W38"
     }
   ],
   "generated_at": "2026-09-07T08:00:34Z",
   "schema": "ott-calendar-week/v1",
   "week": {
-    "archive_url": "/ott/calendar/2026/wk-37/",
-    "end": "2026-09-13",
+    "archive_url": "/ott/calendar/2026/wk-38/",
+    "end": "2026-09-20",
     "entry_count": 1,
-    "iso_week": "2026-W37",
-    "label": "This week",
-    "start": "2026-09-07",
-    "status": "current",
-    "week": 37,
+    "iso_week": "2026-W38",
+    "label": "Coming next week",
+    "start": "2026-09-14",
+    "status": "coming",
+    "week": 38,
     "year": 2026
   }
 }

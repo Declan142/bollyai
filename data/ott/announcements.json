@@ -289,5 +289,27 @@
     "url": null,
     "verdict_line": null,
     "origin": "fetched"
+  },
+  {
+    "id": "film-cars",
+    "qid": "Q182153",
+    "title": "Cars",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-09-17",
+    "fetched_at": "2026-09-07T08:00:34Z",
+    "sources": [
+      {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q182153",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null,
+    "origin": "fetched"
   }
 ]

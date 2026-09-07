@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 1,
+      "at": "2026-09-07T08:00:34Z",
+      "fetched": 2,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -58,7 +65,7 @@
         ],
         "value": "2026-09-10"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://www.wikidata.org/wiki/Q140079697",
@@ -91,9 +98,97 @@
       },
       "verification": "official_source",
       "week": "2026-W37"
+    },
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-09-07T08:00:34Z",
+      "id": "film-cars",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-09-07T08:00:34Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q182153"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-09-07T08:00:34Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q182153"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-09-07T08:00:34Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q182153"
+          }
+        ],
+        "value": "Netflix"
+      },
+      "qid": "Q182153",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-09-07T08:00:34Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q182153"
+          }
+        ],
+        "value": "2026-09-17"
+      },
+      "section": "coming",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://www.wikidata.org/wiki/Q182153",
+      "sources": [
+        {
+          "name": "Wikidata",
+          "type": "press",
+          "url": "https://www.wikidata.org/wiki/Q182153"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-09-07T08:00:34Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q182153"
+          }
+        ],
+        "value": "Cars"
+      },
+      "type": "film",
+      "url": null,
+      "verdict_line": "English-language film listed for Netflix on 2026-09-17.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W38"
     }
   ],
-  "generated_at": "2026-09-06T08:46:08Z",
+  "generated_at": "2026-09-07T08:00:34Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -119,32 +214,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-36/",
-      "end": "2026-09-06",
-      "entry_count": 0,
-      "iso_week": "2026-W36",
-      "label": "This week",
-      "start": "2026-08-31",
-      "status": "current",
-      "week": 36,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-37/",
       "end": "2026-09-13",
       "entry_count": 1,
       "iso_week": "2026-W37",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-09-07",
-      "status": "coming",
+      "status": "current",
       "week": 37,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-38/",
+      "end": "2026-09-20",
+      "entry_count": 1,
+      "iso_week": "2026-W38",
+      "label": "Coming next week",
+      "start": "2026-09-14",
+      "status": "coming",
+      "week": 38,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-09-13",
-    "start": "2026-08-31",
+    "end": "2026-09-20",
+    "start": "2026-09-07",
     "weeks": 2
   }
 }
