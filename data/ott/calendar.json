@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-09-17T08:27:19Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -93,7 +100,7 @@
       "week": "2026-W38"
     }
   ],
-  "generated_at": "2026-09-16T09:24:51Z",
+  "generated_at": "2026-09-17T08:27:19Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
