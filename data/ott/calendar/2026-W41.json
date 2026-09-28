@@ -101,57 +101,16 @@
     }
   ],
   "generated_at": "2026-09-28T09:27:34Z",
-  "schema": "ott-calendar/v1",
-  "tracking": {
-    "missing_platforms": [
-      "Prime Video",
-      "Disney+",
-      "Max",
-      "Apple TV+",
-      "Hulu",
-      "Paramount+",
-      "Peacock"
-    ],
-    "omitted_unverified": [],
-    "platforms": [
-      "Netflix",
-      "Prime Video",
-      "Disney+",
-      "Max",
-      "Apple TV+",
-      "Hulu",
-      "Paramount+",
-      "Peacock"
-    ]
-  },
-  "weeks": [
-    {
-      "archive_url": "/ott/calendar/2026/wk-40/",
-      "end": "2026-10-04",
-      "entry_count": 0,
-      "iso_week": "2026-W40",
-      "label": "This week",
-      "start": "2026-09-28",
-      "status": "current",
-      "week": 40,
-      "year": 2026
-    },
-    {
-      "archive_url": "/ott/calendar/2026/wk-41/",
-      "end": "2026-10-11",
-      "entry_count": 1,
-      "iso_week": "2026-W41",
-      "label": "Coming next week",
-      "start": "2026-10-05",
-      "status": "coming",
-      "week": 41,
-      "year": 2026
-    }
-  ],
-  "window": {
-    "basis": "official_announcements",
+  "schema": "ott-calendar-week/v1",
+  "week": {
+    "archive_url": "/ott/calendar/2026/wk-41/",
     "end": "2026-10-11",
-    "start": "2026-09-28",
-    "weeks": 2
+    "entry_count": 1,
+    "iso_week": "2026-W41",
+    "label": "Coming next week",
+    "start": "2026-10-05",
+    "status": "coming",
+    "week": 41,
+    "year": 2026
   }
 }
