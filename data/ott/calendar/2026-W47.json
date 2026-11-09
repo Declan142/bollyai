@@ -1,0 +1,116 @@
+{
+  "_provenance": {
+    "refresh": {
+      "added": 1,
+      "at": "2026-11-09T11:00:18Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
+    "source": "official_announcements",
+    "verification_rule": "official source or two distinct trade sources"
+  },
+  "entries": [
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-11-09T11:00:18Z",
+      "id": "film-steps",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "Netflix"
+      },
+      "qid": "Q140324214",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "2026-11-20"
+      },
+      "section": "coming",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://www.wikidata.org/wiki/Q140324214",
+      "sources": [
+        {
+          "name": "Wikidata",
+          "type": "press",
+          "url": "https://www.wikidata.org/wiki/Q140324214"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "Steps"
+      },
+      "type": "film",
+      "url": null,
+      "verdict_line": "English-language film listed for Netflix on 2026-11-20.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W47"
+    }
+  ],
+  "generated_at": "2026-11-09T11:00:18Z",
+  "schema": "ott-calendar-week/v1",
+  "week": {
+    "archive_url": "/ott/calendar/2026/wk-47/",
+    "end": "2026-11-22",
+    "entry_count": 1,
+    "iso_week": "2026-W47",
+    "label": "Coming next week",
+    "start": "2026-11-16",
+    "status": "coming",
+    "week": 47,
+    "year": 2026
+  }
+}

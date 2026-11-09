@@ -1,14 +1,109 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 1,
+      "at": "2026-11-09T11:00:18Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
-  "entries": [],
-  "generated_at": "2026-11-08T11:26:29Z",
+  "entries": [
+    {
+      "_status": "verified",
+      "confidence": "verified",
+      "fetched_at": "2026-11-09T11:00:18Z",
+      "id": "film-steps",
+      "industry": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "streaming"
+      },
+      "language": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "en"
+      },
+      "platform": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "Netflix"
+      },
+      "qid": "Q140324214",
+      "release_date": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "2026-11-20"
+      },
+      "section": "coming",
+      "slug": null,
+      "source_type": "press",
+      "source_url": "https://www.wikidata.org/wiki/Q140324214",
+      "sources": [
+        {
+          "name": "Wikidata",
+          "type": "press",
+          "url": "https://www.wikidata.org/wiki/Q140324214"
+        }
+      ],
+      "title": {
+        "confidence": "verified",
+        "fetched_at": "2026-11-09T11:00:18Z",
+        "sources": [
+          {
+            "name": "Wikidata",
+            "type": "press",
+            "url": "https://www.wikidata.org/wiki/Q140324214"
+          }
+        ],
+        "value": "Steps"
+      },
+      "type": "film",
+      "url": null,
+      "verdict_line": "English-language film listed for Netflix on 2026-11-20.",
+      "verdict_line_basis": {
+        "kind": "calendar_facts",
+        "source_field": "calendar.platform_date_language",
+        "source_url": null
+      },
+      "verification": "official_source",
+      "week": "2026-W47"
+    }
+  ],
+  "generated_at": "2026-11-09T11:00:18Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
-      "Netflix",
       "Prime Video",
       "Disney+",
       "Max",
@@ -31,32 +126,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-45/",
-      "end": "2026-11-08",
-      "entry_count": 0,
-      "iso_week": "2026-W45",
-      "label": "This week",
-      "start": "2026-11-02",
-      "status": "current",
-      "week": 45,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-46/",
       "end": "2026-11-15",
       "entry_count": 0,
       "iso_week": "2026-W46",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-11-09",
-      "status": "coming",
+      "status": "current",
       "week": 46,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-47/",
+      "end": "2026-11-22",
+      "entry_count": 1,
+      "iso_week": "2026-W47",
+      "label": "Coming next week",
+      "start": "2026-11-16",
+      "status": "coming",
+      "week": 47,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-11-15",
-    "start": "2026-11-02",
+    "end": "2026-11-22",
+    "start": "2026-11-09",
     "weeks": 2
   }
 }
