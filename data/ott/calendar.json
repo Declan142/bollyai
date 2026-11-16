@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 0,
+      "at": "2026-11-16T10:44:35Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -58,7 +65,7 @@
         ],
         "value": "2026-11-20"
       },
-      "section": "coming",
+      "section": "this_week",
       "slug": null,
       "source_type": "press",
       "source_url": "https://www.wikidata.org/wiki/Q140324214",
@@ -93,7 +100,7 @@
       "week": "2026-W47"
     }
   ],
-  "generated_at": "2026-11-15T12:08:04Z",
+  "generated_at": "2026-11-16T10:44:35Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -119,32 +126,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-46/",
-      "end": "2026-11-15",
-      "entry_count": 0,
-      "iso_week": "2026-W46",
-      "label": "This week",
-      "start": "2026-11-09",
-      "status": "current",
-      "week": 46,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-47/",
       "end": "2026-11-22",
       "entry_count": 1,
       "iso_week": "2026-W47",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-11-16",
-      "status": "coming",
+      "status": "current",
       "week": 47,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-48/",
+      "end": "2026-11-29",
+      "entry_count": 0,
+      "iso_week": "2026-W48",
+      "label": "Coming next week",
+      "start": "2026-11-23",
+      "status": "coming",
+      "week": 48,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-11-22",
-    "start": "2026-11-09",
+    "end": "2026-11-29",
+    "start": "2026-11-16",
     "weeks": 2
   }
 }
