@@ -1,19 +1,26 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 1,
+      "at": "2026-11-23T11:56:38Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
   "entries": [],
-  "generated_at": "2026-11-22T12:47:17Z",
+  "generated_at": "2026-11-23T11:56:38Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-48/",
     "end": "2026-11-29",
     "entry_count": 0,
     "iso_week": "2026-W48",
-    "label": "Coming next week",
+    "label": "This week",
     "start": "2026-11-23",
-    "status": "coming",
+    "status": "current",
     "week": 48,
     "year": 2026
   }

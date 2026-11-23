@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 1,
+      "at": "2026-11-23T11:56:38Z",
+      "fetched": 1,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -7,93 +14,93 @@
     {
       "_status": "verified",
       "confidence": "verified",
-      "fetched_at": "2026-11-17T20:51:52Z",
-      "id": "film-steps",
+      "fetched_at": "2026-11-23T11:56:38Z",
+      "id": "film-in-a-holidaze",
       "industry": {
         "confidence": "verified",
-        "fetched_at": "2026-11-17T20:51:52Z",
+        "fetched_at": "2026-11-23T11:56:38Z",
         "sources": [
           {
-            "name": "Netflix",
+            "name": "Wikidata",
             "type": "press",
-            "url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond"
+            "url": "https://www.wikidata.org/wiki/Q141967110"
           }
         ],
         "value": "streaming"
       },
       "language": {
         "confidence": "verified",
-        "fetched_at": "2026-11-17T20:51:52Z",
+        "fetched_at": "2026-11-23T11:56:38Z",
         "sources": [
           {
-            "name": "Netflix",
+            "name": "Wikidata",
             "type": "press",
-            "url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond"
+            "url": "https://www.wikidata.org/wiki/Q141967110"
           }
         ],
         "value": "en"
       },
       "platform": {
         "confidence": "verified",
-        "fetched_at": "2026-11-17T20:51:52Z",
+        "fetched_at": "2026-11-23T11:56:38Z",
         "sources": [
           {
-            "name": "Netflix",
+            "name": "Wikidata",
             "type": "press",
-            "url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond"
+            "url": "https://www.wikidata.org/wiki/Q141967110"
           }
         ],
         "value": "Netflix"
       },
-      "qid": "Q140324214",
+      "qid": "Q141967110",
       "release_date": {
         "confidence": "verified",
-        "fetched_at": "2026-11-17T20:51:52Z",
+        "fetched_at": "2026-11-23T11:56:38Z",
         "sources": [
           {
-            "name": "Netflix",
+            "name": "Wikidata",
             "type": "press",
-            "url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond"
+            "url": "https://www.wikidata.org/wiki/Q141967110"
           }
         ],
-        "value": "2026-11-20"
+        "value": "2026-12-02"
       },
-      "section": "this_week",
+      "section": "coming",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond",
+      "source_url": "https://www.wikidata.org/wiki/Q141967110",
       "sources": [
         {
-          "name": "Netflix",
+          "name": "Wikidata",
           "type": "press",
-          "url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond"
+          "url": "https://www.wikidata.org/wiki/Q141967110"
         }
       ],
       "title": {
         "confidence": "verified",
-        "fetched_at": "2026-11-17T20:51:52Z",
+        "fetched_at": "2026-11-23T11:56:38Z",
         "sources": [
           {
-            "name": "Netflix",
+            "name": "Wikidata",
             "type": "press",
-            "url": "https://about.netflix.com/en/news/netflix-previews-its-animation-slate-for-2026-and-beyond"
+            "url": "https://www.wikidata.org/wiki/Q141967110"
           }
         ],
-        "value": "Steps"
+        "value": "In a Holidaze"
       },
       "type": "film",
       "url": null,
-      "verdict_line": "English-language film listed for Netflix on 2026-11-20.",
+      "verdict_line": "English-language film listed for Netflix on 2026-12-02.",
       "verdict_line_basis": {
         "kind": "calendar_facts",
         "source_field": "calendar.platform_date_language",
         "source_url": null
       },
       "verification": "official_source",
-      "week": "2026-W47"
+      "week": "2026-W49"
     }
   ],
-  "generated_at": "2026-11-22T12:47:17Z",
+  "generated_at": "2026-11-23T11:56:38Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -119,32 +126,32 @@
   },
   "weeks": [
     {
-      "archive_url": "/ott/calendar/2026/wk-47/",
-      "end": "2026-11-22",
-      "entry_count": 1,
-      "iso_week": "2026-W47",
-      "label": "This week",
-      "start": "2026-11-16",
-      "status": "current",
-      "week": 47,
-      "year": 2026
-    },
-    {
       "archive_url": "/ott/calendar/2026/wk-48/",
       "end": "2026-11-29",
       "entry_count": 0,
       "iso_week": "2026-W48",
-      "label": "Coming next week",
+      "label": "This week",
       "start": "2026-11-23",
-      "status": "coming",
+      "status": "current",
       "week": 48,
+      "year": 2026
+    },
+    {
+      "archive_url": "/ott/calendar/2026/wk-49/",
+      "end": "2026-12-06",
+      "entry_count": 1,
+      "iso_week": "2026-W49",
+      "label": "Coming next week",
+      "start": "2026-11-30",
+      "status": "coming",
+      "week": 49,
       "year": 2026
     }
   ],
   "window": {
     "basis": "official_announcements",
-    "end": "2026-11-29",
-    "start": "2026-11-16",
+    "end": "2026-12-06",
+    "start": "2026-11-23",
     "weeks": 2
   }
 }

@@ -354,5 +354,27 @@
     ],
     "url": null,
     "verdict_line": null
+  },
+  {
+    "id": "film-in-a-holidaze",
+    "qid": "Q141967110",
+    "title": "In a Holidaze",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-12-02",
+    "fetched_at": "2026-11-23T11:56:38Z",
+    "sources": [
+      {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q141967110",
+        "type": "press"
+      }
+    ],
+    "url": null,
+    "verdict_line": null,
+    "origin": "fetched"
   }
 ]
