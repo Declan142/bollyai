@@ -375,5 +375,51 @@
     ],
     "url": null,
     "verdict_line": null
+  },
+  {
+    "id": "film-fraggle-rock-a-holiday-gift",
+    "title": "Fraggle Rock: A Holiday Gift",
+    "platform": "Apple TV+",
+    "date": "2026-12-04",
+    "language": "en",
+    "type": "film",
+    "industry": "streaming",
+    "origin": "apple-tv-press",
+    "sources": [
+      {
+        "name": "Apple TV India",
+        "url": "https://tv.apple.com/in/movie/fraggle-rock-a-holiday-gift/umc.cmc.1w4haw75eryfelk71js2doeog",
+        "type": "press"
+      },
+      {
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/originals/fraggle-rock-a-holiday-gift/",
+        "type": "press"
+      }
+    ],
+    "fetched_at": "2026-11-23T21:04:19Z"
+  },
+  {
+    "id": "film-way-of-the-warrior-kid",
+    "title": "Way of the Warrior Kid",
+    "platform": "Apple TV+",
+    "date": "2026-11-25",
+    "language": "en",
+    "type": "film",
+    "industry": "streaming",
+    "origin": "apple-tv-press",
+    "sources": [
+      {
+        "name": "Apple TV India",
+        "url": "https://tv.apple.com/in/movie/way-of-the-warrior-kid/umc.cmc.21vzhs44oeejdkoxenkcdmre0",
+        "type": "press"
+      },
+      {
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/originals/way-of-the-warrior-kid/",
+        "type": "press"
+      }
+    ],
+    "fetched_at": "2026-11-23T21:04:19Z"
   }
 ]
