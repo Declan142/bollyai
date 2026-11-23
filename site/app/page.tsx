@@ -57,11 +57,21 @@ function titleInitials(title: string): string {
     .toUpperCase();
 }
 
+// Format an ISO yyyy-mm-dd date as an India calendar date. The timeZone is pinned so a build
+// in UTC or Los Angeles cannot shift India midnight to the previous day.
+function indiaDateParts(iso: string): { day: string; month: string; year: string } {
+  const date = new Date(`${iso}T00:00:00+05:30`);
+  const part = (options: Intl.DateTimeFormatOptions) =>
+    new Intl.DateTimeFormat("en-IN", { timeZone: "Asia/Kolkata", ...options }).format(date);
+  return {
+    day: part({ day: "2-digit" }),
+    month: part({ month: "short" }),
+    year: part({ year: "numeric" })
+  };
+}
+
 function LatestSeriesCard({ item, lead = false }: { item: MediaItem; lead?: boolean }) {
-  const releaseDate = new Date(`${item.recency}T00:00:00+05:30`);
-  const month = new Intl.DateTimeFormat("en-IN", { month: "short" }).format(releaseDate);
-  const day = new Intl.DateTimeFormat("en-IN", { day: "2-digit" }).format(releaseDate);
-  const year = new Intl.DateTimeFormat("en-IN", { year: "numeric" }).format(releaseDate);
+  const { day, month, year } = indiaDateParts(item.recency);
 
   return (
     <a
@@ -98,15 +108,14 @@ function LatestSeriesCard({ item, lead = false }: { item: MediaItem; lead?: bool
 }
 
 function ReleaseCard({ item }: { item: OttCalItem }) {
-  const label = "Verified upcoming";
+  // The page is static, so the label must stay true whenever it is read, even if a deploy is missed
+  // and the date has passed. It states the announced date and never claims the title is still upcoming.
   const href = item.href ?? "/ott/calendar/";
-  const releaseDate = new Date(`${item.date}T00:00:00+05:30`);
-  const day = new Intl.DateTimeFormat("en-IN", { day: "2-digit" }).format(releaseDate);
-  const month = new Intl.DateTimeFormat("en-IN", { month: "short" }).format(releaseDate);
-  const year = new Intl.DateTimeFormat("en-IN", { year: "numeric" }).format(releaseDate);
+  const { day, month, year } = indiaDateParts(item.date);
+  const label = `${day} ${month} ${year}`;
 
   return (
-    <a className={styles.releaseCard} href={href} aria-label={`${item.title}, ${label}`}>
+    <a className={styles.releaseCard} href={href} aria-label={`${item.title}, ${item.platform}, release date announced for ${label}`}>
       <span className={styles.releaseVisual}>
         {item.poster ? (
           <PosterImage
@@ -131,7 +140,6 @@ function ReleaseCard({ item }: { item: OttCalItem }) {
         <span className={styles.releaseMeta}>{label} · {item.kind}</span>
         <strong>{item.title}</strong>
         <span className={styles.releasePlatform}>{item.platform}</span>
-        <span className={styles.releaseSignal}>Published calendar receipt</span>
       </span>
       <span className={styles.releaseArrow} aria-hidden="true">→</span>
     </a>
@@ -270,12 +278,11 @@ export default function HomePage() {
       <section className={styles.section} aria-labelledby="new-and-next">
         <header className={styles.sectionHead}>
           <div>
-            <p className={styles.eyebrow}>Official and trade announcements only</p>
-            <h2 id="new-and-next">Verified upcoming</h2>
+            <p className={styles.eyebrow}>Streaming calendar</p>
+            <h2 id="new-and-next">Announced release dates</h2>
           </div>
           <p>
-            Premiere dates appear here only when they exist in the sourced OTT calendar. A catalogue date is never
-            relabelled as current India availability.
+            Dates come from an official source or two independent trade sources. Availability in India can differ.
             <a className={styles.inlineLink} href="/ott/calendar/"> Open the calendar →</a>
           </p>
         </header>
@@ -289,10 +296,10 @@ export default function HomePage() {
           <div className={styles.releaseEmpty}>
             <span className={styles.releaseEmptyMark} aria-hidden="true">00</span>
             <div>
-              <strong>No upcoming date is verified in the published window.</strong>
-              <p>The desk stays blank until an official source or two independent trade sources clear the date.</p>
+              <strong>No release dates in this edition.</strong>
+              <p>Check the calendar for the latest published dates.</p>
             </div>
-            <a href="/ott/calendar/">Inspect the source desk <span aria-hidden="true">→</span></a>
+            <a href="/ott/calendar/">Open the calendar <span aria-hidden="true">→</span></a>
           </div>
         )}
       </section>

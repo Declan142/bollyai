@@ -11,11 +11,12 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 try:
@@ -36,7 +37,8 @@ from common import (
 )
 
 
-SOURCE_TYPES = {"press", "official_social", "trade"}
+PUBLISHERS = json.loads((DATA_DIR / "ott" / "publishers.json").read_text(encoding="utf8"))
+SOURCE_TYPES = {"press", "official_social", "trade", "catalogue"}
 OFFICIAL_SOURCE_TYPES = {"press", "official_social"}
 DEFAULT_REGISTRY = DATA_DIR / "ott" / "announcements.json"
 ARCHIVE_DIRNAME = "calendar"
@@ -325,9 +327,11 @@ def build_calendar(
         release_date = parse_date(announcement.date)
         if not (start <= release_date < end):
             continue
-        if not is_verified_announcement(announcement):
+        receipts = verified_receipts(announcement)
+        if not receipts:
             omitted_unverified.append({"id": announcement.item_id, "title": announcement.title})
             continue
+        announcement = replace(announcement, sources=receipts)
         key = (announcement.item_id, normalized_platform(announcement.platform))
         if key in seen:
             continue
@@ -453,11 +457,39 @@ def write_week_archives(data_dir: Path, calendar: dict[str, Any]) -> list[Path]:
     return written
 
 
+def verified_receipts(announcement: Announcement) -> tuple[SourceRef, ...]:
+    """Only the named platform or two separate trade outlets can substantiate a date."""
+    platform = PUBLISHERS["aliases"].get(announcement.platform, announcement.platform)
+    publisher = PUBLISHERS["platforms"].get(platform, {"domains": [], "accounts": []})
+    official: list[SourceRef] = []
+    trades: dict[str, SourceRef] = {}
+    for source in announcement.sources:
+        try:
+            url = urlsplit(source.url)
+            if url.scheme != "https" or not url.hostname or url.username or url.password or url.port not in (None, 443):
+                continue
+        except ValueError:
+            continue
+        host = url.hostname.lower()
+        if url.path in ("", "/"):
+            continue
+        if source.source_type == "press" and any(host == d or host.endswith("." + d) for d in publisher["domains"]):
+            official.append(source)
+        elif source.source_type == "official_social" and host in {"x.com", "twitter.com", "www.x.com", "www.twitter.com"}:
+            post = re.fullmatch(r"/([a-z0-9_]+)/status/[0-9]+/?", url.path.lower())
+            if post and post[1] in publisher["accounts"]:
+                official.append(source)
+        elif source.source_type == "trade":
+            domain = next((d for d in PUBLISHERS["trades"] if host == d or host.endswith("." + d)), None)
+            if domain:
+                trades.setdefault(domain, source)
+    if official:
+        return tuple(official) + tuple(trades.values())
+    return tuple(trades.values()) if len(trades) >= 2 else ()
+
+
 def is_verified_announcement(announcement: Announcement) -> bool:
-    if any(source.source_type in OFFICIAL_SOURCE_TYPES for source in announcement.sources):
-        return True
-    trade_urls = {source.url for source in announcement.sources if source.source_type == "trade"}
-    return len(trade_urls) >= 2
+    return bool(verified_receipts(announcement))
 
 
 def verification_basis(announcement: Announcement) -> str:

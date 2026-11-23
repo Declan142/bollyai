@@ -1,7 +1,8 @@
 import { getDesk, type DeskSlug } from "./desks";
-import { formatCrore, getAllFilms, getOttCalendar, type Film, type VerdictRung } from "./data";
+import { formatCrore, getAllFilms, getFilm, getOttCalendar, type Film, type VerdictRung } from "./data";
 import {
   getAllSeries,
+  getSeries,
   isFreshSeries,
   latestSeason,
   latestSeasonReleaseDate,
@@ -297,9 +298,12 @@ export function verifiedOttCalendar(count = 12, now: number = Date.now()): OttCa
   // instead of relabelling recently graded catalogue titles as verified streaming availability.
   for (const e of getOttCalendar().entries) {
     if (e.release_date < todayIso) continue;
-    const matchedSeries = e.type === "series" ? seriesByTitle.get(seriesLookupKey(e.title)) : undefined;
-    const slug = e.slug ?? matchedSeries?.slug ?? null;
-    const key = slug ? `series:${slug}` : `ann:${e.title}-${e.release_date}`;
+    const series = e.type === "series"
+      ? (e.slug ? getSeries(e.slug) : undefined) ?? seriesByTitle.get(seriesLookupKey(e.title))
+      : undefined;
+    const film = e.type === "film" && e.slug ? getFilm(e.industry, e.slug) : undefined;
+    const href = series ? `/series/${series.slug}/` : film ? filmHref(film) : null;
+    const key = `${href ?? e.title}:${e.platform}:${e.release_date}`;
     if (seen.has(key)) continue;
     seen.add(key);
     coming.push({
@@ -307,8 +311,8 @@ export function verifiedOttCalendar(count = 12, now: number = Date.now()): OttCa
       title: e.title,
       platform: e.platform,
       kind: e.type,
-      href: slug ? `/series/${slug}/` : null,
-      poster: slug ? seriesPosterBySlug(slug) : null,
+      href,
+      poster: series ? seriesPosterBySlug(series.slug) : film && hasRealArt(film.poster) ? film.poster : null,
       score: null
     });
   }

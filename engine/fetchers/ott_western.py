@@ -102,7 +102,7 @@ def fetch_wikidata_ott(*, window_start, window_end):
         seen.add(key)
         entries.append({"id": f"{ct}-{_slugify(title)}", "qid": qid, "title": title, "slug": None,
             "industry": "streaming", "language": lc, "type": ct, "platform": platform, "date": release_date,
-            "fetched_at": utc_now(), "sources": [{"name": "Wikidata", "url": f"https://www.wikidata.org/wiki/{qid}", "type": "press"}],
+            "fetched_at": utc_now(), "sources": [{"name": "Wikidata", "url": f"https://www.wikidata.org/wiki/{qid}", "type": "catalogue"}],
             "url": None, "verdict_line": None})
     _log(f"wikidata: {len(entries)} entries for {window_start}..{window_end}")
     return entries
@@ -147,7 +147,7 @@ def fetch_tmdb_ott(*, window_start, window_end, api_key):
             entries.append({"id": f"{ct}-{_slugify(title)}", "qid": None, "title": title, "slug": None,
                 "industry": "streaming", "language": item.get("original_language", "en"), "type": ct,
                 "platform": platform, "date": rd, "fetched_at": fetched_at,
-                "sources": [{"name": "TMDB", "url": src, "type": "press"}], "url": None, "verdict_line": None})
+                "sources": [{"name": "TMDB", "url": src, "type": "catalogue"}], "url": None, "verdict_line": None})
     _log(f"tmdb: {len(entries)} entries, {skipped} skipped (unresolvable platform) for {window_start}..{window_end}")
     return entries
 

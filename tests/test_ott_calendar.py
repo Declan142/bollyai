@@ -42,7 +42,7 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
             "industry": "streaming",
             "language": "en",
             "type": "film",
-            "sources": [{"name": "Prime Video", "url": "https://example.com/prime", "type": "press"}],
+            "sources": [{"name": "Prime Video", "url": "https://www.primevideo.com/detail/official", "type": "press"}],
         },
         {
             "id": "two-trade",
@@ -53,8 +53,8 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
             "language": "hi",
             "type": "series",
             "sources": [
-                {"name": "Outlet A", "url": "https://example.com/a", "type": "trade"},
-                {"name": "Outlet B", "url": "https://example.com/b", "type": "trade"},
+                {"name": "Outlet A", "url": "https://variety.com/a", "type": "trade"},
+                {"name": "Outlet B", "url": "https://deadline.com/b", "type": "trade"},
             ],
         },
     ]
@@ -63,12 +63,36 @@ def test_weekly_calendar_requires_official_or_two_trade_sources():
 
     titles = [entry["title"]["value"] for entry in calendar["entries"]]
     assert titles == ["Official Claim", "Two Trade Claim"]
+    assert calendar["entries"][1]["verification"] == "two_trade_sources"
     assert calendar["tracking"]["omitted_unverified"] == [{"id": "single-trade", "title": "Single Trade Claim"}]
     assert calendar["weeks"][0]["iso_week"] == "2026-W24"
     assert calendar["weeks"][1]["iso_week"] == "2026-W25"
-    assert calendar["entries"][0]["release_date"]["sources"][0]["url"] == "https://example.com/prime"
+    assert calendar["entries"][0]["release_date"]["sources"][0]["url"] == "https://www.primevideo.com/detail/official"
     assert calendar["entries"][0]["verdict_line"] == "English-language film listed for Prime Video on 2026-06-12."
     assert calendar["entries"][0]["verdict_line_basis"]["kind"] == "calendar_facts"
+
+
+def test_discovery_listings_and_same_outlet_do_not_verify_dates():
+    base = {"id": "candidate", "title": "Candidate", "platform": "Netflix", "date": "2026-06-10"}
+    for sources in [
+        [{"name": "Wikidata", "type": "press", "url": "https://www.wikidata.org/wiki/Q1"}],
+        [{"name": "Netflix", "type": "press", "url": "https://netflix.com.example.org/date"}],
+        [{"name": "Variety", "type": "trade", "url": "https://variety.com/story-a"},
+         {"name": "Variety", "type": "trade", "url": "https://variety.com/story-b"}],
+    ]:
+        result = build_calendar([{**base, "sources": sources}], start=date(2026, 6, 8))
+        assert result["entries"] == []
+        assert result["tracking"]["omitted_unverified"][0]["id"] == "candidate"
+
+
+def test_holidaze_date_comes_from_the_curated_netflix_announcement():
+    registry = json.loads((REPO_ROOT / "data/ott/announcements.json").read_text())
+    row = next(entry for entry in registry if entry["id"] == "film-in-a-holidaze")
+    assert row.get("origin") != "fetched"
+    calendar = build_calendar([row], start=date(2026, 11, 23))
+    release = calendar["entries"][0]["release_date"]
+    assert release["value"] == "2026-12-02"
+    assert release["sources"][0]["url"] == "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
 
 
 def test_calendar_verdict_line_uses_catalogue_season_basis():
@@ -77,12 +101,12 @@ def test_calendar_verdict_line_uses_catalogue_season_basis():
             "id": "catalogue-season",
             "title": "Example Show Season 2",
             "slug": "example-show",
-            "platform": "JioHotstar",
+            "platform": "Netflix",
             "date": "2026-06-19",
             "industry": "streaming",
             "language": "hi",
             "type": "series",
-            "sources": [{"name": "Platform", "url": "https://example.com/platform", "type": "press"}],
+            "sources": [{"name": "Platform", "url": "https://www.netflix.com/tudum/example-show", "type": "press"}],
         }
     ]
     series = [
@@ -125,10 +149,7 @@ def test_generated_calendar_has_source_envelopes():
         entry["title"]
         for entry in announcements
         if win_start <= date.fromisoformat(entry["date"]) <= win_end
-        and (
-            any(source["type"] in {"press", "official_social"} for source in entry["sources"])
-            or len({source["url"] for source in entry["sources"] if source["type"] == "trade"}) >= 2
-        )
+        and ott_announcements.is_verified_announcement(ott_announcements.announcement_from_dict(entry))
     }
     assert verified_in_window <= rendered_titles, "active calendar dropped a verified announcement in its own window"
     if not calendar["entries"]:

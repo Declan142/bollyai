@@ -40,8 +40,7 @@
   border-radius: 6px;
   transition: background var(--dur-hover) var(--ease-out);
 }
-.row:hover { background: oklch(100% 0 0 / .03); }
-.rowStatic { cursor: default; }
+
 
 .date {
   display: grid;
@@ -57,15 +56,19 @@
 
 .main { display: grid; gap: 6px; min-width: 0; }
 .title {
+  margin: 0;
+  font-weight: 500;
+  overflow-wrap: anywhere;
   font-family: var(--font-display);
   font-size: 1.18rem;
   line-height: 1.12;
   color: var(--text);
 }
-.row:hover .title { color: var(--accent); }
+.title a { color: inherit; }
+.title a:hover { color: var(--accent); }
 .verdict { margin: 0; color: var(--text-dim); font-size: .92rem; line-height: 1.5; }
-.source { font-family: var(--font-number); font-size: .68rem; color: var(--text-faint); }
-.source a { color: var(--text-faint); text-decoration: underline; text-underline-offset: 2px; }
+.source { font-family: var(--font-number); font-size: .78rem; color: var(--text-dim); overflow-wrap: anywhere; }
+.source a { color: var(--accent-2); text-decoration: underline; text-underline-offset: 2px; }
 .source a:hover { color: var(--text-dim); }
 
 .tags { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }

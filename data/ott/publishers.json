@@ -1,0 +1,14 @@
+{
+  "platforms": {
+    "Netflix": { "domains": ["netflix.com"], "accounts": ["netflix"] },
+    "Prime Video": { "domains": ["primevideo.com", "press.amazonmgmstudios.com", "aboutamazon.com"], "accounts": ["primevideo"] },
+    "Disney+": { "domains": ["disneyplus.com", "thewaltdisneycompany.com", "press.disney.co.uk"], "accounts": ["disneyplus"] },
+    "Max": { "domains": ["wbd.com", "hbomax.com", "max.com"], "accounts": ["hbomax", "streamonmax"] },
+    "Apple TV+": { "domains": ["apple.com"], "accounts": ["appletv"] },
+    "Hulu": { "domains": ["hulu.com", "press.hulu.com", "thewaltdisneycompany.com"], "accounts": ["hulu"] },
+    "Paramount+": { "domains": ["paramountplus.com", "paramountpressexpress.com", "paramount.com"], "accounts": ["paramountplus"] },
+    "Peacock": { "domains": ["peacocktv.com", "nbcuniversal.com", "nbcuni.com"], "accounts": ["peacock"] }
+  },
+  "aliases": { "HBO Max": "Max", "Apple TV": "Apple TV+" },
+  "trades": ["deadline.com", "variety.com", "hollywoodreporter.com", "screendaily.com", "thewrap.com", "indiewire.com"]
+}

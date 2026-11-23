@@ -365,16 +365,15 @@
     "type": "film",
     "platform": "Netflix",
     "date": "2026-12-02",
-    "fetched_at": "2026-11-23T11:56:38Z",
+    "fetched_at": "2026-11-23T19:19:27Z",
     "sources": [
       {
-        "name": "Wikidata",
-        "url": "https://www.wikidata.org/wiki/Q141967110",
+        "name": "Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix",
         "type": "press"
       }
     ],
     "url": null,
-    "verdict_line": null,
-    "origin": "fetched"
+    "verdict_line": null
   }
 ]

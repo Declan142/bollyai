@@ -7,40 +7,40 @@
     {
       "_status": "verified",
       "confidence": "verified",
-      "fetched_at": "2026-11-23T11:56:38Z",
+      "fetched_at": "2026-11-23T19:19:27Z",
       "id": "film-in-a-holidaze",
       "industry": {
         "confidence": "verified",
-        "fetched_at": "2026-11-23T11:56:38Z",
+        "fetched_at": "2026-11-23T19:19:27Z",
         "sources": [
           {
-            "name": "Wikidata",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q141967110"
+            "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
           }
         ],
         "value": "streaming"
       },
       "language": {
         "confidence": "verified",
-        "fetched_at": "2026-11-23T11:56:38Z",
+        "fetched_at": "2026-11-23T19:19:27Z",
         "sources": [
           {
-            "name": "Wikidata",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q141967110"
+            "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
           }
         ],
         "value": "en"
       },
       "platform": {
         "confidence": "verified",
-        "fetched_at": "2026-11-23T11:56:38Z",
+        "fetched_at": "2026-11-23T19:19:27Z",
         "sources": [
           {
-            "name": "Wikidata",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q141967110"
+            "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
           }
         ],
         "value": "Netflix"
@@ -48,12 +48,12 @@
       "qid": "Q141967110",
       "release_date": {
         "confidence": "verified",
-        "fetched_at": "2026-11-23T11:56:38Z",
+        "fetched_at": "2026-11-23T19:19:27Z",
         "sources": [
           {
-            "name": "Wikidata",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q141967110"
+            "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
           }
         ],
         "value": "2026-12-02"
@@ -61,22 +61,22 @@
       "section": "coming",
       "slug": null,
       "source_type": "press",
-      "source_url": "https://www.wikidata.org/wiki/Q141967110",
+      "source_url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix",
       "sources": [
         {
-          "name": "Wikidata",
+          "name": "Netflix Tudum",
           "type": "press",
-          "url": "https://www.wikidata.org/wiki/Q141967110"
+          "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
         }
       ],
       "title": {
         "confidence": "verified",
-        "fetched_at": "2026-11-23T11:56:38Z",
+        "fetched_at": "2026-11-23T19:19:27Z",
         "sources": [
           {
-            "name": "Wikidata",
+            "name": "Netflix Tudum",
             "type": "press",
-            "url": "https://www.wikidata.org/wiki/Q141967110"
+            "url": "https://www.netflix.com/tudum/articles/new-fall-movies-on-netflix"
           }
         ],
         "value": "In a Holidaze"
@@ -93,7 +93,7 @@
       "week": "2026-W49"
     }
   ],
-  "generated_at": "2026-11-23T15:08:03Z",
+  "generated_at": "2026-11-23T19:19:48Z",
   "schema": "ott-calendar-week/v1",
   "week": {
     "archive_url": "/ott/calendar/2026/wk-49/",
