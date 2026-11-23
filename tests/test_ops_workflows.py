@@ -33,7 +33,7 @@ def on_block(payload: dict) -> dict:
 def test_workflow_set_is_explicit_and_split():
     names = {path.name for path in WORKFLOW_DIR.glob("*.yml")}
 
-    assert names == set(EXPECTED_WORKFLOWS)
+    assert names == set(EXPECTED_WORKFLOWS) | {"ott-calendar-daily.yml"}
 
 
 def test_workflows_safe_load_and_have_dispatch_concurrency_and_healthchecks():
@@ -59,6 +59,26 @@ def test_writer_workflows_share_single_writer_group():
         else:
             assert group == "bollyai-writer"
             assert payload["permissions"]["contents"] == "write"
+
+
+def test_daily_calendar_writer_contract():
+    path = WORKFLOW_DIR / "ott-calendar-daily.yml"
+    payload = load_workflow(path)
+    events = on_block(payload)
+    assert "workflow_dispatch" in events and events["schedule"] == [{"cron": "43 21 * * *"}]
+    assert payload["concurrency"] == {"group": "bollyai-writer", "cancel-in-progress": False}
+    assert payload["permissions"] == {"contents": "write"}
+    steps = steps_of(payload)
+    assert payload["jobs"]["refresh"]["runs-on"] == "ubuntu-latest"
+    assert "GITHUB_REF" in steps[0]["run"] and "refs/heads/main" in steps[0]["run"]
+    assert steps[1]["with"]["ref"] == "main"
+    assert all("continue-on-error" not in step for step in steps)
+    body = path.read_text()
+    for dependency in ("secrets.", "wrangler", "indexnow", "tg_alert", "--force", "--rebase"):
+        assert dependency not in body.lower()
+    assert body.index("pytest -q") < body.index("python3 engine/refresh_ott_daily.py")
+    assert body.index("node --test") < body.index("git add -- data/ott/announcements.json data/ott/calendar.json")
+    assert body.index("git diff --cached --quiet") < body.index("git push origin HEAD:refs/heads/main")
 
 
 def deploying_workflows() -> list[Path]:

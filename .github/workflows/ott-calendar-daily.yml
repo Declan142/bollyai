@@ -1,0 +1,77 @@
+name: ott-calendar-daily
+
+on:
+  schedule:
+    - cron: "43 21 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: bollyai-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PYTEST_ADDOPTS: "-p no:cacheprovider"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Require default branch
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: test "$GITHUB_REF" = "refs/heads/main" && test "$DEFAULT_BRANCH" = "main"
+
+      - name: Checkout main after acquiring the writer lock
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install parser and test dependencies
+        run: python -m pip install --disable-pip-version-check pytest requests beautifulsoup4
+
+      - name: Test calendar and source
+        run: python -m pytest -q tests/test_apple_ott_press.py tests/test_ott_daily.py tests/test_ott_calendar.py tests/test_ott_western.py
+
+      - name: Refresh OTT calendar
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 engine/refresh_ott_daily.py | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate the public reader against the generated data
+        run: node --test site/lib/ott-feed.test.mjs
+
+      - name: Publish changed calendar data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- data/ott/announcements.json data/ott/calendar.json
+          if ! git diff --quiet || ! git diff --cached --quiet -- . ':(exclude)data/ott/announcements.json' ':(exclude)data/ott/calendar.json' || [ -n "$(git ls-files --others --exclude-standard)" ]; then
+            echo '::error::The writer changed files outside the two public calendar files.'
+            exit 1
+          fi
+          if git diff --cached --quiet; then
+            echo 'No material change to publish.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          test -s data/ott/announcements.json
+          test -s data/ott/calendar.json
+          git config user.name 'bollyai-bot'
+          git config user.email 'bot@bollyai.in'
+          git commit -m 'data: refresh verified streaming premieres'
+          git push origin HEAD:refs/heads/main
+          echo "Published $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"

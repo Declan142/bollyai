@@ -1,3 +1,7 @@
+## 2026-11-24 · Daily streaming calendar
+
+The `ott-calendar-daily` GitHub Actions writer runs at 21:43 UTC (03:13 IST) and accepts manual runs on `main`. It discovers titles through Apple TV Press, checks the Indian streaming listing, and commits material changes to the public calendar and announcement registry together. The current calendar page reads this feed between site builds. A source failure leaves the prior edition in place.
+
 # BollyAI - source clearance hardening (2026-07-26, data pending)
 
 - Added a checked-in, machine-readable source candidate registry plus an
