@@ -421,5 +421,28 @@
       }
     ],
     "fetched_at": "2026-11-23T21:04:19Z"
+  },
+  {
+    "id": "series-timberlake",
+    "title": "TIMBERLAKE",
+    "platform": "Apple TV+",
+    "date": "2026-12-11",
+    "language": "en",
+    "type": "series",
+    "industry": "streaming",
+    "origin": "apple-tv-press",
+    "sources": [
+      {
+        "name": "Apple TV India",
+        "url": "https://tv.apple.com/in/show/timberlake/umc.cmc.4v3f5oodan8l5jvjcj6lo8j34",
+        "type": "press"
+      },
+      {
+        "name": "Apple TV Press",
+        "url": "https://www.apple.com/tv-pr/originals/timberlake/",
+        "type": "press"
+      }
+    ],
+    "fetched_at": "2026-11-26T03:46:12Z"
   }
 ]
