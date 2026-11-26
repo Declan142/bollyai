@@ -444,5 +444,27 @@
       }
     ],
     "fetched_at": "2026-11-26T03:46:12Z"
+  },
+  {
+    "id": "film-the-further-mis-adventures-of-cliff-booth",
+    "qid": "Q134236545",
+    "title": "The Further Mis-Adventures of Cliff Booth",
+    "slug": null,
+    "industry": "streaming",
+    "language": "en",
+    "type": "film",
+    "platform": "Netflix",
+    "date": "2026-11-25",
+    "fetched_at": "2026-11-26T11:58:47Z",
+    "sources": [
+      {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q134236545",
+        "type": "catalogue"
+      }
+    ],
+    "url": null,
+    "verdict_line": null,
+    "origin": "fetched"
   }
 ]

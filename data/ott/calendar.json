@@ -1,5 +1,12 @@
 {
   "_provenance": {
+    "refresh": {
+      "added": 1,
+      "at": "2026-11-26T11:58:47Z",
+      "fetched": 2,
+      "mode": "fetched",
+      "updated": 0
+    },
     "source": "official_announcements",
     "verification_rule": "official source or two distinct trade sources"
   },
@@ -329,7 +336,7 @@
       "week": "2026-W49"
     }
   ],
-  "generated_at": "2026-11-25T14:46:28Z",
+  "generated_at": "2026-11-26T11:58:47Z",
   "schema": "ott-calendar/v1",
   "tracking": {
     "missing_platforms": [
@@ -340,7 +347,12 @@
       "Paramount+",
       "Peacock"
     ],
-    "omitted_unverified": [],
+    "omitted_unverified": [
+      {
+        "id": "film-the-further-mis-adventures-of-cliff-booth",
+        "title": "The Further Mis-Adventures of Cliff Booth"
+      }
+    ],
     "platforms": [
       "Netflix",
       "Prime Video",
